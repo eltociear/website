@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "title": "Hearthstone-protokollet - Ramverk för allmänningar och förvaltarskap",
+    "description": "Ett omfattande ramverk för övergången från extraktivt ägande till regenerativt förvaltarskap, som etablerar juridiska vägar för allmänningsbaserad tillgångsstyrning och gemenskapskontroll"
+  },
+  "guideCard": {
+    "title": "Ny till Hearthstone-protokollet?",
+    "description": "Börja med vår sammanfattning för skeptiker – den tar upp praktiska frågor om egendomstransformation, juridiska ramverk och övergångar till gemenskapsförvaltarskap.",
+    "buttonText": "Läs sammanfattningen för skeptiker"
+  },
+  "categories": {
+    "overview": "Ramverksöversikt",
+    "foundation": "Grund och snabbguide",
+    "vision": "Vision och principer",
+    "mechanics": "Kärnmekanik",
+    "ecosystem": "Ekosystem och risker",
+    "resources": "Resurser och referens"
+  },
+  "sections": {
+    "index": "Introduktion och översikt",
+    "at-a-glance": "Ramverket i korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning för skeptiker",
+    "introduction": "Introduktion: Från utvinning till förvaltarskap",
+    "theory-of-change": "Förändringsteori",
+    "core-principles": "Kärnprinciper",
+    "commons-architecture": "Allmänningens arkitektur",
+    "asset-transition-pathways": "Vägar för tillgångsövergång",
+    "legal-cultural-framework": "Juridiskt och kulturellt ramverk",
+    "economic-integration": "Ekonomisk integration",
+    "implementation-strategy": "Implementeringsstrategi",
+    "framework-integration": "Integration med andra ramverk",
+    "risk-mitigation": "Riskhantering",
+    "advocacy-action": "Påverkan och handling",
+    "glossary": "Ordlista",
+    "appendices": "Bilagor"
+  },
+  "sectionsShort": {
+    "index": "Översikt",
+    "at-a-glance": "I korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning",
+    "introduction": "Introduktion",
+    "theory-of-change": "Förändringsteori",
+    "core-principles": "Principer",
+    "commons-architecture": "Arkitektur",
+    "asset-transition-pathways": "Övergångsvägar",
+    "legal-cultural-framework": "Juridiskt ramverk",
+    "economic-integration": "Ekonomi",
+    "implementation-strategy": "Implementering",
+    "framework-integration": "Integration",
+    "risk-mitigation": "Riskhantering",
+    "advocacy-action": "Påverkan",
+    "glossary": "Ordlista",
+    "appendices": "Bilagor"
+  },
+  "navigation": {
+    "downloadPdf": "Ladda ner PDF-version",
+    "continueToFramework": "Fortsätt till hela ramverket",
+    "previousSection": "Föregående avsnitt",
+    "nextSection": "Nästa avsnitt",
+    "backToTop": "Tillbaka till toppen",
+    "printVersion": "Utskriftsversion"
+  },
+  "progress": {
+    "text": "Avsnitt {current} av {total}",
+    "completing": "Slutför ramverket",
+    "readingTime": "Lästid"
+  },
+  "languageFallback": {
+    "title": "Innehåll på ditt språk kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar. Vi arbetar på att göra allt innehåll tillgängligt på ditt föredragna språk."
+  },
+  "loading": {
+    "text": "Laddar innehåll för ramverket om allmänningsförvaltarskap...",
+    "sections": "Laddar ramverksavsnitt...",
+    "translations": "Laddar översättningar..."
+  },
+  "errors": {
+    "sectionNotFound": "Avsnitt \"{section}\" hittades inte",
+    "contentInDevelopment": "Detta innehåll är under utveckling och kommer att finnas tillgängligt inom kort.",
+    "translationMissing": "Översättning saknas för detta avsnitt",
+    "loadingFailed": "Kunde inte ladda ramverkets innehåll"
+  },
+  "accessibility": {
+    "skipToContent": "Hoppa till huvudinnehåll",
+    "navigationMenu": "Navigeringsmeny för ramverket",
+    "sectionNavigation": "Avsnittsnavigering",
+    "toggleAccordion": "Växla avsnittsdragspel",
+    "currentSection": "Nuvarande avsnitt",
+    "expandedSection": "Expanderat avsnitt"
+  },
+  "features": {
+    "stewardshipTrusts": "Förvaltartruster",
+    "rematriation": "Återmatriering av mark",
+    "commonsArchitecture": "Allmänningens arkitektur",
+    "assetTransition": "Tillgångsövergång",
+    "legalFramework": "Juridisk innovation",
+    "economicIntegration": "Ekonomisk integration",
+    "riskMitigation": "Riskhantering",
+    "implementation": "Implementeringsstrategi"
+  },
+  "benefits": {
+    "communitySovereignty": "Gemenskapssuveränitet",
+    "ecologicalStewardship": "Ekologiskt förvaltarskap",
+    "economicJustice": "Ekonomisk rättvisa",
+    "culturalPreservation": "Kulturarvsbevarande",
+    "legalInnovation": "Juridisk innovation",
+    "systematicChange": "Systematisk förändring"
+  },
+  "keyTerms": {
+    "stewardshipTrust": "Förvaltartrust",
+    "commonsArchitecture": "Allmänningens arkitektur",
+    "rematriationProtocol": "Rematrieringsprotokoll",
+    "sacredTrustDesignation": "Utnämning till helig trust",
+    "bioCulturalStewardship": "Biokulturellt förvaltarskap",
+    "commonsConversionBonds": "Konverteringsobligationer för allmänningar",
+    "stewardshipLinkedValuation": "Förvaltarskaps-kopplad värdering",
+    "internationalCommmonsCourt": "Internationella allmänningsdomstolen"
+  },
+  "callsToAction": {
+    "supportLandBack": "Stöd Land Back-rörelser",
+    "joinCommunityLandTrusts": "Gå med i lokala marktruster",
+    "advocateCooperatives": "Förespråka kooperativa företag",
+    "implementStewardship": "Implementera förvaltarskapspraxis",
+    "participateTransition": "Delta i övergången till allmänningar",
+    "educateAndOrganize": "Utbilda och organisera"
+  },
+  "downloadOptions": {
+    "fullFramework": "Hela ramverket (PDF)",
+    "executiveSummary": "Sammanfattning (PDF)",
+    "implementationGuide": "Implementeringsguide (PDF)",
+    "legalToolkit": "Juridisk verktygslåda (PDF)",
+    "quickReference": "Snabbguide (PDF)"
+  }
+}

@@ -715,6 +715,21 @@
           </div>
         </div>
 
+        <!-- Hearthstone Protocol Framework -->
+        <div class="download-card" style="background-color: #fef3e2; border: 1px solid #fed7aa;">
+          <div class="card-emoji" style="color: #ea580c;">🔥</div>
+          <div class="card-content">
+            <h2 class="card-title" style="color: #ea580c;">{$t('downloads.implementationFrameworks.hearthstoneProtocol.title')}</h2>
+            <p class="card-description">{$t('downloads.implementationFrameworks.hearthstoneProtocol.description')}</p>
+            <a href={getPdfPath('Hearthstone-Protocol-Framework')} download class="download-button" style="background-color: #ea580c;">
+              {$t('downloads.downloadButton')}
+              <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
         <!-- Conduit Protocol Framework -->
         <div class="download-card" style="background-color: #f0f9ff; border: 1px solid #7dd3fc;">
           <div class="card-emoji" style="color: #0369a1;">🔌</div>

@@ -75,6 +75,24 @@ These principles work together as an integrated system, with built-in protocols 
 
 [Learn more about Core Principles](/frameworks/conduit-protocol#core-principles)
 
+## <a id="advocacy-action"></a>Advocacy & Action
+
+**The Stakes**: Infrastructure governance determines whether essential services support human dignity or corporate extraction. Success means communities controlling their energy, water, and connectivity. Failure means permanent infrastructure apartheid and climate vulnerability.
+
+**The Opportunity**: For the first time, we have the technical capability and political momentum to establish infrastructure as a regenerative commons serving planetary healing rather than private accumulation.
+
+**Immediate Actions**:
+- **Individuals**: Support community energy cooperatives, advocate for public infrastructure investment, demand climate-resilient grid design
+- **Organizations**: Implement regenerative infrastructure standards, adopt community ownership models, fund bioregional grid development
+- **Governments**: Join infrastructure commons initiatives, implement universal access standards, support just transition programs
+- **Communities**: Organize for community energy ownership, document infrastructure needs and sovereignty requirements, build local technical capacity
+
+**The Vision Realized**: By year 25, infrastructure serves community resilience and planetary health. Communities control essential services through cooperative governance. Workers transition from extraction to regeneration with dignity and support. Infrastructure systems operate within ecological limits while connecting all communities to essential flows of energy, data, and water.
+
+This transformation begins with pilot program development, accelerates through community organizing and coalition building, and culminates in infrastructure systems that honor the sacred trust between technology and life.
+
+[Learn more about Getting Involved](/frameworks/conduit-protocol#advocacy-action)
+
 ## <a id="infrastructure-commons"></a>The Infrastructure Commons: Structural Components
 
 The **Conduit Protocol**—implemented through coordinated global standards and bioregional governance—establishes the architecture for planetary infrastructure stewardship. Named for the essential channels that carry the flows of modern life, it symbolizes our commitment to infrastructure that serves all beings.
@@ -203,24 +221,6 @@ Sacred infrastructure design guidelines, language justice requirements, and comm
 All technical systems include low-tech alternatives, community-controlled deployment options, and Indigenous sovereignty compliance mechanisms to ensure universal accessibility and cultural respect.
 
 [Learn more about Technical Implementation](/frameworks/conduit-protocol#technical-specifications)
-
-## <a id="advocacy-action"></a>Advocacy & Action
-
-**The Stakes**: Infrastructure governance determines whether essential services support human dignity or corporate extraction. Success means communities controlling their energy, water, and connectivity. Failure means permanent infrastructure apartheid and climate vulnerability.
-
-**The Opportunity**: For the first time, we have the technical capability and political momentum to establish infrastructure as a regenerative commons serving planetary healing rather than private accumulation.
-
-**Immediate Actions**:
-- **Individuals**: Support community energy cooperatives, advocate for public infrastructure investment, demand climate-resilient grid design
-- **Organizations**: Implement regenerative infrastructure standards, adopt community ownership models, fund bioregional grid development
-- **Governments**: Join infrastructure commons initiatives, implement universal access standards, support just transition programs
-- **Communities**: Organize for community energy ownership, document infrastructure needs and sovereignty requirements, build local technical capacity
-
-**The Vision Realized**: By year 25, infrastructure serves community resilience and planetary health. Communities control essential services through cooperative governance. Workers transition from extraction to regeneration with dignity and support. Infrastructure systems operate within ecological limits while connecting all communities to essential flows of energy, data, and water.
-
-This transformation begins with pilot program development, accelerates through community organizing and coalition building, and culminates in infrastructure systems that honor the sacred trust between technology and life.
-
-[Learn more about Getting Involved](/frameworks/conduit-protocol#advocacy-action)
 
 ## <a id="glossary"></a>Glossary
 

@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "title": "The Hearthstone Protocol - Commons & Stewardship Framework",
+    "description": "A comprehensive framework for transitioning from extractive ownership to regenerative stewardship, establishing legal pathways for commons-based asset governance and community control"
+  },
+  "guideCard": {
+    "title": "New to the Hearthstone Protocol?",
+    "description": "Start with our executive summary for skeptics—addressing practical concerns about property transformation, legal frameworks, and community stewardship transitions.",
+    "buttonText": "Read Executive Summary for Skeptics"
+  },
+  "categories": {
+    "overview": "Framework Overview",
+    "foundation": "Foundation & Quick Reference", 
+    "vision": "Vision & Principles",
+    "mechanics": "Core Mechanics",
+    "ecosystem": "Ecosystem & Risks",
+    "resources": "Resources & Reference"
+  },
+  "sections": {
+    "index": "Introduction & Overview",
+    "at-a-glance": "Framework at a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary for Skeptics",
+    "introduction": "Introduction: From Extraction to Stewardship",
+    "theory-of-change": "Theory of Change",
+    "core-principles": "Core Principles",
+    "commons-architecture": "The Commons Architecture",
+    "asset-transition-pathways": "Asset Transition Pathways",
+    "legal-cultural-framework": "Legal & Cultural Framework",
+    "economic-integration": "Economic Integration",
+    "implementation-strategy": "Implementation Strategy",
+    "framework-integration": "Framework Integration",
+    "risk-mitigation": "Risk Mitigation",
+    "advocacy-action": "Advocacy & Action",
+    "glossary": "Glossary",
+    "appendices": "Appendices"
+  },
+  "sectionsShort": {
+    "index": "Overview",
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary",
+    "introduction": "Introduction",
+    "theory-of-change": "Theory of Change",
+    "core-principles": "Core Principles",
+    "commons-architecture": "Commons Architecture",
+    "asset-transition-pathways": "Transition Pathways",
+    "legal-cultural-framework": "Legal Framework",
+    "economic-integration": "Economic Integration",
+    "implementation-strategy": "Implementation",
+    "framework-integration": "Integration",
+    "risk-mitigation": "Risk Mitigation",
+    "advocacy-action": "Advocacy & Action",
+    "glossary": "Glossary",
+    "appendices": "Appendices"
+  },
+  "navigation": {
+    "downloadPdf": "Download PDF Version",
+    "continueToFramework": "Continue to Full Framework",
+    "previousSection": "Previous Section",
+    "nextSection": "Next Section",
+    "backToTop": "Back to Top",
+    "printVersion": "Print Version"
+  },
+  "progress": {
+    "text": "Section {current} of {total}",
+    "completing": "Completing the Framework",
+    "readingTime": "Reading Time"
+  },
+  "languageFallback": {
+    "title": "Content in your language coming soon",
+    "description": "This section is currently displayed in English until translation is complete. We're working to make all content available in your preferred language."
+  },
+  "loading": {
+    "text": "Loading commons stewardship framework content...",
+    "sections": "Loading framework sections...",
+    "translations": "Loading translations..."
+  },
+  "errors": {
+    "sectionNotFound": "Section \"{section}\" not found",
+    "contentInDevelopment": "This content is still being developed and will be available soon.",
+    "translationMissing": "Translation missing for this section",
+    "loadingFailed": "Failed to load framework content"
+  },
+  "accessibility": {
+    "skipToContent": "Skip to main content",
+    "navigationMenu": "Framework navigation menu",
+    "sectionNavigation": "Section navigation",
+    "toggleAccordion": "Toggle section accordion",
+    "currentSection": "Current section",
+    "expandedSection": "Expanded section"
+  },
+  "features": {
+    "stewardshipTrusts": "Stewardship Trusts",
+    "rematriation": "Land Rematriation",
+    "commonsArchitecture": "Commons Architecture",
+    "assetTransition": "Asset Transition",
+    "legalFramework": "Legal Innovation",
+    "economicIntegration": "Economic Integration",
+    "riskMitigation": "Risk Management",
+    "implementation": "Implementation Strategy"
+  },
+  "benefits": {
+    "communitySovereignty": "Community Sovereignty",
+    "ecologicalStewardship": "Ecological Stewardship",
+    "economicJustice": "Economic Justice",
+    "culturalPreservation": "Cultural Preservation",
+    "legalInnovation": "Legal Innovation",
+    "systematicChange": "Systematic Change"
+  },
+  "keyTerms": {
+    "stewardshipTrust": "Stewardship Trust",
+    "commonsArchitecture": "Commons Architecture",
+    "rematriationProtocol": "Rematriation Protocol",
+    "sacredTrustDesignation": "Sacred Trust Designation",
+    "bioCulturalStewardship": "Bio-Cultural Stewardship",
+    "commonsConversionBonds": "Commons Conversion Bonds",
+    "stewardshipLinkedValuation": "Stewardship-Linked Valuation",
+    "internationalCommmonsCourt": "International Commons Court"
+  },
+  "callsToAction": {
+    "supportLandBack": "Support Land Back Movements",
+    "joinCommunityLandTrusts": "Join Community Land Trusts",
+    "advocateCooperatives": "Advocate for Cooperative Enterprise",
+    "implementStewardship": "Implement Stewardship Practices",
+    "participateTransition": "Participate in Commons Transition",
+    "educateAndOrganize": "Educate and Organize"
+  },
+  "downloadOptions": {
+    "fullFramework": "Full Framework PDF",
+    "executiveSummary": "Executive Summary PDF",
+    "implementationGuide": "Implementation Guide PDF",
+    "legalToolkit": "Legal Toolkit PDF",
+    "quickReference": "Quick Reference PDF"
+  }
+}

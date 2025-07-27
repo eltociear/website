@@ -14,7 +14,9 @@
   "categories": {
     "overview": "Översikt",
     "foundation": "Grund",
-    "framework": "Infrastrukturramverk",
+    "vision": "Vision och principer",
+    "architecture": "Kärnarkitektur och mekanik",
+    "implementation": "Implementering och integration",
     "resources": "Resurser"
   },
   "sections": {

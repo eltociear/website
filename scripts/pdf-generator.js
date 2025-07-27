@@ -51,6 +51,7 @@ Available categories:
 - work-in-liberation
 - shield-protocol
 - conduit-protocol
+- hearthstone-protocol
 - technology-governance
 - regenerative-resources
 - great-transition
@@ -96,6 +97,7 @@ const outputDirs = {
   'work-in-liberation': path.join(__dirname, '..', 'static', 'frameworks','tools', 'work-in-liberation'),
   'shield-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'shield-protocol'),
   'conduit-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'conduit-protocol'),
+  'hearthstone-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'hearthstone-protocol'),
   'technology-governance': path.join(__dirname, '..', 'static', 'frameworks','tools', 'technology-governance'),
   'regenerative-resources': path.join(__dirname, '..', 'static', 'frameworks','tools', 'regenerative-resources'),
   'great-transition': path.join(__dirname, '..', 'static', 'frameworks','tools', 'great-transition'),
@@ -284,6 +286,66 @@ const tools = [
       'implementation-strategy',
       'documentation',
       'philosophy'
+    ]
+  },
+
+  // Hearthstone Protocol
+  {
+    name: 'executive-summary-for-the-skeptic',
+    category: 'hearthstone-protocol',
+    fileNames: {
+      en: 'hearthstone-protocol-executive-summary-en',
+      sv: 'hearthstone-protocol-executive-summary-sv'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'hearthstone-protocol'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'hearthstone-protocol')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'assets', 'pdf'),
+      sv: path.join(__dirname, '..', 'static', 'assets', 'pdf')
+    },
+    pageFooter: {
+      en: 'Hearthstone Protocol - Executive Summary for the Skeptic',
+      sv: 'Hearthstone-protokollet - Sammanfattning för skeptiker'
+    }
+  },
+
+  // Full framework
+  {
+    name: 'hearthstone-protocol-framework',
+    category: 'hearthstone-protocol',
+    fileNames: {
+      en: 'Hearthstone-Protocol-Framework',
+      sv: 'Hearthstone-Protocol-Framework'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'hearthstone-protocol'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'hearthstone-protocol')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'downloads', 'en'),
+      sv: path.join(__dirname, '..', 'static', 'downloads', 'sv')
+    },
+    pageFooter: {
+      en: 'Hearthstone Protocol',
+      sv: 'Hearthstone-protokollet'
+    },
+    sections: [
+      'index',
+      'introduction',
+      'theory-of-change',
+      'core-principles',
+      'commons-architecture',
+      'asset-transition-pathways',
+      'legal-cultural-framework',
+      'economic-integration',
+      'implementation-strategy',
+      'framework-integration',
+      'risk-mitigation',
+      'advocacy-action',
+      'glossary',
+      'appendices'
     ]
   },
 

@@ -40,137 +40,141 @@
       "description": "En koncis översikt av ramverket för globalt medborgarskap, perfekt för snabb referens eller introduktion till koncepten."
     }
   },
-  "implementationFrameworks": {
+"implementationFrameworks": {
     "title": "Domänspecifika implementeringsramverk",
-    "description": "Detaljerade ramverk för implementering av styrningsprinciper inom specifika domäner, som ger konkret vägledning för olika sektorer och utmaningar.",
+    "description": "Detaljerade ramverk för att implementera styrningsprinciper inom specifika domäner, vilket ger konkret vägledning för olika sektorer och utmaningar.",
     "moreTools": {
-      "title": "Fler domänspecifika implementeringsramverk",
-      "description": "Ytterligare nedladdningsbara material, interaktiva verktyg och detaljerade implementeringsguider finns på vår Verktyg-sida:",
-      "linkText": "Utforska ramverksverktyg"
+      "title": "Fler verktyg och implementeringsguider",
+      "description": "Ytterligare nedladdningsbara material, interaktiva verktyg och detaljerade guider finns på vår sida för verktyg:",
+      "linkText": "Utforska alla verktyg"
     },
     "emergentGovernance": {
-      "title": "Ramverk för framväxande styrningsprotokoll",
-      "description": "Det grundläggande operativa protokollet som definierar 'Minimum Viable Grammar' för alla interaktioner inom GGF-ekosystemet, vilket möjliggör decentraliserad, bottom-up och adaptiv styrning genom universella systemanrop av typen sense-propose-adopt."
+      "title": "Ramverk för framväxande styrning (EGP)",
+      "description": "Det grundläggande operativa protokollet som definierar en 'Minimalt gångbar grammatik' för alla interaktioner inom GGF-ekosystemet. Möjliggör decentraliserad, adaptiv styrning nerifrån och upp genom universella systemanrop: sense-propose-adopt."
     },
     "indigenous": {
-      "title": "Ursprungsfolk & traditionell kunskap",
-      "description": "Ett omfattande ramverk för ursprungsfolksledd planetär transformation, med bioregional styrning, skydd av traditionell ekologisk kunskap och ceremoniella förvaltningsvägar."
+      "title": "Ramverk för urfolk & traditionell kunskap",
+      "description": "Ett ramverk för planetär transformation ledd av urfolk, med bioregional styrning, skydd av traditionell ekologisk kunskap och ceremoniellt förvaltarskap."
     },
     "moralOperatingSystem": {
-      "title": "Ramverk för det moraliska operativsystemet", 
-      "description": "Etisk källkod för planetär styrning som ger den moraliska grunden för alla ramverk, inklusive det dynamiska rättighetsspektrumet, förmyndarskapsprotokoll och verktyg för att erkänna rättigheter för människor, djur, ekosystem, AI och framtida varelser."
+      "title": "Ramverk för det moraliska operativsystemet (MOS)",
+      "description": "Den etiska källkoden för planetär styrning som utgör den moraliska grunden för alla ramverk. Inkluderar det dynamiska rättighetsspektrumet och verktyg för att erkänna rättigheter för människor, djur, ekosystem, AI och framtida varelser."
     },
     "justiceSystems": {
-      "title": "Rättssystemsimplementeringsramverk",
-      "description": "Ett omfattande ramverk för att implementera rättvisa, transparenta och motståndskraftiga globala rättssystem. Inkluderar specialiserade domstolar, MOS-rättighetsupprätthållande, ursprungsfolkens suveränitetsprotokoller och digital rättviseinnnovation."
+      "title": "Ramverk för rättssystem",
+      "description": "Ett omfattande ramverk för att implementera rättvisa, transparenta och motståndskraftiga globala rättssystem. Inkluderar specialiserade domstolar, upprätthållande av MOS-rättigheter, protokoll för urfolkssuveränitet och digital rättviseinnovation."
     },
-   "shieldProtocol": {
-     "title": "Shield-protokollet",
-     "description": "Ett omfattande ramverk för att utrota gränsöverskridande brottslighet genom samordnad underrättelseverksamhet, verkställighet och samhällskontrollerad tillsyn med utvecklingsbaserade rehabiliteringsmetoder."
-   },
+    "shieldProtocol": {
+      "title": "Shield Protocol: Ramverk mot gränsöverskridande brottslighet",
+      "description": "Ett ramverk för att motverka gränsöverskridande brottslighet genom samordnad underrättelseverksamhet, verkställighet och samhällskontrollerad tillsyn med utvecklingsbaserade rehabiliteringsmetoder."
+    },
     "digital": {
-      "title": "Digital Commons",
-      "description": "Ett omfattande tillvägagångssätt för att hantera digitala resurser—data, mjukvara, kunskap och infrastruktur—som delade globala allmänningar, vilket säkerställer rättvist tillträde, etisk användning och deltagande styrning."
+      "title": "Ramverk för digitala allmänningar",
+      "description": "Ett ramverk för att hantera digitala resurser—data, mjukvara och kunskap—som delade globala allmänningar, vilket säkerställer rättvis tillgång, etisk användning och deltagande styrning."
     },
     "economic": {
-      "title": "Ekonomisk integration",
-      "description": "Ett ramverk för att skapa rättvisa och hållbara ekonomiska system som balanserar lokal autonomi med globalt samarbete, inklusive nästlade ekonomiska system och implementering av resursrättvisa."
+      "title": "Ramverk för ekonomisk integration",
+      "description": "Ett ramverk för rättvisa och hållbara ekonomiska system som balanserar lokal autonomi med globalt samarbete, inklusive nästlade ekonomier och implementering av resursrättvisa."
     },
     "workInLiberation": {
-      "title": "Work in Liberation Framework",
-      "description": "Transformativ arbets- och sysselsättningsstyrning som organiserar arbete kring omsorg, kreativitet och planetär hälsa genom Community Work Teams, kooperativ styrning och övergången från överlevnadsarbete till meningsfulla bidrag."
+      "title": "Ramverk för ett befriande arbetsliv",
+      "description": "Transformativ styrning av arbete och sysselsättning som organiseras kring omsorg, kreativitet och planetär hälsa genom Community Work Teams, kooperativ styrning och övergången från överlevnadsarbete till meningsfulla bidrag."
     },
     "gaianTrade": {
-    "title": "Gaian Trade Framework",
-    "description": "Ett ramverk för regenerativ (gaiansk) handel som respekterar planetens gränser, lyfter samhällen och säkerställer rättvisa i varje utbyte genom mekanismer som digitala pass och regenerativa handelszoner."
+      "title": "Ramverk för gaiansk handel",
+      "description": "Ett ramverk för regenerativ (gaiansk) handel som respekterar planetens gränser, lyfter samhällen och säkerställer rättvisa i varje utbyte genom mekanismer som digitala produktpass och regenerativa handelszoner."
     },
     "water": {
-      "title": "Vatten & sanitet",
-      "description": "Ett omfattande ramverk för att omvandla vattenstyrning genom samhällskontroll, regenerativ teknik och rättighetsbaserade metoder. Inkluderar strategier för universell tillgång, urfolks suveränitet och planetär läkning genom vattenrättvisa."
+      "title": "Ramverk för vatten & sanitet",
+      "description": "Ett ramverk för att omvandla vattenstyrning genom samhällskontroll, regenerativ teknik och rättighetsbaserade metoder, med strategier för universell tillgång och vattenrättvisa."
     },
     "environment": {
-      "title": "Miljöförvaltning",
-      "description": "Riktlinjer för implementering av styrningsstrukturer som skyddar och regenererar jordens ekosystem, och som fungerar på flera nivåer från lokalt till planetärt."
+      "title": "Ramverk för miljöförvaltning",
+      "description": "Riktlinjer för att implementera styrningsstrukturer som skyddar och återuppbygger jordens ekosystem, fungerande på flera nivåer från lokalt till planetärt."
     },
     "biodiversity": {
-      "title": "Biodiversitet", 
-      "description": "En revolutionerande plan för planetär läkning genom ursprungssuveränitet, ekonomisk transformation och kulturell mobilisering. Inkluderar verktyg för Ursprungsdigital Suveränitetshubbar, Bio-Konstresidenser, erkännande av ekosystemrättigheter och skapande av en regenerativ biosfär till 2045."
+      "title": "Ramverk för biologisk mångfald",
+      "description": "En plan för planetärt helande genom urfolkssuveränitet, ekonomisk transformation och kulturell mobilisering. Inkluderar verktyg för digital suveränitet, bio-konstnärliga residens och erkännande av ekosystems rättigheter."
     },
     "animalWelfare": {
-      "title": "Djurskydd",
-      "description": "Ett omfattande ramverk för att omvandla globala djurvälfärdssystem genom samhällslett förmyndarskap, kännande-centrerat skydd och regenerativa tillvägagångssätt som positionerar djur som varelser som förtjänar medkänsla snarare än varor."
+      "title": "Ramverk för djurvälfärd",
+      "description": "Ett ramverk för globala djurvälfärdssystem genom samhällslett förmyndarskap och skydd av kännande varelser, där djur behandlas med medkänsla istället för som varor."
     },
     "climateEnergy": {
-      "title": "Klimat- och energistyrning",
-      "description": "Ett integrerat tillvägagångssätt för att styra klimatåtgärder och energiövergångar på lokal, regional och global nivå, med betoning på rättvisa övergångar och ansvar mellan generationer."
+      "title": "Ramverk för klimat & energi",
+      "description": "Ett integrerat ramverk för att styra klimatåtgärder och energiomställningar på alla nivåer, med betoning på rättvisa övergångar och ansvar mellan generationer."
     },
     "technology": {
-      "title": "Teknikstyrning",
-      "description": "Ramverk för att styra teknisk utveckling och implementering med demokratisk tillsyn, vilket säkerställer att teknik tjänar mänskligheten och skyddar grundläggande rättigheter."
+      "title": "Ramverk för teknikstyrning",
+      "description": "Ett ramverk för att styra teknisk utveckling och implementering med demokratisk tillsyn, vilket säkerställer att tekniken tjänar mänskligheten och skyddar grundläggande rättigheter."
     },
     "regenerativeEnterprise": {
-      "title": "Regenerativt företagsramverk",
-      "description": "En omfattande guide för att transformera företag att tjäna liv, samhällen och planetens välbefinnande genom sex praktiska moduler som täcker styrning, verksamhet, finansiering, kultur och ekosystemisk delaktighet."
+      "title": "Ramverk för regenerativa företag",
+      "description": "En guide för att omvandla företag så att de tjänar livet, samhällen och planetens välbefinnande genom sex praktiska moduler som täcker styrning, verksamhet, finansiering, kultur och ekosystemiskt deltagande."
     },
     "peace": {
-      "title": "Fred & konfliktlösning",
-      "description": "Ramverk för att förebygga och lösa konflikter genom flernivåstyrning, etiska säkerhetsmetoder och kooperativ fredsbevarande verksamhet."
+      "title": "Ramverk för fred & konfliktlösning",
+      "description": "Ett ramverk för att förebygga och lösa konflikter genom flernivåstyrning, etiska säkerhetsmetoder och kooperativt fredsbevarande."
     },
     "planetaryHealth": {
-      "title": "Planetär hälsostyrning",
-      "description": "Ett övergripande ramverk som fungerar som den etiska och vetenskapliga kompassen för hela GGF-ekosystemet, och som använder Biosphere Health Index (BHI) för att granska alla andra ramverk och säkerställa att de bidrar till vår levande världs holistiska välbefinnande."
+      "title": "Ramverk för planetär hälsa",
+      "description": "Ett övergripande ramverk som fungerar som en etisk och vetenskaplig kompass för hela GGF-ekosystemet. Använder Biosphere Health Index (BHI) för att säkerställa att alla andra ramverk bidrar till vår levande världs välbefinnande."
     },
     "globalHealth": {
-      "title": "Globalt ramverk för hälsa och pandemisäkerhet",
-      "description": "Samhällsstyrt planetariskt immunsystem som förebygger, upptäcker och besegrar pandemier snabbt, rättvist och med motståndskraft samtidigt som det stärker traditionell kunskap och samhällets suveränitet."
+      "title": "Ramverk för global hälsa & pandemisäkerhet",
+      "description": "Ett samhällsstyrt planetärt immunsystem som förebygger, upptäcker och hanterar pandemier snabbt och rättvist, samtidigt som det stärker traditionell kunskap och samhällssuveränitet."
     },
     "aethelredAccord": {
-      "title": "Aethelred-avtalet: Bioteknikstyrning",
-      "description": "Ett förbund för ansvarsfull förvaltning av livets kod genom gemenskapssuveränitet, ursprungsbefolkningars rättigheter och demokratisk övervakning av genteknik och bioteknikutveckling."
+      "title": "Aethelred-ackordet: Ramverk för bioteknik",
+      "description": "Ett fördrag för ansvarsfull förvaltning av livets kod genom gemenskapssuveränitet, urfolksrättigheter och demokratisk övervakning av genteknik och bioteknisk utveckling."
     },
     "conduitProtocol": {
-      "title": "Conduit-protokollet: Ramverk för delad infrastruktur",
-      "description": "Ett enhetligt ramverk för att omvandla fragmenterad infrastruktur till motståndskraftiga globala gemensamma tillgångar som tillhandahåller ren energi, säkra data och rent vatten samtidigt som man respekterar ursprungsbefolkningens suveränitet och möjliggör en rättvis omställning."
+      "title": "Conduit Protocol: Ramverk för delad infrastruktur",
+      "description": "Ett ramverk för att omvandla fragmenterad infrastruktur till motståndskraftiga globala allmänningar för ren energi, säker data och rent vatten med respekt för urfolkssuveränitet."
+    },
+    "hearthstoneProtocol": {
+      "title": "Hearthstone Protocol: Ramverk för regenerativt förvaltarskap",
+      "description": "Ett ramverk för övergången från extraktivt ägande till regenerativt förvaltarskap, med juridiska vägar för återlämnande av mark ('rematriation') och gemenskapsstyrning."
     },
     "spiritual": {
-      "title": "Religiös & andlig dialog",
-      "description": "Metoder för att främja konstruktiv dialog mellan andliga traditioner och samtidigt identifiera gemensamma etiska principer som kan informera styrning över kulturella sammanhang."
+      "title": "Ramverk för religiös & andlig dialog",
+      "description": "Metoder för att främja konstruktiv dialog mellan andliga traditioner och identifiera gemensamma etiska principer som kan informera styrning över kulturella gränser."
     },
     "consciousness": {
-      "title": "Medvetenhet & inre utveckling",
-      "description": "En transformativ plan för styrning grundad i självkännedom, empati och systemiskt tänkande. Inkluderar ramverk för visdomsråd, mindfulnessträningsprotokoll, spiral dynamics-integration och verktyg för att bädda in medvetenhetsprinciper i institutionella strukturer."
+      "title": "Ramverk för medvetenhet & inre utveckling",
+      "description": "En plan för styrning grundad i självkännedom, empati och systemtänkande. Inkluderar ramverk för visdomsråd, protokoll för medveten närvaro och verktyg för att integrera medvetenhetsprinciper i institutioner."
     },
     "meta": {
-       "title": "Integrerad metastyrning",
-       "description": "Ett grundläggande ramverk för att samordna och harmonisera olika styrsystem över domäner, kulturer och tidshorisonter. Dokumentet beskriver principer, strukturer och verktyg för samverkan utan centralisering – med fokus på policentrisk design, reflexivt lärande och syftesinriktad styrning över generationer."
+      "title": "Ramverk för integrerad metastyrning",
+      "description": "Ett grundläggande ramverk för att samordna olika styrsystem över domäner, kulturer och tidshorisonter. Beskriver principer och verktyg för samverkan utan centralisering, med fokus på policentrisk design och lärande över generationer."
     },
     "methods-tools": {
-       "title": "Implementeringsmetoder och verktyg",
-       "description": "En modulär och kulturöverskridande verktygslåda för styrning, med deltagande metoder, etiska skyddsmekanismer, digital infrastruktur och AI-stödda verktyg för praktisk tillämpning. Utformad för samhällen, institutioner och globala aktörer – stöder transparent, inkluderande och reflexiv styrning inom alla domäner."
+      "title": "Ramverk för implementeringsmetoder & verktyg",
+      "description": "En modulär och kulturöverskridande verktygslåda för styrning, med deltagande metoder, digital infrastruktur och AI-stödda verktyg. Utformad för att stödja transparent och inkluderande styrning inom alla domäner."
     },
     "financialSystems": {
-      "title": "Finansiella system",
-      "description": "Ett omfattande ramverk för implementering av finansiella system som prioriterar mänskligt och ekologiskt välmående, inklusive Hearts valutasystem, Love Ledger, och verktyg för rättvis resursfördelning."
+      "title": "Ramverk för finansiella system",
+      "description": "Ett ramverk för att implementera finansiella system som prioriterar mänskligt och ekologiskt välbefinnande, inklusive valutasystemet Hearts, Love Ledger och verktyg för rättvis resursfördelning."
     },
     "education": {
-      "title": "Utbildningssystem",
-      "description": "Ramverk för att integrera globala perspektiv i utbildningssystem, främja kritiskt tänkande och utveckla läroplaner som främjar globalt medborgarskap och interkulturell kompetens."
+      "title": "Ramverk för utbildningssystem",
+      "description": "Ett ramverk för att integrera globala perspektiv i utbildning, främja kritiskt tänkande och utveckla läroplaner som stöder globalt medborgarskap och interkulturell kompetens."
     },
     "mentalHealth": {
-      "title": "Mental Hälsa Ramverk",
-      "description": "Ett omfattande ramverk för att implementera samhällsledd mental hälsa transformation genom medvetenhetsinnefattande helande, traditionell medicin integration och rättighetsbaserad vård som positionerar mental hälsa som en transkulturell mänsklig rättighet som främjar kollektiv blomstring."
+      "title": "Ramverk för mental hälsa",
+      "description": "Ett ramverk för samhällsledd transformation av mental hälsa genom medvetet helande, integration av traditionell medicin och rättighetsbaserad vård som främjar kollektivt välmående."
     },
     "foodSystems": {
-      "title": "Livsmedelssystem och jordbruk",
-      "description": "Riktlinjer för hållbara, rättvisa och motståndskraftiga livsmedelssystem som säkerställer livsmedelstrygghet, landsbygdsutveckling och ekologisk hälsa från lokal till global nivå."
+      "title": "Ramverk för livsmedelssystem & jordbruk",
+      "description": "Riktlinjer för hållbara, rättvisa och motståndskraftiga livsmedelssystem som säkerställer tryggad livsmedelsförsörjning, landsbygdsutveckling och ekologisk hälsa på alla nivåer."
     },
     "ethics": {
-      "title": "Etik och väsens rättigheter",
-      "description": "Ett omfattande ramverk för att erkänna och skydda rättigheter för alla väsen—mänskliga, djur, ekologiska och teknologiska—med praktisk implementeringsvägledning, medvetandebedömningsmetoder och styrningsstrukturer."
+      "title": "Ramverk för etik & varelsers rättigheter",
+      "description": "Ett ramverk för att erkänna och skydda rättigheterna för alla varelser—mänskliga, djur, ekologiska och teknologiska—med praktisk vägledning för implementering och styrning."
     },
     "aging": {
-      "title": "Åldrande befolkningsstöd",
-      "description": "Ett omfattande ramverk för att omvandla åldrande från samhällsbörda till samhällets största styrka genom äldrelett styrning, AUBI ekonomiska system, innovationshubbar och regenerativ ekonomi som hedrar äldres visdom och myndighet."
+      "title": "Ramverk för en åldrande befolkning",
+      "description": "Ett ramverk för att omvandla åldrande från en börda till en styrka genom äldrelett styre, AUBI-system, innovationshubbar och en regenerativ ekonomi som hedrar äldres visdom."
     }
   },
   "downloadButton": "Ladda ner PDF",

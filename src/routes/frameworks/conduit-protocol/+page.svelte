@@ -20,24 +20,34 @@
   let mounted = false;
   let isPrintMode = false;
   let foundationOpen = false;
-  let coreFrameworkOpen = false;
+  let visionOpen = false;
+  let architectureOpen = false;
+  let implementationOpen = false;
   let resourcesOpen = false;
 
   // Computed values - add safety checks
   $: sectionsToShow = (mounted && isPrintMode) ? Object.keys(data?.sections || {}) : [activeSection];
-  $: coreFrameworkSections = Object.keys(data?.sections || {}).filter(section => 
-    !['index', 'at-a-glance', 'executive-summary-for-the-skeptic', 'glossary', 'appendices'].includes(section)
-  );
+
+  // Define the sections for each accordion group
+  const foundationSections = ['at-a-glance', 'executive-summary-for-the-skeptic'];
+  const visionSections = ['introduction', 'theory-of-change', 'core-principles', 'advocacy-action'];
+  const architectureSections = ['infrastructure-commons', 'key-mechanisms', 'just-transition', 'technical-specifications'];
+  const implementationSections = ['implementation-pathways', 'framework-integration'];
+  const resourceSections = ['glossary', 'appendices'];
+
+  // A computed list of all sections that are part of the main "core" content for the progress bar
+  $: coreFrameworkSections = [...visionSections, ...architectureSections, ...implementationSections];
   $: isCoreSection = coreFrameworkSections.includes(activeSection);
-  $: foundationSections = ['at-a-glance', 'executive-summary-for-the-skeptic'];
-  $: resourceSections = ['glossary', 'appendices'];
+
   $: isExecutiveSummaryActive = activeSection === 'executive-summary-for-the-skeptic';
   $: isSupplementaryActive = resourceSections.includes(activeSection);
 
   function initializeAccordionStates() {
     // Set initial accordion states based on active section
     foundationOpen = foundationSections.includes(activeSection);
-    coreFrameworkOpen = coreFrameworkSections.includes(activeSection);
+    visionOpen = visionSections.includes(activeSection);
+    architectureOpen = architectureSections.includes(activeSection);
+    implementationOpen = implementationSections.includes(activeSection);
     resourcesOpen = resourceSections.includes(activeSection);
   }
 
@@ -177,7 +187,9 @@
 
   // Accordion toggle functions
   function toggleFoundation() { foundationOpen = !foundationOpen; }
-  function toggleCoreFramework() { coreFrameworkOpen = !coreFrameworkOpen; }
+  function toggleVision() { visionOpen = !visionOpen; }
+  function toggleArchitecture() { architectureOpen = !architectureOpen; }
+  function toggleImplementation() { implementationOpen = !implementationOpen; }
   function toggleResources() { resourcesOpen = !resourcesOpen; }
 
   // Handle locale changes
@@ -262,43 +274,115 @@
             {/if}
           </div>
 
-          <!-- Core Framework Accordion -->
-          {#if coreFrameworkSections.length > 0}
+          <!-- Vision & Principles Accordion -->
+          {#if visionSections.length > 0}
             <div class="nav-accordion">
               <button 
                 class="accordion-header" 
-                class:open={coreFrameworkOpen}
-                class:has-active={isCoreSection}
-                on:click={toggleCoreFramework}
+                class:open={visionOpen}
+                class:has-active={visionSections.includes(activeSection)}
+                on:click={toggleVision}
               >
-                <span class="accordion-icon">🔌</span>
-                <span class="accordion-title">{getSectionCategoryTitle('framework')}</span>
-                <span class="section-count">({coreFrameworkSections.length})</span>
-                <span class="toggle-arrow" class:rotated={coreFrameworkOpen}>▼</span>
+                <span class="accordion-icon">🌟</span>
+                <span class="accordion-title">{getSectionCategoryTitle('vision')}</span>
+                <span class="section-count">({visionSections.length})</span>
+                <span class="toggle-arrow" class:rotated={visionOpen}>▼</span>
               </button>
-              {#if coreFrameworkOpen}
+              {#if visionOpen}
                 <div class="accordion-content" transition:slide={{ duration: 200 }}>
-                  {#each coreFrameworkSections as section}
-                    <button 
-                      class="nav-item subsection-item" 
-                      class:active={activeSection === section}
-                      on:click={() => setActiveSection(section)}
-                    >
-                      <span class="nav-icon">
-                        {#if section === 'introduction'}🌟
-                        {:else if section === 'theory-of-change'}🎯
-                        {:else if section === 'core-principles'}⚖️
-                        {:else if section === 'infrastructure-commons'}🏗️
-                        {:else if section === 'key-mechanisms'}⚙️
-                        {:else if section === 'just-transition'}🤝
-                        {:else if section === 'implementation-pathways'}🗺️
-                        {:else if section === 'framework-integration'}🔗
-                        {:else if section === 'technical-specifications'}🔧
-                        {:else if section === 'advocacy-action'}📢
-                        {:else}🔌{/if}
-                      </span>
-                      <span class="nav-title">{getShortSectionTitle(section)}</span>
-                    </button>
+                  {#each visionSections as section}
+                    {#if data?.sections?.[section]}
+                      <button 
+                        class="nav-item subsection-item" 
+                        class:active={activeSection === section}
+                        on:click={() => setActiveSection(section)}
+                      >
+                        <span class="nav-icon">
+                          {#if section === 'introduction'}🌟
+                          {:else if section === 'theory-of-change'}🎯
+                          {:else if section === 'core-principles'}⚖️
+                          {:else if section === 'advocacy-action'}📢
+                          {:else}🔌{/if}
+                        </span>
+                        <span class="nav-title">{getShortSectionTitle(section)}</span>
+                      </button>
+                    {/if}
+                  {/each}
+                </div>
+              {/if}
+            </div>
+          {/if}
+
+          <!-- Core Architecture & Mechanics Accordion -->
+          {#if architectureSections.length > 0}
+            <div class="nav-accordion">
+              <button 
+                class="accordion-header" 
+                class:open={architectureOpen}
+                class:has-active={architectureSections.includes(activeSection)}
+                on:click={toggleArchitecture}
+              >
+                <span class="accordion-icon">🏗️</span>
+                <span class="accordion-title">{getSectionCategoryTitle('architecture')}</span>
+                <span class="section-count">({architectureSections.length})</span>
+                <span class="toggle-arrow" class:rotated={architectureOpen}>▼</span>
+              </button>
+              {#if architectureOpen}
+                <div class="accordion-content" transition:slide={{ duration: 200 }}>
+                  {#each architectureSections as section}
+                    {#if data?.sections?.[section]}
+                      <button 
+                        class="nav-item subsection-item" 
+                        class:active={activeSection === section}
+                        on:click={() => setActiveSection(section)}
+                      >
+                        <span class="nav-icon">
+                          {#if section === 'infrastructure-commons'}🏗️
+                          {:else if section === 'key-mechanisms'}⚙️
+                          {:else if section === 'just-transition'}🤝
+                          {:else if section === 'technical-specifications'}🔧
+                          {:else}🔌{/if}
+                        </span>
+                        <span class="nav-title">{getShortSectionTitle(section)}</span>
+                      </button>
+                    {/if}
+                  {/each}
+                </div>
+              {/if}
+            </div>
+          {/if}
+
+          <!-- Implementation & Integration Accordion -->
+          {#if implementationSections.length > 0}
+            <div class="nav-accordion">
+              <button 
+                class="accordion-header" 
+                class:open={implementationOpen}
+                class:has-active={implementationSections.includes(activeSection)}
+                on:click={toggleImplementation}
+              >
+                <span class="accordion-icon">🗺️</span>
+                <span class="accordion-title">{getSectionCategoryTitle('implementation')}</span>
+                <span class="section-count">({implementationSections.length})</span>
+                <span class="toggle-arrow" class:rotated={implementationOpen}>▼</span>
+              </button>
+              {#if implementationOpen}
+                <div class="accordion-content" transition:slide={{ duration: 200 }}>
+                  {#each implementationSections as section}
+                    {#if data?.sections?.[section]}
+                      <button 
+                        class="nav-item subsection-item" 
+                        class:active={activeSection === section}
+                        on:click={() => setActiveSection(section)}
+                      >
+                        <span class="nav-icon">
+                          {#if section === 'implementation-pathways'}🗺️
+                          {:else if section === 'framework-integration'}🔗
+                          {:else}🔌{/if}
+                        </span>
+                        <span class="nav-title">{getShortSectionTitle(section)}</span>
+                      </button>
+                    {/if}
                   {/each}
                 </div>
               {/if}

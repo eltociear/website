@@ -13,8 +13,10 @@
   },
   "categories": {
     "overview": "Overview",
-    "foundation": "Foundation",
-    "framework": "Infrastructure Framework", 
+    "foundation": "Foundation", 
+    "vision": "Vision & Principles",
+    "architecture": "Core Architecture & Mechanics",
+    "implementation": "Implementation & Integration",
     "resources": "Resources"
   },
   "sections": {
