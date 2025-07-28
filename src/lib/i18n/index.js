@@ -49,6 +49,7 @@ const pageSpecificTranslationsMap = [
   
   // Framework routes (most specific first)
   { route: '/frameworks/emergent-governance-protocol', dataKey: 'egpFramework', fileName: 'frameworksEmergentGovernanceProtocol' },
+  { route: '/frameworks/synoptic-protocol', dataKey: 'synopticProtocol', fileName: 'frameworksSynopticProtocol' },
   { route: '/frameworks/hearthstone-protocol', dataKey: 'hearthstoneFramework', fileName: 'frameworksHearthstoneProtocol' },
   { route: '/frameworks/conduit-protocol', dataKey: 'conduitFramework', fileName: 'frameworksConduitProtocol' },
   { route: '/frameworks/shield-protocol', dataKey: 'shieldProtocol', fileName: 'frameworksShieldProtocol' },

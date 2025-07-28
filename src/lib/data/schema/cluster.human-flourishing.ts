@@ -81,7 +81,7 @@ export const humanFlourishingEntities: GgfEntity[] = [
     shortName: 'Synoptic Protocol',
     description: 'Global framework for media and epistemic integrity ensuring healthy information ecosystems',
     tier: 2,
-    status: 'Review',
+    status: 'Ready',
     primaryDomain: 'Technology',
     geographicScope: 'Global',
     implementationPriority: 'High',
@@ -91,6 +91,7 @@ export const humanFlourishingEntities: GgfEntity[] = [
       path: '/frameworks/synoptic-protocol',
       titleKey: 'framework.docs.nav.frameworkTitles.synopticProtocol',
       emoji: '👁️',
+      version: '1.0',
       slug: 'synoptic-protocol',
       group: 'humanSocialSystems'
     }

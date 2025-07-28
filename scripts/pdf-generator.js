@@ -50,6 +50,7 @@ Available categories:
 - gaian-trade
 - work-in-liberation
 - shield-protocol
+- synoptic-protocol
 - conduit-protocol
 - hearthstone-protocol
 - technology-governance
@@ -96,6 +97,7 @@ const outputDirs = {
   'gaian-trade': path.join(__dirname, '..', 'static', 'frameworks','tools', 'gaian-trade'),
   'work-in-liberation': path.join(__dirname, '..', 'static', 'frameworks','tools', 'work-in-liberation'),
   'shield-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'shield-protocol'),
+  'synoptic-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'synoptic-protocol'),
   'conduit-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'conduit-protocol'),
   'hearthstone-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'hearthstone-protocol'),
   'technology-governance': path.join(__dirname, '..', 'static', 'frameworks','tools', 'technology-governance'),
@@ -341,6 +343,63 @@ const tools = [
       'legal-cultural-framework',
       'economic-integration',
       'implementation-strategy',
+      'framework-integration',
+      'risk-mitigation',
+      'advocacy-action',
+      'glossary',
+      'appendices'
+    ]
+  },
+
+  // Synoptic Protocol
+  {
+    name: 'executive-summary-for-the-skeptic',
+    category: 'synoptic-protocol',
+    fileNames: {
+      en: 'synoptic-protocol-executive-summary-en',
+      sv: 'synoptic-protocol-executive-summary-sv'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'synoptic-protocol'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'synoptic-protocol')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'assets', 'pdf'),
+      sv: path.join(__dirname, '..', 'static', 'assets', 'pdf')
+    },
+    pageFooter: {
+      en: 'Synoptic Protocol - Executive Summary for the Skeptic',
+      sv: 'Det synoptiska protokollet - Sammanfattning för skeptiker'
+    }
+  },
+
+  // Full framework
+  {
+    name: 'synoptic-protocol-framework',
+    category: 'synoptic-protocol',
+    fileNames: {
+      en: 'Synoptic-Protocol-Framework',
+      sv: 'Synoptic-Protocol-Framework'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'synoptic-protocol'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'synoptic-protocol')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'downloads', 'en'),
+      sv: path.join(__dirname, '..', 'static', 'downloads', 'sv')
+    },
+    pageFooter: {
+      en: 'Synoptic Protocol',
+      sv: 'Det synoptiska protokollet'
+    },
+    sections: [
+      'index',
+      'introduction',
+      'epistemic-crisis',
+      'foundational-principles',
+      'six-pillars',
+      'implementation-governance',
       'framework-integration',
       'risk-mitigation',
       'advocacy-action',

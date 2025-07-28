@@ -16,7 +16,7 @@ export const hearthstoneEntities: GgfEntity[] = [
     shortName: 'Hearthstone Protocol',
     description: 'A voluntary framework providing the legal, ethical, and practical pathways for a just transition from private, extractive ownership to shared, regenerative stewardship.',
     tier: 2,
-    status: 'Review', // Mapping 'Final Draft' to 'Review'
+    status: 'Ready',
     primaryDomain: 'Economic',
     geographicScope: 'Global',
     implementationPriority: 'Critical',

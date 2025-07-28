@@ -16,7 +16,7 @@ export const conduitProtocolEntities: GgfEntity[] = [
     shortName: 'Conduit Protocol',
     description: 'A unified, resilient global commons for clean energy, secure data, and clean water.',
     tier: 2,
-    status: 'Review', // Mapping 'Final Draft' to 'Review'
+    status: 'Ready',
     implementationPriority: 'Critical',
     primaryDomain: 'Governance',
     dependencies: [

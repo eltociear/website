@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "title": "Synoptiska protokollet - Ett ramverk för medier och epistemisk integritet",
+    "description": "Ett omfattande ramverk för att kultivera epistemisk integritet, främja sund diskurs och skydda den universella rätten till verklighet som demokratin kräver."
+  },
+  "categories": {
+    "overview": "Översikt",
+    "quickReference": "Sammanfattning och snabbreferens",
+    "foundation": "Grund och principer",
+    "pillars": "Integritetens sex pelare",
+    "implementation": "Implementering och ekosystem",
+    "resources": "Resurser och referenser"
+  },
+  "sections": {
+    "index": "Ramverksöversikt",
+    "at-a-glance": "I korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning för skeptiker",
+    "introduction": "Introduktion och vision",
+    "epistemic-crisis": "Den epistemiska krisen",
+    "foundational-principles": "Grundläggande principer",
+    "six-pillars": "Integritetens sex pelare",
+    "implementation-governance": "Implementering och styrning",
+    "framework-integration": "Integration med andra ramverk",
+    "risk-mitigation": "Riskhantering och utmaningar",
+    "advocacy-action": "Påverkan och handling",
+    "glossary": "Ordlista",
+    "appendices": "Bilagor"
+  },
+  "sectionsShort": {
+    "index": "Översikt",
+    "at-a-glance": "I korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning",
+    "introduction": "Introduktion",
+    "epistemic-crisis": "Epistemisk kris",
+    "foundational-principles": "Principer",
+    "six-pillars": "Sex pelare",
+    "implementation-governance": "Implementering",
+    "framework-integration": "Integration",
+    "risk-mitigation": "Riskhantering",
+    "advocacy-action": "Handling",
+    "glossary": "Ordlista",
+    "appendices": "Bilagor"
+  },
+  "guideCard": {
+    "title": "Ny till det synoptiska protokollet?",
+    "description": "Börja med vår sammanfattning för skeptiker – den tar upp praktiska frågor om epistemisk integritet och demokratisk diskurs i den digitala tidsåldern.",
+    "buttonText": "Läs sammanfattningen för skeptiker"
+  },
+  "progress": {
+    "text": "Avsnitt {current} av {total}"
+  },
+  "navigation": {
+    "downloadPdf": "Ladda ner PDF-version",
+    "continueToFramework": "Fortsätt till hela ramverket",
+    "previousSection": "Föregående avsnitt",
+    "nextSection": "Nästa avsnitt"
+  },
+  "languageFallback": {
+    "title": "Innehåll på ditt språk kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+  },
+  "loading": {
+    "text": "Laddar innehåll för ramverket om epistemisk integritet..."
+  },
+  "errors": {
+    "sectionNotFound": "Avsnitt \"{section}\" hittades inte",
+    "contentInDevelopment": "Detta innehåll är under utveckling."
+  },
+  "pillars": {
+    "curriculum": "Den epistemiska läroplanen",
+    "institutions": "Stadgar för epistemiska institutioner",
+    "platforms": "Algoritmisk och plattformstyrning",
+    "publicSquare": "Det digitala offentliga torget",
+    "justice": "Epistemisk rättvisa och ansvarsskyldighet",
+    "crisisResponse": "Epistemisk krishantering"
+  },
+  "principles": {
+    "humility": "Epistemisk ödmjukhet",
+    "pluralism": "Perspektivisk pluralism",
+    "veracity": "Sanningsenlighet och stringens",
+    "transparency": "Systemisk transparens",
+    "nonMaleficence": "Icke-skada-principen",
+    "resilience": "Adaptiv motståndskraft",
+    "praxis": "Befriande praxis",
+    "reparations": "Epistemisk gottgörelse",
+    "justice": "Språklig rättvisa",
+    "rightToReality": "Universell rätt till verklighet"
+  },
+  "threatTiers": {
+    "tier0": "Existentiella epistemiska hot",
+    "tier1": "Systemisk epistemisk krigföring",
+    "tier2": "Koordinerad ondsint desinformation",
+    "tier3": "Algoritmiska och strukturella förvrängningar",
+    "tierNeg1": "Långsiktig kognitiv erosion",
+    "crossTier": "Ekonomiska incitament"
+  },
+  "institutions": {
+    "globalCouncil": "Globala rådet för epistemisk integritet",
+    "epistemicInstitutions": "Offentliga epistemiska institutioner",
+    "digitalJustice": "Digitala rättvisetribunalen",
+    "rapidResponse": "Snabba insatsteam"
+  },
+  "legal": {
+    "rightToReality": "Universell rätt till verklighet",
+    "systemicHarm": "Systemisk epistemisk skada",
+    "restitutionFund": "Globala restitutionsfonden",
+    "epistemicAsylum": "Skydd genom epistemisk asyl"
+  }
+}

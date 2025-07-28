@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "title": "The Synoptic Protocol - A Framework for Media & Epistemic Integrity",
+    "description": "A comprehensive framework for cultivating epistemic integrity, fostering healthy discourse, and protecting the Universal Right to Reality that democracy demands."
+  },
+  "categories": {
+    "overview": "Overview",
+    "quickReference": "Summary & Quick Reference",
+    "foundation": "Foundation & Principles",
+    "pillars": "The Six Pillars of Integrity", 
+    "implementation": "Implementation & Ecosystem",
+    "resources": "Resources & Reference"
+  },
+  "sections": {
+    "index": "Framework Overview",
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary for Skeptics",
+    "introduction": "Introduction & Vision",
+    "epistemic-crisis": "The Epistemic Crisis",
+    "foundational-principles": "Foundational Principles",
+    "six-pillars": "The Six Pillars of Epistemic Integrity",
+    "implementation-governance": "Implementation & Governance",
+    "framework-integration": "Framework Integration",
+    "risk-mitigation": "Risk Mitigation & Challenges",
+    "advocacy-action": "Advocacy & Action",
+    "glossary": "Glossary",
+    "appendices": "Appendices"
+  },
+  "sectionsShort": {
+    "index": "Overview",
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary",
+    "introduction": "Introduction",
+    "epistemic-crisis": "Epistemic Crisis",
+    "foundational-principles": "Principles",
+    "six-pillars": "Six Pillars",
+    "implementation-governance": "Implementation",
+    "framework-integration": "Integration",
+    "risk-mitigation": "Risk Mitigation",
+    "advocacy-action": "Action",
+    "glossary": "Glossary",
+    "appendices": "Appendices"
+  },
+  "guideCard": {
+    "title": "New to the Synoptic Protocol?",
+    "description": "Start with our executive summary for skeptics—addressing practical concerns about epistemic integrity and democratic discourse in the digital age.",
+    "buttonText": "Read Executive Summary for Skeptics"
+  },
+  "progress": {
+    "text": "Section {current} of {total}"
+  },
+  "navigation": {
+    "downloadPdf": "Download PDF Version",
+    "continueToFramework": "Continue to Full Framework",
+    "previousSection": "Previous Section",
+    "nextSection": "Next Section"
+  },
+  "languageFallback": {
+    "title": "Content in your language coming soon",
+    "description": "This section is currently displayed in English until translation is complete."
+  },
+  "loading": {
+    "text": "Loading epistemic integrity framework content..."
+  },
+  "errors": {
+    "sectionNotFound": "Section \"{section}\" not found",
+    "contentInDevelopment": "This content is still being developed."
+  },
+  "pillars": {
+    "curriculum": "The Epistemic Curriculum",
+    "institutions": "Epistemic Institution Charter",
+    "platforms": "Algorithmic & Platform Governance",
+    "publicSquare": "The Digital Public Square",
+    "justice": "Epistemic Justice & Accountability",
+    "crisisResponse": "Epistemic Crisis Response"
+  },
+  "principles": {
+    "humility": "Epistemic Humility",
+    "pluralism": "Perspectival Pluralism", 
+    "veracity": "Veracity & Rigor",
+    "transparency": "Systemic Transparency",
+    "nonMaleficence": "Non-Maleficence",
+    "resilience": "Adaptive Resilience",
+    "praxis": "Liberatory Praxis",
+    "reparations": "Epistemic Reparations",
+    "justice": "Linguistic Justice",
+    "rightToReality": "Universal Right to Reality"
+  },
+  "threatTiers": {
+    "tier0": "Existential Epistemic Threats",
+    "tier1": "Systemic Epistemic Warfare",
+    "tier2": "Coordinated Malicious Disinformation",
+    "tier3": "Algorithmic & Structural Distortions",
+    "tierNeg1": "Long-Term Cognitive Erosion",
+    "crossTier": "Economic Incentives"
+  },
+  "institutions": {
+    "globalCouncil": "Global Council for Epistemic Integrity",
+    "epistemicInstitutions": "Public Epistemic Institutions",
+    "digitalJustice": "Digital Justice Tribunal",
+    "rapidResponse": "Rapid Response Teams"
+  },
+  "legal": {
+    "rightToReality": "Universal Right to Reality",
+    "systemicHarm": "Systemic Epistemic Harm",
+    "restitutionFund": "Global Restitution Fund",
+    "epistemicAsylum": "Epistemic Asylum Protection"
+  }
+}
