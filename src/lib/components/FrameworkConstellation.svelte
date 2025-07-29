@@ -262,9 +262,9 @@
         const radius = currentTierConfig[1].radius + 3;
         const centerX = 50;
         const centerY = 50;
-        const angleStep = (2 * Math.PI) / 16;
+        const angleStep = (2 * Math.PI) / 17;
         
-        for (let i = 0; i < 16; i++) {
+        for (let i = 0; i < 17; i++) {
           const angle = i * angleStep - Math.PI / 2;
           const x = centerX + radius * Math.cos(angle);
           const y = centerY + radius * Math.sin(angle);

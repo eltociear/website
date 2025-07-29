@@ -49,6 +49,7 @@ Available categories:
 - aethelred-accord
 - gaian-trade
 - work-in-liberation
+- aegis-protocol
 - shield-protocol
 - synoptic-protocol
 - conduit-protocol
@@ -96,6 +97,7 @@ const outputDirs = {
   'animal-welfare-governance': path.join(__dirname, '..', 'static', 'frameworks','tools', 'animal-welfare-governance'),
   'gaian-trade': path.join(__dirname, '..', 'static', 'frameworks','tools', 'gaian-trade'),
   'work-in-liberation': path.join(__dirname, '..', 'static', 'frameworks','tools', 'work-in-liberation'),
+  'aegis-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'aegis-protocol'),
   'shield-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'shield-protocol'),
   'synoptic-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'synoptic-protocol'),
   'conduit-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'conduit-protocol'),
@@ -463,6 +465,71 @@ const tools = [
       'technical-specifications',
       'advocacy-action',
       'glossary',
+      'appendices'
+    ]
+  },
+
+  // Aegis Protocol
+  {
+    name: 'executive-summary-for-the-skeptic',
+    category: 'aegis-protocol',
+    fileNames: {
+      en: 'aegis-protocol-executive-summary-en',
+      sv: 'aegis-protocol-executive-summary-sv'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'aegis-protocol'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'aegis-protocol')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'assets', 'pdf'),
+      sv: path.join(__dirname, '..', 'static', 'assets', 'pdf')
+    },
+    pageFooter: {
+      en: 'Aegis Protocol - Executive Summary for the Skeptic',
+      sv: 'Aegisprotokollet - Sammanfattning för skeptiker'
+    }
+  },
+
+  // Full framework
+  {
+    name: 'aegis-protocol-framework',
+    category: 'aegis-protocol',
+    fileNames: {
+      en: 'Aegis-Protocol-Framework',
+      sv: 'Aegis-Protocol-Framework'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'aegis-protocol'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'aegis-protocol')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'downloads', 'en'),
+      sv: path.join(__dirname, '..', 'static', 'downloads', 'sv')
+    },
+    pageFooter: {
+      en: 'Aegis Protocol',
+      sv: 'Aegisprotokollet'
+    },
+    sections: [
+      'index',
+      'introduction-vision',
+      'foundational-principles',
+      'integration-architecture',
+      'historical-grounding',
+      'strategic-resilience',
+      'economic-modeling',
+      'non-state-integration',
+      'implementation-phases',
+      'three-pillars',
+      'root-causes',
+      'success-metrics',
+      'faq',
+      'taking-action',
+      'strategic-briefing-for-the-russian-federation',
+      'the-china-engagement-strategy',
+      'the-european-ally-briefing',
+      'the-global-south-partnership-proposal',
       'appendices'
     ]
   },
@@ -9170,16 +9237,77 @@ function processSection(sectionFile, sectionName, sourceDir) {
     let content = fs.readFileSync(fullPath, 'utf8');
     const originalLength = content.length;
 
-    // Remove frontmatter
-    content = content.replace(/^(---|\+\+\+)\s*\n([\s\S]*?)\n\s*(---|\+\+\+)\s*/m, '');
+    console.log(`\n🔍 DEBUGGING ${sectionName}:`);
+    console.log(`   Original content length: ${originalLength}`);
+    console.log(`   First 200 chars: "${content.substring(0, 200)}"`);
+    console.log(`   Content contains '---': ${content.includes('---')}`);
+    
+    // Count how many --- separators exist
+    const dashCount = (content.match(/---/g) || []).length;
+    console.log(`   Number of '---' found: ${dashCount}`);
+
+    // Show all --- contexts
+    const dashMatches = content.match(/.{0,50}---+.{0,50}/g);
+    if (dashMatches) {
+      console.log(`   '---' contexts:`);
+      dashMatches.forEach((match, i) => {
+        console.log(`     ${i + 1}: "${match.replace(/\n/g, '\\n')}"`);
+      });
+    }
+
+    // SAFER frontmatter removal - only if it starts at the very beginning
+    let frontmatterRemoved = false;
+    
+    // Check if content starts with frontmatter
+    if (content.startsWith('---\n') || content.startsWith('---\r\n')) {
+      console.log(`   🎯 FRONTMATTER DETECTED at start`);
+      
+      // Find the closing --- (must be on its own line)
+      const frontmatterEnd = content.indexOf('\n---\n', 4);
+      const frontmatterEndCRLF = content.indexOf('\r\n---\r\n', 4);
+      
+      let endPos = -1;
+      if (frontmatterEnd !== -1 && (frontmatterEndCRLF === -1 || frontmatterEnd < frontmatterEndCRLF)) {
+        endPos = frontmatterEnd + 5; // Skip past \n---\n
+      } else if (frontmatterEndCRLF !== -1) {
+        endPos = frontmatterEndCRLF + 7; // Skip past \r\n---\r\n
+      }
+      
+      if (endPos !== -1) {
+        const frontmatter = content.substring(0, endPos);
+        content = content.substring(endPos);
+        frontmatterRemoved = true;
+        
+        console.log(`   ✂️  REMOVED frontmatter (${frontmatter.length} chars):`);
+        console.log(`   📄 Content after removal (${content.length} chars):`);
+        console.log(`      First 150 chars: "${content.substring(0, 150)}"`);
+      } else {
+        console.log(`   ⚠️  Frontmatter start found but no proper closing ---`);
+      }
+    } else {
+      console.log(`   ✅ No frontmatter at start`);
+    }
+    
+    // TOML frontmatter check
+    if (!frontmatterRemoved && (content.startsWith('+++\n') || content.startsWith('+++\r\n'))) {
+      console.log(`   🎯 TOML FRONTMATTER DETECTED`);
+      const tomlEnd = content.indexOf('\n+++\n', 4);
+      if (tomlEnd !== -1) {
+        const tomlFrontmatter = content.substring(0, tomlEnd + 5);
+        content = content.substring(tomlEnd + 5);
+        frontmatterRemoved = true;
+        console.log(`   ✂️  REMOVED TOML frontmatter (${tomlFrontmatter.length} chars)`);
+      }
+    }
+    
+    console.log(`   📊 FINAL RESULT:`);
+    console.log(`      Final length: ${content.length}`);
+    console.log(`      Length change: ${originalLength - content.length}`);
+    console.log(`      Still contains '---': ${content.includes('---')}`);
+    console.log(`      Final '---' count: ${(content.match(/---/g) || []).length}`);
     
     result.content = content;
     result.analysis = analyzeContent(content);
-
-    if (originalLength !== content.length) {
-      debugInfo(`Removed frontmatter from ${sectionName}`, 
-        `${originalLength - content.length} chars`);
-    }
 
     if (result.analysis.issues.length > 0) {
       result.issues.push(...result.analysis.issues);
@@ -9427,33 +9555,55 @@ function getMimeType(ext) {
 }
 
 function addSectionPageBreaks(combinedContent, processedSections) {
-  console.log(`📄 ADDING PAGE BREAKS BETWEEN FILES ONLY...`);
+  console.log(`\n📄 ADDING PAGE BREAKS BETWEEN FILES ONLY...`);
   
   if (!processedSections || processedSections.length <= 1) {
     console.log(`   Single file/section detected - no page breaks needed`);
+    console.log(`   Returning content unchanged (${combinedContent.length} chars)`);
     return combinedContent;
   }
   
   console.log(`   Processing ${processedSections.length} separate files for page breaks`);
+  console.log(`   Input content length: ${combinedContent.length}`);
+  console.log(`   Input preview: "${combinedContent.substring(0, 200)}..."`);
   
-  // The combined content should have been built with '---' separators between files
-  // Split on the file separators (the --- we added between files)
-  const fileSections = combinedContent.split(/\n---\n/);
+  // Use the unique file boundary marker
+  const FILE_BOUNDARY = '\n<<<FILE_BOUNDARY_MARKER>>>\n';
   
-  console.log(`   Found ${fileSections.length} file sections to process`);
+  // Check if boundaries exist
+  const hasBoundaries = combinedContent.includes('<<<FILE_BOUNDARY_MARKER>>>');
+  console.log(`   Contains file boundaries: ${hasBoundaries}`);
+  
+  if (!hasBoundaries) {
+    console.log(`   ⚠️  No file boundaries found - treating as single content`);
+    return combinedContent;
+  }
+  
+  // Split on the unique file boundary markers only
+  const fileSections = combinedContent.split(FILE_BOUNDARY);
+  
+  console.log(`   Found ${fileSections.length} file sections after split`);
+  
+  // Debug each section
+  fileSections.forEach((section, i) => {
+    console.log(`   Section ${i + 1} length: ${section.length}`);
+    console.log(`   Section ${i + 1} preview: "${section.substring(0, 100)}..."`);
+  });
   
   let processedContent = '';
   
   for (let i = 0; i < fileSections.length; i++) {
     const fileContent = fileSections[i].trim();
-    if (!fileContent) continue;
+    if (!fileContent) {
+      console.log(`   Skipping empty section ${i + 1}`);
+      continue;
+    }
     
     // Find the first heading in this file
     const headingMatch = fileContent.match(/^(#{1,6})\s+(.+)$/m);
     
     if (headingMatch && i > 0) {
       // Add page break for files after the first one
-      const level = headingMatch[1];
       const title = headingMatch[2];
       const sectionName = processedSections[i] || `Section ${i + 1}`;
       
@@ -9469,6 +9619,8 @@ function addSectionPageBreaks(combinedContent, processedSections) {
       if (headingMatch) {
         const sectionName = processedSections[i] || `Section ${i + 1}`;
         console.log(`   File ${i + 1} (${sectionName}): "${headingMatch[2]}" (first file, no page break)`);
+      } else {
+        console.log(`   File ${i + 1}: No heading found, adding without page break`);
       }
       processedContent += fileContent;
     }
@@ -9479,8 +9631,34 @@ function addSectionPageBreaks(combinedContent, processedSections) {
     }
   }
   
-  console.log(`📄 Page break processing complete - breaks only between ${processedSections.length} files`);
+  console.log(`\n📄 PAGE BREAK PROCESSING COMPLETE:`);
+  console.log(`   Input length: ${combinedContent.length}`);
+  console.log(`   Output length: ${processedContent.length}`);
+  console.log(`   Length change: ${processedContent.length - combinedContent.length}`);
+  console.log(`   Output preview: "${processedContent.substring(0, 200)}..."`);
+  
   return processedContent;
+}
+
+function validateContentAtEachStep(content, stepName) {
+  console.log(`\n🔍 CONTENT VALIDATION - ${stepName}:`);
+  console.log(`   Length: ${content.length}`);
+  console.log(`   Contains '---': ${content.includes('---')}`);
+  console.log(`   '---' count: ${(content.match(/---/g) || []).length}`);
+  console.log(`   Preview: "${content.substring(0, 150)}..."`);
+  
+  // Look for common problematic patterns
+  if (content.includes('undefined')) {
+    console.log(`   ⚠️  WARNING: Contains 'undefined'`);
+  }
+  if (content.includes('null')) {
+    console.log(`   ⚠️  WARNING: Contains 'null'`);
+  }
+  if (content.length < 100) {
+    console.log(`   ⚠️  WARNING: Content very short`);
+  }
+  
+  return content;
 }
 
 // NEW: Enhanced structure detection for single files
@@ -9617,19 +9795,26 @@ function loadContentByStructure(tool, sourceDir, lang, structure) {
   let processedSections = [];
   let totalIssues = [];
   
+  // Use a unique file boundary marker that won't appear in content
+  const FILE_BOUNDARY = '\n<<<FILE_BOUNDARY_MARKER>>>\n';
+  
   try {
     switch (structure.type) {
       case 'multi-section':
         console.log(`   Processing ${tool.sections.length} sections...`);
-        for (const section of tool.sections) {
+        for (let i = 0; i < tool.sections.length; i++) {
+          const section = tool.sections[i];
           const sectionFile = `${section}.md`;
           const result = processSection(sectionFile, section, sourceDir);
           
           if (result.exists && result.content.trim()) {
-            // Add file separator ONLY between different files
+            // Add unique file separator ONLY between different files
             if (combinedContent.trim()) {
-              combinedContent += '\n---\n'; // File boundary marker
+              console.log(`   📎 Adding file boundary between sections`);
+              combinedContent += FILE_BOUNDARY;
             }
+            
+            console.log(`   ➕ Adding section ${i + 1}: ${section} (${result.content.length} chars)`);
             combinedContent += result.content;
             processedSections.push(section);
             debugSuccess(`${section}`, `${result.content.length} chars`);
@@ -9641,42 +9826,37 @@ function loadContentByStructure(tool, sourceDir, lang, structure) {
         break;
         
       case 'single-section':
-        console.log(`   Processing single section: ${tool.sections[0]}`);
-        const sectionFile = `${tool.sections[0]}.md`;
-        const result = processSection(sectionFile, tool.sections[0], sourceDir);
-        
-        if (result.exists && result.content.trim()) {
-          combinedContent = result.content; // No separators for single file
-          processedSections.push(tool.sections[0]);
-          debugSuccess(`${tool.sections[0]}`, `${result.content.length} chars`);
-        } else {
-          debugError(`Single section failed`, result.issues?.join('; ') || 'No content');
-          totalIssues.push(...(result.issues || ['Empty single section']));
-        }
-        break;
-        
       case 'single-file':
       case 'auto-detect':
-        console.log(`   Processing single file: ${structure.foundFile}`);
-        const filePath = path.join(sourceDir, structure.foundFile);
+        // Handle all single-file cases together
+        let filePath;
+        let sectionName;
+        
+        if (structure.type === 'single-section') {
+          sectionName = tool.sections[0];
+          filePath = path.join(sourceDir, `${sectionName}.md`);
+        } else {
+          sectionName = structure.foundFile.replace('.md', '');
+          filePath = path.join(sourceDir, structure.foundFile);
+        }
+        
+        console.log(`   Processing single file: ${filePath}`);
         
         if (fs.existsSync(filePath)) {
-          let content = fs.readFileSync(filePath, 'utf8');
+          // Use the same processing as multi-section for consistency
+          const result = processSection(path.basename(filePath), sectionName, sourceDir);
           
-          // Remove frontmatter if present
-          content = content.replace(/^(---|\+\+\+)\s*\n([\s\S]*?)\n\s*(---|\+\+\+)\s*/m, '');
-          
-          if (content.trim()) {
-            combinedContent = content; // No separators for single file
-            processedSections.push(structure.foundFile.replace('.md', ''));
-            debugSuccess(`${structure.foundFile}`, `${content.length} chars`);
+          if (result.exists && result.content.trim()) {
+            combinedContent = result.content; // No separators for single file
+            processedSections.push(sectionName);
+            debugSuccess(`${sectionName}`, `${result.content.length} chars`);
           } else {
-            debugError(`File ${structure.foundFile} is empty`);
-            totalIssues.push('File is empty after processing');
+            debugError(`Single file processing failed`, result.issues?.join('; ') || 'No content');
+            totalIssues.push(...(result.issues || ['Empty single file']));
           }
         } else {
-          debugError(`File not found: ${structure.foundFile}`);
-          totalIssues.push(`File not found: ${structure.foundFile}`);
+          debugError(`File not found: ${filePath}`);
+          totalIssues.push(`File not found: ${filePath}`);
         }
         break;
         
@@ -9685,25 +9865,15 @@ function loadContentByStructure(tool, sourceDir, lang, structure) {
         totalIssues.push('Unknown content structure');
     }
     
+    console.log(`\n📋 CONTENT LOADING SUMMARY:`);
+    console.log(`   Total combined length: ${combinedContent.length}`);
+    console.log(`   Sections processed: ${processedSections.length}`);
+    console.log(`   Combined content preview: "${combinedContent.substring(0, 200)}..."`);
+    console.log(`   Contains file boundaries: ${combinedContent.includes('<<<FILE_BOUNDARY_MARKER>>>')}`);
+    
   } catch (error) {
     debugError(`Content loading failed`, error);
     totalIssues.push(`Loading error: ${error.message}`);
-  }
-  
-  // Final validation
-  if (!combinedContent.trim()) {
-    console.log(`\n❌ NO CONTENT LOADED - DEBUGGING:`);
-    console.log(`   Structure type: ${structure.type}`);
-    console.log(`   Processed sections: ${processedSections.length}`);
-    console.log(`   Total issues: ${totalIssues.length}`);
-    console.log(`   Issues: ${totalIssues.join('; ')}`);
-    
-    if (structure.suggestions.length > 0) {
-      console.log(`\n💡 SUGGESTIONS:`);
-      structure.suggestions.forEach(suggestion => {
-        console.log(`   - ${suggestion}`);
-      });
-    }
   }
   
   return {
@@ -9711,6 +9881,41 @@ function loadContentByStructure(tool, sourceDir, lang, structure) {
     sections: processedSections,
     issues: totalIssues
   };
+}
+
+function protectContentSeparators(content) {
+  console.log(`\n🛡️  PROTECTING CONTENT SEPARATORS...`);
+  
+  const originalDashCount = (content.match(/---/g) || []).length;
+  console.log(`   Original '---' count: ${originalDashCount}`);
+  
+  // Replace standalone --- lines with a placeholder that won't be interpreted by markdown
+  // This regex matches --- on its own line (with optional whitespace)
+  const protectedContent = content.replace(/^(\s*)---(\s*)$/gm, '$1<<<CONTENT_SEPARATOR>>>$2');
+  
+  const protectedDashCount = (protectedContent.match(/---/g) || []).length;
+  const placeholderCount = (protectedContent.match(/<<<CONTENT_SEPARATOR>>>/g) || []).length;
+  
+  console.log(`   Protected separators: ${placeholderCount}`);
+  console.log(`   Remaining '---': ${protectedDashCount}`);
+  console.log(`   Content preview: "${protectedContent.substring(0, 200)}..."`);
+  
+  return protectedContent;
+}
+
+function restoreContentSeparators(html) {
+  console.log(`\n🔓 RESTORING CONTENT SEPARATORS...`);
+  
+  const placeholderCount = (html.match(/<<<CONTENT_SEPARATOR>>>/g) || []).length;
+  console.log(`   Placeholders to restore: ${placeholderCount}`);
+  
+  // Convert placeholders back to proper HTML horizontal rules
+  const restoredHTML = html.replace(/<<<CONTENT_SEPARATOR>>>/g, '<hr>');
+  
+  const finalHrCount = (restoredHTML.match(/<hr>/g) || []).length;
+  console.log(`   Final <hr> tags: ${finalHrCount}`);
+  
+  return restoredHTML;
 }
 
 // COMPLETE: Main processing function with ALL features + single file support
@@ -9767,7 +9972,8 @@ async function generateFinalPDFs() {
         
         // STEP 2: Enhanced content loading (NEW + ORIGINAL)
         const contentResult = loadContentByStructure(tool, sourceDir, lang, structure);
-        
+        validateContentAtEachStep(contentResult.content, "STEP 2: After Loading");
+
         if (!contentResult.content.trim()) {
           console.log(`\n❌ CONTENT LOADING FAILED - SKIPPING`);
           continue;
@@ -9824,14 +10030,42 @@ async function generateFinalPDFs() {
             console.log(`   Single document: No file breaks needed`);
             contentWithBreaks = contentResult.content;
           }
+
+          validateContentAtEachStep(contentWithBreaks, "STEP 1: After Page Breaks");
           
           // Step 2: Process images (ORIGINAL FEATURE)
           console.log(`\n🖼️  STEP 2: Processing images...`);
           const processedMarkdown = processImageReferences(contentWithBreaks, path.dirname(sourceDir));
-          
+          validateContentAtEachStep(processedMarkdown, "STEP 2: After Image Processing");
+
+          console.log(`\n🛡️  STEP 2.5: Protecting content separators...`);
+          const protectedMarkdown = protectContentSeparators(processedMarkdown);
+          validateContentAtEachStep(protectedMarkdown, "STEP 2.5: After Protection");
+
           // Step 3: Convert to HTML (ORIGINAL)
           console.log(`\n📝 STEP 3: Converting to HTML...`);
           let html = marked(processedMarkdown);
+          console.log(`\n🔍 HTML VALIDATION:`);
+          console.log(`   HTML length: ${html.length}`);
+          console.log(`   HTML preview: "${html.substring(0, 200)}..."`);
+          console.log(`   HTML contains '---': ${html.includes('---')}`);
+
+          // NEW STEP 3.5: Restore content separators after HTML conversion
+          console.log(`\n🔓 STEP 3.5: Restoring content separators...`);
+          html = restoreContentSeparators(html);
+
+          // CRITICAL: Save intermediate files for inspection
+          /*const debugDir = path.join(outputDir, 'debug');
+          if (!fs.existsSync(debugDir)) {
+            fs.mkdirSync(debugDir, { recursive: true });
+          }
+
+          fs.writeFileSync(path.join(debugDir, `${fileName}_1_loaded.md`), contentResult.content);
+          fs.writeFileSync(path.join(debugDir, `${fileName}_2_with_breaks.md`), contentWithBreaks);
+          fs.writeFileSync(path.join(debugDir, `${fileName}_3_with_images.md`), processedMarkdown);
+          fs.writeFileSync(path.join(debugDir, `${fileName}_4_final.html`), html);
+
+          console.log(`\n💾 DEBUG FILES SAVED to ${debugDir} - check these to see where content is lost!`);*/
           
           // Step 4: Enhanced section tracking (ORIGINAL FEATURE)
           console.log(`\n📚 STEP 4: Setting up section tracking...`);

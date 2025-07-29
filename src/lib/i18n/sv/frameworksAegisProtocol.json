@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "title": "Aegis-protokollet - Global säkerhetsövergång",
+    "description": "Ett omfattande ramverk för att transformera globala militära kapaciteter från verktyg för splittring till motorer för upptäckt och kosmisk väktarskap"
+  },
+  "guideCard": {
+    "title": "Ny med Aegis-protokollet?",
+    "description": "Börja med vår sammanfattning för skeptiker—som adresserar praktiska farhågor om militär transformation och planetärt försvar.",
+    "buttonText": "Läs sammanfattning för skeptiker"
+  },
+  "categories": {
+    "overview": "Översikt",
+    "foundation": "Grund",
+    "vision": "Vision och principer",
+    "implementation": "Implementeringsramverk",
+    "mechanics": "Kärnmekanik",
+    "action": "Handling och engagemang",
+    "strategic-briefings": "Strategiska genomgångar",
+    "resources": "Resurser"
+  },
+  "sections": {
+    "at-a-glance": "I korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning för skeptiker",
+    "introduction-vision": "Introduktion och vision",
+    "foundational-principles": "Grundläggande principer",
+    "integration-architecture": "GGF-integrationsarkitektur",
+    "historical-grounding": "Historisk grund",
+    "strategic-resilience": "Strategisk motståndskraft och motstånd",
+    "economic-modeling": "Ekonomisk övergångsmodellering",
+    "non-state-integration": "Integration av icke-statliga aktörer",
+    "implementation-phases": "De fyra implementeringsfaserna",
+    "three-pillars": "De tre pelarna",
+    "root-causes": "Att adressera grundorsaker",
+    "success-metrics": "Framgångsmått och mätning",
+    "faq": "Vanliga invändningar",
+    "taking-action": "Att agera",
+    "strategic-briefing-for-the-russian-federation": "Strategisk genomgång för Ryska federationen",
+    "the-china-engagement-strategy": "Kina-engagemangsstrategin",
+    "the-european-ally-briefing": "Den europeiska alliansgenomgången",
+    "the-global-south-partnership-proposal": "Partnerskapsförslaget för det globala söder",
+    "appendices": "Bilagor"
+  },
+  "sectionsShort": {
+    "at-a-glance": "I korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning",
+    "introduction-vision": "Introduktion",
+    "foundational-principles": "Principer",
+    "integration-architecture": "GGF-integration",
+    "historical-grounding": "Historiska exempel",
+    "strategic-resilience": "Strategisk motståndskraft",
+    "economic-modeling": "Ekonomisk modellering",
+    "non-state-integration": "Icke-statliga aktörer",
+    "implementation-phases": "Implementeringsfaser",
+    "three-pillars": "Tre pelare",
+    "root-causes": "Grundorsaker",
+    "success-metrics": "Framgångsmått",
+    "faq": "FAQ",
+    "taking-action": "Att agera",
+    "strategic-briefing-for-the-russian-federation": "Rysslandsstrategi",
+    "the-china-engagement-strategy": "Kinastrategi",
+    "the-european-ally-briefing": "Europeiska allierade",
+    "the-global-south-partnership-proposal": "Globala södern-partnerskap",
+    "appendices": "Bilagor"
+  },
+  "progress": {
+    "text": "Avsnitt {current} av {total}"
+  },
+  "navigation": {
+    "downloadPdf": "Ladda ner PDF-version",
+    "continueToFramework": "Fortsätt till fullständigt ramverk",
+    "previousSection": "Föregående avsnitt",
+    "nextSection": "Nästa avsnitt"
+  },
+  "languageFallback": {
+    "title": "Innehåll på ditt språk kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+  },
+  "loading": {
+    "text": "Laddar innehåll för säkerhetstransformationsramverk..."
+  },
+  "errors": {
+    "sectionNotFound": "Avsnitt \"{section}\" hittades inte",
+    "contentInDevelopment": "Detta innehåll utvecklas fortfarande."
+  }
+}

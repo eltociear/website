@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "title": "The Aegis Protocol - Global Security Transition",
+    "description": "A comprehensive framework for transforming global military capabilities from instruments of division into engines of discovery and cosmic guardianship"
+  },
+  "guideCard": {
+    "title": "New to the Aegis Protocol?",
+    "description": "Start with our executive summary for skeptics—addressing practical concerns about military transformation and planetary defense.",
+    "buttonText": "Read Executive Summary for Skeptics"
+  },
+  "categories": {
+    "overview": "Overview",
+    "foundation": "Foundation",
+    "vision": "Vision & Principles",
+    "implementation": "Implementation Framework",
+    "mechanics": "Core Mechanics",
+    "action": "Action & Engagement",
+    "strategic-briefings": "Strategic Briefings",
+    "resources": "Resources"
+  },
+  "sections": {
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary for Skeptics",
+    "introduction-vision": "Introduction & Vision",
+    "foundational-principles": "Foundational Principles",
+    "integration-architecture": "GGF Integration Architecture",
+    "historical-grounding": "Historical Grounding",
+    "strategic-resilience": "Strategic Resilience & Counter-Resistance",
+    "economic-modeling": "Economic Transition Modeling",
+    "non-state-integration": "Non-State Actor Integration",
+    "implementation-phases": "The Four Phases of Implementation",
+    "three-pillars": "The Three Pillars",
+    "root-causes": "Addressing Root Causes",
+    "success-metrics": "Success Metrics & Measurement",
+    "faq": "Frequently Asked Objections",
+    "taking-action": "Taking Action",
+    "strategic-briefing-for-the-russian-federation": "Strategic Briefing for the Russian Federation",
+    "the-china-engagement-strategy": "The China Engagement Strategy",
+    "the-european-ally-briefing": "The European Ally Briefing",
+    "the-global-south-partnership-proposal": "The Global South Partnership Proposal",
+    "appendices": "Appendices"
+  },
+  "sectionsShort": {
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary",
+    "introduction-vision": "Introduction",
+    "foundational-principles": "Principles",
+    "integration-architecture": "GGF Integration",
+    "historical-grounding": "Historical Examples",
+    "strategic-resilience": "Strategic Resilience",
+    "economic-modeling": "Economic Modeling",
+    "non-state-integration": "Non-State Actors",
+    "implementation-phases": "Implementation Phases",
+    "three-pillars": "Three Pillars",
+    "root-causes": "Root Causes",
+    "success-metrics": "Success Metrics",
+    "faq": "FAQ",
+    "taking-action": "Taking Action",
+    "strategic-briefing-for-the-russian-federation": "Russia Strategy",
+    "the-china-engagement-strategy": "China Strategy",
+    "the-european-ally-briefing": "European Allies",
+    "the-global-south-partnership-proposal": "Global South Partnership",
+    "appendices": "Appendices"
+  },
+  "progress": {
+    "text": "Section {current} of {total}"
+  },
+  "navigation": {
+    "downloadPdf": "Download PDF Version",
+    "continueToFramework": "Continue to Full Framework",
+    "previousSection": "Previous Section",
+    "nextSection": "Next Section"
+  },
+  "languageFallback": {
+    "title": "Content in your language coming soon",
+    "description": "This section is currently displayed in English until translation is complete."
+  },
+  "loading": {
+    "text": "Loading security transformation framework content..."
+  },
+  "errors": {
+    "sectionNotFound": "Section \"{section}\" not found",
+    "contentInDevelopment": "This content is still being developed."
+  }
+}
