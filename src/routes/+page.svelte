@@ -11,8 +11,6 @@
 
   let ref_ubtk = false;
 
-  $: ref_ubtk = $page.url.searchParams.get('ref') === 'ubtk';
-
   // Animation states
   let isVisible = false;
   let hoveredFramework = null;
@@ -28,6 +26,10 @@
   let quizResults = null;
   
   onMount(() => {
+    if (browser) {
+      ref_ubtk = $page.url.searchParams.get('ref') === 'ubtk';
+    }
+
     isMobile = window.innerWidth <= 768 || 'ontouchstart' in window;
     
     // Check if user has completed the quiz
