@@ -7,6 +7,11 @@
   import { onMount } from 'svelte';
   import { base } from '$app/paths';
   import { allFrameworks, getFrameworksByTier, getFrameworkBySlug } from '$lib/stores/frameworkNav.js';
+  import { page } from '$app/stores';
+
+  let ref_ubtk = false;
+
+  $: ref_ubtk = $page.url.searchParams.get('ref') === 'ubtk';
 
   // Animation states
   let isVisible = false;
@@ -146,6 +151,12 @@
   <meta name="description" content="{$t('home.subtitle')}" />
 </svelte:head>
 
+{#if ref_ubtk}
+  <div class="welcome-banner">
+    <p>Welcome, explorer from Unity Beyond the Known! The Aegis Protocol, featured below, is the GGF's blueprint for making that vision a reality.</p>
+  </div>
+{/if}
+
 <!-- Hero Section with Core Message -->
 <section class="hero-section">
   <div class="hero-container">
@@ -249,6 +260,74 @@
 
   </div>
 </section>
+
+{#if ref_ubtk}
+  <!-- Featured Framework: Aegis Protocol Section -->
+  <section class="featured-framework-section">
+    <div class="container">
+      <div class="featured-framework-container">
+        
+        <!-- Header -->
+        <div class="featured-header">
+          <h2 class="featured-title">{$t('home.featuredFramework.heading')}</h2>
+          <p class="featured-intro">{$t('home.featuredFramework.intro')}</p>
+        </div>
+
+        <!-- Content Grid -->
+        <div class="featured-content-grid">
+          
+          <!-- Left Column: Key Points -->
+          <div class="featured-points">
+            <div class="point-item">
+              <div class="point-icon">🌍</div>
+              <p class="point-text">{$t('home.featuredFramework.point1')}</p>
+            </div>
+            
+            <div class="point-item">
+              <div class="point-icon">🛰️</div>
+              <p class="point-text">{$t('home.featuredFramework.point2')}</p>
+            </div>
+            
+            <div class="point-item">
+              <div class="point-icon">⚖️</div>
+              <p class="point-text">{$t('home.featuredFramework.point3')}</p>
+            </div>
+            
+            <div class="point-item">
+              <div class="point-icon">🤝</div>
+              <p class="point-text">{$t('home.featuredFramework.point4')}</p>
+            </div>
+          </div>
+
+          <!-- Right Column: Highlight & CTA -->
+          <div class="featured-action">
+            <div class="highlight-box">
+              <div class="highlight-icon">⚡</div>
+              <p class="highlight-text">{$t('home.featuredFramework.highlight')}</p>
+            </div>
+            
+            <div class="cta-container">
+              <a 
+                href="https://www.globalgovernanceframeworks.org/frameworks/aegis-protocol"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="featured-cta-button"
+              >
+                {$t('home.featuredFramework.cta')}
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+              
+              <p class="cta-subtitle">{$t('home.featuredFramework.ctaSubtitle')}</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+{/if}
 
 <!-- Interactive Framework Constellation Section -->
 <section class="constellation-section">
@@ -553,6 +632,118 @@
 </section>
 
 <style>
+  /* Unity Beyond the Known Welcome Banner */
+  .welcome-banner {
+    background: linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #1e40af 100%);
+    color: white;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid rgba(251, 191, 36, 0.3);
+    box-shadow: 0 4px 20px rgba(30, 27, 75, 0.3);
+    animation: welcomeGlow 3s ease-in-out infinite alternate;
+  }
+
+  .welcome-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(251, 191, 36, 0.1), transparent);
+    animation: shimmer 3s infinite;
+  }
+
+  .welcome-banner::after {
+    content: '🌟';
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    animation: twinkle 2s ease-in-out infinite alternate;
+  }
+
+  .welcome-banner p {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.6;
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    padding-right: 3rem; /* Space for the star */
+  }
+
+  /* Subtle glow animation */
+  @keyframes welcomeGlow {
+    0% {
+      box-shadow: 0 4px 20px rgba(30, 27, 75, 0.3), 0 0 20px rgba(251, 191, 36, 0.2);
+    }
+    100% {
+      box-shadow: 0 6px 25px rgba(30, 27, 75, 0.4), 0 0 30px rgba(251, 191, 36, 0.3);
+    }
+  }
+
+  /* Shimmer effect */
+  @keyframes shimmer {
+    0% {
+      left: -100%;
+    }
+    50% {
+      left: 100%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+
+  /* Star twinkle */
+  @keyframes twinkle {
+    0% {
+      opacity: 0.6;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1.1);
+    }
+  }
+
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .welcome-banner {
+      padding: 1rem 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 0.75rem;
+    }
+
+    .welcome-banner p {
+      font-size: 1rem;
+      padding-right: 2.5rem;
+    }
+
+    .welcome-banner::after {
+      top: 0.75rem;
+      right: 1rem;
+      font-size: 1.25rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .welcome-banner {
+      padding: 0.875rem 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .welcome-banner p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+  }
+
   /* Base Styles */
   .container {
     max-width: 1200px;
@@ -776,6 +967,295 @@
     gap: 1rem;
     align-items: center;
     margin-bottom: 1.5rem;
+  }
+
+  /* Featured Framework Section */
+  .featured-framework-section {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+    color: white;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .featured-framework-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/stars-pattern.svg') repeat;
+    opacity: 0.1;
+    pointer-events: none;
+  }
+
+  .featured-framework-container {
+    position: relative;
+    z-index: 2;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+    border-radius: 1.5rem;
+    padding: 3rem;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  }
+
+  .featured-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .featured-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: none;
+  }
+
+  .featured-intro {
+    font-size: 1.25rem;
+    color: #e2e8f0;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .featured-content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    align-items: start;
+  }
+
+  @media (min-width: 1024px) {
+    .featured-content-grid {
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 4rem;
+    }
+  }
+
+  /* Featured Points */
+  .featured-points {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .point-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.03) 100%);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+  }
+
+  .point-item:hover {
+    transform: translateX(8px);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.06) 100%);
+    border-color: rgba(251, 191, 36, 0.3);
+  }
+
+  .point-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(251, 191, 36, 0.3);
+  }
+
+  .point-text {
+    color: #f1f5f9;
+    line-height: 1.6;
+    margin: 0;
+    font-size: 1.05rem;
+  }
+
+  /* Featured Action Column */
+  .featured-action {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .highlight-box {
+    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+    color: #1e293b;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(251, 191, 36, 0.3);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .highlight-box::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    transform: rotate(45deg);
+    animation: shine 3s infinite;
+  }
+
+  @keyframes shine {
+    0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+    50% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+    100% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+  }
+
+  .highlight-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .highlight-text {
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+  }
+
+  .cta-container {
+    text-align: center;
+    width: 100%;
+  }
+
+  .featured-cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+    border-radius: 0.75rem;
+    text-decoration: none;
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .featured-cta-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s ease;
+  }
+
+  .featured-cta-button:hover::before {
+    left: 100%;
+  }
+
+  .featured-cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px rgba(59, 130, 246, 0.4);
+    border-color: rgba(251, 191, 36, 0.5);
+  }
+
+  .featured-cta-button svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    transition: transform 0.3s ease;
+  }
+
+  .featured-cta-button:hover svg {
+    transform: translateX(4px);
+  }
+
+  .cta-subtitle {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #cbd5e1;
+    font-style: italic;
+    margin-bottom: 0;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .featured-framework-container {
+      padding: 2rem;
+    }
+
+    .featured-title {
+      font-size: 2rem;
+    }
+
+    .featured-intro {
+      font-size: 1.1rem;
+    }
+
+    .featured-content-grid {
+      gap: 2rem;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .featured-framework-container {
+      padding: 1.5rem;
+    }
+
+    .featured-title {
+      font-size: 1.75rem;
+    }
+
+    .featured-intro {
+      font-size: 1rem;
+    }
+
+    .point-item {
+      padding: 1rem;
+    }
+
+    .point-icon {
+      width: 35px;
+      height: 35px;
+      font-size: 1.25rem;
+    }
+
+    .point-text {
+      font-size: 0.95rem;
+    }
+
+    .highlight-box {
+      padding: 1.5rem;
+    }
+
+    .highlight-text {
+      font-size: 1rem;
+    }
+
+    .featured-cta-button {
+      padding: 0.875rem 1.5rem;
+      font-size: 1rem;
+    }
   }
 
   @media (min-width: 768px) {
