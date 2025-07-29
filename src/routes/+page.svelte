@@ -8,6 +8,7 @@
   import { base } from '$app/paths';
   import { allFrameworks, getFrameworksByTier, getFrameworkBySlug } from '$lib/stores/frameworkNav.js';
   import { page } from '$app/stores';
+  import { browser } from '$app/environment';
 
   let ref_ubtk = false;
 
