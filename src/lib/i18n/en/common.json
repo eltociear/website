@@ -8,7 +8,11 @@
       "defaultTitle": "Section Notice",
       "dismiss": "Dismiss",
       "frameworks": {
-        "text": "Note from the Founder: The core concepts and structure of this framework are in place, but it is currently undergoing a detailed revision to improve clarity, consistency, and alignment with our project's strategy. We appreciate your patience, and your feedback during this audit is invaluable."
+        "text": "Note from the Founder: The core concepts and structure of this framework are in place, but it is currently undergoing a detailed revision to improve clarity, consistency, and alignment with our project's strategy. We appreciate your patience, and your feedback during this audit is invaluable.",
+        "q42025redraft": "This framework is scheduled for a redraft in Q4 2025. The current drafted version does not correspond to our latest outline.",
+        "q22026redraft": "This framework is scheduled for a redraft in Q2 2026. The current drafted version does not correspond to our latest outline.",
+        "q32026redraft": "This framework is scheduled for a redraft in Q3 2026. The current drafted version does not correspond to our latest outline.",
+        "q42026redraft": "This framework is scheduled for a redraft in Q4 2026. The current drafted version does not correspond to our latest outline."
        }
     }
   },

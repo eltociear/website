@@ -5,6 +5,7 @@
   import { browser } from '$app/environment';
   import { invalidate } from '$app/navigation';
   import { base } from '$app/paths';
+  import SectionNotice from '$lib/components/SectionNotice.svelte';
   import FrameworkSidebar from '$lib/components/FrameworkSidebar.svelte';
      
   export let data;
@@ -13,6 +14,13 @@
     invalidate('app:locale');
   }
 </script>
+
+<SectionNotice 
+  type="warning" 
+  customContent={true}
+>
+  <p>{$t('common.notices.section.frameworks.q42026redraft')}</p>
+</SectionNotice>
 
 <div class="documentation-container">
   <FrameworkSidebar />

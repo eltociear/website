@@ -23,7 +23,7 @@
     <FrameworkComingSoon 
       frameworkName="millenniumProtocol"
       icon="🌌"
-      expectedQuarter="Q2 2030"
+      expectedQuarter="Q4 2026"
       themeColors={{
         primary: '#0891b2',
         secondary: '#0e7490', 

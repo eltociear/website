@@ -29,7 +29,7 @@
     <FrameworkComingSoon 
       frameworkName="wdip"
       icon="🧭"
-      expectedQuarter="Q2 2025"
+      expectedQuarter="Q2 2026"
       themeColors={{
         primary: '#7c3aed',
         secondary: '#a855f7', 

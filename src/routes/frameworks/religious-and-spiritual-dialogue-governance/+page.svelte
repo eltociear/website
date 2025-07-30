@@ -231,7 +231,7 @@
   type="warning" 
   customContent={true}
 >
-  <p>{$t('common.notices.section.frameworks.text')}</p>
+  <p>{$t('common.notices.section.frameworks.q32026redraft')}</p>
 </SectionNotice>
 
 {#if mounted}
