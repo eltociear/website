@@ -244,8 +244,9 @@
   "callToAction": {
     "heading": "Join Us in Building Better Governance",
     "text": "Whether you're a governance innovator, policy maker, or curious citizen, your perspective matters.",
-    "primaryButton": "Explore the Frameworks",
-    "secondaryButton": "Get Involved"
+    "primaryButton": "Read the Overview",
+    "secondaryButton": "Explore the Frameworks",
+    "tertiaryButton": "Get Involved"
   },
   "cta": "Explore the Frameworks",
   "overview": {

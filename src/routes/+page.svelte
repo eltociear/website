@@ -623,11 +623,14 @@
      <h2 class="final-cta-title">{$t('home.callToAction.heading')}</h2>
      <p class="final-cta-text">{$t('home.callToAction.text')}</p>
      <div class="final-cta-buttons">
-       <a href="{base}/frameworks" class="primary-cta-button">
+       <a href="{base}/overview" class="primary-cta-button">
          {$t('home.callToAction.primaryButton')}
        </a>
-       <a href="{base}/get-involved" class="secondary-cta-button">
+       <a href="{base}/frameworks" class="secondary-cta-button">
          {$t('home.callToAction.secondaryButton')}
+       </a>
+       <a href="{base}/get-involved" class="tertiary-cta-button">
+         {$t('home.callToAction.tertiaryButton')}
        </a>
      </div>
    </div>
@@ -2158,7 +2161,45 @@
     justify-content: center;
   }
 
+  /* PRIMARY BUTTON - Most important action (Read the Overview) */
   .primary-cta-button {
+    width: 100%;
+    max-width: 20rem;
+    display: inline-block;
+    background: linear-gradient(135deg, #2B4B8C 0%, #6B5CA5 100%);
+    color: white;
+    font-weight: 700;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(43, 75, 140, 0.3);
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .primary-cta-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s;
+  }
+
+  .primary-cta-button:hover::before {
+    left: 100%;
+  }
+
+  .primary-cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(43, 75, 140, 0.4);
+  }
+
+  /* SECONDARY BUTTON - Important secondary action (Explore the Frameworks) */
+  .secondary-cta-button {
     width: 100%;
     max-width: 20rem;
     display: inline-block;
@@ -2168,22 +2209,59 @@
     padding: 0.75rem 2rem;
     border-radius: 0.5rem;
     text-decoration: none;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(218, 165, 32, 0.2);
     transition: all 0.2s;
   }
 
-  .secondary-cta-button {
+  .secondary-cta-button:hover {
+    background-color: #B8860B;
+    color: #1e3a6b;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 10px rgba(218, 165, 32, 0.3);
+  }
+
+  /* TERTIARY BUTTON - Supportive action (Get Involved) */
+  .tertiary-cta-button {
     width: 100%;
     max-width: 20rem;
     display: inline-block;
-    background-color: transparent;
-    border: 2px solid #DAA520;
-    color: #DAA520;
+    background-color: white;
+    border: 2px solid #6B5CA5;
+    color: #6B5CA5;
     font-weight: 700;
     padding: 0.75rem 2rem;
     border-radius: 0.5rem;
     text-decoration: none;
     transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(107, 92, 165, 0.1);
+  }
+
+  .tertiary-cta-button:hover {
+    background-color: #6B5CA5;
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(107, 92, 165, 0.2);
+  }
+
+  /* Focus states for accessibility */
+  .primary-cta-button:focus-visible,
+  .secondary-cta-button:focus-visible,
+  .tertiary-cta-button:focus-visible,
+  .tertiary-cta-button-alt:focus-visible {
+    outline: 3px solid #DAA520;
+    outline-offset: 2px;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .primary-cta-button,
+    .secondary-cta-button,
+    .tertiary-cta-button,
+    .tertiary-cta-button-alt {
+      max-width: 100%;
+      padding: 0.875rem 1.5rem;
+      font-size: 0.95rem;
+    }
   }
 
   /* Animations */

@@ -244,8 +244,9 @@
   "callToAction": {
     "heading": "Var med och bygg bättre styrning",
     "text": "Oavsett om du är en styrningsinnovatör, beslutsfattare eller nyfiken medborgare så spelar ditt perspektiv roll.",
-    "primaryButton": "Utforska ramverken",
-    "secondaryButton": "Engagera dig"
+    "primaryButton": "Läs översikten",
+    "secondaryButton": "Utforska ramverken",
+    "tertiaryButton": "Engagera dig"
   },
   "cta": "Utforska ramverken",
   "overview": {
