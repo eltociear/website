@@ -212,13 +212,13 @@
   <meta property="og:title" content="The Kinship Protocol: Gender & Intersectional Justice Framework" />
   <meta property="og:description" content="Transforming global governance through intersectional justice - from decriminalization to economic equity to cultural transformation." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="{base}/images/frameworks/kinship-protocol-social.jpg" />
+  <meta property="og:image" content="{base}/images/frameworks/kinship-protocol-social.svg" />
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="The Kinship Protocol: Gender & Intersectional Justice" />
   <meta name="twitter:description" content="A comprehensive framework for intersectional justice in global governance. 🫂" />
-  <meta name="twitter:image" content="{base}/images/frameworks/kinship-protocol-social.jpg" />
+  <meta name="twitter:image" content="{base}/images/frameworks/kinship-protocol-social.svg" />
 </svelte:head>
 
 {#if mounted}
