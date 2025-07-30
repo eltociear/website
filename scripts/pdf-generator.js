@@ -59,6 +59,7 @@ Available categories:
 - regenerative-resources
 - great-transition
 - emergent-governance-protocol
+- ggf-overview
 
 Example: node tools-pdf-generator.js economic
   `);
@@ -113,7 +114,8 @@ const outputDirs = {
   'treaty-for-our-only-home': path.join(__dirname, '..', 'static', 'frameworks','tools', 'treaty-for-our-only-home'),
   'get-involved': path.join(__dirname, '..', 'static', 'get-involved'),
   'frameworks-foundation': path.join(__dirname, '..', 'static', 'downloads'),
-  'meta-governance': path.join(__dirname, '..', 'static', 'downloads')
+  'meta-governance': path.join(__dirname, '..', 'static', 'downloads'),
+  'ggf-overview': path.join(__dirname, '..', 'static', 'downloads')
 };
 
 // Validate category if provided
@@ -125,6 +127,59 @@ if (targetCategory && !Object.keys(outputDirs).includes(targetCategory)) {
 
 // Define tools to process
 const tools = [
+
+  // GGF Overview
+  {
+    name: 'executive-summary-for-the-skeptic',
+    category: 'ggf-overview',
+    fileNames: {
+      en: 'ggf-overview-executive-summary-en',
+      sv: 'ggf-overview-executive-summary-sv'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'overview', 'en'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'overview', 'sv')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'assets', 'pdf'),
+      sv: path.join(__dirname, '..', 'static', 'assets', 'pdf')
+    },
+    pageFooter: {
+      en: 'GGF Overview - Executive Summary for the Skeptic',
+      sv: 'GGF Översikt - Sammanfattning för skeptiker'
+    }
+  },
+
+  // Full framework
+  {
+    name: 'ggf-overview',
+    category: 'ggf-overview',
+    fileNames: {
+      en: 'ggf-complete-overview',
+      sv: 'ggf-komplett-översikt'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'overview', 'en'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'overview', 'sv')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'downloads', 'en'),
+      sv: path.join(__dirname, '..', 'static', 'downloads', 'sv')
+    },
+    pageFooter: {
+      en: 'GGF Overview',
+      sv: 'GGF Översikt'
+    },
+    sections: [
+      'introduction',
+      'ggf-vision',
+      'foundational-architecture',
+      'implementation-roadmap',
+      'thematic-clusters',
+      'living-system',
+      'invitation',
+    ]
+  },
 
   // Emergent Governance Protocol, Full framework
   {

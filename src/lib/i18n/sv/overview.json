@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "Global Governance Frameworks - En fullständig översikt",
+    "description": "En omfattande plan för att omvandla global styrning från krisskapande till regenerativ samordning"
+  },
+  "title": "Översikt över Global Governance Frameworks",
+  "subtitle": "En omfattande plan för att omvandla global styrning från krisskapande till regenerativ samordning",
+  "loading": {
+    "text": "Laddar en omfattande ramverksöversikt..."
+  },
+  "categories": {
+    "overview": "Översikt hem",
+    "quickStart": "Snabbstart",
+    "complete": "Fullständig översikt",
+    "reference": "Referensmaterial"
+  },
+  "sections": {
+    "index": "Översikt hem",
+    "executive-summary-for-the-skeptic": "Sammanfattning för skeptikern",
+    "at-a-glance": "I korthet",
+    "introduction": "Introduktion: Polykrisens utmaning",
+    "ggf-vision": "GGF-visionen: Ett nytt operativsystem",
+    "foundational-architecture": "Den grundläggande arkitekturen: Tre pelare",
+    "implementation-roadmap": "Implementeringsfärdplan: Fem nivåer",
+    "thematic-clusters": "Tematiska kluster: Kärnoperativsystem",
+    "living-system": "Hur allt hänger ihop: Ett levande system",
+    "invitation": "Inbjudan: Din roll i omvandlingen"
+  },
+  "sectionsShort": {
+    "index": "Översikt",
+    "executive-summary-for-the-skeptic": "Sammanfattning",
+    "at-a-glance": "I korthet",
+    "introduction": "Introduktion",
+    "ggf-vision": "GGF-visionen",
+    "foundational-architecture": "Tre pelare",
+    "implementation-roadmap": "Fem nivåer",
+    "thematic-clusters": "Operativsystem",
+    "living-system": "Levande system",
+    "invitation": "Din roll"
+  },
+  "guideCard": {
+    "title": "Är du ny till Global Governance Frameworks?",
+    "description": "Orientera dig med vår 1-minutsöversikt, eller läs det pragmatiska argumentet för beslutsfattare.",
+    "buttonTextPrimary": "Visa i korthet",
+    "buttonTextSecondary": "Läs sammanfattning för skeptikern"
+  },
+  "progress": {
+    "text": "Avsnitt {current} av {total}"
+  },
+  "navigation": {
+    "downloadPdf": "Ladda ner PDF-version",
+    "continueToOverview": "Fortsätt till den fullständiga översikten",
+    "previousSection": "Föregående avsnitt",
+    "nextSection": "Nästa avsnitt"
+  },
+  "languageFallback": {
+    "title": "Innehåll på ditt språk kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+  },
+  "errors": {
+    "sectionNotFound": "Avsnittet \"{section}\" hittades inte",
+    "contentInDevelopment": "Detta innehåll är fortfarande under utveckling."
+  }
+}

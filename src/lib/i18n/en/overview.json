@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "Global Governance Frameworks - Complete Overview",
+    "description": "A comprehensive blueprint for transforming global governance from crisis generation to regenerative coordination"
+  },
+  "title": "Global Governance Frameworks Overview",
+  "subtitle": "A comprehensive blueprint for transforming global governance from crisis generation to regenerative coordination",
+  "loading": {
+    "text": "Loading comprehensive framework overview..."
+  },
+  "categories": {
+    "overview": "Overview Home",
+    "quickStart": "Quick Start",
+    "complete": "Complete Overview",
+    "reference": "Reference Materials"
+  },
+  "sections": {
+    "index": "Overview Home",
+    "executive-summary-for-the-skeptic": "Executive Summary for the Skeptic",
+    "at-a-glance": "At a Glance",
+    "introduction": "Introduction: The Challenge of the Polycrisis",
+    "ggf-vision": "The GGF Vision: A New Operating System",
+    "foundational-architecture": "The Foundational Architecture: Three Pillars",
+    "implementation-roadmap": "Implementation Roadmap: Five Tiers",
+    "thematic-clusters": "Thematic Clusters: Core Operating Systems",
+    "living-system": "How It All Connects: A Living System",
+    "invitation": "The Invitation: Your Role in the Transformation"
+  },
+  "sectionsShort": {
+    "index": "Overview",
+    "executive-summary-for-the-skeptic": "Executive Summary",
+    "at-a-glance": "At a Glance",
+    "introduction": "Introduction",
+    "ggf-vision": "GGF Vision",
+    "foundational-architecture": "Three Pillars",
+    "implementation-roadmap": "Five Tiers",
+    "thematic-clusters": "Operating Systems",
+    "living-system": "Living System",
+    "invitation": "Your Role"
+  },
+  "guideCard": {
+    "title": "New to the Global Governance Frameworks?",
+    "description": "Get oriented with our 1-minute overview, or read the pragmatic case for decision-makers.",
+    "buttonTextPrimary": "View At a Glance",
+    "buttonTextSecondary": "Read Summary for Skeptics"
+  },
+  "progress": {
+    "text": "Section {current} of {total}"
+  },
+  "navigation": {
+    "downloadPdf": "Download PDF Version",
+    "continueToOverview": "Continue to Full Overview",
+    "previousSection": "Previous Section",
+    "nextSection": "Next Section"
+  },
+  "languageFallback": {
+    "title": "Content in your language coming soon",
+    "description": "This section is currently displayed in English until translation is complete."
+  },
+  "errors": {
+    "sectionNotFound": "Section \"{section}\" not found",
+    "contentInDevelopment": "This content is still being developed."
+  }
+}

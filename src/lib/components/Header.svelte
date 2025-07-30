@@ -1242,6 +1242,15 @@
               {browser ? ($t('common.header.home') || 'Home') : 'Home'}
             </a>
           </li>
+          <li class="nav-item">
+            <a 
+              href="{base}/overview"
+              class={`nav-link ${isActive('/overview') || isActive('') ? 'active' : ''}`}
+              data-sveltekit-preload-data="hover"
+            >
+              {browser ? ($t('common.header.overview') || 'Overview') : 'Overview'}
+            </a>
+          </li>
 
           <!-- Single Frameworks Dropdown with Hierarchical Structure -->
           <li class="nav-item dropdown" class:open={isFrameworksDropdownOpen}>
