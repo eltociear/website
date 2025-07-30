@@ -1,6 +1,6 @@
 {
   "title": "Downloads",
-  "metaDescription": "Download PDF resources from the Global Governance Framework",
+  "metaDescription": "Download PDF resources from the Global Governance Frameworks",
   "hero": {
     "title": "Downloads & Resources",
     "subtitle": "Framework documentation and resources in downloadable formats"
@@ -25,7 +25,7 @@
     },
     "resources": {
       "title": "Resources",
-      "description": "Books, tools, organizations, and other resources for further exploration of the Global Governance Framework concepts."
+      "description": "Books, tools, organizations, and other resources for further exploration of the Global Governance Frameworks concepts."
     }
   },
   "globalCitizenship": {
@@ -39,6 +39,11 @@
       "title": "4-Page Summary",
       "description": "A concise overview of the Global Citizenship Framework, perfect for quick reference or introduction to the concepts."
     }
+  },
+  "errors": {
+    "title": "File Not Available",
+    "fileUnavailable": "The document \"{filename}\" is not yet available in {language}. We're working to make all documents available in multiple languages.",
+    "suggestion": "Try switching to English if available, or contact us if you need this document urgently."
   },
   "implementationFrameworks": {
     "title": "Domain-Specific Implementation Frameworks",
@@ -71,6 +76,10 @@
     "shieldProtocol": {
       "title": "The Shield Protocol",
       "description": "A comprehensive framework for eradicating transnational crime through coordinated intelligence, enforcement, and community-controlled oversight with developmental rehabilitation approaches."
+    },
+    "kinshipProtocol": {
+      "title": "The Kinship Protocol: Gender & Intersectional Justice",
+      "description": "A comprehensive framework for embedding intersectional justice directly into global governance, ensuring all genders and identities have institutionalized power in shaping our collective future."
     },
     "digital": {
       "title": "Digital Commons",

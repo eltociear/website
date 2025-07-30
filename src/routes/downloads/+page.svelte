@@ -2,20 +2,101 @@
 <script>
   import { t, locale, setLocale } from '$lib/i18n';
   import { base } from '$app/paths';
+  import { browser } from '$app/environment';
 
-  // Subscribe to stores (optional, but helps avoid direct $ usage in script)
+  // Subscribe to stores
   $: currentT = $t;
   $: currentLocale = $locale;
 
-  // Define PDF links (now using `currentLocale` instead of `$locale`)
+  // Define PDF links
   const getPdfPath = (docName) => {
     return `${base}/downloads/${currentLocale}/${docName}.pdf`;
   };
 
-  // Helper function (now using `currentLocale` instead of `$locale`)
+  // Helper function for language button styling
   function getLanguageButtonStyle(lang) {
     const isActive = currentLocale === lang;
     return `padding: 0.5rem 1rem; border-radius: 0.375rem; border: 1px solid #e5e7eb; background-color: ${isActive ? '#2B4B8C' : 'white'}; color: ${isActive ? 'white' : '#2B4B8C'}; font-weight: 500; text-decoration: none;`;
+  }
+
+  // Enhanced download function with error handling
+  async function handleDownload(event, docName) {
+    event.preventDefault();
+    
+    if (!browser) return;
+    
+    const pdfPath = getPdfPath(docName);
+    
+    try {
+      // Check if file exists
+      const response = await fetch(pdfPath, { method: 'HEAD' });
+      
+      if (response.ok) {
+        // File exists, proceed with download
+        const link = document.createElement('a');
+        link.href = pdfPath;
+        link.download = `${docName}.pdf`;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      } else {
+        // File doesn't exist, show graceful error
+        showFileUnavailableMessage(docName);
+      }
+    } catch (error) {
+      // Network error or other issue
+      showFileUnavailableMessage(docName);
+    }
+  }
+
+  function showFileUnavailableMessage(docName) {
+    const message = currentT('downloads.errors.fileUnavailable', { 
+      filename: docName,
+      language: currentLocale === 'en' ? 'English' : 'Svenska'
+    });
+    
+    // Create and show a temporary notification
+    const notification = document.createElement('div');
+    notification.className = 'file-unavailable-notification';
+    notification.innerHTML = `
+      <div style="
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background-color: #fef3c7;
+        border: 1px solid #f59e0b;
+        color: #92400e;
+        padding: 1rem 1.5rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        max-width: 400px;
+        font-size: 0.9rem;
+        line-height: 1.4;
+      ">
+        <div style="display: flex; align-items: start; gap: 0.5rem;">
+          <div style="color: #f59e0b; font-size: 1.2rem;">⚠️</div>
+          <div>
+            <div style="font-weight: 600; margin-bottom: 0.25rem;">
+              ${currentT('downloads.errors.title')}
+            </div>
+            <div>${message}</div>
+            <div style="margin-top: 0.5rem; font-size: 0.8rem;">
+              ${currentT('downloads.errors.suggestion')}
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+    
+    document.body.appendChild(notification);
+    
+    // Remove notification after 8 seconds
+    setTimeout(() => {
+      if (notification.parentNode) {
+        notification.parentNode.removeChild(notification);
+      }
+    }, 8000);
   }
 </script>
 
@@ -228,12 +309,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #2B4B8C;">{$t('downloads.cards.treaty.title')}</h2>
             <p class="card-description">{$t('downloads.cards.treaty.description')}</p>
-            <a href={getPdfPath('Treaty-for-Our-Only-Home')} download class="download-button" style="background-color: #DAA520; color: #2B4B8C;">
+            <button on:click={(e) => handleDownload(e, 'Treaty-for-Our-Only-Home')} class="download-button" style="background-color: #DAA520; color: #2B4B8C;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -243,12 +324,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #B8860B;">{$t('downloads.cards.principles.title')}</h2>
             <p class="card-description">{$t('downloads.cards.principles.description')}</p>
-            <a href={getPdfPath('Core-Principles')} download class="download-button" style="background-color: #2B4B8C;">
+            <button on:click={(e) => handleDownload(e, 'Core-Principles')} class="download-button" style="background-color: #2B4B8C;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
         
@@ -258,12 +339,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #B8860B;">{$t('downloads.cards.implementation.title')}</h2>
             <p class="card-description">{$t('downloads.cards.implementation.description')}</p>
-            <a href={getPdfPath('Implementation-Guidelines')} download class="download-button" style="background-color: #2D5F2D;">
+            <button on:click={(e) => handleDownload(e, 'Implementation-Guidelines')} class="download-button" style="background-color: #2D5F2D;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
         
@@ -273,12 +354,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #B8860B;">{$t('downloads.cards.caseStudies.title')}</h2>
             <p class="card-description">{$t('downloads.cards.caseStudies.description')}</p>
-            <a href={getPdfPath('Case-Studies')} download class="download-button" style="background-color: #DAA520;">
+            <button on:click={(e) => handleDownload(e, 'Case-Studies')} class="download-button" style="background-color: #DAA520;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
         
@@ -288,12 +369,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #B8860B;">{$t('downloads.cards.resources.title')}</h2>
             <p class="card-description">{$t('downloads.cards.resources.description')}</p>
-            <a href={getPdfPath('Resources')} download class="download-button" style="background-color: #6B5CA5;">
+            <button on:click={(e) => handleDownload(e, 'Resources')} class="download-button" style="background-color: #6B5CA5;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
       </div>
@@ -311,12 +392,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #2B4B8C;">{$t('downloads.globalCitizenship.full.title')}</h2>
             <p class="card-description">{$t('downloads.globalCitizenship.full.description')}</p>
-            <a href={getPdfPath('Global-Citizenship')} download class="download-button" style="background-color: #2B4B8C;">
+            <button on:click={(e) => handleDownload(e, 'Global-Citizenship')} class="download-button" style="background-color: #2B4B8C;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
         
@@ -326,12 +407,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #DAA520;">{$t('downloads.globalCitizenship.summary.title')}</h2>
             <p class="card-description">{$t('downloads.globalCitizenship.summary.description')}</p>
-            <a href={getPdfPath('Global-Citizenship-4-page-overview')} download class="download-button" style="background-color: #DAA520;">
+            <button on:click={(e) => handleDownload(e, 'Global-Citizenship-4-page-overview')} class="download-button" style="background-color: #DAA520;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
       </div>
@@ -361,12 +442,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #4c1d95;">{$t('downloads.implementationFrameworks.emergentGovernance.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.emergentGovernance.description')}</p>
-            <a href={getPdfPath('Emergent-Governance-Protocol-Framework')} download class="download-button" style="background-color: #4c1d95;">
+            <button on:click={(e) => handleDownload(e, 'Emergent-Governance-Protocol-Framework')} class="download-button" style="background-color: #4c1d95;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -376,12 +457,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #B8860B;">{$t('downloads.implementationFrameworks.meta.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.meta.description')}</p>
-            <a href={getPdfPath('Meta-Governance')} download class="download-button" style="background-color: #5E4B8B;">
+            <button on:click={(e) => handleDownload(e, 'Meta-Governance')} class="download-button" style="background-color: #5E4B8B;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -391,12 +472,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #B8860B;">{$t('downloads.implementationFrameworks.indigenous.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.indigenous.description')}</p>
-            <a href={getPdfPath('Indigenous-&-Traditional-Knowledge-Framework')} download class="download-button" style="background-color: #1c2b1a;">
+            <button on:click={(e) => handleDownload(e, 'Indigenous-&-Traditional-Knowledge-Framework')} class="download-button" style="background-color: #1c2b1a;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -406,12 +487,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #6B46C1;">{$t('downloads.implementationFrameworks.moralOperatingSystem.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.moralOperatingSystem.description')}</p>
-            <a href={getPdfPath('Moral-Operating-System-Framework')} download class="download-button" style="background-color: #6B46C1;">
+            <button on:click={(e) => handleDownload(e, 'Moral-Operating-System-Framework')} class="download-button" style="background-color: #6B46C1;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -421,12 +502,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #1e40af;">{$t('downloads.implementationFrameworks.justiceSystems.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.justiceSystems.description')}</p>
-            <a href={getPdfPath('Justice-Systems-Framework')} download class="download-button" style="background-color: #1e40af;">
+           <button on:click={(e) => handleDownload(e, 'Justice-Systems-Framework')} class="download-button" style="background-color: #1e40af;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -436,12 +517,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #1E3A8A;">{$t('downloads.implementationFrameworks.shieldProtocol.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.shieldProtocol.description')}</p>
-            <a href={getPdfPath('Shield-Protocol-Framework')} download class="download-button" style="background-color: #1E3A8A;">
+            <button on:click={(e) => handleDownload(e, 'Shield-Protocol-Framework')} class="download-button" style="background-color: #1E3A8A;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -451,12 +532,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #1e40af;">{$t('downloads.implementationFrameworks.aegisProtocol.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.aegisProtocol.description')}</p>
-            <a href={getPdfPath('Aegis-Protocol-Framework')} download class="download-button" style="background-color: #1e40af;">
+            <button on:click={(e) => handleDownload(e, 'Aegis-Protocol-Framework')} class="download-button" style="background-color: #1e40af;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -466,12 +547,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #1e3a8a;">{$t('downloads.implementationFrameworks.planetaryHealth.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.planetaryHealth.description')}</p>
-            <a href={getPdfPath('Planetary-Health-Governance-Framework')} download class="download-button" style="background-color: #1e3a8a;">
+            <button on:click={(e) => handleDownload(e, 'Planetary-Health-Governance-Framework')} class="download-button" style="background-color: #1e3a8a;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -481,12 +562,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #dc2626;">{$t('downloads.implementationFrameworks.globalHealth.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.globalHealth.description')}</p>
-            <a href={getPdfPath('Global-Health-&-Pandemic-Security-Framework')} download class="download-button" style="background-color: #dc2626;">
+            <button on:click={(e) => handleDownload(e, 'Global-Health-&-Pandemic-Security-Framework')} class="download-button" style="background-color: #dc2626;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -496,12 +577,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #B8860B;">{$t('downloads.implementationFrameworks.foodSystems.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.foodSystems.description')}</p>
-            <a href={getPdfPath('Food-Agriculture')} download class="download-button" style="background-color: #2e7d32;">
+            <button on:click={(e) => handleDownload(e, 'Food-Agriculture')} class="download-button" style="background-color: #2e7d32;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -511,12 +592,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #B8860B;">{$t('downloads.implementationFrameworks.peace.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.peace.description')}</p>
-            <a href={getPdfPath('Peace-Conflict-Resolution')} download class="download-button" style="background-color: #6B5CA5;">
+            <button on:click={(e) => handleDownload(e, 'Peace-Conflict-Resolution')} class="download-button" style="background-color: #6B5CA5;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -526,12 +607,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #3A6EA5;">{$t('downloads.implementationFrameworks.financialSystems.title', 'Financial Systems Framework')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.financialSystems.description', 'A comprehensive framework for implementing financial systems that prioritize human and ecological flourishing, including the Hearts currency system, Love Ledger, and tools for equitable resource distribution.')}</p>
-            <a href={getPdfPath('Financial-Systems-Framework')} download class="download-button" style="background-color: #3A6EA5;">
+            <button on:click={(e) => handleDownload(e, 'Financial-Systems-Framework')} class="download-button" style="background-color: #3A6EA5;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -541,12 +622,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #B8860B;">{$t('downloads.implementationFrameworks.workInLiberation.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.workInLiberation.description')}</p>
-            <a href={getPdfPath('Work-in-Liberation-Framework')} download class="download-button" style="background-color: #2C5282;">
+            <button on:click={(e) => handleDownload(e, 'Work-in-Liberation-Framework')} class="download-button" style="background-color: #2C5282;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -556,12 +637,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #B8860B;">{$t('downloads.implementationFrameworks.economic.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.economic.description')}</p>
-            <a href={getPdfPath('Economic-Integration')} download class="download-button" style="background-color: #B8860B;">
+            <button on:click={(e) => handleDownload(e, 'Economic-Integration')} class="download-button" style="background-color: #B8860B;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -571,12 +652,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #B8860B;">{$t('downloads.implementationFrameworks.gaianTrade.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.gaianTrade.description')}</p>
-            <a href={getPdfPath('Gaian-Trade-Framework')} download class="download-button" style="background-color: #2E7D32;">
+            <button on:click={(e) => handleDownload(e, 'Gaian-Trade-Framework')} class="download-button" style="background-color: #2E7D32;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -586,12 +667,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #B8860B;">{$t('downloads.implementationFrameworks.technology.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.technology.description')}</p>
-            <a href={getPdfPath('Technology-Governance-Framework')} download class="download-button" style="background-color: #4B8AC2;">
+            <button on:click={(e) => handleDownload(e, 'Technology-Governance-Framework')} class="download-button" style="background-color: #4B8AC2;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -601,12 +682,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #2D5C40;">{$t('downloads.implementationFrameworks.regenerativeEnterprise.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.regenerativeEnterprise.description')}</p>
-            <a href={getPdfPath('Regenerative-Enterprise-Framework')} download class="download-button" style="background-color: #2D5C40;">
+            <button on:click={(e) => handleDownload(e, 'Regenerative-Enterprise-Framework')} class="download-button" style="background-color: #2D5C40;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -616,12 +697,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #1565C0;">{$t('downloads.implementationFrameworks.aethelredAccord.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.aethelredAccord.description')}</p>
-            <a href={getPdfPath('Aethelred-Accord-Biotechnology-Governance')} download class="download-button" style="background-color: #1565C0;">
+            <button on:click={(e) => handleDownload(e, 'Aethelred-Accord-Biotechnology-Governance')} class="download-button" style="background-color: #1565C0;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -631,12 +712,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #B8860B;">{$t('downloads.implementationFrameworks.environment.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.environment.description')}</p>
-            <a href={getPdfPath('Environmental-Stewardship-Framework')} download class="download-button" style="background-color: #2D5F2D;">
+            <button on:click={(e) => handleDownload(e, 'Environmental-Stewardship-Framework')} class="download-button" style="background-color: #2D5F2D;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -646,12 +727,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #B8860B;">{$t('downloads.implementationFrameworks.climateEnergy.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.climateEnergy.description')}</p>
-            <a href={getPdfPath('Climate-Energy-Governance')} download class="download-button" style="background-color: #2C8A78;">
+            <button on:click={(e) => handleDownload(e, 'Climate-Energy-Governance')} class="download-button" style="background-color: #2C8A78;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -661,12 +742,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #0369a1;">{$t('downloads.implementationFrameworks.water.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.water.description')}</p>
-            <a href={getPdfPath('Water-&-Sanitation-Framework')} download class="download-button" style="background-color: #0369a1;">
+            <button on:click={(e) => handleDownload(e, 'Water-&-Sanitation-Framework')} class="download-button" style="background-color: #0369a1;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -676,12 +757,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #2d5016;">{$t('downloads.implementationFrameworks.biodiversity.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.biodiversity.description')}</p>
-            <a href={getPdfPath('Biodiversity-Framework')} download class="download-button" style="background-color: #2d5016;">
+            <button on:click={(e) => handleDownload(e, 'Biodiversity-Framework')} class="download-button" style="background-color: #2d5016;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -691,12 +772,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #1e40af;">{$t('downloads.implementationFrameworks.animalWelfare.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.animalWelfare.description')}</p>
-            <a href={getPdfPath('Animal-Welfare-Framework')} download class="download-button" style="background-color: #1e40af;">
+            <button on:click={(e) => handleDownload(e, 'Animal-Welfare-Framework')} class="download-button" style="background-color: #1e40af;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -706,12 +787,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #B8860B;">{$t('downloads.implementationFrameworks.education.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.education.description')}</p>
-            <a href={getPdfPath('Educational-Systems')} download class="download-button" style="background-color: #3f51b5;">
+            <button on:click={(e) => handleDownload(e, 'Educational-Systems')} class="download-button" style="background-color: #3f51b5;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -721,12 +802,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #1e3a8a;">{$t('downloads.implementationFrameworks.mentalHealth.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.mentalHealth.description')}</p>
-            <a href={getPdfPath('Mental-Health-Framework')} download class="download-button" style="background-color: #1e3a8a;">
+            <button on:click={(e) => handleDownload(e, 'Mental-Health-Framework')} class="download-button" style="background-color: #1e3a8a;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -736,12 +817,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #1e40af;">{$t('downloads.implementationFrameworks.synopticProtocol.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.synopticProtocol.description')}</p>
-            <a href={getPdfPath('Synoptic-Protocol-Framework')} download class="download-button" style="background-color: #1e40af;">
+            <button on:click={(e) => handleDownload(e, 'Synoptic-Protocol-Framework')} class="download-button" style="background-color: #1e40af;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -751,12 +832,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #ea580c;">{$t('downloads.implementationFrameworks.hearthstoneProtocol.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.hearthstoneProtocol.description')}</p>
-            <a href={getPdfPath('Hearthstone-Protocol-Framework')} download class="download-button" style="background-color: #ea580c;">
+            <button on:click={(e) => handleDownload(e, 'Hearthstone-Protocol-Framework')} class="download-button" style="background-color: #ea580c;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -766,12 +847,27 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #0369a1;">{$t('downloads.implementationFrameworks.conduitProtocol.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.conduitProtocol.description')}</p>
-            <a href={getPdfPath('Conduit-Protocol-Framework')} download class="download-button" style="background-color: #0369a1;">
+            <button on:click={(e) => handleDownload(e, 'Conduit-Protocol-Framework')} class="download-button" style="background-color: #0369a1;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
+          </div>
+        </div>
+
+        <!-- Kinship Protocol Framework -->
+        <div class="download-card" style="background-color: #fef7ff; border: 1px solid #f3e8ff;">
+          <div class="card-emoji" style="color: #7c3aed;">🏳️‍🌈</div>
+          <div class="card-content">
+            <h2 class="card-title" style="color: #7c3aed;">{$t('downloads.implementationFrameworks.kinshipProtocol.title')}</h2>
+            <p class="card-description">{$t('downloads.implementationFrameworks.kinshipProtocol.description')}</p>
+            <button on:click={(e) => handleDownload(e, 'Kinship-Protocol-Framework')} class="download-button" style="background-color: #7c3aed;">
+              {$t('downloads.downloadButton')}
+              <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
+            </button>
           </div>
         </div>
 
@@ -781,12 +877,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #6d28d9;">{$t('downloads.implementationFrameworks.digital.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.digital.description')}</p>
-            <a href={getPdfPath('Digital-Commons-Framework')} download class="download-button" style="background-color: #6d28d9;">
+            <button on:click={(e) => handleDownload(e, 'Digital-Commons-Framework')} class="download-button" style="background-color: #6d28d9;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -796,12 +892,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #B8860B;">{$t('downloads.implementationFrameworks.spiritual.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.spiritual.description')}</p>
-            <a href={getPdfPath('Spiritual-Dialogue')} download class="download-button" style="background-color: #9B6A8F;">
+            <button on:click={(e) => handleDownload(e, 'Spiritual-Dialogue')} class="download-button" style="background-color: #9B6A8F;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -811,12 +907,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #7c2d12;">{$t('downloads.implementationFrameworks.aging.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.aging.description')}</p>
-            <a href={getPdfPath('Aging-Population-Support-Framework')} download class="download-button" style="background-color: #7c2d12;">
+            <button on:click={(e) => handleDownload(e, 'Aging-Population-Support-Framework')} class="download-button" style="background-color: #7c2d12;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -826,12 +922,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #4c1d95;">{$t('downloads.implementationFrameworks.consciousness.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.consciousness.description')}</p>
-            <a href={getPdfPath('Consciousness-Inner-Development-Framework')} download class="download-button" style="background-color: #4c1d95;">
+            <button on:click={(e) => handleDownload(e, 'Consciousness-Inner-Development-Framework')} class="download-button" style="background-color: #4c1d95;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -841,12 +937,12 @@
           <div class="card-content">
             <h2 class="card-title" style="color: #B8860B;">{$t('downloads.implementationFrameworks.methods-tools.title')}</h2>
             <p class="card-description">{$t('downloads.implementationFrameworks.methods-tools.description')}</p>
-            <a href={getPdfPath('Methods-Tools')} download class="download-button" style="background-color: #2D8F85;">
+            <button on:click={(e) => handleDownload(e, 'Methods-Tools')} class="download-button" style="background-color: #2D8F85;">
               {$t('downloads.downloadButton')}
               <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
       </div>

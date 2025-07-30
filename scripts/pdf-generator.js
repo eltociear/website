@@ -40,6 +40,7 @@ Available categories:
 - animal-welfare-governance 
 - water-and-sanitation-governance
 - indigenous-governance-and-traditional-knowledge
+- kinship-protocol
 - mental-health-governance
 - moral-operating-system
 - treaty-for-our-only-home
@@ -88,6 +89,7 @@ const outputDirs = {
   'biodiversity-governance': path.join(__dirname, '..', 'static', 'frameworks', 'tools', 'biodiversity-governance'),
   'planetary-health-governance': path.join(__dirname, '..', 'static', 'frameworks', 'tools', 'planetary-health-governance'),
   'global-health-and-pandemic-security': path.join(__dirname, '..', 'static', 'frameworks', 'tools', 'global-health-and-pandemic-security'),
+  'kinship-protocol': path.join(__dirname, '..', 'static', 'frameworks', 'tools', 'kinship-protocol'),
   'mental-health-governance': path.join(__dirname, '..', 'static', 'frameworks', 'tools', 'mental-health-governance'),
   'moral-operating-system': path.join(__dirname, '..', 'static', 'frameworks', 'tools', 'moral-operating-system'),
   'aethelred-accord': path.join(__dirname, '..', 'static', 'frameworks', 'tools', 'aethelred-accord'),
@@ -590,6 +592,68 @@ const tools = [
       'case-studies',
       'getting-started',
       'conclusion',
+      'appendices'
+    ]
+  },
+
+  // Kinship Protocol
+  {
+    name: 'executive-summary-for-the-skeptic',
+    category: 'kinship-protocol',
+    fileNames: {
+      en: 'kinship-protocol-executive-summary-en',
+      sv: 'kinship-protocol-executive-summary-sv'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'kinship-protocol'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'kinship-protocol')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'assets', 'pdf'),
+      sv: path.join(__dirname, '..', 'static', 'assets', 'pdf')
+    },
+    pageFooter: {
+      en: 'Kinship Protocol - Executive Summary for the Skeptic',
+      sv: 'Kinship-protokollet - Sammanfattning för skeptiker'
+    }
+  },
+
+  // Full framework
+  {
+    name: 'kinship-protocol-framework',
+    category: 'kinship-protocol',
+    fileNames: {
+      en: 'Kinship-Protocol-Framework',
+      sv: 'Kinship-Protocol-Framework'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'kinship-protocol'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'kinship-protocol')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'downloads', 'en'),
+      sv: path.join(__dirname, '..', 'static', 'downloads', 'sv')
+    },
+    pageFooter: {
+      en: 'Kinship Protocol',
+      sv: 'Kinship-protokollet'
+    },
+    sections: [
+      'index',
+      'introduction-vision',
+      'core-principles',
+      'integration-architecture',
+      'functional-pillars',
+      'implementation-roadmap',
+      'success-metrics',
+      'global-south-leadership',
+      'cultural-transformation',
+      'economic-justice',
+      'digital-rights',
+      'crisis-response',
+      'kinship-festival',
+      'faq',
+      'taking-action',
       'appendices'
     ]
   },

@@ -38,17 +38,18 @@ export const socialEquityEntities: GgfEntity[] = [
     shortName: 'Gender & Kinship',
     description: 'Framework ensuring gender equality and LGBTQ+ rights with intersectional approach',
     tier: 3,
-    status: 'Planned',
+    status: 'Ready',
     primaryDomain: 'Justice',
     geographicScope: 'Global',
     implementationPriority: 'Medium',
     dependencies: ['framework_justice'],
     enables: ['council_gkjc'],
     ui: {
-      path: '/frameworks/gender-equality-and-lgbtq-rights',
-      titleKey: 'framework.docs.nav.frameworkTitles.genderEqualityAndLgbtqRights',
-      emoji: '🏳️‍🌈',
-      slug: 'gender-equality-and-lgbtq-rights'
+      path: '/frameworks/kinship-protocol',
+      titleKey: 'framework.docs.nav.frameworkTitles.kinshipProtocol',
+      emoji: '🫂',
+      version: '1.0',
+      slug: 'kinship-protocol'
     }
   },
   {

@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "title": "The Kinship Protocol: Gender & Intersectional Justice Framework - Global Governance Framework",
+    "description": "Transforming global governance through intersectional justice, ensuring people of all genders and identities have institutionalized power in shaping our collective future"
+  },
+  "guideCard": {
+    "title": "New to the Kinship Protocol?",
+    "description": "Start with our executive summary—addressing how intersectional justice can transform global governance for everyone.",
+    "buttonText": "Read Executive Summary"
+  },
+  "categories": {
+    "overview": "Overview",
+    "foundation": "Foundation & Vision",
+    "core-framework": "Core Framework",
+    "implementation": "Implementation Strategy", 
+    "transformation": "Transformation Areas",
+    "community": "Community & Action",
+    "resources": "Resources"
+  },
+  "sections": {
+    "index": "The Kinship Protocol",
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary for the Skeptic",
+    "introduction-vision": "Introduction & Vision",
+    "core-principles": "Core Principles",
+    "integration-architecture": "GGF Integration Architecture",
+    "functional-pillars": "The Four Functional Pillars",
+    "implementation-roadmap": "Implementation Roadmap",
+    "success-metrics": "Success Metrics & Accountability",
+    "global-south-leadership": "Global South Leadership",
+    "cultural-transformation": "Cultural Transformation Strategy",
+    "economic-justice": "Economic Justice Model",
+    "digital-rights": "Digital Rights & Safety",
+    "crisis-response": "Crisis Response & Resilience",
+    "kinship-festival": "The Kinship Festival",
+    "faq": "Frequently Asked Questions",
+    "taking-action": "Taking Action",
+    "appendices": "Appendices"
+  },
+  "sectionsShort": {
+    "index": "Home",
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary",
+    "introduction-vision": "Vision",
+    "core-principles": "Principles",
+    "integration-architecture": "GGF Integration",
+    "functional-pillars": "Four Pillars",
+    "implementation-roadmap": "Roadmap",
+    "success-metrics": "Metrics",
+    "global-south-leadership": "Global South",
+    "cultural-transformation": "Cultural Change",
+    "economic-justice": "Economic Justice",
+    "digital-rights": "Digital Rights",
+    "crisis-response": "Crisis Response",
+    "kinship-festival": "Kinship Festival",
+    "faq": "FAQ",
+    "taking-action": "Take Action",
+    "appendices": "Resources"
+  },
+  "progress": {
+    "text": "Section {current} of {total}"
+  },
+  "navigation": {
+    "downloadPdf": "Download PDF Version",
+    "continueToFramework": "Continue to Full Framework",
+    "previousSection": "Previous Section",
+    "nextSection": "Next Section"
+  },
+  "languageFallback": {
+    "title": "Content in your language coming soon",
+    "description": "This section is currently displayed in English until translation is complete."
+  },
+  "loading": {
+    "text": "Loading intersectional justice framework content..."
+  },
+  "errors": {
+    "sectionNotFound": "Section \"{section}\" not found",
+    "contentInDevelopment": "This content is still being developed."
+  }
+}

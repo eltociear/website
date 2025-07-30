@@ -1,6 +1,6 @@
 {
   "title": "Nedladdningar",
-  "metaDescription": "Ladda ner PDF-resurser från Global Governance Framework",
+  "metaDescription": "Ladda ner PDF-resurser från Global Governance Frameworks",
   "hero": {
     "title": "Nedladdningar & Resurser",
     "subtitle": "Ramverksdokumentation och resurser i nedladdningsbara format"
@@ -25,20 +25,25 @@
     },
     "resources": {
       "title": "Resurser",
-      "description": "Böcker, verktyg, organisationer och andra resurser för vidare utforskning av begreppen i Global Governance Framework."
+      "description": "Böcker, verktyg, organisationer och andra resurser för vidare utforskning av begreppen i Global Governance Frameworks."
     }
   },
   "globalCitizenship": {
-    "title": "Ramverk för Globalt Medborgarskap",
+    "title": "Ramverk för globalt medborgarskap",
     "description": "Vårt ramverk för globalt medborgarskap tillhandahåller ett omfattande tillvägagångssätt för att främja planetär identitet och kollektivt handlande, baserat på universella värderingar som överskrider kulturella gränser.",
     "full": {
-      "title": "Komplett Ramverk för Globalt Medborgarskap",
+      "title": "Komplett ramverk för globalt medborgarskap",
       "description": "Det kompletta ramverket ger en djupgående guide för att förstå och praktisera globalt medborgarskap på alla nivåer, från medvetenhet till ledarskap."
     },
     "summary": {
-      "title": "4-sidors Sammanfattning",
+      "title": "4-sidors sammanfattning",
       "description": "En koncis översikt av ramverket för globalt medborgarskap, perfekt för snabb referens eller introduktion till koncepten."
     }
+  },
+  "errors": {
+    "title": "Fil ej tillgänglig",
+    "fileUnavailable": "Dokumentet \"{filename}\" är ännu inte tillgängligt på {language}. Vi arbetar för att göra alla dokument tillgängliga på flera språk.",
+    "suggestion": "Prova att byta till engelska om tillgängligt, eller kontakta oss om du behöver detta dokument akut."
   },
 "implementationFrameworks": {
     "title": "Domänspecifika implementeringsramverk",
@@ -71,6 +76,10 @@
     "aegisProtocol": {
       "title": "Aegis Protocol Ramverk",
       "description": "Ett omfattande ramverk för att omvandla militära kapaciteter till regenerativ global säkerhet och gemensamma utforskningsuppdrag, som förvandlar konflikt till kosmisk förvaltarskap."
+    },
+    "kinshipProtocol": {
+      "title": "Kinship-protokollet: Genus- och intersektionell rättvisa",
+      "description": "Ett omfattande ramverk för att bädda in intersektionell rättvisa direkt i global styrning, och säkerställa att alla kön och identiteter har institutionaliserad makt att forma vår kollektiva framtid."
     },
     "digital": {
       "title": "Ramverk för digitala allmänningar",

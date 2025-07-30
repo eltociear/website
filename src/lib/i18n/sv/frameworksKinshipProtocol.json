@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "title": "Kinship-protokollet: ramverk för genus och intersektionell rättvisa - Global governance framework",
+    "description": "Att omvandla global styrning genom intersektionell rättvisa, för att säkerställa att människor av alla kön och identiteter har institutionaliserad makt att forma vår gemensamma framtid"
+  },
+  "guideCard": {
+    "title": "Ny till Kinship-protokollet?",
+    "description": "Börja med vår sammanfattning – som tar upp hur intersektionell rättvisa kan omvandla global styrning för alla.",
+    "buttonText": "Läs sammanfattningen"
+  },
+  "categories": {
+    "overview": "Översikt",
+    "foundation": "Grund och vision",
+    "core-framework": "Kärnramverk",
+    "implementation": "Implementeringsstrategi",
+    "transformation": "Omvandlingsområden",
+    "community": "Gemenskap och handling",
+    "resources": "Resurser"
+  },
+  "sections": {
+    "index": "Kinship-protokollet",
+    "at-a-glance": "I korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning för skeptikern",
+    "introduction-vision": "Introduktion och vision",
+    "core-principles": "Kärnprinciper",
+    "integration-architecture": "GGF:s integrationsarkitektur",
+    "functional-pillars": "De fyra funktionella pelarna",
+    "implementation-roadmap": "Implementeringsfärdplan",
+    "success-metrics": "Framgångsmått och ansvarsutkrävande",
+    "global-south-leadership": "Ledarskap från det globala syd",
+    "cultural-transformation": "Strategi för kulturell omvandling",
+    "economic-justice": "Modell för ekonomisk rättvisa",
+    "digital-rights": "Digitala rättigheter och säkerhet",
+    "crisis-response": "Krisrespons och resiliens",
+    "kinship-festival": "Kinship-festivalen",
+    "faq": "Vanliga frågor",
+    "taking-action": "Att agera",
+    "appendices": "Bilagor"
+  },
+  "sectionsShort": {
+    "index": "Hem",
+    "at-a-glance": "I korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning",
+    "introduction-vision": "Vision",
+    "core-principles": "Principer",
+    "integration-architecture": "GGF-integration",
+    "functional-pillars": "Fyra pelare",
+    "implementation-roadmap": "Färdplan",
+    "success-metrics": "Mått",
+    "global-south-leadership": "Globala syd",
+    "cultural-transformation": "Kulturell förändring",
+    "economic-justice": "Ekonomisk rättvisa",
+    "digital-rights": "Digitala rättigheter",
+    "crisis-response": "Krisrespons",
+    "kinship-festival": "Kinship-festivalen",
+    "faq": "FAQ",
+    "taking-action": "Agera",
+    "appendices": "Resurser"
+  },
+  "progress": {
+    "text": "Avsnitt {current} av {total}"
+  },
+  "navigation": {
+    "downloadPdf": "Ladda ner PDF-version",
+    "continueToFramework": "Fortsätt till hela ramverket",
+    "previousSection": "Föregående avsnitt",
+    "nextSection": "Nästa avsnitt"
+  },
+  "languageFallback": {
+    "title": "Innehåll på ditt språk kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+  },
+  "loading": {
+    "text": "Laddar innehåll för ramverket om intersektionell rättvisa..."
+  },
+  "errors": {
+    "sectionNotFound": "Avsnitt \"{section}\" hittades inte",
+    "contentInDevelopment": "Detta innehåll är fortfarande under utveckling."
+  }
+}

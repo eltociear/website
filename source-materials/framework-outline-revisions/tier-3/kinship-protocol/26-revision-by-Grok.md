@@ -22,7 +22,7 @@
 - **Technology Governance Implementation Framework (TGIF)**
 
 ### **Version History:**
-- **2.1 (2025-07-16):** Renamed to **Kinship Protocol** for aspirational impact. Reorganized from Core Components/Policy Mechanisms to four functional sections: **Foundational Governance**, **Legal Transformation**, **Economic Transformation**, **Cultural Transformation**. Added statement in Introduction linking to Public Participation & Transnational Democracy. Elevated *Framework Festival* to Conclusion for public engagement. Renamed components: "Digital Rights" to **Digital Justice & Safety**, "Prison Rights" to **Carceral Justice & Gender-Affirming Care**. Grouped appendices into thematic subheadings. Preserved integration with Treaty, AUBI, Work in Liberation, MOS, and all granular details (e.g., Diaspora Impact Bonds, reparative justice).
+- **2.1 (2025-07-16):** Renamed to **Kinship Protocol** for aspirational impact. Reorganized from Core Components/Policy Mechanisms to four functional sections: **Foundational Governance**, **Legal Transformation**, **Economic Transformation**, **Cultural Transformation**. Added statement in Introduction linking to Public Participation & Transnational Democracy. Elevated *Kinship Festival* to Conclusion for public engagement. Renamed components: "Digital Rights" to **Digital Justice & Safety**, "Prison Rights" to **Carceral Justice & Gender-Affirming Care**. Grouped appendices into thematic subheadings. Preserved integration with Treaty, AUBI, Work in Liberation, MOS, and all granular details (e.g., Diaspora Impact Bonds, reparative justice).
 - **2.0 (2025-07-04):** Positioned as Gender & Kinship Justice Layer. Integrated UN Gender and LGBTQ+ Rights Agency as Gender & Kinship Justice Council within Meta-Governance, fused International Tribunal into Digital Justice Tribunal, embedded economic programs in AUBI, routed funding through Global Commons Fund.
 - **1.0 (2025):** Original Global Gender Equality & LGBTQ+ Rights Governance Framework with standalone UN Agency and International Tribunal.
 
@@ -97,18 +97,18 @@
 - **Components**:
   - **Anti-Bias Education**: Embed comprehensive sexuality education, anti-bias curricula in Education Framework.
   - **Cultural Recognition**: Recognize Hijra, Two-Spirit, Fa’afafine via Cultural & Ancestral Wisdom Council, fund filmmakers ($20M).
-  - **Creative Engagement**: *Framework Festival* (arts-sports-activism), queer poetry archive, AR/VR empathy training simulating trans refugee experiences.
+  - **Creative Engagement**: *Kinship Festival* (arts-sports-activism), queer poetry archive, AR/VR empathy training simulating trans refugee experiences.
   - **Community Dialogues**: Engage Islamic, Orthodox Christian, Indigenous leaders ($10M).
   - **Media Standards**: GLAAD-aligned gaming partnerships.
 - **Implementation**:
   - Partner with UNESCO for curricula and cultural preservation by 2028.
-  - Launch *Framework Festival* by 2027.
+  - Launch *Kinship Festival* by 2027.
   - Publish queer poetry videos with sign language inclusion by 2027. *See Appendix III.B: Engagement Plans.*
 
 ---
 
 ## **Implementation Roadmap**
-- **2025–2027**: Achieve decriminalization in 80% countries, launch pilots in Mexico City, Cape Town, Taipei, initiate *Framework Festival*.
+- **2025–2027**: Achieve decriminalization in 80% countries, launch pilots in Mexico City, Cape Town, Taipei, initiate *Kinship Festival*.
 - **2027–2030**: Secure legal recognition in 60% countries, 50% pay gap closure, establish South-South exchanges.
 - **2030–2040**: Full institutionalization, reparative justice ($100M for colonial redress), sunset binary gender forms.
 - **2040+**: Global kinship, 100% equitable systems. *See Appendix II.D: Detailed Roadmap.*
@@ -152,7 +152,7 @@
 ---
 
 ## **Conclusion**
-The **Kinship Protocol** weaves gender and LGBTQ+ equity into the heart of the global governance ecosystem, fostering a transnational democracy that is legitimate, inclusive, and participatory. The *Framework Festival*—a global celebration of arts, sports, and activism—will engage communities worldwide, building cultural buy-in and driving adoption.
+The **Kinship Protocol** weaves gender and LGBTQ+ equity into the heart of the global governance ecosystem, fostering a transnational democracy that is legitimate, inclusive, and participatory. The *Kinship Festival*—a global celebration of arts, sports, and activism—will engage communities worldwide, building cultural buy-in and driving adoption.
 
 **Next Steps**: Launch pilots in Mexico City, Cape Town, Taipei (2025), draft UN resolution (2026), establish Gender & Kinship Justice Council (2027). Visit globalgovernanceframework.org/kinship.
 
@@ -194,7 +194,7 @@ The **Kinship Protocol** weaves gender and LGBTQ+ equity into the heart of the g
 - **Mitigation**: South-South exchanges, #NestedEconomies campaigns, diplomatic negotiations.
 
 #### **II.D: Detailed Roadmap**
-- **2025–2027**: 80% decriminalization, pilots in Mexico City, Cape Town, Taipei, *Framework Festival* launch.
+- **2025–2027**: 80% decriminalization, pilots in Mexico City, Cape Town, Taipei, *Kinship Festival* launch.
 - **2027–2030**: 60% legal recognition, 50% pay gap closure, South-South exchanges.
 - **2030–2040**: Full institutionalization, reparative justice ($100M for colonial redress).
 - **2040+**: Global kinship, sunset binary gender forms.
@@ -203,14 +203,14 @@ The **Kinship Protocol** weaves gender and LGBTQ+ equity into the heart of the g
 #### **III.A: Engagement Materials**
 - **Framework Family**: Full (advocates), Light (CEDAW-aligned), Core (1-page summary), Technical (implementation manual).
 - **Accessibility**: Plain-language, sign language, Braille by 2027, 50+ languages, Indigenous dialects.
-- **Creative Tools**: *Framework Festival* (arts-sports-activism), queer poetry archive, AR/VR empathy training.
+- **Creative Tools**: *Kinship Festival* (arts-sports-activism), queer poetry archive, AR/VR empathy training.
 
 #### **III.B: Engagement Plans**
 - **First 100 Days Playbook**:
   - **BAZs**: Launch National Action Plans, queer cooperatives.
   - **Communities**: Join Gender & Kinship Justice Council, #NestedEconomies.
   - **Private Sector**: Adopt ISO 30415, ESG certification.
-- **Creative Engagement**: *Framework Festival*, queer poetry videos, policy hackathons.
+- **Creative Engagement**: *Kinship Festival*, queer poetry videos, policy hackathons.
 
 #### **III.C: Visualization Gallery**
 - **Spiral Infographic**: Intersectional justice radiating from Global South leadership.

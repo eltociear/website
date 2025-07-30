@@ -3,8 +3,8 @@ title: The Aegis Protocol - A Framework for Global Security Transition
 section: index
 status: First Release
 revision: 1.0
-releaseDate: 2025-01-15
-lastUpdated: 2025-01-15
+releaseDate: 2025-07-28
+lastUpdated: 2025-07-28
 nextReview: to be determined
 ---
 
