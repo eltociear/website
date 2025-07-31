@@ -2,6 +2,31 @@
 """
 File Renaming Script for Global Governance Framework Project
 Converts files from current naming to zero-padded, consistent format
+
+Usage:
+  This script standardizes filenames in the format: [number]-[text]-by-[ainame].md
+  to zero-padded format: [2-digit-number]-[ainame]-[action].md
+
+  Basic usage:
+    ./file_renamer.py [directory] [--execute]
+    
+  Options:
+    directory    Path to directory containing files (default: current directory)
+    --execute    Actually rename files (default is dry run)
+    
+  Examples:
+    # Dry run (show what would be changed)
+    ./file_renamer.py ./documents
+    
+    # Actually rename files
+    ./file_renamer.py ./documents --execute
+    
+  File pattern examples:
+    Before: 1-initial-ideas-by-claude.md
+    After:  01-claude-ideation.md
+    
+    Before: 12-feedback-by-gpt4.md
+    After:  12-gpt4-feedback.md
 """
 
 import os

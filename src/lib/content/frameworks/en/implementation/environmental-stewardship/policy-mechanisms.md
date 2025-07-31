@@ -1,6 +1,6 @@
 ---
 title: Policy Mechanisms - Environmental Stewardship Framework
-section: 05-policy-mechanisms
+section: policy-mechanisms
 ---
 
 # Policy Mechanisms
