@@ -597,7 +597,7 @@ The Dynamic Rights Spectrum integrates with broader governance frameworks to ens
 
 ### Integration with Other Frameworks
 
-**Nested Sovereignty Framework**:
+**Nested Economies Framework**:
 - Rights recognition at appropriate governance levels
 - Respect for local determination of entity relationships
 - Cross-boundary coordination for wide-ranging entities

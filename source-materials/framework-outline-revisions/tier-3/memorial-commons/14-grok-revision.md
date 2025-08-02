@@ -1,4 +1,4 @@
-# The Cairn Protocol - Grief, Death, & Memorial Commons Framework
+# The Memorial Commons - Grief, Death, & Memorial Commons Framework
 
 **Version:** 0.6 (Pilot-Ready Draft for Full Drafting)  
 **Tier:** 3 (Equity & Cultural Flourishing Layer)  
@@ -201,7 +201,7 @@ These materials will be co-created for publication by Q1 2026.
 
 ### **10. Conclusion**
 
-**The Cairn Protocol** transforms grief into a regenerative force, honoring death, ecological loss, and cultural trauma through community-led rituals, commons, and governance. With enhanced governance (**Sunset Clause**, **Healing Justice Lens**, **Policy Advocacy Interface**), expanded scope (**Non-Human Grief Protocols**, **Age-Responsive Grief Protocols**), robust crisis response (**Crisis Grief Protocol**, **Mental Health System Bridge**), and innovative tools (**Grief Stewardship Tokens**, **Collective Efficacy Score**), it is ready for full drafting and piloting in 5-10 BAZs by 2026.
+**The Memorial Commons** transforms grief into a regenerative force, honoring death, ecological loss, and cultural trauma through community-led rituals, commons, and governance. With enhanced governance (**Sunset Clause**, **Healing Justice Lens**, **Policy Advocacy Interface**), expanded scope (**Non-Human Grief Protocols**, **Age-Responsive Grief Protocols**), robust crisis response (**Crisis Grief Protocol**, **Mental Health System Bridge**), and innovative tools (**Grief Stewardship Tokens**, **Collective Efficacy Score**), it is ready for full drafting and piloting in 5-10 BAZs by 2026.
 
 **Next Steps**:
 - Draft **Living Consent Mechanism** with **Sunset Clause** (Q4 2025).

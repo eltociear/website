@@ -1,22 +1,26 @@
 {
   "meta": {
-    "title": "Environmental Stewardship Framework - Global Governance Framework",
-    "description": "A comprehensive plan for transformative environmental governance addressing ecosystem degradation, climate change, economic inequity, and technological ethics"
+    "title": "Environmental Stewardship Framework - Ecological Intelligence & Rights Layer",
+    "description": "Ecological Intelligence & Rights Layer for transformative environmental governance addressing ecosystem degradation, climate change, and rights recognition for all beings"
+  },
+  "loading": {
+    "text": "Loading environmental stewardship framework content..."
   },
   "guideCard": {
     "title": "New to the Environmental Stewardship Framework?",
-    "description": "Start with our essential guides that explain the core concepts and provide immediate action steps.",
+    "description": "Start with our essential guides that explain the core concepts and provide immediate action steps for ecological stewardship.",
     "buttonText": "Read the One-Page Essence"
   },
   "categories": {
-    "overview": "Overview",
-    "foundation": "Foundation",
+    "overview": "Framework Overview",
+    "quickStart": "Quick Start Guides",
+    "foundation": "Foundation & Principles",
     "governance": "Governance & Policy",
-    "implementation": "Implementation",
-    "resources": "Resources"
+    "implementation": "Implementation & Tools",
+    "appendices": "Detailed Appendices"
   },
   "sections": {
-    "index": "Overview",
+    "index": "Framework Overview",
     "one-page-essence": "One-Page Essence",
     "first-100-days-playbook": "First 100 Days Playbook",
     "introduction": "Introduction",
@@ -29,21 +33,40 @@
     "implementation-roadmap": "Implementation Roadmap",
     "metrics-for-success": "Metrics for Success",
     "visualizations": "Visualizations",
-    "challenges-and-solutions": "Challenges and Solutions",
+    "challenges-and-solutions": "Challenges & Solutions",
     "implementation-tools": "Implementation Tools",
     "reparations-protocol": "Reparations Protocol",
     "conclusion": "Conclusion",
-    "appendices": "Appendices"
+    "appendices-overview": "Appendices Overview",
+    "appendix-a": "Appendix A: Contingency Plans",
+    "appendix-b": "Appendix B: Pillar Strategies",
+    "appendix-c": "Appendix C: Roadmap Details",
+    "appendix-d": "Appendix D: Risk Assessment",
+    "appendix-e": "Appendix E: Governance Details",
+    "appendix-f": "Appendix F: Policy Implementation",
+    "appendix-g": "Appendix G: Reparations Details",
+    "appendix-h": "Appendix H: Financing Details",
+    "appendix-i": "Appendix I: Implementation Toolkit",
+    "appendix-j": "Appendix J: Engagement Materials",
+    "appendix-k": "Appendix K: Engagement Plans",
+    "appendix-l": "Appendix L: Case Studies",
+    "appendix-m": "Appendix M: Cross-Framework Integration",
+    "appendix-n": "Appendix N: Data-to-Reward Pipeline",
+    "appendix-o": "Appendix O: Rights Hand-Off Protocol",
+    "appendix-p": "Appendix P: Cross-Council Coordination",
+    "appendix-q": "Appendix Q: M&E Indicators",
+    "appendix-r": "Appendix R: Visualization Gallery",
+    "appendix-s": "Appendix S: Learning Systems"
   },
   "sectionsShort": {
     "index": "Overview",
     "one-page-essence": "One-Page Essence",
-    "first-100-days-playbook": "100 Days Playbook",
+    "first-100-days-playbook": "First 100 Days",
     "introduction": "Introduction",
     "guiding-principles": "Principles",
     "governance-structure": "Governance",
     "core-pillars": "Core Pillars",
-    "policy-mechanisms": "Policy",
+    "policy-mechanisms": "Policy Tools",
     "stakeholder-engagement": "Stakeholders",
     "financing-mechanisms": "Financing",
     "implementation-roadmap": "Roadmap",
@@ -53,14 +76,29 @@
     "implementation-tools": "Tools",
     "reparations-protocol": "Reparations",
     "conclusion": "Conclusion",
-    "appendices": "Appendices"
+    "appendices-overview": "Appendices",
+    "appendix-a": "Contingency Plans",
+    "appendix-b": "Pillar Strategies",
+    "appendix-c": "Roadmap Details",
+    "appendix-d": "Risk Assessment",
+    "appendix-e": "Governance Details",
+    "appendix-f": "Policy Implementation",
+    "appendix-g": "Reparations Details",
+    "appendix-h": "Financing Details",
+    "appendix-i": "Toolkit",
+    "appendix-j": "Materials",
+    "appendix-k": "Engagement Plans",
+    "appendix-l": "Case Studies",
+    "appendix-m": "Integration",
+    "appendix-n": "Data Pipeline",
+    "appendix-o": "Rights Protocol",
+    "appendix-p": "Coordination",
+    "appendix-q": "Indicators",
+    "appendix-r": "Visualizations",
+    "appendix-s": "Learning"
   },
   "progress": {
     "text": "Section {current} of {total}"
-  },
-  "languageFallback": {
-    "title": "Content in your language coming soon",
-    "description": "This section is currently displayed in English until translation is complete."
   },
   "navigation": {
     "downloadPdf": "Download PDF Version",
@@ -68,11 +106,12 @@
     "previousSection": "Previous Section",
     "nextSection": "Next Section"
   },
+  "languageFallback": {
+    "title": "Content in your language coming soon",
+    "description": "This section is currently displayed in English until translation is complete."
+  },
   "errors": {
     "sectionNotFound": "Section \"{section}\" not found",
     "contentInDevelopment": "This content is still being developed."
-  },
-  "loading": {
-    "text": "Loading framework content..."
   }
 }

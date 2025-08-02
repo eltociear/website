@@ -1,3 +1,8 @@
+---
+title: Appendix C: Milestone-Based Implementation Roadmap
+section: appendix-c
+---
+
 # Appendix C: Milestone-Based Implementation Roadmap
 
 **In this section:**

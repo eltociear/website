@@ -5015,6 +5015,26 @@ const tools = [
     }
   },
   {
+    name: 'one-page-essence',
+    category: 'environmental-stewardship',
+    fileNames: {
+      en: 'environmental-stewardship-framework-essence-en',
+      sv: 'environmental-stewardship-framework-essence-sv'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'environmental-stewardship'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'environmental-stewardship')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'assets', 'pdf'),
+      sv: path.join(__dirname, '..', 'static', 'assets', 'pdf')
+    },
+    pageFooter: {
+      en: 'Environmental Stewardship Framework - One Page Essence - Page ',
+      sv: 'Ramverk för miljöförvaltning - Essens på en sida - Sida '
+    }
+  },
+  {
     name: 'first-100-days-playbook',
     category: 'environmental-stewardship',
     fileNames: {
@@ -5053,6 +5073,8 @@ const tools = [
     // Special config for full framework
     sections: [
       'index',
+      
+      // Core framework sections
       'introduction',
       'guiding-principles',
       'governance-structure',
@@ -5067,7 +5089,38 @@ const tools = [
       'implementation-tools',
       'reparations-protocol',
       'conclusion',
-      'appendices'
+      
+      // Appendices overview
+      'appendices-overview',
+      
+      // Part I: Strategic Planning & Oversight
+      'appendix-a', // Contingency Plans and Adaptive Management
+      'appendix-b', // Detailed Pillar Strategies and Implementation
+      'appendix-c', // Detailed Roadmap and Implementation Timeline
+      'appendix-d', // Risk Assessment and Mitigation Matrix
+      
+      // Part II: Governance, Policy & Finance
+      'appendix-e', // Governance Details and Institutional Frameworks
+      'appendix-f', // Policy Implementation and Regulatory Frameworks
+      'appendix-g', // Reparations Details and Justice Implementation
+      'appendix-h', // Financing Details and Economic Mechanisms
+      
+      // Part III: Implementation, Engagement & Tools
+      'appendix-i', // Implementation Toolkit and Protocol Library
+      'appendix-j', // Engagement Materials and Public Resources
+      'appendix-k', // Engagement Plans and Stakeholder Coordination
+      'appendix-l', // Case Studies and Implementation Examples
+      
+      // Part IV: Core Protocols & Integration
+      'appendix-m', // Cross-Framework Integration Protocols
+      'appendix-n', // Data-to-Reward Pipeline Protocol
+      'appendix-o', // Rights Hand-Off Protocol
+      'appendix-p', // Cross-Council Coordination Charter
+      
+      // Part V: Measurement, Learning & Evidence
+      'appendix-q', // Comprehensive Monitoring & Evaluation Indicators
+      'appendix-r', // Visualization Gallery and Communication Tools
+      'appendix-s'  // Framework Learning and Knowledge Systems
     ]
   },
   // Biodiversity Framework Tools & Guides Snippets for PDF Generator and Markdown Copy Tool

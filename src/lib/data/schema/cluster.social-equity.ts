@@ -11,6 +11,27 @@ import type { GgfEntity, GgfRelationship } from './_types';
 export const socialEquityEntities: GgfEntity[] = [
   // === CORE FRAMEWORKS ===
   {
+    id: 'framework_cairn_protocol',
+    type: 'Framework',
+    name: 'The Cairn Protocol',
+    shortName: 'Cairn Protocol',
+    description: 'A framework for addiction, recovery, and substance sovereignty, grounded in reparative justice and community-led care.',
+    tier: 2, // NOTE: While this is a Tier 2 framework, it is clustered here for thematic coherence with social equity.
+    status: 'Planned',
+    primaryDomain: 'Health',
+    implementationPriority: 'High',
+    dependencies: ['framework_mental_health', 'framework_kintsugi_protocol', 'framework_justice', 'framework_aubi', 'framework_indigenous'],
+    enables: ['council_cairn', 'institution_recovery_hub', 'protocol_substance_sovereignty_declaration'],
+    ui: {
+      path: '/frameworks/cairn-protocol',
+      titleKey: 'framework.docs.nav.frameworkTitles.cairnProtocol',
+      emoji: '🗿', // Cairn/Moai emoji
+      version: '2.3',
+      slug: 'cairn-protocol',
+      group: 'socialFabricJustice'
+    }
+  },
+  {
     id: 'framework_disability',
     type: 'Framework',
     name: 'Universal Access & Disability Justice Layer',
@@ -116,6 +137,15 @@ export const socialEquityEntities: GgfEntity[] = [
 
   // === GOVERNANCE COUNCILS ===
   {
+    id: 'council_cairn',
+    type: 'Council',
+    name: 'The Cairn Council',
+    description: 'A sub-council of the Planetary Health Council, with 60% representation from people with lived experience, overseeing global addiction and recovery strategy.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_cairn_protocol', 'council_planetary_health']
+  },
+  {
     id: 'council_gkjc',
     type: 'Council',
     name: 'Gender & Kinship Justice Council',
@@ -156,6 +186,34 @@ export const socialEquityEntities: GgfEntity[] = [
   },
 
   // === SPECIALIZED INSTITUTIONS ===
+  {
+    id: 'institution_recovery_research_hub',
+    type: 'Institution',
+    name: 'Recovery Research Hub',
+    description: 'An Indigenous-led research body, embedded in the Community Safety Observatory, that collects and analyzes outcomes data for recovery initiatives.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_cairn_protocol', 'institution_community_safety_observatory']
+  },
+  {
+    id: 'institution_recovery_hub',
+    type: 'Institution',
+    name: 'BAZ-Level Recovery Hubs',
+    shortName: 'Recovery Hubs',
+    description: 'Decentralized, community-run centers providing harm reduction, peer support, and connections to GGF services.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_cairn_protocol', 'institution_baz']
+  },
+  {
+    id: 'institution_design_justice_tribunal',
+    type: 'Institution',
+    name: 'Design Justice Tribunals',
+    description: 'A specialized chamber of the Digital Justice Tribunal that adjudicates cases of predatory, addictive-by-design products.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_cairn_protocol', 'institution_dj_tribunal']
+  },
   {
     id: 'institution_gda',
     type: 'Institution',
@@ -223,6 +281,33 @@ export const socialEquityEntities: GgfEntity[] = [
   },
 
   // === PROCESSES, PROTOCOLS & TOOLS ===
+  {
+    id: 'process_recovery_weaver',
+    type: 'Process',
+    name: 'Recovery Weavers',
+    description: 'The role of trained community members with lived experience who provide outreach, crisis support, and peer guidance.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_cairn_protocol']
+  },
+  {
+    id: 'protocol_substance_sovereignty_declaration',
+    type: 'LegalProtocol',
+    name: 'The Declaration of Substance Sovereignty',
+    description: 'A foundational charter asserting the rights to bodily autonomy, sacred plant access, and protection from predatory design.',
+    tier: 2,
+    status: 'Draft',
+    dependencies: ['framework_cairn_protocol']
+  },
+  {
+    id: 'mechanism_corporate_harm_levy',
+    type: 'EconomicMechanism',
+    name: 'Corporate Harm Levy',
+    description: 'A tax on the profits of corporations that create and market addictive products, used to fund the GCF for recovery initiatives.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_cairn_protocol', 'framework_regenerative_enterprise']
+  },
   {
     id: 'tool_dia',
     type: 'Tool',
@@ -614,5 +699,20 @@ export const socialEquityRelationships: GgfRelationship[] = [
     strength: 'Strong',
     frequency: 'Regular',
     sequenceType: 'Parallel'
-  }
+  },
+
+  // === THE CAIRN PROTOCOL (ADDICTION & RECOVERY) INTEGRATION ===
+  { from: 'framework_cairn_protocol', to: 'council_cairn', type: 'ESTABLISHES' },
+  { from: 'council_cairn', to: 'institution_recovery_hub', type: 'OVERSEES' },
+  { from: 'institution_recovery_hub', to: 'process_recovery_weaver', type: 'IMPLEMENTS' },
+  // --- CONNECTIONS TO OTHER GGF FRAMEWORKS ---
+  { from: 'framework_kintsugi_protocol', to: 'framework_cairn_protocol', type: 'INTEGRATES_WITH', description: 'The Kintsugi Protocol (CCSF) is the primary referral source for community-level substance issues, handing off to Recovery Weavers.' },
+  { from: 'framework_mental_health', to: 'framework_cairn_protocol', type: 'INFORMS', description: 'Provides the clinical and therapeutic models that Recovery Hubs and Weavers are trained in.' },
+  { from: 'framework_aubi', to: 'framework_cairn_protocol', type: 'ENABLES', description: 'AUBI provides the economic stability to prevent root causes and the Hearts currency to reward recovery care work.' },
+  { from: 'framework_regenerative_enterprise', to: 'mechanism_corporate_harm_levy', type: 'IMPLEMENTS', description: 'The REF provides the corporate accountability structure through which the Corporate Harm Levy is assessed.' },
+  { from: 'framework_indigenous', to: 'framework_cairn_protocol', type: 'GUIDES', description: 'The Indigenous Framework provides the non-negotiable protocols for the sovereign governance of sacred plant medicines.' },
+  { from: 'framework_sanctuary_accord', to: 'framework_cairn_protocol', type: 'COORDINATES_WITH', description: 'The Sanctuary Accord provides ethical oversight for advanced psychedelic therapies that individuals in Cairn-supported recovery may be referred to.' },
+  { from: 'institution_dj_tribunal', to: 'institution_design_justice_tribunal', type: 'ESTABLISHES', description: 'The main DJ Tribunal houses the specialized Design Justice chamber.' },
+  { from: 'framework_cairn_protocol', to: 'framework_memorial_commons', type: 'INTEGRATES_WITH', description: 'The protocol refers individuals and communities to The Memorial Commons to process addiction-related grief.' }
+
 ];

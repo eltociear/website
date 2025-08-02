@@ -833,6 +833,164 @@
           'Kreativa mentorskapsslingor som parar ungdomsdigitalkonstnärer med traditionella hantverksmästare spårade via Commons-plattformen'
         ]
       }
+    },
+    sundownProtocol: {
+      en: {
+        title: 'The Sundown Protocol: Just Transition Framework',
+        defaultDescription: "We're developing a revolutionary framework for retiring harmful industries and rebirthing regenerative futures. This compassionate, enforceable process ensures workers, communities, and ecosystems are protected while positioning first-movers as global leaders in the transition to a regenerative economy.",
+        defaultFeatures: [
+          'Planetary Health Council triggers with BHI thresholds and binding industry sunset timelines',
+          'Office of Just Transition managing end-to-end roadmaps with community co-creation and worker protection',
+          'Legacy Transition Fund with Reparations Levy, Transition Bonds, and Children\'s Future Fund allocation',
+          'Worker & Community Protection Covenant guaranteeing income bridges, retraining, and lifetime healthcare',
+          'Indigenous-led monitoring teams with FPIC 2.0 protocols and Sacred Site Remediation Guidelines',
+          'Cultural healing through Legacy Councils, ceremonial closure rituals, and Global Transition Story Archive',
+          'Asset transfer to Stewardship Trusts and BAZ rematriation via Hearthstone Protocol integration',
+          'International enforcement through Digital Justice Tribunal sanctions and trade protection measures'
+        ]
+      },
+      sv: {
+        title: 'Sundown-protokollet: Rättvis övergångsramverk',
+        defaultDescription: "Vi utvecklar ett revolutionerande ramverk för att avveckla skadliga industrier och återfödda regenerativa framtider. Denna medkänsliga, verkställbara process säkerställer att arbetare, samhällen och ekosystem skyddas samtidigt som tidiga aktörer positioneras som globala ledare i övergången till en regenerativ ekonomi.",
+        defaultFeatures: [
+          'Planetärt hälsoråd utlöser med BHI-trösklar och bindande industriavvecklingstidslinjer',
+          'Kontor för rättvis övergång som förvaltar end-to-end färdplaner med samhällsskapande och arbetarskydd',
+          'Legacy-övergångsfond med reparationslager, övergångsobligationer och barnens framtidsfondallokering',
+          'Arbetar- och samhällsskyddsförbund som garanterar inkomstbryggor, omskolning och livslång hälsovård',
+          'Ursprungsbefolknings-ledda övervakningsteam med FPIC 2.0-protokoll och heliga platser återställningsriktlinjer',
+          'Kulturell läkning genom arvslega råd, ceremoniella stängningsritualer och globalt övergångsberättelsearkiv',
+          'Tillgångsöverföring till förvaltningsförtroenden och BAZ-återlämnande via Hearthstone Protocol-integration',
+          'Internationell verkställighet genom Digital rättvisedomstol sanktioner och handelsskyddsåtgärder'
+        ]
+      }
+    },
+    prometheusProtocol: {
+      en: {
+        title: 'The Prometheus Protocol: Pharmaceutical & Biotech Commons',
+        defaultDescription: "We're developing a revolutionary framework that transforms medicine from profit-driven monopolies to a healing commons where knowledge flows freely, communities thrive, and no one is left behind. Like Prometheus sharing fire, we're rekindling humanity's sacred flame of shared healing through open research, community ownership, and Indigenous sovereignty.",
+        defaultFeatures: [
+          'Global Pharmaceutical Stewardship Council with Indigenous co-leadership and community priority-setting power',
+          'Pharmaceutical IP Commons using Stewardship Trusts to share patents, data, and know-how as public goods',
+          'Distributed Manufacturing Network with 70% Global South community-owned hubs by Year 5',
+          'Community Health Legions delivering medicines via blockchain Rx coupons and drone corridors earning Hearts',
+          'Indigenous sovereignty protection with FPIC 2.0 binding veto power and 15% revenue sharing',
+          'Discovery Commons open-science pipeline with crowdsourced formulary and AI-assisted safety reviews',
+          'Pharmaceutical Colonialism Reparations Fund from industry levies funding global health equity',
+          'Crisis response with pandemic fire drills, emergency stockpiling, and viral open access triggers'
+        ]
+      },
+      sv: {
+        title: 'Prometeus-protokollet: Läkemedels & biotekallmänning',
+        defaultDescription: "Vi utvecklar ett revolutionerande ramverk som transformerar medicin från profitdrivna monopol till en läkningsallmänning där kunskap flöder fritt, samhällen blomstrar och ingen lämnas efter. Som Prometeus som delade eld, återupptänder vi mänsklighetens heliga låga av delad läkning genom öppen forskning, gemenskapsägarskap och ursprungsbefolkningssuveränitet.",
+        defaultFeatures: [
+          'Global läkemedelsförvaltningsråd med ursprungsbefolknings medledarskap och gemenskapsprioriteringsmakt',
+          'Läkemedels-IP-allmänning med förvaltningsförtroenden för att dela patent, data och know-how som kollektiva nyttigheter',
+          'Distribuerat tillverkningsnätverk med 70% Global Syd gemenskapsägda nav år 5',
+          'Gemenskapshälsolegioner levererar mediciner via blockchain Rx-kuponger och dronkorridorer som tjänar Hearts',
+          'Ursprungsbefolkningssuveränitetsskydd med FPIC 2.0 bindande vetorätt och 15% intäktsdelning',
+          'Discovery Commons öppen-vetenskaps pipeline med crowdsourcad formulär och AI-assisterad säkerhetsgranskning',
+          'Läkemedelskolonialism reparationsfond från industriavgifter som finansierar global hälsorättvisa',
+          'Krishantering med pandemibrandövningar, nödförråd och viral öppen tillgång triggers'
+        ]
+      }
+    },
+    discoveryCommons: {
+      en: {
+        title: 'The Discovery Commons: Scientific & Research Integrity Framework',
+        defaultDescription: "We're developing a revolutionary framework that transforms science into a decolonized, collaborative, and crisis-responsive engine for planetary regeneration. By centering equity, transparency, and adaptability, it provides the GGF with verifiable truth to navigate the 21st century's challenges through open knowledge and global cooperation.",
+        defaultFeatures: [
+          'Global Research Council with 50% Global South leadership and Indigenous knowledge integration',
+          'Public Research Fund targeting 5-10% of global R&D spending with equity-focused allocation',
+          'Open Science Protocol mandating FAIR compliance, pre-registration, and language justice',
+          'Ethical IP Protocol banning patents in critical domains and creating Stewardship Trusts',
+          'Indigenous Research Sovereignty with dynamic consent APIs and Traditional Knowledge protection',
+          'Crisis Research Response with fast-track funding and open data sharing during emergencies',
+          'AI-enhanced peer review with bias detection and Cultural Bridge-Builder Networks',
+          'Global Science Assembly with democratic oversight and citizen priority-setting authority',
+          'Planetary Commons License requiring 5% profit sharing for commercial AI model training',
+          'Knowledge Commons Ombudsperson mediating disputes and protecting whistleblowers'
+        ]
+      },
+      sv: {
+        title: 'Discovery Commons: Vetenskaplig & forskningsintegritet ramverk',
+        defaultDescription: "Vi utvecklar ett revolutionerande ramverk som transformerar vetenskap till en avkoloniserad, kollaborativ och krishanteringsresponsiv motor för planetär regeneration. Genom att centrera rättvisa, transparens och anpassningsförmåga, ger det GGF verifierbar sanning för att navigera 2000-talets utmaningar genom öppen kunskap och globalt samarbete.",
+        defaultFeatures: [
+          'Globalt forskningsråd med 50% Global Syd-ledarskap och ursprungsbefolknings kunskapsintegration',
+          'Offentlig forskningsfond som riktar sig till 5-10% av global FoU-utgifter med rättvisa-fokuserad allokering',
+          'Öppen vetenskapsprotokoll som kräver FAIR-efterlevnad, förregistrering och språkrättvisa',
+          'Etiskt IP-protokoll som förbjuder patent inom kritiska domäner och skapar förvaltningsförtroenden',
+          'Ursprungsbefolknings forskningssuveränitet med dynamiska samtycke-API:er och traditionell kunskapsskydd',
+          'Krisforskningsrespons med snabbspårfinansiering och öppen datadelning under nödsituationer',
+          'AI-förstärkt peer review med bias-detektering och kulturella bryggbyggarnätverk',
+          'Global vetenskapsförsamling med demokratisk övervakning och medborgarprioriteringsmyndighet',
+          'Planetär allmänningslicens som kräver 5% vinstdelning för kommersiell AI-modellträning',
+          'Kunskapsallmänning ombudsman som medlar tvister och skyddar whistleblowers'
+        ]
+      }
+    },
+    kintsugiProtocol: {
+      en: {
+        title: 'The Kintsugi Protocol: Collective Care & Restorative Community Safety',
+        defaultDescription: "We're developing a revolutionary framework that transforms safety from coercive policing to collective care, replacing punishment with restoration, force with healing, and isolation with community connection. Like the Japanese art of kintsugi that makes broken pottery beautiful with golden repairs, this framework makes communities stronger through restorative justice and mutual care.",
+        defaultFeatures: [
+          'Community Safety Weavers as unarmed first responders trained in de-escalation, trauma-informed care, and neurodiversity inclusion',
+          'Disarmament Clause prohibiting firearms for Severe Harm Response Units with trauma-informed tools and annual de-escalation recertification',
+          'Restorative Justice Circles as primary community-led processes for harm resolution and repair',
+          'Crisis Sanctuaries providing non-carceral, sensory-friendly spaces for mental health and acute distress support',
+          'Community Safety Council with sortition selection, youth representation, and veto power over external interference',
+          'Indigenous sovereignty primacy with Red Lines Clause allowing modification or rejection of harmful components',
+          'Nothing About Us Without Us disability justice with Global Disability Alliance co-design and veto power',
+          'Community Safety Platform as multilingual, community-owned data cooperative with anti-surveillance protections',
+          'Root Cause Intervention Fund addressing poverty, trauma, and systemic exclusion through community-led projects',
+          'Reparative Justice Fund with automatic 10% GCF allocation for material reparations and Corporate Harm Tax integration'
+        ]
+      },
+      sv: {
+        title: 'Kintsugi-protokollet: Kollektiv omsorg & återställande samhällssäkerhet',
+        defaultDescription: "Vi utvecklar ett revolutionerande ramverk som transformerar säkerhet från tvingande polisarbete till kollektiv omsorg, ersätter straff med återställning, våld med läkning och isolering med gemenskapsförbindelse. Som den japanska konsten kintsugi som gör trasig keramik vacker med gyllene reparationer, gör detta ramverk samhällen starkare genom återställande rättvisa och ömsesidig omsorg.",
+        defaultFeatures: [
+          'Samhällssäkerhetsvävar som obeväpnade förstainsatspersoner tränade i avtrappning, traumainformerad vård och neurodiversitetsinclusion',
+          'Avväpningsklausul som förbjuder skjutvapen för enheter för allvarlig skadainsats med traumainformerade verktyg och årlig avtrappningscertifiering',
+          'Återställande rättvise-cirklar som primära gemenskapsledda processer för skaderesolution och reparation',
+          'Krissanktaurier som tillhandahåller icke-carcerala, sensorvänliga utrymmen för mental hälsa och akut nödstöd',
+          'Samhällssäkerhetsråd med sortitionsval, ungdomsrepresentation och vetorätt över extern inblandning',
+          'Ursprungsbefolknings suveränitetsprimacy med Red Lines-klausul som tillåter modifiering eller avvisning av skadliga komponenter',
+          'Inget om oss utan oss funktionshinderrättvisa med Global funktionshinderallians meddesign och vetorätt',
+          'Samhällssäkerhetsplattform som flerspråkig, gemenskapsägd datakooperativ med anti-övervakningsskydd',
+          'Grundorsaksinterventionsfond som adresserar fattigdom, trauma och systemisk uteslutning genom gemenskapsledda projekt',
+          'Reparativ rättvise-fond med automatisk 10% GCF-allokering för materiella reparationer och företagsskadeskattintegration'
+        ]
+      }
+    },
+    cairnProtocol: {
+      en: {
+        title: 'The Cairn Protocol: Addiction, Recovery & Substance Sovereignty',
+        defaultDescription: "We're developing a revolutionary framework that transforms addiction response from punishment and pathology to community-led healing and substance sovereignty. Like ancient cairns marking safe passage through difficult terrain, this protocol guides individuals and communities from harm to healing through peer support, Indigenous wisdom, and collective care.",
+        defaultFeatures: [
+          'Recovery Weavers network providing peer-led crisis support, healing circles, and community outreach with lived experience leadership',
+          'Declaration of Substance Sovereignty protecting bodily autonomy, Indigenous plant medicine rights, and freedom from predatory design',
+          'Recovery Hubs in every BAZ offering harm reduction, Joy Labs, Somatic Sanctuaries, and Neighborhood Apothecaries',
+          'Corporate Accountability Protocol with Design Justice Tribunals, Addiction Impact Bonds, and Corporate Harm Levy funding',
+          'Digital Sobriety Toolkit including trauma-informed AI peer supporters, addiction-resistant platform design, and Hearts Quest gaming',
+          'Sacred Plant Medicine Protocol under Indigenous governance with Cultural Protection and traditional healing sovereignty',
+          'Grief Feedback Pathway providing community rituals, storytelling, and memorial practices for collective healing',
+          'AUBI Hearts integration funding Recovery Weavers, caregivers, and community-led healing infrastructure'
+        ]
+      },
+      sv: {
+        title: 'Cairnprotokollet: Beroende, återhämtning & substanssuveränitet',
+        defaultDescription: "Vi utvecklar ett revolutionerande ramverk som transformerar beroendebehandling från straff och patologi till gemenskapsledd läkning och substanssuveränitet. Som gamla stenrösen som markerar säker passage genom svår terräng, guidar detta protokoll individer och samhällen från skada till läkning genom kamratstöd, ursprungsbefolknings visdom och kollektiv omsorg.",
+        defaultFeatures: [
+          'Recovery Weavers-nätverk som tillhandahåller kamratledd krisstöd, läkningscirklar och samhällsutreach med levd erfarenhetsledarskap',
+          'Deklaration av substanssuveränitet som skyddar kroppslig autonomi, ursprungsbefolknings växtmedicinrättigheter och frihet från rovdjursdesign',
+          'Recovery Hubs i varje BAZ som erbjuder skademinskning, Joy Labs, Somatiska Sanctuaries och Grannskapsapotek',
+          'Företagsansvarsprotokollet med Design Justice Tribunals, Addiction Impact Bonds och Corporate Harm Levy-finansiering',
+          'Digital nykterhetstoolkit inklusive traumainformerade AI-kamratstödjare, beroendemotståndskraftig plattformsdesign och Hearts Quest-spel',
+          'Heligt växtmedicinprotokoll under ursprungsbefolkningsstyrning med kulturskydd och traditionell läkningssuveränitet',
+          'Sorgfeedback-väg som tillhandahåller gemenskapsritualer, berättande och minnespraktiker för kollektiv läkning',
+          'AUBI Hearts-integration som finansierar Recovery Weavers, vårdgivare och gemenskapsledd läkningsinfrastruktur'
+        ]
+      }
     }
   };
 
@@ -908,8 +1066,18 @@
             <li>
               {#if frameworkName === 'millenniumProtocol'}
                 {index === 0 ? '🏛️' : index === 1 ? '🚀' : index === 2 ? '💰' : index === 3 ? '🧬' : index === 4 ? '🧠' : index === 5 ? '❓' : index === 6 ? '⏳' : index === 7 ? '🗳️' : index === 8 ? '📚' : '🔄'}
+              {:else if frameworkName === 'discoveryCommons'}
+                {index === 0 ? '🏛️' : index === 1 ? '💰' : index === 2 ? '📚' : index === 3 ? '⚖️' : index === 4 ? '🪶' : index === 5 ? '🚨' : index === 6 ? '🤖' : index === 7 ? '🗳️' : index === 8 ? '🌍' : '🛡️'}
+              {:else if frameworkName === 'cairnProtocol'}
+                {index === 0 ? '🕸️' : index === 1 ? '📜' : index === 2 ? '🏠' : index === 3 ? '⚖️' : index === 4 ? '📱' : index === 5 ? '🌿' : index === 6 ? '❤️‍🩹' : '💚'}
+              {:else if frameworkName === 'kintsugiProtocol'}
+                {index === 0 ? '🕊️' : index === 1 ? '🛡️' : index === 2 ? '🔄' : index === 3 ? '🏥' : index === 4 ? '🏛️' : index === 5 ? '🪶' : index === 6 ? '♿' : index === 7 ? '📱' : index === 8 ? '💰' : '⚖️'}
               {:else if frameworkName === 'artsFlourishing'}
                 {index === 0 ? '🏛️' : index === 1 ? '💾' : index === 2 ? '🎭' : index === 3 ? '📊' : index === 4 ? '📜' : index === 5 ? '💰' : index === 6 ? '❤️‍🩹' : index === 7 ? '🕸️' : index === 8 ? '🌱' : '🔄'}
+              {:else if frameworkName === 'prometheusProtocol'}
+                {index === 0 ? '🏛️' : index === 1 ? '📚' : index === 2 ? '🏭' : index === 3 ? '🚁' : index === 4 ? '🪶' : index === 5 ? '🔬' : index === 6 ? '💰' : '🚨'}
+              {:else if frameworkName === 'sundownProtocol'}
+                {index === 0 ? '🌡️' : index === 1 ? '🏢' : index === 2 ? '💰' : index === 3 ? '🛡️' : index === 4 ? '🪶' : index === 5 ? '❤️‍🩹' : index === 6 ? '🏗️' : '⚖️'}
               {:else if frameworkName === 'hearthstoneProtocol'}
                 {index === 0 ? '🏛️' : index === 1 ? '🌍' : index === 2 ? '📊' : index === 3 ? '🌿' : index === 4 ? '🛡️' : index === 5 ? '🏢' : index === 6 ? '💰' : index === 7 ? '⚖️' : index === 8 ? '📜' : '👥'}
               {:else if frameworkName === 'deepTime'}

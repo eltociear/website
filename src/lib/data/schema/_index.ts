@@ -9,6 +9,7 @@
 import { constitutionalFoundationEntities, constitutionalFoundationRelationships } from './cluster.constitutional-foundation';
 import { institutionalRegenerationEntities, institutionalRegenerationRelationships } from './cluster.institutional-regeneration';
 import { regenerativeEnterpriseEntities, regenerativeEnterpriseRelationships } from './cluster.regenerative-enterprise';
+import { justTransitionEntities, justTransitionRelationships } from './cluster.just-transition';
 import { governanceOSEntities, governanceOSRelationships } from './cluster.governance-os';
 import { ethicalOSEntities, ethicalOSRelationships } from './cluster.ethical-os';
 import { justiceOSEntities, justiceOSRelationships } from './cluster.justice-os';
@@ -162,6 +163,7 @@ export const allEntities: GgfEntity[] = [
   ...constitutionalFoundationEntities,
   ...institutionalRegenerationEntities,
   ...regenerativeEnterpriseEntities,
+  ...justTransitionEntities,
   ...governanceOSEntities,
   ...ethicalOSEntities,
   ...justiceOSEntities,
@@ -184,6 +186,7 @@ export const allRelationships: GgfRelationship[] = [
   ...constitutionalFoundationRelationships,
   ...institutionalRegenerationRelationships,
   ...regenerativeEnterpriseRelationships,
+  ...justTransitionRelationships,
   ...governanceOSRelationships,
   ...ethicalOSRelationships,
   ...justiceOSRelationships,
@@ -215,6 +218,14 @@ export const clusters: GgfCluster[] = [
   },
 
   // TIER 1: CORE OPERATING SYSTEMS
+  {
+    id: 'just_transition_security_cluster',
+    name: 'Just Transition System (Security)',
+    description: 'The Aegis Protocol: A framework for transitioning the military-industrial complex into a regenerative global security architecture.',
+    tier: 1,
+    entities: justTransitionEntities.filter(e => e.tier === 1).map(e => e.id),
+    color: '#7c3aed' // Purple for Tier 1
+  },
   {
     id: 'institutional_regeneration_cluster',
     name: 'Institutional Regeneration System',
@@ -281,6 +292,14 @@ export const clusters: GgfCluster[] = [
   },
 
   // TIER 2: FOUNDATIONAL APPLICATIONS
+  {
+    id: 'just_transition_industry_cluster',
+    name: 'Just Transition System (Industry)',
+    description: 'The Sundown Protocol: A framework for retiring harmful industries and rebirthing regenerative futures.',
+    tier: 2,
+    entities: justTransitionEntities.filter(e => e.tier === 2).map(e => e.id),
+    color: '#059669' // Green for Tier 2
+  },
   {
     id: 'property_stewardship_cluster',
     name: 'Property & Stewardship Transition',

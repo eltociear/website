@@ -534,7 +534,7 @@ This protocol will be commissioned from the Technology Governance Implementation
 - **High Seas Biodiversity**: Protection protocols for areas beyond national jurisdiction, migratory species corridors, and deep ocean ecosystems
 - **Deep-Sea Mining Regulation**: Environmental impact assessment requirements, moratorium procedures, and alternative material sourcing strategies
 - **Coral Reef Restoration**: Active restoration techniques, bleaching prevention measures, and community-based conservation approaches
-- **Marine Plastic Reduction**: Source reduction strategies, cleanup technologies, and microplastic threshold enforcement (<0.1 particles/L by 2035)
+- **Marine Plastic Reduction**: Source reduction strategies, cleanup technologies, and microplastic threshold enforcement (`<`0.1 particles/L by 2035)
 - **Ocean Acidification**: Monitoring systems, mitigation approaches, and ecosystem adaptation support
 
 #### Integration with UNESCO Partnership

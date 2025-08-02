@@ -96,6 +96,72 @@ export const humanFlourishingEntities: GgfEntity[] = [
       group: 'humanSocialSystems'
     }
   },
+  // === THE PROMETHEUS PROTOCOL (PHARMACEUTICAL & BIOTECH COMMONS) ===
+  {
+    id: 'framework_prometheus_protocol',
+    type: 'Framework',
+    name: 'The Prometheus Protocol',
+    shortName: 'Prometheus Protocol',
+    description: 'A commons-based framework for the discovery, production, and distribution of medicines and biotechnology.',
+    tier: 2,
+    status: 'Planned',
+    primaryDomain: 'Health',
+    implementationPriority: 'High',
+    dependencies: ['framework_treaty', 'mechanism_gcf', 'framework_hearthstone', 'framework_discovery_commons', 'framework_indigenous', 'framework_gscl'],
+    enables: ['council_gpsc', 'institution_pip_commons', 'institution_dmn'],
+    ui: {
+      path: '/frameworks/prometheus-protocol',
+      titleKey: 'framework.docs.nav.frameworkTitles.prometheusProtocol',
+      emoji: '⚕️',
+      version: '7.1',
+      slug: 'prometheus-protocol',
+      group: 'planetaryHealthResilience'
+    }
+  },
+  // === THE DISCOVERY COMMONS (SCIENTIFIC & RESEARCH INTEGRITY) ===
+  {
+    id: 'framework_discovery_commons',
+    type: 'Framework',
+    name: 'The Discovery Commons',
+    shortName: 'Discovery Commons',
+    description: 'A GGF framework for governing the production of scientific knowledge as a global public good.',
+    tier: 2,
+    status: 'Planned',
+    primaryDomain: 'Governance',
+    implementationPriority: 'High',
+    dependencies: ['framework_treaty', 'mechanism_gcf', 'framework_digital_commons', 'framework_indigenous'],
+    enables: ['council_global_research', 'institution_public_research_fund', 'protocol_open_science'],
+    ui: {
+      path: '/frameworks/discovery-commons',
+      titleKey: 'framework.docs.nav.frameworkTitles.discoveryCommons',
+      emoji: '🔬', // Microscope emoji
+      version: '1.0',
+      slug: 'discovery-commons'
+      // This fits well in group: 'humanSocialSystems'
+    }
+  },
+  // === THE KINTSUGI PROTOCOL (COLLECTIVE CARE & SAFETY) ===
+  {
+    id: 'framework_kintsugi_protocol',
+    type: 'Framework',
+    name: 'The Kintsugi Protocol',
+    shortName: 'Kintsugi Protocol',
+    description: 'A framework for collective care and restorative safety, replacing punitive systems with community-led healing and support.',
+    tier: 2,
+    status: 'Planned',
+    primaryDomain: 'Governance',
+    implementationPriority: 'High',
+    dependencies: ['framework_justice', 'framework_peace', 'framework_mental_health', 'framework_indigenous', 'framework_disability'],
+    enables: ['institution_community_safety_council', 'institution_crisis_sanctuary', 'process_community_safety_weaver'],
+    ui: {
+      path: '/frameworks/kintsugi-protocol',
+      titleKey: 'framework.docs.nav.frameworkTitles.kintsugiProtocol',
+      emoji: '🏺', // Amphora/pottery emoji for Kintsugi
+      version: '2.0',
+      slug: 'kintsugi-protocol',
+      group: 'humanSocialSystems'
+    }
+  },
 
   // === GOVERNANCE COUNCILS ===
   {
@@ -123,6 +189,35 @@ export const humanFlourishingEntities: GgfEntity[] = [
     geographicScope: 'Global',
     implementationPriority: 'High',
     dependencies: ['framework_synoptic', 'framework_meta_gov']
+  },
+  {
+    id: 'council_gpsc',
+    type: 'Council',
+    name: 'Global Pharmaceutical Stewardship Council',
+    shortName: 'GPSC',
+    description: 'Oversees the commons-based pharmaceutical pipeline, from research prioritization to equitable access.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_prometheus_protocol', 'council_phc']
+  },
+  {
+    id: 'council_global_research',
+    type: 'Council',
+    name: 'Global Research Council',
+    shortName: 'GRC',
+    description: 'A sub-council of Meta-Governance that sets global research priorities and oversees the Discovery Commons.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_discovery_commons', 'framework_meta_gov']
+  },
+  {
+    id: 'council_youth_safety',
+    type: 'Council',
+    name: 'Youth Safety Council',
+    description: 'A parallel governance body with authority over youth-related safety issues, peer mediation, and future impact assessments.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_kintsugi_protocol', 'framework_youth']
   },
 
   // === SPECIALIZED INSTITUTIONS ===
@@ -165,6 +260,140 @@ export const humanFlourishingEntities: GgfEntity[] = [
     implementationPriority: 'High',
     dependencies: ['framework_synoptic', 'framework_indigenous'],
     enables: ['framework_arts_flourishing'] // Enables the Arts Ambassadors program
+  },
+  {
+    id: 'institution_pip_commons',
+    type: 'Institution',
+    name: 'Pharmaceutical IP Commons',
+    shortName: 'IP Commons',
+    description: 'A Stewardship Trust that holds patents, data, and know-how as a public good for global manufacturing.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_prometheus_protocol', 'framework_hearthstone']
+  },
+  {
+    id: 'institution_dmn',
+    type: 'Institution',
+    name: 'Distributed Manufacturing Network',
+    shortName: 'DMN',
+    description: 'A network of community-owned, cooperative facilities for producing medicines, with a Global South-first focus.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_prometheus_protocol', 'framework_work_liberation']
+  },
+  {
+    id: 'institution_regional_research_hubs',
+    type: 'Institution',
+    name: 'Regional Research Hubs',
+    description: 'Decentralized bodies that adapt global research priorities to local contexts and cultural values.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['council_global_research']
+  },
+  {
+    id: 'institution_public_research_fund',
+    type: 'Institution',
+    name: 'Public Research Fund',
+    description: 'Distributes grants from the GCF for mission-oriented research, prioritizing Global South capacity.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_discovery_commons', 'mechanism_gcf']
+  },
+  {
+    id: 'institution_global_science_assembly',
+    type: 'Institution',
+    name: 'Global Science Assembly',
+    description: 'A directly elected body with oversight powers to initiate inquiries and force reconsideration of GRC priorities.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_discovery_commons']
+  },
+  {
+    id: 'institution_knowledge_commons_ombudsperson',
+    type: 'Institution',
+    name: 'Knowledge Commons Ombudsperson',
+    description: 'Mediates disputes, tracks failures, and oversees protocols related to political engagement and non-compliance.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_discovery_commons']
+  },
+  {
+    id: 'institution_community_safety_council',
+    type: 'Institution',
+    name: 'Community Safety Council',
+    description: 'A BAZ-level or municipal council, selected via sortition, that oversees the local Kintsugi Protocol system.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_kintsugi_protocol']
+  },
+  {
+    id: 'institution_shru',
+    type: 'Institution',
+    name: 'Severe Harm Response Unit',
+    shortName: 'SHRU',
+    description: 'A repurposed, downsized, and unarmed unit for responding to immediate, severe physical threats, activated only by the Community Safety Council.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_kintsugi_protocol']
+  },
+  {
+    id: 'institution_community_safety_ombudsperson',
+    type: 'Institution',
+    name: 'Community Safety Ombudsperson',
+    description: 'An independent advocate for community members, handling complaints about system failures.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['institution_community_safety_council']
+  },
+  {
+    id: 'institution_community_safety_observatory',
+    type: 'Institution',
+    name: 'Community Safety Observatory',
+    description: 'A participatory research body that conducts community-controlled research on safety outcomes and maintains longitudinal data.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_kintsugi_protocol']
+  },
+  {
+    id: 'institution_crisis_sanctuary',
+    type: 'Institution',
+    name: 'Crisis Sanctuaries',
+    description: 'Non-carceral, 24/7 spaces for people in acute mental or emotional distress, co-governed with the Mental Health Framework.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_kintsugi_protocol', 'framework_mental_health']
+  },
+
+  // === MECHANISMS ===
+  {
+    id: 'mechanism_pcrf',
+    type: 'EconomicMechanism',
+    name: 'Pharmaceutical Colonialism Reparations Fund',
+    shortName: 'Reparations Fund',
+    description: 'A fund capitalized by a levy on historical pharma profits to bootstrap the commons.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_prometheus_protocol', 'framework_gaian_trade']
+  },
+  {
+    id: 'mechanism_research_equity_fund',
+    type: 'EconomicMechanism',
+    name: 'Research Equity Fund',
+    description: 'A 20% allocation of the Public Research Fund for Global South infrastructure, fellowships, and micro-grants.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['institution_public_research_fund']
+  },
+
+  // === PLATFORMS ===
+  {
+    id: 'platform_community_safety',
+    type: 'Platform',
+    name: 'Community Safety Platform',
+    description: 'A multi-lingual, accessible app and phone line for requesting non-emergency support.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_kintsugi_protocol']
   },
 
   // === PROCESSES, PROTOCOLS & TOOLS ===
@@ -219,7 +448,90 @@ export const humanFlourishingEntities: GgfEntity[] = [
     geographicScope: 'Global',
     implementationPriority: 'High',
     dependencies: ['framework_synoptic', 'framework_education']
-  }
+  },
+  {
+    id: 'process_community_priority_forum',
+    type: 'Process',
+    name: 'Community Priority Forum',
+    description: 'A democratic process for setting the Priority Medicines Research Agenda based on global health needs.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['council_gpsc', 'framework_discovery_commons']
+  },
+  {
+    id: 'protocol_open_science',
+    type: 'Protocol',
+    name: 'Open Science Protocol',
+    description: 'Mandates open-access publication, FAIR data compliance, pre-registration, and open peer review.',
+    tier: 2,
+    status: 'Draft',
+    dependencies: ['framework_discovery_commons']
+  },
+  {
+    id: 'protocol_ethical_ip',
+    type: 'LegalProtocol',
+    name: 'Ethical IP Protocol',
+    description: 'Bans patents in critical domains and places intellectual property into Stewardship Trusts.',
+    tier: 2,
+    status: 'Draft',
+    dependencies: ['framework_discovery_commons', 'framework_hearthstone']
+  },
+  {
+    id: 'protocol_indigenous_research_sovereignty',
+    type: 'LegalProtocol',
+    name: 'Indigenous Research Sovereignty Protocol',
+    description: 'Ensures research with Indigenous communities follows principles of co-design, dynamic consent, and data sovereignty.',
+    tier: 2,
+    status: 'Draft',
+    dependencies: ['framework_discovery_commons', 'framework_indigenous']
+  },
+  {
+    id: 'protocol_crisis_research_response',
+    type: 'Protocol',
+    name: 'Crisis Research Response Protocol',
+    description: 'A protocol for fast-tracking funding and mandating open data sharing during global crises.',
+    tier: 2,
+    status: 'Draft',
+    dependencies: ['framework_discovery_commons', 'framework_drr']
+  },
+  {
+    id: 'process_community_safety_weaver',
+    type: 'Process',
+    name: 'Community Safety Weavers',
+    description: 'The role of unarmed, trained first responders and peacekeepers for the community.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_kintsugi_protocol', 'framework_peace']
+  },
+  {
+    id: 'process_restorative_justice_circle',
+    type: 'Process',
+    name: 'Restorative Justice Circles',
+    description: 'The primary, community-led process for addressing harm after it has occurred.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_kintsugi_protocol']
+  },
+  {
+    id: 'process_accountability_pod',
+    type: 'Process',
+    name: 'Accountability Pods',
+    description: 'An intensive restorative process for high-harm or repeat-harm cases before formal escalation.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_kintsugi_protocol']
+  },
+  {
+    id: 'process_community_healing_circle',
+    type: 'Process',
+    name: 'Community Healing Circles',
+    description: 'Regular, community-wide processes for addressing collective and historical trauma.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_kintsugi_protocol', 'framework_cultural_heritage']
+  },
+
+
 ];
 
 export const humanFlourishingRelationships: GgfRelationship[] = [
@@ -336,6 +648,28 @@ export const humanFlourishingRelationships: GgfRelationship[] = [
     frequency: 'Continuous',
     sequenceType: 'Sequential'
   },
+
+  // === PROMETHEUS PROTOCOL INTEGRATION ===
+  { from: 'framework_prometheus_protocol', to: 'council_gpsc', type: 'ESTABLISHES', description: 'The protocol establishes the GPSC as its primary governing body.' },
+  { from: 'council_gpsc', to: 'institution_pip_commons', type: 'OVERSEES', description: 'The GPSC manages the Pharmaceutical IP Commons.' },
+  { from: 'council_gpsc', to: 'institution_dmn', type: 'OVERSEES', description: 'The GPSC coordinates the Distributed Manufacturing Network.' },
+  { from: 'council_gpsc', to: 'process_community_priority_forum', type: 'IMPLEMENTS', description: 'The GPSC uses the forum to set research priorities democratically.' },
+
+  // === DISCOVERY COMMONS INTEGRATION ===
+  { from: 'framework_discovery_commons', to: 'council_global_research', type: 'ESTABLISHES', description: 'The framework establishes the GRC as its primary governing body.' },
+  { from: 'council_global_research', to: 'institution_regional_research_hubs', type: 'OVERSEES', description: 'The GRC coordinates and supports the decentralized regional hubs.' },
+  { from: 'institution_global_science_assembly', to: 'council_global_research', type: 'AUDITS', description: 'The elected assembly provides democratic oversight and can override GRC decisions.' },
+  { from: 'framework_discovery_commons', to: 'institution_public_research_fund', type: 'ESTABLISHES', description: 'The framework establishes the fund to allocate research capital.' },
+  { from: 'mechanism_gcf', to: 'institution_public_research_fund', type: 'FUNDS', description: 'The Global Commons Fund is the primary capital source for the Public Research Fund.' },
+  { from: 'institution_public_research_fund', to: 'mechanism_research_equity_fund', type: 'IMPLEMENTS', description: 'The Public Research Fund operationalizes its equity goals via the Research Equity Fund.' },
+  { from: 'framework_discovery_commons', to: 'protocol_open_science', type: 'IMPLEMENTS', description: 'The Open Science Protocol is the core operational mandate of the Discovery Commons.' },
+
+  // === KINTSUGI PROTOCOL (COLLECTIVE CARE & SAFETY) INTEGRATION ===
+  { from: 'framework_kintsugi_protocol', to: 'institution_community_safety_council', type: 'ESTABLISHES' },
+  { from: 'institution_community_safety_council', to: 'process_community_safety_weaver', type: 'IMPLEMENTS' },
+  { from: 'institution_community_safety_council', to: 'institution_shru', type: 'OVERSEES' },
+  { from: 'institution_community_safety_council', to: 'institution_crisis_sanctuary', type: 'OVERSEES' },
+
 
   // === PROCESS & TOOL IMPLEMENTATION ===
   {
@@ -486,5 +820,36 @@ export const humanFlourishingRelationships: GgfRelationship[] = [
     strength: 'Strong',
     frequency: 'Continuous',
     sequenceType: 'Parallel'
-  }
+  },
+
+  // === CONNECTIONS FROM PROMETHEUS PROTOCOL TO OTHER GGF FRAMEWORKS ===
+  { from: 'framework_treaty', to: 'framework_prometheus_protocol', type: 'ENABLES', description: 'The Treaty\'s TRIPS Override Clause provides the legal authority for the IP Commons.' },
+  { from: 'mechanism_gcf', to: 'framework_prometheus_protocol', type: 'FUNDS', description: 'The Global Commons Fund is the long-term funding source for the protocol.' },
+  { from: 'framework_hearthstone', to: 'institution_pip_commons', type: 'ENABLES', description: 'Hearthstone provides the Stewardship Trust legal structure for the IP Commons.' },
+  { from: 'framework_discovery_commons', to: 'framework_prometheus_protocol', type: 'INTEGRATES_WITH', description: 'Provides the open-science research pipeline that feeds into the IP Commons.' },
+  { from: 'framework_indigenous', to: 'framework_prometheus_protocol', type: 'GUIDES', description: 'The Indigenous Framework provides non-negotiable sovereignty and FPIC 2.0 protocols for traditional knowledge.' },
+  { from: 'council_earth', to: 'council_gpsc', type: 'INFORMS', description: 'The Earth Council provides permanent Indigenous representation and co-chairship on the GPSC.' },
+  { from: 'framework_global_health', to: 'framework_prometheus_protocol', type: 'COORDINATES_WITH', description: 'The Prometheus Protocol serves as the primary mechanism for producing and distributing medicines needed by the Global Health framework.' },
+  { from: 'framework_prometheus_protocol', to: 'institution_dj_tribunal', type: 'ESCALATES_TO', description: 'The Healing Justice Tribunal adjudicates disputes over IP, biopiracy, and access.' },
+  { from: 'framework_aubi', to: 'framework_prometheus_protocol', type: 'INTEGRATES_WITH', description: 'Hearts are used to reward Community Health Legions for last-mile delivery.' },
+
+  // === DISCOVERY COMMONS - EXTERNAL GGF CONNECTIONS ===
+  { from: 'framework_discovery_commons', to: 'framework_education', type: 'INFORMS', description: 'Provides the verifiable, open-access knowledge that forms the basis of curricula in the Education Systems Framework.' },
+  { from: 'framework_discovery_commons', to: 'framework_synoptic', type: 'INFORMS', description: 'Supplies the trusted scientific knowledge that Public Epistemic Institutions use to combat misinformation.' },
+  { from: 'framework_discovery_commons', to: 'framework_prometheus_protocol', type: 'ENABLES', description: 'Provides the open R&D pipeline for the Prometheus Protocol\'s Community Priority Forum and clinical trials.' },
+  { from: 'framework_indigenous', to: 'protocol_indigenous_research_sovereignty', type: 'GUIDES', description: 'The Indigenous Framework provides the non-negotiable principles for the Indigenous Research Sovereignty Protocol.' },
+  { from: 'protocol_ethical_ip', to: 'framework_hearthstone', type: 'IMPLEMENTS', description: 'The Ethical IP Protocol uses the Stewardship Trust legal structure from the Hearthstone Protocol to hold knowledge in the commons.' },
+  { from: 'framework_discovery_commons', to: 'institution_dj_tribunal', type: 'ESCALATES_TO', description: 'The Epistemic Justice Chamber of the DJ Tribunal adjudicates cases of research misconduct or IP violations.' },
+
+  // === KINTSUGI PROTOCOL: CONNECTIONS TO OTHER GGF FRAMEWORKS ===
+  { from: 'framework_kintsugi_protocol', to: 'framework_justice', type: 'ESCALATES_TO', description: 'The protocol is the primary restorative system; harms that cannot be resolved are escalated to the formal Healing Justice Tribunal.' },
+  { from: 'framework_peace', to: 'framework_kintsugi_protocol', type: 'INFORMS', description: 'The Peace & Conflict Resolution Framework provides the core training and methodologies for Community Safety Weavers.' },
+  { from: 'framework_mental_health', to: 'framework_kintsugi_protocol', type: 'INTEGRATES_WITH', description: 'Provides the principles and support systems for Crisis Sanctuaries and Harm Reduction Teams.' },
+  { from: 'framework_aubi', to: 'framework_kintsugi_protocol', type: 'ENABLES', description: 'AUBI provides the economic stability to prevent root causes of harm and rewards care work via Hearts.' },
+  { from: 'framework_disability', to: 'framework_kintsugi_protocol', type: 'VALIDATES', description: 'The Foundation Protocol (Disability Justice) provides non-negotiable standards for accessibility and neuro-inclusion in all CCSF operations.' },
+  { from: 'framework_indigenous', to: 'framework_kintsugi_protocol', type: 'GUIDES', description: 'The Indigenous Framework\'s principles of justice and sovereignty are paramount in BAZs, with the Red Lines Clause ensuring community control.' },
+  { from: 'framework_aurora_accord', to: 'platform_community_safety', type: 'GUIDES', description: 'The Aurora Accord provides the mandatory data sovereignty, privacy, and anti-surveillance rules for the Community Safety Platform.' },
+  { from: 'framework_drr', to: 'framework_kintsugi_protocol', type: 'COORDINATES_WITH', description: 'In large-scale emergencies, the DRR framework coordinates the on-the-ground response of CCSF teams.' }
+
+
 ];

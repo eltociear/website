@@ -1,24 +1,28 @@
 {
   "meta": {
-    "title": "Miljöförvaltningsramverk - Global styrningsramverk",
-    "description": "En omfattande plan för transformativ miljöstyrning som tar itu med ekosystemförsämring, klimatförändring, ekonomisk ojämlikhet och teknisk etik"
+    "title": "Ramverk för miljöförvaltning - lager för ekologisk intelligens och rättigheter",
+    "description": "Lager för ekologisk intelligens och rättigheter för omvälvande miljöförvaltning som adresserar nedbrytning av ekosystem, klimatförändringar och erkännande av rättigheter för alla varelser"
+  },
+  "loading": {
+    "text": "Laddar innehåll för ramverket för miljöförvaltning..."
   },
   "guideCard": {
-    "title": "Ny inom miljöförvaltningsramverket?",
-    "description": "Börja med våra viktiga guider som förklarar kärnkoncept och ger omedelbara åtgärdssteg.",
-    "buttonText": "Läs sidessensen"
+    "title": "Ny till ramverket för miljöförvaltning?",
+    "description": "Börja med våra grundläggande guider som förklarar kärnkoncepten och ger omedelbara åtgärdssteg för ekologiskt förvaltarskap.",
+    "buttonText": "Läs essensen på en sida"
   },
   "categories": {
-    "overview": "Översikt",
-    "foundation": "Grund",
+    "overview": "Ramverksöversikt",
+    "quickStart": "Snabbstartsguider",
+    "foundation": "Grund och principer",
     "governance": "Styrning och policy",
-    "implementation": "Implementering",
-    "resources": "Resurser"
+    "implementation": "Implementering och verktyg",
+    "appendices": "Detaljerade bilagor"
   },
   "sections": {
-    "index": "Översikt",
-    "one-page-essence": "Sidessens",
-    "first-100-days-playbook": "Första 100 dagarna playbook",
+    "index": "Ramverksöversikt",
+    "one-page-essence": "Essensen på en sida",
+    "first-100-days-playbook": "Handlingsplan för de första 100 dagarna",
     "introduction": "Introduktion",
     "guiding-principles": "Vägledande principer",
     "governance-structure": "Styrningsstruktur",
@@ -26,53 +30,88 @@
     "policy-mechanisms": "Policymekanismer",
     "stakeholder-engagement": "Intressentengagemang",
     "financing-mechanisms": "Finansieringsmekanismer",
-    "implementation-roadmap": "Implementeringsplan",
-    "metrics-for-success": "Mätning av framgång",
+    "implementation-roadmap": "Implementeringsfärdplan",
+    "metrics-for-success": "Framgångsmått",
     "visualizations": "Visualiseringar",
     "challenges-and-solutions": "Utmaningar och lösningar",
     "implementation-tools": "Implementeringsverktyg",
-    "reparations-protocol": "Reparationsprotokoll",
+    "reparations-protocol": "Protokoll för gottgörelse",
     "conclusion": "Slutsats",
-    "appendices": "Bilagor"
+    "appendices-overview": "Översikt över bilagor",
+    "appendix-a": "Bilaga A: Beredskapsplaner",
+    "appendix-b": "Bilaga B: Pelarstrategier",
+    "appendix-c": "Bilaga C: Detaljer om färdplanen",
+    "appendix-d": "Bilaga D: Riskbedömning",
+    "appendix-e": "Bilaga E: Detaljer om styrning",
+    "appendix-f": "Bilaga F: Policyimplementering",
+    "appendix-g": "Bilaga G: Detaljer om gottgörelse",
+    "appendix-h": "Bilaga H: Finansieringsdetaljer",
+    "appendix-i": "Bilaga I: Implementeringsverktygslåda",
+    "appendix-j": "Bilaga J: Engagemangsmaterial",
+    "appendix-k": "Bilaga K: Engagemangsplaner",
+    "appendix-l": "Bilaga L: Fallstudier",
+    "appendix-m": "Bilaga M: Integration över ramverk",
+    "appendix-n": "Bilaga N: Pipeline från data till belöning",
+    "appendix-o": "Bilaga O: Protokoll för överlämning av rättigheter",
+    "appendix-p": "Bilaga P: Samordning mellan råd",
+    "appendix-q": "Bilaga Q: Indikatorer för uppföljning och utvärdering",
+    "appendix-r": "Bilaga R: Galleri med visualiseringar",
+    "appendix-s": "Bilaga S: Lärandesystem"
   },
   "sectionsShort": {
     "index": "Översikt",
-    "one-page-essence": "Sidessens",
-    "first-100-days-playbook": "100 dagars playbook",
+    "one-page-essence": "Essensen på en sida",
+    "first-100-days-playbook": "Första 100 dagarna",
     "introduction": "Introduktion",
     "guiding-principles": "Principer",
     "governance-structure": "Styrning",
     "core-pillars": "Kärnpelare",
-    "policy-mechanisms": "Policy",
+    "policy-mechanisms": "Policyverktyg",
     "stakeholder-engagement": "Intressenter",
     "financing-mechanisms": "Finansiering",
     "implementation-roadmap": "Färdplan",
-    "metrics-for-success": "Mätning",
+    "metrics-for-success": "Mått",
     "visualizations": "Visualiseringar",
     "challenges-and-solutions": "Utmaningar",
     "implementation-tools": "Verktyg",
-    "reparations-protocol": "Reparationer",
+    "reparations-protocol": "Gottgörelse",
     "conclusion": "Slutsats",
-    "appendices": "Bilagor"
+    "appendices-overview": "Bilagor",
+    "appendix-a": "Beredskapsplaner",
+    "appendix-b": "Pelarstrategier",
+    "appendix-c": "Färdplansdetaljer",
+    "appendix-d": "Riskbedömning",
+    "appendix-e": "Styrningsdetaljer",
+    "appendix-f": "Policyimplementering",
+    "appendix-g": "Gottgörelsedetaljer",
+    "appendix-h": "Finansieringsdetaljer",
+    "appendix-i": "Verktygslåda",
+    "appendix-j": "Material",
+    "appendix-k": "Engagemangsplaner",
+    "appendix-l": "Fallstudier",
+    "appendix-m": "Integration",
+    "appendix-n": "Datapipeline",
+    "appendix-o": "Rättighetsprotokoll",
+    "appendix-p": "Samordning",
+    "appendix-q": "Indikatorer",
+    "appendix-r": "Visualiseringar",
+    "appendix-s": "Lärande"
   },
   "progress": {
     "text": "Avsnitt {current} av {total}"
+  },
+  "navigation": {
+    "downloadPdf": "Ladda ner PDF-version",
+    "continueToFramework": "Fortsätt till hela ramverket",
+    "previousSection": "Föregående avsnitt",
+    "nextSection": "Nästa avsnitt"
   },
   "languageFallback": {
     "title": "Innehåll på ditt språk kommer snart",
     "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
   },
-  "navigation": {
-    "downloadPdf": "Ladda ner PDF-version",
-    "continueToFramework": "Fortsätt till fullständigt ramverk",
-    "previousSection": "Föregående avsnitt",
-    "nextSection": "Nästa avsnitt"
-  },
   "errors": {
-    "sectionNotFound": "Avsnitt \"{section}\" hittades inte",
-    "contentInDevelopment": "Detta innehåll utvecklas fortfarande."
-  },
-  "loading": {
-    "text": "Laddar ramverksinnehåll..."
+    "sectionNotFound": "Avsnittet \"{section}\" hittades inte",
+    "contentInDevelopment": "Detta innehåll är fortfarande under utveckling."
   }
 }

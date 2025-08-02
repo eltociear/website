@@ -1,4 +1,4 @@
-<!-- src/routes/frameworks/docs/implementation/urban/+page.svelte -->
+<!-- src/routes/frameworks/urban-and-community-development/+page.svelte -->
 <script>
   import { page } from '$app/stores';
   import { t, locale } from '$lib/i18n';
