@@ -58,6 +58,7 @@ Available categories:
 - technology-governance
 - regenerative-resources
 - great-transition
+- deep-time-governance
 - emergent-governance-protocol
 - ggf-overview
 
@@ -108,6 +109,7 @@ const outputDirs = {
   'technology-governance': path.join(__dirname, '..', 'static', 'frameworks','tools', 'technology-governance'),
   'regenerative-resources': path.join(__dirname, '..', 'static', 'frameworks','tools', 'regenerative-resources'),
   'great-transition': path.join(__dirname, '..', 'static', 'frameworks','tools', 'great-transition'),
+  'deep-time-governance': path.join(__dirname, '..', 'static', 'frameworks','tools', 'deep-time-governance'),
   'water-and-sanitation-governance': path.join(__dirname, '..', 'static', 'frameworks','tools', 'water-and-sanitation-governance'),
   'indigenous-governance-and-traditional-knowledge': path.join(__dirname, '..', 'static', 'frameworks','tools', 'indigenous-governance-and-traditional-knowledge'),
   'emergent-governance-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'emergent-governance-protocol'),
@@ -648,6 +650,63 @@ const tools = [
       'getting-started',
       'conclusion',
       'appendices'
+    ]
+  },
+
+  // Deep Time Governance
+  {
+    name: 'executive-summary-for-the-skeptic',
+    category: 'deep-time-governance',
+    fileNames: {
+      en: 'deep-time-governance-executive-summary-en',
+      sv: 'deep-time-governance-executive-summary-sv'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'deep-time-governance'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'deep-time-governance')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'assets', 'pdf'),
+      sv: path.join(__dirname, '..', 'static', 'assets', 'pdf')
+    },
+    pageFooter: {
+      en: 'Deep Time Governance - Executive Summary for the Skeptic',
+      sv: 'Djup tidsstyrning - Sammanfattning för skeptiker'
+    }
+  },
+
+  // Full framework
+  {
+    name: 'deep-time-governance-framework',
+    category: 'deep-time-governance',
+    fileNames: {
+      en: 'Deep-Time-Governance-Framework',
+      sv: 'Deep-Time-Governance-Framework'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'deep-time-governance'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'deep-time-governance')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'downloads', 'en'),
+      sv: path.join(__dirname, '..', 'static', 'downloads', 'sv')
+    },
+    pageFooter: {
+      en: 'Deep Time Governance',
+      sv: 'Djup tidsstyrning'
+    },
+    sections: [
+      'index',
+      'introduction-vision',
+      'framework-position',
+      'five-domains',
+      'core-principles',
+      'institutional-architecture',
+      'implementation-pathways',
+      'philosophical-foundations',
+      'technical-specifications',
+      'case-studies',
+      'faq'
     ]
   },
 

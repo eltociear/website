@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "title": "Deep Time & Relativistic Governance Framework - Global Governance Framework",
+    "description": "A visionary framework for governing across interstellar distances and cosmic timescales, addressing democracy, causality, and ethics in a multi-planetary civilization."
+  },
+  "loading": {
+    "text": "Loading deep time governance content..."
+  },
+  "guideCard": {
+    "title": "New to Deep Time Governance?",
+    "description": "Start with our executive summary explaining how governance can work across cosmic timescales and interstellar distances—from light-speed democracy to causality preservation.",
+    "buttonText": "Read Executive Summary"
+  },
+  "categories": {
+    "overview": "Framework Overview",
+    "foundation": "Foundation & Vision",
+    "framework": "Core Framework",
+    "supplementary": "Case Studies & FAQ"
+  },
+  "sections": {
+    "index": "Introduction & Overview",
+    "at-a-glance": "Framework at a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary",
+    "introduction-vision": "Cosmic Vision & Introduction",
+    "framework-position": "Framework Position & Integration",
+    "five-domains": "Five Domains of Deep Time Governance",
+    "core-principles": "Core Principles & Temporal Ethics",
+    "institutional-architecture": "Institutional Architecture",
+    "implementation-pathways": "Implementation Pathways",
+    "philosophical-foundations": "Philosophical Foundations",
+    "technical-specifications": "Technical Specifications",
+    "case-studies": "Case Studies & Scenarios",
+    "faq": "Frequently Asked Questions"
+  },
+  "sectionsShort": {
+    "introduction-vision": "Cosmic Vision",
+    "framework-position": "GGF Integration",
+    "five-domains": "Five Domains",
+    "core-principles": "Core Principles",
+    "institutional-architecture": "Institutions",
+    "implementation-pathways": "Implementation",
+    "philosophical-foundations": "Philosophy",
+    "technical-specifications": "Technical Specs",
+    "case-studies": "Case Studies",
+    "faq": "FAQ"
+  },
+  "progress": {
+    "text": "Section {current} of {total}"
+  },
+  "navigation": {
+    "downloadPdf": "Download PDF Version",
+    "continueToFramework": "Continue to Full Framework",
+    "previousSection": "Previous Section",
+    "nextSection": "Next Section"
+  },
+  "languageFallback": {
+    "title": "Content in your language coming soon",
+    "description": "This section is currently displayed in English until translation is complete."
+  },
+  "errors": {
+    "sectionNotFound": "Section \"{section}\" not found",
+    "contentInDevelopment": "This content is still being developed."
+  },
+  "temporal": {
+    "domains": {
+      "relativistic": "Relativistic Democratic Coordination",
+      "causality": "Causality Preservation & Protection", 
+      "communication": "Interstellar Communication Governance",
+      "ethics": "Deep Time Ethics & Intergenerational Justice",
+      "technology": "Temporal Technology Governance"
+    },
+    "principles": {
+      "democracy": "Temporal Democracy Principle",
+      "causality": "Causality Integrity Principle",
+      "stewardship": "Deep Time Stewardship Principle",
+      "justice": "Relativistic Justice Principle",
+      "subsidiarity": "Interstellar Subsidiarity Principle",
+      "sovereignty": "Temporal Sovereignty Principle",
+      "heritage": "Cosmic Heritage Principle",
+      "evolution": "Evolutionary Responsibility Principle"
+    },
+    "institutions": {
+      "interstellarCommission": "Interstellar Commission",
+      "butterflyCourts": "Butterfly Courts",
+      "deepTimeCouncil": "Deep Time Ethics Council",
+      "quantumLab": "Quantum Governance Lab",
+      "galacticAssembly": "Galactic Citizens' Assembly",
+      "deepTimeGuardians": "Deep Time Guardians"
+    },
+    "phases": {
+      "solarSystem": "Solar System Foundation (2050-2075)",
+      "interstellarPrep": "Interstellar Preparation (2075-2100)",
+      "interstellarSettlement": "Interstellar Settlement (2100-2150)",
+      "cosmicCivilization": "Cosmic Civilization (2150+)"
+    }
+  },
+  "quantum": {
+    "communication": "Quantum Communication",
+    "entanglement": "Quantum Entanglement",
+    "consciousness": "Quantum Consciousness",
+    "computing": "Quantum Computing",
+    "governance": "Quantum Governance"
+  },
+  "cosmic": {
+    "democracy": "Light-Speed Democracy",
+    "heritage": "Cosmic Heritage",
+    "citizenship": "Cosmic Citizenship",
+    "stewardship": "Cosmic Stewardship",
+    "evolution": "Species Evolution",
+    "exploration": "Cosmic Exploration"
+  },
+  "relativistic": {
+    "timeSync": "Temporal Synchronization",
+    "voting": "Relativistic Voting",
+    "representation": "Cross-Reference Frame Representation",
+    "consensus": "Relativistic Consensus",
+    "dilation": "Time Dilation Effects",
+    "communication": "Light-Speed Communication"
+  },
+  "scenarios": {
+    "alphaProxima": "Alpha Centauri Constitutional Crisis",
+    "temporalArchaeology": "Temporal Archaeology Incident",
+    "generationShip": "Generation Ship Democracy Crisis",
+    "cosmicHeritage": "Cosmic Heritage Dispute",
+    "causalityViolation": "Causality Violation Case",
+    "quantumParadox": "Quantum Communication Paradox"
+  },
+  "technologies": {
+    "aiProxies": "AI Democratic Proxies",
+    "quantumVoting": "Quantum-Secured Voting",
+    "laserComms": "Laser Communication Networks",
+    "timeMonitoring": "Temporal Monitoring Systems",
+    "causalityDetection": "Causality Violation Detection",
+    "relativisticsync": "Relativistic Time Synchronization"
+  },
+  "ethics": {
+    "temporalRights": "Temporal Rights",
+    "futureGenerations": "Future Generations",
+    "speciesResponsibility": "Species-Level Responsibility",
+    "cosmicStewardship": "Cosmic Stewardship Ethics",
+    "evolutionGuidance": "Evolution Guidance",
+    "timeManipulation": "Time Manipulation Ethics"
+  },
+  "implementation": {
+    "milestones": "Key Milestones",
+    "challenges": "Implementation Challenges",
+    "requirements": "Technical Requirements",
+    "timeline": "Implementation Timeline",
+    "prerequisites": "Prerequisites",
+    "dependencies": "Dependencies"
+  }
+}

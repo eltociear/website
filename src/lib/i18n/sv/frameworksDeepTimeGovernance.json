@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "title": "Djup tid & relativistiskt styresramverk - Globalt styresramverk",
+    "description": "Ett visionärt ramverk för styre över interstellära avstånd och kosmiska tidsskalor, som behandlar demokrati, kausalitet och etik i en multiplanetär civilisation."
+  },
+  "loading": {
+    "text": "Laddar innehåll om djupa tidsstyre..."
+  },
+  "guideCard": {
+    "title": "Ny inom djupa tidsstyre?",
+    "description": "Börja med vår sammanfattning som förklarar hur styre kan fungera över kosmiska tidsskalor och interstellära avstånd – från ljushastighetsdemokrati till bevarande av kausalitet.",
+    "buttonText": "Läs sammanfattningen"
+  },
+  "categories": {
+    "overview": "Ramverksöversikt",
+    "foundation": "Grund och vision",
+    "framework": "Kärnramverk",
+    "supplementary": "Fallstudier & FAQ"
+  },
+  "sections": {
+    "index": "Introduktion & översikt",
+    "at-a-glance": "Ramverket i korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning",
+    "introduction-vision": "Kosmisk vision & introduktion",
+    "framework-position": "Ramverkets position & integration",
+    "five-domains": "Fem domäner för djupa tidsstyre",
+    "core-principles": "Kärnprinciper & temporal etik",
+    "institutional-architecture": "Institutionell arkitektur",
+    "implementation-pathways": "Implementeringsvägar",
+    "philosophical-foundations": "Filosofiska grunder",
+    "technical-specifications": "Tekniska specifikationer",
+    "case-studies": "Fallstudier & scenarier",
+    "faq": "Vanliga frågor"
+  },
+  "sectionsShort": {
+    "introduction-vision": "Kosmisk vision",
+    "framework-position": "GGF-integration",
+    "five-domains": "Fem domäner",
+    "core-principles": "Kärnprinciper",
+    "institutional-architecture": "Institutioner",
+    "implementation-pathways": "Implementering",
+    "philosophical-foundations": "Filosofi",
+    "technical-specifications": "Tekniska specifikationer",
+    "case-studies": "Fallstudier",
+    "faq": "FAQ"
+  },
+  "progress": {
+    "text": "Avsnitt {current} av {total}"
+  },
+  "navigation": {
+    "downloadPdf": "Ladda ner PDF-version",
+    "continueToFramework": "Fortsätt till hela ramverket",
+    "previousSection": "Föregående avsnitt",
+    "nextSection": "Nästa avsnitt"
+  },
+  "languageFallback": {
+    "title": "Innehåll på ditt språk kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+  },
+  "errors": {
+    "sectionNotFound": "Avsnittet \"{section}\" hittades inte",
+    "contentInDevelopment": "Detta innehåll är fortfarande under utveckling."
+  },
+  "temporal": {
+    "domains": {
+      "relativistic": "Relativistisk demokratisk samordning",
+      "causality": "Bevarande & skydd av kausalitet",
+      "communication": "Styre för interstellär kommunikation",
+      "ethics": "Djupa tidsetik & intergenerationell rättvisa",
+      "technology": "Styre för temporal teknologi"
+    },
+    "principles": {
+      "democracy": "Temporala demokratiprincipen",
+      "causality": "Kausalitetsintegritetsprincipen",
+      "stewardship": "Principen om djuptidsförvaltarskap",
+      "justice": "Relativistiska rättviseprincipen",
+      "subsidiarity": "Interstellära subsidiaritetsprincipen",
+      "sovereignty": "Temporala suveränitetsprincipen",
+      "heritage": "Kosmiska arvsprincipen",
+      "evolution": "Evolutionära ansvarsprincipen"
+    },
+    "institutions": {
+      "interstellarCommission": "Interstellära kommissionen",
+      "butterflyCourts": "Fjärilsdomstolar",
+      "deepTimeCouncil": "Etikrådet för djup tid",
+      "quantumLab": "Kvantstyreslabb",
+      "galacticAssembly": "Galaktiska medborgarförsamlingen",
+      "deepTimeGuardians": "Djuptidsväktare"
+    },
+    "phases": {
+      "solarSystem": "Solsystemets grund (2050-2075)",
+      "interstellarPrep": "Interstellär förberedelse (2075-2100)",
+      "interstellarSettlement": "Interstellär bosättning (2100-2150)",
+      "cosmicCivilization": "Kosmisk civilisation (2150+)"
+    }
+  },
+  "quantum": {
+    "communication": "Kvantkommunikation",
+    "entanglement": "Kvantsammanflätning",
+    "consciousness": "Kvantmedvetande",
+    "computing": "Kvantdatorer",
+    "governance": "Kvantstyre"
+  },
+  "cosmic": {
+    "democracy": "Ljushastighetsdemokrati",
+    "heritage": "Kosmiskt arv",
+    "citizenship": "Kosmiskt medborgarskap",
+    "stewardship": "Kosmiskt förvaltarskap",
+    "evolution": "Artutveckling",
+    "exploration": "Kosmisk utforskning"
+  },
+  "relativistic": {
+    "timeSync": "Temporal synkronisering",
+    "voting": "Relativistisk röstning",
+    "representation": "Representation över referensramar",
+    "consensus": "Relativistisk konsensus",
+    "dilation": "Tidsdilatationseffekter",
+    "communication": "Ljushastighetskommunikation"
+  },
+  "scenarios": {
+    "alphaProxima": "Konstitutionell kris på alpha centauri",
+    "temporalArchaeology": "Temporal arkeologisk incident",
+    "generationShip": "Demokratikris på generationsskepp",
+    "cosmicHeritage": "Kosmisk arvstvist",
+    "causalityViolation": "Fall av kausalitetsbrott",
+    "quantumParadox": "Kvantkommunikationsparadox"
+  },
+  "technologies": {
+    "aiProxies": "Demokratiska AI-proxies",
+    "quantumVoting": "Kvantsäkrad röstning",
+    "laserComms": "Nätverk för laserkommunikation",
+    "timeMonitoring": "System för temporal övervakning",
+    "causalityDetection": "Detektering av kausalitetsbrott",
+    "relativisticsync": "Relativistisk tidssynkronisering"
+  },
+  "ethics": {
+    "temporalRights": "Temporala rättigheter",
+    "futureGenerations": "Framtida generationer",
+    "speciesResponsibility": "Ansvar på artnivå",
+    "cosmicStewardship": "Etik för kosmiskt förvaltarskap",
+    "evolutionGuidance": "Evolutionsvägledning",
+    "timeManipulation": "Etik för tidsmanipulation"
+  },
+  "implementation": {
+    "milestones": "Viktiga milstolpar",
+    "challenges": "Implementeringsutmaningar",
+    "requirements": "Tekniska krav",
+    "timeline": "Implementeringstidslinje",
+    "prerequisites": "Förutsättningar",
+    "dependencies": "Beroenden"
+  }
+}
