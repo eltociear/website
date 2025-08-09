@@ -158,8 +158,8 @@ export const developmentEntities: GgfEntity[] = [
   {
     id: 'framework_urban_community',
     type: 'Framework',
-    name: 'Urban and Community Development Framework',
-    shortName: 'Urban Development',
+    name: 'The Bioregional Polis Framework',
+    shortName: 'Bioregional Polis',
     description: 'Framework for sustainable urban planning and community development',
     tier: 3,
     status: 'Coming-Soon',
@@ -168,10 +168,10 @@ export const developmentEntities: GgfEntity[] = [
     implementationPriority: 'Medium',
     dependencies: ['framework_educational_systems', 'framework_nested_sovereignty'],
     ui: {
-      path: '/frameworks/urban-and-community-development',
-      titleKey: 'framework.docs.nav.frameworkTitles.urbanAndCommunityDevelopment',
+      path: '/frameworks/bioregional-polis',
+      titleKey: 'framework.docs.nav.frameworkTitles.bioregionalPolis',
       emoji: '🏙️',
-      slug: 'urban-and-community-development',
+      slug: 'bioregional-polis',
       group: 'humanSocialSystems'
     }
   },

@@ -59,6 +59,7 @@ Available categories:
 - regenerative-resources
 - great-transition
 - deep-time-governance
+- bioregional-polis
 - emergent-governance-protocol
 - ggf-overview
 
@@ -110,6 +111,7 @@ const outputDirs = {
   'regenerative-resources': path.join(__dirname, '..', 'static', 'frameworks','tools', 'regenerative-resources'),
   'great-transition': path.join(__dirname, '..', 'static', 'frameworks','tools', 'great-transition'),
   'deep-time-governance': path.join(__dirname, '..', 'static', 'frameworks','tools', 'deep-time-governance'),
+  'bioregional-polis': path.join(__dirname, '..', 'static', 'frameworks','tools', 'bioregional-polis'),
   'water-and-sanitation-governance': path.join(__dirname, '..', 'static', 'frameworks','tools', 'water-and-sanitation-governance'),
   'indigenous-governance-and-traditional-knowledge': path.join(__dirname, '..', 'static', 'frameworks','tools', 'indigenous-governance-and-traditional-knowledge'),
   'emergent-governance-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'emergent-governance-protocol'),
@@ -707,6 +709,63 @@ const tools = [
       'technical-specifications',
       'case-studies',
       'faq'
+    ]
+  },
+
+  // Bioregional Polis
+  {
+    name: 'executive-summary-for-the-skeptic',
+    category: 'bioregional-polis',
+    fileNames: {
+      en: 'bioregional-polis-executive-summary-en',
+      sv: 'bioregional-polis-executive-summary-sv'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'bioregional-polis'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'bioregional-polis')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'assets', 'pdf'),
+      sv: path.join(__dirname, '..', 'static', 'assets', 'pdf')
+    },
+    pageFooter: {
+      en: 'Bioregional Polis - Executive Summary for the Skeptic',
+      sv: 'Den bioregionala staden - Sammanfattning för skeptiker'
+    }
+  },
+
+  // Full framework
+  {
+    name: 'bioregional-polis-framework',
+    category: 'bioregional-polis',
+    fileNames: {
+      en: 'Bioregional-Polis-Framework',
+      sv: 'Bioregional-Polis-Framework'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'bioregional-polis'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'bioregional-polis')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'downloads', 'en'),
+      sv: path.join(__dirname, '..', 'static', 'downloads', 'sv')
+    },
+    pageFooter: {
+      en: 'Bioregional Polis',
+      sv: 'Den bioregionala staden'
+    },
+    sections: [
+      'index',
+      'introduction-vision',
+      'framework-foundations',
+      'five-dimensions',
+      'indigenous-governance',
+      'integration-architecture',
+      'implementation-pathways',
+      'success-stories',
+      'thrivability-scorecard',
+      'getting-started',
+      'resources-tools'
     ]
   },
 

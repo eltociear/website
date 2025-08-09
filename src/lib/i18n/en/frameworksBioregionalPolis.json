@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "title": "The Bioregional Polis - Indigenous-Guided Urban Framework",
+    "description": "Transform cities into regenerative ecosystems guided by Indigenous wisdom and participatory democracy"
+  },
+  "guideCard": {
+    "title": "New to the Bioregional Polis?",
+    "description": "Start with our executive summary to understand how cities can become regenerative ecosystems guided by Indigenous wisdom and participatory democracy.",
+    "buttonText": "Read Executive Summary"
+  },
+  "categories": {
+    "overview": "Overview",
+    "foundation": "Foundation",
+    "framework": "Core Framework", 
+    "practical": "Implementation"
+  },
+  "sections": {
+    "index": "Framework Overview",
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary for Skeptics",
+    "introduction-vision": "Introduction & Vision",
+    "framework-foundations": "Framework Foundations",
+    "five-dimensions": "Five Functional Dimensions",
+    "indigenous-governance": "Indigenous-Led Governance",
+    "integration-architecture": "GGF Integration Architecture", 
+    "implementation-pathways": "Implementation Pathways",
+    "success-stories": "Success Stories & Case Studies",
+    "thrivability-scorecard": "Urban Thrivability Scorecard",
+    "getting-started": "Getting Started",
+    "resources-tools": "Resources & Tools"
+  },
+  "sectionsShort": {
+    "index": "Overview",
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary",
+    "introduction-vision": "Vision",
+    "framework-foundations": "Foundations",
+    "five-dimensions": "Five Dimensions",
+    "indigenous-governance": "Indigenous Governance",
+    "integration-architecture": "Integration",
+    "implementation-pathways": "Implementation",
+    "success-stories": "Success Stories",
+    "thrivability-scorecard": "Thrivability Scorecard",
+    "getting-started": "Getting Started",
+    "resources-tools": "Resources"
+  },
+  "progress": {
+    "text": "Section {current} of {total}"
+  },
+  "navigation": {
+    "downloadPdf": "Download PDF Version",
+    "continueToFramework": "Continue to Full Framework",
+    "previousSection": "Previous Section",
+    "nextSection": "Next Section"
+  },
+  "languageFallback": {
+    "title": "Content in your language coming soon",
+    "description": "This section is currently displayed in English until translation is complete."
+  },
+  "loading": {
+    "text": "Loading framework content..."
+  },
+  "errors": {
+    "sectionNotFound": "Section \"{section}\" not found",
+    "contentInDevelopment": "This content is still being developed."
+  },
+  "features": {
+    "indigenousLed": {
+      "title": "Indigenous-Led Governance",
+      "description": "40% Indigenous representation with ceremonial protocols and FPIC 2.0"
+    },
+    "fiveDimensions": {
+      "title": "Five Functional Dimensions", 
+      "description": "Integrated approach to governance, economy, law, technology, and vision"
+    },
+    "ecosystemRights": {
+      "title": "Ecosystem Rights",
+      "description": "Legal personhood for urban rivers, forests, and wildlife corridors"
+    },
+    "regenerativeEconomy": {
+      "title": "Hearts & Leaves Economy",
+      "description": "Rewards civic participation and ecological stewardship"
+    },
+    "universalServices": {
+      "title": "Universal Basic Services",
+      "description": "Free transit, healthcare, and essential services for all residents"
+    },
+    "biophilicDesign": {
+      "title": "Biophilic Urban Design",
+      "description": "30% biodiversity increase through green corridors and urban sanctuaries"
+    }
+  },
+  "targets": {
+    "fifteenMinute": {
+      "title": "15-Minute City",
+      "description": "100% of residents within 1 km of essential services by 2035"
+    },
+    "biodiversity": {
+      "title": "Biodiversity Increase",
+      "description": "30% increase in native species populations"
+    },
+    "climateAdaptation": {
+      "title": "Climate Resilience", 
+      "description": "50% reduction in urban heat island effect"
+    },
+    "universalAccess": {
+      "title": "Universal Access",
+      "description": "100% access to basic services regardless of ability or income"
+    },
+    "zeroWaste": {
+      "title": "Circular Economy",
+      "description": "90% waste reduction through circular systems"
+    },
+    "carbonNeutral": {
+      "title": "Carbon Positive",
+      "description": "Cities that sequester more carbon than they emit"
+    }
+  },
+  "dimensions": {
+    "governance": {
+      "title": "Indigenous-Led Citizen Assembly",
+      "subtitle": "The Heart of Governance",
+      "description": "Participatory, bioregional democracy through Indigenous-guided collective decision-making"
+    },
+    "economy": {
+      "title": "Powering Participation", 
+      "subtitle": "The Economy of the Polis",
+      "description": "Hearts & Leaves currencies and regenerative economic incentives"
+    },
+    "legal": {
+      "title": "Enforcing Rights & Responsibility",
+      "subtitle": "The Legal Power of the Polis", 
+      "description": "Ecosystem rights and equity enforcement through digital justice"
+    },
+    "technology": {
+      "title": "Ethical Technology for Urban Stewardship",
+      "subtitle": "The Digital Tools of the Polis",
+      "description": "AI governance, digital twins, and Indigenous data sovereignty"
+    },
+    "vision": {
+      "title": "Regenerative Design Policies",
+      "subtitle": "The Vision of the Polis",
+      "description": "15-minute cities, biophilic design, and climate adaptation"
+    }
+  },
+  "principles": {
+    "indigenousSovereignty": "Indigenous Sovereignty",
+    "ecologicalLimits": "Ecological Limits",
+    "equityJustice": "Equity & Justice", 
+    "systemsIntegration": "Systems Integration",
+    "resilience": "Resilience",
+    "localEmpowerment": "Local Empowerment",
+    "seventhGeneration": "Seventh-Generation Accountability",
+    "culturalVibrancy": "Cultural Vibrancy"
+  },
+  "implementation": {
+    "phases": {
+      "foundation": "Foundation Phase (2025-2027)",
+      "expansion": "Expansion Phase (2028-2030)", 
+      "integration": "Integration Phase (2031-2035)",
+      "maturation": "Maturation Phase (2036-2040)"
+    },
+    "entryPoints": {
+      "observer": "Observer Status",
+      "pilot": "Pilot Participation",
+      "partnership": "Full Partnership", 
+      "leadership": "Innovation Leadership"
+    }
+  },
+  "gettingStarted": {
+    "urbanLeaders": {
+      "title": "For Urban Leaders",
+      "steps": [
+        "Assess Indigenous relationships and territorial context",
+        "Build respectful partnerships with Indigenous communities", 
+        "Start pilot projects like urban gardens or stream restoration",
+        "Develop enabling legislation for ecosystem rights"
+      ]
+    },
+    "indigenousCommunities": {
+      "title": "For Indigenous Communities",
+      "steps": [
+        "Document traditional relationships to urban areas",
+        "Establish FPIC 2.0 and Red Lines procedures",
+        "Develop knowledge sovereignty protocols",
+        "Build alliances with urban communities"
+      ]
+    },
+    "citizens": {
+      "title": "For Citizens & Organizations", 
+      "steps": [
+        "Learn about Indigenous history in your bioregion",
+        "Engage with citizen assemblies and community councils",
+        "Support ecosystem rights and Indigenous sovereignty",
+        "Start local regenerative projects"
+      ]
+    },
+    "funders": {
+      "title": "For Funders & Investors",
+      "steps": [
+        "Direct capital toward regenerative urban projects",
+        "Partner with Global Security & Exploration Trust",
+        "Support cooperative and community-controlled development",
+        "Invest in Indigenous-led urban research"
+      ]
+    }
+  },
+  "scorecard": {
+    "title": "Urban Thrivability Scorecard",
+    "description": "Comprehensive measurement system tracking progress across five key dimensions",
+    "dimensions": {
+      "ecological": {
+        "title": "Ecological Health (25%)",
+        "metrics": [
+          "Native species population increases",
+          "Air and water quality improvements", 
+          "Carbon sequestration and emissions reduction",
+          "Waste reduction and circular economy"
+        ]
+      },
+      "social": {
+        "title": "Social Equity (25%)",
+        "metrics": [
+          "Universal basic service access rates",
+          "Disability accommodation compliance",
+          "Gender/queer spatial justice indicators", 
+          "Economic inequality measures"
+        ]
+      },
+      "democratic": {
+        "title": "Democratic Participation (20%)",
+        "metrics": [
+          "Citizen Assembly engagement levels",
+          "Indigenous community representation",
+          "Youth participation in governance",
+          "Cultural event and ceremony frequency"
+        ]
+      },
+      "economic": {
+        "title": "Economic Regeneration (20%)",
+        "metrics": [
+          "Hearts/Leaves currency circulation",
+          "Local business development",
+          "Green job creation",
+          "Community wealth building"
+        ]
+      },
+      "resilience": {
+        "title": "Future Resilience (10%)",
+        "metrics": [
+          "Climate adaptation preparedness",
+          "Seven-generation impact assessments",
+          "Infrastructure resilience ratings",
+          "Cultural knowledge preservation"
+        ]
+      }
+    }
+  },
+  "callToAction": {
+    "title": "The Call",
+    "description": "Cities can be healers rather than harmers, regenerators rather than extractors, and homes for all life rather than human-only spaces.",
+    "subtitle": "Join us in reimagining cities as living covenants between all inhabitants of our shared bioregional home."
+  }
+}

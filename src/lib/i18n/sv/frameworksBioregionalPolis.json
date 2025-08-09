@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "title": "Den bioregionala staden - Ett urbant ramverk vägledd av urfolk",
+    "description": "Omvandla städer till regenerativa ekosystem, vägledda av urfolks visdom och deltagardemokrati"
+  },
+  "guideCard": {
+    "title": "Ny till den bioregionala staden?",
+    "description": "Börja med vår sammanfattning för att förstå hur städer kan bli regenerativa ekosystem, vägledda av urfolks visdom och deltagardemokrati.",
+    "buttonText": "Läs sammanfattningen"
+  },
+  "categories": {
+    "overview": "Översikt",
+    "foundation": "Grund",
+    "framework": "Kärnramverk",
+    "practical": "Implementering"
+  },
+  "sections": {
+    "index": "Ramverksöversikt",
+    "at-a-glance": "I korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning för skeptiker",
+    "introduction-vision": "Introduktion och vision",
+    "framework-foundations": "Ramverkets grunder",
+    "five-dimensions": "Fem funktionella dimensioner",
+    "indigenous-governance": "Urfolkslett styre",
+    "integration-architecture": "GGF integrationsarkitektur",
+    "implementation-pathways": "Implementeringsvägar",
+    "success-stories": "Framgångshistorier och fallstudier",
+    "thrivability-scorecard": "Poängkort för urban blomstring",
+    "getting-started": "Kom igång",
+    "resources-tools": "Resurser och verktyg"
+  },
+  "sectionsShort": {
+    "index": "Översikt",
+    "at-a-glance": "I korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning",
+    "introduction-vision": "Vision",
+    "framework-foundations": "Grunder",
+    "five-dimensions": "Fem dimensioner",
+    "indigenous-governance": "Urfolksstyre",
+    "integration-architecture": "Integration",
+    "implementation-pathways": "Implementering",
+    "success-stories": "Framgångshistorier",
+    "thrivability-scorecard": "Poängkort för blomstring",
+    "getting-started": "Kom igång",
+    "resources-tools": "Resurser"
+  },
+  "progress": {
+    "text": "Avsnitt {current} av {total}"
+  },
+  "navigation": {
+    "downloadPdf": "Ladda ner PDF-version",
+    "continueToFramework": "Fortsätt till hela ramverket",
+    "previousSection": "Föregående avsnitt",
+    "nextSection": "Nästa avsnitt"
+  },
+  "languageFallback": {
+    "title": "Innehåll på ditt språk kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+  },
+  "loading": {
+    "text": "Laddar ramverkets innehåll..."
+  },
+  "errors": {
+    "sectionNotFound": "Avsnittet \"{section}\" hittades inte",
+    "contentInDevelopment": "Detta innehåll är fortfarande under utveckling."
+  },
+  "features": {
+    "indigenousLed": {
+      "title": "Urfolkslett styre",
+      "description": "40 % urfolksrepresentation med ceremoniella protokoll och FPIC 2.0"
+    },
+    "fiveDimensions": {
+      "title": "Fem funktionella dimensioner",
+      "description": "Integrerat tillvägagångssätt för styre, ekonomi, juridik, teknik och vision"
+    },
+    "ecosystemRights": {
+      "title": "Ekosystemets rättigheter",
+      "description": "Juridisk personlighet för urbana floder, skogar och viltkorridorer"
+    },
+    "regenerativeEconomy": {
+      "title": "Hearts och Leaves-ekonomi",
+      "description": "Belönar medborgardeltagande och ekologiskt förvaltarskap"
+    },
+    "universalServices": {
+      "title": "Allmänna bastjänster",
+      "description": "Gratis kollektivtrafik, sjukvård och nödvändiga tjänster för alla invånare"
+    },
+    "biophilicDesign": {
+      "title": "Biofil stadsdesign",
+      "description": "30 % ökning av biologisk mångfald genom gröna korridorer och urbana fristäder"
+    }
+  },
+  "targets": {
+    "fifteenMinute": {
+      "title": "15-minutersstaden",
+      "description": "100 % av invånarna inom 1 km från nödvändiga tjänster senast 2035"
+    },
+    "biodiversity": {
+      "title": "Ökad biologisk mångfald",
+      "description": "30 % ökning av populationer av inhemska arter"
+    },
+    "climateAdaptation": {
+      "title": "Klimatresiliens",
+      "description": "50 % minskning av urbana värmeöeffekten"
+    },
+    "universalAccess": {
+      "title": "Universell tillgång",
+      "description": "100 % tillgång till bastjänster oavsett förmåga eller inkomst"
+    },
+    "zeroWaste": {
+      "title": "Cirkulär ekonomi",
+      "description": "90 % avfallsminskning genom cirkulära system"
+    },
+    "carbonNeutral": {
+      "title": "Klimatpositiv",
+      "description": "Städer som binder mer koldioxid än de släpper ut"
+    }
+  },
+  "dimensions": {
+    "governance": {
+      "title": "Urfolksledd medborgarförsamling",
+      "subtitle": "Styrets hjärta",
+      "description": "Deltagande, bioregional demokrati genom urfolkslett kollektivt beslutsfattande"
+    },
+    "economy": {
+      "title": "Drivkraft för deltagande",
+      "subtitle": "Stadens ekonomi",
+      "description": "Hearts och Leaves-valutor och regenerativa ekonomiska incitament"
+    },
+    "legal": {
+      "title": "Upprätthållande av rättigheter och ansvar",
+      "subtitle": "Stadens juridiska makt",
+      "description": "Ekosystemets rättigheter och upprätthållande av rättvisa genom digital juridik"
+    },
+    "technology": {
+      "title": "Etisk teknik för urbant förvaltarskap",
+      "subtitle": "Stadens digitala verktyg",
+      "description": "AI-styrning, digitala tvillingar och urfolks datasuveränitet"
+    },
+    "vision": {
+      "title": "Policyer för regenerativ design",
+      "subtitle": "Stadens vision",
+      "description": "15-minutersstäder, biofil design och klimatanpassning"
+    }
+  },
+  "principles": {
+    "indigenousSovereignty": "Urfolkssuveränitet",
+    "ecologicalLimits": "Ekologiska gränser",
+    "equityJustice": "Jämlikhet och rättvisa",
+    "systemsIntegration": "Systemintegration",
+    "resilience": "Resiliens",
+    "localEmpowerment": "Lokal egenmakt",
+    "seventhGeneration": "Sjugenerationsperspektiv",
+    "culturalVibrancy": "Kulturell livskraft"
+  },
+  "implementation": {
+    "phases": {
+      "foundation": "Grundfas (2025-2027)",
+      "expansion": "Expansionsfas (2028-2030)",
+      "integration": "Integrationsfas (2031-2035)",
+      "maturation": "Mognadsfas (2036-2040)"
+    },
+    "entryPoints": {
+      "observer": "Observatörsstatus",
+      "pilot": "Pilotdeltagande",
+      "partnership": "Fullvärdigt partnerskap",
+      "leadership": "Innovationsledarskap"
+    }
+  },
+  "gettingStarted": {
+    "urbanLeaders": {
+      "title": "För stadsledare",
+      "steps": [
+        "Utvärdera relationer med urfolk och territoriell kontext",
+        "Bygg respektfulla partnerskap med urfolkssamhällen",
+        "Starta pilotprojekt som stadsodlingar eller restaurering av vattendrag",
+        "Utveckla möjliggörande lagstiftning för ekosystemets rättigheter"
+      ]
+    },
+    "indigenousCommunities": {
+      "title": "För urfolkssamhällen",
+      "steps": [
+        "Dokumentera traditionella relationer till stadsområden",
+        "Etablera FPIC 2.0 och 'Red Lines'-procedurer",
+        "Utveckla protokoll för kunskapssuveränitet",
+        "Bygg allianser med urbana samhällen"
+      ]
+    },
+    "citizens": {
+      "title": "För medborgare och organisationer",
+      "steps": [
+        "Lär dig om urfolkshistorien i din bioregion",
+        "Engagera dig i medborgarförsamlingar och lokala råd",
+        "Stöd ekosystemets rättigheter och urfolkssuveränitet",
+        "Starta lokala regenerativa projekt"
+      ]
+    },
+    "funders": {
+      "title": "För finansiärer och investerare",
+      "steps": [
+        "Styr kapital mot regenerativa urbana projekt",
+        "Samarbeta med Global Security och Exploration Trust",
+        "Stöd kooperativ och samhällsstyrd utveckling",
+        "Investera i urfolksledd urban forskning"
+      ]
+    }
+  },
+  "scorecard": {
+    "title": "Poängkort för urban blomstring",
+    "description": "Omfattande mätsystem som följer framsteg över fem nyckeldimensioner",
+    "dimensions": {
+      "ecological": {
+        "title": "Ekologisk hälsa (25 %)",
+        "metrics": [
+          "Ökning av populationer av inhemska arter",
+          "Förbättringar av luft- och vattenkvalitet",
+          "Koldioxidinbindning och utsläppsminskning",
+          "Avfallsminskning och cirkulär ekonomi"
+        ]
+      },
+      "social": {
+        "title": "Social jämlikhet (25 %)",
+        "metrics": [
+          "Tillgångsgrad till allmänna bastjänster",
+          "Efterlevnad av tillgänglighetsanpassningar",
+          "Indikatorer för rumslig rättvisa för genus/queer",
+          "Mått på ekonomisk ojämlikhet"
+        ]
+      },
+      "democratic": {
+        "title": "Demokratiskt deltagande (20 %)",
+        "metrics": [
+          "Engagemangsnivåer i medborgarförsamlingen",
+          "Representation från urfolkssamhällen",
+          "Ungdomars deltagande i styre",
+          "Frekvens av kulturella evenemang och ceremonier"
+        ]
+      },
+      "economic": {
+        "title": "Ekonomisk regeneration (20 %)",
+        "metrics": [
+          "Cirkulation av Hearts/Leaves-valutan",
+          "Utveckling av lokala företag",
+          "Skapande av gröna jobb",
+          "Byggande av samhällskapital"
+        ]
+      },
+      "resilience": {
+        "title": "Framtida resiliens (10 %)",
+        "metrics": [
+          "Beredskap för klimatanpassning",
+          "Konsekvensbedömningar ur ett sjugenerationsperspektiv",
+          "Betyg för infrastrukturell resiliens",
+          "Bevarande av kulturell kunskap"
+        ]
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Uppmaningen",
+    "description": "Städer kan vara helande istället för skadliga, regenererande istället för utvinnande, och hem för allt liv istället för platser enbart för människor.",
+    "subtitle": "Anslut dig till oss för att återskapa städer som levande förbund mellan alla invånare i vårt gemensamma bioregionala hem."
+  }
+}
