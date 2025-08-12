@@ -115,6 +115,7 @@ const outputDirs = {
   'water-and-sanitation-governance': path.join(__dirname, '..', 'static', 'frameworks','tools', 'water-and-sanitation-governance'),
   'indigenous-governance-and-traditional-knowledge': path.join(__dirname, '..', 'static', 'frameworks','tools', 'indigenous-governance-and-traditional-knowledge'),
   'emergent-governance-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'emergent-governance-protocol'),
+  'living-land-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'living-land-protocol'),
   'treaty-for-our-only-home': path.join(__dirname, '..', 'static', 'frameworks','tools', 'treaty-for-our-only-home'),
   'get-involved': path.join(__dirname, '..', 'static', 'get-involved'),
   'frameworks-foundation': path.join(__dirname, '..', 'static', 'downloads'),
@@ -351,6 +352,69 @@ const tools = [
       'implementation-strategy',
       'documentation',
       'philosophy'
+    ]
+  },
+
+  // Living Land Protocol
+  {
+    name: 'executive-summary-for-the-skeptic',
+    category: 'living-land-protocol',
+    fileNames: {
+      en: 'living-land-protocol-executive-summary-en',
+      sv: 'living-land-protocol-executive-summary-sv'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'living-land-protocol'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'living-land-protocol')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'assets', 'pdf'),
+      sv: path.join(__dirname, '..', 'static', 'assets', 'pdf')
+    },
+    pageFooter: {
+      en: 'Living Land Protocol - Executive Summary for the Skeptic',
+      sv: 'Living Land-protokollet - Sammanfattning för skeptiker'
+    }
+  },
+
+  // Full framework
+  {
+    name: 'living-land-protocol-framework',
+    category: 'living-land-protocol',
+    fileNames: {
+      en: 'Living-Land-Protocol-Framework',
+      sv: 'Living-Land-Protocol-Framework'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'living-land-protocol'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'living-land-protocol')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'downloads', 'en'),
+      sv: path.join(__dirname, '..', 'static', 'downloads', 'sv')
+    },
+    pageFooter: {
+      en: 'Living Land Protocol',
+      sv: 'Living Land-protokollet'
+    },
+    sections: [
+      'index',
+      'introduction',
+      'theory-of-change',
+      'core-principles',
+      'framework-architecture',
+      'critical-path-dependencies',
+      'baz-led-rural-council',
+      'regenerative-rural-economy', 
+      'rural-observatory-technology',
+      'meta-coordination',
+      'implementation-roadmap',
+      'framework-integration',
+      'risk-management',
+      'success-metrics',
+      'getting-involved',
+      'glossary',
+      'appendices'
     ]
   },
 

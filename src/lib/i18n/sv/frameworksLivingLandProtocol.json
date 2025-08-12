@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "title": "Living Land Protocol - BAZ-lett landsbygdsstyre",
+    "description": "Ett ramverk för att stärka landsbygdssamhällen som arkitekter för sin egen regenerativa framtid genom deltagande bioregionalt styre"
+  },
+  "loading": {
+    "text": "Laddar protokollinnehåll..."
+  },
+  "errors": {
+    "sectionNotFound": "Avsnitt \"{section}\" hittades inte",
+    "contentInDevelopment": "Detta innehåll är under utveckling."
+  },
+  "guideCard": {
+    "title": "Ny till Living Land Protocol?",
+    "description": "Börja med vår sammanfattning för skeptiker – den tar upp praktiska farhågor kring omvandlingen av landsbygdsstyre och BAZ-lett utveckling.",
+    "buttonText": "Läs sammanfattningen för skeptiker"
+  },
+  "categories": {
+    "overview": "Översikt",
+    "foundation": "Grundpelare",
+    "core-implementation": "Kärnimplementering",
+    "operational": "Operationellt",
+    "resources": "Resurser"
+  },
+  "sections": {
+    "index": "Living Land Protocol",
+    "at-a-glance": "I korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning för skeptiker",
+    "introduction": "Introduktion",
+    "theory-of-change": "Förändringsteori",
+    "core-principles": "Kärnprinciper",
+    "framework-architecture": "Ramverkets arkitektur",
+    "critical-path-dependencies": "Kritisk väg och beroenden",
+    "baz-led-rural-council": "BAZ-lett landsbygdsråd",
+    "regenerative-rural-economy": "Regenerativ landsbygdsekonomi",
+    "rural-observatory-technology": "Landsbygdsobservatorium och teknologi",
+    "meta-coordination": "Meta-koordination",
+    "implementation-roadmap": "Implementeringsfärdplan",
+    "framework-integration": "Ramverksintegration",
+    "risk-management": "Riskhantering",
+    "success-metrics": "Framgångsmått",
+    "getting-involved": "Engagera dig",
+    "glossary": "Ordlista",
+    "appendices": "Bilagor"
+  },
+  "sectionsShort": {
+    "index": "Översikt",
+    "at-a-glance": "I korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning",
+    "introduction": "Introduktion",
+    "theory-of-change": "Förändringsteori",
+    "core-principles": "Kärnprinciper",
+    "framework-architecture": "Arkitektur",
+    "critical-path-dependencies": "Kritisk väg",
+    "baz-led-rural-council": "Landsbygdsråd",
+    "regenerative-rural-economy": "Landsbygdsekonomi",
+    "rural-observatory-technology": "Observatorium",
+    "meta-coordination": "Meta-koordination",
+    "implementation-roadmap": "Implementering",
+    "framework-integration": "Integration",
+    "risk-management": "Riskhantering",
+    "success-metrics": "Framgångsmått",
+    "getting-involved": "Engagera dig",
+    "glossary": "Ordlista",
+    "appendices": "Bilagor"
+  },
+  "progress": {
+    "text": "Avsnitt {current} av {total}"
+  },
+  "navigation": {
+    "downloadPdf": "Ladda ner PDF-version",
+    "continueToProtocol": "Fortsätt till hela protokollet",
+    "previousSection": "Föregående avsnitt",
+    "nextSection": "Nästa avsnitt"
+  },
+  "languageFallback": {
+    "title": "Innehåll på ditt språk kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+  }
+}

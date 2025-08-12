@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1000 700"
+   version="1.1"
+   id="svg80"
+   sodipodi:docname="ggf-integration-flowchart.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview80"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.2085714"
+     inkscape:cx="500.1773"
+     inkscape:cy="350"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg80" />
+  <!-- Background -->
+  <defs
+     id="defs4">
+    <linearGradient
+       id="bgGradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#f8f9fa;stop-opacity:1"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#e9ecef;stop-opacity:1"
+         id="stop2" />
+    </linearGradient>
+    <filter
+       id="dropShadow"
+       x="-0.0035714286"
+       y="-0.0066666667"
+       width="1.0071429"
+       height="1.0133333">
+      <feDropShadow
+         dx="3"
+         dy="3"
+         stdDeviation="2"
+         flood-opacity="0.3" />
+    </filter>
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#2c3e50"
+         id="polygon2" />
+    </marker>
+    <marker
+       id="greenArrow"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#27ae60"
+         id="polygon3" />
+    </marker>
+    <marker
+       id="blueArrow"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#3498db"
+         id="polygon4" />
+    </marker>
+  </defs>
+  <rect
+     width="1000"
+     height="700"
+     fill="url(#bgGradient)"
+     id="rect4" />
+  <!-- Title -->
+  <text
+     x="500"
+     y="30"
+     fill="#2c3e50"
+     font-family="Arial, sans-serif"
+     font-size="22"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text4">GGF Integration Flow: From Meta-Governance to Aegis Protocol</text>
+  <text
+     x="500"
+     y="50"
+     fill="#7f8c8d"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     id="text5">How Global Governance Frameworks Enable European Peace Strategy</text>
+  <!-- Stage I: Meta-Governance Framework -->
+  <rect
+     x="50"
+     y="100"
+     width="280"
+     height="150"
+     fill="#3498db"
+     opacity="0.1"
+     stroke="#3498db"
+     stroke-width="2"
+     rx="10"
+     filter="url(#dropShadow)"
+     id="rect5" />
+  <text
+     x="190"
+     y="125"
+     fill="#2c3e50"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     text-anchor="middle"
+     id="text6">STAGE I: META-GOVERNANCE</text>
+  <text
+     x="190"
+     y="145"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     id="text7">Internal European Coordination</text>
+  <!-- Meta-Governance Components -->
+  <rect
+     x="70"
+     y="160"
+     width="100"
+     height="35"
+     fill="#3498db"
+     rx="5"
+     id="rect7" />
+  <text
+     x="120"
+     y="175"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text8">EU Decision</text>
+  <text
+     x="120"
+     y="187"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     id="text9">Coordination</text>
+  <rect
+     x="190"
+     y="160"
+     width="100"
+     height="35"
+     fill="#3498db"
+     rx="5"
+     id="rect9" />
+  <text
+     x="240"
+     y="175"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text10">Citizen</text>
+  <text
+     x="240"
+     y="187"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     id="text11">Assemblies</text>
+  <rect
+     x="70"
+     y="205"
+     width="100"
+     height="35"
+     fill="#3498db"
+     rx="5"
+     id="rect11" />
+  <text
+     x="120"
+     y="220"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text12">Crisis Response</text>
+  <text
+     x="120"
+     y="232"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     id="text13">Protocols</text>
+  <rect
+     x="190"
+     y="205"
+     width="100"
+     height="35"
+     fill="#3498db"
+     rx="5"
+     id="rect13" />
+  <text
+     x="240"
+     y="220"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text14">AI-Assisted</text>
+  <text
+     x="240"
+     y="232"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     id="text15">Governance</text>
+  <!-- AUBI & Kintsugi Support -->
+  <rect
+     x="364.36563"
+     y="114.08667"
+     width="212.92358"
+     height="99.826653"
+     fill="#e67e22"
+     opacity="0.1"
+     stroke="#e67e22"
+     stroke-width="2.17334"
+     rx="11.829088"
+     id="rect15" />
+  <text
+     x="470"
+     y="136"
+     fill="#2c3e50"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     text-anchor="middle"
+     id="text16">SUPPORTING FRAMEWORKS</text>
+  <rect
+     x="400"
+     y="151"
+     width="70"
+     height="25"
+     fill="#e67e22"
+     rx="3"
+     id="rect16" />
+  <text
+     x="435"
+     y="166"
+     fill="#ffffff"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text17">AUBI</text>
+  <rect
+     x="480"
+     y="151"
+     width="70"
+     height="25"
+     fill="#e67e22"
+     rx="3"
+     id="rect17" />
+  <text
+     x="515"
+     y="166"
+     fill="#ffffff"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text18">Kintsugi</text>
+  <text
+     x="470"
+     y="191"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     text-anchor="middle"
+     id="text19">Economic Security</text>
+  <text
+     x="470"
+     y="203"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     text-anchor="middle"
+     id="text20">Social Cohesion</text>
+  <!-- Bridge Phase: RTZ Piloting -->
+  <rect
+     x="620"
+     y="100"
+     width="280"
+     height="150"
+     fill="#f39c12"
+     opacity="0.1"
+     stroke="#f39c12"
+     stroke-width="2"
+     rx="10"
+     filter="url(#dropShadow)"
+     id="rect20" />
+  <text
+     x="760"
+     y="125"
+     fill="#2c3e50"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     text-anchor="middle"
+     id="text21">BRIDGE: RTZ PILOTING</text>
+  <text
+     x="760"
+     y="145"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     id="text22">Regional Proof-of-Concept</text>
+  <!-- RTZ Components -->
+  <rect
+     x="640"
+     y="160"
+     width="100"
+     height="35"
+     fill="#f39c12"
+     rx="5"
+     id="rect22" />
+  <text
+     x="690"
+     y="175"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text23">Gaian Trade</text>
+  <text
+     x="690"
+     y="187"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     id="text24">Framework</text>
+  <rect
+     x="760"
+     y="160"
+     width="100"
+     height="35"
+     fill="#f39c12"
+     rx="5"
+     id="rect24" />
+  <text
+     x="810"
+     y="175"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text25">Hearts  Leaves</text>
+  <text
+     x="810"
+     y="187"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     id="text26">Currencies</text>
+  <rect
+     x="640"
+     y="205"
+     width="100"
+     height="35"
+     fill="#f39c12"
+     rx="5"
+     id="rect26" />
+  <text
+     x="690"
+     y="220"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text27">Global Gateway</text>
+  <text
+     x="690"
+     y="232"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     id="text28">Projects</text>
+  <rect
+     x="760"
+     y="205"
+     width="100"
+     height="35"
+     fill="#f39c12"
+     rx="5"
+     id="rect28" />
+  <text
+     x="810"
+     y="220"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text29">Prometheus</text>
+  <text
+     x="810"
+     y="232"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     id="text30">Protocol</text>
+  <!-- Stage II: Aegis Protocol -->
+  <rect
+     x="350"
+     y="300"
+     width="300"
+     height="180"
+     fill="#27ae60"
+     opacity="0.1"
+     stroke="#27ae60"
+     stroke-width="2"
+     rx="10"
+     filter="url(#dropShadow)"
+     id="rect30" />
+  <text
+     x="500"
+     y="325"
+     fill="#2c3e50"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     text-anchor="middle"
+     id="text31">STAGE II: AEGIS PROTOCOL</text>
+  <text
+     x="500"
+     y="345"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     id="text32">Species-Level Security Cooperation</text>
+  <!-- Aegis Components -->
+  <rect
+     x="370"
+     y="360"
+     width="120"
+     height="35"
+     fill="#27ae60"
+     rx="5"
+     id="rect32" />
+  <text
+     x="430"
+     y="375"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text33">Global Security </text>
+  <text
+     x="430"
+     y="387"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     id="text34">Exploration Trust</text>
+  <rect
+     x="510"
+     y="360"
+     width="120"
+     height="35"
+     fill="#27ae60"
+     rx="5"
+     id="rect34" />
+  <text
+     x="570"
+     y="375"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text35">Earth Defense</text>
+  <text
+     x="570"
+     y="387"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     id="text36">Force</text>
+  <rect
+     x="370"
+     y="405"
+     width="120"
+     height="35"
+     fill="#27ae60"
+     rx="5"
+     id="rect36" />
+  <text
+     x="430"
+     y="420"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text37">Asteroid Defense</text>
+  <text
+     x="430"
+     y="432"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     id="text38">Systems</text>
+  <rect
+     x="510"
+     y="405"
+     width="120"
+     height="35"
+     fill="#27ae60"
+     rx="5"
+     id="rect38" />
+  <text
+     x="570"
+     y="420"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text39">Pandemic</text>
+  <text
+     x="570"
+     y="432"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     id="text40">Prevention</text>
+  <rect
+     x="440"
+     y="450"
+     width="120"
+     height="35"
+     fill="#27ae60"
+     rx="5"
+     id="rect40" />
+  <text
+     x="500"
+     y="465"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text41">Climate Adaptation</text>
+  <text
+     x="500"
+     y="477"
+     fill="white"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     text-anchor="middle"
+     id="text42">Coordination</text>
+  <!-- Great Power Integration Boxes -->
+  <rect
+     x="50"
+     y="520"
+     width="150"
+     height="100"
+     fill="#3498db"
+     opacity="0.2"
+     stroke="#3498db"
+     stroke-width="2"
+     rx="10"
+     id="rect42" />
+  <text
+     x="125"
+     y="545"
+     fill="#2c3e50"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     text-anchor="middle"
+     id="text43">UNITED STATES</text>
+  <text
+     x="125"
+     y="565"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text44">Co-leads planetary defense</text>
+  <text
+     x="125"
+     y="578"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text45">Technology sharing</text>
+  <text
+     x="125"
+     y="591"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text46">Democratic values export</text>
+  <text
+     x="125"
+     y="604"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text47">Space governance</text>
+  <rect
+     x="250"
+     y="520"
+     width="150"
+     height="100"
+     fill="#e74c3c"
+     opacity="0.2"
+     stroke="#e74c3c"
+     stroke-width="2"
+     rx="10"
+     id="rect47" />
+  <text
+     x="325"
+     y="545"
+     fill="#2c3e50"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     text-anchor="middle"
+     id="text48">CHINA</text>
+  <text
+     x="325"
+     y="565"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text49">Industrial capacity</text>
+  <text
+     x="325"
+     y="578"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text50">Infrastructure building</text>
+  <text
+     x="325"
+     y="591"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text51">Climate technology</text>
+  <text
+     x="325"
+     y="604"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text52">Long-term planning</text>
+  <rect
+     x="600"
+     y="520"
+     width="150"
+     height="100"
+     fill="#27ae60"
+     opacity="0.2"
+     stroke="#27ae60"
+     stroke-width="2"
+     rx="10"
+     id="rect52" />
+  <text
+     x="675"
+     y="545"
+     fill="#2c3e50"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     text-anchor="middle"
+     id="text53">RUSSIA</text>
+  <text
+     x="675"
+     y="565"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text54">Ecosystem restoration</text>
+  <text
+     x="675"
+     y="578"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text55">Arctic stewardship</text>
+  <text
+     x="675"
+     y="591"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text56">Resource management</text>
+  <text
+     x="675"
+     y="604"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text57">Carbon sequestration</text>
+  <rect
+     x="800"
+     y="520"
+     width="150"
+     height="100"
+     fill="#9b59b6"
+     opacity="0.2"
+     stroke="#9b59b6"
+     stroke-width="2"
+     rx="10"
+     id="rect57" />
+  <text
+     x="875"
+     y="545"
+     fill="#2c3e50"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     text-anchor="middle"
+     id="text58">EUROPE</text>
+  <text
+     x="875"
+     y="565"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text59">Coordination hub</text>
+  <text
+     x="875"
+     y="578"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text60">Diplomatic leadership</text>
+  <text
+     x="875"
+     y="591"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text61">Regulatory standards</text>
+  <text
+     x="875"
+     y="604"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text62">Peace architecture</text>
+  <!-- Flow Arrows -->
+  <!-- Stage I to Bridge -->
+  <path
+     d="m 330,239 q 70,0 240,0"
+     stroke="#3498db"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#blueArrow)"
+     id="path62" />
+  <text
+     x="450"
+     y="229"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="middle"
+     font-style="italic"
+     id="text63">Enables</text>
+  <!-- Bridge to Stage II -->
+  <path
+     d="M 760 250 Q 760 275 650 300"
+     stroke="#f39c12"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#greenArrow)"
+     id="path63" />
+  <text
+     x="708"
+     y="266"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="middle"
+     font-style="italic"
+     id="text64">Scales To</text>
+  <path
+     d="M 190 250 Q 190 275 350 300"
+     stroke="#3498db"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#greenArrow)"
+     id="path64" />
+  <text
+     x="274"
+     y="268"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     text-anchor="middle"
+     font-style="italic"
+     id="text65">Evolves Into</text>
+  <!-- Stage II to Great Powers -->
+  <path
+     d="M 430 480 Q 430 500 125 520"
+     stroke="#27ae60"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#greenArrow)"
+     id="path65" />
+  <path
+     d="M 470 480 Q 470 500 325 520"
+     stroke="#27ae60"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#greenArrow)"
+     id="path66" />
+  <path
+     d="M 530 480 Q 530 500 675 520"
+     stroke="#27ae60"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#greenArrow)"
+     id="path67" />
+  <path
+     d="M 570 480 Q 570 500 875 520"
+     stroke="#27ae60"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#greenArrow)"
+     id="path68" />
+  <!-- Timeline -->
+  <rect
+     x="50"
+     y="650"
+     width="900"
+     height="40"
+     fill="#34495e"
+     opacity="0.1"
+     rx="5"
+     id="rect68" />
+  <text
+     x="150"
+     y="670"
+     fill="#2c3e50"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text68">Years 1-5</text>
+  <text
+     x="150"
+     y="682"
+     fill="#7f8c8d"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text69">Foundation Building</text>
+  <text
+     x="400"
+     y="670"
+     fill="#2c3e50"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text70">Years 6-10</text>
+  <text
+     x="400"
+     y="682"
+     fill="#7f8c8d"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text71">Regional Piloting</text>
+  <text
+     x="650"
+     y="670"
+     fill="#2c3e50"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text72">Years 11-25</text>
+  <text
+     x="650"
+     y="682"
+     fill="#7f8c8d"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text73">Global Transformation</text>
+  <text
+     x="850"
+     y="670"
+     fill="#2c3e50"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text74">Mature System</text>
+  <text
+     x="850"
+     y="682"
+     fill="#7f8c8d"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text75">Planetary Cooperation</text>
+  <!-- Key Insight Box -->
+  <rect
+     x="750"
+     y="280"
+     width="220"
+     height="80"
+     fill="#ecf0f1"
+     stroke="#95a5a6"
+     stroke-width="1"
+     rx="5"
+     filter="url(#dropShadow)"
+     id="rect75" />
+  <text
+     x="860"
+     y="300"
+     fill="#2c3e50"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text76">Key Insight</text>
+  <text
+     x="860"
+     y="320"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text77">Each GGF framework builds</text>
+  <text
+     x="860"
+     y="332"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text78">logically on the previous,</text>
+  <text
+     x="860"
+     y="344"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text79">creating irresistible pull</text>
+  <text
+     x="860"
+     y="356"
+     fill="#34495e"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     text-anchor="middle"
+     id="text80">toward cooperation</text>
+</svg>

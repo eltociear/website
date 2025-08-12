@@ -188,10 +188,10 @@ export const developmentEntities: GgfEntity[] = [
     implementationPriority: 'Medium',
     dependencies: ['framework_food', 'framework_nested_sovereignty'],
     ui: {
-      path: '/frameworks/rural-development-governance',
-      titleKey: 'framework.docs.nav.frameworkTitles.ruralDevelopmentGovernance',
-      emoji: '🚜',
-      slug: 'rural-development-governance'
+      path: '/frameworks/living-land-protocol',
+      titleKey: 'framework.docs.nav.frameworkTitles.livingLandProtocol',
+      emoji: '🛖',
+      slug: 'living-land-protocol'
     }
   },
 

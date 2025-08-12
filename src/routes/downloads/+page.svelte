@@ -901,6 +901,21 @@
           </div>
         </div>
 
+        <!-- Living Land Protocol Framework -->
+        <div class="download-card" style="background-color: #f5f5dc; border: 1px solid #8fbc8f;">
+          <div class="card-emoji" style="color: #2d5016;">🛖</div>
+          <div class="card-content">
+            <h2 class="card-title" style="color: #2d5016;">{$t('downloads.implementationFrameworks.livingLandProtocol.title')}</h2>
+            <p class="card-description">{$t('downloads.implementationFrameworks.livingLandProtocol.description')}</p>
+            <button on:click={(e) => handleDownload(e, 'Living-Land-Protocol-Framework')} class="download-button" style="background-color: #2d5016;">
+              {$t('downloads.downloadButton')}
+              <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
         <!-- Religious & Spiritual Dialogue -->
         <div class="download-card">
           <div class="card-emoji" style="color: #9B6A8F;">🕯️</div>

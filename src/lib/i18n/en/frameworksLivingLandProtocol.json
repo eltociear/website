@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "title": "Living Land Protocol - BAZ-Led Rural Governance",
+    "description": "A framework for empowering rural communities as architects of their own regenerative future through participatory bioregional governance"
+  },
+  "loading": {
+    "text": "Loading protocol content..."
+  },
+  "errors": {
+    "sectionNotFound": "Section \"{section}\" not found",
+    "contentInDevelopment": "This content is still being developed."
+  },
+  "guideCard": {
+    "title": "New to the Living Land Protocol?",
+    "description": "Start with our executive summary designed for skeptics—addressing practical concerns about rural governance transformation and BAZ-led development.",
+    "buttonText": "Read Executive Summary for Skeptics"
+  },
+  "categories": {
+    "overview": "Overview",
+    "foundation": "Foundation",
+    "core-implementation": "Core Implementation",
+    "operational": "Operational",
+    "resources": "Resources"
+  },
+  "sections": {
+    "index": "Living Land Protocol",
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary for Skeptics",
+    "introduction": "Introduction",
+    "theory-of-change": "Theory of Change",
+    "core-principles": "Core Principles",
+    "framework-architecture": "Framework Architecture",
+    "critical-path-dependencies": "Critical Path & Dependencies",
+    "baz-led-rural-council": "BAZ-Led Rural Council",
+    "regenerative-rural-economy": "Regenerative Rural Economy",
+    "rural-observatory-technology": "Rural Observatory & Technology",
+    "meta-coordination": "Meta-Coordination",
+    "implementation-roadmap": "Implementation Roadmap",
+    "framework-integration": "Framework Integration",
+    "risk-management": "Risk Management",
+    "success-metrics": "Success Metrics",
+    "getting-involved": "Getting Involved",
+    "glossary": "Glossary",
+    "appendices": "Appendices"
+  },
+  "sectionsShort": {
+    "index": "Overview",
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary",
+    "introduction": "Introduction",
+    "theory-of-change": "Theory of Change",
+    "core-principles": "Core Principles",
+    "framework-architecture": "Architecture",
+    "critical-path-dependencies": "Critical Path",
+    "baz-led-rural-council": "Rural Council",
+    "regenerative-rural-economy": "Rural Economy",
+    "rural-observatory-technology": "Rural Observatory",
+    "meta-coordination": "Meta-Coordination",
+    "implementation-roadmap": "Implementation",
+    "framework-integration": "Integration",
+    "risk-management": "Risk Management",
+    "success-metrics": "Success Metrics",
+    "getting-involved": "Getting Involved",
+    "glossary": "Glossary",
+    "appendices": "Appendices"
+  },
+  "progress": {
+    "text": "Section {current} of {total}"
+  },
+  "navigation": {
+    "downloadPdf": "Download PDF Version",
+    "continueToProtocol": "Continue to Full Protocol",
+    "previousSection": "Previous Section",
+    "nextSection": "Next Section"
+  },
+  "languageFallback": {
+    "title": "Content in your language coming soon",
+    "description": "This section is currently displayed in English until translation is complete."
+  }
+}
