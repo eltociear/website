@@ -50,21 +50,44 @@
           }
         });
       }
-      // Handle hash-based routing and redirect paths
+      
+      // Improved hash-based routing with safety checks
       (function() {
-        // First check if we have a hash route
-        const { hash } = window.location;
-        if (hash && hash.length > 1) {
-          const path = hash.slice(1);
-          history.replaceState(null, null, path);
-        } 
-        // Then check if we have a saved redirect path
-        else if (sessionStorage.getItem('redirectPath')) {
-          const redirectPath = sessionStorage.getItem('redirectPath');
-          sessionStorage.removeItem('redirectPath');
-          history.replaceState(null, null, redirectPath);
+        // Only process hash routes if they look like intentional routing hashes
+        const { hash, pathname, search } = window.location;
+        
+        // Skip processing if:
+        // 1. No hash present
+        // 2. Hash is just an anchor link (contains existing path)
+        // 3. We're already on a valid route
+        if (!hash || hash.length <= 1) {
+          // Check for saved redirect path only if no hash
+          if (sessionStorage.getItem('redirectPath')) {
+            const redirectPath = sessionStorage.getItem('redirectPath');
+            sessionStorage.removeItem('redirectPath');
+            history.replaceState(null, null, redirectPath);
+          }
+          return;
+        }
+        
+        const hashPath = hash.slice(1);
+        
+        // Only convert hash to path if it looks like a route (not an anchor)
+        // and we're currently on the root or an unexpected path
+        const isLikelyRoute = hashPath.startsWith('/') || 
+                             hashPath.startsWith('frameworks/') || 
+                             hashPath.startsWith('blog/');
+        
+        const isOnHomePage = pathname === '/' || pathname === '';
+        
+        if (isLikelyRoute && isOnHomePage) {
+          // Add leading slash if missing
+          const cleanPath = hashPath.startsWith('/') ? hashPath : '/' + hashPath;
+          console.log('Converting hash route:', hash, 'to:', cleanPath);
+          history.replaceState(null, null, cleanPath);
         }
       })();
+      
       // Prevent browser scroll restoration
       if (history.scrollRestoration) {
         history.scrollRestoration = 'manual';

@@ -78,6 +78,12 @@
   <meta property="og:description" content={post.meta.description} />
   <meta property="og:type" content="article" />
   <meta property="og:url" content={currentUrl} />
+  
+  <!-- Add this to handle external referrals better -->
+  <meta name="robots" content="index, follow" />
+  
+  <!-- Canonical URL to prevent duplicate content issues -->
+  <link rel="canonical" href={currentUrl} />
 </svelte:head>
 
 <div class="container post-page">

@@ -1,38 +1,35 @@
-// src/routes/blog/[slug]/+page.js
+// src/routes/blog/[slug]/+page.js - Improved version
 
 import { error } from '@sveltejs/kit';
 import { browser } from '$app/environment';
 import { locale } from '$lib/i18n';
 import { get } from 'svelte/store';
 
+// Keep prerender false but add better error handling
 export const prerender = false;
 
 export async function load({ params, depends, url }) {
   depends('app:locale');
   
-  // Get current locale - handle prerendering safely
+  // Get current locale with better fallback handling
   let currentLocale = 'en';
   
-  // Only access searchParams if not prerendering
-  if (url && url.searchParams) {
-    try {
-      if (url.searchParams.has('lang')) {
-        currentLocale = url.searchParams.get('lang');
-      } else if (browser) {
-        currentLocale = get(locale) || 'en';
-      }
-    } catch (e) {
-      // During prerendering, searchParams might not be available
-      // Fall back to default locale or store value
-      if (browser) {
-        currentLocale = get(locale) || 'en';
-      }
+  try {
+    // Handle search params more safely
+    if (url?.searchParams?.has('lang')) {
+      currentLocale = url.searchParams.get('lang');
+    } else if (browser) {
+      currentLocale = get(locale) || 'en';
     }
-  } else if (browser) {
-    currentLocale = get(locale) || 'en';
+  } catch (e) {
+    console.warn('Error accessing URL searchParams:', e);
+    // Fallback to default or store value
+    if (browser) {
+      currentLocale = get(locale) || 'en';
+    }
   }
   
-  // Ensure we have a valid locale
+  // Validate locale
   const validLocales = ['en', 'sv'];
   if (!validLocales.includes(currentLocale)) {
     currentLocale = 'en';
@@ -41,13 +38,21 @@ export async function load({ params, depends, url }) {
   console.log('Loading blog post with locale:', currentLocale, 'slug:', params.slug);
 
   try {
-    // Dynamically import the specific Markdown file based on the locale and slug
+    // Dynamic import with better error context
     const postModule = await import(`../../../lib/posts/${currentLocale}/${params.slug}.md`);
+    
+    if (!postModule?.metadata) {
+      throw new Error('Post metadata is missing');
+    }
 
-    // Create the current URL for meta tags
-    const currentUrl = browser ? 
-      window.location.href : 
-      `${url.origin}${url.pathname}${url.search}`;
+    // Create the current URL more safely
+    let currentUrl;
+    try {
+      currentUrl = browser ? window.location.href : `${url.origin}${url.pathname}${url.search}`;
+    } catch (urlError) {
+      console.warn('Error constructing current URL:', urlError);
+      currentUrl = `https://www.globalgovernanceframeworks.org/blog/${params.slug}`;
+    }
 
     return {
       post: {
@@ -61,6 +66,16 @@ export async function load({ params, depends, url }) {
   } catch (e) {
     console.error('Error loading post:', e);
     console.error('Attempted path:', `../../../lib/posts/${currentLocale}/${params.slug}.md`);
-    throw error(404, `Post not found or not available in ${currentLocale}`);
+    
+    // Better error message for debugging
+    const errorMessage = `Post "${params.slug}" not found or not available in ${currentLocale}`;
+    throw error(404, {
+      message: errorMessage,
+      details: {
+        slug: params.slug,
+        locale: currentLocale,
+        originalError: e.message
+      }
+    });
   }
 }
