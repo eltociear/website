@@ -238,9 +238,9 @@ The GGF-specific framework names have been kept in English as they are proper no
 
 -----
 
-### **Bilaga A: Detaljerade strategier för att hantera risker och motstånd**
+### Bilaga A: Detaljerade strategier för att hantera risker och motstånd
 
-#### **1. Hantera amerikansk skepticism**
+#### 1. Hantera amerikansk skepticism
 
 Strategin är inte att motarbeta USA, utan att omformulera GGF som det yttersta uttrycket för grundläggande amerikanska värderingar, vilket gör partnerskap till det enda logiska valet.
 
@@ -248,7 +248,7 @@ Strategin är inte att motarbeta USA, utan att omformulera GGF som det yttersta 
   * **Innovation och välstånd:** Strategin betonar GGF:s roll som en motor för nästa innovationsvåg. [**`Discovery Commons`**](https://www.google.com/search?q=/frameworks/discovery-commons) framställs som ett globalt, öppen källkods- FoU-labb, och **`Regenerative Trade Zone (RTZ)`** som nästa frontlinje för ekonomiskt välstånd. Detta talar till den amerikanska andan av innovation och ekonomiskt ledarskap.
   * **Ledarskap vid en ny frontlinje:** [**`Aegis Protocol`**](https://www.google.com/search?q=/frameworks/aegis-protocol) är nyckeln. Det erbjuder USA ett sätt att svänga om sin enorma militära och teknologiska kapacitet från att hantera markbundna konflikter till att leda mänskligheten i ett nytt, enande uppdrag: säkerhet på artnivå (planetärt försvar, pandemiförebyggande) och utforskning. Detta omformulerar amerikanskt ledarskap för en ny era.
 
-#### **2. Omforma den kinesiska kalkylen**
+#### 2. Omforma den kinesiska kalkylen
 
 Målet är att pragmatiskt demonstrera att den långsiktiga avkastningen på samarbete inom GGF-systemet vida överstiger de kortsiktiga fördelarna med konkurrens.
 
@@ -256,7 +256,7 @@ Målet är att pragmatiskt demonstrera att den långsiktiga avkastningen på sam
   * **En värdig industriell omställning:** [**`Sundown Protocol`**](https://www.google.com/search?q=/frameworks/sundown-protocol) erbjuder en GGF-finansierad, ordnad väg för Kina att ställa om sina tunga, koldioxidintensiva industrier. Detta är inte en bestraffande åtgärd utan en samarbetsplan för att undvika de massiva sociala och ekonomiska störningar som annars skulle vara oundvikliga, och förvandlar en potentiell kris till en hanterad utveckling.
   * **Gemensam avkastning på gemensamma hot:** Vi skulle genom gemensamma pilotprojekt i **Brofasen** demonstrera att samarbete kring klimat (via [**`Climate & Energy Governance`**](https://www.google.com/search?q=/frameworks/climate-and-energy-governance)-ramverket) och hälsa (via [**`Prometheus Protocol`**](https://www.google.com/search?q=/frameworks/prometheus-protocol)) ger omedelbar, påtaglig avkastning i form av stabilitet, hälsoresultat och teknologiska framsteg som konkurrens helt enkelt inte kan matcha.
 
-#### **3. Mildra rysk paranoia**
+#### 3. Mildra rysk paranoia
 
 Detta kräver en tvådelad strategi: att tillhandahålla trovärdiga, hårda säkerhetsgarantier samtidigt som man erbjuder en genuint värdig och attraktiv väg tillbaka till världsscenen.
 
@@ -264,7 +264,7 @@ Detta kräver en tvådelad strategi: att tillhandahålla trovärdiga, hårda sä
   * **Säkerhet genom ett gemensamt uppdrag:** [**`Aegis Protocol`**](https://www.google.com/search?q=/frameworks/aegis-protocol) är den yttersta säkerhetsgarantin. Genom att bjuda in Ryssland att bli en grundande partner i **`Earth Defense Force (EDF)`**, flyttar strategin hela säkerhetsparadigmet. Fokus blir ett gemensamt försvar mot externa, icke-mänskliga hot, vilket gör det gamla militära dödläget mellan öst och väst logiskt förlegat.
   * **En regenerativ, inte bestraffande, ekonomisk väg:** **Regenerative Trade Zone (RTZ)** erbjuder en icke-förödmjukande väg till ekonomisk återhämtning. Den låter ett post-konflikt Ryssland utnyttja sin största tillgång – dess enorma landmassa – för ekologisk restaurering, ett bidrag som uttryckligen värderas och belönas med **`Leaves`**-valutan. Detta omformulerar Rysslands globala roll till en som helar planeten, en kraftfull och värdig ny identitet.
 
-#### **4. Övervinna internt tvivel**
+#### 4. Övervinna internt tvivel
 
 Förtroendet för den omvandlande Steg II byggs metodiskt genom den transparenta och mätbara framgången i Steg I och Brofasen.
 
@@ -272,6 +272,6 @@ Förtroendet för den omvandlande Steg II byggs metodiskt genom den transparenta
   * **Pilotprojekt som 'proof-of-concept':** **Brofasen** är specifikt utformad för att vara en serie av riskminimerade experiment. Genom att framgångsrikt lansera en regional **RTZ** eller ett gränsöverskridande pilotprojekt med [**`Kintsugi Protocol`**](https://www.google.com/search?q=/frameworks/kintsugi-protocol), demonstrerar strategin att GGF:s "utopiska" idéer är praktiska och effektiva på en mindre skala innan man ber om stöd för en global omvandling.
   * **Underifrånperspektiv i narrativbyggandet:** Förtroende byggs inte bara från toppstyrda rapporter, utan från grunden. **`Global Civil Society Network`**, som huseras på [**`Digital Commons`**](https://www.google.com/search?q=/frameworks/digital-commons), låter medborgare i pilotregioner dela sina framgångshistorier direkt med dem i mer skeptiska nationer, vilket skapar ett kraftfullt, autentiskt narrativ av hopp och genomförbarhet.
 
-#### **5. Intern fragmentering inom EU**
+#### 5. Intern fragmentering inom EU
 
 Ramverkets primära försvar är proaktivt förebyggande; Pelare 0:s fokus på social och ekonomisk sammanhållning eliminerar grundorsakerna till det missnöje som driver sådana politiska skiften. Skulle en stat ändå välja denna väg, skulle kostnaden vara omedelbar och allvarlig: automatisk uteslutning från den Regenerativa Handelszonen, AUBI-skyddsnätet och Global Commons Fund. Slutligen skulle Europas enade försvarsställning (Pelare 1) etablera en hård säkerhetsgräns, vilket skulle förvandla en tidigare partner till en strategiskt isolerad och sårbar stat. GGF:s design gör samarbete överväldigande fördelaktigt och fragmentering till en väg mot irrelevans.

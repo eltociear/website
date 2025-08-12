@@ -236,9 +236,9 @@ This strategy charts Europe's path beyond rivalry to evolution. By 2050, Europe 
 
 ---
 
-### Appendix A: **Detailed Strategies for Managing Risks and Resistance**
+### Appendix A: Detailed Strategies for Managing Risks and Resistance
 
-#### **1. Addressing US Skepticism**
+#### 1. Addressing US Skepticism
 
 The strategy is not to oppose the US, but to reframe the GGF as the ultimate expression of core American values, making partnership the only logical choice.
 
@@ -246,7 +246,7 @@ The strategy is not to oppose the US, but to reframe the GGF as the ultimate exp
 * **Innovation and Prosperity:** The strategy emphasizes the GGF's role as an engine for the next wave of innovation. The [**`Discovery Commons`**](/frameworks/discovery-commons) is framed as a global, open-source R&D lab, and the **`Regenerative Trade Zone (RTZ)`** as the next frontier of economic prosperity. This appeals to the American spirit of innovation and economic leadership.
 * **Leadership on a New Frontier:** The [**`Aegis Protocol`**](/frameworks/aegis-protocol) is the key. It offers the US a way to pivot its immense military and technological capacity from managing terrestrial conflicts to leading humanity on a new, unifying mission: species-level security (planetary defense, pandemic prevention) and exploration. This reframes American leadership for a new era.
 
-#### **2. Reshaping the Chinese Calculation**
+#### 2. Reshaping the Chinese Calculation
 
 The goal is to demonstrate pragmatically that the long-term returns on cooperation within the GGF system vastly outweigh the short-term benefits of competition.
 
@@ -254,7 +254,7 @@ The goal is to demonstrate pragmatically that the long-term returns on cooperati
 * **A Dignified Industrial Transition:** The [**`Sundown Protocol`**](/frameworks/sundown-protocol) offers a GGF-funded, orderly pathway for China to transition its heavy, carbon-intensive industries. This is not a punitive measure but a collaborative plan to avoid the massive social and economic disruption that would otherwise be inevitable, turning a potential crisis into a managed evolution.
 * **Shared Returns on Shared Threats:** We would demonstrate through joint pilot projects in the **Bridge Phase** that cooperation on climate (via the [**`Climate & Energy Governance`**](/frameworks/climate-and-energy-governance) framework) and health (via the [**`Prometheus Protocol`**](/frameworks/prometheus-protocol)) yields immediate, tangible returns in stability, health outcomes, and technological advancement that competition simply cannot match.
 
-#### **3. Alleviating Russian Paranoia**
+#### 3. Alleviating Russian Paranoia
 
 This requires a dual approach: providing credible, hard security guarantees while offering a genuinely dignified and attractive path back to the world stage.
 
@@ -262,7 +262,7 @@ This requires a dual approach: providing credible, hard security guarantees whil
 * **Security Through a Shared Mission:** The [**`Aegis Protocol`**](/frameworks/aegis-protocol) is the ultimate security guarantee. By inviting Russia to be a founding partner in the **`Earth Defense Force (EDF)`**, the strategy shifts the security paradigm entirely. The focus becomes a shared defense against external, non-human threats, making the old East-West military standoff logically obsolete.
 * **A Regenerative, Not Punitive, Economic Path:** The **Regenerative Trade Zone (RTZ)** offers a non-humiliating path to economic recovery. It allows a post-conflict Russia to leverage its greatest asset—its vast landmass—for ecological restoration, a contribution that is explicitly valued and rewarded by the **`Leaves`** currency. This reframes Russia's global role as a healer of the planet, a powerful and dignified new identity.
 
-#### **4. Overcoming Internal Doubt**
+#### 4. Overcoming Internal Doubt
 
 Confidence for the transformative Stage II is built methodically through the transparent and measurable success of Stage I and the Bridge Phase.
 
@@ -270,7 +270,7 @@ Confidence for the transformative Stage II is built methodically through the tra
 * **Proof-of-Concept Pilots:** The **Bridge Phase** is specifically designed to be a series of de-risked experiments. By successfully launching a regional **RTZ** or a cross-border [**`Kintsugi Protocol`**](/frameworks/kintsugi-protocol) pilot, the strategy demonstrates that the GGF's "utopian" ideas are practical and effective on a smaller scale before asking for buy-in for global transformation.
 * **Bottom-Up Narrative Building:** Confidence is built not just from top-down reports, but from the ground up. The **`Global Civil Society Network`**, hosted on the [**`Digital Commons`**](/frameworks/digital-commons), allows citizens in pilot regions to share their success stories directly with those in more skeptical nations, creating a powerful, authentic narrative of hope and viability.
 
-#### **5. EU Internal Fragmentation**
+#### 5. EU Internal Fragmentation
 
 The framework's primary defense is proactive prevention; Pillar 0’s focus on social and economic cohesion eliminates the root causes of the discontent that fuels such political shifts. Should a state still choose this path, the cost would be immediate and severe: automatic exclusion from the Regenerative Trade Zone, the AUBI safety net, and the Global Commons Fund. Finally, Europe's unified defense posture (Pillar 1) would establish a hard security border, turning a former partner into a strategically isolated and vulnerable state. The GGF's design makes cooperation overwhelmingly beneficial and fragmentation a path to irrelevance.
 
