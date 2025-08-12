@@ -7,6 +7,8 @@ tags: ["European Strategy", "Geopolitics", "Peace", "Global Governance", "GGF", 
 hashtags: ["#EuropeanStrategy", "#PlanetaryPeace", "#GlobalGovernanceFrameworks", "#GGF", "#MetaGovernance", "#AegisProtocol", "#RegenerativeTrade", "#SpeciesLevelCooperation", "#EuropeanAutonomy", "#CivilizationalTransformation"]
 ---
 
+![Header Image: The Orbital Shift](/images/blog/peace-for-europe/header-image-the-orbital-shift.png)
+
 # A Grand Strategy for European Peace
 *A Three-Stage Rocket for Civilizational Transformation*
 

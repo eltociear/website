@@ -7,6 +7,8 @@ tags: ["Europeisk strategi", "Geopolitik", "Fred", "Global styrning", "GGF", "Di
 hashtags: ["#EuropeiskStrategi", "#PlanetärFred", "#GlobalGovernanceFrameworks", "#GGF", "#MetaStyrning", "#AegisProtocol", "#RegenerativHandel", "#SamarbetePåArtnivå", "#EuropeiskAutonomi", "#CivilisationensOmvandling"]
 ---
 
+![Header Image: The Orbital Shift](/images/blog/peace-for-europe/header-image-the-orbital-shift.png)
+
 # En övergripande strategi för fred i Europa
 *En trestegsraket för civilisationens omvandling*
 
