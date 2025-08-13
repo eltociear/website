@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "title": "Sundown-protokollet - ramverk för en rättvis omställning",
+    "description": "Ett omfattande ramverk för att avveckla skadliga industrier och möjliggöra en rättvis omställning till regenerativa framtider. Omvandlar den hanterade avvecklingen av fossila bränslen, industriellt jordbruk och andra skadliga sektorer till regenerativa möjligheter för arbetare, samhällen och ekosystem."
+  },
+  "guideCard": {
+    "title": "Ny till Sundown-protokollet?",
+    "description": "Börja med vår sammanfattning som är särskilt utformad för skeptiker – den bemöter praktiska farhågor kring rättvis omställning och industriell transformation.",
+    "buttonText": "Läs sammanfattningen för skeptiker"
+  },
+  "categories": {
+    "overview": "Översikt",
+    "foundation": "Grund",
+    "framework": "Kärnramverk",
+    "resources": "Resurser och handling"
+  },
+  "sections": {
+    "index": "Sundown-protokollet",
+    "at-a-glance": "I korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning för skeptiker",
+    "introduction-vision": "Introduktion och vision",
+    "foundational-principles": "Grundläggande principer",
+    "integration-architecture": "Integrationsarkitektur med GGF",
+    "historical-grounding": "Historisk förankring",
+    "strategic-resilience": "Strategisk motståndskraft och motåtgärder",
+    "economic-modeling": "Ekonomisk omställningsmodellering",
+    "stakeholder-integration": "Intressentintegration",
+    "implementation-phases": "De fem implementeringsfaserna",
+    "core-components": "Strukturella kärnkomponenter",
+    "justice-reparations": "Rättvisa, upprättelse och läkning",
+    "success-metrics": "Framgångsmått och mätning",
+    "faq": "Vanliga invändningar och frågor",
+    "taking-action": "Agera nu",
+    "appendices": "Bilagor"
+  },
+  "sectionsShort": {
+    "index": "Översikt",
+    "at-a-glance": "I korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning",
+    "introduction-vision": "Introduktion",
+    "foundational-principles": "Principer",
+    "integration-architecture": "Integration",
+    "historical-grounding": "Historiska exempel",
+    "strategic-resilience": "Strategisk motståndskraft",
+    "economic-modeling": "Ekonomisk modellering",
+    "stakeholder-integration": "Intressentintegration",
+    "implementation-phases": "Implementeringsfaser",
+    "core-components": "Kärnkomponenter",
+    "justice-reparations": "Rättvisa och läkning",
+    "success-metrics": "Framgångsmått",
+    "faq": "FAQ och invändningar",
+    "taking-action": "Agera nu",
+    "appendices": "Bilagor"
+  },
+  "navigation": {
+    "downloadPdf": "Ladda ner PDF-version",
+    "continueToProtocol": "Fortsätt till hela protokollet",
+    "previousSection": "Föregående avsnitt",
+    "nextSection": "Nästa avsnitt"
+  },
+  "progress": {
+    "text": "Avsnitt {current} av {total}"
+  },
+  "languageFallback": {
+    "title": "Innehåll på ditt språk kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+  },
+  "loading": {
+    "text": "Laddar protokollinnehåll..."
+  },
+  "errors": {
+    "sectionNotFound": "Avsnittet \"{section}\" hittades inte",
+    "contentInDevelopment": "Detta innehåll är fortfarande under utveckling."
+  },
+  "features": {
+    "justTransition": "Rättvis omställning först",
+    "workerProtection": "Skydd för arbetare och samhällen",
+    "restorativeJustice": "Återställande och reparativ rättvisa",
+    "polluterPays": "Principen att förorenaren betalar",
+    "orderlyDecommissioning": "Ordnad och förutsägbar avveckling",
+    "indigenousSovereignty": "Urfolks suveränitet",
+    "regenerativeAdvantage": "Regenerativ konkurrensfördel",
+    "strategicIncentivization": "Strategiska incitament",
+    "enforceableCompliance": "Verkställbar efterlevnad",
+    "adaptiveScalability": "Adaptiv skalbarhet",
+    "generationalJustice": "Rättvisa mellan generationer"
+  },
+  "phases": {
+    "preMandate": "Före mandat: vägvisaravtal",
+    "phase0": "Fas 0: förhandsbedömning inför omställning",
+    "phase1": "Fas 1: identifiering och utnämning",
+    "phase2": "Fas 2: gemensamt skapande av färdplan för omställning",
+    "phase3": "Fas 3: hanterad avveckling och sanering",
+    "phase4": "Fas 4: överföring av tillgångar och markförvaltning"
+  },
+  "components": {
+    "globalTransitionCouncil": "Globala omställningsrådet",
+    "officeJustTransition": "Myndigheten för rättvis omställning",
+    "legacyTransitionFund": "Fonden för historisk omställning"
+  },
+  "metrics": {
+    "workersRetrained": "Omskolade arbetare",
+    "hectaresRestored": "Återställda hektar",
+    "communitiesSupported": "Stöttade samhällen",
+    "transitionJobs": "Skapade omställningsjobb",
+    "economicDiversification": "Ekonomisk diversifiering",
+    "workerSatisfaction": "Arbetstillfredsställelse"
+  },
+  "stakeholders": {
+    "legacyIndustries": "Historiska industrier",
+    "workersAndCommunities": "Arbetare och samhällen",
+    "indigenousPeoples": "Urfolk",
+    "youthRepresentatives": "Ungdomsrepresentanter",
+    "environmentalGroups": "Miljöorganisationer",
+    "governments": "Regeringar och beslutsfattare"
+  },
+  "principles": {
+    "justTransitionFirst": {
+      "title": "Rättvis omställning först",
+      "description": "Arbetares och samhällens välbefinnande som primära framgångsmått"
+    },
+    "restorativeJustice": {
+      "title": "Återställande och reparativ rättvisa",
+      "description": "Läker historiska ekologiska och sociala skador"
+    },
+    "polluterPays": {
+      "title": "Förorenaren betalar och försiktighetsprincipen",
+      "description": "Historiska industrier finansierar primärt omställningen"
+    },
+    "orderlyDecommissioning": {
+      "title": "Ordnad och förutsägbar avveckling",
+      "description": "Förebygger ekonomiska chocker genom hanterade tidslinjer"
+    },
+    "indigenousSovereignty": {
+      "title": "Urfolks suveränitet",
+      "description": "FPIC 2.0-protokoll för all traditionell mark"
+    },
+    "regenerativeAdvantage": {
+      "title": "Regenerativ konkurrensfördel",
+      "description": "Först-på-bollen-aktörer får globalt ledarskap inom restaurering och cirkulär ekonomi"
+    },
+    "strategicIncentivization": {
+      "title": "Strategiska incitament",
+      "description": "Ramverket presenterar deltagande som en möjlighet med ekonomiska fördelar"
+    },
+    "enforceableCompliance": {
+      "title": "Verkställbar efterlevnad",
+      "description": "Sanktioner och beslagtagande av tillgångar säkerställer att tidsplaner följs"
+    },
+    "adaptiveScalability": {
+      "title": "Adaptiv skalbarhet",
+      "description": "Industrispecifika moduler för skräddarsydda tillvägagångssätt"
+    },
+    "generationalJustice": {
+      "title": "Rättvisa mellan generationer",
+      "description": "Långsiktiga resultat som prioriterar framtida generationer"
+    }
+  },
+  "benefits": {
+    "economicGrowth": "Beräknad BNP-tillväxtökning på 2,28%",
+    "ecosystemServices": "Återställning av ekosystemtjänster värderad till 150 miljarder dollar årligen",
+    "transitionJobs": "1 miljon direkta omställningsjobb skapade",
+    "carbonSinks": "Utvinningsplatser återfödda som kolsänkor och fristäder för biologisk mångfald",
+    "renewableLeadership": "Globalt ledarskap inom restaurering och cirkulär ekonomi",
+    "communityResilience": "Förbättrad regional motståndskraft och ekonomisk diversifiering"
+  },
+  "targetIndustries": {
+    "title": "Målindustrier",
+    "fossilFuels": "Fossila bränslen",
+    "industrialAgriculture": "Industriellt jordbruk",
+    "extractiveIndustries": "Utvinningsindustrier",
+    "petrochemicals": "Petrokemisk industri",
+    "harmfulManufacturing": "Skadlig tillverkning"
+  },
+  "realWorldExamples": {
+    "title": "Verkliga framgångshistorier",
+    "germanyEnergiewende": "Tysklands Energiewende (350 000 jobb inom förnybar energi)",
+    "costaRicaPES": "Costa Ricas betalning för ekosystemtjänster (reverserade avskogningen)",
+    "scotlandRenewables": "Skottlands omställning från olja till förnybar energi",
+    "indigenousRestoration": "Urfolkssamhällens regenerativa markförvaltning världen över"
+  },
+  "integration": {
+    "title": "GGF-integration",
+    "constitutionalFoundation": "Fördraget för vårt enda hem ger juridisk auktoritet",
+    "economicSupport": "AUBI-ramverket stöder arbetare under omställningen",
+    "enforcementMechanism": "Verkställighet via Shield-protokollet vid bristande efterlevnad",
+    "assetTransfer": "Hearthstone-ramverket tar emot överförda tillgångar",
+    "conflictResolution": "Ramverket för fred och konfliktlösning underlättar läkning"
+  },
+  "vision": {
+    "title": "Visionen förverkligad till 2040",
+    "coalMinersGeothermal": "Före detta kolgruvearbetare leder installationer av geotermisk energi",
+    "oilRefineriesToBiofuel": "Oljeraffinaderier omvandlade till biobränslekooperativ",
+    "agricultureToForests": "Industriella jordbruksregioner blomstrar som regenerativa matskogar",
+    "extractionToSinks": "Utvinningsplatser återfödda som kolsänkor och fristäder för biologisk mångfald",
+    "communityProsperity": "Gruvstäder som blomstrande ekoturismdestinationer"
+  },
+  "callToAction": {
+    "title": "Uppmaningen",
+    "subtitle": "Kunskapen finns. Metoderna är beprövade. Visionen är övertygande.",
+    "description": "Det som återstår är ett kollektivt åtagande att välja regeneration framför utvinning, samhällsomvårdnad framför företagens vinster och helande transformation framför kaotisk kollaps.",
+    "tagline": "Utvinningens tidsålder är över. Regenerationens era börjar nu.",
+    "invitation": "Följ med oss i att omvandla mänsklighetens största utmaning – att avveckla skadliga industrier – till vår största möjlighet för rättvisa, läkning och regenerativt överflöd."
+  }
+}

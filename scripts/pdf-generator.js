@@ -60,6 +60,7 @@ Available categories:
 - great-transition
 - deep-time-governance
 - bioregional-polis
+- sundown-protocol
 - emergent-governance-protocol
 - ggf-overview
 
@@ -116,6 +117,7 @@ const outputDirs = {
   'indigenous-governance-and-traditional-knowledge': path.join(__dirname, '..', 'static', 'frameworks','tools', 'indigenous-governance-and-traditional-knowledge'),
   'emergent-governance-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'emergent-governance-protocol'),
   'living-land-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'living-land-protocol'),
+  'sundown-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'sundown-protocol'),
   'treaty-for-our-only-home': path.join(__dirname, '..', 'static', 'frameworks','tools', 'treaty-for-our-only-home'),
   'get-involved': path.join(__dirname, '..', 'static', 'get-involved'),
   'frameworks-foundation': path.join(__dirname, '..', 'static', 'downloads'),
@@ -352,6 +354,67 @@ const tools = [
       'implementation-strategy',
       'documentation',
       'philosophy'
+    ]
+  },
+
+  // Sundown Protocol
+  {
+    name: 'executive-summary-for-the-skeptic',
+    category: 'sundown-protocol',
+    fileNames: {
+      en: 'sundown-protocol-executive-summary-en',
+      sv: 'sundown-protocol-executive-summary-sv'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'sundown-protocol'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'sundown-protocol')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'assets', 'pdf'),
+      sv: path.join(__dirname, '..', 'static', 'assets', 'pdf')
+    },
+    pageFooter: {
+      en: 'Sundown Protocol - Executive Summary for the Skeptic',
+      sv: 'Sundown-protokollet - Sammanfattning för skeptiker'
+    }
+  },
+
+  // Full framework
+  {
+    name: 'sundown-protocol-framework',
+    category: 'sundown-protocol',
+    fileNames: {
+      en: 'Sundown-Protocol-Framework',
+      sv: 'Sundown-Protocol-Framework'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'sundown-protocol'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'sundown-protocol')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'downloads', 'en'),
+      sv: path.join(__dirname, '..', 'static', 'downloads', 'sv')
+    },
+    pageFooter: {
+      en: 'Sundown Protocol',
+      sv: 'Sundown-protokollet'
+    },
+    sections: [
+      'index',
+      'introduction-vision',
+      'foundational-principles',
+      'integration-architecture',
+      'historical-grounding',
+      'strategic-resilience',
+      'economic-modeling',
+      'stakeholder-integration',
+      'implementation-phases',
+      'core-components',
+      'justice-reparations',
+      'success-metrics',
+      'faq',
+      'taking-action',
+      'appendices'
     ]
   },
 

@@ -691,6 +691,21 @@
           </div>
         </div>
 
+        <!-- Sundown Protocol Framework -->
+        <div class="download-card" style="background-color: #fff8dc; border: 1px solid #ff6b35;">
+          <div class="card-emoji" style="color: #8b4513;">🌇</div>
+          <div class="card-content">
+            <h2 class="card-title" style="color: #8b4513;">{$t('downloads.implementationFrameworks.sundownProtocol.title')}</h2>
+            <p class="card-description">{$t('downloads.implementationFrameworks.sundownProtocol.description')}</p>
+            <button on:click={(e) => handleDownload(e, 'Sundown-Protocol-Framework')} class="download-button" style="background-color: #8b4513;">
+              {$t('downloads.downloadButton')}
+              <svg xmlns="http://www.w3.org/2000/svg" class="download-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
         <!-- Aethelred Accord: Biotechnology Governance -->
         <div class="download-card">
           <div class="card-emoji" style="color: #1565C0;">🧬</div>

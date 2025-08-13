@@ -50,6 +50,7 @@ const pageSpecificTranslationsMap = [
   // Framework routes (most specific first)
   { route: '/frameworks/emergent-governance-protocol', dataKey: 'egpFramework', fileName: 'frameworksEmergentGovernanceProtocol' },
   { route: '/frameworks/living-land-protocol', dataKey: 'livingLandProtocol', fileName: 'frameworksLivingLandProtocol' },
+  { route: '/frameworks/sundown-protocol', dataKey: 'sundownProtocol', fileName: 'frameworksSundownProtocol' },
   { route: '/frameworks/bioregional-polis', dataKey: 'bioregionalFramework', fileName: 'frameworksBioregionalPolis' },
   { route: '/frameworks/deep-time-governance', dataKey: 'deepTimeFramework', fileName: 'frameworksDeepTimeGovernance' },
   { route: '/frameworks/kinship-protocol', dataKey: 'kinshipProtocol', fileName: 'frameworksKinshipProtocol' },
