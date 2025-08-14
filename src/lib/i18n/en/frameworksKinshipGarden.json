@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "title": "The Kinship Garden Framework - Regenerative Food Systems & Agriculture",
+    "description": "A comprehensive framework for regenerative food systems based on Right Relationship with the land, integrating Traditional Ecological Knowledge with global cooperation mechanisms."
+  },
+  "loading": {
+    "text": "Loading framework content..."
+  },
+  "guideCard": {
+    "title": "New to the Kinship Garden Framework?",
+    "description": "Start with our executive summary to understand how regenerative agriculture can transform our relationship with food and land.",
+    "buttonText": "Read Executive Summary"
+  },
+  "categories": {
+    "overview": "Framework Overview",
+    "foundation": "Foundation & Overview", 
+    "framework": "Core Framework",
+    "resources": "Resources & References"
+  },
+  "sections": {
+    "index": "Framework Overview",
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary",
+    "introduction-vision": "Introduction & Vision",
+    "foundational-principles": "Foundational Principles", 
+    "integration-architecture": "GGF Integration Architecture",
+    "theory-of-change": "Theory of Change",
+    "strategic-objectives": "Strategic Objectives",
+    "three-pillars": "The Three Pillars",
+    "implementation-mechanisms": "Implementation Mechanisms",
+    "regional-customization": "Regional Customization",
+    "stakeholder-engagement": "Stakeholder Engagement",
+    "risk-management": "Risk Management",
+    "success-metrics": "Success Metrics & Measurement",
+    "timeline-milestones": "Timeline & Milestones",
+    "taking-action": "Taking Action",
+    "appendices": "Appendices"
+  },
+  "sectionsShort": {
+    "index": "Overview",
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary",
+    "introduction-vision": "Introduction",
+    "foundational-principles": "Principles",
+    "integration-architecture": "Integration",
+    "theory-of-change": "Theory of Change",
+    "strategic-objectives": "Objectives",
+    "three-pillars": "Three Pillars",
+    "implementation-mechanisms": "Implementation",
+    "regional-customization": "Customization",
+    "stakeholder-engagement": "Stakeholders",
+    "risk-management": "Risk Management",
+    "success-metrics": "Success Metrics",
+    "timeline-milestones": "Timeline",
+    "taking-action": "Taking Action",
+    "appendices": "Appendices"
+  },
+  "navigation": {
+    "downloadPdf": "Download PDF Version",
+    "continueToFramework": "Continue to Full Framework",
+    "previousSection": "Previous Section",
+    "nextSection": "Next Section"
+  },
+  "progress": {
+    "text": "Section {current} of {total}"
+  },
+  "languageFallback": {
+    "title": "Content in your language coming soon",
+    "description": "This section is currently displayed in English until translation is complete."
+  },
+  "errors": {
+    "sectionNotFound": "Section \"{section}\" not found",
+    "contentInDevelopment": "This content is still being developed."
+  },
+  "pillars": {
+    "sacredSeed": {
+      "title": "Sacred Seed Systems",
+      "subtitle": "The Knowledge Foundation",
+      "description": "Traditional Knowledge Protection, Seed Sovereignty, and Sacred Seed Kit training programs"
+    },
+    "bioregionalNetworks": {
+      "title": "Bioregional Food Networks", 
+      "subtitle": "The Economic Engine",
+      "description": "Cooperative Development, Local Food Hubs, and Regional Trade Integration"
+    },
+    "regenerativeStewardship": {
+      "title": "Regenerative Stewardship",
+      "subtitle": "The Ecological Heart", 
+      "description": "Ecosystem Restoration, Climate Adaptation, and Biodiversity Conservation"
+    }
+  },
+  "objectives": {
+    "foodSecurity": {
+      "title": "Enhance Food Security",
+      "description": "Reduce global hunger and improve food access through regenerative systems and community sovereignty"
+    },
+    "regenerativePractices": {
+      "title": "Promote Regenerative Practices",
+      "description": "Transform agriculture from extractive to regenerative, sequestering carbon and restoring ecosystems"
+    },
+    "innovation": {
+      "title": "Foster Innovation",
+      "description": "Develop climate-smart technologies and AI-assisted farming while preserving Traditional Ecological Knowledge"
+    },
+    "equitableTrade": {
+      "title": "Ensure Equitable Trade",
+      "description": "Reform trade policies to support smallholders and create fair pricing through cooperative development"
+    },
+    "marineSystems": {
+      "title": "Support Marine Food Systems", 
+      "description": "Promote sustainable aquaculture and fishing practices aligned with ocean governance frameworks"
+    }
+  },
+  "keyFeatures": {
+    "indigenousLed": {
+      "title": "Indigenous-Led Governance",
+      "description": "Traditional Ecological Knowledge guides all agricultural innovation and policy development"
+    },
+    "regenerativeCore": {
+      "title": "Regenerative at the Core",
+      "description": "Transform industrial agriculture into systems that restore soil health and sequester carbon"
+    },
+    "globalCooperation": {
+      "title": "Global Cooperation",
+      "description": "Integrated with the Global Governance Framework for coordinated planetary food security"
+    },
+    "communityOwnership": {
+      "title": "Community Ownership",
+      "description": "Farmer cooperatives and bioregional food networks owned and controlled by local communities"
+    },
+    "blockchainTransparency": {
+      "title": "Blockchain Transparency",
+      "description": "Digital Product Passports track food from seed to table ensuring fair trade and provenance"
+    }
+  },
+  "stats": {
+    "farmersTraining": {
+      "number": "5 million",
+      "description": "farmers to be trained through Sacred Seed Kit programs by year 6"
+    },
+    "regenerativeLand": {
+      "number": "30%",
+      "description": "of global farmland converted to regenerative practices by year 11"
+    },
+    "hungerReduction": {
+      "number": "50%",
+      "description": "reduction in global hunger supported by AUBI and local food systems"
+    },
+    "carbonSequestration": {
+      "number": "1 GtCO2e",
+      "description": "carbon sequestered annually through soil health restoration"
+    },
+    "seedBanks": {
+      "number": "1,000",
+      "description": "community-owned seed libraries preserving agricultural biodiversity"
+    }
+  },
+  "implementation": {
+    "funding": {
+      "title": "Funding Mechanisms",
+      "description": "Global Commons Fund provides $50 billion through multilateral donors, carbon markets, and redirected agricultural subsidies"
+    },
+    "governance": {
+      "title": "Governance Structure",
+      "description": "Planetary Health Council Food Systems Sub-Council provides oversight with 50% Indigenous and 20% youth representation"
+    },
+    "technology": {
+      "title": "Technology Integration",
+      "description": "AI and blockchain tools support farmers while ensuring data sovereignty and cultural protection"
+    },
+    "partnerships": {
+      "title": "Strategic Partnerships",
+      "description": "Collaboration with FAO, CGIAR, and Indigenous organizations to scale regenerative practices globally"
+    }
+  },
+  "benefits": {
+    "ecological": {
+      "title": "Ecological Benefits",
+      "items": [
+        "Soil health restoration and carbon sequestration",
+        "Biodiversity conservation through polyculture systems", 
+        "Water conservation and reduced chemical inputs",
+        "Climate resilience through diverse food systems"
+      ]
+    },
+    "social": {
+      "title": "Social Benefits", 
+      "items": [
+        "Food sovereignty and community control",
+        "Farmer income stability through cooperatives",
+        "Youth engagement in agricultural innovation",
+        "Traditional knowledge preservation and protection"
+      ]
+    },
+    "economic": {
+      "title": "Economic Benefits",
+      "items": [
+        "Reduced import dependency through local production",
+        "Value circulation within communities",
+        "Premium pricing for regenerative products",
+        "Ecosystem service payments for farmers"
+      ]
+    }
+  },
+  "callsToAction": {
+    "individuals": {
+      "title": "For Individuals",
+      "description": "Support local food systems, advocate for regenerative policies, and learn about Traditional Ecological Knowledge"
+    },
+    "farmers": {
+      "title": "For Farmers",
+      "description": "Transition to regenerative practices with AUBI support, join farmer cooperatives, and participate in Sacred Seed Kit training"
+    },
+    "organizations": {
+      "title": "For Organizations", 
+      "description": "Partner with community cooperatives, invest in regenerative agriculture, and build food justice coalitions"
+    },
+    "policymakers": {
+      "title": "For Policymakers",
+      "description": "Redirect agricultural subsidies to regenerative practices, support Indigenous land rights, and implement fair trade policies"
+    }
+  },
+  "quotes": {
+    "introduction": "We are not just growing food; we are growing relationships—with the soil, with the seed, with the seasons, with each other. The garden teaches us that abundance flows not from extraction, but from reciprocity.",
+    "vision": "By year 11, envision Earth's food systems as a living network of Kinship Gardens—bioregional zones where Indigenous knowledge guides agricultural practices, where soil health indices replace profit margins as success metrics.",
+    "transformation": "The age of industrial extraction is ending. The era of regenerative abundance begins now."
+  }
+}

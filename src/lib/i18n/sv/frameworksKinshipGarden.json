@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "title": "Kinship garden-ramverket - Regenerativa livsmedelssystem och jordbruk",
+    "description": "Ett omfattande ramverk för regenerativa livsmedelssystem baserat på en 'rätt relation' med marken, som integrerar traditionell ekologisk kunskap med globala samarbetsmekanismer."
+  },
+  "loading": {
+    "text": "Laddar ramverksinnehåll..."
+  },
+  "guideCard": {
+    "title": "Ny till Kinship garden-ramverket?",
+    "description": "Börja med vår sammanfattning för att förstå hur regenerativt jordbruk kan omvandla vår relation till mat och mark.",
+    "buttonText": "Läs sammanfattningen"
+  },
+  "categories": {
+    "overview": "Ramverksöversikt",
+    "foundation": "Grund och översikt",
+    "framework": "Kärnramverk",
+    "resources": "Resurser och referenser"
+  },
+  "sections": {
+    "index": "Ramverksöversikt",
+    "at-a-glance": "I korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning",
+    "introduction-vision": "Introduktion och vision",
+    "foundational-principles": "Grundläggande principer",
+    "integration-architecture": "GGF integrationsarkitektur",
+    "theory-of-change": "Teori om förändring",
+    "strategic-objectives": "Strategiska mål",
+    "three-pillars": "De tre pelarna",
+    "implementation-mechanisms": "Implementeringsmekanismer",
+    "regional-customization": "Regional anpassning",
+    "stakeholder-engagement": "Intressentengagemang",
+    "risk-management": "Riskhantering",
+    "success-metrics": "Framgångsmått och mätning",
+    "timeline-milestones": "Tidslinje och milstolpar",
+    "taking-action": "Att vidta åtgärder",
+    "appendices": "Bilagor"
+  },
+  "sectionsShort": {
+    "index": "Översikt",
+    "at-a-glance": "I korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning",
+    "introduction-vision": "Introduktion",
+    "foundational-principles": "Principer",
+    "integration-architecture": "Integration",
+    "theory-of-change": "Teori om förändring",
+    "strategic-objectives": "Mål",
+    "three-pillars": "Tre pelare",
+    "implementation-mechanisms": "Implementering",
+    "regional-customization": "Anpassning",
+    "stakeholder-engagement": "Intressenter",
+    "risk-management": "Riskhantering",
+    "success-metrics": "Framgångsmått",
+    "timeline-milestones": "Tidslinje",
+    "taking-action": "Åtgärder",
+    "appendices": "Bilagor"
+  },
+  "navigation": {
+    "downloadPdf": "Ladda ner PDF-version",
+    "continueToFramework": "Fortsätt till hela ramverket",
+    "previousSection": "Föregående avsnitt",
+    "nextSection": "Nästa avsnitt"
+  },
+  "progress": {
+    "text": "Avsnitt {current} av {total}"
+  },
+  "languageFallback": {
+    "title": "Innehåll på ditt språk kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+  },
+  "errors": {
+    "sectionNotFound": "Avsnittet \"{section}\" hittades inte",
+    "contentInDevelopment": "Detta innehåll är fortfarande under utveckling."
+  },
+  "pillars": {
+    "sacredSeed": {
+      "title": "Heliga frösystem",
+      "subtitle": "Kunskapsgrunden",
+      "description": "Skydd av traditionell kunskap, frösuveränitet och utbildningsprogram för 'Sacred Seed Kit'"
+    },
+    "bioregionalNetworks": {
+      "title": "Bioregionala matnätverk",
+      "subtitle": "Den ekonomiska motorn",
+      "description": "Kooperativ utveckling, lokala matnav och regional handelsintegration"
+    },
+    "regenerativeStewardship": {
+      "title": "Regenerativt förvaltarskap",
+      "subtitle": "Det ekologiska hjärtat",
+      "description": "Återställande av ekosystem, klimatanpassning och bevarande av biologisk mångfald"
+    }
+  },
+  "objectives": {
+    "foodSecurity": {
+      "title": "Förbättra livsmedelssäkerheten",
+      "description": "Minska global hunger och förbättra tillgången till mat genom regenerativa system och lokalsamhällens suveränitet"
+    },
+    "regenerativePractices": {
+      "title": "Främja regenerativa metoder",
+      "description": "Omvandla jordbruket från utvinnande till regenerativt, binda kol och återställa ekosystem"
+    },
+    "innovation": {
+      "title": "Främja innovation",
+      "description": "Utveckla klimatsmarta teknologier och AI-assisterat jordbruk samtidigt som traditionell ekologisk kunskap bevaras"
+    },
+    "equitableTrade": {
+      "title": "Säkerställa rättvis handel",
+      "description": "Reformera handelspolitiken för att stödja småbrukare och skapa rättvis prissättning genom kooperativ utveckling"
+    },
+    "marineSystems": {
+      "title": "Stödja marina livsmedelssystem",
+      "description": "Främja hållbart vattenbruk och fiskemetoder i linje med ramverk för havsförvaltning"
+    }
+  },
+  "keyFeatures": {
+    "indigenousLed": {
+      "title": "Urfolkslett styre",
+      "description": "Traditionell ekologisk kunskap vägleder all jordbruksinnovation och policyutveckling"
+    },
+    "regenerativeCore": {
+      "title": "Regenerativt i grunden",
+      "description": "Omvandla industriellt jordbruk till system som återställer markhälsa och binder kol"
+    },
+    "globalCooperation": {
+      "title": "Globalt samarbete",
+      "description": "Integrerat med det globala styrningsramverket för samordnad planetär livsmedelssäkerhet"
+    },
+    "communityOwnership": {
+      "title": "Lokalt ägande",
+      "description": "Bondekooperativ och bioregionala matnätverk som ägs och kontrolleras av lokalsamhällen"
+    },
+    "blockchainTransparency": {
+      "title": "Transparens med blockkedjeteknik",
+      "description": "Digitala produktpass spårar mat från frö till bord, vilket säkerställer rättvis handel och ursprung"
+    }
+  },
+  "stats": {
+    "farmersTraining": {
+      "number": "5 miljoner",
+      "description": "bönder ska utbildas genom 'Sacred Seed Kit'-program till år 6"
+    },
+    "regenerativeLand": {
+      "number": "30 %",
+      "description": "av global jordbruksmark omställd till regenerativa metoder till år 11"
+    },
+    "hungerReduction": {
+      "number": "50 %",
+      "description": "minskning av global hunger med stöd av AUBI och lokala matsystem"
+    },
+    "carbonSequestration": {
+      "number": "1 GtCO2e",
+      "description": "kol binds årligen genom återställande av markhälsa"
+    },
+    "seedBanks": {
+      "number": "1 000",
+      "description": "lokalt ägda fröbibliotek som bevarar jordbrukets biologiska mångfald"
+    }
+  },
+  "implementation": {
+    "funding": {
+      "title": "Finansieringsmekanismer",
+      "description": "Global Commons Fund tillhandahåller 50 miljarder dollar genom multilaterala givare, koldioxidmarknader och omdirigerade jordbruksstöd"
+    },
+    "governance": {
+      "title": "Styrningsstruktur",
+      "description": "Planetary Health Councils underråd för livsmedelssystem utövar tillsyn med 50 % representation från urfolk och 20 % från ungdomar"
+    },
+    "technology": {
+      "title": "Teknikintegration",
+      "description": "AI- och blockkedjeverktyg stöder bönder samtidigt som datasuveränitet och kulturellt skydd säkerställs"
+    },
+    "partnerships": {
+      "title": "Strategiska partnerskap",
+      "description": "Samarbete med FAO, CGIAR och urfolksorganisationer för att skala upp regenerativa metoder globalt"
+    }
+  },
+  "benefits": {
+    "ecological": {
+      "title": "Ekologiska fördelar",
+      "items": [
+        "Återställande av markhälsa och kolinlagring",
+        "Bevarande av biologisk mångfald genom polykultursystem",
+        "Vattenbesparing och minskad användning av kemikalier",
+        "Klimatresiliens genom diversifierade livsmedelssystem"
+      ]
+    },
+    "social": {
+      "title": "Sociala fördelar",
+      "items": [
+        "Mat-suveränitet och lokalsamhällets kontroll",
+        "Stabila inkomster för bönder genom kooperativ",
+        "Ungdomars engagemang i jordbruksinnovation",
+        "Bevarande och skydd av traditionell kunskap"
+      ]
+    },
+    "economic": {
+      "title": "Ekonomiska fördelar",
+      "items": [
+        "Minskat importberoende genom lokal produktion",
+        "Värdecirkulation inom lokalsamhällen",
+        "Premiumprissättning för regenerativa produkter",
+        "Betalningar för ekosystemtjänster till bönder"
+      ]
+    }
+  },
+  "callsToAction": {
+    "individuals": {
+      "title": "För individer",
+      "description": "Stöd lokala matsystem, förespråka regenerativ policy och lär dig om traditionell ekologisk kunskap"
+    },
+    "farmers": {
+      "title": "För bönder",
+      "description": "Ställ om till regenerativa metoder med stöd från AUBI, gå med i bondekooperativ och delta i 'Sacred Seed Kit'-utbildning"
+    },
+    "organizations": {
+      "title": "För organisationer",
+      "description": "Samarbeta med lokala kooperativ, investera i regenerativt jordbruk och bygg koalitioner för maträttvisa"
+    },
+    "policymakers": {
+      "title": "För beslutsfattare",
+      "description": "Omdirigera jordbruksstöd till regenerativa metoder, stöd urfolks markrättigheter och implementera rättvis handelspolitik"
+    }
+  },
+  "quotes": {
+    "introduction": "Vi odlar inte bara mat; vi odlar relationer – med jorden, med fröet, med årstiderna, med varandra. Trädgården lär oss att överflöd inte kommer från utvinning, utan från ömsesidighet.",
+    "vision": "Föreställ dig till år 11 jordens livsmedelssystem som ett levande nätverk av 'Kinship Gardens' – bioregionala zoner där urfolkskunskap vägleder jordbruksmetoder, där index för markhälsa ersätter vinstmarginaler som framgångsmått.",
+    "transformation": "Den industriella utvinningens tidsålder är över. Den regenerativa överflödets era börjar nu."
+  }
+}

@@ -72,7 +72,7 @@ const pageSpecificTranslationsMap = [
   { route: '/frameworks/aurora-accord', dataKey: 'auroraAccord', fileName: 'frameworksAuroraAccord' },
   { route: '/frameworks/financial-systems', dataKey: 'financialSystems', fileName: 'frameworksFinancialSystems' },
   { route: '/frameworks/educational-systems', dataKey: 'educationalFramework', fileName: 'frameworksEducationalSystems' },
-  { route: '/frameworks/food-systems-and-agriculture', dataKey: 'foodSystemsFramework', fileName: 'frameworksFoodSystemsAndAgriculture' },
+  { route: '/frameworks/kinship-garden', dataKey: 'kinshipGardenFramework', fileName: 'frameworksKinshipGarden' },
   { route: '/frameworks/nested-economies', dataKey: 'nestedEconomies', fileName: 'frameworksNestedEconomies' },
   { route: '/frameworks/global-supply-chains-and-logistics', dataKey: 'gscl', fileName: 'frameworksGlobalSupplyChainAndLogistics' },
   { route: '/frameworks/justice-systems', dataKey: 'justiceFramework', fileName: 'frameworksJusticeSystems' },

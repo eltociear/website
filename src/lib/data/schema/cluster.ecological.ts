@@ -87,10 +87,10 @@ export const ecologicalEntities: GgfEntity[] = [
     implementationPriority: 'High',
     dependencies: ['framework_aubi', 'council_phc'],
     ui: {
-      path: '/frameworks/food-systems-and-agriculture',
-      titleKey: 'framework.docs.nav.frameworkTitles.foodSystemsAndAgriculture',
+      path: '/frameworks/kinship-garden',
+      titleKey: 'framework.docs.nav.frameworkTitles.kinshipGarden',
       emoji: '🌱',
-      slug: 'food-systems-and-agriculture',
+      slug: 'kinship-garden',
       group: 'planetaryHealthResilience'
     }
   },

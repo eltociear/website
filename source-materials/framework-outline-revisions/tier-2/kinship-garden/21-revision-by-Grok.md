@@ -28,7 +28,7 @@
 - **Oceans & Marine Governance Framework**
 
 ### **Version History:**
-- **3.0 (2025-07-10):** Enhanced per Claude’s review ("19-review-by-Claude.md") and Gemini’s comments ("20-comments-by-Gemini.md"). Added food justice (land rights, farmworker justice, food apartheid, sovereignty, gender equity) with **Work in Liberation**, **FLP**, **Justice Systems**, **AUBI**; introduced **Appendix O: Regenerative Agriculture Protocols**; expanded urban food systems with **Urban Framework**; enhanced climate adaptation with **Disaster Risk Framework**; added economic justice and conflict prevention with **Nested Sovereignty**, **FLP**, **Peace Framework**; improved measurement, technology governance, and financial mechanisms in **Appendices E, G**; refined regional and cultural strategies in **Appendix I**; added pilot criteria, scale-up, trade integration in **Appendix H**; enhanced engagement in **Appendices F, J**; clarified Health, Water, land use, and marine integrations [cite: 19, 20]. Preserved v2.0 content [cite: 18].
+- **3.0 (2025-07-10):** Enhanced per Claude’s review ("19-review-by-Claude.md") and Gemini’s comments ("20-comments-by-Gemini.md"). Added food justice (land rights, farmworker justice, food apartheid, sovereignty, gender equity) with **Work in Liberation**, **FLP**, **Justice Systems**, **AUBI**; introduced **Appendix L: Regenerative Agriculture Protocols**; expanded urban food systems with **Urban Framework**; enhanced climate adaptation with **Disaster Risk Framework**; added economic justice and conflict prevention with **Nested Economies**, **FLP**, **Peace Framework**; improved measurement, technology governance, and financial mechanisms in **Appendices E, G**; refined regional and cultural strategies in **Appendix I**; added pilot criteria, scale-up, trade integration in **Appendix H**; enhanced engagement in **Appendices F, J**; clarified Health, Water, land use, and marine integrations [cite: 19, 20]. Preserved v2.0 content [cite: 18].
 - **2.0 (2025-07-10):** Integrated **AUBI**, **PHC**, **Digital Product Passports**, **Justice Tribunals**, *Ecosystem Health Indicators*, *BHI* [cite: 17].
 - **1.0 (2025):** Initial outline aligning with SDGs, Paris Agreement, CBD, UNDRIP, FAO Guidelines [cite: 16].
 
@@ -36,7 +36,7 @@
 
 ## **Introduction**
 - **Purpose**: Define objectives for sustainable, equitable, resilient global food systems, integrated as a core GGF component, supporting ecological restoration, nutritional health, and economic justice.
-- **Scope**: Address food production, distribution, consumption, waste management, and marine systems, leveraging **AUBI**, **Ecological Intelligence & Rights Layer**, **Gaian Trade**, **GSCL**, **Justice Systems**, **Peace & Conflict Resolution**, **Urban**, **Disaster Risk Reduction**, **Nested Sovereignty**, and **Oceans & Marine Governance Frameworks**.
+- **Scope**: Address food production, distribution, consumption, waste management, and marine systems, leveraging **AUBI**, **Ecological Intelligence & Rights Layer**, **Gaian Trade**, **GSCL**, **Justice Systems**, **Peace & Conflict Resolution**, **Bioregional Polis**, **Disaster Risk Reduction**, **Nested Economies**, and **Oceans & Marine Governance Frameworks**.
 - **Alignment**: Supports globalgovernanceframework.org, aligning with SDGs (2, 13, 15), Paris Agreement, CBD, UN Right to Food, UNDRIP, FAO Voluntary Guidelines, and **Planetary Health Governance Framework**’s *Biosphere Health Index (BHI)* [cite: 19, 20].
 - **Note on Visuals**: Includes diagrams (stakeholder structure, leverage flows, Global Risk Heatmap, risk matrix, regional dashboards) and summary table in **Appendix K**.
 - **Accessibility**: Reading time: 20 minutes; length: 10-12 pages. 2-page executive summary in 10 languages plus Quechua (2027), with sign-language videos, printed manuals for USB distribution [cite: 16].
@@ -47,7 +47,7 @@
   - **Justice Systems**: Resolves disputes via **Climate and Ecological Justice Tribunals** [cite: 17, 19].
   - **Peace & Conflict Resolution**: Uses *Values-Based Conflict Transformation* for resource disputes [cite: 17, 19].
   - **Planetary Health Governance**: Aligns with **PHC** for nutritional/ecological oversight [cite: 17, 19, 20].
-  - **Urban and Community Development**: Supports urban agriculture, food forests [cite: 17, 19].
+  - **Bioregional Polis**: Supports urban agriculture, food forests [cite: 17, 19].
   - **Disaster Risk Reduction**: Enhances climate adaptation, disaster preparedness [cite: 19, 20].
   - **Nested Sovereignty**: Supports farmer cooperatives, community sovereignty [cite: 19, 20].
   - **Oceans & Marine Governance**: Integrates sustainable aquaculture, fishing [cite: 20].
@@ -61,7 +61,7 @@
 - **Agroecology**: Integrates ecological principles, TEK, minimal inputs, contributing to *BHI* [cite: 16, 17].
 - **Food Security**: Consistent access to safe, nutritious food, supported by **AUBI** [cite: 16].
 - **Resilience**: Capacity to adapt to shocks, enhanced by **Peace & Conflict Resolution Framework** [cite: 16, 17].
-- **Food Sovereignty**: Local control over food systems, supported by **Nested Sovereignty Framework** [cite: 19, 20].
+- **Food Sovereignty**: Local control over food systems, supported by **Nested Economies Framework** [cite: 19, 20].
 
 ---
 
@@ -128,7 +128,7 @@
 - **Equity**: Fair access to resources, markets, land, wages via **AUBI**, **FLP**, **Justice Systems** [cite: 17, 19].
 - **Resilience**: Adaptive capacity to shocks via **Peace & Conflict Resolution**, **Disaster Risk Reduction** [cite: 17, 19].
 - **Transparency**: Accountability in supply chains via **Digital Product Passports**, **Public Trust Dashboard** [cite: 17, 19].
-- **Food Sovereignty**: Local control via **Nested Sovereignty Framework** [cite: 19, 20].
+- **Food Sovereignty**: Local control via **Nested Economies Framework** [cite: 19, 20].
 
 ---
 
@@ -142,7 +142,7 @@
   - Incentivize soil health (1 GtCO2e/year by 2035), water conservation (25% irrigation waste reduction), via **Love Ledger** [cite: 16, 17].
   - Support 10,000 community-led water harvesting projects by 2030 [cite: 16].
   - Preserve 1,000 crop varieties, seed banks via **BCT** [cite: 16, 17].
-  - Integrate pollinator corridors, beneficial insect habitats, perennial agriculture per **Appendix O** [cite: 19].
+  - Integrate pollinator corridors, beneficial insect habitats, perennial agriculture per **Appendix L** [cite: 19].
 - **7.3 Foster Innovation** (SDG 13):
   - Climate-smart technologies (precision agriculture, vertical farming) via **TGIF**, accessible to smallholders [cite: 16, 17].
   - AI/big data for crop modeling, 100 projects by 2030, with **TGIF** data sovereignty protocols [cite: 16, 17, 19].
@@ -158,7 +158,7 @@
 - **7.4 Ensure Equitable Trade** (SDG 2):
   - Reform trade policies, reduce barriers for smallholders by 15%, enforced by **Climate and Ecological Justice Tribunals** [cite: 16, 17].
   - Fair trade certification for 50% global exports by 2035, via **Gaian Trade**, **Fair Flow**, **Digital Product Passports** [cite: 16, 17].
-  - Fair pricing, cooperative development via **Nested Sovereignty**, **FLP** [cite: 19, 20].
+  - Fair pricing, cooperative development via **Nested Economies**, **FLP** [cite: 19, 20].
 - **7.5 Support Marine Food Systems** (SDG 14):
   - Promote sustainable aquaculture, fishing, tracked via **Digital Product Passports**, rewarded with **Leaves/Hearts**, aligned with **Oceans & Marine Governance Framework** [cite: 20].
 
@@ -186,7 +186,7 @@
 - **Capacity Building**:
   - Train 5 million farmers, 10,000 policymakers via *Sacred Seed Kit*, TEK by 2030 [cite: 16, 17].
   - Support 1,000 youth/women-led initiatives, rewarded with **Hearts** [cite: 16, 17].
-  - Strengthen farmer cooperatives via **Nested Sovereignty Framework** [cite: 19, 20].
+  - Strengthen farmer cooperatives via **Nested Economies Framework** [cite: 19, 20].
 - **Institutional Accountability**:
   - **PHC** audits, sanctions via **Digital Justice Tribunal** by 2026 [cite: 17, 19].
   - Dashboards updated biannually on **Public Trust Dashboard** [cite: 17, 19].
@@ -211,7 +211,7 @@
   - **Subsidy Redirection**: 40% to regenerative practices, enforced by **Digital Justice Tribunal** [cite: 16, 17].
   - **Knowledge Commons**: Open-source platforms, P2P exchanges, TEK repositories, linked to **Love Ledger** [cite: 16, 17].
   - **Policy Harmonization**: Align with global standards under **PHC** [cite: 16, 17].
-  - **Community Co-Governance**: Empower BAZs, Indigenous groups via **Nested Sovereignty** [cite: 16, 17, 19].
+  - **Community Co-Governance**: Empower BAZs, Indigenous groups via **Nested Economies** [cite: 16, 17, 19].
   - **Reparative Finance**: Address historical extraction via **Global Commons Fund** [cite: 19].
 - *(Visual: Leverage flows diagram in Appendix K.)*
 
@@ -222,7 +222,7 @@
   - Assess challenges (e.g., drought, overproduction, sea-level rise, conflict) using *Ecosystem Health Indicators* [cite: 16, 17].
 - **Tailored Strategies**:
   - **Sub-Saharan Africa**: Irrigation, drought-resistant crops (sorghum, millet), offline systems (radio/SMS for 500,000 farmers by 2030), **Leaves** rewards [cite: 16, 17].
-  - **South Asia**: Urban agriculture, micro-irrigation, climate-adaptive seeds, linked to **Urban Framework** [cite: 16, 17, 19].
+  - **South Asia**: Urban agriculture, micro-irrigation, climate-adaptive seeds, linked to **Urban Framework (Bioregional Polis)** [cite: 16, 17, 19].
   - **Latin America**: Agroforestry, Indigenous seed banks (Brazil’s Cerrado restores 10,000 hectares), **Digital Product Passports** [cite: 16, 17].
   - **Island Nations**: Saltwater-tolerant crops, floating farms (Maldives’ aquaponics restores 500 hectares), **BCT** mandates [cite: 16, 17].
   - **Conflict Zones**: Mobile seed banks, community gardens (Syria’s urban farming for 10,000 families), *Values-Based Conflict Transformation* [cite: 16, 17, 19].
@@ -315,11 +315,11 @@
 - **7.1 Food Security**:
   - BAZ-led markets, mobile units to combat food apartheid, funded by **AUBI** [cite: 19, 20].
 - **7.2 Sustainable Practices**:
-  - Pollinator corridors, perennial systems per **Appendix O** [cite: 19].
+  - Pollinator corridors, perennial systems per **Appendix L** [cite: 19].
 - **7.3 Innovation**:
   - Data sovereignty, AI bias prevention via **TGIF** [cite: 19].
 - **7.4 Equitable Trade**:
-  - Fair pricing, cooperatives via **Nested Sovereignty**, **FLP** [cite: 19, 20].
+  - Fair pricing, cooperatives via **Nested Economies**, **FLP** [cite: 19, 20].
 - **7.5 Marine Systems**:
   - Sustainable aquaculture, fishing, tracked via **Digital Product Passports** [cite: 20].
 
@@ -370,7 +370,7 @@
 - **Dashboard**: **Public Trust Dashboard** with KPIs (*BHI*, regenerative farmland, hunger reduction) [cite: 17, 19].
 - **Diagrams**: Stakeholder structure, leverage flows, Global Risk Heatmap, risk matrix [cite: 16, 19].
 
-### **Appendix O: Regenerative Agriculture Protocols**
+### **Appendix L: Regenerative Agriculture Protocols**
 - **Soil Health**: Cover cropping, no-till, compost for agroecological zones, verified by soil testing [cite: 19].
 - **Carbon Farming Verification**: *Ecosystem Health Indicators* for sequestration (1 GtCO2e/year by 2035) [cite: 19].
 - **Biodiversity**: Pollinator corridors, beneficial insect habitats [cite: 19].

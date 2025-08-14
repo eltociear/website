@@ -22,7 +22,6 @@ Available categories:
 - regenerative-enterprise
 - institutional-regeneration
 - educational-systems
-- food-systems-and-agriculture
 - climate-and-energy-governance
 - peace-and-conflict-resolution
 - economic-integration
@@ -32,6 +31,7 @@ Available categories:
 - financial-systems
 - governance
 - environmental-stewardship
+- kinship-garden
 - biodiversity
 - planetary-health-governance
 - global-health-and-pandemic-security
@@ -80,7 +80,6 @@ const outputDirs = {
   'regenerative-enterprise': path.join(__dirname, '..', 'static', 'frameworks', 'tools', 'regenerative-enterprise'),
   'institutional-regeneration': path.join(__dirname, '..', 'static', 'frameworks', 'tools', 'institutional-regeneration'),
   'educational-systems': path.join(__dirname, '..', 'static', 'frameworks', 'tools', 'educational-systems'),
-  'food-systems-and-agriculture': path.join(__dirname, '..', 'static', 'frameworks', 'tools', 'food-systems-and-agriculture'),
   'climate-and-energy-governance': path.join(__dirname, '..', 'static', 'frameworks', 'tools', 'climate-and-energy-governance'),
   'peace-and-conflict-resolution': path.join(__dirname, '..', 'static', 'frameworks', 'tools', 'peace-and-conflict-resolution'),
   'economic-integration': path.join(__dirname, '..', 'static', 'frameworks', 'tools', 'economic-integration'),
@@ -103,6 +102,7 @@ const outputDirs = {
   'animal-welfare-governance': path.join(__dirname, '..', 'static', 'frameworks','tools', 'animal-welfare-governance'),
   'gaian-trade': path.join(__dirname, '..', 'static', 'frameworks','tools', 'gaian-trade'),
   'work-in-liberation': path.join(__dirname, '..', 'static', 'frameworks','tools', 'work-in-liberation'),
+  'kinship-garden': path.join(__dirname, '..', 'static', 'frameworks','tools', 'kinship-garden'),
   'aegis-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'aegis-protocol'),
   'shield-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'shield-protocol'),
   'synoptic-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'synoptic-protocol'),
@@ -417,6 +417,68 @@ const tools = [
       'appendices'
     ]
   },
+
+  // Kinship Garden Framework
+  {
+    name: 'executive-summary-for-the-skeptic',
+    category: 'kinship-garden',
+    fileNames: {
+      en: 'kinship-garden-framework-executive-summary-en',
+      sv: 'kinship-garden-framework-executive-summary-sv'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'kinship-garden'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'kinship-garden')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'assets', 'pdf'),
+      sv: path.join(__dirname, '..', 'static', 'assets', 'pdf')
+    },
+    pageFooter: {
+      en: 'Kinship Garden Framework - Executive Summary for the Skeptic',
+      sv: 'Kinship Garden-ramverket - Sammanfattning för skeptiker'
+    }
+  },
+
+  // Full framework
+  {
+    name: 'kinship-garden-framework',
+    category: 'kinship-garden',
+    fileNames: {
+      en: 'Kinship-Garden-Framework',
+      sv: 'Kinship-Garden-Framework'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'kinship-garden'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'kinship-garden')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'downloads', 'en'),
+      sv: path.join(__dirname, '..', 'static', 'downloads', 'sv')
+    },
+    pageFooter: {
+      en: 'Kinship Garden Framework',
+      sv: 'Kinship Garden-ramverket'
+    },
+    sections: [
+      'index',
+      'introduction-vision',
+      'foundational-principles',
+      'integration-architecture',
+      'theory-of-change',
+      'strategic-objectives',
+      'three-pillars',
+      'implementation-mechanisms',
+      'regional-customization',
+      'stakeholder-engagement',
+      'risk-management',
+      'success-metrics',
+      'timeline-milestones',
+      'taking-action',
+      'appendices'
+    ]
+  },
+
 
   // Living Land Protocol
   {
@@ -1351,198 +1413,6 @@ const tools = [
     pageFooter: {
       en: 'Systems Thinking Module - Page ',
       sv: 'Systemtänkande modul - Sida '
-    }
-  },
-  {
-    name: 'advocacy-playbook',
-    category: 'food-systems-and-agriculture',
-    fileNames: {
-      en: 'advocacy-playbook-en',
-      sv: 'advocacy-playbook-sv'
-    },
-    sourceDir: {
-      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'food-systems-and-agriculture', 'appendix-tools'),
-      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'food-systems-and-agriculture', 'appendix-tools')
-    },
-    pageFooter: {
-      en: 'Advocacy Playbook - Page ',
-      sv: 'Handbok för påverkansarbete - Sida '
-    }
-  },
-  {
-    name: 'cost-benefit-analysis-model',
-    category: 'food-systems-and-agriculture',
-    fileNames: {
-      en: 'cost-benefit-analysis-model-en',
-      sv: 'cost-benefit-analysis-model-sv'
-    },
-    sourceDir: {
-      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'food-systems-and-agriculture', 'appendix-tools'),
-      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'food-systems-and-agriculture', 'appendix-tools')
-    },
-    pageFooter: {
-      en: 'Cost-Benefit Analysis Model - Page ',
-      sv: 'Modell för kostnads-/nyttobedömning - Sida '
-    }
-  },
-  {
-    name: 'monitoring-evaluation-rubric',
-    category: 'food-systems-and-agriculture',
-    fileNames: {
-      en: 'monitoring-evaluation-rubric-en',
-      sv: 'monitoring-evaluation-rubric-sv'
-    },
-    sourceDir: {
-      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'food-systems-and-agriculture', 'appendix-tools'),
-      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'food-systems-and-agriculture', 'appendix-tools')
-    },
-    pageFooter: {
-      en: 'Monitoring & Evaluation Rubric Template - Page ',
-      sv: 'Mall för uppföljnings- och utvärderingsmatris - Sida '
-    }
-  },
-  {
-    name: 'pilot-readiness-self-assessment-tool',
-    category: 'food-systems-and-agriculture',
-    fileNames: {
-      en: 'pilot-readiness-self-assessment-tool-en',
-      sv: 'pilot-readiness-self-assessment-tool-sv'
-    },
-    sourceDir: {
-      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'food-systems-and-agriculture', 'appendix-tools'),
-      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'food-systems-and-agriculture', 'appendix-tools')
-    },
-    pageFooter: {
-      en: 'Pilot Readiness Self-Assessment Tool - Page ',
-      sv: 'Verktyg för självskattning av pilotberedskap - Sida '
-    }
-  },
-  {
-    name: 'policy-harmonization-toolkit',
-    category: 'food-systems-and-agriculture',
-    fileNames: {
-      en: 'policy-harmonization-toolkit-en',
-      sv: 'policy-harmonization-toolkit-sv'
-    },
-    sourceDir: {
-      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'food-systems-and-agriculture', 'appendix-tools'),
-      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'food-systems-and-agriculture', 'appendix-tools')
-    },
-    pageFooter: {
-      en: 'Policy Harmonization Toolkit - Page ',
-      sv: 'Verktygslåda för policysamordning - Sida '
-    }
-  },
-  {
-    name: 'stakeholder-engagement-charter',
-    category: 'food-systems-and-agriculture',
-    fileNames: {
-      en: 'stakeholder-engagement-charter-en',
-      sv: 'stakeholder-engagement-charter-sv'
-    },
-    sourceDir: {
-      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'food-systems-and-agriculture', 'appendix-tools'),
-      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'food-systems-and-agriculture', 'appendix-tools')
-    },
-    pageFooter: {
-      en: 'Stakeholder Engagement Charter Template - Page ',
-      sv: 'Mall för Intressentengagemangsstadga - Sida '
-    }
-  },
-  {
-    name: 'tek-integration-template',
-    category: 'food-systems-and-agriculture',
-    fileNames: {
-      en: 'tek-integration-template-en',
-      sv: 'tek-integration-template-sv'
-    },
-    sourceDir: {
-      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'food-systems-and-agriculture', 'appendix-tools'),
-      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'food-systems-and-agriculture', 'appendix-tools')
-    },
-    pageFooter: {
-      en: 'TEK Integration Template - Page ',
-      sv: 'Mall för integration av traditionell ekologisk kunskap (TEK) - Sida '
-    }
-  },
-  {
-    name: 'seed-kit-getting-started-guide',
-    category: 'food-systems-and-agriculture',
-    fileNames: {
-      en: 'seed-kit-getting-started-guide-en',
-      sv: 'seed-kit-getting-started-guide-sv'
-    },
-    sourceDir: {
-      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'food-systems-and-agriculture', 'appendix-tools'),
-      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'food-systems-and-agriculture', 'appendix-tools')
-    },
-    pageFooter: {
-      en: 'Getting Started Guide for the Seed Kit - Page ',
-      sv: 'Startguide för Fröpaketet - Sida '
-    }
-  },
-  {
-    name: 'regenerative-farming-guide',
-    category: 'food-systems-and-agriculture',
-    fileNames: {
-      en: 'regenerative-farming-guide-en',
-      sv: 'regenerative-farming-guide-sv'
-    },
-    sourceDir: {
-      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'food-systems-and-agriculture', 'appendix-tools'),
-      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'food-systems-and-agriculture', 'appendix-tools')
-    },
-    pageFooter: {
-      en: 'Regenerative Farming Guide - Page ',
-      sv: 'Guide till regenerativt jordbruk - Sida '
-    }
-  },
-  {
-    name: 'quick-guide',
-    category: 'food-systems-and-agriculture',
-    fileNames: {
-      en: 'quick-guide-en',
-      sv: 'quick-guide-sv'
-    },
-    sourceDir: {
-      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'food-systems-and-agriculture'),
-      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'food-systems-and-agriculture')
-    },
-    pageFooter: {
-      en: 'Food Systems & Agriculture Framework - Lite Guide - Page ',
-      sv: 'Mat- och Jordbrukssystem: Enkel Guide - Sida '
-    }
-  },
-  {
-    name: 'quick-guide-medium',
-    category: 'food-systems-and-agriculture',
-    fileNames: {
-      en: 'quick-guide-medium-en',
-      sv: 'quick-guide-medium-sv'
-    },
-    sourceDir: {
-      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'food-systems-and-agriculture'),
-      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'food-systems-and-agriculture')
-    },
-    pageFooter: {
-      en: 'Food and Agriculture Framework – Lite Guide - Page ',
-      sv: 'Mat- och Jordbrukssystem – Enkel Guide - Sida '
-    }
-  },
-  {
-    name: 'quick-guide-youth',
-    category: 'food-systems-and-agriculture',
-    fileNames: {
-      en: 'quick-guide-medium-youth-en',
-      sv: 'quick-guide-medium-youth-sv'
-    },
-    sourceDir: {
-      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'food-systems-and-agriculture'),
-      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'food-systems-and-agriculture')
-    },
-    pageFooter: {
-      en: 'Food Systems Lite Guide - Page ',
-      sv: 'Matsystem: Enkel Guide - Sida '
     }
   },
   {
