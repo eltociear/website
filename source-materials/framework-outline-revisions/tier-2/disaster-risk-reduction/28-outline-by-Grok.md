@@ -19,11 +19,11 @@
 - **Planetary Health Governance Framework**
 - **Justice Systems Implementation Framework**
 - **Peace & Conflict Resolution Framework**
-- **Nested Sovereignty Framework**
+- **Nested Economies Framework**
 - **Financial Systems Framework**
 - **Planetary Immune System (PIS)**
 - **Animal Welfare Governance Framework**
-- **Urban and Community Development Framework**
+- **Bioregional Polis (Urban and Community Development Framework)**
 - **Mental Health Governance / Living Mandala Framework**
 - **Conduit Protocol** # Unified, resilient global commons for infrastructure
 - **Global Supply Chains & Logistics Framework** # Resource flow management
@@ -39,7 +39,7 @@
 
 ## **Introduction**
 - **Purpose**: Strengthen resilience for frequent, localized disasters (e.g., hurricanes, floods) as a core GGF component, supporting human/non-human life, climate adaptation, health equity, and equitable recovery, interoperable with **PIS** for existential threats.
-- **Scope**: Covers disaster management cycle (risk assessment, prevention, preparedness, response, recovery), leveraging **AUBI**, **Ecological Intelligence**, **Justice Systems**, **Peace & Conflict Resolution**, **Nested Sovereignty**, **Financial Systems**, **PHC**, **PIS**, **Animal Welfare**, **Urban**, **Mental Health**, **Conduit Protocol**, **Global Supply Chains & Logistics** frameworks.
+- **Scope**: Covers disaster management cycle (risk assessment, prevention, preparedness, response, recovery), leveraging **AUBI**, **Ecological Intelligence**, **Justice Systems**, **Peace & Conflict Resolution**, **Nested Economies**, **Financial Systems**, **PHC**, **PIS**, **Animal Welfare**, **Bioregional Polis (Urban)**, **Mental Health**, **Conduit Protocol**, **Global Supply Chains & Logistics** frameworks.
 - **Alignment**: Supports globalgovernanceframework.org, aligning with Sendai Framework, SDGs (11, 13), IPCC frameworks, and **PHC**’s *Biosphere Health Index (BHI)*.
 - **Note on Visuals**: Includes diagrams (stakeholder structure, risk flows, Global Risk Heatmap, regional dashboards, CRS dashboard) in **Annex D**.
 - **Accessibility**: Reading time: 18 minutes; length: 10-12 pages. Executive summary in 10 languages plus Quechua (2027), sign-language videos, USB manuals.
@@ -49,12 +49,12 @@
   - **Justice Systems**: Enforces accountability via **Digital Justice Tribunal**.
   - **Peace & Conflict Resolution**: Uses *Values-Based Conflict Transformation* for resource disputes.
   - **PHC**: Oversees strategy, co-manages health integration.
-  - **Nested Sovereignty**: Empowers **BAZ-level councils** for implementation.
+  - **Nested Economies**: Empowers **BAZ-level councils** for implementation.
   - **Meta-Governance Framework**: Coordinates emergency protocols.
   - **Financial Systems Framework**: Issues **Resilience Bonds**, supports **Forecast-Based Financing**, debt relief under **Global Resilience Pool**.
   - **PIS**: Handles existential threats via **Crisis Command Protocol**.
   - **Animal Welfare Governance**: Supports One Health approaches.
-  - **Urban Framework**: Uses CRS, risk maps for city planning.
+  - **Bioregional Polis (Urban Framework)**: Uses CRS, risk maps for city planning.
   - **Mental Health Framework**: Co-manages mental health components.
   - **Conduit Protocol**: Ensures resilient energy, water, data infrastructure.
   - **Global Supply Chains & Logistics**: Secures resource flows during crises.
@@ -203,7 +203,7 @@
 ---
 
 ## **Conclusion**
-- **Summary**: A resilient, ethical, climate-adaptive framework for frequent disasters, prioritizing human/non-human life, gender equity, disability inclusion, mental health, health equity, integrated with GGF (**PHC**, **AUBI**, **Justice Systems**, **Ecological Intelligence**, **PIS**, **Financial Systems**, **Urban**, **Animal Welfare**, **Conduit Protocol**, **Global Supply Chains & Logistics**).
+- **Summary**: A resilient, ethical, climate-adaptive framework for frequent disasters, prioritizing human/non-human life, gender equity, disability inclusion, mental health, health equity, integrated with GGF (**PHC**, **AUBI**, **Justice Systems**, **Ecological Intelligence**, **PIS**, **Financial Systems**, **Bioregional Polis (Urban)**, **Animal Welfare**, **Conduit Protocol**, **Global Supply Chains & Logistics**).
 - **Call to Action**: Invite globalgovernanceframework.org community to contribute via **Public Trust Dashboard**, co-design with **BAZ-level councils**, **Community Weavers**.
 
 ---
@@ -245,7 +245,7 @@
   - **Natural Infrastructure Standards**: Specifications for living shorelines, bioswales.
   - **Ecosystem Service Valuation**: Quantify DRR value of ecosystems via *BHI*.
   - **Biodiversity-Disaster Nexus**: Link ecosystem health to resilience.
-  - **Urban Ecology**: Green infrastructure for city resilience, aligned with **Urban Framework**.
+  - **Urban Ecology**: Green infrastructure for city resilience, aligned with **Bioregional Polis (Urban Framework)**.
   - **Regenerative Recovery**: Post-disaster ecosystem restoration.
 - **Annex G: Community Resilience Score (CRS) Methodology**:
   - **Participation**: Co-designed with **BAZ**, **Sacred Seed Kit** dialogues.

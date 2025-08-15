@@ -62,6 +62,7 @@ Available categories:
 - bioregional-polis
 - sundown-protocol
 - emergent-governance-protocol
+- disaster-risk-reduction
 - ggf-overview
 
 Example: node tools-pdf-generator.js economic
@@ -117,6 +118,7 @@ const outputDirs = {
   'indigenous-governance-and-traditional-knowledge': path.join(__dirname, '..', 'static', 'frameworks','tools', 'indigenous-governance-and-traditional-knowledge'),
   'emergent-governance-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'emergent-governance-protocol'),
   'living-land-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'living-land-protocol'),
+  'disaster-risk-reduction': path.join(__dirname, '..', 'static', 'frameworks','tools', 'disaster-risk-reduction'),
   'sundown-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'sundown-protocol'),
   'treaty-for-our-only-home': path.join(__dirname, '..', 'static', 'frameworks','tools', 'treaty-for-our-only-home'),
   'get-involved': path.join(__dirname, '..', 'static', 'get-involved'),
@@ -354,6 +356,66 @@ const tools = [
       'implementation-strategy',
       'documentation',
       'philosophy'
+    ]
+  },
+
+  // Disaster Risk Reduction & Resilience Framework
+  {
+    name: 'executive-summary-for-the-skeptic',
+    category: 'disaster-risk-reduction',
+    fileNames: {
+      en: 'disaster-risk-reduction-executive-summary-en',
+      sv: 'disaster-risk-reduction-executive-summary-sv'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'disaster-risk-reduction'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'disaster-risk-reduction')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'assets', 'pdf'),
+      sv: path.join(__dirname, '..', 'static', 'assets', 'pdf')
+    },
+    pageFooter: {
+      en: 'Disaster Risk Reduction & Resilience Framework - Executive Summary for the Skeptic',
+      sv: 'Ramverk för katastrofriskreducering & resiliens - Sammanfattning för skeptiker'
+    }
+  },
+
+  // Full framework
+  {
+    name: 'disaster-risk-reduction-framework',
+    category: 'disaster-risk-reduction',
+    fileNames: {
+      en: 'Disaster-Risk-Reduction-Framework',
+      sv: 'Disaster-Risk-Reduction-Framework'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'disaster-risk-reduction'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'disaster-risk-reduction')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'downloads', 'en'),
+      sv: path.join(__dirname, '..', 'static', 'downloads', 'sv')
+    },
+    pageFooter: {
+      en: 'Disaster Risk Reduction & Resilience',
+      sv: 'Ramverk för katastrofriskreducering & resiliens'
+    },
+    sections: [
+      'index',
+      'introduction-context',
+      'guiding-principles',
+      'integration-architecture',
+      'framework-components',
+      'three-pillars',
+      'global-resilience-pool',
+      'community-resilience-score',
+      'tek-integration',
+      'crisis-recovery-cycle',
+      'success-metrics',
+      'implementation-phases',
+      'taking-action',
+      'appendices'
     ]
   },
 

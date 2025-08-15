@@ -12,41 +12,86 @@ export async function load({ depends, url, params }) {
   
   const currentLocale = get(locale);
   
-  // Load framework translations for navigation
+  console.log('=== DRR Framework +page.js load function ===');
+  console.log('URL pathname:', url.pathname);
+  console.log('Current locale:', currentLocale);
+  
+  // Load framework translations for navigation and page-specific translations
   try {
-    await loadTranslations(currentLocale, url.pathname);
+    let cleanPath = url.pathname;
+    
+    console.log('Original pathname:', cleanPath);
+    
+    // Check if the pathname looks corrupted (contains section names instead of the base path)
+    if (cleanPath.includes('/frameworks/') && 
+        (cleanPath.includes('at-a-glance') ||
+         cleanPath.includes('executive-summary') ||
+         cleanPath.includes('introduction-context') ||
+         cleanPath.includes('guiding-principles') ||
+         cleanPath.includes('integration-architecture') ||
+         cleanPath.includes('framework-components') ||
+         cleanPath.includes('three-pillars') ||
+         cleanPath.includes('global-resilience-pool') ||
+         cleanPath.includes('community-resilience-score') ||
+         cleanPath.includes('tek-integration') ||
+         cleanPath.includes('crisis-recovery-cycle') ||
+         cleanPath.includes('success-metrics') ||
+         cleanPath.includes('implementation-phases') ||
+         cleanPath.includes('taking-action') ||
+         cleanPath.includes('appendices'))) {
+      
+      console.log('⚠️  Detected corrupted pathname, correcting to base framework path');
+      cleanPath = '/frameworks/disaster-risk-reduction';
+    }
+    
+    console.log('Clean path for translations:', cleanPath);
+    
+    // Load translations for this specific page path
+    console.log('About to call loadTranslations with:', currentLocale, cleanPath);
+    const loadedTranslations = await loadTranslations(currentLocale, cleanPath);
+    console.log('loadTranslations returned:', Object.keys(loadedTranslations || {}));
+    console.log('Loaded translations for path:', cleanPath, 'with locale:', currentLocale);
   } catch (e) {
-    console.warn('Failed to load translations:', e);
+    console.error('Failed to load translations:', e);
+    console.error('Error details:', e.stack);
   }
   
   // Safe check for print mode that works during prerendering
-  const isPrintMode = browser ? url.searchParams.get('print') === 'true' : false;
-  
-  // Define sections to load - disaster risk reduction framework sections in correct order
+  // Only access url.search on the client side
+  let isPrintMode = false;
+  if (browser) {
+    try {
+      isPrintMode = url.search ? url.searchParams.get('print') === 'true' : false;
+      console.log('Print mode detected:', isPrintMode);
+    } catch (e) {
+      console.warn('Could not access URL search params:', e);
+      isPrintMode = false;
+    }
+  }
+
+  // Define sections to load - DRR framework sections in logical order
   const sections = [
     // Entry point and overview
     'index',
-    'technical-guide',
-    'community-guide',
-    'emergency-response-guide',
+    'at-a-glance',
+    'executive-summary-for-the-skeptic',
     
     // Core framework sections
-    'introduction',
-    'principles',
-    'components',
-    'approaches',
-    'engagement',
-    'barriers',
-    'resources',
-    'monitoring',
-    'governance',
-    'scalability',
-    'conclusion',
+    'introduction-context',
+    'guiding-principles',
+    'integration-architecture',
+    'framework-components',
+    'three-pillars',
+    'global-resilience-pool',
+    'community-resilience-score',
+    'tek-integration',
+    'crisis-recovery-cycle',
+    'success-metrics',
+    'implementation-phases',
+    'taking-action',
     
-    // Additional resources
-    'annexes',
-    'case-studies',
-    'tools-templates'
+    // Supplementary materials
+    'appendices'
   ];
   
   // Track which sections fell back to English
@@ -56,7 +101,7 @@ export async function load({ depends, url, params }) {
   const content = {};
   let loadedSections = 0;
   
-  console.log('Loading disaster risk reduction framework sections for locale:', currentLocale);
+  console.log('Loading DRR framework sections for locale:', currentLocale);
   
   // Try to load each section with proper error handling
   for (const section of sections) {
@@ -65,8 +110,11 @@ export async function load({ depends, url, params }) {
       const modulePromise = import(`$lib/content/frameworks/${currentLocale}/implementation/disaster-risk-reduction/${section}.md`);
       content[section] = await modulePromise;
       loadedSections++;
-      console.log('Successfully loaded disaster risk reduction section:', section, 'in', currentLocale);
+      console.log('Successfully loaded section:', section, 'in', currentLocale);
+      
     } catch (primaryError) {
+      console.warn(`Primary load failed for section ${section}:`, primaryError.message);
+      
       // Fall back to English if translation isn't available
       try {
         const fallbackPromise = import(`$lib/content/frameworks/en/implementation/disaster-risk-reduction/${section}.md`);
@@ -77,9 +125,10 @@ export async function load({ depends, url, params }) {
         if (currentLocale !== 'en') {
           sectionsUsingEnglishFallback.add(section);
         }
-        console.log('Loaded disaster risk reduction section:', section, 'in English as fallback');
+        console.log('Loaded section:', section, 'in English as fallback');
+        
       } catch (fallbackError) {
-        console.warn(`Could not load disaster risk reduction section ${section} in any language:`, fallbackError.message);
+        console.warn(`Could not load section ${section} in any language:`, fallbackError.message);
         
         // Create a safe placeholder for missing sections
         content[section] = {
@@ -99,14 +148,14 @@ export async function load({ depends, url, params }) {
     }
   }
   
-  console.log('Total disaster risk reduction sections loaded:', loadedSections, 'out of', sections.length);
-  console.log('Loaded disaster risk reduction sections:', Object.keys(content));
+  console.log('Total sections loaded:', loadedSections, 'out of', sections.length);
+  console.log('Loaded sections:', Object.keys(content));
   
   // Validate that we have at least the index section
   if (!content.index) {
-    console.error('Critical: Could not load disaster risk reduction framework index section');
+    console.error('Critical: Could not load index section');
     throw error(500, {
-      message: 'Failed to load disaster risk reduction framework content',
+      message: 'Failed to load DRR framework content',
       details: 'The main index section could not be loaded'
     });
   }
@@ -115,38 +164,56 @@ export async function load({ depends, url, params }) {
     sections: content,
     // Always use modular approach
     isModular: true,
-    isPrintMode,
+    isPrintMode, // This will be false during prerendering, true/false on client
     sectionsUsingEnglishFallback: Array.from(sectionsUsingEnglishFallback),
     loadedSectionsCount: loadedSections,
     totalSectionsCount: sections.length,
     
-    // Additional metadata for disaster risk reduction framework
+    // Additional metadata for DRR framework
     frameworkType: 'disaster-risk-reduction',
     totalSections: sections.length,
-    coreFrameworkSections: 10, // introduction through conclusion
-    hasGuides: true,
-    hasMultipleLevels: true,
+    coreFrameworkSections: 11, // introduction-context through taking-action
+    foundationSections: 2, // at-a-glance and executive-summary
+    resourceSections: 1, // appendices
+    hasExecutiveSummary: true,
     
-    // Disaster risk reduction-specific metadata
-    disasterVersion: '1.0',
-    isComprehensiveFramework: true,
-    focusArea: 'disaster-resilience-governance',
-    implementationScope: 'multi-hazard-multi-scale',
+    // DRR-specific metadata
+    frameworkVersion: '4.2',
+    tier: 2,
+    primaryDomain: 'Ecological',
+    isResilienceFramework: true,
+    implementationPhases: 3,
+    keyComponents: 5, // Risk Understanding, Prevention, Preparedness, Recovery, Communication
+    threePillars: ['Global Resilience Pool', 'Community Resilience Networks', 'Accountability & Learning Systems'],
     
-    // Framework characteristics
-    keyComponents: [
-      'risk-assessment',
-      'early-warning-systems',
-      'community-preparedness',
-      'infrastructure-resilience',
-      'emergency-response',
-      'recovery-reconstruction'
+    // Framework integrations
+    integrationsWith: [
+      'framework_planetary_health',
+      'framework_aubi',
+      'framework_work_liberation',
+      'framework_justice_systems',
+      'framework_peace_conflict',
+      'framework_indigenous',
+      'framework_meta_governance',
+      'framework_ecological_intelligence',
+      'framework_financial_systems',
+      'framework_pis',
+      'framework_animal_welfare',
+      'framework_urban_community',
+      'framework_mental_health'
     ],
     
-    // Guide characteristics
-    guideTypes: ['technical', 'community', 'emergency-response'],
-    hasStakeholderEngagement: true,
-    hasMultiHazardApproach: true,
+    // Key innovations
+    keyInnovations: [
+      'Community Resilience Score (CRS)',
+      'Forecast-Based Financing',
+      'Resilience Bonds',
+      'Community Weavers as Resilience Officers',
+      'Global Resilience Pool',
+      'Planetary Duty of Care',
+      'Indigenous-led early warning systems',
+      'Ecosystem-based disaster solutions'
+    ],
     
     // Debug information
     debug: {
@@ -154,7 +221,12 @@ export async function load({ depends, url, params }) {
       availableSections: Object.keys(content),
       fallbackSections: Array.from(sectionsUsingEnglishFallback),
       loadSuccess: loadedSections === sections.length,
-      frameworkType: 'disaster-risk-reduction'
+      pathHandling: {
+        originalPath: url.pathname,
+        cleanedPath: '/frameworks/disaster-risk-reduction'
+      },
+      // Only log search params on client side
+      searchParams: browser ? (url.search || 'none') : 'prerendering'
     }
   };
 }

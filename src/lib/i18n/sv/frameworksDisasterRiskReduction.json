@@ -1,106 +1,186 @@
 {
   "meta": {
-    "title": "Katastrofriskminskning & Motståndskraftsramverk - Global Governance Framework",
-    "description": "Ett omfattande ramverk för att bygga katastrofmotståndskraft genom samhällscentrerade tillvägagångssätt, innovativ styrning och hållbar utveckling"
+    "title": "Ramverk för katastrofriskreducering & resiliens - Att bygga planetär resiliens",
+    "description": "Ett omfattande ramverk för att omvandla katastrofhantering till lokalsamhällens resiliens och anpassningsförmåga genom urfolkslett styre, ekosystembaserade lösningar och revolutionerande finansieringsmekanismer."
   },
   "guideCard": {
-    "title": "Ny inom Katastrofriskminskning & Motståndskraftsramverket?",
-    "description": "Börja med vår introduktion som förklarar ramverkets vision, globala sammanhang och samarbetsutvecklingsmetod.",
-    "buttonText": "Läs introduktionen"
+    "title": "Ny inom katastrofriskreducering & resiliens?",
+    "description": "Börja med vår sammanfattning för skeptiker – den tar upp praktiska farhågor kring att omvandla katastrofinsatser från reaktiv krishantering till proaktivt byggande av lokalsamhällens resiliens.",
+    "buttonText": "Läs sammanfattningen för skeptiker"
   },
   "categories": {
-    "overview": "Översikt",
-    "foundation": "Grund & principer",
+    "overview": "Ramverksöversikt",
+    "foundation": "Grund & kontext",
     "framework": "Kärnramverk",
-    "implementation": "Implementeringsvägledning",
-    "advanced": "Avancerad implementering",
-    "synthesis": "Syntes & resurser",
-    "resources": "Resurser"
+    "resources": "Resurser & bilagor"
   },
   "sections": {
-    "index": "Ramverköversikt",
-    "technical-guide": "Teknisk guide",
-    "community-guide": "Samhällsguide",
-    "emergency-response-guide": "Krisberedskapsguide",
-    "introduction": "Introduktion & sammanhang",
-    "principles": "Vägledande principer",
-    "components": "Ramverkskomponenter",
-    "approaches": "Implementeringsmetoder",
-    "engagement": "Samarbetsengagemang",
-    "barriers": "Implementeringshinder",
-    "resources": "Resurskrav",
-    "monitoring": "Övervakning & utvärdering",
-    "governance": "Innovativ styrning",
-    "scalability": "Skalbarhet & anpassning",
-    "conclusion": "Slutsats",
-    "annexes": "Bilagor & resurser",
-    "case-studies": "Fallstudier",
-    "tools-templates": "Verktyg & mallar"
+    "index": "Att bygga planetär resiliens",
+    "at-a-glance": "Ramverket i korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning för skeptikern",
+    "introduction-context": "Introduktion & planetär kontext",
+    "guiding-principles": "Vägledande principer",
+    "integration-architecture": "GGF integrationsarkitektur",
+    "framework-components": "Ramverkets komponenter",
+    "three-pillars": "Implementering i tre pelare",
+    "global-resilience-pool": "Global resilienspool",
+    "community-resilience-score": "Poängsystem för lokalsamhällens resiliens",
+    "tek-integration": "Integration av urfolkskunskap & traditionell kunskap",
+    "crisis-recovery-cycle": "Cykeln från kris till återhämtning",
+    "success-metrics": "Framgångsmått & ansvarsutkrävande",
+    "implementation-phases": "Implementeringsfaser",
+    "taking-action": "Att agera",
+    "appendices": "Bilagor & referenser"
   },
   "sectionsShort": {
     "index": "Översikt",
-    "technical-guide": "Teknisk guide",
-    "community-guide": "Samhällsguide",
-    "emergency-response-guide": "Krisberedskap",
-    "introduction": "Introduktion",
-    "principles": "Principer",
-    "components": "Komponenter",
-    "approaches": "Metoder",
-    "engagement": "Engagemang",
-    "barriers": "Hinder",
-    "resources": "Resurser",
-    "monitoring": "Övervakning",
-    "governance": "Styrning",
-    "scalability": "Skalbarhet",
-    "conclusion": "Slutsats",
-    "annexes": "Bilagor",
-    "case-studies": "Fallstudier",
-    "tools-templates": "Verktyg"
+    "at-a-glance": "I korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning",
+    "introduction-context": "Introduktion",
+    "guiding-principles": "Principer",
+    "integration-architecture": "Integration",
+    "framework-components": "Komponenter",
+    "three-pillars": "Tre pelare",
+    "global-resilience-pool": "Resilienspool",
+    "community-resilience-score": "CRS-metodik",
+    "tek-integration": "TEK-integration",
+    "crisis-recovery-cycle": "Kriscykel",
+    "success-metrics": "Framgångsmått",
+    "implementation-phases": "Implementering",
+    "taking-action": "Agera",
+    "appendices": "Bilagor"
   },
-  "overview": {
-    "title": "Katastrofriskminskning & Motståndskraftsramverk",
-    "subtitle": "Ramverköversikt",
-    "paragraph1": "Katastrofriskminskning & Motståndskraftsramverket tillhandahåller en omfattande strategi för att bygga samhällsmotståndskraft genom innovativ styrning, hållbar utveckling och samarbetsengagemang på alla nivåer i samhället.",
-    "paragraph2": "Detta ramverk betonar samhällscentrerade tillvägagångssätt, integrering av ursprungsfolks kunskap och ekosystembaserade lösningar för att skapa adaptiv och transformativ motståndskraft inför ökande klimat- och katastrofrisker."
+  "navigation": {
+    "downloadPdf": "Ladda ner PDF-version",
+    "continueToFramework": "Fortsätt till hela ramverket",
+    "previousSection": "Föregående avsnitt",
+    "nextSection": "Nästa avsnitt"
   },
-  "guides": [
-    {
-      "id": "technical-guide",
-      "title": "Teknisk guide",
-      "description": "Detaljerad guide för policyimplementerare, katastrofhanteringstjänstemän och tekniska specialister",
-      "icon": "📊"
-    },
-    {
-      "id": "community-guide",
-      "title": "Samhällsguide",
-      "description": "Praktisk guide för samhällsledare, lokala organisationer och gräsrotsinitiativ",
-      "icon": "🤝"
-    },
-    {
-      "id": "emergency-response-guide",
-      "title": "Krisberedskapsguide",
-      "description": "Snabbinsatsguide för krishanterare och första insatspersonal",
-      "icon": "🚨"
-    }
-  ],
   "progress": {
     "text": "Avsnitt {current} av {total}"
   },
   "languageFallback": {
-    "title": "Innehåll på svenska kommer snart",
-    "description": "Detta avsnitt visas för närvarande på engelska tills den svenska översättningen är klar."
-  },
-  "navigation": {
-    "downloadPdf": "Ladda ner PDF-version",
-    "continueToFramework": "Fortsätt till fullständigt ramverk",
-    "previousSection": "Föregående avsnitt",
-    "nextSection": "Nästa avsnitt"
+    "title": "Innehåll på ditt språk kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar. Vi arbetar för att göra allt innehåll i ramverket tillgängligt på flera språk för att säkerställa global tillgänglighet."
   },
   "errors": {
-    "sectionNotFound": "Avsnitt \"{section}\" hittades inte",
-    "contentInDevelopment": "Detta innehåll utvecklas fortfarande."
+    "sectionNotFound": "Avsnittet \"{section}\" hittades inte",
+    "contentInDevelopment": "Detta innehåll är fortfarande under utveckling som en del av vårt omfattande ramverk för katastrofresiliens."
   },
   "loading": {
-    "text": "Laddar katastrofriskminskning innehåll..."
+    "text": "Laddar innehåll för ramverket för katastrofresiliens..."
+  },
+  "accessibility": {
+    "skipToContent": "Hoppa till huvudinnehåll",
+    "navigationMenu": "Navigeringsmeny för ramverket",
+    "sectionNavigation": "Navigera mellan ramverkets avsnitt",
+    "progressIndicator": "Lägesindikator för ramverkets avsnitt"
+  },
+  "keyTerms": {
+    "drr": "Katastrofriskreducering",
+    "crs": "Poängsystem för lokalsamhällens resiliens",
+    "tek": "Traditionell ekologisk kunskap",
+    "baz": "Bioregional autonom zon",
+    "phc": "Planetära hälsorådet",
+    "gcf": "Globala allmänningars fond",
+    "aubi": "Adaptiv universell basinkomst",
+    "pis": "Planetärt immunförsvar",
+    "communityWeavers": "Lokalsamhällesvävare",
+    "resilienceBonds": "Resiliensobligationer",
+    "forecastBasedFinancing": "Prognosbaserad finansiering",
+    "planetaryDutyOfCare": "Planetär omsorgsplikt"
+  },
+  "frameworkHighlights": {
+    "threePillars": {
+      "title": "Tre implementeringspelare",
+      "pillars": {
+        "resilience-pool": "Global resilienspool - Revolutionerande finansiering som omvandlar katastrofekonomin",
+        "community-networks": "Nätverk för lokalsamhällens resiliens - Urfolkslett styre och kapacitetsuppbyggnad",
+        "accountability-systems": "System för ansvarsutkrävande & lärande - Demokratisk tillsyn och adaptiv förvaltning"
+      }
+    },
+    "keyInnovations": {
+      "title": "Centrala innovationer i ramverket",
+      "innovations": {
+        "crs": "Poängsystem för lokalsamhällens resiliens - Lokalt utformade mätvärden för verklig beredskap",
+        "forecastFinancing": "Prognosbaserad finansiering - Automatiskt stöd som utlöses av katastrofsannolikhet",
+        "resilienceBonds": "Resiliensobligationer - Avkastning på investeringar kopplad till förbättrad resiliens",
+        "communityWeavers": "Lokalsamhällesvävare - Lokala resilienstjänstepersoner med kulturell utbildning",
+        "dutyOfCare": "Planetär omsorgsplikt - Juridisk skyldighet för proaktiva katastrofförberedelser",
+        "tekIntegration": "TEK-integration - Urfolksmetoder för väderprognoser och ekosystemförvaltning",
+        "ecosystemSolutions": "Ekosystembaserade lösningar - Naturlig infrastruktur för katastrofbegränsning"
+      }
+    },
+    "integrations": {
+      "title": "GGF ramverksintegrationer",
+      "description": "Sömlöst anslutet till ekosystemet för Global Governance Framework",
+      "frameworks": {
+        "planetaryHealth": "Tillsyn och strategisk samordning från Planetära hälsorådet",
+        "aubi": "AUBI-stöd för katastrofhjälp och återhämtning",
+        "workLiberation": "Lokala arbetslag för resiliensbyggande och gröna jobb",
+        "justiceSystems": "Verkställighet och ansvarsutkrävande genom Digitala rättstribunalen",
+        "indigenous": "Urfolkslett styre och traditionell ekologisk kunskap",
+        "ecologicalIntelligence": "Övervakning av ekosystemhälsa och prediktion av kaskadeffekter",
+        "financialSystems": "Förvaltning via Globala allmänningars fond och innovativ finansiering",
+        "mentalHealth": "Psykosocial återhämtning och stöd för lokalsamhällets välbefinnande"
+      }
+    }
+  },
+  "readingGuide": {
+    "newToResilience": {
+      "title": "Ny inom tänket kring katastrofresiliens?",
+      "recommendation": "Börja med avsnittet 'I korthet' för en snabb översikt, och läs sedan sammanfattningen som är särskilt utformad för skeptiker.",
+      "estimatedTime": "15 minuter"
+    },
+    "policyMakers": {
+      "title": "Beslutsfattare och implementerare?",
+      "recommendation": "Fokusera på avsnitten om de tre pelarna, implementeringsfaser och framgångsmått för praktisk vägledning.",
+      "estimatedTime": "25 minuter"
+    },
+    "advocates": {
+      "title": "Lokala förespråkare och organisatörer?",
+      "recommendation": "Fokusera på avsnitten om TEK-integration, poängsystem för lokalsamhällens resiliens och att agera.",
+      "estimatedTime": "20 minuter"
+    },
+    "researchers": {
+      "title": "Forskare och akademiker?",
+      "recommendation": "Granska hela ramverket inklusive bilagor för en omfattande metodik och referenser.",
+      "estimatedTime": "45 minuter"
+    }
+  },
+  "callsToAction": {
+    "individual": {
+      "title": "Individuella åtgärder",
+      "actions": {
+        "learn": "Lär dig färdigheter i lokalsamhällets resiliens och katastrofberedskap",
+        "advocate": "Förespråka lagstiftning om planetär omsorgsplikt i ditt lokalsamhälle",
+        "connect": "Ta kontakt med lokala lokalsamhällesvävare och resiliensnätverk",
+        "invest": "Stöd resiliensobligationer och regenerativa investeringar"
+      }
+    },
+    "community": {
+      "title": "Åtgärder för lokalsamhället",
+      "actions": {
+        "assess": "Genomför deltagande sårbarhets- och kapacitetsbedömningar",
+        "plan": "Utveckla lokalt ledda planer för katastrofberedskap och insatser",
+        "build": "Bygg ekosystembaserad infrastruktur för katastrofriskreducering",
+        "network": "Skapa nätverk för ömsesidigt bistånd och lärandeutbyten mellan lokalsamhällen"
+      }
+    },
+    "institutional": {
+      "title": "Institutionella åtgärder",
+      "actions": {
+        "integrate": "Integrera ramverkets principer för katastrofriskreducering i organisationens policyer",
+        "fund": "Inrätta resiliensfonder och mekanismer för prognosbaserad finansiering",
+        "partner": "Samarbeta med urfolkssamhällen och råd på BAZ-nivå",
+        "advocate": "Förespråka systemiska policyförändringar som stöder lokalsamhällens resiliens"
+      }
+    }
+  },
+  "visionStatements": {
+    "transformation": "Från offer som väntar på räddning till lokalsamhällen som dansar med osäkerhet",
+    "resilience": "Katastrofer blir möjligheter till återhämtning istället för cykler av förstörelse",
+    "community": "Varje storm stärker snarare än ödelägger lokala ekosystem och sociala band",
+    "future": "År 2035, lokalsamhällen så resilienta att översvämningar återställer våtmarker och orkaner utlöser ömsesidigt bistånd"
   }
 }

@@ -1,106 +1,186 @@
 {
   "meta": {
-    "title": "Disaster Risk Reduction & Resilience Framework - Global Governance Framework",
-    "description": "A comprehensive framework for building disaster resilience through community-centered approaches, innovative governance, and sustainable development"
+    "title": "Disaster Risk Reduction & Resilience Framework - Building Planetary Resilience",
+    "description": "A comprehensive framework for transforming disaster management into community resilience and adaptive capacity through Indigenous-led governance, ecosystem-based solutions, and revolutionary financing mechanisms."
   },
   "guideCard": {
-    "title": "New to Disaster Risk Reduction & Resilience Framework?",
-    "description": "Start with our introduction that explains the framework's vision, global context, and collaborative development approach.",
-    "buttonText": "Read the Introduction"
+    "title": "New to Disaster Risk Reduction & Resilience?",
+    "description": "Start with our executive summary designed for skeptics—addressing practical concerns about transforming disaster response from reactive emergency management into proactive community resilience weaving.",
+    "buttonText": "Read Executive Summary for Skeptics"
   },
   "categories": {
-    "overview": "Overview",
-    "foundation": "Foundation & Principles",
+    "overview": "Framework Overview",
+    "foundation": "Foundation & Context",
     "framework": "Core Framework",
-    "implementation": "Implementation Guidance",
-    "advanced": "Advanced Implementation",
-    "synthesis": "Synthesis & Resources",
-    "resources": "Resources"
+    "resources": "Resources & Appendices"
   },
   "sections": {
-    "index": "Framework Overview",
-    "technical-guide": "Technical Guide",
-    "community-guide": "Community Guide",
-    "emergency-response-guide": "Emergency Response Guide",
-    "introduction": "Introduction & Context",
-    "principles": "Guiding Principles",
-    "components": "Framework Components",
-    "approaches": "Implementation Approaches",
-    "engagement": "Collaborative Engagement",
-    "barriers": "Implementation Barriers",
-    "resources": "Resource Requirements",
-    "monitoring": "Monitoring & Evaluation",
-    "governance": "Innovative Governance",
-    "scalability": "Scalability & Adaptation",
-    "conclusion": "Conclusion",
-    "annexes": "Annexes & Resources",
-    "case-studies": "Case Studies",
-    "tools-templates": "Tools & Templates"
+    "index": "Building Planetary Resilience",
+    "at-a-glance": "Framework at a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary for Skeptics",
+    "introduction-context": "Introduction & Planetary Context",
+    "guiding-principles": "Guiding Principles",
+    "integration-architecture": "GGF Integration Architecture", 
+    "framework-components": "Framework Components",
+    "three-pillars": "Three-Pillar Implementation",
+    "global-resilience-pool": "Global Resilience Pool",
+    "community-resilience-score": "Community Resilience Score",
+    "tek-integration": "Indigenous & Traditional Knowledge Integration",
+    "crisis-recovery-cycle": "Crisis-to-Recovery Cycle",
+    "success-metrics": "Success Metrics & Accountability",
+    "implementation-phases": "Implementation Phases",
+    "taking-action": "Taking Action",
+    "appendices": "Appendices & References"
   },
   "sectionsShort": {
     "index": "Overview",
-    "technical-guide": "Technical Guide",
-    "community-guide": "Community Guide",
-    "emergency-response-guide": "Emergency Guide",
-    "introduction": "Introduction",
-    "principles": "Principles",
-    "components": "Components",
-    "approaches": "Approaches",
-    "engagement": "Engagement",
-    "barriers": "Barriers",
-    "resources": "Resources",
-    "monitoring": "Monitoring",
-    "governance": "Governance",
-    "scalability": "Scalability",
-    "conclusion": "Conclusion",
-    "annexes": "Annexes",
-    "case-studies": "Case Studies",
-    "tools-templates": "Tools"
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary",
+    "introduction-context": "Introduction",
+    "guiding-principles": "Principles",
+    "integration-architecture": "Integration",
+    "framework-components": "Components",
+    "three-pillars": "Three Pillars",
+    "global-resilience-pool": "Resilience Pool",
+    "community-resilience-score": "CRS Methodology",
+    "tek-integration": "TEK Integration",
+    "crisis-recovery-cycle": "Crisis Cycle",
+    "success-metrics": "Success Metrics",
+    "implementation-phases": "Implementation",
+    "taking-action": "Taking Action",
+    "appendices": "Appendices"
   },
-  "overview": {
-    "title": "Disaster Risk Reduction & Resilience Framework",
-    "subtitle": "Framework Overview",
-    "paragraph1": "The Disaster Risk Reduction & Resilience Framework provides a comprehensive approach to building community resilience through innovative governance, sustainable development, and collaborative engagement across all levels of society.",
-    "paragraph2": "This framework emphasizes community-centered approaches, indigenous knowledge integration, and ecosystem-based solutions to create adaptive and transformative resilience in the face of increasing climate and disaster risks."
+  "navigation": {
+    "downloadPdf": "Download PDF Version",
+    "continueToFramework": "Continue to Full Framework", 
+    "previousSection": "Previous Section",
+    "nextSection": "Next Section"
   },
-  "guides": [
-    {
-      "id": "technical-guide",
-      "title": "Technical Guide",
-      "description": "Detailed guide for policy implementers, disaster management officials, and technical specialists",
-      "icon": "📊"
-    },
-    {
-      "id": "community-guide",
-      "title": "Community Guide",
-      "description": "Practical guide for community leaders, local organizations, and grassroots initiatives",
-      "icon": "🤝"
-    },
-    {
-      "id": "emergency-response-guide",
-      "title": "Emergency Response Guide",
-      "description": "Rapid response guide for emergency managers and first responders",
-      "icon": "🚨"
-    }
-  ],
   "progress": {
     "text": "Section {current} of {total}"
   },
   "languageFallback": {
     "title": "Content in your language coming soon",
-    "description": "This section is currently displayed in English until translation is complete."
-  },
-  "navigation": {
-    "downloadPdf": "Download PDF Version",
-    "continueToFramework": "Continue to Full Framework",
-    "previousSection": "Previous Section",
-    "nextSection": "Next Section"
+    "description": "This section is currently displayed in English until translation is complete. We're working to make all framework content available in multiple languages to ensure global accessibility."
   },
   "errors": {
     "sectionNotFound": "Section \"{section}\" not found",
-    "contentInDevelopment": "This content is still being developed."
+    "contentInDevelopment": "This content is still being developed as part of our comprehensive disaster resilience framework."
   },
   "loading": {
-    "text": "Loading disaster risk reduction content..."
+    "text": "Loading disaster resilience framework content..."
+  },
+  "accessibility": {
+    "skipToContent": "Skip to main content",
+    "navigationMenu": "Framework navigation menu",
+    "sectionNavigation": "Navigate between framework sections",
+    "progressIndicator": "Reading progress through framework sections"
+  },
+  "keyTerms": {
+    "drr": "Disaster Risk Reduction",
+    "crs": "Community Resilience Score",
+    "tek": "Traditional Ecological Knowledge",
+    "baz": "Bioregional Autonomous Zone", 
+    "phc": "Planetary Health Council",
+    "gcf": "Global Commons Fund",
+    "aubi": "Adaptive Universal Basic Income",
+    "pis": "Planetary Immune System",
+    "communityWeavers": "Community Weavers",
+    "resilienceBonds": "Resilience Bonds",
+    "forecastBasedFinancing": "Forecast-Based Financing",
+    "planetaryDutyOfCare": "Planetary Duty of Care"
+  },
+  "frameworkHighlights": {
+    "threePillars": {
+      "title": "Three Implementation Pillars",
+      "pillars": {
+        "resilience-pool": "Global Resilience Pool - Revolutionary financing transforming disaster economics",
+        "community-networks": "Community Resilience Networks - Indigenous-led governance and capacity building",
+        "accountability-systems": "Accountability & Learning Systems - Democratic oversight and adaptive management"
+      }
+    },
+    "keyInnovations": {
+      "title": "Key Framework Innovations",
+      "innovations": {
+        "crs": "Community Resilience Score - Community-designed metrics for true preparedness",
+        "forecastFinancing": "Forecast-Based Financing - Automatic support triggered by disaster probability",
+        "resilienceBonds": "Resilience Bonds - Investment returns tied to resilience improvements", 
+        "communityWeavers": "Community Weavers - Local resilience officers with cultural training",
+        "dutyOfCare": "Planetary Duty of Care - Legal obligation for proactive disaster preparation",
+        "tekIntegration": "TEK Integration - Indigenous weather prediction and ecosystem management",
+        "ecosystemSolutions": "Ecosystem-Based Solutions - Natural infrastructure for disaster mitigation"
+      }
+    },
+    "integrations": {
+      "title": "GGF Framework Integrations",
+      "description": "Seamlessly connected with the Global Governance Framework ecosystem",
+      "frameworks": {
+        "planetaryHealth": "Planetary Health Council oversight and strategy coordination",
+        "aubi": "AUBI surge support for post-disaster relief and recovery",
+        "workLiberation": "Community Work Teams for resilience building and green jobs",
+        "justiceSystems": "Digital Justice Tribunal enforcement and accountability",
+        "indigenous": "Indigenous-led governance and Traditional Ecological Knowledge",
+        "ecologicalIntelligence": "Ecosystem health monitoring and cascade prediction",
+        "financialSystems": "Global Commons Fund stewardship and innovative financing",
+        "mentalHealth": "Psychosocial recovery and community wellness support"
+      }
+    }
+  },
+  "readingGuide": {
+    "newToResilience": {
+      "title": "New to disaster resilience thinking?",
+      "recommendation": "Start with our 'At a Glance' section for a quick overview, then read the Executive Summary designed specifically for skeptics.",
+      "estimatedTime": "15 minutes"
+    },
+    "policyMakers": {
+      "title": "Policy makers and implementers?", 
+      "recommendation": "Focus on the Three Pillars, Implementation Phases, and Success Metrics sections for practical guidance.",
+      "estimatedTime": "25 minutes"
+    },
+    "advocates": {
+      "title": "Community advocates and organizers?",
+      "recommendation": "Emphasize the TEK Integration, Community Resilience Score, and Taking Action sections.",
+      "estimatedTime": "20 minutes"
+    },
+    "researchers": {
+      "title": "Researchers and academics?",
+      "recommendation": "Review the full framework including appendices for comprehensive methodology and references.",
+      "estimatedTime": "45 minutes"
+    }
+  },
+  "callsToAction": {
+    "individual": {
+      "title": "Individual Action",
+      "actions": {
+        "learn": "Learn community resilience skills and disaster preparedness",
+        "advocate": "Advocate for Planetary Duty of Care legislation in your community", 
+        "connect": "Connect with local Community Weavers and resilience networks",
+        "invest": "Support resilience bonds and regenerative investments"
+      }
+    },
+    "community": {
+      "title": "Community Action", 
+      "actions": {
+        "assess": "Conduct participatory vulnerability and capacity assessments",
+        "plan": "Develop community-led disaster preparedness and response plans",
+        "build": "Build ecosystem-based disaster risk reduction infrastructure",
+        "network": "Create mutual aid networks and cross-community learning exchanges"
+      }
+    },
+    "institutional": {
+      "title": "Institutional Action",
+      "actions": {
+        "integrate": "Integrate DRR framework principles into organizational policies",
+        "fund": "Establish resilience funds and forecast-based financing mechanisms", 
+        "partner": "Partner with Indigenous communities and BAZ-level councils",
+        "advocate": "Advocate for systemic policy changes supporting community resilience"
+      }
+    }
+  },
+  "visionStatements": {
+    "transformation": "From victims awaiting rescue to communities dancing with uncertainty",
+    "resilience": "Disasters become opportunities for regeneration rather than cycles of destruction",
+    "community": "Every storm strengthens rather than devastates local ecosystems and social bonds",
+    "future": "By 2035, communities so resilient that floods restore wetlands and hurricanes trigger mutual aid"
   }
 }
