@@ -80,7 +80,20 @@
     "hoverToExplore": "Hover to explore frameworks",
     "tapAgainToExplore": "Tap again to explore this framework",
     "clickToVisit": "click to visit the framework",
-    "clickOnTheNode": "Click on the node to visit the framework"
+    "clickOnTheNode": "Click on the node to visit the framework",
+    "startAssessment": "Start Assessment",
+    "exploreJourneys": "Explore Journeys",
+    "browsTools": "Browse Tools",
+    "learnMore": "Learn More",
+    "takeAssessment": "Take Assessment",
+    "exploreTools": "Explore Tools",
+    "joinCommunity": "Join Community",
+    "retakeAssessment": "Retake Assessment",
+    "viewToolStack": "View Tool Stack",
+    "loading": "Loading",
+    "previous": "Previous",
+    "next": "Next",
+    "back": "Back"
   },
   "language": {
     "select": "Select language",

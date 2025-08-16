@@ -48,6 +48,7 @@ const pageSpecificTranslationsMap = [
   { route: '/frameworks/guides', dataKey: 'guidesOverview', fileName: 'guidesOverview' },
   
   // Framework routes (most specific first)
+  { route: '/frameworks/implementation-methods-and-tools', dataKey: 'implementationTools', fileName: 'frameworksImplementationTools' },
   { route: '/frameworks/emergent-governance-protocol', dataKey: 'egpFramework', fileName: 'frameworksEmergentGovernanceProtocol' },
   { route: '/frameworks/living-land-protocol', dataKey: 'livingLandProtocol', fileName: 'frameworksLivingLandProtocol' },
   { route: '/frameworks/sundown-protocol', dataKey: 'sundownProtocol', fileName: 'frameworksSundownProtocol' },
@@ -138,6 +139,25 @@ async function loadAndAssignTranslation(locale, fileName, dataKey, translationDa
   }
 }
 
+async function loadImplementationToolsTranslations(newLocale, translationData) {
+  console.log('Loading implementation tools and related translations...');
+  
+  const loadPromises = [
+    // Main implementation tools framework translations
+    loadAndAssignTranslation(newLocale, 'frameworksImplementationTools', 'implementationTools', translationData),
+    // Component-specific translations
+    loadAndAssignTranslation(newLocale, 'assessment', 'assessment', translationData),
+    loadAndAssignTranslation(newLocale, 'journeys', 'journeys', translationData),
+    loadAndAssignTranslation(newLocale, 'toolDatabase', 'toolDatabase', translationData),
+    loadAndAssignTranslation(newLocale, 'stackVisualizer', 'stackVisualizer', translationData)
+  ];
+  
+  const results = await Promise.allSettled(loadPromises);
+  console.log('Implementation tools translation loading results:', results.map(r => r.status));
+  
+  return results.filter(r => r.status === 'fulfilled').length;
+}
+
 // Load ALL required translations immediately for /my-path
 async function loadAllMyPathTranslations(newLocale) {
   const translationData = {};
@@ -218,19 +238,25 @@ async function loadTranslations(newLocale, route = '/') {
       }
 
       // 4. Load page-specific translations using the map
-      // Use cleanRoute for matching against the translation map
       console.log('Checking page-specific translations for route:', cleanRoute);
-      console.log('Available mappings:', pageSpecificTranslationsMap.map(m => m.route));
       
       let matchFound = false;
-      for (const mapping of pageSpecificTranslationsMap) {
-        // Use exact match or startsWith for route matching
-        if (cleanRoute === mapping.route || cleanRoute.startsWith(mapping.route)) {
-          console.log(`✅ Found translation mapping for route ${cleanRoute}: ${mapping.dataKey} -> ${mapping.fileName}`);
-          const success = await loadAndAssignTranslation(newLocale, mapping.fileName, mapping.dataKey, translationData);
-          console.log(`Translation loading success for ${mapping.dataKey}:`, success);
-          matchFound = true;
-          break; 
+      
+      // Special handling for implementation tools (loads multiple files)
+      if (cleanRoute === '/frameworks/implementation-methods-and-tools') {
+        console.log('✅ Loading implementation tools translations (multiple files)');
+        await loadImplementationToolsTranslations(newLocale, translationData);
+        matchFound = true;
+      } else {
+        // Standard single-file loading for other routes
+        for (const mapping of pageSpecificTranslationsMap) {
+          if (cleanRoute === mapping.route || cleanRoute.startsWith(mapping.route)) {
+            console.log(`✅ Found translation mapping for route ${cleanRoute}: ${mapping.dataKey} -> ${mapping.fileName}`);
+            const success = await loadAndAssignTranslation(newLocale, mapping.fileName, mapping.dataKey, translationData);
+            console.log(`Translation loading success for ${mapping.dataKey}:`, success);
+            matchFound = true;
+            break; 
+          }
         }
       }
       

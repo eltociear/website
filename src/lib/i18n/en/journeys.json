@@ -1,0 +1,50 @@
+{
+  "intro": "Choose your implementation journey based on your context, experience level, and goals. Each journey provides a curated set of tools designed to work together effectively.",
+  "recommended": "Recommended",
+  "recommendationNotice": {
+    "title": "Recommended for You",
+    "description": "Based on your assessment, we recommend starting with the highlighted journey below."
+  },
+  "targetAudience": "Target Audience",
+  "keyTools": "Key Tools",
+  "expectedOutcomes": "Expected Outcomes",
+  "resourceLevel": "Resources",
+  "culturalFit": "Cultural Fit",
+  "moreTools": "more tools",
+  "selectJourney": "Select This Journey",
+  "selected": "Selected",
+  "confirmation": {
+    "title": "Journey Selected!",
+    "description": "You've selected the {journey} journey. You can now explore the specific tools and begin your implementation.",
+    "exploreTools": "Explore Tools",
+    "changeSelection": "Change Selection"
+  },
+  "complexity": {
+    "basic": "Basic",
+    "medium": "Medium",
+    "high": "High",
+    "advanced": "Advanced",
+    "expert": "Expert"
+  },
+  "gettingStarted": {
+    "title": "Getting Started",
+    "description": "Perfect for new initiatives and communities just beginning their governance journey"
+  },
+  "crisisResponse": {
+    "title": "Crisis Response",
+    "description": "Rapid deployment tools for emergency governance situations and system breakdowns"
+  },
+  "buildingCapacity": {
+    "title": "Building Capacity",
+    "description": "Comprehensive tools for growing and strengthening existing governance initiatives"
+  },
+  "deepeningPractice": {
+    "title": "Deepening Practice",
+    "description": "Advanced tools for mature initiatives ready to pioneer new approaches"
+  },
+  "evolutionTransition": {
+    "title": "Evolution & Transition",
+    "description": "Tools for fundamental system transformation and graceful transitions"
+  }
+}
+

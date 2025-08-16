@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "description": "GGF:s omfattande verktygslåda för implementering av ramverk för styrning"
+  },
+  "subtitle": "Din omfattande verktygslåda för att förverkliga ramverk för styrning",
+  "overview": {
+    "title": "GGF:s driftsmanual",
+    "intro": "Visionära ramverk misslyckas utan praktiska, anpassningsbara verktyg. Detta meta-ramverk tillhandahåller standardiserade spelböcker, modulära verktyg och kulturellt anpassningsbara metoder för att implementera alla andra GGF-ramverk.",
+    "keyFeatures": "Huvudfunktioner"
+  },
+  "features": {
+    "assessment": {
+      "title": "Kontextbedömning",
+      "description": "Interaktiv matris för att utvärdera er styrelsemognad, era resurser och er kulturella kontext"
+    },
+    "journeys": {
+      "title": "Resebaserade verktyg",
+      "description": "Utvalda verktygslådor för olika stadier: Komma igång, krishantering, kapacitetsuppbyggnad"
+    },
+    "cultural": {
+      "title": "Kulturell anpassning",
+      "description": "Antikolonial design med protokoll för samskapande med urfolk och kulturella översättningsverktyg"
+    },
+    "modular": {
+      "title": "Modulär design",
+      "description": "Mixa och matcha verktyg som legobitar för att skapa anpassade implementeringspaket"
+    }
+  },
+  "quickStart": {
+    "title": "Snabbstartsguide",
+    "step1": {
+      "title": "Bedöm kontexten",
+      "description": "Fyll i matrisen för kontextbedömning"
+    },
+    "step2": {
+      "title": "Välj resa",
+      "description": "Välj er implementeringsväg"
+    },
+    "step3": {
+      "title": "Pilottesta verktyg",
+      "description": "Testa verktyg och samla in återkoppling"
+    }
+  },
+  "info": {
+    "currentStatus": "Nuvarande status",
+    "statusDescription": "Detta ramverk är under aktiv utveckling. Kärnverktygen fälttestas av tidiga användargrupper.",
+    "getInvolved": "Engagera dig",
+    "involvementDescription": "Gå med i vårt pilottestprogram eller bidra med anpassningar av verktyg för din kulturella kontext."
+  },
+  "assessment": {
+    "title": "Matris för kontextbedömning",
+    "description": "Utvärdera er kontext för att få personliga verktygsrekommendationer",
+    "results": {
+      "title": "Bedömning slutförd"
+    },
+    "categories": {
+      "governanceMaturity": "Styrelsemognad",
+      "conflictIntensity": "Konfliktintensitet",
+      "resourceAvailability": "Resurstillgång",
+      "culturalCoherence": "Kulturell samstämmighet"
+    },
+    "recommendation": {
+      "title": "Rekommenderat verktygspaket"
+    }
+  },
+  "journeys": {
+    "title": "Implementeringsresor",
+    "description": "Välj er väg baserat på er situation och era mål"
+  },
+  "tools": {
+    "title": "Verktygsdatabas",
+    "description": "Utforska vårt omfattande bibliotek med implementeringsverktyg"
+  },
+  "stacks": {
+    "title": "Verktygspaket",
+    "description": "Förkonfigurerade verktygskombinationer för vanliga scenarier"
+  },
+  "guidance": {
+    "title": "Implementeringsvägledning",
+    "description": "Bästa praxis och lärdomar från globala implementeringar",
+    "principles": {
+      "title": "Vägledande principer",
+      "polycentric": "Polycentrisk & subsidiaritetsprincipen först",
+      "anticolonial": "Antikolonial design",
+      "lowtech": "Lågteknologi först & högteknologi som möjlighet",
+      "modular": "Modulär & interoperabel",
+      "humanloop": "Människan i loopen"
+    },
+    "phases": {
+      "title": "Implementeringsfaser",
+      "foundation": "Fas 1: Grundläggning (År 1-3)",
+      "foundationDesc": "Sammankallande av råd, BAZ-formering, krishanteringsförmåga",
+      "integration": "Fas 2: Integration (År 4-7)",
+      "integrationDesc": "Ekonomisk modellering, deltagandeprocesser, systemkoordinering",
+      "evolution": "Fas 3: Evolution (År 8-15)",
+      "evolutionDesc": "Medvetenhetsutveckling, AI-symbios, smidiga övergångar"
+    },
+    "support": {
+      "title": "Stödinfrastruktur",
+      "facilitators": "Certifierade verktygsfacilitatorer",
+      "networks": "Nätverk för kollegialt lärande",
+      "technical": "Protokoll för teknisk support",
+      "mediation": "Konfliktmedlingstjänster"
+    },
+    "monitoring": {
+      "title": "Övervakning & lärande",
+      "reflexive": "Protokoll för reflexiv cykel",
+      "effectiveness": "Betyg på verktygseffektivitet",
+      "failure": "GGF:s misslyckandebibliotek",
+      "adaptation": "Protokoll för realtidsanpassning"
+    }
+  },
+  "cta": {
+    "title": "Redo att börja implementera?",
+    "description": "Gå med i vår gemenskap av praktiker och börja bygga bättre styrning idag."
+  }
+}

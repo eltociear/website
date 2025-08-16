@@ -1,0 +1,49 @@
+{
+  "intro": "Välj er implementeringsresa baserat på er kontext, erfarenhetsnivå och era mål. Varje resa erbjuder en utvald uppsättning verktyg som är utformade för att fungera effektivt tillsammans.",
+  "recommended": "Rekommenderas",
+  "recommendationNotice": {
+    "title": "Rekommenderas för er",
+    "description": "Baserat på er utvärdering rekommenderar vi att ni börjar med den markerade resan nedan."
+  },
+  "targetAudience": "Målgrupp",
+  "keyTools": "Nyckelverktyg",
+  "expectedOutcomes": "Förväntade resultat",
+  "resourceLevel": "Resurser",
+  "culturalFit": "Kulturell passform",
+  "moreTools": "fler verktyg",
+  "selectJourney": "Välj denna resa",
+  "selected": "Vald",
+  "confirmation": {
+    "title": "Resa vald!",
+    "description": "Ni har valt resan {journey}. Nu kan ni utforska de specifika verktygen och påbörja er implementering.",
+    "exploreTools": "Utforska verktyg",
+    "changeSelection": "Ändra val"
+  },
+  "complexity": {
+    "basic": "Grundläggande",
+    "medium": "Medel",
+    "high": "Hög",
+    "advanced": "Avancerad",
+    "expert": "Expert"
+  },
+  "gettingStarted": {
+    "title": "Komma igång",
+    "description": "Perfekt för nya initiativ och lokalsamhällen som precis påbörjat sin styresresa"
+  },
+  "crisisResponse": {
+    "title": "Krishantering",
+    "description": "Verktyg för snabb insats i nödsituationer och vid systemkollapser"
+  },
+  "buildingCapacity": {
+    "title": "Kapacitetsuppbyggnad",
+    "description": "Omfattande verktyg för att växa och stärka befintliga styresinitiativ"
+  },
+  "deepeningPractice": {
+    "title": "Fördjupad praktik",
+    "description": "Avancerade verktyg för mogna initiativ redo att bana väg för nya tillvägagångssätt"
+  },
+  "evolutionTransition": {
+    "title": "Evolution & omställning",
+    "description": "Verktyg för fundamental systemomvandling och smidiga övergångar"
+  }
+}

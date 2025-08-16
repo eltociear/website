@@ -1,0 +1,49 @@
+{
+  "title": "Verktygsdatabas",
+  "tools": "verktyg",
+  "showingFor": "Visar verktyg för:",
+  "showAllTools": "Visa alla verktyg",
+  "searchPlaceholder": "Sök verktyg...",
+  "gridView": "Rutnätsvy",
+  "listView": "Listvy",
+  "sortByName": "Sortera efter namn",
+  "sortByComplexity": "Sortera efter komplexitet",
+  "sortByCultural": "Sortera efter kulturell anpassning",
+  "filters": "Filter",
+  "clearAll": "Rensa alla",
+  "filterTools": "Filtrera verktyg",
+  "filterByJourney": "Resa",
+  "filterByComplexity": "Komplexitet",
+  "filterByCultural": "Kulturell anpassning",
+  "filterByTags": "Taggar",
+  "noToolsFound": "Inga verktyg hittades",
+  "noToolsDescription": "Försök att justera dina söktermer eller filter för att hitta relevanta verktyg.",
+  "clearFilters": "Rensa filter",
+  "estimatedTime": "Tid",
+  "journey": "Resa",
+  "learnMore": "Läs mer",
+  "addToStack": "Lägg till i paket",
+  "complexity": {
+    "basic": "Grundläggande",
+    "medium": "Medel",
+    "high": "Hög",
+    "advanced": "Avancerad"
+  },
+  "culturalAdaptation": {
+    "low": "Låg",
+    "medium": "Medel",
+    "high": "Hög"
+  },
+  "tags": {
+    "governance": "Styrning",
+    "councils": "Råd",
+    "cultural-protocols": "Kulturella protokoll",
+    "crisis": "Kris",
+    "emergency": "Nödsituation",
+    "participation": "Deltagande",
+    "democracy": "Demokrati",
+    "decision-making": "Beslutsfattande",
+    "indigenous": "Urfolk",
+    "technology": "Teknologi"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "progress": "Step {current} of {total}",
+  "complete": "Complete Assessment",
+  "culturalNotice": {
+    "title": "Cultural Sensitivity",
+    "description": "This assessment adapts to different cultural contexts. All governance traditions are equally valid, and recommendations will respect your community's values and practices."
+  },
+  "completion": {
+    "title": "Assessment Complete!",
+    "description": "Based on your responses, we'll recommend the most suitable tools and implementation approach for your context.",
+    "yourResponses": "Your Context Profile:",
+    "viewRecommendations": "View Recommendations",
+    "retake": "Retake Assessment"
+  },
+  "steps": {
+    "governanceMaturity": {
+      "title": "Governance Maturity",
+      "description": "How developed are your current governance systems?"
+    },
+    "conflictIntensity": {
+      "title": "Conflict Intensity",
+      "description": "What level of conflict or tension exists in your context?"
+    },
+    "resourceAvailability": {
+      "title": "Resource Availability",
+      "description": "What resources do you have available for implementation?"
+    },
+    "culturalCoherence": {
+      "title": "Cultural Coherence",
+      "description": "How aligned is your community around shared values and practices?"
+    },
+    "digitalAccess": {
+      "title": "Digital Access",
+      "description": "What level of digital technology access does your community have?"
+    },
+    "scale": {
+      "title": "Scale of Initiative",
+      "description": "What is the geographic or population scale of your initiative?"
+    }
+  },
+  "options": {
+    "governanceMaturity": {
+      "emerging": {
+        "label": "Emerging",
+        "description": "Just starting to organize or reform governance systems"
+      },
+      "developing": {
+        "label": "Developing",
+        "description": "Have basic governance structures, seeking improvement"
+      },
+      "established": {
+        "label": "Established",
+        "description": "Functioning governance systems, looking to enhance"
+      },
+      "advanced": {
+        "label": "Advanced",
+        "description": "Sophisticated systems, pioneering new approaches"
+      }
+    },
+    "conflictIntensity": {
+      "low": {
+        "label": "Low",
+        "description": "Peaceful environment with minor disagreements"
+      },
+      "moderate": {
+        "label": "Moderate",
+        "description": "Some tension and polarization, but manageable"
+      },
+      "high": {
+        "label": "High",
+        "description": "Significant tensions, divisions, or ongoing disputes"
+      },
+      "crisis": {
+        "label": "Crisis",
+        "description": "Active conflict, emergency, or breakdown of systems"
+      }
+    },
+    "resourceAvailability": {
+      "minimal": {
+        "label": "Minimal",
+        "description": "Volunteer time and community goodwill mainly"
+      },
+      "limited": {
+        "label": "Limited",
+        "description": "Some funding, part-time coordination capacity"
+      },
+      "moderate": {
+        "label": "Moderate",
+        "description": "Dedicated staff, modest budget, basic infrastructure"
+      },
+      "substantial": {
+        "label": "Substantial",
+        "description": "Significant funding, skilled team, established systems"
+      }
+    },
+    "culturalCoherence": {
+      "diverse": {
+        "label": "Highly Diverse",
+        "description": "Many different cultural backgrounds and traditions"
+      },
+      "mixed": {
+        "label": "Mixed",
+        "description": "Some shared values with notable differences"
+      },
+      "aligned": {
+        "label": "Well Aligned",
+        "description": "Strong shared values and cultural practices"
+      },
+      "cohesive": {
+        "label": "Highly Cohesive",
+        "description": "Deep cultural unity and shared worldview"
+      }
+    },
+    "digitalAccess": {
+      "none": {
+        "label": "Minimal/None",
+        "description": "Limited internet, mostly analog communication"
+      },
+      "basic": {
+        "label": "Basic",
+        "description": "Mobile phones, occasional internet access"
+      },
+      "moderate": {
+        "label": "Moderate",
+        "description": "Regular internet, some digital tools"
+      },
+      "high": {
+        "label": "High",
+        "description": "Reliable broadband, digital literacy, tech resources"
+      }
+    },
+    "scale": {
+      "local": {
+        "label": "Local",
+        "description": "Community, neighborhood, or small town level"
+      },
+      "municipal": {
+        "label": "Municipal",
+        "description": "City or municipal government level"
+      },
+      "regional": {
+        "label": "Regional",
+        "description": "State, province, or bioregional level"
+      },
+      "national": {
+        "label": "National",
+        "description": "Country or nation-state level"
+      },
+      "international": {
+        "label": "International",
+        "description": "Multi-national or global initiative"
+      }
+    }
+  }
+}
+

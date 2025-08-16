@@ -1,0 +1,49 @@
+{
+  "title": "Tool Database",
+  "tools": "tools",
+  "showingFor": "Showing tools for:",
+  "showAllTools": "Show all tools",
+  "searchPlaceholder": "Search tools...",
+  "gridView": "Grid View",
+  "listView": "List View",
+  "sortByName": "Sort by Name",
+  "sortByComplexity": "Sort by Complexity",
+  "sortByCultural": "Sort by Cultural Adaptation",
+  "filters": "Filters",
+  "clearAll": "Clear All",
+  "filterTools": "Filter Tools",
+  "filterByJourney": "Journey",
+  "filterByComplexity": "Complexity",
+  "filterByCultural": "Cultural Adaptation",
+  "filterByTags": "Tags",
+  "noToolsFound": "No tools found",
+  "noToolsDescription": "Try adjusting your search terms or filters to find relevant tools.",
+  "clearFilters": "Clear Filters",
+  "estimatedTime": "Time",
+  "journey": "Journey",
+  "learnMore": "Learn More",
+  "addToStack": "Add to Stack",
+  "complexity": {
+    "basic": "Basic",
+    "medium": "Medium",
+    "high": "High",
+    "advanced": "Advanced"
+  },
+  "culturalAdaptation": {
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High"
+  },
+  "tags": {
+    "governance": "Governance",
+    "councils": "Councils",
+    "cultural-protocols": "Cultural Protocols",
+    "crisis": "Crisis",
+    "emergency": "Emergency",
+    "participation": "Participation",
+    "democracy": "Democracy",
+    "decision-making": "Decision Making",
+    "indigenous": "Indigenous",
+    "technology": "Technology"
+  }
+}

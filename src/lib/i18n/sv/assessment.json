@@ -1,0 +1,155 @@
+{
+  "progress": "Steg {current} av {total}",
+  "complete": "Slutför utvärdering",
+  "culturalNotice": {
+    "title": "Kulturell hänsyn",
+    "description": "Denna utvärdering anpassar sig till olika kulturella sammanhang. Alla styrelsetraditioner är lika giltiga, och rekommendationerna kommer att respektera ditt lokalsamhälles värderingar och praxis."
+  },
+  "completion": {
+    "title": "Utvärdering slutförd!",
+    "description": "Baserat på dina svar kommer vi att rekommendera de lämpligaste verktygen och implementeringsmetoden för ditt sammanhang.",
+    "yourResponses": "Din kontextprofil:",
+    "viewRecommendations": "Visa rekommendationer",
+    "retake": "Gör om utvärderingen"
+  },
+  "steps": {
+    "governanceMaturity": {
+      "title": "Styrelsemognad",
+      "description": "Hur utvecklade är era nuvarande styrelsesystem?"
+    },
+    "conflictIntensity": {
+      "title": "Konfliktintensitet",
+      "description": "Vilken nivå av konflikt eller spänning finns i ert sammanhang?"
+    },
+    "resourceAvailability": {
+      "title": "Resurstillgång",
+      "description": "Vilka resurser har ni tillgängliga för implementering?"
+    },
+    "culturalCoherence": {
+      "title": "Kulturell samstämmighet",
+      "description": "Hur enat är ert lokalsamhälle kring gemensamma värderingar och praxis?"
+    },
+    "digitalAccess": {
+      "title": "Digital tillgång",
+      "description": "Vilken nivå av tillgång till digital teknik har ert lokalsamhälle?"
+    },
+    "scale": {
+      "title": "Initiativets skala",
+      "description": "Vilken är den geografiska eller befolkningsmässiga skalan på ert initiativ?"
+    }
+  },
+  "options": {
+    "governanceMaturity": {
+      "emerging": {
+        "label": "Begynnande",
+        "description": "Har precis börjat organisera eller reformera styrelsesystem"
+      },
+      "developing": {
+        "label": "Under utveckling",
+        "description": "Har grundläggande styrelsestrukturer, söker förbättring"
+      },
+      "established": {
+        "label": "Etablerad",
+        "description": "Fungerande styrelsesystem, vill förbättra"
+      },
+      "advanced": {
+        "label": "Avancerad",
+        "description": "Sofistikerade system, banbrytande med nya metoder"
+      }
+    },
+    "conflictIntensity": {
+      "low": {
+        "label": "Låg",
+        "description": "Fredlig miljö med mindre meningsskiljaktigheter"
+      },
+      "moderate": {
+        "label": "Måttlig",
+        "description": "Viss spänning och polarisering, men hanterbar"
+      },
+      "high": {
+        "label": "Hög",
+        "description": "Betydande spänningar, splittringar eller pågående tvister"
+      },
+      "crisis": {
+        "label": "Kris",
+        "description": "Aktiv konflikt, nödsituation eller systemkollaps"
+      }
+    },
+    "resourceAvailability": {
+      "minimal": {
+        "label": "Minimal",
+        "description": "Främst ideell tid och välvilja från lokalsamhället"
+      },
+      "limited": {
+        "label": "Begränsad",
+        "description": "Viss finansiering, samordningskapacitet på deltid"
+      },
+      "moderate": {
+        "label": "Måttlig",
+        "description": "Dedikerad personal, blygsam budget, grundläggande infrastruktur"
+      },
+      "substantial": {
+        "label": "Betydande",
+        "description": "Betydande finansiering, kompetent team, etablerade system"
+      }
+    },
+    "culturalCoherence": {
+      "diverse": {
+        "label": "Mycket diversifierad",
+        "description": "Många olika kulturella bakgrunder och traditioner"
+      },
+      "mixed": {
+        "label": "Blandad",
+        "description": "Vissa gemensamma värderingar med anmärkningsvärda skillnader"
+      },
+      "aligned": {
+        "label": "Väl samstämmig",
+        "description": "Starka gemensamma värderingar och kulturell praxis"
+      },
+      "cohesive": {
+        "label": "Mycket sammanhållen",
+        "description": "Djup kulturell enighet och gemensam världsbild"
+      }
+    },
+    "digitalAccess": {
+      "none": {
+        "label": "Minimal/ingen",
+        "description": "Begränsat internet, mestadels analog kommunikation"
+      },
+      "basic": {
+        "label": "Grundläggande",
+        "description": "Mobiltelefoner, sporadisk internetåtkomst"
+      },
+      "moderate": {
+        "label": "Måttlig",
+        "description": "Regelbunden internetåtkomst, vissa digitala verktyg"
+      },
+      "high": {
+        "label": "Hög",
+        "description": "Pålitligt bredband, digital kompetens, tekniska resurser"
+      }
+    },
+    "scale": {
+      "local": {
+        "label": "Lokal",
+        "description": "Lokalsamhälle, grannskap eller småstadsnivå"
+      },
+      "municipal": {
+        "label": "Kommunal",
+        "description": "Stads- eller kommunal nivå"
+      },
+      "regional": {
+        "label": "Regional",
+        "description": "Län, provins eller bioregional nivå"
+      },
+      "national": {
+        "label": "Nationell",
+        "description": "Lands- eller nationalstatsnivå"
+      },
+      "international": {
+        "label": "Internationell",
+        "description": "Multinationellt eller globalt initiativ"
+      }
+    }
+  }
+}

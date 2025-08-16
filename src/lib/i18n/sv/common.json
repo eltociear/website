@@ -80,7 +80,20 @@
     "hoverToExplore": "Håll muspekaren över för att utforska ramverk",
     "tapAgainToExplore": "Tryck igen för att utforska detta ramverk",
     "clickToVisit": "klicka för att besöka ramverket",
-    "clickOnTheNode": "Klicka på noden för att besöka ramverket"
+    "clickOnTheNode": "Klicka på noden för att besöka ramverket",
+    "startAssessment": "Starta bedömning",
+    "exploreJourneys": "Utforska resor",
+    "browsTools": "Bläddra bland verktyg",
+    "learnMore": "Läs mer",
+    "takeAssessment": "Gör bedömningen",
+    "exploreTools": "Utforska verktyg",
+    "joinCommunity": "Gå med i communityn",
+    "retakeAssessment": "Gör om bedömningen",
+    "viewToolStack": "Visa verktygsstapel",
+    "loading": "Laddar",
+    "previous": "Föregående",
+    "next": "Nästa",
+    "back": "Tillbaka"
   },
   "language": {
     "select": "Välj språk",

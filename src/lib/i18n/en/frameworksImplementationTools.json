@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "description": "The GGF's comprehensive toolkit for implementing governance frameworks"
+  },
+  "subtitle": "Your comprehensive toolkit for bringing governance frameworks to life",
+  "overview": {
+    "title": "The GGF's Operating Manual",
+    "intro": "Visionary frameworks fail without practical, adaptable tools. This meta-framework provides standardized playbooks, modular tools, and culturally adaptable methodologies for implementing all other GGF frameworks.",
+    "keyFeatures": "Key Features"
+  },
+  "features": {
+    "assessment": {
+      "title": "Context Assessment",
+      "description": "Interactive rubric to evaluate your governance maturity, resources, and cultural context"
+    },
+    "journeys": {
+      "title": "Journey-Based Tools",
+      "description": "Curated toolkits for different stages: Getting Started, Crisis Response, Building Capacity"
+    },
+    "cultural": {
+      "title": "Cultural Adaptation",
+      "description": "Anti-colonial design with Indigenous co-creation protocols and cultural translation tools"
+    },
+    "modular": {
+      "title": "Modular Design",
+      "description": "Mix and match tools like Lego blocks to create customized implementation stacks"
+    }
+  },
+  "quickStart": {
+    "title": "Quick Start Guide",
+    "step1": {
+      "title": "Assess Context",
+      "description": "Complete the Context Assessment Rubric"
+    },
+    "step2": {
+      "title": "Choose Journey",
+      "description": "Select your implementation pathway"
+    },
+    "step3": {
+      "title": "Pilot Tools",
+      "description": "Test tools and gather feedback"
+    }
+  },
+  "info": {
+    "currentStatus": "Current Status",
+    "statusDescription": "This framework is under active development. Core tools are being field-tested by early adopter communities.",
+    "getInvolved": "Get Involved",
+    "involvementDescription": "Join our pilot testing program or contribute tool adaptations for your cultural context."
+  },
+  "assessment": {
+    "title": "Context Assessment Rubric",
+    "description": "Evaluate your context to receive personalized tool recommendations",
+    "results": {
+      "title": "Assessment Complete"
+    },
+    "categories": {
+      "governanceMaturity": "Governance Maturity",
+      "conflictIntensity": "Conflict Intensity",
+      "resourceAvailability": "Resource Availability",
+      "culturalCoherence": "Cultural Coherence"
+    },
+    "recommendation": {
+      "title": "Recommended Tool Stack"
+    }
+  },
+  "journeys": {
+    "title": "Implementation Journeys",
+    "description": "Choose your path based on your situation and goals"
+  },
+  "tools": {
+    "title": "Tool Database",
+    "description": "Explore our comprehensive library of implementation tools"
+  },
+  "stacks": {
+    "title": "Tool Stacks",
+    "description": "Pre-configured tool combinations for common scenarios"
+  },
+  "guidance": {
+    "title": "Implementation Guidance",
+    "description": "Best practices and lessons learned from global implementations",
+    "principles": {
+      "title": "Guiding Principles",
+      "polycentric": "Polycentric & Subsidiarity-First",
+      "anticolonial": "Anti-Colonial by Design",
+      "lowtech": "Low-Tech First & High-Tech Enabled",
+      "modular": "Modular & Interoperable",
+      "humanloop": "Human-in-the-Loop"
+    },
+    "phases": {
+      "title": "Implementation Phases",
+      "foundation": "Phase 1: Foundation (Years 1-3)",
+      "foundationDesc": "Council convening, BAZ formation, crisis response capabilities",
+      "integration": "Phase 2: Integration (Years 4-7)",
+      "integrationDesc": "Economic modeling, participatory processes, system coordination",
+      "evolution": "Phase 3: Evolution (Years 8-15)",
+      "evolutionDesc": "Consciousness development, AI symbiosis, graceful transitions"
+    },
+    "support": {
+      "title": "Support Infrastructure",
+      "facilitators": "Certified Tool Facilitators",
+      "networks": "Peer Learning Networks",
+      "technical": "Technical Support Protocols",
+      "mediation": "Conflict Mediation Services"
+    },
+    "monitoring": {
+      "title": "Monitoring & Learning",
+      "reflexive": "Reflexive Cycle Protocol",
+      "effectiveness": "Tool Effectiveness Ratings",
+      "failure": "GGF Failure Library",
+      "adaptation": "Real-Time Adaptation Protocols"
+    }
+  },
+  "cta": {
+    "title": "Ready to Start Implementing?",
+    "description": "Join our community of practitioners and start building better governance today."
+  }
+}
