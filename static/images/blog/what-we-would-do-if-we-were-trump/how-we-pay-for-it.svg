@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1000 600"
+   version="1.1"
+   id="svg41"
+   sodipodi:docname="how-we-pay-for-it.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview41"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.41"
+     inkscape:cx="500.35461"
+     inkscape:cy="300"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg41" />
+  <defs
+     id="defs6">
+    <linearGradient
+       id="greenGradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="0%">
+      <stop
+         offset="0%"
+         style="stop-color:#059669;stop-opacity:1"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#10b981;stop-opacity:1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="blueGradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="0%">
+      <stop
+         offset="0%"
+         style="stop-color:#1e40af;stop-opacity:1"
+         id="stop3" />
+      <stop
+         offset="100%"
+         style="stop-color:#3b82f6;stop-opacity:1"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="redGradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="0%">
+      <stop
+         offset="0%"
+         style="stop-color:#dc2626;stop-opacity:1"
+         id="stop5" />
+      <stop
+         offset="100%"
+         style="stop-color:#ef4444;stop-opacity:1"
+         id="stop6" />
+    </linearGradient>
+    <filter
+       id="shadow"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <dropShadow
+         dx="3"
+         dy="3"
+         stdDeviation="3"
+         flood-color="rgba(0,0,0,0.3)" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#greenGradient"
+       id="linearGradient1"
+       x1="-48.989795"
+       y1="-48.989795"
+       x2="48.989795"
+       y2="-48.989795"
+       gradientTransform="matrix(1.6329932,0,0,0.61237244,150,150)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#greenGradient"
+       id="linearGradient2"
+       x1="-48.989795"
+       y1="-48.989795"
+       x2="48.989795"
+       y2="-48.989795"
+       gradientTransform="matrix(1.6329932,0,0,0.61237244,150,250)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#greenGradient"
+       id="linearGradient3"
+       x1="-48.989795"
+       y1="-48.989795"
+       x2="48.989795"
+       y2="-48.989795"
+       gradientTransform="matrix(1.6329932,0,0,0.61237244,150,350)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#redGradient"
+       id="linearGradient4"
+       x1="-48.989795"
+       y1="-48.989795"
+       x2="48.989795"
+       y2="-48.989795"
+       gradientTransform="matrix(1.6329932,0,0,0.61237244,850,350)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#redGradient"
+       id="linearGradient5"
+       x1="-48.989795"
+       y1="-48.989795"
+       x2="48.989795"
+       y2="-48.989795"
+       gradientTransform="matrix(1.6329932,0,0,0.61237244,850,250)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#redGradient"
+       id="linearGradient6"
+       x1="-48.989795"
+       y1="-48.989795"
+       x2="48.989795"
+       y2="-48.989795"
+       gradientTransform="matrix(1.6329932,0,0,0.61237244,850,150)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <!-- Background -->
+  <rect
+     width="1000"
+     height="600"
+     fill="#f8fafc"
+     id="rect6" />
+  <!-- Title -->
+  <text
+     x="500"
+     y="40"
+     text-anchor="middle"
+     fill="#1e293b"
+     font-family="Arial, sans-serif"
+     font-size="32"
+     font-weight="bold"
+     id="text6">
+    How We Pay For It
+  </text>
+  <text
+     x="500"
+     y="65"
+     text-anchor="middle"
+     fill="#64748b"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     id="text7">
+    A Simple, Fair Way to Fund American Renewal
+  </text>
+  <!-- INPUT SOURCES -->
+  <!-- Source 1: Tech Giants -->
+  <rect
+     x="70"
+     y="120"
+     width="160"
+     height="60"
+     rx="15"
+     fill="url(#greenGradient)"
+     filter="url(#shadow)"
+     id="rect7"
+     style="fill:url(#linearGradient1)" />
+  <text
+     x="150"
+     y="140"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     id="text8"
+     style="fill:#ff880e;fill-opacity:1">MAKE TECH GIANTS</text>
+  <text
+     x="150"
+     y="158"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     id="text9"
+     style="fill:#ff880e;fill-opacity:1">PAY THEIR SHARE</text>
+  <text
+     x="150"
+     y="200"
+     text-anchor="middle"
+     fill="#1e293b"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     id="text10">15% AI Automation Levy</text>
+  <!-- Source 2: Wall Street -->
+  <rect
+     x="70"
+     y="220"
+     width="160"
+     height="60"
+     rx="15"
+     fill="url(#greenGradient)"
+     filter="url(#shadow)"
+     id="rect10"
+     style="fill:url(#linearGradient2)" />
+  <text
+     x="150"
+     y="240"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     id="text11"
+     style="fill:#ff880e;fill-opacity:1">CLOSE WALL STREET</text>
+  <text
+     x="150"
+     y="258"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     id="text12"
+     style="fill:#ff880e;fill-opacity:1">LOOPHOLES</text>
+  <text
+     x="150"
+     y="300"
+     text-anchor="middle"
+     fill="#1e293b"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     id="text13">Financial Transaction Tax</text>
+  <!-- Source 3: Corporate Welfare -->
+  <rect
+     x="70"
+     y="320"
+     width="160"
+     height="60"
+     rx="15"
+     fill="url(#greenGradient)"
+     filter="url(#shadow)"
+     id="rect13"
+     style="fill:url(#linearGradient3)" />
+  <text
+     x="150"
+     y="340"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     id="text14"
+     style="fill:#ff880e;fill-opacity:1">END CORPORATE</text>
+  <text
+     x="150"
+     y="358"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     id="text15"
+     style="fill:#ff880e;fill-opacity:1">WELFARE</text>
+  <text
+     x="150"
+     y="400"
+     text-anchor="middle"
+     fill="#1e293b"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     id="text16">Stop Subsidies for Outsourcing</text>
+  <!-- Central Fund -->
+  <g
+     transform="translate(500, 250)"
+     id="g19">
+    <circle
+       cx="0"
+       cy="0"
+       r="70"
+       fill="url(#blueGradient)"
+       filter="url(#shadow)"
+       id="circle16" />
+    <text
+       x="0"
+       y="-10"
+       text-anchor="middle"
+       fill="white"
+       font-family="Arial, sans-serif"
+       font-size="18"
+       font-weight="bold"
+       id="text17">AMERICAN</text>
+    <text
+       x="0"
+       y="10"
+       text-anchor="middle"
+       fill="white"
+       font-family="Arial, sans-serif"
+       font-size="18"
+       font-weight="bold"
+       id="text18">RENEWAL</text>
+    <text
+       x="0"
+       y="30"
+       text-anchor="middle"
+       fill="white"
+       font-family="Arial, sans-serif"
+       font-size="18"
+       font-weight="bold"
+       id="text19">FUND</text>
+  </g>
+  <!-- OUTPUT DESTINATIONS -->
+  <!-- Destination 1: Families -->
+  <rect
+     x="770"
+     y="120"
+     width="160"
+     height="60"
+     rx="15"
+     fill="url(#redGradient)"
+     filter="url(#shadow)"
+     id="rect19"
+     style="fill:url(#linearGradient6)" />
+  <text
+     x="850"
+     y="140"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     id="text20"
+     style="fill:#0051da;fill-opacity:1">AMERICAN FAMILIES</text>
+  <text
+     x="850"
+     y="158"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     id="text21"
+     style="fill:#dd042a;fill-opacity:1">VETERANS</text>
+  <text
+     x="850"
+     y="200"
+     text-anchor="middle"
+     fill="#1e293b"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     id="text22">AUBI System Healthcare</text>
+  <!-- Destination 2: Workers -->
+  <rect
+     x="770"
+     y="220"
+     width="160"
+     height="60"
+     rx="15"
+     fill="url(#redGradient)"
+     filter="url(#shadow)"
+     id="rect22"
+     style="fill:url(#linearGradient5)" />
+  <text
+     x="850"
+     y="240"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     id="text23"
+     style="fill:#0051da;fill-opacity:1">AMERICAN</text>
+  <text
+     x="850"
+     y="258"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     id="text24"
+     style="fill:#dd042a;fill-opacity:1">WORKERS</text>
+  <text
+     x="850"
+     y="300"
+     text-anchor="middle"
+     fill="#1e293b"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     id="text25">Life-Long Learning Training</text>
+  <!-- Destination 3: Communities -->
+  <rect
+     x="770"
+     y="320"
+     width="160"
+     height="60"
+     rx="15"
+     fill="url(#redGradient)"
+     filter="url(#shadow)"
+     id="rect25"
+     style="fill:url(#linearGradient4)" />
+  <text
+     x="850"
+     y="340"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     id="text26"
+     style="fill:#0051da;fill-opacity:1">AMERICAN</text>
+  <text
+     x="850"
+     y="358"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     id="text27"
+     style="fill:#dd042a;fill-opacity:1">COMMUNITIES</text>
+  <text
+     x="850"
+     y="400"
+     text-anchor="middle"
+     fill="#1e293b"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     id="text28">Infrastructure Local Projects</text>
+  <!-- Flow Arrows -->
+  <!-- Input arrows -->
+  <defs
+     id="defs28">
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#64748b"
+         id="polygon28" />
+    </marker>
+  </defs>
+  <!-- From sources to fund -->
+  <line
+     x1="230"
+     y1="150"
+     x2="430"
+     y2="200"
+     stroke="#64748b"
+     stroke-width="4"
+     marker-end="url(#arrowhead)"
+     id="line28" />
+  <line
+     x1="230"
+     y1="250"
+     x2="430"
+     y2="250"
+     stroke="#64748b"
+     stroke-width="4"
+     marker-end="url(#arrowhead)"
+     id="line29" />
+  <line
+     x1="230"
+     y1="350"
+     x2="430"
+     y2="300"
+     stroke="#64748b"
+     stroke-width="4"
+     marker-end="url(#arrowhead)"
+     id="line30" />
+  <!-- From fund to destinations -->
+  <line
+     x1="570"
+     y1="200"
+     x2="770"
+     y2="150"
+     stroke="#64748b"
+     stroke-width="4"
+     marker-end="url(#arrowhead)"
+     id="line31" />
+  <line
+     x1="570"
+     y1="250"
+     x2="770"
+     y2="250"
+     stroke="#64748b"
+     stroke-width="4"
+     marker-end="url(#arrowhead)"
+     id="line32" />
+  <line
+     x1="570"
+     y1="300"
+     x2="770"
+     y2="350"
+     stroke="#64748b"
+     stroke-width="4"
+     marker-end="url(#arrowhead)"
+     id="line33" />
+  <!-- Money flow labels -->
+  <text
+     x="330"
+     y="197"
+     text-anchor="middle"
+     fill="#64748b"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     id="text33">$500B+</text>
+  <text
+     x="330"
+     y="240"
+     text-anchor="middle"
+     fill="#64748b"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     id="text34">annually</text>
+  <text
+     x="330"
+     y="307"
+     text-anchor="middle"
+     fill="#64748b"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     id="text35">from elites</text>
+  <text
+     x="670"
+     y="199"
+     text-anchor="middle"
+     fill="#64748b"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     id="text36">$500B+</text>
+  <text
+     x="670"
+     y="240"
+     text-anchor="middle"
+     fill="#64748b"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     id="text37">annually</text>
+  <text
+     x="670"
+     y="307"
+     text-anchor="middle"
+     fill="#64748b"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     id="text38">to Americans</text>
+  <!-- Bottom message -->
+  <rect
+     x="200"
+     y="480"
+     width="600"
+     height="80"
+     rx="15"
+     fill="#fef3c7"
+     stroke="#f59e0b"
+     stroke-width="2"
+     id="rect38" />
+  <text
+     x="500"
+     y="510"
+     text-anchor="middle"
+     fill="#92400e"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     id="text39">
+    The Choice is Simple:
+  </text>
+  <text
+     x="500"
+     y="530"
+     text-anchor="middle"
+     fill="#92400e"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     id="text40">
+    Keep funding a broken system that benefits our rivals and Wall Street,
+  </text>
+  <text
+     x="500"
+     y="548"
+     text-anchor="middle"
+     fill="#92400e"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     id="text41">
+    or start investing in the American people?
+  </text>
+</svg>

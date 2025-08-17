@@ -1,5 +1,5 @@
 // src/routes/frameworks/implementation-methods-and-tools/+page.js
-// MINIMAL CHANGES - Drop-in replacement that fixes the main issues
+// FIXED: Use imports instead of fetch for markdown files
 import { locale, loadTranslations } from '$lib/i18n';
 import { get } from 'svelte/store';
 import { browser } from '$app/environment';
@@ -7,7 +7,7 @@ import { error } from '@sveltejs/kit';
 
 export const csr = true;
 
-export async function load({ depends, url, fetch }) {
+export async function load({ depends, url }) {
   // Declare dependency on locale
   depends('app:locale');
   
@@ -40,54 +40,7 @@ export async function load({ depends, url, fetch }) {
     }
   }
 
-  // Define all the content we want to load as raw markdown
-  // KEEPING YOUR EXISTING STRUCTURE - just fixing the loading
-  const contentPaths = {
-    sections: {
-      'index': 'index.md',
-      'overview': 'overview.md',
-      'assessment-rubric': 'assessment-rubric.md',
-      'journey-pathways': 'journey-pathways.md',
-      'tool-database': 'tool-database.md',
-      'implementation-guidance': 'implementation-guidance.md',
-      'cultural-adaptation': 'cultural-adaptation.md',
-      'monitoring-evaluation': 'monitoring-evaluation.md'
-    },
-    appendices: {
-      'anti-colonial-evaluation-template': 'appendices/anti-colonial-evaluation-template.md',
-      'failure-library-examples': 'appendices/failure-library-examples.md',
-      'glossary': 'appendices/glossary.md',
-      'resource-calculator': 'appendices/resource-calculator.md',
-      'success-patterns': 'appendices/success-patterns.md'
-    },
-    integrations: {
-      'aubi-integration': 'integration/aubi-integration.md',
-      'indigenous-framework-integration': 'integration/indigenous-framework-integration.md',
-      'meta-governance-integration': 'integration/meta-governance-integration.md',
-      'treaty-integration': 'integration/treaty-integration.md'
-    },
-    quickstart: {
-      'first-90-days-playbook': 'quickstart/first-90-days-playbook.md',
-      'pilot-feedback-template': 'quickstart/pilot-feedback-template.md',
-      'tool-selection-flowchart': 'quickstart/tool-selection-flowchart.md'
-    },
-    stacks: {
-      'getting-started-stack': 'stacks/getting-started-stack.md',
-      'crisis-response-stack': 'stacks/crisis-response-stack.md',
-      'building-capacity-stack': 'stacks/building-capacity-stack.md',
-      'deepening-practice-stack': 'stacks/deepening-practice-stack.md',
-      'evolution-transition-stack': 'stacks/evolution-transition-stack.md'
-    },
-    tools: {
-      'council-convening-playbook': 'tools/council-convening-playbook.md',
-      'rapid-governance-activation': 'tools/rapid-governance-activation.md',
-      'citizen-assembly-module': 'tools/citizen-assembly-module.md',
-      'bioregional-mapping-guide': 'tools/bioregional-mapping-guide.md',
-      'institution-chartering-kit': 'tools/institution-chartering-kit.md',
-      'aubi-pilot-guide': 'tools/aubi-pilot-guide.md'
-    }
-  };
-  
+  // FIXED: Load content using dynamic imports instead of fetch
   const sectionsUsingEnglishFallback = new Set();
   const content = {
     sections: {},
@@ -101,71 +54,193 @@ export async function load({ depends, url, fetch }) {
   
   console.log('Loading implementation tools content for locale:', currentLocale);
 
-  // Helper function to load raw markdown content
-  // FIXED: Better error handling and fallback mechanism
-  async function loadMarkdownContent(category, fileName, filePath) {
-    const basePath = `/src/lib/content/frameworks`;
-    
+  // Helper function to load markdown content via imports
+  async function loadMarkdownContentViaImport(category, fileName, filePath) {
     try {
       // Try to load the current locale version first
-      let url = `${basePath}/${currentLocale}/implementation/implementation-methods-tools/${filePath}`;
-      console.log(`Attempting to load: ${url}`);
+      let importPath = `/src/lib/content/frameworks/${currentLocale}/implementation/implementation-methods-tools/${filePath}`;
+      console.log(`Attempting to import: ${importPath}`);
       
-      let response = await fetch(url);
+      let markdownModule;
       
-      if (!response.ok) {
-        // Fall back to English if translation isn't available
-        url = `${basePath}/en/implementation/implementation-methods-tools/${filePath}`;
-        console.log(`Fallback to English: ${url}`);
-        response = await fetch(url);
+      try {
+        markdownModule = await import(`../../../lib/content/frameworks/${currentLocale}/implementation/implementation-methods-tools/${filePath}?raw`);
+      } catch (primaryError) {
+        console.warn(`Primary import failed for ${category}/${fileName}:`, primaryError.message);
         
-        if (currentLocale !== 'en' && response.ok) {
-          sectionsUsingEnglishFallback.add(`${category}/${fileName}`);
+        // Fall back to English if translation isn't available
+        try {
+          console.log(`Fallback to English for: ${fileName}`);
+          markdownModule = await import(`../../../lib/content/frameworks/en/implementation/implementation-methods-tools/${filePath}?raw`);
+          
+          if (currentLocale !== 'en') {
+            sectionsUsingEnglishFallback.add(`${category}/${fileName}`);
+          }
+        } catch (fallbackError) {
+          console.warn(`Could not load ${category}/${fileName} in any language:`, fallbackError.message);
+          
+          // Create a placeholder for missing sections
+          content[category][fileName] = {
+            rawMarkdown: createPlaceholderContent(fileName),
+            type: 'placeholder'
+          };
+          return;
         }
       }
       
-      if (response.ok) {
-        const markdownText = await response.text();
+      if (markdownModule && markdownModule.default) {
         content[category][fileName] = {
-          rawMarkdown: markdownText,
+          rawMarkdown: markdownModule.default,
           type: 'markdown'
         };
         totalLoadedSections++;
         console.log(`Successfully loaded ${category}/${fileName}`);
-      } else {
-        console.warn(`Could not load ${category}/${fileName}: ${response.status}`);
-        // Create a placeholder for missing sections
-        content[category][fileName] = {
-          rawMarkdown: `# ${fileName.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}\n\nThis content is still being developed.`,
-          type: 'placeholder'
-        };
       }
       
-    } catch (fetchError) {
-      console.warn(`Error loading ${category}/${fileName}:`, fetchError.message);
+    } catch (importError) {
+      console.warn(`Error importing ${category}/${fileName}:`, importError.message);
       
       // Create a safe placeholder for missing sections
       content[category][fileName] = {
-        rawMarkdown: `# ${fileName.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}\n\nThis content is still being developed.`,
+        rawMarkdown: createPlaceholderContent(fileName),
         type: 'placeholder'
       };
     }
   }
 
-  // Load all content sections
-  for (const [category, paths] of Object.entries(contentPaths)) {
-    for (const [fileName, filePath] of Object.entries(paths)) {
-      await loadMarkdownContent(category, fileName, filePath);
+  // Helper function to create meaningful placeholder content
+  function createPlaceholderContent(fileName) {
+    const displayName = fileName.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+    
+    switch (fileName) {
+      case 'index':
+        return `# Implementation Methods & Tools Framework
+
+Welcome to the Implementation Methods & Tools Framework - your comprehensive guide for bringing governance frameworks to life.
+
+## Quick Start
+
+1. **Take the Assessment** - Understand your context and readiness
+2. **Choose Your Journey** - Select an implementation pathway
+3. **Explore Tools** - Discover tools matched to your needs
+4. **Review Tool Stacks** - Get pre-configured tool combinations
+
+## Framework Overview
+
+This meta-framework provides practical guidance for implementing all other GGF frameworks through:
+
+- Context-aware assessment rubrics
+- Cultural adaptation protocols  
+- Modular tool library
+- Implementation journey pathways
+- Community-controlled processes
+
+*This content is still being developed. Please check back soon for updates.*`;
+
+      case 'overview':
+        return `# Framework Overview
+
+The Implementation Methods & Tools Framework serves as the "operating manual" for the Global Governance Frameworks project.
+
+## Purpose
+
+Rather than providing one-size-fits-all solutions, this framework helps communities:
+
+- Assess their unique implementation context
+- Select appropriate tools and methodologies
+- Adapt frameworks to local cultural conditions
+- Follow proven implementation pathways
+- Learn from global implementation experiences
+
+*Detailed content coming soon.*`;
+
+      case 'assessment-rubric':
+        return `# Context Assessment Rubric
+
+The Context Assessment Rubric helps you understand your implementation readiness across key dimensions.
+
+## Assessment Areas
+
+- **Governance Maturity** - Current system sophistication
+- **Cultural Context** - Traditional governance patterns
+- **Resource Availability** - Financial and human capacity
+- **Conflict Dynamics** - Social tension levels
+
+*Interactive assessment tool available below.*`;
+
+      default:
+        return `# ${displayName}
+
+This section provides detailed guidance on ${displayName.toLowerCase()}.
+
+*Content is currently being developed and will be available soon.*
+
+## Coming Soon
+
+- Detailed methodology
+- Best practices
+- Implementation examples
+- Cultural adaptation guidance
+
+Please check back for updates or contact us if you have specific questions about this topic.`;
     }
   }
-  
-  console.log('Total sections loaded:', totalLoadedSections, 'out of', Object.values(contentPaths).reduce((sum, paths) => sum + Object.keys(paths).length, 0));
 
-  // ENHANCED: Load tools and stacks data 
-  // Replace this with your actual tool loading logic from TypeScript schema files
-  // For now, providing working sample data to get the components functional
+  // Define content to load
+  const contentToLoad = [
+    // Core sections
+    { category: 'sections', fileName: 'index', filePath: 'index.md' },
+    { category: 'sections', fileName: 'overview', filePath: 'overview.md' },
+    { category: 'sections', fileName: 'assessment-rubric', filePath: 'assessment-rubric.md' },
+    { category: 'sections', fileName: 'journey-pathways', filePath: 'journey-pathways.md' },
+    { category: 'sections', fileName: 'tool-database', filePath: 'tool-database.md' },
+    { category: 'sections', fileName: 'implementation-guidance', filePath: 'implementation-guidance.md' },
+    { category: 'sections', fileName: 'cultural-adaptation', filePath: 'cultural-adaptation.md' },
+    { category: 'sections', fileName: 'monitoring-evaluation', filePath: 'monitoring-evaluation.md' },
+    
+    // Appendices
+    { category: 'appendices', fileName: 'anti-colonial-evaluation-template', filePath: 'appendices/anti-colonial-evaluation-template.md' },
+    { category: 'appendices', fileName: 'failure-library-examples', filePath: 'appendices/failure-library-examples.md' },
+    { category: 'appendices', fileName: 'glossary', filePath: 'appendices/glossary.md' },
+    { category: 'appendices', fileName: 'resource-calculator', filePath: 'appendices/resource-calculator.md' },
+    { category: 'appendices', fileName: 'success-patterns', filePath: 'appendices/success-patterns.md' },
+    
+    // Integrations
+    { category: 'integrations', fileName: 'aubi-integration', filePath: 'integration/aubi-integration.md' },
+    { category: 'integrations', fileName: 'indigenous-framework-integration', filePath: 'integration/indigenous-framework-integration.md' },
+    { category: 'integrations', fileName: 'meta-governance-integration', filePath: 'integration/meta-governance-integration.md' },
+    { category: 'integrations', fileName: 'treaty-integration', filePath: 'integration/treaty-integration.md' },
+    
+    // Quickstart
+    { category: 'quickstart', fileName: 'first-90-days-playbook', filePath: 'quickstart/first-90-days-playbook.md' },
+    { category: 'quickstart', fileName: 'pilot-feedback-template', filePath: 'quickstart/pilot-feedback-template.md' },
+    { category: 'quickstart', fileName: 'tool-selection-flowchart', filePath: 'quickstart/tool-selection-flowchart.md' },
+    
+    // Stacks
+    { category: 'stacks', fileName: 'getting-started-stack', filePath: 'stacks/getting-started-stack.md' },
+    { category: 'stacks', fileName: 'crisis-response-stack', filePath: 'stacks/crisis-response-stack.md' },
+    { category: 'stacks', fileName: 'building-capacity-stack', filePath: 'stacks/building-capacity-stack.md' },
+    { category: 'stacks', fileName: 'deepening-practice-stack', filePath: 'stacks/deepening-practice-stack.md' },
+    { category: 'stacks', fileName: 'evolution-transition-stack', filePath: 'stacks/evolution-transition-stack.md' },
+    
+    // Tools
+    { category: 'tools', fileName: 'council-convening-playbook', filePath: 'tools/council-convening-playbook.md' },
+    { category: 'tools', fileName: 'rapid-governance-activation', filePath: 'tools/rapid-governance-activation.md' },
+    { category: 'tools', fileName: 'citizen-assembly-module', filePath: 'tools/citizen-assembly-module.md' },
+    { category: 'tools', fileName: 'bioregional-mapping-guide', filePath: 'tools/bioregional-mapping-guide.md' },
+    { category: 'tools', fileName: 'institution-chartering-kit', filePath: 'tools/institution-chartering-kit.md' },
+    { category: 'tools', fileName: 'aubi-pilot-guide', filePath: 'tools/aubi-pilot-guide.md' }
+  ];
+
+  // Load all content
+  for (const { category, fileName, filePath } of contentToLoad) {
+    await loadMarkdownContentViaImport(category, fileName, filePath);
+  }
+  
+  console.log('Total sections loaded:', totalLoadedSections, 'out of', contentToLoad.length);
+
+  // Enhanced tools and stacks data 
   const toolsData = {
-    // Example tool structure - replace with your actual data loading
     'council-convening-playbook': {
       id: 'council-convening-playbook',
       name: 'Council Convening Playbook',
@@ -307,7 +382,7 @@ export async function load({ depends, url, fetch }) {
     isPrintMode,
     sectionsUsingEnglishFallback: Array.from(sectionsUsingEnglishFallback),
     loadedSectionsCount: totalLoadedSections,
-    totalExpectedSections: Object.values(contentPaths).reduce((sum, paths) => sum + Object.keys(paths).length, 0),
+    totalExpectedSections: contentToLoad.length,
     
     // Enhanced data with markdown content
     tools: toolsData,
@@ -328,21 +403,6 @@ export async function load({ depends, url, fetch }) {
     hasDigitalComponents: true,
     hasAnalogFallbacks: true,
     
-    // Content organization
-    contentStructure: {
-      sections: Object.keys(contentPaths.sections).length,
-      appendices: Object.keys(contentPaths.appendices).length,
-      integrations: Object.keys(contentPaths.integrations).length,
-      quickstart: Object.keys(contentPaths.quickstart).length,
-      stacks: Object.keys(contentPaths.stacks).length,
-      tools: Object.keys(contentPaths.tools).length
-    },
-    
-    // Version and development info
-    frameworkVersion: '7.0',
-    lastUpdated: '2024-12-19',
-    developmentStage: 'Final Draft Outline',
-    
     // Debug information
     debug: {
       currentLocale,
@@ -360,15 +420,7 @@ export async function load({ depends, url, fetch }) {
         originalPath: url.pathname,
         cleanedPath: '/frameworks/implementation-methods-and-tools'
       },
-      searchParams: browser ? (url.search || 'none') : 'prerendering',
-      contentLoaded: {
-        sections: Object.keys(content.sections).length,
-        appendices: Object.keys(content.appendices).length,
-        integrations: Object.keys(content.integrations).length,
-        quickstart: Object.keys(content.quickstart).length,
-        stacks: Object.keys(content.stacks).length,
-        tools: Object.keys(content.tools).length
-      }
+      searchParams: browser ? (url.search || 'none') : 'prerendering'
     }
   };
 }

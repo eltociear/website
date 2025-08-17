@@ -580,4 +580,88 @@
       font-size: 0.875rem;
     }
   }
+
+  /* Enhanced bullet point styling for blog posts */
+  .post-content :global(ul) {
+    color: #4B5563;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    padding-left: 30px; /* Increased from 20px */
+    list-style-type: disc; /* Explicitly set bullet type */
+    list-style-position: outside; /* Ensure bullets are outside the text */
+  }
+
+  .post-content :global(ol) {
+    color: #4B5563;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    padding-left: 30px; /* Increased from 20px */
+    list-style-type: decimal; /* Explicitly set number type */
+    list-style-position: outside; /* Ensure numbers are outside the text */
+  }
+
+  .post-content :global(li) {
+    margin-bottom: 0.5rem;
+    display: list-item; /* Explicitly set to list-item */
+    color: #4B5563; /* Ensure text color is visible */
+  }
+
+  /* Nested lists */
+  .post-content :global(ul ul) {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 25px;
+    list-style-type: circle; /* Different bullet for nested lists */
+  }
+
+  .post-content :global(ol ol) {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 25px;
+    list-style-type: lower-alpha; /* Letters for nested numbered lists */
+  }
+
+  .post-content :global(ul ul ul) {
+    list-style-type: square; /* Third level bullets */
+  }
+
+  /* Ensure bullets are colored properly */
+  .post-content :global(li::marker) {
+    color: #2B4B8C; /* Blue color for bullets/numbers */
+    font-weight: bold;
+  }
+
+  /* Alternative approach if ::marker doesn't work in all browsers */
+  .post-content :global(ul) {
+    list-style-image: none; /* Reset any custom bullet images */
+  }
+
+  /* Fix for any potential CSS reset that might be hiding bullets */
+  .post-content :global(ul),
+  .post-content :global(ol) {
+    list-style: initial !important; /* Force list styles to appear */
+    margin-left: 0 !important;
+    padding-left: 30px !important;
+  }
+
+  /* Ensure proper spacing and visibility */
+  .post-content :global(li) {
+    position: relative;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* Fallback custom bullets if browser issues persist */
+  .post-content :global(ul.custom-bullets) {
+    list-style: none;
+    padding-left: 20px;
+  }
+
+  .post-content :global(ul.custom-bullets li::before) {
+    content: "•";
+    color: #2B4B8C;
+    font-weight: bold;
+    position: absolute;
+    left: -20px;
+  }
 </style>
