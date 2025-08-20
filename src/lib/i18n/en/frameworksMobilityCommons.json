@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "title": "The Mobility Commons - Global Governance Framework",
+    "description": "A comprehensive framework for regenerative transportation and mobility governance transformation"
+  },
+  "loading": {
+    "text": "Loading mobility commons content..."
+  },
+  "guideCard": {
+    "title": "New to the Mobility Commons?",
+    "description": "Start with our executive summary to understand how regenerative transportation can transform our world while ensuring universal access to movement.",
+    "buttonText": "Read Executive Summary"
+  },
+  "categories": {
+    "overview": "Overview",
+    "foundation": "Foundation",
+    "framework": "Core Framework", 
+    "implementation": "Implementation",
+    "resources": "Resources"
+  },
+  "sections": {
+    "index": "The Mobility Commons",
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary for the Skeptic",
+    "introduction-vision": "Introduction & Vision",
+    "foundational-principles": "Foundational Principles",
+    "integration-architecture": "GGF Integration Architecture",
+    "four-pillars": "The Four Pillars Framework",
+    "implementation-phases": "Implementation Phases",
+    "bioregional-integration": "Bioregional & Indigenous Integration",
+    "technology-innovation": "Technology & Innovation Commons",
+    "climate-resilience": "Climate Resilience & Emergency Response",
+    "justice-equity": "Justice & Equity Framework",
+    "success-metrics": "Success Metrics & Accountability",
+    "faq": "Frequently Asked Questions",
+    "taking-action": "Taking Action",
+    "appendices": "Appendices"
+  },
+  "sectionsShort": {
+    "index": "Overview",
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary",
+    "introduction-vision": "Vision",
+    "foundational-principles": "Principles",
+    "integration-architecture": "Integration",
+    "four-pillars": "Four Pillars",
+    "implementation-phases": "Implementation",
+    "bioregional-integration": "Bioregional",
+    "technology-innovation": "Technology",
+    "climate-resilience": "Climate Resilience",
+    "justice-equity": "Justice & Equity",
+    "success-metrics": "Metrics",
+    "faq": "FAQ",
+    "taking-action": "Take Action",
+    "appendices": "Appendices"
+  },
+  "progress": {
+    "text": "Section {current} of {total}"
+  },
+  "navigation": {
+    "downloadPdf": "Download PDF Version",
+    "continueToFramework": "Continue to Full Framework",
+    "previousSection": "Previous Section",
+    "nextSection": "Next Section"
+  },
+  "languageFallback": {
+    "title": "Content in your language coming soon",
+    "description": "This section is currently displayed in English until translation is complete."
+  },
+  "errors": {
+    "sectionNotFound": "Section \"{section}\" not found",
+    "contentInDevelopment": "This content is still being developed."
+  },
+  "pillars": {
+    "governance": {
+      "title": "Governance & Coordination",
+      "subtitle": "The Global Mobility Council",
+      "description": "Democratic governance for global mobility within the Meta-Governance Framework."
+    },
+    "infrastructure": {
+      "title": "Regenerative Infrastructure", 
+      "subtitle": "Building the Pathways",
+      "description": "Sustainable, resilient, and restorative transport networks."
+    },
+    "economy": {
+      "title": "The Mobility Economy",
+      "subtitle": "Powering Just Transitions",
+      "description": "Economic models for regenerative mobility and worker transitions."
+    },
+    "justice": {
+      "title": "Mobility Justice",
+      "subtitle": "Ensuring Equitable Access",
+      "description": "Equity as the core design principle."
+    }
+  },
+  "principles": {
+    "commons": {
+      "title": "Mobility as a Commons",
+      "description": "Transportation as a public good governed transparently by multi-stakeholder councils"
+    },
+    "fossilFree": {
+      "title": "Fossil-Free by Default",
+      "description": "All new infrastructure aligned with net-zero targets by 2030"
+    },
+    "universalAccess": {
+      "title": "Universal Design & Access",
+      "description": "Systems designed for all abilities, ages, and needs"
+    },
+    "bioregional": {
+      "title": "Bioregional Integration",
+      "description": "Corridors that respect watersheds, wildlife migrations, and ecosystem boundaries"
+    },
+    "communityLed": {
+      "title": "Community-Led & Owned",
+      "description": "Projects co-designed with communities and transitioning to cooperative ownership"
+    },
+    "dataSovereignty": {
+      "title": "Data Sovereignty & Privacy",
+      "description": "Mobility data as community-controlled resource, protected against surveillance"
+    },
+    "culturalPreservation": {
+      "title": "Cultural Preservation",
+      "description": "Respect for Indigenous travel routes, ancestral pathways, and ceremonial journeys"
+    },
+    "interoperability": {
+      "title": "Interoperability & Standards",
+      "description": "Global compatibility with open standards managed via Digital Commons"
+    },
+    "universalCapability": {
+      "title": "Universal Capability",
+      "description": "Access independent of biological, psychic, or metaphysical traits"
+    },
+    "indigenousSovereignty": {
+      "title": "Indigenous Transportation Sovereignty",
+      "description": "BAZ-level authority over transportation in traditional territories"
+    },
+    "sacredTiming": {
+      "title": "Sacred Timing & Landscape Consciousness",
+      "description": "Infrastructure respecting ceremonial calendars and spiritual relationships"
+    }
+  },
+  "implementation": {
+    "phases": {
+      "phase0": {
+        "title": "Phase 0: Bioregional Demonstration Projects",
+        "description": "BAZ commitment to fossil-free transport pilot",
+        "completion": "10 BAZ pilots, 2 wildlife corridor integrations"
+      },
+      "phase1": {
+        "title": "Phase 1: National Mobility Commons",
+        "description": "5% transport budget pledge to regenerative infrastructure",
+        "completion": "20 nations, 1M hectares restored, 50K workers retrained"
+      },
+      "phase2": {
+        "title": "Phase 2: Regional Integration Compacts",
+        "description": "Regional cluster commitment to interoperability",
+        "completion": "3 regional compacts, 5% global emission reduction"
+      },
+      "phase3": {
+        "title": "Phase 3: Global Mobility Commons",
+        "description": "50% G20 participation",
+        "completion": "Fossil-free majority, universal 15-minute access"
+      }
+    }
+  },
+  "metrics": {
+    "decarbonization": {
+      "title": "Decarbonization",
+      "description": "% reduction in transport emissions aligned with Climate & Energy Framework"
+    },
+    "accessEquity": {
+      "title": "Access Equity", 
+      "description": "% population within 15-minute walk of affordable transport"
+    },
+    "universalAccess": {
+      "title": "Universal Access",
+      "description": "Disability Impact Assessment scores and compliance rates"
+    },
+    "modalShift": {
+      "title": "Modal Shift",
+      "description": "% transition from private vehicles to shared/regenerative transport"
+    },
+    "ecosystemHealth": {
+      "title": "Ecosystem Health",
+      "description": "Biodiversity indicators in transport corridors"
+    },
+    "communitySovereignty": {
+      "title": "Community Sovereignty",
+      "description": "% transport systems under local cooperative ownership"
+    },
+    "emergentTechnologies": {
+      "title": "Emergent Technologies",
+      "description": "% commuters using post-carbon solutions (baseline: 0%)"
+    },
+    "culturalContinuity": {
+      "title": "Cultural Continuity",
+      "description": "Support indices for traditional practices and ceremonial movement"
+    }
+  },
+  "features": {
+    "globalPathways": {
+      "title": "Global Pathways Initiative",
+      "description": "Comprehensive infrastructure program including high-speed rail, sustainable maritime corridors, and universal EV infrastructure"
+    },
+    "globalMobilityCouncil": {
+      "title": "Global Mobility Council",
+      "description": "Multi-stakeholder body with rotating leadership including BAZ representatives, Indigenous voices, and youth councils"
+    },
+    "mobilityAsService": {
+      "title": "Mobility as a Service Commons",
+      "description": "Open-source platform optimizing for Biosphere Health Index while incorporating Traditional Ecological Knowledge"
+    },
+    "disasterResponse": {
+      "title": "Disaster Response Mobile Units",
+      "description": "Rapid deployment transport systems for climate emergencies"
+    },
+    "climateMigration": {
+      "title": "Climate Migration Transportation Corridors",
+      "description": "Pre-planned evacuation routes with community evacuation protocols"
+    }
+  },
+  "integration": {
+    "title": "GGF Integration Architecture",
+    "description": "The Mobility Commons serves as a Tier 2 Life Support System, interlocking seamlessly with the broader Global Governance Framework",
+    "constitutional": {
+      "title": "Constitutional Foundation",
+      "description": "Treaty for Our Only Home provides authority for fossil-free mandates and enforcement through the Global Enforcement Mechanism"
+    },
+    "operatingSystem": {
+      "title": "Operating System Synergies",
+      "justice": "Indigenous Framework ensures FPIC 2.0 protocols while Universal Access & Disability Justice Layer audits accessibility",
+      "economic": "AUBI Framework supports worker transitions while Global Commons Fund provides primary infrastructure funding",
+      "governance": "Meta-Governance coordinates the Global Mobility Council while Crisis Command Protocol manages emergency transport",
+      "technology": "Aurora Accord secures mobility data while Global Technology Council oversees technology repurposing"
+    },
+    "lifeSupport": {
+      "title": "Life Support Integration",
+      "description": "Climate & Energy Framework coordinates renewable power, Food Systems align transport with regenerative agriculture, Migration & Human Mobility ensures climate corridor planning, and Disaster Risk Reduction integrates emergency response"
+    }
+  }
+}

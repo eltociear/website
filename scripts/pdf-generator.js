@@ -61,6 +61,7 @@ Available categories:
 - deep-time-governance
 - bioregional-polis
 - sundown-protocol
+- mobility-commons
 - emergent-governance-protocol
 - disaster-risk-reduction
 - ggf-overview
@@ -118,6 +119,7 @@ const outputDirs = {
   'indigenous-governance-and-traditional-knowledge': path.join(__dirname, '..', 'static', 'frameworks','tools', 'indigenous-governance-and-traditional-knowledge'),
   'emergent-governance-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'emergent-governance-protocol'),
   'living-land-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'living-land-protocol'),
+  'mobility-commons': path.join(__dirname, '..', 'static', 'frameworks','tools', 'mobility-commons'),
   'disaster-risk-reduction': path.join(__dirname, '..', 'static', 'frameworks','tools', 'disaster-risk-reduction'),
   'sundown-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'sundown-protocol'),
   'treaty-for-our-only-home': path.join(__dirname, '..', 'static', 'frameworks','tools', 'treaty-for-our-only-home'),
@@ -414,6 +416,66 @@ const tools = [
       'crisis-recovery-cycle',
       'success-metrics',
       'implementation-phases',
+      'taking-action',
+      'appendices'
+    ]
+  },
+
+  // Mobility Commons Framework
+  {
+    name: 'executive-summary-for-the-skeptic',
+    category: 'mobility-commons',
+    fileNames: {
+      en: 'mobility-commons-executive-summary-en',
+      sv: 'mobility-commons-executive-summary-sv'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'mobility-commons'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'mobility-commons')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'assets', 'pdf'),
+      sv: path.join(__dirname, '..', 'static', 'assets', 'pdf')
+    },
+    pageFooter: {
+      en: 'Mobility Commons - Executive Summary for the Skeptic',
+      sv: 'Mobilitetsallmänningen - Sammanfattning för skeptiker'
+    }
+  },
+
+  // Full framework
+  {
+    name: 'mobility-commons-framework',
+    category: 'mobility-commons',
+    fileNames: {
+      en: 'Mobility-Commons-Framework',
+      sv: 'Mobility-Commons-Framework'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'mobility-commons'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'mobility-commons')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'downloads', 'en'),
+      sv: path.join(__dirname, '..', 'static', 'downloads', 'sv')
+    },
+    pageFooter: {
+      en: 'Mobility Commons',
+      sv: 'Mobilitetsallmänningen'
+    },
+    sections: [
+      'index',
+      'introduction-vision',
+      'foundational-principles',
+      'integration-architecture',
+      'four-pillars',
+      'implementation-phases',
+      'bioregional-integration',
+      'technology-innovation',
+      'climate-resilience',
+      'justice-equity',
+      'success-metrics',
+      'faq',
       'taking-action',
       'appendices'
     ]

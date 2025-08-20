@@ -49,6 +49,7 @@ const pageSpecificTranslationsMap = [
   
   // Framework routes (most specific first)
   { route: '/frameworks/implementation-methods-and-tools', dataKey: 'implementationTools', fileName: 'frameworksImplementationTools' },
+  { route: '/frameworks/mobility-commons', dataKey: 'mobilityFramework', fileName: 'frameworksMobilityCommons' },
   { route: '/frameworks/emergent-governance-protocol', dataKey: 'egpFramework', fileName: 'frameworksEmergentGovernanceProtocol' },
   { route: '/frameworks/living-land-protocol', dataKey: 'livingLandProtocol', fileName: 'frameworksLivingLandProtocol' },
   { route: '/frameworks/sundown-protocol', dataKey: 'sundownProtocol', fileName: 'frameworksSundownProtocol' },

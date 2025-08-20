@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "title": "Mobilitetsallmänningen - Globala styrningsramverket",
+    "description": "Ett omfattande ramverk för regenerativa transporter och omställning av mobilitetsstyrning"
+  },
+  "loading": {
+    "text": "Laddar innehåll för mobilitetsallmänningen..."
+  },
+  "guideCard": {
+    "title": "Ny inom mobilitetsallmänningen?",
+    "description": "Börja med vår sammanfattning för att förstå hur regenerativa transporter kan omvandla vår värld samtidigt som universell tillgång till rörelse säkerställs.",
+    "buttonText": "Läs sammanfattningen"
+  },
+  "categories": {
+    "overview": "Översikt",
+    "foundation": "Grund",
+    "framework": "Kärnramverk",
+    "implementation": "Implementering",
+    "resources": "Resurser"
+  },
+  "sections": {
+    "index": "Mobilitetsallmänningen",
+    "at-a-glance": "I korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning för skeptikern",
+    "introduction-vision": "Introduktion & vision",
+    "foundational-principles": "Grundläggande principer",
+    "integration-architecture": "GGF integrationsarkitektur",
+    "four-pillars": "Ramverket med fyra pelare",
+    "implementation-phases": "Implementeringsfaser",
+    "bioregional-integration": "Bioregional & urfolksintegration",
+    "technology-innovation": "Teknik- & innovationsallmänning",
+    "climate-resilience": "Klimatresiliens & krisberedskap",
+    "justice-equity": "Rättvise- & jämlikhetsramverk",
+    "success-metrics": "Framgångsmått & ansvarsutkrävande",
+    "faq": "Vanliga frågor",
+    "taking-action": "Att agera",
+    "appendices": "Bilagor"
+  },
+  "sectionsShort": {
+    "index": "Översikt",
+    "at-a-glance": "I korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning",
+    "introduction-vision": "Vision",
+    "foundational-principles": "Principer",
+    "integration-architecture": "Integration",
+    "four-pillars": "Fyra pelare",
+    "implementation-phases": "Implementering",
+    "bioregional-integration": "Bioregional",
+    "technology-innovation": "Teknik",
+    "climate-resilience": "Klimatresiliens",
+    "justice-equity": "Rättvisa & jämlikhet",
+    "success-metrics": "Mätetal",
+    "faq": "FAQ",
+    "taking-action": "Agera",
+    "appendices": "Bilagor"
+  },
+  "progress": {
+    "text": "Avsnitt {current} av {total}"
+  },
+  "navigation": {
+    "downloadPdf": "Ladda ner PDF-version",
+    "continueToFramework": "Fortsätt till hela ramverket",
+    "previousSection": "Föregående avsnitt",
+    "nextSection": "Nästa avsnitt"
+  },
+  "languageFallback": {
+    "title": "Innehåll på ditt språk kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+  },
+  "errors": {
+    "sectionNotFound": "Avsnittet \"{section}\" hittades inte",
+    "contentInDevelopment": "Detta innehåll är fortfarande under utveckling."
+  },
+  "pillars": {
+    "governance": {
+      "title": "Styrning & samordning",
+      "subtitle": "Globala mobilitetsrådet",
+      "description": "Demokratisk styrning för global mobilitet inom meta-styrningsramverket."
+    },
+    "infrastructure": {
+      "title": "Regenerativ infrastruktur",
+      "subtitle": "Bygga vägarna",
+      "description": "Hållbara, resilienta och återställande transportnätverk."
+    },
+    "economy": {
+      "title": "Mobilitetsekonomin",
+      "subtitle": "Driva rättvisa omställningar",
+      "description": "Ekonomiska modeller för regenerativ mobilitet och omställning för arbetskraften."
+    },
+    "justice": {
+      "title": "Mobilitetsrättvisa",
+      "subtitle": "Säkerställa rättvis tillgång",
+      "description": "Jämlikhet som central designprincip."
+    }
+  },
+  "principles": {
+    "commons": {
+      "title": "Mobilitet som en allmänning",
+      "description": "Transporter som en allmännytta styrd transparent av råd med flera intressenter"
+    },
+    "fossilFree": {
+      "title": "Fossilfritt som standard",
+      "description": "All ny infrastruktur i linje med nettonollmål till 2030"
+    },
+    "universalAccess": {
+      "title": "Universell utformning & tillgång",
+      "description": "System utformade för alla förmågor, åldrar och behov"
+    },
+    "bioregional": {
+      "title": "Bioregional integration",
+      "description": "Korridorer som respekterar vattendelare, viltvandringar och ekosystemgränser"
+    },
+    "communityLed": {
+      "title": "Lokalsamhälleslett & -ägt",
+      "description": "Projekt som samdesignas med lokalsamhällen och övergår till kooperativt ägande"
+    },
+    "dataSovereignty": {
+      "title": "Datasuveränitet & integritet",
+      "description": "Mobilitetsdata som en lokalsamhälleskontrollerad resurs, skyddad mot övervakning"
+    },
+    "culturalPreservation": {
+      "title": "Kulturellt bevarande",
+      "description": "Respekt för urfolks resvägar, förfäders stigar och ceremoniella resor"
+    },
+    "interoperability": {
+      "title": "Interoperabilitet & standarder",
+      "description": "Global kompatibilitet med öppna standarder som hanteras via Digitala allmänningen"
+    },
+    "universalCapability": {
+      "title": "Universell förmåga",
+      "description": "Tillgång oberoende av biologiska, psykiska eller metafysiska egenskaper"
+    },
+    "indigenousSovereignty": {
+      "title": "Urfolks transportsuveränitet",
+      "description": "Auktoritet på BAZ-nivå över transporter i traditionella territorier"
+    },
+    "sacredTiming": {
+      "title": "Helig timing & landskapsmedvetenhet",
+      "description": "Infrastruktur som respekterar ceremoniella kalendrar och andliga relationer"
+    }
+  },
+  "implementation": {
+    "phases": {
+      "phase0": {
+        "title": "Fas 0: Bioregionala demonstrationsprojekt",
+        "description": "BAZ-åtagande för pilotprojekt med fossilfria transporter",
+        "completion": "10 BAZ-piloter, 2 viltkorridorintegrationer"
+      },
+      "phase1": {
+        "title": "Fas 1: Nationella mobilitetsallmänningar",
+        "description": "5 % av transportbudgeten avsätts till regenerativ infrastruktur",
+        "completion": "20 nationer, 1 miljon hektar återställda, 50 000 arbetare omskolade"
+      },
+      "phase2": {
+        "title": "Fas 2: Regionala integrationsavtal",
+        "description": "Regionalt klusteråtagande för interoperabilitet",
+        "completion": "3 regionala avtal, 5 % global utsläppsminskning"
+      },
+      "phase3": {
+        "title": "Fas 3: Global mobilitetsallmänning",
+        "description": "50 % G20-deltagande",
+        "completion": "Fossilfri majoritet, universell 15-minuterstillgång"
+      }
+    }
+  },
+  "metrics": {
+    "decarbonization": {
+      "title": "Avkarbonisering",
+      "description": "% minskning av transportutsläpp i linje med klimat- & energiramverket"
+    },
+    "accessEquity": {
+      "title": "Rättvis tillgång",
+      "description": "% befolkning inom 15 minuters promenad från prisvärda transporter"
+    },
+    "universalAccess": {
+      "title": "Universell tillgång",
+      "description": "Poäng från konsekvensbedömningar för funktionshinder och efterlevnadsgrader"
+    },
+    "modalShift": {
+      "title": "Modalskifte",
+      "description": "% övergång från privata fordon till delade/regenerativa transporter"
+    },
+    "ecosystemHealth": {
+      "title": "Ekosystemhälsa",
+      "description": "Indikatorer för biologisk mångfald i transportkorridorer"
+    },
+    "communitySovereignty": {
+      "title": "Lokalsamhällets suveränitet",
+      "description": "% transportsystem under lokalt kooperativt ägande"
+    },
+    "emergentTechnologies": {
+      "title": "Framväxande teknologier",
+      "description": "% pendlare som använder post-fossila lösningar (baslinje: 0 %)"
+    },
+    "culturalContinuity": {
+      "title": "Kulturell kontinuitet",
+      "description": "Stödindex för traditionella sedvänjor och ceremoniella rörelser"
+    }
+  },
+  "features": {
+    "globalPathways": {
+      "title": "Globala vägars initiativ",
+      "description": "Omfattande infrastrukturprogram inklusive höghastighetståg, hållbara maritima korridorer och universell infrastruktur för elfordon"
+    },
+    "globalMobilityCouncil": {
+      "title": "Globala mobilitetsrådet",
+      "description": "Organ med flera intressenter och roterande ledarskap inklusive BAZ-representanter, urfolksröster och ungdomsråd"
+    },
+    "mobilityAsService": {
+      "title": "Mobilitet som en tjänst-allmänning",
+      "description": "Öppen källkodsplattform som optimerar för biosfärens hälsoindex samtidigt som den införlivar traditionell ekologisk kunskap"
+    },
+    "disasterResponse": {
+      "title": "Mobila enheter för katastrofinsatser",
+      "description": "Snabbt insättbara transportsystem för klimatnödlägen"
+    },
+    "climateMigration": {
+      "title": "Transportkorridorer för klimatmigration",
+      "description": "Förplanerade evakueringsvägar med evakueringsprotokoll för lokalsamhällen"
+    }
+  },
+  "integration": {
+    "title": "GGF integrationsarkitektur",
+    "description": "Mobilitetsallmänningen fungerar som ett livsuppehållande system på nivå 2 och samverkar sömlöst med det bredare globala styrningsramverket",
+    "constitutional": {
+      "title": "Konstitutionell grund",
+      "description": "Fördraget för vårt enda hem ger befogenhet för fossilfria mandat och verkställighet genom den globala verkställighetsmekanismen"
+    },
+    "operatingSystem": {
+      "title": "Synergier i operativsystemet",
+      "justice": "Urfolksramverket säkerställer FPIC 2.0-protokoll medan lagret för universell tillgång & rättvisa för funktionshindrade granskar tillgängligheten",
+      "economic": "AUBI-ramverket stöder omställning för arbetskraften medan Globala allmänningars fond tillhandahåller primär infrastrukturfinansiering",
+      "governance": "Meta-styrning samordnar det globala mobilitetsrådet medan krisledningsprotokollet hanterar nödtransporter",
+      "technology": "Aurora-avtalet säkrar mobilitetsdata medan det globala teknikrådet övervakar återanvändning av teknik"
+    },
+    "lifeSupport": {
+      "title": "Integration av livsuppehållande system",
+      "description": "Klimat- & energiramverket samordnar förnybar energi, livsmedelssystem anpassar transporter till regenerativt jordbruk, migration & mänsklig rörlighet säkerställer planering av klimatkorridorer, och katastrofriskreducering integrerar krisberedskap"
+    }
+  }
+}
