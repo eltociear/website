@@ -14,6 +14,7 @@ lastUpdated: 2025-07-30
 > — From the GGF Systems Architecture Principles
 
 **In this section:**
+- [The Unifying Principle: A Container for Collective Healing](#unifying-principle)
 - [Understanding Operating Systems for Civilization](#understanding-operating-systems)
 - [The Governance OS: The Central Nervous System](#governance-os)
 - [The Ethical OS: The Heart and Compass](#ethical-os)
@@ -27,6 +28,10 @@ lastUpdated: 2025-07-30
 **Estimated Reading Time**: 22 minutes
 
 ---
+
+## <a id="unifying-principle"></a>The Unifying Principle: A Container for Collective Healing
+
+While each Operating System has a specialized function, they are all united by a core design principle: to serve as a container for collective healing. Each OS works to replace the conditions that generate trauma (scarcity, disconnection, powerlessness) with those that support healing (safety, connection, agency). The Economic OS provides safety, the Ethical and Governance OS foster connection, and the Justice and Institutional OS restore agency, creating a comprehensive architecture for societal well-being.
 
 ## <a id="understanding-operating-systems"></a>Understanding Operating Systems for Civilization
 

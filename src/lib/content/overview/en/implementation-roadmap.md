@@ -176,6 +176,8 @@ This tier contains the fundamental frameworks that serve as the "operating syste
 
 **Ethical Compass**: Wisdom-based guidance systems that ensure all coordination serves life, justice, and seven-generation sustainability.
 
+**Healing Foundation**: This tier establishes the core systems that create the conditions for collective healing. The [AUBI](/frameworks/adaptive-universal-basic-income) provides the economic safety that calms the collective nervous system, the [Indigenous Framework](/frameworks/indigenous-governance-and-traditional-knowledge) provides the wisdom for right relationship, and the Justice OS shifts from punishment to restoration.
+
 ### Key Operating System Frameworks
 
 **Governance OS: Integrated Meta-Governance Framework**
@@ -394,6 +396,8 @@ This tier ensures that a stable and healthy society is also deeply just, inclusi
 **Knowledge Commons**: Infrastructure for sharing and preserving human knowledge while protecting Indigenous knowledge sovereignty and preventing appropriation.
 
 **Intersectional Justice**: Recognition that forms of oppression intersect and must be addressed through integrated rather than separate frameworks.
+
+**Deep Healing and Reconciliation**: This tier focuses on the deep work of healing specific historical and ongoing traumas. Frameworks for Gender Justice, Disability Justice, and Intergenerational Wisdom are not just about rights, but about healing the societal wounds caused by oppression and disconnection.
 
 ### Social Equity Frameworks
 

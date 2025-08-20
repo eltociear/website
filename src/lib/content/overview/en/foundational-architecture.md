@@ -162,6 +162,8 @@ This is the bottom-up, wisdom-based foundation that provides the "heart and soul
 
 **Intergenerational Accountability**: Indigenous governance systems like the Haudenosaunee Seven Generation principle embed long-term thinking directly into decision-making processes. Every decision is evaluated for its impact on children seven generations in the future.
 
+**Healing-Centered Governance**: Indigenous worldviews understand that justice and sustainability are inseparable from healing—healing the relationship between humans, between humanity and the Earth, and with our own ancestral pasts. This provides a crucial therapeutic lens for all governance design.
+
 ### Core Structural Innovations
 
 **Bioregional Autonomous Zones (BAZs)**: Rather than organizing governance around colonial borders, BAZs organize around ecosystem boundaries—watersheds, bioregions, and ecological communities. These zones operate with significant autonomy while participating in larger coordination networks.
@@ -404,6 +406,8 @@ Each pillar addresses fundamental limitations that prevent the others from succe
 **Scale Without Place**: Global institutions disconnected from local ecological knowledge make decisions that don't work in specific places. Climate policies designed in New York may be inappropriate for farmers in Bangladesh or pastoralists in Kenya.
 
 **Efficiency Without Legitimacy**: Institutional reforms imposed without community consent generate resistance and ultimately fail. Even beneficial reforms fail if communities don't understand, trust, or participate in their design.
+
+**Power Without Healing**: An institution can be powerful and efficient but still perpetuate harm if it operates on a logic of control and domination. Without the ethical and healing principles of the Heart, institutional hardware can become a more efficient container for trauma rather than a vessel for liberation.
 
 ### Why Heart Alone Fails
 

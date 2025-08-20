@@ -6,7 +6,23 @@ title: Grundprinciper – Ramverken för global styrning
 
 Ramverken för global styrning bygger på flera grundläggande principer som utgör dess etiska grund och praktiska vägledning. Dessa principer samverkar för att skapa styrningssystem som är demokratiska, anpassningsbara och respektfulla mot mångfald.
 
-## 1. Decentraliserad auktoritet (subsidiaritet)
+## 1. Post-tillväxt och regenerativ genom design
+
+**Princip**: Styrning och ekonomiska system måste utformas för samhälleligt och ekologiskt välbefinnande inom planetens gränser, inte för evig materiell tillväxt. Målet är att övergå från en utvinningsekonomi till en regenerativ ekonomi, där framgång mäts genom hälsan i våra samhällen och ekosystem.
+
+**I praktiken**:
+- Prioritera cirkulära flöden, där "avfall" elimineras genom design.
+- Värdera omsorg, gemenskap och ekologisk återställning som centrala ekonomiska aktiviteter.
+- Gå bortom BNP som det primära måttet på samhällelig framgång.
+- Säkerställa att tekniska framsteg tjänar genuina mänskliga behov och ekologisk regenerering, inte bara marknadsexpansion.
+
+**Verkliga tillämpningar**:
+- **Doughnut Economics Action Lab**: Städer som Amsterdam tillämpar "Doughnut"-modellen för att skapa sociala och ekologiska mål som definierar ett säkert och rättvist utrymme för mänskligheten, och går bortom ett fokus på enbart tillväxt.
+- **"Välbefinnandeekonomi"-rörelsen**: Nationer som Nya Zeeland, Skottland och Island samarbetar för att skapa ekonomisk politik som prioriterar medborgarnas och ekologiska välbefinnandet framför enkla ekonomiska tillväxtmått.
+
+- **Transition Town Network**: Denna globala rörelse fokuserar på att bygga upp samhällens motståndskraft genom att omlokalisera ekonomier och minska beroendet av långa, bräckliga leveranskedjor, en central princip för nedväxning.
+
+## 2. Decentraliserad auktoritet (subsidiaritet)
 
 **Princip**: Makten bör fördelas över flera nivåer, där beslut fattas på den lägsta effektiva styrningsnivån. Högre nivåer hanterar endast frågor som inte kan lösas lokalt.
 
@@ -26,7 +42,7 @@ Denna princip förhindrar maktkoncentration som kan leda till auktoritärt styre
 - **Transition Town-rörelsen**: Samhällen världen över implementerar lokala resiliensinitiativ inom ett bredare rörelse-ramverk, fattar beslut på grannskapsnivå och delar kunskap genom regionala och globala nätverk.
 - **Ursprungsbefolkningens vårdnadsprogram**: I Kanada och Australien hanterar ursprungsbefolkningar miljöskydd av sina territorier genom samarbetsavtal med regionala och nationella regeringar, med beslutsfattande förankrat i lokal kunskap.
 
-## 2. Radikal transparens
+## 3. Radikal transparens
 
 **Princip**: Alla styrningsprocesser ska vara fullt synliga och tillgängliga för medborgarna, utan hemligt beslutsfattande eller dold resursfördelning.
 
@@ -46,7 +62,7 @@ Transparens är det goda styrets immunförsvar – det förhindrar korruption, b
 - **Deltagande budgetering i Porto Alegre**: Denna brasilianska stad pionjärade transparenta budgetprocesser där medborgare kan spåra exakt hur kommunala medel används via offentliga databaser och regelbundna samhällsmöten.
 - **OpenCorporates**: Denna globala databas gör företags ägarstrukturer transparenta, vilket hjälper till att identifiera skalbolag och förhindra korruption, och visar hur transparensverktyg kan sträcka sig över jurisdiktioner.
 
-## 3. Direkt deltagande
+## 4. Direkt deltagande
 
 **Princip**: Varje individ har rätt att delta i beslut som påverkar dem, genom flera kanaler för engagemang.
 
@@ -66,7 +82,7 @@ Deltagande säkerställer att styrning speglar kollektiv visdom snarare än elit
 - **Crowdlaw-initiativ**: Städer som New York, Madrid och Mexico City använder digitala plattformar för att direkt involvera medborgare i att utforma lagar, och går bortom konsultation till medskapande av lagar.
 - **Deltagande markanvändningsplanering i Medellín**: Denna colombianska stad transformerades från våld till innovation delvis genom grannskapsplaneringsprocesser där invånare kollektivt utformade offentliga platser och infrastrukturprioriteringar.
 
-## 4. Universella mänskliga rättigheter
+## 5. Universella mänskliga rättigheter
 
 **Princip**: Vissa rättigheter är icke-förhandlingsbara och måste skyddas för alla människor, oavsett nationalitet, kultur eller omständighet.
 
@@ -87,7 +103,7 @@ Mänskliga rättigheter utgör det etiska golvet under vilket inget styrsystem f
 - **Ecuadors konstitutionella rättigheter för naturen**: Ecuadors konstitution erkänner naturens rätt att existera och regenerera, och utvidgar rättighetsramverk bortom människor till ekosystem.
 - **Internet Rights & Principles Coalition**: Denna multistakeholder-grupp översätter offline-mänskliga rättigheter till den online-världen och skapar ramverk för implementering av digitala rättigheter över jurisdiktioner.
 
-## 5. Ekologiskt ansvarstagande
+## 6. Ekologiskt ansvarstagande
 
 **Princip**: Jordens ekosystem har inneboende rättigheter och måste skyddas, med resurser förvaltade för långsiktig återhämtning snarare än kortsiktig utvinning.
 
@@ -108,7 +124,7 @@ Denna princip erkänner att mänskligheten är en del av jordens levande system 
 - **Gemenskapsbevarade områden i Indien**: Lokala samhällen hanterar lagligt bevarandeområden baserat på traditionell ekologisk kunskap, vilket visar hur miljöförvaltning kan kombinera lokal autonomi med skydd på högre nivå.
 - **Kinas policy för "ekologiska röda linjer"**: Skyddar lagligt cirka 25 % av Kinas territorium från utveckling, vilket visar på storskalig miljövård integrerad med ekonomisk planering.
 
-## 6. Kulturell autonomi
+## 7. Kulturell autonomi
 
 **Princip**: Gemenskaper har rätt att bevara och utveckla sina kulturella praktiker, språk och styrmodeller inom ramen för universella rättigheter.
 
@@ -128,7 +144,7 @@ Kulturell autonomi säkerställer att global styrning stärker mångfalden snara
 - **Nya Zeelands revitalisering av Maorispråket**: Statliga policyer som stödjer maoriska immersionsskolor och medier har hjälpt till att återuppliva ett ursprungsspråk medan man respekterar samhällets ledning av processen.
 - **UNESCO:s Nätverk av kreativa städer**: Detta program stödjer kulturell särprägel samtidigt som det möjliggör kunskapsutbyte mellan städer globalt, och visar hur kulturell autonomi kan blomstra inom samarbetsramverk.
 
-## 7. Etisk teknologistyrning
+## 8. Etisk teknologistyrning
 
 **Princip**: AI och avancerad teknologi måste förbli under transparent mänsklig kontroll och tjäna mänskligheten, inte kontrollera den.
 
@@ -152,7 +168,7 @@ När teknologin blir allt mäktigare måste styrning säkerställa att den förb
 - **EU:s allmänna dataskyddsförordning (GDPR)**: Genomför en medborgarcentrerad strategi för datasuveränitet, vilket ger individer kontroll över sin personliga information över gränserna.
 - **Kinas hantering av gränsöverskridande datasäkerhet**: Erbjuder en kontrasterande stats-centrerad strategi för datastyrning, där nationell säkerhet prioriteras samtidigt som globala dataflöden hanteras.
 
-## 8. Rättvis resursfördelning
+## 9. Rättvis resursfördelning
 
 **Princip**: Grundläggande resurser ska fördelas rättvist för att förebygga både brist och extrem koncentration av rikedom och makt.
 
@@ -172,7 +188,7 @@ Rättvis resursfördelning säkerställer att teknologiska framsteg och naturlig
 - **Bhutans ramverk för bruttonationallycka**: Bhutan utvärderar policyer baserat på lycka och välbefinnande snarare än enbart ekonomiska mått, och omdefinierar prioriteringar för resursallokering.
 - **Gemenskapsjordfonder**: Från Boston till Bryssel håller dessa demokratiskt styrda enheter mark i förtroende för samhällsnytta, vilket förhindrar spekulation och säkerställer prisvärda bostäder.
 
-## 9. Fredlig konfliktlösning
+## 10. Fredlig konfliktlösning
 
 **Princip**: Global styrning måste erbjuda mekanismer för att lösa konflikter utan våld, och ersätta militär konkurrens med samarbete.
 
@@ -192,7 +208,7 @@ Denna princip erkänner att våld är ineffektivt, destruktivt och i slutändan 
 - **Colombias sannings- och försoningskommission**: Colombias fredsprocess inkluderade omfattande mekanismer för att erkänna tidigare skador och återuppbygga samhällsrelationer.
 - **Delad vattendatautbyte**: Israel och Jordanien upprätthåller tekniskt vattensamarbete trots politiska konflikter, vilket visar hur resurshantering kan bygga fred genom praktiskt samarbete.
 
-## 10. Adaptiv utveckling
+## 11. Adaptiv utveckling
 
 **Princip**: Styrningssystem måste vara utformade för att kunna utvecklas genom regelbunden översyn, vilket möjliggör systemiskt lärande och anpassning.
 
@@ -212,7 +228,7 @@ Adaptiv styrning undviker att bli stel eller föråldrad och kan utvecklas i tak
 - **Nya Zeelands regleringssandlådor**: Dessa kontrollerade miljöer tillåter testning av innovationer under tillsyn innan bredare implementering, och balanserar innovation med riskhantering.
 - **Städernas koalition för digitala rättigheter**: Denna utvecklande allians av städer tar fram principer för digitala rättigheter genom iterativ implementering och ömsesidigt lärande, vilket visar adaptiv styrning över jurisdiktioner.
 
-## 11. Balans mellan integration och mångfald
+## 12. Balans mellan integration och mångfald
 
 **Princip**: Global enhet får inte ske på bekostnad av homogenisering – styrning bör samtidigt stärka både enhet och mångfald.
 
@@ -232,7 +248,7 @@ Denna princip avvisar det falska valet mellan splittring och likriktning, och st
 - **Mondragon kooperativa korporation**: Detta nätverk av kooperativ upprätthåller individuell affärsautonomi samtidigt som det delar resurser och värderingar, och balanserar lokal kontroll med fördelarna av skala.
 - **Asien-Stillahavs ekonomiska samarbete (APEC)**: Detta forum tillåter olika ekonomier att gradvis integreras genom icke-bindande åtaganden, respekterar olika utvecklingsvägar samtidigt som man arbetar mot delat välstånd.
 
-## 12. Kosmisk etik
+## 13. Kosmisk etik
 
 **Princip**: I takt med att mänskligheten expanderar bortom jorden gäller samma etiska principer även för styrning i rymden, för att förhindra exploatering och främja hållbar expansion.
 
@@ -252,7 +268,7 @@ Kosmisk etik utvidgar våra styrprinciper till att omfatta även rymden och ser 
 - **SETI-protokoll**: Sökandet efter utomjordisk intelligens-gemenskapen har utvecklat protokoll för att hantera potentiell kontakt, vilket visar proaktiva etiska ramverk för oöverträffade scenarier.
 - **Mörka himmel-reservat**: Dessa skyddade områden minskar ljusföroreningar för astronomisk observation och viltvård, och visar hur jordisk styrning kan inkludera kosmisk medvetenhet.
 
-## 13. Motståndskraft & anti-fragilitet
+## 14. Motståndskraft & anti-fragilitet
 
 **Principen**: I vår nuvarande övergångsperiod måste styrsystem utformas för att inte bara tåla chocker och störningar utan också för att lära sig, anpassa sig och utvecklas genom utmaningar. Motståndskraft fungerar som en bro mot en framtid där mänskligheten har löst sina stora systemiska problem.
 
@@ -273,7 +289,7 @@ Kosmisk etik utvidgar våra styrprinciper till att omfatta även rymden och ser 
 - **Nya Zeelands ramverk för levnadsstandard**: Detta policyverktyg mäter flera typer av kapital (naturligt, socialt, mänskligt, finansiellt) för att säkerställa att styrbeslut bevarar resurser som behövs för långsiktig motståndskraft.
 - **Rotterdams vattenhanteringssystem**: Denna nederländska stad har omvandlat sitt förhållande till översvämningar genom att skapa multifunktionell infrastruktur som anpassar sig till olika vattennivåer samtidigt som den förbättrar stadslivets kvalitet.
 
-## 14. Gemensamma/delade värderingar
+## 15. Gemensamma/delade värderingar
 
 **Princip**: Styrning måste identifiera, artikulera och upprätthålla grundläggande etiska värderingar som överbryggar kulturella, religiösa och filosofiska skillnader samtidigt som man respekterar olika uttryck för dessa värderingar.
 
@@ -294,9 +310,28 @@ Gemensamma/delade värderingar ger en grund för dialog mellan olika världsåsk
 - **UNESCO:s universella deklaration om kulturell mångfald**: Etablerar principer som balanserar kulturell särprägel med gemensamma mänskliga värderingar, vilket visar hur mångfald och enhet kan förstärka varandra.
 - **Earth Charter Initiative**: Ett globalt civilsamhällesinitiativ som artikulerar delade etiska principer för miljöförvaltning över olika kulturer, religioner och filosofiska traditioner.
 
+## 16. Kollektiv läkning
+
+**Princip**: Styrningssystem måste utformas för att fungera som behållare för kollektiv läkning och ta itu med de grundläggande trauman av frånkoppling, brist och maktlöshet som underblåser konflikter och ohållbart beteende. Målet är att gå från system som genererar trauma till de som odlar individuellt och samhälleligt välbefinnande.
+
+**I praktiken**:
+- Utforma ekonomiska system som ger grundläggande psykologisk trygghet.
+- Skapa strukturer som främjar empati, förtroende och samhällsanknytning.
+- Återställa en känsla av handlingsfrihet, syfte och värdighet för alla individer.
+- Prioritera återställande rättvisa framför straffåtgärder.
+
+**Aktuella exempel:**
+- Sannings- och försoningskommissioner är ett utmärkt exempel på en process på delstatsnivå som är utformad för att fungera som en behållare för att läka nationella trauman efter perioder av konflikt, förtryck eller folkmord.
+
+**Ytterligare tillämpningar i den verkliga världen:**
+- **Samhällsbaserade program för återställande rättvisa:** Städer som Oakland, Kalifornien, har implementerat program för återställande rättvisa i sina samhällen och skolor. Istället för att bara straffa förövare sammanför dessa program offer, förövare och samhällsmedlemmar för att diskutera den skada som orsakats och gemensamt besluta om en väg att reparera den. Denna process adresserar direkt traumat av konflikter och arbetar för att läka den sociala strukturen på lokal nivå.
+- **Traumabaserad stadsdesign:** Projekt i städer som Toronto omformar offentliga platser med principerna för traumabaserad vård. Detta inkluderar att skapa säkra, gröna ytor i underförsörjda områden, förbättra belysningen och utforma samhällsnav som främjar social kontakt. Målet är att skapa en miljö som minskar kronisk stress på nervsystemet och ger den psykologiska trygghet som krävs för samhällets välbefinnande.
+- **Pilotprojekt för universell basinkomst (UBI):** Experiment med UBI på platser som Finland och Stockton, Kalifornien, fungerar som en tillämpning av kollektiv läkning genom att direkt adressera traumat av ekonomisk osäkerhet. Genom att tillhandahålla en grund av ekonomisk trygghet minskar dessa program den konstanta överlevnadsångesten som kan leda till dåliga hälsoutfall och social friktion, vilket skapar den stabilitet som behövs för individuell och samhällelig läkning.
+- **Nationella ursäkter och ramverk för gottgörelse:** Åtgärder som Tysklands pågående gottgörelse för Förintelsen eller Kanadas officiella ursäkter och gottgörelse för övergreppen mot ursprungsbefolkningar i internatskolor är institutionella försök att erkänna och börja läka djupa historiska sår. Även om de ofta är ofullständiga, representerar de ett systematiskt erkännande av tidigare skador, vilket är ett avgörande första steg i varje kollektiv läkningsprocess.
+
 ## Navigera spänningar mellan principer
 
-De tretton principerna som beskrivits ovan utgör ett sammanhängande ramverk för etisk global styrning. I praktiken kan dock dessa principer ibland verka stå i konflikt med varandra. Dessa spänningar är inte brister i ramverket, utan snarare inneboende komplexiteter inom styrning som måste hanteras med eftertanke. Att förstå och hantera dessa spänningar är avgörande för en effektiv implementering.
+De sexton principerna som beskrivits ovan utgör ett sammanhängande ramverk för etisk global styrning. I praktiken kan dock dessa principer ibland verka stå i konflikt med varandra. Dessa spänningar är inte brister i ramverket, utan snarare inneboende komplexiteter inom styrning som måste hanteras med eftertanke. Att förstå och hantera dessa spänningar är avgörande för en effektiv implementering.
 
 ### Viktiga spänningar och tillvägagångssätt
 

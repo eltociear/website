@@ -321,7 +321,7 @@
    fill="#ffffff"
    font-weight="600"
    id="text2">
-    Global Styrning
+    Global styrning
   </text>
 <!-- Connection lines from center to all principles -->
 <line
@@ -491,7 +491,7 @@
      font-weight="500"
      class="principle-text"
      id="text27">
-      Decentraliserad Auktoritet
+      Decentraliserad auktoritet
     </text>
 </g>
 <!-- Radical Transparency -->
@@ -522,7 +522,7 @@
    fill="#2d5f2d"
    font-weight="500"
    class="principle-text"
-   id="text29">Radikal Transparens</text>
+   id="text29">Radikal transparens</text>
 <!-- Direct Participation -->
 <circle
    cx="560"
@@ -551,7 +551,7 @@
    fill="#2d5f2d"
    font-weight="500"
    class="principle-text"
-   id="text31">Direkt Deltagande</text>
+   id="text31">Direkt deltagande</text>
 <!-- MIDDLE RING: Rights & Environment (Brown) -->
 <!-- Universal Human Rights -->
 <circle
@@ -581,7 +581,7 @@
    fill="#654321"
    font-weight="500"
    class="principle-text"
-   id="text33">Universella Mänskliga Rättigheter</text>
+   id="text33">Universella mänskliga rättigheter</text>
 <!-- Environmental Stewardship -->
 <g
    class="principle-group"
@@ -646,7 +646,7 @@
    fill="#654321"
    font-weight="500"
    class="principle-text"
-   id="text37">Kulturell Autonomi</text>
+   id="text37">Kulturell autonomi</text>
 <!-- MIDDLE RING: Resource & Conflict (Gold) -->
 <!-- Ethical Technology Governance -->
 <circle
@@ -676,7 +676,7 @@
    fill="#daa520"
    font-weight="500"
    class="principle-text"
-   id="text39">Etisk Teknikstyrning</text>
+   id="text39">Etisk teknikstyrning</text>
 <text
    x="750"
    y="325"
@@ -744,7 +744,7 @@
    fill="#daa520"
    font-weight="500"
    class="principle-text"
-   id="text44">Fredlig Konfliktlösning</text>
+   id="text44">Fredlig konfliktlösning</text>
 <text
    x="600"
    y="540"
@@ -756,6 +756,52 @@
    class="principle-text"
    id="text45" />
 <!-- OUTER RING: Evolution & Integration (Purple) -->
+  <!-- Collective Healing -->
+  <g class="principle-group" id="collective-healing">
+    <circle 
+      cx="390" 
+      cy="580" 
+      r="24" 
+      fill="url(#purpleGradient)" 
+      class="principle-node" 
+      id="circle-collective-healing" />
+    <text 
+      x="390" 
+      y="584" 
+      font-family="system-ui, -apple-system, sans-serif" 
+      font-size="14" 
+      text-anchor="middle" 
+      fill="#6B5CA5" 
+      font-weight="500" 
+      class="principle-text" 
+      id="text-collective-healing-emoji">
+      🕊️💙
+    </text>
+    <text 
+      x="390" 
+      y="620" 
+      font-family="system-ui, -apple-system, sans-serif" 
+      font-size="12" 
+      text-anchor="middle" 
+      fill="#6B5CA5" 
+      font-weight="500" 
+      class="principle-text" 
+      id="text-collective-healing">
+      Kollektivt helande
+    </text>
+  </g>
+
+  <!-- Connection line from center to Collective Healing -->
+  <line 
+    x1="420" 
+    y1="410" 
+    x2="390" 
+    y2="556" 
+    stroke="#6b5ca5" 
+    stroke-width="2" 
+    opacity="0.7" 
+    class="connection-line" 
+    id="line-collective-healing" />
 <!-- Balance of Integration & Diversity -->
 <circle
    cx="150"
@@ -784,7 +830,7 @@
    fill="#6b5ca5"
    font-weight="500"
    class="principle-text"
-   id="text47">Balans mellan Integration</text>
+   id="text47">Balans mellan integration</text>
 <text
    x="30"
    y="326"
@@ -794,7 +840,7 @@
    fill="#6b5ca5"
    font-weight="500"
    class="principle-text"
-   id="text48">Mångfald</text>
+   id="text48">och mångfald</text>
 <!-- Adaptive Evolution -->
 <g
    class="principle-group"
@@ -828,7 +874,7 @@
      font-weight="500"
      class="principle-text"
      id="text50">
-      Adaptiv Evolution
+      Adaptiv evolution
     </text>
 </g>
 <!-- Cosmic Ethics -->
@@ -864,7 +910,7 @@
      font-weight="500"
      class="principle-text"
      id="text52">
-      Kosmisk Etik
+      Kosmisk etik
     </text>
 </g>
 <!-- Resilience and Anti-Fragility -->
@@ -912,13 +958,13 @@
      font-weight="500"
      class="principle-text"
      id="text55">
-      Anti-Bräcklighet
+      anti-bräcklighet
     </text>
 </g>
 <!-- Updated Legend -->
 <g
    class="legend"
-   transform="translate(50, 600)"
+   transform="translate(50, 640)"
    id="g61">
   <text
      x="0"

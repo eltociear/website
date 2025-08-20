@@ -113,6 +113,8 @@ The fundamental goal of the GGF is to transform global governance from a system 
 
 **Cooperative Advantage**: The GGF creates systems where cooperation provides advantages over competition. Countries that participate in climate coordination get access to clean technology and adaptation financing. Communities that share information about health threats get early warning systems and mutual aid networks.
 
+**Collective Healing**: The GGF recognizes that traumatized systems cannot become resilient. It designs institutions that serve as containers for collective healing by creating foundational safety, restoring social connection, and empowering individual and community agency. A healed populace is the bedrock of a resilient civilization.
+
 **Long-Term Incentives**: Economic and political incentives are redesigned to reward long-term thinking. The AUBI system rewards ecological restoration that may take decades to mature. Youth councils have veto power over decisions that primarily affect future generations.
 
 **Internalization of Costs**: The true costs of economic and political decisions are internalized through mechanisms like carbon pricing, ecocide prosecution, and corporate accountability systems. Actors can no longer externalize costs onto others without consequences.
@@ -226,6 +228,8 @@ The GGF vision extends beyond solving current crises to unlocking humanity's ful
 **Ecological Restoration**: Coordination enables the kind of large-scale ecological restoration that reverses environmental degradation and creates abundance within planetary boundaries.
 
 **Cultural Renaissance**: When basic needs are secure and cooperation is rewarded, human creativity flourishes. Art, science, philosophy, and spiritual development reach new heights of achievement.
+
+**Collective Healing and Social Cohesion**: Societal divisions begin to heal as systems that generate trauma are replaced by those that foster connection and security. Trust in institutions and fellow citizens is restored through participatory governance and restorative justice.
 
 ### Long-Term Potential (2050+)
 

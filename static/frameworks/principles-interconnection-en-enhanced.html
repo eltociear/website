@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Core Principles Interconnection</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .svg-container {
+            position: relative;
+            overflow: visible;
+        }
+        
+        #principles-svg {
+            filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.1));
+        }
+        
+        .principle-node {
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            cursor: pointer;
+            filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+        }
+        
+        .principle-node:hover {
+            transform: scale(1.15);
+            filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.3)) brightness(1.1);
+        }
+        
+        .principle-text {
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .principle-text:hover {
+            text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transform: scale(1.05);
+        }
+        
+        .connection-line {
+            transition: all 0.3s ease;
+            stroke-dasharray: 5, 5;
+            animation: flow 3s linear infinite;
+        }
+        
+        @keyframes flow {
+            0% { stroke-dashoffset: 0; }
+            100% { stroke-dashoffset: 10; }
+        }
+        
+        .connection-line:hover {
+            stroke-width: 3;
+            opacity: 1;
+            animation-duration: 1s;
+        }
+        
+        .ring-path {
+            fill: none;
+            stroke: rgba(255, 255, 255, 0.4);
+            stroke-width: 2;
+            opacity: 0.8;
+            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+        }
+        
+        .center-hub {
+            filter: drop-shadow(0 8px 16px rgba(43, 75, 140, 0.4));
+            transition: all 0.3s ease;
+        }
+        
+        .center-hub:hover {
+            transform: scale(1.05);
+            filter: drop-shadow(0 12px 24px rgba(43, 75, 140, 0.5));
+        }
+        
+        .glow-effect {
+            filter: drop-shadow(0 0 10px currentColor);
+        }
+        
+        .floating {
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-5px); }
+        }
+        
+        .pulse {
+            animation: pulse 4s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 0.7; }
+            50% { opacity: 1; }
+        }
+        
+        .interactive-tooltip {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.9);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-size: 12px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: 1000;
+            backdrop-filter: blur(5px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="svg-container">
+            <svg id="principles-svg" viewBox="0 0 900 700" width="900" height="700">
+                <defs>
+                    <!-- Enhanced gradients with more depth -->
+                    <radialGradient id="centerGradient" cx="50%" cy="30%" r="70%">
+                        <stop offset="0%" style="stop-color:#4F7FFF;stop-opacity:1" />
+                        <stop offset="50%" style="stop-color:#3B5FAE;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#2B4B8C;stop-opacity:1" />
+                    </radialGradient>
+                    
+                    <radialGradient id="greenGradient" cx="30%" cy="30%" r="80%">
+                        <stop offset="0%" style="stop-color:#4AE54A;stop-opacity:1" />
+                        <stop offset="50%" style="stop-color:#34855E;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#2D5F2D;stop-opacity:1" />
+                    </radialGradient>
+                    
+                    <radialGradient id="brownGradient" cx="30%" cy="30%" r="80%">
+                        <stop offset="0%" style="stop-color:#B8860B;stop-opacity:1" />
+                        <stop offset="50%" style="stop-color:#7A5A3A;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+                    </radialGradient>
+                    
+                    <radialGradient id="goldGradient" cx="30%" cy="30%" r="80%">
+                        <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+                        <stop offset="50%" style="stop-color:#E8B832;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#DAA520;stop-opacity:1" />
+                    </radialGradient>
+                    
+                    <radialGradient id="purpleGradient" cx="30%" cy="30%" r="80%">
+                        <stop offset="0%" style="stop-color:#9966CC;stop-opacity:1" />
+                        <stop offset="50%" style="stop-color:#7B6CB5;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#6B5CA5;stop-opacity:1" />
+                    </radialGradient>
+                    
+                    <!-- Special healing gradient -->
+                    <radialGradient id="healingGradient" cx="30%" cy="30%" r="80%">
+                        <stop offset="0%" style="stop-color:#E6E6FA;stop-opacity:1" />
+                        <stop offset="50%" style="stop-color:#9370DB;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#663399;stop-opacity:1" />
+                    </radialGradient>
+                    
+                    <!-- Glow filters -->
+                    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+                        <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+                        <feMerge> 
+                            <feMergeNode in="coloredBlur"/>
+                            <feMergeNode in="SourceGraphic"/>
+                        </feMerge>
+                    </filter>
+                    
+                    <filter id="healing-glow" x="-50%" y="-50%" width="200%" height="200%">
+                        <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+                        <feColorMatrix values="1 0 1 0 0  0 1 1 0 0  1 0 1 0 0  0 0 0 1 0"/>
+                        <feMerge> 
+                            <feMergeNode in="coloredBlur"/>
+                            <feMergeNode in="SourceGraphic"/>
+                        </feMerge>
+                    </filter>
+                </defs>
+                
+                <!-- Enhanced background with subtle pattern -->
+                <defs>
+                    <pattern id="bgPattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+                        <circle cx="20" cy="20" r="1" fill="rgba(255,255,255,0.1)"/>
+                    </pattern>
+                </defs>
+                <rect width="900" height="700" fill="url(#bgPattern)" opacity="0.3"/>
+                
+                <!-- Enhanced title -->
+                <text x="450" y="40" font-family="system-ui, -apple-system, sans-serif" 
+                      font-size="28" text-anchor="middle" fill="#2B4B8C" font-weight="700"
+                      class="glow-effect">
+                    Core Principles Interconnection
+                </text>
+                
+                <!-- Concentric rings with enhanced styling -->
+                <circle cx="450" cy="350" r="140" class="ring-path pulse" />
+                <circle cx="450" cy="350" r="220" class="ring-path pulse" style="animation-delay: 1s;" />
+                <circle cx="450" cy="350" r="300" class="ring-path pulse" style="animation-delay: 2s;" />
+                
+                <!-- Enhanced connection lines with flowing animation -->
+                <line x1="450" y1="270" x2="450" y2="210" stroke="#2d5f2d" stroke-width="3" 
+                      opacity="0.8" class="connection-line" />
+                <line x1="508" y1="301" x2="560" y2="265" stroke="#2d5f2d" stroke-width="3" 
+                      opacity="0.8" class="connection-line" />
+                <line x1="508" y1="399" x2="560" y2="435" stroke="#2d5f2d" stroke-width="3" 
+                      opacity="0.8" class="connection-line" />
+                <line x1="370" y1="350" x2="230" y2="350" stroke="#654321" stroke-width="3" 
+                      opacity="0.8" class="connection-line" />
+                <line x1="408" y1="415" x2="340" y2="485" stroke="#654321" stroke-width="3" 
+                      opacity="0.8" class="connection-line" />
+                <line x1="408" y1="285" x2="340" y2="215" stroke="#654321" stroke-width="3" 
+                      opacity="0.8" class="connection-line" />
+                <line x1="530" y1="350" x2="670" y2="350" stroke="#daa520" stroke-width="3" 
+                      opacity="0.8" class="connection-line" />
+                <line x1="492" y1="285" x2="560" y2="215" stroke="#daa520" stroke-width="3" 
+                      opacity="0.8" class="connection-line" />
+                <line x1="492" y1="415" x2="560" y2="485" stroke="#daa520" stroke-width="3" 
+                      opacity="0.8" class="connection-line" />
+                <line x1="370" y1="350" x2="150" y2="350" stroke="#6b5ca5" stroke-width="3" 
+                      opacity="0.8" class="connection-line" />
+                <line x1="400" y1="299" x2="240" y2="150" stroke="#6b5ca5" stroke-width="3" 
+                      opacity="0.8" class="connection-line" />
+                <line x1="400" y1="401" x2="240" y2="550" stroke="#6b5ca5" stroke-width="3" 
+                      opacity="0.8" class="connection-line" />
+                <line x1="502" y1="297" x2="660" y2="150" stroke="#6b5ca5" stroke-width="3" 
+                      opacity="0.8" class="connection-line" />
+                <!-- NEW: Connection to Collective Healing -->
+                <line x1="420" y1="410" x2="390" y2="556" stroke="#9370DB" stroke-width="3" 
+                      opacity="0.8" class="connection-line" />
+                
+                <!-- INNER RING: Governance Structure (Green) with enhanced styling -->
+                <g class="principle-group floating">
+                    <circle cx="450" cy="210" r="28" fill="url(#greenGradient)" 
+                            class="principle-node" filter="url(#glow)" />
+                    <text x="450" y="218" font-size="18" text-anchor="middle" 
+                          fill="white" font-weight="600" class="principle-text">🏛️</text>
+                    <text x="450" y="165" font-size="13" text-anchor="middle" 
+                          fill="#2D5F2D" font-weight="600" class="principle-text">
+                        Decentralized Authority
+                    </text>
+                </g>
+                
+                <g class="principle-group floating" style="animation-delay: 0.5s;">
+                    <circle cx="560" cy="265" r="28" fill="url(#greenGradient)" 
+                            class="principle-node" filter="url(#glow)" />
+                    <text x="560" y="273" font-size="18" text-anchor="middle" 
+                          fill="white" font-weight="600" class="principle-text">🔍</text>
+                    <text x="600" y="269" font-size="13" text-anchor="start" 
+                          fill="#2D5F2D" font-weight="600" class="principle-text">
+                        Radical Transparency
+                    </text>
+                </g>
+                
+                <g class="principle-group floating" style="animation-delay: 1s;">
+                    <circle cx="560" cy="435" r="28" fill="url(#greenGradient)" 
+                            class="principle-node" filter="url(#glow)" />
+                    <text x="560" y="443" font-size="18" text-anchor="middle" 
+                          fill="white" font-weight="600" class="principle-text">🗳️</text>
+                    <text x="600" y="475" font-size="13" text-anchor="start" 
+                          fill="#2D5F2D" font-weight="600" class="principle-text">
+                        Direct Participation
+                    </text>
+                </g>
+                
+                <!-- MIDDLE RING: Rights & Environment (Brown) -->
+                <g class="principle-group floating" style="animation-delay: 1.5s;">
+                    <circle cx="230" cy="350" r="28" fill="url(#brownGradient)" 
+                            class="principle-node" filter="url(#glow)" />
+                    <text x="230" y="358" font-size="18" text-anchor="middle" 
+                          fill="white" font-weight="600" class="principle-text">⚖️</text>
+                    <text x="180" y="310" font-size="13" text-anchor="start" 
+                          fill="#654321" font-weight="600" class="principle-text">
+                        Universal Human Rights
+                    </text>
+                </g>
+                
+                <g class="principle-group floating" style="animation-delay: 2s;">
+                    <circle cx="340" cy="485" r="28" fill="url(#brownGradient)" 
+                            class="principle-node" filter="url(#glow)" />
+                    <text x="340" y="493" font-size="18" text-anchor="middle" 
+                          fill="white" font-weight="600" class="principle-text">🌱</text>
+                    <text x="366" y="527" font-size="13" text-anchor="middle" 
+                          fill="#654321" font-weight="600" class="principle-text">
+                        Environmental Stewardship
+                    </text>
+                </g>
+                
+                <g class="principle-group floating" style="animation-delay: 2.5s;">
+                    <circle cx="340" cy="215" r="28" fill="url(#brownGradient)" 
+                            class="principle-node" filter="url(#glow)" />
+                    <text x="340" y="223" font-size="18" text-anchor="middle" 
+                          fill="white" font-weight="600" class="principle-text">🎭</text>
+                    <text x="340" y="181" font-size="13" text-anchor="middle" 
+                          fill="#654321" font-weight="600" class="principle-text">
+                        Cultural Autonomy
+                    </text>
+                </g>
+                
+                <!-- MIDDLE RING: Resource & Conflict (Gold) -->
+                <g class="principle-group floating" style="animation-delay: 3s;">
+                    <circle cx="670" cy="350" r="28" fill="url(#goldGradient)" 
+                            class="principle-node" filter="url(#glow)" />
+                    <text x="670" y="358" font-size="18" text-anchor="middle" 
+                          fill="white" font-weight="600" class="principle-text">💻</text>
+                    <text x="706" y="310" font-size="13" text-anchor="start" 
+                          fill="#DAA520" font-weight="600" class="principle-text">
+                        Ethical Technology
+                    </text>
+                    <text x="706" y="325" font-size="13" text-anchor="start" 
+                          fill="#DAA520" font-weight="600" class="principle-text">
+                        Governance
+                    </text>
+                </g>
+                
+                <g class="principle-group floating" style="animation-delay: 3.5s;">
+                    <circle cx="560" cy="215" r="28" fill="url(#goldGradient)" 
+                            class="principle-node" filter="url(#glow)" />
+                    <text x="560" y="223" font-size="18" text-anchor="middle" 
+                          fill="white" font-weight="600" class="principle-text">💎</text>
+                    <text x="514" y="181" font-size="13" text-anchor="start" 
+                          fill="#DAA520" font-weight="600" class="principle-text">
+                        Resource Justice
+                    </text>
+                </g>
+                
+                <g class="principle-group floating" style="animation-delay: 4s;">
+                    <circle cx="560" cy="485" r="28" fill="url(#goldGradient)" 
+                            class="principle-node" filter="url(#glow)" />
+                    <text x="560" y="493" font-size="18" text-anchor="middle" 
+                          fill="white" font-weight="600" class="principle-text">🕊️</text>
+                    <text x="588" y="525" font-size="13" text-anchor="start" 
+                          fill="#DAA520" font-weight="600" class="principle-text">
+                        Peaceful Conflict
+                    </text>
+                    <text x="588" y="540" font-size="13" text-anchor="start" 
+                          fill="#DAA520" font-weight="600" class="principle-text">
+                        Resolution
+                    </text>
+                </g>
+                
+                <!-- OUTER RING: Evolution & Integration (Purple) -->
+                <g class="principle-group floating" style="animation-delay: 4.5s;">
+                    <circle cx="150" cy="350" r="28" fill="url(#purpleGradient)" 
+                            class="principle-node" filter="url(#glow)" />
+                    <text x="150" y="346" font-size="18" text-anchor="middle" 
+                          fill="white" font-weight="600" class="principle-text">⚖️</text>
+                    <text x="50" y="305" font-size="13" text-anchor="start" 
+                          fill="#6B5CA5" font-weight="600" class="principle-text">
+                        Balance of Integration
+                    </text>
+                    <text x="50" y="320" font-size="13" text-anchor="start" 
+                          fill="#6B5CA5" font-weight="600" class="principle-text">
+                        & Diversity
+                    </text>
+                </g>
+                
+                <g class="principle-group floating" style="animation-delay: 5s;">
+                    <circle cx="240" cy="150" r="28" fill="url(#purpleGradient)" 
+                            class="principle-node" filter="url(#glow)" />
+                    <text x="240" y="146" font-size="18" text-anchor="middle" 
+                          fill="white" font-weight="600" class="principle-text">🧬</text>
+                    <text x="240" y="110" font-size="13" text-anchor="middle" 
+                          fill="#6B5CA5" font-weight="600" class="principle-text">
+                        Adaptive Evolution
+                    </text>
+                </g>
+                
+                <g class="principle-group floating" style="animation-delay: 5.5s;">
+                    <circle cx="240" cy="550" r="28" fill="url(#purpleGradient)" 
+                            class="principle-node" filter="url(#glow)" />
+                    <text x="240" y="558" font-size="18" text-anchor="middle" 
+                          fill="white" font-weight="600" class="principle-text">🌌</text>
+                    <text x="278" y="590" font-size="13" text-anchor="middle" 
+                          fill="#6B5CA5" font-weight="600" class="principle-text">
+                        Cosmic Ethics
+                    </text>
+                </g>
+                
+                <g class="principle-group floating" style="animation-delay: 6s;">
+                    <circle cx="660" cy="150" r="28" fill="url(#purpleGradient)" 
+                            class="principle-node" filter="url(#glow)" />
+                    <text x="660" y="146" font-size="18" text-anchor="middle" 
+                          fill="white" font-weight="600" class="principle-text">🛡️</text>
+                    <text x="660" y="105" font-size="13" text-anchor="middle" 
+                          fill="#6B5CA5" font-weight="600" class="principle-text">
+                        Resilience and
+                    </text>
+                    <text x="660" y="120" font-size="13" text-anchor="middle" 
+                          fill="#6B5CA5" font-weight="600" class="principle-text">
+                        Anti-Fragility
+                    </text>
+                </g>
+                
+                <!-- NEW: Collective Healing principle with special styling -->
+                <g class="principle-group floating" style="animation-delay: 6.5s;">
+                    <circle cx="390" cy="580" r="32" fill="url(#healingGradient)" 
+                            class="principle-node" filter="url(#healing-glow)" />
+                    <text x="390" y="572" font-size="16" text-anchor="middle" 
+                          fill="white" font-weight="600" class="principle-text">💙</text>
+                    <text x="390" y="590" font-size="12" text-anchor="middle" 
+                          fill="white" font-weight="600" class="principle-text">🕊️</text>
+                    <text x="390" y="630" font-size="14" text-anchor="middle" 
+                          fill="#663399" font-weight="700" class="principle-text">
+                        Collective Healing
+                    </text>
+                </g>
+                
+                <!-- Enhanced Center Hub -->
+                <circle cx="450" cy="350" r="90" fill="url(#centerGradient)" 
+                        class="center-hub floating" />
+                <text x="450" y="335" font-size="18" text-anchor="middle" 
+                      fill="white" font-weight="700">
+                    Global Governance
+                </text>
+                <text x="450" y="355" font-size="18" text-anchor="middle" 
+                      fill="white" font-weight="700">
+                    Frameworks
+                </text>
+                <text x="450" y="375" font-size="12" text-anchor="middle" 
+                      fill="rgba(255,255,255,0.8)" font-weight="500">
+                    Interconnected Systems
+                </text>
+                
+                <!-- Enhanced Legend with modern styling -->
+                <g class="legend" transform="translate(50, 600)">
+                    <rect x="-10" y="-15" width="820" height="80" 
+                          fill="rgba(255,255,255,0.9)" rx="15" 
+                          stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
+                    <text x="10" y="5" font-size="16" font-weight="700" fill="#2B4B8C">
+                        Principle Categories:
+                    </text>
+                    <g transform="translate(10, 25)">
+                        <circle cx="10" cy="0" r="10" fill="url(#greenGradient)" />
+                        <text x="30" y="5" font-size="13" fill="#2D5F2D" font-weight="600">
+                            Governance Structure
+                        </text>
+                    </g>
+                    <g transform="translate(200, 25)">
+                        <circle cx="10" cy="0" r="10" fill="url(#brownGradient)" />
+                        <text x="30" y="5" font-size="13" fill="#654321" font-weight="600">
+                            Rights & Environment
+                        </text>
+                    </g>
+                    <g transform="translate(400, 25)">
+                        <circle cx="10" cy="0" r="10" fill="url(#goldGradient)" />
+                        <text x="30" y="5" font-size="13" fill="#DAA520" font-weight="600">
+                            Resource & Conflict
+                        </text>
+                    </g>
+                    <g transform="translate(580, 25)">
+                        <circle cx="10" cy="0" r="10" fill="url(#healingGradient)" />
+                        <text x="30" y="5" font-size="13" fill="#663399" font-weight="600">
+                            Evolution & Healing
+                        </text>
+                    </g>
+                </g>
+            </svg>
+            
+            <!-- Interactive tooltip -->
+            <div class="interactive-tooltip" id="tooltip"></div>
+        </div>
+    </div>
+    
+    <script>
+        // Enhanced interactivity
+        const principleNodes = document.querySelectorAll('.principle-node');
+        const tooltip = document.getElementById('tooltip');
+        
+        const principleInfo = {
+            'Decentralized Authority': 'Power distributed across multiple centers rather than concentrated in single authorities',
+            'Radical Transparency': 'Open decision-making processes with full visibility into governance actions',
+            'Direct Participation': 'Citizens directly involved in decision-making rather than just voting for representatives',
+            'Universal Human Rights': 'Fundamental rights and dignities protected for all people universally',
+            'Environmental Stewardship': 'Active care and protection of Earth\'s ecosystems for future generations',
+            'Cultural Autonomy': 'Communities\' right to maintain and develop their unique cultural practices',
+            'Ethical Technology': 'Technology development guided by human welfare and ethical considerations',
+            'Resource Justice': 'Fair distribution of Earth\'s resources based on need and sustainability',
+            'Peaceful Conflict': 'Resolving disputes through dialogue and restorative processes',
+            'Balance of Integration': 'Harmonizing global coordination with local diversity and autonomy',
+            'Adaptive Evolution': 'Systems designed to learn, grow, and improve over time',
+            'Cosmic Ethics': 'Considering our responsibilities to the broader universe and future',
+            'Resilience and Anti-Fragility': 'Building systems that not only survive shocks but grow stronger',
+            'Collective Healing': 'Addressing historical trauma and creating conditions for community restoration and emotional intelligence'
+        };
+        
+        principleNodes.forEach(node => {
+            const group = node.closest('.principle-group');
+            const textElement = group?.querySelector('.principle-text');
+            const principleText = textElement?.textContent?.trim();
+            
+            node.addEventListener('mouseenter', (e) => {
+                if (principleText && principleInfo[principleText]) {
+                    tooltip.textContent = principleInfo[principleText];
+                    tooltip.style.opacity = '1';
+                }
+                
+                // Add pulsing effect
+                node.style.animation = 'pulse 1s ease-in-out infinite';
+            });
+            
+            node.addEventListener('mousemove', (e) => {
+                tooltip.style.left = e.pageX + 10 + 'px';
+                tooltip.style.top = e.pageY - 30 + 'px';
+            });
+            
+            node.addEventListener('mouseleave', () => {
+                tooltip.style.opacity = '0';
+                node.style.animation = '';
+            });
+        });
+        
+        // Enhanced connection line interactions
+        const connectionLines = document.querySelectorAll('.connection-line');
+        connectionLines.forEach(line => {
+            line.addEventListener('mouseenter', () => {
+                line.style.strokeWidth = '4';
+                line.style.opacity = '1';
+                line.style.filter = 'drop-shadow(0 0 8px currentColor)';
+            });
+            
+            line.addEventListener('mouseleave', () => {
+                line.style.strokeWidth = '3';
+                line.style.opacity = '0.8';
+                line.style.filter = '';
+            });
+        });
+    </script>
+</body>
+</html>
