@@ -144,6 +144,8 @@ Istället för att bara reagera på brott, kommer vi att förebygga dem:
 
 **Varför detta gör Amerika stort:** Detta är det yttersta uttrycket för "Vi, folket". När amerikaner leder, vinner Amerika. När vi går förbi det korrupta systemet och låter medborgarna styra direkt, får vi det land vi faktiskt vill ha.
 
+*Nyfiken på hur medborgarförsamlingar fungerar i praktiken? Se bilagan i slutet av det här inlägget.
+
 ### 9\. Vinn 2000-talet genom att ändra spelet
 
 **Utmaningen:** I årtionden har vi sett Kina och andra rivaler stjäla våra jobb och vår teknologi. Den gamla spelboken med tullar och handelskrig är som att sätta ett plåster på ett skotthål. Vi spelar deras spel, men vi måste ändra hela spelet.
@@ -206,6 +208,21 @@ Det här är inte bara politik – det är nästa kapitel i den amerikanska hist
 
 **Om vi var Trump, är det så här vi verkligen skulle göra Amerika stort igen.**
 
------
+---
 
 *Detta tankeexperiment visar hur Global Governance Frameworks kan bemöta de legitima bekymmer som ligger bakom politiska rörelser samtidigt som de erbjuder mer effektiva, systemiska lösningar. Läs mer om dessa ramverk på [GlobalGovernanceFrameworks.org](https://globalgovernanceframeworks.org).*
+
+---
+
+### ***Appendix: Hur fungerar medborgarförsamlingar i praktiken?***
+
+En vanlig och rättvis fråga är: hur kan vi lita på att vanliga människor fattar kloka beslut i komplicerade frågor?
+
+Medborgarförsamlingar är noggrant utformade för att kombinera **vanliga människors sunda förnuft och levda erfarenheter** med **experters specialiserade kunskap**. Processen är inte bara en omröstning; det är en strukturerad överläggning:
+
+1.  **Inlärningsfas:** Församlingens medlemmar, som väljs ut slumpmässigt likt en jury, får först lära sig om ämnet från ett brett urval av ledande, opartiska experter och intressenter.
+2.  **Överläggningsfas:** Medlemmarna diskuterar vad de har lärt sig, väger olika perspektiv och hittar gemensam mark under ledning av neutrala facilitatorer.
+3.  **Rekommendationsfas:** Församlingens slutprodukt är en uppsättning **värdebaserade rekommendationer**, inte ett detaljerat tekniskt lagförslag. De kan till exempel rekommendera att "minska statsskulden, men inte på bekostnad av att utsatta medborgare hamnar i fattigdom." Dessa principer vägleder sedan experter och tjänstemän i utformningen av den faktiska lagstiftningen.
+
+Denna process har använts framgångsrikt på platser som Irland för att lösa omstridda frågor, vilket bevisar att vanliga medborgare, när de får rätt information och en bra process, är mer än kapabla att hitta kloka, förnuftiga lösningar.
+
