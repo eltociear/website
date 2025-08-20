@@ -56,7 +56,7 @@ This isn't just a handout—it's a smart, adaptive system that recognizes Americ
 
 **The Challenge:** Hedge funds are buying up American neighborhoods, pricing out working families and veterans.
 
-**Our Solution: Deploy the Hearthstone Protocol for Community Stewardship**
+**Our Solution: Deploy the [Hearthstone Protocol](/frameworks/hearthstone-protocol) for Community Stewardship**
 
 We'll create **Community Stewardship Trusts**—the ultimate weapon against Wall Street housing speculation:
 
@@ -71,12 +71,12 @@ We'll create **Community Stewardship Trusts**—the ultimate weapon against Wall
 
 **The Challenge:** Crime is rising, communities are fragmenting, and we're spending billions on reactive approaches that don't work.
 
-**Our Solution: Build Community Safety from the Ground Up with the Kintsugi Protocol**
+**Our Solution: Build Community Safety from the Ground Up with the [Kintsugi Protocol](/frameworks/kintsugi-protocol)**
 
 Instead of just reacting to crime, we'll prevent it:
 
 **Create the Ultimate American Safety Force:** Our veterans, with their unparalleled training and commitment to service, are the ideal candidates to become our nation's first **Community Safety Weavers**—respected community members who can de-escalate conflicts and respond to non-violent crises
-- Address mental health and addiction as health issues, not criminal ones, through the **Cairn Protocol**
+- Address mental health and addiction as health issues, not criminal ones, through the **[Cairn Protocol](/frameworks/cairn-protocol)**
 - Fund **Community Work Teams** through the Work in Liberation Framework to rebuild neighborhoods—fixing parks, maintaining infrastructure, creating beautiful public spaces
 - Americans get paid in "Hearts" for making their communities stronger
 
@@ -86,7 +86,7 @@ Instead of just reacting to crime, we'll prevent it:
 
 **The Challenge:** We're still dependent on volatile global energy markets and our infrastructure is vulnerable to attacks, natural disasters, and foreign interference.
 
-**Our Solution: Build the Ultimate American Energy Grid with the Conduit Protocol**
+**Our Solution: Build the Ultimate American Energy Grid with the [Conduit Protocol](/frameworks/conduit-protocol)**
 
 **America's Unbreakable Infrastructure:** Create a modern, resilient, unified American energy, water, and data grid that can't be taken down by hackers, storms, or sabotage. Every community gets reliable power, clean water, and secure internet—guaranteed.
 
