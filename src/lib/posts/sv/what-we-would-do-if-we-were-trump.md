@@ -35,7 +35,7 @@ Här är vad vi skulle göra för att verkligen göra Amerika stort igen:
 
 **Utmaningen:** Lönerna har inte hållit jämna steg med kostnaderna. Arbetande familjer är en nödsituation från fattigdom.
 
-**Vår lösning: Lansera systemet för adaptiv medborgarlön (AUBI)**
+**Vår lösning: Lansera systemet för adaptiv medborgarlön [(AUBI)](/frameworks/adaptive-universal-basic-income)**
 
 Det här är inte bara en allmosa – det är ett smart, adaptivt system som inser att amerikaner är olika och har olika behov:
 
@@ -52,7 +52,7 @@ Det här är inte bara en allmosa – det är ett smart, adaptivt system som ins
 
 **Utmaningen:** Hedgefonder köper upp amerikanska bostadsområden och pressar ut arbetande familjer och veteraner från marknaden.
 
-**Vår lösning: Implementera Hearthstone-protokollet för gemenskapsförvaltning**
+**Vår lösning: Implementera [Hearthstone-protokollet](/frameworks/hearthstone-protocol) för gemenskapsförvaltning**
 
 Vi kommer att skapa **Community Stewardship Trusts** – det ultimata vapnet mot Wall Streets bostadsspekulation:
 
@@ -67,13 +67,13 @@ Vi kommer att skapa **Community Stewardship Trusts** – det ultimata vapnet mot
 
 **Utmaningen:** Brottsligheten ökar, samhällen splittras och vi spenderar miljarder på reaktiva metoder som inte fungerar.
 
-**Vår lösning: Bygg trygghet från grunden med Kintsugi-protokollet**
+**Vår lösning: Bygg trygghet från grunden med [Kintsugi-protokollet](/frameworks/kintsugi-protocol)**
 
 Istället för att bara reagera på brott, kommer vi att förebygga dem:
 
 **Skapa den ultimata amerikanska trygghetsstyrkan:** Våra veteraner, med sin oöverträffade träning och engagemang för tjänst, är de ideala kandidaterna att bli vår nations första **trygghetsvävare** – respekterade samhällsmedlemmar som kan de-eskalera konflikter och hantera icke-våldsamma kriser.
 
-  * Adressera psykisk ohälsa och missbruk som hälsofrågor, inte kriminella, genom **Cairn-protokollet**.
+  * Adressera psykisk ohälsa och missbruk som hälsofrågor, inte kriminella, genom **[Cairn-protokollet](/frameworks/cairn-protocol)**.
   * Finansiera **gemensamma arbetslag** genom Work in Liberation Framework för att återuppbygga bostadsområden – fixa parker, underhålla infrastruktur, skapa vackra offentliga platser.
   * Amerikaner får betalt i "Hjärtan" för att göra sina samhällen starkare.
 
@@ -83,7 +83,7 @@ Istället för att bara reagera på brott, kommer vi att förebygga dem:
 
 **Utmaningen:** Vi är fortfarande beroende av volatila globala energimarknader och vår infrastruktur är sårbar för attacker, naturkatastrofer och utländsk inblandning.
 
-**Vår lösning: Bygg det ultimata amerikanska energinätet med Conduit-protokollet**
+**Vår lösning: Bygg det ultimata amerikanska energinätet med [Conduit-protokollet](/frameworks/conduit-protocol)**
 
 **Amerikas okrossbara infrastruktur:** Skapa ett modernt, motståndskraftigt och enat amerikanskt nät för energi, vatten och data som inte kan slås ut av hackare, stormar eller sabotage. Varje samhälle får pålitlig el, rent vatten och säkert internet – garanterat.
 
@@ -114,7 +114,7 @@ Istället för att bara reagera på brott, kommer vi att förebygga dem:
 
 **Vår lösning: Avsluta läkemedelsjättarnas strupgrepp med American Patriot Pharmaceutical Commons**
 
-**Ta tillbaka läkemedelstillverkningen:** Lansera Prometheus-protokollet för att skapa ett amerikanskt kontrollerat läkemedelssystem. Vi kommer att använda amerikansk forskning och utveckling för att ta fram livräddande mediciner som är överkomliga för alla amerikaner, inte bara de rika. Vi ska inte längre hållas som gisslan av utländska leveranskedjor eller prissättande företag.
+**Ta tillbaka läkemedelstillverkningen:** Lansera [Prometheus-protokollet](/frameworks/prometheus-protocol) för att skapa ett amerikanskt kontrollerat läkemedelssystem. Vi kommer att använda amerikansk forskning och utveckling för att ta fram livräddande mediciner som är överkomliga för alla amerikaner, inte bara de rika. Vi ska inte längre hållas som gisslan av utländska leveranskedjor eller prissättande företag.
 
 **Investera i hälsa, inte sjukdom:** Gå från ett system som tjänar på att hålla människor sjuka till ett som håller amerikaner friska. Integrera det bästa av modern medicin med beprövade förebyggande strategier. När amerikaner är friskare är de mer produktiva, mer innovativa och starkare.
 
@@ -150,7 +150,7 @@ Istället för att bara reagera på brott, kommer vi att förebygga dem:
 
 **Vår lösning: Släpp lös amerikansk innovation och utkonkurrera alla**
 
-**Den amerikanska vetenskaps-superladdaren:** Lansera Discovery Commons – ett öppet amerikanskt forskningssystem där all offentligt finansierad vetenskap blir en delad resurs. Det här handlar inte om att "ge bort våra hemligheter" – det handlar om att accelerera amerikansk innovation i en hastighet som stängda, toppstyrda system som Kinas aldrig kan matcha. Vi vinner genom att vara mer öppna, mer samarbetsvilliga och snabbare.
+**Den amerikanska vetenskaps-superladdaren:** Lansera [Discovery Commons](/frameworks/discovery-commons) – ett öppet amerikanskt forskningssystem där all offentligt finansierad vetenskap blir en delad resurs. Det här handlar inte om att "ge bort våra hemligheter" – det handlar om att accelerera amerikansk innovation i en hastighet som stängda, toppstyrda system som Kinas aldrig kan matcha. Vi vinner genom att vara mer öppna, mer samarbetsvilliga och snabbare.
 
 **Made-in-America-mästare:** Skapa en ny generation av regenerativa företag – företag som är mer motståndskraftiga, mer innovativa och mer anslutna till sina samhällen. Dessa företag krossar konkurrensen eftersom de är byggda för att hålla, inte bara för att nå kvartalsmål. När amerikanska företag är starkare från grunden, dominerar de globalt.
 
@@ -183,6 +183,14 @@ Istället för att bara reagera på brott, kommer vi att förebygga dem:
 **Resultat:** Ett system som investerar i amerikaner istället för att rädda företag. Istället för välfärd som fångar människor, får vi en plattform som lanserar dem.
 
 Valet är enkelt: ska vi fortsätta finansiera ett trasigt system som gynnar våra rivaler och Wall Street, eller ska vi börja investera i det amerikanska folket? Vår plan gör valet tydligt.
+
+## Ett djupare syfte: En plan för nationell läkning
+
+Denna doktrin är mer än bara politik – det är en form av samhällsterapi utformad för att läka de sår som splittrar oss. Genom att tillhandahålla genuin ekonomisk trygghet genom AUBI tar vi itu med den överlevnadsångest som håller vårt kollektiva nervsystem i konstant kamp-eller-flykt-läge. Genom att föra samman amerikaner i medborgarförsamlingar för att lösa verkliga problem skapar vi det som forskare kallar "empati genom närhet" – motgiftet mot vi-mot-dem-tänkandet som sliter isär samhällen.
+
+När människor känner sig verkligt trygga och genuint hörda, när deras bidrag spelar roll och deras grannar inte är hot utan partners, försvinner den psykologiska jorden som odlar splittring helt enkelt. Denna plan löser inte bara Amerikas problem – den läker de underliggande såren av frånkoppling, maktlöshet och förtvivlan som skapar dessa problem från första början.
+
+Detta är styrning som läkning. Detta är politik som medicin för en splittrad nation.
 
 ## Slutsatsen
 

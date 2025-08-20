@@ -37,7 +37,7 @@ Here's what we would do to truly make America great again:
 
 **The Challenge:** Wages haven't kept up with costs. Working families are one emergency away from poverty.
 
-**Our Solution: Launch the Adaptive Universal Basic Income (AUBI) System**
+**Our Solution: Launch the [Adaptive Universal Basic Income (AUBI) System](/frameworks/adaptive-universal-basic-income)**
 
 ![The AUBI System Explained](/images/blog/what-we-would-do-if-we-were-trump/aubi-system-explained.svg)
 
@@ -117,7 +117,7 @@ Instead of just reacting to crime, we'll prevent it:
 
 **Our Solution: End Big Pharma's Stranglehold with the American Patriot Pharmaceutical Commons**
 
-**Take Back Drug Manufacturing:** Launch the Prometheus Protocol to create an American-controlled pharmaceutical system. We'll use American R&D to develop life-saving medicines that are affordable for all Americans, not just the wealthy. No more being held hostage by foreign supply chains or price-gouging corporations.
+**Take Back Drug Manufacturing:** Launch the [Prometheus Protocol](/frameworks/prometheus-protocol) to create an American-controlled pharmaceutical system. We'll use American R&D to develop life-saving medicines that are affordable for all Americans, not just the wealthy. No more being held hostage by foreign supply chains or price-gouging corporations.
 
 **Invest in Health, Not Sickness:** Shift from a system that profits from keeping people sick to one that keeps Americans healthy. Integrate the best of modern medicine with proven prevention strategies. When Americans are healthier, they're more productive, more innovative, and stronger.
 
@@ -153,7 +153,7 @@ Instead of just reacting to crime, we'll prevent it:
 
 **Our Solution: Unleash American Innovation and Outcompete Everyone**
 
-**The American Science Supercharger:** Launch the Discovery Commons—an open American research system where all publicly funded science becomes a shared resource. This isn't "giving our secrets away"—it's about accelerating American innovation at a speed that closed, top-down systems like China's can never match. We win by being more open, more collaborative, and faster.
+**The American Science Supercharger:** Launch the [Discovery Commons](/frameworks/discovery-commons)—an open American research system where all publicly funded science becomes a shared resource. This isn't "giving our secrets away"—it's about accelerating American innovation at a speed that closed, top-down systems like China's can never match. We win by being more open, more collaborative, and faster.
 
 **Made-in-America Champions:** Create a new generation of Regenerative Enterprises—businesses that are more resilient, more innovative, and more connected to their communities. These companies crush the competition because they're built to last, not just to hit quarterly numbers. When American businesses are stronger from the ground up, they dominate globally.
 
@@ -188,6 +188,14 @@ Instead of just reacting to crime, we'll prevent it:
 **Result:** A system that invests in Americans instead of bailing out corporations. Instead of welfare that traps people, we get a platform that launches them.
 
 The choice is simple: do we keep funding a broken system that benefits our rivals and Wall Street, or do we start investing in the American people? Our plan makes the choice clear.
+
+## A Deeper Purpose: A Plan for National Healing
+
+This doctrine is more than just policy—it's a form of societal therapy designed to heal the wounds that divide us. By providing genuine economic security through AUBI, we address the survival anxiety that keeps our collective nervous system in constant fight-or-flight mode. By bringing Americans together in Citizen Assemblies to solve real problems, we create what researchers call "empathy through proximity"—the antidote to the us-versus-them thinking that tears communities apart.
+
+When people feel truly secure and genuinely heard, when their contributions matter and their neighbors aren't threats but partners, the psychological soil that grows division simply disappears. This plan doesn't just fix America's problems—it heals the underlying wounds of disconnection, powerlessness, and despair that create those problems in the first place.
+
+This is governance as healing. This is policy as medicine for a fractured nation.
 
 ## The Bottom Line
 
