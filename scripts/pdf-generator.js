@@ -62,6 +62,7 @@ Available categories:
 - bioregional-polis
 - sundown-protocol
 - mobility-commons
+- oceans-and-marine-governance
 - emergent-governance-protocol
 - disaster-risk-reduction
 - ggf-overview
@@ -119,6 +120,7 @@ const outputDirs = {
   'indigenous-governance-and-traditional-knowledge': path.join(__dirname, '..', 'static', 'frameworks','tools', 'indigenous-governance-and-traditional-knowledge'),
   'emergent-governance-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'emergent-governance-protocol'),
   'living-land-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'living-land-protocol'),
+  'oceans-and-marine-governance': path.join(__dirname, '..', 'static', 'frameworks','tools', 'oceans-and-marine-governance'),
   'mobility-commons': path.join(__dirname, '..', 'static', 'frameworks','tools', 'mobility-commons'),
   'disaster-risk-reduction': path.join(__dirname, '..', 'static', 'frameworks','tools', 'disaster-risk-reduction'),
   'sundown-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'sundown-protocol'),
@@ -285,6 +287,63 @@ const tools = [
     'pillar-5',
     'unified-workflow',
     'conclusion'
+    ]
+  },
+
+  // Oceans & Marine Governance
+  {
+    name: 'executive-summary-for-the-skeptic',
+    category: 'oceans-and-marine-governance',
+    fileNames: {
+      en: 'oceans-and-marine-governance-executive-summary-en',
+      sv: 'oceans-and-marine-governance-executive-summary-sv'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'oceans-and-marine-governance'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'oceans-and-marine-governance')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'assets', 'pdf'),
+      sv: path.join(__dirname, '..', 'static', 'assets', 'pdf')
+    },
+    pageFooter: {
+      en: 'Oceans & Marine Governance - Executive Summary for the Skeptic',
+      sv: 'Havs- och marinstyrning - Sammanfattning för skeptiker'
+    }
+  },
+
+  // Full framework
+  {
+    name: 'oceans-and-marine-governance-framework',
+    category: 'oceans-and-marine-governance',
+    fileNames: {
+      en: 'Oceans-And-Marine-Governance-Framework',
+      sv: 'Oceans-And-Marine-Governance-Framework'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'oceans-and-marine-governance'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'oceans-and-marine-governance')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'downloads', 'en'),
+      sv: path.join(__dirname, '..', 'static', 'downloads', 'sv')
+    },
+    pageFooter: {
+      en: 'Oceans & Marine Governance Framework',
+      sv: 'Ramkverk för havs- och marinstyrning'
+    },
+    sections: [
+      'index',
+      'introduction-vision',
+      'blue-heart-metaphor',
+      'framework-integration',
+      'three-pillars',
+      'key-innovations',
+      'implementation-roadmap',
+      'economic-model',
+      'faq',
+      'getting-involved',
+      'appendices'
     ]
   },
 

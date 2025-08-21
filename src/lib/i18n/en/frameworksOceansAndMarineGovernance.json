@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "title": "Oceans & Marine Governance Framework - Global Governance Framework",
+    "description": "A comprehensive framework for ocean stewardship, marine ecosystem rights, and regenerative blue economy governance"
+  },
+  "guideCard": {
+    "title": "New to Ocean Governance?",
+    "description": "Start with our executive summary to understand how we can transform our relationship with the Blue Heart of our planet.",
+    "buttonText": "Read Executive Summary"
+  },
+  "categories": {
+    "overview": "Overview",
+    "foundation": "Foundation",
+    "framework": "Blue Heart Framework", 
+    "resources": "Resources & Action"
+  },
+  "sections": {
+    "index": "Framework Overview",
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary",
+    "introduction-vision": "Introduction & Vision",
+    "blue-heart-metaphor": "Blue Heart Metaphor",
+    "framework-integration": "Framework Integration",
+    "three-pillars": "Three Pillars",
+    "key-innovations": "Key Innovations", 
+    "implementation-roadmap": "Implementation Roadmap",
+    "economic-model": "Economic Model",
+    "faq": "Frequently Asked Questions",
+    "getting-involved": "Getting Involved",
+    "appendices": "Appendices"
+  },
+  "sectionsShort": {
+    "index": "Overview",
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary",
+    "introduction-vision": "Introduction",
+    "blue-heart-metaphor": "Blue Heart",
+    "framework-integration": "Integration",
+    "three-pillars": "Three Pillars",
+    "key-innovations": "Innovations",
+    "implementation-roadmap": "Roadmap",
+    "economic-model": "Economics",
+    "faq": "FAQ",
+    "getting-involved": "Get Involved",
+    "appendices": "Appendices"
+  },
+  "navigation": {
+    "downloadPdf": "Download PDF Version",
+    "continueToFramework": "Continue to Full Framework",
+    "previousSection": "Previous Section",
+    "nextSection": "Next Section"
+  },
+  "progress": {
+    "text": "Section {current} of {total}"
+  },
+  "languageFallback": {
+    "title": "Content in your language coming soon",
+    "description": "This section is currently displayed in English until translation is complete."
+  },
+  "loading": {
+    "text": "Loading ocean governance content..."
+  },
+  "errors": {
+    "sectionNotFound": "Section \"{section}\" not found",
+    "contentInDevelopment": "This content is still being developed."
+  },
+  "pillars": {
+    "guardianship": {
+      "title": "Guardianship",
+      "subtitle": "The Protective Layer",
+      "description": "Defending the Ocean from Harm",
+      "icon": "🛡️"
+    },
+    "circulation": {
+      "title": "Circulation", 
+      "subtitle": "The Flow Layer",
+      "description": "Ensuring Regenerative Resource Flows",
+      "icon": "🌊"
+    },
+    "depth": {
+      "title": "Depth",
+      "subtitle": "The Wisdom Layer", 
+      "description": "Approaching the Unknown with Humility",
+      "icon": "🌌"
+    }
+  },
+  "innovations": {
+    "rightsBasedApproach": {
+      "title": "Rights-Based Approach",
+      "description": "First comprehensive framework granting legal personhood to marine ecosystems at global scale"
+    },
+    "mgcc": {
+      "title": "Meta-Governance Coordination Council",
+      "description": "40% Indigenous representation with veto power, coordinating enforcement across territorial waters"
+    },
+    "digitalOceanTwin": {
+      "title": "Digital Ocean Twin",
+      "description": "AI-powered real-time monitoring integrated with traditional knowledge systems"
+    },
+    "ethicalTradeZones": {
+      "title": "Ethical Trade Zones",
+      "description": "Nations meeting Treaty criteria gain preferential trade terms"
+    },
+    "crisisProtocols": {
+      "title": "Crisis Management Protocols",
+      "description": "48-hour response guarantee for major incidents with pre-allocated emergency funds"
+    }
+  },
+  "phases": {
+    "secureTheHeart": {
+      "title": "Secure the Heart",
+      "timeframe": "Year 0 to Year 5",
+      "description": "Ratify Treaty provisions, establish first BAZs, pilot Digital Ocean Twin",
+      "targets": "20% illegal fishing reduction, 10 ecosystems with legal rights"
+    },
+    "healTheArteries": {
+      "title": "Heal the Arteries", 
+      "timeframe": "Year 6 to Year 15",
+      "description": "Implement mining ban, scale BAZs to 50% EEZ coverage, restore mangroves",
+      "targets": "100% seabed protected, 50% plastic pollution reduction"
+    },
+    "awakenConsciousness": {
+      "title": "Awaken the Consciousness",
+      "timeframe": "Year 16 to Year 25", 
+      "description": "Full cultural integration, 100% compliance with protective measures",
+      "targets": "Thriving marine ecosystems, regenerative relationship with Blue Heart"
+    }
+  },
+  "economicModel": {
+    "annualBudget": "$300M globally by 2030",
+    "fundingSources": {
+      "title": "Funding Sources",
+      "oceanImpactBonds": "Ocean Impact Bonds ($90M annually)",
+      "greenClimateFund": "Green Climate Fund allocations", 
+      "oceanCarbonTax": "Ocean Carbon Tax revenue",
+      "blueHeartBonds": "Blue Heart Bonds from private sector",
+      "crowdfunding": "Crowdfunding through #BlueHeart campaigns"
+    },
+    "budgetAllocation": {
+      "title": "Budget Allocation",
+      "bazGrants": "40% BAZ Grants ($120M)",
+      "oceanImpactBonds": "30% Ocean Impact Bonds ($90M)",
+      "resilienceFund": "20% Resilience Fund & Crisis Response ($60M)",
+      "mgccOperations": "10% MGCC Operations ($30M)"
+    },
+    "returnOnInvestment": {
+      "title": "Return on Investment",
+      "mangroveRestoration": "Mangrove restoration yields $1.5B annually in ecosystem services",
+      "costaRicaModel": "Costa Rica model projects $150B in dividends over 10 years"
+    }
+  },
+  "gettingInvolved": {
+    "governments": {
+      "title": "For Governments",
+      "actions": [
+        "Sign Observer Status agreements",
+        "Pilot BAZ implementation", 
+        "Contribute to Ocean Impact Bonds",
+        "Integrate Blue Heart principles into national policies"
+      ]
+    },
+    "organizations": {
+      "title": "For Organizations",
+      "actions": [
+        "Partner with MGCC for community monitoring",
+        "Pursue Blue Stewardship Certification",
+        "Engage in Blue Heart Industry Dialogue"
+      ]
+    },
+    "individuals": {
+      "title": "For Individuals", 
+      "actions": [
+        "Support #BlueHeart campaigns",
+        "Advocate for marine ecosystem rights",
+        "Participate in citizen science monitoring",
+        "Learn traditional ocean knowledge"
+      ]
+    },
+    "coastalCommunities": {
+      "title": "For Coastal Communities",
+      "actions": [
+        "Explore BAZ establishment",
+        "Apply for Community Grants for monitoring tools",
+        "Engage in Indigenous-led marine governance training"
+      ]
+    }
+  },
+  "faq": {
+    "differenceFromExisting": {
+      "question": "How does this differ from existing ocean governance?",
+      "answer": "This framework provides comprehensive rights-based protection with enforcement mechanisms, Indigenous-led governance, and regenerative economic incentives—going far beyond current fragmented approaches."
+    },
+    "nationalSovereignty": {
+      "question": "What about national sovereignty over territorial waters?",
+      "answer": "The framework operates within existing UNCLOS frameworks while enhancing enforcement and coordination. Nations maintain sovereignty while participating in beneficial coordination systems."
+    },
+    "nonCompliantPowers": {
+      "question": "How do you handle non-compliant major powers?",
+      "answer": "Tiered economic incentives, Ethical Trade Zones, and secondary sanctions on third-party entities create pressure while offering face-saving participation pathways."
+    },
+    "economicFeasibility": {
+      "question": "Is this economically feasible?",
+      "answer": "The $300M annual budget represents just 1.4% of current harmful subsidies. Economic modeling shows positive returns through ecosystem services and reduced disaster costs."
+    },
+    "technologicalBias": {
+      "question": "How do you prevent technological bias?",
+      "answer": "GDGC Tech Ethics Sub-Committee provides quarterly audits, Indigenous Data Sovereignty protocols ensure community control, and diverse datasets prevent algorithmic bias."
+    }
+  },
+  "blueHeart": {
+    "metaphor": {
+      "title": "The Blue Heart of the Planet",
+      "description": "The ocean as the vital organ that sustains all life—not just a resource to exploit, but a sacred circulatory system",
+      "quote": "The ocean is the Blue Heart of the Planet—a sacred, living covenant that circulates life, regulates climate, and connects all beings in a web of interdependence."
+    },
+    "layers": {
+      "protective": {
+        "title": "Protective Layer (Guardianship)",
+        "description": "Legal rights for marine ecosystems, enforcement of protective regulations, and defense against destructive practices"
+      },
+      "flow": {
+        "title": "Flow Layer (Circulation)", 
+        "description": "Regenerative economic systems, community monitoring networks, and sustainable resource flows"
+      },
+      "wisdom": {
+        "title": "Wisdom Layer (Depth)",
+        "description": "Integration of scientific knowledge with traditional wisdom, precautionary approaches to unknown ecosystems"
+      }
+    }
+  },
+  "stakes": {
+    "success": "Success means thriving oceans supporting all life",
+    "failure": "Failure means ecosystem collapse and civilizational crisis"
+  },
+  "callToAction": {
+    "ending": "The age of ocean exploitation is ending. The era of Blue Heart stewardship begins now.",
+    "join": "Join us in transforming humanity's relationship with the ocean from extraction to reverence, guided by the wisdom of those who have always known the sea as sacred."
+  },
+  "appendices": {
+    "communicationsStrategy": {
+      "title": "Communications Strategy",
+      "description": "Strategic outreach and engagement plans for building the Blue Heart movement globally"
+    },
+    "pilotProject": {
+      "title": "Pilot Project",
+      "description": "Detailed implementation blueprint for Marine Protected Areas in Palau and Norway BAZs (2025-2030)"
+    },
+    "modelLegislation": {
+      "title": "Model Legislation", 
+      "description": "Draft legal frameworks including the Blue Heart Act and Marine Ecosystem Rights Act"
+    },
+    "glossary": {
+      "title": "Glossary",
+      "description": "Comprehensive definitions of key terms including Blue Heart metaphor, FPIC 2.0 protocols, and Hearts/Leaves currencies"
+    }
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "title": "Ramverk för hav & marin styrning - Globala styrningsramverket",
+    "description": "Ett omfattande ramverk för havsförvaltning, marina ekosystems rättigheter och styrning av en regenerativ blå ekonomi"
+  },
+  "guideCard": {
+    "title": "Ny inom havsstyrning?",
+    "description": "Börja med vår sammanfattning för att förstå hur vi kan omvandla vår relation till planetens blå hjärta.",
+    "buttonText": "Läs sammanfattningen"
+  },
+  "categories": {
+    "overview": "Översikt",
+    "foundation": "Grund",
+    "framework": "Blå hjärtats ramverk",
+    "resources": "Resurser & agerande"
+  },
+  "sections": {
+    "index": "Ramverksöversikt",
+    "at-a-glance": "I korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning",
+    "introduction-vision": "Introduktion & vision",
+    "blue-heart-metaphor": "Blå hjärtats metafor",
+    "framework-integration": "Ramverksintegration",
+    "three-pillars": "Tre pelare",
+    "key-innovations": "Nyckelinnovationer",
+    "implementation-roadmap": "Implementeringsfärdplan",
+    "economic-model": "Ekonomisk modell",
+    "faq": "Vanliga frågor",
+    "getting-involved": "Engagera dig",
+    "appendices": "Bilagor"
+  },
+  "sectionsShort": {
+    "index": "Översikt",
+    "at-a-glance": "I korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning",
+    "introduction-vision": "Introduktion",
+    "blue-heart-metaphor": "Blå hjärtat",
+    "framework-integration": "Integration",
+    "three-pillars": "Tre pelare",
+    "key-innovations": "Innovationer",
+    "implementation-roadmap": "Färdplan",
+    "economic-model": "Ekonomi",
+    "faq": "FAQ",
+    "getting-involved": "Engagera dig",
+    "appendices": "Bilagor"
+  },
+  "navigation": {
+    "downloadPdf": "Ladda ner PDF-version",
+    "continueToFramework": "Fortsätt till hela ramverket",
+    "previousSection": "Föregående avsnitt",
+    "nextSection": "Nästa avsnitt"
+  },
+  "progress": {
+    "text": "Avsnitt {current} av {total}"
+  },
+  "languageFallback": {
+    "title": "Innehåll på ditt språk kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+  },
+  "loading": {
+    "text": "Laddar innehåll om havsstyrning..."
+  },
+  "errors": {
+    "sectionNotFound": "Avsnittet \"{section}\" hittades inte",
+    "contentInDevelopment": "Detta innehåll är fortfarande under utveckling."
+  },
+  "pillars": {
+    "guardianship": {
+      "title": "Beskyddarskap",
+      "subtitle": "Det skyddande lagret",
+      "description": "Försvara havet från skada",
+      "icon": "🛡️"
+    },
+    "circulation": {
+      "title": "Cirkulation",
+      "subtitle": "Flödeslagret",
+      "description": "Säkerställa regenerativa resursflöden",
+      "icon": "🌊"
+    },
+    "depth": {
+      "title": "Djup",
+      "subtitle": "Visdomslagret",
+      "description": "Närma sig det okända med ödmjukhet",
+      "icon": "🌌"
+    }
+  },
+  "innovations": {
+    "rightsBasedApproach": {
+      "title": "Rättighetsbaserat tillvägagångssätt",
+      "description": "Första heltäckande ramverket som ger juridisk personlighet till marina ekosystem på global skala"
+    },
+    "mgcc": {
+      "title": "Samordningsrådet för meta-styrning",
+      "description": "40 % urfolksrepresentation med vetorätt, samordnar efterlevnad över territorialvatten"
+    },
+    "digitalOceanTwin": {
+      "title": "Digital havstvilling",
+      "description": "AI-driven realtidsövervakning integrerad med traditionella kunskapssystem"
+    },
+    "ethicalTradeZones": {
+      "title": "Etiska handelszoner",
+      "description": "Nationer som uppfyller fördragskriterierna får förmånliga handelsvillkor"
+    },
+    "crisisProtocols": {
+      "title": "Krishanteringsprotokoll",
+      "description": "48-timmars insatsgaranti för större incidenter med förallokerade nödmedel"
+    }
+  },
+  "phases": {
+    "secureTheHeart": {
+      "title": "Säkra hjärtat",
+      "timeframe": "År 0 till år 5",
+      "description": "Ratificera fördragsbestämmelser, etablera första BAZ, pilottesta digital havstvilling",
+      "targets": "20 % minskning av illegalt fiske, 10 ekosystem med juridiska rättigheter"
+    },
+    "healTheArteries": {
+      "title": "Läk artärerna",
+      "timeframe": "År 6 till år 15",
+      "description": "Implementera gruvdriftsförbud, skala upp BAZ till 50 % EEZ-täckning, återställa mangroveskogar",
+      "targets": "100 % av havsbotten skyddad, 50 % minskning av plastföroreningar"
+    },
+    "awakenConsciousness": {
+      "title": "Väck medvetandet",
+      "timeframe": "År 16 till år 25",
+      "description": "Fullständig kulturell integration, 100 % efterlevnad av skyddsåtgärder",
+      "targets": "Blomstrande marina ekosystem, regenerativ relation med Blå hjärtat"
+    }
+  },
+  "economicModel": {
+    "annualBudget": "300 miljoner USD globalt till 2030",
+    "fundingSources": {
+      "title": "Finansieringskällor",
+      "oceanImpactBonds": "Havsobligationer (90 miljoner USD årligen)",
+      "greenClimateFund": "Anslag från Gröna klimatfonden",
+      "oceanCarbonTax": "Intäkter från havskoldioxidskatt",
+      "blueHeartBonds": "Blå hjärtat-obligationer från den privata sektorn",
+      "crowdfunding": "Gräsrotsfinansiering via #BlueHeart-kampanjer"
+    },
+    "budgetAllocation": {
+      "title": "Budgetfördelning",
+      "bazGrants": "40 % BAZ-bidrag (120 miljoner USD)",
+      "oceanImpactBonds": "30 % Havsobligationer (90 miljoner USD)",
+      "resilienceFund": "20 % Resiliensfond & krisberedskap (60 miljoner USD)",
+      "mgccOperations": "10 % MGCC-drift (30 miljoner USD)"
+    },
+    "returnOnInvestment": {
+      "title": "Avkastning på investering",
+      "mangroveRestoration": "Återställande av mangroveskogar ger 1,5 miljarder USD årligen i ekosystemtjänster",
+      "costaRicaModel": "Costa Rica-modellen beräknar 150 miljarder USD i utdelning över 10 år"
+    }
+  },
+  "gettingInvolved": {
+    "governments": {
+      "title": "För regeringar",
+      "actions": [
+        "Underteckna avtal om observatörsstatus",
+        "Pilottesta BAZ-implementering",
+        "Bidra till havsobligationer",
+        "Integrera Blå hjärtats principer i nationell politik"
+      ]
+    },
+    "organizations": {
+      "title": "För organisationer",
+      "actions": [
+        "Samarbeta med MGCC för samhällsövervakning",
+        "Sikta på certifiering för blått förvaltarskap",
+        "Delta i Blå hjärtats industridialog"
+      ]
+    },
+    "individuals": {
+      "title": "För individer",
+      "actions": [
+        "Stöd #BlueHeart-kampanjer",
+        "Förespråka för marina ekosystems rättigheter",
+        "Delta i medborgarforskning och övervakning",
+        "Lär dig traditionell havskunskap"
+      ]
+    },
+    "coastalCommunities": {
+      "title": "För kustsamhällen",
+      "actions": [
+        "Utforska etablering av BAZ",
+        "Ansök om samhällsbidrag för övervakningsverktyg",
+        "Delta i urfolksledd utbildning i marin styrning"
+      ]
+    }
+  },
+  "faq": {
+    "differenceFromExisting": {
+      "question": "Hur skiljer sig detta från befintlig havsstyrning?",
+      "answer": "Detta ramverk ger ett omfattande rättighetsbaserat skydd med verkställighetsmekanismer, urfolksledd styrning och regenerativa ekonomiska incitament – vilket går långt utöver nuvarande fragmenterade tillvägagångssätt."
+    },
+    "nationalSovereignty": {
+      "question": "Hur blir det med nationell suveränitet över territorialvatten?",
+      "answer": "Ramverket verkar inom befintliga UNCLOS-ramar samtidigt som det förbättrar verkställighet och samordning. Nationer bibehåller suveränitet samtidigt som de deltar i fördelaktiga samordningssystem."
+    },
+    "nonCompliantPowers": {
+      "question": "Hur hanterar ni stormakter som inte följer reglerna?",
+      "answer": "Nivåindelade ekonomiska incitament, etiska handelszoner och sekundära sanktioner mot tredjepartsenheter skapar press samtidigt som de erbjuder ansiktsräddande deltagandevägar."
+    },
+    "economicFeasibility": {
+      "question": "Är detta ekonomiskt genomförbart?",
+      "answer": "Den årliga budgeten på 300 miljoner USD utgör endast 1,4 % av nuvarande skadliga subventioner. Ekonomisk modellering visar positiv avkastning genom ekosystemtjänster och minskade katastrofkostnader."
+    },
+    "technologicalBias": {
+      "question": "Hur förhindrar ni teknisk snedvridning?",
+      "answer": "GDGC:s tekniska etikkommitté genomför kvartalsvisa revisioner, protokoll för urfolks datasuveränitet säkerställer samhällskontroll, och diversifierade datamängder förhindrar algoritmisk snedvridning."
+    }
+  },
+  "blueHeart": {
+    "metaphor": {
+      "title": "Planetens blå hjärta",
+      "description": "Havet som det livsviktiga organ som upprätthåller allt liv – inte bara en resurs att exploatera, utan ett heligt cirkulationssystem",
+      "quote": "Havet är planetens blå hjärta – ett heligt, levande förbund som cirkulerar liv, reglerar klimatet och förbinder alla varelser i ett nät av ömsesidigt beroende."
+    },
+    "layers": {
+      "protective": {
+        "title": "Skyddande lager (Beskyddarskap)",
+        "description": "Juridiska rättigheter för marina ekosystem, efterlevnad av skyddande regleringar och försvar mot destruktiva metoder"
+      },
+      "flow": {
+        "title": "Flödeslager (Cirkulation)",
+        "description": "Regenerativa ekonomiska system, nätverk för samhällsövervakning och hållbara resursflöden"
+      },
+      "wisdom": {
+        "title": "Visdomslager (Djup)",
+        "description": "Integration av vetenskaplig kunskap med traditionell visdom, försiktighetsåtgärder för okända ekosystem"
+      }
+    }
+  },
+  "stakes": {
+    "success": "Framgång innebär blomstrande hav som upprätthåller allt liv",
+    "failure": "Misslyckande innebär ekosystemkollaps och civilisationskris"
+  },
+  "callToAction": {
+    "ending": "Havsexploateringens tidsålder är över. Äran för Blå hjärtats förvaltarskap börjar nu.",
+    "join": "Följ med oss i att omvandla mänsklighetens relation till havet från utvinning till vördnad, vägledda av visdomen hos dem som alltid har känt havet som heligt."
+  },
+  "appendices": {
+    "communicationsStrategy": {
+      "title": "Kommunikationsstrategi",
+      "description": "Strategiska uppsökande och engagemangsplaner för att bygga Blå hjärtat-rörelsen globalt"
+    },
+    "pilotProject": {
+      "title": "Pilotprojekt",
+      "description": "Detaljerad implementeringsplan för marina skyddsområden i Palau och Norges BAZ (2025-2030)"
+    },
+    "modelLegislation": {
+      "title": "Modellagstiftning",
+      "description": "Utkast till rättsliga ramverk inklusive Blå hjärtat-lagen och lagen om marina ekosystems rättigheter"
+    },
+    "glossary": {
+      "title": "Ordlista",
+      "description": "Omfattande definitioner av nyckeltermer inklusive Blå hjärtats metafor, FPIC 2.0-protokoll och Hearts/Leaves-valutor"
+    }
+  }
+}
