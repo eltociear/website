@@ -62,6 +62,7 @@ Available categories:
 - bioregional-polis
 - sundown-protocol
 - mobility-commons
+- regenerative-journeys
 - oceans-and-marine-governance
 - emergent-governance-protocol
 - disaster-risk-reduction
@@ -122,6 +123,7 @@ const outputDirs = {
   'living-land-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'living-land-protocol'),
   'oceans-and-marine-governance': path.join(__dirname, '..', 'static', 'frameworks','tools', 'oceans-and-marine-governance'),
   'mobility-commons': path.join(__dirname, '..', 'static', 'frameworks','tools', 'mobility-commons'),
+  'regenerative-journeys': path.join(__dirname, '..', 'static', 'frameworks','tools', 'regenerative-journeys'),
   'disaster-risk-reduction': path.join(__dirname, '..', 'static', 'frameworks','tools', 'disaster-risk-reduction'),
   'sundown-protocol': path.join(__dirname, '..', 'static', 'frameworks','tools', 'sundown-protocol'),
   'treaty-for-our-only-home': path.join(__dirname, '..', 'static', 'frameworks','tools', 'treaty-for-our-only-home'),
@@ -347,6 +349,66 @@ const tools = [
     ]
   },
 
+  // Regenerative Journeys
+  {
+    name: 'executive-summary-for-the-skeptic',
+    category: 'regenerative-journeys',
+    fileNames: {
+      en: 'regenerative-journeys-executive-summary-en',
+      sv: 'regenerative-journeys-executive-summary-sv'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'regenerative-journeys'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'regenerative-journeys')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'assets', 'pdf'),
+      sv: path.join(__dirname, '..', 'static', 'assets', 'pdf')
+    },
+    pageFooter: {
+      en: 'Regenerative Journeys - Executive Summary for the Skeptic',
+      sv: 'Regenerativa resor - Sammanfattning för skeptiker'
+    }
+  },
+
+  // Full framework
+  {
+    name: 'regenerative-journeys-framework',
+    category: 'regenerative-journeys',
+    fileNames: {
+      en: 'Regenerative-Journeys-Framework',
+      sv: 'Regenerative-Journeys-Framework'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'regenerative-journeys'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'regenerative-journeys')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'downloads', 'en'),
+      sv: path.join(__dirname, '..', 'static', 'downloads', 'sv')
+    },
+    pageFooter: {
+      en: 'Regenerative Journeys Framework',
+      sv: 'Ramverk för regenerativa resor'
+    },
+    sections: [
+      'index',
+      'executive-summary-vision',
+      'framework-positioning',
+      'core-principles',
+      'six-pillars',
+      'implementation-sequence',
+      'sacred-journey',
+      'economic-justice',
+      'climate-adaptation',
+      'accountability-systems',
+      'recovery-protocols',
+      'success-stories',
+      'appendices'
+    ]
+  },
+
+
   // Technology Governance
   {
     name: 'executive-summary-for-the-skeptic',
@@ -387,7 +449,7 @@ const tools = [
     },
     pageFooter: {
       en: 'Technology Governance Framework',
-      sv: 'Ramkverk för teknikstyrning'
+      sv: 'Ramverk för teknikstyrning'
     },
     sections: [
       'index',

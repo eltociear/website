@@ -50,6 +50,7 @@ const pageSpecificTranslationsMap = [
   // Framework routes (most specific first)
   { route: '/frameworks/implementation-methods-and-tools', dataKey: 'implementationTools', fileName: 'frameworksImplementationTools' },
   { route: '/frameworks/oceans-and-marine-governance', dataKey: 'oceansMarineFramework', fileName: 'frameworksOceansAndMarineGovernance' },
+  { route: '/frameworks/regenerative-journeys', dataKey: 'regenerativeJourneysFramework', fileName: 'frameworksRegenerativeJourneys' },
   { route: '/frameworks/mobility-commons', dataKey: 'mobilityFramework', fileName: 'frameworksMobilityCommons' },
   { route: '/frameworks/emergent-governance-protocol', dataKey: 'egpFramework', fileName: 'frameworksEmergentGovernanceProtocol' },
   { route: '/frameworks/living-land-protocol', dataKey: 'livingLandProtocol', fileName: 'frameworksLivingLandProtocol' },

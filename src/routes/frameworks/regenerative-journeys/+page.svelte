@@ -1,144 +1,554 @@
-<!-- src/routes/frameworks/docs/implementation/regenerative-journeys/+page.svelte -->
+<!-- src/routes/frameworks/regenerative-journeys/+page.svelte -->
 <script>
-  import { page } from '$app/stores';
-  import { t, locale } from '$lib/i18n';
+  import { t, locale, isLocaleLoaded, loadTranslations } from '$lib/i18n';
   import { browser } from '$app/environment';
   import { invalidate } from '$app/navigation';
   import { base } from '$app/paths';
   import FrameworkSidebar from '$lib/components/FrameworkSidebar.svelte';
-  import FrameworkComingSoon from '$lib/components/FrameworkComingSoon.svelte';
-     
+  import { onMount, tick } from 'svelte';
+  import { slide } from 'svelte/transition';
+
   export let data;
 
-  $: if (browser && $locale) {
-    invalidate('app:locale');
+  // Translation state - use isLocaleLoaded for better reactivity
+  $: translationsReady = $isLocaleLoaded;
+  $: tf = translationsReady ? ($t('regenerativeJourneysFramework') || {}) : {};
+  $: currentLocale = $locale;
+
+  // Component state
+  let activeSection = 'index';
+  let mounted = false;
+  let isPrintMode = false;
+  let foundationOpen = false;
+  let coreFrameworkOpen = false;
+  let implementationOpen = false;
+  let governanceOpen = false;
+  let resourcesOpen = false;
+
+  // Computed values - add safety checks
+  $: sectionsToShow = (mounted && isPrintMode) ? Object.keys(data?.sections || {}) : [activeSection];
+  
+  // Section organization based on the regenerative journeys structure
+  $: foundationSections = ['at-a-glance', 'executive-summary-for-the-skeptic'];
+  $: coreFrameworkSections = ['executive-summary-vision', 'framework-positioning', 'core-principles', 'six-pillars', 'implementation-sequence'];
+  $: implementationSections = ['sacred-journey', 'economic-justice', 'climate-adaptation'];
+  $: governanceSections = ['accountability-systems', 'recovery-protocols'];
+  $: resourceSections = ['success-stories', 'appendices'];
+
+  $: isCoreSection = coreFrameworkSections.includes(activeSection);
+  $: isImplementationSection = implementationSections.includes(activeSection);
+  $: isGovernanceSection = governanceSections.includes(activeSection);
+  $: isExecutiveSummaryActive = activeSection === 'executive-summary-for-the-skeptic';
+  $: isSupplementaryActive = resourceSections.includes(activeSection);
+
+  // Create unified progress tracking across all main sections
+  $: allProgressSections = [...coreFrameworkSections, ...implementationSections, ...governanceSections, 'success-stories'];
+  $: isProgressSection = allProgressSections.includes(activeSection);
+  $: currentProgressIndex = allProgressSections.indexOf(activeSection);
+
+  function initializeAccordionStates() {
+    // Set initial accordion states based on active section
+    foundationOpen = foundationSections.includes(activeSection);
+    coreFrameworkOpen = coreFrameworkSections.includes(activeSection);
+    implementationOpen = implementationSections.includes(activeSection);
+    governanceOpen = governanceSections.includes(activeSection);
+    resourcesOpen = resourceSections.includes(activeSection);
   }
 
-  // Custom features for this specific framework
-  const customFeatures = [
-    "BAZ Tourism Councils with Indigenous leadership and community veto power",
-    "Guest Hearts currency for certified regenerative businesses and restoration projects", 
-    "Climate-adaptive infrastructure serving tourists and climate migrants",
-    "Sacred Journey Protocols with FPIC 2.0 and anti-commodification safeguards",
-    "Tourism Impact Assessments measuring cultural continuity and seven-generation impacts",
-    "Dynamic Tourism Levy funding ecosystem restoration and community healing",
-    "Climate Migration Integration with diaspora tourism and managed retreat protocols",
-    "Decolonization Scorecard tracking land rematriation and Indigenous sovereignty"
-  ];
+  onMount(async () => {
+    await tick();
+    mounted = true;
+    
+    if (browser) {
+      // Fix URL corruption and preserve hash fragments
+      let extractedHash = window.location.hash;
+      
+      if (window.location.pathname !== '/frameworks/regenerative-journeys') {
+        const pathname = window.location.pathname;
+        const lastPart = pathname.split('/').pop();
+        
+        // Extract section from corrupted pathname
+        if (data?.sections?.[lastPart] && !extractedHash) {
+          extractedHash = `#${lastPart}`;
+        }
+        
+        // Correct the URL
+        const correctUrl = `/frameworks/regenerative-journeys${window.location.search}${extractedHash}`;
+        window.history.replaceState(null, '', correctUrl);
+      }
+      
+      // Force reload translations if needed
+      if (!translationsReady) {
+        try {
+          await loadTranslations($locale, '/frameworks/regenerative-journeys');
+        } catch (e) {
+          console.error('Failed to reload translations:', e);
+        }
+      }
+      
+      // Set initial section from URL
+      const urlParams = new URLSearchParams(window.location.search);
+      isPrintMode = urlParams.get('print') === 'true';
+      
+      const sectionParam = urlParams.get('section');
+      const hashSection = (extractedHash || window.location.hash).substring(1);
+      
+      if (sectionParam && data?.sections?.[sectionParam]) {
+        activeSection = sectionParam;
+      } else if (hashSection && data?.sections?.[hashSection]) {
+        activeSection = hashSection;
+      }
+      
+      initializeAccordionStates();
+      
+      // Global function for PDF generation
+      window.showAllSectionsForPrint = () => { isPrintMode = true; };
+      
+      // Listen for hash changes
+      const handleHashChange = () => {
+        const hash = window.location.hash.substring(1);
+        if (hash && data?.sections?.[hash] && activeSection !== hash) {
+          activeSection = hash;
+          initializeAccordionStates();
+          
+          // Scroll to content
+          setTimeout(() => {
+            const contentElement = document.querySelector('.section-content');
+            if (contentElement) {
+              contentElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            } else {
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+          }, 100);
+        }
+      };
+
+      window.addEventListener('hashchange', handleHashChange);
+      
+      // Cleanup
+      return () => {
+        window.removeEventListener('hashchange', handleHashChange);
+        if (window.showAllSectionsForPrint) {
+          delete window.showAllSectionsForPrint;
+        }
+      };
+    }
+  });
+
+  // Function to set active section
+  function setActiveSection(section) {
+    if (!data?.sections?.[section]) return;
+    
+    activeSection = section;
+    initializeAccordionStates();
+    
+    if (browser) {
+      const newUrl = `/frameworks/regenerative-journeys${window.location.search}#${section}`;
+      history.replaceState(null, '', newUrl);
+
+      setTimeout(() => {
+        const contentElement = document.querySelector('.section-content');
+        if (contentElement) {
+          contentElement.scrollIntoView({ 
+            behavior: 'smooth', 
+            block: 'start',
+            inline: 'nearest'
+          });
+        }
+      }, 100);
+    }
+  }
+
+  // Translation helper functions with fallbacks
+  function getSectionTitle(section) {
+    return translationsReady ? (tf.sections?.[section] || section.replace(/[-_]/g, ' ')) 
+                             : section.replace(/[-_]/g, ' ');
+  }
+
+  function getSectionCategoryTitle(category) {
+    return translationsReady ? (tf.categories?.[category] || category) : category;
+  }
+
+  function getShortSectionTitle(section) {
+    return translationsReady ? (tf.sectionsShort?.[section] || getSectionTitle(section)) : getSectionTitle(section);
+  }
+
+  function getTextWithFallback(key, fallback) {
+    return translationsReady ? ($t(key) || fallback) : fallback;
+  }
+
+  // Function to download the framework PDF
+  function downloadFramework(version = '') {
+    const versionSuffix = version ? `-${version}` : '';
+    const pdfUrl = `${base}/assets/pdf/regenerative-journeys${versionSuffix}-${currentLocale}.pdf`;
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = `regenerative-journeys${versionSuffix}.pdf`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
+  // Accordion toggle functions
+  function toggleFoundation() { foundationOpen = !foundationOpen; }
+  function toggleCoreFramework() { coreFrameworkOpen = !coreFrameworkOpen; }
+  function toggleImplementation() { implementationOpen = !implementationOpen; }
+  function toggleGovernance() { governanceOpen = !governanceOpen; }
+  function toggleResources() { resourcesOpen = !resourcesOpen; }
+
+  // Handle locale changes
+  $: if (browser && mounted && $locale) {
+    invalidate('app:locale');
+  }
 </script>
 
 <svelte:head>
-  <title>{data.meta?.title || 'The Regenerative Journeys Framework - Coming Soon'}</title>
-  <meta name="description" content={data.meta?.description || 'Revolutionary framework transforming tourism from extractive practice to sacred exchange.'} />
-  <meta name="keywords" content={data.meta?.keywords || 'regenerative tourism, Indigenous sovereignty, bioregional governance'} />
+  <title>{getTextWithFallback('regenerativeJourneysFramework.meta.title', 'Regenerative Journeys Framework - Healing Tourism Through Sacred Exchange')}</title>
+  <meta name="description" content="{getTextWithFallback('regenerativeJourneysFramework.meta.description', 'A comprehensive framework for transforming tourism from extraction to regeneration through sacred exchange and community sovereignty')}" />
 </svelte:head>
 
-<div class="documentation-container">
-  <FrameworkSidebar />
+{#if mounted}
+  <div class="documentation-container">
+    {#if !isPrintMode}
+      <FrameworkSidebar />
+    {/if}
 
-  <div class="content">
-    <!-- Hero Section with Context -->
-    <div class="hero-section">
-      <div class="framework-context">
-        <div class="tier-badge">
-          <span class="tier-icon">🤝</span>
-          <span class="tier-text">Tier 3: Equity & Cultural Flourishing</span>
-        </div>
-        <div class="connections">
-          <span class="connection-tag">🌍 Mobility Commons</span>
-          <span class="connection-tag">🪶 Indigenous Framework</span>
-          <span class="connection-tag">💚 Planetary Health</span>
-          <span class="connection-tag">💰 AUBI Hearts/Leaves</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- Main Coming Soon Component -->
-    <FrameworkComingSoon 
-      frameworkName="regenerativeJourneys"
-      icon="✨"
-      expectedQuarter="Q1 2026"
-      features={customFeatures}
-      themeColors={{
-        primary: '#dc2626',
-        secondary: '#ef4444', 
-        accent: '#f59e0b',
-        light: '#fef2f2'
-      }}
-      contactEmail="regenerative-journeys@globalgovernanceframeworks.org"
-    />
-
-    <!-- Additional Context Section -->
-    <div class="framework-details">
-      <div class="detail-card">
-        <h3>🌍 Framework Position</h3>
-        <p>As a <strong>Tier 3 framework</strong>, Regenerative Journeys governs global tourism by leveraging The Mobility Commons (Tier 2) for infrastructure, adhering to the Planetary Health Framework for ecological standards, and using the AUBI Framework for economic tools like Guest Hearts currency.</p>
-      </div>
-
-      <div class="detail-card">
-        <h3>🏛️ Five Pillars Design</h3>
-        <div class="pillars-grid">
-          <div class="pillar">
-            <span class="pillar-icon">🏛️</span>
-            <h4>Governance Layer</h4>
-            <p>BAZ Tourism Councils with Indigenous leadership and community veto power</p>
-          </div>
-          <div class="pillar">
-            <span class="pillar-icon">💰</span>
-            <h4>Economic Layer</h4>
-            <p>Guest Hearts system and Dynamic Tourism Levy for regenerative exchange</p>
-          </div>
-          <div class="pillar">
-            <span class="pillar-icon">🏗️</span>
-            <h4>Infrastructure</h4>
-            <p>Climate-adaptive facilities serving tourists and climate migrants</p>
-          </div>
-          <div class="pillar">
-            <span class="pillar-icon">🪶</span>
-            <h4>Sacred Exchange</h4>
-            <p>Cultural protocols protecting Indigenous sites and wisdom</p>
-          </div>
-          <div class="pillar">
-            <span class="pillar-icon">📊</span>
-            <h4>Accountability</h4>
-            <p>Impact assessments and Decolonization Scorecard metrics</p>
+    <div class="content">
+      <!-- Quick Access Card for Regenerative Journeys -->
+      {#if !isPrintMode && !isExecutiveSummaryActive && activeSection === 'index' && translationsReady}
+        <div class="journeys-guide-card">
+          <div class="card-content">
+            <div class="card-icon">👣</div>
+            <div class="card-text">
+              <h3>{tf.guideCard?.title || 'New to Regenerative Journeys?'}</h3>
+              <p>{tf.guideCard?.description || 'Start with our executive summary designed for skeptics—addressing concerns about transforming tourism from extraction to regeneration.'}</p>
+            </div>
+            <div class="card-actions">
+              <button class="primary-btn" on:click={() => setActiveSection('executive-summary-for-the-skeptic')}>
+                {tf.guideCard?.buttonText || 'Read Executive Summary for Skeptics'} <span class="arrow-icon">→</span>
+              </button>
+            </div>
           </div>
         </div>
-      </div>
+      {/if}
 
-      <div class="detail-card">
-        <h3>🔄 From Extractive to Regenerative</h3>
-        <div class="transformation-comparison">
-          <div class="before">
-            <h4>❌ Extractive Tourism</h4>
-            <ul>
-              <li>Overtourism and community displacement</li>
-              <li>Cultural commodification and sacred site exploitation</li>
-              <li>Economic leakage to external corporations</li>
-              <li>Environmental degradation and resource depletion</li>
-            </ul>
+      <!-- Sub-navigation for framework sections -->
+      {#if !isPrintMode} 
+        <div class="section-nav">
+          <!-- Overview -->
+          <div class="nav-section">
+            <button 
+              class="nav-item overview-item" 
+              class:active={activeSection === 'index'}
+              on:click={() => setActiveSection('index')}
+            >
+              <span class="nav-icon">🏠</span>
+              <span class="nav-title">{getSectionCategoryTitle('overview')}</span>
+            </button>
           </div>
-          <div class="after">
-            <h4>✅ Regenerative Journeys</h4>
-            <ul>
-              <li>Community-controlled visitor limits and veto power</li>
-              <li>Sacred protocols with FPIC 2.0 and anti-commodification</li>
-              <li>60%+ local ownership and wealth concentration limits</li>
-              <li>Net ecological healing and BHI improvement</li>
-            </ul>
+
+          <!-- Foundation Accordion -->
+          <div class="nav-accordion">
+            <button 
+              class="accordion-header" 
+              class:open={foundationOpen}
+              class:has-active={foundationSections.includes(activeSection)}
+              on:click={toggleFoundation}
+            >
+              <span class="accordion-icon">🌱</span>
+              <span class="accordion-title">{getSectionCategoryTitle('foundation')}</span>
+              <span class="section-count">(3)</span>
+              <span class="toggle-arrow" class:rotated={foundationOpen}>▼</span>
+            </button>
+            {#if foundationOpen}
+              <div class="accordion-content" transition:slide={{ duration: 200 }}>
+                {#each foundationSections as section}
+                  {#if data?.sections?.[section]}
+                    <button 
+                      class="nav-item subsection-item" 
+                      class:active={activeSection === section}
+                      on:click={() => setActiveSection(section)}
+                    >
+                      <span class="nav-icon">
+                        {#if section === 'at-a-glance'}⚡
+                        {:else if section === 'executive-summary-for-the-skeptic'}🤔
+                        {:else}📋{/if}
+                      </span>
+                      <span class="nav-title">{getSectionTitle(section)}</span>
+                    </button>
+                  {/if}
+                {/each}
+              </div>
+            {/if}
+          </div>
+
+          <!-- Core Framework Accordion -->
+          {#if coreFrameworkSections.length > 0}
+            <div class="nav-accordion">
+              <button 
+                class="accordion-header" 
+                class:open={coreFrameworkOpen}
+                class:has-active={isCoreSection}
+                on:click={toggleCoreFramework}
+              >
+                <span class="accordion-icon">🏛️</span>
+                <span class="accordion-title">{getSectionCategoryTitle('framework')}</span>
+                <span class="section-count">({coreFrameworkSections.length})</span>
+                <span class="toggle-arrow" class:rotated={coreFrameworkOpen}>▼</span>
+              </button>
+              {#if coreFrameworkOpen}
+                <div class="accordion-content" transition:slide={{ duration: 200 }}>
+                  {#each coreFrameworkSections as section}
+                    <button 
+                      class="nav-item subsection-item" 
+                      class:active={activeSection === section}
+                      on:click={() => setActiveSection(section)}
+                    >
+                      <span class="nav-icon">
+                        {#if section === 'executive-summary-vision'}🔮
+                        {:else if section === 'framework-positioning'}🗺️
+                        {:else if section === 'core-principles'}⚖️
+                        {:else if section === 'six-pillars'}🏗️
+                        {:else if section === 'implementation-sequence'}📅
+                        {:else}📋{/if}
+                      </span>
+                      <span class="nav-title">{getShortSectionTitle(section)}</span>
+                    </button>
+                  {/each}
+                </div>
+              {/if}
+            </div>
+          {/if}
+
+          <!-- Implementation Accordion -->
+          {#if implementationSections.length > 0}
+            <div class="nav-accordion">
+              <button 
+                class="accordion-header" 
+                class:open={implementationOpen}
+                class:has-active={isImplementationSection}
+                on:click={toggleImplementation}
+              >
+                <span class="accordion-icon">⚙️</span>
+                <span class="accordion-title">{getSectionCategoryTitle('implementation')}</span>
+                <span class="section-count">({implementationSections.length})</span>
+                <span class="toggle-arrow" class:rotated={implementationOpen}>▼</span>
+              </button>
+              {#if implementationOpen}
+                <div class="accordion-content" transition:slide={{ duration: 200 }}>
+                  {#each implementationSections as section}
+                    <button 
+                      class="nav-item subsection-item" 
+                      class:active={activeSection === section}
+                      on:click={() => setActiveSection(section)}
+                    >
+                      <span class="nav-icon">
+                        {#if section === 'sacred-journey'}🙏
+                        {:else if section === 'economic-justice'}💰
+                        {:else if section === 'climate-adaptation'}🌍
+                        {:else}⚙️{/if}
+                      </span>
+                      <span class="nav-title">{getSectionTitle(section)}</span>
+                    </button>
+                  {/each}
+                </div>
+              {/if}
+            </div>
+          {/if}
+
+          <!-- Governance Accordion -->
+          {#if governanceSections.length > 0}
+            <div class="nav-accordion">
+              <button 
+                class="accordion-header" 
+                class:open={governanceOpen}
+                class:has-active={isGovernanceSection}
+                on:click={toggleGovernance}
+              >
+                <span class="accordion-icon">⚖️</span>
+                <span class="accordion-title">{getSectionCategoryTitle('governance')}</span>
+                <span class="section-count">({governanceSections.length})</span>
+                <span class="toggle-arrow" class:rotated={governanceOpen}>▼</span>
+              </button>
+              {#if governanceOpen}
+                <div class="accordion-content" transition:slide={{ duration: 200 }}>
+                  {#each governanceSections as section}
+                    <button 
+                      class="nav-item subsection-item" 
+                      class:active={activeSection === section}
+                      on:click={() => setActiveSection(section)}
+                    >
+                      <span class="nav-icon">
+                        {#if section === 'accountability-systems'}📊
+                        {:else if section === 'recovery-protocols'}🔄
+                        {:else}⚖️{/if}
+                      </span>
+                      <span class="nav-title">{getSectionTitle(section)}</span>
+                    </button>
+                  {/each}
+                </div>
+              {/if}
+            </div>
+          {/if}
+
+          <!-- Resources Accordion -->
+          <div class="nav-accordion">
+            <button 
+              class="accordion-header" 
+              class:open={resourcesOpen}
+              class:has-active={isSupplementaryActive}
+              on:click={toggleResources}
+            >
+              <span class="accordion-icon">📚</span>
+              <span class="accordion-title">{getSectionCategoryTitle('resources')}</span>
+              <span class="section-count">(2)</span>
+              <span class="toggle-arrow" class:rotated={resourcesOpen}>▼</span>
+            </button>
+            {#if resourcesOpen}
+              <div class="accordion-content" transition:slide={{ duration: 200 }}>
+                {#each resourceSections as section}
+                  {#if data?.sections?.[section]}
+                    <button 
+                      class="nav-item subsection-item" 
+                      class:active={activeSection === section}
+                      on:click={() => setActiveSection(section)}
+                    >
+                      <span class="nav-icon">
+                        {#if section === 'success-stories'}✨
+                        {:else if section === 'appendices'}📄
+                        {:else}📚{/if}
+                      </span>
+                      <span class="nav-title">{getSectionTitle(section)}</span>
+                    </button>
+                  {/if}
+                {/each}
+              </div>
+            {/if}
           </div>
         </div>
-      </div>
+      {/if}
 
-      <div class="detail-card">
-        <h3>🌡️ Climate Integration</h3>
-        <p>The framework addresses climate realities through <strong>Climate Migration Integration</strong> with diaspora tourism protocols, <strong>Managed Retreat Planning</strong> for vulnerable regions, and <strong>Climate-Adaptive Infrastructure</strong> that serves both tourists and displaced communities during crises.</p>
-      </div>
+      <!-- Overall progress indicator for main framework sections -->
+      {#if !isPrintMode && isProgressSection && allProgressSections.length > 0 && translationsReady}
+        <div class="progress-indicator">
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: {((currentProgressIndex + 1) / allProgressSections.length * 100)}%"></div>
+          </div>
+          <span class="progress-text">
+            {tf.progress?.overallText?.replace('{current}', currentProgressIndex + 1).replace('{total}', allProgressSections.length) || `Framework Progress: ${currentProgressIndex + 1} of ${allProgressSections.length} sections`}
+          </span>
+        </div>
+      {/if}
+
+      <!-- Show active section, or all sections in print mode -->
+      {#each sectionsToShow as section (section)}
+        {#if data?.sections?.[section]}
+          <div class="section-content" id={section}>
+            <!-- Language fallback notice -->
+            {#if !isPrintMode && data.sectionsUsingEnglishFallback?.includes(section) && section !== 'index' && translationsReady}
+              <div class="language-fallback-notice">
+                <div class="notice-icon">🌍</div>
+                <div class="notice-content">
+                  <strong>{tf.languageFallback?.title || 'Content in your language coming soon'}</strong>
+                  <p>{tf.languageFallback?.description || 'This section is currently displayed in English until translation is complete.'}</p>
+                </div>
+              </div>
+            {/if}
+            
+            <!-- Render sections from markdown files -->
+            <svelte:component this={data.sections[section].default} t={$t} />
+            
+            <!-- Navigation buttons at bottom of executive summary -->
+            {#if section === 'executive-summary-for-the-skeptic' && !isPrintMode && translationsReady}
+              <div class="guide-navigation">
+                <button class="secondary-btn" on:click={() => downloadFramework('executive-summary')}>
+                  {tf.navigation?.downloadPdf || 'Download PDF Version'} <span class="download-icon">↓</span>
+                </button>
+                <button class="primary-btn" on:click={() => setActiveSection('framework-positioning')}>
+                  {tf.navigation?.continueToFramework || 'Continue to Full Framework'} <span class="arrow-icon">→</span>
+                </button>
+              </div>
+            {/if}
+
+            <!-- Section navigation at bottom of core, implementation, governance, and success stories sections -->
+            {#if isProgressSection && !isPrintMode && allProgressSections.length > 0 && translationsReady}
+              <div class="section-navigation">
+                {#if currentProgressIndex > 0}
+                  <button class="nav-btn prev-btn" on:click={() => {
+                    const prevSection = allProgressSections[currentProgressIndex - 1];
+                    setActiveSection(prevSection);
+                  }}>
+                    ← {tf.navigation?.previousSection || 'Previous Section'}
+                  </button>
+                {/if}
+                
+                {#if currentProgressIndex < allProgressSections.length - 1}
+                  <button class="nav-btn next-btn" on:click={() => {
+                    const nextSection = allProgressSections[currentProgressIndex + 1];
+                    setActiveSection(nextSection);
+                  }}>
+                    {tf.navigation?.nextSection || 'Next Section'} →
+                  </button>
+                {/if}
+              </div>
+            {/if}
+          </div>
+        {:else}
+          <div class="missing-section">
+            <h2>{getTextWithFallback('regenerativeJourneysFramework.errors.sectionNotFound', `Section "${section}" not found`).replace('{section}', section)}</h2>
+            <p>{getTextWithFallback('regenerativeJourneysFramework.errors.contentInDevelopment', 'This content is still being developed.')}</p>
+          </div>
+        {/if}
+      {/each}
     </div>
   </div>
-</div>
+{:else}
+  <!-- Loading state to prevent hydration issues -->
+  <div class="loading-container">
+    <div class="loading-spinner"></div>
+    <p>{getTextWithFallback('regenerativeJourneysFramework.loading.text', 'Loading regenerative journeys content...')}</p>
+  </div>
+{/if}
 
 <style>
+  /* Regenerative Journeys color scheme - earthy, restorative, and healing */
+  :root {
+    --journeys-primary: #2D5016;        /* Deep forest green - grounding */
+    --journeys-secondary: #8B4513;       /* Saddle brown - earth connection */
+    --journeys-accent: #CD853F;          /* Peru brown - warm earth */
+    --journeys-healing: #228B22;         /* Forest green - regeneration */
+    --journeys-sacred: #4682B4;          /* Steel blue - wisdom waters */
+    --journeys-wisdom: #8B7355;          /* Dark khaki - ancient knowledge */
+    --journeys-light: #F5F5DC;           /* Beige - natural light */
+    --journeys-dark: #2F4F2F;            /* Dark slate gray - deep earth */
+    --journeys-warmth: #DEB887;          /* Burlywood - warmth and comfort */
+  }
+
+  /* Loading state */
+  .loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    gap: 1rem;
+  }
+
+  .loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #e5e7eb;
+    border-top: 4px solid var(--journeys-primary);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  /* Layout */
   .documentation-container {
     display: grid;
     grid-template-columns: 250px 1fr;
@@ -148,191 +558,560 @@
     padding: 2rem 1rem;
   }
   
+  .content {
+    min-width: 0;
+  }
+  
+  .section-content {
+    padding-top: 1rem;
+    scroll-margin-top: 2rem;
+  }
+
+  .missing-section {
+    background-color: #f3f4f6;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    text-align: center;
+    color: #6b7280;
+  }
+
+  .missing-section h2 {
+    color: #374151;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Section Navigation */
+  .section-nav {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #e5e7eb;
+    background: linear-gradient(to bottom, var(--journeys-light), #f1f5f1);
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+
+  .nav-section {
+    margin-bottom: 1rem;
+  }
+
+  .nav-accordion {
+    margin-bottom: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+    overflow: hidden;
+    background: white;
+  }
+
+  .accordion-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #374151;
+    text-align: left;
+  }
+
+  .accordion-header:hover {
+    background-color: rgba(139, 69, 19, 0.05);
+  }
+
+  .accordion-header:focus-visible {
+    outline: 2px solid var(--journeys-accent);
+    outline-offset: 2px;
+    background-color: rgba(139, 69, 19, 0.1);
+  }
+
+  .accordion-header.has-active {
+    background-color: rgba(45, 80, 22, 0.1);
+    color: var(--journeys-primary);
+    font-weight: 600;
+  }
+
+  .accordion-header.open {
+    background-color: rgba(139, 69, 19, 0.1);
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .accordion-icon {
+    font-size: 1.1rem;
+    flex-shrink: 0;
+  }
+
+  .accordion-title {
+    flex-grow: 1;
+    font-weight: 600;
+  }
+
+  .section-count {
+    font-size: 0.8rem;
+    color: #6b7280;
+    font-weight: 400;
+  }
+
+  .toggle-arrow {
+    font-size: 0.8rem;
+    color: #6b7280;
+    transition: transform 0.2s ease;
+    flex-shrink: 0;
+  }
+
+  .toggle-arrow.rotated {
+    transform: rotate(180deg);
+  }
+
+  .accordion-content {
+    border-top: 1px solid #e5e7eb;
+    background-color: #fafafa;
+  }
+
+  .nav-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 0.9rem;
+    color: #4b5563;
+    text-align: left;
+    margin-bottom: 0.25rem;
+  }
+
+  .nav-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .nav-item:hover {
+    background-color: rgba(139, 69, 19, 0.05);
+    color: #374151;
+  }
+
+  .nav-item:focus-visible {
+    outline: 2px solid var(--journeys-accent);
+    outline-offset: 2px;
+    background-color: rgba(139, 69, 19, 0.1);
+  }
+
+  .nav-item.active {
+    background-color: var(--journeys-primary);
+    color: white;
+    font-weight: 600;
+  }
+
+  .nav-item.active:hover {
+    background-color: var(--journeys-secondary);
+  }
+
+  .overview-item {
+    background: linear-gradient(135deg, rgba(45, 80, 22, 0.1), rgba(139, 69, 19, 0.1));
+    border: 1px solid rgba(45, 80, 22, 0.2);
+    border-radius: 0.375rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .overview-item.active {
+    background: var(--journeys-primary);
+    color: white;
+  }
+
+  .subsection-item {
+    padding-left: 1.5rem;
+  }
+
+  .nav-icon {
+    font-size: 1.1rem;
+    flex-shrink: 0;
+  }
+
+  .nav-title {
+    flex-grow: 1;
+    text-align: left;
+  }
+
+  /* Progress indicator */
+  .progress-indicator {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: linear-gradient(90deg, rgba(45, 80, 22, 0.1), rgba(139, 69, 19, 0.1));
+    border-radius: 0.5rem;
+    border-left: 4px solid var(--journeys-primary);
+  }
+
+  .progress-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #e5e7eb;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+  }
+
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--journeys-primary), var(--journeys-secondary));
+    border-radius: 4px;
+    transition: width 0.3s ease;
+  }
+
+  .progress-text {
+    font-size: 0.875rem;
+    color: var(--journeys-primary);
+    font-weight: 500;
+  }
+
+  /* Regenerative Journeys guide card */
+  .journeys-guide-card {
+    background: linear-gradient(135deg, rgba(139, 69, 19, 0.1) 0%, rgba(45, 80, 22, 0.1) 100%);
+    border-radius: 0.75rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(45, 80, 22, 0.1);
+    border: 1px solid rgba(45, 80, 22, 0.2);
+    position: relative;
+    z-index: 1;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .card-icon {
+    font-size: 2.5rem;
+    color: var(--journeys-primary);
+    flex-shrink: 0;
+  }
+  
+  .card-text {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .card-text h3 {
+    margin: 0 0 0.5rem 0;
+    color: var(--journeys-primary);
+    font-size: 1.25rem;
+  }
+  
+  .card-text p {
+    margin: 0;
+    color: #4b5563;
+    font-size: 1rem;
+  }
+  
+  .card-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: center;
+    position: relative;
+    overflow: visible;
+  }
+  
+  .primary-btn {
+    background-color: var(--journeys-primary);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .primary-btn:hover {
+    background-color: var(--journeys-secondary);
+    transform: translateY(-1px);
+  }
+
+  .primary-btn:focus-visible {
+    outline: 2px solid var(--journeys-accent);
+    outline-offset: 2px;
+    background-color: var(--journeys-secondary);
+    transform: translateY(-1px);
+  }
+  
+  .secondary-btn {
+    background-color: white;
+    color: var(--journeys-primary);
+    border: 1px solid var(--journeys-primary);
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .secondary-btn:hover {
+    background-color: rgba(139, 69, 19, 0.1);
+    transform: translateY(-1px);
+  }
+
+  .secondary-btn:focus-visible {
+    outline: 2px solid var(--journeys-accent);
+    outline-offset: 2px;
+    background-color: rgba(139, 69, 19, 0.1);
+    transform: translateY(-1px);
+  }
+  
+  .guide-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e5e7eb;
+  }
+
+  .section-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e5e7eb;
+  }
+
+  .nav-btn {
+    background-color: var(--journeys-primary);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .nav-btn:hover {
+    background-color: var(--journeys-secondary);
+    transform: translateY(-1px);
+  }
+
+  .nav-btn:focus-visible {
+    outline: 2px solid var(--journeys-accent);
+    outline-offset: 2px;
+    background-color: var(--journeys-secondary);
+    transform: translateY(-1px);
+  }
+
+  .prev-btn {
+    margin-right: auto;
+  }
+
+  .next-btn {
+    margin-left: auto;
+  }
+
+  .download-icon,
+  .arrow-icon {
+    display: inline-block;
+    margin-left: 0.25rem;
+  }
+
+  /* Language fallback notice */
+  .language-fallback-notice {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    background-color: rgba(139, 69, 19, 0.1);
+    border: 1px solid rgba(139, 69, 19, 0.3);
+    border-radius: 0.5rem;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .notice-icon {
+    font-size: 1.25rem;
+    color: var(--journeys-secondary);
+    flex-shrink: 0;
+    margin-top: 0.125rem;
+  }
+
+  .notice-content {
+    flex: 1;
+  }
+
+  .notice-content strong {
+    color: var(--journeys-secondary);
+    font-size: 0.95rem;
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+
+  .notice-content p {
+    color: #4b5563;
+    font-size: 0.875rem;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  /* Content styling */
+  .content :global(h1) {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: var(--journeys-primary);
+  }
+  
+  .content :global(h2) {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--journeys-secondary);
+  }
+  
+  .content :global(h3),
+  .content :global(h4) {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: var(--journeys-accent);
+  }
+
+  .content :global(h4) {
+    font-size: 1.2rem;
+  }
+  
+  .content :global(p) {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+    color: #4b5563;
+  }
+
+  /* Blockquotes */
+  .content :global(blockquote) {
+    background-color: rgba(139, 69, 19, 0.1);
+    border-left: 4px solid var(--journeys-secondary);
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0.5rem;
+  }
+
+  /* Lists - using regular bullets instead of the footprint icon */
+  .content :global(ul), .content :global(ol) {
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+    color: #4b5563;
+  }
+
+  .content :global(ul) {
+    list-style-type: none;
+  }
+
+  .content :global(ul li) {
+    position: relative;
+    margin-bottom: 0.75rem;
+    padding-left: 1.5rem;
+  }
+
+  .content :global(ul li:not(.section-nav li))::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0.1em;
+    font-size: 1.2rem;
+    color: var(--journeys-secondary);
+  }
+
+  /* Ordered lists */
+  .content :global(ol) {
+    list-style-type: decimal;
+    counter-reset: item;
+  }
+
+  .content :global(ol li) {
+    position: relative;
+    margin-bottom: 0.75rem;
+    padding-left: 0.5rem;
+    color: #4b5563;
+  }
+
+  .content :global(ol li::marker) {
+    color: var(--journeys-secondary);
+    font-weight: 600;
+  }
+
+  /* Links */
+  .content :global(a) {
+    color: var(--journeys-secondary);
+    text-decoration: underline;
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+
+  .content :global(a:hover) {
+    color: var(--journeys-primary);
+  }
+
+  /* Responsive Design */
   @media (max-width: 768px) {
     .documentation-container {
       grid-template-columns: 1fr;
     }
-  }
-  
-  .content {
-    min-width: 0;
-  }
 
-  /* Hero Section */
-  .hero-section {
-    margin-bottom: 1rem;
-  }
-
-  .framework-context {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .tier-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    background: linear-gradient(135deg, #dc2626, #ef4444);
-    color: white;
-    padding: 0.75rem 1.5rem;
-    border-radius: 2rem;
-    font-weight: 600;
-    width: fit-content;
-    box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
-  }
-
-  .tier-icon {
-    font-size: 1.2rem;
-  }
-
-  .connections {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
-
-  .connection-tag {
-    background: rgba(220, 38, 38, 0.1);
-    color: #dc2626;
-    padding: 0.5rem 1rem;
-    border-radius: 1rem;
-    font-size: 0.875rem;
-    font-weight: 500;
-    border: 1px solid rgba(220, 38, 38, 0.2);
-  }
-
-  /* Framework Details */
-  .framework-details {
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
-
-  .detail-card {
-    background: white;
-    border-radius: 1rem;
-    padding: 2rem;
-    box-shadow: 0 4px 16px rgba(220, 38, 38, 0.1);
-    border: 1px solid rgba(220, 38, 38, 0.1);
-  }
-
-  .detail-card h3 {
-    margin: 0 0 1rem 0;
-    color: #dc2626;
-    font-size: 1.3rem;
-    font-weight: 700;
-  }
-
-  .detail-card p {
-    color: #4b5563;
-    line-height: 1.6;
-    margin: 0;
-  }
-
-  /* Pillars Grid */
-  .pillars-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
-    margin-top: 1rem;
-  }
-
-  .pillar {
-    text-align: center;
-    padding: 1.5rem;
-    background: rgba(220, 38, 38, 0.05);
-    border-radius: 0.75rem;
-    border: 1px solid rgba(220, 38, 38, 0.1);
-  }
-
-  .pillar-icon {
-    font-size: 2rem;
-    display: block;
-    margin-bottom: 0.75rem;
-  }
-
-  .pillar h4 {
-    margin: 0 0 0.5rem 0;
-    color: #dc2626;
-    font-size: 1rem;
-    font-weight: 600;
-  }
-
-  .pillar p {
-    margin: 0;
-    font-size: 0.875rem;
-    color: #6b7280;
-    line-height: 1.4;
-  }
-
-  /* Transformation Comparison */
-  .transformation-comparison {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    margin-top: 1rem;
-  }
-
-  .before,
-  .after {
-    padding: 1.5rem;
-    border-radius: 0.75rem;
-  }
-
-  .before {
-    background: rgba(239, 68, 68, 0.05);
-    border: 1px solid rgba(239, 68, 68, 0.2);
-  }
-
-  .after {
-    background: rgba(34, 197, 94, 0.05);
-    border: 1px solid rgba(34, 197, 94, 0.2);
-  }
-
-  .before h4 {
-    color: #ef4444;
-    margin: 0 0 1rem 0;
-    font-size: 1.1rem;
-  }
-
-  .after h4 {
-    color: #22c55e;
-    margin: 0 0 1rem 0;
-    font-size: 1.1rem;
-  }
-
-  .before ul,
-  .after ul {
-    margin: 0;
-    padding-left: 1.5rem;
-  }
-
-  .before li,
-  .after li {
-    margin-bottom: 0.5rem;
-    color: #4b5563;
-    font-size: 0.9rem;
-  }
-
-  @media (max-width: 768px) {
-    .transformation-comparison {
-      grid-template-columns: 1fr;
+    .section-nav {
+      padding: 0.75rem;
     }
-    
-    .pillars-grid {
-      grid-template-columns: 1fr;
+
+    .accordion-header {
+      padding: 0.5rem 0.75rem;
+      font-size: 0.9rem;
     }
-    
-    .connections {
+
+    .nav-item {
+      padding: 0.5rem 0.75rem;
+      font-size: 0.85rem;
+    }
+
+    .subsection-item {
+      padding-left: 1rem;
+    }
+
+    .card-content {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+   
+    .card-actions {
+      width: 100%;
       justify-content: center;
     }
-    
-    .framework-context {
-      align-items: center;
-      text-align: center;
+   
+    .guide-navigation {
+      flex-direction: column;
+      gap: 1rem;
+    }
+   
+    .guide-navigation button {
+      width: 100%;
+    }
+
+    .section-navigation {
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .section-navigation button {
+      width: 100%;
+    }
+
+    .loading-container {
+      padding: 2rem 1rem;
     }
   }
 </style>

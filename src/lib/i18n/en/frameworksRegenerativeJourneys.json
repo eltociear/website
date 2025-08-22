@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "Regenerative Journeys Framework - Healing Tourism Through Sacred Exchange",
+    "description": "A comprehensive framework for transforming tourism from extraction to regeneration through sacred exchange and community sovereignty"
+  },
+  "loading": {
+    "text": "Loading regenerative journeys content..."
+  },
+  "guideCard": {
+    "title": "New to Regenerative Journeys?",
+    "description": "Start with our executive summary designed for skeptics—addressing concerns about transforming tourism from extraction to regeneration.",
+    "buttonText": "Read Executive Summary for Skeptics"
+  },
+  "categories": {
+    "overview": "Overview",
+    "foundation": "Foundation",
+    "framework": "Core Framework", 
+    "implementation": "Implementation",
+    "governance": "Governance & Accountability",
+    "resources": "Resources"
+  },
+  "sections": {
+    "index": "Framework Overview",
+    "at-a-glance": "At a Glance",
+    "executive-summary-vision": "Executive Summary & Vision",
+    "executive-summary-for-the-skeptic": "Executive Summary for Skeptics",
+    "framework-positioning": "Framework Positioning",
+    "core-principles": "Core Principles",
+    "six-pillars": "The Six Pillars",
+    "implementation-sequence": "Implementation Sequence",
+    "sacred-journey": "Sacred Journey & Cultural Exchange",
+    "economic-justice": "Economic Justice Through Tourism",
+    "climate-adaptation": "Climate Adaptation & Migration",
+    "accountability-systems": "Accountability & Metrics",
+    "recovery-protocols": "Recovery & Exit Protocols",
+    "success-stories": "Success Stories & Lessons",
+    "appendices": "Appendices & Tools"
+  },
+  "sectionsShort": {
+    "index": "Overview",
+    "at-a-glance": "At a Glance",
+    "executive-summary-vision": "Vision Summary",
+    "executive-summary-for-the-skeptic": "For Skeptics",
+    "framework-positioning": "Positioning",
+    "core-principles": "Principles",
+    "six-pillars": "Six Pillars",
+    "implementation-sequence": "Implementation",
+    "sacred-journey": "Sacred Journey",
+    "economic-justice": "Economic Justice",
+    "climate-adaptation": "Climate Adaptation",
+    "accountability-systems": "Accountability",
+    "recovery-protocols": "Recovery",
+    "success-stories": "Success Stories",
+    "appendices": "Tools & Resources"
+  },
+  "progress": {
+    "overallText": "Framework Progress: {current} of {total} sections"
+  },
+  "navigation": {
+    "downloadPdf": "Download PDF Version",
+    "continueToFramework": "Continue to Full Framework",
+    "previousSection": "Previous Section",
+    "nextSection": "Next Section"
+  },
+  "languageFallback": {
+    "title": "Content in your language coming soon",
+    "description": "This section is currently displayed in English until translation is complete."
+  },
+  "errors": {
+    "sectionNotFound": "Section \"{section}\" not found",
+    "contentInDevelopment": "This content is still being developed."
+  }
+}

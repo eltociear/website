@@ -220,6 +220,10 @@
     "mobilityCommons": {
     "title": "Ramverk för mobilitetsallmänning",
     "description": "Ett omfattande ramverk för regenerativ transport och mobilitetsstyrning, som omvandlar rörelsesystem från källor till klimatnedbrytning till sammankopplingsvägar som läker ekosystem samtidigt som universell tillgång säkerställs."
+    },
+    "regenerativeJourneys": {
+      "title": "Ramverk för regenerativa resor",
+      "description": "Ett omfattande ramverk för att omvandla turism från utvinning till regenerering genom heligt utbyte, samhällssuveränitet och helande metoder för resor och kulturellt utbyte."
     }
   },
   "downloadButton": "Ladda ner PDF",

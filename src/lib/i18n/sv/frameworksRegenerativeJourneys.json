@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "Ramverk för regenerativa resor - Helande turism genom heligt utbyte",
+    "description": "Ett omfattande ramverk för att omvandla turism från utvinning till regeneration genom heligt utbyte och lokalsamhällets suveränitet"
+  },
+  "loading": {
+    "text": "Laddar innehåll för regenerativa resor..."
+  },
+  "guideCard": {
+    "title": "Ny inom regenerativa resor?",
+    "description": "Börja med vår sammanfattning för skeptiker – den tar upp farhågor kring att omvandla turism från utvinning till regeneration.",
+    "buttonText": "Läs sammanfattningen för skeptiker"
+  },
+  "categories": {
+    "overview": "Översikt",
+    "foundation": "Grund",
+    "framework": "Kärnramverk",
+    "implementation": "Implementering",
+    "governance": "Styrning & ansvarsutkrävande",
+    "resources": "Resurser"
+  },
+  "sections": {
+    "index": "Ramverksöversikt",
+    "at-a-glance": "I korthet",
+    "executive-summary-vision": "Sammanfattning & vision",
+    "executive-summary-for-the-skeptic": "Sammanfattning för skeptiker",
+    "framework-positioning": "Ramverkets positionering",
+    "core-principles": "Kärnprinciper",
+    "six-pillars": "De sex pelarna",
+    "implementation-sequence": "Implementeringssekvens",
+    "sacred-journey": "Helig resa & kulturellt utbyte",
+    "economic-justice": "Ekonomisk rättvisa genom turism",
+    "climate-adaptation": "Klimatanpassning & migration",
+    "accountability-systems": "System för ansvarsutkrävande & mätetal",
+    "recovery-protocols": "Återhämtnings- & utträdesprotokoll",
+    "success-stories": "Framgångshistorier & lärdomar",
+    "appendices": "Bilagor & verktyg"
+  },
+  "sectionsShort": {
+    "index": "Översikt",
+    "at-a-glance": "I korthet",
+    "executive-summary-vision": "Visionssammanfattning",
+    "executive-summary-for-the-skeptic": "För skeptiker",
+    "framework-positioning": "Positionering",
+    "core-principles": "Principer",
+    "six-pillars": "Sex pelare",
+    "implementation-sequence": "Implementering",
+    "sacred-journey": "Helig resa",
+    "economic-justice": "Ekonomisk rättvisa",
+    "climate-adaptation": "Klimatanpassning",
+    "accountability-systems": "Ansvarsutkrävande",
+    "recovery-protocols": "Återhämtning",
+    "success-stories": "Framgångshistorier",
+    "appendices": "Verktyg & resurser"
+  },
+  "progress": {
+    "overallText": "Ramverksförlopp: {nuvarande} av {total} avsnitt"
+  },
+  "navigation": {
+    "downloadPdf": "Ladda ner PDF-version",
+    "continueToFramework": "Fortsätt till hela ramverket",
+    "previousSection": "Föregående avsnitt",
+    "nextSection": "Nästa avsnitt"
+  },
+  "languageFallback": {
+    "title": "Innehåll på ditt språk kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+  },
+  "errors": {
+    "sectionNotFound": "Avsnittet \"{section}\" hittades inte",
+    "contentInDevelopment": "Detta innehåll är fortfarande under utveckling."
+  }
+}
