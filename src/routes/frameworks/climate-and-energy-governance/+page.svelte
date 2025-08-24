@@ -1,107 +1,97 @@
 <!-- src/routes/frameworks/climate-and-energy-governance/+page.svelte -->
 <script>
-  import { t, locale } from '$lib/i18n';
+  import { t, locale, isLocaleLoaded, loadTranslations } from '$lib/i18n';
   import { browser } from '$app/environment';
   import { invalidate } from '$app/navigation';
   import { base } from '$app/paths';
-  import SectionNotice from '$lib/components/SectionNotice.svelte';
   import FrameworkSidebar from '$lib/components/FrameworkSidebar.svelte';
   import { onMount, tick } from 'svelte';
   import { slide } from 'svelte/transition';
 
   export let data;
 
-  // Extract climateFramework translations for shorter references
-  $: cf = $t('climateFramework') || {};
-  $: translationFunction = $t;
-  
-  // Debug logging
-  $: if (browser && mounted) {
-    console.log('Climate Framework translations:', cf);
-    console.log('Has climate framework keys:', Object.keys(cf));
-  }
-
-  // Keep track of which section is active (for sub-navigation)
-  let activeSection = 'index';
-
-  // This will track the current locale for our component
+  // Translation state - use isLocaleLoaded for better reactivity
+  $: translationsReady = $isLocaleLoaded;
+  $: cf = translationsReady ? ($t('climateEnergyFramework') || {}) : {};
   $: currentLocale = $locale;
 
-  // Check if we're in print mode - simplified to avoid hydration issues
-  let isPrintMode = false;
-  
-  // Client-side only initialization to avoid hydration mismatches
+  // Component state
+  let activeSection = 'index';
   let mounted = false;
-  let initializing = true;
-
-  // If in print mode, we'll show all sections
-  $: sectionsToShow = (mounted && isPrintMode) ? Object.keys(data?.sections || {}) : [activeSection];
-
-  // Accordion states - initialize in a way that prevents hydration issues
+  let isPrintMode = false;
   let foundationOpen = false;
-  let governanceOpen = false;
+  let coreFrameworkOpen = false;
   let implementationOpen = false;
   let resourcesOpen = false;
 
-  // Dropdown states
-  let isDropdownOpen = false;
-  let isNavDropdownOpen = false;
+  // Computed values - add safety checks
+  $: sectionsToShow = (mounted && isPrintMode) ? Object.keys(data?.sections || {}) : [activeSection];
+  $: coreFrameworkSections = ['governance-structure', 'four-pillars', 'policy-mechanisms', 'stakeholder-engagement', 'financing-framework'];
+  $: implementationSections = ['implementation-roadmap', 'success-metrics', 'challenges-solutions', 'taking-action'];
+  $: isCoreSection = coreFrameworkSections.includes(activeSection);
+  $: isImplementationSection = implementationSections.includes(activeSection);
+  $: foundationSections = ['at-a-glance', 'executive-summary-for-the-skeptic', 'introduction-vision', 'guiding-principles', 'integration-architecture'];
+  $: resourceSections = ['appendices'];
+  $: isExecutiveSummaryActive = activeSection === 'executive-summary-for-the-skeptic';
+  $: isSupplementaryActive = resourceSections.includes(activeSection);
 
-  // Guide selection
-  let selectedGuide = 'climate-energy-technical-guide';
-
-  // Initialize accordion states after mount
   function initializeAccordionStates() {
     // Set initial accordion states based on active section
-    const guideIds = ['climate-energy-technical-guide', 'climate-energy-stakeholder-guide', 'climate-energy-action-guide'];
-    const foundationSections = [...guideIds, 'introduction', 'guiding-principles'];
-    const governanceSections = ['governance-structure', 'core-pillars', 'policy-mechanisms', 'stakeholder-engagement'];
-    const implementationSections = ['financing-the-framework', 'implementation-roadmap', 'metrics-for-success', 'challenges-and-solutions', 'implementation-tools', 'conclusion'];
-    const resourceSections = ['appendix-a', 'appendix-b'];
-
-    if (foundationSections.includes(activeSection)) {
-      foundationOpen = true;
-    } else if (governanceSections.includes(activeSection)) {
-      governanceOpen = true;
-    } else if (implementationSections.includes(activeSection)) {
-      implementationOpen = true;
-    } else if (resourceSections.includes(activeSection)) {
-      resourcesOpen = true;
-    } else {
-      // Default state for overview
-      foundationOpen = true;
-    }
+    foundationOpen = foundationSections.includes(activeSection);
+    coreFrameworkOpen = coreFrameworkSections.includes(activeSection);
+    implementationOpen = implementationSections.includes(activeSection);
+    resourcesOpen = resourceSections.includes(activeSection);
   }
 
   onMount(async () => {
-    await tick(); // Wait for DOM to be ready
+    await tick();
     mounted = true;
     
     if (browser) {
-      // Check print mode only on client
+      // Fix URL corruption and preserve hash fragments
+      let extractedHash = window.location.hash;
+      
+      if (window.location.pathname !== '/frameworks/climate-and-energy-governance') {
+        const pathname = window.location.pathname;
+        const lastPart = pathname.split('/').pop();
+        
+        // Extract section from corrupted pathname
+        if (data?.sections?.[lastPart] && !extractedHash) {
+          extractedHash = `#${lastPart}`;
+        }
+        
+        // Correct the URL
+        const correctUrl = `/frameworks/climate-and-energy-governance${window.location.search}${extractedHash}`;
+        window.history.replaceState(null, '', correctUrl);
+      }
+      
+      // Force reload translations if needed
+      if (!translationsReady) {
+        try {
+          await loadTranslations($locale, '/frameworks/climate-and-energy-governance');
+        } catch (e) {
+          console.error('Failed to reload translations:', e);
+        }
+      }
+      
+      // Set initial section from URL
       const urlParams = new URLSearchParams(window.location.search);
       isPrintMode = urlParams.get('print') === 'true';
       
-      // Make this function available globally for the PDF generator
-      window.showAllSectionsForPrint = () => {
-        isPrintMode = true;
-      };
-
-      // Handle URL parameters and hash
       const sectionParam = urlParams.get('section');
+      const hashSection = (extractedHash || window.location.hash).substring(1);
       
       if (sectionParam && data?.sections?.[sectionParam]) {
         activeSection = sectionParam;
-      } else if (window.location.hash) {
-        const hash = window.location.hash.substring(1);
-        if (hash && data?.sections?.[hash]) {
-          activeSection = hash;
-        }
+      } else if (hashSection && data?.sections?.[hashSection]) {
+        activeSection = hashSection;
       }
-
-      // Initialize accordion states after setting active section
+      
       initializeAccordionStates();
-
+      
+      // Global function for PDF generation
+      window.showAllSectionsForPrint = () => { isPrintMode = true; };
+      
       // Listen for hash changes
       const handleHashChange = () => {
         const hash = window.location.hash.substring(1);
@@ -111,7 +101,7 @@
           
           // Scroll to content
           setTimeout(() => {
-            const contentElement = document.querySelector('.content');
+            const contentElement = document.querySelector('.section-content');
             if (contentElement) {
               contentElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
             } else {
@@ -123,22 +113,14 @@
 
       window.addEventListener('hashchange', handleHashChange);
       
-      // Setup click outside handler for dropdowns
-      document.addEventListener('click', handleClickOutside);
-      
-      initializing = false;
-      
       // Cleanup
       return () => {
         window.removeEventListener('hashchange', handleHashChange);
-        document.removeEventListener('click', handleClickOutside);
         if (window.showAllSectionsForPrint) {
           delete window.showAllSectionsForPrint;
         }
       };
     }
-    
-    initializing = false;
   });
 
   // Function to set active section
@@ -149,9 +131,8 @@
     initializeAccordionStates();
     
     if (browser) {
-      const url = new URL(window.location.href);
-      url.hash = section;
-      history.replaceState(null, '', url.toString());
+      const newUrl = `/frameworks/climate-and-energy-governance${window.location.search}#${section}`;
+      history.replaceState(null, '', newUrl);
 
       setTimeout(() => {
         const contentElement = document.querySelector('.section-content');
@@ -166,117 +147,52 @@
     }
   }
 
-  // Get section titles in current language using short references
+  // Translation helper functions with fallbacks
   function getSectionTitle(section) {
-    return cf.sections?.[section] || section;
+    return translationsReady ? (cf.sections?.[section] || section.replace(/[-_]/g, ' ')) 
+                             : section.replace(/[-_]/g, ' ');
   }
 
-  // Group sections logically with multi-lingual support using short references
   function getSectionCategoryTitle(category) {
-    return cf.categories?.[category] || category;
+    return translationsReady ? (cf.categories?.[category] || category) : category;
   }
 
-  // Function to get shortened section titles for navigation using short references
   function getShortSectionTitle(section) {
-    return cf.sectionsShort?.[section] || getSectionTitle(section);
+    return translationsReady ? (cf.sectionsShort?.[section] || getSectionTitle(section)) : getSectionTitle(section);
   }
 
-  // Function to download the lite guide PDF
-  function downloadLiteGuide(version = '') {
+  function getTextWithFallback(key, fallback) {
+    return translationsReady ? ($t(key) || fallback) : fallback;
+  }
+
+  // Function to download the framework PDF
+  function downloadFramework(version = '') {
     const versionSuffix = version ? `-${version}` : '';
-    const pdfUrl = `${base}/assets/pdf/climate-energy-framework-lite${versionSuffix}-${currentLocale}.pdf`;
+    const pdfUrl = `${base}/assets/pdf/climate-and-energy-governance${versionSuffix}-${currentLocale}.pdf`;
     const link = document.createElement('a');
     link.href = pdfUrl;
-    link.download = `climate-energy-framework-lite${versionSuffix}.pdf`;
+    link.download = `climate-and-energy-governance${versionSuffix}.pdf`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   }
 
-  function selectGuide(guide) {
-    selectedGuide = guide;
-    setActiveSection(guide);
-  }
-  
-  // Get guides from short reference
-  $: guides = cf.guides || [];
-  
-  // Check if the active section is any of the guides
-  $: isGuideActive = ['climate-energy-technical-guide', 'climate-energy-stakeholder-guide', 'climate-energy-action-guide'].includes(activeSection);
+  // Accordion toggle functions
+  function toggleFoundation() { foundationOpen = !foundationOpen; }
+  function toggleCoreFramework() { coreFrameworkOpen = !coreFrameworkOpen; }
+  function toggleImplementation() { implementationOpen = !implementationOpen; }
+  function toggleResources() { resourcesOpen = !resourcesOpen; }
 
-  function toggleFoundation() {
-    foundationOpen = !foundationOpen;
-  }
-
-  function toggleGovernance() {
-    governanceOpen = !governanceOpen;
-  }
-
-  function toggleImplementation() {
-    implementationOpen = !implementationOpen;
-  }
-
-  function toggleResources() {
-    resourcesOpen = !resourcesOpen;
-  }
-
-  function toggleDropdown() {
-    isDropdownOpen = !isDropdownOpen;
-    if (isDropdownOpen) isNavDropdownOpen = false;
-  }
-
-  function toggleNavDropdown() {
-    isNavDropdownOpen = !isNavDropdownOpen;
-    if (isNavDropdownOpen) isDropdownOpen = false;
-  }
-
-  // Close dropdowns when clicking outside
-  function handleClickOutside(event) {
-    if (!browser) return;
-    
-    const dropdown = document.querySelector('.card-actions .dropdown');
-    const navDropdown = document.querySelector('.dropdown-li');
-    
-    if (dropdown && !dropdown.contains(event.target)) {
-      isDropdownOpen = false;
-    }
-    
-    if (navDropdown && !navDropdown.contains(event.target)) {
-      isNavDropdownOpen = false;
-    }
-  }
-
-  // Get the core framework sections (without number prefixes)
-  $: coreFrameworkSections = Object.keys(data?.sections || {}).filter(section => 
-    !['index', 'climate-energy-technical-guide', 'climate-energy-stakeholder-guide', 'climate-energy-action-guide', 'appendix-a', 'appendix-b'].includes(section)
-  );
-
-  // Check if current section is supplementary
-  $: isSupplementaryActive = ['appendix-a', 'appendix-b'].includes(activeSection);
-
-  // Get section progress for core sections
-  $: getSectionProgress = () => {
-    const coreIndex = coreFrameworkSections.indexOf(activeSection);
-    return coreIndex >= 0 ? coreIndex + 1 : 0;
-  };
-
-  // Handle locale changes - add safety check
+  // Handle locale changes
   $: if (browser && mounted && $locale) {
     invalidate('app:locale');
   }
 </script>
 
 <svelte:head>
-  <title>{cf.meta?.title || 'Climate & Energy Framework'}</title>
-  <meta name="description" content="{cf.meta?.description || 'Climate & Energy Framework'}" />
+  <title>{getTextWithFallback('climateEnergyFramework.meta.title', 'Climate & Energy Governance Framework - Global Governance Framework')}</title>
+  <meta name="description" content="{getTextWithFallback('climateEnergyFramework.meta.description', 'A comprehensive framework for transforming global climate and energy systems through community ownership and regenerative governance')}" />
 </svelte:head>
-
-<SectionNotice 
-  type="warning" 
-  customContent={true}
->
-  <p>{$t('common.notices.section.frameworks.q42025redraft')}</p>
-</SectionNotice>
 
 {#if mounted}
   <div class="documentation-container">
@@ -285,41 +201,26 @@
     {/if}
 
     <div class="content">
-      <!-- Quick Access Card for Lite Guides -->
-      {#if !isPrintMode && !isGuideActive && activeSection === 'index'}
-        <div class="lite-guide-card">
+      <!-- Quick Access Card for Climate & Energy Framework -->
+      {#if !isPrintMode && !isExecutiveSummaryActive && activeSection === 'index' && translationsReady}
+        <div class="framework-guide-card">
           <div class="card-content">
-            <div class="card-icon">📘</div>
+            <div class="card-icon">⚡</div>
             <div class="card-text">
-              <h3>{cf.guideCard?.title || 'New to the Climate & Energy Framework?'}</h3>
-              <p>{cf.guideCard?.description || 'Start with one of our simplified guides that explain the core concepts for different audiences.'}</p>
+              <h3>{cf.guideCard?.title || 'New to the Climate & Energy Governance Framework?'}</h3>
+              <p>{cf.guideCard?.description || 'Start with our executive summary designed for skeptics—addressing practical concerns about climate governance and the energy transition.'}</p>
             </div>
             <div class="card-actions">
-              <div class="dropdown">
-                <button class="primary-btn dropdown-toggle" on:click={toggleDropdown}>
-                  {cf.guideCard?.buttonText || 'Choose a Guide'} <span class="arrow-icon">▾</span>
-                </button>
-                {#if isDropdownOpen}
-                  <div class="dropdown-menu">
-                    {#each guides as guide}
-                      <button class="dropdown-item" on:click={() => { selectGuide(guide.id); isDropdownOpen = false; }}>
-                        <span class="guide-icon">{guide.icon}</span>
-                        <div class="guide-info">
-                          <span class="guide-title">{guide.title}</span>
-                          <span class="guide-desc">{guide.description}</span>
-                        </div>
-                      </button>
-                    {/each}
-                  </div>
-                {/if}
-              </div>
+              <button class="primary-btn" on:click={() => setActiveSection('executive-summary-for-the-skeptic')}>
+                {cf.guideCard?.buttonText || 'Read Executive Summary for Skeptics'} <span class="arrow-icon">→</span>
+              </button>
             </div>
           </div>
         </div>
       {/if}
 
-      <!-- Sub-navigation for framework sections -->
-      {#if !isPrintMode && !initializing} 
+      <!-- Sub-navigation for climate & energy framework sections -->
+      {#if !isPrintMode} 
         <div class="section-nav">
           <!-- Overview -->
           <div class="nav-section">
@@ -328,7 +229,7 @@
               class:active={activeSection === 'index'}
               on:click={() => setActiveSection('index')}
             >
-              <span class="nav-icon">🏠</span>
+              <span class="nav-icon">⚡</span>
               <span class="nav-title">{getSectionCategoryTitle('overview')}</span>
             </button>
           </div>
@@ -338,113 +239,113 @@
             <button 
               class="accordion-header" 
               class:open={foundationOpen}
-              class:has-active={isGuideActive || ['introduction', 'guiding-principles'].includes(activeSection)}
+              class:has-active={foundationSections.includes(activeSection)}
               on:click={toggleFoundation}
             >
-              <span class="accordion-icon">📚</span>
+              <span class="accordion-icon">🌱</span>
               <span class="accordion-title">{getSectionCategoryTitle('foundation')}</span>
               <span class="section-count">(5)</span>
               <span class="toggle-arrow" class:rotated={foundationOpen}>▼</span>
             </button>
             {#if foundationOpen}
               <div class="accordion-content" transition:slide={{ duration: 200 }}>
-                {#each guides as guide}
-                  {#if data?.sections?.[guide.id]}
-                    <button 
-                      class="nav-item subsection-item" 
-                      class:active={activeSection === guide.id}
-                      on:click={() => setActiveSection(guide.id)}
-                    >
-                      <span class="nav-icon">{guide.icon}</span>
-                      <span class="nav-title">{getShortSectionTitle(guide.id)}</span>
-                    </button>
-                  {/if}
-                {/each}
-                {#if data?.sections?.['introduction']}
-                  <button 
-                    class="nav-item subsection-item" 
-                    class:active={activeSection === 'introduction'}
-                    on:click={() => setActiveSection('introduction')}
-                  >
-                    <span class="nav-icon">📋</span>
-                    <span class="nav-title">{getShortSectionTitle('introduction')}</span>
-                  </button>
-                {/if}
-                {#if data?.sections?.['guiding-principles']}
-                  <button 
-                    class="nav-item subsection-item" 
-                    class:active={activeSection === 'guiding-principles'}
-                    on:click={() => setActiveSection('guiding-principles')}
-                  >
-                    <span class="nav-icon">📋</span>
-                    <span class="nav-title">{getShortSectionTitle('guiding-principles')}</span>
-                  </button>
-                {/if}
-              </div>
-            {/if}
-          </div>
-
-          <!-- Governance Accordion -->
-          <div class="nav-accordion">
-            <button 
-              class="accordion-header" 
-              class:open={governanceOpen}
-              class:has-active={['governance-structure', 'core-pillars', 'policy-mechanisms', 'stakeholder-engagement'].some(section => activeSection === section)}
-              on:click={toggleGovernance}
-            >
-              <span class="accordion-icon">🏛️</span>
-              <span class="accordion-title">{getSectionCategoryTitle('governance')}</span>
-              <span class="section-count">(4)</span>
-              <span class="toggle-arrow" class:rotated={governanceOpen}>▼</span>
-            </button>
-            {#if governanceOpen}
-              <div class="accordion-content" transition:slide={{ duration: 200 }}>
-                {#each ['governance-structure', 'core-pillars', 'policy-mechanisms', 'stakeholder-engagement'] as section}
+                {#each foundationSections as section}
                   {#if data?.sections?.[section]}
                     <button 
                       class="nav-item subsection-item" 
                       class:active={activeSection === section}
                       on:click={() => setActiveSection(section)}
                     >
-                      <span class="nav-icon">📋</span>
-                      <span class="nav-title">{getShortSectionTitle(section)}</span>
+                      <span class="nav-icon">
+                        {#if section === 'at-a-glance'}⚡
+                        {:else if section === 'executive-summary-for-the-skeptic'}🤔
+                        {:else if section === 'introduction-vision'}🌍
+                        {:else if section === 'guiding-principles'}⚖️
+                        {:else if section === 'integration-architecture'}🔗
+                        {:else}🌱{/if}
+                      </span>
+                      <span class="nav-title">{getSectionTitle(section)}</span>
                     </button>
                   {/if}
                 {/each}
               </div>
             {/if}
           </div>
+
+          <!-- Core Framework Accordion -->
+          {#if coreFrameworkSections.length > 0}
+            <div class="nav-accordion">
+              <button 
+                class="accordion-header" 
+                class:open={coreFrameworkOpen}
+                class:has-active={isCoreSection}
+                on:click={toggleCoreFramework}
+              >
+                <span class="accordion-icon">🏛️</span>
+                <span class="accordion-title">{getSectionCategoryTitle('framework')}</span>
+                <span class="section-count">({coreFrameworkSections.length})</span>
+                <span class="toggle-arrow" class:rotated={coreFrameworkOpen}>▼</span>
+              </button>
+              {#if coreFrameworkOpen}
+                <div class="accordion-content" transition:slide={{ duration: 200 }}>
+                  {#each coreFrameworkSections as section}
+                    <button 
+                      class="nav-item subsection-item" 
+                      class:active={activeSection === section}
+                      on:click={() => setActiveSection(section)}
+                    >
+                      <span class="nav-icon">
+                        {#if section === 'governance-structure'}🏛️
+                        {:else if section === 'four-pillars'}⚡
+                        {:else if section === 'policy-mechanisms'}📋
+                        {:else if section === 'stakeholder-engagement'}🤝
+                        {:else if section === 'financing-framework'}💰
+                        {:else}📋{/if}
+                      </span>
+                      <span class="nav-title">{getShortSectionTitle(section)}</span>
+                    </button>
+                  {/each}
+                </div>
+              {/if}
+            </div>
+          {/if}
 
           <!-- Implementation Accordion -->
-          <div class="nav-accordion">
-            <button 
-              class="accordion-header" 
-              class:open={implementationOpen}
-              class:has-active={['financing-the-framework', 'implementation-roadmap', 'metrics-for-success', 'challenges-and-solutions', 'implementation-tools', 'conclusion'].some(section => activeSection === section)}
-              on:click={toggleImplementation}
-            >
-              <span class="accordion-icon">🚀</span>
-              <span class="accordion-title">{getSectionCategoryTitle('implementation')}</span>
-              <span class="section-count">(6)</span>
-              <span class="toggle-arrow" class:rotated={implementationOpen}>▼</span>
-            </button>
-            {#if implementationOpen}
-              <div class="accordion-content" transition:slide={{ duration: 200 }}>
-                {#each ['financing-the-framework', 'implementation-roadmap', 'metrics-for-success', 'challenges-and-solutions', 'implementation-tools', 'conclusion'] as section}
-                  {#if data?.sections?.[section]}
+          {#if implementationSections.length > 0}
+            <div class="nav-accordion">
+              <button 
+                class="accordion-header" 
+                class:open={implementationOpen}
+                class:has-active={isImplementationSection}
+                on:click={toggleImplementation}
+              >
+                <span class="accordion-icon">🚀</span>
+                <span class="accordion-title">{getSectionCategoryTitle('implementation')}</span>
+                <span class="section-count">({implementationSections.length})</span>
+                <span class="toggle-arrow" class:rotated={implementationOpen}>▼</span>
+              </button>
+              {#if implementationOpen}
+                <div class="accordion-content" transition:slide={{ duration: 200 }}>
+                  {#each implementationSections as section}
                     <button 
                       class="nav-item subsection-item" 
                       class:active={activeSection === section}
                       on:click={() => setActiveSection(section)}
                     >
-                      <span class="nav-icon">📋</span>
+                      <span class="nav-icon">
+                        {#if section === 'implementation-roadmap'}🗺️
+                        {:else if section === 'success-metrics'}📊
+                        {:else if section === 'challenges-solutions'}🛠️
+                        {:else if section === 'taking-action'}🚀
+                        {:else}📋{/if}
+                      </span>
                       <span class="nav-title">{getShortSectionTitle(section)}</span>
                     </button>
-                  {/if}
-                {/each}
-              </div>
-            {/if}
-          </div>
+                  {/each}
+                </div>
+              {/if}
+            </div>
+          {/if}
 
           <!-- Resources Accordion -->
           <div class="nav-accordion">
@@ -456,45 +357,42 @@
             >
               <span class="accordion-icon">📄</span>
               <span class="accordion-title">{getSectionCategoryTitle('resources')}</span>
-              <span class="section-count">(2)</span>
+              <span class="section-count">(1)</span>
               <span class="toggle-arrow" class:rotated={resourcesOpen}>▼</span>
             </button>
             {#if resourcesOpen}
               <div class="accordion-content" transition:slide={{ duration: 200 }}>
-                {#if data?.sections?.['appendix-a']}
-                  <button 
-                    class="nav-item subsection-item" 
-                    class:active={activeSection === 'appendix-a'}
-                    on:click={() => setActiveSection('appendix-a')}
-                  >
-                    <span class="nav-icon">📋</span>
-                    <span class="nav-title">{getSectionTitle('appendix-a')}</span>
-                  </button>
-                {/if}
-                {#if data?.sections?.['appendix-b']}
-                  <button 
-                    class="nav-item subsection-item" 
-                    class:active={activeSection === 'appendix-b'}
-                    on:click={() => setActiveSection('appendix-b')}
-                  >
-                    <span class="nav-icon">📖</span>
-                    <span class="nav-title">{getSectionTitle('appendix-b')}</span>
-                  </button>
-                {/if}
+                {#each resourceSections as section}
+                  {#if data?.sections?.[section]}
+                    <button 
+                      class="nav-item subsection-item" 
+                      class:active={activeSection === section}
+                      on:click={() => setActiveSection(section)}
+                    >
+                      <span class="nav-icon">📚</span>
+                      <span class="nav-title">{getSectionTitle(section)}</span>
+                    </button>
+                  {/if}
+                {/each}
               </div>
             {/if}
           </div>
         </div>
       {/if}
 
-      <!-- Progress indicator for core sections -->
-      {#if !isPrintMode && coreFrameworkSections.includes(activeSection)}
-        <div class="progress-indicator">
-          <div class="progress-bar">
-            <div class="progress-fill" style="width: {((getSectionProgress() / coreFrameworkSections.length) * 100)}%"></div>
+      <!-- Progress indicator for main framework sections -->
+      {#if !isPrintMode && translationsReady}
+        {@const progressFoundationSections = ['introduction-vision', 'guiding-principles', 'integration-architecture']}
+        {@const allProgressSections = [...progressFoundationSections, ...coreFrameworkSections, ...implementationSections]}
+        {@const currentIndex = allProgressSections.indexOf(activeSection)}
+        {#if currentIndex >= 0}
+          <div class="progress-indicator">
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: {((currentIndex + 1) / allProgressSections.length * 100)}%"></div>
+            </div>
+            <span class="progress-text">{cf.progress?.text?.replace('{current}', currentIndex + 1).replace('{total}', allProgressSections.length) || `Section ${currentIndex + 1} of ${allProgressSections.length}`}</span>
           </div>
-          <span class="progress-text">{cf.progress?.text?.replace('{current}', getSectionProgress()).replace('{total}', coreFrameworkSections.length) || `Section ${getSectionProgress()} of ${coreFrameworkSections.length}`}</span>
-        </div>
+        {/if}
       {/if}
 
       <!-- Show active section, or all sections in print mode -->
@@ -502,91 +400,63 @@
         {#if data?.sections?.[section]}
           <div class="section-content" id={section}>
             <!-- Language fallback notice -->
-            {#if !isPrintMode && data.sectionsUsingEnglishFallback?.includes(section) && section !== 'index'}
+            {#if !isPrintMode && data.sectionsUsingEnglishFallback?.includes(section) && section !== 'index' && translationsReady}
               <div class="language-fallback-notice">
-                <div class="notice-icon">🌐</div>
+                <div class="notice-icon">🌍</div>
                 <div class="notice-content">
                   <strong>{cf.languageFallback?.title || 'Content in your language coming soon'}</strong>
                   <p>{cf.languageFallback?.description || 'This section is currently displayed in English until translation is complete.'}</p>
                 </div>
               </div>
             {/if}
-
-            {#if section.startsWith('climate-energy-')}
-              <!-- Guide selector if we're in one of the guides and not in print mode -->
-              {#if !isPrintMode}
-                <div class="guide-selector">
-                  <h2>{cf.guideSelector?.title || 'Climate & Energy Framework Guides'}</h2>
-                  <p>{cf.guideSelector?.description || 'Choose the guide version that best matches your needs:'}</p>
-                  
-                  <div class="guide-cards">
-                    {#each guides as guide}
-                      <div 
-                        class="guide-card" 
-                        class:active={activeSection === guide.id}
-                        on:click={() => selectGuide(guide.id)}
-                        on:keydown={(e) => e.key === 'Enter' && selectGuide(guide.id)}
-                        role="button"
-                        tabindex="0"
-                      >
-                        <div class="guide-icon">{guide.icon}</div>
-                        <div class="guide-title">{guide.title}</div>
-                        <div class="guide-desc">{guide.description}</div>
-                      </div>
-                    {/each}
-                  </div>
-                </div>
-              {/if}
-              
-              <!-- Render the selected Guide -->
-              <svelte:component this={data.sections[section].default} t={translationFunction} />
-              
-              <!-- Navigation buttons at bottom of guide -->
-              {#if !isPrintMode}
-                <div class="lite-guide-navigation">
-                  <button class="secondary-btn" on:click={() => downloadLiteGuide(section.replace('climate-energy-', ''))}>
-                    {cf.navigation?.downloadPdf || 'Download PDF Version'} <span class="download-icon">↓</span>
-                  </button>
-                  <button class="primary-btn" on:click={() => setActiveSection('index')}>
-                    {cf.navigation?.continueToFramework || 'Continue to Full Framework'} <span class="arrow-icon">→</span>
-                  </button>
-                </div>
-              {/if}
-
-            {:else}
-              <!-- Render ALL sections including index from markdown files -->
-              <svelte:component this={data.sections[section].default} t={translationFunction} />
+            
+            <!-- Render sections from markdown files -->
+            <svelte:component this={data.sections[section].default} t={$t} />
+            
+            <!-- Navigation buttons at bottom of executive summary -->
+            {#if section === 'executive-summary-for-the-skeptic' && !isPrintMode && translationsReady}
+              <div class="guide-navigation">
+                <button class="secondary-btn" on:click={() => downloadFramework('executive-summary')}>
+                  {cf.navigation?.downloadPdf || 'Download PDF Version'} <span class="download-icon">↓</span>
+                </button>
+                <button class="primary-btn" on:click={() => setActiveSection('introduction-vision')}>
+                  {cf.navigation?.continueToFramework || 'Continue to Full Framework'} <span class="arrow-icon">→</span>
+                </button>
+              </div>
             {/if}
 
-            <!-- Section navigation at bottom of core sections -->
-            {#if coreFrameworkSections.includes(activeSection) && !isPrintMode}
-              <div class="section-navigation">
-                {#if getSectionProgress() > 1}
-                  <button class="nav-btn prev-btn" on:click={() => {
-                    const currentIndex = coreFrameworkSections.indexOf(activeSection);
-                    const prevSection = coreFrameworkSections[currentIndex - 1];
-                    if (prevSection) setActiveSection(prevSection);
-                  }}>
-                    ← {cf.navigation?.previousSection || 'Previous Section'}
-                  </button>
-                {/if}
-                
-                {#if getSectionProgress() < coreFrameworkSections.length}
-                  <button class="nav-btn next-btn" on:click={() => {
-                    const currentIndex = coreFrameworkSections.indexOf(activeSection);
-                    const nextSection = coreFrameworkSections[currentIndex + 1];
-                    if (nextSection) setActiveSection(nextSection);
-                  }}>
-                    {cf.navigation?.nextSection || 'Next Section'} →
-                  </button>
-                {/if}
-              </div>
+            <!-- Section navigation at bottom of foundation, core and implementation sections -->
+            {#if !isPrintMode && translationsReady}
+              {@const progressFoundationSections = ['introduction-vision', 'guiding-principles', 'integration-architecture']}
+              {@const allProgressSections = [...progressFoundationSections, ...coreFrameworkSections, ...implementationSections]}
+              {@const currentIndex = allProgressSections.indexOf(activeSection)}
+              {#if currentIndex >= 0}
+                <div class="section-navigation">
+                  {#if currentIndex > 0}
+                    <button class="nav-btn prev-btn" on:click={() => {
+                      const prevSection = allProgressSections[currentIndex - 1];
+                      setActiveSection(prevSection);
+                    }}>
+                      ← {cf.navigation?.previousSection || 'Previous Section'}
+                    </button>
+                  {/if}
+                  
+                  {#if currentIndex < allProgressSections.length - 1}
+                    <button class="nav-btn next-btn" on:click={() => {
+                      const nextSection = allProgressSections[currentIndex + 1];
+                      setActiveSection(nextSection);
+                    }}>
+                      {cf.navigation?.nextSection || 'Next Section'} →
+                    </button>
+                  {/if}
+                </div>
+              {/if}
             {/if}
           </div>
         {:else}
           <div class="missing-section">
-            <h2>{cf.errors?.sectionNotFound?.replace('{section}', section) || `Section "${section}" not found`}</h2>
-            <p>{cf.errors?.contentInDevelopment || 'This content is still being developed.'}</p>
+            <h2>{getTextWithFallback('climateEnergyFramework.errors.sectionNotFound', `Section "${section}" not found`).replace('{section}', section)}</h2>
+            <p>{getTextWithFallback('climateEnergyFramework.errors.contentInDevelopment', 'This content is still being developed.')}</p>
           </div>
         {/if}
       {/each}
@@ -596,7 +466,7 @@
   <!-- Loading state to prevent hydration issues -->
   <div class="loading-container">
     <div class="loading-spinner"></div>
-    <p>{cf.loading?.text || 'Loading climate & energy content...'}</p>
+    <p>{getTextWithFallback('climateEnergyFramework.loading.text', 'Loading climate & energy framework content...')}</p>
   </div>
 {/if}
 
@@ -611,6 +481,7 @@
     --energy-danger: #C43B3B;
     --energy-light: #E8F4FD;
     --energy-dark: #1A365D;
+    --energy-wisdom: #2D3748;
   }
 
   /* Loading state */
@@ -674,7 +545,7 @@
   .section-nav {
     margin-bottom: 2rem;
     border-bottom: 1px solid #e5e7eb;
-    background: linear-gradient(to bottom, #f8fafc, #f1f5f9);
+    background: linear-gradient(to bottom, var(--energy-light), #f1f5f9);
     border-radius: 0.5rem;
     padding: 1rem;
   }
@@ -832,7 +703,7 @@
   .progress-indicator {
     margin-bottom: 2rem;
     padding: 1rem;
-    background: linear-gradient(90deg, rgba(43, 75, 140, 0.1), rgba(75, 138, 194, 0.1));
+    background: linear-gradient(90deg, rgba(43, 75, 140, 0.1), rgba(109, 170, 63, 0.1));
     border-radius: 0.5rem;
     border-left: 4px solid var(--energy-primary);
   }
@@ -848,7 +719,7 @@
 
   .progress-fill {
     height: 100%;
-    background: linear-gradient(90deg, var(--energy-primary), var(--energy-secondary));
+    background: linear-gradient(90deg, var(--energy-primary), var(--energy-accent));
     border-radius: 4px;
     transition: width 0.3s ease;
   }
@@ -859,28 +730,15 @@
     font-weight: 500;
   }
 
-  /* Lite Guide card */
-  .lite-guide-card {
-    background: linear-gradient(135deg, #e8eaf6 0%, #c5cae9 100%);
+  /* Framework guide card */
+  .framework-guide-card {
+    background: linear-gradient(135deg, rgba(109, 170, 63, 0.1) 0%, rgba(43, 75, 140, 0.1) 100%);
     border-radius: 0.75rem;
     margin-bottom: 2rem;
     box-shadow: 0 4px 6px rgba(43, 75, 140, 0.1);
     border: 1px solid rgba(43, 75, 140, 0.2);
-    overflow: visible !important;
     position: relative;
     z-index: 1;
-  }
-
-  .lite-guide-card .dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1001;
-    min-width: 300px;
-    max-width: 350px;
-    overflow: visible;
-    border: 1px solid rgba(43, 75, 140, 0.3);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .card-content {
@@ -935,14 +793,14 @@
   }
   
   .primary-btn:hover {
-    background-color: var(--energy-secondary);
+    background-color: var(--energy-accent);
     transform: translateY(-1px);
   }
 
   .primary-btn:focus-visible {
-    outline: 2px solid var(--energy-accent);
+    outline: 2px solid var(--energy-secondary);
     outline-offset: 2px;
-    background-color: var(--energy-secondary);
+    background-color: var(--energy-accent);
     transform: translateY(-1px);
   }
   
@@ -958,18 +816,18 @@
   }
   
   .secondary-btn:hover {
-    background-color: #e8eaf6;
+    background-color: rgba(75, 138, 194, 0.1);
     transform: translateY(-1px);
   }
 
   .secondary-btn:focus-visible {
-    outline: 2px solid var(--energy-accent);
+    outline: 2px solid var(--energy-secondary);
     outline-offset: 2px;
-    background-color: #e8eaf6;
+    background-color: rgba(75, 138, 194, 0.1);
     transform: translateY(-1px);
   }
   
-  .lite-guide-navigation {
+  .guide-navigation {
     display: flex;
     justify-content: space-between;
     margin-top: 3rem;
@@ -997,14 +855,14 @@
   }
 
   .nav-btn:hover {
-    background-color: var(--energy-secondary);
+    background-color: var(--energy-accent);
     transform: translateY(-1px);
   }
 
   .nav-btn:focus-visible {
-    outline: 2px solid var(--energy-accent);
+    outline: 2px solid var(--energy-secondary);
     outline-offset: 2px;
-    background-color: var(--energy-secondary);
+    background-color: var(--energy-accent);
     transform: translateY(-1px);
   }
 
@@ -1096,8 +954,8 @@
 
   /* Blockquotes */
   .content :global(blockquote) {
-    background-color: #f3f6f9;
-    border-left: 4px solid var(--energy-primary);
+    background-color: rgba(109, 170, 63, 0.1);
+    border-left: 4px solid var(--energy-accent);
     padding: 1rem 1.5rem;
     margin: 1.5rem 0;
     border-radius: 0.5rem;
@@ -1121,171 +979,42 @@
   }
 
   .content :global(ul li:not(.section-nav li))::before {
-    content: "✦";
+    content: "•";
     position: absolute;
     left: 0;
     top: 0.1em;
-    color: var(--energy-primary);
-    font-size: 0.9rem;
+    font-size: 1.2rem;
+    color: var(--energy-accent);
+  }
+
+  /* Ordered lists */
+  .content :global(ol) {
+    list-style-type: decimal;
+    counter-reset: item;
+  }
+
+  .content :global(ol li) {
+    position: relative;
+    margin-bottom: 0.75rem;
+    padding-left: 0.5rem;
+    color: #4b5563;
+  }
+
+  .content :global(ol li::marker) {
+    color: var(--energy-accent);
+    font-weight: 600;
   }
 
   /* Links */
   .content :global(a) {
-    color: var(--energy-primary);
+    color: var(--energy-secondary);
     text-decoration: underline;
     font-weight: 500;
     transition: all 0.2s;
   }
 
   .content :global(a:hover) {
-    color: var(--energy-dark);
-  }
-  
-  /* Dropdown styles for guides */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-
-  .dropdown-toggle {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    width: 100%;
-  }
-
-  .dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    width: auto !important;
-    min-width: 300px !important;
-    padding: 0.5rem 0;
-    margin: 0.125rem 0 0;
-    background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    border-radius: 0.25rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175);
-    margin-top: 0;
-    padding-top: 10px;
-    white-space: normal !important;
-    display: block;
-  }
-
-  .dropdown-item {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 0.75rem 1.5rem;
-    clear: both;
-    font-weight: 400;
-    color: #212529;
-    text-align: inherit;
-    white-space: normal !important;
-    background-color: transparent;
-    border: 0;
-    cursor: pointer;
-  }
-  
-  .dropdown-item:hover, .dropdown-item:focus {
-    color: #16181b;
-    text-decoration: none;
-    background-color: #e8eaf6;
-  }
-
-  .dropdown-item:focus-visible {
-    outline: 2px solid var(--energy-accent);
-    outline-offset: 2px;
-  }
-  
-  /* Guide selector styles */
-  .guide-selector {
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #e5e7eb;
-  }
-  
-  .guide-cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-top: 1rem;
-  }
-  
-  .guide-card {
-    flex: 1;
-    min-width: 200px;
-    max-width: 300px;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    border: 1px solid #e5e7eb;
-    cursor: pointer;
-    transition: all 0.2s;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .guide-card:hover {
-    box-shadow: 0 4px 6px rgba(43, 75, 140, 0.1);
-    transform: translateY(-2px);
-    border-color: var(--energy-primary);
-  }
-
-  .guide-card:focus-visible {
-    outline: 2px solid var(--energy-accent);
-    outline-offset: 2px;
-    box-shadow: 0 4px 6px rgba(43, 75, 140, 0.1);
-    transform: translateY(-2px);
-    border-color: var(--energy-primary);
-  }
-  
-  .guide-card.active {
-    border-color: var(--energy-primary);
-    background-color: #e8eaf6;
-  }
-  
-  .guide-icon {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .guide-title {
-    font-weight: 600;
-    margin-bottom: 0.5rem;
     color: var(--energy-primary);
-  }
-  
-  .guide-desc {
-    font-size: 0.875rem;
-    color: #6b7280;
-  }
-  
-  .guide-info {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  /* For dropdown guide items */
-  .dropdown-item .guide-icon {
-    font-size: 1.5rem;
-    margin-right: 1rem;
-    margin-bottom: 0;
-    display: inline-block;
-    width: 24px;
-    text-align: center;
-  }
-  
-  .dropdown-item .guide-title {
-    font-weight: 600;
-    margin-bottom: 0.25rem;
-  }
-  
-  .dropdown-item .guide-desc {
-    font-size: 0.75rem;
-    color: #6b7280;
   }
 
   /* Responsive Design */
@@ -1317,18 +1046,18 @@
       align-items: flex-start;
       gap: 1rem;
     }
-    
+   
     .card-actions {
       width: 100%;
       justify-content: center;
     }
-    
-    .lite-guide-navigation {
+   
+    .guide-navigation {
       flex-direction: column;
       gap: 1rem;
     }
-    
-    .lite-guide-navigation button {
+   
+    .guide-navigation button {
       width: 100%;
     }
 
@@ -1339,14 +1068,6 @@
 
     .section-navigation button {
       width: 100%;
-    }
-    
-    .guide-cards {
-      flex-direction: column;
-    }
-    
-    .guide-card {
-      max-width: none;
     }
 
     .loading-container {

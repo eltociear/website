@@ -1,85 +1,68 @@
 {
   "meta": {
     "title": "Climate & Energy Governance Framework - Global Governance Framework",
-    "description": "Comprehensive governance framework for climate action and clean energy transition"
+    "description": "A comprehensive framework for transforming global climate and energy systems through community ownership and regenerative governance"
   },
-  "guideCard": {
-    "title": "New to the Climate & Energy Framework?",
-    "description": "Start with one of our simplified guides that explain the core concepts for different audiences.",
-    "buttonText": "Choose a Guide"
+  "loading": {
+    "text": "Loading climate & energy framework content..."
+  },
+  "errors": {
+    "sectionNotFound": "Section \"{section}\" not found",
+    "contentInDevelopment": "This content is still being developed."
   },
   "categories": {
-    "overview": "Overview",
-    "foundation": "Foundation",
-    "governance": "Governance",
-    "implementation": "Implementation",
-    "resources": "Resources"
+    "overview": "Framework Overview",
+    "foundation": "Foundation & Vision", 
+    "framework": "Core Framework",
+    "implementation": "Implementation & Action",
+    "resources": "Resources & References"
   },
   "sections": {
-    "climate-energy-technical-guide": "Technical Guide for Policymakers",
-    "climate-energy-stakeholder-guide": "Stakeholder Implementation Guide",
-    "climate-energy-action-guide": "Climate Action Guide",
-    "index": "Overview",
-    "introduction": "Introduction",
+    "index": "Climate & Energy Governance Framework",
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary for Skeptics",
+    "introduction-vision": "Introduction & Vision",
     "guiding-principles": "Guiding Principles",
+    "integration-architecture": "GGF Integration Architecture",
     "governance-structure": "Governance Structure",
-    "core-pillars": "Core Pillars",
+    "four-pillars": "The Four Core Pillars",
     "policy-mechanisms": "Policy Mechanisms",
     "stakeholder-engagement": "Stakeholder Engagement",
-    "financing-the-framework": "Financing the Framework",
+    "financing-framework": "Financing the Framework",
     "implementation-roadmap": "Implementation Roadmap",
-    "metrics-for-success": "Metrics for Success",
-    "challenges-and-solutions": "Challenges & Solutions",
-    "implementation-tools": "Implementation Tools",
-    "conclusion": "Conclusion",
-    "appendix-a": "Appendix A: Existing Frameworks",
-    "appendix-b": "Appendix B: Key Terms and Acronyms"
+    "success-metrics": "Success Metrics",
+    "challenges-solutions": "Challenges & Solutions",
+    "taking-action": "Taking Action",
+    "appendices": "Appendices"
   },
   "sectionsShort": {
-    "climate-energy-technical-guide": "Technical Guide",
-    "climate-energy-stakeholder-guide": "Stakeholder Guide",
-    "climate-energy-action-guide": "Action Guide",
     "index": "Overview",
-    "introduction": "Introduction",
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary",
+    "introduction-vision": "Introduction",
     "guiding-principles": "Principles",
-    "governance-structure": "Structure",
-    "core-pillars": "Pillars",
-    "policy-mechanisms": "Policy",
+    "integration-architecture": "GGF Integration",
+    "governance-structure": "Governance",
+    "four-pillars": "Four Pillars",
+    "policy-mechanisms": "Policy Tools",
     "stakeholder-engagement": "Stakeholders",
-    "financing-the-framework": "Financing",
+    "financing-framework": "Financing",
     "implementation-roadmap": "Roadmap",
-    "metrics-for-success": "Metrics",
-    "challenges-and-solutions": "Challenges",
-    "implementation-tools": "Tools",
-    "conclusion": "Conclusion",
-    "appendix-a": "Appendix A",
-    "appendix-b": "Appendix B"
+    "success-metrics": "Success Metrics",
+    "challenges-solutions": "Challenges",
+    "taking-action": "Take Action",
+    "appendices": "Appendices"
   },
-  "guides": [
-    {
-      "id": "climate-energy-technical-guide",
-      "title": "Technical Guide",
-      "description": "Detailed guide for policymakers, government officials, and technical experts",
-      "icon": "📊"
-    },
-    {
-      "id": "climate-energy-stakeholder-guide",
-      "title": "Stakeholder Guide",
-      "description": "Implementation guide for businesses, civil society, and regional authorities",
-      "icon": "🤝"
-    },
-    {
-      "id": "climate-energy-action-guide",
-      "title": "Action Guide",
-      "description": "Practical guide for youth, communities, and local leaders",
-      "icon": "🌱"
-    }
-  ],
-  "intro": {
-    "title": "Climate & Energy Governance Framework",
-    "overview": "Overview",
-    "paragraph1": "The Climate & Energy Governance Framework provides a comprehensive governance architecture to limit warming to 1.5°C, accelerate clean energy transition, and build climate resilience for vulnerable communities.",
-    "paragraph2": "This framework integrates four pillars—mitigation, adaptation, energy transition, and innovation—with a multi-level governance structure and principles that promote ecological balance, equity, and science-based decision making."
+  "guideCard": {
+    "title": "New to the Climate & Energy Governance Framework?",
+    "description": "Start with our executive summary designed for skeptics—addressing practical concerns about climate governance and the energy transition.",
+    "buttonText": "Read Executive Summary for Skeptics"
+  },
+  "navigation": {
+    "downloadPdf": "Download PDF Version",
+    "continueToFramework": "Continue to Full Framework",
+    "previousSection": "Previous Section",
+    "nextSection": "Next Section"
   },
   "progress": {
     "text": "Section {current} of {total}"
@@ -88,21 +71,116 @@
     "title": "Content in your language coming soon",
     "description": "This section is currently displayed in English until translation is complete."
   },
-  "guideSelector": {
-    "title": "Climate & Energy Framework Guides",
-    "description": "Choose the guide version that best matches your needs:"
+  "sectionDescriptions": {
+    "index": "Complete overview of the Climate & Energy Governance Framework and its role in planetary transformation",
+    "at-a-glance": "Quick reference guide highlighting key targets, timelines, and implementation milestones",
+    "executive-summary-for-the-skeptic": "Pragmatic summary addressing concerns about climate governance feasibility and energy transition challenges",
+    "introduction-vision": "The Great Recalibration - transforming humanity's relationship with energy from extraction to regeneration",
+    "guiding-principles": "Seven core principles including sustainability, equity, science-based decision making, and community energy sovereignty",
+    "integration-architecture": "How the framework integrates with the broader Global Governance Framework ecosystem",
+    "governance-structure": "Multi-level coordination from Global Oversight Body to community energy cooperatives",
+    "four-pillars": "Radical mitigation, just energy transition, traditional knowledge-led adaptation, and regenerative energy commons",
+    "policy-mechanisms": "Comprehensive tools including legislation, economic instruments, monitoring systems, and enforcement",
+    "stakeholder-engagement": "Inclusive participation across governments, private sector, civil society, and scientific communities",
+    "financing-framework": "Scaled funding architecture ensuring justice through reparative contributions and innovative finance",
+    "implementation-roadmap": "Milestone-driven progression from governance activation to global tipping point",
+    "success-metrics": "Tracking climate outcomes, energy targets, equity indicators, and biodiversity integration",
+    "challenges-solutions": "Strategic responses to political resistance, funding gaps, and technological barriers",
+    "taking-action": "Individual pathways, systemic change strategies, and the vision of community-owned clean energy abundance",
+    "appendices": "Detailed implementation guides, scaling dynamics, economic mechanics, and resistance management"
   },
-  "navigation": {
-    "downloadPdf": "Download PDF Version",
-    "continueToFramework": "Continue to Full Framework",
-    "previousSection": "Previous Section",
-    "nextSection": "Next Section"
+  "keyFeatures": {
+    "communityOwnership": {
+      "title": "80% Community-Owned Energy",
+      "description": "Promoting community energy sovereignty through locally-controlled renewable systems"
+    },
+    "climateTargets": {
+      "title": "1.5°C Warming Limit",
+      "description": "Science-based targets aligned with IPCC research and Paris Agreement goals"
+    },
+    "justTransition": {
+      "title": "Just Energy Transition",
+      "description": "Ensuring fossil fuel workers and communities are supported through the transformation"
+    },
+    "globalCooperation": {
+      "title": "Global Cooperation",
+      "description": "International coordination through Regional Hubs and binding enforcement mechanisms"
+    },
+    "regenerativeFinance": {
+      "title": "$2 Trillion Annual Funding",
+      "description": "Scaled climate finance through reparative contributions and innovative mechanisms"
+    },
+    "indigenousRights": {
+      "title": "Indigenous Leadership",
+      "description": "Traditional knowledge integration and Indigenous veto power over energy projects"
+    }
   },
-  "errors": {
-    "sectionNotFound": "Section \"{section}\" not found",
-    "contentInDevelopment": "This content is still being developed."
+  "milestones": {
+    "governance": {
+      "title": "Governance Activation",
+      "timeframe": "18 months",
+      "description": "Global Oversight Body establishment and initial Regenerative Trade Zone coalition"
+    },
+    "economic": {
+      "title": "Economic Engine Online", 
+      "timeframe": "Year 3",
+      "description": "International Climate Tribunal operational and reparative funding disbursing"
+    },
+    "systemic": {
+      "title": "Systemic Shift",
+      "timeframe": "Year 8", 
+      "description": "Biosphere Health Index replaces GDP, 50% community-owned energy achieved"
+    },
+    "global": {
+      "title": "Global Tipping Point",
+      "timeframe": "Year 15",
+      "description": "RTZ encompasses 60%+ global economy, 90-100% clean energy goal achieved"
+    }
   },
-  "loading": {
-    "text": "Loading climate & energy content..."
+  "pillars": {
+    "mitigation": {
+      "title": "Radical Mitigation & Ecosystem Restoration",
+      "subtitle": "The Planetary Healing Engine",
+      "description": "Net-zero emissions by 2050 through carbon pricing, nature-based solutions, and circular economy practices"
+    },
+    "transition": {
+      "title": "The Just & Sovereign Energy Transition", 
+      "subtitle": "The Community Empowerment System",
+      "description": "90-100% clean energy with 80% community ownership through cooperatives and grid modernization"
+    },
+    "adaptation": {
+      "title": "Traditional Knowledge-led Adaptation & Resilience",
+      "subtitle": "The Wisdom-Centered Response", 
+      "description": "Resilience guided by Indigenous knowledge, disaster preparedness, and climate finance"
+    },
+    "commons": {
+      "title": "Building the Regenerative Energy Commons",
+      "subtitle": "The Narrative Transformation",
+      "description": "Promoting community-owned abundant energy through economic incentives and narrative change"
+    }
+  },
+  "ctaButtons": {
+    "learnMore": "Learn More",
+    "getInvolved": "Get Involved",
+    "downloadPdf": "Download PDF",
+    "shareFramework": "Share Framework",
+    "viewImplementation": "View Implementation Guide",
+    "exploreIntegration": "Explore GGF Integration"
+  },
+  "stats": {
+    "emissionsReduction": "55% emissions reduction by 2035",
+    "cleanEnergyTarget": "90-100% clean energy by 2050", 
+    "communityOwnership": "80% community-owned renewables",
+    "vulnerableResilience": "75% vulnerable communities climate-resilient by 2035",
+    "fundingScale": "$2 trillion annually by 2030",
+    "biodiversityTarget": "30x30 protected land and sea targets"
+  },
+  "integrationPoints": {
+    "treaty": "Treaty for Our Only Home provides legal authority",
+    "aubi": "AUBI Framework rewards energy transitions",
+    "sundown": "Sundown Protocol manages fossil fuel phase-out",
+    "hearthstone": "Hearthstone Protocol enables community ownership",
+    "disaster": "Disaster Risk Reduction coordinates adaptation",
+    "gaian": "Gaian Trade Framework creates economic incentives"
   }
 }

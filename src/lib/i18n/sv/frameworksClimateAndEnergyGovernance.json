@@ -1,108 +1,186 @@
 {
   "meta": {
-    "title": "Klimat- och Energistyrningsramverk - Global Governance Framework",
-    "description": "Omfattande styrningsramverk för klimatåtgärder och omställning till ren energi"
+    "title": "Ramverk för klimat- & energistyrning - Globala styrningsramverket",
+    "description": "Ett omfattande ramverk för att omvandla globala klimat- och energisystem genom lokalsamhällesägt ägande och regenerativ styrning"
   },
-  "guideCard": {
-    "title": "Ny till Klimat- och Energiramverket?",
-    "description": "Börja med en av våra förenklade guider som förklarar kärnkoncepten för olika målgrupper.",
-    "buttonText": "Välj en Guide"
+  "loading": {
+    "text": "Laddar innehåll för klimat- & energiramverket..."
+  },
+  "errors": {
+    "sectionNotFound": "Avsnittet \"{section}\" hittades inte",
+    "contentInDevelopment": "Detta innehåll är fortfarande under utveckling."
   },
   "categories": {
-    "overview": "Översikt",
-    "foundation": "Grund",
-    "governance": "Styrning",
-    "implementation": "Implementering",
-    "resources": "Resurser"
+    "overview": "Ramverksöversikt",
+    "foundation": "Grund & vision",
+    "framework": "Kärnramverk",
+    "implementation": "Implementering & agerande",
+    "resources": "Resurser & referenser"
   },
   "sections": {
-    "climate-energy-technical-guide": "Teknisk Guide för Beslutsfattare",
-    "climate-energy-stakeholder-guide": "Genomförandeguide för Intressenter",
-    "climate-energy-action-guide": "Klimataktionsguide",
-    "index": "Översikt",
-    "introduction": "Introduktion",
-    "guiding-principles": "Vägledande Principer",
+    "index": "Ramverk för klimat- & energistyrning",
+    "at-a-glance": "I korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning för skeptiker",
+    "introduction-vision": "Introduktion & vision",
+    "guiding-principles": "Vägledande principer",
+    "integration-architecture": "GGF integrationsarkitektur",
     "governance-structure": "Styrningsstruktur",
-    "core-pillars": "Kärnpelare",
+    "four-pillars": "De fyra kärnpelarna",
     "policy-mechanisms": "Policymekanismer",
     "stakeholder-engagement": "Intressentengagemang",
-    "financing-the-framework": "Finansiering av Ramverket",
-    "implementation-roadmap": "Implementeringsplan",
-    "metrics-for-success": "Framgångsmått",
-    "challenges-and-solutions": "Utmaningar & Lösningar",
-    "implementation-tools": "Implementeringsverktyg",
-    "conclusion": "Slutsats",
-    "appendix-a": "Bilaga A: Befintliga Ramverk",
-    "appendix-b": "Bilaga B: Nyckeltermer och Förkortningar"
+    "financing-framework": "Finansiering av ramverket",
+    "implementation-roadmap": "Implementeringsfärdplan",
+    "success-metrics": "Framgångsmått",
+    "challenges-solutions": "Utmaningar & lösningar",
+    "taking-action": "Att agera",
+    "appendices": "Bilagor"
   },
   "sectionsShort": {
-    "climate-energy-technical-guide": "Teknisk Guide",
-    "climate-energy-stakeholder-guide": "Intressentguide",
-    "climate-energy-action-guide": "Aktionsguide",
     "index": "Översikt",
-    "introduction": "Introduktion",
+    "at-a-glance": "I korthet",
+    "executive-summary-for-the-skeptic": "Sammanfattning",
+    "introduction-vision": "Introduktion",
     "guiding-principles": "Principer",
-    "governance-structure": "Struktur",
-    "core-pillars": "Pelare",
-    "policy-mechanisms": "Policy",
+    "integration-architecture": "GGF-integration",
+    "governance-structure": "Styrning",
+    "four-pillars": "Fyra pelare",
+    "policy-mechanisms": "Policyverktyg",
     "stakeholder-engagement": "Intressenter",
-    "financing-the-framework": "Finansiering",
-    "implementation-roadmap": "Plan",
-    "metrics-for-success": "Mått",
-    "challenges-and-solutions": "Utmaningar",
-    "implementation-tools": "Verktyg",
-    "conclusion": "Slutsats",
-    "appendix-a": "Bilaga A",
-    "appendix-b": "Bilaga B"
+    "financing-framework": "Finansiering",
+    "implementation-roadmap": "Färdplan",
+    "success-metrics": "Framgångsmått",
+    "challenges-solutions": "Utmaningar",
+    "taking-action": "Agera",
+    "appendices": "Bilagor"
   },
-  "guides": [
-    {
-      "id": "climate-energy-technical-guide",
-      "title": "Teknisk Guide",
-      "description": "Detaljerad guide för beslutsfattare, regeringstjänstemän och tekniska experter",
-      "icon": "📊"
-    },
-    {
-      "id": "climate-energy-stakeholder-guide",
-      "title": "Intressentguide",
-      "description": "Implementeringsguide för företag, civilsamhälle och regionala myndigheter",
-      "icon": "🤝"
-    },
-    {
-      "id": "climate-energy-action-guide",
-      "title": "Handlingsguide",
-      "description": "Praktisk guide för ungdomar, samhällen och lokala ledare",
-      "icon": "🌱"
-    }
-  ],
-  "intro": {
-    "title": "Klimat- och Energistyrningsramverk",
-    "overview": "Översikt",
-    "paragraph1": "Klimat- och Energistyrningsramverket erbjuder en omfattande styrningsarkitektur för att begränsa uppvärmningen till 1,5°C, påskynda omställningen till ren energi och bygga klimatresiliens för sårbara samhällen.",
-    "paragraph2": "Detta ramverk integrerar fyra pelare - klimatminskning, klimatanpassning, energiomställning och innovation - med en flernivåstyrningsstruktur och principer som främjar ekologisk balans, rättvisa och vetenskapsbaserat beslutsfattande."
+  "guideCard": {
+    "title": "Ny inom ramverket för klimat- & energistyrning?",
+    "description": "Börja med vår sammanfattning för skeptiker – den tar upp praktiska farhågor kring klimatstyrning och energiomställningen.",
+    "buttonText": "Läs sammanfattningen för skeptiker"
+  },
+  "navigation": {
+    "downloadPdf": "Ladda ner PDF-version",
+    "continueToFramework": "Fortsätt till hela ramverket",
+    "previousSection": "Föregående avsnitt",
+    "nextSection": "Nästa avsnitt"
   },
   "progress": {
     "text": "Avsnitt {current} av {total}"
   },
   "languageFallback": {
-    "title": "Innehåll på svenska kommer snart",
-    "description": "Detta avsnitt visas för närvarande på engelska tills den svenska översättningen är klar."
+    "title": "Innehåll på ditt språk kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
   },
-  "guideSelector": {
-    "title": "Klimat- och Energiramverk Guider",
-    "description": "Välj den guideversion som bäst passar dina behov:"
+  "sectionDescriptions": {
+    "index": "Fullständig översikt över ramverket för klimat- & energistyrning och dess roll i den planetära omställningen",
+    "at-a-glance": "Snabbguide som belyser nyckelmål, tidslinjer och implementeringsmilstolpar",
+    "executive-summary-for-the-skeptic": "Pragmatisk sammanfattning som bemöter farhågor om genomförbarheten av klimatstyrning och utmaningarna med energiomställningen",
+    "introduction-vision": "Den stora omkalibreringen - att omvandla mänsklighetens relation till energi från utvinning till regeneration",
+    "guiding-principles": "Sju kärnprinciper inklusive hållbarhet, rättvisa, vetenskapsbaserat beslutsfattande och lokalsamhällets energisuveränitet",
+    "integration-architecture": "Hur ramverket integreras med det bredare ekosystemet för Global Governance Framework",
+    "governance-structure": "Samordning på flera nivåer från det globala tillsynsorganet till lokala energikooperativ",
+    "four-pillars": "Radikal utsläppsminskning, rättvis energiomställning, traditionell kunskapsledd anpassning och regenerativa energiallmänningar",
+    "policy-mechanisms": "Omfattande verktyg inklusive lagstiftning, ekonomiska styrmedel, övervakningssystem och efterlevnad",
+    "stakeholder-engagement": "Inkluderande deltagande från regeringar, privat sektor, civilsamhället och forskarsamhället",
+    "financing-framework": "Uppskalad finansieringsarkitektur som säkerställer rättvisa genom reparativa bidrag och innovativ finansiering",
+    "implementation-roadmap": "Milstolpsdriven utveckling från aktivering av styrning till en global vändpunkt",
+    "success-metrics": "Uppföljning av klimatresultat, energimål, rättviseindikatorer och integration av biologisk mångfald",
+    "challenges-solutions": "Strategiska svar på politiskt motstånd, finansieringsgap och tekniska hinder",
+    "taking-action": "Individuella vägar, strategier för systemförändring och visionen om ett överflöd av lokalsamhällesägd ren energi",
+    "appendices": "Detaljerade implementeringsguider, uppskalningsdynamik, ekonomiska mekanismer och hantering av motstånd"
   },
-  "navigation": {
-    "downloadPdf": "Ladda ner PDF-version",
-    "continueToFramework": "Fortsätt till Fullständigt Ramverk",
-    "previousSection": "Föregående Avsnitt",
-    "nextSection": "Nästa Avsnitt"
+  "keyFeatures": {
+    "communityOwnership": {
+      "title": "80 % lokalsamhällesägd energi",
+      "description": "Främja lokalsamhällets energisuveränitet genom lokalt kontrollerade förnybara system"
+    },
+    "climateTargets": {
+      "title": "1,5 °C uppvärmningsgräns",
+      "description": "Vetenskapsbaserade mål i linje med IPCC:s forskning och Parisavtalets mål"
+    },
+    "justTransition": {
+      "title": "Rättvis energiomställning",
+      "description": "Säkerställa att arbetare och samhällen inom fossilindustrin får stöd genom omställningen"
+    },
+    "globalCooperation": {
+      "title": "Globalt samarbete",
+      "description": "Internationell samordning genom regionala nav och bindande efterlevnadsmekanismer"
+    },
+    "regenerativeFinance": {
+      "title": "2 biljoner USD i årlig finansiering",
+      "description": "Uppskalad klimatfinansiering genom reparativa bidrag och innovativa mekanismer"
+    },
+    "indigenousRights": {
+      "title": "Urfolksledarskap",
+      "description": "Integration av traditionell kunskap och urfolks vetorätt över energiprojekt"
+    }
   },
-  "errors": {
-    "sectionNotFound": "Avsnitt \"{section}\" hittades inte",
-    "contentInDevelopment": "Detta innehåll utvecklas fortfarande."
+  "milestones": {
+    "governance": {
+      "title": "Aktivering av styrning",
+      "timeframe": "18 månader",
+      "description": "Etablering av globalt tillsynsorgan och initial koalition för regenerativa handelszoner"
+    },
+    "economic": {
+      "title": "Ekonomisk motor online",
+      "timeframe": "År 3",
+      "description": "Internationell klimattribunal i drift och utbetalning av reparativ finansiering"
+    },
+    "systemic": {
+      "title": "Systemskifte",
+      "timeframe": "År 8",
+      "description": "Biosfärens hälsoindex ersätter BNP, 50 % lokalsamhällesägd energi uppnådd"
+    },
+    "global": {
+      "title": "Global vändpunkt",
+      "timeframe": "År 15",
+      "description": "RTZ omfattar 60 %+ av den globala ekonomin, målet om 90-100 % ren energi uppnått"
+    }
   },
-  "loading": {
-    "text": "Laddar klimat- och energiinnehåll..."
+  "pillars": {
+    "mitigation": {
+      "title": "Radikal utsläppsminskning & ekosystemåterställning",
+      "subtitle": "Den planetära läkningsmotorn",
+      "description": "Nettonollutsläpp till 2050 genom koldioxidprissättning, naturbaserade lösningar och cirkulär ekonomi"
+    },
+    "transition": {
+      "title": "Den rättvisa & suveräna energiomställningen",
+      "subtitle": "Systemet för lokalsamhällets egenmakt",
+      "description": "90-100 % ren energi med 80 % lokalsamhällesägt ägande genom kooperativ och modernisering av elnätet"
+    },
+    "adaptation": {
+      "title": "Traditionell kunskapsledd anpassning & resiliens",
+      "subtitle": "Det visdomscentrerade svaret",
+      "description": "Resiliens vägledd av urfolkskunskap, katastrofberedskap och klimatfinansiering"
+    },
+    "commons": {
+      "title": "Bygga de regenerativa energiallmänningarna",
+      "subtitle": "Den narrativa omställningen",
+      "description": "Främja ett överflöd av lokalsamhällesägd energi genom ekonomiska incitament och narrativförändring"
+    }
+  },
+  "ctaButtons": {
+    "learnMore": "Läs mer",
+    "getInvolved": "Engagera dig",
+    "downloadPdf": "Ladda ner PDF",
+    "shareFramework": "Dela ramverket",
+    "viewImplementation": "Visa implementeringsguide",
+    "exploreIntegration": "Utforska GGF-integration"
+  },
+  "stats": {
+    "emissionsReduction": "55 % utsläppsminskning till 2035",
+    "cleanEnergyTarget": "90-100 % ren energi till 2050",
+    "communityOwnership": "80 % lokalsamhällesägd förnybar energi",
+    "vulnerableResilience": "75 % av sårbara samhällen klimat-resilienta till 2035",
+    "fundingScale": "2 biljoner USD årligen till 2030",
+    "biodiversityTarget": "30x30-mål för skyddade land- och havsområden"
+  },
+  "integrationPoints": {
+    "treaty": "Fördraget för vårt enda hem ger juridisk auktoritet",
+    "aubi": "AUBI-ramverket belönar energiomställningar",
+    "sundown": "Sundown Protocol hanterar utfasning av fossila bränslen",
+    "hearthstone": "Hearthstone Protocol möjliggör lokalsamhällesägt ägande",
+    "disaster": "Katastrofriskreducering samordnar anpassning",
+    "gaian": "Gaian Trade Framework skapar ekonomiska incitament"
   }
 }

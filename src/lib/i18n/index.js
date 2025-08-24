@@ -85,7 +85,7 @@ const pageSpecificTranslationsMap = [
   { route: '/frameworks/global-health-and-pandemic-security', dataKey: 'globalHealthPandemicSecurity', fileName: 'frameworksGlobalHealthAndPandemicSecurity' },
   { route: '/frameworks/indigenous-governance-and-traditional-knowledge', dataKey: 'indigenousFramework', fileName: 'frameworksIndigenousGovernanceAndTraditionalKnowledge' },
   { route: '/frameworks/peace-and-conflict-resolution', dataKey: 'peaceFramework', fileName: 'frameworksPeaceAndConflictResolution' },
-  { route: '/frameworks/climate-and-energy-governance', dataKey: 'climateFramework', fileName: 'frameworksClimateAndEnergyGovernance' },
+  { route: '/frameworks/climate-and-energy-governance', dataKey: 'climateEnergyFramework', fileName: 'frameworksClimateAndEnergyGovernance' },
   { route: '/frameworks/migration-and-human-mobility', dataKey: 'migrationFramework', fileName: 'frameworksMigrationAndHumanMobility' },
   { route: '/frameworks/mental-health-governance', dataKey: 'mentalHealthFramework', fileName: 'frameworksMentalHealthGovernance' },
   { route: '/frameworks/water-and-sanitation-governance', dataKey: 'waterSanitationFramework', fileName: 'frameworksWaterAndSanitationGovernance' },

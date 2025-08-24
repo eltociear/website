@@ -408,6 +408,66 @@ const tools = [
     ]
   },
 
+  // Climate & Energy Governance
+  {
+    name: 'executive-summary-for-the-skeptic',
+    category: 'climate-and-energy-governance',
+    fileNames: {
+      en: 'climate-and-energy-governance-executive-summary-en',
+      sv: 'climate-and-energy-governance-executive-summary-sv'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'climate-and-energy-governance'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'climate-and-energy-governance')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'assets', 'pdf'),
+      sv: path.join(__dirname, '..', 'static', 'assets', 'pdf')
+    },
+    pageFooter: {
+      en: 'Climate & Energy Governance - Executive Summary for the Skeptic',
+      sv: 'Klimat och energistyrning - Sammanfattning för skeptiker'
+    }
+  },
+
+  // Full framework
+  {
+    name: 'climate-and-energy-governance-framework',
+    category: 'climate-and-energy-governance',
+    fileNames: {
+      en: 'Climate-And-Energy-Governance-Framework',
+      sv: 'Climate-And-Energy-Governance-Framework'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'climate-and-energy-governance'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'climate-and-energy-governance')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'downloads', 'en'),
+      sv: path.join(__dirname, '..', 'static', 'downloads', 'sv')
+    },
+    pageFooter: {
+      en: 'Climate & Energy Governance Framework',
+      sv: 'Ramverk för klimat och energistyrning'
+    },
+    sections: [
+      'index',
+      'introduction-vision',
+      'guiding-principles',
+      'integration-architecture',
+      'governance-structure',
+      'four-pillars',
+      'policy-mechanisms',
+      'stakeholder-engagement',
+      'financing-framework',
+      'implementation-roadmap',
+      'success-metrics',
+      'challenges-solutions',
+      'taking-action',
+      'appendices'
+    ]
+  },
+
 
   // Technology Governance
   {
