@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 1200"
+   version="1.1"
+   id="svg25"
+   sodipodi:docname="book-cover.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview25"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.705"
+     inkscape:cx="400.70922"
+     inkscape:cy="600"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg25" />
+  <!-- Gradients and filters -->
+  <defs
+     id="defs10">
+    <linearGradient
+       id="bgGradient"
+       x1="0"
+       y1="0"
+       x2="979.7959"
+       y2="979.7959"
+       gradientTransform="matrix(0.81649658,0,0,1.2247449,11.347518,-7.0921986)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#1a1a1a;stop-opacity:1"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#2d2d2d;stop-opacity:1"
+         id="stop2" />
+    </linearGradient>
+    <!-- Glowing blob effects -->
+    <filter
+       id="glow"
+       x="-0.10909091"
+       y="-0.10909091"
+       width="1.2181818"
+       height="1.2181818">
+      <feGaussianBlur
+         in="SourceGraphic"
+         stdDeviation="5"
+         id="feGaussianBlur2" />
+    </filter>
+    <!-- Node gradients -->
+    <radialGradient
+       id="nodeGradient1">
+      <stop
+         offset="0%"
+         style="stop-color:#FF6B6B"
+         id="stop3" />
+      <stop
+         offset="100%"
+         style="stop-color:#FF6B6B;stop-opacity:0"
+         id="stop4" />
+    </radialGradient>
+    <radialGradient
+       id="nodeGradient2">
+      <stop
+         offset="0%"
+         style="stop-color:#4ECDC4"
+         id="stop5" />
+      <stop
+         offset="100%"
+         style="stop-color:#4ECDC4;stop-opacity:0"
+         id="stop6" />
+    </radialGradient>
+    <radialGradient
+       id="nodeGradient3">
+      <stop
+         offset="0%"
+         style="stop-color:#FFE66D"
+         id="stop7" />
+      <stop
+         offset="100%"
+         style="stop-color:#FFE66D;stop-opacity:0"
+         id="stop8" />
+    </radialGradient>
+    <radialGradient
+       id="nodeGradient4">
+      <stop
+         offset="0%"
+         style="stop-color:#96CEB4"
+         id="stop9" />
+      <stop
+         offset="100%"
+         style="stop-color:#96CEB4;stop-opacity:0"
+         id="stop10" />
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect
+     width="800"
+     height="1200"
+     fill="url(#bgGradient)"
+     id="rect10"
+     style="fill:url(#bgGradient)"
+     x="11.347518"
+     y="-7.0921984" />
+  <!-- Network nodes and connections -->
+  <g
+     transform="translate(400,500)"
+     id="g18">
+    <!-- Glowing blobs -->
+    <circle
+       cx="-120"
+       cy="-80"
+       r="60"
+       fill="url(#nodeGradient1)"
+       opacity="0.6"
+       filter="url(#glow)"
+       id="circle10">
+      <animate
+         attributeName="r"
+         values="60;65;60"
+         dur="4s"
+         repeatCount="indefinite" />
+    </circle>
+    <circle
+       cx="100"
+       cy="-100"
+       r="70"
+       fill="url(#nodeGradient2)"
+       opacity="0.6"
+       filter="url(#glow)"
+       id="circle11">
+      <animate
+         attributeName="r"
+         values="70;75;70"
+         dur="3.5s"
+         repeatCount="indefinite" />
+    </circle>
+    <circle
+       cx="-80"
+       cy="80"
+       r="55"
+       fill="url(#nodeGradient3)"
+       opacity="0.6"
+       filter="url(#glow)"
+       id="circle12">
+      <animate
+         attributeName="r"
+         values="55;60;55"
+         dur="4.5s"
+         repeatCount="indefinite" />
+    </circle>
+    <circle
+       cx="120"
+       cy="60"
+       r="65"
+       fill="url(#nodeGradient4)"
+       opacity="0.6"
+       filter="url(#glow)"
+       id="circle13">
+      <animate
+         attributeName="r"
+         values="65;70;65"
+         dur="4.2s"
+         repeatCount="indefinite" />
+    </circle>
+    <!-- Network connections -->
+    <g
+       stroke="rgba(255,255,255,0.2)"
+       stroke-width="1"
+       id="g17">
+      <line
+         x1="-120"
+         y1="-80"
+         x2="100"
+         y2="-100"
+         id="line13" />
+      <line
+         x1="-120"
+         y1="-80"
+         x2="-80"
+         y2="80"
+         id="line14" />
+      <line
+         x1="100"
+         y1="-100"
+         x2="120"
+         y2="60"
+         id="line15" />
+      <line
+         x1="-80"
+         y1="80"
+         x2="120"
+         y2="60"
+         id="line16" />
+      <line
+         x1="100"
+         y1="-100"
+         x2="-80"
+         y2="80"
+         id="line17" />
+    </g>
+  </g>
+  <!-- Butterfly symbol -->
+  <path
+     d="m 396,350 c -36,-48 -72,-60 -96,-48 -12,6 0,36 12,48 18,18 36,24 42,42 6,18 12,36 18,42 9.6,18 24,6 24,0"
+     fill="#ffffff"
+     opacity="0.9"
+     id="path18"
+     style="stroke-width:1.2">
+    <animate
+       attributeName="opacity"
+       values="0.7;0.9;0.7"
+       dur="4s"
+       repeatCount="indefinite" />
+  </path>
+  <path
+     d="m 404,350 c 36,-48 72,-60 96,-48 12,6 0,36 -12,48 -18,18 -36,24 -42,42 -6,18 -12,36 -18,42 -9.6,18 -24,6 -24,0"
+     fill="#ffffff"
+     opacity="0.9"
+     id="path19"
+     style="stroke-width:1.2">
+    <animate
+       attributeName="opacity"
+       values="0.9;0.7;0.9"
+       dur="4s"
+       repeatCount="indefinite" />
+  </path>
+  <!-- Title text -->
+  <text
+     x="400"
+     y="650"
+     font-family="Arial, sans-serif"
+     font-size="48"
+     fill="white"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text19">
+    Adaptiv Universell
+  </text>
+  <text
+     x="400"
+     y="710"
+     font-family="Arial, sans-serif"
+     font-size="48"
+     fill="white"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text20">
+    Basinkomst
+  </text>
+  <!-- Subtitle -->
+  <text
+     x="400"
+     y="800"
+     font-family="Arial, sans-serif"
+     font-size="24"
+     fill="white"
+     text-anchor="middle"
+     font-style="italic"
+     id="text21">
+    Ett nytt socialt kontrakt
+  </text>
+  <text
+     x="400"
+     y="835"
+     font-family="Arial, sans-serif"
+     font-size="24"
+     fill="white"
+     text-anchor="middle"
+     font-style="italic"
+     id="text22">
+    för 2000-talet
+  </text>
+  <!-- Author name -->
+  <text
+     x="400"
+     y="950"
+     font-family="Arial, sans-serif"
+     font-size="28"
+     fill="white"
+     text-anchor="middle"
+     id="text23">
+    Björn Kenneth Holmström
+  </text>
+  <!-- Assistance credit -->
+  <text
+     x="400"
+     y="1000"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     fill="grey"
+     text-anchor="middle"
+     id="text24">
+    med assistans av
+  </text>
+  <text
+     x="400"
+     y="1025"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     fill="grey"
+     text-anchor="middle"
+     id="text25">
+    ChatGPT och Claude
+  </text>
+</svg>

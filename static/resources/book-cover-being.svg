@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 1200"
+   version="1.1"
+   id="svg71"
+   sodipodi:docname="book-cover.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview71"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.705"
+     inkscape:cx="400.70922"
+     inkscape:cy="600"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg71" />
+  <!-- Definitions -->
+  <defs
+     id="defs9">
+    <!-- Updated background gradient - more distinct shift from systematic (blue) to multicolored -->
+    <linearGradient
+       id="bgGradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#1a3a5f"
+         id="stop1" />
+      <stop
+         offset="40%"
+         stop-color="#1a3a5f"
+         id="stop2" />
+      <stop
+         offset="50%"
+         stop-color="#3a437a"
+         id="stop3" />
+      <stop
+         offset="60%"
+         stop-color="#7e57c2"
+         id="stop4" />
+      <stop
+         offset="75%"
+         stop-color="#c25778"
+         id="stop5" />
+      <stop
+         offset="90%"
+         stop-color="#e0846e"
+         id="stop6" />
+      <stop
+         offset="100%"
+         stop-color="#f0c04f"
+         id="stop7" />
+    </linearGradient>
+    <!-- Systematic pattern (left side) -->
+    <pattern
+       id="systemPattern"
+       width="60"
+       height="60"
+       patternUnits="userSpaceOnUse">
+      <circle
+         cx="30"
+         cy="30"
+         r="2"
+         fill="#ffffff"
+         fill-opacity="0.3"
+         id="circle7" />
+      <line
+         x1="0"
+         y1="30"
+         x2="60"
+         y2="30"
+         stroke="#ffffff"
+         stroke-width="0.5"
+         stroke-opacity="0.2"
+         id="line7" />
+      <line
+         x1="30"
+         y1="0"
+         x2="30"
+         y2="60"
+         stroke="#ffffff"
+         stroke-width="0.5"
+         stroke-opacity="0.2"
+         id="line8" />
+    </pattern>
+    <!-- Flowing curves filter -->
+    <filter
+       id="displacementFilter"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%">
+      <feTurbulence
+         type="fractalNoise"
+         baseFrequency="0.02"
+         numOctaves="3"
+         seed="5"
+         id="feTurbulence8" />
+      <feDisplacementMap
+         in="SourceGraphic"
+         scale="50"
+         id="feDisplacementMap8" />
+    </filter>
+    <!-- Noise texture -->
+    <filter
+       id="noise"
+       x="0%"
+       y="0%"
+       width="100%"
+       height="100%">
+      <feTurbulence
+         type="fractalNoise"
+         baseFrequency="0.65"
+         numOctaves="3"
+         stitchTiles="stitch"
+         id="feTurbulence9" />
+      <feColorMatrix
+         type="matrix"
+         values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.15 0"
+         id="feColorMatrix9" />
+    </filter>
+  </defs>
+  <!-- Main background -->
+  <rect
+     width="800"
+     height="1200"
+     fill="url(#bgGradient)"
+     id="rect9" />
+  <!-- Systematic grid (left side) -->
+  <rect
+     x="0"
+     y="0"
+     width="350"
+     height="1200"
+     fill="url(#systemPattern)"
+     id="rect10" />
+  <!-- Connection/transition zone in the middle -->
+  <g
+     opacity="0.7"
+     id="g37">
+    <!-- Network nodes with connections -->
+    <circle
+       cx="400"
+       cy="600"
+       r="180"
+       fill="none"
+       stroke="#ffffff"
+       stroke-width="0.8"
+       stroke-opacity="0.3"
+       id="circle10" />
+    <circle
+       cx="400"
+       cy="600"
+       r="120"
+       fill="none"
+       stroke="#ffffff"
+       stroke-width="0.8"
+       stroke-opacity="0.5"
+       id="circle11" />
+    <circle
+       cx="400"
+       cy="600"
+       r="60"
+       fill="none"
+       stroke="#ffffff"
+       stroke-width="0.8"
+       stroke-opacity="0.7"
+       id="circle12" />
+    <!-- Network nodes -->
+    <g
+       id="nodes">
+      <circle
+         cx="280"
+         cy="500"
+         r="4"
+         fill="#ffffff"
+         id="circle13" />
+      <circle
+         cx="320"
+         cy="420"
+         r="3"
+         fill="#ffffff"
+         id="circle14" />
+      <circle
+         cx="380"
+         cy="480"
+         r="5"
+         fill="#ffffff"
+         id="circle15" />
+      <circle
+         cx="440"
+         cy="530"
+         r="4"
+         fill="#ffffff"
+         id="circle16" />
+      <circle
+         cx="490"
+         cy="470"
+         r="3"
+         fill="#ffffff"
+         id="circle17" />
+      <circle
+         cx="460"
+         cy="670"
+         r="5"
+         fill="#ffffff"
+         id="circle18" />
+      <circle
+         cx="370"
+         cy="710"
+         r="4"
+         fill="#ffffff"
+         id="circle19" />
+      <circle
+         cx="300"
+         cy="650"
+         r="3"
+         fill="#ffffff"
+         id="circle20" />
+      <circle
+         cx="520"
+         cy="580"
+         r="4"
+         fill="#ffffff"
+         id="circle21" />
+      <circle
+         cx="260"
+         cy="580"
+         r="3"
+         fill="#ffffff"
+         id="circle22" />
+    </g>
+    <!-- Connections -->
+    <g
+       stroke="#ffffff"
+       stroke-width="0.8"
+       stroke-opacity="0.4"
+       id="g36">
+      <line
+         x1="280"
+         y1="500"
+         x2="320"
+         y2="420"
+         id="line22" />
+      <line
+         x1="320"
+         y1="420"
+         x2="380"
+         y2="480"
+         id="line23" />
+      <line
+         x1="380"
+         y1="480"
+         x2="440"
+         y2="530"
+         id="line24" />
+      <line
+         x1="440"
+         y1="530"
+         x2="490"
+         y2="470"
+         id="line25" />
+      <line
+         x1="490"
+         y1="470"
+         x2="520"
+         y2="580"
+         id="line26" />
+      <line
+         x1="520"
+         y1="580"
+         x2="460"
+         y2="670"
+         id="line27" />
+      <line
+         x1="460"
+         y1="670"
+         x2="370"
+         y2="710"
+         id="line28" />
+      <line
+         x1="370"
+         y1="710"
+         x2="300"
+         y2="650"
+         id="line29" />
+      <line
+         x1="300"
+         y1="650"
+         x2="260"
+         y2="580"
+         id="line30" />
+      <line
+         x1="260"
+         y1="580"
+         x2="280"
+         y2="500"
+         id="line31" />
+      <line
+         x1="280"
+         y1="500"
+         x2="380"
+         y2="480"
+         id="line32" />
+      <line
+         x1="380"
+         y1="480"
+         x2="520"
+         y2="580"
+         id="line33" />
+      <line
+         x1="320"
+         y1="420"
+         x2="490"
+         y2="470"
+         id="line34" />
+      <line
+         x1="300"
+         y1="650"
+         x2="440"
+         y2="530"
+         id="line35" />
+      <line
+         x1="260"
+         y1="580"
+         x2="370"
+         y2="710"
+         id="line36" />
+    </g>
+  </g>
+  <!-- Poetic side (right) with flowing elements -->
+  <g
+     opacity="0.8"
+     id="g66">
+    <!-- Flowing curves in multiple colors -->
+    <path
+       d="M500,200 C700,300 600,500 750,600 C650,750 700,900 550,1000"
+       fill="none"
+       stroke="#f9c7ff"
+       stroke-width="2.5"
+       stroke-opacity="0.7"
+       id="path37" />
+    <path
+       d="M550,150 C650,350 580,450 700,550 C600,700 650,850 500,950"
+       fill="none"
+       stroke="#c4e0ff"
+       stroke-width="2"
+       stroke-opacity="0.7"
+       id="path38" />
+    <path
+       d="M600,250 C750,400 650,550 780,700 C700,800 600,900 500,850"
+       fill="none"
+       stroke="#ffecb3"
+       stroke-width="2.5"
+       stroke-opacity="0.7"
+       id="path39" />
+    <path
+       d="M520,180 C620,320 590,480 730,580 C620,710 680,870 540,920"
+       fill="none"
+       stroke="#a8e6cf"
+       stroke-width="2"
+       stroke-opacity="0.7"
+       id="path40" />
+    <path
+       d="M580,220 C720,360 630,520 760,650 C670,780 600,880 520,830"
+       fill="none"
+       stroke="#ff9aa2"
+       stroke-width="2.2"
+       stroke-opacity="0.65"
+       id="path41" />
+    <!-- Stars/light particles with more colors -->
+    <g
+       id="g65">
+      <!-- White particles -->
+      <circle
+         cx="650"
+         cy="200"
+         r="1.5"
+         fill="#ffffff"
+         id="circle41" />
+      <circle
+         cx="720"
+         cy="280"
+         r="1"
+         fill="#ffffff"
+         id="circle42" />
+      <circle
+         cx="680"
+         cy="350"
+         r="2"
+         fill="#ffffff"
+         id="circle43" />
+      <circle
+         cx="650"
+         cy="800"
+         r="1.2"
+         fill="#ffffff"
+         id="circle44" />
+      <circle
+         cx="620"
+         cy="880"
+         r="1.7"
+         fill="#ffffff"
+         id="circle45" />
+      <circle
+         cx="590"
+         cy="410"
+         r="1.5"
+         fill="#ffffff"
+         id="circle46" />
+      <!-- Gold particles -->
+      <circle
+         cx="740"
+         cy="400"
+         r="1.2"
+         fill="#f0e68c"
+         id="circle47" />
+      <circle
+         cx="670"
+         cy="470"
+         r="1.8"
+         fill="#f0e68c"
+         id="circle48" />
+      <circle
+         cx="730"
+         cy="530"
+         r="1.3"
+         fill="#f0e68c"
+         id="circle49" />
+      <circle
+         cx="660"
+         cy="960"
+         r="1.4"
+         fill="#f0e68c"
+         id="circle50" />
+      <!-- Pink particles -->
+      <circle
+         cx="690"
+         cy="600"
+         r="1.7"
+         fill="#ffb6c1"
+         id="circle51" />
+      <circle
+         cx="750"
+         cy="670"
+         r="1.2"
+         fill="#ffb6c1"
+         id="circle52" />
+      <circle
+         cx="710"
+         cy="740"
+         r="1.6"
+         fill="#ffb6c1"
+         id="circle53" />
+      <circle
+         cx="600"
+         cy="560"
+         r="1.5"
+         fill="#ffb6c1"
+         id="circle54" />
+      <!-- Blue particles -->
+      <circle
+         cx="680"
+         cy="810"
+         r="1.4"
+         fill="#add8e6"
+         id="circle55" />
+      <circle
+         cx="720"
+         cy="880"
+         r="1.9"
+         fill="#add8e6"
+         id="circle56" />
+      <circle
+         cx="630"
+         cy="1040"
+         r="1.6"
+         fill="#add8e6"
+         id="circle57" />
+      <circle
+         cx="600"
+         cy="180"
+         r="1.3"
+         fill="#add8e6"
+         id="circle58" />
+      <!-- Purple particles -->
+      <circle
+         cx="670"
+         cy="950"
+         r="1.1"
+         fill="#d8bfd8"
+         id="circle59" />
+      <circle
+         cx="730"
+         cy="1020"
+         r="1.6"
+         fill="#d8bfd8"
+         id="circle60" />
+      <circle
+         cx="580"
+         cy="260"
+         r="1.8"
+         fill="#d8bfd8"
+         id="circle61" />
+      <circle
+         cx="620"
+         cy="330"
+         r="1.2"
+         fill="#d8bfd8"
+         id="circle62" />
+      <!-- Green particles -->
+      <circle
+         cx="630"
+         cy="480"
+         r="1.4"
+         fill="#98fb98"
+         id="circle63" />
+      <circle
+         cx="640"
+         cy="640"
+         r="1.1"
+         fill="#98fb98"
+         id="circle64" />
+      <circle
+         cx="610"
+         cy="720"
+         r="1.6"
+         fill="#98fb98"
+         id="circle65" />
+    </g>
+  </g>
+  <!-- Title text with subtle glow -->
+  <g
+     id="g67"
+     transform="matrix(0.96293884,0,0,0.91427394,17.785378,20.677392)">
+    <filter
+       id="glow"
+       x="-0.035868471"
+       y="-0.17628578"
+       width="1.0717369"
+       height="1.3525716">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="blur"
+         id="feGaussianBlur66" />
+      <feComponentTransfer
+         id="feComponentTransfer66">
+        <feFuncA
+           type="linear"
+           slope="0.3"
+           id="feFuncA66" />
+      </feComponentTransfer>
+      <feComposite
+         in="SourceGraphic"
+         id="feComposite66" />
+    </filter>
+    <text
+       x="400"
+       y="320"
+       font-family="Georgia, serif"
+       font-size="90px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       filter="url(#glow)"
+       id="text66">BEING</text>
+    <text
+       x="400"
+       y="400"
+       font-family="Georgia, serif"
+       font-size="30px"
+       font-style="italic"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text67">A Tapestry of Existence</text>
+  </g>
+  <!-- Authors -->
+  <text
+     x="400"
+     y="950"
+     font-family="Georgia, serif"
+     font-size="24"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="text68">Björn Kenneth Holmström</text>
+  <text
+     x="400"
+     y="1020"
+     font-family="Georgia, serif"
+     font-size="14"
+     text-anchor="middle"
+     fill="#ffffff"
+     id="text69">with the assistance of DeepSeek, ChatGPT and Claude</text>
+  <!-- Book spine edge effect -->
+  <rect
+     x="30"
+     y="0"
+     width="15"
+     height="1200"
+     fill="#000000"
+     fill-opacity="0.3"
+     id="rect69" />
+  <rect
+     x="10"
+     y="0"
+     width="20"
+     height="1200"
+     fill="#000000"
+     fill-opacity="0.1"
+     id="rect70" />
+  <!-- Subtle texture overlay -->
+  <rect
+     width="800"
+     height="1200"
+     fill="url(#noise)"
+     opacity="0.03"
+     id="rect71" />
+</svg>

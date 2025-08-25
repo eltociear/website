@@ -1,0 +1,161 @@
+<svg viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="humanGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="aiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2196F3;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#1565C0;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="integrationGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF9800;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#F57C00;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Drop shadow filter -->
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#666" flood-opacity="0.3"/>
+    </filter>
+    
+    <!-- Arrow markers -->
+    <marker id="arrowGreen" markerWidth="8" markerHeight="6" 
+     refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#4CAF50" />
+    </marker>
+    
+    <marker id="arrowBlue" markerWidth="8" markerHeight="6" 
+     refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#2196F3" />
+    </marker>
+    
+    <marker id="arrowOrange" markerWidth="8" markerHeight="6" 
+     refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#FF9800" />
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="700" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">
+    Syntes-Utmaning-Integration-cykeln
+  </text>
+  <text x="450" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">
+    Samevolution av mänskligt och AI-baserat integralt tänkande
+  </text>
+  
+  <!-- HUMAN SIDE -->
+  <text x="225" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2E7D32">
+    MÄNSKLIG PROCESS
+  </text>
+  
+  <!-- Human Step 1: Synthesis -->
+  <rect x="50" y="110" width="350" height="100" fill="url(#humanGradient)" opacity="0.3" stroke="#4CAF50" stroke-width="2" rx="10" filter="url(#dropShadow)"/>
+  <text x="225" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    1. SYNTES MED FLERA MODELLER
+  </text>
+  <text x="70" y="155" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Fråga flera AI-modeller (Claude, ChatGPT, Gemini, ...)</text>
+  <text x="70" y="170" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Korspollinera deras svar</text>
+  <text x="70" y="185" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Utveckla integrerat ramverk</text>
+  <text x="70" y="200" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Överskrid enskilda perspektiv</text>
+  
+  <!-- Human Step 2: Challenge -->
+  <rect x="50" y="240" width="350" height="100" fill="#e74c3c" opacity="0.3" stroke="#c0392b" stroke-width="2" rx="10" filter="url(#dropShadow)"/>
+  <text x="225" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    2. "STEEL-MAN"-UTMANING
+  </text>
+  <text x="70" y="285" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Be AI argumentera mot syntesen</text>
+  <text x="70" y="300" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Presentera de starkaste motargumenten</text>
+  <text x="70" y="315" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Avslöja blinda fläckar och begränsningar</text>
+  <text x="70" y="330" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Testa ramverkets robusthet</text>
+  
+  <!-- Human Step 3: Integration -->
+  <rect x="50" y="370" width="350" height="100" fill="url(#integrationGradient)" opacity="0.3" stroke="#FF9800" stroke-width="2" rx="10" filter="url(#dropShadow)"/>
+  <text x="225" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    3. FÖRFINAD INTEGRATION
+  </text>
+  <text x="70" y="415" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Bemöt giltiga farhågor</text>
+  <text x="70" y="430" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Bibehåll integrativ kraft</text>
+  <text x="70" y="445" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Skapa robusta lösningar</text>
+  <text x="70" y="460" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Utveckla integralt medvetande</text>
+  
+  <!-- AI SIDE -->
+  <text x="675" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1565C0">
+    AI:S INTERNA PROCESS
+  </text>
+  
+  <!-- AI Step 1: Internal Synthesis -->
+  <rect x="500" y="110" width="350" height="100" fill="url(#aiGradient)" opacity="0.3" stroke="#2196F3" stroke-width="2" rx="10" filter="url(#dropShadow)"/>
+  <text x="675" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    1. INTERNT MULTIPERSPEKTIV
+  </text>
+  <text x="520" y="155" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Generera flera synvinklar samtidigt</text>
+  <text x="520" y="170" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Beakta olika intressentperspektiv</text>
+  <text x="520" y="185" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Syntetisera insikter över domäner</text>
+  <text x="520" y="200" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Undvik blindhet från ett enda perspektiv</text>
+  
+  <!-- AI Step 2: Self-Challenge -->
+  <rect x="500" y="240" width="350" height="100" fill="#e74c3c" opacity="0.3" stroke="#c0392b" stroke-width="2" rx="10" filter="url(#dropShadow)"/>
+  <text x="675" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    2. INTERN SJÄLVUTMANING
+  </text>
+  <text x="520" y="285" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• "Steel-man"-argumentera mot det initiala svaret</text>
+  <text x="520" y="300" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Identifiera potentiella svagheter</text>
+  <text x="520" y="315" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Ifrågasätt underliggande antaganden</text>
+  <text x="520" y="330" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Simulera motsatta synvinklar</text>
+  
+  <!-- AI Step 3: Iterative Integration -->
+  <rect x="500" y="370" width="350" height="100" fill="url(#integrationGradient)" opacity="0.3" stroke="#FF9800" stroke-width="2" rx="10" filter="url(#dropShadow)"/>
+  <text x="675" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    3. ITERATIV INTEGRATION
+  </text>
+  <text x="520" y="415" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Förfina svaret för att bemöta farhågor</text>
+  <text x="520" y="430" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Bibehåll koherens och nyans</text>
+  <text x="520" y="445" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Ge visdomsorienterade resultat</text>
+  <text x="520" y="460" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Demonstrera integralt tänkande</text>
+  
+  <!-- Arrows showing flow on human side -->
+  <path d="M 225 210 L 225 240" stroke="#4CAF50" stroke-width="3" fill="none" marker-end="url(#arrowGreen)" opacity="0.8"/>
+  <path d="M 225 340 L 225 370" stroke="#c0392b" stroke-width="3" fill="none" marker-end="url(#arrowGreen)" opacity="0.8"/>
+  
+  <!-- Arrows showing flow on AI side -->
+  <path d="M 675 210 L 675 240" stroke="#2196F3" stroke-width="3" fill="none" marker-end="url(#arrowBlue)" opacity="0.8"/>
+  <path d="M 675 340 L 675 370" stroke="#c0392b" stroke-width="3" fill="none" marker-end="url(#arrowBlue)" opacity="0.8"/>
+  
+  <!-- Feedback loops -->
+  <path d="M 400 420 Q 450 500 500 420" stroke="#FF9800" stroke-width="2" fill="none" marker-end="url(#arrowOrange)" opacity="0.6" stroke-dasharray="5,5"/>
+  <text x="450" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FF9800" font-weight="bold">
+    Samevolutionär återkoppling
+  </text>
+  
+  <!-- Bottom integration box -->
+  <rect x="200" y="550" width="500" height="80" fill="#E8F5E8" stroke="#4CAF50" stroke-width="2" rx="10" filter="url(#dropShadow)"/>
+  <text x="450" y="575" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E7D32">
+    RESULTAT: Förstärkt integralt medvetande
+  </text>
+  <text x="450" y="595" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+    Människor utvecklar mer sofistikerat tänkande • AI-system blir klokare och mer nyanserade
+  </text>
+  <text x="450" y="610" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+    Båda demonstrerar: Multiperspektivintegration • Självgranskning • Robusta lösningar
+  </text>
+  
+  <!-- Cycle indicators -->
+  <path d="M 80 470 Q 30 520 80 570 Q 130 620 180 570" stroke="#9E9E9E" stroke-width="2" fill="none" marker-end="url(#arrowGreen)" opacity="0.5" stroke-dasharray="3,3"/>
+  <text x="100" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#757575" transform="rotate(-15 100 540)">
+    Iterativ
+  </text>
+  
+  <path d="M 820 470 Q 870 520 820 570 Q 770 620 720 570" stroke="#9E9E9E" stroke-width="2" fill="none" marker-end="url(#arrowBlue)" opacity="0.5" stroke-dasharray="3,3"/>
+  <text x="800" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#757575" transform="rotate(15 800 540)">
+    Kontinuerlig
+  </text>
+  
+  <!-- Central dividing line -->
+  <line x1="450" y1="100" x2="450" y2="530" stroke="#BDC3C7" stroke-width="2" stroke-dasharray="10,5" opacity="0.5"/>
+</svg>

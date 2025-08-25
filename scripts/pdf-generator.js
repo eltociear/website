@@ -67,6 +67,7 @@ Available categories:
 - emergent-governance-protocol
 - disaster-risk-reduction
 - ggf-overview
+- whitepapers
 
 Example: node tools-pdf-generator.js economic
   `);
@@ -130,7 +131,8 @@ const outputDirs = {
   'get-involved': path.join(__dirname, '..', 'static', 'get-involved'),
   'frameworks-foundation': path.join(__dirname, '..', 'static', 'downloads'),
   'meta-governance': path.join(__dirname, '..', 'static', 'downloads'),
-  'ggf-overview': path.join(__dirname, '..', 'static', 'downloads')
+  'ggf-overview': path.join(__dirname, '..', 'static', 'downloads'),
+  'whitepapers': path.join(__dirname, '..', 'static', 'resources', 'whitepapers')
 };
 
 // Validate category if provided
@@ -142,6 +144,28 @@ if (targetCategory && !Object.keys(outputDirs).includes(targetCategory)) {
 
 // Define tools to process
 const tools = [
+
+  // White Papers
+  {
+    name: 'cognitive-scaffolding',
+    category: 'whitepapers',
+    fileNames: {
+      en: 'Cognitive_Scaffolding_-_A_Multi-Model_AI_Synthesis_Method',
+      sv: 'Kognitiv_stöttning_-_En_syntesmetod_med_flera_AI-modeller'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'papers', 'en'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'papers', 'sv')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'resources', 'whitepapers'),
+      sv: path.join(__dirname, '..', 'static', 'resources', 'whitepapers')
+    },
+    pageFooter: {
+      en: 'GGF Whitepaper - Cognitive Scaffolding: A Multi-Model AI Synthesis Method for Solving Complex Systemic Problems',
+      sv: 'GGF Vitbok - Kognitiv stöttning: En syntesmetod med flera AI-modeller för att lösa komplexa systemproblem'
+    }
+  },
 
   // GGF Overview
   {

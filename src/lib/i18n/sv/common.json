@@ -93,11 +93,23 @@
     "loading": "Laddar",
     "previous": "Föregående",
     "next": "Nästa",
-    "back": "Tillbaka"
+    "back": "Tillbaka",
+    "pages": "sidor",
+    "bookCover": "bokomslag",
+    "loading": "Laddar",
+    "downloadPdf": "Ladda ner PDF",
+    "openExternal": "Öppnas i nytt fönster",
+    "comingSoon": "Kommer snart",
+    "published": "Publicerad",
+    "draft": "Utkast"
   },
   "language": {
     "select": "Välj språk",
     "tooltip": "Byt språk"
+  },
+  "languages": {
+    "english": "Engelska",
+    "swedish": "Svenska"
   },
   "follow": {
     "title": "Håll kontakten",

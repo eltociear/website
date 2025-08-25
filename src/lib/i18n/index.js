@@ -105,6 +105,8 @@ const pageSpecificTranslationsMap = [
   { route: '/start-treaty', dataKey: 'startTreaty', fileName: 'startTreaty' },
   { route: '/translations', dataKey: 'translations', fileName: 'translations' },
   { route: '/overview', dataKey: 'overview', fileName: 'overview' },
+  { route: '/resources/whitepapers', dataKey: 'whitepapers', fileName: 'whitepapers' },
+  { route: '/resources', dataKey: 'resources', fileName: 'resources' },
   { route: '/about', dataKey: 'about', fileName: 'about' },
   { route: '/contact', dataKey: 'contact', fileName: 'contact' },
   { route: '/blog', dataKey: 'blog', fileName: 'blog' },

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Glowing effect for nodes -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1200" fill="url(#bgGradient)"/>
+
+  <!-- Central network visualization -->
+  <g transform="translate(400, 600)">
+    <!-- Connecting lines -->
+    <g stroke="#4a90e2" stroke-width="2" opacity="0.3">
+      <line x1="-150" y1="-150" x2="150" y2="-150"/>
+      <line x1="-150" y1="150" x2="150" y2="150"/>
+      <line x1="-150" y1="-150" x2="-150" y2="150"/>
+      <line x1="150" y1="-150" x2="150" y2="150"/>
+      <line x1="0" y1="-200" x2="0" y2="200"/>
+      <line x1="-200" y1="0" x2="200" y2="0"/>
+    </g>
+
+    <!-- Nodes -->
+    <g fill="#4a90e2" filter="url(#glow)">
+      <circle cx="-150" cy="-150" r="20"/>
+      <circle cx="150" cy="-150" r="20"/>
+      <circle cx="-150" cy="150" r="20"/>
+      <circle cx="150" cy="150" r="20"/>
+      <circle cx="0" cy="0" r="30"/>
+    </g>
+
+    <!-- Pulse animations -->
+    <circle cx="0" cy="0" r="100" stroke="#4a90e2" stroke-width="2" fill="none" opacity="0.2">
+      <animate attributeName="r" from="50" to="250" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" from="0.3" to="0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Title -->
+  <text x="400" y="200" font-family="Arial, sans-serif" font-size="48" fill="white" text-anchor="middle" font-weight="bold">
+    Optimizing Reality
+  </text>
+
+  <!-- Subtitle -->
+  <text x="400" y="280" font-family="Arial, sans-serif" font-size="24" fill="#4a90e2" text-anchor="middle">
+    A Systems Thinking Guide for a
+  </text>
+  <text x="400" y="320" font-family="Arial, sans-serif" font-size="24" fill="#4a90e2" text-anchor="middle">
+    Multi-Intelligence Future
+  </text>
+
+  <!-- Author -->
+  <text x="400" y="1000" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">
+    Björn K. Holmström
+  </text>
+  <text x="400" y="1040" font-family="Arial, sans-serif" font-size="18" fill="#4a90e2" text-anchor="middle">
+    with the assistance of ChatGPT, Claude and DeepSeek
+  </text>
+</svg>

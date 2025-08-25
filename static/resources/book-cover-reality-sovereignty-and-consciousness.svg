@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900">
+    <defs>
+        <!-- Gradients -->
+        <linearGradient id="coverGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#121212;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#1A1A1A;stop-opacity:1" />
+        </linearGradient>
+
+        <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#FFE566;stop-opacity:1" />
+            <stop offset="50%" style="stop-color:#66E0FF;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#66FFB3;stop-opacity:1" />
+        </linearGradient>
+
+        <!-- Pattern for background -->
+        <pattern id="sacredGeometry" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+            <circle cx="25" cy="25" r="1" fill="#FFE566" opacity="0.2" />
+            <path d="M 25,0 L 50,43.3 L 0,43.3 Z" fill="none" stroke="#66E0FF" stroke-width="0.5" opacity="0.15" />
+        </pattern>
+
+        <!-- Enhanced glow effect -->
+        <filter id="titleGlow">
+            <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect width="600" height="900" fill="url(#coverGradient)"/>
+    <rect width="600" height="900" fill="url(#sacredGeometry)"/>
+
+    <!-- Central Mystical Symbol -->
+    <g transform="translate(300, 400) scale(1.5)">
+        <!-- Spirit Animals Pattern -->
+        {#each Array(6) as _, i}
+            <path 
+                d="M0,0 Q20,-30 40,0 Q20,30 0,0"
+                fill="none"
+                stroke="#FFE566"
+                stroke-width="2"
+                opacity="0.4"
+                transform="rotate({i * 60})"
+                filter="url(#titleGlow)">
+                <animate 
+                    attributeName="d" 
+                    dur="6s"
+                    values="M0,0 Q20,-30 40,0 Q20,30 0,0;
+                           M0,0 Q22,-32 42,2 Q22,32 0,0;
+                           M0,0 Q20,-30 40,0 Q20,30 0,0"
+                    repeatCount="indefinite"
+                />
+            </path>
+        {/each}
+
+        <!-- Wisdom Eye Pattern -->
+        {#each Array(8) as _, i}
+            <path 
+                d="M0,0 Q15,-20 30,0 T60,0 T30,20 T0,0"
+                fill="none"
+                stroke="#66E0FF"
+                stroke-width="2"
+                opacity="0.6"
+                transform="rotate({i * 45})"
+                filter="url(#titleGlow)">
+                <animate 
+                    attributeName="d" 
+                    dur="4s"
+                    values="M0,0 Q15,-20 30,0 T60,0 T30,20 T0,0;
+                           M0,0 Q17,-22 32,2 T62,2 T32,22 T0,0;
+                           M0,0 Q15,-20 30,0 T60,0 T30,20 T0,0"
+                    repeatCount="indefinite"
+                />
+            </path>
+        {/each}
+
+        <!-- Center Point -->
+        <circle cx="0" cy="0" r="10" fill="#FFE566" filter="url(#titleGlow)">
+            <animate 
+                attributeName="r"
+                values="10;11;10"
+                dur="3s"
+                repeatCount="indefinite"
+            />
+        </circle>
+    </g>
+
+    <!-- Title -->
+    <text x="300" y="650" 
+          font-family="Georgia, serif" 
+          font-size="48" 
+          font-weight="bold" 
+          fill="url(#titleGradient)"
+          text-anchor="middle"
+          filter="url(#titleGlow)">
+        Reality, Sovereignty,
+    </text>
+    <text x="300" y="710" 
+          font-family="Georgia, serif" 
+          font-size="48" 
+          font-weight="bold" 
+          fill="url(#titleGradient)"
+          text-anchor="middle"
+          filter="url(#titleGlow)">
+        and Consciousness
+    </text>
+
+    <!-- Subtitle -->
+    <text x="300" y="760" 
+          font-family="Georgia, serif" 
+          font-size="24" 
+          fill="#66E0FF"
+          text-anchor="middle"
+          opacity="0.8">
+        The Quest for Cognitive Liberty
+    </text>
+
+    <!-- Author -->
+    <text x="300" y="820" 
+          font-family="Georgia, serif" 
+          font-size="24" 
+          fill="#FFE566"
+          text-anchor="middle"
+          opacity="0.9">
+        Björn Kenneth Holmström
+    </text>
+
+    <!-- Collaboration Note -->
+    <text x="300" y="850" 
+          font-family="Georgia, serif" 
+          font-size="16" 
+          fill="#66FFB3"
+          text-anchor="middle"
+          opacity="0.7">
+        with the assistance of AI collaborators
+    </text>
+</svg>

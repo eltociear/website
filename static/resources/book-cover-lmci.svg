@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 1200"
+   version="1.1"
+   id="svg22"
+   sodipodi:docname="book-cover.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview22"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.49851028"
+     inkscape:cx="342.01902"
+     inkscape:cy="559.66749"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg22" />
+  <!-- Gradient Definitions -->
+  <defs
+     id="defs9">
+    <!-- Warm background gradient -->
+    <linearGradient
+       id="bgGradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#2D3748"
+         id="stop1" />
+      <stop
+         offset="50%"
+         style="stop-color:#553C9A"
+         id="stop2" />
+      <stop
+         offset="100%"
+         style="stop-color:#702459"
+         id="stop3" />
+    </linearGradient>
+    <!-- Symbol gradients -->
+    <linearGradient
+       id="loveGradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#F687B3"
+         id="stop4" />
+      <stop
+         offset="100%"
+         style="stop-color:#ED64A6"
+         id="stop5" />
+    </linearGradient>
+    <linearGradient
+       id="meaningGradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#4FD1C5"
+         id="stop6" />
+      <stop
+         offset="100%"
+         style="stop-color:#38B2AC"
+         id="stop7" />
+    </linearGradient>
+    <linearGradient
+       id="connectionGradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#9F7AEA"
+         id="stop8" />
+      <stop
+         offset="100%"
+         style="stop-color:#805AD5"
+         id="stop9" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect
+     width="800"
+     height="1200"
+     fill="url(#bgGradient)"
+     id="rect9" />
+  <!-- Decorative pattern -->
+  <g
+     opacity="0.1"
+     fill="#fff"
+     id="g15">
+    <circle
+       cx="100"
+       cy="100"
+       r="2"
+       id="circle9" />
+    <circle
+       cx="200"
+       cy="150"
+       r="2"
+       id="circle10" />
+    <circle
+       cx="300"
+       cy="100"
+       r="2"
+       id="circle11" />
+    <circle
+       cx="400"
+       cy="150"
+       r="2"
+       id="circle12" />
+    <circle
+       cx="500"
+       cy="100"
+       r="2"
+       id="circle13" />
+    <circle
+       cx="600"
+       cy="150"
+       r="2"
+       id="circle14" />
+    <circle
+       cx="700"
+       cy="100"
+       r="2"
+       id="circle15" />
+  </g>
+  <!-- Symbolic Elements Group -->
+  <g
+     transform="translate(400, 600) scale(0.8)"
+     id="g19">
+    <!-- Love Symbol (Heart-inspired flowing form) -->
+    <path
+       d="M-150,-100               C-200,-150 -300,-100 -250,0               C-200,100 -100,150 0,200               C100,150 200,100 250,0               C300,-100 200,-150 150,-100               C100,-150 50,-150 0,-100               C-50,-150 -100,-150 -150,-100"
+       fill="url(#loveGradient)"
+       opacity="0.8"
+       id="path15" />
+    <!-- Meaning Symbol (Upward-reaching branches) -->
+    <path
+       d="M-50,50               L0,-200               L50,50               M-100,0               L0,-150               L100,0               M-150,-50               L0,-100               L150,-50"
+       stroke="url(#meaningGradient)"
+       stroke-width="20"
+       fill="none"
+       opacity="0.8"
+       id="path16" />
+    <!-- Connection Symbol (Interwoven circles) -->
+    <g
+       opacity="0.8"
+       id="g18">
+      <circle
+         cx="-50"
+         cy="0"
+         r="100"
+         stroke="url(#connectionGradient)"
+         stroke-width="20"
+         fill="none"
+         id="circle16" />
+      <circle
+         cx="50"
+         cy="0"
+         r="100"
+         stroke="url(#connectionGradient)"
+         stroke-width="20"
+         fill="none"
+         id="circle17" />
+      <circle
+         cx="0"
+         cy="-86.6"
+         r="100"
+         stroke="url(#connectionGradient)"
+         stroke-width="20"
+         fill="none"
+         id="circle18" />
+    </g>
+  </g>
+  <!-- Title Text with subtle shadow -->
+  <g
+     id="g20">
+    <text
+       x="400"
+       y="300"
+       font-family="Arial"
+       font-size="48"
+       fill="#fff"
+       text-anchor="middle"
+       font-weight="bold"
+       id="text19">
+      Love, Meaning, Connection
+    </text>
+    <!-- Subtitle -->
+    <text
+       x="400"
+       y="380"
+       font-family="Arial"
+       font-size="24"
+       fill="#E2E8F0"
+       text-anchor="middle"
+       id="text20">
+      A New Index for Measuring What Matters
+    </text>
+  </g>
+  <!-- Author name -->
+  <text
+     x="400"
+     y="900"
+     font-family="Arial"
+     font-size="24"
+     fill="#E2E8F0"
+     text-anchor="middle"
+     id="text21">
+    Björn Kenneth Holmström
+  </text>
+  <!-- AI assistance credit -->
+  <text
+     x="400"
+     y="950"
+     font-family="Arial"
+     font-size="14"
+     fill="#CBD5E0"
+     text-anchor="middle"
+     font-style="italic"
+     id="text22">
+    with the assistance of ChatGPT and Claude
+  </text>
+</svg>

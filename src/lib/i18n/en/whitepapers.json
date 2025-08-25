@@ -1,0 +1,62 @@
+{
+  "title": "White Papers",
+  "subtitle": "Research publications exploring methodologies and frameworks for addressing complex systemic challenges",
+  "breadcrumb": {
+    "resources": "Resources",
+    "whitepapers": "White Papers"
+  },
+  "meta": {
+    "publishedOn": "Published on",
+    "by": "by",
+    "pages": "pages",
+    "readTime": "min read"
+  },
+  "noPapers": {
+    "title": "No white papers found",
+    "message": "No white papers found for the selected language ({language}). Try switching to a different language using the language selector in the header.",
+    "followPrompt": "Follow us to get notified when we publish new research!"
+  },
+  "papersCount": {
+    "single": "paper",
+    "plural": "papers",
+    "found": "found"
+  },
+  "status": {
+    "published": "Published",
+    "draft": "Draft",
+    "review": "In Review",
+    "archived": "Archived"
+  },
+  "categories": {
+    "methodology": "Methodology",
+    "governance": "Governance",
+    "economics": "Economics",
+    "technology": "Technology",
+    "philosophy": "Philosophy",
+    "policy": "Policy"
+  },
+  "actions": {
+    "readOnline": "Read Online",
+    "downloadPdf": "Download PDF",
+    "cite": "Cite This Paper"
+  },
+  "latestBadge": "Latest",
+  "strategicFollow": {
+    "title": "Interested in our research?",
+    "subtitle": "Stay connected to receive updates on new white papers and research publications."
+  },
+  "bottomPrompt": {
+    "text": "Want research updates?",
+    "link": "See all follow options →"
+  },
+  "loading": "Loading content...",
+  "noContent": "No content available",
+  "paperFollow": {
+    "title": "Found this research valuable?",
+    "subtitle": "Stay connected for updates on new research publications and methodological developments."
+  },
+  "navigation": {
+    "moreResearch": "More Research",
+    "allResources": "All Resources"
+  }
+}

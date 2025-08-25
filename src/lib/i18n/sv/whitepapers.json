@@ -1,0 +1,62 @@
+{
+  "title": "Vitböcker",
+  "subtitle": "Forskningspublikationer som utforskar metoder och ramverk för att hantera komplexa systemutmaningar",
+  "breadcrumb": {
+    "resources": "Resurser",
+    "whitepapers": "Vitböcker"
+  },
+  "meta": {
+    "publishedOn": "Publicerad den",
+    "by": "av",
+    "pages": "sidor",
+    "readTime": "min lästid"
+  },
+  "noPapers": {
+    "title": "Inga vitböcker hittades",
+    "message": "Inga vitböcker hittades för det valda språket ({language}). Prova att byta till ett annat språk med hjälp av språkväljaren i sidhuvudet.",
+    "followPrompt": "Följ oss för att få meddelanden när vi publicerar ny forskning!"
+  },
+  "papersCount": {
+    "single": "vitbok",
+    "plural": "vitböcker",
+    "found": "hittades"
+  },
+  "status": {
+    "published": "Publicerad",
+    "draft": "Utkast",
+    "review": "Under granskning",
+    "archived": "Arkiverad"
+  },
+  "categories": {
+    "methodology": "Metodik",
+    "governance": "Styrning",
+    "economics": "Ekonomi",
+    "technology": "Teknologi",
+    "philosophy": "Filosofi",
+    "policy": "Policy"
+  },
+  "actions": {
+    "readOnline": "Läs online",
+    "downloadPdf": "Ladda ner PDF",
+    "cite": "Citera denna vitbok"
+  },
+  "latestBadge": "Senaste",
+  "strategicFollow": {
+    "title": "Intresserad av vår forskning?",
+    "subtitle": "Håll dig uppdaterad för att få information om nya vitböcker och forskningspublikationer."
+  },
+  "bottomPrompt": {
+    "text": "Vill du ha forskningsuppdateringar?",
+    "link": "Se alla följalternativ →"
+  },
+  "loading": "Laddar innehåll...",
+  "noContent": "Inget innehåll tillgängligt",
+  "paperFollow": {
+    "title": "Fann du denna forskning värdefull?",
+    "subtitle": "Håll dig uppdaterad om nya forskningspublikationer och metodutvecklingar."
+  },
+  "navigation": {
+    "moreResearch": "Mer forskning",
+    "allResources": "Alla resurser"
+  }
+}

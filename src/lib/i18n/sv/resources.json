@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "title": "Resurser - Globala styrningsramverken",
+    "description": "Utforska det omfattande biblioteket med böcker, vitböcker och resurser som utgör den filosofiska och praktiska grunden för regenerativ global styrning."
+  },
+  "hero": {
+    "title": "Resurser",
+    "subtitle": "Ett omfattande bibliotek för planetär styrning",
+    "description": "Upptäck de grundläggande böckerna, djupgående vitböckerna och väsentliga resurserna som utforskar principerna, metoderna och de praktiska tillämpningarna av regenerativ styrning för en blomstrande värld."
+  },
+  "books": {
+    "title": "Böcker",
+    "description": "Utforska de fullängdsböcker som utgör den filosofiska och praktiska grunden för de globala styrningsramverken.",
+    "globalGovernance": {
+      "title": "Global styrning: Naturliga steg mot en blomstrande värld",
+      "description": "En praktisk färdplan för att skapa ett etiskt, decentraliserat globalt styrsystem som kan hantera utmaningar på planetär skala genom systemtänkande, banbrytande teknik och djup mänsklig visdom."
+    },
+    "aubi": {
+      "title": "Adaptiv universell basinkomst: Ett nytt socialt kontrakt för 2000-talet",
+      "description": "Ett omfattande ramverk för att omforma ekonomisk trygghet som dynamiskt svarar på individuella behov samtidigt som det uppmuntrar meningsfulla samhällsbidrag, och erbjuder praktiska implementeringsstrategier på lokal, nationell och global nivå."
+    },
+    "optimizingReality": {
+      "title": "Optimera verkligheten: En guide i systemtänkande för en framtid med multiintelligens",
+      "description": "En handlingskraftig plan för att integrera mänsklig, artificiell, ekologisk och kollektiv intelligens för att skapa mer harmoniska och hållbara system inom styrning, ekonomi och miljöförvaltning."
+    },
+    "realitySovereignty": {
+      "title": "Verklighet, suveränitet och medvetande: Sökandet efter kognitiv frihet",
+      "description": "En utforskning av vem som äger ditt sinne, som undersöker skärningspunkten mellan personlig frihet, medvetenhetsutforskning och samhällsomvandling samtidigt som den erbjuder ramverk för ansvarsfull utforskning och policyreform."
+    },
+    "regenerativeReciprocity": {
+      "title": "Regenerativ ömsesidighet: System, andlighet och uppehällets etik i en mångfaldig värld",
+      "description": "En bok om att återknyta människor till naturen och varandra genom ett ramverk som kombinerar systemtänkande, andlig visdom och praktisk handling, och visar hur vi kan gå från extraktiva till regenerativa levnadssätt som hedrar allt livs sammankoppling."
+    },
+    "lmci": {
+      "title": "Kärlek, mening, anslutning: Ett nytt index för att mäta det som betyder något",
+      "description": "En revolutionerande guide som utmanar traditionella ekonomiska mått genom att introducera ett ramverk för att mäta mänskligt blomstrande genom våra djupaste relationer, känsla av syfte och anslutningar till oss själva, andra och världen omkring oss."
+    },
+    "being": {
+      "title": "Vara: En väv av existens genom system och poesi",
+      "description": "En bok som utforskar vad det innebär att existera genom både systemtänkande och poetisk upplevelse, och väver samman filosofi, vetenskap och andlighet för att förstå varandets sammankopplade men djupt personliga natur."
+    }
+  },
+  "whitePapers": {
+    "title": "Vitböcker",
+    "description": "Dyk djupt in i specifika GGF-metoder och förslag med våra formella vitböcker och forskningspublikationer.",
+    "cognitiveScaffolding": {
+      "title": "Kognitiv stöttning: En syntesmetod med flera AI-modeller för att lösa komplexa systemproblem",
+      "description": "En omfattande metodik för att utnyttja olika AI-modeller för att utveckla robusta, holistiska lösningar som överbryggar den kognitiva klyftan mellan fragmenterat tänkande och det integrerade medvetande som krävs för att hantera den globala polykrisen."
+    }
+  },
+  "categories": {
+    "governance": "Styrning",
+    "economics": "Ekonomi",
+    "systems": "System",
+    "consciousness": "Medvetande",
+    "sustainability": "Hållbarhet",
+    "metrics": "Mätetal",
+    "philosophy": "Filosofi",
+    "methodology": "Metodik"
+  },
+  "status": {
+    "published": "Publicerad",
+    "draft": "Utkast",
+    "inReview": "Under granskning",
+    "comingSoon": "Kommer snart"
+  },
+  "actions": {
+    "readOnline": "Läs online",
+    "downloadPdf": "Ladda ner PDF",
+    "preview": "Förhandsgranska",
+    "getCitation": "Hämta citering",
+    "share": "Dela",
+    "bookmark": "Bokmärk"
+  },
+  "comingSoon": {
+    "title": "Fler vitböcker kommer snart",
+    "description": "Vi utvecklar kontinuerligt nya forskningsrapporter och metodguider. Håll utkik efter kommande publikationer om dessa viktiga ämnen.",
+    "topics": [
+      "Styrning av digitala allmänningar",
+      "Bioregionala autonomizoner",
+      "Ramverk för ekologisk ekonomi",
+      "Integration av urfolkskunskap",
+      "Protokoll för konfliktlösning",
+      "System för regenerativa mätetal"
+    ]
+  },
+  "future": {
+    "title": "Framtida möjligheter",
+    "description": "I takt med att projektet Global Governance Frameworks växer och fler medarbetare ansluter sig, ser vi framför oss att utöka våra resurser till att inkludera ytterligare utbildningsformat.",
+    "types": {
+      "videos": {
+        "title": "Videopresentationer",
+        "description": "Utbildningsvideor och presentationer som förklarar nyckelkoncept och ramverk - möjligt i takt med att vårt team växer."
+      },
+      "podcasts": {
+        "title": "Poddavsnitt",
+        "description": "Djupgående samtal om regenerativ styrning och systemtänkande - om vi kan bygga ett större team."
+      },
+      "articles": {
+        "title": "Artiklar & essäer",
+        "description": "Kortare texter som utforskar specifika aspekter av ramverken - beroende av att ha fler bidragsgivare."
+      }
+    }
+  },
+  "getInvolved": {
+    "title": "Hjälp oss att utöka dessa resurser",
+    "description": "För närvarande är detta främst ett enmansprojekt. Ditt engagemang kan hjälpa oss att skapa videor, poddar, artiklar och annat utbildningsmaterial för att göra dessa idéer mer tillgängliga för världen.",
+    "button": "Engagera dig & hjälp oss växa",
+    "learnMore": "Läs mer om vårt uppdrag"
+  }
+}
+

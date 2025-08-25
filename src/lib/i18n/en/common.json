@@ -93,11 +93,23 @@
     "loading": "Loading",
     "previous": "Previous",
     "next": "Next",
-    "back": "Back"
+    "back": "Back",
+    "pages": "pages",
+    "bookCover": "book cover",
+    "loading": "Loading",
+    "downloadPdf": "Download PDF",
+    "openExternal": "Opens in new window",
+    "comingSoon": "Coming Soon",
+    "published": "Published",
+    "draft": "Draft"
   },
   "language": {
     "select": "Select language",
     "tooltip": "Change language"
+  },
+  "languages": {
+    "english": "English",
+    "swedish": "Swedish"
   },
   "follow": {
     "title": "Stay Connected",
