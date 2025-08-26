@@ -11,6 +11,10 @@
   "books": {
     "title": "Books",
     "description": "Explore the full-length books that provide the philosophical and practical foundations for the Global Governance Frameworks.",
+    "ai": {
+      "title": "AI as Catalyst for Cognitive Evolution: From Fragmentation to Integration in the Age of AI",
+      "description": "This book explores how humanity can consciously partner with artificial intelligence, using it as a 'cognitive scaffold' to accelerate the leap from the fragmented 'Tier 1' thinking that drives the polycrisis to the integrated 'Tier 2' consciousness required for a flourishing future."
+    },
     "globalGovernance": {
       "title": "Global Governance: Natural Steps Toward a Thriving World",
       "description": "A practical roadmap for creating an ethical, decentralized global governance system that can address planetary-scale challenges through systems thinking, cutting-edge technology, and deep human wisdom."

@@ -11,6 +11,10 @@
   "books": {
     "title": "Böcker",
     "description": "Utforska de fullängdsböcker som utgör den filosofiska och praktiska grunden för de globala styrningsramverken.",
+    "ai": {
+      "title": "AI som katalysator för kognitiv evolution: Från fragmentering till integration i AI:s tidsålder",
+      "description": "Denna bok utforskar hur mänskligheten medvetet kan samarbeta med artificiell intelligens och använda den som en 'kognitiv byggnadsställning' för att påskynda språnget från det fragmenterade 'Tier 1'-tänkandet som driver polykrisen till det integrerade 'Tier 2'-medvetandet som krävs för en blomstrande framtid."
+    },
     "globalGovernance": {
       "title": "Global styrning: Naturliga steg mot en blomstrande värld",
       "description": "En praktisk färdplan för att skapa ett etiskt, decentraliserat globalt styrsystem som kan hantera utmaningar på planetär skala genom systemtänkande, banbrytande teknik och djup mänsklig visdom."

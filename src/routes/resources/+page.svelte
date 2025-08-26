@@ -19,6 +19,19 @@
   // Book data with cover images and file paths
   $: books = [
     {
+      id: 'ai',
+      title: $t('resources.books.ai.title'),
+      description: $t('resources.books.ai.description'),
+      cover: `${base}/resources/book-cover-ai.svg`,
+      pdfPath: {
+        en: `${base}/resources/AI_as_Catalyst_for_Cognitive_Evolution_-_From_Fragmentation_to_Integration_in_the_Age_of_AI.pdf`,
+        sv: null // Not yet translated
+      },
+      category: 'consciousness',
+      year: '2025',
+      pages: '236'
+    },
+    {
       id: 'global-governance',
       title: $t('resources.books.globalGovernance.title'),
       description: $t('resources.books.globalGovernance.description'),
