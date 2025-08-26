@@ -28,32 +28,6 @@ Mänskligheten står inför en "polykris" – en uppsättning komplexa, sammanko
 
 ---
 
-- [1. Introduction: The Silo Problem & The Cognitive Gap](#introduction)
-  - [1.1. Positioning the SCI Cycle](#positioning)
-- [2. A Proposed Methodology: The Synthesis-Challenge-Integration (SCI) Cycle](#methodology)
-- [3. Application & Evolution within the Global Governance Frameworks (GGF)](#application)
-  - [3.1. An Emergent Practice: Validating the Power of Multi-Model Synthesis](#emergent-practice)
-  - [3.2. The Next Step: Formalizing the Full SCI Cycle](#next-step)
-  - [3.3. A Forward-Looking Example: Applying the Full Cycle to the TGIF](#tgif-example)
-  - [3.4. SCI in Action: Resolving a Gaian Trade Dispute](#gaian-trade-example)
-  - [3.5. Embedding the SCI Cycle within the GGF Ecosystem](#embedding)
-  - [3.6. Political Applications of the SCI Cycle](#political-applications)
-  - [3.7. The SCI Cycle as a Core GGF Process: A Cross-Framework View](#cross-framework-view)
-  - [3.8. The Evidence for Multi-Model Synthesis](#evidence-base)
-  - [3.9. Methodological Parallels in High-Stakes Domains](#methodological-parallels)
-- [4. Implications for AI Development & Research](#implications)
-  - [4.1. SCI as a Training Paradigm for AI Alignment](#ai-alignment)
-  - [4.2. SCI as a Human Literacy Practice](#human-literacy)
-  - [4.3. The Long-Term Vision: Recursive Governance AIs](#recursive-governance)
-- [5. Limitations, Risks, and the Path to a Resilient Methodology](#risks)
-  - [5.1. Operational Protocols and Safeguards](#protocols)
-  - [5.2. Measuring Success: Quantifiable Metrics for the SCI Cycle](#metrics)
-  - [5.3. Mastering the Challenge Phase: A Practical Guide](#mastering-challenge)
-  - [5.4. Addressing Potential Blind Spots: A Commitment to Reflexivity](#blind-spots)
-- [6. Conclusion: From a Tool for Thinking to a Practice for Being](#conclusion)
-- [About the Global Governance Frameworks (GGF)](#about-ggf)
-- [Appendix](#appendix)
-
 **I denna vitbok:**
 
   - [1. Introduktion: Siloproblemet & den kognitiva klyftan](#introduction)

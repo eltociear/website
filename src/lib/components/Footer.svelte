@@ -139,6 +139,24 @@
   .accessibility-statement a:hover {
     color: #fbbf24;
   }
+
+  /* This rule ensures the main footer sections align at the top */
+  .grid {
+    align-items: start; /* or align-items: top */
+  }
+
+  /* For screens wider than 768px (tablets and desktops) */
+  .footer-navigation-columns {
+    display: flex;
+    gap: 2rem; /* Adjust space between columns as needed */
+  }
+
+  /* For screens 768px or narrower (mobile phones) */
+  @media (max-width: 768px) {
+    .footer-navigation-columns {
+      flex-direction: column; /* Stacks the columns vertically */
+    }
+  }
 </style>
 
 <footer>
@@ -151,17 +169,42 @@
         </p>
       </div>
       
-      <div>
-        <h3>Navigation</h3>
-        <ul>
-          <li><a href="{base}/">{browser ? ($t('common.header.home') || 'Home') : 'Home'}</a></li>
-          <li><a href="{base}/about">{browser ? ($t('common.header.about') || 'About') : 'About'}</a></li>
-          <li><a href="{base}/frameworks">{browser ? ($t('common.header.framework') || 'Framework') : 'Framework'}</a></li>
-          <li><a href="{base}/frameworks/docs/glossary">{browser ? ($t('common.footer.glossary') || 'Glossary') : 'Glossary'}</a></li>
-          <li><a href="{base}/downloads">{browser ? ($t('common.header.downloads') || 'Downloads') : 'Downloads'}</a></li>
-          <li><a href="{base}/contact">{browser ? ($t('common.header.contact') || 'Contact') : 'Contact'}</a></li>
-          <li><a href="{base}/get-involved/founding">{browser ? ($t('common.footer.founding') || 'Founding') : 'Founding'}</a></li>
-        </ul>
+      <div class="footer-navigation-columns">
+
+        <div class="footer-column">
+          <h3>Navigation</h3>
+          <ul>
+            <li><a href="{base}/">{browser ? ($t('common.header.home') || 'Home') : 'Home'}</a></li>
+            <li><a href="{base}/about">{browser ? ($t('common.header.about') || 'About') : 'About'}</a></li>
+            <li><a href="{base}/blog">{browser ? ($t('common.header.blog') || 'Blog') : 'Blog'}</a></li>
+            <li><a href="{base}/contact">{browser ? ($t('common.header.contact') || 'Contact') : 'Contact'}</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Framework</h3>
+          <ul>
+            <li><a href="{base}/frameworks">{browser ? ($t('common.header.framework') || 'Framework') : 'Framework'}</a></li>
+            <li><a href="{base}/frameworks/docs/glossary">{browser ? ($t('common.footer.glossary') || 'Glossary') : 'Glossary'}</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="{base}/resources">{browser ? ($t('common.footer.resources') || 'Resources') : 'Resources'}</a></li>
+            <li><a href="{base}/downloads">{browser ? ($t('common.header.downloads') || 'Downloads') : 'Downloads'}</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Get Involved</h3>
+          <ul>
+            <li><a href="{base}/get-involved">{browser ? ($t('common.footer.joinUs') || 'Join Us') : 'Join Us'}</a></li>
+            <li><a href="{base}/get-involved/founding">{browser ? ($t('common.footer.founding') || 'Founding') : 'Founding'}</a></li>
+          </ul>
+        </div>
+        
       </div>
       
       <div>
@@ -203,7 +246,6 @@
       </div>
     </div>
 
-    <!-- NEW: Accessibility Statement -->
     <div class="accessibility-statement">
       <p>
         {#if browser}
