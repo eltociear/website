@@ -17,6 +17,7 @@
     "Part V: Scenarios for the Future": "Del V: Scenarier för framtiden"
   },
   "sections": {
+    "book-cover": "Bokomslag",
     "dedication": "Dedikation",
     "table-of-contents": "Innehållsförteckning",
     "introduction": "Introduktion",
@@ -47,6 +48,7 @@
     "about": "Om författaren"
   },
   "sectionsShort": {
+    "book-cover": "Omslag",
     "dedication": "Dedikation",
     "table-of-contents": "Innehåll",
     "introduction": "Introduktion",

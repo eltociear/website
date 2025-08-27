@@ -17,6 +17,7 @@
     "Part V: Scenarios for the Future": "Part V: Scenarios for the Future"
   },
   "sections": {
+    "book-cover": "Book Cover",
     "dedication": "Dedication",
     "table-of-contents": "Table of Contents",
     "introduction": "Introduction",
@@ -47,6 +48,7 @@
     "about": "About the Author"
   },
   "sectionsShort": {
+    "book-cover": "Cover",
     "dedication": "Dedication",
     "table-of-contents": "Contents",
     "introduction": "Introduction", 

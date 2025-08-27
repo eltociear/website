@@ -15,7 +15,7 @@
   $: currentLocale = $locale;
 
   // Component state
-  let activeSection = 'dedication';
+  let activeSection = 'book-cover';
   let mounted = false;
   let isPrintMode = false;
   let frontMatterOpen = true;
@@ -28,7 +28,7 @@
 
   // Book structure
   $: bookParts = data?.parts || {};
-  $: frontMatterSections = ['dedication', 'table-of-contents', 'introduction'];
+  $: frontMatterSections = ['book-cover', 'dedication', 'table-of-contents', 'introduction'];
   $: backMatterSections = ['conclusion', 'appendix-a', 'appendix-b', 'appendix-c', 'notes-and-references', 'acknowledgments', 'about'];
   $: chapterSections = Object.keys(data?.sections || {}).filter(section => section.startsWith('chapter-'));
 
@@ -55,6 +55,19 @@
         else if (partName.includes('Part V')) part5Open = true;
       }
     });
+  }
+
+  function getSectionIcon(section) {
+    const icons = {
+      'book-cover': '📚',
+      'dedication': '💝',
+      'table-of-contents': '📋',
+      'introduction': '🎯',
+      'conclusion': '🎯',
+      'acknowledgments': '🙏',
+      'about': '👤'
+    };
+    return icons[section] || '📄';
   }
 
   onMount(async () => {
@@ -292,10 +305,7 @@
                       on:click={() => setActiveSection(section)}
                     >
                       <span class="nav-icon">
-                        {#if section === 'dedication'}💝
-                        {:else if section === 'table-of-contents'}📋
-                        {:else if section === 'introduction'}🎯
-                        {:else}📄{/if}
+                        {getSectionIcon(section)}
                       </span>
                       <span class="nav-title">{getSectionTitle(section)}</span>
                     </button>
@@ -1311,6 +1321,141 @@
 
     .content :global(*) {
       color: #000 !important;
+    }
+  }
+
+  /* Book Cover Section Styling */
+  .content :global(.book-cover-section) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, rgba(26, 54, 93, 0.05), rgba(0, 180, 216, 0.05));
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .content :global(.book-cover-image) {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 0.75rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+  }
+
+  .content :global(.book-cover-image:hover) {
+    transform: translateY(-5px);
+  }
+
+  .content :global(.book-cover-title) {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--book-primary);
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+
+  .content :global(.book-cover-subtitle) {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--book-secondary);
+    margin-bottom: 1.5rem;
+    line-height: 1.3;
+  }
+
+  .content :global(.book-cover-meta) {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    color: #64748b;
+  }
+
+  .content :global(.book-cover-meta-item) {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .content :global(.book-cover-actions) {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .content :global(.book-cover-button) {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: none;
+  }
+
+  .content :global(.book-cover-button.primary) {
+    background: linear-gradient(135deg, var(--book-primary), var(--book-secondary));
+    color: white;
+    box-shadow: 0 4px 8px rgba(26, 54, 93, 0.2);
+  }
+
+  .content :global(.book-cover-button.primary:hover) {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(26, 54, 93, 0.3);
+  }
+
+  .content :global(.book-cover-button.secondary) {
+    background: white;
+    color: var(--book-primary);
+    border: 2px solid var(--book-primary);
+  }
+
+  .content :global(.book-cover-button.secondary:hover) {
+    background: rgba(26, 54, 93, 0.05);
+    transform: translateY(-2px);
+  }
+
+  /* Responsive adjustments for book cover */
+  @media (max-width: 768px) {
+    .content :global(.book-cover-section) {
+      padding: 2rem 1rem;
+    }
+    
+    .content :global(.book-cover-image) {
+      max-width: 300px;
+    }
+    
+    .content :global(.book-cover-title) {
+      font-size: 2rem;
+    }
+    
+    .content :global(.book-cover-subtitle) {
+      font-size: 1.25rem;
+    }
+    
+    .content :global(.book-cover-meta) {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    
+    .content :global(.book-cover-actions) {
+      flex-direction: column;
+      width: 100%;
+    }
+    
+    .content :global(.book-cover-button) {
+      justify-content: center;
+      width: 100%;
     }
   }
 </style>

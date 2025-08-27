@@ -66,6 +66,7 @@ export async function load({ depends, url, params }) {
   // Define book sections to load in correct reading order
   const sections = [
     // Front matter
+    'book-cover',
     'dedication',
     'table-of-contents',
     'introduction',
@@ -178,7 +179,7 @@ export async function load({ depends, url, params }) {
     // Book-specific metadata
     bookType: 'ai-as-catalyst-for-cognitive-evolution',
     totalSections: sections.length,
-    frontMatterSections: 3, // dedication, table-of-contents, introduction
+    frontMatterSections: 4, // dedication, table-of-contents, introduction
     chapterSections: 18, // chapter-1 through chapter-18
     backMatterSections: 6, // conclusion, appendices, notes, acknowledgments, about
     hasTableOfContents: true,
