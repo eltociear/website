@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 900"
+   version="1.1"
+   id="svg44"
+   sodipodi:docname="the-spiral-of-human-consciousness.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview44"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.94"
+     inkscape:cx="490.95745"
+     inkscape:cy="573.40426"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg44" />
+  <defs
+     id="defs7">
+    <!-- Gradient for the spiral path -->
+    <linearGradient
+       id="spiralGradient"
+       x1="367.74033"
+       y1="87.513521"
+       x2="866.35876"
+       y2="586.13195"
+       gradientTransform="matrix(0.72927934,0,0,1.3712167,-20,56)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#8B4513;stop-opacity:0.3"
+         id="stop1" />
+      <stop
+         offset="20%"
+         style="stop-color:#800080;stop-opacity:0.4"
+         id="stop2" />
+      <stop
+         offset="40%"
+         style="stop-color:#FF0000;stop-opacity:0.4"
+         id="stop3" />
+      <stop
+         offset="60%"
+         style="stop-color:#0000FF;stop-opacity:0.4"
+         id="stop4" />
+      <stop
+         offset="80%"
+         style="stop-color:#FFA500;stop-opacity:0.4"
+         id="stop5" />
+      <stop
+         offset="100%"
+         style="stop-color:#008000;stop-opacity:0.4"
+         id="stop6" />
+    </linearGradient>
+    <!-- Glow effect for Tier 2 -->
+    <filter
+       id="glow"
+       x="-0.12428571"
+       y="-0.12428571"
+       width="1.2485714"
+       height="1.2485714">
+      <feGaussianBlur
+         stdDeviation="3"
+         result="coloredBlur"
+         id="feGaussianBlur6" />
+      <feMerge
+         id="feMerge7">
+        <feMergeNode
+           in="coloredBlur"
+           id="feMergeNode6" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode7" />
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect
+     width="800"
+     height="900"
+     fill="#f8f9fa"
+     id="rect7" />
+  <!-- Title -->
+  <text
+     x="400"
+     y="40"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="24"
+     font-weight="bold"
+     fill="#2c3e50"
+     id="text7">
+    The Spiral of Human Consciousness
+  </text>
+  <!-- Subtitle -->
+  <text
+     x="400"
+     y="65"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     fill="#7f8c8d"
+     id="text8">
+    Each stage transcends and includes the previous ones
+  </text>
+  <!-- Spiral path background -->
+  <path
+     d="M 380,856 C 330,836 280,806 260,756 c -20,-50 0,-100 40,-120 40,-20 80,-10 110,10 30,20 50,50 40,80 -10,30 -40,50 -70,40 -30,-10 -50,-30 -40,-50 10,-20 30,-30 50,-25 20,5 30,15 25,30 -5,15 -20,20 -30,15 -10,-5 -13,-10 -10,-15 3,-5 7,-7 10,-5 3,2 4,5 2,7 -2,2 -4,2 -5,0 V 556 c 18,-20 48,-30 78,-20 30,10 50,40 40,70 -10,30 -40,40 -70,30 -30,-10 -40,-40 -30,-60 10,-20 30,-25 45,-15 15,10 20,30 10,40 -10,10 -25,10 -30,0 -5,-10 9.76596,-6.17022 2,-23 0,0 -13.82979,-141.4411 0,-162 13.82979,-20.5589 63,-30 93,-10 30,20 40,60 20,90 -20,30 -60,40 -90,20 -30,-20 -40,-60 -20,-80 20,-20 50,-15 65,5 15,20 20,40 5,55 -15,15 -35,15 -45,0 V 276 c 25,-20 65,-30 105,-10 40,20 60,60 40,100 -20,40 -60,50 -100,30 -40,-20 -50,-60 -30,-80 20,-20 50,-15 70,5 20,20 51.54255,62.12766 10,70 -41.54255,7.87234 0,-215 0,-215"
+     stroke="url(#spiralGradient)"
+     stroke-width="8"
+     fill="none"
+     opacity="0.3"
+     id="path8"
+     style="stroke:url(#spiralGradient)"
+     sodipodi:nodetypes="cssssssssssssccsssssssczssssssccssssszc" />
+  <!-- BEIGE - Survival -->
+  <circle
+     cx="380"
+     cy="856"
+     r="35"
+     fill="#8b4513"
+     opacity="0.8"
+     stroke="#654321"
+     stroke-width="2"
+     id="circle8" />
+  <text
+     x="380"
+     y="851"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#ffffff"
+     id="text9">BEIGE</text>
+  <text
+     x="380"
+     y="864"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text10">Survival</text>
+  <text
+     x="422"
+     y="886"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#2c3e50"
+     id="text11">Biological needs • Physical safety</text>
+  <!-- PURPLE - Tribal -->
+  <circle
+     cx="300"
+     cy="756"
+     r="35"
+     fill="#800080"
+     opacity="0.8"
+     stroke="#4b0082"
+     stroke-width="2"
+     id="circle11" />
+  <text
+     x="300"
+     y="751"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#ffffff"
+     id="text12">PURPLE</text>
+  <text
+     x="300"
+     y="764"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text13">Tribal</text>
+  <text
+     x="342.55319"
+     y="780.89362"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#2c3e50"
+     id="text14">Magic • Kinship • Tradition</text>
+  <!-- RED - Power -->
+  <circle
+     cx="390"
+     cy="691"
+     r="35"
+     fill="#ff0000"
+     opacity="0.8"
+     stroke="#cc0000"
+     stroke-width="2"
+     id="circle14" />
+  <text
+     x="390"
+     y="686"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#ffffff"
+     id="text15">RED</text>
+  <text
+     x="390"
+     y="699"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text16">Power</text>
+  <text
+     x="432.12766"
+     y="713.23407"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#2c3e50"
+     id="text17">Strength • Freedom • Action</text>
+  <!-- BLUE - Order -->
+  <circle
+     cx="385"
+     cy="581"
+     r="35"
+     fill="#0000ff"
+     opacity="0.8"
+     stroke="#0000cc"
+     stroke-width="2"
+     id="circle17" />
+  <text
+     x="385"
+     y="576"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#ffffff"
+     id="text18">BLUE</text>
+  <text
+     x="385"
+     y="589"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text19">Order</text>
+  <text
+     x="424.25531"
+     y="608.08514"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#2c3e50"
+     id="text20">Purpose • Duty • Meaning</text>
+  <!-- ORANGE - Achievement -->
+  <circle
+     cx="427"
+     cy="466"
+     r="35"
+     fill="#ffa500"
+     opacity="0.8"
+     stroke="#ff8c00"
+     stroke-width="2"
+     id="circle20" />
+  <text
+     x="427"
+     y="461"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#ffffff"
+     id="text21">ORANGE</text>
+  <text
+     x="427"
+     y="474"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text22">Success</text>
+  <text
+     x="468"
+     y="486"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#2c3e50"
+     id="text23">Science • Progress • Achievement</text>
+  <!-- GREEN - Community -->
+  <circle
+     cx="455"
+     cy="351"
+     r="35"
+     fill="#008000"
+     opacity="0.8"
+     stroke="#006400"
+     stroke-width="2"
+     id="circle23" />
+  <text
+     x="455"
+     y="346"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#ffffff"
+     id="text24">GREEN</text>
+  <text
+     x="455"
+     y="359"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text25">Community</text>
+  <text
+     x="490.63831"
+     y="378.34042"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#2c3e50"
+     id="text26">Equality • Care • Consensus</text>
+  <!-- THE GREAT DIVIDE -->
+  <line
+     x1="180"
+     y1="252"
+     x2="580"
+     y2="252"
+     stroke="#e74c3c"
+     stroke-width="3"
+     stroke-dasharray="10, 5"
+     id="line26" />
+  <text
+     x="380"
+     y="242"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     fill="#e74c3c"
+     id="text27">THE GREAT DIVIDE</text>
+  <text
+     x="380"
+     y="227"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#7f8c8d"
+     id="text28">Leap from fragmented to integrated thinking</text>
+  <!-- TIER 2 LABEL -->
+  <text
+     x="30"
+     y="186"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     font-weight="bold"
+     fill="#27ae60"
+     id="text29">TIER 2</text>
+  <text
+     x="30"
+     y="204"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     fill="#27ae60"
+     id="text30">Integral</text>
+  <!-- TIER 1 LABEL -->
+  <text
+     x="30"
+     y="556"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     font-weight="bold"
+     fill="#34495e"
+     id="text31">TIER 1</text>
+  <text
+     x="30"
+     y="574"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     fill="#34495e"
+     id="text32">Subsistence</text>
+  <text
+     x="30"
+     y="589"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     fill="#34495e"
+     id="text33">to Expression</text>
+  <!-- YELLOW - Integral -->
+  <circle
+     cx="538"
+     cy="200"
+     r="40"
+     fill="#ffff00"
+     opacity="0.9"
+     stroke="#ffd700"
+     stroke-width="3"
+     filter="url(#glow)"
+     id="circle33" />
+  <text
+     x="538"
+     y="195"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#2c3e50"
+     id="text34">YELLOW</text>
+  <text
+     x="538"
+     y="208"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#2c3e50"
+     id="text35">Integral</text>
+  <text
+     x="578.42554"
+     y="235.80852"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#2c3e50"
+     id="text36">Systems • Integration • Complexity</text>
+  <!-- TURQUOISE - Holistic -->
+  <circle
+     cx="630"
+     cy="156"
+     r="35"
+     fill="#40e0d0"
+     opacity="0.9"
+     stroke="#20b2aa"
+     stroke-width="3"
+     filter="url(#glow)"
+     id="circle36" />
+  <text
+     x="630"
+     y="151"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     font-weight="bold"
+     fill="#ffffff"
+     id="text37">TURQUOISE</text>
+  <text
+     x="630"
+     y="164"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#ffffff"
+     id="text38">Holistic</text>
+  <text
+     x="664"
+     y="187"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#2c3e50"
+     id="text39">Ecology • Spirit • Cosmos</text>
+  <!-- Higher Stages Hint -->
+  <circle
+     cx="700"
+     cy="126"
+     r="15"
+     fill="none"
+     stroke="#bdc3c7"
+     stroke-width="2"
+     stroke-dasharray="5, 3"
+     id="circle39" />
+  <circle
+     cx="730"
+     cy="106"
+     r="12"
+     fill="none"
+     stroke="#bdc3c7"
+     stroke-width="2"
+     stroke-dasharray="5, 3"
+     id="circle40" />
+  <circle
+     cx="760"
+     cy="91"
+     r="10"
+     fill="none"
+     stroke="#bdc3c7"
+     stroke-width="2"
+     stroke-dasharray="5, 3"
+     id="circle41" />
+  <text
+     x="719.36169"
+     y="73.553192"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#7f8c8d"
+     style="font-style:italic"
+     id="text41">Higher stages...</text>
+  <!-- Nested circles to show "transcend and include" -->
+  <circle
+     cx="538"
+     cy="200"
+     r="80"
+     fill="none"
+     stroke="#27ae60"
+     stroke-width="1"
+     stroke-dasharray="3, 2"
+     opacity="0.5"
+     id="circle42" />
+  <circle
+     cx="538"
+     cy="200"
+     r="120"
+     fill="none"
+     stroke="#27ae60"
+     stroke-width="1"
+     stroke-dasharray="3, 2"
+     opacity="0.3"
+     id="circle43" />
+  <circle
+     cx="538"
+     cy="200"
+     r="160"
+     fill="none"
+     stroke="#27ae60"
+     stroke-width="1"
+     stroke-dasharray="3, 2"
+     opacity="0.2"
+     id="circle44" />
+  <!-- Arrow showing upward development -->
+  <path
+     d="M 80,806 Q 230,456 480,156"
+     stroke="#3498db"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#arrowhead)"
+     opacity="0.6"
+     id="path44" />
+  <!-- Arrow marker -->
+  <defs
+     id="defs44">
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="10"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#3498db"
+         id="polygon44" />
+    </marker>
+  </defs>
+  <!-- Development direction label -->
+  <text
+     x="-209.30367"
+     y="435.57779"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     fill="#3498db"
+     transform="rotate(-45)"
+     id="text44">Increasing Complexity</text>
+</svg>

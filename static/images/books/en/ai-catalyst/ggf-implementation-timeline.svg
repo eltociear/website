@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1000 600"
+   version="1.1"
+   id="svg53"
+   sodipodi:docname="ggf-implementation-timeline.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview53"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.41"
+     inkscape:cx="500.35461"
+     inkscape:cy="300"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg53" />
+  <defs
+     id="defs5">
+    <linearGradient
+       id="timelineGrad"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="0%">
+      <stop
+         offset="0%"
+         stop-color="#3b82f6"
+         id="stop1" />
+      <stop
+         offset="25%"
+         stop-color="#7c3aed"
+         id="stop2" />
+      <stop
+         offset="50%"
+         stop-color="#059669"
+         id="stop3" />
+      <stop
+         offset="75%"
+         stop-color="#dc2626"
+         id="stop4" />
+      <stop
+         offset="100%"
+         stop-color="#0891b2"
+         id="stop5" />
+    </linearGradient>
+    <filter
+       id="timelineShadow">
+      <feDropShadow
+         dx="1"
+         dy="1"
+         stdDeviation="2"
+         flood-color="#000"
+         flood-opacity="0.2" />
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect
+     width="1000"
+     height="600"
+     fill="#f8fafc"
+     id="rect5" />
+  <!-- Title -->
+  <text
+     x="500"
+     y="30"
+     text-anchor="middle"
+     font-size="20"
+     font-weight="bold"
+     fill="#1e293b"
+     id="text5">GGF Implementation Timeline</text>
+  <text
+     x="500"
+     y="50"
+     text-anchor="middle"
+     font-size="14"
+     fill="#64748b"
+     id="text6">Phased Rollout: From Constitutional Foundation to Visionary Governance</text>
+  <!-- Main Timeline -->
+  <line
+     x1="100"
+     y1="150"
+     x2="900"
+     y2="150"
+     stroke="url(#timelineGrad)"
+     stroke-width="6"
+     id="line6" />
+  <!-- Phase Markers -->
+  <g
+     id="phases">
+    <!-- Phase 1: 2025-2027 -->
+    <circle
+       cx="150"
+       cy="150"
+       r="12"
+       fill="#1e1b4b"
+       id="circle6" />
+    <rect
+       x="75"
+       y="180"
+       width="150"
+       height="120"
+       fill="white"
+       stroke="#1e1b4b"
+       stroke-width="2"
+       rx="10"
+       id="rect6" />
+    <text
+       x="150"
+       y="200"
+       text-anchor="middle"
+       font-size="12"
+       font-weight="bold"
+       fill="#1e1b4b"
+       id="text7">PHASE 1: 2025-2027</text>
+    <text
+       x="150"
+       y="220"
+       text-anchor="middle"
+       font-size="11"
+       font-weight="bold"
+       fill="#1e1b4b"
+       id="text8">Constitutional</text>
+    <text
+       x="150"
+       y="240"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4b5563"
+       id="text9">• Treaty negotiation</text>
+    <text
+       x="150"
+       y="255"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4b5563"
+       id="text10">• Pilot communities</text>
+    <text
+       x="150"
+       y="270"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4b5563"
+       id="text11">• Initial BAZ formation</text>
+    <text
+       x="150"
+       y="285"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4b5563"
+       id="text12">• Community tech boards</text>
+    <!-- Phase 2: 2027-2030 -->
+    <circle
+       cx="300"
+       cy="150"
+       r="12"
+       fill="#7c3aed"
+       id="circle12" />
+    <rect
+       x="225"
+       y="320"
+       width="150"
+       height="120"
+       fill="white"
+       stroke="#7c3aed"
+       stroke-width="2"
+       rx="10"
+       id="rect12" />
+    <text
+       x="300"
+       y="340"
+       text-anchor="middle"
+       font-size="12"
+       font-weight="bold"
+       fill="#7c3aed"
+       id="text13">PHASE 2: 2027-2030</text>
+    <text
+       x="300"
+       y="360"
+       text-anchor="middle"
+       font-size="11"
+       font-weight="bold"
+       fill="#7c3aed"
+       id="text14">Core OS Deployment</text>
+    <text
+       x="300"
+       y="380"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4b5563"
+       id="text15">• TGIF implementation</text>
+    <text
+       x="300"
+       y="395"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4b5563"
+       id="text16">• AUBI Layer 1 pilots</text>
+    <text
+       x="300"
+       y="410"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4b5563"
+       id="text17">• GTC establishment</text>
+    <text
+       x="300"
+       y="425"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4b5563"
+       id="text18">• Meta-governance trials</text>
+    <!-- Phase 3: 2030-2035 -->
+    <circle
+       cx="500"
+       cy="150"
+       r="12"
+       fill="#059669"
+       id="circle18" />
+    <rect
+       x="425"
+       y="180"
+       width="150"
+       height="120"
+       fill="white"
+       stroke="#059669"
+       stroke-width="2"
+       rx="10"
+       id="rect18" />
+    <text
+       x="500"
+       y="200"
+       text-anchor="middle"
+       font-size="12"
+       font-weight="bold"
+       fill="#059669"
+       id="text19">PHASE 3: 2030-2035</text>
+    <text
+       x="500"
+       y="220"
+       text-anchor="middle"
+       font-size="11"
+       font-weight="bold"
+       fill="#059669"
+       id="text20">Application Layer</text>
+    <text
+       x="500"
+       y="240"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4b5563"
+       id="text21">• Global health systems</text>
+    <text
+       x="500"
+       y="255"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4b5563"
+       id="text22">• Synoptic Protocol</text>
+    <text
+       x="500"
+       y="270"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4b5563"
+       id="text23">• Hearts  Leaves economy</text>
+    <text
+       x="500"
+       y="285"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4b5563"
+       id="text24">• Climate coordination</text>
+    <!-- Phase 4: 2035-2040 -->
+    <circle
+       cx="700"
+       cy="150"
+       r="12"
+       fill="#dc2626"
+       id="circle24" />
+    <rect
+       x="625"
+       y="320"
+       width="150"
+       height="120"
+       fill="white"
+       stroke="#dc2626"
+       stroke-width="2"
+       rx="10"
+       id="rect24" />
+    <text
+       x="700"
+       y="340"
+       text-anchor="middle"
+       font-size="12"
+       font-weight="bold"
+       fill="#dc2626"
+       id="text25">PHASE 4: 2035-2040</text>
+    <text
+       x="700"
+       y="360"
+       text-anchor="middle"
+       font-size="11"
+       font-weight="bold"
+       fill="#dc2626"
+       id="text26">Equity  Culture</text>
+    <text
+       x="700"
+       y="380"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4b5563"
+       id="text27">• Digital commons</text>
+    <text
+       x="700"
+       y="395"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4b5563"
+       id="text28">• Cultural preservation</text>
+    <text
+       x="700"
+       y="410"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4b5563"
+       id="text29">• Migration frameworks</text>
+    <text
+       x="700"
+       y="425"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4b5563"
+       id="text30">• Intersectional justice</text>
+    <!-- Phase 5: 2040+ -->
+    <circle
+       cx="850"
+       cy="150"
+       r="12"
+       fill="#0891b2"
+       id="circle30" />
+    <rect
+       x="775"
+       y="180"
+       width="150"
+       height="120"
+       fill="white"
+       stroke="#0891b2"
+       stroke-width="2"
+       rx="10"
+       id="rect30" />
+    <text
+       x="850"
+       y="200"
+       text-anchor="middle"
+       font-size="12"
+       font-weight="bold"
+       fill="#0891b2"
+       id="text31">PHASE 5: 2040+</text>
+    <text
+       x="850"
+       y="220"
+       text-anchor="middle"
+       font-size="11"
+       font-weight="bold"
+       fill="#0891b2"
+       id="text32">Visionary Systems</text>
+    <text
+       x="850"
+       y="240"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4b5563"
+       id="text33">• Planetary immune</text>
+    <text
+       x="850"
+       y="255"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4b5563"
+       id="text34">• Deep time governance</text>
+    <text
+       x="850"
+       y="270"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4b5563"
+       id="text35">• Space frameworks</text>
+    <text
+       x="850"
+       y="285"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4b5563"
+       id="text36">• Wisdom governance</text>
+  </g>
+  <!-- AI Governance Milestones -->
+  <rect
+     x="50"
+     y="480"
+     width="900"
+     height="100"
+     fill="white"
+     stroke="#ff6b35"
+     stroke-width="2"
+     rx="10"
+     id="rect36" />
+  <text
+     x="500"
+     y="505"
+     text-anchor="middle"
+     font-size="14"
+     font-weight="bold"
+     fill="#ff6b35"
+     id="text37">Key AI Governance Milestones</text>
+  <text
+     x="150"
+     y="525"
+     text-anchor="middle"
+     font-size="10"
+     fill="#374151"
+     id="text38">2025: Community</text>
+  <text
+     x="150"
+     y="538"
+     text-anchor="middle"
+     font-size="10"
+     fill="#374151"
+     id="text39">Tech Boards</text>
+  <text
+     x="150"
+     y="551"
+     text-anchor="middle"
+     font-size="10"
+     fill="#374151"
+     id="text40">First deployments</text>
+  <text
+     x="300"
+     y="525"
+     text-anchor="middle"
+     font-size="10"
+     fill="#374151"
+     id="text41">2028: TGIF</text>
+  <text
+     x="300"
+     y="538"
+     text-anchor="middle"
+     font-size="10"
+     fill="#374151"
+     id="text42">Global rollout</text>
+  <text
+     x="300"
+     y="551"
+     text-anchor="middle"
+     font-size="10"
+     fill="#374151"
+     id="text43">SCI Cycles active</text>
+  <text
+     x="500"
+     y="525"
+     text-anchor="middle"
+     font-size="10"
+     fill="#374151"
+     id="text44">2032: Synoptic</text>
+  <text
+     x="500"
+     y="538"
+     text-anchor="middle"
+     font-size="10"
+     fill="#374151"
+     id="text45">Protocol launch</text>
+  <text
+     x="500"
+     y="551"
+     text-anchor="middle"
+     font-size="10"
+     fill="#374151"
+     id="text46">Epistemic resilience</text>
+  <text
+     x="700"
+     y="525"
+     text-anchor="middle"
+     font-size="10"
+     fill="#374151"
+     id="text47">2037: Digital</text>
+  <text
+     x="700"
+     y="538"
+     text-anchor="middle"
+     font-size="10"
+     fill="#374151"
+     id="text48">Commons maturity</text>
+  <text
+     x="700"
+     y="551"
+     text-anchor="middle"
+     font-size="10"
+     fill="#374151"
+     id="text49">Global knowledge</text>
+  <text
+     x="850"
+     y="525"
+     text-anchor="middle"
+     font-size="10"
+     fill="#374151"
+     id="text50">2042: Planetary</text>
+  <text
+     x="850"
+     y="538"
+     text-anchor="middle"
+     font-size="10"
+     fill="#374151"
+     id="text51">Immune System</text>
+  <text
+     x="850"
+     y="551"
+     text-anchor="middle"
+     font-size="10"
+     fill="#374151"
+     id="text52">Existential governance</text>
+  <!-- Implementation Strategy -->
+  <text
+     x="500"
+     y="68"
+     text-anchor="middle"
+     font-size="12px"
+     fill="#6b7280"
+     id="text53">Voluntary adoption • Demonstration effects • Network scaling • Democratic legitimacy</text>
+</svg>

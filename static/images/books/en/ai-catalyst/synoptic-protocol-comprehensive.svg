@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 900 800"
+   version="1.1"
+   id="svg43"
+   sodipodi:docname="synoptic-protocol-comprehensive.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview43"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.0575"
+     inkscape:cx="449.64539"
+     inkscape:cy="400"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg43" />
+  <defs
+     id="defs2">
+    <radialGradient
+       id="centralHub"
+       cx="50%"
+       cy="50%"
+       r="50%">
+      <stop
+         offset="0%"
+         stop-color="#3b82f6"
+         stop-opacity="0.3"
+         id="stop1" />
+      <stop
+         offset="100%"
+         stop-color="#3b82f6"
+         stop-opacity="0.8"
+         id="stop2" />
+    </radialGradient>
+    <filter
+       id="pillarShadow"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feDropShadow
+         dx="2"
+         dy="2"
+         stdDeviation="2"
+         flood-color="#000"
+         flood-opacity="0.2" />
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect
+     width="900"
+     height="800"
+     fill="#f8fafc"
+     id="rect2" />
+  <!-- Title -->
+  <text
+     x="450"
+     y="30"
+     text-anchor="middle"
+     font-size="20"
+     font-weight="bold"
+     fill="#1e293b"
+     id="text2">The Synoptic Protocol</text>
+  <text
+     x="450"
+     y="50"
+     text-anchor="middle"
+     font-size="14"
+     fill="#64748b"
+     id="text3">Six Pillars of Epistemic Resilience</text>
+  <!-- Central Hub -->
+  <circle
+     cx="450"
+     cy="400"
+     r="80"
+     fill="url(#centralHub)"
+     stroke="#3b82f6"
+     stroke-width="3"
+     id="circle3" />
+  <text
+     x="450"
+     y="390"
+     text-anchor="middle"
+     font-size="14"
+     font-weight="bold"
+     fill="white"
+     id="text4">SYNOPTIC</text>
+  <text
+     x="450"
+     y="405"
+     text-anchor="middle"
+     font-size="14"
+     font-weight="bold"
+     fill="white"
+     id="text5">PROTOCOL</text>
+  <text
+     x="450"
+     y="425"
+     text-anchor="middle"
+     font-size="11"
+     fill="#dbeafe"
+     id="text6">Universal Right</text>
+  <text
+     x="450"
+     y="440"
+     text-anchor="middle"
+     font-size="11"
+     fill="#dbeafe"
+     id="text7">to Reality</text>
+  <!-- Pillar 1: Epistemic Curriculum -->
+  <g
+     id="pillar1">
+    <rect
+       x="150"
+       y="150"
+       width="140"
+       height="100"
+       fill="#10b981"
+       rx="10"
+       filter="url(#pillarShadow)"
+       id="rect7" />
+    <text
+       x="220"
+       y="175"
+       text-anchor="middle"
+       font-size="12"
+       font-weight="bold"
+       fill="white"
+       id="text8">PILLAR 1</text>
+    <text
+       x="220"
+       y="195"
+       text-anchor="middle"
+       font-size="11"
+       font-weight="bold"
+       fill="white"
+       id="text9">Epistemic</text>
+    <text
+       x="220"
+       y="210"
+       text-anchor="middle"
+       font-size="11"
+       font-weight="bold"
+       fill="white"
+       id="text10">Curriculum</text>
+    <text
+       x="220"
+       y="230"
+       text-anchor="middle"
+       font-size="10"
+       fill="#dcfce7"
+       id="text11">Critical thinking</text>
+    <text
+       x="220"
+       y="243"
+       text-anchor="middle"
+       font-size="10"
+       fill="#dcfce7"
+       id="text12">Perspectival agility</text>
+  </g>
+  <!-- Pillar 2: Epistemic Institutions -->
+  <g
+     id="pillar2">
+    <rect
+       x="610"
+       y="150"
+       width="140"
+       height="100"
+       fill="#8b5cf6"
+       rx="10"
+       filter="url(#pillarShadow)"
+       id="rect12" />
+    <text
+       x="680"
+       y="175"
+       text-anchor="middle"
+       font-size="12"
+       font-weight="bold"
+       fill="white"
+       id="text13">PILLAR 2</text>
+    <text
+       x="680"
+       y="195"
+       text-anchor="middle"
+       font-size="11"
+       font-weight="bold"
+       fill="white"
+       id="text14">Epistemic</text>
+    <text
+       x="680"
+       y="210"
+       text-anchor="middle"
+       font-size="11"
+       font-weight="bold"
+       fill="white"
+       id="text15">Institutions</text>
+    <text
+       x="680"
+       y="230"
+       text-anchor="middle"
+       font-size="10"
+       fill="#e9d5ff"
+       id="text16">Public media</text>
+    <text
+       x="680"
+       y="243"
+       text-anchor="middle"
+       font-size="10"
+       fill="#e9d5ff"
+       id="text17">Trustmark system</text>
+  </g>
+  <!-- Pillar 3: Algorithmic Governance -->
+  <g
+     id="pillar3">
+    <rect
+       x="100"
+       y="550"
+       width="140"
+       height="100"
+       fill="#f59e0b"
+       rx="10"
+       filter="url(#pillarShadow)"
+       id="rect17" />
+    <text
+       x="170"
+       y="575"
+       text-anchor="middle"
+       font-size="12"
+       font-weight="bold"
+       fill="white"
+       id="text18">PILLAR 3</text>
+    <text
+       x="170"
+       y="595"
+       text-anchor="middle"
+       font-size="11"
+       font-weight="bold"
+       fill="white"
+       id="text19">Algorithmic</text>
+    <text
+       x="170"
+       y="610"
+       text-anchor="middle"
+       font-size="11"
+       font-weight="bold"
+       fill="white"
+       id="text20">Governance</text>
+    <text
+       x="170"
+       y="630"
+       text-anchor="middle"
+       font-size="10"
+       fill="#fef3c7"
+       id="text21">Platform transparency</text>
+    <text
+       x="170"
+       y="643"
+       text-anchor="middle"
+       font-size="10"
+       fill="#fef3c7"
+       id="text22">Circuit breakers</text>
+  </g>
+  <!-- Pillar 4: Digital Public Square -->
+  <g
+     id="pillar4">
+    <rect
+       x="660"
+       y="550"
+       width="140"
+       height="100"
+       fill="#dc2626"
+       rx="10"
+       filter="url(#pillarShadow)"
+       id="rect22" />
+    <text
+       x="730"
+       y="575"
+       text-anchor="middle"
+       font-size="12"
+       font-weight="bold"
+       fill="white"
+       id="text23">PILLAR 4</text>
+    <text
+       x="730"
+       y="595"
+       text-anchor="middle"
+       font-size="11"
+       font-weight="bold"
+       fill="white"
+       id="text24">Digital Public</text>
+    <text
+       x="730"
+       y="610"
+       text-anchor="middle"
+       font-size="11"
+       font-weight="bold"
+       fill="white"
+       id="text25">Square</text>
+    <text
+       x="730"
+       y="630"
+       text-anchor="middle"
+       font-size="10"
+       fill="#fecaca"
+       id="text26">Bridging dialogues</text>
+    <text
+       x="730"
+       y="643"
+       text-anchor="middle"
+       font-size="10"
+       fill="#fecaca"
+       id="text27">Citizen assemblies</text>
+  </g>
+  <!-- Pillar 5: Epistemic Justice -->
+  <g
+     id="pillar5">
+    <rect
+       x="80"
+       y="320"
+       width="140"
+       height="100"
+       fill="#0891b2"
+       rx="10"
+       filter="url(#pillarShadow)"
+       id="rect27" />
+    <text
+       x="150"
+       y="345"
+       text-anchor="middle"
+       font-size="12"
+       font-weight="bold"
+       fill="white"
+       id="text28">PILLAR 5</text>
+    <text
+       x="150"
+       y="365"
+       text-anchor="middle"
+       font-size="11"
+       font-weight="bold"
+       fill="white"
+       id="text29">Epistemic</text>
+    <text
+       x="150"
+       y="380"
+       text-anchor="middle"
+       font-size="11"
+       font-weight="bold"
+       fill="white"
+       id="text30">Justice</text>
+    <text
+       x="150"
+       y="400"
+       text-anchor="middle"
+       font-size="10"
+       fill="#cffafe"
+       id="text31">Digital Justice</text>
+    <text
+       x="150"
+       y="413"
+       text-anchor="middle"
+       font-size="10"
+       fill="#cffafe"
+       id="text32">Tribunal</text>
+  </g>
+  <!-- Pillar 6: Crisis Response -->
+  <g
+     id="pillar6">
+    <rect
+       x="680"
+       y="320"
+       width="140"
+       height="100"
+       fill="#059669"
+       rx="10"
+       filter="url(#pillarShadow)"
+       id="rect32" />
+    <text
+       x="750"
+       y="345"
+       text-anchor="middle"
+       font-size="12"
+       font-weight="bold"
+       fill="white"
+       id="text33">PILLAR 6</text>
+    <text
+       x="750"
+       y="365"
+       text-anchor="middle"
+       font-size="11"
+       font-weight="bold"
+       fill="white"
+       id="text34">Crisis</text>
+    <text
+       x="750"
+       y="380"
+       text-anchor="middle"
+       font-size="11"
+       font-weight="bold"
+       fill="white"
+       id="text35">Response</text>
+    <text
+       x="750"
+       y="400"
+       text-anchor="middle"
+       font-size="10"
+       fill="#dcfce7"
+       id="text36">Rapid response</text>
+    <text
+       x="750"
+       y="413"
+       text-anchor="middle"
+       font-size="10"
+       fill="#dcfce7"
+       id="text37">teams</text>
+  </g>
+  <!-- Connection Lines -->
+  <line
+     x1="290"
+     y1="216"
+     x2="380"
+     y2="356"
+     id="line37"
+     style="fill:none;stroke:#6b7280;stroke-width:2" />
+  <line
+     x1="610"
+     y1="218"
+     x2="520"
+     y2="358"
+     id="line38"
+     style="fill:none;stroke:#6b7280;stroke-width:2" />
+  <line
+     x1="220"
+     y1="370"
+     x2="370"
+     y2="400"
+     id="line39"
+     style="fill:none;stroke:#6b7280;stroke-width:2" />
+  <line
+     x1="680"
+     y1="370"
+     x2="530"
+     y2="400"
+     id="line40"
+     style="fill:none;stroke:#6b7280;stroke-width:2" />
+  <line
+     x1="240"
+     y1="584"
+     x2="380"
+     y2="444"
+     id="line41"
+     style="fill:none;stroke:#6b7280;stroke-width:2" />
+  <line
+     x1="660"
+     y1="584"
+     x2="520"
+     y2="444"
+     id="line42"
+     style="fill:none;stroke:#6b7280;stroke-width:2" />
+  <!-- Threat Categories -->
+  <rect
+     x="179.12657"
+     y="100.16676"
+     width="537.96436"
+     height="39.666485"
+     fill="#fee2e2"
+     stroke="#dc2626"
+     rx="8.9660721"
+     id="rect42"
+     style="stroke-width:1.33351" />
+  <text
+     x="450"
+     y="125"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="bold"
+     fill="#dc2626"
+     id="text42">Threats: Deepfakes • Disinformation • Epistemic Warfare • AI Manipulation</text>
+  <!-- Key Outcomes -->
+  <rect
+     x="178.21307"
+     y="720.08069"
+     width="541.68262"
+     height="39.838646"
+     fill="#ecfdf5"
+     stroke="#10b981"
+     rx="6.7710328"
+     id="rect43"
+     style="stroke-width:1.16135" />
+  <text
+     x="450"
+     y="745"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="bold"
+     fill="#059669"
+     id="text43">Outcomes: Shared Reality • Democratic Deliberation • Collective Intelligence</text>
+</svg>

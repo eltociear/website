@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 600"
+   version="1.1"
+   id="svg36"
+   sodipodi:docname="four-domains-human-intelligence.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs36" />
+  <sodipodi:namedview
+     id="namedview36"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.41"
+     inkscape:cx="400.35461"
+     inkscape:cy="300"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg36" />
+  <!-- Background -->
+  <rect
+     width="800"
+     height="600"
+     fill="#f8f9fa"
+     id="rect1" />
+  <!-- Title -->
+  <text
+     x="400"
+     y="40"
+     font-family="Arial, sans-serif"
+     font-size="24"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text1">Four Domains of Human Intelligence</text>
+  <text
+     x="400"
+     y="65"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     text-anchor="middle"
+     fill="#7f8c8d"
+     id="text2">Complementary to AI • Essential for Conscious Partnership</text>
+  <!-- Central Circle for Integration -->
+  <circle
+     cx="400"
+     cy="320"
+     r="80"
+     fill="#ecf0f1"
+     stroke="#34495e"
+     stroke-width="2"
+     id="circle2" />
+  <text
+     x="400"
+     y="315"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text3">Integrated</text>
+  <text
+     x="400"
+     y="330"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text4">Human</text>
+  <text
+     x="400"
+     y="345"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text5">Consciousness</text>
+  <!-- SOMA (Top Left) - Body/Individual Exterior -->
+  <circle
+     cx="250"
+     cy="180"
+     r="90"
+     fill="#e8f5e8"
+     stroke="#27ae60"
+     stroke-width="3"
+     id="circle5" />
+  <text
+     x="250"
+     y="165"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#27ae60"
+     id="text6">SOMA</text>
+  <text
+     x="250"
+     y="180"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text7">Embodied Wisdom</text>
+  <text
+     x="250"
+     y="195"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text8">• Interoceptive Awareness</text>
+  <text
+     x="250"
+     y="208"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text9">• Nervous System Regulation</text>
+  <text
+     x="250"
+     y="221"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text10">• Environmental Sensing</text>
+  <!-- THEOS (Top Right) - Spirit/Individual Interior -->
+  <circle
+     cx="550"
+     cy="180"
+     r="90"
+     fill="#f0e8ff"
+     stroke="#8e44ad"
+     stroke-width="3"
+     id="circle10" />
+  <text
+     x="550"
+     y="165"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#8e44ad"
+     id="text11">THEOS</text>
+  <text
+     x="550"
+     y="180"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text12">Spiritual Intelligence</text>
+  <text
+     x="550"
+     y="195"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text13">• Connection to Purpose</text>
+  <text
+     x="550"
+     y="208"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text14">• Transpersonal Awareness</text>
+  <text
+     x="550"
+     y="221"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text15">• Sacred Relationship</text>
+  <!-- EROS (Bottom Left) - Heart/Collective Interior -->
+  <circle
+     cx="250"
+     cy="460"
+     r="90"
+     fill="#ffe8e8"
+     stroke="#e74c3c"
+     stroke-width="3"
+     id="circle15" />
+  <text
+     x="250"
+     y="445"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#e74c3c"
+     id="text16">EROS</text>
+  <text
+     x="250"
+     y="460"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text17">Heart Intelligence</text>
+  <text
+     x="250"
+     y="475"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text18">• Empathetic Attunement</text>
+  <text
+     x="250"
+     y="488"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text19">• Relational Wisdom</text>
+  <text
+     x="250"
+     y="501"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text20">• Heart-Centered Discernment</text>
+  <!-- PHILIA (Bottom Right) - Community/Collective Exterior -->
+  <circle
+     cx="550"
+     cy="460"
+     r="90"
+     fill="#e8f4f8"
+     stroke="#3498db"
+     stroke-width="3"
+     id="circle20" />
+  <text
+     x="550"
+     y="445"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#3498db"
+     id="text21">PHILIA</text>
+  <text
+     x="550"
+     y="460"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text22">Collaborative Wisdom</text>
+  <text
+     x="550"
+     y="475"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text23">• Council Consciousness</text>
+  <text
+     x="550"
+     y="488"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text24">• Cultural Fluency</text>
+  <text
+     x="550"
+     y="501"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text25">• Community Building</text>
+  <!-- Connection lines showing integration -->
+  <line
+     x1="330"
+     y1="240"
+     x2="360"
+     y2="280"
+     stroke="#7f8c8d"
+     stroke-width="2"
+     opacity="0.6"
+     id="line25" />
+  <line
+     x1="470"
+     y1="240"
+     x2="440"
+     y2="280"
+     stroke="#7f8c8d"
+     stroke-width="2"
+     opacity="0.6"
+     id="line26" />
+  <line
+     x1="330"
+     y1="400"
+     x2="360"
+     y2="360"
+     stroke="#7f8c8d"
+     stroke-width="2"
+     opacity="0.6"
+     id="line27" />
+  <line
+     x1="470"
+     y1="400"
+     x2="440"
+     y2="360"
+     stroke="#7f8c8d"
+     stroke-width="2"
+     opacity="0.6"
+     id="line28" />
+  <!-- AI Support Ring (showing AI as scaffolding) -->
+  <circle
+     cx="400"
+     cy="320"
+     r="150"
+     fill="none"
+     stroke="#95a5a6"
+     stroke-width="2"
+     stroke-dasharray="10,5"
+     opacity="0.7"
+     id="circle28" />
+  <text
+     x="400"
+     y="116"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     text-anchor="middle"
+     fill="#95a5a6"
+     id="text28">AI as Scaffolding Support</text>
+  <!-- Quadrant Labels -->
+  <text
+     x="110"
+     y="120"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     fill="#7f8c8d"
+     id="text29">Individual</text>
+  <text
+     x="110"
+     y="135"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     fill="#7f8c8d"
+     id="text30">Exterior</text>
+  <text
+     x="650"
+     y="120"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="#7f8c8d"
+     id="text31">Individual</text>
+  <text
+     x="650"
+     y="135"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="#7f8c8d"
+     id="text32">Interior</text>
+  <text
+     x="110"
+     y="546"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     fill="#7f8c8d"
+     id="text33">Collective</text>
+  <text
+     x="110"
+     y="559"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     fill="#7f8c8d"
+     id="text34">Interior</text>
+  <text
+     x="650"
+     y="540"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="#7f8c8d"
+     id="text35">Collective</text>
+  <text
+     x="650"
+     y="555"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="#7f8c8d"
+     id="text36">Exterior</text>
+</svg>

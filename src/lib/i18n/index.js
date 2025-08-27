@@ -105,6 +105,7 @@ const pageSpecificTranslationsMap = [
   { route: '/start-treaty', dataKey: 'startTreaty', fileName: 'startTreaty' },
   { route: '/translations', dataKey: 'translations', fileName: 'translations' },
   { route: '/overview', dataKey: 'overview', fileName: 'overview' },
+  { route: '/resources/books/ai-as-catalyst-for-cognitive-evolution', dataKey: 'booksAiCatalyst', fileName: 'booksAiCatalyst' },
   { route: '/resources/whitepapers', dataKey: 'whitepapers', fileName: 'whitepapers' },
   { route: '/resources', dataKey: 'resources', fileName: 'resources' },
   { route: '/about', dataKey: 'about', fileName: 'about' },

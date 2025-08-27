@@ -1,0 +1,109 @@
+{
+  "bookTitle": "AI as Catalyst for Cognitive Evolution",
+  "bookSubtitle": "From Fragmentation to Integration in the Age of AI",
+  "meta": {
+    "title": "AI as Catalyst for Cognitive Evolution - Complete Book",
+    "description": "A comprehensive exploration of how artificial intelligence can catalyze human cognitive evolution from fragmentation to integration."
+  },
+  "categories": {
+    "frontMatter": "Front Matter",
+    "backMatter": "Back Matter"
+  },
+  "parts": {
+    "Part I: The Cognitive Gap": "Part I: The Cognitive Gap",
+    "Part II: AI as Scaffolding for Development": "Part II: AI as Scaffolding for Development", 
+    "Part III: The Risks of Unconscious Development": "Part III: The Risks of Unconscious Development",
+    "Part IV: The Governance Imperative": "Part IV: The Governance Imperative",
+    "Part V: Scenarios for the Future": "Part V: Scenarios for the Future"
+  },
+  "sections": {
+    "dedication": "Dedication",
+    "table-of-contents": "Table of Contents",
+    "introduction": "Introduction",
+    "chapter-1": "Chapter 1: The Great Divide - Understanding Our Developmental Moment",
+    "chapter-2": "Chapter 2: The View from the Second Tier",
+    "chapter-3": "Chapter 3: The Mirror of AI - How Artificial Intelligence Reflects Our Consciousness",
+    "chapter-4": "Chapter 4: AI as Cognitive Scaffolding",
+    "chapter-5": "Chapter 5: The Great Connector - AI's Role in Bridging Knowledge Silos",
+    "chapter-6": "Chapter 6: From Information to Wisdom - AI as Learning Partner",
+    "chapter-7": "Chapter 7: The Collective Intelligence Possibility",
+    "chapter-8": "Chapter 8: The Shadow of Silicon - When AI Amplifies Our Worst Impulses",
+    "chapter-9": "Chapter 9: The Epistemic Crisis - When AI Destroys Truth",
+    "chapter-10": "Chapter 10: The Dependency Trap - When Cognitive Scaffolding Becomes a Crutch",
+    "chapter-11": "Chapter 11: The Governance Gap - Why Current Institutions Can't Handle AI",
+    "chapter-12": "Chapter 12: Digital Commons and Algorithmic Transparency",
+    "chapter-13": "Chapter 13: The Synoptic Protocol - Building Epistemic Resilience",
+    "chapter-14": "Chapter 14: Indigenous AI Sovereignty and Cultural Preservation",
+    "chapter-15": "Chapter 15: Global Governance Frameworks for Conscious AI Development",
+    "chapter-16": "Chapter 16: The Development Imperative - Growing the Consciousness to Guide AI",
+    "chapter-17": "Chapter 17: Four Scenarios for Humanity's AI Future",
+    "chapter-18": "Chapter 18: The Symbiotic Mind - Living and Thinking with AI",
+    "conclusion": "Conclusion: The Choice and the Challenge",
+    "appendix-a": "Appendix A: Glossary of Key Terms",
+    "appendix-b": "Appendix B: Visual Map of Consciousness Development and AI Integration",
+    "appendix-c": "Appendix C: Toolkit for the Symbiotic Mind",
+    "notes-and-references": "Notes and References",
+    "acknowledgments": "Acknowledgments",
+    "about": "About the Author"
+  },
+  "sectionsShort": {
+    "dedication": "Dedication",
+    "table-of-contents": "Contents",
+    "introduction": "Introduction", 
+    "chapter-1": "Ch 1: The Great Divide",
+    "chapter-2": "Ch 2: The View from Second Tier",
+    "chapter-3": "Ch 3: The Mirror of AI",
+    "chapter-4": "Ch 4: AI as Scaffolding",
+    "chapter-5": "Ch 5: The Great Connector",
+    "chapter-6": "Ch 6: Information to Wisdom",
+    "chapter-7": "Ch 7: Collective Intelligence",
+    "chapter-8": "Ch 8: The Shadow of Silicon",
+    "chapter-9": "Ch 9: The Epistemic Crisis",
+    "chapter-10": "Ch 10: The Dependency Trap",
+    "chapter-11": "Ch 11: The Governance Gap",
+    "chapter-12": "Ch 12: Digital Commons",
+    "chapter-13": "Ch 13: The Synoptic Protocol",
+    "chapter-14": "Ch 14: Indigenous AI Sovereignty",
+    "chapter-15": "Ch 15: Global Governance Frameworks",
+    "chapter-16": "Ch 16: Development Imperative",
+    "chapter-17": "Ch 17: Four Scenarios",
+    "chapter-18": "Ch 18: The Symbiotic Mind",
+    "conclusion": "Conclusion",
+    "appendix-a": "Glossary",
+    "appendix-b": "Visual Map", 
+    "appendix-c": "Toolkit",
+    "notes-and-references": "Notes & References",
+    "acknowledgments": "Acknowledgments",
+    "about": "About the Author"
+  },
+  "pdfDownload": {
+    "title": "Download Complete Book",
+    "subtitle": "PDF Format",
+    "englishOnly": "PDF available in English only"
+  },
+  "languageAvailability": {
+    "title": "Content Availability Notice",
+    "description": "This book is currently available in English only. Some sections may display in English while we work on translations.",
+    "contentStatus": "Content: English only",
+    "pdfStatus": "PDF: English only"
+  },
+  "languageFallback": {
+    "title": "Content in your language coming soon",
+    "description": "This section is currently displayed in English until translation is complete."
+  },
+  "navigation": {
+    "previousSection": "Previous",
+    "nextSection": "Next", 
+    "downloadPdf": "Download PDF"
+  },
+  "progress": {
+    "text": "Chapter {current} of {total}"
+  },
+  "loading": {
+    "text": "Loading book content..."
+  },
+  "errors": {
+    "sectionNotFound": "Section \"{section}\" not found",
+    "contentInDevelopment": "This content is still being developed."
+  }
+}

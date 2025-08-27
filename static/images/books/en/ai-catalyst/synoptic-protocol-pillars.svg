@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 600"
+   version="1.1"
+   id="svg46"
+   sodipodi:docname="synoptic-protocol-pillars.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview46"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.41"
+     inkscape:cx="400.35461"
+     inkscape:cy="300"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg46" />
+  <defs
+     id="defs14">
+    <radialGradient
+       id="centerGrad"
+       cx="50%"
+       cy="50%"
+       r="50%">
+      <stop
+         offset="0%"
+         style="stop-color:#228B22;stop-opacity:0.8"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#228B22;stop-opacity:0.3"
+         id="stop2" />
+    </radialGradient>
+    <linearGradient
+       id="pillarGrad1"
+       x1="272.09539"
+       y1="152.63397"
+       x2="351.61897"
+       y2="232.15755"
+       gradientTransform="matrix(1.3623515,0,0,0.82809603,-24.527364,-7.3965044)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#4169E1;stop-opacity:1"
+         id="stop3" />
+      <stop
+         offset="100%"
+         style="stop-color:#87CEEB;stop-opacity:1"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="pillarGrad2"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#32CD32;stop-opacity:1"
+         id="stop5" />
+      <stop
+         offset="100%"
+         style="stop-color:#90EE90;stop-opacity:1"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="pillarGrad3"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#FF6347;stop-opacity:1"
+         id="stop7" />
+      <stop
+         offset="100%"
+         style="stop-color:#FFA07A;stop-opacity:1"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       id="pillarGrad4"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#9370DB;stop-opacity:1"
+         id="stop9" />
+      <stop
+         offset="100%"
+         style="stop-color:#DDA0DD;stop-opacity:1"
+         id="stop10" />
+    </linearGradient>
+    <linearGradient
+       id="pillarGrad5"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#FF8C00;stop-opacity:1"
+         id="stop11" />
+      <stop
+         offset="100%"
+         style="stop-color:#FFB347;stop-opacity:1"
+         id="stop12" />
+    </linearGradient>
+    <linearGradient
+       id="pillarGrad6"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#DC143C;stop-opacity:1"
+         id="stop13" />
+      <stop
+         offset="100%"
+         style="stop-color:#FF69B4;stop-opacity:1"
+         id="stop14" />
+    </linearGradient>
+  </defs>
+  <!-- Title -->
+  <text
+     x="400"
+     y="30"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="20"
+     font-weight="bold"
+     fill="#2C3E50"
+     id="text14">
+    Synoptic Protocol: Six Pillars of Epistemic Resilience
+  </text>
+  <!-- Central Circle: Collective Wisdom -->
+  <circle
+     cx="400"
+     cy="300"
+     r="80"
+     fill="url(#centerGrad)"
+     stroke="#228B22"
+     stroke-width="3"
+     id="circle14" />
+  <text
+     x="400"
+     y="290"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="white"
+     id="text15">
+    COLLECTIVE
+  </text>
+  <text
+     x="400"
+     y="308"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="white"
+     id="text16">
+    WISDOM
+  </text>
+  <text
+     x="400"
+     y="325"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text17">
+    Shared Truth &amp; Understanding
+  </text>
+  <!-- Pillar 1: Epistemic Curriculum (top) -->
+  <rect
+     x="347.22437"
+     y="120.06123"
+     width="106.21478"
+     height="63.728863"
+     fill="url(#pillarGrad1)"
+     rx="8.4971819"
+     stroke="#4169e1"
+     stroke-width="2.05381"
+     id="rect17"
+     style="fill:url(#pillarGrad1)" />
+  <text
+     x="400"
+     y="140"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="white"
+     id="text18">
+    PILLAR 1
+  </text>
+  <text
+     x="400"
+     y="155"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text19">
+    Epistemic Curriculum
+  </text>
+  <text
+     x="400"
+     y="168"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="white"
+     id="text20">
+    Critical Thinking Education
+  </text>
+  <!-- Pillar 2: Epistemic Institutions (top-right) -->
+  <rect
+     x="520"
+     y="180"
+     width="100"
+     height="60"
+     fill="url(#pillarGrad2)"
+     rx="8"
+     stroke="#32CD32"
+     stroke-width="2"
+     id="rect20" />
+  <text
+     x="570"
+     y="200"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="white"
+     id="text21">
+    PILLAR 2
+  </text>
+  <text
+     x="570"
+     y="215"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text22">
+    Epistemic Institutions
+  </text>
+  <text
+     x="570"
+     y="228"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="white"
+     id="text23">
+    Public Good Media
+  </text>
+  <!-- Pillar 3: Platform Governance (bottom-right) -->
+  <rect
+     x="520"
+     y="360"
+     width="100"
+     height="60"
+     fill="url(#pillarGrad3)"
+     rx="8"
+     stroke="#FF6347"
+     stroke-width="2"
+     id="rect23" />
+  <text
+     x="570"
+     y="380"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="white"
+     id="text24">
+    PILLAR 3
+  </text>
+  <text
+     x="570"
+     y="395"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text25">
+    Platform Governance
+  </text>
+  <text
+     x="570"
+     y="408"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="white"
+     id="text26">
+    Algorithm Transparency
+  </text>
+  <!-- Pillar 4: Digital Public Square (bottom) -->
+  <rect
+     x="350"
+     y="420"
+     width="100"
+     height="60"
+     fill="url(#pillarGrad4)"
+     rx="8"
+     stroke="#9370DB"
+     stroke-width="2"
+     id="rect26" />
+  <text
+     x="400"
+     y="440"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="white"
+     id="text27">
+    PILLAR 4
+  </text>
+  <text
+     x="400"
+     y="455"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text28">
+    Digital Public Square
+  </text>
+  <text
+     x="400"
+     y="468"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="white"
+     id="text29">
+    Bridging Dialogues
+  </text>
+  <!-- Pillar 5: Epistemic Justice (bottom-left) -->
+  <rect
+     x="180"
+     y="360"
+     width="100"
+     height="60"
+     fill="url(#pillarGrad5)"
+     rx="8"
+     stroke="#FF8C00"
+     stroke-width="2"
+     id="rect29" />
+  <text
+     x="230"
+     y="380"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="white"
+     id="text30">
+    PILLAR 5
+  </text>
+  <text
+     x="230"
+     y="395"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text31">
+    Epistemic Justice
+  </text>
+  <text
+     x="230"
+     y="408"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="white"
+     id="text32">
+    Accountability &amp; Repair
+  </text>
+  <!-- Pillar 6: Crisis Response (top-left) -->
+  <rect
+     x="180"
+     y="180"
+     width="100"
+     height="60"
+     fill="url(#pillarGrad6)"
+     rx="8"
+     stroke="#DC143C"
+     stroke-width="2"
+     id="rect32" />
+  <text
+     x="230"
+     y="200"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="white"
+     id="text33">
+    PILLAR 6
+  </text>
+  <text
+     x="230"
+     y="215"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text34">
+    Crisis Response
+  </text>
+  <text
+     x="230"
+     y="228"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="white"
+     id="text35">
+    Rapid Response Teams
+  </text>
+  <!-- Connecting lines from pillars to center -->
+  <path
+     d="M 400 220 L 400 220"
+     stroke="#228B22"
+     stroke-width="2"
+     id="path35" />
+  <path
+     d="M 520 240 L 460 260"
+     stroke="#228B22"
+     stroke-width="2"
+     id="path36" />
+  <path
+     d="M 520 360 L 460 340"
+     stroke="#228B22"
+     stroke-width="2"
+     id="path37" />
+  <path
+     d="M 400 420 L 400 380"
+     stroke="#228B22"
+     stroke-width="2"
+     id="path38" />
+  <path
+     d="M 280 360 L 340 340"
+     stroke="#228B22"
+     stroke-width="2"
+     id="path39" />
+  <path
+     d="M 280 240 L 340 260"
+     stroke="#228B22"
+     stroke-width="2"
+     id="path40" />
+  <!-- Flowing connections between pillars -->
+  <path
+     d="m 451.41844,118.79433 q 100,0 120,60"
+     fill="none"
+     stroke="#228b22"
+     stroke-width="1"
+     opacity="0.6"
+     id="path41" />
+  <path
+     d="M 620 240 Q 650 300 620 360"
+     fill="none"
+     stroke="#228B22"
+     stroke-width="1"
+     opacity="0.6"
+     id="path42" />
+  <path
+     d="m 616.44018,423.82321 q -36.25254,43.42525 -165.72897,55.08091"
+     fill="none"
+     stroke="#228b22"
+     stroke-width="1"
+     opacity="0.6"
+     id="path43" />
+  <path
+     d="M 345.90274,478.94676 Q 213.10285,508.34388 199.69492,423.96243"
+     fill="none"
+     stroke="#228b22"
+     stroke-width="1"
+     opacity="0.6"
+     id="path44" />
+  <path
+     d="M 195.66837,348.27065 Q 134.7443,289.20918 194.11621,248.2827"
+     fill="none"
+     stroke="#228b22"
+     stroke-width="1"
+     opacity="0.6"
+     id="path45" />
+  <path
+     d="m 275.74468,174.32624 q 40,-60 70,-30"
+     fill="none"
+     stroke="#228b22"
+     stroke-width="1"
+     opacity="0.6"
+     id="path46" />
+  <!-- Bottom text -->
+  <text
+     x="400"
+     y="560"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-style="italic"
+     fill="#2C3E50"
+     id="text46">
+    Truth emerges through rigorous dialogue between perspectives
+  </text>
+</svg>

@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 600"
+   version="1.1"
+   id="svg33"
+   sodipodi:docname="layers-of-the-alignment-problem.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview33"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.41"
+     inkscape:cx="308.15603"
+     inkscape:cy="274.46809"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg33" />
+  <defs
+     id="defs8">
+    <!-- Gradients for each layer -->
+    <radialGradient
+       id="outerGradient"
+       cx="50%"
+       cy="50%"
+       r="50%">
+      <stop
+         offset="0%"
+         style="stop-color:#FF6B6B;stop-opacity:0.3"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#E53E3E;stop-opacity:0.8"
+         id="stop2" />
+    </radialGradient>
+    <radialGradient
+       id="innerGradient"
+       cx="50%"
+       cy="50%"
+       r="50%">
+      <stop
+         offset="0%"
+         style="stop-color:#4ECDC4;stop-opacity:0.3"
+         id="stop3" />
+      <stop
+         offset="100%"
+         style="stop-color:#2C7A7B;stop-opacity:0.8"
+         id="stop4" />
+    </radialGradient>
+    <radialGradient
+       id="valueGradient"
+       cx="50%"
+       cy="50%"
+       r="50%">
+      <stop
+         offset="0%"
+         style="stop-color:#45B7D1;stop-opacity:0.3"
+         id="stop5" />
+      <stop
+         offset="100%"
+         style="stop-color:#2B6CB0;stop-opacity:0.8"
+         id="stop6" />
+    </radialGradient>
+    <radialGradient
+       id="coreGradient"
+       cx="400"
+       cy="320"
+       r="51.499999"
+       fx="400"
+       fy="320"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,4)">
+      <stop
+         offset="0%"
+         style="stop-color:#F6AD55;stop-opacity:0.4"
+         id="stop7" />
+      <stop
+         offset="100%"
+         style="stop-color:#C05621;stop-opacity:1"
+         id="stop8" />
+    </radialGradient>
+    <!-- Drop shadow filter -->
+    <filter
+       id="dropShadow"
+       x="-0.015"
+       y="-0.015"
+       width="1.03"
+       height="1.03">
+      <feDropShadow
+         dx="3"
+         dy="3"
+         stdDeviation="4"
+         flood-color="#666"
+         flood-opacity="0.4" />
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect
+     width="800"
+     height="600"
+     fill="#f8f9fa"
+     id="rect8" />
+  <!-- Title -->
+  <text
+     x="400"
+     y="40"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="24"
+     font-weight="bold"
+     fill="#2c3e50"
+     id="text8">
+    The Layers of the Alignment Problem
+  </text>
+  <!-- Outer Layer: Outer Misalignment -->
+  <circle
+     cx="400"
+     cy="320"
+     r="200"
+     fill="url(#outerGradient)"
+     stroke="#E53E3E"
+     stroke-width="3"
+     filter="url(#dropShadow)"
+     id="circle9" />
+  <circle
+     cx="400"
+     cy="320"
+     r="150"
+     fill="url(#innerGradient)"
+     stroke="#2C7A7B"
+     stroke-width="3"
+     filter="url(#dropShadow)"
+     id="circle13" />
+  <!-- Next Layer: Inner Misalignment -->
+  <!-- Deeper Layer: Value Alignment -->
+  <circle
+     cx="400"
+     cy="320"
+     r="100"
+     fill="url(#valueGradient)"
+     stroke="#2B6CB0"
+     stroke-width="3"
+     filter="url(#dropShadow)"
+     id="circle17" />
+  <!-- Core: Consciousness Alignment -->
+  <circle
+     cx="400"
+     cy="324"
+     r="50"
+     fill="url(#coreGradient)"
+     stroke="#c05621"
+     stroke-width="3"
+     filter="url(#dropShadow)"
+     id="circle21"
+     style="fill:url(#coreGradient)" />
+  <!-- Core question and example positioned below -->
+  <!-- Arrows pointing to each specific layer -->
+  <path
+     d="m 100,150 c 44.68085,10.07092 108.93617,36.24113 128.93617,62.9078"
+     stroke="#666666"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#arrowGray)"
+     opacity="0.7"
+     id="path26"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="80"
+     y="145"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="#E53E3E"
+     id="text27">SURFACE</text>
+  <path
+     d="m 100,220 c 38.29787,6.24113 120.56738,37.0922 158.15603,52.83688"
+     stroke="#666666"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#arrowGray)"
+     opacity="0.7"
+     id="path27"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="75"
+     y="215"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="#2C7A7B"
+     id="text28">TECHNICAL</text>
+  <path
+     d="m 100,290 197.87234,27.23404"
+     stroke="#666666"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#arrowGray)"
+     opacity="0.7"
+     id="path28"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="65"
+     y="285"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="#2B6CB0"
+     id="text29">PHILOSOPHICAL</text>
+  <path
+     d="M 100,360 354.60993,347.0922"
+     stroke="#666666"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#arrowGray)"
+     opacity="0.7"
+     id="path29"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="400"
+     y="65"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     fill="#7f8c8d"
+     id="text9">
+    From Surface Symptoms to Root Consciousness
+  </text>
+  <text
+     x="400"
+     y="116"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     font-weight="bold"
+     fill="#ffffff"
+     stroke="#c53030"
+     stroke-width="1"
+     id="text10">OUTER MISALIGNMENT</text>
+  <text
+     x="400"
+     y="136"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     fill="#ffffff"
+     stroke="#c53030"
+     stroke-width="0.5"
+     id="text11">(Behavior)</text>
+  <text
+     x="400"
+     y="151"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     fill="#1a202c"
+     font-weight="bold"
+     id="text12">Does the AI do what we tell it to do?</text>
+  <text
+     x="400"
+     y="171"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     fill="#2d3748"
+     style="font-style:italic"
+     font-weight="bold"
+     id="text13">Example: The Vase Problem</text>
+  <text
+     x="400"
+     y="188"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     font-weight="bold"
+     fill="#ffffff"
+     stroke="#2c7a7b"
+     stroke-width="1"
+     id="text14">INNER MISALIGNMENT</text>
+  <text
+     x="400"
+     y="208"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     fill="#ffffff"
+     stroke="#2c7a7b"
+     stroke-width="0.5"
+     id="text15">(Goals)</text>
+  <text
+     x="400"
+     y="223"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     fill="#1a202c"
+     font-weight="bold"
+     id="text16">Does the AI want what we told it to want?</text>
+  <text
+     x="400"
+     y="243"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     fill="#2d3748"
+     style="font-style:italic"
+     font-weight="bold"
+     id="text17">Example: Mesa-Optimizer Problem</text>
+  <text
+     x="400"
+     y="258"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     font-weight="bold"
+     fill="#ffffff"
+     stroke="#2b6cb0"
+     stroke-width="1"
+     id="text18">VALUE ALIGNMENT</text>
+  <text
+     x="400"
+     y="274"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     fill="#ffffff"
+     stroke="#2b6cb0"
+     stroke-width="0.5"
+     id="text19">(Humanity)</text>
+  <text
+     x="400"
+     y="291"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     fill="#1a202c"
+     font-weight="bold"
+     id="text20">Do we truly know what we want?</text>
+  <text
+     x="400"
+     y="311"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     fill="#2d3748"
+     style="font-style:italic"
+     font-weight="bold"
+     id="text21">Example: Value Learning Challenge</text>
+  <text
+     x="400"
+     y="329"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     fill="#ffffff"
+     stroke="#c05621"
+     stroke-width="0.5"
+     id="text22">CONSCIOUSNESS</text>
+  <text
+     x="400"
+     y="344"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     fill="#ffffff"
+     stroke="#c05621"
+     stroke-width="0.5"
+     id="text23">ALIGNMENT</text>
+  <text
+     x="400"
+     y="359"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     fill="#ffffff"
+     stroke="#c05621"
+     stroke-width="0.5"
+     id="text24">(Integration)</text>
+  <text
+     x="400"
+     y="378"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     fill="#2c3e50"
+     font-weight="bold"
+     id="text25">Are our values integrated and worthy of being amplified?</text>
+  <text
+     x="400"
+     y="392"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     fill="#666666"
+     style="font-style:italic"
+     id="text26">Example: First Tier Alignment Problem</text>
+  <text
+     x="85"
+     y="355"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="#C05621"
+     id="text30">ROOT</text>
+  <!-- Arrow marker -->
+  <defs
+     id="defs30">
+    <marker
+       id="arrowGray"
+       markerWidth="8"
+       markerHeight="6"
+       refX="8"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0, 8 3, 0 6"
+         fill="#666"
+         id="polygon30" />
+    </marker>
+  </defs>
+  <!-- Bottom insight -->
+  <rect
+     x="150"
+     y="480"
+     width="500"
+     height="80"
+     fill="#E8F5E8"
+     stroke="#4CAF50"
+     stroke-width="2"
+     rx="10"
+     filter="url(#dropShadow)"
+     id="rect30" />
+  <text
+     x="400"
+     y="505"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="#2E7D32"
+     id="text31">
+    KEY INSIGHT: The Ghost in the Machine
+  </text>
+  <text
+     x="400"
+     y="525"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="#2c3e50"
+     id="text32">
+    Each layer reflects deeper questions about human consciousness and values.
+  </text>
+  <text
+     x="400"
+     y="545"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="#2c3e50"
+     id="text33">
+    True AI alignment may require first aligning ourselves.
+  </text>
+</svg>

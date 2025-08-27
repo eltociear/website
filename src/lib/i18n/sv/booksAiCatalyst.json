@@ -1,0 +1,109 @@
+{
+  "bookTitle": "AI som katalysator för kognitiv evolution",
+  "bookSubtitle": "Från fragmentering till integration i AI-åldern",
+  "meta": {
+    "title": "AI som katalysator för kognitiv evolution - Hela boken",
+    "description": "En omfattande utforskning av hur artificiell intelligens kan katalysera mänsklig kognitiv evolution från fragmentering till integration."
+  },
+  "categories": {
+    "frontMatter": "Inledande sidor",
+    "backMatter": "Avslutande sidor"
+  },
+  "parts": {
+    "Part I: The Cognitive Gap": "Del I: Den kognitiva klyftan",
+    "Part II: AI as Scaffolding for Development": "Del II: AI som stöttning för utveckling",
+    "Part III: The Risks of Unconscious Development": "Del III: Riskerna med omedveten utveckling",
+    "Part IV: The Governance Imperative": "Del IV: Styrningsimperativet",
+    "Part V: Scenarios for the Future": "Del V: Scenarier för framtiden"
+  },
+  "sections": {
+    "dedication": "Dedikation",
+    "table-of-contents": "Innehållsförteckning",
+    "introduction": "Introduktion",
+    "chapter-1": "Kapitel 1: Den stora klyftan - Att förstå vårt utvecklingsmässiga ögonblick",
+    "chapter-2": "Kapitel 2: Utsikten från den andra nivån",
+    "chapter-3": "Kapitel 3: AI:s spegel - Hur artificiell intelligens återspeglar vårt medvetande",
+    "chapter-4": "Kapitel 4: AI som kognitiv stöttning",
+    "chapter-5": "Kapitel 5: Den stora sammanlänkaren - AI:s roll i att överbrygga kunskapssilor",
+    "chapter-6": "Kapitel 6: Från information till visdom - AI som lärandepartner",
+    "chapter-7": "Kapitel 7: Möjligheten med kollektiv intelligens",
+    "chapter-8": "Kapitel 8: Kiselns skugga - När AI förstärker våra värsta impulser",
+    "chapter-9": "Kapitel 9: Den epistemiska krisen - När AI förstör sanning",
+    "chapter-10": "Kapitel 10: Beroendefällan - När kognitiv stöttning blir en krycka",
+    "chapter-11": "Kapitel 11: Styrningsklyftan - Varför nuvarande institutioner inte kan hantera AI",
+    "chapter-12": "Kapitel 12: Digitala allmänningar och algoritmisk transparens",
+    "chapter-13": "Kapitel 13: Synoptic Protocol - Att bygga epistemisk resiliens",
+    "chapter-14": "Kapitel 14: Urfolks AI-suveränitet och kulturellt bevarande",
+    "chapter-15": "Kapitel 15: Globala styrningsramverk för medveten AI-utveckling",
+    "chapter-16": "Kapitel 16: Utvecklingsimperativet - Att odla medvetandet för att vägleda AI",
+    "chapter-17": "Kapitel 17: Fyra scenarier för mänsklighetens AI-framtid",
+    "chapter-18": "Kapitel 18: Det symbiotiska sinnet - Att leva och tänka med AI",
+    "conclusion": "Slutsats: Valet och utmaningen",
+    "appendix-a": "Appendix A: Ordlista med nyckeltermer",
+    "appendix-b": "Appendix B: Visuell karta över medvetenhetsutveckling och AI-integration",
+    "appendix-c": "Appendix C: Verktygslåda för det symbiotiska sinnet",
+    "notes-and-references": "Noter och referenser",
+    "acknowledgments": "Tack",
+    "about": "Om författaren"
+  },
+  "sectionsShort": {
+    "dedication": "Dedikation",
+    "table-of-contents": "Innehåll",
+    "introduction": "Introduktion",
+    "chapter-1": "Kap 1: Den stora klyftan",
+    "chapter-2": "Kap 2: Utsikten från andra nivån",
+    "chapter-3": "Kap 3: AI:s spegel",
+    "chapter-4": "Kap 4: AI som stöttning",
+    "chapter-5": "Kap 5: Den stora sammanlänkaren",
+    "chapter-6": "Kap 6: Information till visdom",
+    "chapter-7": "Kap 7: Kollektiv intelligens",
+    "chapter-8": "Kap 8: Kiselns skugga",
+    "chapter-9": "Kap 9: Den epistemiska krisen",
+    "chapter-10": "Kap 10: Beroendefällan",
+    "chapter-11": "Kap 11: Styrningsklyftan",
+    "chapter-12": "Kap 12: Digitala allmänningar",
+    "chapter-13": "Kap 13: Synoptic Protocol",
+    "chapter-14": "Kap 14: Urfolks AI-suveränitet",
+    "chapter-15": "Kap 15: Globala styrningsramverk",
+    "chapter-16": "Kap 16: Utvecklingsimperativet",
+    "chapter-17": "Kap 17: Fyra scenarier",
+    "chapter-18": "Kap 18: Det symbiotiska sinnet",
+    "conclusion": "Slutsats",
+    "appendix-a": "Ordlista",
+    "appendix-b": "Visuell karta",
+    "appendix-c": "Verktygslåda",
+    "notes-and-references": "Noter & referenser",
+    "acknowledgments": "Tack",
+    "about": "Om författaren"
+  },
+  "pdfDownload": {
+    "title": "Ladda ner hela boken",
+    "subtitle": "PDF-format",
+    "englishOnly": "PDF endast tillgänglig på engelska"
+  },
+  "languageAvailability": {
+    "title": "Meddelande om innehållets tillgänglighet",
+    "description": "Denna bok är för närvarande endast tillgänglig på engelska. Vissa avsnitt kan visas på engelska medan vi arbetar med översättningar.",
+    "contentStatus": "Innehåll: Endast engelska",
+    "pdfStatus": "PDF: Endast engelska"
+  },
+  "languageFallback": {
+    "title": "Innehåll på ditt språk kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+  },
+  "navigation": {
+    "previousSection": "Föregående",
+    "nextSection": "Nästa",
+    "downloadPdf": "Ladda ner PDF"
+  },
+  "progress": {
+    "text": "Kapitel {current} av {total}"
+  },
+  "loading": {
+    "text": "Laddar bokinnehåll..."
+  },
+  "errors": {
+    "sectionNotFound": "Avsnittet \"{section}\" hittades inte",
+    "contentInDevelopment": "Detta innehåll är fortfarande under utveckling."
+  }
+}

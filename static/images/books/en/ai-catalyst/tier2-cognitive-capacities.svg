@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 600"
+   version="1.1"
+   id="svg45"
+   sodipodi:docname="tier2-cognitive-capacities.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview45"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.41"
+     inkscape:cx="400.35461"
+     inkscape:cy="300"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg45" />
+  <defs
+     id="defs12">
+    <radialGradient
+       id="centerGrad"
+       cx="50%"
+       cy="50%"
+       r="50%">
+      <stop
+         offset="0%"
+         style="stop-color:#4682B4;stop-opacity:0.8"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#4682B4;stop-opacity:0.3"
+         id="stop2" />
+    </radialGradient>
+    <linearGradient
+       id="capacityGrad1"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#32CD32;stop-opacity:1"
+         id="stop3" />
+      <stop
+         offset="100%"
+         style="stop-color:#90EE90;stop-opacity:1"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="capacityGrad2"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#FF6347;stop-opacity:1"
+         id="stop5" />
+      <stop
+         offset="100%"
+         style="stop-color:#FFA07A;stop-opacity:1"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="capacityGrad3"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#9370DB;stop-opacity:1"
+         id="stop7" />
+      <stop
+         offset="100%"
+         style="stop-color:#DDA0DD;stop-opacity:1"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       id="capacityGrad4"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#FF8C00;stop-opacity:1"
+         id="stop9" />
+      <stop
+         offset="100%"
+         style="stop-color:#FFB347;stop-opacity:1"
+         id="stop10" />
+    </linearGradient>
+    <linearGradient
+       id="capacityGrad5"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#20B2AA;stop-opacity:1"
+         id="stop11" />
+      <stop
+         offset="100%"
+         style="stop-color:#48D1CC;stop-opacity:1"
+         id="stop12" />
+    </linearGradient>
+  </defs>
+  <!-- Title -->
+  <text
+     x="400"
+     y="30"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="20"
+     font-weight="bold"
+     fill="#2C3E50"
+     id="text12">
+    Tier 2 Cognitive Capacities for AI Partnership
+  </text>
+  <!-- Central Circle: Integral Consciousness -->
+  <circle
+     cx="400"
+     cy="300"
+     r="70"
+     fill="url(#centerGrad)"
+     stroke="#4682B4"
+     stroke-width="3"
+     id="circle12" />
+  <text
+     x="400"
+     y="290"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="white"
+     id="text13">
+    INTEGRAL
+  </text>
+  <text
+     x="400"
+     y="308"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="white"
+     id="text14">
+    CONSCIOUSNESS
+  </text>
+  <text
+     x="400"
+     y="325"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text15">
+    Tier 2 Thinking
+  </text>
+  <!-- Systems Thinking (top) -->
+  <ellipse
+     cx="400"
+     cy="150"
+     rx="90"
+     ry="45"
+     fill="url(#capacityGrad1)"
+     stroke="#32CD32"
+     stroke-width="2"
+     id="ellipse15" />
+  <text
+     x="400"
+     y="140"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="white"
+     id="text16">
+    SYSTEMS THINKING
+  </text>
+  <text
+     x="400"
+     y="155"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="white"
+     id="text17">
+    Patterns &amp; Relationships
+  </text>
+  <text
+     x="400"
+     y="168"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="white"
+     id="text18">
+    Feedback Loops &amp; Emergence
+  </text>
+  <!-- Perspective-Taking (top-right) -->
+  <ellipse
+     cx="580"
+     cy="220"
+     rx="90"
+     ry="45"
+     fill="url(#capacityGrad2)"
+     stroke="#FF6347"
+     stroke-width="2"
+     id="ellipse18" />
+  <text
+     x="580"
+     y="210"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="white"
+     id="text19">
+    PERSPECTIVE-TAKING
+  </text>
+  <text
+     x="580"
+     y="225"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="white"
+     id="text20">
+    Multiple Worldviews
+  </text>
+  <text
+     x="580"
+     y="238"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="white"
+     id="text21">
+    Empathetic Understanding
+  </text>
+  <!-- Meta-Cognitive Awareness (bottom-right) -->
+  <ellipse
+     cx="580"
+     cy="380"
+     rx="90"
+     ry="45"
+     fill="url(#capacityGrad3)"
+     stroke="#9370DB"
+     stroke-width="2"
+     id="ellipse21" />
+  <text
+     x="580"
+     y="370"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="white"
+     id="text22">
+    META-COGNITIVE
+  </text>
+  <text
+     x="580"
+     y="385"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="white"
+     id="text23">
+    AWARENESS
+  </text>
+  <text
+     x="580"
+     y="398"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="white"
+     id="text24">
+    Thinking About Thinking
+  </text>
+  <!-- Collaborative Intelligence (bottom-left) -->
+  <ellipse
+     cx="220"
+     cy="380"
+     rx="90"
+     ry="45"
+     fill="url(#capacityGrad4)"
+     stroke="#FF8C00"
+     stroke-width="2"
+     id="ellipse24" />
+  <text
+     x="220"
+     y="370"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="white"
+     id="text25">
+    COLLABORATIVE
+  </text>
+  <text
+     x="220"
+     y="385"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="white"
+     id="text26">
+    INTELLIGENCE
+  </text>
+  <text
+     x="220"
+     y="398"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="white"
+     id="text27">
+    Thinking Together
+  </text>
+  <!-- Paradox Integration (top-left) -->
+  <ellipse
+     cx="220"
+     cy="220"
+     rx="90"
+     ry="45"
+     fill="url(#capacityGrad5)"
+     stroke="#20B2AA"
+     stroke-width="2"
+     id="ellipse27" />
+  <text
+     x="220"
+     y="210"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="white"
+     id="text28">
+    PARADOX
+  </text>
+  <text
+     x="220"
+     y="225"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="white"
+     id="text29">
+    INTEGRATION
+  </text>
+  <text
+     x="220"
+     y="238"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="white"
+     id="text30">
+    Both-And Thinking
+  </text>
+  <!-- Connecting spirals between capacities -->
+  <path
+     d="m 471.38921,122.197 q 100.61924,0.87677 124.76692,52.51871"
+     fill="none"
+     stroke="#4682b4"
+     stroke-width="2"
+     opacity="0.7"
+     id="path30" />
+  <path
+     d="m 651.24113,249.29078 q 25,50 0,100"
+     fill="none"
+     stroke="#4682b4"
+     stroke-width="2"
+     opacity="0.7"
+     id="path31" />
+  <path
+     d="m 513.01418,411.4539 q -85,35 -225,0"
+     fill="none"
+     stroke="#4682b4"
+     stroke-width="2"
+     opacity="0.7"
+     id="path32" />
+  <path
+     d="m 150.88652,350 q -54.999995,-50 0,-100"
+     fill="none"
+     stroke="#4682b4"
+     stroke-width="2"
+     opacity="0.7"
+     id="path33" />
+  <path
+     d="m 239.19665,174.99477 q 12.91371,-47.78322 78.03891,-44.83223"
+     fill="none"
+     stroke="#4682b4"
+     stroke-width="2"
+     opacity="0.7"
+     id="path34" />
+  <!-- Arrows showing flow toward center -->
+  <defs
+     id="defs34">
+    <marker
+       id="arrow"
+       markerWidth="8"
+       markerHeight="6"
+       refX="7"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0, 8 3, 0 6"
+         fill="#4682B4"
+         opacity="0.8"
+         id="polygon34" />
+    </marker>
+  </defs>
+  <path
+     d="M 400 195 L 400 230"
+     fill="none"
+     stroke="#4682B4"
+     stroke-width="2"
+     marker-end="url(#arrow)"
+     id="path35" />
+  <path
+     d="m 532.16312,258.51064 -65,20"
+     fill="none"
+     stroke="#4682b4"
+     stroke-width="2"
+     marker-end="url(#arrow)"
+     id="path36" />
+  <path
+     d="m 534.29078,341.48936 -65,-20"
+     fill="none"
+     stroke="#4682b4"
+     stroke-width="2"
+     marker-end="url(#arrow)"
+     id="path37" />
+  <path
+     d="m 264.29078,340.78014 65,-20"
+     fill="none"
+     stroke="#4682b4"
+     stroke-width="2"
+     marker-end="url(#arrow)"
+     id="path39" />
+  <path
+     d="m 265,259.92908 65,20"
+     fill="none"
+     stroke="#4682b4"
+     stroke-width="2"
+     marker-end="url(#arrow)"
+     id="path40" />
+  <!-- Sample prompts around the edges -->
+  <text
+     x="100"
+     y="120"
+     font-family="Arial, sans-serif"
+     font-size="8"
+     fill="#2C3E50"
+     id="text40">
+    &quot;Map the feedback loops in...&quot;
+  </text>
+  <text
+     x="650"
+     y="140"
+     font-family="Arial, sans-serif"
+     font-size="8"
+     fill="#2C3E50"
+     id="text41">
+    &quot;Steel-man the strongest...&quot;
+  </text>
+  <text
+     x="680"
+     y="480"
+     font-family="Arial, sans-serif"
+     font-size="8"
+     fill="#2C3E50"
+     id="text42">
+    &quot;What biases might affect...&quot;
+  </text>
+  <text
+     x="50"
+     y="480"
+     font-family="Arial, sans-serif"
+     font-size="8"
+     fill="#2C3E50"
+     id="text43">
+    &quot;How can we think together...&quot;
+  </text>
+  <text
+     x="80"
+     y="140"
+     font-family="Arial, sans-serif"
+     font-size="8"
+     fill="#2C3E50"
+     id="text44">
+    &quot;How might X and Y both be true...&quot;
+  </text>
+  <!-- Bottom tagline -->
+  <text
+     x="400"
+     y="550"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-style="italic"
+     fill="#2C3E50"
+     id="text45">
+    &quot;Each capacity reinforces the others in a spiral of growing wisdom&quot;
+  </text>
+</svg>

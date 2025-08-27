@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 900 700"
+   version="1.1"
+   id="svg51"
+   sodipodi:docname="climate-change.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview51"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.2085714"
+     inkscape:cx="449.70449"
+     inkscape:cy="350"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg51" />
+  <defs
+     id="defs3">
+    <!-- Gradient for central circle -->
+    <radialGradient
+       id="aiGradient"
+       cx="50%"
+       cy="50%"
+       r="50%">
+      <stop
+         offset="0%"
+         style="stop-color:#4CAF50;stop-opacity:0.3"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#2E7D32;stop-opacity:0.8"
+         id="stop2" />
+    </radialGradient>
+    <!-- Drop shadow filter -->
+    <filter
+       id="dropShadow"
+       x="-0.0075"
+       y="-0.0075"
+       width="1.015"
+       height="1.015">
+      <feDropShadow
+         dx="2"
+         dy="2"
+         stdDeviation="3"
+         flood-color="#666"
+         flood-opacity="0.3" />
+    </filter>
+    <!-- Arrow markers -->
+    <defs
+       id="defs2">
+      <marker
+         id="arrowhead"
+         markerWidth="10"
+         markerHeight="7"
+         refX="10"
+         refY="3.5"
+         orient="auto">
+        <polygon
+           points="0 0, 10 3.5, 0 7"
+           fill="#4CAF50"
+           id="polygon2" />
+      </marker>
+    </defs>
+  </defs>
+  <!-- Background -->
+  <rect
+     width="900"
+     height="700"
+     fill="#f8f9fa"
+     id="rect3" />
+  <!-- Title -->
+  <text
+     x="450"
+     y="35"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="22"
+     font-weight="bold"
+     fill="#2c3e50"
+     id="text3">
+    Climate Change: From Fragmented Perspectives to Integrated Solutions
+  </text>
+  <!-- RED Quadrant (Top Left) -->
+  <rect
+     x="50"
+     y="80"
+     width="300"
+     height="200"
+     fill="#FF0000"
+     opacity="0.1"
+     stroke="#FF0000"
+     stroke-width="2"
+     rx="10"
+     filter="url(#dropShadow)"
+     id="rect4" />
+  <text
+     x="200"
+     y="105"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     fill="#CC0000"
+     id="text4">
+    RED: Power &amp; Autonomy
+  </text>
+  <!-- RED Insight -->
+  <text
+     x="60"
+     y="130"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="#2c3e50"
+     id="text5">Insight:</text>
+  <text
+     x="60"
+     y="145"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#2c3e50"
+     id="text6">• Solutions must address immediate</text>
+  <text
+     x="60"
+     y="158"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#2c3e50"
+     id="text7">  economic interests</text>
+  <text
+     x="60"
+     y="171"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#2c3e50"
+     id="text8">• Preserve meaningful autonomy</text>
+  <text
+     x="60"
+     y="184"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#2c3e50"
+     id="text9">• Entrepreneurial opportunities</text>
+  <!-- RED Limitation -->
+  <text
+     x="60"
+     y="210"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="#e74c3c"
+     id="text10">Limitation:</text>
+  <text
+     x="60"
+     y="225"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#2c3e50"
+     id="text11">Difficulty seeing beyond immediate</text>
+  <text
+     x="60"
+     y="238"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#2c3e50"
+     id="text12">self-interest to long-term systemic</text>
+  <text
+     x="60"
+     y="251"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#2c3e50"
+     id="text13">consequences</text>
+  <!-- BLUE Quadrant (Top Right) -->
+  <rect
+     x="550"
+     y="80"
+     width="300"
+     height="200"
+     fill="#0000FF"
+     opacity="0.1"
+     stroke="#0000FF"
+     stroke-width="2"
+     rx="10"
+     filter="url(#dropShadow)"
+     id="rect13" />
+  <text
+     x="700"
+     y="105"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     fill="#0000CC"
+     id="text14">
+    BLUE: Order &amp; Purpose
+  </text>
+  <!-- BLUE Insight -->
+  <text
+     x="610"
+     y="130"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     font-weight="bold"
+     fill="#2c3e50"
+     id="text15">Insight:</text>
+  <text
+     x="610"
+     y="145"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#2c3e50"
+     id="text16">• Requires moral commitment and</text>
+  <text
+     x="610"
+     y="158"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#2c3e50"
+     id="text17">collective discipline</text>
+  <text
+     x="610"
+     y="171"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#2c3e50"
+     id="text18">• Intergenerational responsibility</text>
+  <text
+     x="610"
+     y="184"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#2c3e50"
+     id="text19">• Following expert guidance</text>
+  <!-- BLUE Limitation -->
+  <text
+     x="610"
+     y="210"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     font-weight="bold"
+     fill="#e74c3c"
+     id="text20">Limitation:</text>
+  <text
+     x="610"
+     y="225"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#2c3e50"
+     id="text21">Tendency toward rigid, top-down</text>
+  <text
+     x="610"
+     y="238"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#2c3e50"
+     id="text22">approaches that ignore local</text>
+  <text
+     x="610"
+     y="251"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#2c3e50"
+     id="text23">contexts and differences</text>
+  <!-- GREEN Quadrant (Bottom Left) -->
+  <rect
+     x="50"
+     y="420"
+     width="300"
+     height="200"
+     fill="#008000"
+     opacity="0.1"
+     stroke="#008000"
+     stroke-width="2"
+     rx="10"
+     filter="url(#dropShadow)"
+     id="rect23" />
+  <text
+     x="200"
+     y="445"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     fill="#006400"
+     id="text24">
+    GREEN: Community &amp; Justice
+  </text>
+  <!-- GREEN Insight -->
+  <text
+     x="60"
+     y="470"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="#2c3e50"
+     id="text25">Insight:</text>
+  <text
+     x="60"
+     y="485"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#2c3e50"
+     id="text26">• Climate change is inseparable</text>
+  <text
+     x="60"
+     y="498"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#2c3e50"
+     id="text27">  from social justice</text>
+  <text
+     x="60"
+     y="511"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#2c3e50"
+     id="text28">• Must address root causes</text>
+  <text
+     x="60"
+     y="524"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#2c3e50"
+     id="text29">• Transform relationships with nature</text>
+  <!-- GREEN Limitation -->
+  <text
+     x="60"
+     y="550"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="#e74c3c"
+     id="text30">Limitation:</text>
+  <text
+     x="60"
+     y="565"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#2c3e50"
+     id="text31">Sometimes rejects effective partial</text>
+  <text
+     x="60"
+     y="578"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#2c3e50"
+     id="text32">solutions in favor of perfect</text>
+  <text
+     x="60"
+     y="591"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#2c3e50"
+     id="text33">systematic transformation</text>
+  <!-- ORANGE Quadrant (Bottom Right) -->
+  <rect
+     x="550"
+     y="420"
+     width="300"
+     height="200"
+     fill="#FFA500"
+     opacity="0.1"
+     stroke="#FFA500"
+     stroke-width="2"
+     rx="10"
+     filter="url(#dropShadow)"
+     id="rect33" />
+  <text
+     x="700"
+     y="445"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     fill="#FF8C00"
+     id="text34">
+    ORANGE: Innovation &amp; Markets
+  </text>
+  <!-- ORANGE Insight -->
+  <text
+     x="608"
+     y="470"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     font-weight="bold"
+     fill="#2c3e50"
+     id="text35">Insight:</text>
+  <text
+     x="608"
+     y="485"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#2c3e50"
+     id="text36">• Markets and technology are</text>
+  <text
+     x="608"
+     y="498"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#2c3e50"
+     id="text37">powerful scaling tools</text>
+  <text
+     x="608"
+     y="511"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#2c3e50"
+     id="text38">• Economic incentives align interests</text>
+  <text
+     x="608"
+     y="524"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#2c3e50"
+     id="text39">• Innovation can solve problems</text>
+  <!-- ORANGE Limitation -->
+  <text
+     x="608"
+     y="550"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     font-weight="bold"
+     fill="#e74c3c"
+     id="text40">Limitation:</text>
+  <text
+     x="608"
+     y="565"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#2c3e50"
+     id="text41">May ignore social justice concerns,</text>
+  <text
+     x="608"
+     y="578"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#2c3e50"
+     id="text42">cultural impacts, and problems</text>
+  <text
+     x="608"
+     y="591"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#2c3e50"
+     id="text43">that can't be optimized away</text>
+  <!-- Central AI Circle -->
+  <circle
+     cx="450"
+     cy="350"
+     r="100"
+     fill="url(#aiGradient)"
+     stroke="#2E7D32"
+     stroke-width="3"
+     filter="url(#dropShadow)"
+     id="circle43" />
+  <text
+     x="450"
+     y="335"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     fill="white"
+     id="text44">
+    AI as Systems
+  </text>
+  <text
+     x="450"
+     y="355"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     fill="white"
+     id="text45">
+    Integrator
+  </text>
+  <text
+     x="450"
+     y="375"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="white"
+     id="text46">
+    Synthesizes All
+  </text>
+  <text
+     x="450"
+     y="390"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="white"
+     id="text47">
+    Perspectives
+  </text>
+  <!-- Arrows pointing from quadrants to center -->
+  <path
+     d="M 300 180 L 380 280"
+     stroke="#4CAF50"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowhead)"
+     opacity="0.8"
+     id="path47" />
+  <path
+     d="M 600 180 L 520 280"
+     stroke="#4CAF50"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowhead)"
+     opacity="0.8"
+     id="path48" />
+  <path
+     d="M 300 520 L 380 420"
+     stroke="#4CAF50"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowhead)"
+     opacity="0.8"
+     id="path49" />
+  <path
+     d="M 600 520 L 520 420"
+     stroke="#4CAF50"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowhead)"
+     opacity="0.8"
+     id="path50" />
+  <!-- Integrated Solutions Box -->
+  <rect
+     x="250"
+     y="640"
+     width="400"
+     height="50"
+     fill="#E8F5E8"
+     stroke="#4CAF50"
+     stroke-width="2"
+     rx="5"
+     id="rect50" />
+  <text
+     x="450"
+     y="658"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="#2E7D32"
+     id="text50">
+    Integrated Climate Solutions
+  </text>
+  <text
+     x="450"
+     y="675"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#2c3e50"
+     id="text51">
+    Economic transitions • Moral leadership • Market mechanisms • Community justice
+  </text>
+  <!-- Arrow from center to solutions -->
+  <path
+     d="M 450 450 L 450 640"
+     stroke="#4CAF50"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowhead)"
+     opacity="0.8"
+     id="path51" />
+</svg>
