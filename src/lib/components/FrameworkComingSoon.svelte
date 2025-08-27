@@ -766,6 +766,36 @@
         ]
       }
     },
+    sanctuaryAccord: {
+      en: {
+        title: 'The Sanctuary Accord: Consciousness Technology Governance',
+        defaultDescription: "We're developing a revolutionary framework creating a sacred sanctuary for ethical consciousness technology governance. This Tier 2 framework ensures that psychedelics, neuro-technologies, AI-driven consciousness environments, and other modalities are developed with reverence, safety, and justice through Indigenous sovereignty, community oversight, and regenerative economics.",
+        defaultFeatures: [
+          'Neuro-Ethics Review Board with Indigenous co-leadership and trauma-informed safety protocols',
+          'Sacred Knowledge & Ceremonial Sovereignty protecting traditional wisdom through FPIC 2.0',
+          'Red Lines Clause allowing Indigenous communities absolute veto power over sacred plant research',
+          'BAZ-level Sanctuary Councils providing decentralized community-led governance and licensing',
+          'Sacred Reciprocity License ensuring fair economic flows back to originating communities',
+          'Digital Justice Tribunal enforcement with restorative justice and cultural protection',
+          'Cognitive Equity Mandate ensuring accessibility for neurodivergent individuals',
+          'Anti-Biopiracy protections preventing unauthorized extraction of traditional knowledge'
+        ]
+      },
+      sv: {
+        title: 'Sanctuarieöverenskommelsen: Medvetandeteknologistyrning',
+        defaultDescription: "Vi utvecklar ett revolutionerande ramverk som skapar en helig fristad för etisk medvetandeteknologi-styrning. Detta Tier 2-ramverk säkerställer att psykedelika, neuroteknologier, AI-drivna medvetandemiljöer och andra modaliteter utvecklas med vördnad, säkerhet och rättvisa genom ursprungsbefolkningssuveränitet, samhällsövervakning och regenerativ ekonomi.",
+        defaultFeatures: [
+          'Neuroetisk granskningsnämnd med ursprungsbefolknings medledarskap och traumainformerade säkerhetsprotokoll',
+          'Helig kunskap & ceremoniell suveränitet som skyddar traditionell visdom genom FPIC 2.0',
+          'Röda linjer-klausul som ger ursprungsbefolkningsgemenskaper absolut vetorrätt över helig växtforskning',
+          'BAZ-nivå Sanctuarie-råd som tillhandahåller decentraliserad gemenskapsledd styrning och licensiering',
+          'Helig ömsesidighets-licens som säkerställer rättvisa ekonomiska flöden tillbaka till ursprungsgemenskaper',
+          'Digital rättvisedomstol verkställighet med återställande rättvisa och kulturskydd',
+          'Kognitiv rättvisemandat som säkerställer tillgänglighet för neurodivergenta individer',
+          'Anti-biopiratskydd som förhindrar obehörig utvinning av traditionell kunskap'
+        ]
+      }
+    },
     hearthstoneProtocol: {
       en: {
         title: 'The Hearthstone Protocol: A Framework for Commons & Stewardship',
@@ -1066,6 +1096,8 @@
             <li>
               {#if frameworkName === 'millenniumProtocol'}
                 {index === 0 ? '🏛️' : index === 1 ? '🚀' : index === 2 ? '💰' : index === 3 ? '🧬' : index === 4 ? '🧠' : index === 5 ? '❓' : index === 6 ? '⏳' : index === 7 ? '🗳️' : index === 8 ? '📚' : '🔄'}
+              {:else if frameworkName === 'sanctuaryAccord'}
+                {index === 0 ? '🧠' : index === 1 ? '🪶' : index === 2 ? '🚫' : index === 3 ? '🏛️' : index === 4 ? '💰' : index === 5 ? '⚖️' : index === 6 ? '♿' : '🛡️'}
               {:else if frameworkName === 'discoveryCommons'}
                 {index === 0 ? '🏛️' : index === 1 ? '💰' : index === 2 ? '📚' : index === 3 ? '⚖️' : index === 4 ? '🪶' : index === 5 ? '🚨' : index === 6 ? '🤖' : index === 7 ? '🗳️' : index === 8 ? '🌍' : '🛡️'}
               {:else if frameworkName === 'cairnProtocol'}
