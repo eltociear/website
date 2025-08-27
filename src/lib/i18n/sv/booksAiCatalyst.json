@@ -87,6 +87,11 @@
     "contentStatus": "Innehåll: Endast engelska",
     "pdfStatus": "PDF: Endast engelska"
   },
+  "breadcrumb": {
+    "resources": "Resurser",
+    "books": "Böcker",
+    "currentBook": "AI som katalysator för kognitiv evolution"
+  },
   "languageFallback": {
     "title": "Innehåll på ditt språk kommer snart",
     "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
@@ -95,6 +100,9 @@
     "previousSection": "Föregående",
     "nextSection": "Nästa",
     "downloadPdf": "Ladda ner PDF"
+  },
+  "actions": {
+    "readOnline": "Läs online",
   },
   "progress": {
     "text": "Kapitel {current} av {total}"

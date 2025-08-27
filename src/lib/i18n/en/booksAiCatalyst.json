@@ -81,6 +81,9 @@
     "subtitle": "PDF Format",
     "englishOnly": "PDF available in English only"
   },
+  "actions": {
+    "readOnline": "Read Online"
+  },
   "languageAvailability": {
     "title": "Content Availability Notice",
     "description": "This book is currently available in English only. Some sections may display in English while we work on translations.",
@@ -95,6 +98,11 @@
     "previousSection": "Previous",
     "nextSection": "Next", 
     "downloadPdf": "Download PDF"
+  },
+  "breadcrumb": {
+    "resources": "Resources",
+    "books": "Books", 
+    "currentBook": "AI as Catalyst for Cognitive Evolution"
   },
   "progress": {
     "text": "Chapter {current} of {total}"

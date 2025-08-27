@@ -9,7 +9,7 @@
 
   export let data;
 
-  // Translation state - use isLocaleLoaded for better reactivity
+  // Translation state
   $: translationsReady = $isLocaleLoaded;
   $: bf = translationsReady ? ($t('booksAiCatalyst') || {}) : {};
   $: currentLocale = $locale;
@@ -26,24 +26,26 @@
   let part5Open = false;
   let backMatterOpen = false;
 
-  // Book structure from data.parts
+  // Book structure
   $: bookParts = data?.parts || {};
   $: frontMatterSections = ['dedication', 'table-of-contents', 'introduction'];
   $: backMatterSections = ['conclusion', 'appendix-a', 'appendix-b', 'appendix-c', 'notes-and-references', 'acknowledgments', 'about'];
   $: chapterSections = Object.keys(data?.sections || {}).filter(section => section.startsWith('chapter-'));
 
-  // Computed values - add safety checks
+  // Computed values
   $: sectionsToShow = (mounted && isPrintMode) ? Object.keys(data?.sections || {}) : [activeSection];
   $: isChapter = activeSection.startsWith('chapter-');
   $: isFrontMatter = frontMatterSections.includes(activeSection);
   $: isBackMatter = backMatterSections.includes(activeSection);
 
+  // Language availability
+  $: hasFullTranslation = currentLocale === 'en';
+  $: hasPdfTranslation = currentLocale === 'en';
+
   function initializeAccordionStates() {
-    // Set initial accordion states based on active section
     frontMatterOpen = frontMatterSections.includes(activeSection);
     backMatterOpen = backMatterSections.includes(activeSection);
     
-    // Check which part contains the active chapter
     Object.entries(bookParts).forEach(([partName, chapters]) => {
       if (chapters.includes(activeSection)) {
         if (partName.includes('Part I')) part1Open = true;
@@ -60,24 +62,20 @@
     mounted = true;
     
     if (browser) {
-      // Fix URL corruption and preserve hash fragments
       let extractedHash = window.location.hash;
       
       if (window.location.pathname !== '/resources/books/ai-as-catalyst-for-cognitive-evolution') {
         const pathname = window.location.pathname;
         const lastPart = pathname.split('/').pop();
         
-        // Extract section from corrupted pathname
         if (data?.sections?.[lastPart] && !extractedHash) {
           extractedHash = `#${lastPart}`;
         }
         
-        // Correct the URL
         const correctUrl = `/resources/books/ai-as-catalyst-for-cognitive-evolution${window.location.search}${extractedHash}`;
         window.history.replaceState(null, '', correctUrl);
       }
       
-      // Force reload translations if needed
       if (!translationsReady) {
         try {
           await loadTranslations($locale, '/resources/books/ai-as-catalyst-for-cognitive-evolution');
@@ -86,7 +84,6 @@
         }
       }
       
-      // Set initial section from URL
       const urlParams = new URLSearchParams(window.location.search);
       isPrintMode = urlParams.get('print') === 'true';
       
@@ -101,17 +98,14 @@
       
       initializeAccordionStates();
       
-      // Global function for PDF generation
       window.showAllSectionsForPrint = () => { isPrintMode = true; };
       
-      // Listen for hash changes
       const handleHashChange = () => {
         const hash = window.location.hash.substring(1);
         if (hash && data?.sections?.[hash] && activeSection !== hash) {
           activeSection = hash;
           initializeAccordionStates();
           
-          // Scroll to content
           setTimeout(() => {
             const contentElement = document.querySelector('.section-content');
             if (contentElement) {
@@ -125,7 +119,6 @@
 
       window.addEventListener('hashchange', handleHashChange);
       
-      // Cleanup
       return () => {
         window.removeEventListener('hashchange', handleHashChange);
         if (window.showAllSectionsForPrint) {
@@ -135,7 +128,6 @@
     }
   });
 
-  // Function to set active section
   function setActiveSection(section) {
     if (!data?.sections?.[section]) return;
     
@@ -159,7 +151,6 @@
     }
   }
 
-  // Translation helper functions with fallbacks
   function getSectionTitle(section) {
     return translationsReady ? (bf.sections?.[section] || section.replace(/[-_]/g, ' ')) 
                              : section.replace(/[-_]/g, ' ');
@@ -177,9 +168,7 @@
     return translationsReady ? ($t(key) || fallback) : fallback;
   }
 
-  // Function to download the book PDF
-  function downloadBook(version = '') {
-    // For now, only English PDF is available
+  function downloadBook() {
     const pdfUrl = `/static/resources/AI_as_Catalyst_for_Cognitive_Evolution_-_From_Fragmentation_to_Integration_in_the_Age_of_AI.pdf`;
     const link = document.createElement('a');
     link.href = pdfUrl;
@@ -188,10 +177,6 @@
     link.click();
     document.body.removeChild(link);
   }
-
-  // Check if current locale has full translation support
-  $: hasFullTranslation = currentLocale === 'en';
-  $: hasPdfTranslation = currentLocale === 'en';
 
   // Accordion toggle functions
   function toggleFrontMatter() { frontMatterOpen = !frontMatterOpen; }
@@ -202,18 +187,11 @@
   function togglePart5() { part5Open = !part5Open; }
   function toggleBackMatter() { backMatterOpen = !backMatterOpen; }
 
-  // Handle locale changes
-  $: if (browser && mounted && $locale) {
-    invalidate('app:locale');
-  }
-
-  // Helper function to get current chapter number
   function getCurrentChapter() {
     if (!isChapter) return null;
     return parseInt(activeSection.replace('chapter-', ''));
   }
 
-  // Helper function to get next/previous sections
   function getNextSection() {
     const allSections = Object.keys(data?.sections || {});
     const currentIndex = allSections.indexOf(activeSection);
@@ -225,6 +203,10 @@
     const currentIndex = allSections.indexOf(activeSection);
     return currentIndex > 0 ? allSections[currentIndex - 1] : null;
   }
+
+  $: if (browser && mounted && $locale) {
+    invalidate('app:locale');
+  }
 </script>
 
 <svelte:head>
@@ -233,6 +215,28 @@
 </svelte:head>
 
 {#if mounted}
+  <!-- Breadcrumb Navigation -->
+  {#if !isPrintMode}
+    <div class="breadcrumb-wrapper">
+      <div class="container">
+        <div class="breadcrumb-nav">
+          <a href="/resources" class="breadcrumb-link">
+            <span class="breadcrumb-icon">📚</span>
+            {bf.breadcrumb?.resources || 'Resources'}
+          </a>
+          <span class="breadcrumb-separator">›</span>
+          <a href="/resources/books" class="breadcrumb-link">
+            {bf.breadcrumb?.books || 'Books'}
+          </a>
+          <span class="breadcrumb-separator">›</span>
+          <span class="breadcrumb-current">
+            {bf.breadcrumb?.currentBook || 'AI as Catalyst for Cognitive Evolution'}
+          </span>
+        </div>
+      </div>
+    </div>
+  {/if}
+
   <div class="book-container">
     <!-- Book Navigation Sidebar -->
     {#if !isPrintMode}
@@ -257,7 +261,6 @@
               <span class="download-arrow">↓</span>
             </button>
             
-            <!-- PDF Language Notice -->
             {#if !hasPdfTranslation && translationsReady}
               <div class="pdf-language-notice">
                 <span class="notice-icon">🌐</span>
@@ -265,6 +268,7 @@
               </div>
             {/if}
           </div>
+
           <!-- Front Matter -->
           <div class="nav-accordion">
             <button 
@@ -402,6 +406,7 @@
           </div>
         </div>
       {/if}
+
       <!-- Reading progress indicator for chapters -->
       {#if !isPrintMode && isChapter && chapterSections.length > 0 && translationsReady}
         <div class="progress-indicator">
@@ -463,7 +468,7 @@
     </div>
   </div>
 {:else}
-  <!-- Loading state to prevent hydration issues -->
+  <!-- Loading state -->
   <div class="loading-container">
     <div class="loading-spinner"></div>
     <p>{getTextWithFallback('booksAiCatalyst.loading.text', 'Loading book content...')}</p>
@@ -506,6 +511,64 @@
   @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  /* Breadcrumb Navigation */
+  .breadcrumb-wrapper {
+    padding: 1rem 0;
+    background-color: #f8fafc;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .breadcrumb-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+  }
+
+  .breadcrumb-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #2563eb;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    transition: all 0.2s;
+    font-weight: 500;
+  }
+
+  .breadcrumb-link:hover {
+    color: #1d4ed8;
+    background-color: rgba(37, 99, 235, 0.05);
+    text-decoration: underline;
+  }
+
+  .breadcrumb-icon {
+    font-size: 0.9rem;
+  }
+
+  .breadcrumb-separator {
+    margin: 0 0.5rem;
+    color: #9ca3af;
+    font-weight: 300;
+    user-select: none;
+  }
+
+  .breadcrumb-current {
+    font-weight: 600;
+    color: #1f2937;
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   /* Layout */
@@ -609,12 +672,6 @@
     box-shadow: 0 4px 8px rgba(26, 54, 93, 0.3);
   }
 
-  .pdf-download-btn:focus-visible {
-    outline: 2px solid var(--book-accent);
-    outline-offset: 2px;
-    transform: translateY(-1px);
-  }
-
   .pdf-icon {
     font-size: 1.5rem;
     flex-shrink: 0;
@@ -658,15 +715,6 @@
     color: #92400e;
   }
 
-  .pdf-language-notice .notice-icon {
-    font-size: 0.9rem;
-  }
-
-  .pdf-language-notice .notice-text {
-    flex: 1;
-    line-height: 1.3;
-  }
-
   /* Navigation accordion */
   .nav-accordion {
     margin-bottom: 0.75rem;
@@ -694,12 +742,6 @@
 
   .accordion-header:hover {
     background-color: rgba(0, 180, 216, 0.05);
-  }
-
-  .accordion-header:focus-visible {
-    outline: 2px solid var(--book-accent);
-    outline-offset: 2px;
-    background-color: rgba(0, 180, 216, 0.1);
   }
 
   .accordion-header.has-active {
@@ -764,12 +806,6 @@
     color: #374151;
   }
 
-  .nav-item:focus-visible {
-    outline: 2px solid var(--book-accent);
-    outline-offset: 2px;
-    background-color: rgba(0, 180, 216, 0.1);
-  }
-
   .nav-item.active {
     background-color: var(--book-primary);
     color: white;
@@ -826,118 +862,6 @@
     font-weight: 500;
   }
 
-  /* Section navigation */
-  .section-navigation {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    gap: 1rem;
-    margin-top: 3rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid #e5e7eb;
-    align-items: center;
-  }
-
-  .nav-center {
-    display: flex;
-    justify-content: center;
-  }
-
-  .nav-btn {
-    background-color: var(--book-primary);
-    color: white;
-    border: none;
-    padding: 0.75rem 1.5rem;
-    border-radius: 0.375rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.2s;
-  }
-
-  .nav-btn:hover {
-    background-color: var(--book-secondary);
-    transform: translateY(-1px);
-  }
-
-  .nav-btn:focus-visible {
-    outline: 2px solid var(--book-accent);
-    outline-offset: 2px;
-    background-color: var(--book-secondary);
-    transform: translateY(-1px);
-  }
-
-  .prev-btn {
-    justify-self: start;
-  }
-
-  .next-btn {
-    justify-self: end;
-  }
-
-  .secondary-btn {
-    background-color: white;
-    color: var(--book-primary);
-    border: 1px solid var(--book-primary);
-    padding: 0.5rem 1rem;
-    border-radius: 0.375rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.2s;
-  }
-
-  .secondary-btn:hover {
-    background-color: rgba(0, 180, 216, 0.1);
-    transform: translateY(-1px);
-  }
-
-  .secondary-btn:focus-visible {
-    outline: 2px solid var(--book-accent);
-    outline-offset: 2px;
-    background-color: rgba(0, 180, 216, 0.1);
-    transform: translateY(-1px);
-  }
-
-  .download-icon {
-    display: inline-block;
-    margin-left: 0.25rem;
-  }
-
-  /* Language fallback notice */
-  .language-fallback-notice {
-    display: flex;
-    align-items: flex-start;
-    gap: 1rem;
-    background-color: rgba(0, 180, 216, 0.1);
-    border: 1px solid rgba(0, 180, 216, 0.3);
-    border-radius: 0.5rem;
-    padding: 1rem 1.25rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .notice-icon {
-    font-size: 1.25rem;
-    color: var(--book-accent);
-    flex-shrink: 0;
-    margin-top: 0.125rem;
-  }
-
-  .notice-content {
-    flex: 1;
-  }
-
-  .notice-content strong {
-    color: var(--book-accent);
-    font-size: 0.95rem;
-    display: block;
-    margin-bottom: 0.25rem;
-  }
-
-  .notice-content p {
-    color: #4b5563;
-    font-size: 0.875rem;
-    margin: 0;
-    line-height: 1.5;
-  }
-
   /* Content Language Availability Notice */
   .content-language-notice {
     background: linear-gradient(135deg, rgba(245, 166, 35, 0.1), rgba(251, 191, 36, 0.1));
@@ -991,6 +915,104 @@
 
   .stat-icon {
     font-size: 1rem;
+  }
+
+  /* Language fallback notice */
+  .language-fallback-notice {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    background-color: rgba(0, 180, 216, 0.1);
+    border: 1px solid rgba(0, 180, 216, 0.3);
+    border-radius: 0.5rem;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .notice-icon {
+    font-size: 1.25rem;
+    color: var(--book-accent);
+    flex-shrink: 0;
+    margin-top: 0.125rem;
+  }
+
+  .notice-content {
+    flex: 1;
+  }
+
+  .notice-content strong {
+    color: var(--book-accent);
+    font-size: 0.95rem;
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+
+  .notice-content p {
+    color: #4b5563;
+    font-size: 0.875rem;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  /* Section navigation */
+  .section-navigation {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e5e7eb;
+    align-items: center;
+  }
+
+  .nav-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-btn {
+    background-color: var(--book-primary);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .nav-btn:hover {
+    background-color: var(--book-secondary);
+    transform: translateY(-1px);
+  }
+
+  .prev-btn {
+    justify-self: start;
+  }
+
+  .next-btn {
+    justify-self: end;
+  }
+
+  .secondary-btn {
+    background-color: white;
+    color: var(--book-primary);
+    border: 1px solid var(--book-primary);
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .secondary-btn:hover {
+    background-color: rgba(0, 180, 216, 0.1);
+    transform: translateY(-1px);
+  }
+
+  .download-icon {
+    display: inline-block;
+    margin-left: 0.25rem;
   }
 
   .missing-section {
@@ -1084,11 +1106,17 @@
     margin-bottom: 0;
   }
 
-  /* Lists */
+  /* Lists - This is where the conflict was! */
   .content :global(ul), .content :global(ol) {
     margin-bottom: 1.75rem;
     padding-left: 1.25rem;
     color: #374151;
+  }
+
+  /* Only apply ordered list styling to lists INSIDE the content area, not breadcrumbs */
+  .content :global(ol) {
+    list-style-type: decimal;
+    counter-reset: item;
   }
 
   .content :global(ul) {
@@ -1102,7 +1130,7 @@
     line-height: 1.6;
   }
 
-  .content :global(ul li:not(.nav-sections li))::before {
+  .content :global(ul li::before) {
     content: "•";
     position: absolute;
     left: 0;
@@ -1110,12 +1138,6 @@
     font-size: 1.3rem;
     color: var(--book-accent);
     font-weight: bold;
-  }
-
-  /* Ordered lists */
-  .content :global(ol) {
-    list-style-type: decimal;
-    counter-reset: item;
   }
 
   .content :global(ol li) {
@@ -1169,56 +1191,6 @@
     color: #374151;
   }
 
-  /* Tables */
-  .content :global(table) {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 2rem 0;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    border-radius: 0.5rem;
-    overflow: hidden;
-  }
-
-  .content :global(th) {
-    background-color: var(--book-primary);
-    color: white;
-    padding: 1rem;
-    text-align: left;
-    font-weight: 600;
-  }
-
-  .content :global(td) {
-    padding: 0.875rem 1rem;
-    border-bottom: 1px solid #e2e8f0;
-    color: #374151;
-  }
-
-  .content :global(tr:nth-child(even)) {
-    background-color: #f8fafc;
-  }
-
-  .content :global(tr:hover) {
-    background-color: rgba(0, 180, 216, 0.05);
-  }
-
-  /* Images */
-  .content :global(img) {
-    max-width: 100%;
-    height: auto;
-    border-radius: 0.5rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 1.5rem 0;
-  }
-
-  /* Horizontal rules */
-  .content :global(hr) {
-    border: none;
-    height: 2px;
-    background: linear-gradient(90deg, var(--book-primary), var(--book-accent), var(--book-primary));
-    margin: 3rem 0;
-    border-radius: 1px;
-  }
-
   /* Responsive Design */
   @media (max-width: 1024px) {
     .book-container {
@@ -1243,52 +1215,9 @@
       margin-bottom: 1.5rem;
     }
 
-    .book-header {
-      padding: 1rem;
-    }
-
-    .book-title {
-      font-size: 1rem;
-    }
-
-    .book-subtitle {
-      font-size: 0.8rem;
-    }
-
-    .nav-sections {
-      padding: 0.75rem;
-      max-height: none;
-    }
-
-    .pdf-download-section {
-      margin-bottom: 1rem;
-      padding-bottom: 0.75rem;
-    }
-
-    .pdf-download-btn {
-      padding: 0.875rem;
-      gap: 0.75rem;
-    }
-
-    .pdf-title {
-      font-size: 0.9rem;
-    }
-
-    .pdf-subtitle {
-      font-size: 0.75rem;
-    }
-
     .content-language-notice {
       padding: 1.25rem;
       margin-bottom: 1.5rem;
-    }
-
-    .notice-header {
-      gap: 0.5rem;
-    }
-
-    .notice-header strong {
-      font-size: 1rem;
     }
 
     .notice-stats {
@@ -1298,20 +1227,6 @@
 
     .stat-item {
       justify-content: center;
-    }
-
-    .accordion-header {
-      padding: 0.75rem;
-      font-size: 0.85rem;
-    }
-
-    .nav-item {
-      padding: 0.625rem 0.75rem;
-      font-size: 0.8rem;
-    }
-
-    .subsection-item {
-      padding-left: 1.25rem;
     }
 
     .section-navigation {
@@ -1327,6 +1242,10 @@
     .prev-btn, .next-btn {
       justify-self: stretch;
       width: 100%;
+    }
+
+    .breadcrumb-current {
+      max-width: 180px;
     }
 
     .content :global(h1) {
@@ -1372,37 +1291,22 @@
     .content :global(h2) {
       font-size: 1.375rem;
     }
-
-    .content :global(table) {
-      font-size: 0.875rem;
-    }
-
-    .content :global(th), .content :global(td) {
-      padding: 0.625rem 0.75rem;
-    }
   }
 
   /* Print styles */
   @media print {
-    .book-nav {
+    .book-nav,
+    .breadcrumb-wrapper,
+    .section-navigation,
+    .progress-indicator,
+    .language-fallback-notice,
+    .content-language-notice {
       display: none;
     }
 
     .book-container {
       grid-template-columns: 1fr;
       gap: 0;
-    }
-
-    .section-navigation {
-      display: none;
-    }
-
-    .progress-indicator {
-      display: none;
-    }
-
-    .language-fallback-notice {
-      display: none;
     }
 
     .content :global(*) {

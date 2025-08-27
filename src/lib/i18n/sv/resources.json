@@ -8,85 +8,18 @@
     "subtitle": "Ett omfattande bibliotek för planetär styrning",
     "description": "Upptäck de grundläggande böckerna, djupgående vitböckerna och väsentliga resurserna som utforskar principerna, metoderna och de praktiska tillämpningarna av regenerativ styrning för en blomstrande värld."
   },
-  "books": {
-    "title": "Böcker",
-    "description": "Utforska de fullängdsböcker som utgör den filosofiska och praktiska grunden för de globala styrningsramverken.",
-    "ai": {
-      "title": "AI som katalysator för kognitiv evolution: Från fragmentering till integration i AI:s tidsålder",
-      "description": "Denna bok utforskar hur mänskligheten medvetet kan samarbeta med artificiell intelligens och använda den som en 'kognitiv byggnadsställning' för att påskynda språnget från det fragmenterade 'Tier 1'-tänkandet som driver polykrisen till det integrerade 'Tier 2'-medvetandet som krävs för en blomstrande framtid."
+  "sections": {
+    "books": {
+      "title": "Böcker",
+      "description": "Utforska de fullängdsböcker som utgör den filosofiska och praktiska grunden för de globala styrningsramverken.",
+      "stats": "böcker tillgängliga"
     },
-    "globalGovernance": {
-      "title": "Global styrning: Naturliga steg mot en blomstrande värld",
-      "description": "En praktisk färdplan för att skapa ett etiskt, decentraliserat globalt styrsystem som kan hantera utmaningar på planetär skala genom systemtänkande, banbrytande teknik och djup mänsklig visdom."
+    "whitepapers": {
+      "title": "Vitböcker",
+      "description": "Dyk djupt in i specifika GGF-metoder och förslag med våra formella vitböcker och forskningspublikationer.",
+      "stats": "publicerade vitböcker"
     },
-    "aubi": {
-      "title": "Adaptiv universell basinkomst: Ett nytt socialt kontrakt för 2000-talet",
-      "description": "Ett omfattande ramverk för att omforma ekonomisk trygghet som dynamiskt svarar på individuella behov samtidigt som det uppmuntrar meningsfulla samhällsbidrag, och erbjuder praktiska implementeringsstrategier på lokal, nationell och global nivå."
-    },
-    "optimizingReality": {
-      "title": "Optimera verkligheten: En guide i systemtänkande för en framtid med multiintelligens",
-      "description": "En handlingskraftig plan för att integrera mänsklig, artificiell, ekologisk och kollektiv intelligens för att skapa mer harmoniska och hållbara system inom styrning, ekonomi och miljöförvaltning."
-    },
-    "realitySovereignty": {
-      "title": "Verklighet, suveränitet och medvetande: Sökandet efter kognitiv frihet",
-      "description": "En utforskning av vem som äger ditt sinne, som undersöker skärningspunkten mellan personlig frihet, medvetenhetsutforskning och samhällsomvandling samtidigt som den erbjuder ramverk för ansvarsfull utforskning och policyreform."
-    },
-    "regenerativeReciprocity": {
-      "title": "Regenerativ ömsesidighet: System, andlighet och uppehällets etik i en mångfaldig värld",
-      "description": "En bok om att återknyta människor till naturen och varandra genom ett ramverk som kombinerar systemtänkande, andlig visdom och praktisk handling, och visar hur vi kan gå från extraktiva till regenerativa levnadssätt som hedrar allt livs sammankoppling."
-    },
-    "lmci": {
-      "title": "Kärlek, mening, anslutning: Ett nytt index för att mäta det som betyder något",
-      "description": "En revolutionerande guide som utmanar traditionella ekonomiska mått genom att introducera ett ramverk för att mäta mänskligt blomstrande genom våra djupaste relationer, känsla av syfte och anslutningar till oss själva, andra och världen omkring oss."
-    },
-    "being": {
-      "title": "Vara: En väv av existens genom system och poesi",
-      "description": "En bok som utforskar vad det innebär att existera genom både systemtänkande och poetisk upplevelse, och väver samman filosofi, vetenskap och andlighet för att förstå varandets sammankopplade men djupt personliga natur."
-    }
-  },
-  "whitePapers": {
-    "title": "Vitböcker",
-    "description": "Dyk djupt in i specifika GGF-metoder och förslag med våra formella vitböcker och forskningspublikationer.",
-    "cognitiveScaffolding": {
-      "title": "Kognitiv stöttning: En syntesmetod med flera AI-modeller för att lösa komplexa systemproblem",
-      "description": "En omfattande metodik för att utnyttja olika AI-modeller för att utveckla robusta, holistiska lösningar som överbryggar den kognitiva klyftan mellan fragmenterat tänkande och det integrerade medvetande som krävs för att hantera den globala polykrisen."
-    }
-  },
-  "categories": {
-    "governance": "Styrning",
-    "economics": "Ekonomi",
-    "systems": "System",
-    "consciousness": "Medvetande",
-    "sustainability": "Hållbarhet",
-    "metrics": "Mätetal",
-    "philosophy": "Filosofi",
-    "methodology": "Metodik"
-  },
-  "status": {
-    "published": "Publicerad",
-    "draft": "Utkast",
-    "inReview": "Under granskning",
-    "comingSoon": "Kommer snart"
-  },
-  "actions": {
-    "readOnline": "Läs online",
-    "downloadPdf": "Ladda ner PDF",
-    "preview": "Förhandsgranska",
-    "getCitation": "Hämta citering",
-    "share": "Dela",
-    "bookmark": "Bokmärk"
-  },
-  "comingSoon": {
-    "title": "Fler vitböcker kommer snart",
-    "description": "Vi utvecklar kontinuerligt nya forskningsrapporter och metodguider. Håll utkik efter kommande publikationer om dessa viktiga ämnen.",
-    "topics": [
-      "Styrning av digitala allmänningar",
-      "Bioregionala autonomizoner",
-      "Ramverk för ekologisk ekonomi",
-      "Integration av urfolkskunskap",
-      "Protokoll för konfliktlösning",
-      "System för regenerativa mätetal"
-    ]
+    "explore": "Utforska"
   },
   "future": {
     "title": "Framtida möjligheter",
@@ -113,4 +46,3 @@
     "learnMore": "Läs mer om vårt uppdrag"
   }
 }
-

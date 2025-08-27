@@ -8,85 +8,18 @@
     "subtitle": "A Comprehensive Library for Planetary Governance",
     "description": "Discover the foundational books, in-depth white papers, and essential resources that explore the principles, methodologies, and practical applications of regenerative governance for a thriving world."
   },
-  "books": {
-    "title": "Books",
-    "description": "Explore the full-length books that provide the philosophical and practical foundations for the Global Governance Frameworks.",
-    "ai": {
-      "title": "AI as Catalyst for Cognitive Evolution: From Fragmentation to Integration in the Age of AI",
-      "description": "This book explores how humanity can consciously partner with artificial intelligence, using it as a 'cognitive scaffold' to accelerate the leap from the fragmented 'Tier 1' thinking that drives the polycrisis to the integrated 'Tier 2' consciousness required for a flourishing future."
+  "sections": {
+    "books": {
+      "title": "Books",
+      "description": "Explore the full-length books that provide the philosophical and practical foundations for the Global Governance Frameworks.",
+      "stats": "books available"
     },
-    "globalGovernance": {
-      "title": "Global Governance: Natural Steps Toward a Thriving World",
-      "description": "A practical roadmap for creating an ethical, decentralized global governance system that can address planetary-scale challenges through systems thinking, cutting-edge technology, and deep human wisdom."
+    "whitepapers": {
+      "title": "White Papers",
+      "description": "Dive deep into specific GGF methodologies and proposals with our formal white papers and research publications.",
+      "stats": "papers published"
     },
-    "aubi": {
-      "title": "Adaptive Universal Basic Income: A New Social Contract for the 21st Century",
-      "description": "A comprehensive framework for reimagining economic security that responds dynamically to individual needs while encouraging meaningful societal contributions, offering practical implementation strategies at local, national, and global scales."
-    },
-    "optimizingReality": {
-      "title": "Optimizing Reality: A Systems Thinking Guide For a Multi Intelligence Future",
-      "description": "An actionable blueprint for integrating human, artificial, ecological, and collective intelligence to create more harmonious and sustainable systems across governance, economics, and environmental stewardship."
-    },
-    "realitySovereignty": {
-      "title": "Reality, Sovereignty, and Consciousness: The Quest for Cognitive Liberty",
-      "description": "An exploration of who owns your mind, examining the intersection of personal freedom, consciousness exploration, and societal transformation while offering frameworks for responsible exploration and policy reform."
-    },
-    "regenerativeReciprocity": {
-      "title": "Regenerative Reciprocity: Systems, Spirituality, and the Ethics of Sustenance in a Diverse World",
-      "description": "A book about reconnecting humans with nature and each other through a framework that combines systems thinking, spiritual wisdom, and practical action, showing how we can shift from extractive to regenerative ways of living that honor the interconnectedness of all life."
-    },
-    "lmci": {
-      "title": "Love, Meaning, Connection: A New Index for Measuring What Matters",
-      "description": "A revolutionary guide that challenges traditional economic metrics by introducing a framework to measure human flourishing through our deepest relationships, sense of purpose, and connections to ourselves, others, and the world around us."
-    },
-    "being": {
-      "title": "Being: A Tapestry of Existence Through Systems and Poetry",
-      "description": "A book exploring what it means to exist through both systems thinking and poetic experience, weaving together philosophy, science, and spirituality to understand the interconnected yet deeply personal nature of being."
-    }
-  },
-  "whitePapers": {
-    "title": "White Papers",
-    "description": "Dive deep into specific GGF methodologies and proposals with our formal white papers and research publications.",
-    "cognitiveScaffolding": {
-      "title": "Cognitive Scaffolding: A Multi-Model AI Synthesis Method for Solving Complex Systemic Problems",
-      "description": "A comprehensive methodology for leveraging diverse AI models to develop robust, holistic solutions that bridge the cognitive gap between fragmented thinking and integrated consciousness required for addressing the global polycrisis."
-    }
-  },
-  "categories": {
-    "governance": "Governance",
-    "economics": "Economics", 
-    "systems": "Systems",
-    "consciousness": "Consciousness",
-    "sustainability": "Sustainability",
-    "metrics": "Metrics",
-    "philosophy": "Philosophy",
-    "methodology": "Methodology"
-  },
-  "status": {
-    "published": "Published",
-    "draft": "Draft",
-    "inReview": "In Review",
-    "comingSoon": "Coming Soon"
-  },
-  "actions": {
-    "readOnline": "Read Online",
-    "downloadPdf": "Download PDF",
-    "preview": "Preview",
-    "getCitation": "Get Citation",
-    "share": "Share",
-    "bookmark": "Bookmark"
-  },
-  "comingSoon": {
-    "title": "More White Papers Coming Soon",
-    "description": "We're continuously developing new research papers and methodological guides. Stay tuned for upcoming publications on these important topics.",
-    "topics": [
-      "Digital Commons Governance",
-      "Bioregional Autonomy Zones",
-      "Ecological Economics Framework",
-      "Indigenous Knowledge Integration",
-      "Conflict Resolution Protocols",
-      "Regenerative Metrics System"
-    ]
+    "explore": "Explore"
   },
   "future": {
     "title": "Future Possibilities",

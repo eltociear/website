@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Böcker - Globala styrningsramverken",
+    "description": "Utforska vår omfattande samling av böcker som utgör den filosofiska och praktiska grunden för regenerativ global styrning och medveten teknisk utveckling."
+  },
+  "hero": {
+    "title": "Böcker",
+    "subtitle": "Grundläggande verk för planetär styrning",
+    "description": "Dyk djupt in i böckerna som utforskar principerna, metoderna och de praktiska tillämpningarna av regenerativ styrning, medveten AI-utveckling och systemomvandling för en blomstrande värld."
+  },
+  "breadcrumb": {
+    "resources": "Resurser",
+    "books": "Böcker"
+  },
+  "categories": {
+    "governance": "Styrning",
+    "economics": "Ekonomi",
+    "systems": "System",
+    "consciousness": "Medvetande",
+    "sustainability": "Hållbarhet",
+    "metrics": "Mätetal",
+    "philosophy": "Filosofi",
+    "methodology": "Metodik"
+  },
+  "actions": {
+    "readOnline": "Läs online",
+    "downloadPdf": "Ladda ner PDF",
+    "preview": "Förhandsgranska",
+    "share": "Dela",
+    "bookmark": "Bokmärk",
+    "comingSoon": "Kommer snart",
+    "notAvailable": "Inte tillgänglig"
+  },
+  "ai": {
+    "title": "AI som katalysator för kognitiv evolution: Från fragmentering till integration i AI-åldern",
+    "description": "Denna bok utforskar hur mänskligheten medvetet kan samarbeta med artificiell intelligens, och använda den som en 'kognitiv stöttning' för att påskynda språnget från det fragmenterade 'Nivå 1'-tänkandet som driver polykrisen till det integrerade 'Nivå 2'-medvetande som krävs för en blomstrande framtid."
+  },
+  "globalGovernance": {
+    "title": "Global styrning: Naturliga steg mot en blomstrande värld",
+    "description": "En praktisk färdplan för att skapa ett etiskt, decentraliserat globalt styrsystem som kan hantera utmaningar på planetär skala genom systemtänkande, banbrytande teknik och djup mänsklig visdom."
+  },
+  "aubi": {
+    "title": "Adaptiv universell basinkomst: Ett nytt socialt kontrakt för 2000-talet",
+    "description": "Ett omfattande ramverk för att omforma ekonomisk trygghet som dynamiskt svarar på individuella behov samtidigt som det uppmuntrar meningsfulla samhällsbidrag, och erbjuder praktiska implementeringsstrategier på lokal, nationell och global nivå."
+  },
+  "optimizingReality": {
+    "title": "Optimera verkligheten: En guide i systemtänkande för en framtid med multiintelligens",
+    "description": "En handlingskraftig plan för att integrera mänsklig, artificiell, ekologisk och kollektiv intelligens för att skapa mer harmoniska och hållbara system inom styrning, ekonomi och miljöförvaltning."
+  },
+  "realitySovereignty": {
+    "title": "Verklighet, suveränitet och medvetande: Sökandet efter kognitiv frihet",
+    "description": "En utforskning av vem som äger ditt sinne, som undersöker skärningspunkten mellan personlig frihet, medvetenhetsutforskning och samhällsomvandling samtidigt som den erbjuder ramverk för ansvarsfull utforskning och policyreform."
+  },
+  "regenerativeReciprocity": {
+    "title": "Regenerativ ömsesidighet: System, andlighet och uppehällets etik i en mångfaldig värld",
+    "description": "En bok om att återknyta människor till naturen och varandra genom ett ramverk som kombinerar systemtänkande, andlig visdom och praktisk handling, och visar hur vi kan gå från extraktiva till regenerativa levnadssätt som hedrar allt livs sammankoppling."
+  },
+  "lmci": {
+    "title": "Kärlek, mening, anslutning: Ett nytt index för att mäta det som betyder något",
+    "description": "En revolutionerande guide som utmanar traditionella ekonomiska mått genom att introducera ett ramverk för att mäta mänskligt blomstrande genom våra djupaste relationer, känsla av syfte och anslutningar till oss själva, andra och världen omkring oss."
+  },
+  "being": {
+    "title": "Vara: En väv av existens genom system och poesi",
+    "description": "En bok som utforskar vad det innebär att existera genom både systemtänkande och poetisk upplevelse, och väver samman filosofi, vetenskap och andlighet för att förstå varandets sammankopplade men djupt personliga natur."
+  }
+}
