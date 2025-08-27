@@ -102,6 +102,23 @@
       pillars: 4,
       estimatedReadTime: '50 minutes',
       implementationComplexity: 'Advanced'
+    },
+    {
+      id: 'bioregional-compass',
+      title: 'The Bioregional Compass',
+      subtitle: 'A GGF Implementation Guide for the Formation of a BAZ',
+      description: 'The foundational playbook for communities seeking to establish a Bioregional Autonomous Zone. This guide provides a step-by-step journey from initial visioning to a fully operational BAZ, integrating GGF principles of governance, economics, and ecology.',
+      icon: '🧭',
+      color: '#004D40', // Teal/deep green
+      accentColor: '#FFD700', // Gold
+      version: 'v1.0',
+      status: 'In Development',
+      route: '/frameworks/guides/bioregional-compass',
+      targetAudience: ['Community Organizers', 'Indigenous Leaders', 'Municipal Planners', 'Ecologists', 'Local Activists'],
+      keyTopics: ['Community Consensus', 'Bioregional Mapping', 'Legal Scaffolding', 'Decentralized Governance', 'GGF Integration'],
+      pillars: 6,
+      estimatedReadTime: '60 minutes',
+      implementationComplexity: 'Advanced'
     }
     // Future guides can be added here
   ];
