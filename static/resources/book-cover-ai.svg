@@ -24,8 +24,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="0.49851028"
-     inkscape:cx="-388.15649"
-     inkscape:cy="692.06196"
+     inkscape:cx="378.12661"
+     inkscape:cy="820.44447"
      inkscape:window-width="2520"
      inkscape:window-height="1048"
      inkscape:window-x="0"
@@ -500,7 +500,11 @@
      font-family="Arial, sans-serif"
      font-size="18px"
      id="text45"
-     style="stroke-width:1.99999">Claude, Gemini, ChatGPT, Grok DeepSeek</text>
+     style="stroke-width:1.99999"><tspan
+       sodipodi:role="line"
+       id="tspan2"
+       x="400"
+       y="1110">Claude, Gemini, ChatGPT, Grok &amp; DeepSeek</tspan></text>
   <!-- Subtle geometric patterns for texture -->
   <g
      opacity="0.1"
