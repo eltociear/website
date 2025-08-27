@@ -75,6 +75,37 @@ export const humanFlourishingEntities: GgfEntity[] = [
     }
   },
   {
+    id: 'framework_sanctuary_accord',
+    type: 'Framework',
+    name: 'The Sanctuary Accord',
+    shortName: 'Sanctuary Accord',
+    description: 'Framework for consciousness technology governance including psychedelics, neuro-technologies, and digital consciousness environments',
+    tier: 2,
+    status: 'Draft',
+    primaryDomain: 'Health',
+    geographicScope: 'Global',
+    implementationPriority: 'High',
+    dependencies: [
+      'framework_technology_governance',
+      'framework_indigenous', 
+      'framework_mental_health',
+      'framework_aurora_accord'
+    ],
+    enables: [
+      'council_neuro_ethics_review',
+      'institution_baz_sanctuary_councils',
+      'mechanism_sacred_reciprocity_license'
+    ],
+    ui: {
+      path: '/frameworks/sanctuary-accord',
+      titleKey: 'framework.docs.nav.frameworkTitles.sanctuaryAccord',
+      emoji: '🍄',
+      version: '1.6',
+      slug: 'sanctuary-accord',
+      group: 'humanSocialSystems'
+    }
+  },
+  {
     id: 'framework_synoptic',
     type: 'Framework',
     name: 'The Synoptic Protocol - Media & Epistemic Integrity',
@@ -218,6 +249,17 @@ export const humanFlourishingEntities: GgfEntity[] = [
     tier: 2,
     status: 'Proposed',
     dependencies: ['framework_kintsugi_protocol', 'framework_youth']
+  },
+  {
+    id: 'council_neuro_ethics_review',
+    type: 'Council',
+    name: 'Neuro-Ethics Review Board',
+    shortName: 'NERB',
+    description: 'Specialized sub-committee of GTC providing ethical review and safety certification for consciousness technologies',
+    tier: 2,
+    status: 'Proposed',
+    primaryDomain: 'Health',
+    dependencies: ['framework_sanctuary_accord', 'council_gtc']
   },
 
   // === SPECIALIZED INSTITUTIONS ===
@@ -363,6 +405,29 @@ export const humanFlourishingEntities: GgfEntity[] = [
     status: 'Proposed',
     dependencies: ['framework_kintsugi_protocol', 'framework_mental_health']
   },
+  {
+    id: 'institution_baz_sanctuary_councils',
+    type: 'Institution',
+    name: 'BAZ-Level Sanctuary Councils',
+    shortName: 'Sanctuary Councils',
+    description: 'Decentralized, community-led bodies licensing and monitoring local consciousness technology practitioners',
+    tier: 2,
+    status: 'Proposed',
+    primaryDomain: 'Health',
+    dependencies: ['framework_sanctuary_accord', 'institution_baz']
+  },
+
+  {
+    id: 'institution_ggf_practitioner_academy',
+    type: 'Institution',
+    name: 'GGF Practitioner Academy',
+    shortName: 'Practitioner Academy',
+    description: 'Global training and certification body for consciousness technology practitioners',
+    tier: 2,
+    status: 'Proposed',
+    primaryDomain: 'Health',
+    dependencies: ['framework_sanctuary_accord']
+  },
 
   // === MECHANISMS ===
   {
@@ -384,6 +449,17 @@ export const humanFlourishingEntities: GgfEntity[] = [
     status: 'Proposed',
     dependencies: ['institution_public_research_fund']
   },
+  {
+    id: 'mechanism_sacred_reciprocity_license',
+    type: 'EconomicMechanism',
+    name: 'Sacred Reciprocity License',
+    shortName: 'Reciprocity License',
+    description: 'Legally binding license ensuring revenue flows back to Indigenous communities from consciousness technology commercialization',
+    tier: 2,
+    status: 'Proposed',
+    primaryDomain: 'Economic',
+    dependencies: ['framework_sanctuary_accord', 'platform_love_ledger']
+  },
 
   // === PLATFORMS ===
   {
@@ -394,6 +470,17 @@ export const humanFlourishingEntities: GgfEntity[] = [
     tier: 2,
     status: 'Proposed',
     dependencies: ['framework_kintsugi_protocol']
+  },
+  {
+    id: 'platform_consciousness_registry',
+    type: 'Platform',
+    name: 'Consciousness Technology Registry',
+    shortName: 'Consciousness Registry',
+    description: 'Digital platform tracking consciousness technology practitioners, research, and adverse events',
+    tier: 2,
+    status: 'Proposed',
+    primaryDomain: 'Technology',
+    dependencies: ['framework_sanctuary_accord', 'framework_aurora_accord']
   },
 
   // === PROCESSES, PROTOCOLS & TOOLS ===
@@ -530,7 +617,51 @@ export const humanFlourishingEntities: GgfEntity[] = [
     status: 'Proposed',
     dependencies: ['framework_kintsugi_protocol', 'framework_cultural_heritage']
   },
+  {
+    id: 'protocol_red_lines_clause',
+    type: 'LegalProtocol',
+    name: 'Red Lines Clause',
+    shortName: 'Red Lines',
+    description: 'Non-negotiable provision allowing Earth Council to declare consciousness technologies off-limits',
+    tier: 2,
+    status: 'Draft',
+    primaryDomain: 'Justice',
+    dependencies: ['framework_sanctuary_accord', 'council_earth']
+  },
+  {
+    id: 'protocol_fpic_2_consciousness',
+    type: 'LegalProtocol',
+    name: 'FPIC 2.0 for Consciousness Technologies',
+    shortName: 'FPIC 2.0 Consciousness',
+    description: 'Enhanced consent protocol for consciousness technology research involving Indigenous knowledge',
+    tier: 2,
+    status: 'Draft',
+    primaryDomain: 'Justice',
+    dependencies: ['framework_sanctuary_accord', 'protocol_fpic2']
+  },
+  {
+    id: 'process_cognitive_equity_audit',
+    type: 'Process',
+    name: 'Cognitive Equity Audit',
+    shortName: 'Cognitive Equity Audit',
+    description: 'Mandatory accessibility review for consciousness technologies ensuring neurodivergent inclusion',
+    tier: 2,
+    status: 'Draft',
+    primaryDomain: 'Health',
+    dependencies: ['framework_sanctuary_accord', 'framework_disability']
+  },
 
+  {
+    id: 'tool_cultural_immersion_certification',
+    type: 'Tool',
+    name: 'Cultural Immersion Certification',
+    shortName: 'Cultural Certification',
+    description: 'Training requirement for non-local participants in ceremonial consciousness practices',
+    tier: 2,
+    status: 'Proposed',
+    primaryDomain: 'Health',
+    dependencies: ['framework_sanctuary_accord']
+  }
 
 ];
 
@@ -849,7 +980,73 @@ export const humanFlourishingRelationships: GgfRelationship[] = [
   { from: 'framework_disability', to: 'framework_kintsugi_protocol', type: 'VALIDATES', description: 'The Foundation Protocol (Disability Justice) provides non-negotiable standards for accessibility and neuro-inclusion in all CCSF operations.' },
   { from: 'framework_indigenous', to: 'framework_kintsugi_protocol', type: 'GUIDES', description: 'The Indigenous Framework\'s principles of justice and sovereignty are paramount in BAZs, with the Red Lines Clause ensuring community control.' },
   { from: 'framework_aurora_accord', to: 'platform_community_safety', type: 'GUIDES', description: 'The Aurora Accord provides the mandatory data sovereignty, privacy, and anti-surveillance rules for the Community Safety Platform.' },
-  { from: 'framework_drr', to: 'framework_kintsugi_protocol', type: 'COORDINATES_WITH', description: 'In large-scale emergencies, the DRR framework coordinates the on-the-ground response of CCSF teams.' }
+  { from: 'framework_drr', to: 'framework_kintsugi_protocol', type: 'COORDINATES_WITH', description: 'In large-scale emergencies, the DRR framework coordinates the on-the-ground response of CCSF teams.' },
+
+  // === SANCTUARY ACCORD RELATIONSHIPS ===
+
+  // Sanctuary Accord establishment relationships
+  {
+    from: 'framework_sanctuary_accord',
+    to: 'council_neuro_ethics_review',
+    type: 'ESTABLISHES',
+    description: 'Sanctuary Accord establishes NERB as primary oversight body'
+  },
+  {
+    from: 'framework_sanctuary_accord',
+    to: 'mechanism_sacred_reciprocity_license',
+    type: 'ESTABLISHES',
+    description: 'Framework establishes reciprocity licensing system'
+  },
+
+  // Integration with existing frameworks
+  {
+    from: 'framework_indigenous',
+    to: 'protocol_red_lines_clause',
+    type: 'ENFORCES',
+    description: 'Indigenous Framework enforces Red Lines through Earth Council authority'
+  },
+  {
+    from: 'council_earth',
+    to: 'council_neuro_ethics_review',
+    type: 'GUIDES',
+    description: 'Earth Council provides Indigenous sovereignty guidance to NERB'
+  },
+  {
+    from: 'framework_disability',
+    to: 'process_cognitive_equity_audit',
+    type: 'VALIDATES',
+    description: 'Disability Justice validates cognitive equity standards'
+  },
+
+  // Economic integration
+  {
+    from: 'mechanism_sacred_reciprocity_license',
+    to: 'platform_love_ledger',
+    type: 'USES_DATA_FROM',
+    description: 'Reciprocity payments tracked transparently on Love Ledger'
+  },
+  {
+    from: 'mechanism_hearts',
+    to: 'mechanism_sacred_reciprocity_license',
+    type: 'IMPLEMENTS',
+    description: 'Reciprocity payments often distributed in Hearts currency'
+  },
+
+  // Justice system integration
+  {
+    from: 'institution_dj_tribunal',
+    to: 'mechanism_sacred_reciprocity_license',
+    type: 'ENFORCES',
+    description: 'Digital Justice Tribunal adjudicates license violations'
+  },
+
+  // BAZ implementation
+  {
+    from: 'institution_baz',
+    to: 'institution_baz_sanctuary_councils',
+    type: 'IMPLEMENTS',
+    description: 'BAZs implement local Sanctuary Councils for community governance'
+  }
 
 
 ];
