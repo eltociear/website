@@ -102,7 +102,7 @@
     "downloadPdf": "Ladda ner PDF"
   },
   "actions": {
-    "readOnline": "Läs online",
+    "readOnline": "Läs online"
   },
   "progress": {
     "text": "Kapitel {current} av {total}"
