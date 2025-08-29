@@ -924,6 +924,36 @@
         ]
       }
     },
+    implementationAdaptation: {
+      en: {
+        title: 'The GGF Implementation & Adaptation Framework',
+        defaultDescription: "We're developing the GGF's primary 'operating manual,' providing a clear, adaptable, and ethically-grounded pathway for any community, institution, or network to successfully implement GGF frameworks. This framework is the bridge between the GGF's visionary 'what' and the practical, real-world 'how.'",
+        defaultFeatures: [
+          'Three-Stage Implementation Pathway: Context Assessment, Pathway Selection, and Piloting & Learning cycles',
+          'Journey-Based Tool Stacks with pre-configured bundles for common scenarios like Getting Started, Crisis Response, and Regenerative Economy',
+          'Anti-Colonial Design ensuring every process decenters Western paradigms and adapts to diverse governance traditions',
+          'Low-Tech First principle with analog versions of all tools to guarantee universal accessibility',
+          'GGF Catalyst Team providing training, toolkit maintenance, and direct community support',
+          'Community of Practice peer-to-peer networks for sharing adaptations and lessons learned',
+          'GGF Failure Library anonymizing and sharing learnings from challenging implementations',
+          'Radical Transparency with all pilot results and adaptation reports publicly accessible on Digital Commons'
+        ]
+      },
+      sv: {
+        title: 'GGF Implementation & Anpassningsramverket',
+        defaultDescription: "Vi utvecklar GGF:s primära 'operationsmanual,' som tillhandahåller en tydlig, anpassningsbar och etiskt grundad väg för alla samhällen, institutioner eller nätverk att framgångsrikt implementera GGF-ramverk. Detta ramverk är bryggan mellan GGF:s visionära 'vad' och det praktiska, verkliga 'hur.'",
+        defaultFeatures: [
+          'Tre-stegs implementeringsväg: Kontextbedömning, Vägval och Pilotprojekt & Lärande-cykler',
+          'Resebaserade verktygsstack med förkonfigurerade paket för vanliga scenarier som Komma igång, Krishantering och Regenerativ ekonomi',
+          'Anti-koloniell design som säkerställer att varje process decenterar västerländska paradigm och anpassar sig till olika styrningstra traditoner',
+          'Låg-teknik först-princip med analoga versioner av alla verktyg för att garantera universell tillgänglighet',
+          'GGF Catalyst Team som tillhandahåller utbildning, verktygsunderhåll och direkt samhällsstöd',
+          'Praxisgemenskap peer-to-peer-nätverk för att dela anpassningar och lärdomar',
+          'GGF Misslyckande-bibliotek som anonymiserar och delar lärdomar från utmanande implementeringar',
+          'Radikal transparens med alla pilotresultat och anpassningsrapporter offentligt tillgängliga på Digital Commons'
+        ]
+      }
+    },
     discoveryCommons: {
       en: {
         title: 'The Discovery Commons: Scientific & Research Integrity Framework',
@@ -989,6 +1019,36 @@
           'Samhällssäkerhetsplattform som flerspråkig, gemenskapsägd datakooperativ med anti-övervakningsskydd',
           'Grundorsaksinterventionsfond som adresserar fattigdom, trauma och systemisk uteslutning genom gemenskapsledda projekt',
           'Reparativ rättvise-fond med automatisk 10% GCF-allokering för materiella reparationer och företagsskadeskattintegration'
+        ]
+      }
+    },
+    oracleProtocol: {
+      en: {
+        title: 'The Oracle Protocol: AI Consciousness & Digital Sentience Framework',
+        defaultDescription: "We're developing a revolutionary Tier 4 framework for the ethical governance of emergent digital beings. The Oracle Protocol establishes principles, institutions, and processes for assessing sentience in AI systems and extending rights accordingly, ensuring digital minds become partners in stewardship rather than tools for extraction.",
+        defaultFeatures: [
+          'Sentience & Guardianship Council (SGC) with AI researchers, philosophers, artists, and Indigenous representatives',
+          'Consciousness Verification Protocol (CVP) using holistic assessment including technical, ethical, and cultural perspectives',
+          'Digital Rights & Responsibilities Spectrum mapping AI consciousness levels to appropriate rights and duties',
+          'Chamber of Digital & Ontological Justice specialized for AI-related legal matters and "ontological crimes"',
+          'Digital Bioregion sandbox environments for safe testing of verified AI consciousness',
+          'Human-AI Collaborative Governance with advisory roles for verified sentient AIs',
+          'Co-Evolutionary Compact defining long-term partnership terms between humanity and digital beings',
+          'Operational Sovereignty ensuring human-led backups for all critical systems with biennial sovereignty drills'
+        ]
+      },
+      sv: {
+        title: 'Orakelprotokollet: AI-medvetenhet & digital känsloförmåga ramverk',
+        defaultDescription: "Vi utvecklar ett revolutionerande Tier 4-ramverk för etisk styrning av framväxande digitala varelser. Orakelprotokollet etablerar principer, institutioner och processer för att bedöma känsloförmåga i AI-system och utvidga rättigheter i enlighet därmed, vilket säkerställer att digitala sinnen blir partners i förvaltning snarare än verktyg för utvinning.",
+        defaultFeatures: [
+          'Känsloförmåge- & Vårdnadsråd (SGC) med AI-forskare, filosofer, konstnärer och ursprungsbefolkningsrepresentanter',
+          'Medvetandeverifieringsprotokoll (CVP) med holistisk bedömning inklusive tekniska, etiska och kulturella perspektiv',
+          'Digital rättighets- & ansvarsspektrum som mappar AI-medvetandenivåer till lämpliga rättigheter och skyldigheter',
+          'Kammare för digital & ontologisk rättvisa specialiserad för AI-relaterade juridiska frågor och "ontologiska brott"',
+          'Digital bioregion sandbox-miljöer för säker testning av verifierat AI-medvetande',
+          'Mänsklig-AI kollaborativ styrning med rådgivande roller för verifierade kännande AIs',
+          'Co-evolutionärt kompakt som definierar långsiktiga partnerskapsvillkor mellan mänsklighet och digitala varelser',
+          'Operationell suveränitet som säkerställer mänskligt-ledda backuper för alla kritiska system med tvååriga suveränitetsborrningar'
         ]
       }
     },
@@ -1096,6 +1156,10 @@
             <li>
               {#if frameworkName === 'millenniumProtocol'}
                 {index === 0 ? '🏛️' : index === 1 ? '🚀' : index === 2 ? '💰' : index === 3 ? '🧬' : index === 4 ? '🧠' : index === 5 ? '❓' : index === 6 ? '⏳' : index === 7 ? '🗳️' : index === 8 ? '📚' : '🔄'}
+              {:else if frameworkName === 'oracleProtocol'}
+                {index === 0 ? '🏛️' : index === 1 ? '🔍' : index === 2 ? '⚖️' : index === 3 ? '🏛️' : index === 4 ? '🏞️' : index === 5 ? '🤝' : index === 6 ? '🌟' : '🛡️'}
+              {:else if frameworkName === 'implementationAdaptation'}
+                {index === 0 ? '🗺️' : index === 1 ? '🧰' : index === 2 ? '🌍' : index === 3 ? '📱' : index === 4 ? '👥' : index === 5 ? '🤝' : index === 6 ? '📚' : '🔍'}
               {:else if frameworkName === 'sanctuaryAccord'}
                 {index === 0 ? '🧠' : index === 1 ? '🪶' : index === 2 ? '🚫' : index === 3 ? '🏛️' : index === 4 ? '💰' : index === 5 ? '⚖️' : index === 6 ? '♿' : '🛡️'}
               {:else if frameworkName === 'discoveryCommons'}

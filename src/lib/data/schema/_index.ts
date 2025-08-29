@@ -11,6 +11,7 @@ import { institutionalRegenerationEntities, institutionalRegenerationRelationshi
 import { regenerativeEnterpriseEntities, regenerativeEnterpriseRelationships } from './cluster.regenerative-enterprise';
 import { justTransitionEntities, justTransitionRelationships } from './cluster.just-transition';
 import { governanceOSEntities, governanceOSRelationships } from './cluster.governance-os';
+import { implementationOSEntities, implementationOSRelationships } from './cluster.implementation-os';
 import { ethicalOSEntities, ethicalOSRelationships } from './cluster.ethical-os';
 import { justiceOSEntities, justiceOSRelationships } from './cluster.justice-os';
 import { economicOSEntities, economicOSRelationships } from './cluster.economic-os';
@@ -165,6 +166,7 @@ export const allEntities: GgfEntity[] = [
   ...regenerativeEnterpriseEntities,
   ...justTransitionEntities,
   ...governanceOSEntities,
+  ...implementationOSEntities,
   ...ethicalOSEntities,
   ...justiceOSEntities,
   ...economicOSEntities,
@@ -188,6 +190,7 @@ export const allRelationships: GgfRelationship[] = [
   ...regenerativeEnterpriseRelationships,
   ...justTransitionRelationships,
   ...governanceOSRelationships,
+  ...implementationOSRelationships,
   ...ethicalOSRelationships,
   ...justiceOSRelationships,
   ...economicOSRelationships,
@@ -218,6 +221,19 @@ export const clusters: GgfCluster[] = [
   },
 
   // TIER 1: CORE OPERATING SYSTEMS
+  {
+    id: 'implementation_os',
+    name: 'Implementation & Adaptation OS',
+    description: 'The GGF\'s primary "operating manual," providing the practical \'how-to\' for all other frameworks.',
+    tier: 1,
+    entities: [
+      'framework_implementation_adaptation',
+      'institution_ggf_catalyst',
+      'platform_community_of_practice',
+      'institution_ggf_failure_library'
+    ],
+    color: '#7c3aed' // Standard Tier 1 Purple
+  },
   {
     id: 'just_transition_security_cluster',
     name: 'Just Transition System (Security)',
