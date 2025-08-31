@@ -2,7 +2,7 @@
 title: "Omsorgens valuta: Varför universell basinkomst inte är tillräckligt"
 author: "Björn Kenneth Holmström"
 date: "2025-08-31"
-description: "En djupgående utforskning av varför UBI är en nödvändig men otillräcklig lösning på 'värderingskrisen'. Denna vitbok föreslår Adaptiv Universell Basinkomst (AUBI) och dess kreditsystem 'Hearts' som en praktisk, systemisk intervention för att formellt erkänna, värdera och kanalisera resurser till den essentiella omsorgsekonomin som ligger till grund för samhällets välbefinnande."
+description: "En djupgående utforskning av varför UBI är en nödvändig men otillräcklig lösning på 'värderingskrisen'. Detta white paper föreslår Adaptiv Universell Basinkomst (AUBI) och dess kreditsystem 'Hearts' som en praktisk, systemisk intervention för att formellt erkänna, värdera och kanalisera resurser till den essentiella omsorgsekonomin som ligger till grund för samhällets välbefinnande."
 status: "Publicerad"
 category: "Ekonomi"
 version: "1.0"
@@ -13,7 +13,7 @@ tags: ["AUBI", "Universell basinkomst", "Omsorgsekonomi", "Social valuta", "Rege
 hashtags: ["#AUBI", "#UBI", "#Omsorgsekonomi", "#HeartsValuta", "#RegenerativEkonomi", "#GGF"]
 ---
 
-# **Vitbok**: Omsorgens valuta: Varför universell basinkomst inte är tillräckligt
+# **White paper**: Omsorgens valuta: Varför universell basinkomst inte är tillräckligt
 
 **Författare:** Björn Kenneth Holmström  
 **Publikation:** Global Governance Frameworks (globalgovernanceframeworks.org)  
@@ -26,13 +26,13 @@ hashtags: ["#AUBI", "#UBI", "#Omsorgsekonomi", "#HeartsValuta", "#RegenerativEko
 
 Universell Basinkomst (UBI) ger grundläggande ekonomisk trygghet men misslyckas med att adressera den djupare krisen kring vad vårt samhälle värderar. Denna uppsats introducerar ramverket Adaptiv Universell Basinkomst (AUBI) med Hearts som icke-handelbara, gemenskapsstyrda krediter i en sluten kupongmodell. Till skillnad från traditionell välfärd som behandlar symptom, agerar detta system som "systemisk akupunktur" som riktar in sig på grundorsaken till centraliserade, instabila finansieringssystem som lämnar omsorgsarbete ekonomiskt osynligt.
 
-Vitboken presenterar AUBI inte som en färdig lösning utan som en rigorös forskningshypotes som kräver jämförande tester genom ett globalt aktionsforskningsprogram. Den föreslagna Jämförande Pilotportföljen skulle testa Hearts-system mot enklare alternativ i olika kontexter, med explicita falsifierbarhetskriterier och en 15-årig utvärdering i faser. Istället för att hävda överlägsenhet genererar denna metodik bevis för vilka typer av ekonomiska interventioner som kan hantera de ihållande utmaningarna med osynligt omsorgsarbete, ekonomisk otrygghet och fragmenterade samhällen.
+Uppsatsen presenterar AUBI inte som en färdig lösning utan som en rigorös forskningshypotes som kräver jämförande tester genom ett globalt aktionsforskningsprogram. Den föreslagna Jämförande Pilotportföljen skulle testa Hearts-system mot enklare alternativ i olika kontexter, med explicita falsifierbarhetskriterier och en 15-årig utvärdering i faser. Istället för att hävda överlägsenhet genererar denna metodik bevis för vilka typer av ekonomiska interventioner som kan hantera de ihållande utmaningarna med osynligt omsorgsarbete, ekonomisk otrygghet och fragmenterade samhällen.
 
 Forskningsprogrammet syntetiserar beprövade komponenter — sociala kuponger, kassahantering via kreditkooperativ, offentlig-privata partnerskap — till ett integrerat ramverk utformat för att främja ekonomisk motståndskraft, lokalt självbestämmande och paradigmskiften i hur samhällen mäter framgång. Framgång skulle mätas genom gemenskapsägda värdekretslopp som stärker snarare än förbrukar sina sociala och ekologiska fundament.
 
 ---
 
-**I denna vitbok:**
+**I denna uppsats:**
 
   - [1. Introduktion: Utbrändhetssamhället och löftet om UBI](#introduction)
   - [2. Varför inte enklare alternativ?](#alternatives)
@@ -60,7 +60,7 @@ Universell basinkomst har framträtt som kanske det mest övertygande svaret på
 
 Men trots alla sina löften adresserar UBI bara halva problemet. Det löser överlevnad – att säkerställa att människor har tillräckligt med pengar för att tillgodose grundläggande behov. Men det adresserar inte den djupare värderingskrisen som lämnar omsorgsarbete ekonomiskt osynligt och samhällen beroende av centraliserade, politiskt instabila finansieringsflöden. UBI ger människor pengar, men det förändrar inte ett ekonomiskt system som mäter framgång enbart genom BNP samtidigt som det behandlar omsorg som en obetald "hobby".
 
-Denna artikel introducerar en hypotes om hur vi kan gå längre: att vi inte bara behöver inkomsttrygghet, utan ekonomiska system som aktivt kanaliserar resurser till det omsorgsarbete som håller ihop våra samhällen. Ramverket Adaptiv Universell Basinkomst (AUBI), utvecklat av projektet Global Governance Framework, föreslår ett parallellt system med icke-handelbara "Hearts"-krediter som agerar som vad vi kallar "systemisk akupunktur" – en riktad intervention för att läka grundorsaken till centraliserat beroende, snarare än att bara behandla dess symptom.
+Denna uppsats introducerar en hypotes om hur vi kan gå längre: att vi inte bara behöver inkomsttrygghet, utan ekonomiska system som aktivt kanaliserar resurser till det omsorgsarbete som håller ihop våra samhällen. Ramverket Adaptiv Universell Basinkomst (AUBI), utvecklat av projektet Global Governance Framework, föreslår ett parallellt system med icke-handelbara "Hearts"-krediter som agerar som vad vi kallar "systemisk akupunktur" – en riktad intervention för att läka grundorsaken till centraliserat beroende, snarare än att bara behandla dess symptom.
 
 Det som följer är inte en färdig lösning att implementera, utan en inbjudan att delta i vad som kan vara ett av de mest ambitiösa ekonomiska forskningsprogrammen som någonsin föreslagits: en global, jämförande studie för att testa om gemenskapsägda värdekretslopp kan skapa mer motståndskraftiga och rättvisa ekonomier som prioriterar mänskligt och planetärt välmående framför enbart BNP-tillväxt.
 
@@ -577,7 +577,7 @@ Målet är inte att implementera Hearts globalt, utan att upptäcka vilka typer 
 
 ### En sista tanke
 
-Den utbrändhet som inledde denna artikel – den utmattning som kommer av att leva i system som kräver konstant produktivitet samtidigt som de behandlar omsorg som värdelös – återspeglar en djupare obalans mellan mänskliga behov och ekonomiska strukturer. Universell Basinkomst adresserar en del av detta problem genom att erbjuda trygghet, men den lämnar värderingskrisen orörd.
+Den utbrändhet som inledde denna uppsats – den utmattning som kommer av att leva i system som kräver konstant produktivitet samtidigt som de behandlar omsorg som värdelös – återspeglar en djupare obalans mellan mänskliga behov och ekonomiska strukturer. Universell Basinkomst adresserar en del av detta problem genom att erbjuda trygghet, men den lämnar värderingskrisen orörd.
 
 Hearts-systemet representerar ett försök att läka denna obalans genom att skapa ekonomiska system som erkänner omsorgsarbete, stärker samhällets motståndskraft och mäter framgång i välbefinnande snarare än bara produktion. Om just detta tillvägagångssätt visar sig vara effektivt återstår att se och kräver noggrann forskning snarare än ideologiskt engagemang.
 
@@ -607,7 +607,7 @@ GGF verkar utifrån principen att våra nuvarande globala utmaningar – klimats
 
 ### Forsknings- och utvecklingsmetod
 
-GGF använder metodiken Syntes-Utmaning-Integration (SCI-cykeln) som beskrivs i vitboken "[Cognitive Scaffolding: A Multi-Model AI Synthesis Method for Solving Complex Systemic Problems](https://globalgovernanceframeworks.org/resources/whitepapers/cognitive-scaffolding)". Denna metod använder olika AI-modeller för att syntetisera perspektiv, utmana antaganden och integrera insikter i robusta, testade ramverk.
+GGF använder metodiken Syntes-Utmaning-Integration (SCI-cykeln) som beskrivs i uppsatsen "[Cognitive Scaffolding: A Multi-Model AI Synthesis Method for Solving Complex Systemic Problems](https://globalgovernanceframeworks.org/resources/whitepapers/cognitive-scaffolding)". Denna metod använder olika AI-modeller för att syntetisera perspektiv, utmana antaganden och integrera insikter i robusta, testade ramverk.
 
 AUBI-forskningsprogrammet som beskrivs i denna uppsats representerar den första stora tillämpningen av hela SCI-cykelns metodik, och rör sig bortom syntesfasen som användes i den inledande ramverksutvecklingen för att inkludera rigorös antagonistisk testning och regenerativ integration.
 
