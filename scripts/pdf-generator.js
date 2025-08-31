@@ -166,6 +166,26 @@ const tools = [
       sv: 'GGF Vitbok - Kognitiv stöttning: En syntesmetod med flera AI-modeller för att lösa komplexa systemproblem'
     }
   },
+  {
+    name: 'the-currency-of-care',
+    category: 'whitepapers',
+    fileNames: {
+      en: 'The_Currency_of_Care_Beyond_UBI',
+      sv: 'Omsorgens_valuta_bortom_UBI'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'papers', 'en'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'papers', 'sv')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'resources', 'whitepapers'),
+      sv: path.join(__dirname, '..', 'static', 'resources', 'whitepapers')
+    },
+    pageFooter: {
+      en: "GGF Whitepaper - The Currency of Care: Why Universal Basic Income Isn't Enough",
+      sv: 'GGF Vitbok - Omsorgens valuta: Varför universell basinkomst inte är nog'
+    }
+  },
 
   // GGF Overview
   {

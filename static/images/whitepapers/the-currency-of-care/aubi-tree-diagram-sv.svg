@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 600 700"
+   version="1.1"
+   id="svg45"
+   sodipodi:docname="aubi-tree-diagram-sv.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs45" />
+  <sodipodi:namedview
+     id="namedview45"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.85458905"
+     inkscape:cx="163.23635"
+     inkscape:cy="307.75026"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg45" />
+  <rect
+     width="600"
+     height="700"
+     fill="#E2E8F0"
+     id="rect1" />
+  <text
+     x="300"
+     y="30"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     font-weight="bold"
+     fill="#1A202C"
+     id="text1">Det fyrskiktade AUBI-systemet</text>
+  <rect
+     x="0"
+     y="464.04184"
+     width="600"
+     height="235.95816"
+     fill="#d2b48c"
+     id="rect2"
+     style="stroke-width:0.971511" />
+  <ellipse
+     cx="297.51773"
+     cy="121.79669"
+     rx="180"
+     ry="60"
+     fill="#2f855a"
+     opacity="0.8"
+     id="ellipse2" />
+  <ellipse
+     cx="247.51773"
+     cy="101.79669"
+     rx="80"
+     ry="35"
+     fill="#2f855a"
+     id="ellipse3" />
+  <ellipse
+     cx="347.51773"
+     cy="111.79669"
+     rx="90"
+     ry="40"
+     fill="#2f855a"
+     id="ellipse4" />
+  <ellipse
+     cx="277.51773"
+     cy="141.79669"
+     rx="70"
+     ry="30"
+     fill="#2f855a"
+     id="ellipse5" />
+  <ellipse
+     cx="367.51773"
+     cy="141.79669"
+     rx="85"
+     ry="35"
+     fill="#2f855a"
+     id="ellipse6" />
+  <text
+     x="297.51773"
+     y="55.796692"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     fill="#1a202c"
+     id="text6">Lager 3: Rättvisebonus</text>
+  <text
+     x="197.51773"
+     y="91.796692"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#1a202c"
+     id="text7">Gottgörelse</text>
+  <text
+     x="397.51773"
+     y="101.79669"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#1a202c"
+     id="text8">Funktionsrättsstöd</text>
+  <text
+     x="297.51773"
+     y="161.79669"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#1a202c"
+     id="text9">Rättvisa</text>
+  <path
+     d="M 280,200 Q 200,240 150,300"
+     stroke="#3b2f2f"
+     stroke-width="8"
+     fill="none"
+     id="path9" />
+  <path
+     d="m 320,200 q 80,40 130,100"
+     stroke="#3b2f2f"
+     stroke-width="8"
+     fill="none"
+     id="path10" />
+  <path
+     d="m 290,210 q -40,50 -70,110"
+     stroke="#3b2f2f"
+     stroke-width="6"
+     fill="none"
+     id="path11" />
+  <path
+     d="m 310,210 q 40,50 70,110"
+     stroke="#3b2f2f"
+     stroke-width="6"
+     fill="none"
+     id="path12" />
+  <path
+     d="m 200,270 q -5,-5 -10,0 0,10 10,15 10,-5 10,-15 -5,-5 -10,0"
+     fill="#c53030"
+     id="path13" />
+  <path
+     d="m 400,270 q -5,-5 -10,0 0,10 10,15 10,-5 10,-15 -5,-5 -10,0"
+     fill="#c53030"
+     id="path14" />
+  <path
+     d="m 250,290 q -5,-5 -10,0 0,10 10,15 10,-5 10,-15 -5,-5 -10,0"
+     fill="#c53030"
+     id="path15" />
+  <path
+     d="m 180,280 q -5,-10 0,-20 5,10 0,20"
+     fill="#38a169"
+     id="path16" />
+  <path
+     d="m 420,280 q -5,-10 0,-20 5,10 0,20"
+     fill="#38a169"
+     id="path17" />
+  <path
+     d="m 370,310 q -5,-10 0,-20 5,10 0,20"
+     fill="#38a169"
+     id="path18" />
+  <path
+     d="m 230,310 q -5,-10 0,-20 5,10 0,20"
+     fill="#38a169"
+     id="path19" />
+  <text
+     x="300.82742"
+     y="194.07565"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     fill="#1a202c"
+     id="text19">Lager 2: Bidragsbonus</text>
+  <text
+     x="150"
+     y="330"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#c53030"
+     font-weight="bold"
+     id="text20">Hearts för omsorg</text>
+  <text
+     x="450"
+     y="330"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#38a169"
+     font-weight="bold"
+     id="text21">Leaves för ekologi</text>
+  <text
+     x="300"
+     y="332"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#1a202c"
+     id="text22">Samhällsarbete</text>
+  <rect
+     x="260"
+     y="342.76123"
+     width="80"
+     height="100"
+     fill="#2c5282"
+     rx="10"
+     id="rect22" />
+  <text
+     x="300"
+     y="367.76123"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     fill="#ffffff"
+     id="text23">Lager 1:</text>
+  <text
+     x="300"
+     y="384.76123"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     fill="#ffffff"
+     id="text24">Universell</text>
+  <text
+     x="300"
+     y="401.76123"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     fill="#ffffff"
+     id="text25">grundnivå</text>
+  <text
+     x="120"
+     y="386.76123"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#1a202c"
+     id="text26">Adaptiv trygghet</text>
+  <text
+     x="480"
+     y="386.76123"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#1a202c"
+     id="text27">Hybrid fiat/</text>
+  <text
+     x="480"
+     y="401.76123"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#c53030"
+     font-weight="bold"
+     id="text28">Hearts</text>
+  <text
+     x="300"
+     y="456.76123"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#1a202c"
+     id="text29">Krisresponsiv</text>
+  <path
+     d="m 280.82742,490.54373 q -30,50 -80,100"
+     stroke="#8b4513"
+     stroke-width="6"
+     fill="none"
+     id="path29" />
+  <path
+     d="m 300.82742,490.54373 q 0,50 0,100"
+     stroke="#8b4513"
+     stroke-width="8"
+     fill="none"
+     id="path30" />
+  <path
+     d="m 320.82742,490.54373 q 30,50 80,100"
+     stroke="#8b4513"
+     stroke-width="6"
+     fill="none"
+     id="path31" />
+  <path
+     d="m 290.82742,500.54373 q -30,50 -60,100"
+     stroke="#8b4513"
+     stroke-width="4"
+     fill="none"
+     id="path32" />
+  <path
+     d="m 310.82742,500.54373 q 30,50 60,100"
+     stroke="#8b4513"
+     stroke-width="4"
+     fill="none"
+     id="path33" />
+  <path
+     d="m 300.82742,510.54373 q -20,50 -40,100"
+     stroke="#8b4513"
+     stroke-width="4"
+     fill="none"
+     id="path34" />
+  <path
+     d="m 300.82742,510.54373 q 20,50 40,100"
+     stroke="#8b4513"
+     stroke-width="4"
+     fill="none"
+     id="path35" />
+  <path
+     d="m 200.82742,590.54373 q -20,30 -40,60"
+     stroke="#8b4513"
+     stroke-width="2"
+     fill="none"
+     id="path36" />
+  <path
+     d="m 200.82742,590.54373 q 20,30 40,60"
+     stroke="#8b4513"
+     stroke-width="2"
+     fill="none"
+     id="path37" />
+  <path
+     d="m 400.82742,590.54373 q -20,30 -40,60"
+     stroke="#8b4513"
+     stroke-width="2"
+     fill="none"
+     id="path38" />
+  <path
+     d="m 400.82742,590.54373 q 20,30 40,60"
+     stroke="#8b4513"
+     stroke-width="2"
+     fill="none"
+     id="path39" />
+  <path
+     d="m 300.82742,590.54373 q -20,40 -50,80"
+     stroke="#8b4513"
+     stroke-width="2"
+     fill="none"
+     id="path40" />
+  <path
+     d="m 300.82742,590.54373 q 20,40 50,80"
+     stroke="#8b4513"
+     stroke-width="2"
+     fill="none"
+     id="path41" />
+  <text
+     x="300.82742"
+     y="478.54376"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     fill="#ffffff"
+     id="text41">Lager 0: Relationell rikedom</text>
+  <text
+     x="150.82742"
+     y="630.54376"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text42">Släktskap</text>
+  <text
+     x="450.82742"
+     y="630.54376"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text43">Tillit</text>
+  <text
+     x="250.82742"
+     y="690.54376"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text44">Urfolksvisdom</text>
+  <text
+     x="350.82742"
+     y="690.54376"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text45">Tacksamhetspoletter</text>
+</svg>

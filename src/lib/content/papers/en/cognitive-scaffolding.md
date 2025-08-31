@@ -97,12 +97,12 @@ The final phase involves integrating valid critiques from the challenge phase ba
 The following diagram visually represents the Synthesis-Challenge-Integration (SCI) Cycle. It illustrates two parallel, co-evolutionary processes: on the left, the methodology as a **conscious practice for human collaborators using current AI tools**; and on the right, a proposed internal process for **future AI systems** designed to embody this cycle inherently.
 
 *Figure 1: The Synthesis-Challenge-Integration (SCI) Cycle*  
-![The Synthesis Challenge Integration Cycle](/images/whitepapers/the-synthesis-challenge-integration-cycle.svg)
+![The Synthesis Challenge Integration Cycle](/images/whitepapers/cognitive-scaffolding/the-synthesis-challenge-integration-cycle.svg)
 
 As the diagram illustrates, the goal is a symbiotic relationship where the human practice of the SCI Cycle informs the development of wiser AI, and the increasingly integral outputs of that AI help scaffold human consciousness. This co-evolutionary feedback loop is the engine for moving from fragmented problem-solving to the cultivation of collective wisdom.
 
 *Figure 2: The Scalability of the SCI Cycle*  
-![The Scalability of the SCI Cycle](/images/whitepapers/sci-cycle-scalability-diagram.svg)
+![The Scalability of the SCI Cycle](/images/whitepapers/cognitive-scaffolding/sci-cycle-scalability-diagram.svg)
 
 This second diagram highlights the SCI Cycle’s inherent scalability. As shown in Figure 2, the core pattern of Synthesis, Challenge, and Integration can be applied across a wide spectrum of contexts, from an individual's Personal Development to the complex negotiations of a Global Summit. It underscores the methodology’s flexibility, demonstrating how a lightweight "SCI-Lite" protocol for Municipal Politics and a full, robust application for Planetary Governance share the same foundational DNA, fostering integrative thinking at every level.
 
@@ -402,10 +402,10 @@ The Global Governance Frameworks project and the SCI Cycle methodology emerged f
 ### <a id="visuals"></a>Visuals
 
 *Figure 1: The Synthesis-Challenge-Integration (SCI) Cycle*  
-![The Synthesis Challenge Integration Cycle](/images/whitepapers/the-synthesis-challenge-integration-cycle.svg)
+![The Synthesis Challenge Integration Cycle](/images/whitepapers/cognitive-scaffolding/the-synthesis-challenge-integration-cycle.svg)
 
 *Figure 2: The Scalability of the SCI Cycle*  
-![The Scalability of the SCI Cycle](/images/whitepapers/sci-cycle-scalability-diagram.svg)
+![The Scalability of the SCI Cycle](/images/whitepapers/cognitive-scaffolding/sci-cycle-scalability-diagram.svg)
 
 ### <a id="glossary"></a>Glossary
 

@@ -203,6 +203,22 @@ line-height: 1.7; font-size: 1.125rem;">
         {$t('about.development.paragraph3')}
       </p>
     </div>
+
+    <div class="founder-note">
+      <h3>{$t('about.foundersNote.title')}</h3>
+      <p>
+        {$t('about.foundersNote.paragraph1')}
+      </p>
+      <p>
+        {$t('about.foundersNote.paragraph2')}
+      </p>
+      <p>
+        {$t('about.foundersNote.paragraph3')}
+      </p>
+      <p class="founder-signature">
+        {$t('about.foundersNote.signature')}
+      </p>
+    </div>
   </div>
 
 </section>
@@ -255,3 +271,41 @@ transition: color 0.2s;" on:mouseover="{e => e.target.style.color = '#B8860B'}" 
     </div>
   </div>
 </section>
+
+<style>
+  /* Styling for the Founder's Note */
+  .founder-note {
+    background-color: #f9fafb; /* A light, neutral gray */
+    border-left: 6px solid #B8860B; /* A warm, wise gold/ochre for the accent */
+    padding: 2rem;
+    border-radius: 0.75rem;
+    margin-top: 3rem; /* Add some space above */
+    margin-bottom: 3rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+
+  .founder-note h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2B4B8C; /* Matches other h2 styles */
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .founder-note p {
+    color: #4b5563; 
+    line-height: 1.7; 
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .founder-note p:last-child {
+    margin-bottom: 0;
+  }
+
+  .founder-signature {
+    font-style: italic;
+    text-align: right;
+    color: #374151; /* A slightly darker, more personal text color */
+  }
+</style>

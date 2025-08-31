@@ -97,12 +97,12 @@ Den sista fasen innebär att integrera giltig kritik från utmaningsfasen tillba
 Följande diagram representerar visuellt Syntes-Utmaning-Integration (SCI)-cykeln. Det illustrerar två parallella, samevolutionerande processer: till vänster, metodiken som en **medveten praktik för mänskliga samarbetspartners som använder nuvarande AI-verktyg**; och till höger, en föreslagen intern process för **framtida AI-system** utformade för att inneboende förkroppsliga denna cykel.
 
 *Figur 1: Syntes-Utmaning-Integration (SCI)-cykeln*
-![Syntes-Utmaning-Intergation-cykeln](/images/whitepapers/the-synthesis-challenge-integration-cycle-sv.svg)
+![Syntes-Utmaning-Intergation-cykeln](/images/whitepapers/cognitive-scaffolding/the-synthesis-challenge-integration-cycle-sv.svg)
 
 Som diagrammet illustrerar är målet en symbiotisk relation där den mänskliga praktiken av SCI-cykeln informerar utvecklingen av klokare AI, och de alltmer integrerade resultaten från den AI:n hjälper till att stötta det mänskliga medvetandet. Denna samevolutionerande återkopplingsloop är motorn för att röra sig från fragmenterad problemlösning till kultiveringen av kollektiv visdom.
 
 *Figur 2: Skalbarheten hos SCI-cykeln*
-![Skalbarheten hos SCI-cykeln](/images/whitepapers/sci-cycle-scalability-diagram-sv.svg)
+![Skalbarheten hos SCI-cykeln](/images/whitepapers/cognitive-scaffolding/sci-cycle-scalability-diagram-sv.svg)
 
 Detta andra diagram belyser SCI-cykelns inneboende skalbarhet. Som visas i Figur 2 kan kärnmönstret av Syntes, Utmaning och Integration tillämpas över ett brett spektrum av kontexter, från en individs personliga utveckling till de komplexa förhandlingarna vid ett globalt toppmöte. Det understryker metodikens flexibilitet och visar hur ett lättviktigt "SCI-Lite"-protokoll för kommunalpolitik och en fullständig, robust tillämpning för planetär styrning delar samma grundläggande DNA, vilket främjar integrativt tänkande på varje nivå.
 
@@ -409,10 +409,10 @@ Global Governance Frameworks-projektet och SCI-cykelmetodiken uppstod ur forskni
 ### <a id="visuals"></a>Visualiseringar
 
 *Figur 1: Syntes-Utmaning-Integration (SCI)-cykeln*  
-![Syntes-Utmaning-Intergation-cykeln](/images/whitepapers/the-synthesis-challenge-integration-cycle-sv.svg)
+![Syntes-Utmaning-Intergation-cykeln](/images/whitepapers/cognitive-scaffolding/the-synthesis-challenge-integration-cycle-sv.svg)
 
 *Figur 2: Skalbarheten hos SCI-cykeln*  
-![Skalbarheten hos SCI-cykeln](/images/whitepapers/sci-cycle-scalability-diagram-sv.svg)
+![Skalbarheten hos SCI-cykeln](/images/whitepapers/cognitive-scaffolding/sci-cycle-scalability-diagram-sv.svg)
 
 ### <a id="glossary"></a>Ordlista
 
