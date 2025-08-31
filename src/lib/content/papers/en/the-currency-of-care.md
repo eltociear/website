@@ -50,7 +50,7 @@ The research program synthesizes proven components—social vouchers, credit uni
 
 ---
 
-# <a id="introduction"></a>1. Introduction: The Burnout Society and the Promise of UBI
+## <a id="introduction"></a>1. Introduction: The Burnout Society and the Promise of UBI
 
 The alarm goes off at 6 AM, and Sarah Chen is already calculating: daycare drop-off by 7:30, commute to her marketing job, eight hours optimizing click-through rates for products she'll never buy, pickup by 6 PM if traffic cooperates. After dinner and bedtime stories, she'll spend two hours caring for her aging mother—managing medications, coordinating doctor visits, simply listening. This care work, arguably the most meaningful part of her day, earns her nothing. According to our economic system, it doesn't exist.
 
