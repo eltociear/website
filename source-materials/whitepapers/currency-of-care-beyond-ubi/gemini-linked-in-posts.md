@@ -29,11 +29,11 @@ I'm eager to hear your thoughts on this application of our framework.
 
 **Ämne:** Från metod till modell: AI-syntes för att lösa omsorgsekonomins kris
 
-Förra veckan introducerade jag min white paper om "Cognitive Scaffolding," som beskrev SCI-cykeln – en metod för att använda AI-modeller för att lösa komplexa systemproblem. Kärnfrågan var hur vi kan gå bortom stuprörstänkande för att utveckla holistiska lösningar.
+Förra veckan introducerade jag mitt white paper om "Cognitive Scaffolding," som beskrev SCI-cykeln – en metod för att använda AI-modeller för att lösa komplexa systemproblem. Kärnfrågan var hur vi kan gå bortom stuprörstänkande för att utveckla holistiska lösningar.
 
 Idag är jag glad att kunna dela ett konkret resultat av just den metoden.
 
-Vår nya white paper, "Omsorgens valuta: Varför universell basinkomst inte är tillräckligt," tillämpar SCI-cykeln på en av samhällets djupaste utmaningar: det faktum att omsorgsarbete är ekonomiskt osynligt. Vi argumenterar för att basinkomst (UBI) är ett viktigt steg, men att det inte löser den underliggande "värderingskrisen".
+Vårt nya white paper, "Omsorgens valuta: Varför universell basinkomst inte är tillräckligt," tillämpar SCI-cykeln på en av samhällets djupaste utmaningar: det faktum att omsorgsarbete är ekonomiskt osynligt. Vi argumenterar för att basinkomst (UBI) är ett viktigt steg, men att det inte löser den underliggande "värderingskrisen".
 
 Denna uppsats presenterar ett praktiskt och testbart ramverk för att gå längre:
 🔹 Adaptiv Universell Basinkomst (AUBI): Ett system med en "dubbel plånbok" som inte bara ger pengar för grundläggande behov, utan även...
@@ -45,7 +45,7 @@ Det här arbetet visar kraften i SCI-metoden för att gå från en abstrakt prob
 
 Utforska hela förslaget och framtiden för hur vi värderar det som verkligen betyder något.
 
-Läs hela vår white paper här: [https://globalgovernanceframeworks.org/resources/whitepapers/the-currency-of-care]
+Läs hela vårt white paper här: [https://globalgovernanceframeworks.org/resources/whitepapers/the-currency-of-care]
 
 Jag ser fram emot att höra era tankar om denna tillämpning av vårt ramverk.
 

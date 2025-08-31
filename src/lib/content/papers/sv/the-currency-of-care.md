@@ -50,7 +50,7 @@ Forskningsprogrammet syntetiserar beprövade komponenter — sociala kuponger, k
 
 ---
 
-# <a id="introduction"></a>1. Introduktion: Utbrändhetssamhället och löftet om UBI
+## <a id="introduction"></a>1. Introduktion: Utbrändhetssamhället och löftet om UBI
 
 Väckarklockan ringer 06:00, och Sarah Chen räknar redan: lämna på förskolan senast 07:30, pendla till marknadsföringsjobbet, åtta timmar med att optimera klickfrekvenser för produkter hon aldrig kommer att köpa, hämta senast 18:00 om trafiken tillåter. Efter middag och godnattsagor kommer hon att ägna två timmar åt att ta hand om sin åldrande mor – hantera mediciner, samordna läkarbesök, eller helt enkelt bara lyssna. Detta omsorgsarbete, som förmodligen är den mest meningsfulla delen av hennes dag, ger henne ingenting i lön. Enligt vårt ekonomiska system existerar det inte.
 
