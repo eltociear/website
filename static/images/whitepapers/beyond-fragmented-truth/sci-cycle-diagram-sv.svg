@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 500 500"
+   version="1.1"
+   id="svg36"
+   sodipodi:docname="sci-cycle-diagram-sv.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview36"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.692"
+     inkscape:cx="250.29551"
+     inkscape:cy="250"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg36" />
+  <defs
+     id="defs10">
+    <radialGradient
+       id="centerGrad"
+       cx="50%"
+       cy="50%">
+      <stop
+         offset="0%"
+         style="stop-color:#f3f4f6;stop-opacity:1"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#e5e7eb;stop-opacity:0.8"
+         id="stop2" />
+    </radialGradient>
+    <linearGradient
+       id="phaseGrad0"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#ef4444;stop-opacity:0.8"
+         id="stop3" />
+      <stop
+         offset="100%"
+         style="stop-color:#f87171;stop-opacity:0.6"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="phaseGrad1"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#10b981;stop-opacity:0.8"
+         id="stop5" />
+      <stop
+         offset="100%"
+         style="stop-color:#34d399;stop-opacity:0.6"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="phaseGrad2"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#f59e0b;stop-opacity:0.8"
+         id="stop7" />
+      <stop
+         offset="100%"
+         style="stop-color:#fbbf24;stop-opacity:0.6"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       id="phaseGrad3"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#8b5cf6;stop-opacity:0.8"
+         id="stop9" />
+      <stop
+         offset="100%"
+         style="stop-color:#a78bfa;stop-opacity:0.6"
+         id="stop10" />
+    </linearGradient>
+    <filter
+       id="shadow"
+       x="-0.0083333333"
+       y="-0.0083333333"
+       width="1.0166667"
+       height="1.0166667">
+      <feDropShadow
+         dx="1"
+         dy="1"
+         stdDeviation="2"
+         flood-opacity="0.3" />
+    </filter>
+  </defs>
+  <text
+     x="250"
+     y="25"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text10">SCI-cykeln med biasreducering</text>
+  <circle
+     cx="250"
+     cy="250"
+     r="60"
+     fill="url(#centerGrad)"
+     stroke="#9ca3af"
+     stroke-width="2"
+     filter="url(#shadow)"
+     id="circle10" />
+  <text
+     x="250"
+     y="240"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="#374151"
+     id="text11">AI-förstärkt</text>
+  <text
+     x="250"
+     y="255"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="#374151"
+     id="text12">filosofisk</text>
+  <text
+     x="250"
+     y="270"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="#374151"
+     id="text13">undersökning</text>
+  <ellipse
+     cx="250"
+     cy="120"
+     rx="80"
+     ry="50"
+     fill="url(#phaseGrad0)"
+     filter="url(#shadow)"
+     id="ellipse13" />
+  <text
+     x="250"
+     y="115"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="bold"
+     fill="white"
+     id="text14">Fas 0</text>
+  <text
+     x="250"
+     y="130"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="white"
+     id="text15">Dekonstruktion av bias</text>
+  <text
+     x="250"
+     y="145"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text16">Granska och mildra</text>
+  <ellipse
+     cx="380"
+     cy="250"
+     rx="80"
+     ry="50"
+     fill="url(#phaseGrad1)"
+     filter="url(#shadow)"
+     id="ellipse16" />
+  <text
+     x="380"
+     y="245"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="bold"
+     fill="white"
+     id="text17">Fas 1</text>
+  <text
+     x="380"
+     y="260"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="white"
+     id="text18">Fler-modells-</text>
+  <text
+     x="380"
+     y="275"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="white"
+     id="text19">syntes</text>
+  <ellipse
+     cx="250"
+     cy="380"
+     rx="80"
+     ry="50"
+     fill="url(#phaseGrad2)"
+     filter="url(#shadow)"
+     id="ellipse19" />
+  <text
+     x="250"
+     y="375"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="bold"
+     fill="white"
+     id="text20">Fas 2</text>
+  <text
+     x="250"
+     y="390"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="white"
+     id="text21">Adversariell</text>
+  <text
+     x="250"
+     y="405"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="white"
+     id="text22">prövning</text>
+  <ellipse
+     cx="120"
+     cy="250"
+     rx="80"
+     ry="50"
+     fill="url(#phaseGrad3)"
+     filter="url(#shadow)"
+     id="ellipse22" />
+  <text
+     x="120"
+     y="245"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="bold"
+     fill="white"
+     id="text23">Fas 3</text>
+  <text
+     x="120"
+     y="260"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="white"
+     id="text24">Regenerativ</text>
+  <text
+     x="120"
+     y="275"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="white"
+     id="text25">integration</text>
+  <defs
+     id="defs25">
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#6b7280"
+         id="polygon25" />
+    </marker>
+  </defs>
+  <path
+     d="M 300 150 Q 350 180 340 220"
+     stroke="#6b7280"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowhead)"
+     id="path25" />
+  <path
+     d="M 350 300 Q 320 350 280 350"
+     stroke="#6b7280"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowhead)"
+     id="path26" />
+  <path
+     d="M 200 350 Q 150 320 160 280"
+     stroke="#6b7280"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowhead)"
+     id="path27" />
+  <path
+     d="M 160 220 Q 180 180 220 160"
+     stroke="#6b7280"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowhead)"
+     id="path28" />
+  <rect
+     x="20"
+     y="34"
+     width="120"
+     height="80"
+     rx="10"
+     fill="#fef3c7"
+     stroke="#f59e0b"
+     stroke-width="1"
+     opacity="0.8"
+     id="rect28" />
+  <text
+     x="80"
+     y="54"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#92400e"
+     id="text28">Säkerhetsprotokoll</text>
+  <text
+     x="80"
+     y="69"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#92400e"
+     id="text29">• Kulturell samverkan</text>
+  <text
+     x="80"
+     y="82"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#92400e"
+     id="text30">• Mänsklig tillsyn</text>
+  <text
+     x="80"
+     y="95"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#92400e"
+     id="text31">• Validering krävs</text>
+  <text
+     x="80"
+     y="108"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#92400e"
+     id="text32">• Iterativ förfining</text>
+  <circle
+     cx="430"
+     cy="120"
+     r="3"
+     fill="#9ca3af"
+     id="circle32" />
+  <circle
+     cx="430"
+     cy="380"
+     r="3"
+     fill="#9ca3af"
+     id="circle33" />
+  <circle
+     cx="70"
+     cy="380"
+     r="3"
+     fill="#9ca3af"
+     id="circle34" />
+  <circle
+     cx="70"
+     cy="120"
+     r="3"
+     fill="#9ca3af"
+     id="circle35" />
+  <path
+     d="M 430 120 Q 470 250 430 380"
+     stroke="#9ca3af"
+     stroke-width="1"
+     stroke-dasharray="3,3"
+     fill="none"
+     id="path35" />
+  <path
+     d="M 70 120 Q 30 250 70 380"
+     stroke="#9ca3af"
+     stroke-width="1"
+     stroke-dasharray="3,3"
+     fill="none"
+     id="path36" />
+  <text
+     x="250"
+     y="475"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="#6b7280"
+     id="text36">Kontinuerlig förfining genom återkopplingsloopar</text>
+</svg>

@@ -1,0 +1,77 @@
+<svg viewBox="0 0 700 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="metaphysicsGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0.6" />
+    </linearGradient>
+    <linearGradient id="governanceGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#34d399;stop-opacity:0.6" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <text x="350" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1f2937">Från metafysik till metastyrning</text>
+  
+  <text x="175" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#7c3aed">Metafysiska insikter</text>
+  
+  <rect x="50" y="80" width="250" height="60" rx="10" fill="url(#metaphysicsGrad)" filter="url(#shadow)"/>
+  <text x="175" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">Dualitetskollaps</text>
+  <text x="175" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Subjekt-objekt-separationer upplöses</text>
+  <text x="175" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">under rigorös granskning</text>
+  
+  <rect x="50" y="160" width="250" height="60" rx="10" fill="url(#metaphysicsGrad)" filter="url(#shadow)"/>
+  <text x="175" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">Kunskapsasymptot</text>
+  <text x="175" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Djupare undersökning leder till insikt</text>
+  <text x="175" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">om fundamentalt icke-vetande</text>
+  
+  <rect x="50" y="240" width="250" height="60" rx="10" fill="url(#metaphysicsGrad)" filter="url(#shadow)"/>
+  <text x="175" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">Distinktionen relativt/absolut</text>
+  <text x="175" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Olika typer av sanning verkar</text>
+  <text x="175" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">på olika nivåer</text>
+  
+  <rect x="50" y="320" width="250" height="60" rx="10" fill="url(#metaphysicsGrad)" filter="url(#shadow)"/>
+  <text x="175" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">Riktningsparadoxen</text>
+  <text x="175" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Evolution sker inom</text>
+  <text x="175" y="372" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">en oföränderlig absolut grund</text>
+  
+  <text x="525" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#059669">Styrningsprinciper</text>
+  
+  <rect x="400" y="80" width="250" height="60" rx="10" fill="url(#governanceGrad)" filter="url(#shadow)"/>
+  <text x="525" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">Rätta relationer</text>
+  <text x="525" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Styrning baserad på insikt</text>
+  <text x="525" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">om grundläggande ömsesidigt beroende</text>
+  
+  <rect x="400" y="160" width="250" height="60" rx="10" fill="url(#governanceGrad)" filter="url(#shadow)"/>
+  <text x="525" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">Ontologisk ödmjukhet</text>
+  <text x="525" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">System utformade kring</text>
+  <text x="525" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">insikten om icke-vetande</text>
+  
+  <rect x="400" y="240" width="250" height="60" rx="10" fill="url(#governanceGrad)" filter="url(#shadow)"/>
+  <text x="525" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">Polycentrisk styrning</text>
+  <text x="525" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Lokal autonomi inom</text>
+  <text x="525" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">universella etiska ramverk</text>
+  
+  <rect x="400" y="320" width="250" height="60" rx="10" fill="url(#governanceGrad)" filter="url(#shadow)"/>
+  <text x="525" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">Regenerativ evolution</text>
+  <text x="525" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Kontinuerlig anpassning samtidigt som</text>
+  <text x="525" y="372" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">väsentliga värden bevaras</text>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6b7280"/>
+    </marker>
+  </defs>
+  
+  <path d="M 300 110 L 400 110" stroke="#6b7280" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <path d="M 300 190 L 400 190" stroke="#6b7280" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <path d="M 300 270 L 400 270" stroke="#6b7280" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <path d="M 300 350 L 400 350" stroke="#6b7280" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <path d="M 525 400 Q 350 450 175 400" stroke="#9ca3af" stroke-width="2" stroke-dasharray="4,4" fill="none"/>
+  <text x="350" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">Implementeringserfarenhet förfinar förståelsen</text>
+  
+  <text x="350" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Direkt översättning från filosofiska insikter till praktiska styrningsprinciper</text>
+</svg>

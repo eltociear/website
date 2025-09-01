@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 500 600"
+   version="1.1"
+   id="svg26"
+   sodipodi:docname="four-step-reasoning.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview26"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.41"
+     inkscape:cx="250"
+     inkscape:cy="300"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg26" />
+  <defs
+     id="defs8">
+    <linearGradient
+       id="stepGrad1"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="0%">
+      <stop
+         offset="0%"
+         style="stop-color:#10b981;stop-opacity:0.8"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#34d399;stop-opacity:0.6"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="stepGrad2"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="0%">
+      <stop
+         offset="0%"
+         style="stop-color:#3b82f6;stop-opacity:0.8"
+         id="stop3" />
+      <stop
+         offset="100%"
+         style="stop-color:#60a5fa;stop-opacity:0.6"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="stepGrad3"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="0%">
+      <stop
+         offset="0%"
+         style="stop-color:#f59e0b;stop-opacity:0.8"
+         id="stop5" />
+      <stop
+         offset="100%"
+         style="stop-color:#fbbf24;stop-opacity:0.6"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="stepGrad4"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="0%">
+      <stop
+         offset="0%"
+         style="stop-color:#8b5cf6;stop-opacity:0.8"
+         id="stop7" />
+      <stop
+         offset="100%"
+         style="stop-color:#a78bfa;stop-opacity:0.6"
+         id="stop8" />
+    </linearGradient>
+    <filter
+       id="shadow"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feDropShadow
+         dx="2"
+         dy="2"
+         stdDeviation="2"
+         flood-opacity="0.3" />
+    </filter>
+  </defs>
+  <!-- Title -->
+  <text
+     x="250"
+     y="30"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text8">Four-Step Reasoning Progression</text>
+  <text
+     x="250"
+     y="50"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     fill="#6b7280"
+     id="text9">Consciousness Examining Itself</text>
+  <!-- Step 1 -->
+  <rect
+     x="50"
+     y="80"
+     width="400"
+     height="80"
+     rx="15"
+     fill="url(#stepGrad1)"
+     filter="url(#shadow)"
+     id="rect9" />
+  <circle
+     cx="90"
+     cy="120"
+     r="20"
+     fill="#059669"
+     opacity="0.8"
+     id="circle9" />
+  <text
+     x="90"
+     y="127"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     fill="white"
+     id="text10">1</text>
+  <text
+     x="130"
+     y="115"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text11">Examining Experience Itself</text>
+  <text
+     x="130"
+     y="135"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     fill="#374151"
+     id="text12">The undeniable fact of present experiencing</text>
+  <text
+     x="130"
+     y="150"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     fill="#374151"
+     id="text13">Prior to interpretations about what is experienced</text>
+  <!-- Arrow 1 -->
+  <path
+     d="M 250 170 L 250 190"
+     stroke="#6b7280"
+     stroke-width="3"
+     marker-end="url(#arrowhead)"
+     id="path13" />
+  <!-- Step 2 -->
+  <rect
+     x="50"
+     y="200"
+     width="400"
+     height="80"
+     rx="15"
+     fill="url(#stepGrad2)"
+     filter="url(#shadow)"
+     id="rect13" />
+  <circle
+     cx="90"
+     cy="240"
+     r="20"
+     fill="#2563eb"
+     opacity="0.8"
+     id="circle13" />
+  <text
+     x="90"
+     y="247"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     fill="white"
+     id="text14">2</text>
+  <text
+     x="130"
+     y="235"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text15">The Self-Reference Problem</text>
+  <text
+     x="130"
+     y="255"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     fill="#374151"
+     id="text16">Consciousness investigating consciousness</text>
+  <text
+     x="130"
+     y="270"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     fill="#374151"
+     id="text17">The recursive loop of the observer problem</text>
+  <!-- Arrow 2 -->
+  <path
+     d="M 250 290 L 250 310"
+     stroke="#6b7280"
+     stroke-width="3"
+     marker-end="url(#arrowhead)"
+     id="path17" />
+  <!-- Step 3 -->
+  <rect
+     x="50"
+     y="320"
+     width="400"
+     height="80"
+     rx="15"
+     fill="url(#stepGrad3)"
+     filter="url(#shadow)"
+     id="rect17" />
+  <circle
+     cx="90"
+     cy="360"
+     r="20"
+     fill="#d97706"
+     opacity="0.8"
+     id="circle17" />
+  <text
+     x="90"
+     y="367"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     fill="white"
+     id="text18">3</text>
+  <text
+     x="130"
+     y="355"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text19">Limits of Conceptual Frameworks</text>
+  <text
+     x="130"
+     y="375"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     fill="#374151"
+     id="text20">Recognition that concepts reach natural boundaries</text>
+  <text
+     x="130"
+     y="390"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     fill="#374151"
+     id="text21">When applied to their own foundation</text>
+  <!-- Arrow 3 -->
+  <path
+     d="M 250 410 L 250 430"
+     stroke="#6b7280"
+     stroke-width="3"
+     marker-end="url(#arrowhead)"
+     id="path21" />
+  <!-- Step 4 -->
+  <rect
+     x="50"
+     y="440"
+     width="400"
+     height="80"
+     rx="15"
+     fill="url(#stepGrad4)"
+     filter="url(#shadow)"
+     id="rect21" />
+  <circle
+     cx="90"
+     cy="480"
+     r="20"
+     fill="#7c3aed"
+     opacity="0.8"
+     id="circle21" />
+  <text
+     x="90"
+     y="487"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     fill="white"
+     id="text22">4</text>
+  <text
+     x="130"
+     y="475"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text23">What Remains Beyond Frameworks</text>
+  <text
+     x="130"
+     y="495"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     fill="#374151"
+     id="text24">Recognition of what is present when</text>
+  <text
+     x="130"
+     y="510"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     fill="#374151"
+     id="text25">conceptual interpretations are relaxed</text>
+  <!-- Spiral element showing recursive nature -->
+  <path
+     d="M 470 120 Q 490 140 470 160 Q 430 180 450 200 Q 490 220 470 240 Q 430 260 450 280 Q 490 300 470 320 Q 430 340 450 360 Q 490 380 470 400 Q 430 420 450 440 Q 490 460 470 480"
+     stroke="#9ca3af"
+     stroke-width="2"
+     fill="none"
+     stroke-dasharray="4,4"
+     id="path25" />
+  <!-- Arrow markers -->
+  <defs
+     id="defs25">
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#6b7280"
+         id="polygon25" />
+    </marker>
+  </defs>
+  <!-- Bottom note -->
+  <text
+     x="250"
+     y="562"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     fill="#6b7280"
+     id="text26">Each step emerges naturally from systematic inquiry</text>
+</svg>

@@ -626,7 +626,7 @@ Samhällen, forskare och organisationer som är intresserade av att delta i AUBI
 
 GGF-projektet erkänner att ingen enskild organisation eller metodik kan lösa polykrisen. Istället syftar det till att tillhandahålla användbara verktyg och ramverk som samhällen kan anpassa till sina specifika kontexter samtidigt som de bidrar till en bredare rörelse mot regenerativa system.
 
------
+---
 
 ## <a id="appendix"></a>Appendix
 

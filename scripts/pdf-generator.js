@@ -163,7 +163,7 @@ const tools = [
     },
     pageFooter: {
       en: 'GGF Whitepaper - Cognitive Scaffolding: A Multi-Model AI Synthesis Method for Solving Complex Systemic Problems',
-      sv: 'GGF Vitbok - Kognitiv stöttning: En syntesmetod med flera AI-modeller för att lösa komplexa systemproblem'
+      sv: 'GGF Whitepaper - Kognitiv stöttning: En syntesmetod med flera AI-modeller för att lösa komplexa systemproblem'
     }
   },
   {
@@ -183,7 +183,27 @@ const tools = [
     },
     pageFooter: {
       en: "GGF Whitepaper - The Currency of Care: Why Universal Basic Income Isn't Enough",
-      sv: 'GGF Vitbok - Omsorgens valuta: Varför universell basinkomst inte är nog'
+      sv: 'GGF Whitepaper - Omsorgens valuta: Varför universell basinkomst inte är nog'
+    }
+  },
+  {
+    name: 'beyond-fragmented-truth',
+    category: 'whitepapers',
+    fileNames: {
+      en: 'Beyond_Fragmented_Truth_-_A_Reasoning_Path_from_Ancient_Wisdom_to_Modern_Governance',
+      sv: 'Bortom_fragmenterad_sanning_-_En_resonemangsväg_från_forntida_visdom_till_modern_styrning'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'papers', 'en'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'papers', 'sv')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'resources', 'whitepapers'),
+      sv: path.join(__dirname, '..', 'static', 'resources', 'whitepapers')
+    },
+    pageFooter: {
+      en: "GGF Whitepaper - Beyond Fragmented Truth: A Reasoning Path from Ancient Wisdom to Modern Governance",
+      sv: 'GGF Whitepaper - Bortom fragmenterad sanning: En resonemangsväg från forntida visdom till modern styrning'
     }
   },
 
