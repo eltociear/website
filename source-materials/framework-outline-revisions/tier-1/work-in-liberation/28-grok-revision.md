@@ -296,7 +296,7 @@ This framework builds on **AUBI’s economic foundation** (Layer 1: universal ba
 
 ## 12. Change Management
 - **The Community Weaver Role**:
-  - **Definition**: Community Weavers facilitate Community Work Teams, provide training on the Love Ledger, and teach Love, Meaning, and Connection Index (LMCI) principles. They foster engagement, coordinate contributions, and ensure alignment with Indigenous-led BAZ governance and Right Relationship principles.
+  - **Definition**: Community Weavers facilitate Community Work Teams, provide training on the Love Ledger, and teach Love, Meaning, and Connection Index (LMCI) principles. They foster engagement, coordinate contributions, and ensure alignment with Indigenous-led BAZ governance and Right Relationship principles. In addition to their facilitation duties, Weavers act as consumer protection educators, teaching financial literacy for the new GGF economy and helping community members identify and report fraudulent or manipulative practices to the Justice OS.
   - **Training**: 6-month program focusing on LMCI metrics, Indigenous protocols, conflict resolution, and community organizing, co-developed with BAZs, delivered by Master Weavers.
   - **Compensation**: Validated contributions rewarded through AUBI Layer 2 Bonuses in Hearts.
 - **Leadership**: 50,000 Community Weavers by 2032, trained under BAZ-led programs.

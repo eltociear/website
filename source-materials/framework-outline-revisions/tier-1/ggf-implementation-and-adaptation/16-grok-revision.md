@@ -26,7 +26,7 @@ To serve as the GGF's primary "operating manual," providing a clear, adaptable, 
 ## **Stage 0: Pre-Assessment Bootstrapping Protocol (For Low-Readiness Contexts)**
 *Purpose*: To build trust and capacity in communities with low social cohesion or high conflict, enabling a meaningful Context Assessment without imposing external structures.  
 * **Key Process:** Initiated upon community request or outreach, with provisional consent, this protocol ensures anti-colonial engagement through:  
-    * **Trust-Building Immersion:** GGF Catalyst Team members, trained in cultural humility and trauma-informed facilitation, conduct listening sessions (e.g., shared meals, storytelling circles) to map informal networks.  
+    * **Trust-Building Immersion:** GGF Catalyst Team members, often working alongside or as certified **Community Weavers** trained in cultural humility and trauma-informed facilitation, conduct listening sessions (e.g., shared meals, storytelling circles) to map informal networks.  
     * **Provisional Power Mapping:** Use anonymous, low-stakes methods (e.g., community art projects, surveys) to surface initial power dynamics without formal rubrics.  
     * **Capacity Seed Grants:** Provide micro-resources (e.g., facilitators, basic tools) for a "mini-convening" to self-select representatives for Stage 1 assessment.  
     * **Exit Safeguards:** Include opt-out mechanisms and third-party oversight (e.g., from the Indigenous & Traditional Knowledge Governance Framework) to prevent external control.  
@@ -81,6 +81,7 @@ This framework provides the universal methodology for implementation. To see how
 
 ## **Key Governance & Support Structures**
 * **The GGF Catalyst Team:** A central, GGF-chartered institution responsible for training **Certified Tool Facilitators**, maintaining the toolkit, and providing direct support to implementing communities. The team operates under the oversight of the **Meta-Governance Framework**, and its budget is allocated from the **Global Commons Fund** to ensure its independence and service-oriented mandate.
+  * **The Community Weaver Specialization**: While the Catalyst Team trains generalist "Certified Tool Facilitators," the **Community Weaver** is a specialized, long-term role for those embedded within a BAZ. Weavers are trained not just in GGF tools, but in deep listening, cultural translation, and facilitating the local Hearts economy. They are the primary human interface between the GGF ecosystem and the community.
 * **The Community of Practice:** A peer-to-peer network where implementers can share adaptations, success stories, and lessons learned. This network is the primary channel through which learnings from the **GGF Failure Library** and successful **Adaptation Reports** are synthesized by the **Catalyst Team** into updated toolkits and best practices that are fed back to BAZ-level guides. Its primary formal output is an annual **'State of Implementation' report**, synthesizing the year's top adaptations and common challenges, which is presented to the **Meta-Governance Framework** to inform system-wide evolution.
 * **The GGF Failure Library:** A crucial institution, managed by the **Knowledge Commons Ombudsperson**, that anonymizes and shares learnings from failed or challenging implementations to strengthen the entire ecosystem. The library functions as an active learning engine through a formal **Knowledge Translation & Synthesis Process**. The **Knowledge Commons Ombudsperson** and **Catalyst Team** conduct quarterly reviews of Adaptation Reports to distill raw failures into **Adaptable Patterns** and **Cross-Cutting Principles**, which are then shared back with the Community of Practice.
 
@@ -90,7 +91,7 @@ This framework provides the universal methodology for implementation. To see how
 * **Addressing Implementation Failure:** Tools for navigating these risks are included in the 'Journey-Tool Matrix'.
 
 ## **Funding & Resourcing Pathways**
-Initial pilots are supported by a 'Funding Onramp Protocol' which guides communities to **co-create funding plans with local stakeholders**, accessing resources like **micro-grants from the Global Commons Fund**, community-generated value via the **AUBI Framework (Hearts/Leaves)**, and partnerships with local regenerative enterprises. The GGF Catalyst Team provides direct support for navigating these pathways.
+Initial pilots are supported by a 'Funding Onramp Protocol' which guides communities to **co-create funding plans with local stakeholders**, accessing resources like **micro-grants from the Global Commons Fund to support the work of local Community Weavers**, community-generated value via the **AUBI Framework (Hearts/Leaves)**, and partnerships with local regenerative enterprises. The GGF Catalyst Team provides direct support for navigating these pathways.
 
 ## **GGF Ecosystem Integration**
 As a Tier 1 OS, this framework is the essential bridge between vision and reality:
