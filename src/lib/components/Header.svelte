@@ -312,9 +312,36 @@
   }
 
   .site-title {
-    font-size: 1.375rem !important;
+    font-size: 1.2rem !important;
     font-weight: 600;
     color: #ffffff;
+    line-height: 1.2;
+  }
+
+  /* Responsive site title sizing */
+  @media (min-width: 1200px) {
+    .header-content .site-title {
+      font-size: 1.5rem; /* Larger on wide screens */
+    }
+  }
+
+  @media (max-width: 1199px) and (min-width: 900px) {
+    .header-content .site-title {
+      font-size: 1.25rem; /* Medium size */
+    }
+  }
+
+  @media (max-width: 899px) and (min-width: 768px) {
+    .header-content .site-title {
+      font-size: 1.1rem; /* Smaller but still readable */
+    }
+  }
+
+  @media (max-width: 767px) {
+    .header-content .site-title {
+      font-size: 1rem; /* Compact for mobile */
+      white-space: normal; /* Allow wrapping on mobile if absolutely necessary */
+    }
   }
 
   /* --------------------------------------------------------------------------
