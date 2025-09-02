@@ -18,6 +18,9 @@
   },
   "header": {
     "home": "Home",
+    "resources": "Resources",
+    "whitepapers": "Whitepapers",
+    "books": "Books",
     "blog": "Blog",
     "about": "About",
     "overview": "Overview",

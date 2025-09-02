@@ -1,12 +1,12 @@
 {
   "meta": {
     "title": "Resurser - Globala styrningsramverken",
-    "description": "Utforska det omfattande biblioteket med böcker, vitböcker och resurser som utgör den filosofiska och praktiska grunden för regenerativ global styrning."
+    "description": "Utforska det omfattande biblioteket med böcker, whitepapers och resurser som utgör den filosofiska och praktiska grunden för regenerativ global styrning."
   },
   "hero": {
     "title": "Resurser",
     "subtitle": "Ett omfattande bibliotek för planetär styrning",
-    "description": "Upptäck de grundläggande böckerna, djupgående vitböckerna och väsentliga resurserna som utforskar principerna, metoderna och de praktiska tillämpningarna av regenerativ styrning för en blomstrande värld."
+    "description": "Upptäck de grundläggande böckerna, djupgående whitepapers och väsentliga resurserna som utforskar principerna, metoderna och de praktiska tillämpningarna av regenerativ styrning för en blomstrande värld."
   },
   "sections": {
     "books": {
@@ -15,9 +15,9 @@
       "stats": "böcker tillgängliga"
     },
     "whitepapers": {
-      "title": "Vitböcker",
-      "description": "Dyk djupt in i specifika GGF-metoder och förslag med våra formella vitböcker och forskningspublikationer.",
-      "stats": "publicerade vitböcker"
+      "title": "Whitepapers",
+      "description": "Dyk djupt in i specifika GGF-metoder och förslag med våra formella whitepapers och forskningspublikationer.",
+      "stats": "publicerade whitepapers"
     },
     "explore": "Utforska"
   },

@@ -1,9 +1,9 @@
 {
-  "title": "Vitböcker",
+  "title": "Whitepapers",
   "subtitle": "Forskningspublikationer som utforskar metoder och ramverk för att hantera komplexa systemutmaningar",
   "breadcrumb": {
     "resources": "Resurser",
-    "whitepapers": "Vitböcker"
+    "whitepapers": "Whitepapers"
   },
   "meta": {
     "publishedOn": "Publicerad den",
@@ -12,13 +12,13 @@
     "readTime": "min lästid"
   },
   "noPapers": {
-    "title": "Inga vitböcker hittades",
-    "message": "Inga vitböcker hittades för det valda språket ({language}). Prova att byta till ett annat språk med hjälp av språkväljaren i sidhuvudet.",
+    "title": "Inga whitepapers hittades",
+    "message": "Inga whitepapers hittades för det valda språket ({language}). Prova att byta till ett annat språk med hjälp av språkväljaren i sidhuvudet.",
     "followPrompt": "Följ oss för att få meddelanden när vi publicerar ny forskning!"
   },
   "papersCount": {
-    "single": "vitbok",
-    "plural": "vitböcker",
+    "single": "whitepaper",
+    "plural": "whitepapers",
     "found": "hittades"
   },
   "status": {
@@ -38,12 +38,12 @@
   "actions": {
     "readOnline": "Läs online",
     "downloadPdf": "Ladda ner PDF",
-    "cite": "Citera denna vitbok"
+    "cite": "Citera detta whitepaper"
   },
   "latestBadge": "Senaste",
   "strategicFollow": {
     "title": "Intresserad av vår forskning?",
-    "subtitle": "Håll dig uppdaterad för att få information om nya vitböcker och forskningspublikationer."
+    "subtitle": "Håll dig uppdaterad för att få information om nya whitepapers och forskningspublikationer."
   },
   "bottomPrompt": {
     "text": "Vill du ha forskningsuppdateringar?",

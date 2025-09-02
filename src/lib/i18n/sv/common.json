@@ -18,6 +18,9 @@
   },
   "header": {
     "home": "Hem",
+    "resources": "Resurser",
+    "whitepapers": "Whitepapers",
+    "books": "Böcker",
     "blog": "Blogg",
     "about": "Om oss",
     "overview": "Översikt",

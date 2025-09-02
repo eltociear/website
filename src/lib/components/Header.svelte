@@ -29,6 +29,7 @@
   let isMenuOpen = false;
   let isFrameworksDropdownOpen = false;
   let isGetInvolvedDropdownOpen = false;
+  let isResourcesDropdownOpen = false;
   
   // Mobile submenu states
   let isTieredFrameworksOpen = false;
@@ -36,7 +37,6 @@
 
   // Quiz state management for adaptive navigation
   let hasCompletedQuiz = false;
-
 
   // Group frameworks by tier for the tiered menu
   const frameworksByTier = {};
@@ -81,6 +81,7 @@
     if (!isMenuOpen) {
       isFrameworksDropdownOpen = false;
       isGetInvolvedDropdownOpen = false;
+      isResourcesDropdownOpen = false;
       isTieredFrameworksOpen = false;
       openTiers = {};
     }
@@ -99,6 +100,11 @@
   const toggleGetInvolvedDropdown = (e) => {
     e.stopPropagation();
     isGetInvolvedDropdownOpen = !isGetInvolvedDropdownOpen;
+  };
+
+  const toggleResourcesDropdown = (e) => {
+    e.stopPropagation();
+    isResourcesDropdownOpen = !isResourcesDropdownOpen;
   };
 
   const toggleTieredFrameworks = (e) => {
@@ -121,6 +127,7 @@
   const closeDropdowns = () => {
     if (isFrameworksDropdownOpen) isFrameworksDropdownOpen = false;
     if (isGetInvolvedDropdownOpen) isGetInvolvedDropdownOpen = false;
+    if (isResourcesDropdownOpen) isResourcesDropdownOpen = false;
   };
 
   // Position submenu to align with top of viewport for maximum visibility
@@ -232,8 +239,28 @@
     if (!browser) return false;
     return $page.url.pathname === base + path;
   }
+
+  // Helper function to determine framework link styling and content
+  function getFrameworkDisplay(framework) {
+    const isHighlighted = framework.slug === 'meta-governance' ||
+                         framework.slug === 'global-citizenship-practice' ||
+                         framework.slug === 'indigenous-governance-and-traditional-knowledge';
+    
+    const isPrimal = framework.slug === 'treaty-for-our-only-home';
+    
+    const showEmoji = !isPrimal && !isHighlighted;
+    
+    return {
+      isHighlighted,
+      isPrimal,
+      showEmoji,
+      displayText: browser ? ($t(framework.titleKey) || framework.title || framework.name || framework.slug) : (framework.title || framework.name || framework.slug),
+      emoji: framework.emoji || '🔗'
+    };
+  }
 </script>
 
+<!-- Keep all existing styles unchanged -->
 <style>
   /* ==========================================================================
      HEADER STYLES - Organized Structure
@@ -340,6 +367,9 @@
     transition: all 0.2s;
     font-size: 1rem !important;
     line-height: 1.2;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap; /* Prevent wrapping */
   }
 
   .nav-link:hover {
@@ -377,6 +407,12 @@
     position: relative;
   }
 
+  .dropdown-header {
+    display: flex;
+    align-items: center;
+    gap: 0; /* Remove any gap that might cause issues */
+  }
+
   .dropdown-icon {
     display: inline-block;
     margin-left: 0.25rem;
@@ -384,6 +420,7 @@
     transition: transform 0.2s;
     width: 14px !important;
     height: 14px !important;
+    flex-shrink: 0; /* Prevent icon from shrinking */
   }
 
   .dropdown:hover .dropdown-icon {
@@ -983,7 +1020,7 @@
     }
 
     .mobile-framework-link.primal::after {
-      content: '🌐';
+      content: '🌍';
       position: absolute;
       right: 1rem;
       top: 50%;
@@ -1124,46 +1161,86 @@
   /* --------------------------------------------------------------------------
      18. RESPONSIVE BREAKPOINTS
      -------------------------------------------------------------------------- */
-  /* Large desktop adjustments */
-  @media (max-width: 1300px) and (min-width: 768px) {
+  
+  /* Extra wide screens - more space available */
+  @media (min-width: 1400px) {
     .nav-item {
-      margin-right: 1.3rem !important;
+      margin-right: 2rem !important;
+    }
+    
+    .nav-link {
+      font-size: 1.1rem !important;
+    }
+  }
+
+  /* Large desktop adjustments */
+  @media (max-width: 1399px) and (min-width: 1200px) {
+    .nav-item {
+      margin-right: 1.8rem !important;
+    }
+    
+    .nav-link {
+      font-size: 1.05rem !important;
     }
   }
 
   /* Medium desktop adjustments */
-  @media (max-width: 1200px) and (min-width: 768px) {
+  @media (max-width: 1199px) and (min-width: 1000px) {
+    .nav-item {
+      margin-right: 1.5rem !important;
+    }
+    
+    .nav-link {
+      font-size: 1rem !important;
+    }
+    
+    .language-select {
+      font-size: 0.9rem !important;
+    }
+  }
+
+  /* Small desktop adjustments */
+  @media (max-width: 999px) and (min-width: 768px) {
     .nav-item {
       margin-right: 1.2rem !important;
     }
     
     .nav-link {
       font-size: 0.95rem !important;
+      white-space: nowrap; /* Prevent text wrapping */
     }
     
     .language-select {
       font-size: 0.85rem !important;
-    }
-  }
-
-  /* Small desktop adjustments */
-  @media (max-width: 1100px) and (min-width: 768px) {
-    .nav-item {
-      margin-right: 1.1rem !important;
-    }
-    
-    .nav-link {
-      font-size: 0.9rem !important;
-    }
-    
-    .language-select {
-      font-size: 0.8rem !important;
       padding: 0.35rem 0.6rem !important;
     }
     
     .dropdown-menu a {
       font-size: 0.85rem !important;
       padding: 0.45rem 0.8rem !important;
+    }
+
+    /* Ensure dropdown icons stay inline */
+    .dropdown-icon {
+      margin-left: 0.15rem !important;
+    }
+  }
+
+  /* Very tight desktop screens */
+  @media (max-width: 900px) and (min-width: 768px) {
+    .nav-item {
+      margin-right: 1rem !important;
+    }
+    
+    .nav-link {
+      font-size: 0.9rem !important;
+      white-space: nowrap;
+    }
+    
+    .dropdown-icon {
+      margin-left: 0.1rem !important;
+      width: 12px !important;
+      height: 12px !important;
     }
   }
 
@@ -1334,31 +1411,16 @@
                                 </span>
                               </div>
                               {#each groupFrameworks as framework}
+                                {@const display = getFrameworkDisplay(framework)}
                                 <a 
                                   href="{base}{framework.path}" 
                                   class:active={isActive(framework.path)}
-                                  class:primal={framework.slug === 'treaty-for-our-only-home'}
-                                  class:highlighted={
-                                    framework.slug === 'meta-governance' ||
-                                    framework.slug === 'global-citizenship-practice' ||
-                                    framework.slug === 'indigenous-governance-and-traditional-knowledge'
-                                  }
+                                  class:primal={display.isPrimal}
+                                  class:highlighted={display.isHighlighted}
                                   data-sveltekit-preload-data="hover" 
                                   role="menuitem"
                                 >
-              {#if framework.slug === 'treaty-for-our-only-home' || framework.slug === 'meta-governance' || framework.slug === 'global-citizenship-practice' || framework.slug === 'indigenous-governance-and-traditional-knowledge'}
-                                    {browser ? ($t(framework.titleKey) || framework.title || framework.name || framework.slug) : (framework.title || framework.name || framework.slug)}
-                                  {:else}
-                  {#if framework.slug === 'treaty-for-our-only-home' || framework.slug === 'meta-governance' || framework.slug === 'global-citizenship-practice' || framework.slug === 'indigenous-governance-and-traditional-knowledge'}
-                                  {browser ? ($t(framework.titleKey) || framework.title || framework.name || framework.slug) : (framework.title || framework.name || framework.slug)}
-                                {:else}
-                  {#if framework.slug === 'treaty-for-our-only-home' || framework.slug === 'meta-governance' || framework.slug === 'global-citizenship-practice' || framework.slug === 'indigenous-governance-and-traditional-knowledge'}
-                              {browser ? ($t(framework.titleKey) || framework.title || framework.name || framework.slug) : (framework.title || framework.name || framework.slug)}
-                            {:else}
-                              {framework.emoji || '🔗'} {browser ? ($t(framework.titleKey) || framework.title || framework.name || framework.slug) : (framework.title || framework.name || framework.slug)}
-                            {/if}
-                                {/if}
-                                  {/if}
+                                  {display.showEmoji ? display.emoji + ' ' : ''}{display.displayText}
                                 </a>
                               {/each}
                             {/if}
@@ -1372,38 +1434,32 @@
                               </span>
                             </div>
                             {#each ungroupedFrameworks as framework}
+                              {@const display = getFrameworkDisplay(framework)}
                               <a 
                                 href="{base}{framework.path}" 
                                 class:active={isActive(framework.path)}
-                                class:primal={framework.slug === 'treaty-for-our-only-home'}
-                                class:highlighted={
-                                  framework.slug === 'meta-governance' ||
-                                  framework.slug === 'global-citizenship-practice' ||
-                                  framework.slug === 'indigenous-governance-and-traditional-knowledge'
-                                }
+                                class:primal={display.isPrimal}
+                                class:highlighted={display.isHighlighted}
                                 data-sveltekit-preload-data="hover" 
                                 role="menuitem"
                               >
-                                {framework.emoji || '🔗'} {browser ? ($t(framework.titleKey) || framework.title || framework.name || framework.slug) : (framework.title || framework.name || framework.slug)}
+                                {display.showEmoji ? display.emoji + ' ' : ''}{display.displayText}
                               </a>
                             {/each}
                           {/if}
                         {:else}
                           <!-- Display all frameworks without grouping if no groups exist -->
                           {#each tierFrameworks as framework}
+                            {@const display = getFrameworkDisplay(framework)}
                             <a 
                               href="{base}{framework.path}" 
                               class:active={isActive(framework.path)}
-                              class:primal={framework.slug === 'treaty-for-our-only-home'}
-                              class:highlighted={
-                                framework.slug === 'meta-governance' ||
-                                framework.slug === 'global-citizenship-practice' ||
-                                framework.slug === 'indigenous-governance-and-traditional-knowledge'
-                              }
+                              class:primal={display.isPrimal}
+                              class:highlighted={display.isHighlighted}
                               data-sveltekit-preload-data="hover" 
                               role="menuitem"
                             >
-                              {framework.emoji || '🔗'} {browser ? ($t(framework.titleKey) || framework.title || framework.name || framework.slug) : (framework.title || framework.name || framework.slug)}
+                              {display.showEmoji ? display.emoji + ' ' : ''}{display.displayText}
                             </a>
                           {/each}
                         {/if}
@@ -1412,6 +1468,7 @@
                   {/each}
                 </div>
               </div>
+              
               <!-- Mobile: Collapsible Tiered Frameworks with Groups -->
               <div class="mobile-only">
                 <button 
@@ -1460,32 +1517,17 @@
                                 </span>
                               </div>
                               {#each groupFrameworks as framework}
+                                {@const display = getFrameworkDisplay(framework)}
                                 <a 
                                   href="{base}{framework.path}" 
                                   class:active={isActive(framework.path)}
-                                  class:primal={framework.slug === 'treaty-for-our-only-home'}
-                                  class:highlighted={
-                                    framework.slug === 'meta-governance' ||
-                                    framework.slug === 'global-citizenship-practice' ||
-                                    framework.slug === 'indigenous-governance-and-traditional-knowledge'
-                                  }
+                                  class:primal={display.isPrimal}
+                                  class:highlighted={display.isHighlighted}
                                   data-sveltekit-preload-data="hover" 
                                   role="menuitem"
                                   class="mobile-framework-link"
                                 >
-              {#if framework.slug === 'treaty-for-our-only-home' || framework.slug === 'meta-governance' || framework.slug === 'global-citizenship-practice' || framework.slug === 'indigenous-governance-and-traditional-knowledge'}
-                                    {browser ? ($t(framework.titleKey) || framework.title || framework.name || framework.slug) : (framework.title || framework.name || framework.slug)}
-                                  {:else}
-                  {#if framework.slug === 'treaty-for-our-only-home' || framework.slug === 'meta-governance' || framework.slug === 'global-citizenship-practice' || framework.slug === 'indigenous-governance-and-traditional-knowledge'}
-                                  {browser ? ($t(framework.titleKey) || framework.title || framework.name || framework.slug) : (framework.title || framework.name || framework.slug)}
-                                {:else}
-                {#if framework.slug === 'treaty-for-our-only-home' || framework.slug === 'meta-governance' || framework.slug === 'global-citizenship-practice' || framework.slug === 'indigenous-governance-and-traditional-knowledge'}
-                                {browser ? ($t(framework.titleKey) || framework.title || framework.name || framework.slug) : (framework.title || framework.name || framework.slug)}
-                              {:else}
-                                {framework.emoji || '🔗'} {browser ? ($t(framework.titleKey) || framework.title || framework.name || framework.slug) : (framework.title || framework.name || framework.slug)}
-                              {/if}
-                                {/if}
-                                  {/if}
+                                  {display.showEmoji ? display.emoji + ' ' : ''}{display.displayText}
                                 </a>
                               {/each}
                             {/if}
@@ -1499,40 +1541,34 @@
                               </span>
                             </div>
                             {#each ungroupedFrameworks as framework}
+                              {@const display = getFrameworkDisplay(framework)}
                               <a 
                                 href="{base}{framework.path}" 
                                 class:active={isActive(framework.path)}
-                                class:primal={framework.slug === 'treaty-for-our-only-home'}
-                                class:highlighted={
-                                  framework.slug === 'meta-governance' ||
-                                  framework.slug === 'global-citizenship-practice' ||
-                                  framework.slug === 'indigenous-governance-and-traditional-knowledge'
-                                }
+                                class:primal={display.isPrimal}
+                                class:highlighted={display.isHighlighted}
                                 data-sveltekit-preload-data="hover" 
                                 role="menuitem"
                                 class="mobile-framework-link"
                               >
-                                {framework.emoji || '🔗'} {browser ? ($t(framework.titleKey) || framework.title || framework.name || framework.slug) : (framework.title || framework.name || framework.slug)}
+                                {display.showEmoji ? display.emoji + ' ' : ''}{display.displayText}
                               </a>
                             {/each}
                           {/if}
                         {:else}
                           <!-- Display all frameworks without grouping if no groups exist -->
                           {#each tierFrameworks as framework}
+                            {@const display = getFrameworkDisplay(framework)}
                             <a 
                               href="{base}{framework.path}" 
                               class:active={isActive(framework.path)}
-                              class:primal={framework.slug === 'treaty-for-our-only-home'}
-                              class:highlighted={
-                                framework.slug === 'meta-governance' ||
-                                framework.slug === 'global-citizenship-practice' ||
-                                framework.slug === 'indigenous-governance-and-traditional-knowledge'
-                              }
+                              class:primal={display.isPrimal}
+                              class:highlighted={display.isHighlighted}
                               data-sveltekit-preload-data="hover" 
                               role="menuitem"
                               class="mobile-framework-link"
                             >
-                              {framework.emoji || '🔗'} {browser ? ($t(framework.titleKey) || framework.title || framework.name || framework.slug) : (framework.title || framework.name || framework.slug)}
+                              {display.showEmoji ? display.emoji + ' ' : ''}{display.displayText}
                             </a>
                           {/each}
                         {/if}
@@ -1646,14 +1682,45 @@
             </div>
           </li>
 
-          <li class="nav-item">
-            <a 
-              href="{base}/blog"
-              class={`nav-link ${isActive('/blog') ? 'active' : ''}`}
-              data-sveltekit-preload-data="hover"
-            >
-              {browser ? ($t('common.header.blog') || 'Blog') : 'Blog'}
-            </a>
+          <!-- NEW: Resources Dropdown -->
+          <li class="nav-item dropdown" class:open={isResourcesDropdownOpen}>
+            <div class="dropdown-header">
+              <a 
+                href="{base}/resources"
+                class={`nav-link ${browser && $page.url.pathname.startsWith(base + '/resources') ? 'active' : ''}`}
+                data-sveltekit-preload-data="hover"
+              >
+                {browser ? ($t('common.header.resources') || 'Resources') : 'Resources'}
+                <svg xmlns="http://www.w3.org/2000/svg" class="dropdown-icon hidden md:inline-block" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </a>
+              <button 
+                type="button" 
+                class="dropdown-toggle md:hidden" 
+                on:click|stopPropagation={toggleResourcesDropdown}
+                on:keydown={(e) => e.key === 'Enter' && toggleResourcesDropdown(e)}
+                aria-label={isResourcesDropdownOpen ? 'Close resources menu' : 'Open resources menu'}
+                role="button"
+                tabindex="0"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d={isResourcesDropdownOpen ? "M5 15l7-7 7 7" : "M19 9l-7 7-7-7"} />
+                </svg>
+              </button>
+            </div>
+
+            <div class="dropdown-menu" on:click|stopPropagation={() => {}} role="menu">
+              <a href="{base}/blog" class={isActive('/blog') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+                {browser ? ($t('common.header.blog') || 'Blog') : 'Blog'}
+              </a>
+              <a href="{base}/resources/whitepapers" class={isActive('/resources/whitepapers') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+                {browser ? ($t('common.header.whitepapers') || 'Whitepapers') : 'Whitepapers'}
+              </a>
+              <a href="{base}/resources/books" class={isActive('/resources/books') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+                {browser ? ($t('common.header.books') || 'Books') : 'Books'}
+              </a>
+            </div>
           </li>
 
           <li class="nav-item">
