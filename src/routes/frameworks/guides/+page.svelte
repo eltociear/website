@@ -112,7 +112,7 @@
       color: '#004D40', // Teal/deep green
       accentColor: '#FFD700', // Gold
       version: 'v1.0',
-      status: 'In Development',
+      status: 'Available',
       route: '/frameworks/guides/bioregional-compass',
       targetAudience: ['Community Organizers', 'Indigenous Leaders', 'Municipal Planners', 'Ecologists', 'Local Activists'],
       keyTopics: ['Community Consensus', 'Bioregional Mapping', 'Legal Scaffolding', 'Decentralized Governance', 'GGF Integration'],

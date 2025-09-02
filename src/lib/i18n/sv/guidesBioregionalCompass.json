@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Den bioregionala kompassen - Global Governance Framework",
+    "description": "En omfattande guide för att bilda bioregionala autonoma zoner (BAZ) och bygga regenerativa samhällen rotade i ömsesidighet med land och människor"
+  },
+  "title": "Den bioregionala kompassen",
+  "subtitle": "En omfattande guide för att bilda bioregionala autonoma zoner (BAZ) och bygga regenerativa samhällen",
+  "navigation": {
+    "resources": "Resurser",
+    "guides": "Implementeringsguider",
+    "currentGuide": "Bioregionala kompassen",
+    "backToGuides": "Tillbaka till implementeringsguider"
+  },
+  "loading": {
+    "text": "Laddar innehåll i guiden..."
+  },
+  "languageFallback": {
+    "title": "Innehåll på ditt språk kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+  },
+  "errors": {
+    "sectionNotFound": "Avsnittet \"{section}\" hittades inte",
+    "contentInDevelopment": "Detta innehåll är fortfarande under utveckling."
+  },
+  "actions": {
+    "downloadPdf": "Ladda ner hela guiden",
+    "explore": "Utforska resurser",
+    "viewPlaybooks": "Visa strategiguider",
+    "startGuide": "Starta formationsguiden"
+  },
+  "sections": {
+    "quickStart": {
+      "title": "Snabbstartsresurser",
+      "description": "Välj bland dessa väsentliga resurser för att påbörja er BAZ-formationsresa"
+    },
+    "main": {
+      "title": "Hela guidens avsnitt",
+      "description": "Utforska de omfattande resurserna och vägledningen för BAZ-formation"
+    },
+    "library": {
+      "title": "Resursbibliotek",
+      "description": "Omfattande verktygslådor och detaljerade resurser organiserade efter implementeringspelare",
+      "subsections": [
+        "Utvärderingspaket inför formation",
+        "Verktygslådor för de sex pelarna",
+        "Kvalitetssäkringssystem",
+        "Resurser för läranderesan"
+      ]
+    },
+    "playbooks": {
+      "title": "Specialiserade strategiguider",
+      "description": "Strategisk vägledning för komplexa utmaningar och specialiserade scenarier",
+      "subsections": [
+        "Juridisk strategi & resiliens",
+        "Kris- & konflikthantering",
+        "Externa relationer & diplomati",
+        "Teknologiintegration"
+      ]
+    },
+    "guide": {
+      "title": "Den kompletta formationsguiden",
+      "description": "En steg-för-steg-resa genom de sex pelarna för BAZ-formation",
+      "subsections": [
+        "Ramverket med de sex pelarna",
+        "Skalkänsliga anpassningar",
+        "Process för nätverksintegration",
+        "Examensprotokoll"
+      ]
+    }
+  },
+  "topSections": {
+    "baz-starter-pack": "BAZ startpaket",
+    "pre-formation-assessment": "Utvärdering inför formation",
+    "quick-start-guide": "Snabbstartsguide"
+  },
+  "metadata": {
+    "version": "Version",
+    "audience": "Målgrupp",
+    "audiences": "Målgrupper",
+    "type": "Typ av guide",
+    "implementationGuide": "Implementeringsguide"
+  },
+  "footer": {
+    "note": "Denna guide är en del av initiativet Global Governance Framework för att stödja bildandet av regenerativa samhällen över hela världen."
+  },
+  "pillars": {
+    "pillar0": {
+      "title": "Den inre grunden",
+      "subtitle": "Att kultivera medvetandet för en ny värld",
+      "description": "Bygg inre motståndskraft och kollektiv medvetenhet genom personliga praktiker och gemensam dialog"
+    },
+    "pillar1": {
+      "title": "Gnistan",
+      "subtitle": "Vision & konsensusbyggande",
+      "description": "Tänd den kollektiva viljan genom förtroendeskapande och skapandet av en delad vision"
+    },
+    "pillar2": {
+      "title": "Att finna vår plats",
+      "subtitle": "Att definiera bioregionen",
+      "description": "Kartlägg de ekologiska och kulturella konturerna av er plats med vägledning från urfolk"
+    },
+    "pillar3": {
+      "title": "Att bygga kärlet",
+      "subtitle": "Juridisk & institutionell ställning",
+      "description": "Skapa juridiska behållare och styrningsstrukturer för BAZ-aspirationer"
+    },
+    "pillar4": {
+      "title": "Att väva rådet",
+      "subtitle": "Formering av styre",
+      "description": "Bygg styrningssystem rotade i urfolksvisdom och deltagardemokrati"
+    },
+    "pillar5": {
+      "title": "Att installera operativsystemet",
+      "subtitle": "Integration av GGF:s kärnramverk",
+      "description": "Integrera protokoll från Global Governance Framework för planetär anslutning"
+    },
+    "pillar6": {
+      "title": "Att tända motorn",
+      "subtitle": "Ekonomisk suveränitet",
+      "description": "Aktivera en regenerativ ekonomi med systemen Hjärtan, Löv och AUBI"
+    }
+  },
+  "concepts": {
+    "baz": {
+      "title": "Bioregional autonom zon (BAZ)",
+      "description": "En styrningsmodell som anpassar mänskliga samhällen till ekologiska gränser och urfolks förvaltningsprotokoll"
+    },
+    "aubi": {
+      "title": "Agentisk universell basinkomst (AUBI)",
+      "description": "Ett system som ger ovillkorlig inkomst samtidigt som det belönar ekologiskt arbete och omsorgsarbete"
+    },
+    "hearts": {
+      "title": "Hjärtan-valuta",
+      "description": "Värdesystem som belönar omsorgsarbete, samhällsbyggande och socialt välbefinnande"
+    },
+    "leaves": {
+      "title": "Löv-valuta",
+      "description": "Värdesystem som backas upp av mått på ekologisk hälsa och restaureringsarbete"
+    },
+    "fpic": {
+      "title": "Fritt, föregående och informerat samtycke 2.0 (FPIC 2.0)",
+      "description": "Förbättrade samtyckesprotokoll för urfolk gällande alla beslut om mark och kultur"
+    },
+    "mvb": {
+      "title": "Minsta livskraftiga BAZ (MVB)",
+      "description": "Den första milstolpen som förflyttar ett samhälle från planering till operationell BAZ-status"
+    }
+  },
+  "categories": {
+    "assessment": "Utvärdering & planering",
+    "formation": "BAZ-formationsprocess",
+    "governance": "Styrning & rådsarbete",
+    "economics": "Ekonomiska system",
+    "legal": "Juridik & institutioner",
+    "culture": "Kultur & relationer",
+    "ecology": "Ekologiskt förvaltarskap",
+    "technology": "Teknologiintegration"
+  },
+  "phases": {
+    "foundation": {
+      "title": "Grundfasen (År 1-2)",
+      "description": "Inre arbete, visionsbyggande och bioregional kartläggning"
+    },
+    "systemSetup": {
+      "title": "Systemuppsättning (År 2-4)",
+      "description": "Juridiska ramverk, formering av styre och GGF-integration"
+    },
+    "launchIterate": {
+      "title": "Lansering & iteration (År 3-5+)",
+      "description": "Ekonomisk aktivering och kontinuerlig anpassning"
+    }
+  },
+  "scales": {
+    "homestead": {
+      "title": "Gårdsskala (<100 personer)",
+      "description": "Informell styrning, enkla juridiska strukturer, fokus på lokal ekonomi"
+    },
+    "village": {
+      "title": "Byskala (100-5 000 personer)",
+      "description": "Formell styrning med medborgarförsamlingar och offentlig kassa"
+    },
+    "bioregional": {
+      "title": "Bioregional skala (5 000+ personer)",
+      "description": "Sofistikerad juridisk person och ekonomi i flera lager"
+    }
+  },
+  "tools": {
+    "dashboard": "BAZ instrumentpanel",
+    "calculator": "Livskraftskalkylator",
+    "mapper": "Bioregional kartläggare",
+    "assessor": "Kompetensbedömning",
+    "planner": "Resursplanerare"
+  },
+  "outcomes": {
+    "ecological": "Ekologisk regeneration",
+    "social": "Samhällsresiliens",
+    "economic": "Ekonomisk suveränitet",
+    "cultural": "Kulturell vitalitet",
+    "governance": "Deltagardemokrati"
+  },
+  "resources": {
+    "templates": "Mallar & arbetsblad",
+    "caseStudies": "Fallstudier",
+    "legalGuides": "Juridisk vägledning",
+    "techGuides": "Teknikguider",
+    "facilitationGuides": "Faciliteringsresurser"
+  }
+}

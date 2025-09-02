@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "title": "Den kompletta formationsguiden - Bioregionala kompassen",
+    "description": "En steg-för-steg-resa genom de sex pelarna för BAZ-formation"
+  },
+  "title": "Den kompletta formationsguiden",
+  "subtitle": "En steg-för-steg-resa genom de sex pelarna för BAZ-formation",
+  "navigation": {
+    "resources": "Resurser",
+    "guides": "Implementeringsguider",
+    "bioregionalCompass": "Bioregionala kompassen",
+    "theGuide": "Hela guiden",
+    "previous": "Föregående",
+    "next": "Nästa"
+  },
+  "loading": {
+    "text": "Laddar innehåll i guiden..."
+  },
+  "languageFallback": {
+    "title": "Innehåll på ditt språk kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+  },
+  "errors": {
+    "sectionNotFound": "Avsnittet \"{section}\" hittades inte",
+    "contentInDevelopment": "Detta innehåll är fortfarande under utveckling.",
+    "invalidSection": "Ogiltigt avsnitt",
+    "selectValidSection": "Vänligen välj ett giltigt avsnitt från innehållsförteckningen."
+  },
+  "stats": {
+    "sections": "Avsnitt",
+    "minutesRead": "min lästid",
+    "pillars": "Pelare"
+  },
+  "tableOfContents": {
+    "title": "Innehållsförteckning",
+    "foundation": "Grundläggning",
+    "pillars": "De sex pelarna",
+    "graduation": "Examen"
+  },
+  "sections": {
+    "introduction": {
+      "title": "Introduktion",
+      "description": "Förstå visionen och syftet med bioregionala autonoma zoner"
+    },
+    "howToUseThisGuide": {
+      "title": "Hur du använder den här guiden",
+      "description": "Navigera formationsprocessen med självförtroende och tydlighet"
+    },
+    "definingYourMinimumViableBaz": {
+      "title": "Att definiera er minsta livskraftiga BAZ",
+      "description": "Sätt realistiska milstolpar och framgångsmått för er gemenskap"
+    },
+    "pillar0": {
+      "title": "Den inre grunden",
+      "subtitle": "Att kultivera medvetandet för en ny värld",
+      "description": "Bygg inre motståndskraft och kollektiv medvetenhet genom personliga praktiker och gemensam dialog"
+    },
+    "pillar1": {
+      "title": "Gistan",
+      "subtitle": "Vision & konsensusbyggande",
+      "description": "Tänd den kollektiva viljan genom förtroendeskapande och skapandet av en delad vision"
+    },
+    "pillar2": {
+      "title": "Att finna vår plats",
+      "subtitle": "Att definiera bioregionen",
+      "description": "Kartlägg de ekologiska och kulturella konturerna av er plats med vägledning från urfolk"
+    },
+    "pillar3": {
+      "title": "Att bygga kärlet",
+      "subtitle": "Juridisk & institutionell ställning",
+      "description": "Skapa juridiska behållare och styrningsstrukturer för BAZ-aspirationer"
+    },
+    "pillar4": {
+      "title": "Att väva rådet",
+      "subtitle": "Formering av styre",
+      "description": "Bygg styrningssystem rotade i urfolksvisdom och deltagardemokrati"
+    },
+    "pillar5": {
+      "title": "Att installera operativsystemet",
+      "subtitle": "Integration av GGF:s kärnramverk",
+      "description": "Integrera protokoll från Global Governance Framework för planetär anslutning"
+    },
+    "pillar6": {
+      "title": "Att tända motorn",
+      "subtitle": "Ekonomisk suveränitet",
+      "description": "Aktivera en regenerativ ekonomi med systemen Hjärtan, Löv och AUBI"
+    },
+    "graduation": {
+      "title": "Att bli en BAZ: Examen och nätverksintegration",
+      "description": "Slutför formationsprocessen och anslut till det globala BAZ-nätverket"
+    }
+  },
+  "sectionTypes": {
+    "foundation": "Grundläggning",
+    "pillar": "Pelare",
+    "graduation": "Examen"
+  },
+  "concepts": {
+    "baz": {
+      "title": "Bioregional autonom zon (BAZ)",
+      "description": "En styrningsmodell som anpassar mänskliga samhällen till ekologiska gränser och urfolks förvaltningsprotokoll"
+    },
+    "mvb": {
+      "title": "Minsta livskraftiga BAZ (MVB)",
+      "description": "Den första milstolpen som förflyttar ett samhälle från planering till operationell BAZ-status"
+    },
+    "pillars": {
+      "title": "De sex pelarna",
+      "description": "De grundläggande stadierna i BAZ-formationen, från inre arbete till ekonomisk suveränitet"
+    },
+    "innerGround": {
+      "title": "Den inre grunden",
+      "description": "Medvetandet och de personliga praktikerna som stöder ett regenerativt samhälle"
+    },
+    "spark": {
+      "title": "Gistan",
+      "description": "Den kollektiva visionen och konsensus som tänder samhällsformationen"
+    },
+    "place": {
+      "title": "Att finna platsen",
+      "description": "Att förstå och kartlägga den bioregionala kontexten för styrning"
+    },
+    "vessel": {
+      "title": "Kärlet",
+      "description": "Juridiska och institutionella strukturer som stöder BAZ-verksamheten"
+    },
+    "council": {
+      "title": "Rådet",
+      "description": "Styrningssystem baserade på urfolksvisdom och deltagardemokrati"
+    },
+    "os": {
+      "title": "Operativsystemet",
+      "description": "Integration med protokoll och nätverk från Global Governance Framework"
+    },
+    "engine": {
+      "title": "Motorn",
+      "description": "Ekonomiska system som belönar omsorgsarbete och ekologiskt förvaltarskap"
+    }
+  },
+  "phases": {
+    "foundation": {
+      "title": "Grundfasen",
+      "description": "Att lägga grunden genom inre arbete, vision och bioregional förståelse",
+      "timeframe": "Månad 1-6",
+      "focus": "Förberedelse och anpassning"
+    },
+    "formation": {
+      "title": "Formationsfasen",
+      "description": "Att bygga strukturer genom juridiska ramverk, styrning och GGF-integration",
+      "timeframe": "Månad 6-18",
+      "focus": "Struktur och system"
+    },
+    "activation": {
+      "title": "Aktiveringsfasen",
+      "description": "Att lansera ekonomiska system och ta examen till full BAZ-status",
+      "timeframe": "Månad 18-36",
+      "focus": "Implementering och drift"
+    }
+  },
+  "readingGuide": {
+    "sequential": {
+      "title": "Sekventiell läsning",
+      "description": "Följ pelarna i ordning för en komplett formationsresa",
+      "recommended": "Förstagångsläsare och nya gemenskaper"
+    },
+    "modular": {
+      "title": "Modulär läsning",
+      "description": "Hoppa till specifika pelare baserat på era nuvarande behov",
+      "recommended": "Erfarna gemenskaper och specifika utmaningar"
+    },
+    "reference": {
+      "title": "Referensanvändning",
+      "description": "Återvänd till avsnitt vid behov under implementeringen",
+      "recommended": "Aktiva BAZ-formationsprocesser"
+    }
+  },
+  "resources": {
+    "templates": "Mallar & arbetsblad",
+    "caseStudies": "Fallstudier & exempel",
+    "tools": "Implementeringsverktyg",
+    "support": "Gemensskapsstöd",
+    "legal": "Juridisk vägledning",
+    "technical": "Tekniska resurser"
+  },
+  "milestones": {
+    "convening": "Sammankallande cirkel bildad",
+    "vision": "Delad vision etablerad",
+    "mapping": "Bioregional kartläggning slutförd",
+    "legal": "Juridisk struktur vald",
+    "governance": "Styrningssystem aktivt",
+    "integration": "GGF-integration slutförd",
+    "economy": "Ekonomiskt system lanserat",
+    "graduation": "BAZ-status uppnådd"
+  },
+  "support": {
+    "mentorship": "Anslut till mentorsgemenskaper",
+    "workshops": "Delta i formationsworkshops",
+    "network": "Få tillgång till BAZ-nätverket",
+    "resources": "Ladda ner resursbiblioteket",
+    "consultation": "Få expertkonsultation"
+  },
+  "footer": {
+    "note": "Denna omfattande guide representerar den kollektiva visdomen från bioregionala samhällen världen över. Varje BAZ anpassar dessa principer till sin unika kontext samtidigt som de upprätthåller kärnåtaganden om ekologiskt förvaltarskap och social rättvisa.",
+    "license": "Licensierad under Creative Commons Erkännande-DelaLika 4.0",
+    "lastUpdated": "Senast uppdaterad"
+  }
+}

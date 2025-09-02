@@ -1,0 +1,557 @@
+{
+  "meta": {
+    "title": "Resource Library - Bioregional Compass",
+    "description": "Comprehensive toolkits and detailed resources for BAZ formation organized by implementation pillar"
+  },
+  "title": "Resource Library",
+  "subtitle": "Comprehensive toolkits and detailed resources organized by implementation pillar",
+  "navigation": {
+    "resources": "Resources",
+    "guides": "Implementation Guides",
+    "bioregionalCompass": "Bioregional Compass",
+    "library": "Resource Library"
+  },
+  "loading": {
+    "text": "Loading library content..."
+  },
+  "stats": {
+    "sections": "Sections",
+    "resources": "Resources",
+    "categories": "Categories"
+  },
+  "filter": {
+    "title": "Browse by Category",
+    "all": "All Resources"
+  },
+  "categories": {
+    "foundation": {
+      "title": "Foundation & Assessment",
+      "description": "Essential planning and readiness evaluation tools"
+    },
+    "pillars": {
+      "title": "Six Pillars Implementation",
+      "description": "Detailed toolkits for each stage of BAZ formation"
+    },
+    "advanced": {
+      "title": "Advanced Applications",
+      "description": "Cross-cutting challenges and specialized scenarios"
+    },
+    "development": {
+      "title": "Learning & Growth",
+      "description": "Educational resources and skill development"
+    },
+    "operations": {
+      "title": "Operations & Quality",
+      "description": "Management, planning, and continuous improvement"
+    }
+  },
+  "sections": {
+    "assessment-and-support-spokes": {
+      "title": "Assessment & Support Resources",
+      "description": "Pre-formation viability assessment, skills mapping, and mentorship network tools"
+    },
+    "pillar-0-spokes": {
+      "title": "Inner Work & Consciousness",
+      "description": "Personal resilience practices, steward development, and community trauma healing"
+    },
+    "pillar-1-spokes": {
+      "title": "Vision & Consensus Building",
+      "description": "Community dialogue facilitation, stakeholder mapping, and vision crafting tools"
+    },
+    "pillar-2-spokes": {
+      "title": "Bioregional Mapping",
+      "description": "Ecological assessment protocols and Indigenous knowledge integration guidelines"
+    },
+    "pillar-3-spokes": {
+      "title": "Legal & Institutional Framework",
+      "description": "Charter templates, regulatory navigation, and stakeholder relations guidance"
+    },
+    "pillar-4-spokes": {
+      "title": "Governance Formation",
+      "description": "Decentralized governance methods, power dynamics management, and youth engagement"
+    },
+    "pillar-5-spokes": {
+      "title": "GGF Integration",
+      "description": "Digital commons setup, epistemic infrastructure, and treaty adoption protocols"
+    },
+    "pillar-6-spokes": {
+      "title": "Economic Sovereignty",
+      "description": "AUBI implementation, Hearts & Leaves currency systems, and bridge economy tools"
+    },
+    "cross-cutting-spokes": {
+      "title": "Cross-Cutting Applications",
+      "description": "Crisis management, scale transitions, network coordination, and legal challenge responses"
+    },
+    "the-learning-journey": {
+      "title": "Learning & Development",
+      "description": "Pilot project sequences, support networks, youth programs, and legacy planning"
+    },
+    "resource-planning": {
+      "title": "Resource Planning",
+      "description": "Financial models, capacity building timelines, and external partnership development"
+    },
+    "quality-assurance": {
+      "title": "Quality Assurance",
+      "description": "Success metrics, risk assessment frameworks, and continuous improvement protocols"
+    },
+    "resourceCount": "Resources"
+  },
+  "actions": {
+    "explore": "Explore"
+  },
+  "help": {
+    "title": "Need Guidance?",
+    "text": "Start with the Assessment & Support section if you're new to BAZ formation, or browse the Six Pillars for implementation guidance.",
+    "backToGuide": "Back to Guide Overview",
+    "startAssessment": "Start with Assessment"
+  },
+  "assessmentSupport": {
+    "title": "Assessment & Support Resources - Bioregional Compass",
+    "description": "Essential planning tools, mentorship networks, and monitoring systems for BAZ formation"
+  },
+  "crossCuttingSpokes": {
+    "title": "Cross-Cutting Applications - Bioregional Compass", 
+    "description": "Advanced tools for crisis management, scale transitions, legal challenges, and network coordination"
+  },
+  "learningJourney": {
+    "title": "The Learning Journey - Bioregional Compass",
+    "description": "Educational resources, support networks, and skill development for BAZ formation"
+  },
+  "resourcePlanning": {
+    "title": "Resource Planning - Bioregional Compass",
+    "description": "Comprehensive planning tools for financial modeling, capacity building, and partnership development"
+  },
+  "qualityAssurance": {
+    "title": "Quality Assurance - Bioregional Compass",
+    "description": "Comprehensive quality management, metrics systems, and continuous improvement frameworks"
+  },
+  "pillar0Spokes": {
+    "title": "Pillar 0: The Inner Ground - Bioregional Compass",
+    "description": "Inner work, leadership development, and consciousness cultivation for BAZ stewards",
+    "navigation": {
+      "title": "Inner Work Resources",
+      "subtitle": "development programs"
+    },
+    "resources": {
+      "innerWorkToolkit": {
+        "title": "Inner Work Toolkit",
+        "description": "Comprehensive practices for personal resilience, mindfulness, communication, and burnout prevention",
+        "estimatedTime": "2-4 weeks foundation",
+        "difficulty": "beginner",
+        "category": "personal"
+      },
+      "stewardDevelopmentProgram": {
+        "title": "Steward Development Program", 
+        "description": "Leadership development framework including assessment, mentorship structures, and succession planning",
+        "estimatedTime": "3-6 months",
+        "difficulty": "intermediate",
+        "category": "leadership"
+      },
+      "communityTraumaHealingGuide": {
+        "title": "Community Trauma Healing Guide",
+        "description": "Approaches for addressing collective wounds and healing trauma that could impact BAZ formation",
+        "estimatedTime": "4-8 weeks", 
+        "difficulty": "advanced",
+        "category": "healing"
+      }
+    },
+    "sections": {
+      "overview": "Overview",
+      "mindfulnessAndContemplativePractices": "Mindfulness & Contemplative Practices",
+      "nonViolentCommunicationGuide": "Non-Violent Communication",
+      "burnoutPreventionAndRecoveryProtocols": "Burnout Prevention & Recovery",
+      "leadershipQualitiesAssessmentFramework": "Leadership Assessment Framework",
+      "mentorshipStructuresAndRelationships": "Mentorship Structures",
+      "leadershipTransitionAndSuccessionPlanning": "Leadership Transition & Succession"
+    },
+    "ui": {
+      "currentlyViewing": "Currently Viewing",
+      "viewResource": "View Resource",
+      "sectionsLabel": "Sections:",
+      "previousSection": "Previous",
+      "nextSection": "Next",
+      "selectResource": "Select an Inner Work Resource",
+      "selectResourceDescription": "Choose a resource from the sidebar to view its content and practices.",
+      "sectionNotFound": "Section not found",
+      "sectionInDevelopment": "is still being developed.",
+      "resourceNotFound": "Resource not found", 
+      "resourceInDevelopment": "is still being developed.",
+      "contentInLanguageComingSoon": "Content in your language coming soon",
+      "displayedInEnglish": "This section is currently displayed in English until translation is complete."
+    },
+    "categories": {
+      "personal": "Personal",
+      "leadership": "Leadership", 
+      "healing": "Healing"
+    },
+    "difficulties": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    }
+  },
+  "pillar1Spokes": {
+    "title": "Pillar 1: The Spark - Bioregional Compass",
+    "description": "Vision crafting, consensus building, and community dialogue tools for BAZ formation",
+    "navigation": {
+      "title": "Vision & Consensus Resources",
+      "subtitle": "facilitation tools"
+    },
+    "resources": {
+      "communityDialogueKit": {
+        "title": "Community Dialogue Kit",
+        "description": "Comprehensive tools for facilitating meaningful community conversations, conflict navigation, and consensus building",
+        "estimatedTime": "3-4 weeks training",
+        "difficulty": "intermediate",
+        "category": "facilitation"
+      },
+      "visionCraftingWorkbook": {
+        "title": "Vision Crafting Workbook",
+        "description": "Step-by-step guide for developing shared visions, value alignment, and future-oriented community planning",
+        "estimatedTime": "2-3 weeks",
+        "difficulty": "beginner",
+        "category": "planning"
+      },
+      "stakeholderMappingTool": {
+        "title": "Stakeholder Mapping Tool",
+        "description": "Methods for identifying, analyzing, and engaging diverse stakeholders in BAZ formation processes",
+        "estimatedTime": "1-2 weeks",
+        "difficulty": "beginner",
+        "category": "engagement"
+      }
+    },
+    "sections": {
+      "overview": "Overview",
+      "facilitatorTrainingAndSkillsDevelopment": "Facilitator Training & Skills",
+      "questionBanksAndDialogueFrameworks": "Question Banks & Frameworks",
+      "conflictNavigationAndTensionTransformation": "Conflict Navigation & Transformation"
+    },
+    "ui": {
+      "currentlyViewing": "Currently Viewing",
+      "viewResource": "View Resource",
+      "sectionsLabel": "Sections:",
+      "previousSection": "Previous",
+      "nextSection": "Next",
+      "selectResource": "Select a Vision & Consensus Resource",
+      "selectResourceDescription": "Choose a resource from the sidebar to view its content and facilitation tools.",
+      "sectionNotFound": "Section not found",
+      "sectionInDevelopment": "is still being developed.",
+      "resourceNotFound": "Resource not found",
+      "resourceInDevelopment": "is still being developed.",
+      "contentInLanguageComingSoon": "Content in your language coming soon",
+      "displayedInEnglish": "This section is currently displayed in English until translation is complete."
+    },
+    "categories": {
+      "facilitation": "Facilitation",
+      "planning": "Planning",
+      "engagement": "Engagement"
+    },
+    "difficulties": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    }
+  },
+  "pillar2Spokes": {
+    "title": "Pillar 2: Finding Our Place - Bioregional Compass",
+    "description": "Bioregional mapping, ecological assessment, and place-based understanding tools for BAZ formation",
+    "navigation": {
+      "title": "Bioregional Mapping Resources",
+      "subtitle": "assessment toolkits"
+    },
+    "resources": {
+      "bioregionalMappingForBeginners": {
+        "title": "Bioregional Mapping for Beginners",
+        "description": "Comprehensive introduction to bioregional mapping using GIS tools, citizen science, and Indigenous knowledge integration",
+        "estimatedTime": "4-6 weeks",
+        "difficulty": "intermediate",
+        "category": "mapping"
+      },
+      "ecologicalAssessmentToolkit": {
+        "title": "Ecological Assessment Toolkit",
+        "description": "Field-based methods for assessing biodiversity, soil health, watershed conditions, and ecosystem integrity",
+        "estimatedTime": "6-8 weeks",
+        "difficulty": "advanced",
+        "category": "assessment"
+      }
+    },
+    "sections": {
+      "overview": "Overview",
+      "gisAndDigitalMappingTutorials": "GIS & Digital Mapping Tutorials",
+      "citizenScienceProtocols": "Citizen Science Protocols",
+      "indigenousKnowledgeIntegrationAndFpic20": "Indigenous Knowledge Integration & FPIC 2.0",
+      "biodiversitySurveyProtocols": "Biodiversity Survey Protocols",
+      "soilHealthTestingAndAnalysis": "Soil Health Testing & Analysis",
+      "watershedAnalysisMethods": "Watershed Analysis Methods"
+    },
+    "ui": {
+      "currentlyViewing": "Currently Viewing",
+      "viewResource": "View Resource",
+      "sectionsLabel": "Sections:",
+      "previousSection": "Previous",
+      "nextSection": "Next",
+      "selectResource": "Select a Bioregional Mapping Resource",
+      "selectResourceDescription": "Choose a resource from the sidebar to view its content and assessment tools.",
+      "sectionNotFound": "Section not found",
+      "sectionInDevelopment": "is still being developed.",
+      "resourceNotFound": "Resource not found",
+      "resourceInDevelopment": "is still being developed.",
+      "contentInLanguageComingSoon": "Content in your language coming soon",
+      "displayedInEnglish": "This section is currently displayed in English until translation is complete."
+    },
+    "categories": {
+      "mapping": "Mapping",
+      "assessment": "Assessment",
+      "technical": "Technical"
+    },
+    "difficulties": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    }
+  },
+  "pillar3Spokes": {
+    "title": "Pillar 3: Building the Vessel - Bioregional Compass",
+    "description": "Legal frameworks, regulatory navigation, and institutional scaffolding for BAZ formation",
+    "navigation": {
+      "title": "Legal & Institutional Resources",
+      "subtitle": "legal toolkits"
+    },
+    "resources": {
+      "bazLegalPrimer": {
+        "title": "BAZ Legal Primer",
+        "description": "Foundational legal guidance including charter templates, legal structure decisions, and compliance frameworks for BAZ formation",
+        "estimatedTime": "3-4 weeks",
+        "difficulty": "intermediate",
+        "category": "legal"
+      },
+      "regulatoryNavigationHandbook": {
+        "title": "Regulatory Navigation Handbook",
+        "description": "Practical strategies for navigating zoning laws, building codes, tax compliance, and alternative construction approaches",
+        "estimatedTime": "2-3 weeks",
+        "difficulty": "advanced",
+        "category": "regulatory"
+      },
+      "stakeholderRelationsPlaybook": {
+        "title": "Stakeholder Relations Playbook",
+        "description": "Building effective partnerships with municipal governments, utility providers, and emergency services for BAZ integration",
+        "estimatedTime": "4-6 weeks",
+        "difficulty": "intermediate",
+        "category": "relations"
+      }
+    },
+    "sections": {
+      "overview": "Overview",
+      "legalStructureDecisionTrees": "Legal Structure Decision Trees",
+      "charterTemplatesAndFoundingDocuments": "Charter Templates & Founding Documents",
+      "complianceChecklistsAndRiskManagement": "Compliance Checklists & Risk Management",
+      "zoningStrategyAndLandUsePlanning": "Zoning Strategy & Land Use Planning",
+      "buildingCodeNavigationAndAlternativeConstruction": "Building Code Navigation & Alternative Construction",
+      "taxComplianceStrategies": "Tax Compliance Strategies",
+      "municipalPartnershipDevelopment": "Municipal Partnership Development",
+      "utilityPartnershipsAndInfrastructureIntegration": "Utility Partnerships & Infrastructure Integration",
+      "emergencyServiceMousAndCommunitySafetyIntegration": "Emergency Service MOUs & Community Safety Integration"
+    },
+    "ui": {
+      "currentlyViewing": "Currently Viewing",
+      "viewResource": "View Resource",
+      "sectionsLabel": "Sections:",
+      "previousSection": "Previous",
+      "nextSection": "Next",
+      "selectResource": "Select a Legal & Institutional Resource",
+      "selectResourceDescription": "Choose a resource from the sidebar to view its content and legal guidance.",
+      "sectionNotFound": "Section not found",
+      "sectionInDevelopment": "is still being developed.",
+      "resourceNotFound": "Resource not found",
+      "resourceInDevelopment": "is still being developed.",
+      "contentInLanguageComingSoon": "Content in your language coming soon",
+      "displayedInEnglish": "This section is currently displayed in English until translation is complete."
+    },
+    "categories": {
+      "legal": "Legal",
+      "regulatory": "Regulatory",
+      "relations": "Relations"
+    },
+    "difficulties": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    }
+  },
+  "pillar4Spokes": {
+    "title": "Pillar 4: Weaving the Council - Bioregional Compass",
+    "description": "Governance formation, power dynamics management, and youth engagement for BAZ communities",
+    "navigation": {
+      "title": "Governance Formation Resources",
+      "subtitle": "governance toolkits"
+    },
+    "resources": {
+      "decentralizedGovernanceStarterPack": {
+        "title": "Decentralized Governance Starter Pack",
+        "description": "Comprehensive introduction to decentralized governance methods including citizen assemblies, sociocratic decision-making, and conflict resolution protocols",
+        "estimatedTime": "4-6 weeks",
+        "difficulty": "intermediate",
+        "category": "governance"
+      },
+      "powerDynamicsManagementGuide": {
+        "title": "Power Dynamics Management Guide",
+        "description": "Essential strategies for recognizing, addressing, and transforming power imbalances within BAZ governance structures",
+        "estimatedTime": "3-4 weeks",
+        "difficulty": "advanced",
+        "category": "dynamics"
+      },
+      "youthEngagementHandbook": {
+        "title": "Youth Engagement Handbook",
+        "description": "Comprehensive guide for meaningful youth participation in BAZ governance, including mentorship, leadership development, and intergenerational dialogue",
+        "estimatedTime": "2-3 weeks",
+        "difficulty": "beginner",
+        "category": "engagement"
+      }
+    },
+    "sections": {
+      "citizenAssemblyGuideForBazCommunities": "Citizen Assembly Guide",
+      "sociocratsMethodsForBazGovernance": "Sociocratic Methods",
+      "conflictResolutionProtocolsForBazCommunities": "Conflict Resolution Protocols"
+    },
+    "ui": {
+      "currentlyViewing": "Currently Viewing",
+      "viewResource": "View Resource",
+      "sectionsLabel": "Sections:",
+      "previousSection": "Previous",
+      "nextSection": "Next",
+      "selectResource": "Select a Governance Formation Resource",
+      "selectResourceDescription": "Choose a resource from the sidebar to view its content and governance guidance.",
+      "sectionNotFound": "Section not found",
+      "sectionInDevelopment": "is still being developed.",
+      "resourceNotFound": "Resource not found",
+      "resourceInDevelopment": "is still being developed.",
+      "contentInLanguageComingSoon": "Content in your language coming soon",
+      "displayedInEnglish": "This section is currently displayed in English until translation is complete."
+    },
+    "categories": {
+      "governance": "Governance",
+      "dynamics": "Dynamics",
+      "engagement": "Engagement"
+    },
+    "difficulties": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    }
+  },
+  "pillar5Spokes": {
+    "title": "Pillar 5: Installing the OS - Bioregional Compass",
+    "description": "GGF framework integration, digital commons setup, and epistemic infrastructure for BAZ communities",
+    "navigation": {
+      "title": "GGF Integration Resources",
+      "subtitle": "framework toolkits"
+    },
+    "resources": {
+      "ggfIntegrationHandbook": {
+        "title": "GGF Integration Handbook",
+        "description": "Comprehensive guide for integrating BAZ communities with Global Governance Framework protocols, including delegate selection and Earth Council connections",
+        "estimatedTime": "4-6 weeks",
+        "difficulty": "intermediate",
+        "category": "integration"
+      },
+      "digitalCommonsSetupGuide": {
+        "title": "Digital Commons Setup Guide",
+        "description": "Technical guidance for establishing community media nodes, implementing data sovereignty protocols, and building digital infrastructure",
+        "estimatedTime": "3-5 weeks",
+        "difficulty": "advanced",
+        "category": "technical"
+      },
+      "epistemicInfrastructureToolkit": {
+        "title": "Epistemic Infrastructure Toolkit",
+        "description": "Tools and frameworks for knowledge preservation, truth-seeking protocols, and community learning systems within BAZ contexts",
+        "estimatedTime": "2-3 weeks",
+        "difficulty": "intermediate",
+        "category": "knowledge"
+      }
+    },
+    "sections": {
+      "overview": "Overview",
+      "delegateSelectionAndCommunityRepresentation": "Delegate Selection & Community Representation",
+      "earthCouncilConnectionProtocols": "Earth Council Connection Protocols",
+      "treatyOfOurOnlyHomeAdoption": "Treaty of Our Only Home Adoption",
+      "communityMediaNodeSetup": "Community Media Node Setup",
+      "dataSovereigntyProtocols": "Data Sovereignty Protocols"
+    },
+    "ui": {
+      "currentlyViewing": "Currently Viewing",
+      "viewResource": "View Resource",
+      "sectionsLabel": "Sections:",
+      "previousSection": "Previous",
+      "nextSection": "Next",
+      "selectResource": "Select a GGF Integration Resource",
+      "selectResourceDescription": "Choose a resource from the sidebar to view its content and integration guidance.",
+      "sectionNotFound": "Section not found",
+      "sectionInDevelopment": "is still being developed.",
+      "resourceNotFound": "Resource not found",
+      "resourceInDevelopment": "is still being developed.",
+      "contentInLanguageComingSoon": "Content in your language coming soon",
+      "displayedInEnglish": "This section is currently displayed in English until translation is complete."
+    },
+    "categories": {
+      "integration": "Integration",
+      "technical": "Technical",
+      "knowledge": "Knowledge"
+    },
+    "difficulties": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    }
+  },
+  "pillar6Spokes": {
+    "title": "Pillar 6: Igniting the Engine - Bioregional Compass",
+    "description": "Economic sovereignty, AUBI implementation, and regenerative currency systems for BAZ communities",
+    "navigation": {
+      "title": "Economic Sovereignty Resources",
+      "subtitle": "economic toolkits"
+    },
+    "resources": {
+      "aubiImplementationGuide": {
+        "title": "AUBI Implementation Guide",
+        "description": "Complete guide for implementing Abundant Universal Basic Income (AUBI) in BAZ communities, including treasury setup and community work team organization",
+        "estimatedTime": "4-8 weeks",
+        "difficulty": "intermediate",
+        "category": "economic"
+      },
+      "heartsAndLeavesCurrencyManual": {
+        "title": "Hearts & Leaves Currency Manual",
+        "description": "Comprehensive manual for implementing regenerative currency systems that reward care work (Hearts) and ecological stewardship (Leaves)",
+        "estimatedTime": "3-6 weeks",
+        "difficulty": "advanced",
+        "category": "currency"
+      },
+      "bridgeEconomyNavigator": {
+        "title": "Bridge Economy Navigator",
+        "description": "Strategic guidance for transitioning from fiat-dependent economies to regenerative systems while maintaining stability during the transition period",
+        "estimatedTime": "6-12 weeks",
+        "difficulty": "advanced",
+        "category": "transition"
+      }
+    },
+    "ui": {
+      "currentlyViewing": "Currently Viewing",
+      "viewResource": "View Resource",
+      "selectResource": "Select an Economic Sovereignty Resource",
+      "selectResourceDescription": "Choose a resource from the sidebar to view its content and economic guidance.",
+      "resourceNotFound": "Resource not found",
+      "resourceInDevelopment": "is still being developed.",
+      "contentInLanguageComingSoon": "Content in your language coming soon",
+      "displayedInEnglish": "This section is currently displayed in English until translation is complete."
+    },
+    "categories": {
+      "economic": "Economic",
+      "currency": "Currency",
+      "transition": "Transition"
+    },
+    "difficulties": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    }
+  }
+}

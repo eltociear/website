@@ -1,0 +1,557 @@
+{
+  "meta": {
+    "title": "Resursbibliotek - Bioregionala kompassen",
+    "description": "Omfattande verktygslådor och detaljerade resurser för BAZ-formation, organiserade efter implementeringspelare"
+  },
+  "title": "Resursbibliotek",
+  "subtitle": "Omfattande verktygslådor och detaljerade resurser organiserade efter implementeringspelare",
+  "navigation": {
+    "resources": "Resurser",
+    "guides": "Implementeringsguider",
+    "bioregionalCompass": "Bioregionala kompassen",
+    "library": "Resursbibliotek"
+  },
+  "loading": {
+    "text": "Laddar bibliotekets innehåll..."
+  },
+  "stats": {
+    "sections": "Avsnitt",
+    "resources": "Resurser",
+    "categories": "Kategorier"
+  },
+  "filter": {
+    "title": "Bläddra per kategori",
+    "all": "Alla resurser"
+  },
+  "categories": {
+    "foundation": {
+      "title": "Grund & utvärdering",
+      "description": "Väsentliga verktyg för planering och beredskapsutvärdering"
+    },
+    "pillars": {
+      "title": "Implementering av de sex pelarna",
+      "description": "Detaljerade verktygslådor för varje steg i BAZ-formationen"
+    },
+    "advanced": {
+      "title": "Avancerade tillämpningar",
+      "description": "Tvärgående utmaningar och specialiserade scenarier"
+    },
+    "development": {
+      "title": "Lärande & tillväxt",
+      "description": "Utbildningsresurser och kompetensutveckling"
+    },
+    "operations": {
+      "title": "Drift & kvalitet",
+      "description": "Hantering, planering och kontinuerlig förbättring"
+    }
+  },
+  "sections": {
+    "assessment-and-support-spokes": {
+      "title": "Resurser för utvärdering & stöd",
+      "description": "Verktyg för att bedöma livskraft innan formation, kompetenskartläggning och mentorsnätverk"
+    },
+    "pillar-0-spokes": {
+      "title": "Inre arbete & medvetande",
+      "description": "Praktiker för personlig resiliens, utveckling av förvaltare och läkning av gemenskapstrauman"
+    },
+    "pillar-1-spokes": {
+      "title": "Vision & konsensusbyggande",
+      "description": "Verktyg för facilitering av gemenskapsdialog, intressentkartläggning och visionsskapande"
+    },
+    "pillar-2-spokes": {
+      "title": "Bioregional kartläggning",
+      "description": "Protokoll för ekologisk bedömning och riktlinjer för integration av urfolkskunskap"
+    },
+    "pillar-3-spokes": {
+      "title": "Juridiskt & institutionellt ramverk",
+      "description": "Stadgemallar, navigering av regelverk och vägledning för intressentrelationer"
+    },
+    "pillar-4-spokes": {
+      "title": "Formering av styre",
+      "description": "Metoder för decentraliserad styrning, hantering av maktdynamik och engagemang av unga"
+    },
+    "pillar-5-spokes": {
+      "title": "GGF-integration",
+      "description": "Uppsättning av digitala allmänningar, epistemisk infrastruktur och protokoll för antagande av fördrag"
+    },
+    "pillar-6-spokes": {
+      "title": "Ekonomisk suveränitet",
+      "description": "Implementering av AUBI, valutasystemen Hjärtan & Löv, och verktyg för bryggekonomi"
+    },
+    "cross-cutting-spokes": {
+      "title": "Tvärgående tillämpningar",
+      "description": "Krishantering, skalövergångar, nätverkssamordning och svar på juridiska utmaningar"
+    },
+    "the-learning-journey": {
+      "title": "Lärande & utveckling",
+      "description": "Pilotprojektsekvenser, stödnätverk, ungdomsprogram och arvsplanering"
+    },
+    "resource-planning": {
+      "title": "Resursplanering",
+      "description": "Finansiella modeller, tidslinjer för kapacitetsuppbyggnad och utveckling av externa partnerskap"
+    },
+    "quality-assurance": {
+      "title": "Kvalitetssäkring",
+      "description": "Framgångsmått, ramverk för riskbedömning och protokoll för kontinuerlig förbättring"
+    },
+    "resourceCount": "Resurser"
+  },
+  "actions": {
+    "explore": "Utforska"
+  },
+  "help": {
+    "title": "Behöver du vägledning?",
+    "text": "Börja med avsnittet Utvärdering & stöd om du är ny inom BAZ-formation, eller bläddra bland De sex pelarna för implementeringsvägledning.",
+    "backToGuide": "Tillbaka till guidens översikt",
+    "startAssessment": "Börja med utvärdering"
+  },
+  "assessmentSupport": {
+    "title": "Resurser för utvärdering & stöd - Bioregionala kompassen",
+    "description": "Väsentliga planeringsverktyg, mentorsnätverk och övervakningssystem för BAZ-formation"
+  },
+  "crossCuttingSpokes": {
+    "title": "Tvärgående tillämpningar - Bioregionala kompassen",
+    "description": "Avancerade verktyg för krishantering, skalövergångar, juridiska utmaningar och nätverkssamordning"
+  },
+  "learningJourney": {
+    "title": "Läranderesan - Bioregionala kompassen",
+    "description": "Utbildningsresurser, stödnätverk och kompetensutveckling för BAZ-formation"
+  },
+  "resourcePlanning": {
+    "title": "Resursplanering - Bioregionala kompassen",
+    "description": "Omfattande planeringsverktyg för finansiell modellering, kapacitetsuppbyggnad och partnerskapsutveckling"
+  },
+  "qualityAssurance": {
+    "title": "Kvalitetssäkring - Bioregionala kompassen",
+    "description": "Omfattande kvalitetshantering, mätsystem och ramverk för kontinuerlig förbättring"
+  },
+  "pillar0Spokes": {
+    "title": "Pelare 0: Den inre grunden - Bioregionala kompassen",
+    "description": "Inre arbete, ledarskapsutveckling och medvetandekultivering för BAZ-förvaltare",
+    "navigation": {
+      "title": "Resurser för inre arbete",
+      "subtitle": "utvecklingsprogram"
+    },
+    "resources": {
+      "innerWorkToolkit": {
+        "title": "Verktygslåda för inre arbete",
+        "description": "Omfattande praktiker för personlig resiliens, mindfulness, kommunikation och förebyggande av utbrändhet",
+        "estimatedTime": "2-4 veckors grund",
+        "difficulty": "nybörjare",
+        "category": "personligt"
+      },
+      "stewardDevelopmentProgram": {
+        "title": "Utvecklingsprogram för förvaltare",
+        "description": "Ramverk för ledarskapsutveckling inklusive bedömning, mentorsstrukturer och successionsplanering",
+        "estimatedTime": "3-6 månader",
+        "difficulty": "medel",
+        "category": "ledarskap"
+      },
+      "communityTraumaHealingGuide": {
+        "title": "Guide för läkning av gemenskapstrauman",
+        "description": "Metoder för att hantera kollektiva sår och läka trauman som kan påverka BAZ-formationen",
+        "estimatedTime": "4-8 veckor",
+        "difficulty": "avancerad",
+        "category": "läkning"
+      }
+    },
+    "sections": {
+      "overview": "Översikt",
+      "mindfulnessAndContemplativePractices": "Mindfulness & kontemplativa praktiker",
+      "nonViolentCommunicationGuide": "Non-Violent Communication (NVC)",
+      "burnoutPreventionAndRecoveryProtocols": "Förebyggande & återhämtning från utbrändhet",
+      "leadershipQualitiesAssessmentFramework": "Ramverk för bedömning av ledaregenskaper",
+      "mentorshipStructuresAndRelationships": "Mentorsstrukturer",
+      "leadershipTransitionAndSuccessionPlanning": "Ledarskapsövergång & succession"
+    },
+    "ui": {
+      "currentlyViewing": "Visar nu",
+      "viewResource": "Visa resurs",
+      "sectionsLabel": "Avsnitt:",
+      "previousSection": "Föregående",
+      "nextSection": "Nästa",
+      "selectResource": "Välj en resurs för inre arbete",
+      "selectResourceDescription": "Välj en resurs från sidofältet för att se dess innehåll och praktiker.",
+      "sectionNotFound": "Avsnittet hittades inte",
+      "sectionInDevelopment": "är fortfarande under utveckling.",
+      "resourceNotFound": "Resursen hittades inte",
+      "resourceInDevelopment": "är fortfarande under utveckling.",
+      "contentInLanguageComingSoon": "Innehåll på ditt språk kommer snart",
+      "displayedInEnglish": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+    },
+    "categories": {
+      "personal": "Personligt",
+      "leadership": "Ledarskap",
+      "healing": "Läkning"
+    },
+    "difficulties": {
+      "beginner": "Nybörjare",
+      "intermediate": "Medel",
+      "advanced": "Avancerad"
+    }
+  },
+  "pillar1Spokes": {
+    "title": "Pelare 1: Gnistan - Bioregionala kompassen",
+    "description": "Verktyg för visionsskapande, konsensusbyggande och gemenskapsdialog för BAZ-formation",
+    "navigation": {
+      "title": "Resurser för vision & konsensus",
+      "subtitle": "faciliteringsverktyg"
+    },
+    "resources": {
+      "communityDialogueKit": {
+        "title": "Verktygslåda för gemenskapsdialog",
+        "description": "Omfattande verktyg för att facilitera meningsfulla gemenskapssamtal, konflikthantering och konsensusbyggande",
+        "estimatedTime": "3-4 veckors utbildning",
+        "difficulty": "medel",
+        "category": "facilitering"
+      },
+      "visionCraftingWorkbook": {
+        "title": "Arbetsbok för visionsskapande",
+        "description": "Steg-för-steg-guide för att utveckla delade visioner, värdegrundsanpassning och framtidsorienterad samhällsplanering",
+        "estimatedTime": "2-3 veckor",
+        "difficulty": "nybörjare",
+        "category": "planering"
+      },
+      "stakeholderMappingTool": {
+        "title": "Verktyg för intressentkartläggning",
+        "description": "Metoder for att identifiera, analysera och engagera olika intressenter i BAZ-formationsprocesser",
+        "estimatedTime": "1-2 veckor",
+        "difficulty": "nybörjare",
+        "category": "engagemang"
+      }
+    },
+    "sections": {
+      "overview": "Översikt",
+      "facilitatorTrainingAndSkillsDevelopment": "Facilitatorutbildning & kompetens",
+      "questionBanksAndDialogueFrameworks": "Frågebanker & dialogramverk",
+      "conflictNavigationAndTensionTransformation": "Konflikthantering & transformation"
+    },
+    "ui": {
+      "currentlyViewing": "Visar nu",
+      "viewResource": "Visa resurs",
+      "sectionsLabel": "Avsnitt:",
+      "previousSection": "Föregående",
+      "nextSection": "Nästa",
+      "selectResource": "Välj en resurs för vision & konsensus",
+      "selectResourceDescription": "Välj en resurs från sidofältet för att se dess innehåll och faciliteringsverktyg.",
+      "sectionNotFound": "Avsnittet hittades inte",
+      "sectionInDevelopment": "är fortfarande under utveckling.",
+      "resourceNotFound": "Resursen hittades inte",
+      "resourceInDevelopment": "är fortfarande under utveckling.",
+      "contentInLanguageComingSoon": "Innehåll på ditt språk kommer snart",
+      "displayedInEnglish": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+    },
+    "categories": {
+      "facilitation": "Facilitering",
+      "planning": "Planering",
+      "engagement": "Engagemang"
+    },
+    "difficulties": {
+      "beginner": "Nybörjare",
+      "intermediate": "Medel",
+      "advanced": "Avancerad"
+    }
+  },
+  "pillar2Spokes": {
+    "title": "Pelare 2: Att finna vår plats - Bioregionala kompassen",
+    "description": "Verktyg för bioregional kartläggning, ekologisk bedömning och platsbaserad förståelse för BAZ-formation",
+    "navigation": {
+      "title": "Resurser för bioregional kartläggning",
+      "subtitle": "bedömningsverktyg"
+    },
+    "resources": {
+      "bioregionalMappingForBeginners": {
+        "title": "Bioregional kartläggning för nybörjare",
+        "description": "Omfattande introduktion till bioregional kartläggning med GIS-verktyg, medborgarforskning och integration av urfolkskunskap",
+        "estimatedTime": "4-6 veckor",
+        "difficulty": "medel",
+        "category": "kartläggning"
+      },
+      "ecologicalAssessmentToolkit": {
+        "title": "Verktygslåda för ekologisk bedömning",
+        "description": "Fältbaserade metoder för att bedöma biologisk mångfald, markhälsa, vattendragsförhållanden och ekosystemintegritet",
+        "estimatedTime": "6-8 veckor",
+        "difficulty": "avancerad",
+        "category": "bedömning"
+      }
+    },
+    "sections": {
+      "overview": "Översikt",
+      "gisAndDigitalMappingTutorials": "GIS & digitala kartguider",
+      "citizenScienceProtocols": "Protokoll för medborgarforskning",
+      "indigenousKnowledgeIntegrationAndFpic20": "Integration av urfolkskunskap & FPIC 2.0",
+      "biodiversitySurveyProtocols": "Protokoll för inventering av biologisk mångfald",
+      "soilHealthTestingAndAnalysis": "Provtagning & analys av markhälsa",
+      "watershedAnalysisMethods": "Metoder för vattendragsanalys"
+    },
+    "ui": {
+      "currentlyViewing": "Visar nu",
+      "viewResource": "Visa resurs",
+      "sectionsLabel": "Avsnitt:",
+      "previousSection": "Föregående",
+      "nextSection": "Nästa",
+      "selectResource": "Välj en resurs för bioregional kartläggning",
+      "selectResourceDescription": "Välj en resurs från sidofältet för att se dess innehåll och bedömningsverktyg.",
+      "sectionNotFound": "Avsnittet hittades inte",
+      "sectionInDevelopment": "är fortfarande under utveckling.",
+      "resourceNotFound": "Resursen hittades inte",
+      "resourceInDevelopment": "är fortfarande under utveckling.",
+      "contentInLanguageComingSoon": "Innehåll på ditt språk kommer snart",
+      "displayedInEnglish": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+    },
+    "categories": {
+      "mapping": "Kartläggning",
+      "assessment": "Bedömning",
+      "technical": "Tekniskt"
+    },
+    "difficulties": {
+      "beginner": "Nybörjare",
+      "intermediate": "Medel",
+      "advanced": "Avancerad"
+    }
+  },
+  "pillar3Spokes": {
+    "title": "Pelare 3: Att bygga kärlet - Bioregionala kompassen",
+    "description": "Juridiska ramverk, navigering av regelverk och institutionell ställning för BAZ-formation",
+    "navigation": {
+      "title": "Juridiska & institutionella resurser",
+      "subtitle": "juridiska verktygslådor"
+    },
+    "resources": {
+      "bazLegalPrimer": {
+        "title": "Juridisk grundkurs för BAZ",
+        "description": "Grundläggande juridisk vägledning inklusive stadgemallar, beslut om juridisk struktur och efterlevnadsramverk för BAZ-formation",
+        "estimatedTime": "3-4 veckor",
+        "difficulty": "medel",
+        "category": "juridik"
+      },
+      "regulatoryNavigationHandbook": {
+        "title": "Handbok för navigering av regelverk",
+        "description": "Praktiska strategier för att navigera detaljplaner, byggnormer, skatteefterlevnad och alternativa byggmetoder",
+        "estimatedTime": "2-3 veckor",
+        "difficulty": "avancerad",
+        "category": "regelverk"
+      },
+      "stakeholderRelationsPlaybook": {
+        "title": "Strategiguide för intressentrelationer",
+        "description": "Att bygga effektiva partnerskap med kommunala förvaltningar, elleverantörer och räddningstjänst för BAZ-integration",
+        "estimatedTime": "4-6 veckor",
+        "difficulty": "medel",
+        "category": "relationer"
+      }
+    },
+    "sections": {
+      "overview": "Översikt",
+      "legalStructureDecisionTrees": "Beslutsträd för juridisk struktur",
+      "charterTemplatesAndFoundingDocuments": "Stadgemallar & grundläggande dokument",
+      "complianceChecklistsAndRiskManagement": "Checklistor för efterlevnad & riskhantering",
+      "zoningStrategyAndLandUsePlanning": "Strategi för detaljplaner & markanvändning",
+      "buildingCodeNavigationAndAlternativeConstruction": "Navigering av byggnormer & alternativa konstruktioner",
+      "taxComplianceStrategies": "Strategier för skatteefterlevnad",
+      "municipalPartnershipDevelopment": "Utveckling av kommunala partnerskap",
+      "utilityPartnershipsAndInfrastructureIntegration": "Partnerskap med elbolag & infrastrukturintegration",
+      "emergencyServiceMousAndCommunitySafetyIntegration": "Samförståndsavtal (MOU) med räddningstjänst & integration av samhällssäkerhet"
+    },
+    "ui": {
+      "currentlyViewing": "Visar nu",
+      "viewResource": "Visa resurs",
+      "sectionsLabel": "Avsnitt:",
+      "previousSection": "Föregående",
+      "nextSection": "Nästa",
+      "selectResource": "Välj en juridisk & institutionell resurs",
+      "selectResourceDescription": "Välj en resurs från sidofältet för att se dess innehåll och juridiska vägledning.",
+      "sectionNotFound": "Avsnittet hittades inte",
+      "sectionInDevelopment": "är fortfarande under utveckling.",
+      "resourceNotFound": "Resursen hittades inte",
+      "resourceInDevelopment": "är fortfarande under utveckling.",
+      "contentInLanguageComingSoon": "Innehåll på ditt språk kommer snart",
+      "displayedInEnglish": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+    },
+    "categories": {
+      "legal": "Juridik",
+      "regulatory": "Regelverk",
+      "relations": "Relationer"
+    },
+    "difficulties": {
+      "beginner": "Nybörjare",
+      "intermediate": "Medel",
+      "advanced": "Avancerad"
+    }
+  },
+  "pillar4Spokes": {
+    "title": "Pelare 4: Att väva rådet - Bioregionala kompassen",
+    "description": "Formering av styre, hantering av maktdynamik och engagemang av unga för BAZ-samhällen",
+    "navigation": {
+      "title": "Resurser för formering av styre",
+      "subtitle": "styrningsverktyg"
+    },
+    "resources": {
+      "decentralizedGovernanceStarterPack": {
+        "title": "Startpaket för decentraliserad styrning",
+        "description": "Omfattande introduktion till metoder för decentraliserad styrning inklusive medborgarförsamlingar, sociokratiskt beslutsfattande och protokoll för konflikthantering",
+        "estimatedTime": "4-6 veckor",
+        "difficulty": "medel",
+        "category": "styrning"
+      },
+      "powerDynamicsManagementGuide": {
+        "title": "Guide för hantering av maktdynamik",
+        "description": "Väsentliga strategier for att känna igen, hantera och omvandla maktobalanser inom BAZ:s styrningsstrukturer",
+        "estimatedTime": "3-4 veckor",
+        "difficulty": "avancerad",
+        "category": "dynamik"
+      },
+      "youthEngagementHandbook": {
+        "title": "Handbok för engagemang av unga",
+        "description": "Omfattande guide för meningsfullt deltagande av unga i BAZ-styrning, inklusive mentorskap, ledarskapsutveckling och generationsöverskridande dialog",
+        "estimatedTime": "2-3 veckor",
+        "difficulty": "nybörjare",
+        "category": "engagemang"
+      }
+    },
+    "sections": {
+      "citizenAssemblyGuideForBazCommunities": "Guide till medborgarförsamlingar",
+      "sociocratsMethodsForBazGovernance": "Sociokratiska metoder",
+      "conflictResolutionProtocolsForBazCommunities": "Protokoll för konflikthantering"
+    },
+    "ui": {
+      "currentlyViewing": "Visar nu",
+      "viewResource": "Visa resurs",
+      "sectionsLabel": "Avsnitt:",
+      "previousSection": "Föregående",
+      "nextSection": "Nästa",
+      "selectResource": "Välj en resurs för formering av styre",
+      "selectResourceDescription": "Välj en resurs från sidofältet för att se dess innehåll och styrningsvägledning.",
+      "sectionNotFound": "Avsnittet hittades inte",
+      "sectionInDevelopment": "är fortfarande under utveckling.",
+      "resourceNotFound": "Resursen hittades inte",
+      "resourceInDevelopment": "är fortfarande under utveckling.",
+      "contentInLanguageComingSoon": "Innehåll på ditt språk kommer snart",
+      "displayedInEnglish": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+    },
+    "categories": {
+      "governance": "Styrning",
+      "dynamics": "Dynamik",
+      "engagement": "Engagemang"
+    },
+    "difficulties": {
+      "beginner": "Nybörjare",
+      "intermediate": "Medel",
+      "advanced": "Avancerad"
+    }
+  },
+  "pillar5Spokes": {
+    "title": "Pelare 5: Att installera operativsystemet - Bioregionala kompassen",
+    "description": "Integration av GGF-ramverk, uppsättning av digitala allmänningar och epistemisk infrastruktur för BAZ-samhällen",
+    "navigation": {
+      "title": "Resurser för GGF-integration",
+      "subtitle": "ramverksverktyg"
+    },
+    "resources": {
+      "ggfIntegrationHandbook": {
+        "title": "Handbok för GGF-integration",
+        "description": "Omfattande guide för att integrera BAZ-samhällen med protokoll från Global Governance Framework, inklusive val av delegater och anslutningar till Jordrådet",
+        "estimatedTime": "4-6 veckor",
+        "difficulty": "medel",
+        "category": "integration"
+      },
+      "digitalCommonsSetupGuide": {
+        "title": "Guide för att sätta upp digitala allmänningar",
+        "description": "Teknisk vägledning för att etablera gemenskapsmedianoder, implementera protokoll för datasuveränitet och bygga digital infrastruktur",
+        "estimatedTime": "3-5 veckor",
+        "difficulty": "avancerad",
+        "category": "tekniskt"
+      },
+      "epistemicInfrastructureToolkit": {
+        "title": "Verktygslåda för epistemisk infrastruktur",
+        "description": "Verktyg och ramverk för kunskapsbevarande, sanningssökande protokoll och system för gemenskapslärande inom BAZ-kontexter",
+        "estimatedTime": "2-3 veckor",
+        "difficulty": "medel",
+        "category": "kunskap"
+      }
+    },
+    "sections": {
+      "overview": "Översikt",
+      "delegateSelectionAndCommunityRepresentation": "Val av delegater & samhällsrepresentation",
+      "earthCouncilConnectionProtocols": "Anslutningsprotokoll till Jordrådet",
+      "treatyOfOurOnlyHomeAdoption": "Antagande av Fördraget för vårt enda hem",
+      "communityMediaNodeSetup": "Uppsättning av gemenskapsmedianod",
+      "dataSovereigntyProtocols": "Protokoll för datasuveränitet"
+    },
+    "ui": {
+      "currentlyViewing": "Visar nu",
+      "viewResource": "Visa resurs",
+      "sectionsLabel": "Avsnitt:",
+      "previousSection": "Föregående",
+      "nextSection": "Nästa",
+      "selectResource": "Välj en resurs för GGF-integration",
+      "selectResourceDescription": "Välj en resurs från sidofältet för att se dess innehåll och integrationsvägledning.",
+      "sectionNotFound": "Avsnittet hittades inte",
+      "sectionInDevelopment": "är fortfarande under utveckling.",
+      "resourceNotFound": "Resursen hittades inte",
+      "resourceInDevelopment": "är fortfarande under utveckling.",
+      "contentInLanguageComingSoon": "Innehåll på ditt språk kommer snart",
+      "displayedInEnglish": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+    },
+    "categories": {
+      "integration": "Integration",
+      "technical": "Tekniskt",
+      "knowledge": "Kunskap"
+    },
+    "difficulties": {
+      "beginner": "Nybörjare",
+      "intermediate": "Medel",
+      "advanced": "Avancerad"
+    }
+  },
+  "pillar6Spokes": {
+    "title": "Pelare 6: Att tända motorn - Bioregionala kompassen",
+    "description": "Ekonomisk suveränitet, implementering av AUBI och regenerativa valutasystem för BAZ-samhällen",
+    "navigation": {
+      "title": "Resurser för ekonomisk suveränitet",
+      "subtitle": "ekonomiska verktygslådor"
+    },
+    "resources": {
+      "aubiImplementationGuide": {
+        "title": "Implementeringsguide för AUBI",
+        "description": "Komplett guide för att implementera Överflödande universell basinkomst (AUBI) i BAZ-samhällen, inklusive uppsättning av kassa och organisering av arbetslag i samhället",
+        "estimatedTime": "4-8 veckor",
+        "difficulty": "medel",
+        "category": "ekonomiskt"
+      },
+      "heartsAndLeavesCurrencyManual": {
+        "title": "Manual för valutorna Hjärtan & Löv",
+        "description": "Omfattande manual för att implementera regenerativa valutasystem som belönar omsorgsarbete (Hjärtan) och ekologiskt förvaltarskap (Löv)",
+        "estimatedTime": "3-6 veckor",
+        "difficulty": "avancerad",
+        "category": "valuta"
+      },
+      "bridgeEconomyNavigator": {
+        "title": "Navigator för bryggekonomi",
+        "description": "Strategisk vägledning för att övergå från fiat-beroende ekonomier till regenerativa system och samtidigt bibehålla stabilitet under övergångsperioden",
+        "estimatedTime": "6-12 veckor",
+        "difficulty": "avancerad",
+        "category": "övergång"
+      }
+    },
+    "ui": {
+      "currentlyViewing": "Visar nu",
+      "viewResource": "Visa resurs",
+      "selectResource": "Välj en resurs för ekonomisk suveränitet",
+      "selectResourceDescription": "Välj en resurs från sidofältet för att se dess innehåll och ekonomiska vägledning.",
+      "resourceNotFound": "Resursen hittades inte",
+      "resourceInDevelopment": "är fortfarande under utveckling.",
+      "contentInLanguageComingSoon": "Innehåll på ditt språk kommer snart",
+      "displayedInEnglish": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+    },
+    "categories": {
+      "economic": "Ekonomiskt",
+      "currency": "Valuta",
+      "transition": "Övergång"
+    },
+    "difficulties": {
+      "beginner": "Nybörjare",
+      "intermediate": "Medel",
+      "advanced": "Avancerad"
+    }
+  }
+}

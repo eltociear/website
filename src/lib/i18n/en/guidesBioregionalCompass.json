@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "The Bioregional Compass - Global Governance Framework",
+    "description": "A comprehensive guide for forming Bioregional Autonomous Zones (BAZs) and building regenerative communities rooted in reciprocity with land and people"
+  },
+  "title": "The Bioregional Compass",
+  "subtitle": "A comprehensive guide for forming Bioregional Autonomous Zones (BAZs) and building regenerative communities",
+  "navigation": {
+    "resources": "Resources",
+    "guides": "Implementation Guides",
+    "currentGuide": "Bioregional Compass",
+    "backToGuides": "Back to Implementation Guides"
+  },
+  "loading": {
+    "text": "Loading guide content..."
+  },
+  "languageFallback": {
+    "title": "Content in your language coming soon",
+    "description": "This section is currently displayed in English until translation is complete."
+  },
+  "errors": {
+    "sectionNotFound": "Section \"{section}\" not found",
+    "contentInDevelopment": "This content is still being developed."
+  },
+  "actions": {
+    "downloadPdf": "Download Complete Guide",
+    "explore": "Explore Resources",
+    "viewPlaybooks": "View Playbooks",
+    "startGuide": "Start Formation Guide"
+  },
+  "sections": {
+    "quickStart": {
+      "title": "Quick Start Resources",
+      "description": "Choose from these essential resources to begin your BAZ formation journey"
+    },
+    "main": {
+      "title": "Complete Guide Sections",
+      "description": "Explore the comprehensive resources and guidance for BAZ formation"
+    },
+    "library": {
+      "title": "Resource Library",
+      "description": "Comprehensive toolkits and detailed resources organized by implementation pillar",
+      "subsections": [
+        "Pre-Formation Assessment Suite",
+        "Six Pillar Toolkits",
+        "Quality Assurance Systems",
+        "Learning Journey Resources"
+      ]
+    },
+    "playbooks": {
+      "title": "Specialized Playbooks",
+      "description": "Strategic guidance for complex challenges and specialized scenarios",
+      "subsections": [
+        "Legal Strategy & Resilience",
+        "Crisis & Conflict Management",
+        "External Relations & Diplomacy",
+        "Technology Integration"
+      ]
+    },
+    "guide": {
+      "title": "The Complete Formation Guide",
+      "description": "Step-by-step journey through the six pillars of BAZ formation",
+      "subsections": [
+        "The Six Pillars Framework",
+        "Scale-Sensitive Adaptations",
+        "Network Integration Process",
+        "Graduation Protocols"
+      ]
+    }
+  },
+  "topSections": {
+    "baz-starter-pack": "BAZ Starter Pack",
+    "pre-formation-assessment": "Pre-Formation Assessment",
+    "quick-start-guide": "Quick Start Guide"
+  },
+  "metadata": {
+    "version": "Version",
+    "audience": "Target Audience",
+    "audiences": "Audiences",
+    "type": "Guide Type",
+    "implementationGuide": "Implementation Guide"
+  },
+  "footer": {
+    "note": "This guide is part of the Global Governance Framework initiative to support regenerative community formation worldwide."
+  },
+  "pillars": {
+    "pillar0": {
+      "title": "The Inner Ground",
+      "subtitle": "Cultivating the Consciousness for a New World",
+      "description": "Build inner resilience and collective awareness through personal practices and community dialogue"
+    },
+    "pillar1": {
+      "title": "The Spark",
+      "subtitle": "Vision & Consensus Building",
+      "description": "Ignite collective will through trust-building and shared vision creation"
+    },
+    "pillar2": {
+      "title": "Finding Our Place",
+      "subtitle": "Defining the Bioregion",
+      "description": "Map the ecological and cultural contours of your place with Indigenous guidance"
+    },
+    "pillar3": {
+      "title": "Building the Vessel",
+      "subtitle": "Legal & Institutional Scaffolding",
+      "description": "Create legal containers and governance structures for BAZ aspirations"
+    },
+    "pillar4": {
+      "title": "Weaving the Council",
+      "subtitle": "Governance Formation",
+      "description": "Build governance systems rooted in Indigenous wisdom and participatory democracy"
+    },
+    "pillar5": {
+      "title": "Installing the OS",
+      "subtitle": "Core GGF Framework Integration",
+      "description": "Integrate Global Governance Framework protocols for planetary connection"
+    },
+    "pillar6": {
+      "title": "Igniting the Engine",
+      "subtitle": "Economic Sovereignty",
+      "description": "Activate regenerative economy with Hearts, Leaves, and AUBI systems"
+    }
+  },
+  "concepts": {
+    "baz": {
+      "title": "Bioregional Autonomous Zone (BAZ)",
+      "description": "A governance model that aligns human communities with ecological boundaries and Indigenous stewardship protocols"
+    },
+    "aubi": {
+      "title": "Agential Universal Basic Income (AUBI)",
+      "description": "A system that provides unconditional income while rewarding ecological and care work"
+    },
+    "hearts": {
+      "title": "Hearts Currency",
+      "description": "Value system that rewards care work, community building, and social well-being"
+    },
+    "leaves": {
+      "title": "Leaves Currency", 
+      "description": "Value system backed by ecological health metrics and restoration work"
+    },
+    "fpic": {
+      "title": "Free, Prior, and Informed Consent 2.0 (FPIC 2.0)",
+      "description": "Enhanced Indigenous consent protocols for all land and cultural decisions"
+    },
+    "mvb": {
+      "title": "Minimum Viable BAZ (MVB)",
+      "description": "The first milestone that shifts a community from planning to operational BAZ status"
+    }
+  },
+  "categories": {
+    "assessment": "Assessment & Planning",
+    "formation": "BAZ Formation Process",
+    "governance": "Governance & Council Work",
+    "economics": "Economic Systems",
+    "legal": "Legal & Institutional",
+    "culture": "Culture & Relationships",
+    "ecology": "Ecological Stewardship",
+    "technology": "Technology Integration"
+  },
+  "phases": {
+    "foundation": {
+      "title": "Foundation Phase (Years 1-2)",
+      "description": "Inner work, vision building, and bioregional mapping"
+    },
+    "systemSetup": {
+      "title": "System Setup (Years 2-4)",
+      "description": "Legal frameworks, governance formation, and GGF integration"
+    },
+    "launchIterate": {
+      "title": "Launch & Iterate (Years 3-5+)",
+      "description": "Economic activation and continuous adaptation"
+    }
+  },
+  "scales": {
+    "homestead": {
+      "title": "Homestead Scale (<100 people)",
+      "description": "Informal governance, simple legal structures, local economy focus"
+    },
+    "village": {
+      "title": "Village Scale (100-5,000 people)",
+      "description": "Formal governance with citizen assemblies and public treasury"
+    },
+    "bioregional": {
+      "title": "Bioregional Scale (5,000+ people)",
+      "description": "Sophisticated legal personhood and multi-layered economy"
+    }
+  },
+  "tools": {
+    "dashboard": "BAZ Dashboard",
+    "calculator": "Viability Calculator",
+    "mapper": "Bioregional Mapper",
+    "assessor": "Skills Assessment",
+    "planner": "Resource Planner"
+  },
+  "outcomes": {
+    "ecological": "Ecological Regeneration",
+    "social": "Community Resilience", 
+    "economic": "Economic Sovereignty",
+    "cultural": "Cultural Vitality",
+    "governance": "Participatory Democracy"
+  },
+  "resources": {
+    "templates": "Templates & Worksheets",
+    "caseStudies": "Case Studies",
+    "legalGuides": "Legal Guidance",
+    "techGuides": "Technology Guides",
+    "facilitationGuides": "Facilitation Resources"
+  }
+}

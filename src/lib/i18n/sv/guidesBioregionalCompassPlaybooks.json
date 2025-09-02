@@ -1,0 +1,673 @@
+{
+  "meta": {
+    "title": "Specialiserade strategiguider - Bioregionala kompassen",
+    "description": "Avancerade strategier och problemlösningsguider för komplexa BAZ-utmaningar, organiserade efter domän"
+  },
+  "title": "Specialiserade strategiguider",
+  "subtitle": "Avancerade strategier och problemlösningsguider för komplexa BAZ-utmaningar",
+  "navigation": {
+    "resources": "Resurser",
+    "guides": "Implementeringsguider",
+    "bioregionalCompass": "Bioregionala kompassen",
+    "playbooks": "Specialiserade strategiguider"
+  },
+  "loading": {
+    "text": "Laddar specialiserade strategiguider..."
+  },
+  "stats": {
+    "playbooks": "Strategiguider",
+    "categories": "Kategorier",
+    "strategies": "Strategier"
+  },
+  "filter": {
+    "title": "Bläddra efter typ av utmaning",
+    "all": "Alla strategiguider"
+  },
+  "categories": {
+    "legal": {
+      "title": "Juridiska & regulatoriska utmaningar",
+      "description": "Strategiska metoder for juridisk efterlevnad, navigering av regelverk och institutionell resiliens",
+      "icon": "⚖️"
+    },
+    "governance": {
+      "title": "Styrning & ledarskap",
+      "description": "Avancerade styrningsstrategier, ledarskapsutveckling och organisatorisk resiliens",
+      "icon": "🏛️"
+    },
+    "relationships": {
+      "title": "Externa relationer & kommunikation",
+      "description": "Hantering av intressentrelationer, kommunikationsstrategi och konflikthantering",
+      "icon": "🤝"
+    },
+    "adaptation": {
+      "title": "Innovation & anpassning",
+      "description": "Att balansera tradition med innovation, teknologiintegration och kulturell evolution",
+      "icon": "🔄"
+    }
+  },
+  "playbooks": {
+    "technologyIntegrationAndResilience": {
+      "title": "Teknologiintegration & resiliens",
+      "description": "Strategiska metoder för teknologiadoption, digital suveränitet och upprätthållande av teknologisk resiliens i BAZ-samhällen",
+      "category": "adaptation",
+      "difficulty": "avancerad",
+      "estimatedTime": "3-4 veckors studier",
+      "challenges": ["Teknologival", "Digital suveränitet", "Systemresiliens"],
+      "sections": {
+        "overview": {
+          "title": "Ramverk för teknologiintegration",
+          "description": "Omfattande metod för strategisk teknologiadoption samtidigt som gemenskapens autonomi och resiliens bibehålls",
+          "estimatedTime": "3-4 timmar",
+          "keyTopics": [
+            "Principer för teknologibedömning",
+            "Ramverk för digital suveränitet",
+            "Strategier för resiliensplanering",
+            "Gemenskapskontrollerad teknologi"
+          ]
+        },
+        "appropriateTechnologyAssessmentAndSelection": {
+          "title": "Bedömning & val av lämplig teknologi",
+          "description": "Ramverk för att utvärdera och välja teknologier som överensstämmer med gemenskapens värderingar och behov",
+          "estimatedTime": "4-5 timmar",
+          "keyTopics": [
+            "Kriterier for teknologibedömning",
+            "Analys av gemenskapens behov",
+            "Ramverk för värdegrundsanpassning",
+            "Beslutsprocesser för val"
+          ]
+        },
+        "digitalSovereigntyAndDataProtection": {
+          "title": "Digital suveränitet & dataskydd",
+          "description": "Att etablera gemenskapskontroll över digital infrastruktur och skydda gemenskapens data",
+          "estimatedTime": "4-5 timmar",
+          "keyTopics": [
+            "Principer för digital suveränitet",
+            "Protokoll för datastyrning",
+            "Strategier för integritetsskydd",
+            "Gemensamt ägd infrastruktur"
+          ]
+        },
+        "technologyResilienceAndBackupSystems": {
+          "title": "Teknologisk resiliens & backupsystem",
+          "description": "Att bygga motståndskraftiga teknologisystem med lämplig redundans och backupstrategier",
+          "estimatedTime": "4-5 timmar",
+          "keyTopics": [
+            "Design av resilienta system",
+            "Planering för backup och redundans",
+            "Protokoll för återställning vid fel",
+            "Alternativ med lågt beroende"
+          ]
+        }
+      }
+    },
+    "balancingInnovationAndTradition": {
+      "title": "Att balansera innovation & tradition",
+      "description": "Ramverk för att integrera nya teknologier och metoder samtidigt som traditionell visdom och kulturell kontinuitet hedras",
+      "category": "adaptation",
+      "difficulty": "medel",
+      "estimatedTime": "2-3 veckors studier",
+      "challenges": ["Kulturell integration", "Innovationsadoption", "Bevarande av visdom"],
+      "sections": {
+        "overview": {
+          "title": "Ramverk för integration av innovation-tradition",
+          "description": "Omfattande metod för att balansera teknologisk innovation med traditionell visdom och kulturellt bevarande",
+          "estimatedTime": "2-3 timmar",
+          "keyTopics": [
+            "Integrationsprinciper och ramverk",
+            "Strategier för kulturbevarande",
+            "Bedömningskriterier för innovation",
+            "Beslutsprocesser i gemenskapen"
+          ]
+        },
+        "indigenousKnowledgeIntegrationAndFpic20": {
+          "title": "Integration av urfolkskunskap & FPIC 2.0",
+          "description": "Ramverk för att respektfullt integrera urfolks kunskapssystem och implementera förbättrade samtyckesprotokoll",
+          "estimatedTime": "3-4 timmar",
+          "keyTopics": [
+            "Urfolks kunskapssystem",
+            "Implementering av FPIC 2.0",
+            "Utveckling av kulturprotokoll",
+            "Avtal om kunskapsdelning"
+          ]
+        },
+        "culturalEvolutionAndAdaptivePractices": {
+          "title": "Kulturell evolution & adaptiva praktiker",
+          "description": "Att hantera kulturell förändring och anpassning samtidigt som kärnvärden och gemenskapsidentitet bibehålls",
+          "estimatedTime": "3-4 timmar",
+          "keyTopics": [
+            "Hantering av kulturförändring",
+            "Utveckling av adaptiva praktiker",
+            "Strategier för värdebevarande",
+            "Underhåll av gemenskapsidentitet"
+          ]
+        },
+        "technologyIntegrationAndDigitalSovereignty": {
+          "title": "Teknologiintegration & digital suveränitet",
+          "description": "Strategiska metoder for teknologiadoption samtidigt som gemenskapens autonomi och digitala självbestämmande bibehålls",
+          "estimatedTime": "3-4 timmar",
+          "keyTopics": [
+            "Ramverk för teknologibedömning",
+            "Principer för digital suveränitet",
+            "Gemenskapskontrollerad teknologi",
+            "Protokoll för datastyrning"
+          ]
+        }
+      }
+    },
+    "crisisAndConflictManagement": {
+      "title": "Kris- & konflikthantering",
+      "description": "Omfattande metoder for krisrespons, konflikthantering och gemenskapsresiliens under utmanande perioder",
+      "category": "relationships",
+      "difficulty": "avancerad",
+      "estimatedTime": "3-4 veckors studier",
+      "challenges": ["Krisrespons", "Konflikthantering", "Nödhantering"],
+      "sections": {
+        "overview": {
+          "title": "Ramverk för kris- & konflikthantering",
+          "description": "Omfattande metod för att hantera kriser och konflikter samtidigt som gemenskapens resiliens och sammanhållning bibehålls",
+          "estimatedTime": "3-4 timmar",
+          "keyTopics": [
+            "Principer för krishantering",
+            "Ramverk för konfliktomvandling",
+            "Strategier för resiliensbyggande",
+            "Samordning av krisinsatser"
+          ]
+        },
+        "internalConflictResolutionAndTransformation": {
+          "title": "Lösning & omvandling av interna konflikter",
+          "description": "Strategier for att lösa interna konflikter i gemenskapen och omvandla dem till möjligheter för tillväxt",
+          "estimatedTime": "4-5 timmar",
+          "keyTopics": [
+            "Konfliktmedlingstekniker",
+            "Reparativ rättvisa",
+            "Processer för gemenskapsläkning",
+            "Ramverk for att reparera relationer"
+          ]
+        },
+        "externalPressureManagementAndDiplomaticRelations": {
+          "title": "Hantering av yttre tryck & diplomatiska relationer",
+          "description": "Att hantera yttre tryck och upprätthålla diplomatiska relationer under tider av konflikt eller kris",
+          "estimatedTime": "4-5 timmar",
+          "keyTopics": [
+            "Bedömning av yttre tryck",
+            "Diplomatisk krishantering",
+            "Intressentkommunikation",
+            "Strategier for att upprätthålla gränser"
+          ]
+        },
+        "systemResilienceAndCrisisResponse": {
+          "title": "Systemresiliens & krisrespons",
+          "description": "Att bygga systemisk resiliens och samordna effektiva svar på olika typer av kriser",
+          "estimatedTime": "4-5 timmar",
+          "keyTopics": [
+            "Design av resilienta system",
+            "Protokoll för krisrespons",
+            "Resursmobilisering",
+            "Ramverk for återhämtningsplanering"
+          ]
+        }
+      }
+    },
+    "cultureWarMitigationAndExternalCommunication": {
+      "title": "Mildring av kulturkrig & extern kommunikation",
+      "description": "Kommunikationsstrategier och narrativa ramverk för att navigera i polariserade miljöer och fientlig offentlig diskurs",
+      "category": "relationships",
+      "difficulty": "avancerad",
+      "estimatedTime": "2-3 veckors studier",
+      "challenges": ["Offentlig uppfattning", "Medierelationer", "Narrativhantering"],
+      "sections": {
+        "overview": {
+          "title": "Ramverk för kommunikationsstrategi",
+          "description": "Omfattande metod för extern kommunikation och hantering av den offentliga uppfattningen i polariserade miljöer",
+          "estimatedTime": "2-3 timmar",
+          "keyTopics": [
+            "Strategiska kommunikationsprinciper",
+            "Analys av och svar på polarisering",
+            "Utveckling av offentligt narrativ",
+            "Förberedelse för kriskommunikation"
+          ]
+        },
+        "narrativeStrategyAndFraming": {
+          "title": "Narrativ strategi & inramning",
+          "description": "Att utveckla övertygande narrativ och strategisk inramning för att effektivt kommunicera BAZ-värderingar",
+          "estimatedTime": "3-4 timmar",
+          "keyTopics": [
+            "Ramverk för narrativutveckling",
+            "Strategisk inramning av budskap",
+            "Värdebaserad kommunikation",
+            "Målgruppsspecifika budskap"
+          ]
+        },
+        "bridgeBuildingAndCoalitionDevelopment": {
+          "title": "Brobyggande & koalitionsutveckling",
+          "description": "Strategier för att bygga allianser över politiska skiljelinjer och utveckla stödjande koalitioner",
+          "estimatedTime": "3-4 timmar",
+          "keyTopics": [
+            "Byggande av tvärpolitiska koalitioner",
+            "Identifiering av gemensam grund",
+            "Strategier for alliansutveckling",
+            "Protokoll för intressentengagemang"
+          ]
+        },
+        "crisisCommunicationAndReputationManagement": {
+          "title": "Kriskommunikation & anseendehantering",
+          "description": "Att hantera kommunikation under kriser och upprätthålla gemenskapens anseende under attack",
+          "estimatedTime": "4-5 timmar",
+          "keyTopics": [
+            "Protokoll för krisrespons",
+            "Strategier för att försvara anseendet",
+            "Medierelationer under konflikt",
+            "Samordning av budskap i gemenskapen"
+          ]
+        }
+      }
+    },
+    "diplomaticPlaybook": {
+      "title": "Diplomatisk strategiguide",
+      "description": "Avancerade diplomatiska strategier för att engagera med statliga enheter, fientliga jurisdiktioner och komplexa politiska miljöer",
+      "category": "relationships",
+      "difficulty": "avancerad",
+      "estimatedTime": "3-4 veckors studier",
+      "challenges": ["Relationer med myndigheter", "Fientliga miljöer", "Politisk navigering"],
+      "sections": {
+        "overview": {
+          "title": "Ramverk för diplomatisk strategi",
+          "description": "Omfattande metod för diplomatiskt engagemang och hantering av politiska relationer för BAZ-samhällen",
+          "estimatedTime": "3-4 timmar",
+          "keyTopics": [
+            "Diplomatiska principer och protokoll",
+            "Analys av det politiska landskapet",
+            "Ramverk för strategiskt engagemang",
+            "Riskbedömning och mildring"
+          ]
+        },
+        "engagingStateActorsAndGovernmentRelations": {
+          "title": "Att engagera statliga aktörer & myndighetsrelationer",
+          "description": "Strategiska metoder för att bygga produktiva relationer med statliga myndigheter och tjänstemän",
+          "estimatedTime": "4-5 timmar",
+          "keyTopics": [
+            "Strategier för engagemang på delstatsnivå",
+            "Protokoll för myndighetskontakter",
+            "Ramverk för policyförespråkande",
+            "Byggande av institutionella relationer"
+          ]
+        },
+        "hostileJurisdictionsAndLegalDefense": {
+          "title": "Fientliga jurisdiktioner & juridiskt försvar",
+          "description": "Strategier för att verka i utmanande politiska miljöer och försvara gemenskapens intressen",
+          "estimatedTime": "4-5 timmar",
+          "keyTopics": [
+            "Navigering i fientliga miljöer",
+            "Strategier för juridiskt försvar",
+            "Protokoll för riskmildring",
+            "Planering för krisinsatser"
+          ]
+        },
+        "networkDiplomacyAndAllianceBuilding": {
+          "title": "Nätverksdiplomati & alliansbyggande",
+          "description": "Att bygga strategiska allianser och samordna diplomatiska insatser över nätverk av gemenskaper",
+          "estimatedTime": "3-4 timmar",
+          "keyTopics": [
+            "Strategier för alliansbyggande",
+            "Protokoll för nätverkssamordning",
+            "Koalitionsutveckling",
+            "Engagemang med flera intressenter"
+          ]
+        }
+      }
+    },
+    "externalRelationshipManagement": {
+      "title": "Hantering av externa relationer",
+      "description": "Strategiska ramverk för att bygga och upprätthålla relationer med externa intressenter, institutioner och gemenskaper",
+      "category": "relationships",
+      "difficulty": "medel",
+      "estimatedTime": "2-3 veckors studier",
+      "challenges": ["Intressentrelationer", "Partnerskapsbyggande", "Gränshantering"],
+      "sections": {
+        "overview": {
+          "title": "Översikt över ramverk för externa relationer",
+          "description": "Omfattande metod för att hantera relationer med externa intressenter, institutioner och gemenskaper",
+          "estimatedTime": "2-3 timmar",
+          "keyTopics": [
+            "Strategier för intressentkartläggning",
+            "Principer för relationsbyggande",
+            "Ramverk för gränshantering",
+            "Protokoll för partnerskapsutveckling"
+          ]
+        },
+        "municipalGovernmentAndPublicAgencyRelations": {
+          "title": "Relationer med kommun & offentliga organ",
+          "description": "Att bygga produktiva relationer med lokala myndigheter och offentliga organ",
+          "estimatedTime": "3-4 timmar",
+          "keyTopics": [
+            "Strategier för kommunalt engagemang",
+            "Samordning med offentliga organ",
+            "Partnerskap för tjänsteleveranser",
+            "Byggande av regulatoriska relationer"
+          ]
+        },
+        "utilityProvidersAndInfrastructurePartnerships": {
+          "title": "Leverantörer av allmännyttiga tjänster & infrastrukturpartnerskap",
+          "description": "Att utveckla partnerskap för grundläggande infrastruktur och tillhandahållande av allmännyttiga tjänster",
+          "estimatedTime": "3-4 timmar",
+          "keyTopics": [
+            "Ramverk för partnerskap med elleverantörer",
+            "Strategier för infrastrukturintegration",
+            "Tjänstenivåavtal",
+            "Protokoll för nätanslutning"
+          ]
+        },
+        "regionalEconomicIntegrationAndBusinessNetworks": {
+          "title": "Regional ekonomisk integration & affärsnätverk",
+          "description": "Att bygga ekonomiska partnerskap och integrera med regionala affärsekosystem",
+          "estimatedTime": "4-5 timmar",
+          "keyTopics": [
+            "Integration i affärsnätverk",
+            "Utveckling av ekonomiska partnerskap",
+            "Relationer i leveranskedjan",
+            "Engagemang på regionala marknader"
+          ]
+        }
+      }
+    },
+    "scaleSpecificGovernancePathways": {
+      "title": "Skalspecifika styrningsvägar",
+      "description": "Skräddarsydda styrningsmetoder för olika skalor av BAZ-utveckling, från gårdsskala till bioregionala nivåer",
+      "category": "governance",
+      "difficulty": "medel",
+      "estimatedTime": "2-3 veckors studier",
+      "challenges": ["Skalövergångar", "Anpassning av styre", "Systemdesign"],
+      "sections": {
+        "overview": {
+          "title": "Ramverk för skaladaptiv styrning",
+          "description": "Förståelse för hur styrningsstrukturer måste utvecklas när gemenskaper växer från gårdsskala till bioregional skala",
+          "estimatedTime": "2-3 timmar",
+          "keyTopics": [
+            "Principer för skalkänslig styrning",
+            "Ramverk för övergångsplanering",
+            "Adaptiv systemdesign",
+            "Strategier for tillväxthantering"
+          ]
+        },
+        "homesteadToVillageTransitionGuide": {
+          "title": "Övergångsguide från gårdsskala till byskala",
+          "description": "Att hantera den kritiska övergången från informell styrning på gårdsnivå till formella demokratiska strukturer på bynivå",
+          "estimatedTime": "3-4 timmar",
+          "keyTopics": [
+            "Formaliseringsstrategier",
+            "Implementering av demokratiska strukturer",
+            "Hantering av gemenskapstillväxt",
+            "Kapacitetsuppbyggnad för styrning"
+          ]
+        },
+        "villageToBioregionalTransitionGuide": {
+          "title": "Övergångsguide från byskala till bioregional skala",
+          "description": "Att skala upp från bystyrning till komplex bioregional samordning och styrning mellan gemenskaper",
+          "estimatedTime": "4-5 timmar",
+          "keyTopics": [
+            "Samordning mellan flera gemenskaper",
+            "Design av bioregional federation",
+            "Styrningsprotokoll mellan BAZ:er",
+            "Hantering av komplexa system"
+          ]
+        }
+      }
+    },
+    "governanceResilienceAndEvolutionPlaybook": {
+      "title": "Strategiguide för styrningens resiliens & evolution",
+      "description": "Avancerade strategier för att upprätthålla effektiv styrning under kriser, hantera maktdynamik och utveckla styrningssystem",
+      "category": "governance",
+      "difficulty": "avancerad",
+      "estimatedTime": "3-4 veckors studier",
+      "challenges": ["Styrningskriser", "Maktdynamik", "Systemevolution"],
+      "sections": {
+        "overview": {
+          "title": "Översikt över ramverk för styrningens resiliens",
+          "description": "Omfattande metod för att bygga adaptiva och resilienta styrningssystem för BAZ-samhällen",
+          "estimatedTime": "2-3 timmar",
+          "keyTopics": [
+            "Principer för styrningens resiliens",
+            "Strategier för krisanpassning",
+            "Ramverk för systemevolution",
+            "Protokoll för intressentengagemang"
+          ]
+        },
+        "decisionMakingSystemsAndDeadlockResolution": {
+          "title": "Beslutssystem & lösning av dödlägen",
+          "description": "Robusta beslutsramverk och protokoll för att lösa låsningar och konflikter i styrningen",
+          "estimatedTime": "4-5 timmar",
+          "keyTopics": [
+            "Mekanismer för konsensusbyggande",
+            "Strategier for att förhindra dödlägen",
+            "Eskaleringsprotokoll",
+            "Alternativa beslutsvägar"
+          ]
+        },
+        "powerDynamicsAndAccountabilitySystems": {
+          "title": "Maktdynamik & ansvarssystem",
+          "description": "Att hantera maktfördelning, förhindra koncentration och etablera mekanismer för ansvarsskyldighet",
+          "estimatedTime": "3-4 timmar",
+          "keyTopics": [
+            "Kartläggning och analys av makt",
+            "Ramverk för ansvarsskyldighet",
+            "Protokoll för transparens",
+            "System för ledarrotation"
+          ]
+        },
+        "successionPlanningAndInstitutionalMemory": {
+          "title": "Successionsplanering & institutionellt minne",
+          "description": "Att säkerställa kontinuitet genom ledarskapsövergångar och bevara institutionell kunskap",
+          "estimatedTime": "3-4 timmar",
+          "keyTopics": [
+            "Utvecklingsvägar för ledarskap",
+            "Protokoll för kunskapsöverföring",
+            "System för institutionellt minne",
+            "Ramverk för övergångsplanering"
+          ]
+        }
+      }
+    },
+    "legalStrategyAndResiliencePlaybook": {
+      "title": "Strategiguide för juridisk strategi & resiliens",
+      "description": "Omfattande juridisk förberedelse, riskbedömning och resiliensstrategier for BAZ-samhällen som navigerar i komplexa regelmiljöer",
+      "category": "legal",
+      "difficulty": "avancerad",
+      "estimatedTime": "2-3 veckors studier",
+      "challenges": ["Juridisk efterlevnad", "Navigering av regelverk", "Riskhantering"],
+      "sections": {
+        "overview": {
+          "title": "Översikt över strategiskt juridiskt ramverk",
+          "description": "Omfattande metod för juridisk resiliens för BAZ-samhällen",
+          "estimatedTime": "2-3 timmar",
+          "keyTopics": [
+            "Principer för juridisk resiliens",
+            "Proaktiva efterlevnadsstrategier",
+            "Ramverk för riskbedömning",
+            "Juridisk planering på gemenskapsnivå"
+          ]
+        },
+        "legalStructureDecisionTree": {
+          "title": "Beslutsträd för juridisk struktur",
+          "description": "Systematiskt ramverk för att välja den optimala juridiska strukturen for er BAZ",
+          "estimatedTime": "4-6 timmar",
+          "keyTopics": [
+            "Jämförelse av bolagsformer",
+            "Skal-anpassade strukturer",
+            "Krav på regelefterlevnad",
+            "Vägkartor för formationsprocessen"
+          ]
+        },
+        "proactiveRegulatoryEngagement": {
+          "title": "Proaktivt engagemang med tillsynsmyndigheter",
+          "description": "Att bygga produktiva relationer med tillsynsmyndigheter och statliga enheter",
+          "estimatedTime": "3-5 timmar",
+          "keyTopics": [
+            "Strategier for intressentkartläggning",
+            "Protokoll för relationsbyggande",
+            "Ramverk för kommunikation om efterlevnad",
+            "Förespråkande och partnerskapsutveckling"
+          ]
+        },
+        "exitStrategyAndDissolutionProtocols": {
+          "title": "Exitstrategi & upplösningsprotokoll",
+          "description": "Procedurer for en smidig avveckling och ramverk för rättvis tillgångsfördelning",
+          "estimatedTime": "2-4 timmar",
+          "keyTopics": [
+            "Principer for avvecklingsplanering",
+            "Ramverk för tillgångsfördelning",
+            "Protokoll för medlemsövergång",
+            "Juridiska skyldigheter och efterlevnad"
+          ]
+        }
+      }
+    },
+    "legalChallengeScenariosAndMitigations": {
+      "title": "Scenarier för juridiska utmaningar & mildrande åtgärder",
+      "description": "Detaljerade scenarier och svarsstrategier för vanliga juridiska utmaningar som BAZ-samhällen möter, med praktiska mildrande åtgärder",
+      "category": "legal",
+      "difficulty": "avancerad",
+      "estimatedTime": "1-2 veckors studier",
+      "challenges": ["Krisinsatser", "Efterlevnadsfrågor", "Juridiska tvister"],
+      "sections": {
+        "overview": {
+          "title": "Översikt över ramverk för svar på utmaningar",
+          "description": "Strategiskt ramverk för att identifiera, förbereda sig för och svara på juridiska utmaningar som BAZ-samhällen står inför",
+          "estimatedTime": "1-2 timmar",
+          "keyTopics": [
+            "Identifiering av juridiska utmaningar",
+            "Metoder för riskbedömning",
+            "Ramverk för svarsprotokoll",
+            "Utveckling av mildrande strategier"
+          ]
+        },
+        "regulatoryAndComplianceChallenges": {
+          "title": "Utmaningar med regelverk & efterlevnad",
+          "description": "Vanliga regulatoriska hinder och efterlevnadsstrategier för alternativa styrningsstrukturer",
+          "estimatedTime": "3-4 timmar",
+          "keyTopics": [
+            "Efterlevnad av detaljplaner och markanvändning",
+            "Navigering av byggnormer",
+            "Miljöregulatoriska krav",
+            "Erkännande av alternativa strukturer"
+          ]
+        },
+        "financialAndTaxComplianceIssues": {
+          "title": "Frågor om finansiell & skattemässig efterlevnad",
+          "description": "Att navigera skattskyldigheter, alternativa valutor och finansiella rapporteringskrav",
+          "estimatedTime": "3-4 timmar",
+          "keyTopics": [
+            "Beskattning av alternativa valutor",
+            "Efterlevnadsstrategier för ideella organisationer",
+            "Skyldigheter för finansiell rapportering",
+            "Vägar till skattebefrielse"
+          ]
+        },
+        "emergencyServicesAndCrisisResponse": {
+          "title": "Räddningstjänst & krisinsatser",
+          "description": "Juridiska ramverk för krisinsatser, ansvarsförvaltning och tillhandahållande av tjänster",
+          "estimatedTime": "2-3 timmar",
+          "keyTopics": [
+            "Samförståndsavtal (MOU) med räddningstjänst",
+            "Strategier för ansvarsförvaltning",
+            "Protokoll för krisinsatser",
+            "Samordning av allmän säkerhet"
+          ]
+        }
+      }
+    },
+    "governanceResilienceAndEvolutionPlaybook": {
+      "title": "Strategiguide för styrningens resiliens & evolution",
+      "description": "Avancerade strategier för att upprätthålla effektiv styrning under kriser, hantera maktdynamik och utveckla styrningssystem",
+      "category": "governance",
+      "difficulty": "avancerad",
+      "estimatedTime": "3-4 veckors studier",
+      "challenges": ["Styrningskriser", "Maktdynamik", "Systemevolution"]
+    },
+    "scaleSpecificGovernancePathways": {
+      "title": "Skalspecifika styrningsvägar",
+      "description": "Skräddarsydda styrningsmetoder för olika skalor av BAZ-utveckling, från gårdsskala till bioregionala nivåer",
+      "category": "governance",
+      "difficulty": "medel",
+      "estimatedTime": "2-3 veckors studier",
+      "challenges": ["Skalövergångar", "Anpassning av styre", "Systemdesign"]
+    },
+    "externalRelationshipManagement": {
+      "title": "Hantering av externa relationer",
+      "description": "Strategiska ramverk för att bygga och upprätthålla relationer med externa intressenter, institutioner och gemenskaper",
+      "category": "relationships",
+      "difficulty": "medel",
+      "estimatedTime": "2-3 veckors studier",
+      "challenges": ["Intressentrelationer", "Partnerskapsbyggande", "Gränshantering"]
+    },
+    "diplomaticPlaybook": {
+      "title": "Diplomatisk strategiguide",
+      "description": "Avancerade diplomatiska strategier för att engagera med statliga enheter, fientliga jurisdiktioner och komplexa politiska miljöer",
+      "category": "relationships",
+      "difficulty": "avancerad",
+      "estimatedTime": "3-4 veckors studier",
+      "challenges": ["Relationer med myndigheter", "Fientliga miljöer", "Politisk navigering"]
+    },
+    "cultureWarMitigationAndExternalCommunication": {
+      "title": "Mildring av kulturkrig & extern kommunikation",
+      "description": "Kommunikationsstrategier och narrativa ramverk för att navigera i polariserade miljöer och fientlig offentlig diskurs",
+      "category": "relationships",
+      "difficulty": "avancerad",
+      "estimatedTime": "2-3 veckors studier",
+      "challenges": ["Offentlig uppfattning", "Medierelationer", "Narrativhantering"]
+    },
+    "crisisAndConflictManagement": {
+      "title": "Kris- & konflikthantering",
+      "description": "Omfattande metoder for krisrespons, konflikthantering och gemenskapsresiliens under utmanande perioder",
+      "category": "relationships",
+      "difficulty": "avancerad",
+      "estimatedTime": "3-4 veckors studier",
+      "challenges": ["Krisrespons", "Konflikthantering", "Nödhantering"]
+    },
+    "balancingInnovationAndTradition": {
+      "title": "Att balansera innovation & tradition",
+      "description": "Ramverk för att integrera nya teknologier och metoder samtidigt som traditionell visdom och kulturell kontinuitet hedras",
+      "category": "adaptation",
+      "difficulty": "medel",
+      "estimatedTime": "2-3 veckors studier",
+      "challenges": ["Kulturell integration", "Innovationsadoption", "Bevarande av visdom"]
+    },
+    "technologyIntegrationAndResilience": {
+      "title": "Teknologiintegration & resiliens",
+      "description": "Strategiska metoder för teknologiadoption, digital suveränitet och upprätthållande av teknologisk resiliens i BAZ-samhällen",
+      "category": "adaptation",
+      "difficulty": "avancerad",
+      "estimatedTime": "3-4 veckors studier",
+      "challenges": ["Teknologival", "Digital suveränitet", "Systemresiliens"]
+    }
+  },
+  "ui": {
+    "viewPlaybook": "Visa strategiguide",
+    "backToPlaybooks": "Tillbaka till alla strategiguider",
+    "difficulty": "Svårighetsgrad",
+    "estimatedTime": "Beräknad tid",
+    "keyChallenges": "Nyckelutmaningar",
+    "explore": "Utforska",
+    "comingSoon": "Kommer snart",
+    "previousSection": "Föregående",
+    "nextSection": "Nästa",
+    "sectionProgress": "Avsnitt {current} av {total}",
+    "studyTime": "Studietid",
+    "keyTopics": "Nyckelämnen",
+    "scenarios": "Scenarier"
+  },
+  "help": {
+    "title": "Behöver du strategisk vägledning?",
+    "text": "Dessa strategiguider hanterar komplexa utmaningar som kan uppstå under BAZ-formationen. Börja med guider som matchar era nuvarande utmaningar eller förväntade behov.",
+    "backToGuide": "Tillbaka till huvudguiden",
+    "startWithBasics": "Börja med juridisk strategi"
+  },
+  "languageFallback": {
+    "title": "Innehåll på ditt språk kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+  },
+  "errors": {
+    "sectionNotFound": "Avsnittet hittades inte",
+    "contentInDevelopment": "Detta innehåll är fortfarande under utveckling.",
+    "noSectionSelected": "Vänligen välj ett avsnitt från sidofältet för att se dess innehåll."
+  }
+}

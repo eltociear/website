@@ -59,9 +59,9 @@ Use this **Community Cohesion Assessment Toolkit**:
 - Do meeting formats and decision-making styles work for people with different communication preferences?
 
 **Scoring Your Social Cohesion:**
-- **Green (Ready):** Average survey scores >4.0, successful conflict resolution, meaningful diversity
+- **Green (Ready):** Average survey scores `>`4.0, successful conflict resolution, meaningful diversity
 - **Yellow (Needs Work):** Average scores 3.0-4.0, some tensions but willingness to address them
-- **Red (Not Ready):** Average scores <3.0, unresolved major conflicts, homogeneous leadership
+- **Red (Not Ready):** Average scores `<`3.0, unresolved major conflicts, homogeneous leadership
 
 ### **Domain 2: Financial Viability & Economic Reality**
 *Can you afford to do this work, and do you understand the economic transition?*
@@ -106,7 +106,7 @@ The bridge from a fiat-dependent economy to a regenerative one takes time. Use t
 **Assessment Outcomes:**
 - **Green:** 24+ months runway for 80%+ of member households
 - **Yellow:** 12-24 months runway, but with clear plan to extend or reduce costs
-- **Red:** <12 months runway or unwillingness to share financial information
+- **Red:** `<`12 months runway or unwillingness to share financial information
 
 #### **Capital Requirements Assessment**
 
@@ -196,7 +196,7 @@ Rate your community's current capacity in each area (1 = No one with experience,
 
 #### **Capability Development Planning**
 
-For each area scoring <3, develop a capability building plan:
+For each area scoring `<`3, develop a capability building plan:
 
 **Internal Development Options:**
 - Member education and skill-sharing programs
@@ -298,7 +298,7 @@ After completing all four domains, use this matrix to evaluate your overall read
 **GREEN - Ready to Begin (3+ domains green, 0 red domains):**
 You have strong foundations across most areas and can confidently begin BAZ formation. Focus on addressing any yellow areas during your first spiral through the pillars.
 
-**YELLOW - Needs Preparation (2+ domains yellow, <2 red domains):**
+**YELLOW - Needs Preparation (2+ domains yellow, `<`2 red domains):**
 You have significant strengths but need focused work in several areas before beginning full BAZ formation. Consider a 6-12 month preparation period to address gaps.
 
 **RED - Foundation Building Required (2+ domains red):**

@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "title": "The Complete Formation Guide - Bioregional Compass",
+    "description": "Step-by-step journey through the six pillars of BAZ formation"
+  },
+  "title": "The Complete Formation Guide",
+  "subtitle": "Step-by-step journey through the six pillars of BAZ formation",
+  "navigation": {
+    "resources": "Resources",
+    "guides": "Implementation Guides",
+    "bioregionalCompass": "Bioregional Compass",
+    "theGuide": "The Complete Guide",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "loading": {
+    "text": "Loading guide content..."
+  },
+  "languageFallback": {
+    "title": "Content in your language coming soon",
+    "description": "This section is currently displayed in English until translation is complete."
+  },
+  "errors": {
+    "sectionNotFound": "Section \"{section}\" not found",
+    "contentInDevelopment": "This content is still being developed.",
+    "invalidSection": "Invalid Section",
+    "selectValidSection": "Please select a valid section from the table of contents."
+  },
+  "stats": {
+    "sections": "Sections",
+    "minutesRead": "Min Read",
+    "pillars": "Pillars"
+  },
+  "tableOfContents": {
+    "title": "Table of Contents",
+    "foundation": "Foundation",
+    "pillars": "The Six Pillars",
+    "graduation": "Graduation"
+  },
+  "sections": {
+    "introduction": {
+      "title": "Introduction",
+      "description": "Understanding the vision and purpose of Bioregional Autonomous Zones"
+    },
+    "howToUseThisGuide": {
+      "title": "How to Use This Guide",
+      "description": "Navigate the formation process with confidence and clarity"
+    },
+    "definingYourMinimumViableBaz": {
+      "title": "Defining Your Minimum Viable BAZ",
+      "description": "Set realistic milestones and success metrics for your community"
+    },
+    "pillar0": {
+      "title": "The Inner Ground",
+      "subtitle": "Cultivating the Consciousness for a New World",
+      "description": "Build inner resilience and collective awareness through personal practices and community dialogue"
+    },
+    "pillar1": {
+      "title": "The Spark",
+      "subtitle": "Vision & Consensus Building",
+      "description": "Ignite collective will through trust-building and shared vision creation"
+    },
+    "pillar2": {
+      "title": "Finding Our Place",
+      "subtitle": "Defining the Bioregion",
+      "description": "Map the ecological and cultural contours of your place with Indigenous guidance"
+    },
+    "pillar3": {
+      "title": "Building the Vessel",
+      "subtitle": "Legal & Institutional Scaffolding",
+      "description": "Create legal containers and governance structures for BAZ aspirations"
+    },
+    "pillar4": {
+      "title": "Weaving the Council",
+      "subtitle": "Governance Formation",
+      "description": "Build governance systems rooted in Indigenous wisdom and participatory democracy"
+    },
+    "pillar5": {
+      "title": "Installing the OS",
+      "subtitle": "Core GGF Framework Integration",
+      "description": "Integrate Global Governance Framework protocols for planetary connection"
+    },
+    "pillar6": {
+      "title": "Igniting the Engine",
+      "subtitle": "Economic Sovereignty",
+      "description": "Activate regenerative economy with Hearts, Leaves, and AUBI systems"
+    },
+    "graduation": {
+      "title": "Becoming a BAZ: Graduation and Network Integration",
+      "description": "Complete the formation process and connect with the global BAZ network"
+    }
+  },
+  "sectionTypes": {
+    "foundation": "Foundation",
+    "pillar": "Pillar",
+    "graduation": "Graduation"
+  },
+  "concepts": {
+    "baz": {
+      "title": "Bioregional Autonomous Zone (BAZ)",
+      "description": "A governance model that aligns human communities with ecological boundaries and Indigenous stewardship protocols"
+    },
+    "mvb": {
+      "title": "Minimum Viable BAZ (MVB)",
+      "description": "The first milestone that shifts a community from planning to operational BAZ status"
+    },
+    "pillars": {
+      "title": "The Six Pillars",
+      "description": "The foundational stages of BAZ formation, from inner work to economic sovereignty"
+    },
+    "innerGround": {
+      "title": "Inner Ground",
+      "description": "The consciousness and personal practices that support regenerative community"
+    },
+    "spark": {
+      "title": "The Spark",
+      "description": "The collective vision and consensus that ignites community formation"
+    },
+    "place": {
+      "title": "Finding Place",
+      "description": "Understanding and mapping the bioregional context for governance"
+    },
+    "vessel": {
+      "title": "The Vessel",
+      "description": "Legal and institutional structures that support BAZ operations"
+    },
+    "council": {
+      "title": "The Council",
+      "description": "Governance systems based on Indigenous wisdom and participatory democracy"
+    },
+    "os": {
+      "title": "The OS",
+      "description": "Integration with Global Governance Framework protocols and networks"
+    },
+    "engine": {
+      "title": "The Engine",
+      "description": "Economic systems that reward care work and ecological stewardship"
+    }
+  },
+  "phases": {
+    "foundation": {
+      "title": "Foundation Phase",
+      "description": "Laying the groundwork through inner work, vision, and bioregional understanding",
+      "timeframe": "Months 1-6",
+      "focus": "Preparation and alignment"
+    },
+    "formation": {
+      "title": "Formation Phase", 
+      "description": "Building structures through legal frameworks, governance, and GGF integration",
+      "timeframe": "Months 6-18",
+      "focus": "Structure and systems"
+    },
+    "activation": {
+      "title": "Activation Phase",
+      "description": "Launching economic systems and graduating to full BAZ status",
+      "timeframe": "Months 18-36",
+      "focus": "Implementation and operation"
+    }
+  },
+  "readingGuide": {
+    "sequential": {
+      "title": "Sequential Reading",
+      "description": "Follow the pillars in order for a complete formation journey",
+      "recommended": "First-time readers and new communities"
+    },
+    "modular": {
+      "title": "Modular Reading",
+      "description": "Jump to specific pillars based on your current needs",
+      "recommended": "Experienced communities and specific challenges"
+    },
+    "reference": {
+      "title": "Reference Use",
+      "description": "Return to sections as needed during implementation",
+      "recommended": "Active BAZ formation processes"
+    }
+  },
+  "resources": {
+    "templates": "Templates & Worksheets",
+    "caseStudies": "Case Studies & Examples",
+    "tools": "Implementation Tools",
+    "support": "Community Support",
+    "legal": "Legal Guidance",
+    "technical": "Technical Resources"
+  },
+  "milestones": {
+    "convening": "Convening Circle Formed",
+    "vision": "Shared Vision Established",
+    "mapping": "Bioregional Mapping Complete",
+    "legal": "Legal Structure Chosen",
+    "governance": "Governance System Active",
+    "integration": "GGF Integration Complete",
+    "economy": "Economic System Launched",
+    "graduation": "BAZ Status Achieved"
+  },
+  "support": {
+    "mentorship": "Connect with Mentor Communities",
+    "workshops": "Join Formation Workshops",
+    "network": "Access BAZ Network",
+    "resources": "Download Resource Library",
+    "consultation": "Get Expert Consultation"
+  },
+  "footer": {
+    "note": "This comprehensive guide represents the collective wisdom of bioregional communities worldwide. Each BAZ adapts these principles to their unique context while maintaining core commitments to ecological stewardship and social justice.",
+    "license": "Licensed under Creative Commons Attribution-ShareAlike 4.0",
+    "lastUpdated": "Last updated"
+  }
+}

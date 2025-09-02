@@ -68,6 +68,7 @@ Available categories:
 - disaster-risk-reduction
 - ggf-overview
 - whitepapers
+- bioregional-compass
 
 Example: node tools-pdf-generator.js economic
   `);
@@ -116,6 +117,7 @@ const outputDirs = {
   'technology-governance': path.join(__dirname, '..', 'static', 'frameworks','tools', 'technology-governance'),
   'regenerative-resources': path.join(__dirname, '..', 'static', 'frameworks','tools', 'regenerative-resources'),
   'great-transition': path.join(__dirname, '..', 'static', 'frameworks','tools', 'great-transition'),
+  'bioregional-compass': path.join(__dirname, '..', 'static', 'frameworks','tools', 'bioregional-compass'),
   'deep-time-governance': path.join(__dirname, '..', 'static', 'frameworks','tools', 'deep-time-governance'),
   'bioregional-polis': path.join(__dirname, '..', 'static', 'frameworks','tools', 'bioregional-polis'),
   'water-and-sanitation-governance': path.join(__dirname, '..', 'static', 'frameworks','tools', 'water-and-sanitation-governance'),
@@ -285,6 +287,42 @@ const tools = [
       'egp-one-page-summary',
       'egp-appendix',
       'egp-glossary'
+    ]
+  },
+
+  // Bioregional Compass
+  // Full guide
+  {
+    name: 'bioregional-compass-guide',
+    category: 'bioregional-compass',
+    fileNames: {
+      en: 'ggf-guide-bioregional-compass-v1.0',
+      sv: 'ggf-guide-bioregional-compass-v1.0'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'guides', 'en', 'bioregional-compass', 'the-guide'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'guides', 'sv', 'bioregional-compass', 'the-guide')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'downloads', 'en'),
+      sv: path.join(__dirname, '..', 'static', 'downloads', 'sv')
+    },
+    pageFooter: {
+      en: 'Bioregional Compass Guide',
+      sv: 'Bioregional kompass-guide'
+    },
+    sections: [
+      'introduction',
+      'how-to-use-this-guide',
+      'defining-your-minimum-viable-baz',
+      'pillar-0-the-inner-ground',
+      'pillar-1-the-spark',
+      'pillar-2-finding-our-place',
+      'pillar-3-building-the-vessel',
+      'pillar-4-weaving-the-council',
+      'pillar-5-installing-the-os',
+      'pillar-6-igniting-the-engine',
+      'becoming-a-baz-graduation-and-network-integration'
     ]
   },
 
