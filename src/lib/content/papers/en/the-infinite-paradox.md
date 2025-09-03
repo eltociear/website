@@ -3,7 +3,7 @@ title: "The Infinite Paradox: Non-Dual Ethics for Planetary Governance"
 author: "Björn Kenneth Holmström"
 date: "2025-09-03"
 description: "A comprehensive framework for governance that honors both moral clarity and systems humility, providing practical tools for navigating ethical dilemmas in complex planetary systems through the Paradox Decision Canvas and non-dual awareness."
-status: "draft"
+status: "published"
 category: "governance-ethics"
 version: "1.0"
 pages: 58
