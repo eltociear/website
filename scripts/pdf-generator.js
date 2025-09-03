@@ -149,6 +149,26 @@ const tools = [
 
   // White Papers
   {
+    name: 'the-infinite-paradox',
+    category: 'whitepapers',
+    fileNames: {
+      en: 'The_Infinite_Paradox_-_Non-Dual_Ethics_for_Planetary_Governance',
+      sv: 'Den_oändliga_paradoxen_-_Icke-dual_etik_för_planetariskt_styre'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'papers', 'en'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'papers', 'sv')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'resources', 'whitepapers'),
+      sv: path.join(__dirname, '..', 'static', 'resources', 'whitepapers')
+    },
+    pageFooter: {
+      en: 'GGF Whitepaper - The Infinite Paradox: Non-Dual Ethics for Planetary Governance',
+      sv: 'GGF Whitepaper - Den oändliga paradoxen: Icke-dual etik för planetariskt styre'
+    }
+  },
+  {
     name: 'the-regenerative-governance',
     category: 'whitepapers',
     fileNames: {

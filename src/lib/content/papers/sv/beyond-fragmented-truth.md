@@ -7,7 +7,7 @@ status: "draft"
 category: "methodology"
 version: "1.0"
 pages: 61
-readtime: 120
+readtime: 45
 pdfPath: "/resources/whitepapers/Bortom_fragmenterad_sanning_-_En_resonemangsväg_från_forntida_visdom_till_modern_styrning.pdf"
 tags: ["Filosofi", "AI-metodologi", "Samhällsstyrning", "Epistemologi", "Systemtänkande", "Medvetande"]
 hashtags: ["BortomFragmenteradSanning", "AIFilosofi", "Styrningsvisdom", "EpistemiskÖdmjukhet", "SCI_Cykeln"]

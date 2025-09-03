@@ -664,4 +664,64 @@
     position: absolute;
     left: -20px;
   }
+
+  /* Table styling for markdown content */
+  .post-content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+
+  .post-content :global(th) {
+    background-color: #2B4B8C;
+    color: white;
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .post-content :global(td) {
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid #e5e7eb;
+    color: #4B5563;
+    vertical-align: top;
+  }
+
+  .post-content :global(tr:nth-child(even)) {
+    background-color: #f9fafb;
+  }
+
+  .post-content :global(tr:hover) {
+    background-color: #f3f4f6;
+  }
+
+  .post-content :global(thead tr:hover) {
+    background-color: #2B4B8C; /* Keep header color on hover */
+  }
+
+  /* Responsive table handling */
+  @media (max-width: 768px) {
+    .post-content :global(table) {
+      font-size: 0.875rem;
+    }
+    
+    .post-content :global(th),
+    .post-content :global(td) {
+      padding: 0.6rem 0.8rem;
+    }
+  }
+
+  /* For very small screens, consider horizontal scrolling */
+  @media (max-width: 480px) {
+    .post-content :global(table) {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  }
 </style>

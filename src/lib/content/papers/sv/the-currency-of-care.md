@@ -7,7 +7,7 @@ status: "published"
 category: "Ekonomi"
 version: "1.0"
 pages: 28
-readTime: 45
+readTime: 35
 pdfPath: "/resources/whitepapers/Omsorgens_valuta_bortom_UBI.pdf"
 tags: ["AUBI", "Universell basinkomst", "Omsorgsekonomi", "Social valuta", "Regenerativ ekonomi", "GGF"]
 hashtags: ["#AUBI", "#UBI", "#Omsorgsekonomi", "#HeartsValuta", "#RegenerativEkonomi", "#GGF"]

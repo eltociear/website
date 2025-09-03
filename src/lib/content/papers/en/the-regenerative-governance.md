@@ -7,7 +7,7 @@ status: "published"
 category: "Governance-architecture"
 version: "1.0"
 pages: 49
-readTime: 80
+readTime: 40
 pdfPath: "/resources/whitepapers/The_Regenerative_Governance_-_Integrating_Hardware_Heart_Nervous_System.pdf"
 tags: ["Global Governance", "Regenerative Systems", "Indigenous Governance", "Meta-Governance", "Planetary Stewardship", "Institutional Reform"]
 hashtags: ["RegenerativeGovernance", "GlobalGovernance", "PlanetaryStewardship", "IndigenousWisdom", "SystemsIntegration", "MetaGovernance"]

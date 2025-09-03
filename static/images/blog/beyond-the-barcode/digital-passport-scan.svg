@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 350 500"
+   version="1.1"
+   id="svg25"
+   sodipodi:docname="digital-passport-scan.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview25"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.692"
+     inkscape:cx="175.23641"
+     inkscape:cy="250"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg25" />
+  <defs
+     id="defs6">
+    <linearGradient
+       id="phoneGradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#2c3e50;stop-opacity:1"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#34495e;stop-opacity:1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="screenGradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#ffffff;stop-opacity:1"
+         id="stop3" />
+      <stop
+         offset="100%"
+         style="stop-color:#f8f9fa;stop-opacity:1"
+         id="stop4" />
+    </linearGradient>
+    <radialGradient
+       id="trustmarkGradient"
+       cx="50%"
+       cy="50%"
+       r="50%">
+      <stop
+         offset="0%"
+         style="stop-color:#27ae60;stop-opacity:1"
+         id="stop5" />
+      <stop
+         offset="100%"
+         style="stop-color:#2ecc71;stop-opacity:1"
+         id="stop6" />
+    </radialGradient>
+  </defs>
+  <!-- Phone body -->
+  <rect
+     x="25"
+     y="25"
+     width="300"
+     height="450"
+     fill="url(#phoneGradient)"
+     rx="30"
+     id="rect6" />
+  <!-- Screen -->
+  <rect
+     x="40"
+     y="70"
+     width="270"
+     height="390"
+     fill="url(#screenGradient)"
+     rx="15"
+     id="rect7" />
+  <!-- Status bar -->
+  <rect
+     x="50"
+     y="80"
+     width="250"
+     height="20"
+     fill="#2c3e50"
+     id="rect8" />
+  <text
+     x="60"
+     y="95"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text8">9:41</text>
+  <text
+     x="264"
+     y="95"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text9">100%</text>
+  <!-- App header -->
+  <rect
+     x="50"
+     y="110"
+     width="250"
+     height="40"
+     fill="#3498db"
+     id="rect9" />
+  <text
+     x="175"
+     y="125"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="white"
+     id="text10">GGF Product Scanner</text>
+  <text
+     x="175"
+     y="140"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text11">Scan complete ✓</text>
+  <!-- Product info -->
+  <rect
+     x="60"
+     y="160"
+     width="230"
+     height="50"
+     fill="white"
+     stroke="#ecf0f1"
+     stroke-width="1"
+     rx="5"
+     id="rect11" />
+  <text
+     x="175"
+     y="175"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="#2c3e50"
+     id="text12">Esperanza Coffee</text>
+  <text
+     x="175"
+     y="190"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#7f8c8d"
+     id="text13">Colombian Single Origin</text>
+  <text
+     x="175"
+     y="203"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#7f8c8d"
+     id="text14">Grown by Esperanza Cooperative</text>
+  <!-- GGF Trustmark -->
+  <circle
+     cx="175"
+     cy="250"
+     r="35"
+     fill="url(#trustmarkGradient)"
+     id="circle14" />
+  <text
+     x="175"
+     y="245"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     font-weight="bold"
+     fill="white"
+     id="text15">8.5</text>
+  <text
+     x="175"
+     y="260"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text16">GGF Score</text>
+  <!-- Score breakdown -->
+  <rect
+     x="60"
+     y="300"
+     width="230"
+     height="120"
+     fill="white"
+     stroke="#ecf0f1"
+     stroke-width="1"
+     rx="5"
+     id="rect16" />
+  <g
+     font-family="Arial, sans-serif"
+     fill="#2c3e50"
+     id="g23">
+    <!-- Soil Health -->
+    <text
+       x="70"
+       y="320"
+       font-size="11"
+       font-weight="bold"
+       id="text17">Soil Health</text>
+    <text
+       x="270"
+       y="320"
+       text-anchor="end"
+       font-size="11"
+       fill="#27ae60"
+       id="text18">8.0/10</text>
+    <rect
+       x="70"
+       y="325"
+       width="210"
+       height="4"
+       fill="#ecf0f1"
+       rx="2"
+       id="rect18" />
+    <rect
+       x="70"
+       y="325"
+       width="168"
+       height="4"
+       fill="#27ae60"
+       rx="2"
+       id="rect19" />
+    <!-- Labor Standards -->
+    <text
+       x="70"
+       y="345"
+       font-size="11"
+       font-weight="bold"
+       id="text19">Labor Standards</text>
+    <text
+       x="270"
+       y="345"
+       text-anchor="end"
+       font-size="11"
+       fill="#27ae60"
+       id="text20">9.2/10</text>
+    <rect
+       x="70"
+       y="350"
+       width="210"
+       height="4"
+       fill="#ecf0f1"
+       rx="2"
+       id="rect20" />
+    <rect
+       x="70"
+       y="350"
+       width="193"
+       height="4"
+       fill="#27ae60"
+       rx="2"
+       id="rect21" />
+    <!-- Packaging Circularity -->
+    <text
+       x="70"
+       y="370"
+       font-size="11"
+       font-weight="bold"
+       id="text21">Packaging</text>
+    <text
+       x="270"
+       y="370"
+       text-anchor="end"
+       font-size="11"
+       fill="#27ae60"
+       id="text22">9.0/10</text>
+    <rect
+       x="70"
+       y="375"
+       width="210"
+       height="4"
+       fill="#ecf0f1"
+       rx="2"
+       id="rect22" />
+    <rect
+       x="70"
+       y="375"
+       width="189"
+       height="4"
+       fill="#27ae60"
+       rx="2"
+       id="rect23" />
+    <!-- Impact note -->
+    <text
+       x="175"
+       y="400"
+       text-anchor="middle"
+       font-size="9"
+       fill="#3498db"
+       id="text23">Your previous purchases funded solar drying equipment</text>
+  </g>
+  <!-- Hearts earned notification -->
+  <rect
+     x="60"
+     y="430"
+     width="230"
+     height="30"
+     fill="#e74c3c"
+     opacity="0.1"
+     stroke="#e74c3c"
+     stroke-width="1"
+     rx="5"
+     id="rect24" />
+  <text
+     x="175"
+     y="445"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#e74c3c"
+     id="text24">+3 Hearts earned with this purchase ❤️</text>
+  <text
+     x="175"
+     y="455"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#7f8c8d"
+     id="text25">Reinvest in your local community</text>
+  <!-- Home indicator -->
+  <rect
+     x="160"
+     y="480"
+     width="30"
+     height="4"
+     fill="#bdc3c7"
+     rx="2"
+     id="rect25" />
+</svg>

@@ -7,7 +7,7 @@ status: "draft"
 category: "methodology"
 version: "1.0"
 pages: 61
-readTime: 120
+readTime: 45
 pdfPath: "/resources/whitepapers/Beyond_Fragmented_Truth_-_A_Reasoning_Path_from_Ancient_Wisdom_to_Modern_Governance.pdf"
 tags: ["Philosophy", "AI Methodology", "Governance", "Epistemology", "Systems Thinking", "Consciousness"]
 hashtags: ["BeyondFragmentedTruth", "AIPhilosophy", "GovernanceWisdom", "EpistemicHumility", "SCI_Cycle"]

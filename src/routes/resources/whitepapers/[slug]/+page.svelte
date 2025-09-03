@@ -1,9 +1,10 @@
 <!-- src/routes/resources/whitepapers/[slug]/+page.svelte -->
 <script>
   import { onMount } from 'svelte';
-  import { t } from '$lib/i18n';
+  import { t, locale } from '$lib/i18n';
   import { browser } from '$app/environment';
   import { base } from '$app/paths';
+  import { invalidateAll } from '$app/navigation';
   import Follow from '$lib/components/Follow.svelte';
   import ShareButtons from '$lib/components/ShareButtons.svelte';
   
@@ -13,8 +14,19 @@
   let loading = true;
   let error = null;
 
-  // Destructure the paper data and the current URL from server load
-  const { paper, currentUrl, currentLocale } = data;
+  // Reactive data destructuring - this updates when data changes
+  $: ({ paper, currentUrl, currentLocale } = data);
+
+  // Reactive update when locale changes
+  $: if (browser && $locale) {
+    // When locale changes, invalidate and reload data
+    invalidateAll();
+  }
+
+  // Reactive content loading - this runs whenever paper or currentLocale changes
+  $: if (paper && currentLocale) {
+    loadContent();
+  }
 
   // Helper function for translations with fallbacks
   function getWhitepaperTranslation(key, fallback) {
@@ -30,7 +42,7 @@
       published: { color: '#16a34a', bgColor: '#dcfce7', icon: '✅', label: 'Published' },
       draft: { color: '#eab308', bgColor: '#fef3c7', icon: '📝', label: 'Draft' },
       review: { color: '#3b82f6', bgColor: '#dbeafe', icon: '👁️', label: 'In Review' },
-      archived: { color: '#6b7280', bgColor: '#f3f4f6', icon: '📁', label: 'Archived' }
+      archived: { color: '#6b7280', bgColor: '#f3f4f6', icon: '📦', label: 'Archived' }
     };
     return statusMap[status] || statusMap.draft;
   }
@@ -80,12 +92,18 @@
     return allHashtags.slice(0, 6).join(',');
   }
 
-  onMount(async () => {
+  // Separate function to load content that can be called reactively
+  async function loadContent() {
+    if (!browser || !paper || !currentLocale) return;
+    
+    loading = true;
+    error = null;
+    ContentComponent = null;
+
     try {
-      console.log('Client-side loading paper:', paper.slug, 'for locale:', currentLocale);
+      console.log('Loading paper content:', paper.slug, 'for locale:', currentLocale);
       
-      // Dynamically import the MDSveX component on the client
-      // Use the locale from the server data to ensure consistency
+      // Dynamically import the MDSveX component
       const paperModule = await import(`../../../../lib/content/papers/${currentLocale}/${paper.slug}.md`);
       ContentComponent = paperModule.default;
       loading = false;
@@ -94,6 +112,13 @@
       console.error('Attempted path:', `../../../../lib/content/papers/${currentLocale}/${paper.slug}.md`);
       error = 'Failed to load paper content';
       loading = false;
+    }
+  }
+
+  // Initial load on mount
+  onMount(() => {
+    if (paper && currentLocale) {
+      loadContent();
     }
   });
 </script>
@@ -243,25 +268,27 @@
     </header>
 
     <!-- Paper Content -->
-    <div class="paper-content">
-      {#if loading}
-        <div class="loading-state">
-          <div class="loading-spinner"></div>
-          <p>{getWhitepaperTranslation('loading', 'Loading content...')}</p>
-        </div>
-      {:else if error}
-        <div class="error-state">
-          <p class="error">{error}</p>
-          <p class="debug-info">
-            Attempted to load: {paper.slug} in {currentLocale}
-          </p>
-        </div>
-      {:else if ContentComponent}
-        <svelte:component this={ContentComponent} />
-      {:else}
-        <p class="no-content">{getWhitepaperTranslation('noContent', 'No content available')}</p>
-      {/if}
-    </div>
+    {#key currentLocale}
+      <div class="paper-content">
+        {#if loading}
+          <div class="loading-state">
+            <div class="loading-spinner"></div>
+            <p>{getWhitepaperTranslation('loading', 'Loading content...')}</p>
+          </div>
+        {:else if error}
+          <div class="error-state">
+            <p class="error">{error}</p>
+            <p class="debug-info">
+              Attempted to load: {paper.slug} in {currentLocale}
+            </p>
+          </div>
+        {:else if ContentComponent}
+          <svelte:component this={ContentComponent} />
+        {:else}
+          <p class="no-content">{getWhitepaperTranslation('noContent', 'No content available')}</p>
+        {/if}
+      </div>
+    {/key}
   </article>
 
   <!-- Follow section after paper content -->
@@ -1076,5 +1103,35 @@
       color: #000;
       border: 1px solid #ccc;
     }
+  }
+
+  details {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border-left: 3px solid #e2e8f0;
+  }
+
+  summary {
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0.5rem 0;
+    list-style: none;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary::before {
+    content: "▶ ";
+    transition: transform 0.2s ease;
+  }
+
+  details[open] summary::before {
+    transform: rotate(90deg);
+  }
+
+  details[open] {
+    border-left-color: #3b82f6;
   }
 </style>

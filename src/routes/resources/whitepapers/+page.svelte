@@ -4,6 +4,8 @@
   import { page } from '$app/stores';
   import { t, locale } from '$lib/i18n';
   import { browser } from '$app/environment';
+  import { invalidateAll } from '$app/navigation';
+  import { goto } from '$app/navigation';
   import Follow from '$lib/components/Follow.svelte';
   import ShareButtons from '$lib/components/ShareButtons.svelte';
   
@@ -11,6 +13,19 @@
   
   // Get the current language from load data
   $: currentLang = data.currentLocale || 'en';
+
+  // Reactive update when locale changes
+  $: if (browser && $locale) {
+    // When locale changes, invalidate and reload data
+    invalidateAll();
+  }
+
+  $: if (browser && $locale && $page.url.searchParams.get('lang') !== $locale) {
+    // Update URL to reflect current locale
+    const url = new URL($page.url);
+    url.searchParams.set('lang', $locale);
+    goto(url.toString(), { replaceState: true, noScroll: true });
+  }
   
   // Helper function for translations with fallbacks
   function getWhitepaperTranslation(key, fallback) {

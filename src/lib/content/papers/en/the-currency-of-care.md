@@ -7,7 +7,7 @@ status: "published"
 category: "Economics"
 version: "1.0"
 pages: 28
-readTime: 45
+readTime: 35
 pdfPath: "/resources/whitepapers/The_Currency_of_Care_Beyond_UBI.pdf"
 tags: ["AUBI", "Universal Basic Income", "Care Economy", "Social Currency", "Regenerative Economics", "GGF"]
 hashtags: ["#AUBI", "#UBI", "#CareEconomy", "#HeartsCurrency", "#RegenerativeEconomics", "#GGF"]

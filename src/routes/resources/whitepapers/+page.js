@@ -3,6 +3,7 @@
 import { browser } from '$app/environment';
 import { locale } from '$lib/i18n';
 import { get } from 'svelte/store';
+import { invalidateAll } from '$app/navigation';
 
 export const prerender = false;
 

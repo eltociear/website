@@ -7,7 +7,7 @@ status: "published"
 category: "Metodik"
 version: "1.8"
 pages: 19
-readTime: 35
+readTime: 25
 pdfPath: "/resources/whitepapers/Kognitiv_stöttning_-_En_syntesmetod_med_flera_AI-modeller.pdf"
 tags: ["AI-metodik", "Systemtänkande", "Global styrning", "Kognitiv utveckling", "AI med flera modeller"]
 hashtags: ["CognitiveScaffolding", "AIMethodology", "SystemsThinking", "GlobalGovernance", "AIAlignment"]

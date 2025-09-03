@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1000 600"
+   version="1.1"
+   id="svg63"
+   sodipodi:docname="ggf-integration-map.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   inkscape:export-filename="ggf-integration-map.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview63"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.41"
+     inkscape:cx="520.92199"
+     inkscape:cy="300"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg63" />
+  <!-- Background -->
+  <rect
+     width="1000"
+     height="600"
+     fill="#f8f9fa"
+     id="rect1" />
+  <!-- Title -->
+  <text
+     x="500"
+     y="25"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="20"
+     font-weight="bold"
+     fill="#2c3e50"
+     id="text1">
+    Figure 3 — GGF Integration Map
+  </text>
+  <!-- Swimlane 1: Core GGF Cycle -->
+  <rect
+     x="50"
+     y="60"
+     width="900"
+     height="120"
+     fill="#ecf0f1"
+     stroke="#bdc3c7"
+     stroke-width="1"
+     rx="5"
+     id="rect2" />
+  <text
+     x="70"
+     y="85"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="#2c3e50"
+     id="text2">
+    Core GGF Cycle
+  </text>
+  <!-- Sense Phase -->
+  <rect
+     x="80"
+     y="100"
+     width="180"
+     height="60"
+     fill="#3498db"
+     stroke="#2980b9"
+     stroke-width="2"
+     rx="5"
+     id="rect3" />
+  <text
+     x="170"
+     y="125"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="white"
+     id="text3">
+    SENSE
+  </text>
+  <text
+     x="170"
+     y="140"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text4">
+    Gathering information
+  </text>
+  <text
+     x="170"
+     y="152"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text5">
+    and perspectives
+  </text>
+  <!-- Propose Phase -->
+  <rect
+     x="280"
+     y="100"
+     width="180"
+     height="60"
+     fill="#27ae60"
+     stroke="#229954"
+     stroke-width="2"
+     rx="5"
+     id="rect5" />
+  <text
+     x="370"
+     y="125"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="white"
+     id="text6">
+    PROPOSE
+  </text>
+  <text
+     x="370"
+     y="140"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text7">
+    Generating solutions through
+  </text>
+  <text
+     x="370"
+     y="152"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text8">
+    paradox-aware process
+  </text>
+  <!-- Adopt Phase -->
+  <rect
+     x="480"
+     y="100"
+     width="180"
+     height="60"
+     fill="#e74c3c"
+     stroke="#c0392b"
+     stroke-width="2"
+     rx="5"
+     id="rect8" />
+  <text
+     x="570"
+     y="125"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="white"
+     id="text9">
+    ADOPT
+  </text>
+  <text
+     x="570"
+     y="140"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text10">
+    Implementation with
+  </text>
+  <text
+     x="570"
+     y="152"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text11">
+    adaptation mechanisms
+  </text>
+  <!-- Feedback Loop -->
+  <path
+     d="M 680,130 C 726.66667,76.666667 532.93592,31.445603 100,50 61.162638,51.664458 60,96.666667 80,130"
+     fill="none"
+     stroke="#f39c12"
+     stroke-width="3"
+     marker-end="url(#feedbackArrow)"
+     id="path11"
+     sodipodi:nodetypes="csc" />
+  <text
+     x="750"
+     y="45"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="#f39c12"
+     id="text12">
+    Continuous Learning Loop
+  </text>
+  <!-- Swimlane 2: Framework Integration -->
+  <rect
+     x="50"
+     y="200"
+     width="900"
+     height="150"
+     fill="#f8f9fa"
+     stroke="#bdc3c7"
+     stroke-width="1"
+     rx="5"
+     id="rect12" />
+  <text
+     x="70"
+     y="225"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="#2c3e50"
+     id="text13">
+    Framework Integration
+  </text>
+  <!-- EGP -->
+  <rect
+     x="80"
+     y="240"
+     width="120"
+     height="40"
+     fill="#9b59b6"
+     stroke="#8e44ad"
+     stroke-width="1"
+     rx="3"
+     id="rect13" />
+  <text
+     x="140"
+     y="260"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="white"
+     id="text14">
+    EGP
+  </text>
+  <text
+     x="140"
+     y="273"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8"
+     fill="white"
+     id="text15">
+    Emergent Governance
+  </text>
+  <!-- Meta-Governance -->
+  <rect
+     x="220"
+     y="240"
+     width="120"
+     height="40"
+     fill="#16a085"
+     stroke="#138d75"
+     stroke-width="1"
+     rx="3"
+     id="rect15" />
+  <text
+     x="280"
+     y="260"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="white"
+     id="text16">
+    Meta-Gov
+  </text>
+  <text
+     x="280"
+     y="273"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8"
+     fill="white"
+     id="text17">
+    Coordination
+  </text>
+  <!-- FPIC 2.0 -->
+  <rect
+     x="360"
+     y="240"
+     width="120"
+     height="40"
+     fill="#d35400"
+     stroke="#ba4a00"
+     stroke-width="1"
+     rx="3"
+     id="rect17" />
+  <text
+     x="420"
+     y="260"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="white"
+     id="text18">
+    FPIC 2.0
+  </text>
+  <text
+     x="420"
+     y="273"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8"
+     fill="white"
+     id="text19">
+    Indigenous Consent
+  </text>
+  <!-- Sundown Protocols -->
+  <rect
+     x="500"
+     y="240"
+     width="120"
+     height="40"
+     fill="#8e44ad"
+     stroke="#7d3c98"
+     stroke-width="1"
+     rx="3"
+     id="rect19" />
+  <text
+     x="560"
+     y="260"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="white"
+     id="text20">
+    Sundown
+  </text>
+  <text
+     x="560"
+     y="273"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8"
+     fill="white"
+     id="text21">
+    Impermanence
+  </text>
+  <!-- Integration Areas -->
+  <rect
+     x="77.498665"
+     y="300.00613"
+     width="205.00267"
+     height="39.987724"
+     fill="#f1c40f"
+     stroke="#f39c12"
+     stroke-width="1.01228"
+     rx="3.0750401"
+     id="rect21" />
+  <text
+     x="180"
+     y="320"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="#2c3e50"
+     id="text22">
+    Duality Collapse → Right Relationship
+  </text>
+  <text
+     x="180"
+     y="333"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8"
+     fill="#2c3e50"
+     id="text23">
+    Purpose emerges from relational complexity
+  </text>
+  <rect
+     x="294.48312"
+     y="300.05933"
+     width="251.03372"
+     height="39.881321"
+     fill="#e67e22"
+     stroke="#d68910"
+     stroke-width="1.11868"
+     rx="3.765506"
+     id="rect23" />
+  <text
+     x="420"
+     y="320"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     font-weight="bold"
+     fill="#ffffff"
+     id="text24">Knowledge Asymptote → Ontological Humility</text>
+  <text
+     x="420"
+     y="333"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#ffffff"
+     id="text25">Ethical certainty has limits through deeper inquiry</text>
+  <rect
+     x="558.48315"
+     y="300.05933"
+     width="251.03372"
+     height="39.881321"
+     fill="#27ae60"
+     stroke="#229954"
+     stroke-width="1.11868"
+     rx="3.765506"
+     id="rect25" />
+  <text
+     x="684"
+     y="320"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     font-weight="bold"
+     fill="#ffffff"
+     id="text26">Directional Paradox → Regenerative Evolution</text>
+  <text
+     x="684"
+     y="333"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#ffffff"
+     id="text27">Evolution within changelessness at ethical level</text>
+  <!-- Swimlane 3: Institutional Support -->
+  <rect
+     x="50"
+     y="370"
+     width="900"
+     height="150"
+     fill="#ecf0f1"
+     stroke="#bdc3c7"
+     stroke-width="1"
+     rx="5"
+     id="rect27" />
+  <text
+     x="70"
+     y="395"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="#2c3e50"
+     id="text28">
+    Institutional Support
+  </text>
+  <!-- Indigenous Framework -->
+  <rect
+     x="80"
+     y="410"
+     width="140"
+     height="40"
+     fill="#c0392b"
+     stroke="#a93226"
+     stroke-width="1"
+     rx="3"
+     id="rect28" />
+  <text
+     x="150"
+     y="430"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="white"
+     id="text29">
+    Indigenous Framework
+  </text>
+  <text
+     x="150"
+     y="443"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8"
+     fill="white"
+     id="text30">
+    Traditional Knowledge
+  </text>
+  <!-- Synoptic Protocol -->
+  <rect
+     x="240"
+     y="410"
+     width="140"
+     height="40"
+     fill="#2e86ab"
+     stroke="#2874a6"
+     stroke-width="1"
+     rx="3"
+     id="rect30" />
+  <text
+     x="310"
+     y="430"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="white"
+     id="text31">
+    Synoptic Protocol
+  </text>
+  <text
+     x="310"
+     y="443"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8"
+     fill="white"
+     id="text32">
+    Epistemic Integrity
+  </text>
+  <!-- Digital Commons -->
+  <rect
+     x="400"
+     y="410"
+     width="140"
+     height="40"
+     fill="#138d75"
+     stroke="#117a65"
+     stroke-width="1"
+     rx="3"
+     id="rect32" />
+  <text
+     x="470"
+     y="430"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="white"
+     id="text33">
+    Digital Commons
+  </text>
+  <text
+     x="470"
+     y="443"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8"
+     fill="white"
+     id="text34">
+    Transparency Tools
+  </text>
+  <!-- Crisis Command -->
+  <rect
+     x="560"
+     y="410"
+     width="140"
+     height="40"
+     fill="#cb4335"
+     stroke="#b03a2e"
+     stroke-width="1"
+     rx="3"
+     id="rect34" />
+  <text
+     x="630"
+     y="430"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="white"
+     id="text35">
+    Crisis Command
+  </text>
+  <text
+     x="630"
+     y="443"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8"
+     fill="white"
+     id="text36">
+    Rapid Deployment
+  </text>
+  <!-- Support Functions -->
+  <rect
+     x="80"
+     y="470"
+     width="160"
+     height="40"
+     fill="#7d3c98"
+     stroke="#6c3483"
+     stroke-width="1"
+     rx="3"
+     id="rect36" />
+  <text
+     x="160"
+     y="490"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="white"
+     id="text37">
+    Cultural Translation
+  </text>
+  <text
+     x="160"
+     y="503"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8"
+     fill="white"
+     id="text38">
+    Diverse Context Adaptation
+  </text>
+  <rect
+     x="260"
+     y="470"
+     width="160"
+     height="40"
+     fill="#b7950b"
+     stroke="#a6890b"
+     stroke-width="1"
+     rx="3"
+     id="rect38" />
+  <text
+     x="340"
+     y="490"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="white"
+     id="text39">
+    Sacred Pause Mechanisms
+  </text>
+  <text
+     x="340"
+     y="503"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8"
+     fill="white"
+     id="text40">
+    Wisdom-Space Creation
+  </text>
+  <rect
+     x="440"
+     y="470"
+     width="160"
+     height="40"
+     fill="#196f3d"
+     stroke="#145a32"
+     stroke-width="1"
+     rx="3"
+     id="rect40" />
+  <text
+     x="520"
+     y="490"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="white"
+     id="text41">
+    Dissent Capture
+  </text>
+  <text
+     x="520"
+     y="503"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8"
+     fill="white"
+     id="text42">
+    Opposition Integration
+  </text>
+  <rect
+     x="620"
+     y="470"
+     width="160"
+     height="40"
+     fill="#5b2c6f"
+     stroke="#512e5f"
+     stroke-width="1"
+     rx="3"
+     id="rect42" />
+  <text
+     x="700"
+     y="490"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="white"
+     id="text43">
+    Monitoring Loops
+  </text>
+  <text
+     x="700"
+     y="503"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8"
+     fill="white"
+     id="text44">
+    Adaptation Triggers
+  </text>
+  <!-- Process Flow Arrows -->
+  <!-- Sense to Propose -->
+  <path
+     d="M 260 130 L 280 130"
+     fill="none"
+     stroke="#34495e"
+     stroke-width="3"
+     marker-end="url(#processArrow)"
+     id="path44" />
+  <!-- Propose to Adopt -->
+  <path
+     d="M 460 130 L 480 130"
+     fill="none"
+     stroke="#34495e"
+     stroke-width="3"
+     marker-end="url(#processArrow)"
+     id="path45" />
+  <!-- Integration Arrows -->
+  <path
+     d="M 140 280 L 170 160"
+     fill="none"
+     stroke="#9b59b6"
+     stroke-width="2"
+     stroke-dasharray="5,5"
+     marker-end="url(#integrationArrow)"
+     id="path46" />
+  <path
+     d="M 280 280 L 370 160"
+     fill="none"
+     stroke="#16a085"
+     stroke-width="2"
+     stroke-dasharray="5,5"
+     marker-end="url(#integrationArrow)"
+     id="path47" />
+  <path
+     d="M 420 280 L 370 160"
+     fill="none"
+     stroke="#d35400"
+     stroke-width="2"
+     stroke-dasharray="5,5"
+     marker-end="url(#integrationArrow)"
+     id="path48" />
+  <path
+     d="M 560 280 L 570 160"
+     fill="none"
+     stroke="#8e44ad"
+     stroke-width="2"
+     stroke-dasharray="5,5"
+     marker-end="url(#integrationArrow)"
+     id="path49" />
+  <!-- Support Flow Arrows -->
+  <path
+     d="M 150 410 L 170 160"
+     fill="none"
+     stroke="#c0392b"
+     stroke-width="2"
+     stroke-dasharray="3,3"
+     marker-end="url(#supportArrow)"
+     id="path50" />
+  <path
+     d="M 310 410 L 370 160"
+     fill="none"
+     stroke="#2e86ab"
+     stroke-width="2"
+     stroke-dasharray="3,3"
+     marker-end="url(#supportArrow)"
+     id="path51" />
+  <path
+     d="M 470 410 L 570 160"
+     fill="none"
+     stroke="#138d75"
+     stroke-width="2"
+     stroke-dasharray="3,3"
+     marker-end="url(#supportArrow)"
+     id="path52" />
+  <!-- Crisis Activation -->
+  <path
+     d="M 630 410 Q 750 350 700 130"
+     fill="none"
+     stroke="#cb4335"
+     stroke-width="3"
+     stroke-dasharray="8,4"
+     marker-end="url(#crisisArrow)"
+     id="path53" />
+  <text
+     x="780"
+     y="280"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     font-weight="bold"
+     fill="#cb4335"
+     id="text53">
+    Crisis
+  </text>
+  <text
+     x="780"
+     y="295"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     font-weight="bold"
+     fill="#cb4335"
+     id="text54">
+    Activation
+  </text>
+  <!-- Legend -->
+  <rect
+     x="792"
+     y="470"
+     width="200"
+     height="100"
+     fill="#ffffff"
+     stroke="#bdc3c7"
+     stroke-width="1"
+     rx="5"
+     id="rect54" />
+  <text
+     x="802"
+     y="490"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#2c3e50"
+     id="text55">Legend:</text>
+  <line
+     x1="802"
+     y1="500"
+     x2="822"
+     y2="500"
+     stroke="#34495e"
+     stroke-width="3"
+     id="line55" />
+  <text
+     x="832"
+     y="505"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#2c3e50"
+     id="text56">Core Process Flow</text>
+  <line
+     x1="802"
+     y1="515"
+     x2="822"
+     y2="515"
+     stroke="#9b59b6"
+     stroke-width="2"
+     stroke-dasharray="5, 5"
+     id="line56" />
+  <text
+     x="832"
+     y="520"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#2c3e50"
+     id="text57">Framework Integration</text>
+  <line
+     x1="802"
+     y1="530"
+     x2="822"
+     y2="530"
+     stroke="#c0392b"
+     stroke-width="2"
+     stroke-dasharray="3, 3"
+     id="line57" />
+  <text
+     x="832"
+     y="535"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#2c3e50"
+     id="text58">Institutional Support</text>
+  <line
+     x1="802"
+     y1="545"
+     x2="822"
+     y2="545"
+     stroke="#cb4335"
+     stroke-width="3"
+     stroke-dasharray="8, 4"
+     id="line58" />
+  <text
+     x="832"
+     y="550"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#2c3e50"
+     id="text59">Crisis Pathways</text>
+  <!-- Arrow Markers -->
+  <defs
+     id="defs63">
+    <marker
+       id="feedbackArrow"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <polygon
+         points="0,0 0,6 9,3"
+         fill="#f39c12"
+         id="polygon59" />
+    </marker>
+    <marker
+       id="processArrow"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <polygon
+         points="0,0 0,6 9,3"
+         fill="#34495e"
+         id="polygon60" />
+    </marker>
+    <marker
+       id="integrationArrow"
+       markerWidth="8"
+       markerHeight="8"
+       refX="7"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <polygon
+         points="0,0 0,6 7,3"
+         fill="#9b59b6"
+         id="polygon61" />
+    </marker>
+    <marker
+       id="supportArrow"
+       markerWidth="8"
+       markerHeight="8"
+       refX="7"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <polygon
+         points="0,0 0,6 7,3"
+         fill="#c0392b"
+         id="polygon62" />
+    </marker>
+    <marker
+       id="crisisArrow"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <polygon
+         points="0,0 0,6 9,3"
+         fill="#cb4335"
+         id="polygon63" />
+    </marker>
+  </defs>
+  <!-- Bottom Description -->
+  <text
+     x="500"
+     y="590"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="#7f8c8d"
+     id="text63">
+    The Infinite Paradox enhances GGF coordination through systematic integration across all governance phases
+  </text>
+</svg>
