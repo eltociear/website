@@ -330,6 +330,13 @@
  <meta name="description" content="{financialSystems.meta?.description || 'A comprehensive framework for transforming finance through Hearts currency, Leaves ecological tokens, and Right Relationship economics'}" />
 </svelte:head>
 
+<SectionNotice 
+ type="warning" 
+ customContent={true}
+>
+ <p>{$t('common.notices.section.frameworks.text2')}</p>
+</SectionNotice>
+
 {#if mounted}
  <div class="documentation-container">
    {#if !isPrintMode}

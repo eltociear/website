@@ -4,6 +4,7 @@
  import { browser } from '$app/environment';
  import { invalidate } from '$app/navigation';
  import { base } from '$app/paths';
+ import SectionNotice from '$lib/components/SectionNotice.svelte';
  import FrameworkSidebar from '$lib/components/FrameworkSidebar.svelte';
  import { onMount, tick } from 'svelte';
  import { slide } from 'svelte/transition';
@@ -339,6 +340,13 @@
 <title>{workInLiberation.meta?.title || 'Work in Liberation Framework: Transformative Labour & Employment Governance - Global Governance Framework'}</title>
 <meta name="description" content="{workInLiberation.meta?.description || 'Organizing work around care, creativity, and planetary health through Community Work Teams, cooperative governance, and the transition from survival work to meaningful contribution'}" />
 </svelte:head>
+
+<SectionNotice 
+ type="warning" 
+ customContent={true}
+>
+ <p>{$t('common.notices.section.frameworks.text2')}</p>
+</SectionNotice>
 
 {#if mounted}
  <div class="documentation-container">

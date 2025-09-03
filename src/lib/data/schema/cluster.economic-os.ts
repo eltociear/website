@@ -15,14 +15,21 @@ export const economicOSEntities: GgfEntity[] = [
     type: 'Framework',
     name: 'Adaptive Universal Basic Income Framework',
     shortName: 'AUBI',
-    description: 'Regenerative economic engine with Hearts/Leaves currency system and Love Ledger',
+    description: 'A dual-wallet regenerative economic engine providing a Universal Basic Income in both fiat currency and non-tradable social credits (Hearts/Leaves). It functions as "systemic acupuncture" to create resilient, community-owned value circuits via a closed-loop voucher model.',
     tier: 1,
     status: 'Ready',
     primaryDomain: 'Economic',
     geographicScope: 'Global',
     implementationPriority: 'Critical',
     dependencies: ['mechanism_gcf'],
-    enables: ['mechanism_hearts', 'mechanism_leaves', 'platform_love_ledger'],
+    enables: [
+      'mechanism_hearts', 
+      'mechanism_leaves', 
+      'platform_love_ledger',
+      'mechanism_hearts_treasury',
+      'process_community_weaver',
+      'institution_community_provider'
+    ],
     ui: {
       path: '/frameworks/adaptive-universal-basic-income',
       titleKey: 'framework.docs.nav.frameworkTitles.adaptiveUniversalBasicIncome',
@@ -168,7 +175,7 @@ export const economicOSEntities: GgfEntity[] = [
     type: 'EconomicMechanism',
     name: 'Hearts Currency',
     shortName: 'Hearts',
-    description: 'Social currency rewarding care, community, and cultural contributions',
+    description: 'A non-tradable social credit, distributed via AUBI, spendable only at chartered Community Providers to support the local care economy.',
     tier: 1,
     status: 'Draft',
     primaryDomain: 'Economic',
@@ -189,6 +196,19 @@ export const economicOSEntities: GgfEntity[] = [
     implementationPriority: 'Critical',
     dependencies: ['framework_aubi']
   },
+  {
+    id: 'mechanism_hearts_treasury',
+    type: 'EconomicMechanism',
+    name: 'Hearts Treasury',
+    shortName: 'Hearts Treasury',
+    description: 'The financial infrastructure, managed by partner credit unions, that provides fiat-backing for Hearts, enabling providers to redeem them at a stable rate. Initially capitalized by the GCF.',
+    tier: 1,
+    status: 'Proposed',
+    primaryDomain: 'Economic',
+    geographicScope: 'Regional',
+    implementationPriority: 'Critical',
+    dependencies: ['framework_aubi', 'institution_gcf']
+  },
 
   // === PLATFORMS & INFRASTRUCTURE ===
   {
@@ -196,13 +216,13 @@ export const economicOSEntities: GgfEntity[] = [
     type: 'Platform',
     name: 'Love Ledger',
     shortName: 'Love Ledger',
-    description: 'Decentralized ledger for logging and validating contributions of care and ecological work',
+    description: 'A transparent, community-led platform for making informal care contributions visible through non-monetized recognition (e.g., Gratitude Tokens). It operates parallel to the Hearts economy to prevent commodification of relationships and provides data for the LMCI metric.',
     tier: 1,
     status: 'Draft',
     primaryDomain: 'Economic',
     geographicScope: 'Global',
     implementationPriority: 'Critical',
-    dependencies: ['framework_aubi', 'mechanism_hearts', 'mechanism_leaves']
+    dependencies: ['framework_aubi']
   },
 
   // === INSTITUTIONS ===
@@ -219,6 +239,32 @@ export const economicOSEntities: GgfEntity[] = [
     implementationPriority: 'Critical',
     dependencies: ['framework_work_liberation', 'institution_baz']
   },
+  {
+    id: 'institution_community_provider',
+    type: 'Institution',
+    name: 'Community Provider',
+    shortName: 'Community Provider',
+    description: 'A local organization or individual chartered by a BAZ Council to accept Hearts in exchange for care, cultural, educational, or ecological services.',
+    tier: 1,
+    status: 'Pilot',
+    primaryDomain: 'Economic',
+    geographicScope: 'Local',
+    implementationPriority: 'Critical',
+    dependencies: ['framework_aubi', 'institution_baz_council']
+  },
+  {
+    id: 'institution_baz_council',
+    type: 'Institution',
+    name: 'BAZ Council',
+    shortName: 'BAZ Council',
+    description: 'A democratically elected council that governs a local Hearts economy, including chartering Community Providers and managing the relationship with the Hearts Treasury.',
+    tier: 1,
+    status: 'Pilot',
+    primaryDomain: 'Governance',
+    geographicScope: 'Local',
+    implementationPriority: 'Critical',
+    dependencies: ['institution_baz']
+  },
 
   // === PROCESSES & TOOLS ===
   {
@@ -226,13 +272,26 @@ export const economicOSEntities: GgfEntity[] = [
     type: 'Process',
     name: 'Proof of Care',
     shortName: 'Proof of Care',
-    description: 'The validation process for logging contributions to the Love Ledger',
+    description: 'The validation process used by chartered Community Providers to log their services and justify the redemption of Hearts. It is separate from the informal recognition on the Love Ledger.',
     tier: 1,
     status: 'Draft',
     primaryDomain: 'Economic',
     geographicScope: 'Global',
     implementationPriority: 'Critical',
-    dependencies: ['platform_love_ledger']
+    dependencies: ['platform_love_ledger', 'institution_community_provider']
+  },
+  {
+    id: 'process_community_weaver',
+    type: 'Process',
+    name: 'Community Weaver',
+    shortName: 'Community Weaver',
+    description: 'The role of a trained facilitator who supports the bootstrapping and operation of a local Hearts economy, providing technical assistance to providers and helping adapt the system to cultural contexts.',
+    tier: 1,
+    status: 'Draft',
+    primaryDomain: 'Governance',
+    geographicScope: 'Local',
+    implementationPriority: 'High',
+    dependencies: ['framework_aubi']
   },
   {
     id: 'tool_dpp',
@@ -275,8 +334,69 @@ export const economicOSRelationships: GgfRelationship[] = [
     frequency: 'Continuous',
     sequenceType: 'Sequential'
   },
+  {
+    from: 'institution_gcf',
+    to: 'mechanism_hearts_treasury',
+    type: 'FUNDS',
+    description: 'The Global Commons Fund provides the initial capitalization for regional Hearts Treasuries to ensure fiat liquidity.',
+    strength: 'Strong',
+    frequency: 'As-Needed',
+    sequenceType: 'Sequential'
+  },
 
   // === INTERNAL ECONOMIC ENGINE MECHANICS ===
+
+  {
+    from: 'framework_aubi',
+    to: 'mechanism_hearts_treasury',
+    type: 'ESTABLISHES',
+    description: 'AUBI framework establishes the Hearts Treasury as the core stability mechanism.',
+    strength: 'Strong',
+    sequenceType: 'Sequential'
+  },
+  {
+    from: 'framework_aubi',
+    to: 'process_community_weaver',
+    type: 'ESTABLISHES',
+    description: 'AUBI framework establishes the Community Weaver role to facilitate implementation.',
+    strength: 'Strong',
+    sequenceType: 'Sequential'
+  },
+  {
+    from: 'framework_aubi',
+    to: 'institution_community_provider',
+    type: 'ESTABLISHES',
+    description: 'AUBI framework establishes the chartering process for Community Providers.',
+    strength: 'Strong',
+    sequenceType: 'Sequential'
+  },
+  {
+    from: 'institution_baz_council',
+    to: 'institution_community_provider',
+    type: 'OVERSEES',
+    description: 'The local BAZ Council charters and oversees Community Providers.',
+    strength: 'Strong',
+    frequency: 'Regular',
+    sequenceType: 'Parallel'
+  },
+  {
+    from: 'process_community_weaver',
+    to: 'institution_community_provider',
+    type: 'SUPPORTS',
+    description: 'Community Weavers provide technical and administrative support to providers.',
+    strength: 'Strong',
+    frequency: 'Regular',
+    sequenceType: 'Parallel'
+  },
+  {
+    from: 'mechanism_hearts_treasury',
+    to: 'institution_community_provider',
+    type: 'REWARDS',
+    description: 'The Treasury redeems Hearts from providers for fiat currency.',
+    strength: 'Strong',
+    frequency: 'Regular',
+    sequenceType: 'Parallel'
+  },
   
   // Council Oversight
   {
@@ -328,6 +448,15 @@ export const economicOSRelationships: GgfRelationship[] = [
   },
 
   // Love Ledger Operations
+  {
+    from: 'platform_love_ledger',
+    to: 'metric_lmci',
+    type: 'INFORMS',
+    description: 'Data from the non-monetized Love Ledger provides qualitative and quantitative inputs for the LMCI metric.',
+    strength: 'Strong',
+    frequency: 'Continuous',
+    sequenceType: 'Parallel'
+  },
   {
     from: 'platform_love_ledger',
     to: 'process_proof_of_care',
