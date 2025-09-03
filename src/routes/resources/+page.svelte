@@ -48,7 +48,7 @@
       lightColor: 'rgba(5, 150, 105, 0.1)',
       href: '/resources/whitepapers',
       stats: {
-        count: 3,
+        count: 4,
         label: $t('resources.sections.whitepapers.stats')
       }
     }

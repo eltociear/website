@@ -3,7 +3,7 @@ title: "Kognitiv stöttning: En syntesmetod med flera AI-modeller för att lösa
 author: "Björn Kenneth Holmström"
 date: "2025-08-25"
 description: "En omfattande metodik för att utnyttja olika AI-modeller för att utveckla robusta, holistiska lösningar som överbryggar den kognitiva klyftan mellan fragmenterat tänkande och det integrerade medvetande som krävs för att hantera den globala polykrisen."
-status: "Publicerad"
+status: "published"
 category: "Metodik"
 version: "1.8"
 pages: 19

@@ -3,7 +3,7 @@ title: "The Currency of Care: Why Universal Basic Income Isn't Enough"
 author: "Björn Kenneth Holmström"
 date: "2025-08-31"
 description: "An in-depth exploration of why UBI is a necessary but insufficient solution to the 'crisis of value.' This white paper proposes the Adaptive Universal Basic Income (AUBI) and its 'Hearts' credit system as a practical, systemic intervention to formally recognize, value, and channel resources into the essential care economy that underpins societal well-being."
-status: "Published"
+status: "published"
 category: "Economics"
 version: "1.0"
 pages: 28

@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1000 600"
+   version="1.1"
+   id="svg58"
+   sodipodi:docname="maui-before-after.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview58"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.41"
+     inkscape:cx="500.35461"
+     inkscape:cy="300"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg58" />
+  <defs
+     id="defs4">
+    <linearGradient
+       id="beforeGrad"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#ef4444;stop-opacity:0.8"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#dc2626;stop-opacity:0.9"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="afterGrad"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#10b981;stop-opacity:0.8"
+         id="stop3" />
+      <stop
+         offset="100%"
+         style="stop-color:#047857;stop-opacity:0.9"
+         id="stop4" />
+    </linearGradient>
+    <filter
+       id="shadow"
+       x="-0.0125"
+       y="-0.0125"
+       width="1.025"
+       height="1.025">
+      <feDropShadow
+         dx="2"
+         dy="2"
+         stdDeviation="2"
+         flood-opacity="0.3" />
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect
+     width="1000"
+     height="600"
+     fill="#f8fafc"
+     id="rect4" />
+  <!-- Title -->
+  <text
+     x="500"
+     y="30"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="24"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text4">Maui Wildfire Response: Fragmented vs. Integrated Governance</text>
+  <!-- Dividing Line -->
+  <line
+     x1="500"
+     y1="50"
+     x2="500"
+     y2="580"
+     stroke="#6b7280"
+     stroke-width="2"
+     stroke-dasharray="5,5"
+     id="line4" />
+  <!-- BEFORE (2023) Section -->
+  <rect
+     x="20"
+     y="60"
+     width="460"
+     height="40"
+     rx="5"
+     fill="url(#beforeGrad)"
+     id="rect5" />
+  <text
+     x="250"
+     y="85"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     font-weight="bold"
+     fill="white"
+     id="text5">2023 FRAGMENTED RESPONSE</text>
+  <!-- Actor 1: UN Diplomat -->
+  <rect
+     x="40"
+     y="120"
+     width="130"
+     height="90"
+     rx="8"
+     fill="#fef2f2"
+     stroke="#f87171"
+     stroke-width="2"
+     filter="url(#shadow)"
+     id="rect6" />
+  <text
+     x="105"
+     y="140"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="#dc2626"
+     id="text6">UN Diplomat</text>
+  <text
+     x="105"
+     y="155"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#7f1d1d"
+     id="text7">New York</text>
+  <text
+     x="50"
+     y="175"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#374151"
+     id="text8">• Bureaucratic channels</text>
+  <text
+     x="50"
+     y="190"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#374151"
+     id="text9">• Stalled negotiations</text>
+  <text
+     x="50"
+     y="205"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#374151"
+     id="text10">• Months for aid</text>
+  <!-- Actor 2: Kanaka Maoli Elder -->
+  <rect
+     x="190"
+     y="120"
+     width="130"
+     height="90"
+     rx="8"
+     fill="#fef2f2"
+     stroke="#f87171"
+     stroke-width="2"
+     filter="url(#shadow)"
+     id="rect10" />
+  <text
+     x="255"
+     y="140"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="#dc2626"
+     id="text11">Kanaka Maoli Elder</text>
+  <text
+     x="255"
+     y="155"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#7f1d1d"
+     id="text12">Lahaina</text>
+  <text
+     x="200"
+     y="175"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#374151"
+     id="text13">• Traditional knowledge</text>
+  <text
+     x="200"
+     y="190"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#374151"
+     id="text14">• Voice marginalized</text>
+  <text
+     x="200"
+     y="205"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#374151"
+     id="text15">• Wisdom ignored</text>
+  <!-- Actor 3: Logistics CEO -->
+  <rect
+     x="340"
+     y="120"
+     width="130"
+     height="90"
+     rx="8"
+     fill="#fef2f2"
+     stroke="#f87171"
+     stroke-width="2"
+     filter="url(#shadow)"
+     id="rect15" />
+  <text
+     x="405"
+     y="140"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="#dc2626"
+     id="text16">Logistics CEO</text>
+  <text
+     x="405"
+     y="155"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#7f1d1d"
+     id="text17">Honolulu</text>
+  <text
+     x="350"
+     y="175"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#374151"
+     id="text18">• Supply chain capacity</text>
+  <text
+     x="350"
+     y="190"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#374151"
+     id="text19">• No coordination</text>
+  <text
+     x="350"
+     y="205"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#374151"
+     id="text20">• Resources trapped</text>
+  <!-- Broken connections -->
+  <line
+     x1="170"
+     y1="165"
+     x2="190"
+     y2="165"
+     stroke="#ef4444"
+     stroke-width="3"
+     stroke-dasharray="5,3"
+     opacity="0.7"
+     id="line20" />
+  <line
+     x1="320"
+     y1="165"
+     x2="340"
+     y2="165"
+     stroke="#ef4444"
+     stroke-width="3"
+     stroke-dasharray="5,3"
+     opacity="0.7"
+     id="line21" />
+  <text
+     x="250"
+     y="250"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     fill="#dc2626"
+     font-weight="bold"
+     id="text21">SILOED EFFORTS</text>
+  <text
+     x="250"
+     y="270"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="#dc2626"
+     id="text22">Working at cross-purposes</text>
+  <!-- Problem outcomes -->
+  <rect
+     x="40"
+     y="290"
+     width="420"
+     height="120"
+     rx="8"
+     fill="#fee2e2"
+     stroke="#fca5a5"
+     stroke-width="1"
+     id="rect22" />
+  <text
+     x="250"
+     y="315"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="#dc2626"
+     id="text23">OUTCOMES</text>
+  <text
+     x="50"
+     y="335"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#374151"
+     id="text24">✗ 100+ lives lost</text>
+  <text
+     x="50"
+     y="355"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#374151"
+     id="text25">✗ $5.5 billion in damages</text>
+  <text
+     x="50"
+     y="375"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#374151"
+     id="text26">✗ Cultural sites destroyed</text>
+  <text
+     x="50"
+     y="395"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#374151"
+     id="text27">✗ Community dependency created</text>
+  <text
+     x="250"
+     y="355"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#374151"
+     id="text28">✗ Traditional knowledge ignored</text>
+  <text
+     x="250"
+     y="375"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#374151"
+     id="text29">✗ Fragmented aid response</text>
+  <text
+     x="250"
+     y="395"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#374151"
+     id="text30">✗ Long-term vulnerability unchanged</text>
+  <!-- Timeline -->
+  <rect
+     x="40"
+     y="430"
+     width="420"
+     height="50"
+     rx="8"
+     fill="#fecaca"
+     stroke="#f87171"
+     stroke-width="1"
+     id="rect30" />
+  <text
+     x="250"
+     y="450"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="#7f1d1d"
+     id="text31">TIMELINE</text>
+  <text
+     x="250"
+     y="470"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#7f1d1d"
+     id="text32">6-18 months for coordinated response • Years for recovery</text>
+  <!-- AFTER (2030) Section -->
+  <rect
+     x="520"
+     y="60"
+     width="460"
+     height="40"
+     rx="5"
+     fill="url(#afterGrad)"
+     id="rect32" />
+  <text
+     x="750"
+     y="85"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     font-weight="bold"
+     fill="white"
+     id="text33">2030 INTEGRATED RESPONSE</text>
+  <!-- Integrated System -->
+  <circle
+     cx="750"
+     cy="193"
+     r="60"
+     fill="#ecfdf5"
+     stroke="#10b981"
+     stroke-width="3"
+     filter="url(#shadow)"
+     id="circle33"
+     transform="matrix(1.1960445,0,0,1.1960445,-154.12559,-39.893329)" />
+  <text
+     x="750"
+     y="183"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#047857"
+     id="text34">TRIUMVIRATE</text>
+  <text
+     x="750"
+     y="198"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#047857"
+     id="text35">INTEGRATION</text>
+  <text
+     x="750"
+     y="213"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#047857"
+     id="text36">Hardware • Heart • Nervous System</text>
+  <!-- Connected Actors -->
+  <rect
+     x="528"
+     y="120"
+     width="120"
+     height="50"
+     rx="5"
+     fill="#d1fae5"
+     stroke="#10b981"
+     stroke-width="2"
+     id="rect36" />
+  <text
+     x="588"
+     y="140"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     font-weight="bold"
+     fill="#047857"
+     id="text37">Legal Authority</text>
+  <text
+     x="588"
+     y="155"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#047857"
+     id="text38">72-hour authorization</text>
+  <rect
+     x="680"
+     y="90"
+     width="120"
+     height="50"
+     rx="5"
+     fill="#d1fae5"
+     stroke="#10b981"
+     stroke-width="2"
+     id="rect38" />
+  <text
+     x="740"
+     y="110"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     font-weight="bold"
+     fill="#047857"
+     id="text39">Indigenous Wisdom</text>
+  <text
+     x="740"
+     y="125"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#047857"
+     id="text40">Traditional knowledge leads</text>
+  <rect
+     x="818"
+     y="120"
+     width="120"
+     height="50"
+     rx="5"
+     fill="#d1fae5"
+     stroke="#10b981"
+     stroke-width="2"
+     id="rect40" />
+  <text
+     x="878"
+     y="140"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     font-weight="bold"
+     fill="#047857"
+     id="text41">Resource Coordination</text>
+  <text
+     x="878"
+     y="155"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#047857"
+     id="text42">$2B immediate release</text>
+  <rect
+     x="680"
+     y="230"
+     width="120"
+     height="50"
+     rx="5"
+     fill="#d1fae5"
+     stroke="#10b981"
+     stroke-width="2"
+     id="rect42" />
+  <text
+     x="740"
+     y="250"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     font-weight="bold"
+     fill="#047857"
+     id="text43">Adaptive Coordination</text>
+  <text
+     x="740"
+     y="265"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#047857"
+     id="text44">Real-time integration</text>
+  <!-- Connection lines to center -->
+  <line
+     x1="648"
+     y1="145"
+     x2="678"
+     y2="165"
+     stroke="#10b981"
+     stroke-width="2"
+     id="line44" />
+  <line
+     x1="740"
+     y1="140"
+     x2="740"
+     y2="165"
+     stroke="#10b981"
+     stroke-width="2"
+     id="line45" />
+  <line
+     x1="818"
+     y1="145"
+     x2="808"
+     y2="165"
+     stroke="#10b981"
+     stroke-width="2"
+     id="line46" />
+  <line
+     x1="740"
+     y1="230"
+     x2="740"
+     y2="225"
+     stroke="#10b981"
+     stroke-width="2"
+     id="line47" />
+  <!-- Success outcomes -->
+  <rect
+     x="540"
+     y="290"
+     width="420"
+     height="120"
+     rx="8"
+     fill="#ecfdf5"
+     stroke="#6ee7b7"
+     stroke-width="1"
+     id="rect47" />
+  <text
+     x="750"
+     y="315"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="#047857"
+     id="text47">OUTCOMES</text>
+  <text
+     x="550"
+     y="335"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#374151"
+     id="text48">✓ Lives and cultural sites protected</text>
+  <text
+     x="550"
+     y="355"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#374151"
+     id="text49">✓ Traditional fire management implemented</text>
+  <text
+     x="550"
+     y="375"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#374151"
+     id="text50">✓ Community sovereignty strengthened</text>
+  <text
+     x="550"
+     y="395"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#374151"
+     id="text51">✓ Ecosystem resilience enhanced</text>
+  <text
+     x="774"
+     y="355"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#374151"
+     id="text52">✓ Regional cooperation increased</text>
+  <text
+     x="774"
+     y="375"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#374151"
+     id="text53">✓ Crisis becomes catalyst</text>
+  <text
+     x="774"
+     y="395"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#374151"
+     id="text54">✓ Regenerative development model</text>
+  <!-- Timeline -->
+  <rect
+     x="540"
+     y="430"
+     width="420"
+     height="50"
+     rx="8"
+     fill="#a7f3d0"
+     stroke="#34d399"
+     stroke-width="1"
+     id="rect54" />
+  <text
+     x="750"
+     y="450"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="#047857"
+     id="text55">TIMELINE</text>
+  <text
+     x="750"
+     y="470"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#047857"
+     id="text56">6 hours authorization • 6 months ecosystem recovery</text>
+  <!-- Bottom comparison -->
+  <rect
+     x="100"
+     y="510"
+     width="800"
+     height="60"
+     rx="10"
+     fill="#1f2937"
+     opacity="0.9"
+     id="rect56" />
+  <text
+     x="500"
+     y="535"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     fill="white"
+     id="text57">The Integration Advantage</text>
+  <text
+     x="500"
+     y="555"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="white"
+     id="text58">Speed: 6 hours vs 6 months • Legitimacy: Community-led vs externally imposed • Effectiveness: Regenerative vs extractive</text>
+</svg>

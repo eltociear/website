@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1000 700"
+   version="1.1"
+   id="svg53"
+   sodipodi:docname="nested-sovereignty-sv.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview53"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.2085714"
+     inkscape:cx="497.69505"
+     inkscape:cy="350.00001"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg53" />
+  <defs
+     id="defs8">
+    <linearGradient
+       id="bazGrad"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#059669;stop-opacity:0.8"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#047857;stop-opacity:0.9"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="bioregionalGrad"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#0891b2;stop-opacity:0.7"
+         id="stop3" />
+      <stop
+         offset="100%"
+         style="stop-color:#0e7490;stop-opacity:0.8"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="nationalGrad"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#7c3aed;stop-opacity:0.6"
+         id="stop5" />
+      <stop
+         offset="100%"
+         style="stop-color:#6d28d9;stop-opacity:0.7"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="planetaryGrad"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#dc2626;stop-opacity:0.5"
+         id="stop7" />
+      <stop
+         offset="100%"
+         style="stop-color:#b91c1c;stop-opacity:0.6"
+         id="stop8" />
+    </linearGradient>
+    <filter
+       id="shadow"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feDropShadow
+         dx="2"
+         dy="2"
+         stdDeviation="2"
+         flood-opacity="0.3" />
+    </filter>
+    <marker
+       id="coordinationArrow"
+       markerWidth="8"
+       markerHeight="6"
+       refX="8"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0, 8 3, 0 6"
+         fill="#374151"
+         id="polygon8" />
+    </marker>
+  </defs>
+  <rect
+     width="1000"
+     height="700"
+     fill="#f8fafc"
+     id="rect8" />
+  <text
+     x="500"
+     y="30"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="24"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text8">Ramverk för kapslad suveränitet</text>
+  <text
+     x="500"
+     y="55"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     fill="#6b7280"
+     id="text9">Funktionell auktoritet på lämpliga skalor med frivillig samordning</text>
+  <ellipse
+     cx="500"
+     cy="400"
+     rx="450"
+     ry="250"
+     fill="url(#planetaryGrad)"
+     filter="url(#shadow)"
+     opacity="0.8"
+     id="ellipse9" />
+  <text
+     x="500"
+     y="120"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     font-weight="bold"
+     fill="white"
+     id="text10"
+     style="fill:#c5c4c4;fill-opacity:1">PLANETÄR STYRNING</text>
+  <text
+     x="500"
+     y="140"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="white"
+     id="text11"
+     style="fill:#c5c4c4;fill-opacity:1">Globala allmänningar • Klimat • Pandemier • Existentiella risker</text>
+  <ellipse
+     cx="500"
+     cy="420"
+     rx="350"
+     ry="180"
+     fill="url(#nationalGrad)"
+     filter="url(#shadow)"
+     opacity="0.9"
+     id="ellipse11" />
+  <text
+     x="500"
+     y="180"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     fill="white"
+     id="text12">NATIONELL STYRNING</text>
+  <text
+     x="500"
+     y="200"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="white"
+     id="text13">Försvar • Valuta • Mellanstatlig handel • Konstitutionella rättigheter</text>
+  <ellipse
+     cx="500"
+     cy="440"
+     rx="250"
+     ry="120"
+     fill="url(#bioregionalGrad)"
+     filter="url(#shadow)"
+     opacity="0.9"
+     id="ellipse13" />
+  <text
+     x="500"
+     y="240"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="white"
+     id="text14">BIOREGIONAL SAMORDNING</text>
+  <text
+     x="500"
+     y="260"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text15">Vattendragsförvaltning • Regional handel • Ekologisk restaurering</text>
+  <ellipse
+     cx="500"
+     cy="460"
+     rx="150"
+     ry="80"
+     fill="url(#bazGrad)"
+     filter="url(#shadow)"
+     id="ellipse15" />
+  <text
+     x="500"
+     y="440"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="white"
+     id="text16">BIOREGIONALA AUTONOMA ZONER</text>
+  <text
+     x="500"
+     y="460"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="white"
+     id="text17">Traditionella territorier • Urfolkssuveränitet</text>
+  <text
+     x="500"
+     y="480"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text18">Kulturell praxis • Traditionell kunskap • Markförvaltning</text>
+  <circle
+     cx="310"
+     cy="420"
+     r="25"
+     fill="#22c55e"
+     stroke="#16a34a"
+     stroke-width="2"
+     id="circle18" />
+  <text
+     x="310"
+     y="415"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#ffffff"
+     font-weight="bold"
+     id="text19">Stillahavs-</text>
+  <text
+     x="310"
+     y="425"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#ffffff"
+     font-weight="bold"
+     id="text20">öarna</text>
+  <circle
+     cx="712"
+     cy="432"
+     r="25"
+     fill="#22c55e"
+     stroke="#16a34a"
+     stroke-width="2"
+     id="circle20" />
+  <text
+     x="712"
+     y="427"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#ffffff"
+     font-weight="bold"
+     id="text21">Amazonas-</text>
+  <text
+     x="712"
+     y="437"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#ffffff"
+     font-weight="bold"
+     id="text22">bäckenet</text>
+  <circle
+     cx="308"
+     cy="500"
+     r="25"
+     fill="#22c55e"
+     stroke="#16a34a"
+     stroke-width="2"
+     id="circle22" />
+  <text
+     x="308"
+     y="495"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#ffffff"
+     font-weight="bold"
+     id="text23">Arktiska</text>
+  <text
+     x="308"
+     y="505"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#ffffff"
+     font-weight="bold"
+     id="text24">samhällen</text>
+  <circle
+     cx="696"
+     cy="500"
+     r="25"
+     fill="#22c55e"
+     stroke="#16a34a"
+     stroke-width="2"
+     id="circle24" />
+  <text
+     x="696"
+     y="495"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#ffffff"
+     font-weight="bold"
+     id="text25">Stora</text>
+  <text
+     x="696"
+     y="505"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#ffffff"
+     font-weight="bold"
+     id="text26">sjöarna</text>
+  <path
+     d="m 310,395 q 50,-15 100,0"
+     stroke="#374151"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#coordinationArrow)"
+     stroke-dasharray="3, 3"
+     id="path26" />
+  <path
+     d="m 712,407 q -50,-15 -100,0"
+     stroke="#374151"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#coordinationArrow)"
+     stroke-dasharray="3, 3"
+     id="path27" />
+  <path
+     d="m 308,475 q 25,-5 50,0"
+     stroke="#374151"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#coordinationArrow)"
+     stroke-dasharray="3, 3"
+     id="path28" />
+  <path
+     d="m 696,475 q -25,10 -50,0"
+     stroke="#374151"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#coordinationArrow)"
+     stroke-dasharray="3, 3"
+     id="path29" />
+  <rect
+     x="50"
+     y="520"
+     width="400"
+     height="150"
+     rx="10"
+     fill="#f9fafb"
+     stroke="#d1d5db"
+     stroke-width="2"
+     id="rect29" />
+  <text
+     x="250"
+     y="545"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text29">Auktoritetsfördelning</text>
+  <text
+     x="60"
+     y="570"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="#047857"
+     id="text30">BAZ-nivå:</text>
+  <text
+     x="60"
+     y="585"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#374151"
+     id="text31">• Trad. territorier, kulturell praxis</text>
+  <text
+     x="60"
+     y="600"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#374151"
+     id="text32">• Trad. kunskap, markförvaltning</text>
+  <text
+     x="60"
+     y="615"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#374151"
+     id="text33">• Gemenskapens ekonomi &amp; styre</text>
+  <text
+     x="60"
+     y="635"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="#0e7490"
+     id="text34">Bioregional nivå:</text>
+  <text
+     x="60"
+     y="650"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#374151"
+     id="text35">• Ekosystemförvaltning &amp; restaurering</text>
+  <text
+     x="60"
+     y="665"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#374151"
+     id="text36">• Samordning &amp; handel mellan BAZ:er</text>
+  <rect
+     x="550"
+     y="520"
+     width="400"
+     height="150"
+     rx="10"
+     fill="#f0f9ff"
+     stroke="#0ea5e9"
+     stroke-width="2"
+     id="rect36" />
+  <text
+     x="750"
+     y="545"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text37">Nyckelprinciper</text>
+  <text
+     x="560"
+     y="570"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="#0ea5e9"
+     id="text38">Frivilligt deltagande:</text>
+  <text
+     x="560"
+     y="585"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#374151"
+     id="text39">Samhällen väljer samordningsnivå</text>
+  <text
+     x="560"
+     y="605"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="#0ea5e9"
+     id="text40">Subsidiär auktoritet:</text>
+  <text
+     x="560"
+     y="620"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#374151"
+     id="text41">Beslut på lägsta effektiva nivå</text>
+  <text
+     x="560"
+     y="640"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="#0ea5e9"
+     id="text42">Förstärkt suveränitet:</text>
+  <text
+     x="560"
+     y="655"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#374151"
+     id="text43">Samordning stärker lokal autonomi</text>
+  <rect
+     x="50"
+     y="80"
+     width="200"
+     height="120"
+     rx="8"
+     fill="#f3f4f6"
+     stroke="#9ca3af"
+     stroke-width="1"
+     id="rect43" />
+  <text
+     x="150"
+     y="105"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text44">Skalförklaring</text>
+  <circle
+     cx="70"
+     cy="125"
+     r="8"
+     fill="url(#bazGrad)"
+     id="circle44" />
+  <text
+     x="90"
+     y="130"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#374151"
+     id="text45">BAZ - Full suveränitet</text>
+  <circle
+     cx="70"
+     cy="145"
+     r="8"
+     fill="url(#bioregionalGrad)"
+     id="circle45" />
+  <text
+     x="90"
+     y="150"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#374151"
+     id="text46">Bioregional - Samordning</text>
+  <circle
+     cx="70"
+     cy="165"
+     r="8"
+     fill="url(#nationalGrad)"
+     id="circle46" />
+  <text
+     x="90"
+     y="170"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#374151"
+     id="text47">Nationell - Begränsad auktoritet</text>
+  <circle
+     cx="70"
+     cy="185"
+     r="8"
+     fill="url(#planetaryGrad)"
+     id="circle47" />
+  <text
+     x="90"
+     y="190"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#374151"
+     id="text48">Planetär - Endast allmänningar</text>
+  <text
+     x="800"
+     y="300"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="#dc2626"
+     id="text49">Inte hierarkisk kontroll</text>
+  <text
+     x="800"
+     y="320"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="#dc2626"
+     id="text50">Frivilliga samordningsnätverk</text>
+  <text
+     x="800"
+     y="335"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="#dc2626"
+     id="text51">stärker lokal suveränitet</text>
+  <line
+     x1="750"
+     y1="330"
+     x2="650"
+     y2="380"
+     stroke="#dc2626"
+     stroke-width="3"
+     stroke-dasharray="5,3"
+     id="line51" />
+  <text
+     x="700"
+     y="366"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#dc2626"
+     id="text52">Samordning,</text>
+  <text
+     x="700"
+     y="381"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#dc2626"
+     id="text53">inte kontroll</text>
+</svg>

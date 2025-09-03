@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1000 600"
+   version="1.1"
+   id="svg58"
+   sodipodi:docname="maui-before-after-sv.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview58"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.41"
+     inkscape:cx="493.26241"
+     inkscape:cy="289.3617"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg58" />
+  <defs
+     id="defs4">
+    <linearGradient
+       id="beforeGrad"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#ef4444;stop-opacity:0.8"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#dc2626;stop-opacity:0.9"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="afterGrad"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#10b981;stop-opacity:0.8"
+         id="stop3" />
+      <stop
+         offset="100%"
+         style="stop-color:#047857;stop-opacity:0.9"
+         id="stop4" />
+    </linearGradient>
+    <filter
+       id="shadow"
+       x="-0.0125"
+       y="-0.0125"
+       width="1.025"
+       height="1.025">
+      <feDropShadow
+         dx="2"
+         dy="2"
+         stdDeviation="2"
+         flood-opacity="0.3" />
+    </filter>
+  </defs>
+  <rect
+     width="1000"
+     height="600"
+     fill="#f8fafc"
+     id="rect4" />
+  <text
+     x="500"
+     y="30"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="24"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text4">Insats vid skogsbranden på Maui: Fragmenterad kontra integrerad styrning</text>
+  <line
+     x1="500"
+     y1="50"
+     x2="500"
+     y2="580"
+     stroke="#6b7280"
+     stroke-width="2"
+     stroke-dasharray="5,5"
+     id="line4" />
+  <rect
+     x="20"
+     y="60"
+     width="460"
+     height="40"
+     rx="5"
+     fill="url(#beforeGrad)"
+     id="rect5" />
+  <text
+     x="250"
+     y="85"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     font-weight="bold"
+     fill="white"
+     id="text5">2023 FRAGMENTERAD INSATS</text>
+  <rect
+     x="30"
+     y="120"
+     width="130"
+     height="90"
+     rx="8"
+     fill="#fef2f2"
+     stroke="#f87171"
+     stroke-width="2"
+     filter="url(#shadow)"
+     id="rect6" />
+  <text
+     x="95"
+     y="140"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#dc2626"
+     id="text6">FN-diplomat</text>
+  <text
+     x="95"
+     y="155"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#7f1d1d"
+     id="text7">New York</text>
+  <text
+     x="40"
+     y="175"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#374151"
+     id="text8">• Byråkratiska kanaler</text>
+  <text
+     x="40"
+     y="190"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#374151"
+     id="text9">• Avstannade förhandlingar</text>
+  <text
+     x="40"
+     y="205"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#374151"
+     id="text10">• Månader för bistånd</text>
+  <rect
+     x="190"
+     y="120"
+     width="130"
+     height="90"
+     rx="8"
+     fill="#fef2f2"
+     stroke="#f87171"
+     stroke-width="2"
+     filter="url(#shadow)"
+     id="rect10"
+     transform="matrix(1.1394519,0,0,0.99851811,-34.851028,0.24451208)" />
+  <text
+     x="255"
+     y="140"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="#dc2626"
+     id="text11">Äldste från Kanaka Maoli</text>
+  <text
+     x="255"
+     y="155"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#7f1d1d"
+     id="text12">Lahaina</text>
+  <text
+     x="200"
+     y="175"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#374151"
+     id="text13">• Traditionell kunskap</text>
+  <text
+     x="200"
+     y="190"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#374151"
+     id="text14">• Röst marginaliserad</text>
+  <text
+     x="200"
+     y="205"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#374151"
+     id="text15">• Visdom ignorerad</text>
+  <rect
+     x="350"
+     y="120"
+     width="130"
+     height="90"
+     rx="8"
+     fill="#fef2f2"
+     stroke="#f87171"
+     stroke-width="2"
+     filter="url(#shadow)"
+     id="rect15" />
+  <text
+     x="415"
+     y="140"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#dc2626"
+     id="text16">Logistik-VD</text>
+  <text
+     x="415"
+     y="155"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#7f1d1d"
+     id="text17">Honolulu</text>
+  <text
+     x="360"
+     y="175"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#374151"
+     id="text18">• Kapacitet i leveranskedjan</text>
+  <text
+     x="360"
+     y="190"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#374151"
+     id="text19">• Ingen samordning</text>
+  <text
+     x="360"
+     y="205"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#374151"
+     id="text20">• Resurser fast</text>
+  <line
+     x1="160"
+     y1="165"
+     x2="180"
+     y2="165"
+     stroke="#ef4444"
+     stroke-width="3"
+     stroke-dasharray="5, 3"
+     opacity="0.7"
+     id="line20" />
+  <line
+     x1="330"
+     y1="165"
+     x2="350"
+     y2="165"
+     stroke="#ef4444"
+     stroke-width="3"
+     stroke-dasharray="5, 3"
+     opacity="0.7"
+     id="line21" />
+  <text
+     x="250"
+     y="250"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     fill="#dc2626"
+     font-weight="bold"
+     id="text21">SILO-INSATSER</text>
+  <text
+     x="250"
+     y="270"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="#dc2626"
+     id="text22">Arbetar i korsande syften</text>
+  <rect
+     x="40"
+     y="290"
+     width="420"
+     height="120"
+     rx="8"
+     fill="#fee2e2"
+     stroke="#fca5a5"
+     stroke-width="1"
+     id="rect22" />
+  <text
+     x="250"
+     y="315"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="#dc2626"
+     id="text23">RESULTAT</text>
+  <text
+     x="50"
+     y="335"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#374151"
+     id="text24">✗ 100+ liv förlorade</text>
+  <text
+     x="50"
+     y="355"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#374151"
+     id="text25">✗ 5,5 miljarder $ i skador</text>
+  <text
+     x="50"
+     y="375"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#374151"
+     id="text26">✗ Kulturplatser förstörda</text>
+  <text
+     x="50"
+     y="395"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#374151"
+     id="text27">✗ Beroende skapat i samhället</text>
+  <text
+     x="250"
+     y="355"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#374151"
+     id="text28">✗ Traditionell kunskap ignorerad</text>
+  <text
+     x="250"
+     y="375"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#374151"
+     id="text29">✗ Fragmenterad biståndsinsats</text>
+  <text
+     x="250"
+     y="395"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#374151"
+     id="text30">✗ Långsiktig sårbarhet oförändrad</text>
+  <rect
+     x="40"
+     y="430"
+     width="420"
+     height="50"
+     rx="8"
+     fill="#fecaca"
+     stroke="#f87171"
+     stroke-width="1"
+     id="rect30" />
+  <text
+     x="250"
+     y="450"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="#7f1d1d"
+     id="text31">TIDSLINJE</text>
+  <text
+     x="250"
+     y="470"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#7f1d1d"
+     id="text32">6-18 mån för samordnad insats • År för återhämtning</text>
+  <rect
+     x="520"
+     y="60"
+     width="460"
+     height="40"
+     rx="5"
+     fill="url(#afterGrad)"
+     id="rect32" />
+  <text
+     x="750"
+     y="85"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     font-weight="bold"
+     fill="white"
+     id="text33">2030 INTEGRERAD INSATS</text>
+  <circle
+     cx="750"
+     cy="193"
+     r="60"
+     fill="#ecfdf5"
+     stroke="#10b981"
+     stroke-width="3"
+     filter="url(#shadow)"
+     id="circle33"
+     transform="matrix(1.1960445,0,0,1.1960445,-154.12559,-39.893329)" />
+  <text
+     x="750"
+     y="183"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#047857"
+     id="text34">TRIUMVIRAT-</text>
+  <text
+     x="750"
+     y="198"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#047857"
+     id="text35">INTEGRATION</text>
+  <text
+     x="750"
+     y="213"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#047857"
+     id="text36">Hårdvara • Hjärta • Nervsystem</text>
+  <rect
+     x="528"
+     y="120"
+     width="120"
+     height="50"
+     rx="5"
+     fill="#d1fae5"
+     stroke="#10b981"
+     stroke-width="2"
+     id="rect36" />
+  <text
+     x="588"
+     y="140"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     font-weight="bold"
+     fill="#047857"
+     id="text37">Juridisk auktoritet</text>
+  <text
+     x="588"
+     y="155"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#047857"
+     id="text38">72-timmars auktorisation</text>
+  <rect
+     x="680"
+     y="90"
+     width="120"
+     height="50"
+     rx="5"
+     fill="#d1fae5"
+     stroke="#10b981"
+     stroke-width="2"
+     id="rect38" />
+  <text
+     x="740"
+     y="110"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     font-weight="bold"
+     fill="#047857"
+     id="text39">Urfolksvisdom</text>
+  <text
+     x="740"
+     y="125"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#047857"
+     id="text40">Traditionell kunskap leder</text>
+  <rect
+     x="816.25983"
+     y="120.06124"
+     width="135.48035"
+     height="49.877514"
+     rx="5.6450148"
+     fill="#d1fae5"
+     stroke="#10b981"
+     stroke-width="2.12248"
+     id="rect40" />
+  <text
+     x="884"
+     y="140"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     font-weight="bold"
+     fill="#047857"
+     id="text41">Resurssamordning</text>
+  <text
+     x="884"
+     y="155"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#047857"
+     id="text42">2 miljarder $ frigörs omedelbart</text>
+  <rect
+     x="680"
+     y="230"
+     width="120"
+     height="50"
+     rx="5"
+     fill="#d1fae5"
+     stroke="#10b981"
+     stroke-width="2"
+     id="rect42" />
+  <text
+     x="740"
+     y="250"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     font-weight="bold"
+     fill="#047857"
+     id="text43">Adaptiv samordning</text>
+  <text
+     x="740"
+     y="265"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#047857"
+     id="text44">Integration i realtid</text>
+  <line
+     x1="648"
+     y1="145"
+     x2="678"
+     y2="165"
+     stroke="#10b981"
+     stroke-width="2"
+     id="line44" />
+  <line
+     x1="740"
+     y1="140"
+     x2="740"
+     y2="165"
+     stroke="#10b981"
+     stroke-width="2"
+     id="line45" />
+  <line
+     x1="818"
+     y1="145"
+     x2="808"
+     y2="165"
+     stroke="#10b981"
+     stroke-width="2"
+     id="line46" />
+  <line
+     x1="740"
+     y1="230"
+     x2="740"
+     y2="225"
+     stroke="#10b981"
+     stroke-width="2"
+     id="line47" />
+  <rect
+     x="540"
+     y="290"
+     width="420"
+     height="120"
+     rx="8"
+     fill="#ecfdf5"
+     stroke="#6ee7b7"
+     stroke-width="1"
+     id="rect47" />
+  <text
+     x="750"
+     y="315"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="#047857"
+     id="text47">RESULTAT</text>
+  <text
+     x="550"
+     y="335"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#374151"
+     id="text48">✓ Liv och kulturplatser skyddade</text>
+  <text
+     x="550"
+     y="355"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#374151"
+     id="text49">✓ Traditionell brandhantering implementerad</text>
+  <text
+     x="550"
+     y="375"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#374151"
+     id="text50">✓ Samhällets suveränitet stärkt</text>
+  <text
+     x="550"
+     y="395"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#374151"
+     id="text51">✓ Ekosystemets resiliens förbättrad</text>
+  <text
+     x="774"
+     y="355"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#374151"
+     id="text52">✓ Regionalt samarbete ökat</text>
+  <text
+     x="774"
+     y="375"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#374151"
+     id="text53">✓ Krisen blir en katalysator</text>
+  <text
+     x="774"
+     y="395"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#374151"
+     id="text54">✓ Regenerativ utvecklingsmodell</text>
+  <rect
+     x="540"
+     y="430"
+     width="420"
+     height="50"
+     rx="8"
+     fill="#a7f3d0"
+     stroke="#34d399"
+     stroke-width="1"
+     id="rect54" />
+  <text
+     x="750"
+     y="450"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="#047857"
+     id="text55">TIDSLINJE</text>
+  <text
+     x="750"
+     y="470"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#047857"
+     id="text56">6 timmars auktorisation • 6 månaders återhämtning för ekosystemet</text>
+  <rect
+     x="100"
+     y="510"
+     width="800"
+     height="60"
+     rx="10"
+     fill="#1f2937"
+     opacity="0.9"
+     id="rect56" />
+  <text
+     x="500"
+     y="535"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     fill="white"
+     id="text57">Integrationsfördelen</text>
+  <text
+     x="500"
+     y="555"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="white"
+     id="text58">Hastighet: 6 timmar mot 6 mån • Legitimitet: Samhällsstyrd mot externt påtvingad • Effektivitet: Regenerativ mot extraktiv</text>
+</svg>

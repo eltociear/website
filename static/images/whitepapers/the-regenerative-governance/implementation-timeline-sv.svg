@@ -1,0 +1,96 @@
+<svg viewBox="0 0 1200 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="phase0Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:0.9" />
+    </linearGradient>
+    <linearGradient id="phase1Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:0.9" />
+    </linearGradient>
+    <linearGradient id="phase2Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#047857;stop-opacity:0.9" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <rect width="1200" height="500" fill="#f8fafc"/>
+  
+  <text x="600" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1f2937">Tidslinje för GGF-implementering: Överlappande faser till kritisk massa</text>
+  
+  <line x1="100" y1="80" x2="1100" y2="80" stroke="#374151" stroke-width="2"/>
+  
+  <line x1="100" y1="75" x2="100" y2="85" stroke="#374151" stroke-width="2"/>
+  <text x="100" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">År 0</text>
+  
+  <line x1="250" y1="75" x2="250" y2="85" stroke="#374151" stroke-width="2"/>
+  <text x="250" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">År 3</text>
+  
+  <line x1="450" y1="75" x2="450" y2="85" stroke="#374151" stroke-width="2"/>
+  <text x="450" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">År 7</text>
+  
+  <line x1="700" y1="75" x2="700" y2="85" stroke="#374151" stroke-width="2"/>
+  <text x="700" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">År 10</text>
+  
+  <line x1="1100" y1="75" x2="1100" y2="85" stroke="#374151" stroke-width="2"/>
+  <text x="1100" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">År 15+</text>
+  
+  <rect x="100" y="130" width="200" height="80" rx="10" fill="url(#phase0Grad)" filter="url(#shadow)"/>
+  <text x="200" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">FAS 0: UPPSTART</text>
+  <text x="200" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">År 1-4</text>
+  <text x="110" y="195" font-family="Arial, sans-serif" font-size="10" fill="white">• Proto-BAZ:er</text>
+  <text x="110" y="205" font-family="Arial, sans-serif" font-size="10" fill="white">• Regenerativ pakt</text>
+  
+  <rect x="200" y="240" width="300" height="80" rx="10" fill="url(#phase1Grad)" filter="url(#shadow)"/>
+  <text x="350" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">FAS 1: TIDIGT ANAMMANDE</text>
+  <text x="350" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">År 3-8</text>
+  <text x="210" y="305" font-family="Arial, sans-serif" font-size="10" fill="white">• Formella BAZ-deklarationer • Etablering av GCF</text>
+  <text x="210" y="315" font-family="Arial, sans-serif" font-size="10" fill="white">• Nätverkseffekter börjar • Konkurrensfördelar</text>
+  
+  <rect x="400" y="350" width="500" height="80" rx="10" fill="url(#phase2Grad)" filter="url(#shadow)"/>
+  <text x="650" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">FAS 2: KASKADANAMMANDE</text>
+  <text x="650" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">År 7+</text>
+  <text x="410" y="415" font-family="Arial, sans-serif" font-size="10" fill="white">• Kritisk massa uppnådd • Icke-deltagande ofördelaktigt • Juridisk evolution</text>
+  
+  <circle cx="200" cy="80" r="5" fill="#3b82f6"/>
+  <text x="200" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1d4ed8" font-weight="bold">Lansering av Proto-GCF</text>
+  
+  <circle cx="350" cy="80" r="5" fill="#f59e0b"/>
+  <text x="350" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#d97706" font-weight="bold">Första fördragsratificeringarna</text>
+  
+  <circle cx="550" cy="80" r="5" fill="#10b981"/>
+  <text x="550" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#047857" font-weight="bold">25% av världens befolkning</text>
+  
+  <circle cx="800" cy="80" r="5" fill="#10b981"/>
+  <text x="800" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#047857" font-weight="bold">Systemisk transformation</text>
+  
+  <rect x="950" y="130" width="220" height="300" rx="10" fill="#f3f4f6" stroke="#d1d5db" stroke-width="2"/>
+  <text x="1060" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1f2937">Transformationsdrivkrafter</text>
+  
+  <text x="960" y="180" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#3b82f6">Dragningskraft (incitament):</text>
+  <text x="960" y="200" font-family="Arial, sans-serif" font-size="10" fill="#374151">• Tillgång till GCF</text>
+  <text x="960" y="215" font-family="Arial, sans-serif" font-size="10" fill="#374151">• Fördelar med Gaian Trade</text>
+  <text x="960" y="230" font-family="Arial, sans-serif" font-size="10" fill="#374151">• Krissamordning</text>
+  <text x="960" y="245" font-family="Arial, sans-serif" font-size="10" fill="#374151">• Teknologiska fördelar</text>
+  
+  <text x="960" y="270" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f59e0b">Intern drivkraft (legitimitet):</text>
+  <text x="960" y="290" font-family="Arial, sans-serif" font-size="10" fill="#374151">• Framgångshistorier från samhällen</text>
+  <text x="960" y="305" font-family="Arial, sans-serif" font-size="10" fill="#374151">• Ledarskap från unga</text>
+  <text x="960" y="320" font-family="Arial, sans-serif" font-size="10" fill="#374151">• Urfolks återupplivning</text>
+  <text x="960" y="335" font-family="Arial, sans-serif" font-size="10" fill="#374151">• Kulturell evolution</text>
+  
+  <text x="960" y="360" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#10b981">Hårt skyddsnät (upprätthållande):</text>
+  <text x="960" y="380" font-family="Arial, sans-serif" font-size="10" fill="#374151">• Sanktioner enligt Shield Protocol</text>
+  <text x="960" y="395" font-family="Arial, sans-serif" font-size="10" fill="#374151">• Ekonomisk isolering</text>
+  <text x="960" y="410" font-family="Arial, sans-serif" font-size="10" fill="#374151">• Rättsliga åtal</text>
+  
+  <text x="280" y="220" font-family="Arial, sans-serif" font-size="10" fill="#dc2626" font-weight="bold">Överlappningszon 1</text>
+  <line x1="250" y1="130" x2="300" y2="240" stroke="#dc2626" stroke-width="2" stroke-dasharray="3,3"/>
+  
+  <text x="480" y="340" font-family="Arial, sans-serif" font-size="10" fill="#dc2626" font-weight="bold">Överlappningszon 2</text>
+  <line x1="450" y1="240" x2="500" y2="350" stroke="#dc2626" stroke-width="2" stroke-dasharray="3,3"/>
+  
+</svg>

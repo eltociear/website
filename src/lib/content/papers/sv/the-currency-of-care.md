@@ -3,7 +3,7 @@ title: "Omsorgens valuta: Varför universell basinkomst inte är tillräckligt"
 author: "Björn Kenneth Holmström"
 date: "2025-08-31"
 description: "En djupgående utforskning av varför UBI är en nödvändig men otillräcklig lösning på 'värderingskrisen'. Detta white paper föreslår Adaptiv Universell Basinkomst (AUBI) och dess kreditsystem 'Hearts' som en praktisk, systemisk intervention för att formellt erkänna, värdera och kanalisera resurser till den essentiella omsorgsekonomin som ligger till grund för samhällets välbefinnande."
-status: "Publicerad"
+status: "published"
 category: "Ekonomi"
 version: "1.0"
 pages: 28

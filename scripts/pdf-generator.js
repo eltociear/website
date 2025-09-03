@@ -149,6 +149,26 @@ const tools = [
 
   // White Papers
   {
+    name: 'the-regenerative-governance',
+    category: 'whitepapers',
+    fileNames: {
+      en: 'The_Regenerative_Governance_-_Integrating_Hardware_Heart_Nervous_System',
+      sv: 'Regenerativ_styrning_-_Integrering_hårdvara_hjärta_nervsystem'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'papers', 'en'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'papers', 'sv')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'resources', 'whitepapers'),
+      sv: path.join(__dirname, '..', 'static', 'resources', 'whitepapers')
+    },
+    pageFooter: {
+      en: 'GGF Whitepaper - The Regenerative Governance: Integrating the Hardware, Heart, and Nervous System of Global Governance',
+      sv: 'GGF Whitepaper - Regenerativ styrning: Integrering av hårdvaran, hjärtat och nervsystemet i global styrning'
+    }
+  },
+  {
     name: 'cognitive-scaffolding',
     category: 'whitepapers',
     fileNames: {
