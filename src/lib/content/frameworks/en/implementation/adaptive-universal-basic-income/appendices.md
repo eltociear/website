@@ -26,7 +26,7 @@ These appendices provide comprehensive technical, strategic, and implementation 
 
 ### Economic Crisis Management
 
-**Inflation Crisis Response (>10% annual inflation)**:
+**Inflation Crisis Response (`>`10% annual inflation)**:
 
 **Immediate Stabilization (0-30 days)**:
 - **Emergency Council Activation**: Social Resilience Council convenes within 24 hours with Earth Council participation
@@ -52,7 +52,7 @@ These appendices provide comprehensive technical, strategic, and implementation 
 **Recession Response Protocols**:
 
 **Counter-Cyclical Mechanisms**:
-- **AUBI Increase**: Automatic 10-15% increase in baseline payments during recession (unemployment >8%, GDP contraction >2%)
+- **AUBI Increase**: Automatic 10-15% increase in baseline payments during recession (unemployment `>`8%, GDP contraction `>`2%)
 - **Emergency Hearts Deployment**: Additional Hearts circulation through expedited Layer 2 contributions for care work and community support
 - **Public Works Integration**: Coordinate with Work in Liberation Framework's Community Work Teams for ecological restoration and care economy expansion
 - **Financial System Coordination**: Work with Financial Systems Framework to maintain Love Ledger functionality and prevent financial system collapse
@@ -326,7 +326,7 @@ These appendices provide comprehensive technical, strategic, and implementation 
 - **Node Distribution**: 150+ nodes across 25 countries with minimum 5 Indigenous-controlled nodes per Bioregional Autonomous Zone
 - **Consensus Mechanism**: Practical Byzantine Fault Tolerance (PBFT) enabling operation with up to 33% compromised nodes
 - **Block Time**: 2-3 second block confirmation for Community Provider Hearts accumulation and Treasury redemption
-- **Network Latency**: <300ms global transaction confirmation with regional optimization for Hearts economy
+- **Network Latency**: `<`300ms global transaction confirmation with regional optimization for Hearts economy
 
 **Community Provider Integration**:
 - **Proof of Care Verification**: Automated validation of Community Provider service delivery with community override authority
