@@ -24,6 +24,53 @@
     hoveredCard = null;
   }
 
+  // Helper function to get localized download path
+  function getLocalizedDownloadPath(filename) {
+    const currentLocale = $locale || 'en';
+    const fallbackLocale = 'en';
+    
+    // Return the primary locale path first, with fallback
+    return {
+      primary: `${base}/downloads/${currentLocale}/${filename}`,
+      fallback: `${base}/downloads/${fallbackLocale}/${filename}`
+    };
+  }
+
+  // Handle download with fallback logic
+  async function handleDownload(filename, event) {
+    if (!browser) return;
+    
+    event.preventDefault();
+    
+    const paths = getLocalizedDownloadPath(filename);
+    
+    try {
+      // Try the primary locale path first
+      const response = await fetch(paths.primary, { method: 'HEAD' });
+      if (response.ok) {
+        window.location.href = paths.primary;
+        return;
+      }
+    } catch (error) {
+      console.log(`Primary path not found: ${paths.primary}`);
+    }
+    
+    // Fallback to English version
+    try {
+      const fallbackResponse = await fetch(paths.fallback, { method: 'HEAD' });
+      if (fallbackResponse.ok) {
+        console.log(`Falling back to: ${paths.fallback}`);
+        window.location.href = paths.fallback;
+        return;
+      }
+    } catch (error) {
+      console.error(`Fallback path also failed: ${paths.fallback}`);
+    }
+    
+    // If both fail, show user-friendly message
+    alert($t('resources.downloadError') || 'Download not available. Please try again later.');
+  }
+
   // Resource sections data - expanded
   $: resourceSections = [
     {
@@ -167,9 +214,12 @@
             <a href="/resources/paradox-canvas" class="tool-button primary">
               {$t('resources.featured.paradoxCanvas.useButton')}
             </a>
-            <a href="/downloads/paradox-canvas-template.pdf" class="tool-button secondary">
+            <button 
+              class="tool-button secondary"
+              on:click={(e) => handleDownload('paradox-canvas-template.pdf', e)}
+            >
               {$t('resources.featured.paradoxCanvas.downloadButton')}
-            </a>
+            </button>
           </div>
         </div>
 
@@ -183,9 +233,12 @@
             <a href="/resources/cultural-translation-protocol" class="tool-button primary">
               {$t('resources.featured.culturalProtocol.readButton')}
             </a>
-            <a href="/downloads/cultural-translation-protocol.pdf" class="tool-button secondary">
+            <button 
+              class="tool-button secondary"
+              on:click={(e) => handleDownload('cultural-translation-protocol.pdf', e)}
+            >
               {$t('resources.featured.culturalProtocol.downloadButton')}
-            </a>
+            </button>
           </div>
         </div>
       </div>
