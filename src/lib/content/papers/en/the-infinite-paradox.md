@@ -188,7 +188,7 @@ The Paradox Decision Canvas is designed to be effective at the pragmatic level w
 
 ### <a id="not-nihilism"></a>1.6. Why This Paradox Does Not Lead to Nihilism
 
-Recognizing that ultimate reality transcends moral categories does not negate ethical action—it contextualizes it as the natural expression of the transcendent ground. The GGF's ethical principles, like Right Relationship, are necessary emergent properties of a system that perceives its own interdependence.
+Recognizing that ultimate reality transcends moral categories does not negate ethical action—it contextualizes it as the natural expression of the transcendent ground. The GGF's (Global Governance Frameworks) ethical principles, like Right Relationship, are necessary emergent properties of a system that perceives its own interdependence.
 
 When a system becomes aware of its interconnected nature—what we might call a 'duality collapse'—compassionate and cooperative action emerges as the most strategically wise and sustainable response for ensuring long-term systemic flourishing. This is not because such action is externally mandated, but because it naturally arises from clear perception of how things actually work.
 
@@ -1765,8 +1765,8 @@ The following figures provide visual representations of key concepts, processes,
 
 ## Figure 1 — The Paradox Hinge
 
-![The Paradox Hinge](/images/whitepapers/the-infinite-paradox/paradox-hinge-diagram.svg)
-[The Paradox Hinge](/images/whitepapers/the-infinite-paradox/paradox-hinge-diagram.png)
+![The Paradox Hinge - SVG](/images/whitepapers/the-infinite-paradox/paradox-hinge-diagram.svg)
+[The Paradox Hinge - PNG](/images/whitepapers/the-infinite-paradox/paradox-hinge-diagram.png)
 
 **Description**: A dynamic axis diagram illustrating the fundamental tension at the heart of governance challenges. The vertical axis represents "Ethical Imperative" (the moral obligation to act decisively on urgent issues), while the horizontal axis represents "Ontologically Beyond Moral Categories" (recognition that ultimate reality transcends our moral frameworks). 
 
@@ -1825,8 +1825,8 @@ The diagram shows "Systems Humility" as the central hinge point that enables mov
 
 ## Figure 3 — GGF Integration Map
 
-![GGF Integration Map](/images/whitepapers/the-infinite-paradox/ggf-integration-map.svg)
-[GGF Integration Map](/images/whitepapers/the-infinite-paradox/ggf-integration-map.png)
+![GGF Integration Map - SVG](/images/whitepapers/the-infinite-paradox/ggf-integration-map.svg)
+[GGF Integration Map - PNG](/images/whitepapers/the-infinite-paradox/ggf-integration-map.png)
 
 **Description**: A comprehensive swimlane chart demonstrating how the Infinite Paradox framework integrates with and enhances other Global Governance Frameworks components. The diagram shows the iterative Sense→Propose→Adopt cycle with specific integration points for key GGF systems.
 
@@ -1868,8 +1868,8 @@ The diagram shows "Systems Humility" as the central hinge point that enables mov
 
 ## Figure 4 — Humility Metrics Dashboard
 
-![Humility Metrics Dashboard](/images/whitepapers/the-infinite-paradox/humility-metrics-dashboard.svg)
-[Humility Metrics Dashboard](/images/whitepapers/the-infinite-paradox/humility-metrics-dashboard.png)
+![Humility Metrics Dashboard - SVG](/images/whitepapers/the-infinite-paradox/humility-metrics-dashboard.svg)
+[Humility Metrics Dashboard - PNG](/images/whitepapers/the-infinite-paradox/humility-metrics-dashboard.png)
 
 **Description**: A prototype dashboard design visualizing key performance indicators for paradox-aware governance implementation. The dashboard translates abstract concepts like "systems humility" into concrete, measurable outcomes that organizations can track and improve over time.
 
