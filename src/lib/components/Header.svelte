@@ -1747,6 +1747,11 @@
               <a href="{base}/resources/books" class={isActive('/resources/books') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
                 {browser ? ($t('common.header.books') || 'Books') : 'Books'}
               </a>
+              <a href="{base}/resources/tools" class={isActive('/resources/tools') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+                {browser ? ($t('common.header.tools') || 'Interactive Tools') : 'Interactive Tools'}
+              </a>              <a href="{base}/resources/protocols" class={isActive('/resources/protocols') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+                {browser ? ($t('common.header.protocols') || 'Protocols & Methods') : 'Protocols & Methods'}
+              </a>
             </div>
           </li>
 

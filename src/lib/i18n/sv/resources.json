@@ -1,25 +1,51 @@
 {
   "meta": {
-    "title": "Resurser - Globala styrningsramverken",
-    "description": "Utforska det omfattande biblioteket med böcker, whitepapers och resurser som utgör den filosofiska och praktiska grunden för regenerativ global styrning."
+    "title": "Resurser - Global Governance Frameworks",
+    "description": "Utforska det omfattande biblioteket av böcker, vitböcker, verktyg och resurser som utgör de filosofiska och praktiska grunderna för planetär styrning och regenerativa system."
   },
   "hero": {
     "title": "Resurser",
-    "subtitle": "Ett omfattande bibliotek för planetär styrning",
-    "description": "Upptäck de grundläggande böckerna, djupgående whitepapers och väsentliga resurserna som utforskar principerna, metoderna och de praktiska tillämpningarna av regenerativ styrning för en blomstrande värld."
+    "subtitle": "Verktyg, kunskap och ramverk for en regenerativ framtid.",
+    "description": "Upptäck de grundläggande böckerna, djupgående vitböckerna och väsentliga resurserna som utforskar principerna, metoderna och de praktiska tillämpningarna av regenerativ styrning för en blomstrande värld."
   },
   "sections": {
     "books": {
       "title": "Böcker",
-      "description": "Utforska de fullängdsböcker som utgör den filosofiska och praktiska grunden för de globala styrningsramverken.",
+      "description": "Utforska de fullständiga böckerna som utgör de filosofiska och praktiska grunderna för Global Governance Frameworks.",
       "stats": "böcker tillgängliga"
     },
     "whitepapers": {
-      "title": "Whitepapers",
-      "description": "Dyk djupt in i specifika GGF-metoder och förslag med våra formella whitepapers och forskningspublikationer.",
-      "stats": "publicerade whitepapers"
+      "title": "Vitböcker",
+      "description": "Dyk djupt ner i specifika GGF-metoder och förslag med våra formella vitböcker och forskningspublikationer.",
+      "stats": "publicerade uppsatser"
+    },
+    "tools": {
+      "title": "Interaktiva verktyg",
+      "description": "Praktiska, handgripliga verktyg för beslutsfattande, konfliktlösning och implementering av styrningsramverk i din gemenskap.",
+      "stats": "verktyg"
+    },
+    "protocols": {
+      "title": "Protokoll & metoder",
+      "description": "Steg-för-steg-protokoll och metoder för kulturell översättning, implementering och anpassning av styrningsramverk.",
+      "stats": "protokoll"
     },
     "explore": "Utforska"
+  },
+  "featured": {
+    "title": "Utvalda verktyg",
+    "description": "Kom igång med våra mest populära interaktiva verktyg och protokoll.",
+    "paradoxCanvas": {
+      "title": "Canvas för paradoxbeslut",
+      "description": "Bryt dödlägen genom att omvandla antingen/eller-konflikter till både/och-lösningar med detta interaktiva steg-för-steg-verktyg.",
+      "useButton": "Använd verktyget",
+      "downloadButton": "Ladda ner PDF"
+    },
+    "culturalProtocol": {
+      "title": "Protokollet för kulturell översättning",
+      "description": "En omfattande guide för att anpassa styrningsramverk över olika kulturella kontexter med respekt för suveränitet.",
+      "readButton": "Läs protokollet",
+      "downloadButton": "Ladda ner PDF"
+    }
   },
   "future": {
     "title": "Framtida möjligheter",
@@ -27,7 +53,7 @@
     "types": {
       "videos": {
         "title": "Videopresentationer",
-        "description": "Utbildningsvideor och presentationer som förklarar nyckelkoncept och ramverk - möjligt i takt med att vårt team växer."
+        "description": "Utbildningsvideor och presentationer som förklarar nyckelkoncept och ramverk - möjligt när vårt team växer."
       },
       "podcasts": {
         "title": "Poddavsnitt",
@@ -35,14 +61,14 @@
       },
       "articles": {
         "title": "Artiklar & essäer",
-        "description": "Kortare texter som utforskar specifika aspekter av ramverken - beroende av att ha fler bidragsgivare."
+        "description": "Kortare texter som utforskar specifika aspekter av ramverken - beroende på fler bidragsgivare."
       }
     }
   },
   "getInvolved": {
     "title": "Hjälp oss att utöka dessa resurser",
-    "description": "För närvarande är detta främst ett enmansprojekt. Ditt engagemang kan hjälpa oss att skapa videor, poddar, artiklar och annat utbildningsmaterial för att göra dessa idéer mer tillgängliga för världen.",
+    "description": "För närvarande är detta primärt ett enmansprojekt. Ditt engagemang kan hjälpa oss att skapa videor, poddar, artiklar och annat utbildningsmaterial för att göra dessa idéer mer tillgängliga för världen.",
     "button": "Engagera dig & hjälp oss växa",
-    "learnMore": "Läs mer om vårt uppdrag"
+    "learnMore": "Lär dig mer om vår mission"
   }
 }

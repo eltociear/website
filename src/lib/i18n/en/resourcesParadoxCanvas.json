@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "title": "Paradox Decision Canvas - Interactive Tool | Global Governance Frameworks",
+    "description": "Break gridlock with the Paradox Decision Canvas - a practical tool for finding breakthrough solutions to complex problems."
+  },
+  "navigation": {
+    "backToResources": "Back to Resources",
+    "previous": "Previous",
+    "next": "Next",
+    "export": "Export Canvas"
+  },
+  "header": {
+    "title": "Paradox Decision Canvas",
+    "subtitle": "Transform either/or conflicts into both/and solutions",
+    "description": "A step-by-step tool to help you break gridlock and find breakthrough solutions to your toughest problems."
+  },
+  "steps": {
+    "mapPoles": {
+      "title": "Map the Poles",
+      "description": "Identify the competing positions and their core values.",
+      "coreParadox": {
+        "label": "Core Paradox/Tension:",
+        "placeholder": "Describe the fundamental tension (e.g., 'Need for security vs. need for privacy')"
+      },
+      "poleA": {
+        "label": "Pole A:",
+        "placeholder": "Position and core values"
+      },
+      "poleB": {
+        "label": "Pole B:",
+        "placeholder": "Opposing position and values"
+      }
+    },
+    "sharedAim": {
+      "title": "Find Shared Aim",
+      "description": "What deeper goal do both sides actually want?",
+      "label": "Shared Deeper Goal:",
+      "placeholder": "What do both sides ultimately care about?",
+      "helpTitle": "Finding the Shared Aim",
+      "helpTips": {
+        "tip1": "Look beyond stated positions to underlying values",
+        "tip2": "Ask: What would success look like for everyone?",
+        "tip3": "Consider long-term outcomes both sides want"
+      }
+    },
+    "thirdWay": {
+      "title": "Third Way",
+      "description": "Design a solution that serves the shared aim while addressing both poles.",
+      "label": "Third Way Solution:",
+      "placeholder": "A creative solution that honors both perspectives",
+      "helpTitle": "Creating the Third Way",
+      "helpTips": {
+        "tip1": "Think 'both/and' instead of 'either/or'",
+        "tip2": "Look for solutions that make the old fight obsolete",
+        "tip3": "Consider how to sequence or layer different approaches"
+      }
+    },
+    "powerProof": {
+      "title": "Power-Proof",
+      "description": "Ensure your solution can withstand real-world power dynamics.",
+      "powerChecks": {
+        "label": "Power Analysis:",
+        "placeholder": "Who could block this? How does it shift power?"
+      },
+      "safeguards": {
+        "label": "Safeguards:",
+        "placeholder": "What protections are needed for vulnerable groups?"
+      },
+      "helpTitle": "Power-Proofing Your Solution",
+      "helpTips": {
+        "tip1": "Identify who has veto power over implementation",
+        "tip2": "Consider how your solution affects existing power structures",
+        "tip3": "Build in protections for those with less power"
+      }
+    }
+  },
+  "actions": {
+    "reset": "Reset Canvas"
+  },
+  "output": {
+    "title": "Paradox Decision Canvas Summary",
+    "coreParadox": "Core Paradox",
+    "poles": "Competing Poles",
+    "poleA": "Pole A",
+    "poleB": "Pole B", 
+    "sharedAim": "Shared Aim",
+    "thirdWay": "Third Way Solution",
+    "powerAnalysis": "Power Analysis",
+    "safeguards": "Safeguards",
+    "notFilled": "Not filled in"
+  },
+  "loading": {
+    "text": "Loading Paradox Canvas..."
+  }
+}

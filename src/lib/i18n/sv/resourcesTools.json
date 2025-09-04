@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "title": "Praktiska verktyg för styrningsinnovation - Global Governance Frameworks",
+    "description": "Interaktiva verktyg och mallar för att implementera regenerativa styrningsmetoder i din organisation eller gemenskap."
+  },
+  "hero": {
+    "title": "Praktiska verktyg för styrningsinnovation",
+    "subtitle": "Interaktiva instrument för systemförändring",
+    "description": "Från konfliktlösning till ramverk for beslutsfattande, upptäck handgripliga verktyg som omvandlar hur vi styr tillsammans."
+  },
+  "categories": {
+    "interactive": "Interaktiva verktyg",
+    "templates": "Mallar & guider",
+    "frameworks": "Ramverk for beslutsfattande",
+    "comingSoon": "Kommer snart"
+  },
+  "stats": {
+    "available": "Tillgänglig nu",
+    "inDevelopment": "Under utveckling",
+    "totalDownloads": "Nedladdningar"
+  },
+  "tools": {
+    "paradoxCanvas": {
+      "title": "Canvas för paradoxbeslut",
+      "subtitle": "Bryt igenom omöjliga konflikter",
+      "description": "Ett interaktivt verktyg för att omvandla polariserade situationer till banbrytande lösningar. Kartlägg motstående positioner, hitta gemensamma mål och utforma innovativa tredje vägens metoder som tjänar allas djupare intressen.",
+      "category": "interactive",
+      "status": "available",
+      "features": [
+        "Interaktiv steg-för-steg-process",
+        "Exportera till PDF- eller utskriftsformat",
+        "Vägledande prompter för varje fas",
+        "Inbyggda verktyg för maktanalys"
+      ],
+      "useCase": "Perfekt för: Gemenskapskonflikter, organisatoriska spänningar, politiska dödlägen och alla situationer där olika grupper verkar vara fundamentalt motsatta.",
+      "timeToComplete": "15-45 minuter",
+      "difficulty": "Nybörjarvänlig",
+      "useCaseExamples": [
+        "Budgetdispyter i kommunfullmäktige",
+        "Konflikter i samhällsplanering",
+        "Spänningar i arbetslag",
+        "Utmaningar vid policyimplementering"
+      ],
+      "links": {
+        "interactive": "/resources/paradox-canvas",
+        "template": "/downloads/paradox-canvas-template.pdf",
+        "guide": "/resources/whitepapers/cognitive-scaffolding"
+      }
+    },
+    "sciCycle": {
+      "title": "SCI-cykelns metodologi",
+      "subtitle": "Beslutsfattande från flera perspektiv med AI-assistans",
+      "description": "Syntes-Utmaning-Integration-cykeln: En rigorös metodik för att utnyttja olika AI-modeller för att utveckla robusta, holistiska lösningar på komplexa systemproblem.",
+      "category": "frameworks",
+      "status": "inDevelopment",
+      "features": [
+        "Protokoll för AI-syntes med flera modeller",
+        "Strukturerad adversariell utmaningsprocess",
+        "Integrationsmetodik för robusta lösningar",
+        "Kvantifierbara framgångsmått"
+      ],
+      "useCase": "Utformad för: Policyutveckling, organisationsstrategi, komplexa utmaningar med flera intressenter och alla situationer som kräver omfattande analys.",
+      "timeToComplete": "2-6 veckor (hel cykel)",
+      "difficulty": "Avancerad",
+      "expectedRelease": "K2 2025",
+      "useCaseExamples": [
+        "Utveckling av lagförslag",
+        "Förhandling av globala fördrag",
+        "Reform av bolagsstyrning",
+        "Översiktsplanering i samhällen"
+      ],
+      "links": {
+        "whitepaper": "/resources/whitepapers/cognitive-scaffolding",
+        "earlyAccess": "/contact"
+      }
+    },
+    "culturalTranslationGuide": {
+      "title": "Verktygslåda för kulturell översättning",
+      "subtitle": "Anpassa styrningsramverk över kulturer",
+      "description": "En omfattande guide och uppsättning mallar för att med respekt anpassa styrningsramverk över olika kulturella kontexter, samtidigt som kulturell integritet och suveränitet bibehålls.",
+      "category": "templates",
+      "status": "inDevelopment",
+      "features": [
+        "Fasindelad implementeringsguide",
+        "Avtal om kulturell suveränitet",
+        "Mallar för samråd med samhällen",
+        "Skyddsåtgärder mot appropriering"
+      ],
+      "useCase": "Väsentlig för: Samarbeten med urfolk, internationell utveckling, mångkulturella samhällen och tvärkulturella styrningsinitiativ.",
+      "timeToComplete": "3-12 månader (hel process)",
+      "difficulty": "Medel",
+      "expectedRelease": "K3 2025",
+      "useCaseExamples": [
+        "Styrningspartnerskap mellan urfolk och nybyggare",
+        "Implementering av internationella ramverk",
+        "Styrning i mångkulturella samhällen",
+        "Integration av traditionella och moderna system"
+      ],
+      "links": {
+        "protocol": "/resources/cultural-translation-protocol",
+        "earlyAccess": "/contact"
+      }
+    }
+  },
+  "navigation": {
+    "backToResources": "← Tillbaka till resurser",
+    "exploreTools": "Utforska verktyg",
+    "downloadTemplate": "Ladda ner mall",
+    "useInteractive": "Använd interaktivt verktyg",
+    "readGuide": "Läs guide",
+    "requestEarlyAccess": "Begär tidig åtkomst"
+  },
+  "filters": {
+    "allCategories": "Alla kategorier",
+    "allStatuses": "All status",
+    "search": "Sök verktyg...",
+    "clearFilters": "Rensa filter"
+  },
+  "getInvolved": {
+    "title": "Hjälp till att bygga dessa verktyg",
+    "description": "Dela med dig av feedback, bidra med idéer eller pilottesta nya metoder.",
+    "feedback": "Dela feedback",
+    "contribute": "Bidra med idéer",
+    "pilot": "Delta i pilottester",
+    "learnMore": "Läs mer"
+  },
+  "comingSoon": {
+    "title": "Verktyg under utveckling",
+    "description": "Kommande verktyg baserade på samhällsbehov och utvecklingen av GGF-ramverket:",
+    "items": [
+      {
+        "name": "Canvas för intressentkartläggning",
+        "description": "Visuellt verktyg för att identifiera och engagera olika intressenter i styrningsprocesser"
+      },
+      {
+        "name": "Verktygslåda för maktanalys",
+        "description": "Ramverk för att förstå och hantera maktdynamik i kollaborativ styrning"
+      },
+      {
+        "name": "Protokoll för konsensusbyggande",
+        "description": "Steg-för-steg-processer för att nå meningsfull enighet över olikheter"
+      },
+      {
+        "name": "Instrumentpanel för regenerativa mått",
+        "description": "Spåra framsteg mot regenerativa resultat i din gemenskap eller organisation"
+      }
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "title": "Practical Tools for Governance Innovation - Global Governance Frameworks",
+    "description": "Interactive tools and templates for implementing regenerative governance practices in your organization or community."
+  },
+  "hero": {
+    "title": "Practical Tools for Governance Innovation",
+    "subtitle": "Interactive instruments for systemic change",
+    "description": "From conflict resolution to decision-making frameworks, discover hands-on tools that transform how we govern together."
+  },
+  "categories": {
+    "interactive": "Interactive Tools",
+    "templates": "Templates & Guides", 
+    "frameworks": "Decision-Making Frameworks",
+    "comingSoon": "Coming Soon"
+  },
+  "stats": {
+    "available": "Available Now",
+    "inDevelopment": "In Development",
+    "totalDownloads": "Downloads"
+  },
+  "tools": {
+    "paradoxCanvas": {
+      "title": "Paradox Decision Canvas",
+      "subtitle": "Break through impossible conflicts",
+      "description": "An interactive tool for transforming polarized situations into breakthrough solutions. Map opposing positions, find shared aims, and design innovative third-way approaches that serve everyone's deeper interests.",
+      "category": "interactive",
+      "status": "available",
+      "features": [
+        "Interactive step-by-step process",
+        "Export to PDF or print format", 
+        "Guided prompts for each phase",
+        "Built-in power analysis tools"
+      ],
+      "useCase": "Perfect for: Community conflicts, organizational tensions, policy deadlocks, and any situation where different groups seem fundamentally opposed.",
+      "timeToComplete": "15-45 minutes",
+      "difficulty": "Beginner-friendly",
+      "useCaseExamples": [
+        "City council budget disputes",
+        "Community planning conflicts", 
+        "Workplace team tensions",
+        "Policy implementation challenges"
+      ],
+      "links": {
+        "interactive": "/resources/paradox-canvas",
+        "template": "/downloads/paradox-canvas-template.pdf",
+        "guide": "/resources/whitepapers/cognitive-scaffolding"
+      }
+    },
+    "sciCycle": {
+      "title": "SCI Cycle Methodology",
+      "subtitle": "Multi-perspective decision making with AI assistance",
+      "description": "The Synthesis-Challenge-Integration Cycle: A rigorous methodology for leveraging diverse AI models to develop robust, holistic solutions to complex systemic problems.",
+      "category": "frameworks",
+      "status": "inDevelopment",
+      "features": [
+        "Multi-model AI synthesis protocols",
+        "Structured adversarial challenge process",
+        "Integration methodology for robust solutions",
+        "Quantifiable success metrics"
+      ],
+      "useCase": "Designed for: Policy development, organizational strategy, complex multi-stakeholder challenges, and any situation requiring comprehensive analysis.",
+      "timeToComplete": "2-6 weeks (full cycle)",
+      "difficulty": "Advanced",
+      "expectedRelease": "Q2 2025",
+      "useCaseExamples": [
+        "Legislative bill development",
+        "Global treaty negotiation",
+        "Corporate governance reform",
+        "Community master planning"
+      ],
+      "links": {
+        "whitepaper": "/resources/whitepapers/cognitive-scaffolding",
+        "earlyAccess": "/contact"
+      }
+    },
+    "culturalTranslationGuide": {
+      "title": "Cultural Translation Toolkit", 
+      "subtitle": "Adapt governance frameworks across cultures",
+      "description": "A comprehensive guide and template set for respectfully adapting governance frameworks across diverse cultural contexts while maintaining cultural integrity and sovereignty.",
+      "category": "templates", 
+      "status": "inDevelopment",
+      "features": [
+        "Phase-by-phase implementation guide",
+        "Cultural sovereignty agreements",
+        "Community consultation templates",
+        "Anti-appropriation safeguards"
+      ],
+      "useCase": "Essential for: Indigenous collaborations, international development, multicultural communities, and cross-cultural governance initiatives.",
+      "timeToComplete": "3-12 months (full process)",
+      "difficulty": "Intermediate",
+      "expectedRelease": "Q3 2025",
+      "useCaseExamples": [
+        "Indigenous-settler governance partnerships",
+        "International framework implementation",
+        "Multicultural community governance",
+        "Traditional-modern system integration"
+      ],
+      "links": {
+        "protocol": "/resources/cultural-translation-protocol",
+        "earlyAccess": "/contact"
+      }
+    }
+  },
+  "navigation": {
+    "backToResources": "← Back to Resources",
+    "exploreTools": "Explore Tools",
+    "downloadTemplate": "Download Template",
+    "useInteractive": "Use Interactive Tool",
+    "readGuide": "Read Guide",
+    "requestEarlyAccess": "Request Early Access"
+  },
+  "filters": {
+    "allCategories": "All Categories",
+    "allStatuses": "All Status",
+    "search": "Search tools...",
+    "clearFilters": "Clear Filters"
+  },
+  "getInvolved": {
+    "title": "Help Build These Tools",
+    "description": "Share feedback, contribute ideas, or pilot test new approaches.",
+    "feedback": "Share Feedback",
+    "contribute": "Contribute Ideas",
+    "pilot": "Join Pilot Testing",
+    "learnMore": "Learn More"
+  },
+  "comingSoon": {
+    "title": "Tools in Development",
+    "description": "Upcoming tools based on community needs and GGF framework development:",
+    "items": [
+      {
+        "name": "Stakeholder Mapping Canvas",
+        "description": "Visual tool for identifying and engaging diverse stakeholders in governance processes"
+      },
+      {
+        "name": "Power Analysis Toolkit", 
+        "description": "Framework for understanding and addressing power dynamics in collaborative governance"
+      },
+      {
+        "name": "Consensus Building Protocols",
+        "description": "Step-by-step processes for reaching meaningful agreement across difference"
+      },
+      {
+        "name": "Regenerative Metrics Dashboard",
+        "description": "Track progress toward regenerative outcomes in your community or organization"
+      }
+    ]
+  }
+}

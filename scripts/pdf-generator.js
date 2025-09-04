@@ -68,6 +68,7 @@ Available categories:
 - disaster-risk-reduction
 - ggf-overview
 - whitepapers
+- protocols
 - bioregional-compass
 
 Example: node tools-pdf-generator.js economic
@@ -134,7 +135,8 @@ const outputDirs = {
   'frameworks-foundation': path.join(__dirname, '..', 'static', 'downloads'),
   'meta-governance': path.join(__dirname, '..', 'static', 'downloads'),
   'ggf-overview': path.join(__dirname, '..', 'static', 'downloads'),
-  'whitepapers': path.join(__dirname, '..', 'static', 'resources', 'whitepapers')
+  'whitepapers': path.join(__dirname, '..', 'static', 'resources', 'whitepapers'),
+  'protocols': path.join(__dirname, '..', 'static', 'resources', 'protocols'),
 };
 
 // Validate category if provided
@@ -146,6 +148,38 @@ if (targetCategory && !Object.keys(outputDirs).includes(targetCategory)) {
 
 // Define tools to process
 const tools = [
+
+  // Protocols
+  {
+    name: 'cultural-translation',
+    category: 'protocols',
+    fileNames: {
+      en: 'cultural-translation-protocol',
+      sv: 'cultural-translation-protocol-sv'
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'protocols', 'en', 'cultural-translation'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'protocols', 'sv', 'cultural-translation')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'downloads', 'en'),
+      sv: path.join(__dirname, '..', 'static', 'downloads', 'sv')
+    },
+    pageFooter: {
+      en: 'Cultural Translation Protocol',
+      sv: 'Kulturellt översättningsprotokoll'
+    },
+    sections: [
+      'introduction',
+      'overview',
+      'purpose-foundation',
+      'recognition-principles',
+      'deep-dialogue',
+      'co-design-adaptation',
+      'validation-integration',
+      'safeguards-implementation'
+    ]
+  },
 
   // White Papers
   {

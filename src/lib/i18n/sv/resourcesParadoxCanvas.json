@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "title": "Canvas för paradoxbeslut - Interaktivt verktyg | Global Governance Frameworks",
+    "description": "Bryt dödlägen med en Canvas för paradoxbeslut - ett praktiskt verktyg för att hitta banbrytande lösningar på komplexa problem."
+  },
+  "navigation": {
+    "backToResources": "Tillbaka till resurser",
+    "previous": "Föregående",
+    "next": "Nästa",
+    "export": "Exportera canvas"
+  },
+  "header": {
+    "title": "Canvas för paradoxbeslut",
+    "subtitle": "Omvandla antingen/eller-konflikter till både/och-lösningar",
+    "description": "Ett steg-för-steg-verktyg som hjälper dig att bryta dödlägen och hitta banbrytande lösningar på dina tuffaste problem."
+  },
+  "steps": {
+    "mapPoles": {
+      "title": "Kartlägg polerna",
+      "description": "Identifiera de konkurrerande positionerna och deras kärnvärden.",
+      "coreParadox": {
+        "label": "Kärnparadox/spänning:",
+        "placeholder": "Beskriv den grundläggande spänningen (t.ex. 'Behov av säkerhet kontra behov av integritet')"
+      },
+      "poleA": {
+        "label": "Pol A:",
+        "placeholder": "Position och kärnvärden"
+      },
+      "poleB": {
+        "label": "Pol B:",
+        "placeholder": "Motsatt position och värden"
+      }
+    },
+    "sharedAim": {
+      "title": "Hitta gemensamt mål",
+      "description": "Vilket djupare mål vill båda sidor egentligen uppnå?",
+      "label": "Delat djupare mål:",
+      "placeholder": "Vad bryr sig båda sidor om i slutändan?",
+      "helpTitle": "Att hitta det gemensamma målet",
+      "helpTips": {
+        "tip1": "Se bortom uttalade positioner till underliggande värderingar",
+        "tip2": "Fråga: Hur skulle framgång se ut för alla?",
+        "tip3": "Tänk på långsiktiga resultat som båda sidor vill ha"
+      }
+    },
+    "thirdWay": {
+      "title": "Den tredje vägen",
+      "description": "Utforma en lösning som tjänar det gemensamma målet och samtidigt adresserar båda polerna.",
+      "label": "Tredje vägens lösning:",
+      "placeholder": "En kreativ lösning som hedrar båda perspektiven",
+      "helpTitle": "Att skapa den tredje vägen",
+      "helpTips": {
+        "tip1": "Tänk 'både/och' istället för 'antingen/eller'",
+        "tip2": "Leta efter lösningar som gör den gamla konflikten förlegad",
+        "tip3": "Överväg hur man kan sekvensera eller lägga olika metoder i lager"
+      }
+    },
+    "powerProof": {
+      "title": "Maktsäkra",
+      "description": "Säkerställ att er lösning kan motstå verkliga maktdynamiker.",
+      "powerChecks": {
+        "label": "Maktanalys:",
+        "placeholder": "Vem skulle kunna blockera detta? Hur förskjuter det makten?"
+      },
+      "safeguards": {
+        "label": "Skyddsåtgärder:",
+        "placeholder": "Vilka skydd behövs för sårbara grupper?"
+      },
+      "helpTitle": "Att maktsäkra er lösning",
+      "helpTips": {
+        "tip1": "Identifiera vem som har vetorätt över implementeringen",
+        "tip2": "Tänk på hur er lösning påverkar befintliga maktstrukturer",
+        "tip3": "Bygg in skydd för dem med mindre makt"
+      }
+    }
+  },
+  "actions": {
+    "reset": "Återställ canvas"
+  },
+  "output": {
+    "title": "Sammanfattning av Canvas för paradoxbeslut",
+    "coreParadox": "Kärnparadox",
+    "poles": "Konkurrerande poler",
+    "poleA": "Pol A",
+    "poleB": "Pol B",
+    "sharedAim": "Gemensamt mål",
+    "thirdWay": "Tredje vägens lösning",
+    "powerAnalysis": "Maktanalys",
+    "safeguards": "Skyddsåtgärder",
+    "notFilled": "Ej ifyllt"
+  },
+  "loading": {
+    "text": "Laddar paradox-canvas..."
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "title": "Implementation Protocols for Regenerative Governance - Global Governance Frameworks",
+    "description": "Detailed protocols and step-by-step guides for implementing regenerative governance frameworks across diverse contexts."
+  },
+  "hero": {
+    "title": "Implementation Protocols",
+    "subtitle": "Step-by-step guides for systemic transformation",
+    "description": "Comprehensive protocols that bridge theory and practice, providing clear pathways for implementing regenerative governance in real-world contexts."
+  },
+  "categories": {
+    "cultural": "Cultural Adaptation",
+    "implementation": "Implementation Guides",
+    "governance": "Governance Protocols",
+    "justice": "Justice & Healing"
+  },
+  "stats": {
+    "available": "Available Now",
+    "inDevelopment": "In Development",
+    "implementations": "Active Implementations"
+  },
+  "protocols": {
+    "culturalTranslation": {
+      "title": "Cultural Translation Protocol",
+      "subtitle": "Adapting governance frameworks across cultural contexts",
+      "description": "A comprehensive three-phase protocol for respectfully adapting governance frameworks across diverse cultural contexts while maintaining cultural integrity and avoiding appropriation.",
+      "category": "cultural",
+      "status": "available",
+      "phases": [
+        {
+          "name": "Foundation Phase",
+          "duration": "3-6 months",
+          "description": "Deep dialogue, sovereignty agreements, and relationship building"
+        },
+        {
+          "name": "Implementation Phase", 
+          "duration": "6-12 months",
+          "description": "Co-design, pilot testing, and iterative refinement"
+        },
+        {
+          "name": "Validation Phase",
+          "duration": "3-6 months", 
+          "description": "Community authorization, safeguards, and integration"
+        }
+      ],
+      "principles": [
+        "Ontological Sovereignty",
+        "Cultural Humility", 
+        "Relational Integrity",
+        "Regenerative Exchange"
+      ],
+      "safeguards": [
+        "Free, Prior, and Informed Consent (FPIC)",
+        "Anti-appropriation protocols",
+        "Community veto power",
+        "Traditional authority integration"
+      ],
+      "useCase": "Essential for: Indigenous partnerships, international implementations, multicultural communities, and any cross-cultural governance work.",
+      "complexity": "High",
+      "prerequisites": [
+        "Established community relationships",
+        "Cultural competency training",
+        "Institutional commitment",
+        "Long-term resource allocation"
+      ],
+      "deliverables": [
+        "Cultural Sovereignty Agreement",
+        "Relationship Protocols",
+        "Adapted Framework Documentation", 
+        "Cultural Safeguarding Protocols"
+      ],
+      "links": {
+        "fullProtocol": "/resources/cultural-translation-protocol",
+        "pdf": "cultural-translation-protocol",
+        "examples": "/resources/cultural-translation-protocol#examples"
+      }
+    },
+    "fpic2": {
+      "title": "FPIC 2.0 Protocol",
+      "subtitle": "Enhanced Free, Prior, and Informed Consent",
+      "description": "An evolved approach to FPIC that addresses power imbalances, ensures meaningful participation, and protects Indigenous rights in governance decisions.",
+      "category": "justice",
+      "status": "inDevelopment",
+      "phases": [
+        {
+          "name": "Relationship Establishment",
+          "duration": "Ongoing",
+          "description": "Building trust and authentic relationships before any formal processes"
+        },
+        {
+          "name": "Information Sharing",
+          "duration": "Variable",
+          "description": "Culturally appropriate information exchange and capacity building"
+        },
+        {
+          "name": "Deliberation Period",
+          "duration": "Community-determined",
+          "description": "Internal community decision-making using traditional processes"
+        },
+        {
+          "name": "Consent Documentation",
+          "duration": "1-2 months",
+          "description": "Formal documentation with ongoing consent mechanisms"
+        }
+      ],
+      "enhancements": [
+        "Power imbalance assessment",
+        "Cultural protocol integration",
+        "Ongoing consent mechanisms",
+        "Benefit-sharing agreements"
+      ],
+      "useCase": "Required for: Any governance process affecting Indigenous peoples, traditional knowledge, or ancestral territories.",
+      "complexity": "High",
+      "expectedRelease": "Q4 2025",
+      "prerequisites": [
+        "Deep cultural competency",
+        "Established Indigenous relationships",
+        "Legal framework understanding",
+        "Long-term commitment"
+      ],
+      "links": {
+        "earlyDraft": "/contact",
+        "background": "/resources/cultural-translation-protocol#fpic"
+      }
+    },
+    "consensusBuilding": {
+      "title": "Regenerative Consensus Protocol",
+      "subtitle": "Building agreement across difference",
+      "description": "A systematic approach to reaching meaningful consensus that honors diverse perspectives and creates resilient collective decisions.",
+      "category": "governance",
+      "status": "inDevelopment", 
+      "phases": [
+        {
+          "name": "Preparation Phase",
+          "duration": "1-2 weeks",
+          "description": "Stakeholder mapping, process design, and relationship preparation"
+        },
+        {
+          "name": "Exploration Phase",
+          "duration": "2-4 weeks",
+          "description": "Deep listening, perspective sharing, and common ground identification"
+        },
+        {
+          "name": "Co-Creation Phase",
+          "duration": "2-6 weeks",
+          "description": "Collaborative solution development and iterative refinement"
+        },
+        {
+          "name": "Integration Phase",
+          "duration": "1-3 weeks",
+          "description": "Final agreement, implementation planning, and accountability structures"
+        }
+      ],
+      "tools": [
+        "Gradient agreement scales",
+        "Concern-based decision making",
+        "Systemic consensus processes",
+        "Conflict transformation protocols"
+      ],
+      "useCase": "Effective for: Multi-stakeholder initiatives, organizational governance, community planning, and policy development.",
+      "complexity": "Intermediate",
+      "expectedRelease": "Q3 2025",
+      "prerequisites": [
+        "Stakeholder commitment to process",
+        "Skilled facilitation",
+        "Adequate time allocation",
+        "Conflict resolution capacity"
+      ],
+      "links": {
+        "earlyAccess": "/contact",
+        "related": "/resources/paradox-canvas"
+      }
+    },
+    "powerAnalysis": {
+      "title": "Power Dynamics Assessment Protocol",
+      "subtitle": "Understanding and addressing power imbalances",
+      "description": "A comprehensive framework for analyzing power dynamics in governance processes and implementing strategies to create more equitable participation.",
+      "category": "implementation",
+      "status": "inDevelopment",
+      "phases": [
+        {
+          "name": "Power Mapping",
+          "duration": "1-2 weeks", 
+          "description": "Identify power sources, holders, and dynamics in the system"
+        },
+        {
+          "name": "Impact Analysis",
+          "duration": "1 week",
+          "description": "Assess how power imbalances affect participation and outcomes"
+        },
+        {
+          "name": "Strategy Development",
+          "duration": "2-3 weeks",
+          "description": "Design interventions to address identified imbalances"
+        },
+        {
+          "name": "Implementation & Monitoring",
+          "duration": "Ongoing",
+          "description": "Implement strategies and continuously monitor power dynamics"
+        }
+      ],
+      "powerTypes": [
+        "Positional power",
+        "Resource control",
+        "Information access",
+        "Cultural capital",
+        "Network influence"
+      ],
+      "useCase": "Critical for: Multi-stakeholder processes, community development, organizational change, and policy reform initiatives.",
+      "complexity": "Intermediate",
+      "expectedRelease": "Q4 2025",
+      "prerequisites": [
+        "Systems thinking skills",
+        "Cultural sensitivity",
+        "Conflict analysis experience",
+        "Facilitation capacity"
+      ],
+      "links": {
+        "earlyAccess": "/contact",
+        "related": "/resources/cultural-translation-protocol#power"
+      }
+    }
+  },
+  "navigation": {
+    "backToResources": "← Back to Resources",
+    "exploreProtocols": "Explore Protocols", 
+    "downloadProtocol": "Download Protocol",
+    "readFullGuide": "Read Full Guide",
+    "requestEarlyAccess": "Request Early Access",
+    "viewExamples": "View Examples"
+  },
+  "filters": {
+    "allCategories": "All Categories",
+    "allStatuses": "All Status",
+    "search": "Search protocols...",
+    "clearFilters": "Clear Filters"
+  },
+  "getInvolved": {
+    "title": "Co-Develop These Protocols",
+    "description": "These protocols are refined through real-world implementation and community feedback. Join pilot programs or contribute based on your experience.",
+    "pilot": "Join Pilot Program",
+    "feedback": "Share Implementation Feedback",
+    "contribute": "Contribute Expertise",
+    "partner": "Become Implementation Partner"
+  },
+  "implementation": {
+    "title": "Implementation Support",
+    "description": "Implementing these protocols requires skill, patience, and community support. We provide:",
+    "support": [
+      {
+        "type": "Training Programs",
+        "description": "Skill-building workshops for facilitators and practitioners"
+      },
+      {
+        "type": "Peer Networks",
+        "description": "Connect with others implementing similar protocols"
+      },
+      {
+        "type": "Technical Assistance",
+        "description": "Expert consultation for complex implementations"
+      },
+      {
+        "type": "Resource Library",
+        "description": "Templates, case studies, and adaptation guides"
+      }
+    ]
+  },
+  "principles": {
+    "title": "Core Implementation Principles",
+    "description": "All protocols are guided by these foundational principles:",
+    "list": [
+      {
+        "name": "Cultural Sovereignty",
+        "description": "Every community maintains the right to govern according to their own values and ways of knowing"
+      },
+      {
+        "name": "Regenerative Impact",
+        "description": "Protocols should strengthen rather than extract from communities and ecosystems"
+      },
+      {
+        "name": "Power Equity",
+        "description": "Address power imbalances and ensure meaningful participation for all stakeholders"
+      },
+      {
+        "name": "Adaptive Learning",
+        "description": "Protocols evolve through implementation experience and community feedback"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Protokollet för kulturell översättning - Global Governance Frameworks",
+    "description": "En omfattande guide för att anpassa styrningsramverk över olika kulturella kontexter med respekt för suveränitet och förhindrande av appropriering."
+  },
+  "navigation": {
+    "backToResources": "Tillbaka till resurser",
+    "downloadPdf": "Ladda ner hela protokollet (PDF)",
+    "previousSection": "Föregående avsnitt",
+    "nextSection": "Nästa avsnitt",
+    "toPhaseTwo": "Fortsätt till Fas II",
+    "toPhaseThree": "Fortsätt till Fas III",
+    "backToPhaseOne": "Tillbaka till Fas I",
+    "backToPhaseTwo": "Tillbaka till Fas II"
+  },
+  "categories": {
+    "introduction": "Introduktion",
+    "overview": "Översikt",
+    "phaseOne": "Fas I: Grundläggning",
+    "phaseTwo": "Fas II: Implementering",
+    "phaseThree": "Fas III: Validering"
+  },
+  "sections": {
+    "introduction": "Introduktion",
+    "overview": "Protokollöversikt",
+    "purpose-foundation": "Syfte & grund",
+    "recognition-principles": "Principer för erkännande",
+    "deep-dialogue": "Process för djupgående dialog",
+    "co-design-adaptation": "Gemensam design & anpassning",
+    "validation-integration": "Validering & integration",
+    "safeguards-implementation": "Skyddsåtgärder & implementering"
+  },
+  "progress": {
+    "phaseOne": "Fas I: Avsnitt {current} av {total}",
+    "phaseTwo": "Fas II: Avsnitt {current} av {total}",
+    "phaseThree": "Fas III: Avsnitt {current} av {total}"
+  },
+  "languageFallback": {
+    "title": "Innehåll på ditt språk kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+  },
+  "loading": {
+    "text": "Laddar protokollinnehåll..."
+  }
+}

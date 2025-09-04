@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "title": "Implementeringsprotokoll för regenerativ styrning - Global Governance Frameworks",
+    "description": "Detaljerade protokoll och steg-för-steg-guider för att implementera ramverk för regenerativ styrning i olika kontexter."
+  },
+  "hero": {
+    "title": "Implementeringsprotokoll",
+    "subtitle": "Steg-för-steg-guider för systemisk omvandling",
+    "description": "Omfattande protokoll som överbryggar teori och praktik, och erbjuder tydliga vägar för att implementera regenerativ styrning i verkliga sammanhang."
+  },
+  "categories": {
+    "cultural": "Kulturell anpassning",
+    "implementation": "Implementeringsguider",
+    "governance": "Styrningsprotokoll",
+    "justice": "Rättvisa & läkning"
+  },
+  "stats": {
+    "available": "Tillgänglig nu",
+    "inDevelopment": "Under utveckling",
+    "implementations": "Aktiva implementationer"
+  },
+  "protocols": {
+    "culturalTranslation": {
+      "title": "Protokollet för kulturell översättning",
+      "subtitle": "Anpassa styrningsramverk över kulturella kontexter",
+      "description": "Ett omfattande tre-fasprotokoll för att med respekt anpassa styrningsramverk över olika kulturella kontexter, samtidigt som kulturell integritet bibehålls och appropriering undviks.",
+      "category": "cultural",
+      "status": "available",
+      "phases": [
+        {
+          "name": "Grundfasen",
+          "duration": "3-6 månader",
+          "description": "Djupgående dialog, suveränitetsavtal och relationsbyggande"
+        },
+        {
+          "name": "Implementeringsfasen",
+          "duration": "6-12 månader",
+          "description": "Gemensam design, pilottester och iterativ förfining"
+        },
+        {
+          "name": "Valideringsfasen",
+          "duration": "3-6 månader",
+          "description": "Auktorisation från samhället, skyddsåtgärder och integration"
+        }
+      ],
+      "principles": [
+        "Ontologisk suveränitet",
+        "Kulturell ödmjukhet",
+        "Relationell integritet",
+        "Regenerativt utbyte"
+      ],
+      "safeguards": [
+        "Fritt, föregående och informerat samtycke (FPIC)",
+        "Protokoll mot appropriering",
+        "Vetorätt för samhället",
+        "Integration av traditionell auktoritet"
+      ],
+      "useCase": "Väsentligt för: Samarbeten med urfolk, internationella implementationer, mångkulturella samhällen och allt tvärkulturellt styrningsarbete.",
+      "complexity": "Hög",
+      "prerequisites": [
+        "Etablerade samhällsrelationer",
+        "Utbildning i kulturell kompetens",
+        "Institutionellt engagemang",
+        "Långsiktig resursallokering"
+      ],
+      "deliverables": [
+        "Avtal om kulturell suveränitet",
+        "Relationsprotokoll",
+        "Dokumentation för anpassat ramverk",
+        "Protokoll för kulturellt skydd"
+      ],
+      "links": {
+        "fullProtocol": "/resources/cultural-translation-protocol",
+        "pdf": "cultural-translation-protocol",
+        "examples": "/resources/cultural-translation-protocol#examples"
+      }
+    },
+    "fpic2": {
+      "title": "FPIC 2.0-protokollet",
+      "subtitle": "Förbättrat fritt, föregående och informerat samtycke",
+      "description": "Ett utvecklat tillvägagångssätt för FPIC som adresserar maktobalanser, säkerställer meningsfullt deltagande och skyddar urfolks rättigheter i styrningsbeslut.",
+      "category": "justice",
+      "status": "inDevelopment",
+      "phases": [
+        {
+          "name": "Relationsetablering",
+          "duration": "Pågående",
+          "description": "Bygga förtroende och autentiska relationer före några formella processer"
+        },
+        {
+          "name": "Informationsdelning",
+          "duration": "Variabel",
+          "description": "Kulturellt anpassat informationsutbyte och kapacitetsuppbyggnad"
+        },
+        {
+          "name": "Överläggningsperiod",
+          "duration": "Bestäms av samhället",
+          "description": "Internt beslutsfattande i samhället med traditionella processer"
+        },
+        {
+          "name": "Dokumentation av samtycke",
+          "duration": "1-2 månader",
+          "description": "Formell dokumentation med pågående samtyckesmekanismer"
+        }
+      ],
+      "enhancements": [
+        "Bedömning av maktobalans",
+        "Integration av kulturprotokoll",
+        "Pågående samtyckesmekanismer",
+        "Avtal om fördelning av förmåner"
+      ],
+      "useCase": "Krävs för: Alla styrningsprocesser som påverkar urfolk, traditionell kunskap eller förfäders territorier.",
+      "complexity": "Hög",
+      "expectedRelease": "K4 2025",
+      "prerequisites": [
+        "Djup kulturell kompetens",
+        "Etablerade relationer med urfolk",
+        "Förståelse för juridiskt ramverk",
+        "Långsiktigt engagemang"
+      ],
+      "links": {
+        "earlyDraft": "/contact",
+        "background": "/resources/cultural-translation-protocol#fpic"
+      }
+    },
+    "consensusBuilding": {
+      "title": "Protokoll för regenerativ konsensus",
+      "subtitle": "Att bygga enighet över olikheter",
+      "description": "Ett systematiskt tillvägagångssätt för att nå meningsfull konsensus som hedrar olika perspektiv och skapar motståndskraftiga kollektiva beslut.",
+      "category": "governance",
+      "status": "inDevelopment",
+      "phases": [
+        {
+          "name": "Förberedelsefasen",
+          "duration": "1-2 veckor",
+          "description": "Intressentkartläggning, processdesign och relationsförberedelse"
+        },
+        {
+          "name": "Utforskningsfasen",
+          "duration": "2-4 veckor",
+          "description": "Djupt lyssnande, delning av perspektiv och identifiering av gemensam grund"
+        },
+        {
+          "name": "Samskapandefasen",
+          "duration": "2-6 veckor",
+          "description": "Kollaborativ lösningsutveckling och iterativ förfining"
+        },
+        {
+          "name": "Integrationsfasen",
+          "duration": "1-3 veckor",
+          "description": "Slutgiltigt avtal, implementeringsplanering och ansvarsstrukturer"
+        }
+      ],
+      "tools": [
+        "Skalor för gradientöverenskommelse",
+        "Farhågebaserat beslutsfattande",
+        "Systemiska konsensusprocesser",
+        "Protokoll för konfliktomvandling"
+      ],
+      "useCase": "Effektivt för: Initiativ med flera intressenter, organisationsstyrning, samhällsplanering och policyutveckling.",
+      "complexity": "Medel",
+      "expectedRelease": "K3 2025",
+      "prerequisites": [
+        "Intressenters engagemang i processen",
+        "Skicklig facilitering",
+        "Tillräcklig tidsallokering",
+        "Kapacitet för konfliktlösning"
+      ],
+      "links": {
+        "earlyAccess": "/contact",
+        "related": "/resources/paradox-canvas"
+      }
+    },
+    "powerAnalysis": {
+      "title": "Bedömningsprotokoll för maktdynamik",
+      "subtitle": "Förstå och hantera maktobalanser",
+      "description": "Ett omfattande ramverk för att analysera maktdynamik i styrningsprocesser och implementera strategier för att skapa mer rättvist deltagande.",
+      "category": "implementation",
+      "status": "inDevelopment",
+      "phases": [
+        {
+          "name": "Kartläggning av makt",
+          "duration": "1-2 veckor",
+          "description": "Identifiera maktkällor, innehavare och dynamik i systemet"
+        },
+        {
+          "name": "Konsekvensanalys",
+          "duration": "1 vecka",
+          "description": "Bedöm hur maktobalanser påverkar deltagande och resultat"
+        },
+        {
+          "name": "Strategiutveckling",
+          "duration": "2-3 veckor",
+          "description": "Utforma interventioner för att hantera identifierade obalanser"
+        },
+        {
+          "name": "Implementering & övervakning",
+          "duration": "Pågående",
+          "description": "Implementera strategier och övervaka maktdynamiken kontinuerligt"
+        }
+      ],
+      "powerTypes": [
+        "Positionell makt",
+        "Resurskontroll",
+        "Informationstillgång",
+        "Kulturellt kapital",
+        "Nätverksinflytande"
+      ],
+      "useCase": "Kritiskt för: Processer med flera intressenter, samhällsutveckling, organisationsförändring och initiativ till policyreform.",
+      "complexity": "Medel",
+      "expectedRelease": "K4 2025",
+      "prerequisites": [
+        "Färdigheter i systemtänkande",
+        "Kulturell känslighet",
+        "Erfarenhet av konfliktanalys",
+        "Faciliteringskapacitet"
+      ],
+      "links": {
+        "earlyAccess": "/contact",
+        "related": "/resources/cultural-translation-protocol#power"
+      }
+    }
+  },
+  "navigation": {
+    "backToResources": "← Tillbaka till resurser",
+    "exploreProtocols": "Utforska protokoll",
+    "downloadProtocol": "Ladda ner protokoll",
+    "readFullGuide": "Läs hela guiden",
+    "requestEarlyAccess": "Begär tidig åtkomst",
+    "viewExamples": "Visa exempel"
+  },
+  "filters": {
+    "allCategories": "Alla kategorier",
+    "allStatuses": "All status",
+    "search": "Sök protokoll...",
+    "clearFilters": "Rensa filter"
+  },
+  "getInvolved": {
+    "title": "Var med och utveckla dessa protokoll",
+    "description": "Dessa protokoll förfinas genom verklig implementering och feedback från samhällen. Delta i pilotprogram eller bidra baserat på din erfarenhet.",
+    "pilot": "Delta i pilotprogram",
+    "feedback": "Dela implementeringsfeedback",
+    "contribute": "Bidra med expertis",
+    "partner": "Bli implementeringspartner"
+  },
+  "implementation": {
+    "title": "Implementeringsstöd",
+    "description": "Att implementera dessa protokoll kräver skicklighet, tålamod och samhällsstöd. Vi tillhandahåller:",
+    "support": [
+      {
+        "type": "Utbildningsprogram",
+        "description": "Kompetenshöjande workshops för facilitatorer och praktiker"
+      },
+      {
+        "type": "Kamratnätverk",
+        "description": "Anslut till andra som implementerar liknande protokoll"
+      },
+      {
+        "type": "Teknisk assistans",
+        "description": "Expertkonsultation för komplexa implementationer"
+      },
+      {
+        "type": "Resursbibliotek",
+        "description": "Mallar, fallstudier och anpassningsguider"
+      }
+    ]
+  },
+  "principles": {
+    "title": "Centrala implementeringsprinciper",
+    "description": "Alla protokoll styrs av dessa grundläggande principer:",
+    "list": [
+      {
+        "name": "Kulturell suveränitet",
+        "description": "Varje samhälle bibehåller rätten att styra enligt sina egna värderingar och sätt att veta"
+      },
+      {
+        "name": "Regenerativ inverkan",
+        "description": "Protokoll ska stärka snarare än utarma samhällen och ekosystem"
+      },
+      {
+        "name": "Maktjämlikhet",
+        "description": "Hantera maktobalanser och säkerställ meningsfullt deltagande för alla intressenter"
+      },
+      {
+        "name": "Adaptivt lärande",
+        "description": "Protokoll utvecklas genom implementeringserfarenhet och feedback från samhällen"
+      }
+    ]
+  }
+}

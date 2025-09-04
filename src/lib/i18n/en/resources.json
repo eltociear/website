@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "Resources - Global Governance Frameworks",
-    "description": "Explore the comprehensive library of books, white papers, and resources that provide the philosophical and practical foundations for regenerative global governance."
+    "description": "Explore the comprehensive library of books, white papers, tools and resources that provide the philosophical and practical foundations for planetary governance and regenerative systems."
   },
   "hero": {
     "title": "Resources",
-    "subtitle": "A Comprehensive Library for Planetary Governance",
+    "subtitle": "Tools, Knowledge and Frameworks for a Regenerative Future.",
     "description": "Discover the foundational books, in-depth white papers, and essential resources that explore the principles, methodologies, and practical applications of regenerative governance for a thriving world."
   },
   "sections": {
@@ -19,7 +19,33 @@
       "description": "Dive deep into specific GGF methodologies and proposals with our formal white papers and research publications.",
       "stats": "papers published"
     },
+    "tools": {
+      "title": "Interactive Tools",
+      "description": "Practical, hands-on tools for decision-making, conflict resolution, and implementing governance frameworks in your community.",
+      "stats": "tools"
+    },
+    "protocols": {
+      "title": "Protocols & Methods",
+      "description": "Step-by-step protocols and methodologies for cultural translation, implementation, and adaptation of governance frameworks.",
+      "stats": "protocols"
+    },
     "explore": "Explore"
+  },
+  "featured": {
+    "title": "Featured Tools",
+    "description": "Get started with our most popular interactive tools and protocols.",
+    "paradoxCanvas": {
+      "title": "Paradox Decision Canvas",
+      "description": "Break gridlock by transforming either/or conflicts into both/and solutions through this step-by-step interactive tool.",
+      "useButton": "Use Tool",
+      "downloadButton": "Download PDF"
+    },
+    "culturalProtocol": {
+      "title": "Cultural Translation Protocol",
+      "description": "A comprehensive guide for adapting governance frameworks across diverse cultural contexts while respecting sovereignty.",
+      "readButton": "Read Protocol",
+      "downloadButton": "Download PDF"
+    }
   },
   "future": {
     "title": "Future Possibilities",

@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Cultural Translation Protocol - Global Governance Frameworks",
+    "description": "A comprehensive guide for adapting governance frameworks across diverse cultural contexts while respecting sovereignty and preventing appropriation."
+  },
+  "navigation": {
+    "backToResources": "Back to Resources",
+    "downloadPdf": "Download Complete Protocol (PDF)",
+    "previousSection": "Previous Section",
+    "nextSection": "Next Section",
+    "toPhaseTwo": "Continue to Phase II",
+    "toPhaseThree": "Continue to Phase III",
+    "backToPhaseOne": "Back to Phase I",
+    "backToPhaseTwo": "Back to Phase II"
+  },
+  "categories": {
+    "introduction": "Introduction",
+    "overview": "Overview",
+    "phaseOne": "Phase I: Foundation",
+    "phaseTwo": "Phase II: Implementation", 
+    "phaseThree": "Phase III: Validation"
+  },
+  "sections": {
+    "introduction": "Introduction",
+    "overview": "Protocol Overview",
+    "purpose-foundation": "Purpose & Foundation",
+    "recognition-principles": "Recognition Principles",
+    "deep-dialogue": "Deep Dialogue Process",
+    "co-design-adaptation": "Co-Design & Adaptation",
+    "validation-integration": "Validation & Integration",
+    "safeguards-implementation": "Safeguards & Implementation"
+  },
+  "progress": {
+    "phaseOne": "Phase I: Section {current} of {total}",
+    "phaseTwo": "Phase II: Section {current} of {total}",
+    "phaseThree": "Phase III: Section {current} of {total}"
+  },
+  "languageFallback": {
+    "title": "Content in your language coming soon",
+    "description": "This section is currently displayed in English until translation is complete."
+  },
+  "loading": {
+    "text": "Loading protocol content..."
+  }
+}

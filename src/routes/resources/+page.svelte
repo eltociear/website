@@ -24,7 +24,7 @@
     hoveredCard = null;
   }
 
-  // Resource sections data
+  // Resource sections data - expanded
   $: resourceSections = [
     {
       id: 'books',
@@ -50,6 +50,32 @@
       stats: {
         count: 4,
         label: $t('resources.sections.whitepapers.stats')
+      }
+    },
+    {
+      id: 'tools',
+      title: $t('resources.sections.tools.title'),
+      description: $t('resources.sections.tools.description'),
+      icon: '🛠️',
+      color: '#7c3aed',
+      lightColor: 'rgba(124, 58, 237, 0.1)',
+      href: '/resources/tools',
+      stats: {
+        count: 6,
+        label: $t('resources.sections.tools.stats')
+      }
+    },
+    {
+      id: 'protocols',
+      title: $t('resources.sections.protocols.title'),
+      description: $t('resources.sections.protocols.description'),
+      icon: '📖',
+      color: '#dc2626',
+      lightColor: 'rgba(220, 38, 38, 0.1)',
+      href: '/resources/protocols',
+      stats: {
+        count: 3,
+        label: $t('resources.sections.protocols.stats')
       }
     }
   ];
@@ -124,6 +150,48 @@
     </div>
   </section>
 
+  <!-- Featured Tools Section -->
+  <section class="featured-tools">
+    <div class="container">
+      <h2 class="featured-title">{$t('resources.featured.title')}</h2>
+      <p class="featured-description">{$t('resources.featured.description')}</p>
+      
+      <div class="tools-grid">
+        <div class="tool-card">
+          <div class="tool-header">
+            <div class="tool-icon">🧭</div>
+            <h3 class="tool-title">{$t('resources.featured.paradoxCanvas.title')}</h3>
+          </div>
+          <p class="tool-description">{$t('resources.featured.paradoxCanvas.description')}</p>
+          <div class="tool-actions">
+            <a href="/resources/paradox-canvas" class="tool-button primary">
+              {$t('resources.featured.paradoxCanvas.useButton')}
+            </a>
+            <a href="/downloads/paradox-canvas-template.pdf" class="tool-button secondary">
+              {$t('resources.featured.paradoxCanvas.downloadButton')}
+            </a>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <div class="tool-header">
+            <div class="tool-icon">🌍</div>
+            <h3 class="tool-title">{$t('resources.featured.culturalProtocol.title')}</h3>
+          </div>
+          <p class="tool-description">{$t('resources.featured.culturalProtocol.description')}</p>
+          <div class="tool-actions">
+            <a href="/resources/cultural-translation-protocol" class="tool-button primary">
+              {$t('resources.featured.culturalProtocol.readButton')}
+            </a>
+            <a href="/downloads/cultural-translation-protocol.pdf" class="tool-button secondary">
+              {$t('resources.featured.culturalProtocol.downloadButton')}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Future Possibilities Section -->
   <section class="future-possibilities">
     <div class="container">
@@ -168,6 +236,7 @@
   </section>
 
 </div>
+
 
 <style>
   /* Base Styles */
@@ -655,6 +724,142 @@
   .cta-button:focus-visible {
     outline: 3px solid #fbbf24;
     outline-offset: 2px;
+  }
+
+  /* Featured Tools Section */
+  .featured-tools {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-top: 1px solid #e2e8f0;
+  }
+
+  .featured-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .featured-description {
+    font-size: 1.1rem;
+    color: #475569;
+    line-height: 1.6;
+    margin-bottom: 3rem;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .tool-card {
+    background: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+  }
+
+  .tool-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  }
+
+  .tool-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .tool-icon {
+    font-size: 2rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+    border-radius: 0.75rem;
+    color: white;
+  }
+
+  .tool-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin: 0;
+  }
+
+  .tool-description {
+    color: #475569;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+
+  .tool-actions {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .tool-button {
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.875rem;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 120px;
+  }
+
+  .tool-button.primary {
+    background: #3b82f6;
+    color: white;
+  }
+
+  .tool-button.primary:hover {
+    background: #2563eb;
+    transform: translateY(-1px);
+  }
+
+  .tool-button.secondary {
+    background: transparent;
+    color: #3b82f6;
+    border: 2px solid #3b82f6;
+  }
+
+  .tool-button.secondary:hover {
+    background: #3b82f6;
+    color: white;
+    transform: translateY(-1px);
+  }
+
+  /* Responsive adjustments for tools */
+  @media (max-width: 768px) {
+    .tools-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .tool-actions {
+      flex-direction: column;
+    }
+
+    .tool-button {
+      width: 100%;
+    }
   }
 
   /* Reduced motion support */
