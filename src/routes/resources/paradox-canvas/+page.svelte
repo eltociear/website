@@ -230,6 +230,227 @@
     }
   }
 
+  function exportTemplate() {
+    const currentLocale = $locale || 'en';
+    
+    // Create template version with blank fields instead of "Not filled in"
+    const templateText = `
+  PARADOX DECISION CANVAS
+  Template Version
+
+  CORE PARADOX/TENSION:
+  _____________________________________________________________________________
+  _____________________________________________________________________________
+  _____________________________________________________________________________
+
+  POLE A:
+  _____________________________________________________________________________
+  _____________________________________________________________________________
+  _____________________________________________________________________________
+
+  POLE B:
+  _____________________________________________________________________________
+  _____________________________________________________________________________
+  _____________________________________________________________________________
+
+  SHARED DEEPER GOAL:
+  _____________________________________________________________________________
+  _____________________________________________________________________________
+  _____________________________________________________________________________
+
+  THIRD WAY SOLUTION:
+  _____________________________________________________________________________
+  _____________________________________________________________________________
+  _____________________________________________________________________________
+
+  POWER ANALYSIS:
+  _____________________________________________________________________________
+  _____________________________________________________________________________
+  _____________________________________________________________________________
+
+  SAFEGUARDS:
+  _____________________________________________________________________________
+  _____________________________________________________________________________
+  _____________________________________________________________________________
+
+  ---
+  Paradox Decision Canvas Template
+  Global Governance Frameworks - globalgovernanceframeworks.org
+    `.trim();
+
+    // Create template print version
+    const printTemplate = `
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <title>Paradox Decision Canvas - Template</title>
+        <style>
+          body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+            line-height: 1.8; 
+            max-width: 800px; 
+            margin: 40px auto; 
+            padding: 20px;
+            color: #374151;
+          }
+          h1 { 
+            color: #1e293b; 
+            border-bottom: 3px solid #6366f1; 
+            padding-bottom: 10px; 
+            margin-bottom: 30px;
+            text-align: center;
+          }
+          h2 { 
+            color: #374151; 
+            margin-top: 30px; 
+            margin-bottom: 15px; 
+            font-size: 1.2rem;
+            font-weight: 600;
+          }
+          .section { 
+            margin-bottom: 35px; 
+            padding: 20px; 
+            background: #f8fafc; 
+            border-left: 4px solid #6366f1;
+            border-radius: 0 8px 8px 0;
+            min-height: 120px;
+          }
+          .fill-area {
+            border-bottom: 1px solid #cbd5e1;
+            min-height: 25px;
+            margin-bottom: 8px;
+            width: 100%;
+          }
+          .poles-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 15px;
+          }
+          .pole-section {
+            background: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 15px;
+            min-height: 120px;
+          }
+          .footer { 
+            margin-top: 40px; 
+            text-align: center; 
+            color: #6b7280; 
+            font-size: 0.9em; 
+            border-top: 1px solid #e5e7eb;
+            padding-top: 20px;
+          }
+          .template-note {
+            background: #fef3c7;
+            border: 1px solid #f59e0b;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 30px;
+            text-align: center;
+            font-style: italic;
+          }
+          @media print {
+            body { margin: 20px; font-size: 12pt; }
+            .section { break-inside: avoid; }
+            .template-note { background: #f9f9f9; }
+          }
+        </style>
+      </head>
+      <body>
+        <div class="template-note">
+          <strong>Instructions:</strong> Print this template and fill in by hand, or use it as a guide for digital completion at globalgovernanceframeworks.org/paradox-canvas
+        </div>
+        
+        <h1>Paradox Decision Canvas</h1>
+        <p><strong>Date:</strong> ________________ <strong>Facilitator:</strong> ________________</p>
+        
+        <div class="section">
+          <h2>Core Paradox/Tension</h2>
+          <div class="fill-area"></div>
+          <div class="fill-area"></div>
+          <div class="fill-area"></div>
+          <div class="fill-area"></div>
+        </div>
+        
+        <div class="section">
+          <h2>Competing Positions</h2>
+          <div class="poles-grid">
+            <div class="pole-section">
+              <h3 style="margin-top: 0; color: #6366f1;">Position A</h3>
+              <div class="fill-area"></div>
+              <div class="fill-area"></div>
+              <div class="fill-area"></div>
+              <div class="fill-area"></div>
+            </div>
+            <div class="pole-section">
+              <h3 style="margin-top: 0; color: #d97706;">Position B</h3>
+              <div class="fill-area"></div>
+              <div class="fill-area"></div>
+              <div class="fill-area"></div>
+              <div class="fill-area"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="section">
+          <h2>Shared Deeper Goal</h2>
+          <div class="fill-area"></div>
+          <div class="fill-area"></div>
+          <div class="fill-area"></div>
+          <div class="fill-area"></div>
+        </div>
+        
+        <div class="section">
+          <h2>Third Way Solution</h2>
+          <div class="fill-area"></div>
+          <div class="fill-area"></div>
+          <div class="fill-area"></div>
+          <div class="fill-area"></div>
+        </div>
+        
+        <div class="section">
+          <h2>Power Analysis</h2>
+          <div class="fill-area"></div>
+          <div class="fill-area"></div>
+          <div class="fill-area"></div>
+          <div class="fill-area"></div>
+        </div>
+        
+        <div class="section">
+          <h2>Safeguards</h2>
+          <div class="fill-area"></div>
+          <div class="fill-area"></div>
+          <div class="fill-area"></div>
+          <div class="fill-area"></div>
+        </div>
+        
+        <div class="footer">
+          Paradox Decision Canvas Template<br>
+          Global Governance Frameworks - globalgovernanceframeworks.org
+        </div>
+      </body>
+      </html>
+    `;
+
+    // Open print dialog for template
+    const printWindow = window.open('', '_blank');
+    printWindow.document.write(printTemplate);
+    printWindow.document.close();
+    printWindow.print();
+  }
+
+  // Add this button to your UI
+  function addTemplateButton() {
+    return `
+      <button on:click={exportTemplate} class="action-button primary">
+        <span class="button-icon">📄</span>
+        Export Blank Template
+      </button>
+    `;
+  }
+
   $: stepConfig = [
     {
       number: 1,
@@ -294,6 +515,10 @@
         </div>
 
         <div class="sidebar-actions">
+          <button on:click={exportTemplate} class="action-button primary">
+            <span class="button-icon">📄</span>
+            Export Blank Template
+          </button>
           <button on:click={resetCanvas} class="action-button secondary">
             <span class="button-icon">🔄</span>
             {$t('resourcesParadoxCanvas.actions.reset')}
@@ -934,6 +1159,69 @@
       outline: none;
       border-color: #6366f1;
       box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+  }
+
+  .sidebar-actions {
+    border-top: 1px solid #e2e8f0;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .nav-button, .action-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 0.95rem;
+    text-align: center;
+    min-height: 44px;
+    white-space: nowrap;
+  }
+
+  .nav-button.primary, .action-button.primary {
+    background: #6366f1;
+    color: white;
+  }
+
+  .nav-button.secondary, .action-button.secondary {
+    background: #6b7280;
+    color: white;
+  }
+
+  .nav-button.success {
+    background: #10b981;
+    color: white;
+  }
+
+  .nav-button:hover, .action-button:hover {
+    transform: translateY(-1px);
+  }
+
+  .nav-button.primary:hover, .action-button.primary:hover {
+    background: #5b5bd6;
+    box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3);
+  }
+
+  .nav-button.secondary:hover, .action-button.secondary:hover {
+    background: #4b5563;
+    box-shadow: 0 2px 8px rgba(107, 114, 128, 0.3);
+  }
+
+  .nav-button.success:hover {
+    background: #059669;
+    box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
+  }
+
+  .button-icon {
+    font-size: 1rem;
   }
 
   /* Responsive fixes */
