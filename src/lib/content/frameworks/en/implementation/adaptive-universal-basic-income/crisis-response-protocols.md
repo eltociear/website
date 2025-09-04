@@ -37,6 +37,16 @@ Dr. Williams experiences inflation management when global food price increases t
 
 **Traditional Wealth Protection**: Crisis response includes protection for traditional wealth forms including community assets, cultural knowledge, and ecological resources that don't appear in monetary accounting but constitute essential community resilience during economic disruptions.
 
+## Hearts Treasury Emergency Protocols:
+
+**Community Provider Emergency Funding**: Immediate Hearts Treasury reserves for essential services during crises
+
+**Credit Union Coordination**: Banking partnerships ensuring fiat conversion continuity
+
+**Reserve Asset Protection**: Safeguarding renewable energy and restoration assets backing Hearts stability
+
+**Democratic Crisis Oversight**: Community authority over emergency Treasury policies with traditional governance consultation
+
 ### Recession Support and Counter-Cyclical Investment
 
 **Increased AUBI Payouts During Downturns**: Economic recession triggers counter-cyclical increases in AUBI distributions funded through Global Commons Fund reserves, providing enhanced economic security when traditional employment becomes scarce while supporting community economic activity through increased Hearts circulation.
@@ -51,9 +61,7 @@ Maya's community demonstrates recession coordination by sharing traditional ecol
 
 ### Currency Instability and Exchange Rate Management
 
-**Hearts Stabilization Mechanisms**: Currency instability triggers Hearts stabilization through asset reserves including renewable energy infrastructure, ecosystem restoration bonds, and community-controlled enterprises that maintain real value regardless of traditional currency fluctuations.
-
-Asset backing ensures Hearts maintain purchasing power through productive investments that benefit communities rather than financial speculation that extracts wealth without creating community value or ecological benefit.
+**Hearts Stabilization Mechanisms**: Hearts Treasury reserve deployment maintains Community Provider operational funding while Love Ledger recognition systems remain completely protected from financial volatility since they operate without monetary value.
 
 **Emergency Fiat Bridges**: Temporary emergency systems enable Hearts conversion to stable traditional currencies during crisis periods while maintaining community control over exchange policies and preventing external manipulation of local economic arrangements during vulnerable periods.
 

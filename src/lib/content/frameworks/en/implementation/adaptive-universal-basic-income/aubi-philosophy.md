@@ -47,6 +47,8 @@ AUBI fundamentally reverses this accounting. Care work becomes the foundation of
 
 Maya's community preserving traditional ecological knowledge receives Hearts payments that enable cultural continuity while contributing vital climate adaptation information. Her grandmother's plant knowledge becomes economically recognized wealth rather than invisible cultural labor.
 
+This recognition operates through two complementary pathways: professional Community Providers earning Hearts for certified care services, and Love Ledger Gratitude Tokens honoring informal caregiving and traditional knowledge that should never be commercialized.
+
 **Care as Currency**: Hearts currency operates as a medium of exchange specifically designed for care economy activities. Unlike traditional money that can be accumulated indefinitely, Hearts maintain value through circulation. The currency strengthens when caregivers support each other rather than when individuals maximize personal holdings.
 
 Local businesses accept Hearts for goods and services, creating parallel economic flows that prioritize care relationships alongside traditional market exchanges. Community-supported agriculture programs, cooperative childcare networks, and elder support systems operate through Hearts circulation that makes care economically sustainable.
@@ -79,9 +81,11 @@ Right Relationship economics transforms daily experience from survival anxiety t
 
 AUBI Layer 1 provides unconditional baseline security that enables this transformation. When survival needs are guaranteed, communities can focus energy on creative expression, ecological restoration, and cultural development that enriches life for everyone.
 
-Layer 2 contributions reward verified activities that strengthen love, meaning, and connection. Care work receives Hearts payments. Ecological restoration earns Leaves tokens. Cultural preservation and knowledge sharing generate economic recognition alongside personal fulfillment.
+Community Providers earn Hearts for professional services that strengthen love, meaning, and connection, while Love Ledger recognition honors informal care and traditional knowledge through Gratitude Tokens. Ecological restoration through certified organizations earns both Hearts and Leaves tokens.
 
 **Sacred Work**: Every contribution becomes sacred when it serves life rather than extraction, relationships rather than accumulation, future generations rather than immediate profit. Dr. Williams' healthcare becomes sacred service. Maya's traditional knowledge preservation becomes sacred teaching. Ambassador Chen's climate adaptation becomes sacred stewardship.
+
+AUBI honors this sacred dimension through dual pathways: professional care work deserving fair compensation through Community Providers, and traditional relationships deserving recognition without commercialization through Love Ledger systems.
 
 The Love Ledger platform makes visible the sacred dimension of daily work through transparent contribution tracking that honors authentic service while preventing gaming and exploitation. Community validation ensures recognition flows to genuine care rather than performative activities.
 

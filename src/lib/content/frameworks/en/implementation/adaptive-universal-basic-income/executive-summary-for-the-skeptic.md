@@ -21,7 +21,7 @@ Demographic trends across developed nations point toward an unprecedented care c
 
 **Current Policy Inadequacy**: Existing welfare systems treat care work as economically invisible. A parent caring for an elderly relative receives no economic recognition, while the same care provided through institutional services generates GDP. This accounting failure creates perverse incentives—families are economically penalized for providing care that benefits society while being forced into formal care markets they cannot afford.
 
-**AUBI's Market-Based Response**: Rather than expanding bureaucratic care programs, AUBI creates market mechanisms for care recognition through Hearts currency compensation. This enables families to provide care economically while allowing care recipients to direct resources toward their preferred care arrangements. The approach builds on successful conditional cash transfer programs but removes bureaucratic gatekeeping that prevents efficient care allocation.
+**AUBI's Market-Based Response**: Rather than expanding bureaucratic care programs, AUBI creates market mechanisms for care recognition through Hearts currency payments to certified Community Providers who deliver professional care services. This enables Community Providers to deliver professional care services sustainably while allowing community members to access care through Hearts payments directed toward certified local organizations. The approach builds on successful conditional cash transfer programs but removes bureaucratic gatekeeping that prevents efficient care allocation.
 
 **Evidence Base**: Brazil's Bolsa Família demonstrated that direct cash payments to families improved both economic outcomes and care quality compared to institutional care programs, while reducing administrative costs by 60% compared to means-tested alternatives.
 
@@ -34,6 +34,8 @@ The "robots taking all jobs" narrative misses automation's actual challenge: tec
 **AUBI's Adaptive Response**: The automation tax captures productivity gains from technological advancement and redistributes them to affected workers while creating economic incentives for socially valuable work that automation cannot replace—care, cultural preservation, and environmental stewardship. This approach allows societies to benefit from technological progress while managing transition costs.
 
 **Political Strategy**: Unlike traditional redistribution proposals, automation taxation targets companies already benefiting from public investments in education, infrastructure, and research that enabled their technological advantages. This creates political coalitions between displaced workers and taxpayers who funded the basic research underlying automation technologies.
+
+AUBI operates through two complementary tracks: a monetized Hearts economy supporting professional Community Providers, and a non-monetized Love Ledger recognizing traditional knowledge and community relationships that should never be commercialized.
 
 ### **Problem 3: Social Contract Breakdown and Democratic Instability**
 

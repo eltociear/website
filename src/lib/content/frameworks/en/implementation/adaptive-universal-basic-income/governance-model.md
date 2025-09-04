@@ -23,7 +23,7 @@ Maya's community demonstrates traditional governance principles through seasonal
 
 ## Social Resilience Council: Primary Governance Body
 
-The **Social Resilience Council** serves as AUBI's primary governance body, operating through carefully designed composition that balances expertise with democratic legitimacy while prioritizing the voices of those most affected by economic decisions.
+The **Social Resilience Council** serves as AUBI's primary governance body, overseeing both Hearts Treasury operations for Community Provider support and Love Ledger community recognition systems while maintaining separation between monetized and non-monetized value systems, operating through carefully designed composition that balances expertise with democratic legitimacy while prioritizing the voices of those most affected by economic decisions.
 
 ### Composition and Representation
 
@@ -59,6 +59,8 @@ The Red Lines Clause operates through community-controlled monitoring systems th
 
 Ambassador Chen's island nation demonstrates Earth Council authority when global climate policies threaten traditional fishing practices essential for cultural survival. The Earth Council can override economic efficiency arguments when they conflict with Indigenous rights or ecological sustainability.
 
+**Hearts Treasury and Love Ledger Oversight**: The Council maintains authority over Hearts Treasury policies ensuring Community Provider certification serves community benefit while protecting Love Ledger systems from any commercialization pressure. Treasury operations require Indigenous consultation for policies affecting traditional territories.
+
 ### Specialized Meta-Governance Role
 
 The Social Resilience Council operates as a specialized Meta-Governance Coordination Council for economic security, enabling coordination across bioregions while respecting community autonomy and cultural diversity.
@@ -71,6 +73,8 @@ When climate disasters affect one bioregion, other communities contribute Hearts
 
 Emergency protocols operate under strict time limits and require ongoing community consent rather than creating permanent crisis authorities that could be abused. All emergency decisions sunset automatically unless communities actively choose to extend them through democratic processes.
 
+Crisis protocols include Hearts Treasury stabilization for Community Provider operational continuity and Love Ledger community support for cultural preservation during emergencies, with Indigenous communities maintaining authority over both economic participation and cultural recognition systems.
+
 **Policy Harmonization**: The Council works to align AUBI implementation with other governance frameworks including Treaty enforcement mechanisms and Planetary Health objectives while preventing any single framework from dominating community priorities.
 
 ## Regional Implementation Networks
@@ -80,6 +84,8 @@ AUBI governance operates through distributed networks that enable bioregional co
 ### Bioregional Steward Councils
 
 **Local Implementation Bodies**: Bioregional Steward Councils operate within Bioregional Autonomous Zones to ensure AUBI implementation serves local cultural values and ecological conditions while maintaining connection to larger coordination networks.
+
+Local councils ensure Community Provider certification serves authentic community needs while Love Ledger recognition protocols respect traditional knowledge sovereignty, with communities maintaining authority to modify both economic participation and cultural recognition standards.
 
 These councils adapt AUBI mechanisms to local circumstances including seasonal economic cycles that follow traditional calendars, cultural protocols that govern economic exchange, and ecological relationships that determine sustainable resource use patterns.
 
@@ -91,7 +97,7 @@ Dr. Williams participates in her bioregion's Steward Council as it adapts health
 
 ### Value Courts: Community-Based Dispute Resolution
 
-**Restorative Justice Focus**: Value Courts handle Hearts and Leaves transactions disputes, contribution validation challenges, and cross-community conflicts through restorative justice protocols that prioritize relationship repair over punishment.
+**Restorative Justice Focus**: Value Courts handle Community Provider certification disputes, Hearts Treasury policy challenges, and conflicts between Communities and Providers, while Love Ledger recognition systems operate through traditional governance without formal dispute resolution since no economic value is involved.
 
 Maya's community demonstrates restorative justice when disputes arise over Leaves token distribution for coral restoration projects. Rather than punitive measures, the Value Court facilitates dialogue between community members to understand different perspectives and develop solutions that strengthen rather than fragment community relationships.
 
