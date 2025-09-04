@@ -1885,8 +1885,8 @@ Följande figurer ger visuella representationer av nyckelkoncept, processer och 
 
 ## Figur 1 — Paradoxens gångjärn
 
-![Paradoxens gångjärn - SVG](https://www.google.com/search?q=/images/whitepapers/the-infinite-paradox/paradox-hinge-diagram-sv.svg)
-[Paradoxens gångjärn - PNG](https://www.google.com/search?q=/images/whitepapers/the-infinite-paradox/paradox-hinge-diagram-sv.png)
+![Paradoxens gångjärn - SVG](/images/whitepapers/the-infinite-paradox/paradox-hinge-diagram-sv.svg)
+[Paradoxens gångjärn - PNG](/images/whitepapers/the-infinite-paradox/paradox-hinge-diagram-sv.png)
 
 **Beskrivning**: Ett dynamiskt axeldiagram som illustrerar den grundläggande spänningen i hjärtat av styrningsutmaningar. Den vertikala axeln representerar "Etiskt imperativ" (den moraliska skyldigheten att agera beslutsamt i brådskande frågor), medan den horisontella axeln representerar "Ontologiskt bortom moraliska kategorier" (insikten att den yttersta verkligheten överskrider våra moraliska ramverk).
 
@@ -1905,8 +1905,8 @@ Diagrammet visar "Systemisk ödmjukhet" som den centrala gångjärnspunkten som 
 
 ## Figur 2 — Canvas för paradoxbeslut
 
-![Canvas för paradoxbeslut - SVG](https://www.google.com/search?q=/images/whitepapers/the-infinite-paradox/paradox-decision-canvas-sv.svg)
-[Canvas för paradoxbeslut - PNG](https://www.google.com/search?q=/images/whitepapers/the-infinite-paradox/paradox-decision-canvas-sv.png)
+![Canvas för paradoxbeslut - SVG](/images/whitepapers/the-infinite-paradox/paradox-decision-canvas-sv.svg)
+[Canvas för paradoxbeslut - PNG](/images/whitepapers/the-infinite-paradox/paradox-decision-canvas-sv.png)
 
 **Beskrivning**: En omfattande mall som visar det strukturerade tillvägagångssättet för paradoxmedvetet beslutsfattande. Canvasen är organiserad i sammankopplade sektioner som vägleder facilitatorer och deltagare genom hela processen, från identifiering av paradoxen till implementering med ödmjukhet.
 
@@ -1951,8 +1951,8 @@ Diagrammet visar "Systemisk ödmjukhet" som den centrala gångjärnspunkten som 
 
 ## Figur 3 — GGF Integrationskarta
 
-![GGF Integrationskarta - SVG](https://www.google.com/search?q=/images/whitepapers/the-infinite-paradox/ggf-integration-map-sv.svg)
-[GGF Integrationskarta - PNG](https://www.google.com/search?q=/images/whitepapers/the-infinite-paradox/ggf-integration-map-sv.png)
+![GGF Integrationskarta - SVG](/images/whitepapers/the-infinite-paradox/ggf-integration-map-sv.svg)
+[GGF Integrationskarta - PNG](/images/whitepapers/the-infinite-paradox/ggf-integration-map-sv.png)
 
 **Beskrivning**: Ett omfattande simbanediagram som visar hur ramverket för Den oändliga paradoxen integreras med och förstärker andra komponenter i Global Governance Frameworks. Diagrammet visar den iterativa cykeln Förnimma→Föreslå→Anta med specifika integrationspunkter för centrala GGF-system.
 
@@ -1999,8 +1999,8 @@ Diagrammet visar "Systemisk ödmjukhet" som den centrala gångjärnspunkten som 
 
 ## Figur 4 — Instrumentpanel för ödmjukhetsmått
 
-![Instrumentpanel för ödmjukhetsmått - SVG](https://www.google.com/search?q=/images/whitepapers/the-infinite-paradox/humility-metrics-dashboard-sv.svg)
-[Instrumentpanel för ödmjukhetsmått - PNG](https://www.google.com/search?q=/images/whitepapers/the-infinite-paradox/humility-metrics-dashboard-sv.png)
+![Instrumentpanel för ödmjukhetsmått - SVG](/images/whitepapers/the-infinite-paradox/humility-metrics-dashboard-sv.svg)
+[Instrumentpanel för ödmjukhetsmått - PNG](/images/whitepapers/the-infinite-paradox/humility-metrics-dashboard-sv.png)
 
 **Beskrivning**: En prototypdesign för en instrumentpanel som visualiserar nyckeltal (KPI:er) för implementeringen av paradoxmedveten styrning. Instrumentpanelen översätter abstrakta begrepp som "systemisk ödmjukhet" till konkreta, mätbara resultat som organisationer kan spåra och förbättra över tid.
 
