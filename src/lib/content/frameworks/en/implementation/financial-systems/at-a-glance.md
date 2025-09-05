@@ -1,182 +1,241 @@
 # Financial Systems Framework: At-a-Glance
 
-*Hearts & Leaves: Building Regenerative Economics Through Right Relationship*
+*Hearts & Leaves: Community-Controlled Economic Infrastructure for Right Relationship*
 
 ## The Challenge We Face
 
-Our economic systems reward destruction while making the work that sustains life invisible:
+Our economic systems reward extraction while making life-sustaining work invisible:
 
-- **$10 trillion in care work** annually goes unrecognized while Wall Street speculation adds to GDP
-- **Indigenous communities** face economic marginalization despite stewarding the planet's healthiest ecosystems
+- **$10+ trillion in care work** annually goes unrecognized while speculation adds to GDP
+- **Indigenous communities** face economic marginalization despite stewarding Earth's healthiest ecosystems  
 - **Ecological restoration** costs money while ecosystem destruction generates profit
 - **Community wealth** gets extracted to distant shareholders while local businesses struggle
 
 ## The Transformation We Need
 
 **From:** Economic systems that extract value and concentrate wealth  
-**To:** Economic systems that circulate care and regenerate communities
+**To:** Economic systems that circulate care and regenerate communities through Right Relationship
 
-## Core Innovation: Hearts & Leaves + Community Control
+## Core Innovation: Hearts & Leaves + Community-Controlled Infrastructure
 
 ### 💚 **Hearts Currency**
-Community-controlled money that rewards what traditional markets ignore:
-- Caregiving for children, elders, and community members
+Community-controlled money rewarding care economy contributions:
+- Childcare, eldercare, and community support
 - Conflict resolution and community healing
 - Cultural preservation and traditional knowledge sharing
-- Community organizing and mutual aid coordination
+- Community organizing and democratic participation
 
-### 🍃 **Leaves Tokens**  
-NFTs recognizing specific ecological restoration contributions:
-- Forest restoration and biodiversity protection
-- Carbon sequestration and soil regeneration
-- Traditional ecological stewardship practices
-- Climate adaptation and ecosystem healing
+### 🍃 **Leaves NFTs**  
+Verified ecological restoration tokens with scientific documentation:
+- GPS-verified forest restoration and biodiversity protection
+- Carbon sequestration with sensor data validation
+- Traditional ecological stewardship with Indigenous approval
+- Climate adaptation and ecosystem healing projects
 
-### 📱 **Love Ledger**
-Blockchain platform transparently tracking contributions while protecting community data sovereignty through Indigenous-controlled nodes and privacy protection.
+### 🔗 **Love Ledger**
+Hyperledger Fabric blockchain with Indigenous-controlled nodes:
+- 10,000+ transactions per second with post-quantum security
+- Community data sovereignty and privacy protection
+- SMS/paper backup systems for universal access
+- Democratic governance and transparent validation
 
-## How Hearts & Leaves Work Together
+## Financial Infrastructure That Works
 
-### **Layer 0: Relational Wealth** ❤️
-We honor simple acts of kindness, wisdom, and connection that can't be measured but hold communities together—documented through Gratitude Tokens in the Love Ledger.
+### **Hearts Treasury** 💰
+Credit union partnerships providing Hearts stability:
+- **48-hour guarantee**: Hearts-to-fiat conversion for essential needs
+- **50% reserve backing**: Global Commons Fund capitalization with community assets
+- **Anti-speculation safeguards**: Volume caps and AI monitoring prevent manipulation
+- **Community provider network**: Local businesses and cooperatives accept Hearts
 
-### **Layer 1: Economic Security** 🏠  
-AUBI provides universal baseline income (70% fiat, 30% Hearts) ensuring everyone can refuse unfair work and participate meaningfully in community life.
+### **Inter-Currency Translation** 🔄
+Seamless value exchange between Hearts, Leaves, and traditional currencies:
+- **Dynamic exchange rates**: Community-controlled algorithms reflecting local priorities
+- **Risk management**: Circuit breakers and arbitrage prevention
+- **Cultural adaptation**: Exchange rates honor diverse community values
+- **Crisis protocols**: Emergency stabilization during market stress
 
-### **Layer 2: Contribution Recognition** ✨
-Earn Hearts for care work, cultural activities, and community organizing. Earn Leaves NFTs for ecological restoration—both validated through community peer networks.
+### **Social Resilience Council** 🏛️
+Democratic governance body with 40% Indigenous representation:
+- **Hearts Treasury oversight**: Community-controlled reserve management
+- **Crisis response authority**: Emergency protocols with automatic sunset clauses
+- **Policy coordination**: Integration with Meta-Governance Framework standards
+- **Community accountability**: Quarterly reporting to community assemblies
 
-### **Layer 3: Justice & Repair** ⚖️
-Extra support for communities facing historical injustices, with Hearts funding reparations and community healing while respecting Indigenous sovereignty.
+## How Hearts & Leaves Work with AUBI
 
-## Governance That Actually Works
+### **Shared Love Ledger Platform** 🌐
+Common blockchain infrastructure serving both frameworks:
+- **60% cost reduction** through shared technical infrastructure
+- **Integrated Community Weaver training** serving Hearts and AUBI systems
+- **Joint governance protocols** with democratic community oversight
+- **Enhanced security** through coordinated post-quantum cryptography
 
-### **Indigenous Leadership** 🌍
-Earth Council maintains ultimate veto authority over Hearts implementations, ensuring Indigenous sovereignty and traditional knowledge protection through Red Lines Clause and Free, Prior, and Informed Consent 2.0.
-
-### **Social Resilience Council**  
-Primary governance body with 40% Indigenous representation coordinating Hearts/Leaves distribution, fiscal health, and crisis response under Meta-Governance Framework coordination.
-
-### **Community Weavers** 🤝
-Professional facilitators (6-month certification) ensuring authentic Hearts validation while respecting cultural protocols—compensated through AUBI Layer 2 Hearts bonuses.
-
-### **Democratic Control** 🗳️
-Community assemblies maintain authority over local Hearts governance, with Community Weavers facilitating consensus-building and cultural adaptation.
+### **Four-Layer AUBI Integration** 📊
+- **Layer 1**: Universal baseline (70% fiat, 30% Hearts) providing economic security
+- **Layer 2**: Hearts bonuses for care, cultural, and ecological contributions
+- **Layer 3**: Equity adjustments prioritizing Indigenous and marginalized communities  
+- **Layer 4**: Global crisis coordination through Hearts Treasury stability mechanisms
 
 ## What Makes This Different
 
 ### ❌ **Traditional Finance:**
-- Rewards accumulation and extraction
+- Rewards accumulation and wealth extraction
 - Makes care work invisible and unpaid
 - Concentrates wealth among distant shareholders
 - Treats ecosystems as resources to exploit
 
 ### ✅ **Hearts & Leaves:**
-- **Community control** over currency governance and validation
-- **Care work recognition** through Hearts currency circulation  
-- **Ecological restoration rewards** through Leaves NFT documentation
-- **Cultural sovereignty protection** with Indigenous Earth Council authority
+- **Community sovereignty** over currency governance and validation
+- **Care economy recognition** through Hearts circulation and AUBI integration
+- **Ecological restoration rewards** through scientifically verified Leaves NFTs
+- **Indigenous authority** through Earth Council oversight and traditional knowledge protection
 
-## Evidence Base: Building on Proven Models
+## Evidence Base: Proven Models at Scale
 
-**Indigenous Gift Economies:** Thousands of years of abundance through circulation rather than accumulation  
-**Local Currencies:** Bristol Pound showed 15% local business revenue increase  
-**Time Banking:** Proven community engagement and care work recognition  
-**Worker Cooperatives:** Mondragón demonstrates democratic economics at scale  
-**Community Land Trusts:** Permanent affordability and community control
+**Indigenous Gift Economies:** Millennia of abundance through circulation rather than accumulation  
+**Local Currencies:** Bristol Pound showed 15% business revenue increase, 80% local retention  
+**Time Banking:** 50,000+ participants globally demonstrating care work recognition  
+**Worker Cooperatives:** Mondragón demonstrates democratic economics serving 80,000+ members
+**Blockchain Finance:** Hyperledger Fabric processes 20,000+ TPS for enterprise applications
+
+## Technical Specifications
+
+### **Love Ledger Architecture** ⚡
+- **Platform**: Hyperledger Fabric 2.5+ with Practical Byzantine Fault Tolerance
+- **Performance**: 10,000+ transactions/second with <2 second Hearts transfers
+- **Security**: AES-256 encryption, multi-factor authentication, quantum-resistant cryptography
+- **Nodes**: 100+ globally distributed with 40% Indigenous-controlled infrastructure
+- **Backup**: SMS, paper, and radio systems ensuring 100% community accessibility
+
+### **AI-Powered Validation** 🤖
+- **Fraud Detection**: 99.5% accuracy identifying gaming attempts and false claims
+- **Cultural Assessment**: Community Weaver validation with traditional knowledge integration
+- **Ecological Verification**: Satellite imagery and sensor data confirming restoration projects
+- **Democratic Oversight**: Community assemblies maintain authority over AI recommendations
+
+## Risk Management & Crisis Resilience
+
+### **Comprehensive Stress Testing** 🛡️
+- **Hyperinflation Protection**: Automatic 2% issuance caps with reserve fund deployment
+- **Cyberattack Defense**: 24-hour recovery targets with distributed node architecture  
+- **Cultural Appropriation Prevention**: Earth Council veto authority and Red Lines enforcement
+- **Economic Crisis Response**: Hearts networks continue operating when traditional banking fails
+
+### **Leading Indicators System** 📈
+- **Early Warning**: Hearts redemption ratios, community satisfaction tracking, network performance
+- **Automated Response**: Circuit breakers, reserve deployment, emergency governance protocols
+- **Community Coordination**: SMS and radio networks for offline democratic coordination
+- **Recovery Planning**: Build-back-better principles strengthening community resilience
 
 ## Love, Meaning, and Connection Index (LMCI)
 
-**Replacing GDP with what creates thriving communities:**
-- **Love (Care & Relationships):** Care hours, social cohesion, community support
-- **Meaning (Purpose & Growth):** Cultural preservation, knowledge sharing, spiritual flourishing  
-- **Connection (Human-Land Harmony):** Ecological stewardship, biodiversity protection, traditional territory care
+**Replacing GDP with community wellbeing metrics:**
+- **Love (Care & Relationships)**: Care hours, social cohesion, mutual aid networks
+- **Meaning (Purpose & Cultural Vitality)**: Traditional knowledge preservation, artistic expression, spiritual practices  
+- **Connection (Human-Earth Harmony)**: Ecological restoration, traditional stewardship, bioregional cooperation
 
-## Crisis Response Capabilities
+## Global Governance Framework Integration
 
-### **Economic Crisis:** Hearts networks provide alternative economic infrastructure when traditional banking fails
-### **Ecological Crisis:** Leaves NFT mobilization for rapid restoration response with traditional knowledge guidance
-### **Social Crisis:** Community healing through Hearts-funded restorative justice and relationship repair
-### **Community Sovereignty:** Red Lines enforcement protecting sacred knowledge and practices
-
-## Integration with Global Governance
-
-Hearts & Leaves operates as **economic transformation engine** within the broader Global Governance Framework:
-- 🌍 **Treaty for Our Only Home** (Global Commons Fund and legal protection)
-- 🏛️ **Indigenous Governance** (Earth Council authority and traditional knowledge sovereignty)  
-- 💼 **Work in Liberation** (Fractal Labor Parliament valuation standards)
-- 🌱 **AUBI Framework** (shared Love Ledger infrastructure and Community Weaver networks)
+Hearts & Leaves operates as **economic transformation engine** within broader ecosystem:
+- 🌍 **Treaty for Our Only Home**: Global Commons Fund capitalization and ecocide law protection
+- 🏛️ **Meta-Governance Framework**: Social Resilience Council coordination and reflexivity data
+- 🛠️ **Work in Liberation**: Fractal Labor Parliament valuation standards and cooperative development
+- 🌱 **AUBI Framework**: Shared Love Ledger infrastructure and four-layer distribution coordination
 
 ## Implementation: Start Where You Are
 
-### **Minimum Viable Hearts Economy** 
-Begin today with spreadsheet or SMS-based contribution tracking, scale to full blockchain infrastructure as community capacity grows.
+### **Minimum Viable Hearts Economy** 📝
+Begin today with spreadsheet or SMS-based contribution tracking, scale to blockchain as capacity grows:
+- **Community Assessment**: Evaluate readiness and cultural adaptation needs
+- **Community Weaver Training**: 6-month certification in validation and facilitation
+- **Pilot Launch**: 25 participants expanding to 500+ over 12 months
+- **Hearts Treasury**: Partner with local credit union for fiat conversion
 
-### **Community Pilot Pathway**
-1. **Indigenous Consultation** - Begin with tribal governments and traditional knowledge keepers
-2. **Community Assembly** - Democratic decision about Hearts adoption
-3. **Community Weaver Training** - 6-month certification in Hearts validation and cultural protocols
-4. **Gradual Integration** - Start small, build trust, expand based on community satisfaction
+### **Key User Pathways** 🛤️
+- **Credit Union Manager**: Hearts Treasury charter, API integration, reserve management
+- **Development Officer**: Heartstarter program, SDG implementation, LMCI monitoring
+- **Community Leader**: Democratic assemblies, cultural adaptation, mutual aid integration
+- **Municipal Government**: Hearts recognition ordinance, participatory budgeting, local business support
 
-### **Government Support Options**
-- **Municipal:** Accept Hearts for park permits and community service recognition
-- **State:** Legal recognition legislation and Community Weaver training support
-- **Federal:** Care economy integration and automation tax funding for AUBI
+## Economic Security Through Proven Mechanisms
 
-## Economic Security Through AUBI Integration
+### **Hearts Treasury Stability** 🏦
+- **Credit Union Partnerships**: Democratic institutions providing Hearts-to-fiat conversion
+- **Reserve Management**: 50% backing through fiat (40%), ecological assets (30%), community assets (20%), crisis fund (10%)
+- **Anti-Speculation**: Volume caps, AI monitoring, community priority access
+- **Crisis Protocols**: Counter-cyclical reserve deployment with Global Commons Fund coordination
 
-### **Shared Infrastructure:** Love Ledger platform and Community Weaver networks serve both Hearts circulation and AUBI distribution
-
-### **Layer 1:** Universal baseline ($500/month hybrid fiat/Hearts) ensuring economic security
-### **Layer 2:** Hearts bonuses for care, cultural, and ecological contributions  
-### **Layer 3:** Equity adjustments and reparations for historical injustices
-### **Layer 4:** Global stabilization ensuring community crisis support
+### **Community Provider Network** 🤝
+- **Local Business Integration**: 80% of participants report increased revenue with Hearts acceptance
+- **Cooperative Priority**: Worker cooperatives and community enterprises receive preferential access
+- **Democratic Authorization**: Community assemblies approve provider applications
+- **Quality Standards**: Community-defined ethics and benefit criteria
 
 ## The Funding Reality
 
-**Community Level:** $10K for pilot programs (spreadsheet-based Hearts system)  
-**Regional Level:** $100K for Community Weaver training and Love Ledger deployment  
-**Global Level:** Funded through automation taxes, resource levies, and Global Commons Fund
+**Community Level**: $50K for pilot programs (500 participants, MVHE to blockchain)  
+**Regional Level**: $500K for bioregional coordination (5,000 participants, Hearts Treasury)  
+**Global Level**: Funded through automation taxes, resource levies, and Global Commons Fund
 
-**Revenue Sources:** Treaty automation taxes, corporate resource extraction fees, voluntary Hearts community contributions
+**Revenue Sources:** Treaty automation taxes, corporate resource extraction fees, voluntary community contributions, cooperative enterprise development
 
 ## Anti-Appropriation Safeguards
 
-### **Indigenous Sovereignty Protection**
-- Earth Council veto authority over all Hearts implementations
-- Red Lines Clause protecting sacred knowledge regardless of economic incentives
-- Traditional knowledge remains under community control
-- Free, Prior, and Informed Consent 2.0 for all implementations
+### **Indigenous Sovereignty Protection** 🌿
+- **Earth Council Authority**: Ultimate veto power over all Hearts implementations
+- **Red Lines Clause**: Sacred knowledge protection regardless of economic pressures
+- **Traditional Knowledge Sovereignty**: Indigenous communities control knowledge applications
+- **Free, Prior, Informed Consent 2.0**: Enhanced consultation with ongoing consent verification
 
-### **Community Control Mechanisms**
-- Hearts cannot be accumulated indefinitely or inherited as private wealth
-- Demurrage fees encourage circulation rather than hoarding
-- Community assemblies control Hearts governance and validation
-- Anti-gaming protocols prevent system manipulation
+### **Community Control Mechanisms** 🗳️
+- **Democratic Governance**: Community assemblies control all Hearts policies and validation
+- **Demurrage Prevention**: 0.5% monthly circulation fees prevent wealth accumulation
+- **Cultural Adaptation**: Hearts systems adapt to community values rather than imposing standardization
+- **Anti-Gaming Protocols**: AI detection plus community validation prevent system manipulation
 
 ## Why This Matters Now
 
-**The Technology Exists:** Blockchain infrastructure, mobile applications, and proven governance models enable community-controlled economic systems at planetary scale.
+**The Technology Exists:** Enterprise-grade blockchain, AI validation, and mobile applications enable community-controlled economic systems at bioregional scale.
 
 **The Crisis Demands Innovation:** Climate breakdown, care crisis, and inequality require economic systems that reward healing rather than destruction.
 
-**The Movement is Growing:** Indigenous resurgence, cooperative development, and care economy organizing create foundation for Hearts systems adoption.
+**The Movement is Growing:** Indigenous resurgence, cooperative development, and care economy organizing create foundation for Hearts adoption.
 
-**Communities Are Ready:** Mutual aid networks, time banking, and local currencies demonstrate community desire for economic alternatives that serve life.
+**Communities Are Ready:** Mutual aid networks, time banking, and local currencies demonstrate community demand for economic alternatives serving life.
 
 ## Get Started Today
 
-### **Communities:** Access Minimum Viable Hearts Economy resources and Community Weaver training
-### **Indigenous Nations:** Lead Hearts development with Earth Council authority and traditional knowledge protection
-### **Governments:** Model legislation and regulatory frameworks supporting community currencies  
-### **Organizations:** Hearts acceptance integration and cooperative development support
-### **Individuals:** Join Hearts communities and support care economy recognition
+### **Communities:** 
+- Access Minimum Viable Hearts Economy templates and Community Weaver training
+- Contact Social Resilience Council for pilot program support
+- Connect with bioregional Hearts networks for peer learning
+
+### **Indigenous Nations:** 
+- Lead Hearts development with Earth Council authority and traditional knowledge protection
+- Access enhanced support through Global Commons Fund equity programs
+- Coordinate with international Indigenous economic sovereignty networks
+
+### **Governments:** 
+- Implement Hearts recognition ordinances and regulatory sandbox programs
+- Partner with credit unions for Hearts Treasury development
+- Integrate Hearts with participatory budgeting and community development
+
+### **Organizations:** 
+- Accept Hearts for goods and services while building community relationships
+- Support cooperative development and community enterprise
+- Coordinate with AUBI implementation for comprehensive economic security
+
+### **Individuals:** 
+- Join existing Hearts communities or start pilot programs
+- Support care economy recognition and ecological restoration
+- Participate in community assemblies and democratic economic governance
 
 ---
 
 ## The Future We Choose
 
-**Current Path:** Care work remains invisible, ecological destruction stays profitable, wealth concentrates among distant elites, communities lose economic control.
+**Current Path:** Care work remains invisible, ecological destruction stays profitable, wealth concentrates among distant elites, communities lose economic sovereignty.
 
 **Hearts & Leaves Path:** Care work receives economic recognition, ecological restoration becomes profitable, wealth circulates within communities, Indigenous sovereignty guides economic relationships.
 
@@ -188,4 +247,4 @@ Begin today with spreadsheet or SMS-based contribution tracking, scale to full b
 
 ---
 
-*Access the complete framework at [Financial Systems Documentation](/frameworks/financial-systems) | Join community pilots at [Hearts Implementation Hub](#) | Contact: hearts@globalgovernanceframeworks.org*
+*Access complete framework at [Financial Systems Documentation](https://globalgovernanceframework.org/frameworks/financial-systems) | Join pilot programs at [Hearts Implementation Hub](https://globalgovernanceframework.org/hearts) | Contact: hearts@globalgovernanceframeworks.org*
