@@ -351,13 +351,13 @@ This cluster provides comprehensive rule of law and conflict transformation infr
 
 ## <a id="economic-os"></a>The Economic OS: The Regenerative Engine
 
-This cluster serves as the regenerative economic engine, designed to reward care, ecological restoration, and community well-being rather than extraction and accumulation. It provides the economic incentives and mechanisms that fund the entire GGF ecosystem while creating economic security for all people.
+This cluster serves as the regenerative economic engine, designed to reward care, ecological restoration, and community well-being rather than extraction and accumulation. It provides the economic incentives and mechanisms that fund the entire GGF ecosystem while creating economic security for all people through a revolutionary dual-system approach.
 
 ### Core Purpose
 
 **Post-Capitalist Economics**: Create economic systems that serve life rather than extracting from it, rewarding regeneration rather than extraction, and supporting community wealth rather than individual accumulation.
 
-**Care Economy Integration**: Recognize and reward the care work—childcare, eldercare, community support, emotional labor—that is essential for human flourishing but currently unpaid and undervalued.
+**Care Economy Integration**: Recognize and reward the care work—childcare, eldercare, community support, emotional labor—that is essential for human flourishing but currently unpaid and undervalued through both formal and informal recognition systems.
 
 **Ecological Economics**: Create direct economic incentives for ecological restoration, biodiversity conservation, and climate stabilization while making environmental destruction economically disadvantageous.
 
@@ -365,102 +365,131 @@ This cluster serves as the regenerative economic engine, designed to reward care
 
 ### Anchor Framework: Adaptive Universal Basic Income (AUBI)
 
-The **AUBI Framework** serves as the core economic engine with three integrated layers:
+The **AUBI Framework** serves as the core economic engine with a revolutionary dual-wallet system that operates through two parallel mechanisms:
 
-**Layer 1: Universal Basic Security** - Unconditional income providing housing, food, healthcare, and education for all people globally, funded by Global Commons Fund and progressive taxation.
+**1. Formal Monetized Care Economy (Hearts Credits)**
+A closed-loop voucher system where chartered **Community Providers** deliver formal services redeemable for **Hearts** credits. This system includes:
+- **Hearts Treasury** managed by partner credit unions providing fiat-backing and stable redemption
+- **Community Providers** chartered by BAZ councils to accept Hearts for care, cultural, and ecological services
+- **Community Weavers** facilitating on-the-ground implementation and cultural adaptation
+- Monthly Hearts distribution as 30% of AUBI baseline payments
 
-**Layer 2: Regenerative Contributions** - Additional income earned through verified contributions to community well-being and ecological health, tracked through the Love Ledger platform.
+**2. Informal Care Economy (Love Ledger)**
+A parallel, non-monetized recognition system using **Gratitude Tokens** to build social cohesion and inform the **LMCI** metric without commodifying relationships:
+- Recognition of spontaneous acts of care, volunteering, and community support
+- Community validation through transparent but non-monetary acknowledgment
+- Data contribution to Love, Meaning, and Connection Index measurements
+- Preservation of intrinsic motivation for informal care relationships
 
-**Layer 3: Purpose-Driven Work** - Market-based income from work that serves rather than harms community and ecological health, supported by cooperative development and stakeholder governance.
+### The Four-Layered AUBI Architecture
 
-### The Hearts and Leaves Currency System
+**Layer 0: Relational Wealth (Philosophical Foundation)**
+- Honors unmonetized contributions (kinship, cultural wisdom, ecological care) as the foundation of Right Relationship
+- Documented via Love Ledger with non-monetized Gratitude Tokens
+- Ceremonial recognition in community gatherings and cultural practices
 
-**Hearts Currency**: Social currency rewarding care work, community contributions, and cultural preservation:
-- Childcare, eldercare, and disability support
-- Community organizing and mutual aid
-- Teaching, mentoring, and knowledge sharing
-- Cultural preservation and artistic creation
-- Emotional support and conflict mediation
+**Layer 1: Universal Baseline (Hybrid Fiat/Hearts)**
+- Ensures dignity with a hybrid baseline (70% fiat, 30% Hearts) for market and care economies
+- Covers all adults 18+, with education stipends and optional youth civic internships
+- Dynamic fiat/Hearts ratio adjusted by Social Resilience Council based on community needs
 
-**Leaves Currency**: Ecological currency rewarding verified ecosystem restoration and stewardship:
-- Reforestation and habitat restoration
-- Soil building and regenerative agriculture
-- Water system restoration and protection
-- Carbon sequestration and climate mitigation
-- Biodiversity conservation and species protection
+**Layer 2: Contribution & Development Bonus**
+- Rewards contributions to LMCI pillars, paid in Hearts to chartered Community Providers
+- **Love**: Caregiving, mentorship, conflict resolution services
+- **Meaning**: Knowledge sharing, cultural preservation, spiritual care programs
+- **Connection**: Ecological restoration (earns Leaves, multiplied by Green Job Score), community organizing
 
-### The Love Ledger Platform
+**Layer 3: Equity & Needs-Based Bonus**
+- Delivers Treaty reparations for historical/ecological injustices, paid in Hearts
+- Health/disability support, caregiving, geographic equity, reparations for colonialism
+- Portable LMCI scores for migrants/refugees
 
-**Contribution Tracking**: Decentralized platform logging and validating contributions of care and ecological work using blockchain technology with community oversight.
+### The Hearts Treasury Mechanism
 
-**Proof of Care Process**: Community-based validation ensuring authentic contributions rather than gaming or exploitation of the system.
+**Operational Model**: The Hearts Treasury functions as a financial clearinghouse managed in partnership with local credit unions, providing the stability and institutional backing that distinguishes Hearts from traditional alternative currencies.
 
-**Cultural Integration**: Protocols accommodating different cultural approaches to work, contribution, and economic exchange.
+**Capitalization**: Initially capitalized by the Global Commons Fund (GCF) and sustained by levies on transactions, ensuring reliable fiat redemption for Hearts at stable rates.
 
-**Privacy Protection**: Community-controlled data sovereignty ensuring personal information remains under individual and community control.
+**Functions**: 
+- Processes monthly redemptions for chartered Community Providers
+- Maintains reserve ratios to prevent inflation
+- Adjusts Hearts issuance based on LMCI data and community needs
+- Integrates with AUBI payouts and Inter-Currency Translation Layer
+
+**Quality Assurance**: Community Weavers work with providers to maintain service quality while managing costs, with transparent chartering processes including ongoing peer review.
 
 ### Supporting Economic Frameworks
 
 **Regenerative Financial Systems Framework**
 - **Post-Capitalist Architecture**: Financial systems serving regeneration rather than extraction
-- **Community Banking**: Local financial institutions serving community needs
-- **Impact Investment**: Capital directed toward social and ecological benefit
+- **Community Banking**: Hearts Treasury partnerships with local credit unions
+- **Impact Investment**: Capital directed toward social and ecological benefit through Hearts-accepting cooperatives
 - **Debt Justice**: Automatic debt relief during climate disasters and economic crises
 
 **Work in Liberation Framework**
-- **Community Work Teams**: BAZ-level organization of meaningful work
-- **Fractal Labor Parliament**: Setting ethical standards for work and contribution valuation
-- **Work with Purpose**: Meaningful work that serves community and ecological health
-- **Cooperative Development**: Support for worker and community-owned enterprises
+- **Community Work Teams**: Primary type of chartered Community Providers delivering services for Hearts
+- **Fractal Labor Parliament**: Setting ethical standards for work and contribution valuation under Meta-Governance
+- **Work with Purpose**: Meaningful work that serves community and ecological health, supported by Hearts circulation
+- **Cooperative Development**: Support for worker and community-owned Community Providers
 
-**Nested Economies Framework**
-- **Multi-Scale Coordination**: Economic coordination from local to bioregional to global scales
-- **Local Currency Integration**: Supporting local exchange systems and community currencies
-- **Bioregional Economics**: Economic systems organized around ecosystem boundaries
-- **Global Coordination**: Planetary economic coordination respecting local autonomy
+**Nested Sovereignty Framework**
+- **Multi-Scale Coordination**: Economic coordination from local BAZ to bioregional to global scales through Hearts networks
+- **Local Currency Integration**: Supporting Hearts as community-controlled value circuits
+- **Bioregional Economics**: Economic systems organized around ecosystem boundaries using federated Hearts networks
+- **Global Coordination**: Planetary economic coordination respecting local autonomy through Inter-Currency Translation Layer
 
 **The Gaian Trade Framework**
-- **Regenerative Supply Chains**: Trade that enhances rather than degrades ecosystems
-- **Digital Product Passports**: Transparency about ecological and social impacts
-- **Fair Trade Evolution**: Ensuring producers receive just compensation
-- **Global Standards**: Ecological and social standards for international trade
+- **Regenerative Supply Chains**: Trade that enhances rather than degrades ecosystems, accepting Hearts payment
+- **Digital Product Passports**: Transparency about ecological and social impacts, validated through Love Ledger data
+- **Fair Trade Evolution**: Ensuring producers receive just compensation through Hearts and cooperative structures
+- **Global Standards**: Ecological and social standards for international trade accepting Hearts currencies
 
-### Innovation: Economic Democracy
+### Innovation: Economic Democracy Through Community Ownership
 
-**Stakeholder Governance**: Businesses serving all stakeholders—workers, communities, ecosystems—rather than just shareholders.
+**Stakeholder Governance**: Businesses serving all stakeholders—workers, communities, ecosystems—through Community Provider charters rather than just shareholders.
 
-**Cooperative Development**: Support for worker-owned, community-owned, and ecosystem-stewarded enterprises.
+**Cooperative Development**: Hearts system specifically supports worker-owned, community-owned, and ecosystem-stewarded enterprises as preferred Community Providers.
 
-**Community Wealth Building**: Economic strategies that circulate wealth within communities rather than extracting it to distant shareholders.
+**Community Wealth Building**: Hearts create closed-loop economic circuits that circulate wealth within communities rather than extracting it to distant shareholders.
 
-**Participatory Economics**: Community participation in economic planning and resource allocation decisions.
+**Participatory Economics**: Community participation in economic planning through BAZ councils and Hearts spending choices that democratically direct local economic flows.
 
 ### Service Functions for Other Operating Systems
 
-**For Governance OS**: Provides funding mechanisms for coordination activities, economic incentives for participation in governance networks, and resources for collective decision-making processes.
+**For Governance OS**: Provides funding mechanisms for coordination activities through Hearts allocations, economic incentives for participation in governance networks, and resources for collective decision-making processes through Community Provider networks.
 
-**For Ethical OS**: Implements regenerative economics principles, rewards traditional ecological knowledge application, and funds Indigenous sovereignty and cultural preservation.
+**For Ethical OS**: Implements regenerative economics principles through Hearts design, rewards traditional ecological knowledge application through specialized Community Providers, and funds Indigenous sovereignty and cultural preservation through targeted Hearts programs.
 
-**For Justice OS**: Provides economic security that reduces crime, funds restorative justice processes, and supports community healing and reconciliation.
+**For Justice OS**: Provides economic security that reduces crime through AUBI baseline, funds restorative justice processes through Hearts-accepting community courts, and supports community healing and reconciliation through Hearts-funded social services.
 
-**For Technology OS**: Funds community-controlled technology development, rewards technology that serves community needs, and prevents technology deployment that increases economic inequality.
+**For Technology OS**: Funds community-controlled technology development through Hearts-accepting tech cooperatives, rewards technology that serves community needs through specialized provider categories, and prevents technology deployment that increases economic inequality through democratic Hearts allocation.
 
 ### Success Metrics
 
 **Economic Security**:
-- Universal basic income providing dignity and security for 100% of global population
-- Housing, food, healthcare, and education guaranteed as human rights
+- Universal basic income providing dignity and security for 100% of global population through AUBI four-layer system
+- Housing, food, healthcare, and education guaranteed as human rights funded through Hearts and fiat components
 - Economic anxiety and insecurity eliminated as drivers of social and political instability
 
 **Regenerative Incentives**:
-- Care work valued and rewarded through Hearts currency system
-- Ecological restoration accelerated through Leaves currency incentives
-- Extractive and harmful industries made economically disadvantageous
+- Care work valued and rewarded through Hearts currency system flowing to Community Providers
+- Ecological restoration accelerated through Leaves currency incentives and Green Job Score multipliers
+- Extractive and harmful industries made economically disadvantageous relative to Hearts-based alternatives
 
 **Economic Democracy**:
-- 50%+ of productive assets under worker, community, or ecological stewardship
-- Community participation in economic planning and resource allocation
-- Wealth inequality reduced to levels that support rather than undermine social cohesion
+- 50%+ of productive assets under worker, community, or ecological stewardship through Community Provider cooperatives
+- Community participation in economic planning through BAZ councils and Hearts allocation decisions
+- Wealth inequality reduced to levels that support rather than undermine social cohesion through progressive AUBI layers
+
+**Community Resilience**:
+- 70% of care services delivered through Hearts-accepting Community Providers within 10 years
+- Hearts circulation velocity maintaining 90%+ monthly turnover indicating active community engagement
+- Love Ledger participation demonstrating strengthened social cohesion and informal care networks
+
+**Integration Effectiveness**:
+- Hearts Treasury maintaining 100% redemption reliability with <48 hour processing times
+- Community Weaver network successfully supporting 95%+ of new Community Provider integrations
+- Inter-Currency Translation Layer enabling seamless Hearts exchange between federated BAZ communities
 
 ---
 
