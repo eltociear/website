@@ -3,11 +3,12 @@ title: "Vad vi skulle göra om vi var Trump, för att göra Amerika stort igen"
 description: "Ett tankeexperiment som omformulerar uppdraget 'Gör Amerika stort igen' genom linsen av en ny 'Doktrin för Amerikas förnyelse' – en detaljerad plan för att lösa Amerikas verkliga problem med innovation, gemenskapsresiliens och ekonomisk trygghet för varje arbetande familj."
 author: "Global Governance Frameworks"
 date: "2025-08-17"
+pdfPath: "/blog/pdfs/what-we-would-do-if-we-were-trump-sv.pdf"
 tags: ["Amerikansk politik", "Populism", "Medborgarlön", "Ekonomisk förnyelse", "Gemenskapsresiliens", "USA-politik", "Styrning"]
 hashtags: ["#AmerikanskFörnyelse", "#EkonomiskTrygghet", "#Medborgarlön", "#AUBI", "#MAGA", "#GemenskapenFörst", "#VerkligaMAGA"]
 ---
 
-![Header Image: American Renewal](/images/blog/header-post-4-american-renewal.png)
+![Header Image: American Renewal](/images/blog/what-we-would-do-if-we-were-trump/header-post-4-american-renewal.png)
 
 Amerika är starkt. Amerika är stolt. Amerika är redo att leda.
 
@@ -29,6 +30,8 @@ Den nuvarande strategin fungerar inte eftersom den behandlar symtom, inte orsake
 
 ## Vår handlingsplan: Den amerikanska resilienta ekonomin
 
+![10 punkters plan](/images/blog/what-we-would-do-if-we-were-trump/10-point-plan-sv.svg)
+
 Här är vad vi skulle göra för att verkligen göra Amerika stort igen:
 
 ### 1\. Sätt kontanter direkt i varje amerikaners ficka
@@ -36,6 +39,8 @@ Här är vad vi skulle göra för att verkligen göra Amerika stort igen:
 **Utmaningen:** Lönerna har inte hållit jämna steg med kostnaderna. Arbetande familjer är en nödsituation från fattigdom.
 
 **Vår lösning: Lansera systemet för adaptiv medborgarlön [(AUBI)](/frameworks/adaptive-universal-basic-income)**
+
+![AUBI systemet förklarat](/images/blog/what-we-would-do-if-we-were-trump/aubi-system-explained-sv.svg)
 
 Det här är inte bara en allmosa – det är ett smart, adaptivt system som inser att amerikaner är olika och har olika behov:
 
@@ -173,6 +178,8 @@ Istället för att bara reagera på brott, kommer vi att förebygga dem:
 **Varför detta gör Amerika stort:** Sann styrka handlar inte om att dra sig tillbaka – det handlar om att sätta agendan. När Amerika leder i de utmaningar som betyder något, följer alla andra våra regler.
 
 ## Hur vi skulle betala för det: Få systemet att arbeta för Amerika
+
+![Flödesschema: Hur vi skulle betala för det](/images/blog/what-we-would-do-if-we-were-trump/how-we-pay-for-it-sv.svg)
 
 **Avsluta företagsvälfärd som skickar jobb utomlands:** Stoppa subventioner till företag som outsourcar amerikanska jobb.
 

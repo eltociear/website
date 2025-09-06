@@ -3,6 +3,7 @@ title: "Från företräde till partnerskap: Hur vi utvecklade vår syn på globa
 description: "Att bygga en bättre värld kräver ständig självrannsakan. Vi reviderade ett kärnförslag i vårt 'Fördrag för Vårt Enda Hem' för att säkerställa att det verkligen främjar rättvisa och jämlikhet. Här är varför och hur."
 author: "Global Governance Frameworks"
 date: "2025-06-25"
+pdfPath: "/blog/pdfs/from-primacy-to-partnership-sv.pdf"
 tags: ["Etik", "Global styrning", "Transparens", "Suveränitet", "FN-reform", "Rättvisa", "Jämlikhet"]
 hashtags: ["#EtiskStyrning", "#Transparens", "#GlobalRättvisa", "#Suveränitetsförhandling", "#FördragFörVårtEndaHem", "#FNreform"]
 ---

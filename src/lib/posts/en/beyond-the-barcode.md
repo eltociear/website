@@ -3,6 +3,7 @@ title: "Beyond the Barcode: Making Ethical Shopping the Default"
 description: "Ethical consumerism is failing because our systems are designed for opacity. Here's how the GGF's integrated architecture could make conscious consumption the default, not the exception."
 author: "Global Governance Frameworks"
 date: "2025-09-03"
+pdfPath: "/blog/pdfs/beyond-the-barcorde.pdf"
 tags: ["Ethical Consumption", "GGF", "Sustainable Shopping", "Digital Product Passports", "AUBI", "Phoenix Protocol", "Kinship Garden", "Regenerative Economy", "Consumer Trust", "Greenwashing"]
 hashtags: ["#EthicalShopping", "#GlobalGovernanceFrameworks", "#GGF", "#DigitalProductPassports", "#RegenerativeEconomy", "#AUBI", "#PhoenixProtocol", "#KinshipGarden", "#EndGreenwashing", "#ConsciousConsumption"]
 ---

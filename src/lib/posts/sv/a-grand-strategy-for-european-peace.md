@@ -3,6 +3,7 @@ title: "En övergripande strategi för fred i Europa: En trestegsraket för civi
 description: "Hur Europa kan överskrida stormaktskonkurrens och bli en pionjär för ett nytt system av planetärt samarbete genom en revolutionerande trestegsstrategi – från intern motståndskraft till samordning på artnivå med hjälp av Global Governance Frameworks."
 author: "Global Governance Frameworks"
 date: "2025-08-12"
+pdfPath: "/blog/pdfs/a-grand-strategy-for-european-peace-sv.pdf"
 tags: ["Europeisk strategi", "Geopolitik", "Fred", "Global styrning", "GGF", "Diplomati", "Ekonomiskt samarbete", "Planetärt försvar", "Meta-styrning", "Aegis Protocol"]
 hashtags: ["#EuropeiskStrategi", "#PlanetärFred", "#GlobalGovernanceFrameworks", "#GGF", "#MetaStyrning", "#AegisProtocol", "#RegenerativHandel", "#SamarbetePåArtnivå", "#EuropeiskAutonomi", "#CivilisationensOmvandling"]
 ---

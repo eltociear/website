@@ -2,6 +2,7 @@
 title: "A Grand Strategy for European Peace: A Three-Stage Rocket for Civilizational Transformation"
 description: "How Europe can transcend great power competition and pioneer a new system of planetary cooperation through a revolutionary two-stage approach—from internal resilience to species-level coordination using Global Governance Frameworks."
 author: "Global Governance Frameworks"
+pdfPath: "/blog/pdfs/a-grand-strategy-for-european-peace.pdf"
 date: "2025-08-12"
 tags: ["European Strategy", "Geopolitics", "Peace", "Global Governance", "GGF", "Diplomacy", "Economic Cooperation", "Planetary Defense", "Meta-Governance", "Aegis Protocol"]
 hashtags: ["#EuropeanStrategy", "#PlanetaryPeace", "#GlobalGovernanceFrameworks", "#GGF", "#MetaGovernance", "#AegisProtocol", "#RegenerativeTrade", "#SpeciesLevelCooperation", "#EuropeanAutonomy", "#CivilizationalTransformation"]

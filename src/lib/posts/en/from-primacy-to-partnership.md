@@ -3,6 +3,7 @@ title: "From Primacy to Partnership: Evolving Our Approach to Global Reform"
 description: "Building a better world requires constant self-reflection. We revised a core proposal in our 'Treaty for Our Only Home' to ensure it truly serves justice and equity. Here's why and how."
 author: "Global Governance Frameworks"
 date: "2025-06-25"
+pdfPath: "/blog/pdfs/from-primacy-to-partnership.pdf"
 tags: ["Ethics", "Global Governance", "Transparency", "Sovereignty", "UN Reform", "Justice", "Equity"]
 hashtags: ["#EthicalGovernance", "#Transparency", "#GlobalJustice", "#SovereigntyBargain", "#TreatyForOurOnlyHome", "#UNReform"]
 ---

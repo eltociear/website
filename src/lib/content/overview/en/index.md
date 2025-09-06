@@ -36,7 +36,9 @@ The GGF is not a proposal for a single world government. It is a living ecosyste
 
 1. **The Hardware (The Treaty for Our Only Home):** The legal and institutional foundation that makes coordinated global action possible. The Treaty reforms core international bodies like the UN Security Council, strengthens international law to address modern challenges like ecocide, and establishes sustainable funding mechanisms for planetary public goods.
 
-2. **The Heart (Indigenous & Traditional Knowledge Governance):** The ethical and wisdom compass for the entire ecosystem. This framework centers the wisdom of "Right Relationship" and Indigenous sovereignty, ensuring that solutions are not just technically effective but also just, wise, and truly regenerative for all beings. It recognizes that sustainable systems can only be built on a foundation of collective healing—addressing the root traumas of disconnection, scarcity, and powerlessness that fuel the polycrisis.
+2. **The Heart (Indigenous & Traditional Knowledge Governance):** The ethical and wisdom compass for the entire ecosystem. The GGF is founded on the core principle that for any global system to be truly regenerative, it must be guided by the wisdom of **“Right Relationship”** and centered on **Indigenous sovereignty**.
+
+Therefore, this pillar is not presented as a finished product, but as a foundational commitment and an open invitation. It is an architecture designed to support, learn from, and be guided by Indigenous-led governance, ensuring that solutions are **co-created** to be just, wise, and truly regenerative for all beings. It recognizes that sustainable systems can only be built on a foundation of collective healing—a process that must be led by the communities who have stewarded relational wisdom for millennia.
 
 3. **The Nervous System (The Integrated Meta-Governance Framework):** The operational coordination protocol that allows all parts of the system to work together. It provides the principles and structures for diverse frameworks and communities to interoperate and co-evolve, creating a flexible and adaptive global network.
 
@@ -94,13 +96,17 @@ This is the top-down, institutional reform layer that provides the necessary leg
 
 ### 2. The Heart — *Indigenous & Traditional Knowledge Governance*
 
-This is the bottom-up, wisdom-based foundation that provides the "heart and soul" for the GGF. Rooted in principles of decolonization, ecological relationship, and intergenerational accountability, this pillar centers Indigenous-led, bioregional governance as the primary source of ethical guidance and land-based wisdom. It ensures that the reformed "hardware" is operated with a regenerative, just, and life-affirming ethos, grounding global coordination in the ancient instructions for living in right relationship with the Earth.
+This pillar represents the GGF's foundational commitment to providing the "heart and soul" for the entire ecosystem. It is rooted in the principles of decolonization, ecological relationship, and intergenerational accountability.
 
-**Key Components**:
+The ultimate vision for this pillar is to **center Indigenous-led, bioregional governance** as the primary source of ethical guidance. Its purpose is to ensure the reformed "hardware" is operated with a regenerative and just ethos. This can only be achieved through a process of **authentic co-creation**, grounding global coordination in the "ancient instructions" for living in right relationship with the Earth.
+
+To honor this commitment, the GGF's current design serves as a **placeholder and an invitation** for this collaborative work. It proposes a potential architecture for discussion, revision, and leadership with Indigenous partners, which includes key components such as:
+
+**Proposed Key Components for Co-Creation**:
 - Bioregional Autonomous Zones (BAZs) with Indigenous sovereignty
-- Earth Council (Kawsay Pacha) providing moral authority and planetary coordination
-- Rights of Nature legal framework protecting ecosystems as persons
-- Traditional Knowledge protection protocols preventing appropriation
+- An Earth Council (Kawsay Pacha) to provide moral authority
+- A Rights of Nature legal framework protecting ecosystems
+- Protocols to ensure Traditional Knowledge protection
 
 ### 3. The Nervous System — *The Integrated Meta-Governance Framework*
 
@@ -185,11 +191,11 @@ This cluster acts as the central "nervous system" for the entire GGF ecosystem, 
 ### The Ethical OS
 **The Heart and Compass**
 
-This cluster provides the "heart" and foundational ethical compass for the entire system, ensuring all coordination serves life and justice.
+This cluster represents the GGF's commitment to creating a "heart" and foundational ethical compass for the entire system. Its purpose is to ensure all coordination serves life and justice through a process of authentic partnership and co-creation.
 
-- **Anchor Framework:** Indigenous & Traditional Knowledge Governance Framework
-- **Core Innovation:** Bioregional Autonomous Zones and Earth Council moral authority
-- **Function:** Grounds all governance in principles of right relationship and regenerative ethics
+- **Aspirational Anchor Framework:** The **Indigenous & Traditional Knowledge Governance Framework**, to be co-created with Indigenous partners.
+- **Proposed Core Innovations:** The establishment of **Bioregional Autonomous Zones** and the guidance of an **Earth Council**.
+- **Intended Function:** To ground all governance in the principles of **right relationship** and regenerative ethics.
 
 ### The Justice & Security OS
 **The Rule of Law Infrastructure**

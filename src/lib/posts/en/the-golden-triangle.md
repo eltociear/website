@@ -3,6 +3,7 @@ title: "The Golden Triangle: Our Integrated Blueprint for a Regenerative Future"
 description: "A global treaty is not enough. Discover our evolved strategy for transformation, uniting three core pillars—Reformed Institutions, Foundational Wisdom, and a Coordination Operating System—into a single, resilient blueprint for a thriving planet."
 author: "Global Governance Frameworks"
 date: "2025-06-26"
+pdfPath: "/blog/pdfs/the-golden-triangle.pdf"
 tags: ["Global Governance", "Strategy", "Indigenous Wisdom", "Meta-Governance", "UN Reform", "Decolonization", "Systems Thinking"]
 hashtags: ["#GlobalGovernance", "#SystemsChange", "#IndigenousLeadership", "#MetaGovernance", "#GoldenTriangle"]
 ---

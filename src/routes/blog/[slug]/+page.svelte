@@ -98,6 +98,8 @@
       </a>
     </nav>
 
+
+
     <h1>{post.meta.title}</h1>
     <p class="post-meta">
       {getBlogTranslation('meta.publishedOn', 'Published on')} {new Date(post.meta.date).toLocaleDateString(currentLocale === 'sv' ? 'sv-SE' : 'en-US', {
@@ -106,6 +108,21 @@
         day: 'numeric'
       })} {getBlogTranslation('meta.by', 'by')} {post.meta.author}
     </p>
+
+    <!-- Alternative with SVG icon -->
+    {#if post.meta.pdfPath}
+      <a 
+        href="{post.meta.pdfPath}"
+        class="pdf-download-button blog-pdf-button"
+        download="{post.meta.title}.pdf"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+        </svg>
+        Download PDF
+      </a>
+    {/if}
+
     {#if post.meta.tags && post.meta.tags.length > 0}
       <div class="post-tags">
         {#each post.meta.tags as tag}
@@ -702,6 +719,73 @@
 
   .post-content :global(thead tr:hover) {
     background-color: #2B4B8C; /* Keep header color on hover */
+  }
+
+  /* PDF Download Button - matches your existing action-button pattern */
+  .pdf-download-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border: none;
+    min-width: 140px;
+    justify-content: center;
+    margin-bottom: 1.5rem; /* Add this for spacing */
+  }
+
+  .pdf-download-button:hover {
+    background: #f8fafc;
+    border-color: #9ca3af;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .pdf-download-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Icon styling */
+  .pdf-download-icon {
+    font-size: 1rem;
+    display: inline-block;
+  }
+
+  /* Alternative: Using SVG icon instead of emoji */
+  .pdf-download-button svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    stroke-width: 2;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .pdf-download-button {
+      padding: 0.625rem 1rem;
+      font-size: 0.875rem;
+      min-width: 120px;
+    }
+  }
+
+  /* For blog posts - lighter styling variant */
+  .blog-pdf-button {
+    background: rgba(43, 75, 140, 0.05);
+    color: #2B4B8C;
+    border: 1px solid rgba(43, 75, 140, 0.2);
+  }
+
+  .blog-pdf-button:hover {
+    background: rgba(43, 75, 140, 0.1);
+    border-color: rgba(43, 75, 140, 0.4);
+    color: #1e3a8a;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
   /* Responsive table handling */

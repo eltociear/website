@@ -99,7 +99,7 @@
                 </p>
                 
                 <p class="post-description">{post.meta.description}</p>
-                
+
                 {#if post.meta.tags && post.meta.tags.length > 0}
                   <div class="post-tags">
                     {#each post.meta.tags as tag}
@@ -113,6 +113,7 @@
                 </div>
               </div>
             </a>
+
           </article>
 
           <!-- Strategic Follow placement: After first few posts (when user has seen value) -->
@@ -423,7 +424,7 @@
   .prompt-link:hover {
     color: #DAA520;
   }
-  
+    
   /* Responsive design */
   @media (max-width: 768px) {
     .container {

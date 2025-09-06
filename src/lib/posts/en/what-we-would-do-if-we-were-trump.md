@@ -2,6 +2,7 @@
 title: "What We Would Do If We Were Trump, To Make America Great Again"
 description: "A thought experiment reframing the 'Make America Great Again' mission through the lens of a new 'American Renewal Doctrine'—a detailed plan to fix America's real problems with innovation, community resilience, and economic security for every working family."
 author: "Global Governance Frameworks"
+pdfPath: "/blog/pdfs/what-we-would-do-if-we-were-trump.pdf"
 date: "2025-08-17"
 tags: ["American Politics", "Populism", "Universal Basic Income", "Economic Renewal", "Community Resilience", "US Policy", "Governance"]
 hashtags: ["#AmericanRenewal", "#EconomicSecurity", "#UBI", "#AUBI", "#MAGA", "#CommunityFirst", "#RealMAGA"]

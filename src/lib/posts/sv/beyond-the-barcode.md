@@ -4,6 +4,7 @@ title: "Bortom streckkoden: Att göra etisk shopping till standard"
 description: "Etisk konsumtion misslyckas eftersom våra system är utformade för att vara ogenomskinliga. Så här skulle GGF:s integrerade arkitektur kunna göra medveten konsumtion till standard, inte undantag."
 author: "Global Governance Frameworks"
 date: "2025-09-03"
+pdfPath: "/blog/pdfs/beyond-the-barcode-sv.pdf"
 tags: ["Etisk konsumtion", "GGF", "Hållbar shopping", "Digitala produktpass", "AUBI", "Phoenix Protocol", "Kinship Garden", "Regenerativ ekonomi", "Konsumentförtroende", "Greenwashing"]
 hashtags: ["#EtiskShopping", "#GlobalGovernanceFrameworks", "#GGF", "#DigitalaProduktpass", "#RegenerativEkonomi", "#AUBI", "#PhoenixProtocol", "#KinshipGarden", "#StoppaGreenwashing", "#MedvetenKonsumtion"]
 ---

@@ -3,6 +3,7 @@ title: "Den Gyllene Triangeln: Vår Integrerade Plan för en Regenerativ Framtid
 description: "Ett globalt fördrag är inte tillräckligt. Upptäck vår vidareutvecklade strategi för global transformation, som förenar tre kärnpelare—Reformerade Institutioner, Grundläggande Visdom och ett Operativsystem för Samordning—till en enda, motståndskraftig plan för en blomstrande planet."
 author: "Global Governance Frameworks"
 date: "2025-06-26"
+pdfPath: "/blog/pdfs/the-golden-triangle-sv.pdf"
 tags: ["Global Styrning", "Strategi", "Ursprungsfolksvisdom", "Metastyrning", "FN-reform", "Avkolonisering", "Systemtänkande"]
 hashtags: ["#GlobalStyrning", "#Systemförändring", "#Ursprungsfolksledarskap", "#Metastyrning", "#GylleneTriangeln"]
 ---

@@ -980,7 +980,6 @@
   /* Ordered lists */
   .content-area :global(ol) {
     list-style-type: decimal;
-    counter-reset: item;
   }
 
   .content-area :global(ol li) {

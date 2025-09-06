@@ -11,6 +11,26 @@ import type { GgfEntity, GgfRelationship } from './_types';
 export const socialEquityEntities: GgfEntity[] = [
   // === CORE FRAMEWORKS ===
   {
+    id: 'framework_social_fabric',
+    type: 'Framework',
+    name: 'The Social Fabric Framework: Weaving the Foundational Infrastructure for Regenerative Communities',
+    shortName: 'Social Fabric Framework',
+    description: 'A modular, context-aware social technology for building trust, healing collective trauma, and fostering the social cohesion necessary for regenerative governance.',
+    tier: 2,
+    status: 'Planned',
+    primaryDomain: 'Governance',
+    dependencies: ['framework_indigenous', 'framework_mental_health', 'framework_justice'],
+    enables: ['process_community_weaver', 'institution_cohesion_council', 'framework_aubi', 'framework_meta_gov'],
+    ui: {
+      path: '/frameworks/social-fabric',
+      titleKey: 'framework.docs.nav.frameworkTitles.socialFabric', // This would need to be added to frameworkNav.js
+      emoji: '🧶',
+      version: '1.0',
+      slug: 'social-fabric',
+      group: 'humanSocialSystems'
+    }
+  },
+  {
     id: 'framework_cairn_protocol',
     type: 'Framework',
     name: 'The Cairn Protocol',
@@ -279,8 +299,38 @@ export const socialEquityEntities: GgfEntity[] = [
     implementationPriority: 'Medium',
     dependencies: ['framework_treaty', 'framework_justice']
   },
+  {
+    id: 'institution_cohesion_council',
+    type: 'Institution',
+    name: 'Community Cohesion Council',
+    shortName: 'Cohesion Council',
+    description: 'An entry-level, community-led governance body focused on monitoring and nurturing relational health, serving as a precursor to a full BAZ Council.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_social_fabric']
+  },
+  {
+    id: 'institution_weaver_ombud',
+    type: 'Institution',
+    name: 'Weaver Ombud',
+    shortName: 'Weaver Ombud',
+    description: 'An independent reviewer for grievances related to the Weaver process, ensuring accountability and ethical practice.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_social_fabric']
+  },
 
   // === PROCESSES, PROTOCOLS & TOOLS ===
+  {
+    id: 'process_community_weaver',
+    type: 'Process',
+    name: 'Community Weaver',
+    shortName: 'Weaver',
+    description: 'The role of a trained facilitator who cultivates the conditions for trust and collaboration, guided by local wisdom. Includes a full curriculum and guild structure.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_social_fabric']
+  },
   {
     id: 'process_recovery_weaver',
     type: 'Process',
@@ -372,7 +422,28 @@ export const socialEquityEntities: GgfEntity[] = [
     geographicScope: 'Regional',
     implementationPriority: 'Medium',
     dependencies: ['framework_migration', 'institution_baz']
+  },
+  {
+    id: 'tool_cohesion_metrics_pack',
+    type: 'DataMetric',
+    name: 'Cohesion Metrics Pack',
+    shortName: 'Cohesion Metrics',
+    description: 'A suite of co-designed metrics, including the LMCI, to measure social fabric health and guide implementation.',
+    tier: 2,
+    status: 'Draft',
+    dependencies: ['framework_social_fabric']
+  },
+  {
+    id: 'mechanism_cohesion_seed_grant',
+    type: 'EconomicMechanism',
+    name: 'Social Cohesion Seed Grant',
+    shortName: 'Cohesion Seed Grant',
+    description: 'A GCF-funded grant with performance-based tranches to provide initial resources for community weaving activities.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_social_fabric', 'mechanism_gcf']
   }
+
 ];
 
 export const socialEquityRelationships: GgfRelationship[] = [
@@ -543,7 +614,26 @@ export const socialEquityRelationships: GgfRelationship[] = [
     frequency: 'Regular',
     sequenceType: 'Sequential'
   },
-
+  // --- Social Fabric Framework: Internal Relationships ---
+  {
+    from: 'framework_social_fabric',
+    to: 'process_community_weaver',
+    type: 'ESTABLISHES',
+    description: 'The framework formally defines the curriculum, role, and safeguards for the Community Weaver.'
+  },
+  {
+    from: 'framework_social_fabric',
+    to: 'institution_cohesion_council',
+    type: 'ESTABLISHES',
+    description: 'The framework establishes the Cohesion Council as the primary local governance body for its activities.'
+  },
+  {
+    from: 'framework_social_fabric',
+    to: 'tool_cohesion_metrics_pack',
+    type: 'ESTABLISHES',
+    description: 'The framework establishes the Cohesion Metrics Pack as its primary measurement tool.'
+  },
+  
   // === CONNECTIONS TO ECONOMIC OS ===
   {
     from: 'framework_aubi',
@@ -713,6 +803,54 @@ export const socialEquityRelationships: GgfRelationship[] = [
   { from: 'framework_indigenous', to: 'framework_cairn_protocol', type: 'GUIDES', description: 'The Indigenous Framework provides the non-negotiable protocols for the sovereign governance of sacred plant medicines.' },
   { from: 'framework_sanctuary_accord', to: 'framework_cairn_protocol', type: 'COORDINATES_WITH', description: 'The Sanctuary Accord provides ethical oversight for advanced psychedelic therapies that individuals in Cairn-supported recovery may be referred to.' },
   { from: 'institution_dj_tribunal', to: 'institution_design_justice_tribunal', type: 'ESTABLISHES', description: 'The main DJ Tribunal houses the specialized Design Justice chamber.' },
-  { from: 'framework_cairn_protocol', to: 'framework_memorial_commons', type: 'INTEGRATES_WITH', description: 'The protocol refers individuals and communities to The Memorial Commons to process addiction-related grief.' }
+  { from: 'framework_cairn_protocol', to: 'framework_memorial_commons', type: 'INTEGRATES_WITH', description: 'The protocol refers individuals and communities to The Memorial Commons to process addiction-related grief.' },
+
+  // --- Social Fabric Framework: Integration with GGF Ecosystem ---
+  {
+    from: 'framework_social_fabric',
+    to: 'framework_meta_gov',
+    type: 'ENABLES',
+    description: 'Serves as "Phase Zero," building the relational skills and social trust necessary for communities to effectively use advanced Meta-Governance tools like the EGP and SCI Cycle.',
+    strength: 'Strong',
+    sequenceType: 'Sequential'
+  },
+  {
+    from: 'framework_social_fabric',
+    to: 'framework_aubi',
+    type: 'ENABLES',
+    description: 'Provides the high-trust social foundation required for a local Hearts currency and Community Provider network to function without being undermined by fraud or factionalism.',
+    strength: 'Strong',
+    sequenceType: 'Sequential'
+  },
+  {
+    from: 'mechanism_gcf',
+    to: 'mechanism_cohesion_seed_grant',
+    type: 'FUNDS',
+    description: 'The Global Commons Fund is the source for the Social Cohesion Seed Grants.',
+    strength: 'Strong',
+    sequenceType: 'Parallel'
+  },
+  {
+    from: 'framework_social_fabric',
+    to: 'framework_kintsugi_protocol',
+    type: 'ESCALATES_TO',
+    description: 'Low-level conflicts are handled by Generative Conflict circles; patterns of harm or severe incidents are handed off to the Kintsugi Protocol for formal restorative safety processes.',
+    strength: 'Medium',
+    sequenceType: 'Conditional'
+  },
+  {
+    from: 'process_community_weaver',
+    to: 'process_safety_weaver', // Assuming ID from Kintsugi
+    type: 'COORDINATES_WITH',
+    description: 'The Inter-Weaver Interface Protocol defines handoffs between Community Weavers and Safety Weavers.'
+  },
+  {
+    from: 'framework_digital_commons',
+    to: 'framework_social_fabric',
+    type: 'SUPPORTS',
+    description: 'The Digital Commons provides the infrastructure for the Community Weaving App, LMCI dashboards, and communication toolkits, all governed by the Anti-Surveillance Covenant.',
+    strength: 'Medium',
+    sequenceType: 'Parallel'
+  }
 
 ];

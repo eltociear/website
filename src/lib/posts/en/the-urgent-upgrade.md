@@ -3,6 +3,7 @@ title: "The Urgent Upgrade: Why Our Global Operating System is a Liability (And 
 description: "Our 20th-century global governance systems generate unacceptable systemic risk. Discover how the 'Treaty for Our Only Home' offers a pragmatic, phased upgrade for a more resilient and stable future."
 author: "Global Governance Frameworks"
 date: "2025-06-18"
+pdfPath: "/blog/pdfs/the-urgent-upgrade.pdf"
 tags: ["Global Governance", "Systemic Risk", "Polycrisis", "UN Reform", "Climate Action", "Pandemic Preparedness", "Economic Stability"]
 hashtags: ["#GlobalGovernance", "#Polycrisis", "#SystemicRisk", "#FutureIsNow", "#TreatyForOurOnlyHome", "#ClimateAction", "#UNReform"]
 ---

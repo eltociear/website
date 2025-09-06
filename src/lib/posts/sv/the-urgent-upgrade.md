@@ -3,6 +3,7 @@ title: "Det akuta uppgraderingsbehovet: Varför vårt globala operativsystem är
 description: "Våra globala styrsystem från 1900-talet skapar oacceptabla systemrisker. Upptäck hur 'Fördraget för vårt enda hem' erbjuder en pragmatisk, stegvis uppgradering för en mer motståndskraftig och stabil framtid."
 author: "Globala Styrningsramverk"
 date: "2025-06-18"
+pdfPath: "/blog/pdfs/the-urgent-upgrade-sv.pdf"
 tags: ["Global styrning", "Systemrisk", "Polykris", "FN-reform", "Klimatåtgärder", "Pandemiberedskap", "Ekonomisk stabilitet"]
 hashtags: ["#GlobalStyrning", "#Polykris", "#Systemrisk", "#FramtidenÄrNu", "#FördragFörVårtEndaHem", "#KlimatÅtgärder", "#FNReform"]
 ---

@@ -1052,6 +1052,40 @@
         ]
       }
     },
+    socialFabric: {
+      en: {
+        title: 'The Social Fabric Framework: Weaving the Foundational Infrastructure for Regenerative Communities',
+        defaultDescription: "We're developing a revolutionary framework that rebuilds social trust and cohesion as the prerequisite for regenerative governance. Like tending a garden's soil before planting, this framework cultivates the relational foundation communities need to thrive together and solve complex challenges through Indigenous wisdom, trauma healing, and collective care.",
+        defaultFeatures: [
+          'Community Weaver Guild with progressive training from Community Stewards to Senior Weavers',
+          'Dual-mode system serving both crisis contexts (Stabilization Mode) and stable communities (Regeneration Mode)',
+          'Love, Meaning & Connection Index (LMCI) co-designed with communities to measure social fabric health',
+          'Community Cohesion Council as entry-level governance body preparing communities for BAZ transition',
+          'Social Cohesion Seed Grants with performance-based tranches and economic sovereignty pathways',
+          'Inter-Weaver Interface Protocol connecting Community, Safety, and Recovery Weavers across GGF ecosystem',
+          'Anti-Surveillance Covenant protecting community data sovereignty and cultural wisdom',
+          'Community Weaving App supporting virtual Third Places and network coordination across distances',
+          'Networked Crisis Response protocols enabling mutual aid between neighboring communities',
+          'Cultural adaptability matrices ensuring respectful implementation across diverse governance traditions'
+        ]
+      },
+      sv: {
+        title: 'Det Sociala Vävnadramverket: Väva den grundläggande infrastrukturen för regenerativa samhällen',
+        defaultDescription: "Vi utvecklar ett revolutionerande ramverk som återuppbygger social tillit och sammanhållning som förutsättning för regenerativ styrning. Som att vårda en trädgårds jord innan plantering, odlar detta ramverk den relationella grunden som samhällen behöver för att blomstra tillsammans och lösa komplexa utmaningar genom ursprungsbefolknings visdom, traumaläkning och kollektiv omsorg.",
+        defaultFeatures: [
+          'Gemenskapsvävargille med progressiv träning från Gemenskapsförvaltare till Seniorvävare',
+          'Dubbel-läge system som tjänar både kriskontexer (Stabiliseringsläge) och stabila samhällen (Regenerationsläge)',
+          'Kärlek, Mening & Anknytningsindex (LMCI) meddesignat med samhällen för att mäta social vävnadshälsa',
+          'Gemenskapsammanhållningsråd som inträdes-styrningsorgan som förbereder samhällen för BAZ-övergång',
+          'Sociala sammanhållningsfrö-bidrag med prestationsbaserade trancher och ekonomiska suveränitetssvägar',
+          'Inter-vävar gränssnittsprotokoll som kopplar Gemenskaps-, Säkerhets- och Återhämtningsvävare över GGF-ekosystemet',
+          'Anti-övervakningsförbund som skyddar gemenskapsdatasuveränitet och kulturell visdom',
+          'Gemenskapsvävarapp som stöder virtuella Tredje Platser och nätverkskoordination över distanser',
+          'Nätverkad krishantering protokoll som möjliggör ömsesidig hjälp mellan angränsande samhällen',
+          'Kulturell anpassningsmatriser som säkerställer respektfull implementering över olika styrningstraditioner'
+        ]
+      }
+    },
     cairnProtocol: {
       en: {
         title: 'The Cairn Protocol: Addiction, Recovery & Substance Sovereignty',
@@ -1156,6 +1190,8 @@
             <li>
               {#if frameworkName === 'millenniumProtocol'}
                 {index === 0 ? '🏛️' : index === 1 ? '🚀' : index === 2 ? '💰' : index === 3 ? '🧬' : index === 4 ? '🧠' : index === 5 ? '❓' : index === 6 ? '⏳' : index === 7 ? '🗳️' : index === 8 ? '📚' : '🔄'}
+              {:else if frameworkName === 'socialFabric'}
+                {index === 0 ? '👥' : index === 1 ? '⚖️' : index === 2 ? '📊' : index === 3 ? '🏛️' : index === 4 ? '💰' : index === 5 ? '🔗' : index === 6 ? '🛡️' : index === 7 ? '📱' : index === 8 ? '🤝' : '🌍'}
               {:else if frameworkName === 'oracleProtocol'}
                 {index === 0 ? '🏛️' : index === 1 ? '🔍' : index === 2 ? '⚖️' : index === 3 ? '🏛️' : index === 4 ? '🏞️' : index === 5 ? '🤝' : index === 6 ? '🌟' : '🛡️'}
               {:else if frameworkName === 'implementationAdaptation'}
