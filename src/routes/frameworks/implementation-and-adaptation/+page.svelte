@@ -23,7 +23,7 @@
     <FrameworkComingSoon 
       frameworkName="implementationAdaptation"
       icon="🧰"
-      expectedQuarter="Q3 2025"
+      expectedQuarter="Q1 2027"
       themeColors={{
         primary: '#7c3aed',
         secondary: '#8b5cf6', 
