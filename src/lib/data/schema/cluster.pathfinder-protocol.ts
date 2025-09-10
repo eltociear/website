@@ -1,20 +1,20 @@
-// /src/lib/data/schema/cluster.regenerative-enterprise.ts
+// /src/lib/data/schema/cluster.pathfinder-protocol.ts
 
 import type { GgfEntity, GgfRelationship } from './_types';
 
 /**
- * TIER 1: REGENERATIVE ENTERPRISE CLUSTER
+ * TIER 1: PATHFINDER PROTOCOL CLUSTER
  * Voluntary framework for transforming corporate purpose to align with planetary well-being
  * Bridges corporate transformation with GGF ecosystem integration
  */
 
-export const regenerativeEnterpriseEntities: GgfEntity[] = [
+export const pathfinderProtocolEntities: GgfEntity[] = [
   // === CORE FRAMEWORK ===
   {
-    id: 'framework_regenerative_enterprise',
+    id: 'framework_pathfinder_protocol',
     type: 'Framework',
-    name: 'Regenerative Enterprise Framework',
-    shortName: 'REF',
+    name: 'Pathfinder Protocol',
+    shortName: 'Pathfinder Protocol',
     description: 'Voluntary framework for aligning corporate purpose with planetary well-being through six-module transformation system',
     tier: 2,
     status: 'Ready',
@@ -22,13 +22,13 @@ export const regenerativeEnterpriseEntities: GgfEntity[] = [
     geographicScope: 'Global',
     implementationPriority: 'Critical',
     dependencies: ['framework_aubi', 'framework_gaian_trade', 'framework_aurora_accord', 'framework_work_liberation'],
-    enables: ['process_pathfinder_program', 'institution_regeneration_audit_council', 'mechanism_ref_certification'],
+    enables: ['process_pathfinder_program', 'institution_regeneration_audit_council', 'mechanism_pathfinder_certification'],
     ui: {
-      path: '/frameworks/regenerative-enterprise',
-      titleKey: 'framework.docs.nav.frameworkTitles.regenerativeEnterprise',
-      emoji: '✨',
+      path: '/frameworks/pathfinder-protocol',
+      titleKey: 'framework.docs.nav.frameworkTitles.pathfinderProtocol',
+      emoji: '🧭',
       version: '1.0',
-      slug: 'regenerative-enterprise',
+      slug: 'pathfinder-protocol',
       group: 'globalEconomicSystems'
     }
   },
@@ -39,13 +39,13 @@ export const regenerativeEnterpriseEntities: GgfEntity[] = [
     type: 'Council',
     name: 'Stakeholder Council',
     shortName: 'Stakeholder Council',
-    description: 'Multi-stakeholder governance body within regenerative enterprises including employees, communities, and ecological representatives',
+    description: 'Multi-stakeholder governance body within pathfinder enterprises including employees, communities, and ecological representatives',
     tier: 1,
     status: 'Proposed',
     primaryDomain: 'Governance',
     geographicScope: 'Institutional',
     implementationPriority: 'Critical',
-    dependencies: ['framework_regenerative_enterprise']
+    dependencies: ['framework_pathfinder_protocol']
   },
 
   {
@@ -59,7 +59,7 @@ export const regenerativeEnterpriseEntities: GgfEntity[] = [
     primaryDomain: 'Technology',
     geographicScope: 'Institutional',
     implementationPriority: 'High',
-    dependencies: ['framework_regenerative_enterprise', 'framework_aurora_accord']
+    dependencies: ['framework_pathfinder_protocol', 'framework_aurora_accord']
   },
 
   // === SPECIALIZED INSTITUTIONS ===
@@ -68,13 +68,13 @@ export const regenerativeEnterpriseEntities: GgfEntity[] = [
     type: 'Institution',
     name: 'Regeneration Audit Council',
     shortName: 'Regeneration Audit Council',
-    description: 'GGF body overseeing REF certification and maturity model validation with equitable stakeholder representation',
+    description: 'GGF body overseeing Pathfinder Protocol certification and maturity model validation with equitable stakeholder representation',
     tier: 1,
     status: 'Proposed',
     primaryDomain: 'Governance',
     geographicScope: 'Global',
     implementationPriority: 'Critical',
-    dependencies: ['framework_regenerative_enterprise']
+    dependencies: ['framework_pathfinder_protocol']
   },
 
   {
@@ -88,7 +88,7 @@ export const regenerativeEnterpriseEntities: GgfEntity[] = [
     primaryDomain: 'Governance',
     geographicScope: 'Regional',
     implementationPriority: 'Medium',
-    dependencies: ['framework_regenerative_enterprise']
+    dependencies: ['framework_pathfinder_protocol']
   },
 
   // === PROCESSES & PROTOCOLS ===
@@ -103,7 +103,7 @@ export const regenerativeEnterpriseEntities: GgfEntity[] = [
     primaryDomain: 'Economic',
     geographicScope: 'Institutional',
     implementationPriority: 'Critical',
-    dependencies: ['framework_regenerative_enterprise']
+    dependencies: ['framework_pathfinder_protocol']
   },
 
   {
@@ -117,7 +117,7 @@ export const regenerativeEnterpriseEntities: GgfEntity[] = [
     primaryDomain: 'Technology',
     geographicScope: 'Institutional',
     implementationPriority: 'High',
-    dependencies: ['framework_regenerative_enterprise', 'framework_aurora_accord']
+    dependencies: ['framework_pathfinder_protocol', 'framework_aurora_accord']
   },
 
   {
@@ -131,22 +131,22 @@ export const regenerativeEnterpriseEntities: GgfEntity[] = [
     primaryDomain: 'Governance',
     geographicScope: 'Global',
     implementationPriority: 'Medium',
-    dependencies: ['framework_regenerative_enterprise']
+    dependencies: ['framework_pathfinder_protocol']
   },
 
   // === TOOLS & MECHANISMS ===
   {
-    id: 'mechanism_ref_certification',
+    id: 'mechanism_pathfinder_certification',
     type: 'DataMetric',
-    name: 'REF Certification System',
-    shortName: 'REF Certification',
+    name: 'Pathfinder Certification System',
+    shortName: 'Pathfinder Certification',
     description: 'Three-tier maturity model: Exploring, Integrating, Leading with comprehensive impact metrics',
     tier: 1,
     status: 'Draft',
     primaryDomain: 'Economic',
     geographicScope: 'Global',
     implementationPriority: 'Critical',
-    dependencies: ['framework_regenerative_enterprise']
+    dependencies: ['framework_pathfinder_protocol']
   },
 
   {
@@ -160,7 +160,7 @@ export const regenerativeEnterpriseEntities: GgfEntity[] = [
     primaryDomain: 'Economic',
     geographicScope: 'Institutional',
     implementationPriority: 'High',
-    dependencies: ['framework_regenerative_enterprise']
+    dependencies: ['framework_pathfinder_protocol']
   },
 
   {
@@ -174,7 +174,7 @@ export const regenerativeEnterpriseEntities: GgfEntity[] = [
     primaryDomain: 'Technology',
     geographicScope: 'Global',
     implementationPriority: 'High',
-    dependencies: ['framework_regenerative_enterprise', 'framework_gaian_trade']
+    dependencies: ['framework_pathfinder_protocol', 'framework_gaian_trade']
   },
 
   // === DATA METRICS ===
@@ -189,7 +189,7 @@ export const regenerativeEnterpriseEntities: GgfEntity[] = [
     primaryDomain: 'Justice',
     geographicScope: 'Institutional',
     implementationPriority: 'High',
-    dependencies: ['framework_regenerative_enterprise']
+    dependencies: ['framework_pathfinder_protocol']
   },
 
   {
@@ -203,17 +203,17 @@ export const regenerativeEnterpriseEntities: GgfEntity[] = [
     primaryDomain: 'Governance',
     geographicScope: 'Institutional',
     implementationPriority: 'Medium',
-    dependencies: ['framework_regenerative_enterprise', 'framework_youth']
+    dependencies: ['framework_pathfinder_protocol', 'framework_youth']
   }
 ];
 
-export const regenerativeEnterpriseRelationships: GgfRelationship[] = [
+export const pathfinderProtocolRelationships: GgfRelationship[] = [
   // === DEPENDENCIES ON OTHER FRAMEWORKS ===
   {
     from: 'framework_aubi',
-    to: 'framework_regenerative_enterprise',
+    to: 'framework_pathfinder_protocol',
     type: 'ENABLES',
-    description: 'AUBI provides Hearts/Leaves currency system that REF enterprises use for equitable value distribution',
+    description: 'AUBI provides Hearts/Leaves currency system that Pathfinder enterprises use for equitable value distribution',
     strength: 'Strong',
     frequency: 'Continuous',
     sequenceType: 'Sequential'
@@ -221,9 +221,9 @@ export const regenerativeEnterpriseRelationships: GgfRelationship[] = [
   
   {
     from: 'framework_gaian_trade',
-    to: 'framework_regenerative_enterprise',
+    to: 'framework_pathfinder_protocol',
     type: 'ENABLES',
-    description: 'Gaian Trade provides Digital Product Passports and regenerative trade zone frameworks for REF operations',
+    description: 'Gaian Trade provides Digital Product Passports and regenerative trade zone frameworks for Pathfinder operations',
     strength: 'Strong',
     frequency: 'Continuous',
     sequenceType: 'Sequential'
@@ -231,9 +231,9 @@ export const regenerativeEnterpriseRelationships: GgfRelationship[] = [
 
   {
     from: 'framework_aurora_accord',
-    to: 'framework_regenerative_enterprise',
+    to: 'framework_pathfinder_protocol',
     type: 'GUIDES',
-    description: 'Aurora Accord provides data governance standards for REF digital infrastructure and AI ethics',
+    description: 'Aurora Accord provides data governance standards for Pathfinder digital infrastructure and AI ethics',
     strength: 'Strong',
     frequency: 'Continuous',
     sequenceType: 'Parallel'
@@ -241,50 +241,50 @@ export const regenerativeEnterpriseRelationships: GgfRelationship[] = [
 
   {
     from: 'framework_work_liberation',
-    to: 'framework_regenerative_enterprise',
+    to: 'framework_pathfinder_protocol',
     type: 'CERTIFIES',
-    description: 'Work in Liberation provides human flourishing certification and Green Job Score metrics for REF enterprises',
+    description: 'Work in Liberation provides human flourishing certification and Green Job Score metrics for Pathfinder enterprises',
     strength: 'Strong',
     frequency: 'Regular',
     sequenceType: 'Parallel'
   },
 
-  // === INTERNAL REF RELATIONSHIPS ===
+  // === INTERNAL PATHFINDER RELATIONSHIPS ===
   {
-    from: 'framework_regenerative_enterprise',
+    from: 'framework_pathfinder_protocol',
     to: 'process_pathfinder_program',
     type: 'ESTABLISHES',
-    description: 'REF establishes Pathfinder Program as primary implementation pathway',
+    description: 'Pathfinder Protocol establishes Pathfinder Program as primary implementation pathway',
     strength: 'Strong',
     frequency: 'Continuous',
     sequenceType: 'Sequential'
   },
 
   {
-    from: 'framework_regenerative_enterprise',
+    from: 'framework_pathfinder_protocol',
     to: 'institution_regeneration_audit_council',
     type: 'ESTABLISHES',
-    description: 'REF establishes Regeneration Audit Council for certification oversight',
+    description: 'Pathfinder Protocol establishes Regeneration Audit Council for certification oversight',
     strength: 'Strong',
     frequency: 'Continuous',
     sequenceType: 'Sequential'
   },
 
   {
-    from: 'framework_regenerative_enterprise',
+    from: 'framework_pathfinder_protocol',
     to: 'council_stakeholder',
     type: 'ESTABLISHES',
-    description: 'REF establishes Stakeholder Councils as core governance mechanism in enterprises',
+    description: 'Pathfinder Protocol establishes Stakeholder Councils as core governance mechanism in enterprises',
     strength: 'Strong',
     frequency: 'Continuous',
     sequenceType: 'Sequential'
   },
 
   {
-    from: 'framework_regenerative_enterprise',
+    from: 'framework_pathfinder_protocol',
     to: 'council_turing',
     type: 'ESTABLISHES',
-    description: 'REF establishes Turing Councils for ethical AI governance within enterprises',
+    description: 'Pathfinder Protocol establishes Turing Councils for ethical AI governance within enterprises',
     strength: 'Strong',
     frequency: 'Continuous',
     sequenceType: 'Sequential'
@@ -293,9 +293,9 @@ export const regenerativeEnterpriseRelationships: GgfRelationship[] = [
   // === CERTIFICATION AND OVERSIGHT ===
   {
     from: 'institution_regeneration_audit_council',
-    to: 'mechanism_ref_certification',
+    to: 'mechanism_pathfinder_certification',
     type: 'OVERSEES',
-    description: 'Regeneration Audit Council manages REF certification system and maturity model validation',
+    description: 'Regeneration Audit Council manages Pathfinder certification system and maturity model validation',
     strength: 'Strong',
     frequency: 'Regular',
     sequenceType: 'Parallel'
@@ -357,9 +357,9 @@ export const regenerativeEnterpriseRelationships: GgfRelationship[] = [
   // === ECONOMIC SYSTEM INTEGRATION ===
   {
     from: 'mechanism_hearts',
-    to: 'framework_regenerative_enterprise',
+    to: 'framework_pathfinder_protocol',
     type: 'REWARDS',
-    description: 'REF enterprises create conditions for employees and communities to earn Hearts currency through care work',
+    description: 'Pathfinder enterprises create conditions for employees and communities to earn Hearts currency through care work',
     strength: 'Strong',
     frequency: 'Regular',
     sequenceType: 'Parallel'
@@ -367,9 +367,9 @@ export const regenerativeEnterpriseRelationships: GgfRelationship[] = [
 
   {
     from: 'mechanism_leaves',
-    to: 'framework_regenerative_enterprise',
+    to: 'framework_pathfinder_protocol',
     type: 'REWARDS',
-    description: 'REF enterprises generate Leaves currency through ecological restoration and stewardship activities',
+    description: 'Pathfinder enterprises generate Leaves currency through ecological restoration and stewardship activities',
     strength: 'Strong',
     frequency: 'Regular',
     sequenceType: 'Parallel'
@@ -378,9 +378,9 @@ export const regenerativeEnterpriseRelationships: GgfRelationship[] = [
   // === METRICS AND MEASUREMENT ===
   {
     from: 'metric_lmci',
-    to: 'framework_regenerative_enterprise',
+    to: 'framework_pathfinder_protocol',
     type: 'MEASURES',
-    description: 'LMCI provides primary well-being metric for REF enterprise transformation tracking',
+    description: 'LMCI provides primary well-being metric for Pathfinder enterprise transformation tracking',
     strength: 'Strong',
     frequency: 'Regular',
     sequenceType: 'Parallel'
@@ -398,10 +398,10 @@ export const regenerativeEnterpriseRelationships: GgfRelationship[] = [
 
   // === RELATIONSHIP FOR HEARTHSTONE PROTOCOL ===
   {
-    from: 'framework_regenerative_enterprise',
+    from: 'framework_pathfinder_protocol',
     to: 'framework_hearthstone',
     type: 'COLLABORATES_WITH',
-    description: 'The REF provides the "Corporate Co-op Conversion Process" that allows certified enterprises to voluntarily transition their assets into Stewardship Trusts under the Hearthstone Protocol.',
+    description: 'The Pathfinder Protocol provides the "Corporate Co-op Conversion Process" that allows certified enterprises to voluntarily transition their assets into Stewardship Trusts under the Hearthstone Protocol.',
     strength: 'Strong',
     frequency: 'Regular',
     sequenceType: 'Parallel'

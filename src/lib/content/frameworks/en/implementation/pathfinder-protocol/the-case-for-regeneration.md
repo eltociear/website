@@ -268,7 +268,7 @@ We can see evidence of this transformation accelerating everywhere:
 
 This Great Turning isn't something happening to us—it's something we're creating through millions of individual and collective choices. Every enterprise that chooses regeneration over extraction, every investment in care over exploitation, every decision to include rather than exclude affected voices contributes to currents that are reshaping our entire economic system.
 
-The question isn't whether this transformation will happen—it's whether your enterprise will be part of creating it or caught off guard by it. The Regenerative Enterprise Framework provides practical guidance for riding these currents rather than being swept away by them.
+The question isn't whether this transformation will happen—it's whether your enterprise will be part of creating it or caught off guard by it. The Pathfinder Protocol provides practical guidance for riding these currents rather than being swept away by them.
 
 As systems theorist Joanna Macy observes: "The most remarkable feature of this historical moment on Earth is not that we are on the way to destroying the world—we've actually been on the way for quite a while. It is that we are beginning to wake up, as from a millennia-long sleep, to a whole new relationship to our world, to ourselves and each other."
 

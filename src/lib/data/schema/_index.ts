@@ -8,7 +8,7 @@
 // Import all cluster data
 import { constitutionalFoundationEntities, constitutionalFoundationRelationships } from './cluster.constitutional-foundation';
 import { institutionalRegenerationEntities, institutionalRegenerationRelationships } from './cluster.institutional-regeneration';
-import { regenerativeEnterpriseEntities, regenerativeEnterpriseRelationships } from './cluster.regenerative-enterprise';
+import { pathfinderProtocolEntities, pathfinderProtocolRelationships } from './cluster.pathfinder-protocol';
 import { justTransitionEntities, justTransitionRelationships } from './cluster.just-transition';
 import { governanceOSEntities, governanceOSRelationships } from './cluster.governance-os';
 import { implementationOSEntities, implementationOSRelationships } from './cluster.implementation-os';
@@ -163,7 +163,7 @@ const completeApplicationLayerRelationships: GgfRelationship[] = [
 export const allEntities: GgfEntity[] = [
   ...constitutionalFoundationEntities,
   ...institutionalRegenerationEntities,
-  ...regenerativeEnterpriseEntities,
+  ...pathfinderProtocolEntities,
   ...justTransitionEntities,
   ...governanceOSEntities,
   ...implementationOSEntities,
@@ -187,7 +187,7 @@ export const allEntities: GgfEntity[] = [
 export const allRelationships: GgfRelationship[] = [
   ...constitutionalFoundationRelationships,
   ...institutionalRegenerationRelationships,
-  ...regenerativeEnterpriseRelationships,
+  ...pathfinderProtocolRelationships,
   ...justTransitionRelationships,
   ...governanceOSRelationships,
   ...implementationOSRelationships,

@@ -783,6 +783,6 @@ This is the invitation of Module 5—to discover the profound responsibility and
 
 **End of Module 5: Ecosystemic Engagement**
 
-*This completes the six-module journey of the Regenerative Enterprise Framework. Each module builds upon the others—from establishing digital foundations and regenerative governance, through transforming operations and finance, cultivating thriving cultures, and finally extending care into the wider world through ecosystemic engagement.*
+*This completes the six-module journey of the Pathfinder Protocol. Each module builds upon the others—from establishing digital foundations and regenerative governance, through transforming operations and finance, cultivating thriving cultures, and finally extending care into the wider world through ecosystemic engagement.*
 
 *The framework offers not a destination but a pathway—an ongoing journey of discovery about what it means to use business as a force for healing in a world that desperately needs regenerative transformation.*

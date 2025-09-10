@@ -5,7 +5,7 @@ section: a-compass-for-changemakers
 
 # A Compass for Changemakers
 
-The Regenerative Enterprise Framework is an invitation to everyone who senses that business could be a force for healing rather than harm. It speaks to those who feel called to transform not just what we do, but how we relate—to each other, to the living world, and to the very purpose of commerce itself.
+The Pathfinder Protocol is an invitation to everyone who senses that business could be a force for healing rather than harm. It speaks to those who feel called to transform not just what we do, but how we relate—to each other, to the living world, and to the very purpose of commerce itself.
 
 This is not a framework with predetermined destinations, but a compass for navigating toward enterprises that serve life. Whether you come to this work as a leader seeking authentic purpose, an investor exploring new forms of value, or a community member holding businesses accountable to justice, you'll find pathways that honor your unique perspective and calling.
 

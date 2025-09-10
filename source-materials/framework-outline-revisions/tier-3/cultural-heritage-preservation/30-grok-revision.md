@@ -184,6 +184,9 @@ The framework aligns with and builds upon existing international laws like the U
 - Integrated repatriation with Treaty’s Digital Justice Tribunal and Ecocide law.
 - Centered BAZ-led management and FPIC 2.0.
 
+### "Digital Language Death" Prevention Initiative
+Under the authority of the **Cultural & Ancestral Wisdom Council**, the framework will launch the **Digital Language Vitality Initiative**. Its mandate is to actively counter 'digital language death' by using the capital-efficient AI strategies outlined in the **Digital Commons Framework** to build and deploy language models for the world's most vulnerable, low-resource languages, ensuring their preservation and active use in the digital era.
+
 ---
 
 ## **5. Implementation Roadmap**

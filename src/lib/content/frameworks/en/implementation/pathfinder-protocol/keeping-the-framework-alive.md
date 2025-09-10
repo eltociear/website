@@ -2,7 +2,7 @@
 
 *"A river is healthy not because it reaches a destination, but because it keeps flowing, always shaped by the landscape it moves through while also shaping that landscape in return."*
 
-The Regenerative Enterprise Framework is not a finished blueprint but a living document that grows and evolves through the wisdom of those who walk the regenerative path. Like any living system, it thrives when it receives the nourishment of new insights, the pruning of outdated approaches, and the cross-pollination of diverse experiences.
+The Pathfinder Protocol is not a finished blueprint but a living document that grows and evolves through the wisdom of those who walk the regenerative path. Like any living system, it thrives when it receives the nourishment of new insights, the pruning of outdated approaches, and the cross-pollination of diverse experiences.
 
 Every enterprise that engages with this framework—whether implementing one module or transforming their entire organization—generates learning that could benefit others on similar journeys. Every challenge encountered, every breakthrough discovered, every failure that teaches important lessons becomes potential wisdom for the collective understanding of what regenerative enterprise can become.
 
@@ -140,7 +140,7 @@ While specificity is important, the most valuable contributions also connect ind
 
 ## <a id="contribution-guidelines"></a>Caring for Our Shared Work: Guidelines for Contribution
 
-The Regenerative Enterprise Framework belongs to the community of people and organizations working toward economies that serve life. Like any commons, it requires care, stewardship, and shared responsibility to remain healthy and useful.
+The Pathfinder Protocol belongs to the community of people and organizations working toward economies that serve life. Like any commons, it requires care, stewardship, and shared responsibility to remain healthy and useful.
 
 These guidelines help ensure that contributions strengthen the framework while maintaining its integrity, accessibility, and commitment to justice and relationship.
 
@@ -343,7 +343,7 @@ Once accepted, contributors maintain ongoing responsibility for their contributi
 
 **A Living Commons**
 
-The Regenerative Enterprise Framework embodies the principles it seeks to promote—it is itself an example of how shared resources can be stewarded for collective benefit while honoring diverse contributions and perspectives.
+The Pathfinder Protocol embodies the principles it seeks to promote—it is itself an example of how shared resources can be stewarded for collective benefit while honoring diverse contributions and perspectives.
 
 By contributing to its evolution, you participate in creating the commons that makes regenerative enterprise more possible for everyone. Your wisdom, honestly shared and carefully contributed, becomes part of the living knowledge that supports others in transforming enterprises to serve life.
 

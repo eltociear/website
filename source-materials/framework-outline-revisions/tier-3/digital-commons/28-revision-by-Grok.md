@@ -73,6 +73,7 @@ In a world woven by digital threads, the Digital Commons Framework reimagines te
 - **3.3 Local Citizen Nodes**:
   - Community-driven, propose/vote on policies (66% majority, 50% quorum) via digital/SMS/paper ballots, and contribute to security via **Community-Led Resilience** protocols (see **Appendix N**).
   - **Accountability**: Quarterly reviews, facilitators removable by 60% node vote.
+  - A primary function of **Local Citizen Nodes** is to act as curators of non-web, hyper-local data. This includes digitizing and ethically sourcing radio transcripts, folklore, community meeting records, and other materials that are invisible to mainstream web crawlers. This data is essential for the 'continued pre-training' and 'retrieval-augmented generation' strategies that ensure our AI models reflect true local realities.
 - **3.4 AI Ethics Committee**:
   - Under **GTC**, ensures AI transparency, audits, human values alignment, and cybersecurity integration.
   - **Accountability**: Annual ethics audits, members replaceable by **GTC** (75% approval).
@@ -117,6 +118,12 @@ In a world woven by digital threads, the Digital Commons Framework reimagines te
       - Decentralized storage with redundant backups across **Regional Hubs** to prevent single points of failure.  
       - Regular red-team exercises simulating cyberattacks, conducted biannually by **Shield Protocol’s Quantum Red Teams**.  
       - Graceful degradation protocols ensure core functions (e.g., voting, data access) remain operational during partial outages.  
+  - **Capital-Efficient AI Development**: Rather than attempting to match the cost of frontier model training, the Digital Commons will prioritize a portfolio of proven adaptation strategies. Regional Digital Hubs will be funded and trained to:
+    1. **Leverage Open-Source Backbones**: Utilize powerful, open-weight foundation models (e.g., Llama, Gemma, Mistral) as a starting point.
+    2. **Conduct Continued Pre-training**: Enhance these backbone models with large, high-quality local datasets (e.g., radio transcripts, parliamentary records, digitized folklore) to improve cultural and linguistic performance.
+    3. **Deploy Adapter Tuning (LoRA)**: Develop lightweight, task-specific "side weights" for specialized applications (e.g., legal, medical, agricultural) that can be easily grafted onto foundation models without requiring full retraining.
+    4. **Utilize Retrieval-Augmented Generation (RAG)**: Connect models to curated, authoritative local knowledge bases (e.g., agricultural bulletins, public health guidelines) to ensure factual accuracy and contextual relevance."
+
 - **4.4 Ethical AI Models**:
   - Open training data, auditable algorithms, overseen by **GTC’s AI Ethics Committee**.
 - **4.5 Knowledge Commons**:

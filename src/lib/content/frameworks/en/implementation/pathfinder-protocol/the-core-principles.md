@@ -14,7 +14,7 @@ section: the-core-principles
 - [Human Flourishing: The Work in Liberation Standard](#human-flourishing)
 - [Adaptive Capacity: Resilience through the Gaian Trade Framework](#adaptive-capacity)
 
-The Regenerative Enterprise Framework rests on six foundational principles that fundamentally redefine what business can be. These aren't aspirational values to hang on office walls—they're operational imperatives that guide every decision, structure every process, and measure every outcome. Together, they create the conditions for enterprises that heal rather than harm, create rather than extract, and regenerate rather than degrade the living systems that sustain us all.
+The Pathfinder Protocol rests on six foundational principles that fundamentally redefine what business can be. These aren't aspirational values to hang on office walls—they're operational imperatives that guide every decision, structure every process, and measure every outcome. Together, they create the conditions for enterprises that heal rather than harm, create rather than extract, and regenerate rather than degrade the living systems that sustain us all.
 
 ---
 

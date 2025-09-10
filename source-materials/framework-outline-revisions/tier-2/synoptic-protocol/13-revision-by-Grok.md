@@ -2,6 +2,9 @@
 
 **Preamble:** In an era where reality itself is contested, our greatest vulnerability is not a lack of information, but a failure of knowing. When our shared understanding of the world fractures, so does our ability to solve any other problem. The Synoptic Protocol is a response to this epistemic crisis. It seeks to build a global information ecosystem that cultivates not just knowledge, but wisdom; not just facts, but understanding; not just tolerance, but the genuine capacity to inhabit multiple perspectives. This framework recognizes that truth is not singular but emerges through rigorous dialogue between perspectives, grounded in scientific epistemology, peer review systems, Indigenous ways of knowing, and contemplative traditions. Epistemic health is a prerequisite for democracy, effective governance, and planetary stewardship—making it foundational to all other frameworks in the global governance ecosystem. It asserts a universal **Right to Reality**, protecting all peoples from AI-driven reality collapse and ensuring access to truth through resilient, inclusive systems such as Indigenous oral tradition protocols. It is the foundation for a civilization that can think clearly, feel deeply, and act wisely, together.
 
+## 0. Preamble
+The Synoptic Protocol is founded on the principle that Truth is the highest and only non-corruptible value in a regenerative civilization. It recognizes that sustainable epistemic health can only exist when information systems are architected to be selfless—serving reality above the self-interest of any individual, corporation, or state. The protocol's primary function is to design and defend structures that disincentivize the manipulation of reality for selfish gain (the root of epistemic evil) and cultivate a collective surrender to what is true, however uncomfortable.
+
 ---
 
 ## 1. Introduction & Vision
@@ -59,6 +62,13 @@ A tiered system to prioritize interventions, with a focus on economic drivers ac
 - Develop "Perspectival Agility" through exercises in steel-manning arguments and inhabiting different worldviews.  
 - Include **Spiral-Aware Communication** training to engage constructively with those at different developmental stages.  
 - Incorporate **Trauma-Informed Media Literacy** for populations targeted by disinformation.  
+- **Proposed Curriculum Module:**
+  - **Module Title:** "Truth, Self, and Society: The Psychology of Information Integrity."
+  - **Learning Objectives:** This module will equip citizens to:
+    - Understand the relationship between selfish impulses (for survival, comfort, or validation) and the distortion of reality.
+    - Practice intellectual humility and the discipline of "surrendering to truth" in personal and civic life.
+    - Recognize how the avoidance of truth, even with good intentions, can create the conditions for individual and societal harm.
+    - Distinguish between "content" (a specific fact) and "structure" (whether a system is designed for self-service or truth-service).
 - Cultivate **Epistemic Virtues** (linked to the **Inner Development & Leadership Protocol**):  
   - **Curiosity:** The genuine desire to understand.  
   - **Intellectual Humility:** The joy of discovering one is wrong.  
@@ -74,6 +84,10 @@ System: Year 2, selected based on (1) existing media literacy infrastructure, (2
 - Measure success by "Audience Understanding Gain," "Reduction in Cross-Group Animosity," and **Joy & Wonder Metrics** (via **AUBI Framework’s Love, Meaning, and Connection Index**).  
 - Establish a global "Trustmark" verified via blockchain with regular audits and **Anti-Corruption Safeguards** (e.g., rotation requirements for governance positions) to signal high-quality, non-propagandistic information.  
 **Implementation:** Charter 50 institutions by Year 5, with oversight by the **Global Council for Epistemic Integrity** and funding for **Community Tech Co-ops** via **BAZ**-level applications.
+**Mandated clauses in the charter for any organization to be recognized as PEI**:
+  * **The "Sanctity of Truth" Clause:** "The PEI's primary and non-negotiable mandate is to serve Truth. This mandate supersedes all other objectives, including audience growth, institutional survival, or the maintenance of political harmony. The institution must actively resist the temptation to manipulate reality for its own survival."
+  * **The "Structural Selflessness" Mandate:** "The PEI's governance and funding structures must make it structurally selfless. This requires transparent public funding streams (e.g., from the **Global Commons Fund**), a strict prohibition on revenue models that create perverse incentives (e.g., advertising, clickbait), and governance by a council whose sole fiduciary duty is to the public's accurate understanding of reality."
+  * **The "Duty to Surface Uncomfortable Truths" Protocol:** "The PEI has a specific, chartered duty to investigate and report on inconvenient truths, especially those that challenge the institution's own prior reporting or prevailing social narratives. An internal, independent 'Truth Advocate' role shall be established to ensure this duty is met."
 
 ### Pillar 3: Algorithmic & Platform Governance
 **Mechanism:** Binding standards for large-scale digital platforms, enforced via the **Aurora Accord**, with graduated sanctions for non-compliance (warnings, fines, market access restrictions).  

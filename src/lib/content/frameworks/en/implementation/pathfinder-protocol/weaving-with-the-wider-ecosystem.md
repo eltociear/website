@@ -7,7 +7,7 @@ section: weaving-with-the-wider-ecosystem
 
 *"We are not going to be able to operate our Spaceship Earth successfully nor for much longer unless we see it as a whole spaceship and our fate as common. It has to be everybody or nobody."* — Buckminster Fuller
 
-Regenerative enterprises do not exist in isolation. They are threads in a larger tapestry of transformation that includes economic systems, governance structures, and global institutions all working toward healing our world's interconnected crises. Understanding how the Regenerative Enterprise Framework weaves together with these other initiatives helps enterprises see their place in the broader movement for planetary regeneration.
+Regenerative enterprises do not exist in isolation. They are threads in a larger tapestry of transformation that includes economic systems, governance structures, and global institutions all working toward healing our world's interconnected crises. Understanding how the Pathfinder Protocol weaves together with these other initiatives helps enterprises see their place in the broader movement for planetary regeneration.
 
 This exploration helps regenerative enterprises understand not just how to implement their own transformation, but how to contribute to and draw support from the emerging ecosystem of global frameworks designed to address our planetary crisis. It offers guidance for enterprises seeking to align their work with larger movements for justice, healing, and systemic transformation.
 
@@ -322,7 +322,7 @@ Both bodies facilitate peer learning networks where regenerative enterprises can
 
 **The Web of Transformation**
 
-Understanding how the Regenerative Enterprise Framework connects with broader systems of transformation helps enterprises see their work as part of a larger movement for planetary healing. Rather than isolated efforts to improve individual businesses, regenerative enterprise becomes participation in the emerging web of relationships, governance systems, and economic structures designed to support life rather than extract from it.
+Understanding how the Pathfinder Protocol connects with broader systems of transformation helps enterprises see their work as part of a larger movement for planetary healing. Rather than isolated efforts to improve individual businesses, regenerative enterprise becomes participation in the emerging web of relationships, governance systems, and economic structures designed to support life rather than extract from it.
 
 This web includes economic systems that recognize care and ecological restoration, governance frameworks that honor Indigenous sovereignty and community self-determination, and global institutions designed to address planetary health and digital justice. By understanding their place in this web, regenerative enterprises can both contribute to and draw support from the broader movement for systemic transformation.
 
