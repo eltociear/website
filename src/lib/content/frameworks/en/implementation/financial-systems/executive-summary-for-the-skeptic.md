@@ -26,7 +26,7 @@ Hearts & Leaves operate as **professionally managed complementary currencies** w
 
 ### **Love Ledger Technical Infrastructure:**
 - **Platform**: Hyperledger Fabric 2.5+ with Practical Byzantine Fault Tolerance consensus
-- **Performance**: 10,000+ transactions/second, 99.99% uptime target, <2 second transaction processing
+- **Performance**: 10,000+ transactions/second, 99.99% uptime target, `<`2 second transaction processing
 - **Security**: Post-quantum cryptography (CRYSTALS-Kyber/Dilithium), AES-256 encryption, zero-trust architecture
 - **Governance**: 100+ nodes with 40% Indigenous control, democratic oversight, transparent operations
 
@@ -66,7 +66,7 @@ Financial Stability Framework:
 ## **3. Risk Assessment: Quantified Safeguards and Stress Testing Results**
 
 ### **Systemic Risk Analysis**
-**Negligible Systemic Risk Profile**: Hearts operate as local supplements representing <1% of community economic activity in scaling phases
+**Negligible Systemic Risk Profile**: Hearts operate as local supplements representing `<`1% of community economic activity in scaling phases
 
 ```yaml
 Risk Containment Mechanisms:
@@ -88,7 +88,7 @@ Risk Containment Mechanisms:
 **Coordinated Fraud Attack (1,000 false claims)**:
 - **Detection Accuracy**: 99.5% AI identification + community validation cross-check
 - **Penalty Enforcement**: Digital Justice Tribunal with democratic due process
-- **System Integrity**: <1% fraudulent transactions, 99% community trust maintenance
+- **System Integrity**: `<`1% fraudulent transactions, 99% community trust maintenance
 - **Recovery Protocol**: Automated rollback with community assembly oversight
 
 **Infrastructure Failure (50% node compromise)**:
@@ -186,7 +186,7 @@ Mature System Operations:
 ### **Existing Legal Classification**
 - **Community Currency Status**: Similar to BerkShares, Ithaca HOURS (15+ years successful operation)
 - **Not Securities**: No investment expectation, community utility focus
-- **Tax Treatment**: Barter classification with simplified reporting for <$10K annual transactions
+- **Tax Treatment**: Barter classification with simplified reporting for `<`$10K annual transactions
 - **AML Compliance**: Community validation meets enhanced due diligence standards
 
 ### **Enhanced Regulatory Coordination**

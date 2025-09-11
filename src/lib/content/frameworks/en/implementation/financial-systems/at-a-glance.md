@@ -103,7 +103,7 @@ Common blockchain infrastructure serving both frameworks:
 
 ### **Love Ledger Architecture** ⚡
 - **Platform**: Hyperledger Fabric 2.5+ with Practical Byzantine Fault Tolerance
-- **Performance**: 10,000+ transactions/second with <2 second Hearts transfers
+- **Performance**: 10,000+ transactions/second with `<`2 second Hearts transfers
 - **Security**: AES-256 encryption, multi-factor authentication, quantum-resistant cryptography
 - **Nodes**: 100+ globally distributed with 40% Indigenous-controlled infrastructure
 - **Backup**: SMS, paper, and radio systems ensuring 100% community accessibility
