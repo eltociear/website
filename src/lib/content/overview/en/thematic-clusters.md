@@ -487,7 +487,7 @@ A parallel, non-monetized recognition system using **Gratitude Tokens** to build
 - Love Ledger participation demonstrating strengthened social cohesion and informal care networks
 
 **Integration Effectiveness**:
-- Hearts Treasury maintaining 100% redemption reliability with <48 hour processing times
+- Hearts Treasury maintaining 100% redemption reliability with `<`48 hour processing times
 - Community Weaver network successfully supporting 95%+ of new Community Provider integrations
 - Inter-Currency Translation Layer enabling seamless Hearts exchange between federated BAZ communities
 

@@ -1196,6 +1196,138 @@
     color: #374151;
   }
 
+  /* Markdown Tables */
+  .content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    background: white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+  }
+
+  .content :global(thead) {
+    background: linear-gradient(135deg, var(--book-primary), var(--book-secondary));
+    color: white;
+  }
+
+  .content :global(th) {
+    padding: 1rem 1.25rem;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0.025em;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .content :global(th:not(:last-child)) {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .content :global(tbody) {
+    background: white;
+  }
+
+  .content :global(td) {
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid #e5e7eb;
+    color: #374151;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .content :global(td:not(:last-child)) {
+    border-right: 1px solid #f3f4f6;
+  }
+
+  .content :global(tbody tr) {
+    transition: background-color 0.2s ease;
+  }
+
+  .content :global(tbody tr:hover) {
+    background-color: rgba(127, 176, 105, 0.05);
+  }
+
+  .content :global(tbody tr:nth-child(even)) {
+    background-color: #f8fafc;
+  }
+
+  .content :global(tbody tr:nth-child(even):hover) {
+    background-color: rgba(127, 176, 105, 0.08);
+  }
+
+  /* Table code elements */
+  .content :global(table code) {
+    background-color: rgba(45, 80, 22, 0.1);
+    color: var(--book-primary);
+    padding: 0.125rem 0.375rem;
+    border-radius: 0.25rem;
+    font-size: 0.85em;
+    font-weight: 500;
+  }
+
+  /* Table links */
+  .content :global(table a) {
+    color: var(--book-accent);
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s ease;
+  }
+
+  .content :global(table a:hover) {
+    color: var(--book-primary);
+    border-bottom-color: var(--book-primary);
+  }
+
+  /* Responsive table wrapper */
+  .content :global(.table-wrapper) {
+    overflow-x: auto;
+    margin: 2rem 0;
+    border-radius: 0.5rem;
+    border: 1px solid #e2e8f0;
+  }
+
+  .content :global(.table-wrapper table) {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  /* Mobile responsive tables */
+  @media (max-width: 768px) {
+    .content :global(table) {
+      font-size: 0.875rem;
+    }
+    
+    .content :global(th), 
+    .content :global(td) {
+      padding: 0.75rem 1rem;
+    }
+    
+    .content :global(th) {
+      font-size: 0.875rem;
+    }
+    
+    .content :global(td) {
+      font-size: 0.85rem;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .content :global(th), 
+    .content :global(td) {
+      padding: 0.625rem 0.75rem;
+    }
+    
+    .content :global(table) {
+      font-size: 0.8rem;
+    }
+  }
+
   /* Responsive Design */
   @media (max-width: 1024px) {
     .book-container {
