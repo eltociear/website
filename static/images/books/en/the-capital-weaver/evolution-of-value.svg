@@ -1,0 +1,249 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients for each stage -->
+    <linearGradient id="extractiveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B35;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D2691E;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="sustainableGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="regenerativeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#FFA500;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#40E0D0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#008B8B;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Arrow markers -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+    
+    <!-- Drop shadows -->
+    <filter id="dropshadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="2" result="offset" />
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge> 
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/> 
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="#F8F9FA"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="24" font-weight="bold" fill="#2C3E50">
+    Evolution of Value: From Extraction to Regeneration
+  </text>
+  
+  <!-- Stage 1: Extractive (Orange) -->
+  <g transform="translate(50, 80)">
+    <!-- Main circle -->
+    <circle cx="60" cy="60" r="50" fill="url(#extractiveGrad)" 
+            filter="url(#dropshadow)" stroke="#D2691E" stroke-width="2"/>
+    
+    <!-- Icons representing extraction -->
+    <g fill="white" stroke="white" stroke-width="1">
+      <!-- Factory smokestacks -->
+      <rect x="45" y="35" width="8" height="15" />
+      <rect x="55" y="30" width="8" height="20" />
+      <rect x="65" y="40" width="8" height="10" />
+      <!-- Smoke -->
+      <circle cx="49" cy="30" r="3" opacity="0.7"/>
+      <circle cx="59" cy="25" r="3" opacity="0.7"/>
+      <circle cx="69" cy="35" r="3" opacity="0.7"/>
+      <!-- Downward arrows representing depletion -->
+      <polygon points="35,70 40,80 30,80" />
+      <polygon points="85,70 90,80 80,80" />
+    </g>
+    
+    <!-- Label -->
+    <text x="60" y="140" text-anchor="middle" font-family="Arial, sans-serif" 
+          font-size="16" font-weight="bold" fill="#D2691E">
+      Extractive
+    </text>
+    <text x="60" y="158" text-anchor="middle" font-family="Arial, sans-serif" 
+          font-size="12" fill="#666">
+      Profit-Driven
+    </text>
+    
+    <!-- Key characteristics -->
+    <text x="60" y="180" text-anchor="middle" font-family="Arial, sans-serif" 
+          font-size="10" fill="#666">
+      • Short-term profits
+    </text>
+    <text x="60" y="194" text-anchor="middle" font-family="Arial, sans-serif" 
+          font-size="10" fill="#666">
+      • Resource depletion
+    </text>
+    <text x="60" y="208" text-anchor="middle" font-family="Arial, sans-serif" 
+          font-size="10" fill="#666">
+      • Externalized costs
+    </text>
+  </g>
+  
+  <!-- Arrow 1 -->
+  <line x1="170" y1="140" x2="230" y2="140" stroke="#333" stroke-width="3" 
+        marker-end="url(#arrowhead)"/>
+  
+  <!-- Stage 2: Sustainable (Green) -->
+  <g transform="translate(280, 80)">
+    <!-- Main circle -->
+    <circle cx="60" cy="60" r="50" fill="url(#sustainableGrad)" 
+            filter="url(#dropshadow)" stroke="#2E7D32" stroke-width="2"/>
+    
+    <!-- Icons representing sustainability -->
+    <g fill="white" stroke="white" stroke-width="1">
+      <!-- Recycling symbol -->
+      <path d="M 40,45 Q 50,35 60,45 Q 70,55 60,65 Q 50,75 40,65 Q 30,55 40,45" 
+            fill="none" stroke="white" stroke-width="2"/>
+      <!-- Leaves/plant -->
+      <ellipse cx="45" cy="50" rx="6" ry="10" transform="rotate(-30 45 50)"/>
+      <ellipse cx="55" cy="50" rx="6" ry="10" transform="rotate(0 55 50)"/>
+      <ellipse cx="65" cy="50" rx="6" ry="10" transform="rotate(30 65 50)"/>
+      <!-- Balance scales -->
+      <line x1="50" y1="75" x2="70" y2="75" stroke-width="2"/>
+      <line x1="60" y1="70" x2="60" y2="80" stroke-width="2"/>
+    </g>
+    
+    <!-- Label -->
+    <text x="60" y="140" text-anchor="middle" font-family="Arial, sans-serif" 
+          font-size="16" font-weight="bold" fill="#2E7D32">
+      Sustainable
+    </text>
+    <text x="60" y="158" text-anchor="middle" font-family="Arial, sans-serif" 
+          font-size="12" fill="#666">
+      Less Harm
+    </text>
+    
+    <!-- Key characteristics -->
+    <text x="60" y="180" text-anchor="middle" font-family="Arial, sans-serif" 
+          font-size="10" fill="#666">
+      • ESG compliance
+    </text>
+    <text x="60" y="194" text-anchor="middle" font-family="Arial, sans-serif" 
+          font-size="10" fill="#666">
+      • Efficiency gains
+    </text>
+    <text x="60" y="208" text-anchor="middle" font-family="Arial, sans-serif" 
+          font-size="10" fill="#666">
+      • Risk reduction
+    </text>
+  </g>
+  
+  <!-- Arrow 2 -->
+  <line x1="400" y1="140" x2="460" y2="140" stroke="#333" stroke-width="3" 
+        marker-end="url(#arrowhead)"/>
+  
+  <!-- Stage 3: Regenerative (Yellow/Turquoise) -->
+  <g transform="translate(510, 80)">
+    <!-- Main circle -->
+    <circle cx="60" cy="60" r="50" fill="url(#regenerativeGrad)" 
+            filter="url(#dropshadow)" stroke="#008B8B" stroke-width="2"/>
+    
+    <!-- Icons representing regeneration -->
+    <g fill="white" stroke="white" stroke-width="1">
+      <!-- Spiral of growth -->
+      <path d="M 60,60 Q 65,55 70,60 Q 75,70 65,75 Q 50,80 45,65 Q 40,45 60,40 Q 85,35 90,65" 
+            fill="none" stroke="white" stroke-width="2"/>
+      <!-- Hearts representing care -->
+      <path d="M 45,45 Q 40,40 35,45 Q 35,50 45,55 Q 55,50 55,45 Q 50,40 45,45" />
+      <!-- Upward growth arrows -->
+      <polygon points="75,45 80,35 85,45" />
+      <polygon points="25,75 30,65 35,75" />
+      <!-- Community circles -->
+      <circle cx="50" cy="75" r="3" />
+      <circle cx="60" cy="80" r="3" />
+      <circle cx="70" cy="75" r="3" />
+    </g>
+    
+    <!-- Label -->
+    <text x="60" y="140" text-anchor="middle" font-family="Arial, sans-serif" 
+          font-size="16" font-weight="bold" fill="#008B8B">
+      Regenerative
+    </text>
+    <text x="60" y="158" text-anchor="middle" font-family="Arial, sans-serif" 
+          font-size="12" fill="#666">
+      Systemic Flourishing
+    </text>
+    
+    <!-- Key characteristics -->
+    <text x="60" y="180" text-anchor="middle" font-family="Arial, sans-serif" 
+          font-size="10" fill="#666">
+      • Healing systems
+    </text>
+    <text x="60" y="194" text-anchor="middle" font-family="Arial, sans-serif" 
+          font-size="10" fill="#666">
+      • Community wealth
+    </text>
+    <text x="60" y="208" text-anchor="middle" font-family="Arial, sans-serif" 
+          font-size="10" fill="#666">
+      • Ecological restoration
+    </text>
+  </g>
+  
+  <!-- Supporting frameworks indicator -->
+  <g transform="translate(650, 120)">
+    <rect x="0" y="0" width="140" height="80" fill="#F0F8FF" stroke="#4682B4" 
+          stroke-width="1" rx="8" filter="url(#dropshadow)"/>
+    <text x="70" y="20" text-anchor="middle" font-family="Arial, sans-serif" 
+          font-size="12" font-weight="bold" fill="#4682B4">
+      GGF Tools Enable
+    </text>
+    <text x="70" y="35" text-anchor="middle" font-family="Arial, sans-serif" 
+          font-size="12" font-weight="bold" fill="#4682B4">
+      Regenerative Shift
+    </text>
+    <text x="10" y="52" font-family="Arial, sans-serif" font-size="9" fill="#333">
+      • Hearts/Leaves currencies
+    </text>
+    <text x="10" y="64" font-family="Arial, sans-serif" font-size="9" fill="#333">
+      • AUBI Framework
+    </text>
+    <text x="10" y="76" font-family="Arial, sans-serif" font-size="9" fill="#333">
+      • Indigenous governance
+    </text>
+  </g>
+  
+  <!-- Progress indicator bar -->
+  <g transform="translate(50, 320)">
+    <rect x="0" y="0" width="500" height="20" fill="#E0E0E0" rx="10"/>
+    <!-- Extractive portion -->
+    <rect x="0" y="0" width="166" height="20" fill="url(#extractiveGrad)" rx="10"/>
+    <!-- Sustainable portion -->
+    <rect x="166" y="0" width="167" height="20" fill="url(#sustainableGrad)"/>
+    <!-- Regenerative portion -->
+    <rect x="333" y="0" width="167" height="20" fill="url(#regenerativeGrad)" rx="10"/>
+    
+    <!-- Progress labels -->
+    <text x="83" y="35" text-anchor="middle" font-family="Arial, sans-serif" 
+          font-size="11" fill="#666">
+      Current Economy
+    </text>
+    <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" 
+          font-size="11" fill="#666">
+      Transition Phase
+    </text>
+    <text x="416" y="35" text-anchor="middle" font-family="Arial, sans-serif" 
+          font-size="11" fill="#666">
+      Regenerative Future
+    </text>
+  </g>
+  
+  <!-- Bottom note -->
+  <text x="400" y="370" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="12" fill="#666" font-style="italic">
+    The Capital Weaver's Journey: From extraction through sustainability to regenerative value creation
+  </text>
+</svg>

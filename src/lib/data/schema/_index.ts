@@ -333,11 +333,11 @@ export const clusters: GgfCluster[] = [
     color: '#059669' // Green for Tier 2
   },
   {
-    id: 'regenerative_enterprise_cluster',
-    name: 'Regenerative Enterprise System',
+    id: 'pathfinder_protocol_cluster',
+    name: 'Pathfinder Protocol System',
     description: 'Voluntary framework for transforming corporate purpose to align with planetary well-being through systemic business model innovation',
     tier: 2,
-    entities: regenerativeEnterpriseEntities.map(e => e.id),
+    entities: pathfinderProtocolEntities.map(e => e.id),
     color: '#059669'
   },
   {

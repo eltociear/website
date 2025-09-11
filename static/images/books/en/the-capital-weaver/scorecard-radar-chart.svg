@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 600 600"
+   version="1.1"
+   id="svg43"
+   sodipodi:docname="scorecard-radar-chart.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs43" />
+  <sodipodi:namedview
+     id="namedview43"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="3.9880822"
+     inkscape:cx="183.92299"
+     inkscape:cy="308.66966"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg43" />
+  <!-- Background -->
+  <rect
+     width="600"
+     height="600"
+     fill="#f9fafb"
+     id="rect1" />
+  <!-- Title -->
+  <text
+     x="300"
+     y="30"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text1">
+    Regenerative Capital Scorecard Framework
+  </text>
+  <!-- Central point -->
+  <circle
+     cx="300"
+     cy="300"
+     r="3"
+     fill="#1f2937"
+     id="circle1" />
+  <!-- Concentric circles for scoring levels -->
+  <circle
+     cx="300"
+     cy="300"
+     r="40"
+     fill="none"
+     stroke="#f3f4f6"
+     stroke-width="1"
+     id="circle2" />
+  <circle
+     cx="300"
+     cy="300"
+     r="80"
+     fill="none"
+     stroke="#f3f4f6"
+     stroke-width="1"
+     id="circle3" />
+  <circle
+     cx="300"
+     cy="300"
+     r="120"
+     fill="none"
+     stroke="#f3f4f6"
+     stroke-width="1"
+     id="circle4" />
+  <circle
+     cx="300"
+     cy="300"
+     r="160"
+     fill="none"
+     stroke="#f3f4f6"
+     stroke-width="1"
+     id="circle5" />
+  <circle
+     cx="300"
+     cy="300"
+     r="200"
+     fill="none"
+     stroke="#d1d5db"
+     stroke-width="2"
+     id="circle6" />
+  <!-- Score labels -->
+  <text
+     x="305"
+     y="150"
+     text-anchor="start"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="#6b7280"
+     id="text6">20</text>
+  <text
+     x="305"
+     y="190"
+     text-anchor="start"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="#6b7280"
+     id="text7">16</text>
+  <text
+     x="305"
+     y="230"
+     text-anchor="start"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="#6b7280"
+     id="text8">12</text>
+  <text
+     x="305"
+     y="270"
+     text-anchor="start"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="#6b7280"
+     id="text9">8</text>
+  <text
+     x="305"
+     y="310"
+     text-anchor="start"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="#6b7280"
+     id="text10">4</text>
+  <!-- Five axes with 72-degree spacing -->
+  <!-- Axis 1: Ethical & Social Foundation (0°, top) -->
+  <line
+     x1="300"
+     y1="100"
+     x2="300"
+     y2="500"
+     stroke="#d1d5db"
+     stroke-width="1"
+     id="line10" />
+  <!-- Axis 2: Economic Justice (72°) -->
+  <line
+     x1="300"
+     y1="300"
+     x2="490.45"
+     y2="161.27"
+     stroke="#d1d5db"
+     stroke-width="1"
+     id="line11" />
+  <!-- Axis 3: Ecological Regeneration (144°) -->
+  <line
+     x1="300"
+     y1="300"
+     x2="424.27"
+     y2="461.27"
+     stroke="#d1d5db"
+     stroke-width="1"
+     id="line12" />
+  <!-- Axis 4: Leadership & Governance (216°) -->
+  <line
+     x1="300"
+     y1="300"
+     x2="175.73"
+     y2="461.27"
+     stroke="#d1d5db"
+     stroke-width="1"
+     id="line13" />
+  <!-- Axis 5: RoR Integration (288°) -->
+  <line
+     x1="300"
+     y1="300"
+     x2="109.55"
+     y2="161.27"
+     stroke="#d1d5db"
+     stroke-width="1"
+     id="line14" />
+  <!-- Sundarbans Energy Collective (High-scoring example) -->
+  <polygon
+     points="300,118 456.36,189.82 396.14,421.82 203.86,421.82 143.64,189.82"
+     fill="rgba(34, 197, 94, 0.3)"
+     stroke="#22c55e"
+     stroke-width="3"
+     id="polygon14" />
+  <!-- Data points for Sundarbans -->
+  <circle
+     cx="300"
+     cy="118"
+     r="5"
+     fill="#22c55e"
+     id="circle14" />
+  <circle
+     cx="456.36"
+     cy="189.82"
+     r="5"
+     fill="#22c55e"
+     id="circle15" />
+  <circle
+     cx="396.14"
+     cy="421.82"
+     r="5"
+     fill="#22c55e"
+     id="circle16" />
+  <circle
+     cx="203.86"
+     cy="421.82"
+     r="5"
+     fill="#22c55e"
+     id="circle17" />
+  <circle
+     cx="143.64"
+     cy="189.82"
+     r="5"
+     fill="#22c55e"
+     id="circle18" />
+  <!-- Urban Harvest Ventures (Low-scoring example) -->
+  <path
+     id="polygon18"
+     style="stroke:#ef4444;stroke-width:2;stroke-dasharray:5, 5;fill:none"
+     d="m 300,260 52.08071,-2.50624 -2.35241,112.97872 -101.58426,0 -1.9978,-112.62411 z"
+     sodipodi:nodetypes="cccccc" />
+  <!-- Data points for Urban Harvest -->
+  <circle
+     cx="300"
+     cy="260"
+     r="4"
+     fill="#ef4444"
+     id="circle19" />
+  <circle
+     cx="351.4397"
+     cy="257.58719"
+     r="4"
+     fill="#ef4444"
+     id="circle20" />
+  <circle
+     cx="349.62137"
+     cy="371.03787"
+     r="4"
+     fill="#ef4444"
+     id="circle21" />
+  <circle
+     cx="249.20787"
+     cy="369.94058"
+     r="4"
+     fill="#ef4444"
+     id="circle22" />
+  <circle
+     cx="246.50085"
+     cy="257.84839"
+     r="4"
+     fill="#ef4444"
+     id="circle23" />
+  <!-- Category labels -->
+  <text
+     x="300"
+     y="85"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text23">
+    Ethical &amp; Social Foundation
+  </text>
+  <text
+     x="300"
+     y="70"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#6b7280"
+     id="text24">
+    (Truth-Seeking Integration)
+  </text>
+  <text
+     x="484"
+     y="165"
+     text-anchor="start"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text25">Economic Justice</text>
+  <text
+     x="484"
+     y="180"
+     text-anchor="start"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#6b7280"
+     id="text26">&amp; Local Circulation</text>
+  <text
+     x="478"
+     y="485"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text27">Ecological Regeneration</text>
+  <text
+     x="478"
+     y="500"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#6b7280"
+     id="text28">&amp; Stewardship</text>
+  <text
+     x="124"
+     y="485"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text29">Leadership &amp; Governance</text>
+  <text
+     x="122"
+     y="500"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#6b7280"
+     id="text30">Innovation</text>
+  <text
+     x="152"
+     y="165"
+     text-anchor="end"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text31">Return on Regeneration</text>
+  <text
+     x="80"
+     y="180"
+     text-anchor="end"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#6b7280"
+     id="text32">
+    Integration
+  </text>
+  <!-- Legend -->
+  <rect
+     x="50.058125"
+     y="520.05811"
+     width="499.88376"
+     height="74.777374"
+     fill="#ffffff"
+     stroke="#d1d5db"
+     stroke-width="1.11624"
+     rx="2.9993024"
+     id="rect32" />
+  <text
+     x="60"
+     y="540"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text33">Comparative Assessment Examples</text>
+  <g
+     id="g45">
+    <line
+       x1="70"
+       y1="555"
+       x2="85"
+       y2="555"
+       stroke="#22c55e"
+       stroke-width="3"
+       id="line33" />
+    <circle
+       cx="77.5"
+       cy="555"
+       r="3"
+       fill="#22c55e"
+       id="circle33" />
+  </g>
+  <text
+     x="95"
+     y="560"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#1f2937"
+     id="text34">Sundarbans Energy Collective (Score: 8.4/10) - Exemplary regenerative development</text>
+  <g
+     id="g44"
+     transform="translate(-299.68794,32.524823)">
+    <line
+       x1="370"
+       y1="537"
+       x2="385"
+       y2="537"
+       stroke="#ef4444"
+       stroke-width="2"
+       stroke-dasharray="3, 3"
+       id="line34" />
+    <circle
+       cx="377.63477"
+       cy="537.00708"
+       r="3"
+       fill="#ef4444"
+       id="circle34" />
+  </g>
+  <text
+     x="95"
+     y="574"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#1f2937"
+     id="text35">Urban Harvest Ventures (Score: 3.6/10) - Green extractivism</text>
+  <text
+     x="60"
+     y="591"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#6b7280"
+     id="text36">Scale: 0-4 (Inadequate), 4-8 (Developing), 8-12 (Good), 12-16 (Strong), 16-20 (Exemplary)</text>
+  <!-- Key Features Callout -->
+  <g
+     transform="translate(434.04184,309.77398)"
+     id="g43">
+    <rect
+       x="0"
+       y="0"
+       width="160"
+       height="120"
+       fill="#fef3c7"
+       stroke="#f59e0b"
+       stroke-width="1"
+       rx="3"
+       id="rect36" />
+    <text
+       x="80"
+       y="15"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="11px"
+       font-weight="bold"
+       fill="#92400e"
+       id="text37">Truth-Seeking Features</text>
+    <text
+       x="5"
+       y="30"
+       font-family="Arial, sans-serif"
+       font-size="9px"
+       fill="#92400e"
+       id="text38">• Community verification required</text>
+    <text
+       x="5"
+       y="45"
+       font-family="Arial, sans-serif"
+       font-size="9px"
+       fill="#92400e"
+       id="text39">• Adversarial testing protocols</text>
+    <text
+       x="5"
+       y="60"
+       font-family="Arial, sans-serif"
+       font-size="9px"
+       fill="#92400e"
+       id="text40">• Truth Advocate integration</text>
+    <text
+       x="5"
+       y="75"
+       font-family="Arial, sans-serif"
+       font-size="9px"
+       fill="#92400e"
+       id="text41">• Anonymous feedback systems</text>
+    <text
+       x="5"
+       y="90"
+       font-family="Arial, sans-serif"
+       font-size="9px"
+       fill="#92400e"
+       id="text42">• Conflict resolution protocols</text>
+    <text
+       x="5"
+       y="105"
+       font-family="Arial, sans-serif"
+       font-size="9px"
+       fill="#92400e"
+       id="text43">• Bad news reward mechanisms</text>
+  </g>
+</svg>

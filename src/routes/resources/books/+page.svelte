@@ -61,6 +61,21 @@
       pages: '136'
     },
     {
+      id: 'capital-weaver',
+      title: $t('books.capitalWeaver.title'),
+      description: $t('books.capitalWeaver.description'),
+      cover: `${base}/resources/book-cover-the-capital-weaver.svg`,
+      pdfPath: {
+        en: `${base}/resources/The_Capital_Weaver_-_A_Practical_Guide_to_Regenerative_Investing.pdf`,
+        sv: null // Not yet translated
+      },
+      readOnlinePath: '/resources/books/the-capital-weaver',
+      hasOnlineVersion: true,
+      category: 'methodology',
+      year: '2025',
+      pages: '362'
+    },
+    {
       id: 'optimizing-reality',
       title: $t('books.optimizingReality.title'),
       description: $t('books.optimizingReality.description'),

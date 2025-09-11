@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1000 700"
+   version="1.1"
+   id="svg75"
+   sodipodi:docname="five-principles.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview75"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.2085714"
+     inkscape:cx="500.1773"
+     inkscape:cy="350"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg75" />
+  <defs
+     id="defs13">
+    <!-- Gradients for different principle types -->
+    <linearGradient
+       id="communityGrad"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#6366F1;stop-opacity:1"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#4F46E5;stop-opacity:1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="stewardshipGrad"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#10B981;stop-opacity:1"
+         id="stop3" />
+      <stop
+         offset="100%"
+         style="stop-color:#059669;stop-opacity:1"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="resilienceGrad"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#F59E0B;stop-opacity:1"
+         id="stop5" />
+      <stop
+         offset="100%"
+         style="stop-color:#D97706;stop-opacity:1"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="rorGrad"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#8B5CF6;stop-opacity:1"
+         id="stop7" />
+      <stop
+         offset="100%"
+         style="stop-color:#7C3AED;stop-opacity:1"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       id="relationshipGrad"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#EC4899;stop-opacity:1"
+         id="stop9" />
+      <stop
+         offset="100%"
+         style="stop-color:#DB2777;stop-opacity:1"
+         id="stop10" />
+    </linearGradient>
+    <linearGradient
+       id="outcomeGrad"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#14B8A6;stop-opacity:1"
+         id="stop11" />
+      <stop
+         offset="100%"
+         style="stop-color:#0D9488;stop-opacity:1"
+         id="stop12" />
+    </linearGradient>
+    <!-- Arrow markers -->
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#4B5563"
+         id="polygon12" />
+    </marker>
+    <!-- Drop shadows -->
+    <filter
+       id="dropshadow"
+       x="-0.082"
+       y="-0.11"
+       width="1.184"
+       height="1.2485714">
+      <feGaussianBlur
+         in="SourceAlpha"
+         stdDeviation="3"
+         id="feGaussianBlur12" />
+      <feOffset
+         dx="2"
+         dy="2"
+         result="offset"
+         id="feOffset12" />
+      <feComponentTransfer
+         id="feComponentTransfer12">
+        <feFuncA
+           type="linear"
+           slope="0.2"
+           id="feFuncA12" />
+      </feComponentTransfer>
+      <feMerge
+         id="feMerge13">
+        <feMergeNode
+           id="feMergeNode12" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode13" />
+      </feMerge>
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#outcomeGrad"
+       id="linearGradient75"
+       x1="-9.4521363"
+       y1="19.207087"
+       x2="127.02749"
+       y2="155.68671"
+       gradientTransform="matrix(1.5615518,0,0,0.64038862,100,500)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#outcomeGrad"
+       id="linearGradient76"
+       x1="118.62559"
+       y1="19.207087"
+       x2="255.10521"
+       y2="155.68671"
+       gradientTransform="matrix(1.5615518,0,0,0.64038862,100,500)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#outcomeGrad"
+       id="linearGradient77"
+       x1="246.70331"
+       y1="19.207087"
+       x2="383.18293"
+       y2="155.68671"
+       gradientTransform="matrix(1.5615518,0,0,0.64038862,100,500)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#outcomeGrad"
+       id="linearGradient78"
+       x1="374.78103"
+       y1="19.207087"
+       x2="511.26066"
+       y2="155.68671"
+       gradientTransform="matrix(1.5615518,0,0,0.64038862,100,500)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <!-- Background -->
+  <rect
+     width="1000"
+     height="700"
+     fill="#F9FAFB"
+     id="rect13" />
+  <line
+     x1="459.81976"
+     y1="449.59528"
+     x2="390.15991"
+     y2="509.37393"
+     stroke="#4b5563"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     opacity="0.7"
+     id="line59" />
+  <!-- Title -->
+  <text
+     x="500"
+     y="30"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="24"
+     font-weight="bold"
+     fill="#1F2937"
+     id="text13">
+    The Five Principles of Regenerative Capital: From Theory to Impact
+  </text>
+  <!-- Principle 1: Community Sovereignty -->
+  <g
+     transform="translate(50, 80)"
+     id="g17">
+    <rect
+       x="0"
+       y="0"
+       width="160"
+       height="80"
+       rx="12"
+       fill="url(#communityGrad)"
+       filter="url(#dropshadow)"
+       stroke="#4F46E5"
+       stroke-width="1"
+       id="rect14" />
+    <text
+       x="80"
+       y="25"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       font-weight="bold"
+       fill="white"
+       id="text14">
+      Principle 1
+    </text>
+    <text
+       x="80"
+       y="42"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       fill="white"
+       id="text15">
+      Community
+    </text>
+    <text
+       x="80"
+       y="56"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       fill="white"
+       id="text16">
+      Sovereignty
+    </text>
+    <text
+       x="80"
+       y="72"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="white"
+       opacity="0.9"
+       id="text17">
+      Local agency  control
+    </text>
+  </g>
+  <line
+     x1="329.97833"
+     y1="159.90837"
+     x2="430.2002"
+     y2="364.89398"
+     stroke="#4b5563"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     opacity="0.7"
+     id="line54" />
+  <!-- Principle 2: Stewardship Over Ownership -->
+  <g
+     transform="translate(250, 80)"
+     id="g21">
+    <rect
+       x="0"
+       y="0"
+       width="160"
+       height="80"
+       rx="12"
+       fill="url(#stewardshipGrad)"
+       filter="url(#dropshadow)"
+       stroke="#059669"
+       stroke-width="1"
+       id="rect17" />
+    <text
+       x="80"
+       y="25"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       font-weight="bold"
+       fill="white"
+       id="text18">
+      Principle 2
+    </text>
+    <text
+       x="80"
+       y="42"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       fill="white"
+       id="text19">
+      Stewardship Over
+    </text>
+    <text
+       x="80"
+       y="56"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       fill="white"
+       id="text20">
+      Ownership
+    </text>
+    <text
+       x="80"
+       y="72"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="white"
+       opacity="0.9"
+       id="text21">
+      Commons stewardship
+    </text>
+  </g>
+  <line
+     x1="529.96942"
+     y1="159.97963"
+     x2="480.02911"
+     y2="359.0419"
+     stroke="#4b5563"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     opacity="0.7"
+     id="line55" />
+  <!-- Principle 3: Polycentric Resilience -->
+  <g
+     transform="translate(450, 80)"
+     id="g25">
+    <rect
+       x="0"
+       y="0"
+       width="160"
+       height="80"
+       rx="12"
+       fill="url(#resilienceGrad)"
+       filter="url(#dropshadow)"
+       stroke="#D97706"
+       stroke-width="1"
+       id="rect21" />
+    <text
+       x="80"
+       y="25"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       font-weight="bold"
+       fill="white"
+       id="text22">
+      Principle 3
+    </text>
+    <text
+       x="80"
+       y="42"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       fill="white"
+       id="text23">
+      Polycentric
+    </text>
+    <text
+       x="80"
+       y="56"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       fill="white"
+       id="text24">
+      Resilience
+    </text>
+    <text
+       x="80"
+       y="72"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="white"
+       opacity="0.9"
+       id="text25">
+      Diverse local economies
+    </text>
+  </g>
+  <!-- Principle 4: From ROI to RoR -->
+  <g
+     transform="translate(650, 80)"
+     id="g29">
+    <rect
+       x="0"
+       y="0"
+       width="160"
+       height="80"
+       rx="12"
+       fill="url(#rorGrad)"
+       filter="url(#dropshadow)"
+       stroke="#7C3AED"
+       stroke-width="1"
+       id="rect25" />
+    <text
+       x="80"
+       y="25"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       font-weight="bold"
+       fill="white"
+       id="text26">
+      Principle 4
+    </text>
+    <text
+       x="80"
+       y="42"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       fill="white"
+       id="text27">
+      From ROI to RoR
+    </text>
+    <text
+       x="80"
+       y="56"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       fill="white"
+       id="text28">
+      Return on Regeneration
+    </text>
+    <text
+       x="80"
+       y="72"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="white"
+       opacity="0.9"
+       id="text29">
+      Integrated value creation
+    </text>
+  </g>
+  <!-- Principle 5: Right Relationship -->
+  <g
+     transform="translate(350, 220)"
+     id="g33">
+    <rect
+       x="0"
+       y="0"
+       width="160"
+       height="80"
+       rx="12"
+       fill="url(#relationshipGrad)"
+       filter="url(#dropshadow)"
+       stroke="#DB2777"
+       stroke-width="1"
+       id="rect29" />
+    <text
+       x="80"
+       y="25"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       font-weight="bold"
+       fill="white"
+       id="text30">
+      Principle 5
+    </text>
+    <text
+       x="80"
+       y="42"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       fill="white"
+       id="text31">
+      The Primacy of
+    </text>
+    <text
+       x="80"
+       y="56"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       fill="white"
+       id="text32">
+      Right Relationship
+    </text>
+    <text
+       x="80"
+       y="72"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="white"
+       opacity="0.9"
+       id="text33">
+      Healing relationships
+    </text>
+  </g>
+  <line
+     x1="459.78979"
+     y1="449.9762"
+     x2="208.29124"
+     y2="511.81433"
+     stroke="#4b5563"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     opacity="0.7"
+     id="line58" />
+  <!-- Central Integration Hub -->
+  <g
+     transform="translate(400, 350)"
+     id="g36">
+    <circle
+       cx="60"
+       cy="60"
+       r="50"
+       fill="#1F2937"
+       filter="url(#dropshadow)"
+       stroke="#374151"
+       stroke-width="2"
+       id="circle33" />
+    <text
+       x="60"
+       y="50"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       fill="white"
+       id="text34">
+      Integrated
+    </text>
+    <text
+       x="60"
+       y="65"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       fill="white"
+       id="text35">
+      Capital
+    </text>
+    <text
+       x="60"
+       y="78"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       fill="white"
+       id="text36">
+      Weaving
+    </text>
+  </g>
+  <!-- Outcomes Section -->
+  <text
+     x="486.76123"
+     y="615.01184"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="18px"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text37">Regenerative Outcomes</text>
+  <rect
+     x="100"
+     y="520"
+     width="180"
+     height="70"
+     rx="8"
+     fill="url(#outcomeGrad)"
+     filter="url(#dropshadow)"
+     stroke="#0d9488"
+     stroke-width="1"
+     id="rect37"
+     style="fill:url(#linearGradient75)" />
+  <text
+     x="190"
+     y="540"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#ffffff"
+     id="text38">Economic Resilience</text>
+  <text
+     x="190"
+     y="555"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text39">• Community wealth building</text>
+  <text
+     x="190"
+     y="568"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text40">• Local economic multipliers</text>
+  <text
+     x="190"
+     y="581"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text41">• Hearts/Leaves generation</text>
+  <rect
+     x="300"
+     y="520"
+     width="180"
+     height="70"
+     rx="8"
+     fill="url(#outcomeGrad)"
+     filter="url(#dropshadow)"
+     stroke="#0d9488"
+     stroke-width="1"
+     id="rect41"
+     style="fill:url(#linearGradient76)" />
+  <text
+     x="390"
+     y="540"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#ffffff"
+     id="text42">Social Regeneration</text>
+  <text
+     x="390"
+     y="555"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text43">• Community empowerment</text>
+  <text
+     x="390"
+     y="568"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text44">• LMCI improvement</text>
+  <text
+     x="390"
+     y="581"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text45">• Democratic participation</text>
+  <rect
+     x="500"
+     y="520"
+     width="180"
+     height="70"
+     rx="8"
+     fill="url(#outcomeGrad)"
+     filter="url(#dropshadow)"
+     stroke="#0d9488"
+     stroke-width="1"
+     id="rect45"
+     style="fill:url(#linearGradient77)" />
+  <text
+     x="590"
+     y="540"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#ffffff"
+     id="text46">Ecological Healing</text>
+  <text
+     x="590"
+     y="555"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text47">• Ecosystem restoration</text>
+  <text
+     x="590"
+     y="568"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text48">• Biodiversity increase</text>
+  <text
+     x="590"
+     y="581"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text49">• Carbon sequestration</text>
+  <rect
+     x="700"
+     y="520"
+     width="180"
+     height="70"
+     rx="8"
+     fill="url(#outcomeGrad)"
+     filter="url(#dropshadow)"
+     stroke="#0d9488"
+     stroke-width="1"
+     id="rect49"
+     style="fill:url(#linearGradient78)" />
+  <text
+     x="790"
+     y="540"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#ffffff"
+     id="text50">Cultural Revitalization</text>
+  <text
+     x="790"
+     y="555"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text51">• Traditional knowledge</text>
+  <text
+     x="790"
+     y="568"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text52">• Indigenous sovereignty</text>
+  <text
+     x="790"
+     y="581"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text53">• Cultural preservation</text>
+  <!-- Connection Arrows from Principles to Integration Hub -->
+  <!-- From Community Sovereignty -->
+  <line
+     x1="130.07451"
+     y1="160.02042"
+     x2="415.08954"
+     y2="379.7316"
+     stroke="#4b5563"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     opacity="0.7"
+     id="line53" />
+  <!-- From Stewardship -->
+  <!-- From Polycentric Resilience -->
+  <!-- From ROI to RoR -->
+  <line
+     x1="729.92401"
+     y1="160.04768"
+     x2="502.65756"
+     y2="376.35364"
+     stroke="#4b5563"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     opacity="0.7"
+     id="line56" />
+  <!-- From Right Relationship -->
+  <line
+     x1="429.9469"
+     y1="299.81891"
+     x2="451.00259"
+     y2="357.44479"
+     stroke="#4b5563"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     opacity="0.7"
+     id="line57" />
+  <!-- Connection Arrows from Integration Hub to Outcomes -->
+  <line
+     x1="482.96039"
+     y1="456.69235"
+     x2="573.56171"
+     y2="509.65576"
+     stroke="#4b5563"
+     stroke-width="1.70728"
+     marker-end="url(#arrowhead)"
+     opacity="0.7"
+     id="line60"
+     style="stroke-width:2;stroke-dasharray:none" />
+  <line
+     x1="500.0437"
+     y1="427.06827"
+     x2="781.06085"
+     y2="510.61682"
+     stroke="#4b5563"
+     stroke-width="2.64745"
+     marker-end="url(#arrowhead)"
+     opacity="0.7"
+     id="line61"
+     style="stroke-width:2;stroke-dasharray:none" />
+  <!-- Implementation Tools Box -->
+  <g
+     transform="translate(780, 350)"
+     id="g67">
+    <rect
+       x="0"
+       y="0"
+       width="180"
+       height="120"
+       fill="#EFF6FF"
+       stroke="#3B82F6"
+       stroke-width="1"
+       rx="8"
+       filter="url(#dropshadow)"
+       id="rect61" />
+    <text
+       x="90"
+       y="20"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       fill="#1E40AF"
+       id="text61">
+      Implementation Tools
+    </text>
+    <text
+       x="10"
+       y="38"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text62">
+      • Regenerative Scorecard
+    </text>
+    <text
+       x="10"
+       y="52"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text63">
+      • Capital Stack Design
+    </text>
+    <text
+       x="10"
+       y="66"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text64">
+      • Community Review Circles
+    </text>
+    <text
+       x="10"
+       y="80"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text65">
+      • Golden Share Structures
+    </text>
+    <text
+       x="10"
+       y="94"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374171"
+       id="text66">
+      • RoR Calculation
+    </text>
+    <text
+       x="10"
+       y="108"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text67">
+      • FPIC 2.0 Protocols
+    </text>
+  </g>
+  <!-- Success Metrics Box -->
+  <g
+     transform="translate(50, 350)"
+     id="g74">
+    <rect
+       x="0"
+       y="0"
+       width="180"
+       height="120"
+       fill="#F0FDF4"
+       stroke="#16A34A"
+       stroke-width="1"
+       rx="8"
+       filter="url(#dropshadow)"
+       id="rect67" />
+    <text
+       x="90"
+       y="20"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       fill="#15803D"
+       id="text68">
+      Success Metrics
+    </text>
+    <text
+       x="10"
+       y="38"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text69">
+      • 60%+ regenerative portfolio
+    </text>
+    <text
+       x="10"
+       y="52"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text70">
+      • LMCI improvement: 15%+
+    </text>
+    <text
+       x="10"
+       y="66"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text71">
+      • Community ownership: 80%+
+    </text>
+    <text
+       x="10"
+       y="80"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text72">
+      • RoR: 45%+ annual returns
+    </text>
+    <text
+       x="10"
+       y="94"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text73">
+      • Hearts/Leaves generation
+    </text>
+    <text
+       x="10"
+       y="108"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text74">
+      • Ecosystem restoration
+    </text>
+  </g>
+  <!-- Bottom Note -->
+  <text
+     x="500"
+     y="680"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="#6B7280"
+     font-style="italic"
+     id="text75">
+    Part I: Foundation → Part II: Practice → Part III: Deep Integration with GGF Ecosystem
+  </text>
+</svg>

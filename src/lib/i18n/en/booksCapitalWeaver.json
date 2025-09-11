@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "title": "The Capital Weaver - A Practical Guide to Regenerative Investing",
+    "description": "A comprehensive guide to regenerative investing that moves beyond ESG to create prosperity through healing rather than extraction."
+  },
+  "breadcrumb": {
+    "resources": "Resources",
+    "books": "Books",
+    "currentBook": "The Capital Weaver"
+  },
+  "bookTitle": "The Capital Weaver",
+  "bookSubtitle": "A Practical Guide to Regenerative Investing",
+  "loading": {
+    "text": "Loading book content..."
+  },
+  "pdfDownload": {
+    "title": "Download Complete Book",
+    "subtitle": "PDF Format",
+    "englishOnly": "PDF available in English only"
+  },
+  "categories": {
+    "frontMatter": "Front Matter",
+    "backMatter": "Back Matter"
+  },
+  "parts": {
+    "Part I: A New Logic - The Five Principles": "Part I: A New Logic",
+    "Part II: The Practice - A Toolkit for Capital Weavers": "Part II: The Practice",
+    "Part III: Go Further - The GGF as Operating System": "Part III: Go Further"
+  },
+  "sections": {
+    "book-cover": "Book Cover",
+    "quick-reference": "Quick Reference Guide",
+    "how-to-use-this-book": "How to Use This Book",
+    "table-of-contents": "Table of Contents",
+    "preface": "Preface",
+    "introduction": "Introduction: Beyond ESG",
+    "chapter-1": "Chapter 1: Community Sovereignty",
+    "chapter-2": "Chapter 2: Stewardship Over Ownership",
+    "chapter-3": "Chapter 3: Polycentric Resilience",
+    "chapter-4": "Chapter 4: Return on Regeneration",
+    "chapter-5": "Chapter 5: The Primacy of Right Relationship",
+    "chapter-6": "Chapter 6: The Regenerative Capital Scorecard",
+    "chapter-7": "Chapter 7: Capital Stacks for Regeneration",
+    "chapter-8": "Chapter 8: The Four Roles of a Capital Weaver",
+    "chapter-9": "Chapter 9: Assurance & Right-Relations Governance",
+    "chapter-10": "Chapter 10: Portfolio Design & Risk",
+    "chapter-11": "Chapter 11: The Regenerative Investment Thesis",
+    "chapter-12": "Chapter 12: The Inevitable Upgrade",
+    "chapter-13": "Chapter 13: The GGF - An Economy Built for Regeneration",
+    "chapter-14": "Chapter 14: Your First Steps on the Regenerative Path",
+    "glossary": "Glossary",
+    "further-reading": "Further Reading",
+    "appendix-a": "Appendix A: The Full Regenerative Capital Scorecard",
+    "appendix-b": "Appendix B: Calculating Return on Regeneration (RoR)",
+    "appendix-c": "Appendix C: Regenerative Clauses for Term Sheets",
+    "appendix-d": "Appendix D: The Skeptic's FAQ",
+    "appendix-e": "Appendix E: The GGF Standards Crosswalk",
+    "appendix-f": "Appendix F: The Evolution of Capital Allocation",
+    "appendix-g": "Appendix G: Finding Regenerative Deals",
+    "appendix-h": "Appendix H: Quick Wins - 10 Ways to Apply Regenerative Principles",
+    "appendix-i": "Appendix I: The Venture Pathway",
+    "appendix-j": "Appendix J: Global South Case Studies",
+    "appendix-k": "Appendix K: The GGF at a Glance",
+    "about": "About the Author"
+  },
+  "sectionsShort": {
+    "book-cover": "Cover",
+    "quick-reference": "Quick Reference",
+    "how-to-use-this-book": "How to Use",
+    "table-of-contents": "Contents",
+    "preface": "Preface",
+    "introduction": "Introduction",
+    "chapter-1": "Community Sovereignty",
+    "chapter-2": "Stewardship Over Ownership",
+    "chapter-3": "Polycentric Resilience",
+    "chapter-4": "Return on Regeneration",
+    "chapter-5": "Right Relationship",
+    "chapter-6": "Capital Scorecard",
+    "chapter-7": "Capital Stacks",
+    "chapter-8": "Four Roles",
+    "chapter-9": "Assurance & Governance",
+    "chapter-10": "Portfolio Design",
+    "chapter-11": "Investment Thesis",
+    "chapter-12": "The Inevitable Upgrade",
+    "chapter-13": "The GGF Economy",
+    "chapter-14": "First Steps",
+    "glossary": "Glossary",
+    "further-reading": "Further Reading",
+    "appendix-a": "Full Scorecard",
+    "appendix-b": "RoR Calculator",
+    "appendix-c": "Term Sheets",
+    "appendix-d": "Skeptic's FAQ",
+    "appendix-e": "Standards Crosswalk",
+    "appendix-f": "Capital Evolution",
+    "appendix-g": "Finding Deals",
+    "appendix-h": "Quick Wins",
+    "appendix-i": "Venture Pathway",
+    "appendix-j": "Global South Cases",
+    "appendix-k": "GGF Overview",
+    "about": "About"
+  },
+  "progress": {
+    "text": "Chapter {current} of {total}"
+  },
+  "navigation": {
+    "previousSection": "Previous",
+    "nextSection": "Next",
+    "downloadPdf": "Download PDF"
+  },
+  "languageAvailability": {
+    "title": "Content Availability Notice",
+    "description": "This book is currently available in English only. Some sections may display in English while we work on translations.",
+    "contentStatus": "Content: English only",
+    "pdfStatus": "PDF: English only"
+  },
+  "languageFallback": {
+    "title": "Content in your language coming soon",
+    "description": "This section is currently displayed in English until translation is complete."
+  },
+  "errors": {
+    "sectionNotFound": "Section \"{section}\" not found",
+    "contentInDevelopment": "This content is still being developed."
+  }
+}

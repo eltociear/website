@@ -1,0 +1,1313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 1000"
+   version="1.1"
+   id="svg110"
+   sodipodi:docname="regenerative-capital-scorecard-decision-tree.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview110"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.846"
+     inkscape:cx="700.35461"
+     inkscape:cy="500"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg110" />
+  <!-- Background -->
+  <rect
+     width="1400"
+     height="1000"
+     fill="#f9fafb"
+     id="rect1" />
+  <!-- Title -->
+  <text
+     x="700"
+     y="30"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     font-weight="bold"
+     fill="#1f2937"
+     id="text1">
+    Regenerative Capital Scorecard Application - Decision Tree by Role
+  </text>
+  <!-- Entry Point -->
+  <rect
+     x="550"
+     y="60"
+     width="300"
+     height="60"
+     fill="#3b82f6"
+     stroke="#1e40af"
+     stroke-width="2"
+     rx="10"
+     id="rect2" />
+  <text
+     x="700"
+     y="85"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="white"
+     id="text2">
+    What is your primary role in
+  </text>
+  <text
+     x="700"
+     y="105"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="white"
+     id="text3">
+    regenerative capital allocation?
+  </text>
+  <!-- Decision Branches -->
+  <!-- Philanthropist Branch -->
+  <g
+     transform="translate(50, 180)"
+     id="g17">
+    <!-- Role Box -->
+    <rect
+       x="0"
+       y="0"
+       width="280"
+       height="80"
+       fill="#7c3aed"
+       stroke="#5b21b6"
+       stroke-width="2"
+       rx="8"
+       id="rect3" />
+    <text
+       x="140"
+       y="25"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       font-weight="bold"
+       fill="white"
+       id="text4">
+      Philanthropist
+    </text>
+    <text
+       x="140"
+       y="45"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       fill="white"
+       id="text5">
+      Funding systemic change
+    </text>
+    <text
+       x="140"
+       y="62"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       fill="white"
+       id="text6">
+      with lasting impact
+    </text>
+    <!-- Scorecard Focus -->
+    <rect
+       x="0"
+       y="100"
+       width="280"
+       height="120"
+       fill="white"
+       stroke="#d1d5db"
+       stroke-width="1"
+       rx="5"
+       id="rect6" />
+    <text
+       x="10"
+       y="120"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       fill="#1f2937"
+       id="text7">
+      Primary Scorecard Focus:
+    </text>
+    <text
+       x="10"
+       y="140"
+       font-family="Arial, sans-serif"
+       font-size="10"
+       fill="#374151"
+       id="text8">
+      • Ethical &amp; Social Foundation (30%)
+    </text>
+    <text
+       x="10"
+       y="155"
+       font-family="Arial, sans-serif"
+       font-size="10"
+       fill="#374151"
+       id="text9">
+      • Leadership &amp; Governance (25%)
+    </text>
+    <text
+       x="10"
+       y="170"
+       font-family="Arial, sans-serif"
+       font-size="10"
+       fill="#374151"
+       id="text10">
+      • RoR Integration (25%)
+    </text>
+    <text
+       x="10"
+       y="185"
+       font-family="Arial, sans-serif"
+       font-size="10"
+       fill="#374151"
+       id="text11">
+      • Community sovereignty verification
+    </text>
+    <text
+       x="10"
+       y="200"
+       font-family="Arial, sans-serif"
+       font-size="10"
+       fill="#374151"
+       id="text12">
+      • BAZ Starter Pack funding
+    </text>
+    <!-- Key Questions -->
+    <rect
+       x="0"
+       y="240"
+       width="280"
+       height="100"
+       fill="#f8fafc"
+       stroke="#e2e8f0"
+       stroke-width="1"
+       rx="5"
+       id="rect12" />
+    <text
+       x="10"
+       y="260"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       font-weight="bold"
+       fill="#1f2937"
+       id="text13">
+      Key Due Diligence Questions:
+    </text>
+    <text
+       x="10"
+       y="278"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text14">
+      • Does this strengthen community agency?
+    </text>
+    <text
+       x="10"
+       y="292"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text15">
+      • Is FPIC 2.0 genuinely implemented?
+    </text>
+    <text
+       x="10"
+       y="306"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text16">
+      • Will this catalyze systemic change?
+    </text>
+    <text
+       x="10"
+       y="320"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text17">
+      • Can we track LMCI improvements?
+    </text>
+  </g>
+  <!-- Impact Investor Branch -->
+  <g
+     transform="translate(380, 180)"
+     id="g31">
+    <!-- Role Box -->
+    <rect
+       x="0"
+       y="0"
+       width="280"
+       height="80"
+       fill="#059669"
+       stroke="#047857"
+       stroke-width="2"
+       rx="8"
+       id="rect17" />
+    <text
+       x="140"
+       y="25"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       font-weight="bold"
+       fill="white"
+       id="text18">
+      Impact Investor
+    </text>
+    <text
+       x="140"
+       y="45"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       fill="white"
+       id="text19">
+      Balancing profit and regeneration
+    </text>
+    <text
+       x="140"
+       y="62"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       fill="white"
+       id="text20">
+      in patient capital deals
+    </text>
+    <!-- Scorecard Focus -->
+    <rect
+       x="0"
+       y="100"
+       width="280"
+       height="120"
+       fill="white"
+       stroke="#d1d5db"
+       stroke-width="1"
+       rx="5"
+       id="rect20" />
+    <text
+       x="10"
+       y="120"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       fill="#1f2937"
+       id="text21">
+      Primary Scorecard Focus:
+    </text>
+    <text
+       x="10"
+       y="140"
+       font-family="Arial, sans-serif"
+       font-size="10"
+       fill="#374151"
+       id="text22">
+      • RoR Integration (30%)
+    </text>
+    <text
+       x="10"
+       y="155"
+       font-family="Arial, sans-serif"
+       font-size="10"
+       fill="#374151"
+       id="text23">
+      • Economic Regeneration (25%)
+    </text>
+    <text
+       x="10"
+       y="170"
+       font-family="Arial, sans-serif"
+       font-size="10"
+       fill="#374151"
+       id="text24">
+      • Leadership &amp; Governance (20%)
+    </text>
+    <text
+       x="10"
+       y="185"
+       font-family="Arial, sans-serif"
+       font-size="10"
+       fill="#374151"
+       id="text25">
+      • Hearts/Leaves velocity tracking
+    </text>
+    <text
+       x="10"
+       y="200"
+       font-family="Arial, sans-serif"
+       font-size="10"
+       fill="#374151"
+       id="text26">
+      • Polycentric resilience building
+    </text>
+    <!-- Key Questions -->
+    <rect
+       x="0"
+       y="240"
+       width="280"
+       height="100"
+       fill="#f8fafc"
+       stroke="#e2e8f0"
+       stroke-width="1"
+       rx="5"
+       id="rect26" />
+    <text
+       x="10"
+       y="260"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       font-weight="bold"
+       fill="#1f2937"
+       id="text27">
+      Key Due Diligence Questions:
+    </text>
+    <text
+       x="10"
+       y="278"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text28">
+      • What's the integrated RoR calculation?
+    </text>
+    <text
+       x="10"
+       y="292"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text29">
+      • How does this reduce systemic risk?
+    </text>
+    <text
+       x="10"
+       y="306"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text30">
+      • Are mission protection clauses strong?
+    </text>
+    <text
+       x="10"
+       y="320"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text31">
+      • Can this achieve 8-12% IRR + high RoR?
+    </text>
+  </g>
+  <!-- Community Fund Branch -->
+  <g
+     transform="translate(710, 180)"
+     id="g45">
+    <!-- Role Box -->
+    <rect
+       x="0"
+       y="0"
+       width="280"
+       height="80"
+       fill="#dc2626"
+       stroke="#b91c1c"
+       stroke-width="2"
+       rx="8"
+       id="rect31" />
+    <text
+       x="140"
+       y="25"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       font-weight="bold"
+       fill="white"
+       id="text32">
+      Community Fund
+    </text>
+    <text
+       x="140"
+       y="45"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       fill="white"
+       id="text33">
+      Building resilient, polycentric
+    </text>
+    <text
+       x="140"
+       y="62"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       fill="white"
+       id="text34">
+      local economies
+    </text>
+    <!-- Scorecard Focus -->
+    <rect
+       x="0"
+       y="100"
+       width="280"
+       height="120"
+       fill="white"
+       stroke="#d1d5db"
+       stroke-width="1"
+       rx="5"
+       id="rect34" />
+    <text
+       x="10"
+       y="120"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       fill="#1f2937"
+       id="text35">
+      Primary Scorecard Focus:
+    </text>
+    <text
+       x="10"
+       y="140"
+       font-family="Arial, sans-serif"
+       font-size="10"
+       fill="#374151"
+       id="text36">
+      • Ethical &amp; Social Foundation (35%)
+    </text>
+    <text
+       x="10"
+       y="155"
+       font-family="Arial, sans-serif"
+       font-size="10"
+       fill="#374151"
+       id="text37">
+      • Economic Regeneration (30%)
+    </text>
+    <text
+       x="10"
+       y="170"
+       font-family="Arial, sans-serif"
+       font-size="10"
+       fill="#374151"
+       id="text38">
+      • Ecological Regeneration (20%)
+    </text>
+    <text
+       x="10"
+       y="185"
+       font-family="Arial, sans-serif"
+       font-size="10"
+       fill="#374151"
+       id="text39">
+      • Local economic multiplier effects
+    </text>
+    <text
+       x="10"
+       y="200"
+       font-family="Arial, sans-serif"
+       font-size="10"
+       fill="#374151"
+       id="text40">
+      • Community-controlled verification
+    </text>
+    <!-- Key Questions -->
+    <rect
+       x="0"
+       y="240"
+       width="280"
+       height="100"
+       fill="#f8fafc"
+       stroke="#e2e8f0"
+       stroke-width="1"
+       rx="5"
+       id="rect40" />
+    <text
+       x="10"
+       y="260"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       font-weight="bold"
+       fill="#1f2937"
+       id="text41">
+      Key Due Diligence Questions:
+    </text>
+    <text
+       x="10"
+       y="278"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text42">
+      • Does this circulate wealth locally?
+    </text>
+    <text
+       x="10"
+       y="292"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text43">
+      • Is community ownership genuine?
+    </text>
+    <text
+       x="10"
+       y="306"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text44">
+      • Will this strengthen local resilience?
+    </text>
+    <text
+       x="10"
+       y="320"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text45">
+      • Are supply chains community-controlled?
+    </text>
+  </g>
+  <!-- Family Office Branch -->
+  <g
+     transform="translate(1040, 180)"
+     id="g59">
+    <!-- Role Box -->
+    <rect
+       x="0"
+       y="0"
+       width="280"
+       height="80"
+       fill="#f59e0b"
+       stroke="#d97706"
+       stroke-width="2"
+       rx="8"
+       id="rect45" />
+    <text
+       x="140"
+       y="25"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       font-weight="bold"
+       fill="white"
+       id="text46">
+      Family Office / Wealth Advisor
+    </text>
+    <text
+       x="140"
+       y="45"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       fill="white"
+       id="text47">
+      Crafting legacies that steward
+    </text>
+    <text
+       x="140"
+       y="62"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       fill="white"
+       id="text48">
+      the commons
+    </text>
+    <!-- Scorecard Focus -->
+    <rect
+       x="0"
+       y="100"
+       width="280"
+       height="120"
+       fill="white"
+       stroke="#d1d5db"
+       stroke-width="1"
+       rx="5"
+       id="rect48" />
+    <text
+       x="10"
+       y="120"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       fill="#1f2937"
+       id="text49">
+      Primary Scorecard Focus:
+    </text>
+    <text
+       x="10"
+       y="140"
+       font-family="Arial, sans-serif"
+       font-size="10"
+       fill="#374151"
+       id="text50">
+      • Leadership &amp; Governance (30%)
+    </text>
+    <text
+       x="10"
+       y="155"
+       font-family="Arial, sans-serif"
+       font-size="10"
+       fill="#374151"
+       id="text51">
+      • RoR Integration (25%)
+    </text>
+    <text
+       x="10"
+       y="170"
+       font-family="Arial, sans-serif"
+       font-size="10"
+       fill="#374151"
+       id="text52">
+      • Ecological Regeneration (25%)
+    </text>
+    <text
+       x="10"
+       y="185"
+       font-family="Arial, sans-serif"
+       font-size="10"
+       fill="#374151"
+       id="text53">
+      • Hearthstone Protocol integration
+    </text>
+    <text
+       x="10"
+       y="200"
+       font-family="Arial, sans-serif"
+       font-size="10"
+       fill="#374151"
+       id="text54">
+      • Seven-generation thinking
+    </text>
+    <!-- Key Questions -->
+    <rect
+       x="0"
+       y="240"
+       width="280"
+       height="100"
+       fill="#f8fafc"
+       stroke="#e2e8f0"
+       stroke-width="1"
+       rx="5"
+       id="rect54" />
+    <text
+       x="10"
+       y="260"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       font-weight="bold"
+       fill="#1f2937"
+       id="text55">
+      Key Due Diligence Questions:
+    </text>
+    <text
+       x="10"
+       y="278"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text56">
+      • Does this preserve intergenerational equity?
+    </text>
+    <text
+       x="10"
+       y="292"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text57">
+      • Can this transition to stewardship trust?
+    </text>
+    <text
+       x="10"
+       y="306"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text58">
+      • Will this enhance ecological commons?
+    </text>
+    <text
+       x="10"
+       y="320"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#374151"
+       id="text59">
+      • Does leadership embody regenerative values?
+    </text>
+  </g>
+  <!-- Connecting lines from main decision point -->
+  <line
+     x1="580"
+     y1="120"
+     x2="190"
+     y2="180"
+     stroke="#6b7280"
+     stroke-width="2"
+     id="line59" />
+  <line
+     x1="640"
+     y1="120"
+     x2="520"
+     y2="180"
+     stroke="#6b7280"
+     stroke-width="2"
+     id="line60" />
+  <line
+     x1="760"
+     y1="120"
+     x2="850"
+     y2="180"
+     stroke="#6b7280"
+     stroke-width="2"
+     id="line61" />
+  <line
+     x1="820"
+     y1="120"
+     x2="1180"
+     y2="180"
+     stroke="#6b7280"
+     stroke-width="2"
+     id="line62" />
+  <!-- Common Process Flow -->
+  <g
+     transform="translate(200,560)"
+     id="g91">
+    <rect
+       x="0"
+       y="0"
+       width="1000"
+       height="200"
+       fill="#ffffff"
+       stroke="#d1d5db"
+       stroke-width="2"
+       rx="8"
+       id="rect62" />
+    <text
+       x="500"
+       y="25"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="16px"
+       font-weight="bold"
+       fill="#1f2937"
+       id="text62">Universal Scorecard Application Process (All Roles)</text>
+    <!-- Step 1 -->
+    <g
+       transform="translate(20,50)"
+       id="g67">
+      <circle
+         cx="40"
+         cy="40"
+         r="25"
+         fill="#3b82f6"
+         stroke="#1e40af"
+         stroke-width="2"
+         id="circle62" />
+      <text
+         x="40"
+         y="47"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="14px"
+         font-weight="bold"
+         fill="#ffffff"
+         id="text63">1</text>
+      <text
+         x="40"
+         y="90"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="12px"
+         font-weight="bold"
+         fill="#1f2937"
+         id="text64">Initial Screen</text>
+      <text
+         x="40"
+         y="110"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         fill="#374151"
+         id="text65">Quick checklist</text>
+      <text
+         x="40"
+         y="125"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         fill="#374151"
+         id="text66">(15-30 min)</text>
+      <text
+         x="40"
+         y="140"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         fill="#374151"
+         id="text67">Pass/Fail gates</text>
+    </g>
+    <!-- Step 2 -->
+    <g
+       transform="translate(220,50)"
+       id="g72">
+      <circle
+         cx="40"
+         cy="40"
+         r="25"
+         fill="#059669"
+         stroke="#047857"
+         stroke-width="2"
+         id="circle67" />
+      <text
+         x="40"
+         y="47"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="14px"
+         font-weight="bold"
+         fill="#ffffff"
+         id="text68">2</text>
+      <text
+         x="40"
+         y="90"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="12px"
+         font-weight="bold"
+         fill="#1f2937"
+         id="text69">Role-Weighted</text>
+      <text
+         x="40"
+         y="110"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         fill="#374151"
+         id="text70">Deep assessment</text>
+      <text
+         x="40"
+         y="125"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         fill="#374151"
+         id="text71">(2-4 hours)</text>
+      <text
+         x="40"
+         y="140"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         fill="#374151"
+         id="text72">Weighted scoring</text>
+    </g>
+    <!-- Step 3 -->
+    <g
+       transform="translate(420,50)"
+       id="g77">
+      <circle
+         cx="40"
+         cy="40"
+         r="25"
+         fill="#dc2626"
+         stroke="#b91c1c"
+         stroke-width="2"
+         id="circle72" />
+      <text
+         x="40"
+         y="47"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="14px"
+         font-weight="bold"
+         fill="#ffffff"
+         id="text73">3</text>
+      <text
+         x="40"
+         y="90"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="12px"
+         font-weight="bold"
+         fill="#1f2937"
+         id="text74">Community</text>
+      <text
+         x="40"
+         y="110"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         fill="#374151"
+         id="text75">Verification</text>
+      <text
+         x="40"
+         y="125"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         fill="#374151"
+         id="text76">FPIC 2.0 check</text>
+      <text
+         x="40"
+         y="140"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         fill="#374151"
+         id="text77">Community veto power</text>
+    </g>
+    <!-- Step 4 -->
+    <g
+       transform="translate(620,50)"
+       id="g82">
+      <circle
+         cx="40"
+         cy="40"
+         r="25"
+         fill="#7c3aed"
+         stroke="#5b21b6"
+         stroke-width="2"
+         id="circle77" />
+      <text
+         x="40"
+         y="47"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="14px"
+         font-weight="bold"
+         fill="#ffffff"
+         id="text78">4</text>
+      <text
+         x="40"
+         y="90"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="12px"
+         font-weight="bold"
+         fill="#1f2937"
+         id="text79">Truth-Seeking</text>
+      <text
+         x="40"
+         y="110"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         fill="#374151"
+         id="text80">Challenge audit</text>
+      <text
+         x="40"
+         y="125"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         fill="#374151"
+         id="text81">Conflict resolution</text>
+      <text
+         x="40"
+         y="140"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         fill="#374151"
+         id="text82">Bad news rewards</text>
+    </g>
+    <!-- Step 5 -->
+    <g
+       transform="translate(820,50)"
+       id="g87">
+      <circle
+         cx="40"
+         cy="40"
+         r="25"
+         fill="#f59e0b"
+         stroke="#d97706"
+         stroke-width="2"
+         id="circle82" />
+      <text
+         x="40"
+         y="47"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="14px"
+         font-weight="bold"
+         fill="#ffffff"
+         id="text83">5</text>
+      <text
+         x="40"
+         y="90"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="12px"
+         font-weight="bold"
+         fill="#1f2937"
+         id="text84">Investment</text>
+      <text
+         x="40"
+         y="110"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         fill="#374151"
+         id="text85">Decision</text>
+      <text
+         x="40"
+         y="125"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         fill="#374151"
+         id="text86">Score: 60+ proceed</text>
+      <text
+         x="40"
+         y="140"
+         text-anchor="middle"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         fill="#374151"
+         id="text87">80+ world-class</text>
+    </g>
+    <!-- Process arrows -->
+    <g
+       stroke="#6b7280"
+       stroke-width="2"
+       fill="none"
+       marker-end="url(#arrowhead)"
+       id="g90">
+      <line
+         x1="85"
+         y1="90"
+         x2="195"
+         y2="90"
+         id="line87" />
+      <line
+         x1="285"
+         y1="90"
+         x2="395"
+         y2="90"
+         id="line88" />
+      <line
+         x1="485"
+         y1="90"
+         x2="595"
+         y2="90"
+         id="line89" />
+      <line
+         x1="685"
+         y1="90"
+         x2="795"
+         y2="90"
+         id="line90" />
+    </g>
+  </g>
+  <!-- Decision Outcomes -->
+  <g
+     transform="translate(100,792)"
+     id="g109">
+    <rect
+       x="0"
+       y="0"
+       width="1200"
+       height="150"
+       fill="#f8fafc"
+       stroke="#e2e8f0"
+       stroke-width="1"
+       rx="5"
+       id="rect91" />
+    <text
+       x="600"
+       y="25"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="14px"
+       font-weight="bold"
+       fill="#1f2937"
+       id="text91">Role-Specific Scorecard Adaptations &amp; Truth-Seeking Integration</text>
+    <!-- Philanthropist adaptations -->
+    <text
+       x="20"
+       y="50"
+       font-family="Arial, sans-serif"
+       font-size="11px"
+       font-weight="bold"
+       fill="#7c3aed"
+       id="text92">Philanthropist Adaptations:</text>
+    <text
+       x="20"
+       y="67"
+       font-family="Arial, sans-serif"
+       font-size="9px"
+       fill="#374151"
+       id="text93">• Weight Community Sovereignty questions 2x in Ethical section</text>
+    <text
+       x="20"
+       y="80"
+       font-family="Arial, sans-serif"
+       font-size="9px"
+       fill="#374151"
+       id="text94">• Require Indigenous partnership verification for land-based projects</text>
+    <text
+       x="20"
+       y="93"
+       font-family="Arial, sans-serif"
+       font-size="9px"
+       fill="#374151"
+       id="text95">• Add systems-change catalyst questions to RoR section</text>
+    <!-- Impact Investor adaptations -->
+    <text
+       x="320"
+       y="50"
+       font-family="Arial, sans-serif"
+       font-size="11px"
+       font-weight="bold"
+       fill="#059669"
+       id="text96">Impact Investor Adaptations:</text>
+    <text
+       x="320"
+       y="67"
+       font-family="Arial, sans-serif"
+       font-size="9px"
+       fill="#374151"
+       id="text97">• Add IRR/RoR integration calculations to Economic section</text>
+    <text
+       x="320"
+       y="80"
+       font-family="Arial, sans-serif"
+       font-size="9px"
+       fill="#374151"
+       id="text98">• Weight mission protection mechanisms in Leadership section</text>
+    <text
+       x="320"
+       y="93"
+       font-family="Arial, sans-serif"
+       font-size="9px"
+       fill="#374151"
+       id="text99">• Include Golden Share and stewardship transition clauses</text>
+    <!-- Community Fund adaptations -->
+    <text
+       x="620"
+       y="50"
+       font-family="Arial, sans-serif"
+       font-size="11px"
+       font-weight="bold"
+       fill="#dc2626"
+       id="text100">Community Fund Adaptations:</text>
+    <text
+       x="620"
+       y="67"
+       font-family="Arial, sans-serif"
+       font-size="9px"
+       fill="#374151"
+       id="text101">• Emphasize local economic multiplier in Economic section</text>
+    <text
+       x="620"
+       y="80"
+       font-family="Arial, sans-serif"
+       font-size="9px"
+       fill="#374151"
+       id="text102">• Require community-controlled verification for all claims</text>
+    <text
+       x="620"
+       y="93"
+       font-family="Arial, sans-serif"
+       font-size="9px"
+       fill="#374151"
+       id="text103">• Weight cooperative governance structures highly</text>
+    <!-- Family Office adaptations -->
+    <text
+       x="920"
+       y="50"
+       font-family="Arial, sans-serif"
+       font-size="11px"
+       font-weight="bold"
+       fill="#f59e0b"
+       id="text104">Family Office Adaptations:</text>
+    <text
+       x="920"
+       y="67"
+       font-family="Arial, sans-serif"
+       font-size="9px"
+       fill="#374151"
+       id="text105">• Add intergenerational equity questions to all sections</text>
+    <text
+       x="920"
+       y="80"
+       font-family="Arial, sans-serif"
+       font-size="9px"
+       fill="#374151"
+       id="text106">• Weight ecological commons stewardship in Ecological section</text>
+    <text
+       x="920"
+       y="93"
+       font-family="Arial, sans-serif"
+       font-size="9px"
+       fill="#374151"
+       id="text107">• Include Hearthstone Protocol transition options in exits</text>
+    <!-- Truth-seeking practices -->
+    <text
+       x="20"
+       y="120"
+       font-family="Arial, sans-serif"
+       font-size="11px"
+       font-weight="bold"
+       fill="#1f2937"
+       id="text108">Universal Truth-Seeking Practices (All Roles):</text>
+    <text
+       x="20"
+       y="137"
+       font-family="Arial, sans-serif"
+       font-size="9px"
+       fill="#374151"
+       id="text109">• Annual Reality Check: Teams confront uncomfortable truths about investments • Truth Advocate: Board member champions truth-seeking, rewards bad news</text>
+  </g>
+  <!-- Arrow marker -->
+  <defs
+     id="defs109">
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#6b7280"
+         id="polygon109" />
+    </marker>
+  </defs>
+  <!-- Footer -->
+  <text
+     x="700"
+     y="970"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#6b7280"
+     id="text110">
+    Source: The Capital Weaver - Chapter 11: The Regenerative Investment Thesis
+  </text>
+</svg>

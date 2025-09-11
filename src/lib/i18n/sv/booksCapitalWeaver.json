@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "title": "Kapitalvävaren - En praktisk guide till regenerativa investeringar",
+    "description": "En omfattande guide till regenerativa investeringar som går bortom ESG för att skapa välstånd genom helande snarare än utvinning."
+  },
+  "breadcrumb": {
+    "resources": "Resurser",
+    "books": "Böcker",
+    "currentBook": "Kapitalvävaren"
+  },
+  "bookTitle": "Kapitalvävaren",
+  "bookSubtitle": "En praktisk guide till regenerativa investeringar",
+  "loading": {
+    "text": "Laddar bokinnehåll..."
+  },
+  "pdfDownload": {
+    "title": "Ladda ner hela boken",
+    "subtitle": "PDF-format",
+    "englishOnly": "PDF endast tillgänglig på engelska"
+  },
+  "categories": {
+    "frontMatter": "Inledande sidor",
+    "backMatter": "Avslutande sidor"
+  },
+  "parts": {
+    "Part I: A New Logic - The Five Principles": "Del I: En ny logik",
+    "Part II: The Practice - A Toolkit for Capital Weavers": "Del II: I praktiken",
+    "Part III: Go Further - The GGF as Operating System": "Del III: Gå vidare"
+  },
+  "sections": {
+    "book-cover": "Bokomslag",
+    "quick-reference": "Snabbguide",
+    "how-to-use-this-book": "Hur du använder den här boken",
+    "table-of-contents": "Innehållsförteckning",
+    "preface": "Förord",
+    "introduction": "Introduktion: Bortom ESG",
+    "chapter-1": "Kapitel 1: Gemenskapens suveränitet",
+    "chapter-2": "Kapitel 2: Förvaltarskap över ägande",
+    "chapter-3": "Kapitel 3: Polycentrisk motståndskraft",
+    "chapter-4": "Kapitel 4: Avkastning på regeneration",
+    "chapter-5": "Kapitel 5: Rätt relationers företräde",
+    "chapter-6": "Kapitel 6: Styrkort för regenerativt kapital",
+    "chapter-7": "Kapitel 7: Kapitalstackar för regeneration",
+    "chapter-8": "Kapitel 8: Kapitalvävarens fyra roller",
+    "chapter-9": "Kapitel 9: Säkerställande & rätt-relationell styrning",
+    "chapter-10": "Kapitel 10: Portföljdesign & risk",
+    "chapter-11": "Kapitel 11: Den regenerativa investeringstesen",
+    "chapter-12": "Kapitel 12: Den oundvikliga uppgraderingen",
+    "chapter-13": "Kapitel 13: GGF - En ekonomi byggd för regeneration",
+    "chapter-14": "Kapitel 14: Dina första steg på den regenerativa vägen",
+    "glossary": "Ordlista",
+    "further-reading": "Vidare läsning",
+    "appendix-a": "Bilaga A: Det fullständiga styrkortet för regenerativt kapital",
+    "appendix-b": "Bilaga B: Beräkning av avkastning på regeneration (RoR)",
+    "appendix-c": "Bilaga C: Regenerativa klausuler för avtalsvillkor",
+    "appendix-d": "Bilaga D: Skeptikerns FAQ",
+    "appendix-e": "Bilaga E: Jämförelsetabell för GGF-standarder",
+    "appendix-f": "Bilaga F: Kapitalallokeringens utveckling",
+    "appendix-g": "Bilaga G: Att hitta regenerativa affärer",
+    "appendix-h": "Bilaga H: Snabba vinster - 10 sätt att tillämpa regenerativa principer",
+    "appendix-i": "Bilaga I: Venture-vägen",
+    "appendix-j": "Bilaga J: Fallstudier från den globala södern",
+    "appendix-k": "Bilaga K: GGF i korthet",
+    "about": "Om författaren"
+  },
+  "sectionsShort": {
+    "book-cover": "Omslag",
+    "quick-reference": "Snabbguide",
+    "how-to-use-this-book": "Användning",
+    "table-of-contents": "Innehåll",
+    "preface": "Förord",
+    "introduction": "Introduktion",
+    "chapter-1": "Gemenskapens suveränitet",
+    "chapter-2": "Förvaltarskap",
+    "chapter-3": "Polycentrisk motståndskraft",
+    "chapter-4": "Avkastning på regeneration",
+    "chapter-5": "Rätt relation",
+    "chapter-6": "Kapitalstyrkort",
+    "chapter-7": "Kapitalstackar",
+    "chapter-8": "Fyra roller",
+    "chapter-9": "Säkerställande & styrning",
+    "chapter-10": "Portföljdesign",
+    "chapter-11": "Investeringstes",
+    "chapter-12": "Den oundvikliga uppgraderingen",
+    "chapter-13": "GGF-ekonomin",
+    "chapter-14": "Första stegen",
+    "glossary": "Ordlista",
+    "further-reading": "Vidare läsning",
+    "appendix-a": "Fullständigt styrkort",
+    "appendix-b": "RoR-kalkylator",
+    "appendix-c": "Avtalsvillkor",
+    "appendix-d": "Skeptikerns FAQ",
+    "appendix-e": "Jämförelsetabell",
+    "appendix-f": "Kapitalutveckling",
+    "appendix-g": "Hitta affärer",
+    "appendix-h": "Snabba vinster",
+    "appendix-i": "Venture-vägen",
+    "appendix-j": "Fall från globala södern",
+    "appendix-k": "GGF-översikt",
+    "about": "Om"
+  },
+  "progress": {
+    "text": "Kapitel {current} av {total}"
+  },
+  "navigation": {
+    "previousSection": "Föregående",
+    "nextSection": "Nästa",
+    "downloadPdf": "Ladda ner PDF"
+  },
+  "languageAvailability": {
+    "title": "Meddelande om innehållstillgänglighet",
+    "description": "Denna bok är för närvarande endast tillgänglig på engelska. Vissa avsnitt kan visas på engelska medan vi arbetar med översättningar.",
+    "contentStatus": "Innehåll: Endast engelska",
+    "pdfStatus": "PDF: Endast engelska"
+  },
+  "languageFallback": {
+    "title": "Innehåll på ditt språk kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+  },
+  "errors": {
+    "sectionNotFound": "Avsnitt \"{section}\" hittades inte",
+    "contentInDevelopment": "Detta innehåll är fortfarande under utveckling."
+  }
+}
