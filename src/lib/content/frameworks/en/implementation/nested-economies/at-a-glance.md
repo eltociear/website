@@ -1,10 +1,10 @@
 # Nested Economies: At-a-Glance
 
-*Building Economies of Right Relationship Through Community Cooperation*
+*Building Economies of Right Relationship Through Single Hearts Currency*
 
 ## The Challenge We Face
 
-Communities worldwide are trapped in an impossible choice: remain economically isolated and vulnerable, or integrate into systems that extract their wealth, exploit their labor, and erode their cultures.
+Communities worldwide face an impossible choice: remain economically isolated and vulnerable, or integrate into systems that extract their wealth, exploit their labor, and erode their cultures.
 
 - **$76 billion annually** extracted from local economies by chain retailers while small businesses struggle
 - **$13 trillion care economy** remains invisible and unrewarded in traditional markets
@@ -14,75 +14,73 @@ Communities worldwide are trapped in an impossible choice: remain economically i
 ## The Transformation We Need
 
 **From:** Choose between economic isolation or exploitative integration  
-**To:** Cooperation that strengthens rather than threatens local sovereignty
+**To:** Single currency cooperation that strengthens local sovereignty
 
-## Core Innovation: Hearts Currency + Community Control
+## Core Innovation: Universal Hearts Currency + BAZ Formation
 
 ### 💚 **Hearts Currency**
-Community-controlled money that rewards what traditional markets ignore:
-- Caregiving and elder support
-- Cultural preservation and language teaching  
-- Ecological restoration and climate action
-- Community organizing and conflict resolution
-
-### 🍃 **Leaves Tokens**  
-Recognizing specific ecological contributions:
-- Carbon sequestration and soil restoration
-- Biodiversity protection and habitat creation
-- Traditional ecological knowledge application
-- Climate adaptation and resilience building
+Universal currency that rewards what traditional markets ignore:
+- Caregiving and elder support across all communities
+- Cultural preservation and language teaching globally
+- Ecological restoration and climate action worldwide
+- Community organizing and conflict resolution everywhere
 
 ### 📱 **Love Ledger**
-Blockchain platform that transparently tracks contributions while protecting community data sovereignty and enabling verification across regional networks.
+Separate contribution tracking system for informal community work:
+- Volunteer activities and mutual aid
+- Family caregiving and community relationship building
+- Cultural practices and traditional knowledge sharing
+- Pathways to formal Hearts economy participation
 
-## Three Levels of Integration
+### 🏘️ **BAZ Formation Process**
+Practical 4-step pathway for community economic sovereignty:
+1. **Convening Circle**: Gather stakeholders and assess readiness
+2. **Proto-Treasury**: Establish Hearts allocation system
+3. **Community Providers**: Charter local services accepting Hearts
+4. **BAZ Council**: Formalize governance and regional connections
 
-### 🏘️ **Local: Community-Controlled Economics**
-- Hearts wallets with democratic governance over money creation
-- Participatory budgeting achieving 80% community participation
-- Community land trusts preventing speculation and displacement
-- Worker cooperatives providing democratic ownership alternatives
+## Two Levels of Integration
 
-### 🌊 **Regional: Bioregional Coordination**  
-- Hearts trade zones following watershed boundaries, not political borders
-- 10% of trade revenue automatically redistributes to under-resourced communities
-- Bioregional councils coordinating infrastructure and crisis response
-- Indigenous territorial sovereignty recognition and protection
+### 🏘️ **Local: Bioregional Autonomous Zone (BAZ) Control**
+- BAZ Councils charter Community Providers and manage Hearts treasury
+- Community assemblies provide democratic oversight and resource allocation
+- Cultural protocols respected through BAZ-level adaptation and enforcement
+- Community Provider networks covering healthcare, education, restoration, and culture
 
-### 🌍 **Global: Commons Governance**
-- AUBI (Adaptive Universal Basic Income) providing economic security through Hearts/fiat hybrid
-- Automation taxes funding global commons and crisis response
-- Technology commons preventing corporate capture of essential digital infrastructure
-- Climate coordination enabling rapid decarbonization with community sovereignty
+### 🌍 **Global: Social Resilience Council Coordination**
+- Universal Hearts currency standards and technical infrastructure
+- Crisis response coordination respecting community sovereignty
+- Technology commons governance preventing corporate capture
+- 40% Indigenous representation and Earth Council veto authority
 
 ## Governance That Actually Works
 
-### Community Weavers
-Professional facilitators trained in Hearts mechanics, cultural protocols, and stakeholder engagement—ensuring authentic community participation while respecting Indigenous sovereignty and traditional knowledge.
+### Community Providers
+BAZ-chartered services accepting Hearts currency including Elena's healthcare clinic, Maya's restoration projects, and Joseph's traditional food systems—ensuring essential community services receive Hearts payments while maintaining quality and community benefit.
 
-### Social Resilience Council  
-Primary governance body with 40% Indigenous representation and Earth Council veto authority, overseeing Hearts supply management and ethical oversight while preventing elite capture.
+### Community Weavers  
+Professional facilitators trained in Hearts mechanics, cultural protocols, and BAZ formation support with 6-month practical program and AUBI Layer 2 Hearts compensation ensuring authentic community participation.
 
-### Indigenous Earth Council
-Ultimate authority ensuring nested economies strengthens rather than undermines Indigenous territorial rights, traditional governance, and cultural integrity.
+### BAZ Councils vs Social Resilience Council
+Clear authority division: BAZ Councils control local economics (Community Provider chartering, Hearts treasury, cultural protocols) while Social Resilience Council manages global coordination (Hearts standards, crisis response, technology commons).
 
-## Implementation: Start Small, Scale Carefully
+## Implementation: Start Simple, Scale Carefully
 
 ### **Phase 1 (Years 1-3): Foundation**
-- 10 community pilots with $50M investment
-- Train 500 Community Weavers in cultural competency
-- Demonstrate 70% community satisfaction, 15% local business revenue increase
+- 10 BAZ pilots with $50M investment
+- Train 100 Community Weavers with cultural competency
+- Demonstrate 70% Hearts adoption and 85% community satisfaction
 - **If pilots fail → stop, no wider rollout**
 
-### **Phase 2 (Years 3-5): Regional Integration**  
-- 25 communities across 5 bioregions
-- AUBI Layer 1-2 implementation providing baseline security + contribution bonuses
-- 50% Hearts adoption rate with voluntary participation only
+### **Phase 2 (Years 3-5): Regional Networks**  
+- 25 BAZs across 5 bioregional networks
+- Full AUBI Framework v5.0 coordination providing economic security
+- 50% Hearts adoption with voluntary participation only
 - **Multiple exit ramps for communities wanting different approaches**
 
 ### **Phase 3 (Years 5-10): Global Coordination**
-- 100 bioregional networks with Indigenous leadership
-- Full AUBI system including global stabilization mechanisms  
+- 100 BAZ networks with Indigenous leadership
+- Social Resilience Council global Hearts standards management
 - 80% reduction in wealth disparities between participating communities
 - **Traditional economic systems remain fully available**
 
@@ -90,83 +88,84 @@ Ultimate authority ensuring nested economies strengthens rather than undermines 
 
 ### ❌ **Current Integration Models:**
 - Force communities to abandon traditional governance for market participation
-- Extract wealth from communities to distant shareholders
+- Extract wealth from communities to distant shareholders through complex systems
 - Override local democratic decisions through corporate trade agreements
 - Concentrate power in unaccountable international institutions
 
 ### ✅ **Nested Economies:**
-- **Community veto authority** over all economic decisions affecting their territory
-- **Wealth circulation** keeps resources local through Hearts currency systems
-- **Cultural sovereignty protection** with Indigenous Earth Council oversight
-- **Democratic participation** through Community Weavers and transparent governance
+- **Community veto authority** through BAZ Councils over all local economic decisions
+- **Wealth circulation** through single Hearts currency with 10% solidarity redistribution
+- **Cultural sovereignty protection** with Indigenous Earth Council oversight and veto power
+- **Democratic participation** through Community Provider chartering and transparent governance
 
 ## Evidence Base: Building on Proven Success
 
-**Community Currencies:** Bristol Pound demonstrated 15% increase in local business revenue  
-**Resource Dividends:** Alaska Permanent Fund proves 40+ years of wealth sharing without work disincentives  
-**Worker Cooperatives:** Mondragón Corporation: 70,000+ worker-owners, €12B+ revenue, superior job security  
-**Participatory Budgeting:** 1,500+ cities worldwide show communities make better resource allocation decisions
+**Community Currencies:** Bristol Pound demonstrated 15% increase in local business revenue—Hearts eliminates currency conversion complexity  
+**Resource Dividends:** Alaska Permanent Fund proves 40+ years of wealth sharing—Hearts integrates with AUBI Framework v5.0  
+**Worker Cooperatives:** Mondragón Corporation: 70,000+ worker-owners—Hearts supports cooperative development  
+**BAZ Formation:** Transition Towns movement shows community-led change—Hearts provides economic foundation
 
 ## Economic Security Through AUBI Integration
 
-### Layer 1: Universal Baseline ($500/month hybrid Hearts/fiat)
-Economic security enabling genuine choice about work and community participation
+Rather than duplicating economic security systems, Hearts currency integrates with AUBI Framework v5.0:
 
-### Layer 2: Contribution Bonuses (10 Hearts/hour)  
-Recognition for care work, ecological restoration, cultural preservation validated through Love Ledger
+### AUBI Layer 2 Integration
+Hearts currency serves as primary mechanism for AUBI Contribution Bonuses recognizing care work, ecological restoration, cultural preservation validated through Community Provider system
 
-### Layer 3: Equity Adjustments
-Reparations for historical injustices and support for marginalized communities
-
-### Layer 4: Global Stabilization
-Crisis response ensuring no community faces emergency alone
+### Economic Foundation
+AUBI Framework provides:
+- **Layer 1**: Universal baseline security ($500/month hybrid Hearts/fiat)
+- **Layer 3**: Equity adjustments for historical injustices and marginalized communities  
+- **Layer 4**: Global stabilization and crisis response coordination
 
 ## Love, Meaning, and Connection Index (LMCI)
 
 **Replacing GDP with what actually creates thriving communities:**
-- **Love (40%):** Care relationships, community solidarity, conflict resolution
-- **Meaning (30%):** Cultural vitality, traditional knowledge transmission, artistic expression  
-- **Connection (30%):** Ecological stewardship, human-land relationships, biodiversity
+- **Love (40%):** Hearts transactions and community care activities
+- **Meaning (30%):** Cultural vitality and traditional knowledge transmission  
+- **Connection (30%):** Ecological stewardship and inter-BAZ cooperation
+
+Community-controlled evaluation with cultural adaptation and traditional knowledge integration
 
 ## Crisis Response Capabilities
 
-### **48-Hour Activation** for natural disasters, economic shocks, health emergencies
-### **Regional Mutual Aid** through Hearts currency and solidarity funds
+### **48-Hour Activation** through Social Resilience Council coordination
+### **10% Solidarity Redistribution** automatic support for under-resourced BAZs
 ### **Community Sovereignty** maintained during crisis response
 ### **Traditional Knowledge Integration** for proven resilience strategies
 
 ## Integration with Global Governance
 
 Nested Economies operates as the **economic integration specialist** within the broader Global Governance Framework:
-- 🌍 **Treaty for Our Only Home** (legal enforcement and commons protection)
+- 🌍 **Treaty for Our Only Home** (environmental standards and enforcement)
 - 🏛️ **Indigenous Governance** (traditional authority and cultural sovereignty)  
-- 💚 **Planetary Health** (ecological restoration and climate action)
+- 💚 **AUBI Framework v5.0** (economic security and contribution recognition)
 - ⚖️ **Meta-Governance** (democratic coordination and conflict resolution)
 
 ## Get Started Today
 
-### **Communities:** Access readiness assessment and pilot program applications
-### **Governments:** Model legislation supporting community currencies and cooperative development
-### **Organizations:** Hearts currency acceptance and Community Weaver training programs  
-### **Individuals:** Join local cooperatives and support alternative economic development
+### **Communities:** Complete BAZ formation 4-step process with Community Weaver support
+### **Organizations:** Apply for Community Provider charter and Hearts currency acceptance
+### **Governments:** Support AUBI Framework implementation and cooperative development legislation  
+### **Individuals:** Join local cooperatives and support Hearts currency pilot programs
 
 ## The Funding Reality
 
-**Phase 1:** $50M across 10 pilots (proven by successful community currency models)  
-**Phase 2:** $200M across bioregions (less than most corporate subsidies)
-**Phase 3:** $1B for global coordination (fraction of military spending, funded by automation taxes)
+**Phase 1:** $50M across 10 BAZs (proven by successful community currency models)  
+**Phase 2:** $200M across regional networks (less than most corporate subsidies)
+**Phase 3:** $1B for global coordination (funded through AUBI Framework Automation Tax)
 
-**Revenue Sources:** Automation taxes, resource extraction fees, commons dividends, voluntary contributions from successful communities
+**Revenue Sources:** AUBI Framework coordination, 10% solidarity redistribution, Community Provider fees, cooperative enterprise development
 
 ## Why This Matters Now
 
-**The Choice is Real:** Communities can either continue losing wealth to distant corporations while facing climate breakdown, or build cooperative relationships that keep resources local while addressing planetary challenges.
+**The Choice is Real:** Communities can either continue losing wealth to distant corporations while facing climate breakdown, or build cooperative relationships that keep resources local while addressing planetary challenges through single Hearts currency.
 
-**The Technology Exists:** Blockchain infrastructure, mobile applications, and proven governance models enable community-controlled economic systems at unprecedented scale.
+**The Technology Exists:** Hearts currency applications, Love Ledger platforms, and BAZ formation processes enable community-controlled economic systems at unprecedented scale with simplified implementation.
 
-**The Movement is Growing:** From Indigenous sovereignty assertions to cooperative enterprises to climate action, communities worldwide seek alternatives to extractive economic integration.
+**The Movement is Growing:** From Indigenous sovereignty to cooperative enterprises to climate action, communities worldwide seek alternatives to extractive economic integration—Hearts currency provides practical pathway.
 
-**Success Creates Success:** Each successful pilot demonstrates that cooperation can compete with exploitation, inspiring broader adoption while maintaining community choice.
+**Success Creates Success:** Each successful BAZ demonstrates that cooperation can compete with exploitation, inspiring broader adoption while maintaining community choice and cultural sovereignty.
 
 ---
 
@@ -174,9 +173,9 @@ Nested Economies operates as the **economic integration specialist** within the 
 
 **Current Path:** Economic colonialism extracting wealth from communities, climate crisis accelerating while solutions are blocked by corporate interests, democratic erosion through economic concentration.
 
-**Nested Economies Path:** Communities cooperating by choice not force, economic security enabling creativity and care, Indigenous sovereignty strengthened through economic relationships, planetary challenges addressed through democratic coordination.
+**Nested Economies Path:** Communities cooperating through single Hearts currency by choice not force, economic security enabling creativity and care through AUBI integration, Indigenous sovereignty strengthened through Earth Council authority, planetary challenges addressed through democratic Social Resilience Council coordination.
 
-**The transformation from extraction to Right Relationship begins with each community that chooses cooperation over competition, each Hearts transaction that keeps wealth local, each person who values care over accumulation.**
+**The transformation from extraction to Right Relationship begins with each community that chooses BAZ formation, each Hearts transaction that keeps wealth local, each person who values care over accumulation.**
 
 **We have the tools. We have the evidence. We have the choice.**
 
@@ -184,4 +183,4 @@ Nested Economies operates as the **economic integration specialist** within the 
 
 ---
 
-*Access the complete framework at [Economic Integration Documentation](/frameworks/nested-economies) | Join pilot programs at [Community Implementation Hub](#) | Contact: nestedeconomies@globalgovernanceframeworks.org*
+*Access the complete framework at [Economic Integration Documentation](/frameworks/nested-economies) | Join BAZ formation at [Quick Start Guide](/frameworks/nested-economies#quick-start-guide) | Contact: nestedeconomies@globalgovernanceframeworks.org*

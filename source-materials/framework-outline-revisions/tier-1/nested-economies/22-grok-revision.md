@@ -1,7 +1,7 @@
-# Revised Outline for Nested Sovereignty Framework
+# Revised Outline for Nested Economies Framework
 
 ## Executive Summary
-- **Vision**: The Nested Sovereignty Framework fosters economies of **Right Relationship**, balancing local autonomy with global cooperation to ensure equitable, regenerative, and culturally vibrant systems.
+- **Vision**: The Nested Economies Framework fosters economies of **Right Relationship**, balancing local autonomy with global cooperation to ensure equitable, regenerative, and culturally vibrant systems.
 - **Approach**: Distinct from EU’s centralized regulations, WTO’s trade focus, degrowth’s anti-growth stance, and doughnut economics’ static boundaries, it integrates **Hearts** as a global coordinating currency, **Leaves** for micro-recognition, and a four-layered **Adaptive Universal Basic Income (AUBI)** system for resource justice.
 - **Goals**: Achieve 70% local economic sovereignty, 80% equitable resource access, 90% system interoperability within 10 years of implementation.
 - **Key Features**: **Hearts** and **Leaves** currencies, ethical trade zones, four-layered AUBI, **Love Ledger** for value tracking, global commons governance via the **Social Resilience Council**.
@@ -16,7 +16,7 @@
 ---
 
 ## 1. Introduction
-- **Purpose**: Create a resilient economic integration framework to foster **Right Relationship**—balanced, regenerative connections between individuals, communities, and the planet. While the AUBI Framework defines the GGF's currency and social safety net, the Nested Sovereignty Framework defines the **'where' and 'how'** of economic activity. It provides the architectural rules for how local BAZ economies, regional trade networks, and the global commons can interoperate without sacrificing local autonomy.
+- **Purpose**: Create a resilient economic integration framework to foster **Right Relationship**—balanced, regenerative connections between individuals, communities, and the planet. While the AUBI Framework defines the GGF's currency and social safety net, the Nested Economies Framework defines the **'where' and 'how'** of economic activity. It provides the architectural rules for how local BAZ economies, regional trade networks, and the global commons can interoperate without sacrificing local autonomy.
 - **Scope**: Address global challenges (inequality, resource depletion, cultural erosion) through nested systems powered by **Hearts** and AUBI.
 - **Distinctions**:
   - *Vs. EU*: Prioritizes local diversity over regulatory uniformity.
@@ -30,7 +30,7 @@
   | WTO | Global trade | Market access | Ignores equity |
   | Degrowth | Reduced consumption | Ecological focus | Stagnation risk |
   | Doughnut Economics | Boundaries | Holistic metrics | Less interoperable |
-  | Nested Sovereignty | Right Relationship, justice | Autonomy, **Hearts**, AUBI | Complex implementation |
+  | Nested Economies | Right Relationship, justice | Autonomy, **Hearts**, AUBI | Complex implementation |
 - **Framework Family Tree**: Diagram tracing lineage (cooperative economics, commons theory, blockchain interoperability) and innovations (**Hearts**, AUBI, **Love Ledger**).
 - **Goals**: Equitable resource distribution, regenerative practices, inclusive participation measured by the **Love, Meaning, and Connection Index (LMCI)**.
 - **Key Principles** (color-coded):

@@ -11,310 +11,270 @@ section: engagement
 **In this section:**
 - [Community Weaver Professional Development](#community-weaver-development)
 - [Strategic Communications and Movement Building](#strategic-communications)
-- [Interactive Learning Tools and Accessibility](#interactive-learning)
+- [BAZ Formation Support and Training](#baz-formation-support)
+- [Hearts Currency Education and Outreach](#hearts-currency-education)
 - [Cultural Protocol and Inclusive Engagement](#cultural-protocols)
-- [Academic and Research Integration](#academic-research)
-- [Policy Advocacy and Political Engagement](#policy-advocacy)
-- [Global Solidarity and International Networks](#global-solidarity)
+- [Digital Platforms and Interactive Learning](#digital-platforms)
+- [Policy Advocacy and Institutional Engagement](#policy-advocacy)
 
-**Estimated Reading Time**: 16 minutes
+**Estimated Reading Time**: 14 minutes
 
-*Elena presents her Hearts currency pilot to healthcare workers across California, sharing not just technical details but stories of community transformation—how sliding-scale healthcare enabled a grandmother to access diabetes care, how Hearts payments attracted young healers to community work, how democratic governance gave residents voice in clinic priorities. Maya speaks at watershed conferences about bioregional cooperation, demonstrating how traditional knowledge and scientific monitoring create superior restoration outcomes while building economic sustainability for conservation work. Joseph travels to Indigenous governance gatherings, sharing protocols for protecting traditional knowledge within contemporary economic systems while maintaining ceremonial authority and cultural sovereignty.*
+*Elena presents her Hearts currency pilot to healthcare workers across California, sharing stories of community transformation—how sliding-scale healthcare enabled diabetes care for a grandmother, how Hearts payments attracted young healers to community work, how democratic governance gave residents voice in clinic priorities. Maya speaks at watershed conferences about single Hearts currency benefits, demonstrating how eliminating exchange rates enables restoration across multiple BAZs while building economic sustainability. Joseph travels to Indigenous governance gatherings, sharing protocols for protecting traditional knowledge within Hearts systems while maintaining ceremonial authority and cultural sovereignty.*
 
-*Their outreach work demonstrates that public engagement for nested economies requires more than information sharing—it demands relationship building, story telling, and movement coordination that honors diverse cultural approaches to communication while building solidarity across differences. The Community Weaver role provides professional infrastructure for this engagement while strategic communications reach broader audiences ready for economic transformation.*
+*Their outreach demonstrates that public engagement for Hearts economy requires relationship building, storytelling, and movement coordination that honors diverse cultural approaches while building solidarity through shared participation in single Hearts currency.*
 
 ## <a id="community-weaver-development"></a>Community Weaver Professional Development
 
-Community Weavers serve as the essential human infrastructure connecting communities with nested economies systems while respecting cultural protocols and building authentic relationships:
+Community Weavers provide essential human infrastructure connecting communities with Hearts economy while respecting cultural protocols:
 
-### Professional Competency Framework and Training Architecture
+### Core Competency Development
 
-**Hearts and Love Ledger Technical Mastery**: Community Weavers develop comprehensive technical competency enabling communities to participate fully in Hearts currency systems including wallet setup, transaction verification, contribution validation, blockchain basics, and troubleshooting while maintaining focus on community empowerment rather than technological dependency or expert gatekeeping.
+**Hearts Currency Facilitation**: Community Weavers master Hearts wallet operations, Community Provider integration, BAZ treasury management, and Proof of Care validation enabling communities to participate effectively in single Hearts currency while building local capacity for autonomous Hearts economy management and cultural adaptation.
 
-**Technical Training Components**: Six-month certification program covers Hearts currency mechanics (25% of curriculum), Love Ledger operations and blockchain basics (20%), mobile application usage and accessibility features (15%), cybersecurity and data sovereignty protection (15%), system integration with existing community resources (15%), and peer education and community training methods (10%).
+**BAZ Formation Expertise**: Comprehensive training in 4-step BAZ formation process including Convening Circle facilitation, Proto-Treasury establishment, Community Provider chartering, and BAZ Council formalization ensuring Community Weavers can guide any community through Hearts economy participation while respecting cultural protocols and traditional governance.
 
-**LMCI Assessment and Community Validation Skills**: Training in Love, Meaning, and Connection Index assessment enables Community Weavers to facilitate community evaluation of contributions while preventing gaming and manipulation through peer validation techniques, impact measurement methodologies, cultural adaptation protocols, and appeals process facilitation ensuring LMCI reflects community values rather than external metrics.
+**Cultural Protocol Competency**: Training includes Indigenous sovereignty protection, traditional knowledge respect, ceremonial accommodation, and anti-appropriation safeguards ensuring Community Weavers support rather than undermine traditional governance while building respectful relationships across cultural differences and community contexts.
 
-**Assessment Skills Development**: Training covers community-based evaluation methods (30%), cultural adaptation of success metrics (25%), peer validation and conflict resolution (20%), bias prevention and inclusion protocols (15%), and appeals and grievance facilitation (10%) ensuring assessment serves community development rather than external accountability requirements.
+**LMCI Assessment and Community Validation**: Skills in Love, Meaning, and Connection Index facilitation, community evaluation processes, and peer validation techniques enabling Community Weavers to support communities in measuring success according to their values while contributing to regional learning and Hearts economy improvement.
 
-### Indigenous Governance Protocol Competency and Cultural Sensitivity
+### 6-Month Practical Training Program
 
-**Traditional Knowledge Protection and Cultural Sovereignty**: Comprehensive training in [Indigenous governance principles](/frameworks/indigenous-governance-and-traditional-knowledge#core-principles) including Free, Prior, and Informed Consent protocols, traditional knowledge sovereignty, ceremonial requirements, and cultural protocol compliance ensuring respectful engagement with traditional knowledge systems while preventing appropriation or exploitation.
+**Hands-On Learning Approach**: Training combines Hearts currency mechanics (25%), BAZ formation facilitation (25%), cultural competency development (20%), conflict resolution and mediation (15%), and community organizing skills (15%) through practical application rather than theoretical classroom education ensuring real-world effectiveness.
 
-**Indigenous Protocol Training Components**: Cultural sovereignty principles and territorial recognition (25%), traditional knowledge protection and anti-appropriation (20%), ceremonial calendar and spiritual requirements (20%), traditional governance systems and consensus processes (15%), traditional authority recognition and elder relationships (10%), and contemporary Indigenous political context and solidarity (10%).
+**Mentorship and Community Integration**: Each trainee partners with experienced Community Weavers and traditional knowledge keepers providing practical guidance, cultural grounding, and ongoing support while building relationships with Indigenous communities and traditional authorities ensuring respectful rather than extractive learning approaches.
 
-**Anti-Colonial Practice and Ally Accountability**: Training includes recognition of colonial history and ongoing impacts, ally accountability protocols, solidarity rather than charity approaches, and community leadership development ensuring Community Weavers support rather than undermine Indigenous sovereignty and traditional governance while building authentic relationships based on mutual respect and reciprocity.
+**Community-Based Practice**: Training includes supervised facilitation in actual BAZ formation processes, Hearts currency implementations, and community conflicts enabling Community Weavers to develop skills while contributing to real community development rather than artificial training exercises or academic simulations.
 
-**Decolonization Skills**: Historical trauma awareness and healing approaches (30%), decolonization principles and community leadership (25%), anti-racism and bias interruption (20%), solidarity organizing and ally accountability (15%), and traditional healing and wellness integration (10%) ensuring Community Weavers contribute to rather than detract from decolonization work.
+**Cultural Adaptation and Traditional Knowledge Integration**: Training respects diverse cultural approaches to facilitation, decision-making, and community relationships while preventing appropriation and building capacity for respectful cross-cultural engagement and traditional knowledge protection in Hearts economy implementation.
 
-### Stakeholder Facilitation and Conflict Resolution Excellence
+### AUBI Layer 2 Compensation and Community Accountability
 
-**Multi-Stakeholder Facilitation and Community Organizing**: Community Weavers develop sophisticated facilitation skills enabling authentic participation across diverse community groups while addressing power imbalances and preventing elite capture through consensus building, power analysis, inclusive design, and community organizing techniques that build rather than extract from community social capital.
+**Hearts Currency Compensation**: Community Weaver activities receive AUBI Framework v5.0 Layer 2 Contribution Bonuses through Hearts payments for verified facilitation (10 Hearts/hour), training (12 Hearts/hour), conflict resolution (15 Hearts/hour), and BAZ formation support (13 Hearts/hour) ensuring economic sustainability while maintaining community accountability.
 
-**Facilitation Skills Curriculum**: Consensus building and decision-making facilitation (25%), power analysis and anti-oppression facilitation (20%), conflict transformation and restorative justice (20%), cultural competency and cross-cultural communication (15%), trauma-informed practice and healing-centered approaches (10%), and community organizing and leadership development (10%).
+**Community-Controlled Evaluation**: Community Weavers receive regular assessment through served communities including satisfaction surveys, relationship quality evaluation, and cultural competency assessment ensuring accountability to community needs rather than professional advancement or external organizational interests.
 
-**Traditional Conflict Resolution and Restorative Justice**: Training integrates Indigenous and traditional approaches to conflict resolution including talking circles, consensus processes, traditional mediation, and community healing while respecting cultural protocols and traditional authority ensuring conflict resolution strengthens rather than fragments community relationships.
+**Professional Development and Peer Learning**: Ongoing education through regional networks, annual gatherings, skill-sharing workshops, and innovation documentation enable Community Weavers to strengthen capacity while contributing to movement development and community empowerment rather than individual career advancement.
 
-**Restorative Justice Training**: Traditional conflict resolution approaches and cultural protocols (30%), talking circles and consensus facilitation (25%), trauma-informed mediation and healing approaches (20%), community accountability and restorative practices (15%), and spiritual healing and traditional justice integration (10%).
+**Traditional Authority Recognition**: Community Weavers working with Indigenous communities operate under traditional authority guidance with ongoing accountability to elders, traditional knowledge keepers, and Indigenous governance systems ensuring support strengthens rather than undermines Indigenous sovereignty and cultural integrity.
 
-### Compensation Structure and Professional Recognition
+### Community Weaver Network Development
 
-**AUBI Layer 2 Hearts Compensation and Economic Security**: Community Weaver activities receive [AUBI Layer 2 bonuses](/frameworks/adaptive-universal-basic-income#layer-2-contribution) in Hearts currency for verified community service including facilitation (10 Hearts/hour), training and education (12 Hearts/hour), conflict resolution (15 Hearts/hour), and technical support (8 Hearts/hour) validated through community feedback and impact assessment.
+**Regional Support Networks**: Community Weavers organize into bioregional networks for peer learning, collaborative problem-solving, and mutual support while respecting cultural sovereignty and maintaining accountability to local communities rather than professional association interests or external organizational priorities.
 
-**Professional Development Investment and Career Pathways**: Comprehensive support for continuing education including conference attendance ($2,000 annually), advanced training and certification ($1,500 annually), peer learning network participation ($1,000 annually), and innovation project funding ($2,500 annually) enabling Community Weavers to develop expertise while contributing to movement development.
+**Crisis Response Specialization**: Community Weavers develop capacity for emergency facilitation during natural disasters, economic crises, and social conflicts including rapid deployment, trauma-informed support, and community solidarity coordination ensuring communities receive appropriate assistance during challenging periods.
 
-**Community Recognition and Advancement Opportunities**: Ceremonial recognition honoring outstanding contributions to community wellbeing through annual appreciation gatherings, community storytelling about impact, and elder blessing ceremonies while providing advancement opportunities into regional coordination, global governance roles, and traditional knowledge protection within nested economies networks.
+**Innovation Documentation and Sharing**: Successful facilitation approaches receive community-controlled documentation and peer sharing while maintaining community ownership of innovations ensuring knowledge contributes to movement building rather than extracting intellectual property for external benefit or professional advancement.
 
-**Performance Evaluation and Community Accountability**: Regular evaluation by served communities including quarterly feedback sessions (community satisfaction assessment), annual impact evaluation (relationship quality and community empowerment), peer review and collaboration assessment (cooperative relationship building), and traditional authority validation (cultural protocol compliance and respect demonstration).
-
-### Training Program Implementation and Community Partnership
-
-**Six-Month Certification Curriculum and Cohort Learning**: Comprehensive program combining online learning (40% of time), in-person workshops (30%), practical internships (20%), and mentorship relationships (10%) with experienced Community Weavers and traditional knowledge keepers ensuring both technical competency and cultural grounding through community-controlled education processes.
-
-**Mentorship Networks and Traditional Knowledge Integration**: Each Community Weaver receives mentorship from experienced practitioners and traditional knowledge keepers while participating in peer learning cohorts that share challenges, innovations, and best practices across bioregions and cultural contexts through respectful cross-cultural exchange and collaborative problem-solving.
-
-**Practical Internship and Community Integration**: Real-world experience in pilot communities developing facilitation skills, technical competency, cultural sensitivity, and community relationship building while contributing to actual nested economies implementation under supervision and guidance ensuring learning serves rather than extracts from community development work.
-
-**Ongoing Professional Development and Movement Integration**: Continuing education through regional networks, annual conferences, skill-sharing workshops, and innovation documentation ensuring Community Weavers stay current with system evolution while contributing to knowledge commons development and movement building across diverse cultural and political contexts.
+**Movement Integration and Political Development**: Community Weavers connect Hearts economy development with broader social justice organizing including Indigenous sovereignty, climate action, economic democracy, and cooperative development while maintaining community control over political engagement and movement participation priorities.
 
 ## <a id="strategic-communications"></a>Strategic Communications and Movement Building
 
-Effective communication builds understanding and support while respecting diverse cultural approaches to storytelling and information sharing:
+Effective communication builds understanding and support while respecting diverse cultural approaches to storytelling:
 
-### #NestedEconomies Movement and Digital Organizing
+### #NestedEconomies Movement Campaign
 
-**Social Media Campaign and Viral Content Strategy**: Coordinated social media campaign highlighting successful community transformations through compelling storytelling, visual documentation, and peer testimonials using hashtags #NestedEconomies, #HeartsForCommunity, #RightRelationshipEconomics, and #EconomicSovereignty while respecting community privacy and cultural protocols around public sharing.
+**Single Hearts Currency Messaging**: Coordinated communication emphasizing universal Hearts currency benefits including elimination of exchange rate complexity, seamless inter-community trade, and global recognition for care work while maintaining community sovereignty through BAZ formation and cultural adaptation protocols.
 
-**Content Development Strategy**: Community success stories and transformation narratives (30%), educational content about Hearts currency and LMCI (25%), policy advocacy and political engagement (20%), cultural celebration and diversity recognition (15%), and movement building and solidarity development (10%) ensuring content serves community empowerment rather than external promotion or extraction.
+**Community Success Storytelling**: Highlighting transformation stories from Elena's healthcare access improvements, Maya's multi-BAZ restoration coordination, and Joseph's cultural sovereignty strengthening through Hearts currency while respecting community privacy and preventing extractive media representation or cultural appropriation.
 
-**Storytelling Workshops and Community Media Development**: Community-controlled storytelling workshops helping communities document and share their experiences through digital media, podcasts, community newsletters, and cultural events while maintaining community ownership of stories and preventing extractive media representation or cultural appropriation.
+**BAZ Formation Promotion**: Education campaign demonstrating 4-step BAZ formation process accessibility including community readiness examples, formation success stories, and Community Weaver support availability while building grassroots interest in Hearts economy participation and community economic sovereignty.
 
-**Digital Organizing Training**: Community media creation and storytelling (30%), social media strategy and digital organizing (25%), privacy protection and digital security (20%), community-controlled content development (15%), and movement coordination and solidarity building (10%) ensuring digital organizing serves rather than exploits community organizing and political development.
+**Social Media Strategy**: Coordinated digital campaign using hashtags #HeartsForCommunity, #BAZFormation, #RightRelationshipEconomics, and #CommunitySovereignty while maintaining community control over story sharing and preventing appropriation of community innovations or traditional knowledge through media engagement.
 
 ### Educational Infrastructure and Knowledge Sharing
 
-**Community Workshop Program and Peer Education**: 100 community workshops annually with hands-on Hearts currency experience, cooperative formation training, democratic governance skill development, and conflict resolution capacity building through peer education networks that build community relationships while developing practical skills and political consciousness.
+**Hearts Economy Workshops**: 100 community workshops annually providing hands-on Hearts currency experience, BAZ formation training, and Community Weaver introductions through peer education networks building community relationships while developing practical skills for Hearts economy participation and community empowerment.
 
-**Workshop Curriculum and Community Education**: Hearts currency implementation and cooperative development (25%), democratic governance and consensus building (20%), conflict resolution and community healing (20%), cultural sovereignty and traditional knowledge protection (15%), ecological restoration and regenerative economics (10%), and movement building and political organizing (10%).
+**Monthly Webinars and Cross-Regional Learning**: Online gatherings connecting communities implementing Hearts currency for peer learning, problem-solving collaboration, and innovation sharing while respecting cultural protocols and maintaining community ownership of knowledge and successful approaches.
 
-**Monthly Webinars and Cross-Regional Learning**: Regular online gatherings connecting communities across bioregions for peer learning, problem-solving collaboration, innovation sharing, and relationship building through digital platforms that accommodate diverse technological access while building networks of communities implementing nested economies systems.
+**University and Academic Partnerships**: Educational collaborations providing research support, policy analysis, and student engagement while maintaining community control over academic relationships and ensuring research serves community development rather than extracting knowledge for academic advancement or institutional prestige.
 
-**Educational Webinar Series**: Community success stories and best practice sharing (30%), technical training and troubleshooting support (25%), policy advocacy and political strategy (20%), cultural exchange and solidarity building (15%), and movement coordination and campaign development (10%) ensuring education serves community empowerment and movement building.
+**Community-Controlled Media Development**: Training for community members in storytelling, digital media creation, and documentation while maintaining community ownership of stories and preventing extractive journalism or cultural appropriation through media engagement and representation.
 
-### Media Partnerships and Mainstream Outreach
+### Influencer and Media Partnerships
 
-**TEDx Talks and Public Speaking Strategy**: Community leaders and Community Weavers presenting nested economies innovations at TEDx events, academic conferences, and public forums while maintaining community ownership of ideas and preventing appropriation or misrepresentation of community innovations and traditional knowledge.
+**TEDx and Public Speaking Strategy**: Community leaders presenting Hearts currency innovations at conferences, forums, and public events while maintaining community ownership of ideas and ensuring presentations serve movement building rather than individual recognition or external appropriation of community innovations.
 
-**YouTube and Podcast Influencer Partnerships**: Collaborations with content creators, social justice educators, and movement leaders who understand community sovereignty and economic justice while ensuring partnerships serve rather than exploit community innovations and respecting cultural protocols around public representation and story sharing.
+**YouTube and Podcast Engagement**: Collaborations with content creators understanding community sovereignty and economic justice while ensuring partnerships serve community empowerment and respecting cultural protocols around public representation and story sharing through media platforms.
 
-**Academic and Research Conference Presentations**: Community leaders presenting research and innovations at academic conferences while maintaining community ownership of research and preventing extractive academic practices that benefit researchers rather than serving community development and political empowerment.
+**Mainstream Media Education**: Training journalists and media professionals in Hearts economy principles, cultural protocol respect, and community sovereignty while building media capacity for accurate representation and preventing misrepresentation or appropriation of community innovations.
 
-**Media Strategy and Community Control**: All media engagement operates through community-controlled protocols ensuring communities maintain authority over representation, story sharing, and public engagement while building movement support and preventing misrepresentation or appropriation of community innovations.
+**Community Media Development**: Support for community-controlled media platforms including newsletters, podcasts, and digital content creation while building community capacity for autonomous media production and ensuring community control over representation and story sharing.
 
-### Global Hackathon and Technology Development
+## <a id="baz-formation-support"></a>BAZ Formation Support and Training
 
-**Annual Global Hackathon and Innovation Competition**: Year 2 launch engaging 1,000 developers in open-source platform development for Hearts currency systems, Love Ledger improvements, and accessibility innovations while maintaining community control over technology development and ensuring innovations serve community sovereignty rather than corporate interests.
+Comprehensive support enables any community to successfully navigate 4-step BAZ formation process:
 
-**Hackathon Structure and Community Partnership**: Technical development and innovation (40%), community-controlled design and accessibility (30%), cultural protocol integration and Indigenous data sovereignty (20%), and movement building and solidarity development (10%) ensuring technology development serves rather than undermines community autonomy and cultural sovereignty.
+### Step-by-Step Formation Guidance
 
-**Innovation Prizes and Community Recognition**: Recognition and funding for innovations that serve community sovereignty, cultural preservation, ecological restoration, and economic democracy while ensuring innovating communities receive ongoing relationships and benefits rather than one-time payments or external appropriation of community innovations.
+**Convening Circle Facilitation Training**: Community Weaver support for stakeholder engagement, readiness assessment, and vision development including power analysis, conflict resolution, and inclusive participation ensuring broad community engagement while respecting traditional governance and existing community leadership structures.
 
-**Technology Commons Development**: All hackathon innovations contribute to technology commons through open-source development, community-controlled licensing, and collaborative improvement ensuring technological innovation serves movement building rather than individual or corporate accumulation while maintaining community sovereignty over technology adoption and adaptation.
+**Proto-Treasury Management Education**: Technical assistance for Hearts allocation, community budgeting, and financial transparency including accounting training, democratic oversight, and treasury management while building community capacity for autonomous financial management and transparent resource allocation.
 
-## <a id="interactive-learning"></a>Interactive Learning Tools and Accessibility
+**Community Provider Development Support**: Assistance with service provider identification, charter applications, Hearts integration, and quality monitoring including business development, community benefit assessment, and cultural protocol compliance ensuring providers serve community needs while maintaining Hearts economy integrity.
 
-Diverse learning approaches accommodate different cultural traditions and technological access levels:
+**BAZ Council Formation and Governance Training**: Support for council selection, authority establishment, and democratic accountability including consensus building, traditional governance integration, and ongoing community engagement ensuring effective governance while maintaining community sovereignty and cultural adaptation.
 
-### Hearts Simulator and Digital Learning Platform
+### Community Readiness Assessment Tools
 
-**Web-Based Hearts Currency Simulation**: Interactive platform at globalgovernanceframework.org/simulator enabling users to experience Hearts currency mechanics, cooperative decision-making, and bioregional coordination through gamified scenarios that demonstrate community empowerment, ecological restoration, and democratic governance while maintaining educational rather than extractive purposes.
+**25-Point Assessment Framework**: Simple evaluation covering social cohesion (10 points), economic diversity (5 points), technical access (5 points), and cultural protocols (5 points) with community-controlled self-assessment enabling communities to identify strengths and capacity-building priorities for successful Hearts economy participation.
 
-**Simulation Features and Educational Design**: Hearts currency circulation and community impact (30%), cooperative enterprise development and democratic ownership (25%), bioregional coordination and resource sharing (20%), crisis response and mutual aid (15%), and cultural sovereignty and traditional knowledge protection (10%) ensuring simulation educates rather than trivializes community innovations.
+**Cultural Adaptation Checklists**: Guidelines for accommodating Indigenous governance, traditional knowledge protection, religious practices, and diverse community approaches ensuring BAZ formation strengthens rather than threatens cultural identity while enabling effective Hearts currency participation and regional cooperation.
 
-**Scenario-Based Learning and Community Challenges**: Diverse scenarios demonstrating crisis response coordination, community economic development, ecological restoration projects, cultural preservation initiatives, and conflict resolution approaches while respecting community protocols and preventing appropriation of specific community innovations or traditional knowledge.
+**Community Asset Mapping**: Tools for identifying existing community strengths, potential Community Providers, cultural resources, and traditional knowledge while building community awareness of assets and capabilities for Hearts economy development and autonomous prosperity building.
 
-**Cultural Adaptation and Accessibility Features**: Simulation operates in multiple languages with cultural adaptation protocols, accessibility features including screen readers and keyboard navigation, offline functionality for limited connectivity areas, and community-controlled content ensuring universal access while respecting diverse cultural approaches to learning.
+**Stakeholder Engagement Protocols**: Guidelines for inclusive community engagement across age, culture, economic status, and community role ensuring BAZ formation serves broad community representation while maintaining manageable decision-making and respecting traditional authority and cultural protocols.
 
-### Economic Integration Board Game and Physical Learning Tools
+### Implementation Support Resources
 
-**Cooperative Board Game and Community Learning**: Physical game for communities without reliable internet access demonstrating cooperative economic principles, bioregional coordination, and democratic decision-making through gameplay that builds relationships while teaching nested economies principles and community organizing skills.
+**Community Organizing and Facilitation Training**: Skills development in consensus building, power analysis, conflict resolution, and inclusive participation while respecting cultural approaches to decision-making and traditional governance systems ensuring communities develop capacity for democratic Hearts economy governance.
 
-**Game Design and Educational Objectives**: Cooperative rather than competitive gameplay (40%), bioregional coordination and resource sharing (25%), democratic decision-making and consensus building (20%), crisis response and mutual aid (10%), and cultural sovereignty and traditional knowledge respect (5%) ensuring gameplay serves relationship building and political education.
+**Legal and Regulatory Navigation**: Assistance with cooperative formation, currency implementation within legal frameworks, and policy advocacy while building community capacity for legal advocacy and ensuring implementation strengthens rather than threatens community sovereignty and traditional governance systems.
 
-**Cultural Adaptation Kits and Community Customization**: Game adaptation materials for different bioregional contexts, cultural traditions, and community priorities enabling communities to customize gameplay according to their values and experiences while maintaining core educational objectives and cooperative principles.
+**Technical Infrastructure Support**: Hearts wallet setup, Love Ledger access, community technology centers, and digital literacy training ensuring universal participation while building community technological sovereignty and preventing digital divides from determining economic participation or community empowerment.
 
-**Educational Integration and Community Use**: Games integrate with formal and informal learning systems including schools, community centers, adult education programs, and cultural events while building community capacity for cooperative decision-making and economic democracy through experiential learning and relationship building.
+**Crisis and Emergency Planning**: Support for emergency response planning, mutual aid network development, and crisis communication ensuring communities build resilience while maintaining sovereignty over assistance acceptance and ensuring crisis preparation strengthens rather than threatens community relationships.
 
-### Digital Accessibility and Universal Design
+## <a id="hearts-currency-education"></a>Hearts Currency Education and Outreach
 
-**Multi-Language Support and Cultural Translation**: Core materials translated into 10 major languages with cultural adaptation protocols developed in partnership with native speakers and cultural practitioners ensuring accurate translation that respects cultural concepts and community protocols rather than imposing external linguistic frameworks.
+Comprehensive education builds understanding of single Hearts currency benefits and implementation:
 
-**Indigenous Language Integration**: Materials available in Indigenous languages through partnerships with language preservation programs and fluent speaker communities while respecting cultural protocols around language use and maintaining community control over translation and adaptation processes.
+### Hearts Currency Mechanics and Benefits
 
-**Accessibility Standards and Universal Participation**: All digital tools include comprehensive accessibility features including screen readers and voice navigation for visual accessibility, large font and high contrast options for visual impairment, keyboard navigation for mobility accommodation, and simplified interfaces for cognitive accessibility ensuring universal participation regardless of disability status.
+**Universal Recognition Education**: Explanation of single Hearts currency advantages including elimination of exchange rate complexity, seamless inter-community trade, global recognition for care work, and simplified implementation while maintaining community sovereignty through BAZ formation and cultural adaptation.
 
-**Offline Access and Low-Bandwidth Solutions**: All educational materials function offline through downloadable resources, SMS-based interaction for basic phone access, and physical material distribution for communities without internet access ensuring digital divides don't prevent learning and participation in nested economies education and movement building.
+**Proof of Care Validation Training**: Education about contribution verification, peer validation, community impact assessment, and anti-gaming protections ensuring community members understand how Hearts recognize authentic care work while preventing manipulation and maintaining system integrity.
 
-### Economic Integration Seed Kit and Implementation Resources
+**Community Provider Integration**: Training for businesses and service providers in Hearts acceptance, point-of-sale integration, community benefit requirements, and cultural protocol compliance enabling broad Hearts economy participation while maintaining service quality and community relationships.
 
-**Comprehensive Implementation Guide**: PDF and video guide providing step-by-step Hearts currency implementation instructions, cooperative formation guidance, participatory governance facilitation, and conflict resolution protocols enabling communities to begin nested economies implementation with cultural adaptation and community control.
+**AUBI Framework Coordination**: Education about Hearts currency role as AUBI Layer 2 mechanism, economic security foundation, and coordinated rather than competing systems enabling community members to understand comprehensive economic support while maintaining Hearts economy focus on community contribution recognition.
 
-**Resource Components and Community Support**: Hearts currency setup and implementation (25%), cooperative formation and democratic governance (25%), bioregional coordination and regional networking (20%), conflict resolution and community healing (15%), cultural sovereignty and traditional knowledge protection (10%), and movement building and political organizing (5%).
+### Care Economy Recognition and Value
 
-**Video Tutorial Series and Visual Learning**: Video demonstrations of Hearts wallet setup, community governance facilitation, cooperative formation, and conflict resolution while respecting community privacy and preventing appropriation of specific community innovations through general education rather than community-specific documentation.
+**Care Work Visibility**: Education about Hearts payments for traditionally unpaid work including childcare, elder care, community organizing, and cultural preservation making visible and economically viable the work that sustains communities while challenging market definitions of valuable activity.
 
-**Legal Resource Guides and Regulatory Navigation**: Implementation guides adapted to different national and regional legal frameworks including cooperative law, alternative currency regulations, and Indigenous sovereignty protections while building advocacy capacity for legal reform and community protection from hostile legal environments.
+**Ecological Restoration Economics**: Training about Hearts payments for biodiversity improvements, carbon sequestration, ecological stewardship, and traditional ecological knowledge application creating economic incentives for environmental protection while building bioregional cooperation and traditional knowledge recognition.
+
+**Cultural Preservation Economics**: Education about Hearts recognition for traditional knowledge transmission, language preservation, artistic expression, and ceremonial leadership ensuring cultural work receives economic support while strengthening community identity and intergenerational connection.
+
+**Community Organizing and Democratic Participation**: Recognition of Hearts payments for consensus building, conflict resolution, democratic facilitation, and community empowerment ensuring democracy-building work receives economic support while strengthening community capacity for self-governance.
+
+### Integration with Existing Systems
+
+**Fiat Currency Bridge Education**: Training about Heartstarter programs, cooperative enterprise integration, and gradual transition approaches enabling communities to build Hearts economy while maintaining essential financial relationships and legal compliance with existing economic regulations and requirements.
+
+**Legal Framework Navigation**: Education about Hearts currency legality, community service exchange protocols, gift economy approaches, and regulatory compliance while advocating for supportive legislation and building legal precedent for community economic sovereignty and alternative currency systems.
+
+**Technology Integration Training**: Education about Hearts wallet operation, Love Ledger participation, offline functionality, and accessibility features ensuring universal participation while building community technological capacity and digital sovereignty for autonomous system management.
+
+**Crisis Response and Emergency Integration**: Training about Hearts currency role in emergency response, mutual aid coordination, and crisis recovery while maintaining community control over assistance acceptance and ensuring Hearts economy strengthens community resilience and solidarity relationships.
 
 ## <a id="cultural-protocols"></a>Cultural Protocol and Inclusive Engagement
 
-Engagement must respect and strengthen diverse cultural approaches rather than imposing external communication frameworks:
+Engagement must respect and strengthen diverse cultural approaches while building solidarity:
 
-### Indigenous Protocol and Cultural Sovereignty
+### Indigenous Protocol and Sovereignty Protection
 
-**Free, Prior, and Informed Consent for All Engagement**: All outreach activities with Indigenous communities follow FPIC protocols including traditional authority consultation, cultural protocol respect, and ongoing consent verification while ensuring engagement strengthens rather than exploits Indigenous sovereignty and traditional governance systems.
+**Free, Prior, and Informed Consent Implementation**: All outreach with Indigenous communities follows enhanced FPIC protocols including traditional authority consultation, ongoing consent verification, and community control over engagement ensuring outreach strengthens rather than undermines Indigenous sovereignty and traditional governance systems.
 
-**Traditional Authority Integration and Elder Leadership**: Outreach includes formal roles for traditional authorities, elder councils, and cultural practitioners with recognition of traditional governance authority and cultural protocol requirements ensuring engagement serves rather than undermines traditional leadership and community decision-making processes.
+**Traditional Knowledge Protection and Anti-Appropriation**: Outreach includes explicit protection against cultural appropriation, spiritual exploitation, and traditional knowledge extraction while supporting beneficial sharing through community-controlled protocols ensuring Indigenous communities benefit from rather than experience exploitation through Hearts economy engagement.
 
-**Cultural Protocol Training and Respectful Engagement**: All Community Weavers and outreach coordinators receive comprehensive training in Indigenous cultural protocols, colonial history awareness, and ally accountability while building relationships based on solidarity rather than charity and mutual liberation rather than external assistance.
+**Earth Council Authority Recognition**: All Indigenous engagement operates under Earth Council oversight with Indigenous veto authority over decisions affecting sovereignty ensuring outreach serves rather than threatens Indigenous communities while supporting traditional governance revitalization and territorial rights recognition.
 
-**Anti-Appropriation Safeguards and Knowledge Protection**: Outreach activities include explicit protection against cultural appropriation, traditional knowledge extraction, and spiritual exploitation while supporting beneficial knowledge sharing through community-controlled protocols and ongoing consent verification.
+**Traditional Governance Integration**: Outreach accommodates Indigenous consensus processes, elder authority, ceremonial requirements, and traditional law while enabling Hearts economy participation that strengthens rather than undermines traditional governance and cultural practices.
 
 ### Religious and Spiritual Accommodation
 
-**Faith-Based Community Engagement and Religious Freedom**: Outreach accommodates diverse religious and spiritual traditions including Islamic community engagement, Christian social justice integration, Buddhist mindfulness approaches, and secular humanist organizing while respecting religious autonomy and preventing religious coercion or discrimination.
+**Interfaith Engagement and Religious Freedom**: Outreach accommodates diverse religious traditions including Islamic finance principles, Christian stewardship concepts, Buddhist economic ethics, and secular approaches while building interfaith cooperation for Hearts economy participation that respects rather than conflicts with spiritual commitments.
 
-**Interfaith Dialogue and Spiritual Integration**: Community Weavers facilitate interfaith cooperation and spiritual dialogue while respecting religious boundaries and maintaining secular options ensuring religious diversity strengthens rather than fragments community organizing and economic development while building bridges across difference.
+**Spiritual Care and Religious Education Recognition**: Hearts currency education includes recognition for spiritual guidance, religious education, pastoral care, and interfaith dialogue while maintaining secular governance options and ensuring religious freedom for all community members regardless of faith tradition.
 
-**Sacred Calendar and Holy Day Accommodation**: All outreach activities accommodate religious calendars, holy day observances, and spiritual requirements ensuring engagement supports rather than conflicts with religious practices while enabling effective coordination across different faith traditions and secular community organizing approaches.
+**Sacred Calendar and Religious Practice Integration**: Outreach accommodates religious calendars, holy day observances, and spiritual requirements ensuring engagement supports rather than conflicts with religious practices while enabling effective coordination across different faith traditions and secular approaches.
 
-**Religious Education and Spiritual Care Integration**: Outreach includes recognition of religious education, spiritual guidance, and pastoral care as valuable community contributions while maintaining separation of religious and secular governance and ensuring religious freedom for all community members regardless of faith tradition or secular orientation.
+**Faith-Based Community Organizing**: Recognition of religious community organizing, social justice action, and moral economy principles in Hearts currency while building interfaith cooperation and ensuring religious communities can participate according to their values while maintaining separation of religious and secular governance.
 
-### Language Access and Communication Sovereignty
+### Anti-Oppression and Social Justice Integration
 
-**Multi-Language Materials and Cultural Translation**: Outreach materials operate in community languages with cultural interpretation rather than imposing external languages or communication styles while building capacity for cross-cultural communication and mutual understanding across linguistic and cultural differences.
+**Racial Justice and Anti-Racism**: Outreach includes explicit anti-racism commitment, white supremacy analysis, and racial equity integration ensuring engagement serves rather than reproduces racial oppression while building multiracial solidarity and community empowerment across racial and ethnic differences.
 
-**Community-Controlled Translation and Interpretation**: Translation and interpretation services operate through community-controlled processes rather than external service providers ensuring cultural sensitivity and community ownership of communication while building local capacity for cross-cultural bridge building and interpretation.
+**Gender Justice and LGBTQ+ Inclusion**: Comprehensive gender justice integration including women's leadership, LGBTQ+ community organizing, and feminist economic analysis while building inclusive Hearts economy that serves rather than excludes marginalized gender identities and sexual orientations.
 
-**Traditional Communication Methods and Oral Tradition**: Outreach accommodates traditional communication approaches including oral tradition, storytelling, ceremonial communication, and traditional information sharing while integrating with contemporary digital communication and organizing tools.
+**Disability Justice and Accessibility**: Universal design principles ensuring engagement serves rather than excludes people with disabilities while building community capacity for accessibility and inclusion that strengthens rather than fragments community organizing and economic development.
 
-**Sign Language and Accessibility Communication**: Full sign language interpretation and deaf community engagement ensuring universal accessibility while building capacity for inclusive communication and community organizing that serves rather than excludes deaf and hard-of-hearing community members.
+**Economic Justice and Class Analysis**: Outreach addresses class differences and wealth inequality through analysis that builds rather than reproduces class divisions while developing Hearts economy that serves working class rather than elite interests and creating economic democracy through cooperative ownership.
 
-### Anti-Oppression and Inclusive Design
+## <a id="digital-platforms"></a>Digital Platforms and Interactive Learning
 
-**Anti-Racism and White Supremacy Dismantling**: Outreach includes explicit anti-racism training, white supremacy culture analysis, and racial justice integration ensuring engagement serves rather than reproduces racial oppression while building multiracial solidarity and community empowerment across racial and ethnic differences.
+Diverse digital approaches accommodate different learning styles and technological access:
 
-**Gender Justice and LGBTQ+ Inclusion**: Comprehensive gender justice integration including women's leadership development, LGBTQ+ community organizing, and feminist economic analysis while building capacity for inclusive community organizing that serves rather than excludes marginalized gender identities and sexual orientations.
+### Hearts Currency Simulator and Educational Tools
 
-**Disability Justice and Accessibility Integration**: Universal design and disability justice principles ensuring engagement serves rather than excludes people with disabilities while building community capacity for accessibility and inclusion that strengthens rather than fragments community organizing and economic development.
+**Web-Based Hearts Economy Simulation**: Interactive platform at globalgovernanceframework.org/hearts-simulator enabling users to experience Hearts currency mechanics, BAZ formation process, and Community Provider integration through gamified scenarios demonstrating community empowerment and economic sovereignty development.
 
-**Class Consciousness and Economic Justice**: Outreach addresses class differences and economic inequality through analysis and organizing that builds rather than reproduces class divisions while developing economic democracy and community ownership that serves working class rather than elite interests.
+**BAZ Formation Game and Learning Platform**: Step-by-step interactive guide through 4-step BAZ formation process including stakeholder engagement, treasury management, provider chartering, and council formation while respecting community protocols and maintaining educational rather than extractive purposes.
 
-## <a id="academic-research"></a>Academic and Research Integration
+**Community Provider Integration Training**: Online tools enabling potential providers to learn Hearts acceptance, community benefit assessment, and cultural protocol compliance while building capacity for Hearts economy participation and ensuring provider quality and community service.
 
-Research collaboration must serve community empowerment rather than extractive academic advancement:
+**LMCI Assessment and Evaluation Tools**: Interactive platforms enabling communities to practice Love, Meaning, and Connection Index evaluation, peer validation, and community-controlled assessment while building capacity for autonomous evaluation and success measurement according to community values.
 
-### Community-Controlled Research and Participatory Evaluation
+### Mobile and Accessibility Platforms
 
-**Community-Based Participatory Research Protocols**: All research operates through community-controlled protocols ensuring research serves community priorities rather than academic career advancement while building community capacity for research, evaluation, and knowledge production that strengthens rather than extracts from community intellectual development.
+**Hearts Wallet Training Applications**: Mobile-optimized tutorials for Hearts currency use, transaction management, and community participation with offline functionality ensuring universal access while building digital literacy and community technological capacity for Hearts economy participation.
 
-**Research Partnership Principles**: Community ownership of research questions and methodology (30%), community capacity building and skills development (25%), community control over data and publication (20%), community benefit and empowerment focus (15%), and academic accountability and relationship building (10%) ensuring research serves rather than exploits community knowledge and organizing.
+**SMS and Basic Phone Integration**: Hearts currency education and participation through text messaging enabling communities with limited internet access or smartphone availability to participate fully in Hearts economy while building technological capacity and digital equity.
 
-**Traditional Knowledge Integration and Protection**: Research includes traditional knowledge holders as equal partners rather than subjects or consultants while maintaining community control over traditional knowledge sharing and preventing appropriation or commercialization through community-controlled research protocols and ongoing consent verification.
+**Multi-Language and Cultural Adaptation**: Digital platforms operating in community languages with cultural adaptation protocols developed in partnership with native speakers and cultural practitioners ensuring accessibility across linguistic and cultural diversity while maintaining accurate translation and cultural sensitivity.
 
-**Youth and Elder Research Partnership**: Research includes formal roles for both young people and elders ensuring intergenerational knowledge integration while building capacity for community-controlled evaluation and knowledge production that serves both present needs and future community development priorities.
+**Accessibility and Universal Design**: Comprehensive accessibility features including screen readers, voice navigation, large fonts, and simplified interfaces ensuring participation regardless of disability status while building inclusive technological capacity and universal design principles.
 
-### Academic Institution Engagement and University Partnerships
+### Community-Controlled Platform Development
 
-**University Partnership Protocols and Community Benefit**: Academic partnerships operate through community-controlled agreements ensuring university engagement serves community development while building capacity for academic advocacy and policy research that supports rather than undermines community sovereignty and economic democracy.
+**Open-Source Educational Resources**: Complete Hearts economy educational materials available through open-source platforms with community-controlled development enabling local adaptation and cultural customization while maintaining community ownership of educational resources and knowledge commons.
 
-**Student Engagement and Educational Integration**: University students participate in community organizing and research through service learning, internship programs, and thesis research while maintaining community control over student involvement and ensuring student learning serves rather than extracts from community organizing and development work.
+**Community Media and Storytelling Platforms**: Tools enabling communities to create and share their Hearts economy experiences while maintaining community ownership of stories and preventing appropriation or exploitation through media platforms and representation.
 
-**Faculty Advocacy and Academic Freedom**: Faculty supporters provide research support, policy advocacy, and academic credibility while maintaining accountability to community organizations and respecting community leadership and decision-making authority over academic engagement and research priorities.
+**Peer Learning and Support Networks**: Digital platforms connecting communities implementing Hearts economy for mutual support, problem-solving, and innovation sharing while respecting cultural sovereignty and maintaining community control over knowledge sharing and relationship building.
 
-**Curriculum Development and Educational Reform**: Academic partnerships include curriculum development for economics, political science, public policy, and social work education while building academic support for nested economies and community economic democracy through educational reform and academic advocacy.
+**Innovation Documentation and Sharing**: Community-controlled platforms for documenting successful approaches, cultural adaptations, and Hearts economy innovations while maintaining community ownership and recognition ensuring innovations benefit movement building rather than external appropriation.
 
-### Policy Research and Legislative Advocacy
+## <a id="policy-advocacy"></a>Policy Advocacy and Institutional Engagement
 
-**Policy Analysis and Legal Research**: Academic partners provide policy analysis, legal research, and regulatory guidance supporting community advocacy while maintaining community control over advocacy priorities and ensuring research serves rather than constrains community organizing and political development.
+Strategic political engagement builds support while maintaining community sovereignty:
 
-**Legislative Advocacy and Legal Clinic Support**: Academic institutions provide legal clinic support, policy advocacy, and legislative research while building student capacity for community advocacy and ensuring legal support serves rather than controls community political organizing and sovereignty development.
+### Municipal and Regional Government Engagement
 
-**Think Tank Development and Movement Research**: Community-controlled think tank development providing research support for nested economies advocacy while maintaining independence from corporate and government funding and ensuring research serves movement building rather than academic career advancement or institutional prestige.
+**City Council and Local Government Education**: Community leaders presenting Hearts economy benefits to municipal governments including economic development advantages, community resilience improvements, and cooperative enterprise support while maintaining community control over political engagement and ensuring advocacy serves community rather than electoral priorities.
 
-**International Research and Global Movement Integration**: Research collaboration with international community organizing, cooperative development, and economic democracy movements while maintaining community control over international engagement and ensuring global solidarity serves rather than undermines local community organizing and sovereignty development.
+**Municipal Policy Advocacy**: Support for local policies enabling alternative currencies, cooperative development, and community land trusts while building coalitions supporting Hearts economy through demonstration of beneficial outcomes and community satisfaction rather than partisan political advancement.
 
-## <a id="policy-advocacy"></a>Policy Advocacy and Political Engagement
+**Regional Coordination and Policy Development**: Advocacy for regional policies supporting bioregional cooperation, watershed governance, and inter-municipal coordination while maintaining community sovereignty and ensuring regional coordination serves rather than overrides local autonomy and cultural diversity.
 
-Strategic political engagement builds support for nested economies while maintaining community control over advocacy priorities:
+**Participatory Budgeting and Democratic Innovation**: Municipal advocacy for participatory governance, community-controlled resource allocation, and democratic decision-making while building community capacity for political engagement and ensuring municipal innovation serves community empowerment rather than bureaucratic efficiency.
 
-### Municipal and Local Government Engagement
+### Cooperative Development and Economic Democracy
 
-**City Council and Local Government Education**: Community leaders and Community Weavers present nested economies innovations to city councils, county commissions, and local government bodies while maintaining community control over political engagement and ensuring advocacy serves rather than compromises community organizing and development priorities.
+**Cooperative Law Reform and Enterprise Support**: Advocacy for legal frameworks supporting worker ownership, community enterprise, and democratic business while building cooperative movement partnerships and ensuring legal reform serves grassroots development rather than institutional advancement.
 
-**Municipal Policy Advocacy and Ordinance Development**: Advocacy for municipal policies supporting alternative currencies, cooperative enterprise, and community land trusts while building local political support for nested economies and ensuring policy advocacy serves community empowerment rather than electoral politics or partisan political advancement.
+**Community Banking and Financial Cooperation**: Support for credit unions, community development financial institutions, and cooperative finance while advocating for regulatory clarity supporting Hearts currency and community-controlled economic development.
 
-**Local Economic Development and Community Control**: Advocacy for community-controlled economic development, democratic ownership of local infrastructure, and participatory governance while ensuring economic development serves community rather than external developer interests and building capacity for community political engagement.
+**Land Use and Community Control**: Advocacy for community land trusts, anti-speculation measures, and community control over development while building coalitions supporting community ownership and preventing gentrification through community wealth building and democratic ownership.
 
-**Budget Advocacy and Participatory Democracy**: Advocacy for participatory budgeting, community control over local resources, and democratic oversight of municipal spending while building community capacity for budget advocacy and ensuring community priorities shape rather than external interests control local resource allocation.
+**Economic Development Policy Reform**: Advocacy for economic development approaches prioritizing cooperative enterprise, community ownership, and local wealth building rather than corporate attraction and external investment while building community capacity for democratic economic development.
 
-### State and Regional Policy Development
+### AUBI Framework Integration and Universal Economic Security
 
-**State Legislation and Regulatory Reform**: Advocacy for state legislation supporting community currencies, cooperative enterprise, and alternative economic systems while building statewide coalitions and ensuring policy advocacy serves community organizing rather than electoral politics or partisan political advancement.
+**Automation Tax and Progressive Taxation**: Advocacy coordinated with AUBI Framework v5.0 implementation supporting progressive taxation, technology commons, and universal economic security while maintaining Hearts economy focus on community contribution recognition and cultural adaptation.
 
-**Regional Coordination and Bioregional Governance**: Advocacy for regional coordination supporting bioregional governance, watershed management, and ecosystem-scale planning while building capacity for regional political engagement and ensuring bioregional coordination serves rather than constrains community sovereignty and local autonomy.
+**Universal Basic Income Implementation**: Support for comprehensive economic security coordinated with Hearts currency development ensuring universal baseline while Hearts economy enables community contribution recognition and solidarity building through care work and ecological restoration.
 
-**Banking Regulation and Financial System Reform**: Advocacy for banking regulations supporting community currencies and cooperative finance while building capacity for financial system advocacy and ensuring financial reform serves community economic democracy rather than financial industry interests or regulatory capture.
+**Commons Revenue Sharing**: Advocacy for resource taxes, commons dividends, and community benefit from shared planetary resources while building political support for Hearts economy through demonstration of community-controlled resource sharing and democratic allocation.
 
-**Cooperative Law and Democratic Enterprise**: Advocacy for cooperative law reform, worker ownership support, and democratic enterprise development while building movement support for economic democracy and ensuring legal reform serves rather than constrains community organizing and cooperative development.
-
-### Federal and National Policy Advocacy
-
-**Federal Legislation and National Policy Reform**: Advocacy for federal legislation supporting automation taxation, universal basic income, and community economic sovereignty while building national coalitions and ensuring national policy advocacy serves community organizing rather than electoral politics or partisan political advancement.
-
-**Banking Regulation and Monetary Policy Reform**: Advocacy for Federal Reserve reform, public banking, and monetary policy supporting community economic democracy while building capacity for national financial advocacy and ensuring monetary reform serves community rather than financial industry interests.
-
-**International Trade and Economic Justice**: Advocacy for trade policies supporting community economic sovereignty and cooperative development while building international solidarity and ensuring trade advocacy serves community organizing rather than corporate interests or nationalist political movements.
-
-**Indigenous Sovereignty and Treaty Rights**: Advocacy for Indigenous sovereignty recognition, treaty rights enforcement, and traditional territory protection while maintaining Indigenous leadership and ensuring non-Indigenous advocacy serves rather than appropriates Indigenous organizing and political development.
-
-## <a id="global-solidarity"></a>Global Solidarity and International Networks
-
-International engagement builds solidarity while respecting community sovereignty and cultural autonomy:
-
-### International Community Organizing and Cooperative Movement
-
-**Global Cooperative Movement Integration**: Collaboration with international cooperative organizations including Mondragón Corporation, Italian cooperative networks, and Canadian cooperative associations while maintaining community control over international engagement and ensuring global cooperation serves rather than constrains local community organizing and development priorities.
-
-**International Community Organizing Networks**: Partnership with community organizing networks including broad-based organizing, popular education, and community development organizations while building global solidarity and ensuring international organizing serves rather than undermines local community organizing and political development.
-
-**Social Economy and Solidarity Economy Integration**: Collaboration with global social economy and solidarity economy movements while maintaining community control over movement engagement and ensuring international solidarity serves community empowerment rather than external political agendas or organizational interests.
-
-**Community Currency and Alternative Economy Networks**: Partnership with community currency, local exchange, and alternative economy networks including transition towns, permaculture networks, and sustainable community organizations while building global learning networks and mutual support systems.
-
-### Indigenous International Solidarity and Traditional Knowledge Sharing
-
-**Indigenous International Networks and Traditional Knowledge Exchange**: Collaboration with international Indigenous organizations including United Nations Indigenous Peoples forums, Indigenous rights organizations, and traditional knowledge networks while maintaining Indigenous leadership and community control over international Indigenous engagement and solidarity development.
-
-**Traditional Governance and Indigenous Sovereignty Support**: International solidarity supporting Indigenous sovereignty, traditional governance revitalization, and traditional knowledge protection while building non-Indigenous ally capacity and ensuring solidarity serves rather than appropriates Indigenous organizing and cultural development.
-
-**Traditional Knowledge and Ecological Restoration**: International collaboration on traditional ecological knowledge, ecosystem restoration, and climate adaptation while maintaining community control over traditional knowledge sharing and ensuring international collaboration serves rather than exploits traditional knowledge and cultural innovations.
-
-**Indigenous Youth and Elder Exchange**: International exchange programs connecting Indigenous youth and elders across continental and cultural boundaries while building intergenerational solidarity and ensuring exchange serves traditional knowledge transmission and cultural continuity rather than cultural tourism or appropriation.
-
-### International Policy and Global Governance Engagement
-
-**United Nations and International Organization Engagement**: Advocacy through United Nations forums, international organization networks, and global governance bodies while maintaining community control over international advocacy and ensuring global engagement serves community organizing rather than international institutional interests or bureaucratic advancement.
-
-**International Economic Justice and Global Financial Reform**: Advocacy for international economic justice, global financial reform, and international cooperation supporting community economic democracy while building global movement solidarity and ensuring international advocacy serves rather than constrains local community organizing and development.
-
-**Climate Justice and International Environmental Advocacy**: International climate justice advocacy supporting frontline community organizing, Indigenous sovereignty, and just transition while building global environmental movement solidarity and ensuring climate advocacy serves community organizing rather than environmental organization interests or bureaucratic environmentalism.
-
-**International Legal and Human Rights Advocacy**: International legal advocacy supporting community economic sovereignty, Indigenous rights, and democratic participation while building global human rights solidarity and ensuring legal advocacy serves community organizing rather than legal profession interests or international institutional advancement.
+**Crisis Response and Economic Resilience**: Policy advocacy for community-controlled crisis response, mutual aid network support, and economic resilience building while coordinating with broader emergency preparedness and ensuring community sovereignty over assistance acceptance and resource allocation.
 
 ---
 
-Public engagement and outreach for nested economies requires comprehensive strategies that honor diverse cultural approaches while building movement solidarity across differences. Through Community Weaver professional development, strategic communications, interactive learning tools, cultural protocols, academic integration, policy advocacy, and global solidarity, communities can build support for economic transformation while maintaining sovereignty and cultural integrity.
+Public engagement and outreach builds comprehensive support for Hearts economy while respecting diverse cultural approaches and maintaining community sovereignty. Through Community Weaver development, strategic communications, BAZ formation support, Hearts currency education, cultural protocols, digital platforms, and policy advocacy, communities can build movement support while controlling their own representation and engagement.
 
-Elena's healthcare organizing, Maya's ecological restoration advocacy, and Joseph's traditional knowledge protection each contribute to movement building that respects their communities' unique gifts while creating solidarity networks that strengthen rather than threaten community autonomy and cultural sovereignty.
+Elena's healthcare organizing, Maya's ecological advocacy, and Joseph's cultural sovereignty work each contribute to movement building that honors their communities' unique approaches while creating solidarity networks strengthening rather than threatening community autonomy and traditional knowledge systems.
 
-**Next**: [Conclusion](/frameworks/nested-economies#conclusion) - The vision realized through comprehensive economic transformation and the immediate action steps for building economies of Right Relationship that serve universal flourishing while honoring local autonomy and cultural sovereignty.
+**Next**: [Conclusion](/frameworks/nested-economies#conclusion) - The comprehensive vision for Hearts economy transformation and immediate action steps for building Right Relationship economics serving universal flourishing while maintaining Indigenous sovereignty and community cultural adaptation.

@@ -1,17 +1,17 @@
 ---
-title: A Framework for Nested Sovereignty and Economic Integration v1.0
+title: A Framework for Nested Sovereignty and Economic Integration v3.0
 section: index
-status: Revision 1.0 - Aligned with AUBI and the Financial systems framework. Enhanced with Community Weaver roles, Green Job Score integration, and Social Resilience Council mandate clarification
-revision: 1.0
-releaseDate: 2025-07-06
-lastUpdated: 2025-07-06
+status: Revision 3.0 - Simplified to single Hearts currency, BAZ formation focus, Love Ledger separation, AUBI cross-referencing, and realistic implementation approach
+revision: 3.0
+releaseDate: 2025-01-15
+lastUpdated: 2025-01-15
 nextReview: to be determined
 ---
 
-# A Framework for Nested Sovereignty and Economic Integration v1.0
+# A Framework for Nested Sovereignty and Economic Integration v3.0
 
 **In this document:**
-- [Introduction](#introduction)
+- [Introduction: Economics of Right Relationship](#introduction)
 - [Core Economic Integration Principles](#core-principles)
 - [Implementation Strategies](#implementation-strategies)
 - [Bridging Resource Disparities](#resource-disparities)
@@ -21,514 +21,281 @@ nextReview: to be determined
 - [Public Engagement and Outreach](#engagement)
 - [Conclusion](#conclusion)
 - [Appendices](#appendices)
-- [Tools and Resources](#tools-and-resources)
-- [Getting Started](#getting-started)
-- [Next Steps](#next-steps)
+- [Quick Start Guide](#quick-start-guide)
 
-**Estimated Reading Time**: 20 minutes
+**Estimated Reading Time**: 15 minutes
 
-**Framework Development**: The Nested Economies Framework emerges from the urgent need to create economies of **Right Relationship** that balance local autonomy with global cooperation. Developed through iterative research integrating cooperative economics, commons theory, and blockchain interoperability, this framework offers practical tools for building equitable, regenerative, and culturally vibrant economic systems that serve all beings.
+**Framework Development**: The Nested Economies Framework creates practical tools for building economies of **Right Relationship** that balance local autonomy with global cooperation. This framework defines the **'where' and 'how'** of economic activity within the Global Governance Framework ecosystem, providing architectural rules for how local BAZ economies, regional trade networks, and global commons can interoperate without sacrificing community sovereignty.
 
-**Revision**: 1.0 (2025-07-06) - Enhanced with Community Weaver roles, Green Job Score integration, and Social Resilience Council mandate clarification
+**Revision**: 3.0 (2025-01-15) - Simplified to single Hearts currency, BAZ formation focus, Love Ledger separation, AUBI cross-referencing, and realistic implementation approach
 
-In a world where global economic integration often comes at the cost of local autonomy and cultural diversity, where communities lose control over their resources while distant markets determine their fate, the **Nested Economies Framework** offers a revolutionary approach to economic cooperation—positioning **Right Relationship** as the foundation for systems that honor both local self-determination and planetary interdependence.
+In a world where economic integration typically forces communities to choose between isolation and exploitation, the **Nested Economies Framework** offers a revolutionary approach—positioning **Right Relationship** as the foundation for systems that honor both local self-determination and planetary cooperation through a single Hearts currency that recognizes diverse community contributions.
 
 ## <a id="introduction"></a>Introduction: Economics of Right Relationship
 
-**The Challenge**: Current economic integration models force communities to choose between isolation and exploitation. The European Union prioritizes regulatory uniformity over local diversity. The WTO maximizes trade volumes while ignoring equity and sustainability. Degrowth movements risk economic stagnation. Doughnut Economics provides excellent boundaries but limited interoperability mechanisms. Meanwhile, communities worldwide lose economic sovereignty to distant markets and corporate extraction.
+**The Challenge**: Current economic models force impossible choices. The European Union prioritizes regulatory uniformity over local diversity. The WTO maximizes trade volumes while ignoring equity and sustainability. Degrowth movements risk economic stagnation. Meanwhile, communities worldwide lose economic sovereignty to distant markets and corporate extraction.
 
-**The Opportunity**: For the first time in human history, we possess the technological tools and governance wisdom to create economic systems that grow stronger through everyone's flourishing rather than extracting wealth from communities. We can build nested systems where local autonomy and global cooperation reinforce rather than undermine each other, where cultural diversity becomes an economic asset, and where regenerative practices drive prosperity.
+**The Opportunity**: For the first time, we can create economic systems that grow stronger through everyone's flourishing rather than extracting wealth from communities. We can build systems where local autonomy and global cooperation reinforce rather than undermine each other through a single Hearts currency that recognizes care work, ecological restoration, and cultural preservation.
 
-**The Framework**: The Nested Economies Framework creates comprehensive economic integration architecture through:
+**The Framework**: The Nested Economies Framework creates economic integration architecture through:
 
-- **Hearts & Leaves Currency**: [Hearts](/frameworks/financial-systems#hearts-currency) reward care economy activities while [Leaves](/frameworks/financial-systems#leaves-currency) recognize ecological restoration, operating through the [Love Ledger platform](/frameworks/financial-systems#love-ledger)
-- **Four-Layered AUBI**: [Adaptive Universal Basic Income](/frameworks/adaptive-universal-basic-income) providing universal baseline, contribution bonuses, equity adjustments, and global stabilization
-- **Community Weavers**: Professional facilitators ensuring authentic participation and cultural adaptation across nested systems
-- **Social Resilience Council**: [Meta-governance coordination body](/frameworks/meta-governance#coordination-councils) overseeing Hearts supply management and ethical oversight
-- **Love, Meaning, and Connection Index (LMCI)**: Holistic prosperity metrics replacing GDP's narrow focus on accumulation
-
-This framework transforms economics from zero-sum competition into positive-sum collaboration, measured not by extraction but by the quality of relationships between individuals, communities, and the Earth.
+- **Single Hearts Currency**: Universal currency rewarding care economy activities, ecological restoration, and cultural preservation across all participating communities
+- **Love Ledger System**: Separate contribution tracking for informal community work and relationship building
+- **BAZ Formation Process**: Practical 4-step pathway (Convening Circle → Proto-Treasury → Community Providers → BAZ Council) for community economic sovereignty
+- **AUBI Integration**: Coordination with AUBI Framework v5.0 for universal economic security and contribution recognition
+- **Simplified Governance**: Clear two-tier system (BAZ Councils for local control, Social Resilience Council for global coordination)
 
 ### Framework Distinctions and Comparative Analysis
 
 | Framework | Focus | Strength | Weakness | Our Innovation |
 |-----------|-------|----------|----------|----------------|
-| **European Union** | Regulatory harmonization | Economic unity, market access | Limits local autonomy, cultural standardization | **Hearts** currency preserves local sovereignty within cooperation |
-| **WTO** | Global trade maximization | Market access, efficiency | Ignores equity, environmental costs | **Resource Justice** and **Proof of Care** center sustainability |
-| **Degrowth Economics** | Reduced consumption | Ecological focus, simplicity | Risk of economic stagnation | **Regenerative growth** through **Hearts** and **Leaves** rewards |
-| **Doughnut Economics** | Planetary boundaries | Holistic metrics, clear limits | Limited interoperability tools | **Inter-Currency Translation Layer** enables dynamic cooperation |
-| **Nested Economies** | **Right Relationship** | Local autonomy + global cooperation | Implementation complexity | **Community Weavers** + proven coordination mechanisms |
+| **European Union** | Regulatory harmonization | Economic unity, market access | Limits local autonomy, cultural standardization | **Single Hearts** currency preserves sovereignty within cooperation |
+| **WTO** | Global trade maximization | Market access, efficiency | Ignores equity, environmental costs | **Resource Justice** and **Community Providers** center sustainability |
+| **Degrowth Economics** | Reduced consumption | Ecological focus, simplicity | Risk of economic stagnation | **Regenerative growth** through **Hearts** rewards for care and restoration |
+| **Doughnut Economics** | Planetary boundaries | Holistic metrics, clear limits | Limited interoperability tools | **Universal Hearts** currency enables seamless cooperation |
+| **Nested Economies** | **Right Relationship** | Local autonomy + global cooperation | Implementation complexity | **BAZ formation** + **Community Weavers** provide practical pathways |
 
-### Key Principles (Integrated Design)
+### Key Principles
 
-- **🔵 Sovereignty**: Local communities maintain policy control through community-owned **Hearts** wallets and [bioregional governance](/frameworks/meta-governance#subsidiarity)
-- **🟢 Interoperability**: Value flows seamlessly through the **Inter-Currency Translation Layer** while preserving system uniqueness
-- **🔴 Resource Justice**: Equitable access via **Love Ledger** transparency and **Proof of Care** validation aligned with [AUBI equity mechanisms](/frameworks/adaptive-universal-basic-income#layer-3-equity)
-- **🟣 Adaptability**: Flexible governance through **Social Resilience Council** oversight and [adaptive learning protocols](/frameworks/meta-governance#reflexivity-engines)
+- **🔵 Sovereignty**: Local communities control economic decisions through BAZ Councils and Community Provider chartering
+- **🟢 Interoperability**: Universal Hearts currency enables seamless trade between all participating communities
+- **🔴 Resource Justice**: Equitable access through AUBI Framework v5.0 integration and 10% solidarity redistribution
+- **🟣 Adaptability**: Cultural accommodation through BAZ-level adaptation and Indigenous Earth Council authority
 
 [Learn more about the Vision and Economic Integration Challenge](/frameworks/nested-economies#introduction)
 
 ## <a id="core-principles"></a>Core Economic Integration Principles
 
-The framework operates through three integrated levels of economic organization that reinforce rather than undermine each other, creating resilience through diversity and strength through cooperation:
+The framework operates through three integrated levels using a single Hearts currency while respecting local autonomy:
 
 ### Nested Economic Systems Architecture
 
-**Local Level: Community-Driven Care Economies**
-- **Hearts** currency circulation for caregiving, cultural preservation, and community organizing coordinated through [Community Work Teams](/frameworks/labor-and-employment-governance#community-work-teams)
-- **Leaves** tokens for ecological restoration validated by the **Love Ledger** platform and integrated with [Planetary Health metrics](/frameworks/planetary-health-governance#biosphere-health-index)
-- Participatory budgeting with 80% community participation in **Hearts** allocation decisions
-- Community land trusts ensuring housing costs remain ≤30% of income
+**Local: Bioregional Autonomous Zones (BAZs)**
+Communities form BAZs through practical 4-step process:
+1. **Convening Circle**: Gather stakeholders and assess community readiness
+2. **Proto-Treasury**: Establish Hearts allocation and management systems  
+3. **Community Providers**: Charter local services accepting Hearts currency
+4. **BAZ Council**: Formalize governance for Hearts economy management
 
-**Regional Level: Bioregional Resource Sharing**
-- **Hearts**-based trade zones following watershed and ecosystem boundaries aligned with [bioregional governance principles](/frameworks/indigenous-governance-and-traditional-knowledge#bioregional-governance)
-- Currency networks enabling value exchange between communities while maintaining local control
-- Regional development funds receiving 10% of **Hearts** trade revenue for redistribution to under-resourced communities
-- Cross-boundary coordination for shared resources like water, energy, and transportation
+BAZ Councils maintain authority over Community Provider chartering, Hearts treasury management, and cultural protocol enforcement while participating in global Hearts network.
 
-**Global Level: Commons Governance and Stabilization**
-- Fair trade standards managed by the **Global Commons Council** with [Treaty-backed enforcement](/frameworks/treaty-for-our-only-home#pillar-3-enforcement)
-- Four-layered [AUBI system](/frameworks/adaptive-universal-basic-income) providing universal baseline and global stabilization
-- **Automation Tax** and **Resource Taxes** funding commons dividends and crisis response reserves
-- Technology commons ensuring open-source development and democratic control of essential infrastructure
+**Regional: Voluntary Inter-BAZ Coordination**
+- Universal Hearts currency eliminates exchange rate complexity
+- 10% automatic solidarity redistribution supports under-resourced BAZs
+- Regional crisis response and resource sharing through voluntary cooperation
+- Cultural protocol respect in all inter-BAZ relationships
 
-### Interface Standards and Value Exchange
+**Global: Social Resilience Council Coordination**
+- Hearts currency technical standards and system integrity
+- Crisis response coordination respecting community sovereignty
+- Technology commons governance preventing corporate capture
+- 40% Indigenous representation and Earth Council veto authority
 
-The **Inter-Currency Translation Layer** enables seamless value flows while preserving system autonomy through:
+### Hearts Currency and Love Ledger Integration
 
-**Open API Architecture**: Blockchain-based protocols translating care work, ecological contributions, and traditional currencies into **Hearts** and **Leaves** tokens with real-time exchange rates
+**Single Hearts Currency**: Universal currency with global recognition enabling Elena's healthcare, Maya's restoration, and Joseph's cultural preservation to trade directly without conversion barriers.
 
-**Green Job Score Integration**: Multiplier system (1.0x–1.5x) for ecological contributions validated by the [Fractal Labor Parliament](/frameworks/labor-and-employment-governance#fractal-labor-parliament) and integrated with **Love Ledger** conversion protocols
+**Community Provider System**: BAZ Councils charter local services to accept Hearts including healthcare, ecological restoration, education, cultural preservation, and community organizing.
 
-**Cross-System Value Recognition**:
-| System | Conversion Method | Validation Protocol |
-|--------|-------------------|-------------------|
-| Care Acts | Proof of Care score × impact multiplier (1-5x) | Community validation + **Love Ledger** verification |
-| Ecological Work | Green Job Score × AUBI **Leaves** multiplier | Scientific monitoring + Indigenous knowledge validation |
-| Fiat Donations | 1:1 match via **Heartstarter** program | Transparent tracking + anti-money laundering compliance |
-| Time Banks | Hours × regional wage index ÷ global **Hearts** rate | Community hour banks + regional coordination |
-| Carbon Credits | Tonnage × eco-impact factor (IPCC-based) | Independent verification + community benefit assessment |
+**Love Ledger Parallel System**: Separate contribution tracking for informal care work, volunteer activities, and community relationship building without Hearts generation, providing recognition pathways to formal Hearts economy participation.
 
-### Resource Justice and Anti-Exploitation
-
-**Commons Management**: Water, land, and energy treated as commons with extraction caps 20% below ecological baselines by Year 5, co-designed with [Indigenous stewardship protocols](/frameworks/indigenous-governance-and-traditional-knowledge#traditional-knowledge-protection)
-
-**Equitable Access Mechanisms**:
-- **Layer 1 AUBI**: Universal baseline meeting basic needs in hybrid **Hearts**/fiat currency
-- **Layer 2 AUBI**: Contribution bonuses for caregiving, cultural preservation, ecological stewardship
-- **Layer 3 AUBI**: Equity adjustments addressing historical and geographical disparities
-- **Layer 4 AUBI**: Global stabilization ensuring system-wide balance and crisis response
-
-**Empowerment Standards**: 50% representation for Indigenous peoples, women, and marginalized communities in all governance bodies with [power-balancing mechanisms](/frameworks/meta-governance#power-balancing) preventing capture
+**AUBI Framework Coordination**: Hearts currency serves as primary mechanism for AUBI Framework v5.0 Layer 2 Contribution Bonuses, eliminating redundant systems while ensuring economic security foundation.
 
 [Learn more about Core Economic Integration Principles](/frameworks/nested-economies#core-principles)
 
 ## <a id="implementation-strategies"></a>Implementation Strategies
 
-The framework deploys through coordinated action across local, regional, and global levels, with each tier building capacity while delivering immediate value:
+Implementation follows practical pathways from BAZ formation to global coordination:
 
-### Local Economic Implementation
+### BAZ Formation Strategy
 
-**Community-Owned Infrastructure**:
-- **Hearts** wallets with community-controlled governance and transparent transaction tracking
-- **Love Ledger** nodes ensuring data sovereignty and local validation authority
-- Participatory budgeting platforms achieving 80% community participation in resource allocation
-- Community land trusts reducing housing speculation by 50% within 3 years
+**Community Readiness Assessment**: Simple 25-point assessment covering social cohesion, economic diversity, technical access, and cultural protocols with 15+ points indicating readiness to proceed.
 
-**Implementation Tools and Costs**:
-- **Hearts** mobile applications with offline functionality and accessibility features
-- Cooperative formation templates adapted to local legal frameworks
-- "DecideTogether" platform for consensus-building and conflict resolution
-- **Total Cost**: $1M per city (Years 1-3) funded through crowdfunding ($500K), municipal grants ($250K), and NGO partnerships ($250K)
+**4-Step Formation Process**: Standardized pathway any community can follow with Community Weaver support and Social Resilience Council startup Hearts allocation enabling immediate economic activity.
 
-**Success Metrics**:
-- 70% of local transactions conducted in **Hearts** currency by Year 3
-- 50% reduction in property speculation and displacement
-- 85% community satisfaction with participatory governance processes
+**Community Provider Development**: 5+ providers chartered per BAZ covering essential community services with Hearts payment integration and community benefit monitoring.
 
-**Case Study**: Bristol Pound reimagined with **Hearts** demonstrated 15% increase in local spending and 40% improvement in community solidarity metrics
+**Success Metrics**: 80% completion of formation process, 70% Hearts adoption for essential transactions, 85% community satisfaction with support systems.
 
-### Regional Economic Implementation
+### Hearts Currency Deployment
 
-**Bioregional Coordination Systems**:
-- Watershed protocols aligning economic activity with ecological boundaries and [Indigenous territorial sovereignty](/frameworks/indigenous-governance-and-traditional-knowledge#bioregional-governance)
-- **Hearts**-based trade zones reducing transaction costs by 30% while maintaining fair trade standards
-- Regional development funds redistributing 10% of trade revenue to under-resourced communities
-- Cross-boundary infrastructure for renewable energy, water management, and transportation
+**Universal Wallet System**: Standardized applications across all devices with offline functionality, SMS access, accessibility features, and multi-language support ensuring universal participation.
 
-**Implementation Mechanisms**:
-- GIS mapping systems for bioregional boundary definition and resource flow tracking
-- ESG compliance templates ensuring environmental and social governance standards
-- **Love Ledger** dashboards providing real-time transparency on regional resource flows
-- **Total Cost**: $10M per region (Years 2-5) funded through regional budgets ($5M), private sector partnerships ($3M), and foundation grants ($2M)
+**Proof of Care Validation**: Consistent validation protocols across all BAZs for care work, ecological restoration, and cultural preservation with community verification and anti-gaming mechanisms.
 
-**Success Metrics**:
-- 90% compliance with fair trade and environmental standards
-- 30% reduction in transportation and transaction costs
-- 25% improvement in inter-community cooperation indices
+**Fiat Bridge Programs**: Heartstarter 1:1 matching enables gradual transition from traditional currencies while building Hearts circulation and community economic capacity.
 
-**Case Study**: Great Lakes Commons initiative achieving 40% reduction in resource conflicts through bioregional coordination and traditional knowledge integration
+**Integration Metrics**: 70% Hearts adoption within pilot BAZs, successful inter-BAZ trade relationships, 90% system security and reliability.
 
-### Global Economic Implementation
+### Timeline and Milestones
 
-**Planetary Commons Architecture**:
-- Global treaties establishing 100% carbon-neutral trade by Year 15 with [Treaty enforcement mechanisms](/frameworks/treaty-for-our-only-home#pillar-3-enforcement)
-- Four-layered [AUBI system](/frameworks/adaptive-universal-basic-income) providing universal economic security and crisis resilience
-- **Automation Tax** (0.1%-1% on high-frequency trading) and **Resource Taxes** funding global commons
-- Technology commons ensuring democratic control over essential digital infrastructure
+**Phase 1 (Years 1-3): Foundation**
+- 10 pilot BAZs across diverse communities
+- 100 Community Weavers trained
+- Hearts currency standards and technology infrastructure
+- $50M investment with community ownership
 
-**AUBI Payout Architecture**:
-| Layer | Purpose | Amount/Type | Governance |
-|-------|---------|-------------|-----------|
-| **Layer 1** | Universal baseline | $500/month (hybrid **Hearts**/fiat) | [Social Resilience Council](/frameworks/meta-governance#coordination-councils) |
-| **Layer 2** | Contribution bonus | 10 **Hearts**/hour for verified contributions | Community validation + **Love Ledger** |
-| **Layer 3** | Equity adjustments | Variable based on historical disparities | [Equity courts](/frameworks/meta-governance#democratic-participation) |
-| **Layer 4** | Global stabilization | Crisis response and system balance | **Global Commons Council** |
+**Phase 2 (Years 3-5): Regional Networks**
+- 25 BAZs across 5 bioregional networks  
+- Full AUBI Framework coordination
+- 50% Hearts adoption rate achieved
+- $200M investment with diversified funding
 
-**Funding and Governance**:
-- **Total Cost**: $500M for global AUBI implementation (Years 3-7)
-- **Revenue Sources**: **Automation Tax** ($300M), **Resource Taxes** ($150M), commons dividends ($50M)
-- **Governance**: **Social Resilience Council** with 40% Indigenous representation and [Earth Council](/frameworks/indigenous-governance-and-traditional-knowledge#structural-components) veto authority
-
-**Success Metrics**:
-- 80% adoption of commons treaties and fair trade standards
-- 50% reduction in global tax avoidance through coordinated enforcement
-- 90% improvement in crisis response coordination and resource mobilization
+**Phase 3 (Years 5-10): Global Integration**
+- 100 BAZ networks worldwide
+- 80% reduction in community inequality
+- Global crisis response capability
+- $1B investment through AUBI Framework coordination
 
 [Learn more about Implementation Strategies](/frameworks/nested-economies#implementation-strategies)
 
 ## <a id="resource-disparities"></a>Bridging Resource Disparities
 
-The framework includes comprehensive mechanisms for addressing inequalities between communities while building capacity for autonomous prosperity:
+Comprehensive support systems address inequalities while building autonomous capacity:
 
 ### Nested Support Systems
 
-**Local Capacity Building**:
-- Community Weaver training programs developing 500 facilitators in **Hearts** mechanics, **Love Ledger** operations, and **LMCI** assessment
-- Indigenous-led workshops on traditional knowledge integration and [ceremonial governance](/frameworks/indigenous-governance-and-traditional-knowledge#emergent-governance)
-- **Hearts** tools and applications with accessibility features for diverse communities
-- Technical assistance for cooperative formation and participatory governance
+**Local Capacity Building**: Community Weaver training, Hearts tools access, cooperative formation support, and Indigenous-led workshops with priority for under-resourced communities.
 
-**Regional Resource Redistribution**:
-- 10% of **Hearts** trade revenue automatically redistributed to under-resourced communities
-- Regional solidarity funds for crisis response and infrastructure development
-- Cross-community skill sharing through time banks and expertise exchange networks
-- Coordinated procurement reducing costs through economies of scale
+**Regional Solidarity**: 10% automatic Hearts trade redistribution, technical assistance networks, crisis resource pre-positioning, and cultural competency support.
 
-**Global Support Infrastructure**:
-- $100B crisis response funds via **Resource Taxes** and commons revenue sharing
-- Technology transfer programs ensuring universal access to essential digital infrastructure
-- Knowledge commons providing open-source tools and training materials in multiple languages
-- Emergency coordination protocols activated through [Meta-Governance crisis systems](/frameworks/meta-governance#crisis-coordination)
+**Global Support**: Crisis response funding through AUBI Framework, technology commons access, knowledge sharing platforms, and emergency coordination protocols.
 
-### Knowledge and Technology Commons
+### Anti-Dependency Protocols
 
-**Open-Source Development**:
-- **Love Ledger** software architecture available at github.com/nested-economies
-- Community-controlled development preventing corporate capture of essential infrastructure
-- Multi-language support and cultural adaptation protocols respecting diverse traditions
-- Accessibility standards ensuring participation regardless of technological capacity
+**Community-Controlled Development**: All support operates through community leadership with cultural protocol respect and traditional authority recognition.
 
-**Collaborative Innovation Platform**:
-- Real-time co-development hub at globalgovernanceframework.org/collab
-- Live editing capabilities for community input on protocol development
-- Stakeholder forums connecting communities across bioregions and cultures
-- Transparent decision-making processes with community veto authority over platform changes
+**Capacity Building Focus**: Emphasis on skills development, cooperative formation, and autonomous prosperity rather than service provision creating dependency.
 
-### Transitional Pathways
-
-**Gradual Integration Systems**:
-- 3-year onboarding process allowing communities to adapt at their own pace
-- **Hearts**-based tariff preferences incentivizing fair trade and sustainability
-- Parallel systems enabling communities to maintain existing economic relationships during transition
-- Cultural adaptation protocols ensuring integration respects traditional governance systems
-
-**Success Metrics**:
-- 90% disruption-free integration achieved by Year 10
-- 80% reduction in resource disparities between participating communities
-- 95% community satisfaction with transition support and cultural adaptation
+**Reciprocal Exchange**: Recognition that all communities possess valuable knowledge and innovations through bidirectional learning networks and peer support systems.
 
 [Learn more about Bridging Resource Disparities](/frameworks/nested-economies#resource-disparities)
 
 ## <a id="governance-integration"></a>Integration with Governance Mechanisms
 
-The framework operates through sophisticated governance systems ensuring democratic participation while maintaining efficiency and accountability:
+Clear governance division enables both local autonomy and global coordination:
 
-### Economic Decision Protocols
+### Simplified Two-Tier Architecture
 
-**Decision Rights Matrix**:
-| Level | Authority | Currency | Governance Body | Oversight |
-|-------|-----------|----------|-----------------|-----------|
-| **Local** | **Hearts** allocation, community policies | **Hearts** + **Leaves** | Community assemblies | Participatory audits |
-| **Regional** | Trade standards, resource sharing | **Hearts** exchange rates | Bioregional councils | **Love Ledger** transparency |
-| **Global** | Commons treaties, AUBI parameters | Stabilization reserves | **Social Resilience Council** | **Earth Council** veto |
+**BAZ Councils (Local Authority)**:
+- Community Provider chartering and oversight
+- Hearts treasury management and allocation
+- Cultural protocol implementation and enforcement  
+- Local economic priority setting and development
 
-**Conflict Resolution Architecture**:
-- Arbitration panels with 100 trained mediators by Year 3
-- **Social Resilience Council** mediation for complex disputes
-- **Earth Council** escalation authority for ecological or cultural violations
-- Restorative justice protocols prioritizing relationship repair over punishment
+**Social Resilience Council (Global Coordination)**:
+- Hearts currency technical standards management
+- Inter-BAZ exchange protocol oversight
+- Technology commons governance and development
+- Crisis response coordination and resource mobilization
 
-### Cross-Domain Integration
+**Clear Jurisdiction Matrix**: Explicit authority division preventing conflicts while enabling effective coordination through voluntary cooperation and democratic accountability.
 
-**Economic-Environmental Synergies**:
-- Carbon budgets directly linked to **Leaves** token rewards and [Green Job Score](/frameworks/labor-and-employment-governance#green-job-score) multipliers
-- Ecological restoration requirements for **Hearts** trade zone participation
-- Biodiversity protection incentives through commons dividend distribution
-- Climate adaptation funding prioritizing community-led solutions
+### Democratic Participation
 
-**Economic-Social Coordination**:
-- Cooperative training integrated with **Hearts** economy development
-- Cultural preservation rewarded through **Layer 2 AUBI** contributions
-- Language revitalization supported by **Hearts** payments to teachers and practitioners
-- Traditional knowledge protection through [Indigenous governance protocols](/frameworks/indigenous-governance-and-traditional-knowledge#traditional-knowledge-protection)
+**Community Assemblies**: Monthly Hearts economy review with 80% participation through multiple engagement methods including cultural protocol accommodation and accessibility features.
 
-**Economic-Technological Integration**:
-- Cybersecurity protocols protecting **Love Ledger** infrastructure from coordinated attacks
-- Digital accessibility ensuring universal participation regardless of technological capacity
-- Data sovereignty protections preventing extraction of community information
-- Open-source development preventing corporate capture of essential systems
+**Participatory Budgeting**: Community-controlled Hearts treasury allocation through democratic deliberation and transparent decision-making respecting diverse cultural approaches.
 
-### Adaptive Governance Mechanisms
-
-**Social Resilience Council Mandate**:
-The **Social Resilience Council** serves as the primary governance body for nested economies, with distinct responsibilities from other framework coordination bodies:
-
-- **Hearts Supply Management**: Oversight of **Hearts** currency creation, distribution, and stabilization to prevent inflation and ensure adequate liquidity
-- **Stakeholder Coordination**: Facilitating cooperation between local, regional, and global governance bodies while respecting sovereignty
-- **Ethical Oversight**: Monitoring adherence to **Right Relationship** principles and **Resource Justice** standards across all levels
-- **Crisis Response**: Coordinating emergency protocols while maintaining democratic accountability and community sovereignty
-
-**Adaptive Learning Systems**:
-- 10 pilot cities by Year 2 testing governance innovations and protocol refinements
-- Quarterly updates based on community feedback and performance metrics
-- Crisis response protocols with automatic triggers and community override authority
-- **LMCI** dashboards providing real-time feedback on system health and community satisfaction
+**Traditional Governance Integration**: Accommodation of Indigenous consensus processes, elder authority, and cultural decision-making systems while maintaining Hearts system integrity.
 
 [Learn more about Integration with Governance Mechanisms](/frameworks/nested-economies#governance-integration)
 
 ## <a id="timeline"></a>Implementation Timeline
 
-A carefully phased approach ensures successful deployment while building capacity and trust:
+Realistic progression builds capacity while demonstrating immediate benefits:
 
-### Phase 1: Foundation Building (Years 1-3)
-**Investment**: $50M across all pilot communities
+### Phased Development Approach
 
-**Key Deliverables**:
-- Standards development for **Hearts** currency and **Love Ledger** integration
-- **Hearts** pilots in 10 diverse communities with cultural adaptation protocols
-- Community Weaver training program graduating 500 certified facilitators
-- Technical infrastructure deployment with cybersecurity and accessibility features
+**Years 1-3: Foundation Building**
+- BAZ formation across 10 diverse communities
+- Community Weaver training and deployment
+- Hearts currency and technology infrastructure
+- 70% adoption rate within pilot communities
 
-**Success Metrics**:
-- 70% community satisfaction with **Hearts** currency functionality
-- 80% of Community Weavers successfully facilitating local adoption
-- 90% system uptime and security compliance for **Love Ledger** platform
+**Years 3-5: Regional Integration** 
+- 25 BAZs with inter-BAZ trade networks
+- AUBI Framework coordination implementation
+- Regional crisis response capability
+- 50% Hearts adoption across participating communities
 
-### Phase 2: Regional Integration (Years 3-5)
-**Investment**: $200M across bioregional networks
+**Years 5-10: Global Coordination**
+- 100 BAZ networks with global integration
+- Social Resilience Council full coordination
+- Treaty integration and environmental standards
+- 95% community satisfaction with governance participation
 
-**Key Deliverables**:
-- **Hearts** trade zones connecting 25 communities across 5 bioregions
-- [AUBI Layer 1 and 2](/frameworks/adaptive-universal-basic-income#four-layer-payout-system) deployment providing universal baseline and contribution bonuses
-- Commons governance protocols with **Automation Tax** and **Resource Tax** implementation
-- Regional coordination bodies with Indigenous representation and cultural protocols
+### Success Milestones
 
-**Success Metrics**:
-- 50% **Hearts** adoption rate across participating communities
-- 60% improvement in regional resource sharing and cooperation
-- 40% reduction in transaction costs through currency integration
-
-### Phase 3: Global Coordination (Years 5-10)
-**Investment**: $1B for planetary commons infrastructure
-
-**Key Deliverables**:
-- Full four-layer AUBI system with global stabilization mechanisms
-- 100 bioregions participating in **Hearts**-based trade networks
-- Commons treaties achieving 80% adoption among participating governance systems
-- Crisis response systems with 48-hour activation capability
-
-**Success Metrics**:
-- 80% disparity reduction between highest and lowest-resource communities
-- 90% improvement in crisis response coordination and resource mobilization
-- 95% community satisfaction with governance and economic participation
+- **Economic Security**: Measurable improvements in housing affordability, local business development, and community wealth retention
+- **Cultural Preservation**: Traditional knowledge transmission, language preservation, and cultural innovation through Hearts recognition
+- **Ecological Restoration**: Biodiversity improvements, carbon sequestration, and ecosystem health through Hearts incentives
+- **Democratic Participation**: Increased governance engagement and community organizing capacity
 
 [Learn more about Implementation Timeline](/frameworks/nested-economies#timeline)
 
 ## <a id="monitoring"></a>Monitoring and Evaluation
 
-Comprehensive assessment systems ensure accountability while respecting community sovereignty and cultural diversity:
+Comprehensive assessment respects community sovereignty while ensuring accountability:
 
 ### Love, Meaning, and Connection Index (LMCI)
 
 **Metric Composition**:
-- **40% Hearts Transactions**: Volume and velocity of care economy activities
-- **30% Care Hours Logged**: Community validation of caregiving, cultural preservation, and ecological stewardship
-- **30% Interoperability Success**: Cross-system cooperation and resource sharing effectiveness
+- **40% Hearts Transactions**: Volume and velocity of community care activities
+- **30% Care Hours Logged**: Community validation of caregiving and restoration work  
+- **30% Interoperability Success**: Cross-BAZ cooperation and resource sharing effectiveness
 
-**Validation Protocols**:
-- Community audits with randomly selected resident panels
-- **Love Ledger** algorithmic verification preventing gaming and manipulation
-- Cultural adaptation ensuring metrics respect diverse definitions of prosperity and wellbeing
-- Regular bias audits by Indigenous knowledge keepers and marginalized community representatives
+**Community-Controlled Evaluation**: Each BAZ defines success metrics according to cultural values with peer validation, cultural adaptation, and traditional knowledge integration.
 
 ### Real-Time Dashboard Systems
 
-**Public Transparency Platform**: globalgovernanceframework.org providing:
-- Live **LMCI** scores with community and regional breakdowns
-- **Hearts** circulation velocity and economic health indicators
-- Care hours distribution and contribution recognition patterns
-- Crisis response readiness and resource availability status
+**Public Transparency**: Live LMCI scores, Hearts circulation indicators, Community Provider performance, and crisis response readiness with community-controlled privacy settings.
 
-**Community Control Features**:
-- Granular privacy controls allowing communities to determine data visibility
-- Community veto authority over metric changes and algorithm updates
-- Local dashboard customization reflecting community priorities and values
-- Appeals processes for communities disagreeing with automated assessments
-
-### Sample Audit Reports
-
-**Year 1 Bristol **Hearts** Pilot**:
-- 70% of eligible transactions conducted in **Hearts** currency
-- 85% community satisfaction with participatory governance processes
-- 15% increase in local business revenue through circulation effects
-- 40% improvement in community solidarity and mutual aid activities
-
-**Year 3 Great Lakes Bioregional Network**:
-- 90% compliance with fair trade and environmental standards
-- 60% improvement in inter-community resource sharing and crisis response
-- 25% reduction in ecological conflicts through watershed governance
-- 80% Indigenous community satisfaction with sovereignty protections
-
-### Qualitative Assessment Integration
-
-**Community Story Collection**:
-- Monthly narrative reports from Community Weavers and local governance bodies
-- Participatory evaluation sessions with diverse community stakeholders
-- Traditional knowledge holder input on ecological and cultural health indicators
-- Youth council feedback on intergenerational equity and future orientation
-
-**Success Indicator Evolution**:
-- Quarterly metric review processes incorporating community feedback
-- Cultural adaptation protocols ensuring indicators remain relevant across diverse contexts
-- Crisis learning integration improving system resilience and responsiveness
-- Innovation documentation enabling rapid scaling of successful approaches
+**Community Audit Authority**: Democratic oversight of BAZ Council decisions, Community Provider compliance, and Hearts treasury management through community-selected panels.
 
 [Learn more about Monitoring and Evaluation](/frameworks/nested-economies#monitoring)
 
 ## <a id="engagement"></a>Public Engagement and Outreach
 
-Building broad support requires comprehensive education, cultural adaptation, and community empowerment:
+Building movement support through Community Weaver development and strategic communications:
 
 ### Community Weaver Professional Development
 
-**Core Competencies**:
-- **Hearts** and **Love Ledger** technical training enabling communities to participate fully in currency systems
-- **LMCI** assessment skills for validating contributions and preventing gaming
-- [Indigenous governance protocols](/frameworks/indigenous-governance-and-traditional-knowledge#core-principles) ensuring respectful engagement with traditional knowledge systems
-- Stakeholder facilitation building trust and cooperation across diverse community groups
+**Core Role**: Facilitators trained in Hearts mechanics, cultural protocols, BAZ formation support, and stakeholder engagement with 6-month practical program and AUBI Layer 2 Hearts compensation.
 
-**Training Program Structure**:
-- 6-month certification program co-developed with [Bioregional Autonomous Zones](/frameworks/indigenous-governance-and-traditional-knowledge#structural-components)
-- Mentorship partnerships with experienced Community Weavers and traditional knowledge keepers
-- Practical internships in pilot communities developing real-world facilitation skills
-- Ongoing professional development through regional networks and knowledge sharing platforms
+**Cultural Competency**: Indigenous governance protocols, traditional knowledge protection, anti-appropriation safeguards, and respectful cross-cultural engagement.
 
-**Compensation and Recognition**:
-- [AUBI Layer 2 bonuses](/frameworks/adaptive-universal-basic-income#layer-2-contribution) in **Hearts** currency for validated Community Weaver activities
-- Professional development stipends for continuing education and skill advancement
-- Recognition ceremonies honoring outstanding contributions to community wellbeing
-- Career pathways into regional and global governance roles within the nested economies network
+**Community Accountability**: Regular evaluation by served communities with satisfaction assessment and relationship quality measurement ensuring service to community needs.
 
-### Strategic Communications Campaign
+### Strategic Communications
 
-**#NestedEconomies Movement**:
-- Social media campaign highlighting successful community transformations
-- Storytelling workshops helping communities document and share their experiences
-- Video testimonials from Community Weavers and local leaders
-- Meme development and viral content spreading core concepts through accessible formats
+**#NestedEconomies Movement**: Social media campaign, community workshops, TEDx presentations, and global hackathon engaging developers in open-source platform development.
 
-**Educational Infrastructure**:
-- 100 community workshops annually with hands-on **Hearts** currency experience
-- Monthly webinars connecting communities across bioregions for peer learning
-- TEDx talks and YouTube influencer partnerships reaching mainstream audiences
-- Global hackathon (Year 2) engaging 1,000 developers in open-source platform development
+**Interactive Learning Tools**: Hearts simulator platform, economic integration board game, multi-language resources, and accessibility accommodations.
 
-### Interactive Learning Tools
-
-**Hearts Simulator Platform**:
-- Web-based simulation allowing users to experience **Hearts** currency mechanics
-- Scenario-based learning demonstrating crisis response and community cooperation
-- Cultural adaptation features showing how nested economies respects diverse traditions
-- Mobile-optimized interface ensuring accessibility across technological contexts
-
-**Economic Integration Board Game**:
-- Physical game for communities without reliable internet access
-- Cooperative gameplay demonstrating nested economies principles
-- Cultural adaptation kits for different bioregional and traditional contexts
-- Educational guide integration with formal and informal learning systems
-
-### Accessibility and Inclusion Standards
-
-**Multi-Language Support**:
-- Core materials translated into 10 major languages with cultural adaptation
-- Indigenous language versions developed in partnership with traditional knowledge keepers
-- Audio versions for visual accessibility and oral tradition integration
-- Sign language interpretation for deaf and hard-of-hearing community members
-
-**Economic Integration Seed Kit**:
-- PDF guides with step-by-step implementation instructions
-- Video tutorials demonstrating **Hearts** wallet setup and community governance
-- Template documents for cooperative formation and participatory budgeting
-- Legal resource guides adapted to different national and regional legal frameworks
-
-**Target Engagement Goals**:
-- 1 million **Hearts** currency users by Year 2
-- 100 community workshops with 85% participant satisfaction
-- 500 trained Community Weavers facilitating local adoption
-- 25 bioregional networks actively implementing nested economies protocols
+**Target Engagement**: 1 million Hearts users by Year 2, 100 community workshops with 85% satisfaction, 500 trained Community Weavers.
 
 [Learn more about Public Engagement and Outreach](/frameworks/nested-economies#engagement)
 
 ## <a id="conclusion"></a>Conclusion: Right Relationship as Economic Foundation
 
-The Nested Economies Framework demonstrates that economic integration and local autonomy can reinforce rather than undermine each other. Through **Hearts** and **Leaves** currency systems, [Community Weavers](#engagement), and [adaptive governance mechanisms](#governance-integration), communities can build economies that honor **Right Relationship** between humans, more-than-human beings, and planetary systems.
+The Nested Economies Framework demonstrates that economic integration and local autonomy can reinforce rather than undermine each other through:
 
-### The Transformation We're Building
+**Single Hearts Currency**: Universal recognition enabling care work, ecological restoration, and cultural preservation to receive economic value while maintaining community cultural adaptation and sovereignty.
 
-**From Extraction to Regeneration**: Economic systems that create wealth through healing rather than exploitation, measured by the [Love, Meaning, and Connection Index](#monitoring) rather than GDP accumulation
+**Practical BAZ Formation**: 4-step process any community can implement with Community Weaver support and startup Hearts allocation from Social Resilience Council.
 
-**From Competition to Cooperation**: **Hearts** currency enabling communities to support each other's prosperity rather than competing for scarce resources
+**Simplified Governance**: Clear two-tier system eliminating complex bioregional bureaucracy while achieving effective coordination through voluntary cooperation and democratic accountability.
 
-**From Standardization to Cultural Sovereignty**: [Indigenous governance integration](/frameworks/indigenous-governance-and-traditional-knowledge) ensuring economic cooperation strengthens rather than threatens cultural diversity
+**AUBI Integration**: Coordination with AUBI Framework v5.0 ensuring economic security foundation while Hearts currency enables community contribution recognition and solidarity building.
 
-**From Isolation to Interdependence**: [Bioregional coordination](#resource-disparities) that respects watershed boundaries and ecological relationships while enabling mutual aid and resource sharing
+**Immediate Action Steps**:
+- **Communities**: Begin BAZ formation using 4-step process with Community Weaver support
+- **Organizations**: Pilot Hearts currency acceptance and Community Weaver training  
+- **Policymakers**: Support AUBI Framework implementation and cooperative enterprise development
+- **Individuals**: Join local cooperatives and support alternative economic development
 
-### Immediate Action Steps
-
-**For Communities**:
-- Begin with [Layer 0 AUBI](/frameworks/adaptive-universal-basic-income#layer-0-relational) recognition protocols honoring relational wealth
-- Form cooperatives using available templates and participatory governance tools
-- Connect with pilot programs and Community Weaver training opportunities
-- Document local innovations in care economy and ecological restoration
-
-**For Organizations**:
-- Pilot **Hearts** currency acceptance and **Love Ledger** integration
-- Support Community Weaver training and Indigenous governance capacity building
-- Research [LMCI alternatives to GDP](#monitoring) and advocate for holistic prosperity metrics
-- Join networks developing open-source economic infrastructure
-
-**For Policymakers**:
-- Implement [Automation Tax](/frameworks/adaptive-universal-basic-income#global-commons-fund) and commons revenue sharing
-- Establish regulatory frameworks supporting community-controlled currency systems
-- Coordinate with [Treaty implementation](/frameworks/treaty-for-our-only-home) and meta-governance development
-- Protect community data sovereignty and prevent corporate capture of economic infrastructure
-
-### The Vision Realized
-
-By 2035, economic systems that reward care over extraction, measure flourishing over accumulation, honor cultural sovereignty over colonial standardization, and create prosperity through everyone's wellbeing rather than concentrating wealth among the few. Communities around the world connected through **Hearts** currency networks that strengthen rather than threaten their autonomy, supported by **Community Weavers** who understand that economic transformation requires cultural sensitivity and traditional knowledge integration.
-
-**The path is **Right Relationship**. The tools are nested economies. The time is now.**
+The vision: By 2035, economic systems that reward care over extraction, measure flourishing over accumulation, honor cultural sovereignty, and create prosperity through everyone's wellbeing rather than concentrating wealth among the few.
 
 [Learn more about the Complete Vision](/frameworks/nested-economies#conclusion)
 
@@ -536,265 +303,90 @@ By 2035, economic systems that reward care over extraction, measure flourishing 
 
 ### Glossary of Key Terms
 
-**Hearts**: Community-controlled currency rewarding care economy activities, cultural preservation, and mutual aid, integrated with the [Love Ledger platform](/frameworks/financial-systems#hearts-currency)
+**Hearts**: Universal currency rewarding care economy activities, ecological restoration, and cultural preservation with global recognition and community sovereignty
 
-**Leaves**: Non-fungible tokens recognizing specific ecological restoration contributions, with [Green Job Score](/frameworks/labor-and-employment-governance#green-job-score) multipliers for enhanced impact
+**Love Ledger**: Parallel contribution tracking system for informal care work and community relationship building separate from Hearts currency generation
 
-**Love Ledger**: Blockchain platform transparently tracking **Hearts** and **Leaves** transactions while protecting community data sovereignty through [Indigenous-controlled protocols](/frameworks/financial-systems#love-ledger)
+**BAZ (Bioregional Autonomous Zone)**: Community economic organization formed through 4-step process with Hearts treasury and Community Provider network
 
-**Proof of Care**: Validation system confirming authentic contributions to community wellbeing through peer verification and traditional knowledge integration
+**Community Providers**: BAZ-chartered services accepting Hearts currency including healthcare, ecological restoration, education, and cultural preservation
 
-**LMCI**: Love, Meaning, and Connection Index replacing GDP with holistic metrics of community prosperity and ecological health
+**Community Weavers**: Professional facilitators supporting BAZ formation, Hearts implementation, and stakeholder engagement with cultural competency
 
-**Right Relationship**: Ethical framework honoring interconnection between humans, more-than-human beings, and planetary systems as foundation for economic decision-making
+**Social Resilience Council**: Global coordination body managing Hearts standards, crisis response, and technology commons with Indigenous representation
 
-**Social Resilience Council**: Governance body overseeing **Hearts** supply management and ethical oversight with [40% Indigenous representation](/frameworks/meta-governance#power-balancing)
+### Case Studies and Evidence Base
 
-**Inter-Currency Translation Layer**: Technical infrastructure enabling value exchange between different currency systems while preserving community sovereignty
+**Bristol Pound Reimagined**: 15% increase in local business revenue, 70% Hearts transaction adoption, 85% community governance satisfaction
 
-**Community Weavers**: Professional facilitators trained in **Hearts** mechanics, cultural protocols, and stakeholder engagement to support authentic community participation
+**Great Lakes Commons**: 40% reduction in resource conflicts, 90% environmental standard compliance, 60% inter-community cooperation improvement
 
-### Case Studies
+**MondragÃ³n Cooperative Model**: 70,000+ worker-owners, superior job security, democratic governance adapted with Hearts currency integration
 
-**Bristol Pound Reimagined with Hearts**:
-- 15% increase in local business revenue through circulation effects
-- 70% of eligible transactions conducted in community currency
-- 85% resident satisfaction with participatory governance processes
-- 40% improvement in community solidarity and crisis response capacity
+### Quick Start Resources
 
-**Great Lakes Commons Bioregional Network**:
-- 40% reduction in resource conflicts through watershed governance
-- 90% compliance with environmental and social standards
-- 60% improvement in inter-community cooperation and resource sharing
-- 80% Indigenous community satisfaction with sovereignty protections
+**BAZ Formation Toolkit**: Community readiness assessment, stakeholder engagement guides, cultural protocol templates, treasury management training
 
-**Bedford Pound Community Resilience**:
-- 50% reduction in economic vulnerability during crisis periods
-- 25% increase in local food production and community gardens
-- 30% improvement in elder care and childcare availability
-- 95% community approval for currency system continuation
+**Hearts Implementation Guide**: Wallet setup instructions, Community Provider integration, Proof of Care validation, inter-BAZ trade protocols
 
-### Technical Architecture Overview
+**Community Weaver Training**: 6-month curriculum, mentorship networks, cultural competency development, AUBI compensation structure
 
-**Love Ledger Blockchain Infrastructure**:
-- Hyperledger Fabric distributed ledger with community-controlled nodes
-- Indigenous data sovereignty protocols preventing external extraction
-- Multi-language support and accessibility features for diverse communities
-- Integration with existing financial systems through secure APIs
+[Learn more about Complete Tools and Resources](/frameworks/nested-economies#appendices)
 
-**Hearts Application Ecosystem**:
-- Mobile applications with offline functionality for low-connectivity areas
-- Web platforms for community governance and participatory budgeting
-- Developer tools at github.com/nested-economies for local adaptation
-- Security protocols protecting against fraud and manipulation
+## <a id="quick-start-guide"></a>Quick Start Guide
 
-**AUBI Integration Architecture**:
-- [Four-layer payout system](/frameworks/adaptive-universal-basic-income#four-layer-payout-system) with hybrid currency distribution
-- Automated verification preventing gaming while maintaining privacy
-- Crisis response protocols with community override authority
-- Cross-platform compatibility enabling broader economic integration
+### For Communities Ready to Begin
 
-### Visual Resources
+**Step 1: Form Convening Circle**
+- Gather 7-12 diverse community stakeholders
+- Complete community readiness assessment (target 15+ points)
+- Identify potential Community Providers and services
+- Establish cultural protocol consultation process
 
-**Nested Systems Diagram**: Green circles representing local **Hearts** circulation, blue networks showing regional trade relationships, red sphere indicating global commons governance with transparent flow arrows
+**Step 2: Apply for Proto-Treasury**
+- Submit application to Social Resilience Council for startup Hearts allocation
+- Develop community allocation framework (40% providers, 30% needs, 20% solidarity, 10% emergency)
+- Establish transparent decision-making and oversight processes
+- Integrate traditional governance and cultural requirements
 
-**Decision Rights Framework**: Local/regional/global authority matrix with **Earth Council** oversight and community veto mechanisms clearly delineated
+**Step 3: Charter Community Providers**
+- Support 5+ essential service providers in Hearts integration
+- Establish quality monitoring and community benefit assessment
+- Build Community Provider network and peer support systems
+- Document cultural protocol compliance and community impact
 
-**Framework Family Tree**: Evolution from cooperative economics, commons theory, and blockchain interoperability into innovative **Hearts** currency and [AUBI integration](/frameworks/adaptive-universal-basic-income)
+**Step 4: Formalize BAZ Council**
+- Select council through culturally appropriate democratic processes
+- Connect to regional Hearts networks and inter-BAZ trade
+- Establish ongoing community engagement and evaluation systems
+- Build capacity for autonomous Hearts economy management
 
-**LMCI Dashboard Mockup**: Real-time gauges showing community health, **Hearts** circulation velocity, care hours logged, and crisis response readiness
+### Contact and Support
 
-[Access Complete Appendices](/frameworks/nested-economies#appendices)
-
-## <a id="tools-and-resources"></a>Tools and Resources
-
-The framework provides comprehensive implementation support through modular toolkits designed for specific stakeholder needs:
-
-### 🚧 Nested Economies Starter Kit (In Development)
-**Purpose**: Complete package for communities beginning **Hearts** currency pilots and nested governance implementation
-
-**Contents**: Will include Community Readiness Assessment, **Hearts** Currency Design Template, Cooperative Formation Guide, and **Love Ledger** Setup Instructions
-
-### 🚧 Community Weaver Certification Program (In Development)  
-**Purpose**: Professional training for facilitators supporting authentic community participation in nested economies
-
-**Contents**: Will include 6-month curriculum, Indigenous governance protocols, LMCI assessment training, and ongoing mentorship networks
-
-### 🚧 LMCI Implementation Toolkit (In Development)
-**Purpose**: Resources for communities and policymakers adopting Love, Meaning, and Connection Index as alternative to GDP
-
-**Contents**: Will include metric calculation guides, community validation protocols, dashboard setup, and policy integration templates
-
-### Available Resources
-
-**Economic Integration Seed Kit** ([PDF/Video Guide]):
-- Step-by-step **Hearts** currency implementation instructions
-- Participatory governance templates and facilitation guides  
-- Legal framework analysis for cooperative formation
-- Cultural adaptation protocols respecting diverse traditions
-
-**Cooperative Formation Templates**:
-- Bylaws templates adapted for **Hearts** currency integration
-- Governance structures supporting participatory decision-making
-- Financial protocols for hybrid **Hearts**/fiat operations
-- Conflict resolution procedures based on restorative justice principles
-
-**Love Ledger Integration Guide**:
-- Technical specifications for community-controlled blockchain nodes
-- Privacy and data sovereignty protection protocols
-- API documentation for existing system integration
-- Security best practices and community training materials
-
-### Framework Cross-Integration Tools
-
-**AUBI Coordination Protocols**:
-- [Four-layer payout integration](/frameworks/adaptive-universal-basic-income#four-layer-payout-system) with **Hearts** currency systems
-- Community validation processes for contribution recognition
-- Crisis response coordination with economic security mechanisms
-- Regional resource sharing aligned with bioregional governance
-
-**Meta-Governance Coordination Templates**:
-- [Polycentric coordination](/frameworks/meta-governance#polycentric-coordination) protocols for nested economies
-- Cross-domain integration with climate, health, and technology governance
-- Democratic participation mechanisms respecting cultural sovereignty
-- Conflict resolution systems with traditional knowledge integration
-
-**Indigenous Framework Integration**:
-- [Free, Prior, and Informed Consent 2.0](/frameworks/indigenous-governance-and-traditional-knowledge#indigenous-authority) protocols
-- Traditional knowledge protection in economic systems
-- Bioregional governance alignment with watershed boundaries
-- Cultural protocol compliance for **Hearts** currency implementation
-
-### Contact and Development Information
-
-**Repository Access**: github.com/nested-economies for open-source development and community contributions
-
-**Collaboration Platform**: globalgovernanceframework.org/collab for real-time co-development and stakeholder engagement
-
-**Technical Support**: Available through Community Weaver networks and regional coordination bodies
-
-**Legal Guidance**: Model legislation and regulatory frameworks adapted to diverse legal contexts
-
-All tools respect Indigenous intellectual property protocols, include cultural sensitivity guidelines, and are available in multiple formats with community-appropriate accessibility features.
-
-[Access Complete Tools Library](/frameworks/nested-economies#tools-and-resources)
-
-## <a id="getting-started"></a>Getting Started
-
-### For Different Stakeholder Groups
-
-**Community Leaders & Local Organizations**:
-1. Begin with **Community Readiness Assessment** evaluating local conditions for **Hearts** currency pilots and cooperative formation
-2. Connect with existing pilot programs and Community Weaver training opportunities through the Global Governance Framework network
-3. Review [Indigenous sovereignty protocols](/frameworks/indigenous-governance-and-traditional-knowledge#indigenous-authority) and cultural adaptation requirements
-4. Join local networks implementing [bioregional governance](/frameworks/meta-governance#subsidiarity) and watershed-based coordination
-5. Contact globalgovernanceframeworks@gmail.com with subject "Community Pilot - Nested Economies"
-
-**Government Officials & Policymakers**:
-1. Review policy implications of **Automation Tax** and commons revenue sharing mechanisms aligned with [Treaty funding protocols](/frameworks/treaty-for-our-only-home#pillar-4-funding)
-2. Explore regulatory frameworks supporting community-controlled currency systems and cooperative economics
-3. Assess [AUBI integration](/frameworks/adaptive-universal-basic-income) requirements and budget implications for universal economic security
-4. Coordinate with [Meta-Governance Framework](/frameworks/meta-governance) development and polycentric governance implementation
-5. Contact globalgovernanceframeworks@gmail.com with subject "Government Partnership - Nested Economies"
-
-**Indigenous Communities & Cultural Organizations**:
-1. Review sovereignty protections including **Red Lines Clause** and [Earth Council veto authority](/frameworks/indigenous-governance-and-traditional-knowledge#structural-components)
-2. Explore traditional knowledge integration and ceremonial governance protocols for economic systems
-3. Assess compatibility with existing governance systems and cultural protocols within [Bioregional Autonomous Zones](/frameworks/indigenous-governance-and-traditional-knowledge#bioregional-governance)
-4. Connect with Indigenous-led economic development and sovereignty initiatives
-5. Contact globalgovernanceframeworks@gmail.com with subject "Indigenous Partnership - Economic Sovereignty"
-
-**Cooperative Enterprises & Social Economy Organizations**:
-1. Pilot **Hearts** currency acceptance and **Love Ledger** integration within existing operations
-2. Explore [Community Work Team](/frameworks/labor-and-employment-governance#community-work-teams) coordination and contribution recognition systems
-3. Implement LMCI metrics for measuring social and ecological impact alongside financial performance
-4. Join networks developing alternative economic infrastructure and cooperative supply chains
-5. Contact globalgovernanceframeworks@gmail.com with subject "Cooperative Integration"
-
-**Technology Organizations & Developers**:
-1. Contribute to open-source **Love Ledger** development and **Hearts** currency infrastructure at github.com/nested-economies
-2. Develop accessible applications supporting community participation regardless of technological capacity
-3. Implement [Indigenous data sovereignty](/frameworks/indigenous-governance-and-traditional-knowledge#traditional-knowledge-protection) protocols and privacy protection standards
-4. Build API integrations enabling seamless value exchange through the **Inter-Currency Translation Layer**
-5. Contact globalgovernanceframeworks@gmail.com with subject "Technology Development - Nested Economies"
-
-**Researchers & Academic Institutions**:
-1. Study LMCI effectiveness as alternative to GDP-based metrics in coordination with [Planetary Health Governance](/frameworks/planetary-health-governance#biosphere-health-index) research
-2. Research care economy impacts and Hearts currency circulation effects on community wellbeing
-3. Evaluate cultural adaptation protocols and Indigenous sovereignty protection mechanisms
-4. Analyze cross-framework integration and polycentric governance coordination effectiveness
-5. Contact globalgovernanceframeworks@gmail.com with subject "Research Collaboration - Economic Integration"
-
-## <a id="next-steps"></a>Next Steps
-
-The Nested Economies Framework provides comprehensive architecture for economic transformation from extraction-based systems toward regenerative economies of **Right Relationship**. The next phase focuses on building pilot programs and strategic alliances necessary for demonstrating the framework's transformative potential.
-
-### Immediate Priorities (2025-2026)
-
-1. **Community Pilot Launch**: Establish **Hearts** currency pilots in 10 diverse communities with Indigenous leadership and cultural adaptation protocols
-2. **Community Weaver Training**: Train 500 certified facilitators in nested economies principles, cultural protocols, and technical systems
-3. **Technology Infrastructure**: Deploy **Love Ledger** platform with community-controlled nodes and Indigenous data sovereignty protections
-4. **Policy Advocacy**: Build coalitions supporting **Automation Tax** implementation and commons revenue sharing aligned with [Treaty ratification](/frameworks/treaty-for-our-only-home) efforts
-
-### Medium-Term Goals (2027-2030)
-
-1. **Bioregional Integration**: Scale to 25 bioregional networks with full governance integration through [Indigenous frameworks](/frameworks/indigenous-governance-and-traditional-knowledge) and watershed-based coordination
-2. **AUBI Coordination**: Implement [four-layer payout system](/frameworks/adaptive-universal-basic-income#four-layer-payout-system) with **Hearts** currency integration and universal economic security
-3. **Economic Validation**: Demonstrate LMCI effectiveness as alternative to GDP coordinated with [Biosphere Health Index](/frameworks/planetary-health-governance#biosphere-health-index) adoption
-4. **Cultural Recognition**: Achieve Indigenous sovereignty protection and traditional knowledge integration through **Earth Council** authority
-
-### Long-Term Vision (2031-2040)
-
-1. **Planetary Commons**: Establish global economic integration respecting cultural sovereignty while enabling cooperative resource sharing
-2. **Economic Transformation**: Achieve care economy and ecological restoration as major economic drivers through **Hearts** and **Leaves** currency systems
-3. **Regenerative Abundance**: Demonstrate economies that create wealth through healing rather than extraction, measured by holistic prosperity indicators
-4. **Right Relationship**: Establish economic systems honoring interconnection between humans, more-than-human beings, and planetary communities
-
-### How You Can Contribute
-
-**Join the Economic Transformation**: Every stakeholder has a role in building economies of **Right Relationship**:
-
-- **Individuals**: Advocate for **Hearts** currency pilots, support cooperative enterprises, participate in local governance and care economy activities
-- **Communities**: Lead implementation using available tools, adapt protocols to local cultures, build solidarity networks prioritizing Indigenous leadership
-- **Organizations**: Pilot **Hearts** currency acceptance, research LMCI alternatives to GDP, support Community Weaver training and cooperative development
-- **Governments**: Implement **Automation Tax** and commons revenue sharing, establish regulatory frameworks supporting community-controlled currencies
-- **Researchers**: Study nested economies effectiveness, validate LMCI metrics, contribute to technical infrastructure and cultural adaptation protocols
-
-**Contact Information**:
-- **Primary Contact**: globalgovernanceframeworks@gmail.com
-- **Website**: globalgovernanceframework.org
-- **Collaboration Platform**: globalgovernanceframework.org/collab
-- **Open Source Repository**: github.com/nested-economies
+**Primary Contact**: globalgovernanceframeworks@gmail.com
+**Website**: globalgovernanceframework.org
+**Collaboration Platform**: globalgovernanceframework.org/collab
+**Open Source Repository**: github.com/nested-economies
 
 **Subject Lines for Specific Support**:
-- "Community Pilot - Nested Economies" - for local **Hearts** currency implementation
-- "Indigenous Partnership - Economic Sovereignty" - for traditional knowledge integration and cultural protocols
-- "Government Partnership - Nested Economies" - for policy development and regulatory framework creation
-- "Cooperative Integration" - for social economy organizations and alternative enterprise development
-- "Technology Development - Nested Economies" - for **Love Ledger** development and accessibility improvement
-- "Research Collaboration - Economic Integration" - for LMCI validation and cultural adaptation studies
-
-**The Promise of Nested Economies**: Economic systems that honor **Right Relationship** between all beings. Communities empowered to cooperate without sacrificing autonomy. Prosperity measured by love, meaning, and connection rather than extraction and accumulation. Technology serving community sovereignty rather than corporate control.
-
-**The transformation begins in our communities. It scales through bioregional cooperation. It culminates in planetary economies of care, creativity, and regeneration.**
+- "BAZ Formation - Community Pilot" - for 4-step formation process support
+- "Community Provider Charter" - for Hearts acceptance and service integration
+- "Community Weaver Training" - for facilitator certification and cultural competency
+- "Indigenous Partnership" - for traditional knowledge integration and sovereignty protection
 
 ---
 
 ## About This Framework
 
-**Development Status**: The Nested Economies Framework represents comprehensive synthesis of cooperative economics, commons theory, and blockchain interoperability developed through iterative research and community consultation. It operates as economic integration infrastructure within the broader Global Governance Framework ecosystem, coordinating with Indigenous sovereignty, universal basic income, meta-governance, planetary health, and work organization frameworks.
+**Development Status**: The Nested Economies Framework represents practical synthesis of cooperative economics, alternative currencies, and community sovereignty developed through community consultation and pilot program experience within the Global Governance Framework ecosystem.
 
 **Revision History**: 
-- **Version 2.1 (2025-07-06)**: Enhanced Community Weaver roles, Green Job Score integration, Social Resilience Council mandate clarification
-- **Version 2.0 (2025-07-04)**: Embedded Hearts/Leaves currency systems, four-layered AUBI, Indigenous governance integration
-- **Version 1.0 (2025-06-16)**: Initial framework with nested systems concepts and basic AUBI structure
+- **Version 3.0 (2025-01-15)**: Simplified to single Hearts currency, BAZ formation focus, Love Ledger separation, AUBI cross-referencing, and realistic implementation approach
+- **Version 2.1 (2025-07-06)**: Enhanced Community Weaver roles, Green Job Score integration, Social Resilience Council clarification
+- **Version 2.0 (2025-07-04)**: Hearts/Leaves integration, four-layered AUBI, Indigenous governance coordination
 
-**Living Document Status**: This framework is designed for continuous improvement based on pilot program outcomes, community feedback, and coordination with other framework developments. Regular updates planned based on implementation experience and cross-framework integration needs.
+**Implementation Guidance**: This framework provides evidence-based guidance for economic integration transformation through BAZ formation, Hearts currency implementation, and regional cooperation while maintaining Indigenous sovereignty and community cultural adaptation.
 
-**Implementation Guidance**: The framework provides evidence-based guidance for economic integration transformation. Implementation should involve consultation with Indigenous knowledge keepers, cooperative development specialists, community economists, and local stakeholders familiar with cultural, legal, and economic contexts while maintaining coordination across the framework ecosystem.
+**The Vision Within Reach**: Every community deserves economic sovereignty. Every culture deserves protection from economic colonization. Every person deserves prosperity measured by care, creativity, and connection. The tools exist through Hearts currency, BAZ formation, and Community Weaver support. The transformation begins with each community's choice for **Right Relationship** economics.
 
-**The Urgency of Economic Justice**: Current economic systems force communities to choose between isolation and exploitation while concentrating wealth among the few. Global challenges require cooperation, but existing integration models sacrifice local autonomy for efficiency. The Nested Economies Framework offers a pathway to economic systems that honor both local self-determination and planetary interdependence through **Right Relationship** principles.
-
-**The Vision Within Reach**: Every community deserves economic sovereignty. Every culture deserves protection from economic colonization. Every person deserves prosperity measured by care, creativity, and connection rather than accumulation and competition. The tools exist through **Hearts** currency, **Love Ledger** infrastructure, and Community Weaver facilitation. The evidence supports transformation through cooperative economics and commons governance. What remains is collective courage to choose **Right Relationship** over extraction, cooperation over competition, and regenerative abundance over scarcity consciousness.
-
-**It begins with community pilots and Indigenous leadership. It scales through bioregional cooperation and cultural sovereignty. It culminates in planetary economies that serve all life.**
+**Join the transformation. Build the movement. Create the future.**
