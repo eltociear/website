@@ -1,0 +1,58 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cashGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="heartsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dc2626;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b91c1c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+    <rect width="800" height="400" fill="#f8fafc"/>
+  
+    <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e293b">AUBI-system med dubbla plånböcker</text>
+  
+    <text x="400" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#64748b">Månatlig utbetalning: 10 000 kr</text>
+  
+    <path d="M 400 90 L 400 130" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+    <g transform="translate(150, 150)">
+    <rect width="200" height="120" rx="10" fill="url(#cashGradient)" stroke="#1e40af" stroke-width="2"/>
+    <text x="100" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Kontantplånbok</text>
+    <text x="100" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white">7 000 kr</text>
+    <text x="100" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#e2e8f0">(70%)</text>
+    <text x="100" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0">Hyra, räkningar, mat</text>
+    <text x="100" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0">Globala leveranskedjor</text>
+  </g>
+  
+    <g transform="translate(450, 150)">
+    <rect width="200" height="120" rx="10" fill="url(#heartsGradient)" stroke="#dc2626" stroke-width="2"/>
+    <text x="100" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Hearts-plånbok</text>
+    <text x="100" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white">3 000 ♥</text>
+    <text x="100" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fecaca">(30%)</text>
+    <text x="100" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#fecaca">Endast för gemenskapliga leverantörer</text>
+    <text x="100" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#fecaca">Lokal omsorgsekonomi</text>
+  </g>
+  
+    <g transform="translate(80, 320)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" fill="#475569" font-weight="bold">Kontanter för:</text>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" fill="#64748b">• Bostadskostnader</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="12" fill="#64748b">• Transport</text>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="12" fill="#64748b">• Sjukvård</text>
+  </g>
+  
+  <g transform="translate(450, 320)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" fill="#475569" font-weight="bold">Hearts för:</text>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" fill="#64748b">• Barnomsorgskooperativ</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="12" fill="#64748b">• Gemensam odling</text>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="12" fill="#64748b">• Verktygsbibliotek</text>
+  </g>
+  
+    <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

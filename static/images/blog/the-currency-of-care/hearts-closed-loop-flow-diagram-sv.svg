@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 500"
+   version="1.1"
+   id="svg35"
+   sodipodi:docname="hearts-closed-loop-flow-diagram.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview35"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.1964247"
+     inkscape:cx="500.24044"
+     inkscape:cy="291.70244"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg35" />
+  <defs
+     id="defs8">
+    <linearGradient
+       id="citizenGradient"
+       x1="-1.5"
+       y1="-1.5"
+       x2="101.5"
+       y2="101.5"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(150,64)">
+      <stop
+         offset="0%"
+         style="stop-color:#059669;stop-opacity:1"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#047857;stop-opacity:1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="providerGradient"
+       x1="-1.5"
+       y1="-1.5"
+       x2="101.5"
+       y2="101.5"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#7c3aed;stop-opacity:1"
+         id="stop3" />
+      <stop
+         offset="100%"
+         style="stop-color:#6d28d9;stop-opacity:1"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="treasuryGradient"
+       x1="-1.5"
+       y1="-1.5"
+       x2="101.5"
+       y2="101.5"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#dc2626;stop-opacity:1"
+         id="stop5" />
+      <stop
+         offset="100%"
+         style="stop-color:#b91c1c;stop-opacity:1"
+         id="stop6" />
+    </linearGradient>
+    <marker
+       id="arrowGreen"
+       markerWidth="10"
+       markerHeight="7"
+       refX="10"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#059669"
+         id="polygon6" />
+    </marker>
+    <marker
+       id="arrowPurple"
+       markerWidth="10"
+       markerHeight="7"
+       refX="10"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#7c3aed"
+         id="polygon7" />
+    </marker>
+    <marker
+       id="arrowRed"
+       markerWidth="10"
+       markerHeight="7"
+       refX="10"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#dc2626"
+         id="polygon8" />
+    </marker>
+  </defs>
+  <rect
+     width="800"
+     height="500"
+     fill="#f8fafc"
+     id="rect8" />
+  <text
+     x="400"
+     y="30"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="22"
+     font-weight="bold"
+     fill="#1e293b"
+     id="text8">Hearts slutna kretsloppssystem</text>
+  <circle
+     cx="200"
+     cy="114"
+     r="50"
+     fill="url(#citizenGradient)"
+     stroke="#047857"
+     stroke-width="3"
+     id="circle8"
+     style="fill:url(#citizenGradient)" />
+  <text
+     x="200"
+     y="109"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     fill="#ffffff"
+     id="text9">Medborgare</text>
+  <text
+     x="200"
+     y="124"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#d1fae5"
+     id="text10">Tar emot Hearts</text>
+  <g
+     transform="translate(550,64)"
+     id="g19">
+    <circle
+       cx="50"
+       cy="50"
+       r="50"
+       fill="url(#providerGradient)"
+       stroke="#6d28d9"
+       stroke-width="3"
+       id="circle12"
+       style="fill:url(#providerGradient)" />
+    <text
+       x="50"
+       y="40"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       font-weight="bold"
+       fill="#ffffff"
+       id="text13">Gemenskapliga</text>
+    <text
+       x="50"
+       y="55"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       font-weight="bold"
+       fill="#ffffff"
+       id="text14">leverantörer</text>
+    <text
+       x="50"
+       y="70"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="10px"
+       fill="#e9d5ff"
+       id="text15">Accepterar Hearts</text>
+    <text
+       x="50"
+       y="130"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       fill="#475569"
+       font-weight="bold"
+       id="text16">Exempel</text>
+    <text
+       x="50"
+       y="145"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="10px"
+       fill="#64748b"
+       id="text17">Barnomsorgskooperativ</text>
+    <text
+       x="50"
+       y="157"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="10px"
+       fill="#64748b"
+       id="text18">Gemensam odling</text>
+    <text
+       x="50"
+       y="169"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="10px"
+       fill="#64748b"
+       id="text19">Verktygsbibliotek</text>
+  </g>
+  <g
+     transform="translate(350,264)"
+     id="g24">
+    <circle
+       cx="50"
+       cy="50"
+       r="50"
+       fill="url(#treasuryGradient)"
+       stroke="#b91c1c"
+       stroke-width="3"
+       id="circle19"
+       style="fill:url(#treasuryGradient)" />
+    <text
+       x="50"
+       y="40"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="14px"
+       font-weight="bold"
+       fill="#ffffff"
+       id="text20">Hearts-</text>
+    <text
+       x="50"
+       y="55"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="14px"
+       font-weight="bold"
+       fill="#ffffff"
+       id="text21">kassan</text>
+    <text
+       x="50"
+       y="70"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="10px"
+       fill="#fecaca"
+       id="text22">Löser in mot kr</text>
+    <text
+       x="50"
+       y="130"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       fill="#475569"
+       font-weight="bold"
+       id="text23">Förvaltas av</text>
+    <text
+       x="50"
+       y="145"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="11px"
+       fill="#64748b"
+       id="text24">Partner-sparbank</text>
+  </g>
+  <path
+     d="M 245,94 Q 400,34 555,94"
+     stroke="#059669"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowGreen)"
+     id="path24" />
+  <text
+     x="400"
+     y="82"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     fill="#059669"
+     font-weight="bold"
+     id="text25">Spenderar Hearts</text>
+  <text
+     x="400"
+     y="97"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#064e3b"
+     id="text26">för omsorgstjänster</text>
+  <path
+     d="M 580,159 Q 520,234 445,294"
+     stroke="#7c3aed"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowPurple)"
+     id="path26" />
+  <text
+     x="478"
+     y="213"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     fill="#7c3aed"
+     font-weight="bold"
+     id="text27">Löser in Hearts</text>
+  <text
+     x="478"
+     y="228"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#581c87"
+     id="text28">mot fiatvaluta</text>
+  <path
+     d="M 355,294 Q 280,234 220,159"
+     stroke="#dc2626"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowRed)"
+     id="path28" />
+  <text
+     x="198"
+     y="182"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     fill="#475569"
+     font-weight="bold"
+     id="text11">Månatlig utdelning</text>
+  <text
+     x="198"
+     y="197"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#64748b"
+     id="text12">300 Hearts via AUBI</text>
+  <text
+     x="320"
+     y="215"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     fill="#dc2626"
+     font-weight="bold"
+     id="text29">Ger ut Hearts på nytt</text>
+  <text
+     x="320"
+     y="230"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#991b1b"
+     id="text30">nästa månad</text>
+  <g
+     transform="translate(50, 420)"
+     id="g35">
+    <rect
+       width="700"
+       height="60"
+       rx="5"
+       fill="white"
+       stroke="#e2e8f0"
+       stroke-width="1"
+       id="rect30" />
+    <text
+       x="20"
+       y="20"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       fill="#475569"
+       font-weight="bold"
+       id="text31">Nyckelfunktioner:</text>
+    <text
+       x="20"
+       y="35"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#64748b"
+       id="text32">• Hearts stannar lokalt - kan inte skickas utanför bioregionen</text>
+    <text
+       x="20"
+       y="50"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#64748b"
+       id="text33">• Stabilt värde genom fiat-backning i kassan</text>
+    <text
+       x="350"
+       y="35"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#64748b"
+       id="text34">• Förutsägbar efterfrågan på lokala omsorgstjänster</text>
+    <text
+       x="350"
+       y="50"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#64748b"
+       id="text35">• Demokratisk styrning genom BAZ-rådet</text>
+  </g>
+</svg>
