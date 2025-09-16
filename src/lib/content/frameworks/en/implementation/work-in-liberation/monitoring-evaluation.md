@@ -363,7 +363,7 @@ Community members invest Hearts in Community Provider services that support trad
 - 15% reduction in Gini coefficient inequality measure through Hearts investment and Community Provider economic democracy
 - 30% of local services organized through Community Provider networks and Hearts investment
 - 10% improvement in ecological restoration indicators through Community Provider environmental services
-- <1% elite capture incidents with rapid resolution in Community Provider governance
+- `<`1% elite capture incidents with rapid resolution in Community Provider governance
 
 **Qualitative Indicators**:
 - Increased community stories of service satisfaction and meaning through Community Provider participation
