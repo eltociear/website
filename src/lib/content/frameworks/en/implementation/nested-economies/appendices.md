@@ -408,7 +408,7 @@ BAZ Treasuries manage local Hearts allocation while maintaining community accoun
 
 **Emergency Assistance**: Treasuries maintain capacity to provide emergency Hearts to other BAZs during crises while receiving similar support during local emergencies, building regional mutual aid networks and community resilience through reciprocal solidarity relationships.
 
-### </a>Inter-BAZ Exchange Protocols
+### Inter-BAZ Exchange Protocols
 
 Standardized protocols enable seamless Hearts trade between BAZs while maintaining community autonomy:
 
