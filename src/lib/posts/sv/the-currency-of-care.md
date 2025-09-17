@@ -35,15 +35,15 @@ Tänk om vi, istället för att bara hantera smärtan, kunde ta itu med grundors
 
 Detta för oss till den visionära kärnan av experimentet: Tänk om vi kunde skapa en ny typ av pengar som är särskilt utformade för att se och belöna det arbete som vår nuvarande ekonomi ignorerar?
 
-Vi kallar detta nya verktyg **`Hearts` ❤️ (Omsorgsvalutan)**.
+Vi kallar detta nya verktyg **`Hjärtan` ❤️ (Omsorgsvalutan)**.
 
 Föreställ dig en icke-handelbar social kredit – som en specialiserad, gemenskapsdriven kupong – som du får varje månad tillsammans med din vanliga basinkomst. Du kan inte spendera den på Amazon, men du kan använda den för att betala för en plats i det lokala barnomsorgskooperativet, köpa färska grönsaker från den gemensamma trädgården, låna ett verktyg från grannskapets verktygsbibliotek eller stödja det lokala konstkollektivet.
 
-Detta skapar ett **"UBI Plus"**- eller **system med dubbla plånböcker**. Föreställ dig att ditt månatliga stöd på, säg, 10 000 kr anländer som **7 000 kr i kontanter** för hyra, räkningar och mat, och **3 000 i `Hearts`** avsedda för att stärka ditt lokalsamhälles omsorgsinfrastruktur.
+Detta skapar ett **"UBI Plus"**- eller **system med dubbla plånböcker**. Föreställ dig att ditt månatliga stöd på, säg, 10 000 kr anländer som **7 000 kr i kontanter** för hyra, räkningar och mat, och **3 000 i `Hjärtan`** avsedda för att stärka ditt lokalsamhälles omsorgsinfrastruktur.
 
 ![Dual Wallet System Diagram](/images/blog/the-currency-of-care/dual-wallet-system-diagram-sv.svg)
 
-*AUBI-systemet delar upp månatliga betalningar mellan traditionell valuta för globala behov och Hearts-krediter för lokala samhällstjänster.*
+*AUBI-systemet delar upp månatliga betalningar mellan traditionell valuta för globala behov och Hjärtan-krediter för lokala samhällstjänster.*
 
 Denna **slutna kretsloppsdesign** säkerställer att en del av den ekonomiska stimulansen förblir lokal, vilket skapar en stabil, förutsägbar kundbas för just de tjänster som bygger gemenskapens motståndskraft. Det är ett ekonomiskt verktyg som inte är utformat för utvinning, utan för att väva en starkare social väv. Denna vision kan låta ambitiös, men den bygger på en enkel, gräsrotsprocess som kan börja med bara några grannar och en gemensam idé.
 
@@ -51,17 +51,17 @@ Denna **slutna kretsloppsdesign** säkerställer att en del av den ekonomiska st
 
 Denna vision om en omsorgsbaserad valuta börjar inte med ett dekret från regeringen. Den börjar med ett verkligt problem och en handfull grannar, en process vi kallar **BAZ Startpaket**.
 
-Föreställ dig Maria, en karaktär från vitbokens slutsats, och fyra andra föräldrar i hennes grannskap som behöver prisvärd, pålitlig barnomsorg. De bildar en **sammankallande cirkel** och bestämmer sig för att skapa ett litet barnomsorgskooperativ. För att göra det ekonomiskt bärkraftigt skapar de en **proto-kassa** – ett enkelt, delat bankkonto – för att backa den första utgivningen av `Hearts`-krediter.
+Föreställ dig Maria, en karaktär från vitbokens slutsats, och fyra andra föräldrar i hennes grannskap som behöver prisvärd, pålitlig barnomsorg. De bildar en **sammankallande cirkel** och bestämmer sig för att skapa ett litet barnomsorgskooperativ. För att göra det ekonomiskt bärkraftigt skapar de en **proto-kassa** – ett enkelt, delat bankkonto – för att backa den första utgivningen av `Hjärtan`-krediter.
 
-Deras kooperativ blir den första **gemenskapliga leverantören** i nätverket. Maria får sin månatliga **adaptiva universella basinkomst (AUBI)**-betalning som en dubbel plånbok: till exempel **7 000 kr i kontanter och 3 000 i `Hearts`**. Hon använder sina `Hearts` för att betala för sin plats i kooperativet, vilket garanterar det en stabil och förutsägbar kundbas som inte är beroende av den traditionella marknadens svängningar. Kooperativet kan sedan lösa in dessa `Hearts` från kassan mot kontanter för att köpa pysselmaterial och hälsosamma mellanmål.
+Deras kooperativ blir den första **gemenskapliga leverantören** i nätverket. Maria får sin månatliga **adaptiva universella basinkomst (AUBI)**-betalning som en dubbel plånbok: till exempel **7 000 kr i kontanter och 3 000 i `Hjärtan`**. Hon använder sina `Hjärtan` för att betala för sin plats i kooperativet, vilket garanterar det en stabil och förutsägbar kundbas som inte är beroende av den traditionella marknadens svängningar. Kooperativet kan sedan lösa in dessa `Hjärtan` från kassan mot kontanter för att köpa pysselmaterial och hälsosamma mellanmål.
 
-När deras kooperativ växer och rekryterar andra lokala leverantörer – den gemensamma trädgården, en lokal konstnär, en cykelreparationsverkstad – formaliseras systemet. Ett demokratiskt **BAZ-råd** väljs för att sköta styrningen, och det enkla bankkontot utvecklas till en formell **Hearts-kassa**, som förvaltas i samarbete med en lokal sparbank för att säkerställa stabil och pålitlig inlösen.
+När deras kooperativ växer och rekryterar andra lokala leverantörer – den gemensamma trädgården, en lokal konstnär, en cykelreparationsverkstad – formaliseras systemet. Ett demokratiskt **BAZ-råd** väljs för att sköta styrningen, och det enkla bankkontot utvecklas till en formell **Hjärtan-kassa**, som förvaltas i samarbete med en lokal sparbank för att säkerställa stabil och pålitlig inlösen.
 
-![Hearts Flow Diagram](/images/blog/the-currency-of-care/hearts-closed-loop-flow-diagram-sv.svg)
+![Hjärtan flödesdiagram](/images/blog/the-currency-of-care/hearts-closed-loop-flow-diagram-sv.svg)
 
-*Hearts cirkulerar lokalt: medborgare spenderar dem hos gemenskapliga leverantörer, som löser in dem mot fiatvaluta, vilket möjliggör månatlig återutgivning.*
+*Hjärtan cirkulerar lokalt: medborgare spenderar dem hos gemenskapliga leverantörer, som löser in dem mot fiatvaluta, vilket möjliggör månatlig återutgivning.*
 
-Avgörande är att det finns ett parallellt system för att förhindra att vänlighet kommodifieras. **Love Ledger** är en icke-monetär plattform där informella omsorgshandlingar – att hjälpa en granne med matinköp, vara mentor åt en tonåring – erkänns och firas med tacksamhet, men aldrig omvandlas till en transaktion. Detta säkerställer att **`Hearts` stöder *infrastrukturen* för omsorg, medan `Love Ledger` hedrar *andan* av omsorg**.
+Avgörande är att det finns ett parallellt system för att förhindra att vänlighet kommodifieras. **Love Ledger** är en icke-monetär plattform där informella omsorgshandlingar – att hjälpa en granne med matinköp, vara mentor åt en tonåring – erkänns och firas med tacksamhet, men aldrig omvandlas till en transaktion. Detta säkerställer att **`Hjärtan` stöder *infrastrukturen* för omsorg, medan `Love Ledger` hedrar *andan* av omsorg**.
 
 Denna gräsrotsmodell visar hur en omsorgsekonomi kan byggas från grunden. Men den väcker också viktiga frågor: Hur skalar ett sådant system? Hur skiljer det sig från andra lokala valutor som har misslyckats? Och riskerar det inte att helt enkelt kommodifiera mänsklig vänlighet? Låt oss ta itu med dessa frågor direkt.
 
@@ -70,18 +70,18 @@ Denna gräsrotsmodell visar hur en omsorgsekonomi kan byggas från grunden. Men 
 Denna gräsrotsmodell visar hur en omsorgsekonomi kan byggas från grunden, men den väcker viktiga frågor. Här är de vanligaste, med direkta svar.
 
 **"Men hur skalar detta bortom ett enda grannskap?"**
-Strategin är inte ett enda jättekliv, utan en fasindelad **"bro till legitimitet."** Ett framgångsrikt gräsrotspilotprojekt, som styrs av ett **BAZ-råd**, kan samarbeta med befintliga, betrodda institutioner som lokala **sparbanker** och **kommuner**. BAZ kan erbjuda sig att hantera specifika kommunala tjänster (som parkskötsel eller fritidsverksamhet) mer effektivt med hjälp av `Hearts`-systemet. Detta omvandlar projektet från en "alternativ valuta" till ett sanktionerat, innovativt partnerskap mellan det offentliga och det gemensamma.
+Strategin är inte ett enda jättekliv, utan en fasindelad **"bro till legitimitet."** Ett framgångsrikt gräsrotspilotprojekt, som styrs av ett **BAZ-råd**, kan samarbeta med befintliga, betrodda institutioner som lokala **sparbanker** och **kommuner**. BAZ kan erbjuda sig att hantera specifika kommunala tjänster (som parkskötsel eller fritidsverksamhet) mer effektivt med hjälp av `Hjärtan`-systemet. Detta omvandlar projektet från en "alternativ valuta" till ett sanktionerat, innovativt partnerskap mellan det offentliga och det gemensamma.
 
 **"Kommodifierar inte detta bara kärlek och relationer?"**
 Detta är en avgörande etisk gräns. Systemet är utformat för att undvika detta genom att separera två funktioner:
 
-  * **`Hearts`** stöder **infrastrukturen för omsorg**. De betalar dig inte för att vara en god vän, men de kan betala hyran för den gemenskapslokal där vänner träffas, eller för materialet på barnomsorgskooperativet.
+  * **`Hjärtan`** stöder **infrastrukturen för omsorg**. De betalar dig inte för att vara en god vän, men de kan betala hyran för den gemenskapslokal där vänner träffas, eller för materialet på barnomsorgskooperativet.
   * **`Love Ledger`** hedrar **andan av omsorg**. Denna parallella, icke-monetära plattform är till för att erkänna informella vänliga handlingar – att hjälpa en granne, vara mentor åt en tonåring – med tacksamhet och socialt erkännande, aldrig med ekonomiskt värde.
 
 **"Hur skiljer sig detta från andra lokala valutor som har misslyckats?"**
 De flesta lokala valutor kämpar med tre problem, vilka denna modell är utformad för att lösa:
 
-1.  **Värdeinstabilitet:** `Hearts` har ett stabilt värde eftersom de backas av en fiat-kassa som förvaltas av en partner-sparbank.
+1.  **Värdeinstabilitet:** `Hjärtan` har ett stabilt värde eftersom de backas av en fiat-kassa som förvaltas av en partner-sparbank.
 2.  **Begränsad acceptans:** Nätverket byggs kring **gemenskapliga leverantörer** som tjänar omsorgsekonomin, med en garanterad kundbas från AUBI-distributionen.
 3.  **Brist på institutionellt stöd:** Modellen är utformad för att från början samarbeta med befintliga institutioner (sparbanker, kommuner), vilket ger legitimitet och stabilitet.
 
@@ -95,10 +95,10 @@ Nästa steg är att testa denna hypotes i den verkliga världen. Vi söker aktiv
 
   * **Om du är förälder, konstnär eller samhällsorganisatör,** kan du testa dessa principer i den minsta skalan. Hur skulle en **sammankallande cirkel** se ut i ditt grannskap? Vilket omsorgsbaserat behov skulle du och några vänner kunna börja organisera er kring?
 
-  * **Om du är en småföretagare,** fundera på hur ditt arbete redan bidrar till omsorgsekonomin. Vad skulle krävas för att du skulle bli en **gemenskaplig leverantör**? Vilken typ av stöd skulle du behöva för att acceptera en gemenskapsbackad kredit som `Hearts`?
+  * **Om du är en småföretagare,** fundera på hur ditt arbete redan bidrar till omsorgsekonomin. Vad skulle krävas för att du skulle bli en **gemenskaplig leverantör**? Vilken typ av stöd skulle du behöva för att acceptera en gemenskapsbackad kredit som `Hjärtan`?
 
   * **Om du är en lokal tjänsteman, forskare eller filantrop,** hjälp oss att vässa denna hypotes. Vilka är dess brister? Hur skulle forskningen kunna utformas mer rigoröst? Vi letar efter partners som kan hjälpa oss att utforma och finansiera de första verkliga pilotprojekten.
 
-Målet är inte att bevisa att `Hearts` är den enda sanna lösningen. Målet är att gemensamt besvara frågan: Vilka typer av ekonomiska system kan framgångsrikt erkänna, värdesätta och upprätthålla det omsorgsarbete som upprätthåller oss alla?
+Målet är inte att bevisa att `Hjärtan` är den enda sanna lösningen. Målet är att gemensamt besvara frågan: Vilka typer av ekonomiska system kan framgångsrikt erkänna, värdesätta och upprätthålla det omsorgsarbete som upprätthåller oss alla?
 
 Delta i utredningen på **globalgovernanceframeworks.org**.
