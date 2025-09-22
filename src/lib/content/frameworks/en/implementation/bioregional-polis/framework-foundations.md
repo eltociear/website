@@ -6,7 +6,7 @@ section: framework-foundations
 # Framework Foundations: Principles, Scope & Integration
 
 **In this section:**
-- [The Eight Core Principles](#eight-principles)
+- [The Nine Core Principles](#nine-principles)
 - [Framework Scope & Boundaries](#scope-boundaries)
 - [Legal & Policy Alignment](#legal-alignment)
 - [GGF Ecosystem Integration](#ggf-integration)
@@ -17,12 +17,12 @@ section: framework-foundations
 
 **Estimated Reading Time**: 16 minutes
 
-> *"A framework is like a river channelâ€"it guides the flow of energy and resources while allowing the water to remain water. The strongest frameworks are those that work with natural patterns rather than against them, supporting life's tendency toward complexity, beauty, and regeneration. Like the stars that guide travelers across vast distances, our principles must be both constant and responsive to the ever-changing landscape of transformation."*  
+> *"A framework is like a river channel—it guides the flow of energy and resources while allowing the water to remain water. The strongest frameworks are those that work with natural patterns rather than against them, supporting life's tendency toward complexity, beauty, and regeneration. Like the stars that guide travelers across vast distances, our principles must be both constant and responsive to the ever-changing landscape of transformation."*  
 > — From traditional governance teachings
 
 ---
 
-## <a id="eight-principles"></a>The Eight Core Principles
+## <a id="nine-principles"></a>The Nine Core Principles
 
 The Bioregional Polis operates through nine interconnected principles that honor Indigenous wisdom while enabling urban transformation. These principles serve as both ethical standards and practical design guidelines, ensuring all framework components align with regenerative governance that honors terrestrial and cosmic relationships.
 
