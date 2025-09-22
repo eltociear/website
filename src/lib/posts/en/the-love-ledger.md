@@ -188,7 +188,9 @@ This is a rigorous hypothesis, not a final declaration, and the path forward is 
 
 * **For Practitioners & Communities:** Ready to take the first step? Share one act of care with a neighbor and discuss how the Love Ledger could amplify it. Download our free, one-page **Care Card** template at `globalgovernanceframeworks.org` to try logging gratitude offline.
 
-![Care Card Template Preview](/images/blog/the-love-ledger/care-card-template.png)
+[Care Card Template - PNG](/images/blog/the-love-ledger/care-card-template.png)
+
+<img src="/images/blog/the-love-ledger/care-card-template.svg" alt="Care Card Template" width="50%"\>
 *A simple, printable one-page template with spaces for logging acts of care, gratitude given, and gratitude received, designed for offline use in communities without reliable internet access.*
 
 * **For Researchers & Municipalities:** Help us test the model. We are seeking partners to rigorously study the **Love Ledger → LMCI → budget signals** feedback loop with all ethical guardrails in place, building on the pilot concepts outlined in our previous posts.

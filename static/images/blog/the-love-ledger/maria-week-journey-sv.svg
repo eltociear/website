@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 900 400"
+   version="1.1"
+   id="svg42"
+   sodipodi:docname="maria-week-journey-sv.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview42"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.115"
+     inkscape:cx="679.66903"
+     inkscape:cy="200"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg42" />
+  <rect
+     width="900"
+     height="400"
+     fill="#fafbfc"
+     id="rect1" />
+  <text
+     x="450"
+     y="30"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     font-weight="bold"
+     fill="#2c3e50"
+     id="text1">
+    Marias vecka med Kärleksreskontran
+  </text>
+  <line
+     x1="80"
+     y1="100"
+     x2="820"
+     y2="100"
+     stroke="#3498db"
+     stroke-width="3"
+     id="line1" />
+  <circle
+     cx="150"
+     cy="100"
+     r="8"
+     fill="#3498db"
+     id="circle1" />
+  <circle
+     cx="450"
+     cy="100"
+     r="8"
+     fill="#3498db"
+     id="circle2" />
+  <circle
+     cx="750"
+     cy="100"
+     r="8"
+     fill="#3498db"
+     id="circle3" />
+  <g
+     id="monday">
+    <text
+       x="150"
+       y="80"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       font-weight="bold"
+       fill="#2c3e50"
+       id="text3">Måndag</text>
+    <rect
+       x="70"
+       y="120"
+       width="160"
+       height="160"
+       fill="#e8f6f3"
+       stroke="#16a085"
+       stroke-width="2"
+       rx="8"
+       id="rect3" />
+    <text
+       x="150"
+       y="140"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       fill="#16a085"
+       id="text4">
+      Ge tacksamhet
+    </text>
+    <circle
+       cx="110"
+       cy="160"
+       r="12"
+       fill="#f39c12"
+       id="circle4" />
+    <text
+       x="110"
+       y="165"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="10"
+       fill="white"
+       id="text5">M</text>
+    <text
+       x="130"
+       y="165"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       fill="#2c3e50"
+       id="text6">Maria</text>
+    <circle
+       cx="110"
+       cy="190"
+       r="10"
+       fill="#9b59b6"
+       id="circle6" />
+    <text
+       x="110"
+       y="195"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="8"
+       fill="white"
+       id="text7">J</text>
+    <circle
+       cx="140"
+       cy="190"
+       r="10"
+       fill="#7f8c8d"
+       id="circle7" />
+    <text
+       x="140"
+       y="195"
+       text-anchor="middle"
+       font-family="Arial, sans-serif"
+       font-size="8"
+       fill="white"
+       id="text8">Ä</text>
+    <line
+       x1="120"
+       y1="190"
+       x2="130"
+       y2="190"
+       stroke="#2c3e50"
+       stroke-width="2"
+       id="line8" />
+    <text
+       x="80"
+       y="210"
+       font-family="Arial, sans-serif"
+       font-size="8"
+       fill="#34495e"
+       id="text9">Jamal hjälper äldre</text>
+    <text
+       x="80"
+       y="220"
+       font-family="Arial, sans-serif"
+       font-size="8"
+       fill="#34495e"
+       id="text10">med matkassar</text>
+    <rect
+       x="180"
+       y="170"
+       width="30"
+       height="50"
+       fill="#34495e"
+       rx="5"
+       id="rect10" />
+    <rect
+       x="185"
+       y="175"
+       width="20"
+       height="30"
+       fill="#ecf0f1"
+       id="rect11" />
+    <circle
+       cx="195"
+       cy="212"
+       r="3"
+       fill="#ecf0f1"
+       id="circle11" />
+    <text
+       x="175"
+       y="235"
+       font-family="Arial, sans-serif"
+       font-size="8"
+       fill="#34495e"
+       id="text11">Maria skickar</text>
+    <text
+       x="175"
+       y="245"
+       font-family="Arial, sans-serif"
+       font-size="8"
+       fill="#34495e"
+       id="text12">tacksamhet</text>
+    <path
+       d="M 150 170 Q 165 160 180 170"
+       stroke="#e74c3c"
+       stroke-width="2"
+       fill="none"
+       marker-end="url(#arrowhead)"
+       id="path12" />
+  </g>
+  <text
+     x="450"
+     y="80"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     fill="#2c3e50"
+     id="text13">Onsdag</text>
+  <rect
+     x="370"
+     y="120"
+     width="160"
+     height="160"
+     fill="#fdf2e9"
+     stroke="#e67e22"
+     stroke-width="2"
+     rx="8"
+     id="rect13" />
+  <text
+     x="450"
+     y="140"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#e67e22"
+     id="text14">Ta emot tacksamhet</text>
+  <circle
+     cx="410"
+     cy="170"
+     r="12"
+     fill="#f39c12"
+     id="circle14" />
+  <text
+     x="410"
+     y="175"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text15">M</text>
+  <circle
+     cx="450"
+     cy="170"
+     r="12"
+     fill="#2ecc71"
+     id="circle15" />
+  <text
+     x="450"
+     y="175"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text16">G</text>
+  <path
+     d="m 422,170 q 8,-5 16,0"
+     stroke="#95a5a6"
+     stroke-width="1"
+     fill="none"
+     id="path16" />
+  <path
+     d="m 422,175 q 8,-5 16,0"
+     stroke="#95a5a6"
+     stroke-width="1"
+     fill="none"
+     id="path17" />
+  <path
+     d="m 422,180 q 8,-5 16,0"
+     stroke="#95a5a6"
+     stroke-width="1"
+     fill="none"
+     id="path18" />
+  <text
+     x="381"
+     y="200"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#34495e"
+     id="text18">Maria lyssnar på</text>
+  <text
+     x="381"
+     y="210"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#34495e"
+     id="text19">grannens berättelser</text>
+  <rect
+     x="480"
+     y="160"
+     width="40"
+     height="25"
+     fill="#e91e63"
+     rx="12"
+     id="rect19" />
+  <text
+     x="500"
+     y="178"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     fill="#ffffff"
+     id="text20">Tack!</text>
+  <text
+     x="464"
+     y="200"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#34495e"
+     id="text22">Tar emot</text>
+  <text
+     x="464"
+     y="210"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#34495e"
+     id="text23">&quot;Lyssande öra&quot;</text>
+  <text
+     x="464"
+     y="220"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#34495e"
+     id="text24">tacksamhetstoken</text>
+  <text
+     x="750"
+     y="80"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     font-weight="bold"
+     fill="#2c3e50"
+     id="text25">Fredag</text>
+  <rect
+     x="670"
+     y="120"
+     width="160"
+     height="160"
+     fill="#e8f5e8"
+     stroke="#27ae60"
+     stroke-width="2"
+     rx="8"
+     id="rect25" />
+  <text
+     x="750"
+     y="140"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#27ae60"
+     id="text26">Gemenskapsmönster</text>
+  <rect
+     x="716.69031"
+     y="155"
+     width="66.146568"
+     height="80"
+     fill="#2c3e50"
+     rx="8.8195419"
+     id="rect26"
+     style="stroke-width:1.04997" />
+  <rect
+     x="720.74469"
+     y="160"
+     width="58.510635"
+     height="60"
+     fill="#ecf0f1"
+     id="rect27"
+     style="stroke-width:1.08176" />
+  <text
+     x="750"
+     y="175"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="7px"
+     fill="#2c3e50"
+     id="text27">Gemenskapshälsa</text>
+  <rect
+     x="730"
+     y="180"
+     width="40"
+     height="4"
+     fill="#e0e0e0"
+     id="rect28" />
+  <rect
+     x="730"
+     y="180"
+     width="32"
+     height="4"
+     fill="#27ae60"
+     id="rect29" />
+  <text
+     x="727"
+     y="192"
+     font-family="Arial, sans-serif"
+     font-size="6px"
+     fill="#2c3e50"
+     id="text29">Generationer</text>
+  <rect
+     x="730"
+     y="195"
+     width="40"
+     height="4"
+     fill="#e0e0e0"
+     id="rect30" />
+  <rect
+     x="730"
+     y="195"
+     width="28"
+     height="4"
+     fill="#f39c12"
+     id="rect31" />
+  <text
+     x="727"
+     y="207"
+     font-family="Arial, sans-serif"
+     font-size="6px"
+     fill="#2c3e50"
+     id="text31">Ömsesidigt stöd</text>
+  <circle
+     cx="750"
+     cy="220"
+     r="3"
+     fill="#ecf0f1"
+     id="circle31" />
+  <circle
+     cx="690"
+     cy="180"
+     r="12"
+     fill="#f39c12"
+     id="circle32" />
+  <text
+     x="690"
+     y="185"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#ffffff"
+     id="text32">M</text>
+  <text
+     x="675"
+     y="250"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#34495e"
+     id="text33">Maria ser gemenskapens</text>
+  <text
+     x="675"
+     y="260"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#34495e"
+     id="text34">omsorgsmönster</text>
+  <defs
+     id="defs35">
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#e74c3c"
+         id="polygon34" />
+    </marker>
+    <marker
+       id="flowArrow"
+       markerWidth="8"
+       markerHeight="6"
+       refX="7"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0, 8 3, 0 6"
+         fill="#3498db"
+         id="polygon35" />
+    </marker>
+  </defs>
+  <path
+     d="M 230 180 Q 300 150 370 180"
+     stroke="#3498db"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#flowArrow)"
+     id="path35" />
+  <path
+     d="M 530 180 Q 600 150 670 180"
+     stroke="#3498db"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#flowArrow)"
+     id="path36" />
+  <text
+     x="450"
+     y="320"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     fill="#34495e"
+     id="text36">Kärleksloggen skapar en kontinuerlig cykel av uppmärksamhet och gemenskapsmedvetenhet</text>
+  <rect
+     x="320"
+     y="340"
+     width="260"
+     height="50"
+     fill="#f8f9fa"
+     stroke="#dee2e6"
+     rx="5"
+     id="rect36" />
+  <text
+     x="330"
+     y="355"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     font-weight="bold"
+     fill="#2c3e50"
+     id="text37">Teckenförklaring:</text>
+  <circle
+     cx="340"
+     cy="365"
+     r="6"
+     fill="#f39c12"
+     id="circle37" />
+  <text
+     x="340"
+     y="369"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#ffffff"
+     id="text38">M</text>
+  <text
+     x="350"
+     y="369"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#2c3e50"
+     id="text39">Maria</text>
+  <rect
+     x="420"
+     y="360"
+     width="30"
+     height="12"
+     fill="#e91e63"
+     rx="6"
+     id="rect39" />
+  <text
+     x="435"
+     y="369"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="7px"
+     fill="#ffffff"
+     id="text40">Token</text>
+  <text
+     x="455"
+     y="369"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#2c3e50"
+     id="text41">Tacksamhetstoken</text>
+  <rect
+     x="330"
+     y="375"
+     width="20"
+     height="12"
+     fill="#2c3e50"
+     rx="2"
+     id="rect41" />
+  <text
+     x="355"
+     y="384"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     fill="#2c3e50"
+     id="text42">Kärlekslogg-appen</text>
+</svg>

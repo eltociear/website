@@ -1,0 +1,179 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with subtle pattern -->
+  <defs>
+    <pattern id="backgroundPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="#f8f9fa"/>
+      <rect x="0" y="0" width="10" height="10" fill="#ffffff" opacity="0.5"/>
+      <rect x="10" y="10" width="10" height="10" fill="#ffffff" opacity="0.5"/>
+    </pattern>
+    
+    <!-- Gradient for decorative border -->
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f39c12;stop-opacity:0.6"/>
+      <stop offset="50%" style="stop-color:#e67e22;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#d35400;stop-opacity:0.6"/>
+    </linearGradient>
+    
+    <!-- Toggle switch gradient -->
+    <linearGradient id="toggleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#bdc3c7"/>
+      <stop offset="100%" style="stop-color:#95a5a6"/>
+    </linearGradient>
+    
+    <!-- Card shadow filter -->
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  
+  <rect width="400" height="500" fill="url(#backgroundPattern)"/>
+  
+  <!-- Decorative network lines and leaves around the border -->
+  <g stroke="url(#borderGradient)" stroke-width="2" fill="none" opacity="0.7">
+    <!-- Top border line with connection points -->
+    <path d="M 30 40 Q 60 25 100 30 T 200 35 T 300 30 Q 340 25 370 40"/>
+    <circle cx="60" cy="28" r="3" fill="#f39c12"/>
+    <circle cx="140" cy="33" r="2" fill="#e67e22"/>
+    <circle cx="200" cy="35" r="3" fill="#f39c12"/>
+    <circle cx="260" cy="33" r="2" fill="#e67e22"/>
+    <circle cx="340" cy="28" r="3" fill="#f39c12"/>
+    
+    <!-- Right border -->
+    <path d="M 370 40 Q 385 80 380 120 T 375 200 T 380 280 T 375 360 Q 385 400 370 440"/>
+    <circle cx="378" cy="100" r="2" fill="#e67e22"/>
+    <circle cx="376" cy="180" r="3" fill="#f39c12"/>
+    <circle cx="378" cy="260" r="2" fill="#e67e22"/>
+    <circle cx="376" cy="340" r="3" fill="#f39c12"/>
+    <circle cx="378" cy="420" r="2" fill="#e67e22"/>
+    
+    <!-- Bottom border -->
+    <path d="M 370 440 Q 340 455 300 450 T 200 445 T 100 450 Q 60 455 30 440"/>
+    <circle cx="340" cy="452" r="3" fill="#f39c12"/>
+    <circle cx="260" cy="447" r="2" fill="#e67e22"/>
+    <circle cx="200" cy="445" r="3" fill="#f39c12"/>
+    <circle cx="140" cy="447" r="2" fill="#e67e22"/>
+    <circle cx="60" cy="452" r="3" fill="#f39c12"/>
+    
+    <!-- Left border -->
+    <path d="M 30 440 Q 15 400 20 360 T 25 280 T 20 200 T 25 120 Q 15 80 30 40"/>
+    <circle cx="22" cy="380" r="2" fill="#e67e22"/>
+    <circle cx="24" cy="300" r="3" fill="#f39c12"/>
+    <circle cx="22" cy="220" r="2" fill="#e67e22"/>
+    <circle cx="24" cy="140" r="3" fill="#f39c12"/>
+    <circle cx="22" cy="60" r="2" fill="#e67e22"/>
+  </g>
+  
+  <!-- Decorative leaves -->
+  <g fill="#27ae60" opacity="0.8">
+    <!-- Top left leaf -->
+    <path d="M 45 55 Q 35 45 45 35 Q 55 45 45 55 Z" transform="rotate(-15 45 45)"/>
+    <path d="M 42 52 L 48 38" stroke="#2ecc71" stroke-width="1"/>
+    
+    <!-- Top right leaf -->
+    <path d="M 355 55 Q 345 45 355 35 Q 365 45 355 55 Z" transform="rotate(15 355 45)"/>
+    <path d="M 352 52 L 358 38" stroke="#2ecc71" stroke-width="1"/>
+    
+    <!-- Bottom right leaf -->
+    <path d="M 355 425 Q 345 435 355 445 Q 365 435 355 425 Z" transform="rotate(-15 355 435)"/>
+    <path d="M 352 428 L 358 442" stroke="#2ecc71" stroke-width="1"/>
+    
+    <!-- Bottom left leaf with heart motif -->
+    <path d="M 45 425 Q 35 435 45 445 Q 55 435 45 425 Z" transform="rotate(15 45 435)"/>
+    <path d="M 42 428 L 48 442" stroke="#2ecc71" stroke-width="1"/>
+    
+    <!-- Small heart near bottom left -->
+    <path d="M 50 415 Q 45 410 40 415 Q 45 420 50 415 Q 55 410 60 415 Q 55 420 50 415 Z" fill="#e74c3c" opacity="0.6"/>
+  </g>
+  
+  <!-- Main title -->
+  <text x="200" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">
+    Integritet för denna post
+  </text>
+  
+  <!-- Privacy option cards -->
+  
+  <!-- Private card -->
+  <g transform="translate(50, 110)">
+    <rect width="300" height="70" rx="12" fill="#34495e" filter="url(#cardShadow)"/>
+    
+    <!-- Lock icon -->
+    <g transform="translate(20, 20)">
+      <rect x="5" y="15" width="20" height="18" rx="2" fill="#f39c12"/>
+      <path d="M 8 15 V 10 Q 8 5 15 5 Q 22 5 22 10 V 15" stroke="#f39c12" stroke-width="2" fill="none"/>
+      <circle cx="15" cy="24" r="2" fill="#34495e"/>
+    </g>
+    
+    <!-- Text -->
+    <text x="60" y="28" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">Privat</text>
+    <text x="60" y="45" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Endast du kan se detta</text>
+    
+    <!-- Toggle switch -->
+    <g transform="translate(240, 25)">
+      <rect width="40" height="20" rx="10" fill="url(#toggleGradient)"/>
+      <circle cx="30" cy="10" r="8" fill="white"/>
+    </g>
+  </g>
+  
+  <!-- Network card -->
+  <g transform="translate(50, 200)">
+    <rect width="300" height="70" rx="12" fill="#34495e" filter="url(#cardShadow)"/>
+    
+    <!-- People icon -->
+    <g transform="translate(20, 20)" fill="#f39c12">
+      <circle cx="8" cy="8" r="6"/>
+      <circle cx="22" cy="8" r="6"/>
+      <path d="M 0 25 Q 0 20 8 20 Q 16 20 16 25 Z"/>
+      <path d="M 14 25 Q 14 20 22 20 Q 30 20 30 25 Z"/>
+    </g>
+    
+    <!-- Text -->
+    <text x="60" y="28" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">Ditt nätverk</text>
+    <text x="60" y="45" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Synlig för vänner och grannar</text>
+    
+    <!-- Toggle switch -->
+    <g transform="translate(240, 25)">
+      <rect width="40" height="20" rx="10" fill="url(#toggleGradient)"/>
+      <circle cx="30" cy="10" r="8" fill="white"/>
+    </g>
+  </g>
+  
+  <!-- Community card -->
+  <g transform="translate(50, 290)">
+    <rect width="300" height="70" rx="12" fill="#34495e" filter="url(#cardShadow)"/>
+    
+    <!-- Community icon -->
+    <g transform="translate(20, 20)" fill="#f39c12">
+      <path d="M 5 25 L 5 15 Q 5 10 10 8 L 15 5 L 20 8 Q 25 10 25 15 L 25 25 Z"/>
+      <rect x="12" y="18" width="6" height="7" fill="#34495e"/>
+      <circle cx="8" cy="30" r="2"/>
+      <circle cx="15" cy="30" r="2"/>
+      <circle cx="22" cy="30" r="2"/>
+    </g>
+    
+    <!-- Text -->
+    <text x="60" y="28" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">Gemenskap</text>
+    <text x="60" y="45" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Delad med ditt lokala område</text>
+    
+    <!-- Toggle switch -->
+    <g transform="translate(240, 25)">
+      <rect width="40" height="20" rx="10" fill="url(#toggleGradient)"/>
+      <circle cx="30" cy="10" r="8" fill="white"/>
+    </g>
+  </g>
+  
+  <!-- Additional decorative connecting lines between elements -->
+  <g stroke="#f39c12" stroke-width="1" fill="none" opacity="0.3">
+    <path d="M 80 180 Q 90 185 100 190"/>
+    <path d="M 80 270 Q 90 275 100 280"/>
+    <path d="M 320 180 Q 310 185 300 190"/>
+    <path d="M 320 270 Q 310 275 300 280"/>
+  </g>
+  
+  <!-- Small decorative dots -->
+  <g fill="#e67e22" opacity="0.4">
+    <circle cx="100" cy="190" r="1.5"/>
+    <circle cx="300" cy="190" r="1.5"/>
+    <circle cx="100" cy="280" r="1.5"/>
+    <circle cx="300" cy="280" r="1.5"/>
+  </g>
+</svg>
