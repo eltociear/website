@@ -1,0 +1,207 @@
+<svg viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="900" height="300" fill="#fafbfc"/>
+  
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">
+    Love Ledger Process: From Care to Community Insight
+  </text>
+  
+  <!-- Step 1: The Act -->
+  <g id="step1">
+    <rect x="20" y="60" width="180" height="180" fill="#e8f6f3" stroke="#16a085" stroke-width="2" rx="10"/>
+    
+    <!-- Step number -->
+    <circle cx="60" cy="80" r="15" fill="#16a085"/>
+    <text x="60" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">1</text>
+    
+    <!-- Step title -->
+    <text x="110" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#16a085">
+      The Act
+    </text>
+    
+    <!-- Icon: Helping hands -->
+    <g transform="translate(110, 120)">
+      <circle cx="0" cy="0" r="25" fill="#1abc9c" opacity="0.2"/>
+      <!-- Helping hands icon -->
+      <path d="M -15 -10 Q -10 -15 -5 -10 L 5 0 Q 10 5 15 0 Q 10 -5 5 -10 L -5 0 Q -10 5 -15 0 Z" fill="#16a085"/>
+      <circle cx="-8" cy="-5" r="3" fill="#16a085"/>
+      <circle cx="8" cy="-5" r="3" fill="#16a085"/>
+    </g>
+    
+    <!-- Description -->
+    <text x="110" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      Someone performs an
+    </text>
+    <text x="110" y="183" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      informal act of care,
+    </text>
+    <text x="110" y="196" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      creativity, or stewardship
+    </text>
+    
+    <!-- Examples -->
+    <text x="110" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666" font-style="italic">
+      e.g., listening, helping, teaching
+    </text>
+  </g>
+  
+  <!-- Arrow 1 -->
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#3498db"/>
+    </marker>
+  </defs>
+  <path d="M 200 150 L 240 150" stroke="#3498db" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Step 2: Recognition -->
+  <g id="step2">
+    <rect x="250" y="60" width="180" height="180" fill="#fdf2e9" stroke="#e67e22" stroke-width="2" rx="10"/>
+    
+    <!-- Step number -->
+    <circle cx="290" cy="80" r="15" fill="#e67e22"/>
+    <text x="290" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">2</text>
+    
+    <!-- Step title -->
+    <text x="340" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e67e22">
+      Recognition
+    </text>
+    
+    <!-- Icon: Gratitude token -->
+    <g transform="translate(340, 120)">
+      <circle cx="0" cy="0" r="25" fill="#f39c12" opacity="0.2"/>
+      <!-- Phone/app icon -->
+      <rect x="-12" y="-18" width="24" height="36" fill="#34495e" rx="4"/>
+      <rect x="-8" y="-14" width="16" height="24" fill="#ecf0f1"/>
+      <circle cx="0" cy="12" r="2" fill="#ecf0f1"/>
+      <!-- Heart on screen -->
+      <path d="M -4 -8 Q -6 -10 -8 -8 Q -8 -6 -4 -2 Q 0 -6 4 -2 Q 8 -6 8 -8 Q 6 -10 4 -8 Q 0 -4 -4 -8" fill="#e91e63"/>
+    </g>
+    
+    <!-- Description -->
+    <text x="340" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      Another member sends
+    </text>
+    <text x="340" y="183" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      a Gratitude Token via
+    </text>
+    <text x="340" y="196" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      app, SMS, or Community Weaver
+    </text>
+    
+    <!-- Examples -->
+    <text x="340" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666" font-style="italic">
+      "Thank you for listening"
+    </text>
+  </g>
+  
+  <!-- Arrow 2 -->
+  <path d="M 430 150 L 470 150" stroke="#3498db" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Step 3: Record -->
+  <g id="step3">
+    <rect x="480" y="60" width="180" height="180" fill="#f4ecf7" stroke="#8e44ad" stroke-width="2" rx="10"/>
+    
+    <!-- Step number -->
+    <circle cx="520" cy="80" r="15" fill="#8e44ad"/>
+    <text x="520" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">3</text>
+    
+    <!-- Step title -->
+    <text x="570" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8e44ad">
+      Record
+    </text>
+    
+    <!-- Icon: Ledger book -->
+    <g transform="translate(570, 120)">
+      <circle cx="0" cy="0" r="25" fill="#9b59b6" opacity="0.2"/>
+      <!-- Book icon -->
+      <rect x="-15" y="-12" width="30" height="24" fill="#8e44ad" rx="2"/>
+      <rect x="-12" y="-9" width="24" height="18" fill="#ecf0f1"/>
+      <!-- Lines on page -->
+      <line x1="-8" y1="-6" x2="8" y2="-6" stroke="#8e44ad" stroke-width="1"/>
+      <line x1="-8" y1="-2" x2="8" y2="-2" stroke="#8e44ad" stroke-width="1"/>
+      <line x1="-8" y1="2" x2="8" y2="2" stroke="#8e44ad" stroke-width="1"/>
+      <line x1="-8" y1="6" x2="8" y2="6" stroke="#8e44ad" stroke-width="1"/>
+      <!-- Bookmark -->
+      <rect x="12" y="-12" width="4" height="16" fill="#e74c3c"/>
+      <polygon points="12,4 16,4 14,8" fill="#e74c3c"/>
+    </g>
+    
+    <!-- Description -->
+    <text x="570" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      Act is securely logged
+    </text>
+    <text x="570" y="183" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      on the decentralized ledger
+    </text>
+    <text x="570" y="196" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      with privacy controls
+    </text>
+    
+    <!-- Examples -->
+    <text x="570" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666" font-style="italic">
+      Permanent, tamper-proof record
+    </text>
+  </g>
+  
+  <!-- Arrow 3 -->
+  <path d="M 660 150 L 700 150" stroke="#3498db" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Step 4: Ripple Effect -->
+  <g id="step4">
+    <rect x="710" y="60" width="180" height="180" fill="#e8f5e8" stroke="#27ae60" stroke-width="2" rx="10"/>
+    
+    <!-- Step number -->
+    <circle cx="750" cy="80" r="15" fill="#27ae60"/>
+    <text x="750" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">4</text>
+    
+    <!-- Step title -->
+    <text x="800" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#27ae60">
+      Ripple Effect
+    </text>
+    
+    <!-- Icon: LMCI Dashboard -->
+    <g transform="translate(800, 120)">
+      <circle cx="0" cy="0" r="25" fill="#2ecc71" opacity="0.2"/>
+      <!-- Dashboard with gauges -->
+      <rect x="-15" y="-15" width="30" height="20" fill="#34495e" rx="2"/>
+      <rect x="-12" y="-12" width="24" height="14" fill="#ecf0f1"/>
+      
+      <!-- Mini gauges -->
+      <path d="M -8 -8 A 3 3 0 0 1 -2 -8" stroke="#e91e63" stroke-width="1" fill="none"/>
+      <path d="M -2 -8 A 3 3 0 0 1 4 -8" stroke="#ff9800" stroke-width="1" fill="none"/>
+      <path d="M 4 -8 A 3 3 0 0 1 10 -8" stroke="#4caf50" stroke-width="1" fill="none"/>
+      
+      <!-- Ripple circles -->
+      <circle cx="0" cy="5" r="8" fill="none" stroke="#27ae60" stroke-width="1" opacity="0.6"/>
+      <circle cx="0" cy="5" r="12" fill="none" stroke="#27ae60" stroke-width="1" opacity="0.4"/>
+      <circle cx="0" cy="5" r="16" fill="none" stroke="#27ae60" stroke-width="1" opacity="0.2"/>
+    </g>
+    
+    <!-- Description -->
+    <text x="800" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      Aggregated data feeds
+    </text>
+    <text x="800" y="183" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      the LMCI, guiding resource
+    </text>
+    <text x="800" y="196" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      allocation decisions
+    </text>
+    
+    <!-- Examples -->
+    <text x="800" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666" font-style="italic">
+      Community wellbeing insights
+    </text>
+  </g>
+  
+  <!-- Bottom flow description -->
+  <text x="450" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#34495e">
+    Simple process: Care happens → Recognition flows → Trust builds → Community thrives
+  </text>
+  
+  <!-- Privacy note -->
+  <text x="450" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666" font-style="italic">
+    All data anonymized for LMCI • Individual privacy protected • Community-controlled
+  </text>
+</svg>

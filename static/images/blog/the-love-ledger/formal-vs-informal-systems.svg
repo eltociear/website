@@ -1,0 +1,111 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8fafa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">
+    Formal vs Informal Systems
+  </text>
+  
+  <!-- Dividing line -->
+  <line x1="400" y1="50" x2="400" y2="480" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Left side: Formal Systems -->
+  <g id="formal-side">
+    <!-- Header -->
+    <rect x="20" y="60" width="360" height="50" fill="#3498db" rx="8"/>
+    <text x="200" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+      Formal, Monetized
+    </text>
+    <text x="200" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">
+      Hearts ❤️ / Leaves 🍃
+    </text>
+    
+    <!-- Purpose section -->
+    <rect x="30" y="130" width="340" height="70" fill="#ecf0f1" stroke="#bdc3c7" rx="5"/>
+    <text x="40" y="150" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Purpose:</text>
+    <text x="40" y="165" font-family="Arial, sans-serif" font-size="11" fill="#34495e">Funds formal services &amp;</text>
+    <text x="40" y="180" font-family="Arial, sans-serif" font-size="11" fill="#34495e">verified work</text>
+    
+    <!-- Mechanism section -->
+    <rect x="30" y="210" width="340" height="70" fill="#e8f6f3" stroke="#16a085" rx="5"/>
+    <text x="40" y="230" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Mechanism:</text>
+    <text x="40" y="245" font-family="Arial, sans-serif" font-size="11" fill="#34495e">Redeemable for cash via</text>
+    <text x="40" y="260" font-family="Arial, sans-serif" font-size="11" fill="#34495e">Hearts Treasury</text>
+    
+    <!-- Verification section -->
+    <rect x="30" y="290" width="340" height="70" fill="#fdf2e9" stroke="#e67e22" rx="5"/>
+    <text x="40" y="310" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Verification:</text>
+    <text x="40" y="325" font-family="Arial, sans-serif" font-size="11" fill="#34495e">Formal Proof of Care</text>
+    <text x="40" y="340" font-family="Arial, sans-serif" font-size="11" fill="#34495e">protocols</text>
+    
+    <!-- Output section -->
+    <rect x="30" y="370" width="340" height="70" fill="#f4ecf7" stroke="#8e44ad" rx="5"/>
+    <text x="40" y="390" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Output:</text>
+    <text x="40" y="405" font-family="Arial, sans-serif" font-size="11" fill="#34495e">Feeds budgets and</text>
+    <text x="40" y="420" font-family="Arial, sans-serif" font-size="11" fill="#34495e">financial payouts</text>
+    
+    <!-- Treasury icon -->
+    <rect x="300" y="140" width="60" height="40" fill="#27ae60" stroke="#2c3e50" stroke-width="2" rx="3"/>
+    <text x="330" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Treasury</text>
+    
+    <!-- Currency symbols -->
+    <circle cx="320" cy="220" r="15" fill="#e74c3c"/>
+    <text x="320" y="227" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">❤️</text>
+    <circle cx="340" cy="240" r="15" fill="#27ae60"/>
+    <text x="340" y="247" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">🍃</text>
+  </g>
+  
+  <!-- Right side: Informal Systems -->
+  <g id="informal-side">
+    <!-- Header -->
+    <rect x="420" y="60" width="360" height="50" fill="#e91e63" rx="8"/>
+    <text x="600" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+      Informal, Non-Monetized
+    </text>
+    <text x="600" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">
+      Love Ledger 💖
+    </text>
+    
+    <!-- Purpose section -->
+    <rect x="430" y="130" width="340" height="70" fill="#fce4ec" stroke="#e91e63" rx="5"/>
+    <text x="440" y="150" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Purpose:</text>
+    <text x="440" y="165" font-family="Arial, sans-serif" font-size="11" fill="#34495e">Records gratitude for</text>
+    <text x="440" y="180" font-family="Arial, sans-serif" font-size="11" fill="#34495e">everyday care</text>
+    
+    <!-- Mechanism section -->
+    <rect x="430" y="210" width="340" height="70" fill="#fff3e0" stroke="#ff9800" rx="5"/>
+    <text x="440" y="230" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Mechanism:</text>
+    <text x="440" y="245" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#d32f2f">NO redemption</text>
+    <text x="440" y="260" font-family="Arial, sans-serif" font-size="11" fill="#34495e">or exchange</text>
+    
+    <!-- Verification section -->
+    <rect x="430" y="290" width="340" height="70" fill="#e8f5e8" stroke="#4caf50" rx="5"/>
+    <text x="440" y="310" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Verification:</text>
+    <text x="440" y="325" font-family="Arial, sans-serif" font-size="11" fill="#34495e">Community validation &amp;</text>
+    <text x="440" y="340" font-family="Arial, sans-serif" font-size="11" fill="#34495e">privacy controls</text>
+    
+    <!-- Output section -->
+    <rect x="430" y="370" width="340" height="70" fill="#e3f2fd" stroke="#2196f3" rx="5"/>
+    <text x="440" y="390" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Output:</text>
+    <text x="440" y="405" font-family="Arial, sans-serif" font-size="11" fill="#34495e">Feeds LMCI and builds</text>
+    <text x="440" y="420" font-family="Arial, sans-serif" font-size="11" fill="#34495e">social trust</text>
+    
+    <!-- Community connections -->
+    <circle cx="700" cy="160" r="8" fill="#e91e63"/>
+    <circle cx="720" cy="180" r="8" fill="#e91e63"/>
+    <circle cx="680" cy="180" r="8" fill="#e91e63"/>
+    <line x1="700" y1="160" x2="720" y2="180" stroke="#e91e63" stroke-width="2"/>
+    <line x1="700" y1="160" x2="680" y2="180" stroke="#e91e63" stroke-width="2"/>
+    <line x1="720" y1="180" x2="680" y2="180" stroke="#e91e63" stroke-width="2"/>
+    
+    <!-- Gratitude token -->
+    <rect x="690" y="210" width="80" height="30" fill="#fff" stroke="#e91e63" stroke-width="2" rx="15"/>
+    <text x="730" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e91e63">Gratitude Token</text>
+  </g>
+  
+  <!-- Bottom note -->
+  <text x="400" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" font-style="italic">
+    Two parallel systems: formal economy (left) and gift economy (right)
+  </text>
+</svg>
