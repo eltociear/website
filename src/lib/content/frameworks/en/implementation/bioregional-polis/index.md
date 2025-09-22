@@ -44,6 +44,7 @@ nextReview: to be determined
 - Indigenous-Led Citizen Assemblies govern through ceremonial wisdom and ecological accountability
 - Hearts and Leaves currencies reward civic participation and ecological stewardship
 - Universal basic services provide dignity and opportunity for all residents
+- Dark sky preservation restores the cosmic connection for all beings, supporting nocturnal ecosystems and Indigenous astronomical traditions
 
 **Core Transformation**: From extractive urban systems to regenerative bioregional democracy, guided by Indigenous sovereignty and ecological integrity.
 
@@ -62,12 +63,14 @@ The Bioregional Polis operates through eight core principles that honor Indigeno
 - **👥 Local Empowerment**: Citizen Assemblies with Indigenous co-jurisdiction
 - **🌱 Seventh-Generation Accountability**: Multi-generational impact modeling
 - **🎭 Cultural Vibrancy**: Heritage protection through Indigenous-rooted practices
+- **🌌 Cosmic Connection**: Preserve dark skies and natural light cycles to maintain human-cosmos relationship and support nocturnal ecosystems
 
 ### Scope & Integration
 **Geographic**: Urban and peri-urban areas within traditional territories, integrated into Indigenous-led BAZs
 **Legal**: Aligned with UN-Habitat III, Paris Agreement, Convention on Biological Diversity
 **Economic**: Powered by Hearts/Leaves currencies, AUBI universal services, Global Urban Fund
 **Technology**: Ethical AI governance under Aurora Accord with Indigenous data sovereignty
+**Cosmic**: Dark sky preservation restoring connection to stars, supporting Indigenous astronomy and nocturnal life
 
 [Learn more about Framework Foundations](/frameworks/bioregional-polis#framework-foundations)
 
@@ -120,6 +123,8 @@ The framework operates through five interconnected dimensions, each centered on 
 - **Climate Adaptation**: 50% urban heat reduction, flood-resilient infrastructure
 - **Universal Services**: Free transit, healthcare, 100% access by 2035
 - **Urban Sanctuaries**: Wildlife refuges in 50% of cities by 2035
+- **Dark Sky Preservation**: Adaptive lighting systems reducing light pollution by 70% by 2035, supporting nocturnal wildlife and human circadian health, guided by Indigenous astronomical knowledge
+- **Circadian-Conscious Infrastructure**: LED systems with warm spectrum (2700K) after sunset, motion sensors, and ceremonial darkness zones for Indigenous astronomical practices
 
 [Learn more about the Five Dimensions](/frameworks/bioregional-polis#five-dimensions)
 
@@ -164,7 +169,7 @@ The Bioregional Polis integrates seamlessly with the broader Global Governance F
 ### Ecological Integration
 - **Planetary Health Framework**: Provides ecological standards and planetary boundary compliance
 - **Climate & Energy Framework**: Sets decarbonization targets for urban systems
-- **Animal Welfare Framework**: Establishes urban sanctuary networks
+- **Animal Welfare Framework**: Establishes urban sanctuary networks for all species, including nocturnal wildlife protected by dark sky initiatives
 
 ### Technology Integration
 - **Digital Justice Tribunal**: Arbitrates ecosystem rights and governance disputes
@@ -182,24 +187,28 @@ The Bioregional Polis integrates seamlessly with the broader Global Governance F
 - Train 1,000 Indigenous facilitators in ceremonial governance
 - Deploy Urban Thrivability Scorecard in pilot cities
 - Establish Global Urban Fund with initial $100M
+- Begin dark sky preservation pilots in 5 cities
 
 **2028–2030: Expansion Phase**
 - Scale to 30 cities across diverse bioregions
 - Achieve 30% biodiversity increase in pilot areas
 - Grant ecosystem personhood to first 10 urban ecosystems
 - Deploy digital twins in 10 cities with Indigenous oversight
+- Implement adaptive lighting systems in 15 cities
 
 **2031–2035: Integration Phase**
 - Reach 50 cities with full framework implementation
 - Achieve 100% universal basic service access
 - Certify 50 cities as Ethical Trade Zones
 - Establish 30% ecosystem personhood globally
+- Achieve 70% light pollution reduction target
 
 **2036–2040: Maturation Phase**
 - Scale to 100+ cities with regenerative systems
 - Achieve 50% urban heat reduction globally
 - Reach 90% zero-waste city target
 - Full AUBI coverage for urban populations
+- Restore Milky Way visibility for 90% of residents
 
 ### Entry Points for Cities
 
@@ -216,11 +225,11 @@ The Bioregional Polis integrates seamlessly with the broader Global Governance F
 
 **Nairobi, Kenya**: Indigenous-led urban agriculture initiatives have reduced food insecurity by 40% while incorporating traditional Kikuyu farming wisdom into city planning.
 
-**Barcelona, Spain**: Superblock program and green roof expansion demonstrate biophilic design at scale, with potential for Indigenous co-governance integration.
+**Barcelona, Spain**: Superblock program and green roof expansion demonstrate biophilic design at scale, with potential for Indigenous co-governance integration and dark sky preservation.
 
-**Seoul, South Korea**: Car-free zones and urban stream restoration show how cities can heal relationships with waterways and create wildlife corridors.
+**Seoul, South Korea**: Car-free zones and urban stream restoration show how cities can heal relationships with waterways and create wildlife corridors, while preserving traditional astronomical observation sites.
 
-**Medellín, Colombia**: Transformation from conflict to innovation through community participation and green infrastructure, with Indigenous groups playing advisory roles.
+**Medellín, Colombia**: Transformation from conflict to innovation through community participation and green infrastructure, with Indigenous groups playing advisory roles in preserving cultural astronomical knowledge.
 
 ### Pilot Opportunities
 
@@ -229,6 +238,8 @@ The Bioregional Polis integrates seamlessly with the broader Global Governance F
 **Climate Resilience Needs**: Urban areas facing immediate climate adaptation requirements where Indigenous knowledge can guide solutions.
 
 **Economic Transition Zones**: Cities seeking alternatives to extractive industries, where regenerative economics can provide new opportunities.
+
+**Dark Sky Communities**: Cities committed to light pollution reduction and cosmic connection restoration.
 
 [Learn more about Success Stories](/frameworks/bioregional-polis#success-stories)
 
@@ -267,6 +278,7 @@ The Urban Thrivability Scorecard tracks progress across five key dimensions:
 - Seven-generation impact assessments
 - Infrastructure resilience ratings
 - Cultural knowledge preservation
+- Cosmic Connection: 70% light pollution reduction, 5+ visible magnitude stars in city centers by 2035, 90% residents able to see Milky Way by 2040
 
 ### Real-Time Monitoring
 
@@ -312,37 +324,41 @@ The Urban Thrivability Scorecard tracks progress across five key dimensions:
 - **Legal Frameworks**: Model legislation for ecosystem rights and Indigenous co-governance
 - **Economic Tools**: Hearts/Leaves integration guides and AUBI implementation
 - **Technology Standards**: Ethical AI deployment and Indigenous data sovereignty protocols
+- **Dark Sky Guidelines**: Adaptive lighting design and astronomical heritage preservation
 
 ### Educational Materials
 - **Training Curricula**: Indigenous facilitation and ceremonial governance programs
 - **Cultural Resources**: Traditional knowledge integration and FPIC 2.0 guides
 - **Community Toolkits**: Citizen participation and urban stewardship handbooks
 - **Youth Programs**: Seven-generation thinking and future leadership development
+- **Astronomical Education**: Indigenous astronomy and cosmic connection curricula
 
 ### Measurement & Evaluation
 - **Scorecard Templates**: Urban Thrivability Scorecard implementation guides
 - **Assessment Tools**: Disability and Gender Justice audit protocols
 - **Monitoring Systems**: Community-based measurement and reporting platforms
 - **Impact Evaluation**: Long-term outcome tracking and adaptive management
+- **Light Pollution Monitoring**: Sky quality measurement and astronomical visibility tracking
 
 ### Networking & Support
 - **Global Bioregional Network**: Connect with other implementing cities and BAZs
 - **Indigenous Leadership Circle**: Access traditional knowledge and governance wisdom
 - **Technical Assistance**: Expert support for implementation challenges
 - **Peer Learning**: Best practice sharing and collaborative problem-solving
+- **Dark Sky Networks**: Connection with International Dark-Sky Association and Indigenous astronomy communities
 
 [Access Complete Resources & Tools](/frameworks/bioregional-polis#resources-tools)
 
 ---
 
-**The Call**: Cities can be healers rather than harmers, regenerators rather than extractors, and homes for all life rather than human-only spaces. The Bioregional Polis provides the pathways, tools, and wisdom needed for this transformation.
+**The Call**: Cities can be healers rather than harmers, regenerators rather than extractors, and homes for all life rather than human-only spaces. The Bioregional Polis provides the pathways, tools, and wisdom needed for this transformation while restoring humanity's ancient connection to the cosmos.
 
-**The time for regenerative urban transformation is now. Our cities, our communities, and our planet are calling us home to a future where human settlement heals the Earth rather than harming it.**
+**The time for regenerative urban transformation is now. Our cities, our communities, our planet, and our cosmic relationship are calling us home to a future where human settlement heals the Earth and honors the stars rather than harming both.**
 
-**Join us in reimagining cities as living covenants between all inhabitants of our shared bioregional home.**
+**Join us in reimagining cities as living covenants between all inhabitants of our shared bioregional home under the infinite sky.**
 
 ---
 
-**Framework Status**: This comprehensive framework synthesizes Indigenous governance wisdom, urban planning innovation, and regenerative design principles within the Global Governance Framework ecosystem. Version 2.1 establishes the foundational architecture with regular updates planned through Indigenous-led oversight and adaptive management.
+**Framework Status**: This comprehensive framework synthesizes Indigenous governance wisdom, urban planning innovation, and regenerative design principles within the Global Governance Framework ecosystem. Version 2.2 integrates cosmic connection and dark sky preservation with regular updates planned through Indigenous-led oversight and adaptive management.
 
-**The infrastructure exists. The wisdom is available. The tools are ready. What remains is the collective commitment to choose regeneration over extraction, relationship over domination, and life over profit in our urban futures.**
+**The infrastructure exists. The wisdom is available. The tools are ready. The stars are waiting. What remains is the collective commitment to choose regeneration over extraction, relationship over domination, and life over profit in our urban futures under the eternal cosmos.**

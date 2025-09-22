@@ -57,6 +57,7 @@ Cities are reimagined as living covenants uniting human and non-human communitie
 6. **Local Empowerment**: Citizen Assemblies with Indigenous co-jurisdiction and ceremonial governance.
 7. **Seventh-Generation Accountability**: Model multi-generational impacts via Urban Thrivability Scorecard.
 8. **Cultural Vibrancy**: Protect heritage via Cultural Vibrancy Index, rooted in Indigenous rituals.
+9. **Cosmic Connection**: Preserve dark skies and natural light cycles to maintain human-cosmos relationship and support nocturnal ecosystems.
 
 ---
 
@@ -118,6 +119,8 @@ Cities are reimagined as living covenants uniting human and non-human communitie
   - **Universal Basic Services**: Free transit, healthcare, 100% access by 2035.
   - **Urban Sanctuary Networks**: Wildlife refuges, 50% cities with sanctuaries by 2035.
   - **Gender/Queer Spatial Justice**: Inclusive spaces, 100% safe restrooms by 2035, audited by **Gender & Kinship Justice Layer**.
+- **Dark Sky Preservation**: Adaptive lighting systems reducing light pollution by 70% by 2035, supporting nocturnal wildlife and human circadian health, guided by Indigenous astronomical knowledge.
+- **Circadian-Conscious Infrastructure**: LED systems with warm spectrum (2700K) after sunset, motion sensors, and ceremonial darkness zones for Indigenous astronomical practices.
 - **Implementation**:
   - Pilot policies in 10 cities by 2027.
   - Scale to 50 cities by 2035.
@@ -148,6 +151,11 @@ Cities are reimagined as living covenants uniting human and non-human communitie
 - **Climate-Adaptive Infrastructure**: Flood-resilient, urban cooling.
 - **Universal Basic Services**: Free transit, healthcare, audited by **Gender & Kinship Justice Layer**.
 - **Urban Sanctuaries**: Wildlife refuges, 50% cities by 2035.
+##### **Dark Sky & Circadian Design**
+- **Adaptive Lighting Systems**: Smart LED networks with dimming protocols, warm spectrum after 10 PM, full cutoff fixtures to prevent sky glow.
+- **Nocturnal Wildlife Corridors**: Dark zones along migration routes, timed lighting near water sources, Indigenous-guided seasonal adjustments.
+- **Astronomical Heritage Zones**: Preserved darkness for stargazing, ceremonial practices, and cosmic education, integrated with cultural centers.
+- **Health-Conscious Design**: Circadian lighting in public spaces, blue light reduction protocols, darkness therapy spaces in healthcare facilities.
 
 ### **II. Integration Mechanisms**
 #### **II.A: Economic Details**
@@ -193,6 +201,7 @@ Cities are reimagined as living covenants uniting human and non-human communitie
 - **Equity**: 100% service access, 100% safe restrooms by 2035.
 - **Resilience**: 50% urban heat reduction by 2040.
 - **Economic**: 90% zero-waste cities by 2040.
+- **Cosmic Connection**: 70% light pollution reduction, 5+ visible magnitude stars in city centers by 2035, 90% residents able to see Milky Way by 2040.
 
 ### **V. Glossary**
 - **Indigenous Sovereignty**: Co-governance with FPIC 2.0, Red Lines Clause.
