@@ -6,7 +6,7 @@ description: "An in-depth exploration of why UBI is a necessary but insufficient
 status: "published"
 category: "Economics"
 version: "1.0"
-pages: 28
+pages: 36
 readTime: 35
 pdfPath: "/resources/whitepapers/The_Currency_of_Care_Beyond_UBI.pdf"
 tags: ["AUBI", "Universal Basic Income", "Care Economy", "Social Currency", "Regenerative Economics", "GGF"]

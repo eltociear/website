@@ -67,7 +67,6 @@ Available categories:
 - emergent-governance-protocol
 - disaster-risk-reduction
 - ggf-overview
-- whitepapers
 - protocols
 - bioregional-compass
 
@@ -135,7 +134,6 @@ const outputDirs = {
   'frameworks-foundation': path.join(__dirname, '..', 'static', 'downloads'),
   'meta-governance': path.join(__dirname, '..', 'static', 'downloads'),
   'ggf-overview': path.join(__dirname, '..', 'static', 'downloads'),
-  'whitepapers': path.join(__dirname, '..', 'static', 'resources', 'whitepapers'),
   'protocols': path.join(__dirname, '..', 'static', 'resources', 'protocols'),
 };
 
@@ -179,108 +177,6 @@ const tools = [
       'validation-integration',
       'safeguards-implementation'
     ]
-  },
-
-  // White Papers
-  {
-    name: 'the-infinite-paradox',
-    category: 'whitepapers',
-    fileNames: {
-      en: 'The_Infinite_Paradox_-_Non-Dual_Ethics_for_Planetary_Governance',
-      sv: 'Den_oändliga_paradoxen_-_Icke-dual_etik_för_planetariskt_styre'
-    },
-    sourceDir: {
-      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'papers', 'en'),
-      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'papers', 'sv')
-    },
-    outputDir: {
-      en: path.join(__dirname, '..', 'static', 'resources', 'whitepapers'),
-      sv: path.join(__dirname, '..', 'static', 'resources', 'whitepapers')
-    },
-    pageFooter: {
-      en: 'GGF Whitepaper - The Infinite Paradox: Non-Dual Ethics for Planetary Governance',
-      sv: 'GGF Whitepaper - Den oändliga paradoxen: Icke-dual etik för planetariskt styre'
-    }
-  },
-  {
-    name: 'the-regenerative-governance',
-    category: 'whitepapers',
-    fileNames: {
-      en: 'The_Regenerative_Governance_-_Integrating_Hardware_Heart_Nervous_System',
-      sv: 'Regenerativ_styrning_-_Integrering_hårdvara_hjärta_nervsystem'
-    },
-    sourceDir: {
-      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'papers', 'en'),
-      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'papers', 'sv')
-    },
-    outputDir: {
-      en: path.join(__dirname, '..', 'static', 'resources', 'whitepapers'),
-      sv: path.join(__dirname, '..', 'static', 'resources', 'whitepapers')
-    },
-    pageFooter: {
-      en: 'GGF Whitepaper - The Regenerative Governance: Integrating the Hardware, Heart, and Nervous System of Global Governance',
-      sv: 'GGF Whitepaper - Regenerativ styrning: Integrering av hårdvaran, hjärtat och nervsystemet i global styrning'
-    }
-  },
-  {
-    name: 'cognitive-scaffolding',
-    category: 'whitepapers',
-    fileNames: {
-      en: 'Cognitive_Scaffolding_-_A_Multi-Model_AI_Synthesis_Method',
-      sv: 'Kognitiv_stöttning_-_En_syntesmetod_med_flera_AI-modeller'
-    },
-    sourceDir: {
-      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'papers', 'en'),
-      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'papers', 'sv')
-    },
-    outputDir: {
-      en: path.join(__dirname, '..', 'static', 'resources', 'whitepapers'),
-      sv: path.join(__dirname, '..', 'static', 'resources', 'whitepapers')
-    },
-    pageFooter: {
-      en: 'GGF Whitepaper - Cognitive Scaffolding: A Multi-Model AI Synthesis Method for Solving Complex Systemic Problems',
-      sv: 'GGF Whitepaper - Kognitiv stöttning: En syntesmetod med flera AI-modeller för att lösa komplexa systemproblem'
-    }
-  },
-  {
-    name: 'the-currency-of-care',
-    category: 'whitepapers',
-    fileNames: {
-      en: 'The_Currency_of_Care_Beyond_UBI',
-      sv: 'Omsorgens_valuta_bortom_UBI'
-    },
-    sourceDir: {
-      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'papers', 'en'),
-      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'papers', 'sv')
-    },
-    outputDir: {
-      en: path.join(__dirname, '..', 'static', 'resources', 'whitepapers'),
-      sv: path.join(__dirname, '..', 'static', 'resources', 'whitepapers')
-    },
-    pageFooter: {
-      en: "GGF Whitepaper - The Currency of Care: Why Universal Basic Income Isn't Enough",
-      sv: 'GGF Whitepaper - Omsorgens valuta: Varför universell basinkomst inte är nog'
-    }
-  },
-  {
-    name: 'beyond-fragmented-truth',
-    category: 'whitepapers',
-    fileNames: {
-      en: 'Beyond_Fragmented_Truth_-_A_Reasoning_Path_from_Ancient_Wisdom_to_Modern_Governance',
-      sv: 'Bortom_fragmenterad_sanning_-_En_resonemangsväg_från_forntida_visdom_till_modern_styrning'
-    },
-    sourceDir: {
-      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'papers', 'en'),
-      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'papers', 'sv')
-    },
-    outputDir: {
-      en: path.join(__dirname, '..', 'static', 'resources', 'whitepapers'),
-      sv: path.join(__dirname, '..', 'static', 'resources', 'whitepapers')
-    },
-    pageFooter: {
-      en: "GGF Whitepaper - Beyond Fragmented Truth: A Reasoning Path from Ancient Wisdom to Modern Governance",
-      sv: 'GGF Whitepaper - Bortom fragmenterad sanning: En resonemangsväg från forntida visdom till modern styrning'
-    }
   },
 
   // GGF Overview

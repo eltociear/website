@@ -6,7 +6,7 @@ description: "En djupgående utforskning av varför UBI är en nödvändig men o
 status: "published"
 category: "Ekonomi"
 version: "1.0"
-pages: 28
+pages: 37
 readTime: 35
 pdfPath: "/resources/whitepapers/Omsorgens_valuta_bortom_UBI.pdf"
 tags: ["AUBI", "Universell basinkomst", "Omsorgsekonomi", "Social valuta", "Regenerativ ekonomi", "GGF"]

@@ -3,10 +3,10 @@ title: "Beyond Fragmented Truth: A Reasoning Path from Ancient Wisdom to Modern 
 author: "Björn Kenneth Holmström"
 date: "2025-09-01"
 description: "A methodological framework for using AI-enhanced reasoning to bridge ancient wisdom traditions and contemporary governance challenges, creating rigorous conceptual maps that serve as scaffolding for direct experiential realization while maintaining epistemic humility about the limits of rational inquiry."
-status: "draft"
+status: published
 category: "methodology"
 version: "1.0"
-pages: 61
+pages: 77
 readTime: 45
 pdfPath: "/resources/whitepapers/Beyond_Fragmented_Truth_-_A_Reasoning_Path_from_Ancient_Wisdom_to_Modern_Governance.pdf"
 tags: ["Philosophy", "AI Methodology", "Governance", "Epistemology", "Systems Thinking", "Consciousness"]

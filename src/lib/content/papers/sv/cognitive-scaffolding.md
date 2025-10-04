@@ -6,7 +6,7 @@ description: "En omfattande metodik för att utnyttja olika AI-modeller för att
 status: "published"
 category: "Metodik"
 version: "1.8"
-pages: 19
+pages: 26
 readTime: 25
 pdfPath: "/resources/whitepapers/Kognitiv_stöttning_-_En_syntesmetod_med_flera_AI-modeller.pdf"
 tags: ["AI-metodik", "Systemtänkande", "Global styrning", "Kognitiv utveckling", "AI med flera modeller"]

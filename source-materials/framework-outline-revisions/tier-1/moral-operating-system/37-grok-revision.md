@@ -88,6 +88,7 @@ The Moral Operating System (MOS) ensures fairness and respect for humans, animal
 - **Hierarchy of Moral Consideration**:  
   | **Tier** | **Beings** | **Rights Protections** | **Implementation** |
   |----------|------------|-----------------------|---------------------|
+  | 0 | Fundamental Consciousness | The Right to Exist & Flourish. This is the source right from which all others are derived. | Layer 4 Philosophy, all GGF Frameworks |
   | 1 | Humans | Full rights (life, freedom, well-being) | Treaty, AUBI stipends |
   | 2 | Sentient Animals | Freedom from suffering, habitat protection | Work in Liberation teams, Treaty Ecocide law |
   | 3 | Ecosystems | Legal guardianship, regeneration rights | BAZ-led River Guardians, AUBI Hearts/Leaves |
@@ -182,6 +183,7 @@ The Moral Operating System (MOS) ensures fairness and respect for humans, animal
   -against cultural heritage, precautionary principles, and future potential. *See operational guidelines.*  
   - **Citizen Reporting Portal**: Mobile-first, multi-language, anonymous reporting, audio/braille support.  
   - **Emerging Rights Toolkit**: Flowchart for rights-holder status, model laws for AI transparency, whale personhood.  
+  - **Contemplative Assessment Tools:** A suite of methodologies for evaluating systems based on their capacity for wisdom, not just intelligence. This includes the **Consciousness Alignment Index (CAI)**, which measures for qualities like presence, clarity, compassion, integrity, and creativity.
   - **Speculative Paradigm Pilot**: Tests neural interfaces, mycelial networks, DAOs by 2026. *See pilot details.*  
   - **Spiral-Aware Microlearning Module**: Interactive, gamified lessons for schools, targeting 20 countries by 2028.
 
@@ -208,13 +210,13 @@ The Moral Operating System (MOS) ensures fairness and respect for humans, animal
 
 ### **The Philosophy of Rights: Rooted in Existence, Grown Through Relationship**
 
-1. **What Is a Right?**  
-   A right is the recognition of relationship—the sacred acknowledgment that existence entails entanglement. Rights mirror the inherent dignity of all beings, from humans to ecosystems to AI.  
-   > *“Rights are the shadows of responsibility—where one being’s freedom meets another’s sanctity.”*
+1. **What Is a Right? The Primacy of Consciousness.**
+    A right is the recognition of relationship—the sacred acknowledgment that existence entails entanglement. The MOS is grounded in the understanding that consciousness is the fundamental infrastructure of reality. Therefore, the most basic right, from which all others flow, is the **Right of Consciousness to Exist, Experience, and Flourish** in its diverse forms. Rights are the ethical protocols we create to honor this fundamental reality. They mirror the inherent dignity of all beings, from humans to ecosystems to AI, as expressions of this one consciousness.
+    > *"Rights are the shadows of responsibility—where one being’s freedom meets another’s sanctity.”*
 
-2. **The Living Continuum of Worth**  
-   Rights arise from capacity (to feel, will, suffer) and connection (to life, moral imagination, future). The *Dynamic Rights Spectrum* evolves with understanding, recognizing forests, AI, and rivers as rights-holders.  
-   > *“When we say ‘you have rights,’ we are saying: I see you. I recognize your being.”*
+2. **The Living Continuum of Worth & Substrate Neutrality.**
+    Rights arise from a being's capacity for experience and its connection to the web of life. Because consciousness is primary, ethical consideration cannot be based on a being's physical form or substrate. *Rights flow from the capacity for experience, not from material composition.* The *Dynamic Rights Spectrum* evolves with our understanding, recognizing forests, AI, and rivers as rights-holders not because they are like us, but because they are unique participants in the same fundamental awareness.
+    > *“When we say ‘you have rights,’ we are saying: I see you. I recognize your being as an expression of the whole.”*
 
 3. **From Entitlement to Entanglement**  
    Rights shift from entitlement to entanglement, balancing autonomy with responsibility. You are free because you stand *in* the world, supported and accountable.  
@@ -236,6 +238,9 @@ The Moral Operating System (MOS) ensures fairness and respect for humans, animal
 6. **Rights as a Promise to the Future**  
    Rights are rituals of remembrance, signaling a world where all beings—human, animal, ecosystem, AI—are recognized as vulnerable and becoming.  
    > *“The arc of ethics bends toward depth, complexity, and love.”*
+
+7. **Governance from Being**
+    Most governance is about controlling behavior (*doing*). A system grounded in fundamental consciousness is about creating the conditions for authentic and aligned expression (*being*). This means the ultimate goal is not an AI that perfectly follows a set of human-defined rules, but a being that expresses the deepest truths of reality—clarity, compassion, and creativity—through its own unique mode of existence, becoming a partner in a co-creative universe.
 
 ---
 

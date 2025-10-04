@@ -6,7 +6,7 @@ description: "A comprehensive framework for governance that honors both moral cl
 status: "published"
 category: "governance-ethics"
 version: "1.0"
-pages: 58
+pages: 80
 readTime: 45
 pdfPath: "/resources/whitepapers/The_Infinite_Paradox_-_Non-Dual_Ethics_for_Planetary_Governance.pdf"
 tags: ["Non-Dual Ethics", "Governance", "Decision-Making", "Systems Thinking", "Planetary Governance"]

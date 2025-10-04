@@ -6,7 +6,7 @@ description: "En grundläggande vitbok som introducerar den centrala arkitektoni
 status: "published"
 category: "Styrningsarkitektur"
 version: "1.0"
-pages: 49
+pages: 60
 readTime: 40
 pdfPath: "/resources/whitepapers/Regenerativ_styrning_-_Integrering_hårdvara_hjärta_nervsystem.pdf"
 tags: ["Global styrning", "Regenerativa system", "Urfolksstyrning", "Metastyrning", "Planetärt förvaltarskap", "Institutionell reform"]

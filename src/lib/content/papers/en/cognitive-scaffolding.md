@@ -6,7 +6,7 @@ description: "A comprehensive methodology for leveraging diverse AI models to de
 status: "published"
 category: "methodology"
 version: "1.8"
-pages: 19
+pages: 25
 readTime: 25
 pdfPath: "/resources/whitepapers/Cognitive_Scaffolding_-_A_Multi-Model_AI_Synthesis_Method.pdf"
 tags: ["AI Methodology", "Systems Thinking", "Global Governance", "Cognitive Development", "Multi-Model AI"]

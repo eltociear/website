@@ -6,9 +6,9 @@ description: "Ett omfattande ramverk för styrning som hedrar både moralisk kla
 status: "published"
 category: "styrningsetik"
 version: "1.0"
-pages: 58
-readTime: 45
-pdfPath: "/resources/whitepapers/Regenerativ_styrning_-_Integrering_hårdvara_hjärta_nervsystem.pdf"
+pages: 81
+readTime: 50
+pdfPath: "/resources/whitepapers/Den_oändliga_paradoxen_-_Icke-dualistisk_etik_för_planetär_styrning.pdf"
 tags: ["Icke-dualistisk etik", "Styrning", "Beslutsfattande", "Systemtänkande", "Planetär styrning"]
 hashtags: ["OändligaParadoxen", "IckeDualistiskEtik", "PlanetärStyrning", "SystemiskÖdmjukhet", "CanvasFörParadoxbeslut"]
 ---

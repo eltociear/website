@@ -3,10 +3,10 @@ title: "Bortom fragmenterad sanning: En resonemangsväg från forntida visdom ti
 author: "Björn Kenneth Holmström"
 date: "2025-09-01"
 description: "Ett metodologiskt ramverk för att använda AI-förstärkt resonemang för att överbrygga forntida visdomstraditioner och samtida utmaningar inom samhällsstyrning, skapa rigorösa konceptuella kartor som tjänar som ställningar för direkt erfarenhetsmässig insikt, samtidigt som epistemisk ödmjukhet om gränserna för rationell undersökning bibehålls."
-status: "draft"
+status: published
 category: "methodology"
 version: "1.0"
-pages: 61
+pages: 71
 readtime: 45
 pdfPath: "/resources/whitepapers/Bortom_fragmenterad_sanning_-_En_resonemangsväg_från_forntida_visdom_till_modern_styrning.pdf"
 tags: ["Filosofi", "AI-metodologi", "Samhällsstyrning", "Epistemologi", "Systemtänkande", "Medvetande"]

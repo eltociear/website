@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 900"
+   version="1.1"
+   id="svg55"
+   sodipodi:docname="the-responsive-boat.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview55"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.7278608"
+     inkscape:cx="575.17597"
+     inkscape:cy="350.82435"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg55" />
+  <defs
+     id="defs5">
+    <linearGradient
+       id="skyGrad"
+       x1="0%"
+       y1="0%"
+       x2="0%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#e8f4f8;stop-opacity:1"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#b8d4e8;stop-opacity:1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="waterGrad"
+       x1="0%"
+       y1="0%"
+       x2="0%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#4a90c8;stop-opacity:0.6"
+         id="stop3" />
+      <stop
+         offset="100%"
+         style="stop-color:#2d5f8d;stop-opacity:0.8"
+         id="stop4" />
+    </linearGradient>
+    <filter
+       id="glow">
+      <feGaussianBlur
+         stdDeviation="3"
+         result="coloredBlur"
+         id="feGaussianBlur4" />
+      <feMerge
+         id="feMerge5">
+        <feMergeNode
+           in="coloredBlur"
+           id="feMergeNode4" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode5" />
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Sky -->
+  <rect
+     width="1400"
+     height="900"
+     fill="url(#skyGrad)"
+     id="rect5" />
+  <!-- River currents -->
+  <g
+     opacity="0.5"
+     id="g7">
+    <path
+       d="M 0 450 Q 300 400, 600 430 T 1200 450 T 1400 470"
+       fill="none"
+       stroke="#2d5f8d"
+       stroke-width="2"
+       id="path5" />
+    <path
+       d="M 0 520 Q 350 480, 700 510 T 1400 540"
+       fill="none"
+       stroke="#2d5f8d"
+       stroke-width="2"
+       id="path6" />
+    <path
+       d="M 0 600 Q 250 570, 500 590 T 1000 610 T 1400 620"
+       fill="none"
+       stroke="#2d5f8d"
+       stroke-width="2"
+       id="path7" />
+  </g>
+  <!-- Water -->
+  <path
+     d="M 0 420 Q 300 390, 600 420 T 1200 440 T 1400 460 L 1400 900 L 0 900 Z"
+     fill="url(#waterGrad)"
+     id="path8" />
+  <!-- Challenge indicators (currents and obstacles) -->
+  <g
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#1a4d6d"
+     font-style="italic"
+     opacity="0.6"
+     id="g11">
+    <text
+       x="150"
+       y="580"
+       id="text8">Uncertainty</text>
+    <text
+       x="950"
+       y="620"
+       id="text9">Complexity</text>
+    <text
+       x="450"
+       y="700"
+       id="text10">Change</text>
+    <text
+       x="1150"
+       y="750"
+       id="text11">Crisis</text>
+  </g>
+  <!-- Main boat structure -->
+  <path
+     d="m 480,400 q -20,50 10,80 h 220 q 30,-30 10,-80 z"
+     fill="#8b6f47"
+     stroke="#5d4a2f"
+     stroke-width="3"
+     opacity="0.9"
+     id="path11" />
+  <rect
+     x="485"
+     y="392"
+     width="230"
+     height="8"
+     fill="#a0826d"
+     stroke="#6b5639"
+     stroke-width="2"
+     id="rect11" />
+  <rect
+     x="596"
+     y="290"
+     width="8"
+     height="102"
+     fill="#5d4a2f"
+     id="rect12" />
+  <path
+     d="m 600,295 q 50,30 0,60 z"
+     fill="#f5f1e8"
+     stroke="#c9c0b0"
+     stroke-width="2"
+     id="path12" />
+  <circle
+     cx="697.4292"
+     cy="300.62466"
+     r="18"
+     fill="#6b8e23"
+     opacity="0.85"
+     id="circle12" />
+  <circle
+     cx="697.4292"
+     cy="299.82419"
+     r="8"
+     fill="#ffffff"
+     opacity="0.4"
+     id="circle13" />
+  <text
+     x="697.4292"
+     y="352.62466"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     fill="#555555"
+     text-anchor="middle"
+     id="text14">Lucid Humility</text>
+  <path
+     d="m 697.42915,318.62466 q -5,12 -10,22"
+     fill="none"
+     stroke="#6b8e23"
+     stroke-width="1.5"
+     marker-end="url(#arrowGreen)"
+     id="path14" />
+  <path
+     d="m 697.42915,318.62466 q 5,12 10,22"
+     fill="none"
+     stroke="#6b8e23"
+     stroke-width="1.5"
+     marker-end="url(#arrowGreen)"
+     id="path15" />
+  <g
+     id="pillar2-comms"
+     transform="translate(652.42203,166.85028)">
+    <!-- Communication network -->
+    <circle
+       cx="-40"
+       cy="20"
+       r="18"
+       fill="#4682b4"
+       opacity="0.85"
+       id="circle15" />
+    <circle
+       cx="-20"
+       cy="30"
+       r="12"
+       fill="#4682b4"
+       opacity="0.6"
+       id="circle16" />
+    <circle
+       cx="-60"
+       cy="35"
+       r="12"
+       fill="#4682b4"
+       opacity="0.6"
+       id="circle17" />
+    <line
+       x1="-40"
+       y1="20"
+       x2="-20"
+       y2="30"
+       stroke="#ffffff"
+       stroke-width="2"
+       opacity="0.5"
+       id="line17" />
+    <line
+       x1="-40"
+       y1="20"
+       x2="-60"
+       y2="35"
+       stroke="#ffffff"
+       stroke-width="2"
+       opacity="0.5"
+       id="line18" />
+    <text
+       x="-40"
+       y="55"
+       font-family="Arial, sans-serif"
+       font-size="10px"
+       fill="#5d4a2f"
+       text-anchor="middle"
+       font-weight="bold"
+       id="text18">COMMUNICATION</text>
+    <text
+       x="-40"
+       y="68"
+       font-family="Arial, sans-serif"
+       font-size="8px"
+       fill="#555555"
+       text-anchor="middle"
+       id="text19">Generative Dialogue</text>
+  </g>
+  <g
+     id="pillar3-hull"
+     transform="translate(559.67536,363.34123)">
+    <!-- Flexible hull sections -->
+    <path
+       d="m 30,45 q 5,15 10,30"
+       fill="none"
+       stroke="#9370db"
+       stroke-width="3"
+       opacity="0.7"
+       id="path19" />
+    <path
+       d="m 50,50 q 5,15 10,28"
+       fill="none"
+       stroke="#9370db"
+       stroke-width="3"
+       opacity="0.7"
+       id="path20" />
+    <circle
+       cx="35"
+       cy="60"
+       r="6"
+       fill="#9370db"
+       opacity="0.8"
+       id="circle20" />
+    <circle
+       cx="55"
+       cy="65"
+       r="6"
+       fill="#9370db"
+       opacity="0.8"
+       id="circle21" />
+    <text
+       x="45"
+       y="95"
+       font-family="Arial, sans-serif"
+       font-size="10px"
+       fill="#5d4a2f"
+       text-anchor="middle"
+       font-weight="bold"
+       id="text21">THE HULL</text>
+    <text
+       x="45"
+       y="108"
+       font-family="Arial, sans-serif"
+       font-size="8px"
+       fill="#555555"
+       text-anchor="middle"
+       id="text22">Adaptive Systems</text>
+  </g>
+  <g
+     id="pillar4-navigation"
+     transform="translate(602.19953,278.1583)">
+    <!-- Compass/steering mechanism -->
+    <circle
+       cx="-70"
+       cy="30"
+       r="18"
+       fill="#cd853f"
+       opacity="0.85"
+       id="circle22" />
+    <circle
+       cx="-70"
+       cy="30"
+       r="12"
+       fill="#ffffff"
+       opacity="0.3"
+       id="circle23" />
+    <line
+       x1="-70"
+       y1="18"
+       x2="-70"
+       y2="30"
+       stroke="#5d4a2f"
+       stroke-width="2"
+       id="line23" />
+    <circle
+       cx="-70"
+       cy="30"
+       r="3"
+       fill="#5d4a2f"
+       id="circle24" />
+    <text
+       x="-70"
+       y="58"
+       font-family="Arial, sans-serif"
+       font-size="10px"
+       fill="#5d4a2f"
+       text-anchor="middle"
+       font-weight="bold"
+       id="text24">NAVIGATION</text>
+    <text
+       x="-70"
+       y="71"
+       font-family="Arial, sans-serif"
+       font-size="8px"
+       fill="#555555"
+       text-anchor="middle"
+       id="text25">Culture of Presence</text>
+  </g>
+  <line
+     x1="670.63049"
+     y1="342.42679"
+     x2="626.82147"
+     y2="443.45047"
+     stroke="#2c3e50"
+     stroke-width="1.5"
+     stroke-dasharray="3, 3"
+     id="line25"
+     style="opacity:0.3" />
+  <line
+     x1="618.20819"
+     y1="241.0737"
+     x2="670.11951"
+     y2="319.36942"
+     stroke="#2c3e50"
+     stroke-width="1.5"
+     stroke-dasharray="3, 3"
+     id="line26"
+     style="opacity:0.3" />
+  <line
+     x1="609.0777"
+     y1="241.32666"
+     x2="549.89044"
+     y2="314.27783"
+     stroke="#2c3e50"
+     stroke-width="1.5"
+     stroke-dasharray="3, 3"
+     id="line26-6"
+     style="opacity:0.3" />
+  <line
+     x1="587.4856"
+     y1="444.15594"
+     x2="534.008"
+     y2="338.01855"
+     stroke="#2c3e50"
+     stroke-width="1.5"
+     stroke-dasharray="3, 3"
+     id="line27"
+     style="opacity:0.3" />
+  <!-- Arrow markers for pillar functions -->
+  <defs
+     id="defs28">
+    <marker
+       id="arrowGreen"
+       markerWidth="10"
+       markerHeight="10"
+       refX="5"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M0,0 L0,6 L9,3 z"
+         fill="#6b8e23"
+         id="path28" />
+    </marker>
+  </defs>
+  <!-- Detailed function boxes for each pillar -->
+  <g
+     id="g31">
+    <rect
+       x="50"
+       y="150"
+       width="240"
+       height="110"
+       fill="#f8f9fa"
+       stroke="#6b8e23"
+       stroke-width="2"
+       rx="5"
+       id="rect28" />
+    <text
+       x="170"
+       y="175"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       font-weight="bold"
+       fill="#6b8e23"
+       text-anchor="middle"
+       id="text28">PILLAR I: INNER FOUNDATION</text>
+    <text
+       x="60"
+       y="195"
+       font-family="Arial, sans-serif"
+       font-size="10px"
+       fill="#333333"
+       id="text31"><tspan
+         x="60"
+         dy="0"
+         id="tspan28">• Cultivates lucid humility</tspan><tspan
+         x="60"
+         dy="15"
+         id="tspan29">• Develops cognitive flexibility</tspan><tspan
+         x="60"
+         dy="15"
+         id="tspan30">• Enables calm in uncertainty</tspan><tspan
+         x="60"
+         dy="15"
+         id="tspan31">• Tools: Synoptic Protocol, reflection</tspan></text>
+  </g>
+  <g
+     id="g35">
+    <rect
+       x="50"
+       y="280"
+       width="240"
+       height="110"
+       fill="#f8f9fa"
+       stroke="#4682b4"
+       stroke-width="2"
+       rx="5"
+       id="rect31" />
+    <text
+       x="170"
+       y="305"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       font-weight="bold"
+       fill="#4682b4"
+       text-anchor="middle"
+       id="text32">PILLAR II: RELATIONAL CONTAINER</text>
+    <text
+       x="60"
+       y="325"
+       font-family="Arial, sans-serif"
+       font-size="10px"
+       fill="#333333"
+       id="text35"><tspan
+         x="60"
+         dy="0"
+         id="tspan32">• Fosters generative dialogue</tspan><tspan
+         x="60"
+         dy="15"
+         id="tspan33">• Builds trust across difference</tspan><tspan
+         x="60"
+         dy="15"
+         id="tspan34">• Enables collaborative navigation</tspan><tspan
+         x="60"
+         dy="15"
+         id="tspan35">• Tools: Community Weavers, circles</tspan></text>
+  </g>
+  <rect
+     x="1109.7386"
+     y="150.03354"
+     width="256.5228"
+     height="109.93293"
+     fill="#f8f9fa"
+     stroke="#9370db"
+     stroke-width="2.06707"
+     rx="5.3442249"
+     id="rect35" />
+  <text
+     x="1238"
+     y="175"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     font-weight="bold"
+     fill="#9370db"
+     text-anchor="middle"
+     id="text36">PILLAR III: STRUCTURAL EXPRESSION</text>
+  <text
+     x="1128"
+     y="195"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#333333"
+     id="text39"><tspan
+       x="1128"
+       dy="0"
+       id="tspan36">• Creates adaptive systems</tspan><tspan
+       x="1128"
+       dy="15"
+       id="tspan37">• Enables learning evolution</tspan><tspan
+       x="1128"
+       dy="15"
+       id="tspan38">• Builds anti-fragile design</tspan><tspan
+       x="1128"
+       dy="15"
+       id="tspan39">• Tools: BAZs, Meta-Governance, AUBI</tspan></text>
+  <g
+     id="g43">
+    <rect
+       x="1110"
+       y="280"
+       width="240"
+       height="110"
+       fill="#f8f9fa"
+       stroke="#cd853f"
+       stroke-width="2"
+       rx="5"
+       id="rect39" />
+    <text
+       x="1230"
+       y="305"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       font-weight="bold"
+       fill="#cd853f"
+       text-anchor="middle"
+       id="text40">PILLAR IV: CULTURAL EMBODIMENT</text>
+    <text
+       x="1120"
+       y="325"
+       font-family="Arial, sans-serif"
+       font-size="10px"
+       fill="#333333"
+       id="text43"><tspan
+         x="1120"
+         dy="0"
+         id="tspan40">• Shifts from progress to presence</tspan><tspan
+         x="1120"
+         dy="15"
+         id="tspan41">• Values care connection</tspan><tspan
+         x="1120"
+         dy="15"
+         id="tspan42">• Guides purpose meaning</tspan><tspan
+         x="1120"
+         dy="15"
+         id="tspan43">• Tools: Hearts currency, Love Ledger</tspan></text>
+  </g>
+  <!-- Integration arrows from detail boxes to boat -->
+  <g
+     opacity="0.4"
+     id="g46">
+    <path
+       d="M 290 205 Q 400 250, 530 380"
+       fill="none"
+       stroke="#6b8e23"
+       stroke-width="2"
+       marker-end="url(#arrowGreen)"
+       id="path43" />
+    <path
+       d="M 290 335 Q 400 350, 530 400"
+       fill="none"
+       stroke="#4682b4"
+       stroke-width="2"
+       id="path44" />
+    <path
+       d="M 1110 205 Q 900 250, 670 380"
+       fill="none"
+       stroke="#9370db"
+       stroke-width="2"
+       id="path45" />
+    <path
+       d="M 1110 335 Q 900 350, 670 400"
+       fill="none"
+       stroke="#cd853f"
+       stroke-width="2"
+       id="path46" />
+  </g>
+  <text
+     x="697.4292"
+     y="329.62466"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     fill="#5d4a2f"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text13">THE CREW</text>
+  <!-- Other boats on horizon (representing network of communities) -->
+  <path
+     d="m 140.6682,400.80645 -20,10 h 40 z"
+     fill="#6b5639"
+     id="path47"
+     style="opacity:0.5" />
+  <line
+     x1="140.6682"
+     y1="390.80646"
+     x2="140.6682"
+     y2="410.80646"
+     stroke="#5d4a2f"
+     stroke-width="2"
+     id="line47"
+     style="opacity:0.5" />
+  <path
+     d="m 1090.6682,432.80645 -20,10 h 40 z"
+     fill="#6b5639"
+     id="path48"
+     style="opacity:0.5" />
+  <line
+     x1="1090.6682"
+     y1="422.80646"
+     x2="1090.6682"
+     y2="442.80646"
+     stroke="#5d4a2f"
+     stroke-width="2"
+     id="line48"
+     style="opacity:0.5" />
+  <path
+     d="m 890.6682,431.80645 -15,8 h 30 z"
+     fill="#6b5639"
+     id="path49"
+     style="opacity:0.5" />
+  <line
+     x1="890.66821"
+     y1="424.80646"
+     x2="890.66821"
+     y2="439.80646"
+     stroke="#5d4a2f"
+     stroke-width="2"
+     id="line49"
+     style="opacity:0.5" />
+  <text
+     x="988.33734"
+     y="416.05905"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     fill="#2c3e50"
+     text-anchor="middle"
+     font-style="italic"
+     id="text49"
+     style="opacity:0.5">Other communities navigating together</text>
+  <!-- Opportunities and challenges in the current -->
+  <g
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#2d5f8d"
+     opacity="0.6"
+     id="g51">
+    <text
+       x="350"
+       y="620"
+       id="text50">→ Opportunities</text>
+    <text
+       x="850"
+       y="670"
+       id="text51">← Challenges</text>
+  </g>
+  <!-- Title and description -->
+  <g
+     font-family="Georgia, serif"
+     id="g53">
+    <text
+       x="700"
+       y="50"
+       font-size="28"
+       font-weight="bold"
+       fill="#2c3e50"
+       text-anchor="middle"
+       id="text52">The Responsive Boat</text>
+    <text
+       x="700"
+       y="80"
+       font-size="14"
+       fill="#555"
+       text-anchor="middle"
+       id="text53">An Integrated System for Navigating Uncertainty</text>
+  </g>
+  <!-- Bottom description -->
+  <rect
+     x="300"
+     y="800"
+     width="800"
+     height="70"
+     fill="#f8f9fa"
+     stroke="#2c3e50"
+     stroke-width="1"
+     rx="5"
+     opacity="0.9"
+     id="rect53" />
+  <text
+     x="700"
+     y="825"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     fill="#2c3e50"
+     text-anchor="middle"
+     id="text55"><tspan
+       x="700"
+       dy="0"
+       font-weight="bold"
+       id="tspan53">Integration: Each pillar strengthens the others</tspan><tspan
+       x="700"
+       dy="18"
+       id="tspan54">Humility fuels dialogue → Dialogue enables adaptive structures → Adaptive structures embed cultural presence</tspan><tspan
+       x="700"
+       dy="16"
+       id="tspan55">→ Cultural presence supports inner development (completing the cycle)</tspan></text>
+</svg>
