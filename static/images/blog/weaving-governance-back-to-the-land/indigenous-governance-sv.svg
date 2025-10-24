@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Define gradients and filters -->
+  <defs>
+    <radialGradient id="skyGradient" cx="50%" cy="30%">
+      <stop offset="0%" style="stop-color:#FFE082;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF9800;stop-opacity:1" />
+    </radialGradient>
+    
+    <radialGradient id="fireGlow" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#FFF59D;stop-opacity:0.9" />
+      <stop offset="30%" style="stop-color:#FFB74D;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#FF6F00;stop-opacity:0" />
+    </radialGradient>
+    
+    <radialGradient id="fireCore" cx="50%" cy="80%">
+      <stop offset="0%" style="stop-color:#FFEB3B;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#FF9800;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E65100;stop-opacity:1" />
+    </radialGradient>
+    
+    <linearGradient id="trunkGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#6D4C41;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4E342E;stop-opacity:1" />
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="softShadow">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  
+  <!-- Sky - warm sunset/sacred time -->
+  <rect width="800" height="600" fill="url(#skyGradient)"/>
+  
+  <!-- Distant hills/land -->
+  <ellipse cx="400" cy="500" rx="450" ry="80" fill="#5D4037" opacity="0.3"/>
+  <ellipse cx="200" cy="520" rx="250" ry="60" fill="#4E342E" opacity="0.4"/>
+  <ellipse cx="600" cy="530" rx="280" ry="70" fill="#4E342E" opacity="0.4"/>
+  
+  <!-- Ground -->
+  <ellipse cx="400" cy="560" rx="380" ry="50" fill="#6D4C41" opacity="0.6"/>
+  <rect x="0" y="560" width="800" height="40" fill="#5D4037"/>
+  
+  <!-- Sacred tree - large and ancient -->
+  <g id="sacred-tree">
+    <!-- Trunk -->
+    <path d="M 650,250 Q 645,350 640,450 L 640,560" fill="url(#trunkGrad)" stroke="#3E2723" stroke-width="2"/>
+    <path d="M 640,560 L 680,560 L 685,450 Q 680,350 675,250 Z" fill="url(#trunkGrad)" stroke="#3E2723" stroke-width="2"/>
+    
+    <!-- Trunk texture -->
+    <line x1="645" y1="300" x2="642" y2="340" stroke="#3E2723" stroke-width="2" opacity="0.5"/>
+    <line x1="680" y1="320" x2="683" y2="360" stroke="#3E2723" stroke-width="2" opacity="0.5"/>
+    <line x1="648" y1="400" x2="645" y2="440" stroke="#3E2723" stroke-width="2" opacity="0.5"/>
+    <line x1="677" y1="420" x2="680" y2="460" stroke="#3E2723" stroke-width="2" opacity="0.5"/>
+    
+    <!-- Main branches spreading wide -->
+    <path d="M 650,270 Q 600,240 550,220" fill="none" stroke="#6D4C41" stroke-width="14" stroke-linecap="round"/>
+    <path d="M 660,280 Q 620,250 580,235" fill="none" stroke="#6D4C41" stroke-width="12" stroke-linecap="round"/>
+    <path d="M 665,290 Q 660,240 655,200" fill="none" stroke="#6D4C41" stroke-width="12" stroke-linecap="round"/>
+    <path d="M 670,280 Q 710,250 750,230" fill="none" stroke="#6D4C41" stroke-width="12" stroke-linecap="round"/>
+    <path d="M 675,270 Q 720,240 760,220" fill="none" stroke="#6D4C41" stroke-width="14" stroke-linecap="round"/>
+    
+    <!-- Canopy - full and spreading -->
+    <ellipse cx="550" cy="215" rx="45" ry="40" fill="#558B2F" opacity="0.8"/>
+    <ellipse cx="520" cy="230" rx="40" ry="38" fill="#689F38" opacity="0.85"/>
+    <ellipse cx="580" cy="235" rx="42" ry="40" fill="#558B2F" opacity="0.8"/>
+    
+    <ellipse cx="620" cy="245" rx="38" ry="36" fill="#689F38" opacity="0.85"/>
+    <ellipse cx="590" cy="250" rx="40" ry="38" fill="#7CB342" opacity="0.8"/>
+    
+    <ellipse cx="655" cy="195" rx="40" ry="38" fill="#558B2F" opacity="0.85"/>
+    <ellipse cx="640" cy="180" rx="38" ry="36" fill="#689F38" opacity="0.8"/>
+    <ellipse cx="670" cy="180" rx="36" ry="34" fill="#7CB342" opacity="0.85"/>
+    <ellipse cx="655" cy="165" rx="35" ry="33" fill="#8BC34A" opacity="0.8"/>
+    
+    <ellipse cx="700" cy="245" rx="40" ry="38" fill="#689F38" opacity="0.85"/>
+    <ellipse cx="730" cy="250" rx="42" ry="40" fill="#7CB342" opacity="0.8"/>
+    
+    <ellipse cx="750" cy="225" rx="45" ry="42" fill="#558B2F" opacity="0.8"/>
+    <ellipse cx="780" cy="235" rx="40" ry="38" fill="#689F38" opacity="0.85"/>
+    <ellipse cx="720" cy="230" rx="38" ry="36" fill="#7CB342" opacity="0.8"/>
+    
+    <!-- Tree roots visible above ground -->
+    <path d="M 645,560 Q 620,570 590,575" fill="none" stroke="#6D4C41" stroke-width="8" opacity="0.7"/>
+    <path d="M 680,560 Q 705,570 735,575" fill="none" stroke="#6D4C41" stroke-width="8" opacity="0.7"/>
+  </g>
+  
+  <!-- Fire pit in center -->
+  <g id="fire">
+    <!-- Fire glow on ground -->
+    <ellipse cx="400" cy="430" rx="80" ry="40" fill="url(#fireGlow)" opacity="0.6"/>
+    
+    <!-- Stones around fire -->
+    <ellipse cx="350" cy="435" rx="18" ry="12" fill="#616161" filter="url(#softShadow)"/>
+    <ellipse cx="380" cy="445" rx="16" ry="11" fill="#757575" filter="url(#softShadow)"/>
+    <ellipse cx="410" cy="448" rx="17" ry="12" fill="#616161" filter="url(#softShadow)"/>
+    <ellipse cx="440" cy="442" rx="18" ry="11" fill="#757575" filter="url(#softShadow)"/>
+    <ellipse cx="460" cy="432" rx="16" ry="10" fill="#616161" filter="url(#softShadow)"/>
+    <ellipse cx="445" cy="410" rx="15" ry="9" fill="#757575" filter="url(#softShadow)"/>
+    <ellipse cx="415" cy="405" rx="16" ry="10" fill="#616161" filter="url(#softShadow)"/>
+    <ellipse cx="380" cy="408" rx="17" ry="11" fill="#757575" filter="url(#softShadow)"/>
+    <ellipse cx="355" cy="418" rx="16" ry="10" fill="#616161" filter="url(#softShadow)"/>
+    
+    <!-- Wood logs -->
+    <rect x="385" y="425" width="30" height="8" rx="4" fill="#4E342E" transform="rotate(-30 400 430)"/>
+    <rect x="395" y="425" width="28" height="8" rx="4" fill="#5D4037" transform="rotate(25 400 430)"/>
+    
+    <!-- Flames -->
+    <path d="M 400,420 Q 395,405 398,390 Q 401,405 400,420" fill="url(#fireCore)" opacity="0.9" filter="url(#glow)"/>
+    <path d="M 410,425 Q 407,412 409,398 Q 411,412 410,425" fill="url(#fireCore)" opacity="0.85" filter="url(#glow)"/>
+    <path d="M 390,425 Q 387,413 389,400 Q 391,413 390,425" fill="url(#fireCore)" opacity="0.85" filter="url(#glow)"/>
+    <path d="M 400,420 Q 398,408 400,395 Q 402,408 400,420" fill="#FFF59D" opacity="0.9" filter="url(#glow)"/>
+    
+    <!-- Embers/sparks -->
+    <circle cx="405" cy="385" r="2" fill="#FFF59D" opacity="0.8" filter="url(#glow)"/>
+    <circle cx="395" cy="380" r="1.5" fill="#FFD54F" opacity="0.7" filter="url(#glow)"/>
+    <circle cx="408" cy="375" r="1" fill="#FFF59D" opacity="0.6" filter="url(#glow)"/>
+  </g>
+  
+  <!-- Council members sitting in circle -->
+  <g id="council-members">
+    <!-- Each member represented with respect and dignity -->
+    
+    <!-- Person 1 - facing fire, back to viewer -->
+    <ellipse cx="400" cy="490" rx="22" ry="14" fill="#5D4037" opacity="0.7"/>
+    <path d="M 388,475 Q 390,485 395,490 L 405,490 Q 410,485 412,475 Q 410,465 405,462 Q 400,465 395,462 Q 390,465 388,475" fill="#6D4C41"/>
+    <circle cx="400" cy="468" r="12" fill="#4E342E"/>
+    
+    <!-- Person 2 - left side -->
+    <ellipse cx="320" cy="470" rx="14" ry="22" fill="#5D4037" opacity="0.7" transform="rotate(-15 320 470)"/>
+    <path d="M 312,445 Q 308,455 310,465 L 310,475 Q 315,478 325,478 L 325,465 Q 327,455 323,445 Q 320,440 317,440 Q 314,440 312,445" fill="#6D4C41"/>
+    <circle cx="317" cy="447" r="10" fill="#4E342E"/>
+    
+    <!-- Person 3 - left side, further back -->
+    <ellipse cx="290" cy="450" rx="13" ry="20" fill="#5D4037" opacity="0.6" transform="rotate(-20 290 450)"/>
+    <path d="M 284,430 Q 280,438 282,446 L 282,455 Q 286,458 295,458 L 295,446 Q 296,438 293,430 Q 290,426 287,426 Q 284,426 284,430" fill="#6D4C41" opacity="0.9"/>
+    <circle cx="288" cy="432" r="9" fill="#4E342E"/>
+    
+    <!-- Person 4 - right side -->
+    <ellipse cx="480" cy="470" rx="14" ry="22" fill="#5D4037" opacity="0.7" transform="rotate(15 480 470)"/>
+    <path d="M 472,445 Q 468,455 470,465 L 470,475 Q 475,478 485,478 L 485,465 Q 487,455 483,445 Q 480,440 477,440 Q 474,440 472,445" fill="#6D4C41"/>
+    <circle cx="477" cy="447" r="10" fill="#4E342E"/>
+    
+    <!-- Person 5 - right side, further back -->
+    <ellipse cx="510" cy="450" rx="13" ry="20" fill="#5D4037" opacity="0.6" transform="rotate(20 510 450)"/>
+    <path d="M 504,430 Q 500,438 502,446 L 502,455 Q 506,458 515,458 L 515,446 Q 516,438 513,430 Q 510,426 507,426 Q 504,426 504,430" fill="#6D4C41" opacity="0.9"/>
+    <circle cx="508" cy="432" r="9" fill="#4E342E"/>
+    
+    <!-- Person 6 - back left -->
+    <ellipse cx="340" cy="440" rx="12" ry="18" fill="#5D4037" opacity="0.5" transform="rotate(-10 340 440)"/>
+    <path d="M 335,424 Q 332,430 334,437 L 334,444 Q 337,446 344,446 L 344,437 Q 345,430 342,424 Q 340,421 337,421 Q 335,421 335,424" fill="#6D4C41" opacity="0.8"/>
+    <circle cx="338" cy="425" r="8" fill="#4E342E"/>
+    
+    <!-- Person 7 - back right -->
+    <ellipse cx="460" cy="440" rx="12" ry="18" fill="#5D4037" opacity="0.5" transform="rotate(10 460 440)"/>
+    <path d="M 455,424 Q 452,430 454,437 L 454,444 Q 457,446 464,446 L 464,437 Q 465,430 462,424 Q 460,421 457,421 Q 455,421 455,424" fill="#6D4C41" opacity="0.8"/>
+    <circle cx="458" cy="425" r="8" fill="#4E342E"/>
+    
+    <!-- Person 8 - elder, slightly larger, facing forward -->
+    <ellipse cx="400" cy="380" rx="15" ry="24" fill="#5D4037" opacity="0.7"/>
+    <path d="M 390,350 Q 386,362 388,374 L 388,385 Q 393,390 407,390 L 407,374 Q 409,362 405,350 Q 400,344 395,344 Q 390,344 390,350" fill="#6D4C41"/>
+    <circle cx="397" cy="352" r="11" fill="#4E342E"/>
+    <!-- Elder's wise presence - subtle white hair suggestion -->
+    <path d="M 390,348 Q 392,345 397,344 Q 402,345 404,348" fill="none" stroke="#E0E0E0" stroke-width="1" opacity="0.6"/>
+  </g>
+  
+  <!-- Sacred symbols/elements -->
+  <g id="sacred-elements">
+    <!-- Subtle spirit/smoke rising from fire -->
+    <path d="M 400,390 Q 395,370 392,350 Q 390,330 392,310" fill="none" stroke="#FFECB3" stroke-width="2" opacity="0.3" stroke-linecap="round"/>
+    <path d="M 405,390 Q 408,370 410,350 Q 411,330 408,310" fill="none" stroke="#FFECB3" stroke-width="2" opacity="0.3" stroke-linecap="round"/>
+    
+    <!-- Offerings near fire -->
+    <ellipse cx="365" cy="442" rx="8" ry="6" fill="#8D6E63" filter="url(#softShadow)"/>
+    <ellipse cx="435" cy="438" rx="7" ry="5" fill="#A1887F" filter="url(#softShadow)"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#4E342E">
+    Ursprungsbefolkningens styrelse: råd och kontakt
+  </text>
+  
+  <!-- Subtle caption -->
+  <text x="400" y="580" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#5D4037" font-style="italic">
+    Samling i ett heligt utrymme, förankrat i sin plats, väglett av visdom
+  </text>
+</svg>
