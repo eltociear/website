@@ -3,7 +3,7 @@ title: "Att bryta skuldfällan: Hur nationer kan undkomma tillväxtimperativet"
 description: "Statsskuld tvingar nationer att välja mellan ekologisk förstörelse och ekonomisk kollaps. Upptäck hur ett revolutionerande nytt protokoll gör det möjligt för länder att fullgöra sina skyldigheter genom verifierat restaureringsarbete istället för ständig utvinning."
 author: "Global Governance Frameworks"
 date: "2025-10-31"
-pdfPath: "/blog/pdfs/breaking-the-debt-trap.pdf"
+pdfPath: "/blog/pdfs/breaking-the-debt-trap-sv.pdf"
 tags: ["Statsskuld", "Regenerativ ekonomi", "Klimatfinansiering", "Ekonomisk rättvisa", "Global Syd", "Ekologisk restaurering", "Omsorgsekonomi"]
 hashtags: ["#Skuldtransformation", "#Regenerativekonomi", "#Klimaträttvisa", "#GlobalSyd", "#Skuldfälla"]
 readTime: 10
