@@ -134,7 +134,7 @@ This vision requires collective effort and diverse wisdom.
 * **For Indigenous Communities:** This framework is offered in deepest respect for your inherent sovereignty and millennia of successful stewardship. We invite you to review, adapt, or reject these ideas according to your own protocols and priorities. Does this resonate with your vision? How might these tools serve your self-determination?
 * **For Allies and Local Actors:** How can you support Indigenous-led bioregional governance where you live? How can the BAZ concept inspire tangible action in your own community? Perhaps you could start a watershed council, advocate for local currencies that support care, or simply form a 'Convening Circle' with neighbors to discuss what a regenerative future for your bioregion could look like, using our open-source [Bioregional Compass](https://globalgovernanceframeworks.org/frameworks/guides/bioregional-compass) as a conversation guide.
 
-This is just one stop on our journey exploring the GGF ecosystem. In our next piece, we’ll explore how **Communities of Practice (`platform_community_of_practice`)** can connect BAZs across continents, weaving a global network of place-based wisdom.
+This is just one stop on our journey exploring the GGF ecosystem. In an upcoming piece, we’ll explore how **Communities of Practice (`platform_community_of_practice`)** can connect BAZs across continents, weaving a global network of place-based wisdom.
 
 Ultimately, BAZs call us home—to governance rooted in place, guided by relationship, and dedicated to the flourishing of all life.
 
