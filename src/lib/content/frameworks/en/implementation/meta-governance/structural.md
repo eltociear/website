@@ -66,6 +66,20 @@ The foundation of meta-governance lies in structures that enable diverse systems
 - **Rotating Leadership**: Mandatory rotation preventing power entrenchment with **cultural and geographic diversity** requirements
 - **Regular Renewal**: Council sunset clauses requiring periodic reauthorization based on performance and community support
 
+**Domain-Specific Council Examples**:
+
+The Meta-Governance Coordination Council structure includes specialized domain councils that coordinate within their respective areas while maintaining integration with cross-domain governance. Key examples include:
+
+- **Social Resilience Council (SRC)**: Coordinates economic and social systems, overseeing AUBI (Adaptive Universal Basic Income), Hearts/Leaves currency supply, and the Love Ledger. Critical responsibilities include managing the **Sovereign Debt Transformation Protocol**, enabling nations to transition from debt-based growth imperatives to regenerative economies by servicing obligations through verified ecological restoration and care work (detailed in Financial Systems Framework, Section 14.5).
+
+- **Fractal Labor Parliament (FLP)**: Sets ethical standards and valuation frameworks for "Work with Purpose," coordinating with SRC on work valuation and currency supply.
+
+- **Planetary Health Council**: Coordinates health, climate, and ecological systems governance.
+
+- **Earth Council (Kawsay Pacha)**: Indigenous-led council integrating Traditional Ecological Knowledge across all coordination domains (see Indigenous Governance Framework).
+
+These domain councils operate under the general Meta-Governance principles while maintaining specialized expertise and authority within their domains.
+
 ### Tiered Participation Models
 
 **Enhanced Participation Structure**: Frameworks participate at different levels according to readiness, capacity, and cultural requirements while maintaining pathways for advancement.
@@ -378,6 +392,18 @@ Sustainable meta-governance requires a funding stream independent of the politic
 - **Anti-Extraction Protocols** preventing coordination from enabling resource appropriation or community exploitation
 - **Community Benefit Requirements** ensuring coordination activities support rather than undermine local economic autonomy
 - **Cooperative Enterprise Support** prioritizing funding for community-controlled economic development
+
+**Sovereign Debt Transformation Coordination**: 
+
+The Social Resilience Council coordinates the **Sovereign Debt Transformation Protocol** as a critical economic transition mechanism, working across multiple domains to enable nations to break free from debt-based growth imperatives:
+
+- **Cross-Domain Coordination**: Links financial systems (debt restructuring), ecological frameworks (restoration verification), social systems (care infrastructure), and planetary health (GPH milestone tracking)
+- **Verification Infrastructure**: Coordinates with Love Ledger systems and community providers to verify ecological restoration work (Leaves generation) and care infrastructure development (Hearts generation)
+- **Creditor-Debtor Mediation**: Facilitates agreements where creditor nations receive Hearts/Leaves rather than traditional debt repayment, with transparent conversion rates and real-time tracking
+- **Implementation Phasing**: Coordinates gradual transition from debt service holidays (Phase 1) through partial conversion pilots (Phase 2) to systematic Planetary Restoration Bonds (Phase 3)
+- **Integration with Global Commons Fund**: Ensures debt transformation aligns with broader planetary restoration and public goods financing through the GCF
+
+This protocol represents a critical application of meta-governance principles, demonstrating how coordination across economic, ecological, and social domains enables systemic transformation that single-domain frameworks cannot achieve.
 
 **Relationship to Global Commons Fund**: The coordination infrastructure tax complements and coordinates with the **Global Commons Fund (`mechanism_gcf`)** established by the *Treaty for Our Only Home*, with clear delineation between funding streams: the GCF focuses on planetary restoration and global public goods, while the coordination tax specifically funds the governance infrastructure enabling effective cooperation across domains and scales.
 

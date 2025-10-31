@@ -1,7 +1,7 @@
 # Treaty for Our Only Home v1.0
 
 ## Vision
-Humanity faces a **polycrisis**: cascading failures in climate, economic, and political systems threaten global stability. From rising seas to supply chain collapses, from disinformation wars to pandemic risks, our outdated 20th-century institutions are failing to manage 21st-century challenges. This framework, the **Treaty for Our Only Home**, is the coordinated **response to the polycrisis**, a blueprint to evolve from a system that generates crises to one that generates resilience. It transforms global governance from nation-state competition into an agile, legitimate, and cooperative ecosystem, ensuring ecological integrity, fostering intergenerational equity, and inviting every voice to co-create a civilization of stewardship and conscience.
+Humanity faces a **polycrisis**: cascading failures in climate, economic, and political systems threaten global stability. From rising seas to supply chain collapses, from disinformation wars to pandemic risks, our outdated 20th-century institutions are failing to manage 21st-century challenges. This framework, the **Treaty for Our Only Home**, is the coordinated **response to the polycrisis**, a blueprint to evolve from a system that generates crises to one that generates resilience. It transforms global governance from nation-state competition into an agile, legitimate, and cooperative ecosystem, ensuring ecological integrity, fostering intergenerational equity, and inviting every voice to build a civilization of stewardship and conscience.
 
 ## Core Principles
 1. **Subsidiarity & Polycentrism**: Governance at the lowest effective level, with global coordination for planetary issues, recognizing cities, corporations, and civil society.
@@ -161,8 +161,16 @@ Create an independent funding base to enable innovative financial systems.
   - Governed by a tripartite board of citizens, institutional stakeholders, and randomly selected independent monitors, operating under transparency and equity covenants.
 - **Reparations Framework**:
   - Fund climate reparations and colonial redress via global taxes and **impact-linked bonds** (payouts tied to SDG progress to attract private capital).
-- **Debt Justice**:
+  - Integrate with Sovereign Debt Transformation Protocol: Historical debts can be reframed as reparations obligations, serviceable through verified regenerative work that directly benefits affected communities.
+  - Prioritize Global South nations as primary beneficiaries of debt-to-regeneration conversions, recognizing historical extraction patterns.
+- **Debt Justice & Sovereign Debt Transformation**:
+  - **Sovereign Debt Transformation Protocol**: The primary mechanism for transitioning nations from the debt-based growth imperative to the regenerative economy (detailed in the Financial Systems Framework, Section 14.5).
+    - Debtor nations can service sovereign debt obligations through verified ecological restoration (rewarded in *Leaves*), care infrastructure development (rewarded in *Hearts*), and achievement of Gross Planetary Health (GPH) milestones.
+    - Creditor nations receive *Hearts* (redeemable for domestic care services) and *Leaves* (representing verified ecological assets) rather than traditional debt repayment, creating mutual benefit in the transition.
+    - Conversion rates and verification managed by the Social Resilience Council (see Meta-Governance Framework) with transparent, real-time tracking.
+    - Phased implementation: (1) debt service holidays for nations meeting GPH targets, (2) partial debt-for-regeneration conversion pilots, (3) systematic Planetary Restoration Bonds.
   - Automatic debt pauses during pandemics/climate disasters, tied to IMF Special Drawing Rights (SDRs).
+  - **Debt-for-Nature/Care Swaps 2.0**: Expand traditional debt relief mechanisms to integrate with *Hearts*/*Leaves* currencies and the Love Ledger verification system.
 - **Transparency Covenant**:
   - Protect Global Commons Fund via independent audits and public reporting.
 - **Global Wealth Floor**:
@@ -327,7 +335,7 @@ The world faces unprecedented threats: climate disruption costing $54 trillion b
 
 **Why Act?**
 - **Climate Stability**: Carbon taxes and ecocide laws mitigate environmental collapse, protecting trade and infrastructure.
-- **Economic Resilience**: Debt justice and public goods funding prevent supply chain shocks and financial crises.
+- **Economic Resilience**: Sovereign debt transformation protocol enables nations to escape the debt-based growth trap by servicing obligations through verified ecological restoration and care work, preventing financial crises while building regenerative capacity. Automatic debt pauses during shocks provide additional stability.
 - **Security**: Reformed UNSC and cyber peace treaties reduce conflict risks, including AI-driven threats.
 - **Leadership**: Nations gain influence in AI governance, digital commons, and climate leadership through **sovereignty bargains**.
 
@@ -335,7 +343,7 @@ The world faces unprecedented threats: climate disruption costing $54 trillion b
 1. **UNSC Veto Override**: Enables rapid crisis response.
 2. **Carbon Tax**: Funds climate adaptation, reducing economic losses.
 3. **Ecocide Law**: Deters environmental destruction, protecting global markets.
-4. **Debt Justice**: Stabilizes economies during shocks.
+4. **Sovereign Debt Transformation**: Enables nations to service debts through verified ecological restoration and care work (*Hearts*/*Leaves*), breaking the debt-growth trap while building regenerative capacity.
 5. **Global Citizens’ Initiative**: Enhances legitimacy, reducing unrest.
 
 **Cost of Inaction**: $54 trillion in climate damages, $13.8 trillion in pandemic losses, vs. ~$100 billion annually (0.1% global GDP) for reforms yielding exponential returns.
@@ -350,7 +358,7 @@ The world faces unprecedented threats: climate disruption costing $54 trillion b
 2. **Ecocide Law**: Mandate ICC prosecution of large-scale environmental destruction with graded penalties, protected against misuse.
 3. **Carbon Tax**: Pilot a global levy on fossil fuels and aviation/shipping to fund climate adaptation.
 4. **Global Citizens’ Initiative**: Enable referendums with 10M signatures across 50+ nations for democratic legitimacy.
-5. **Debt Justice**: Automatic debt pauses during crises, tied to IMF SDRs.
+5. **Sovereign Debt Transformation**: Enable nations to service debts through verified ecological restoration (*Leaves*) and care infrastructure (*Hearts*), breaking the debt-growth trap. Includes automatic debt pauses during crises, tied to IMF SDRs.
 
 ### Why Act Now?
 These keystone reforms address critical gaps in global governance, enabling rapid responses to climate, pandemics, and inequality. Pilots in willing states and cities, led by the Global Stewardship Alliance, can demonstrate feasibility, building momentum for a cooperative future that supports innovative financial systems like *Hearts*.

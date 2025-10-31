@@ -100,7 +100,7 @@ The treaty's architecture is built on five interlocking pillars, each designed t
 ### Pillar 4: Reimagining Funding & Resources
 **Goal**: Create independent funding to enable innovative and equitable financial systems
 
-**Key Mechanisms**: Global taxation system prioritizing carbon and financial transaction taxes, Payment for Global Public Goods Fund, reparations framework, debt justice protocols, and commons dividends for citizens.
+**Key Mechanisms**: Global taxation system prioritizing carbon and financial transaction taxes, Payment for Global Public Goods Fund accepting multiple value systems (including Hearts/Leaves), reparations framework integrated with debt transformation, **Sovereign Debt Transformation Protocol** enabling nations to service obligations through verified ecological restoration and care work, and commons dividends for citizens.
 
 **Keystone Reform**: **Carbon Tax** - Global levy on fossil fuels funding climate adaptation
 
@@ -111,9 +111,9 @@ The treaty's architecture is built on five interlocking pillars, each designed t
 
 **Key Mechanisms**: Global Knowledge Stewardship Council, transdisciplinary foresight labs, AI-assisted governance with ethical safeguards, Global Civic Curriculum, and Office of the Adversary for institutional red-teaming.
 
-**Keystone Reform**: **Debt Justice** - Automatic debt pauses during crises (cross-pillar integration)
+**Keystone Reform**: **Sovereign Debt Transformation** - Enable nations to transition from debt-based growth imperatives to regenerative economies (cross-pillar integration with Pillar 4)
 
-**Impact**: *For Maya, this means traditional knowledge receives equal institutional standing with academic science in policy-making. For Dr. Williams, it means medical research is protected from corporate bias through transparent, ethical review processes. For Ambassador Chen, it means small nations can't be crushed by debt during climate disasters.*
+**Impact**: *For Maya, this means traditional knowledge receives equal institutional standing with academic science in policy-making. For Dr. Williams, it means medical research is protected from corporate bias through transparent, ethical review processes. For Ambassador Chen, it means her nation can escape the debt trap by servicing obligations through verified coral reef restoration and renewable energy development—breaking free from the growth imperative while building genuine resilience. Crisis debt pauses provide additional protection during disasters.*
 
 [Learn more about the Five Pillars](/frameworks/treaty-for-our-only-home#five-pillars)
 

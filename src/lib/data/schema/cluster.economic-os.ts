@@ -320,6 +320,34 @@ export const economicOSEntities: GgfEntity[] = [
     geographicScope: 'Global',
     implementationPriority: 'High',
     dependencies: ['framework_aubi']
+  },
+
+
+  // === PROTOCOLS ===
+  {
+    id: 'protocol_debt_transformation',
+    type: 'Protocol', // Using 'Protocol' as it's a financial/legal hybrid
+    name: 'Sovereign Debt Transformation Protocol',
+    shortName: 'Debt-to-Regen',
+    description: 'A protocol for converting sovereign debt into regenerative obligations, serviced by verified care work (Hearts) and ecological restoration (Leaves).',
+    tier: 1, // Core transition mechanism, part of the Economic OS
+    status: 'Draft',
+    primaryDomain: 'Economic',
+    geographicScope: 'Global',
+    implementationPriority: 'Critical', // This is a critical path item for adoption
+    dependencies: [
+      'framework_financial_systems', // Defined within this framework
+      'council_social_resilience',   // Managed by this council
+      'framework_treaty',            // Needs legal authority from the Treaty
+      'mechanism_hearts',            // Uses Hearts for payment
+      'mechanism_leaves',            // Uses Leaves for payment
+      'platform_love_ledger'       // Uses its architecture for tracking
+    ],
+    enables: [
+      'framework_aubi', // Provides a powerful incentive for nations to adopt GGF
+      'framework_planetary_health' // Provides incentive for GPH milestones
+    ]
+    // No UI block as it's a sub-protocol, not a main framework page
   }
 ];
 
@@ -494,6 +522,44 @@ export const economicOSRelationships: GgfRelationship[] = [
     strength: 'Medium',
     frequency: 'Regular',
     sequenceType: 'Parallel'
+  },
+
+  // Debt
+  {
+    from: 'framework_financial_systems',
+    to: 'protocol_debt_transformation',
+    type: 'ESTABLISHES',
+    description: 'The Financial Systems Framework establishes the protocol for sovereign debt-to-regeneration conversions as part of its Inter-Currency Translation Layer.'
+  },
+  {
+    from: 'council_social_resilience',
+    to: 'protocol_debt_transformation',
+    type: 'OVERSEES',
+    description: 'The Social Resilience Council manages the conversion rates and verification of the Debt Transformation Protocol.'
+  },
+  {
+    from: 'protocol_debt_transformation',
+    to: 'mechanism_hearts',
+    type: 'INTEGRATES_WITH',
+    description: 'Uses verified Hearts generation as a mechanism for debt servicing.'
+  },
+  {
+    from: 'protocol_debt_transformation',
+    to: 'mechanism_leaves',
+    type: 'INTEGRATES_WITH',
+    description: 'Uses verified Leaves generation (ecological restoration) as a mechanism for debt servicing.'
+  },
+  {
+    from: 'protocol_debt_transformation',
+    to: 'platform_love_ledger',
+    type: 'USES_DATA_FROM',
+    description: 'Uses the Love Ledger architecture for transparent tracking and verification of regenerative activities.'
+  },
+  {
+    from: 'framework_treaty',
+    to: 'protocol_debt_transformation',
+    type: 'ENABLES',
+    description: 'The Treaty\'s "Debt Justice" (Pillar 4) and "Crisis Response" (Pillar 3) components provide the constitutional authority for the Debt Transformation Protocol.'
   },
 
   // Supply Chain Integration

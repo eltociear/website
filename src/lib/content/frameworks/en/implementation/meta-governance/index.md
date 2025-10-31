@@ -3,7 +3,7 @@ title: Integrated Meta-Governance Framework
 section: index
 status: First Release
 revision: 1.0
-lastUpdated: 2025-06-23
+lastUpdated: 2025-10-31
 nextReview: too be determined
 releaseDate: 2025-06-23
 ---
@@ -141,6 +141,8 @@ The enhanced meta-governance framework operates through interconnected structura
 **Digital Infrastructure**: Multi-modal platforms with SMS-based coordination, offline synchronization, and **cybersecurity frameworks** protecting against coordinated attacks.
 
 ### IV. Economic and Resource Coordination
+**Social Resilience Council**: Domain-specific council coordinating economic and social systems, overseeing AUBI, Hearts/Leaves currencies, and managing the **Sovereign Debt Transformation Protocol**—enabling nations to transition from debt-based growth to regenerative economies by servicing obligations through verified ecological restoration and care work.
+
 **Resource Sharing Protocols**: Crisis resource mobilization with pre-negotiated agreements and **commons governance integration** for digital, natural, and knowledge resources.
 
 **Corporate Integration**: Three-sector collaboration with **accountability mechanisms** preventing regulatory capture while enabling productive business participation.
@@ -183,7 +185,7 @@ The enhanced implementation employs a **15-year, three-tier approach** that brid
 - **Enhanced Measurement**: Real-time dashboards with citizen oversight authority
 
 ### Integration Tier (Years 4-7): System Coordination
-- **Economic Coordination**: Resource sharing protocols and corporate accountability frameworks
+- **Economic Coordination**: Resource sharing protocols, corporate accountability frameworks, and **Sovereign Debt Transformation Protocol** deployment enabling transition from debt-based to regenerative economies
 - **Security Architecture**: Conflict prevention and peace-building coordination mechanisms
 - **Advanced AI Integration**: Comprehensive governance protocols with bias prevention
 - **Cross-Regional Scaling**: Cultural adaptation with Indigenous-led development

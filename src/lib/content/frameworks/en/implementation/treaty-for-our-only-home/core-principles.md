@@ -136,7 +136,7 @@ Effective governance requires both rigorous truth-seeking and humble recognition
 
 Like keystone species in ecosystems, certain governance reforms have disproportionate impact on overall system health. This principle focuses on identifying and implementing the smallest set of changes that unlock the largest systemic improvements, avoiding the complexity creep that bogs down reform efforts.
 
-**Institutional Embodiment & Precedents**: Five keystone reforms (UNSC veto override, ecocide law, carbon tax, global citizens' initiative, debt justice) address multiple problems simultaneously with minimal bureaucratic overhead. This approach builds on successful focused reforms like Rwanda's post-genocide recovery, which achieved remarkable results through targeted institutional changes rather than comprehensive system replacement. Singapore's efficient governance demonstrates how simple, well-designed institutions can achieve complex outcomes.
+**Institutional Embodiment & Precedents**: Five keystone reforms (UNSC veto override, ecocide law, carbon tax, global citizens' initiative, sovereign debt transformation) address multiple problems simultaneously with minimal bureaucratic overhead. This approach builds on successful focused reforms like Rwanda's post-genocide recovery, which achieved remarkable results through targeted institutional changes rather than comprehensive system replacement. Singapore's efficient governance demonstrates how simple, well-designed institutions can achieve complex outcomes.
 
 **Strategic Transition Simplicity Requirements**: Enhanced roles and transition arrangements must demonstrate minimum viable governance through:
 - **Clear, limited scope** preventing mission creep and bureaucratic expansion
@@ -168,7 +168,7 @@ Maya's farming community wants autonomy over land use decisions, but climate cha
 ### Economic Development vs. Ecological Limits
 Ambassador Chen's small island nation needs economic growth to provide basic services, but climate science demands immediate emissions reductions that could constrain development pathways.
 
-**Resolution Framework**: Global funding mechanisms (carbon tax revenues, debt justice protocols) provide resources for sustainable development pathways that don't force choices between poverty and environmental protection. Differentiated responsibilities ensure wealthy nations bear primary burden for historical emissions while supporting global transition. The Payment for Global Public Goods Fund prioritizes adaptation and development for vulnerable nations.
+**Resolution Framework**: Global funding mechanisms (carbon tax revenues, sovereign debt transformation protocols enabling nations to service obligations through ecological restoration and care work) provide resources for sustainable development pathways that don't force choices between poverty and environmental protection. Differentiated responsibilities ensure wealthy nations bear primary burden for historical emissions while supporting global transition. The Payment for Global Public Goods Fund prioritizes adaptation and development for vulnerable nations.
 
 **Strategic Transition Application**: Enhanced access to global resources for existing powers must be contingent on supporting sustainable development pathways for developing nations and meeting differentiated responsibility requirements.
 

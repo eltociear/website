@@ -56,7 +56,7 @@ Rather than demanding that powerful nations surrender influence without compensa
 - **Rotating Digital Governance Roles**: P5 nations receive 2-3 year chairmanships in Global Digital Governance Body working groups, with supermajority override mechanisms and performance-based renewal requirements
 - **Climate Technology Partnerships**: Enhanced early access to Global Public Goods Fund climate investments, contingent on meeting emission reduction targets and supporting global carbon tax implementation
 - **Security Cooperation Integration**: Advanced threat intelligence sharing and cyber defense coordination for nations accepting expanded international court jurisdiction and accountability mechanisms
-- **Economic Transition Facilitation**: Preferential access to sustainable finance markets and green technology transfer for nations implementing debt justice and pharmaceutical transparency protocols
+- **Economic Transition Facilitation**: Preferential access to sustainable finance markets and green technology transfer for nations implementing sovereign debt transformation protocols and pharmaceutical transparency protocols
 
 **Democratic Safeguards**: All enhanced roles include mandatory rotation, performance accountability, and cannot override decisions made by supermajority votes. These arrangements automatically sunset after 10 years unless renewed through global democratic processes.
 
@@ -170,7 +170,7 @@ The implementation of these funding streams is designed to be pragmatic and evid
 - Climate adaptation funding reaches vulnerable communities within 12 months of climate disasters
 - Ecocide prosecutions successfully deter 80%+ of major environmental crimes
 - Global Citizens' Initiative demonstrates legitimate representation across cultural and economic diversity
-- International economic stability measurably improved through debt justice mechanisms
+- International economic stability measurably improved through sovereign debt transformation mechanisms enabling regenerative development pathways
 
 **Expansion Strategies**:
 - Competitive pressure through Alliance economic advantages

@@ -4,7 +4,7 @@ section: index
 status: Revision 1.0
 revision: 1.0
 releaseDate: 2025-07-06
-lastUpdated: 2025-09-05
+lastUpdated: 2025-10-31
 nextReview: to be determined
 ---
 
@@ -47,6 +47,7 @@ In a world where financial systems concentrate wealth while communities lack res
 - **Love Ledger Platform**: Enterprise-grade blockchain infrastructure transparently tracking contributions to love, meaning, and connection while protecting community data sovereignty through zero-knowledge protocols and post-quantum cryptography
 - **Hearts Treasury Mechanism**: Banking integration through progressive credit unions providing stable fiat redemption while maintaining community control over monetary policy and preventing speculation
 - **Social Resilience Council**: Indigenous-guided governance ensuring community sovereignty and cultural adaptation, coordinated through the Meta-Governance Framework with Earth Council veto power over implementations affecting traditional territories
+- **Sovereign Debt Transformation Protocol**: Revolutionary mechanism enabling nations to service debt through verified ecological restoration (Leaves) and care infrastructure (Hearts), breaking the debt-growth trap while building regenerative capacity
 - **Inter-Currency Translation Layer**: Sophisticated exchange protocols enabling seamless value transfer between Hearts, traditional currencies, and other value systems while preventing arbitrage and maintaining community focus
 - **Professional Community Weaver Networks**: Certified facilitators trained in Hearts mechanics, Love Ledger operations, cultural protocols, and conflict resolution providing human infrastructure for successful community implementation
 
@@ -86,7 +87,7 @@ The Financial Systems Framework operates through integrated technical systems de
 ### Social Resilience Council
 **Goal**: Indigenous-guided governance ensuring Hearts and Leaves serve Right Relationship while maintaining fiscal responsibility and technical reliability
 
-**Key Technical Mechanisms**: 40% Indigenous representation with Earth Council veto power from the Indigenous & Traditional Knowledge Governance Framework, Meta-Governance coordination for crisis response and policy alignment, Fractal Labor Parliament integration for Hearts valuation standards, and Community Weaver certification programs coordinated with the Work in Liberation Framework.
+**Key Technical Mechanisms**: 40% Indigenous representation with Earth Council veto power from the Indigenous & Traditional Knowledge Governance Framework, Meta-Governance coordination for crisis response and policy alignment, Fractal Labor Parliament integration for Hearts valuation standards, Sovereign Debt Transformation Protocol management enabling nations to transition from debt-based to regenerative economies, and Community Weaver certification programs coordinated with the Work in Liberation Framework.
 
 ### Hearts Treasury Mechanism
 **Goal**: Provide stability and fiat redemption for Hearts currency while maintaining community control over monetary policy

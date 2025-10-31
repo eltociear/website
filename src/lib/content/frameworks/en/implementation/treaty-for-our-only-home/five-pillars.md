@@ -50,7 +50,7 @@ Before exploring each pillar in detail, here's the critical path for transformat
 | **2: New Actors** | Legitimize the System | **Global Citizens' Initiative** |
 | **3: Law & Enforcement** | Enforce Shared Values | **Ecocide Law** |
 | **4: Funding** | Fuel the Future | **Global Carbon Tax** |
-| **5: Ethics & Truth** | Guide with Wisdom | **Debt Justice** (Cross-Pillar) |
+| **5: Ethics & Truth** | Guide with Wisdom | **Sovereign Debt Transformation** (Cross-Pillar) |
 
 These five keystone reforms address multiple problems simultaneously and create the foundation for all other Treaty mechanisms. Each reform unlocks capabilities that enable the others—creating a cascade of transformation from today's crisis-generating systems to tomorrow's resilience-generating governance.
 
@@ -349,15 +349,28 @@ Vaccine development and distribution, ocean conservation, climate adaptation, bi
 Historical greenhouse gas emitters provide adaptation funding to frontline communities through global taxation and impact-linked bonds. Payment schedules tied to emission reduction commitments create incentives for both mitigation and adaptation.
 
 **Colonial Redress Protocols:**
-Systematic approach to addressing historical extraction and contemporary exploitation through resource transfer, debt cancellation, and development partnership. Truth and reconciliation processes inform reparations frameworks.
+Systematic approach to addressing historical extraction and contemporary exploitation through resource transfer, debt cancellation, and development partnership. Truth and reconciliation processes inform reparations frameworks. Integrates with Sovereign Debt Transformation Protocol: historical debts can be reframed as reparations obligations, serviceable through verified regenerative work directly benefiting affected communities.
 
 **Impact-Linked Bond Innovation:**
 Private capital investment in SDG progress with payouts tied to measurable outcomes. Risk mitigation through global fund guarantees attracts private investment to global public goods.
 
-### Debt Justice Revolution
+### Sovereign Debt Transformation & Justice
+
+**Sovereign Debt Transformation Protocol:**
+The primary mechanism for transitioning nations from debt-based growth imperatives to regenerative economies. Debtor nations can service sovereign debt obligations through verified ecological restoration (rewarded in *Leaves*), care infrastructure development (rewarded in *Hearts*), and achievement of Gross Planetary Health (GPH) milestones.
+
+Creditor nations receive *Hearts* (redeemable for domestic care services) and *Leaves* (representing verified ecological assets) rather than traditional debt repayment, creating mutual benefit in the transition. Conversion rates and verification managed by the Social Resilience Council (see Meta-Governance Framework) with transparent, real-time tracking via Love Ledger systems.
+
+**Phased Implementation:**
+- **Phase 1**: Debt service holidays for nations meeting GPH targets
+- **Phase 2**: Partial debt-for-regeneration conversion pilots with willing creditors
+- **Phase 3**: Systematic Planetary Restoration Bonds replacing traditional sovereign debt structures
+
+**Debt-for-Nature/Care Swaps 2.0:**
+Traditional debt relief mechanisms expanded to integrate with *Hearts*/*Leaves* currencies. Historical debts can be reframed as reparations obligations, serviceable through verified regenerative work benefiting affected communities. Prioritizes Global South nations recognizing historical extraction patterns.
 
 **Automatic Debt Pause Mechanisms:**
-Pandemic, climate disaster, or economic crisis triggers automatic debt payment suspension tied to IMF Special Drawing Rights expansion. Prevents crisis exploitation while maintaining credit system integrity.
+Pandemic, climate disaster, or economic crisis triggers automatic debt payment suspension tied to IMF Special Drawing Rights expansion. Prevents crisis exploitation while maintaining credit system integrity during transition period.
 
 **Debt Sustainability Standards:**
 Maximum debt service ratios based on essential services provision rather than raw economic output. Healthcare, education, and environmental protection receive protection from austerity pressures.

@@ -199,6 +199,16 @@ The Social Resilience Council serves as the primary governance body for Hearts a
 - **Payout coordination**: Hearts integration with AUBI Layer 2 bonus distribution while maintaining community control
 - **Policy alignment**: Hearts policies align with AUBI principles while maintaining cultural adaptation and community sovereignty
 
+**Sovereign Debt Transformation Protocol Management**: Council oversees the critical transformation of sovereign debt systems:
+- **Conversion rate governance**: Quarterly setting of debt-to-Hearts/Leaves conversion rates based on verified restoration outcomes and care infrastructure impact
+- **Verification coordination**: Love Ledger verification systems ensuring authentic ecological restoration and care infrastructure development claims
+- **Creditor-debtor mediation**: Facilitating agreements between creditor and debtor nations for Hearts/Leaves debt servicing arrangements
+- **Planetary health milestone assessment**: Coordinating with Planetary Health Council on Gross Planetary Health metrics qualifying nations for debt relief
+- **Global Commons Fund integration**: Coordinating debt transformation with Global Commons Fund planetary restoration investments
+- **Phased implementation oversight**: Managing three-phase rollout from debt service holidays through pilot conversions to systematic Planetary Restoration Bonds
+- **Indigenous protection**: Ensuring debt transformation projects respect Indigenous sovereignty and benefit Indigenous communities disproportionately harmed by historical debts
+- **Transparency and accountability**: Real-time public dashboards tracking debt transformation progress, Hearts/Leaves generation, and planetary health outcomes
+
 ### Democratic Accountability Mechanisms
 
 **Quadratic Voting Systems**: Council decisions use voting methods preventing wealth-based influence:
