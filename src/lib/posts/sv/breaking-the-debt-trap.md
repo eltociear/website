@@ -345,7 +345,7 @@ Denna vision blir verklighet genom kollektiv handling på alla nivåer:
 
 ## Vägen framåt: En öppen inbjudan
 
-Protokollet för omvandling av statsskulder är **inte en färdig produkt** – det är en rigorös hypotes om hur vi skulle kunna läka det djupaste strukturella felet i den globala ekonomin.
+Protokollet för omvandling av statsskulder är **inte en färdig produkt** – det är en rigorös hypotes om hur vi skulle kunna läka det djupaste strukturella felet i den globala ekonomin. En omfattande teknisk rapport som beskriver den ekonomiska modelleringen, de rättsliga ramverken och implementeringsmekanismerna är på gång, men diskussionen börjar nu.
 
 Global Governance Frameworks-projektet söker aktivt partners för att:
 

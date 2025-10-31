@@ -314,7 +314,7 @@ This vision becomes reality through collective action at every scale:
 
 ## The Path Forward: An Open Invitation
 
-The Sovereign Debt Transformation Protocol is **not a finished product**—it's a rigorous hypothesis about how we might heal the global economy's deepest structural flaw.
+The Sovereign Debt Transformation Protocol is **not a finished product**—it's a rigorous hypothesis about how we might heal the global economy's deepest structural flaw. A comprehensive technical whitepaper detailing the economic modeling, legal frameworks, and implementation mechanics is forthcoming, but the conversation begins now.
 
 The Global Governance Frameworks project is actively seeking partners to:
 - **Co-design pilot programs** with willing creditor-debtor pairs
