@@ -1,4 +1,3 @@
-<!-- src/routes/+layout.svelte -->
 <script>
   import '../app.css';
   import Footer from '$lib/components/Footer.svelte';
@@ -7,13 +6,14 @@
   import { navigating, page } from '$app/stores';
   import { browser } from '$app/environment';
   import { base } from '$app/paths';
-  import { afterNavigate } from '$app/navigation';
+  import { afterNavigate, goto } from '$app/navigation'; // ← ADD goto import
   import { writable } from 'svelte/store';
   import Header from '$lib/components/Header.svelte';
   import GlobalNotice from '$lib/components/GlobalNotice.svelte';
   import { registerServiceWorker } from '$lib/utils/registerServiceWorker';
   import { preloadFrameworkDatabase } from '$lib/data/precomputedFrameworkDatabase';
 
+  const DEBUG_LOG = false;
   
   // Initialize stores at the top level
   let serviceWorkerRegistered = false;
@@ -21,6 +21,15 @@
   
   // Initialize as false to prevent premature rendering
   const translationsLoaded = writable(false);
+
+  // Add this function to handle sidebar clicks without preloading
+  function handleSidebarClick(event) {
+    const sidebarLink = event.target.closest('.sidebar a');
+    if (sidebarLink && sidebarLink.href) {
+      event.preventDefault();
+      goto(sidebarLink.href);
+    }
+  }
 
   onMount(async () => {
     preloadFrameworkDatabase();
@@ -34,7 +43,7 @@
         locale.set(initLocale);
         translationsLoaded.set(true); // Only set true after translations load
       } catch (e) {
-        console.error("Translation loading error:", e);
+        if (DEBUG_LOG) console.error("Translation loading error:", e);
         translationsLoaded.set(true); // Still show content on error
       }
     }
@@ -49,7 +58,7 @@
 
   // Handle navigation - only in browser
   $: if (browser && $navigating) {
-    console.log(`Navigating to: ${$navigating.to?.url.pathname}`);
+    if (DEBUG_LOG) console.log(`Navigating to: ${$navigating.to?.url.pathname}`);
     
     let path = $navigating.to?.url.pathname || '/';
     
@@ -64,8 +73,8 @@
   });
 </script>
 
-<!-- FIXED: Remove ALL Tailwind classes that conflict with custom CSS -->
-<div class="site-layout">
+<!-- Use regular preload but override sidebar clicks -->
+<div class="site-layout" data-sveltekit-preload-data="tap">
   <Header />
   <GlobalNotice />
   <main class="main-content">
@@ -78,7 +87,7 @@
 </div>
 
 <style>
-  /* FIXED: Use custom CSS instead of conflicting Tailwind classes */
+  /* Your existing styles */
   .site-layout {
     min-height: 100vh;
     display: flex;
@@ -87,26 +96,21 @@
 
   .main-content {
     flex: 1;
-    /* Remove conflicting padding and margins that interfere with framework cards */
     padding: 0;
     margin: 0;
   }
 
   /* Override any remaining Tailwind interference */
   :global(.main-content *) {
-    /* Prevent Tailwind from overriding component styles */
     box-sizing: border-box;
   }
 
-  /* Specifically target and fix the framework cards interference */
   :global(.main-content .framework-item) {
-    /* Ensure no Tailwind classes interfere */
     margin: 0 !important;
     padding: 0 !important;
   }
 
   :global(.main-content .framework-item *) {
-    /* Prevent any inherited Tailwind issues */
     box-sizing: border-box;
   }
 </style>
