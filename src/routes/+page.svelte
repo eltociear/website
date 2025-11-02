@@ -604,7 +604,7 @@
   </div>
 </section>
 
-<!-- Performance Teaser Section -->
+<!-- Performance Teaser Section 
 <section class="performance-section">
   <div class="performance-container">
     <h2 class="performance-title">{$t('home.performanceTeaser.heading')}</h2>
@@ -614,7 +614,7 @@
       {$t('home.performanceTeaser.button')}
     </a>
   </div>
-</section>
+</section> -->
 
 <!-- Call to Action Section -->
 <section class="final-cta-section">
