@@ -7,6 +7,8 @@
   import FrameworkSidebar from '$lib/components/FrameworkSidebar.svelte';
   import { onMount, tick } from 'svelte';
   import { slide } from 'svelte/transition';
+ 
+  const DEBUG_LOG = false;
 
   export let data;
 
@@ -78,7 +80,7 @@
         try {
           await loadTranslations($locale, '/frameworks/conduit-protocol');
         } catch (e) {
-          console.error('Failed to reload translations:', e);
+          if (DEBUG_LOG) console.error('Failed to reload translations:', e);
         }
       }
       

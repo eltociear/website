@@ -7,7 +7,7 @@
   import { base } from '$app/paths';
   import { onMount } from 'svelte';
 
-  // Hover state management - move from CSS to Svelte
+  // Hover state management
   let hoveredPath = null;
 
   // Cache active states to prevent recalculation on every render
@@ -25,7 +25,7 @@
     return currentPath === base + path;
   }
 
-  // Pre-calculate all active states to avoid recalculation during render
+  // FIXED: Pre-calculate all active states with proper recursion
   function calculateActiveStates(nav, pathname) {
     const states = {};
     
@@ -34,15 +34,19 @@
       const isItemActive = pathname === itemPath;
       
       let hasActiveChild = false;
+      
+      // Process sub-items first (depth-first)
       if (item.subItems) {
         item.subItems.forEach(subItem => {
           processItem(subItem);
-          if (activeStates[subItem.titleKey]) {
+          // Now we can safely check the states object
+          if (states[subItem.titleKey]) {
             hasActiveChild = true;
           }
         });
       }
       
+      // Set this item's state
       states[item.titleKey] = isItemActive || hasActiveChild;
     }
     
@@ -55,20 +59,14 @@
     return activeStates[item.titleKey] || false;
   }
 
-  // Debounced hover handlers to prevent rapid state changes
-  let hoverTimeout;
+  // FIXED: Remove debouncing - it causes flickering
+  // Use direct state updates instead
   function handleMouseEnter(path) {
-    if (hoverTimeout) clearTimeout(hoverTimeout);
-    hoverTimeout = setTimeout(() => {
-      hoveredPath = path;
-    }, 10); // Small delay to prevent flickering
+    hoveredPath = path;
   }
 
   function handleMouseLeave() {
-    if (hoverTimeout) clearTimeout(hoverTimeout);
-    hoverTimeout = setTimeout(() => {
-      hoveredPath = null;
-    }, 10);
+    hoveredPath = null;
   }
 
   // Initialize expanded sections - expand active section by default
@@ -96,11 +94,6 @@
         });
       }
     });
-
-    // Cleanup timeout on unmount
-    return () => {
-      if (hoverTimeout) clearTimeout(hoverTimeout);
-    };
   });
 
   // Toggle a section's expanded state
@@ -279,9 +272,8 @@
   .sidebar {
     border-right: 1px solid #2D5F2D;
     padding-right: 1.5rem;
-    /* Force hardware acceleration */
+    /* FIXED: Remove will-change to prevent constant repaints */
     transform: translateZ(0);
-    will-change: auto;
   }
   
   .sidebar ul {
@@ -292,8 +284,7 @@
   
   .nav-item {
     margin-bottom: 0.75rem;
-    /* Prevent layout shifts */
-    contain: layout style;
+    /* FIXED: Remove contain property that can cause flickering */
   }
   
   .nav-header {
@@ -312,8 +303,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: color 0.15s ease-out;
-    /* Prevent button from causing reflows */
+    transition: color 0.1s ease-out;
     min-width: 24px;
     min-height: 24px;
   }
@@ -329,32 +319,21 @@
     text-decoration: none;
     border-left: 3px solid transparent;
     padding-left: 1rem;
-    transition: all 0.15s ease-out;
+    /* FIXED: Faster transition to reduce visual lag */
+    transition: color 0.1s ease-out, border-left-color 0.1s ease-out;
     flex-grow: 1;
-    /* Force GPU acceleration for smooth transitions */
+    /* Keep GPU acceleration for smooth transitions */
     transform: translateZ(0);
     backface-visibility: hidden;
-    /* Prevent text selection flickering */
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
   }
   
-  /* Separate hover and active states to prevent conflicts */
-  .sidebar a.hovered:not(.active) {
+  /* FIXED: Use simpler hover states */
+  .sidebar a:hover:not(.active) {
     color: #DAA520;
     border-left-color: #DAA520;
   }
   
   .sidebar a.active {
-    color: #DAA520;
-    border-left-color: #DAA520;
-    font-weight: 600;
-  }
-  
-  /* Ensure active state always takes precedence */
-  .sidebar a.active.hovered {
     color: #DAA520;
     border-left-color: #DAA520;
     font-weight: 600;
@@ -366,9 +345,6 @@
     color: #9ca3af;
     padding-left: 1rem;
     font-style: italic;
-    /* Prevent selection */
-    user-select: none;
-    -webkit-user-select: none;
   }
   
   .subnav {
@@ -376,8 +352,6 @@
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     border-left: 1px dashed #2D5F2D;
-    /* Optimize rendering */
-    contain: layout;
   }
   
   .subnav-item {
@@ -389,7 +363,6 @@
     padding: 0.3rem 0;
   }
   
-  /* Styles for tier subnav */
   .tier-header {
     margin-top: 0.3rem;
   }
@@ -399,7 +372,6 @@
     margin-top: 0.3rem;
     margin-bottom: 0.5rem;
     border-left: 1px dotted #2D5F2D;
-    contain: layout;
   }
   
   .impl-item {
@@ -418,8 +390,7 @@
     border-radius: 1rem;
     margin-left: 0.5rem;
     vertical-align: middle;
-    transition: all 0.15s ease-out;
-    /* Prevent badge from causing layout shifts */
+    transition: all 0.1s ease-out;
     white-space: nowrap;
   }
   
@@ -459,28 +430,25 @@
     color: #FFFFFF;
     font-weight: 600;
     font-family: 'Monaco', 'Menlo', monospace;
-    transition: all 0.15s ease-out;
+    transition: all 0.1s ease-out;
     white-space: nowrap;
   }
 
-  /* Version badge hover states - only for non-active links */
-  .sidebar a.hovered:not(.active) .version-badge {
+  /* FIXED: Simpler badge hover state */
+  .sidebar a:hover:not(.active) .version-badge {
     background-color: #FFFFFF;
     color: #1E40AF;
   }
 
-  /* Version badge active states */
   .sidebar a.active .version-badge {
     background-color: #FFFFFF;
     color: #DAA520;
   }
   
   .active-section {
-    /* Style for the parent item when it or its child is active */
     position: relative;
   }
 
-  /* Responsive considerations */
   @media (max-width: 768px) {
     .version-badge {
       font-size: 0.6rem;
@@ -488,26 +456,16 @@
     }
     
     .sidebar {
-      /* Optimize mobile performance */
       -webkit-overflow-scrolling: touch;
     }
   }
 
-  /* Reduce motion for users with motion sensitivity */
   @media (prefers-reduced-motion: reduce) {
     .sidebar a,
     .toggle-btn,
     .status-badge,
     .version-badge {
       transition: none;
-    }
-  }
-
-  /* High contrast mode support */
-  @media (prefers-contrast: high) {
-    .sidebar a.hovered:not(.active) {
-      outline: 2px solid currentColor;
-      outline-offset: -2px;
     }
   }
 </style>

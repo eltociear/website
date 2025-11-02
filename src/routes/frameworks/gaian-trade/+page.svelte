@@ -15,12 +15,6 @@
   $: gaianTrade = $t('gaian-trade') || {};
   $: translationFunction = $t;
   
-  // Debug logging
-  $: if (browser && mounted) {
-    console.log('Gaian Trade translations:', gaianTrade);
-    console.log('Has Gaian Trade keys:', Object.keys(gaianTrade));
-  }
-
   // Keep track of which section is active (for sub-navigation)
   let activeSection = 'introduction';
 

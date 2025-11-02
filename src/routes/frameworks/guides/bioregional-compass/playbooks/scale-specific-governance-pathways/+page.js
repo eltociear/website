@@ -5,15 +5,17 @@ import { browser } from '$app/environment';
 
 export const csr = true;
 
+const DEBUG_FRAMEWORK_LOADING = false; // Set to true only when debugging
+
 export async function load({ depends, url, params }) {
   // Declare dependency on locale
   depends('app:locale');
   
   const currentLocale = get(locale);
   
-  console.log('=== Scale-Specific Governance Pathways +page.js load function ===');
-  console.log('URL pathname:', url.pathname);
-  console.log('Current locale:', currentLocale);
+  if (DEBUG_FRAMEWORK_LOADING) console.log('=== Scale-Specific Governance Pathways +page.js load function ===');
+  if (DEBUG_FRAMEWORK_LOADING) console.log('URL pathname:', url.pathname);
+  if (DEBUG_FRAMEWORK_LOADING) console.log('Current locale:', currentLocale);
   
   // Load translations for playbooks
   try {
@@ -51,15 +53,15 @@ export async function load({ depends, url, params }) {
   const loadedContent = {};
   
   for (const section of sections) {
-    console.log(`Loading content for section: ${section.id}`);
+    if (DEBUG_FRAMEWORK_LOADING) console.log(`Loading content for section: ${section.id}`);
     
     try {
       // Try to load in current locale
       const modulePromise = import(`$lib/content/guides/${currentLocale}/bioregional-compass/playbooks/scale-specific-governance-pathways/${section.id}.md`);
       loadedContent[section.id] = await modulePromise;
-      console.log(`Successfully loaded ${section.id} in ${currentLocale}`);
+      if (DEBUG_FRAMEWORK_LOADING) console.log(`Successfully loaded ${section.id} in ${currentLocale}`);
     } catch (primaryError) {
-      console.warn(`Primary load failed for ${section.id}:`, primaryError.message);
+      if (DEBUG_FRAMEWORK_LOADING) console.warn(`Primary load failed for ${section.id}:`, primaryError.message);
       
       // Fall back to English
       try {
@@ -69,9 +71,9 @@ export async function load({ depends, url, params }) {
         if (currentLocale !== 'en') {
           sectionsUsingEnglishFallback.add(section.id);
         }
-        console.log(`Loaded ${section.id} from English fallback`);
+        if (DEBUG_FRAMEWORK_LOADING) console.log(`Loaded ${section.id} from English fallback`);
       } catch (fallbackError) {
-        console.warn(`Could not load ${section.id} in any language:`, fallbackError.message);
+        if (DEBUG_FRAMEWORK_LOADING) console.warn(`Could not load ${section.id} in any language:`, fallbackError.message);
         
         // Create placeholder content
         loadedContent[section.id] = {
@@ -91,7 +93,7 @@ export async function load({ depends, url, params }) {
     }
   }
   
-  console.log('Loaded content for sections:', Object.keys(loadedContent));
+  if (DEBUG_FRAMEWORK_LOADING) console.log('Loaded content for sections:', Object.keys(loadedContent));
   
   return {
     sections,

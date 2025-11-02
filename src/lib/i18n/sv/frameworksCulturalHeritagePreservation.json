@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Ramverk för bevarande av kulturarv - Project Tapestry | Global Governance Framework",
+    "description": "Suveränt kulturellt bevarande guidat av ursprungsfolkens visdom. BAZ-ledd förvaltning, FPIC 2.0-protokoll och kvantsäkra arkiv som skyddar mänsklighetens levande arv."
+  },
+  "guideCard": {
+    "title": "Ny till ramverket för bevarande av kulturarv?",
+    "description": "Börja med vår sammanfattning för att förstå hur ursprungsfolkens visdom styr suveränt kulturellt bevarande.",
+    "buttonText": "Läs sammanfattning"
+  },
+  "categories": {
+    "overview": "Översikt",
+    "foundation": "Grund",
+    "framework": "Kärnramverk",
+    "resources": "Resurser"
+  },
+  "sections": {
+    "index": "Översikt",
+    "at-a-glance": "En snabb titt",
+    "executive-summary-for-the-skeptic": "Sammanfattning",
+    "introduction-vision": "Introduktion & vision",
+    "core-principles": "Kärnprinciper",
+    "governance-structure": "Styrningsstruktur",
+    "implementation-mechanisms": "Implementeringsmekanismer",
+    "strategic-roadmap": "Strategisk färdplan",
+    "key-innovations": "Nyckelinnovationer",
+    "monitoring-evaluation": "Övervakning & utvärdering",
+    "risk-mitigation": "Riskreducering",
+    "strategic-implementation": "Strategisk implementering",
+    "taking-action": "Ta handling",
+    "appendices": "Bilagor"
+  },
+  "sectionsShort": {
+    "index": "Översikt",
+    "at-a-glance": "Snabbtitt",
+    "executive-summary-for-the-skeptic": "Sammanfattning",
+    "introduction-vision": "Intro & vision",
+    "core-principles": "Principer",
+    "governance-structure": "Styrning",
+    "implementation-mechanisms": "Implementering",
+    "strategic-roadmap": "Färdplan",
+    "key-innovations": "Innovationer",
+    "monitoring-evaluation": "Övervakning",
+    "risk-mitigation": "Riskreducering",
+    "strategic-implementation": "Implementering",
+    "taking-action": "Ta handling",
+    "appendices": "Bilagor"
+  },
+  "fallbackNotice": {
+    "title": "Språknotis",
+    "message": "Detta avsnitt är för närvarande endast tillgängligt på engelska. Vi arbetar på översättningar."
+  }
+}

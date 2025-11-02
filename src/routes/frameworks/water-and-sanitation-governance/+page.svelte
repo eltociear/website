@@ -10,6 +10,8 @@
   import { onMount, tick } from 'svelte';
   import { slide } from 'svelte/transition';
 
+  const DEBUG_LOG = false;
+
   export let data;
 
   // Extract waterSanitationFramework translations for shorter references
@@ -184,10 +186,10 @@
   $: isCoreSection = coreFrameworkSections.includes(activeSection);
 
   $: if (mounted && data?.sections) {
-    console.log('Available sections:', Object.keys(data.sections));
-    console.log('Foundation sections that exist:', foundationSections.filter(s => data.sections[s]));
-    console.log('Governance sections that exist:', governanceSections.filter(s => data.sections[s]));
-    console.log('Implementation sections that exist:', implementationSections.filter(s => data.sections[s]));
+    if (DEBUG_LOG) console.log('Available sections:', Object.keys(data.sections));
+    if (DEBUG_LOG) console.log('Foundation sections that exist:', foundationSections.filter(s => data.sections[s]));
+    if (DEBUG_LOG) console.log('Governance sections that exist:', governanceSections.filter(s => data.sections[s]));
+    if (DEBUG_LOG) console.log('Implementation sections that exist:', implementationSections.filter(s => data.sections[s]));
   }
 
   function toggleFoundation() {

@@ -1,11 +1,13 @@
 // src/lib/data/precomputedFrameworkDatabase.js
-// Improved version with better caching and error handling
+// Fixed version with proper subscription management and caching
 
-import { writable, derived } from 'svelte/store';
+import { writable, derived, get } from 'svelte/store';
 
 // Singleton pattern for database state
 let frameworksStore = null;
 let databaseStore = null;
+let initializationPromise = null;
+let isInitialized = false;
 
 // Pre-compute expensive operations at module load time
 const getIcon = (() => {
@@ -60,80 +62,109 @@ export function getTierInfoOptimized(tier) {
   };
 }
 
+// Process frameworks into database format - MEMOIZED
+let lastFrameworks = null;
+let lastDatabase = null;
+
+function processFrameworksToDatabase(frameworks) {
+  // Return cached result if input hasn't changed
+  if (frameworks === lastFrameworks && lastDatabase) {
+    return lastDatabase;
+  }
+  
+  const database = frameworks.reduce((acc, framework) => {
+    const key = framework.slug;
+    
+    acc[key] = {
+      name: framework.titleKey,
+      description: `findYourPlace.frameworks.database.${framework.slug.replace(/-/g, '')}.description`,
+      tier: framework.tier,
+      color: tierColors[framework.tier] || '#6B7280',
+      route: framework.path,
+      importance: framework.tier === 0 ? 'critical' : 'normal',
+      icon: getIcon(framework.slug),
+      status: framework.status,
+      version: framework.version,
+      slug: framework.slug
+    };
+    
+    return acc;
+  }, {});
+  
+  // Cache the result
+  lastFrameworks = frameworks;
+  lastDatabase = database;
+  
+  return database;
+}
+
 // Create stores for reactive framework data
 function createFrameworkStores() {
-  if (frameworksStore) return { frameworksStore, databaseStore };
+  if (frameworksStore && databaseStore) {
+    return { frameworksStore, databaseStore };
+  }
   
   // Store for raw frameworks data
   frameworksStore = writable([]);
   
-  // Derived store for computed database
+  // Derived store for computed database with memoization
   databaseStore = derived(
     frameworksStore,
-    ($frameworks, set) => {
-      const database = $frameworks.reduce((acc, framework) => {
-        const key = framework.slug;
-        
-        acc[key] = {
-          name: framework.titleKey,
-          description: `findYourPlace.frameworks.database.${framework.slug.replace(/-/g, '')}.description`,
-          tier: framework.tier,
-          color: tierColors[framework.tier] || '#6B7280',
-          route: framework.path,
-          importance: framework.tier === 0 ? 'critical' : 'normal',
-          icon: getIcon(framework.slug),
-          status: framework.status,
-          version: framework.version,
-          slug: framework.slug
-        };
-        
-        return acc;
-      }, {});
-      
-      set(database);
-    },
+    ($frameworks) => processFrameworksToDatabase($frameworks),
     {} // Initial value
   );
   
   return { frameworksStore, databaseStore };
 }
 
-// Lazy initialization with better error handling
+// Lazy initialization with proper singleton pattern
 async function initializeFrameworks() {
-  const { frameworksStore: fStore } = createFrameworkStores();
-  
-  try {
-    const frameworkNav = await import('$lib/stores/frameworkNav.js');
-    const frameworks = frameworkNav.allFrameworks || [];
-    
-    fStore.set(frameworks);
-    console.log('Framework database initialized with', frameworks.length, 'frameworks');
-    
-    return frameworks;
-  } catch (error) {
-    console.warn('Failed to load frameworkNav:', error);
-    fStore.set([]);
-    return [];
+  // Return existing promise if initialization is in progress
+  if (initializationPromise) {
+    return initializationPromise;
   }
+  
+  // Return immediately if already initialized
+  if (isInitialized) {
+    const { frameworksStore: fStore } = createFrameworkStores();
+    return get(fStore);
+  }
+  
+  // Start initialization
+  initializationPromise = (async () => {
+    const { frameworksStore: fStore } = createFrameworkStores();
+    
+    try {
+      const frameworkNav = await import('$lib/stores/frameworkNav.js');
+      const frameworks = frameworkNav.allFrameworks || [];
+      
+      fStore.set(frameworks);
+      isInitialized = true;
+      console.log('Framework database initialized with', frameworks.length, 'frameworks');
+      
+      return frameworks;
+    } catch (error) {
+      console.warn('Failed to load frameworkNav:', error);
+      fStore.set([]);
+      isInitialized = true; // Mark as initialized even on error to prevent retry loops
+      return [];
+    } finally {
+      initializationPromise = null;
+    }
+  })();
+  
+  return initializationPromise;
 }
 
-// Main export - returns a promise to the database
+// Main export - returns the database synchronously after initialization
 export async function getPrecomputedFrameworkDatabase() {
-  const { databaseStore: dbStore } = createFrameworkStores();
-  
-  // Initialize if not already done
   await initializeFrameworks();
   
-  // Return current value from store
-  return new Promise((resolve) => {
-    const unsubscribe = dbStore.subscribe((database) => {
-      unsubscribe();
-      resolve(database);
-    });
-  });
+  const { databaseStore: dbStore } = createFrameworkStores();
+  return get(dbStore);
 }
 
-// Optimized lookup with caching
+// Optimized lookup with proper caching
 const frameworkCache = new Map();
 
 export async function getFrameworkDetails(frameworkId) {
@@ -156,50 +187,108 @@ export async function getFrameworkDetails(frameworkId) {
       framework = database[slug];
     }
     
-    // Cache the result (even if null)
-    frameworkCache.set(frameworkId, framework || null);
+    // Cache the result (even if null) to prevent repeated lookups
+    const result = framework || null;
+    frameworkCache.set(frameworkId, result);
     
-    return framework || null;
+    return result;
   } catch (error) {
     console.warn('Error getting framework details:', error);
     return null;
   }
 }
 
+// Optimized tier filtering
+const tierCache = new Map();
+
 export async function getFrameworksByTierOptimized(tier) {
+  // Check cache first
+  if (tierCache.has(tier)) {
+    return tierCache.get(tier);
+  }
+  
   try {
-    // Get from store instead of re-initializing
-    const { frameworksStore: fStore } = createFrameworkStores();
+    await initializeFrameworks();
     
-    return new Promise((resolve) => {
-      const unsubscribe = fStore.subscribe((frameworks) => {
-        unsubscribe();
-        resolve(frameworks.filter(f => f.tier === tier));
-      });
-    });
+    const { frameworksStore: fStore } = createFrameworkStores();
+    const frameworks = get(fStore);
+    const filtered = frameworks.filter(f => f.tier === tier);
+    
+    // Cache the result
+    tierCache.set(tier, filtered);
+    
+    return filtered;
   } catch (error) {
     console.warn('Error getting frameworks by tier:', error);
     return [];
   }
 }
 
-// Store-based reactive API for components
+// Store-based reactive API for components - FIXED to prevent flickering
 export function useFrameworkDatabase() {
   const { frameworksStore, databaseStore } = createFrameworkStores();
   
-  // Initialize if needed
-  initializeFrameworks();
+  // Initialize only once
+  if (!isInitialized && !initializationPromise) {
+    initializeFrameworks();
+  }
   
   return {
-    frameworks: frameworksStore,
-    database: databaseStore,
+    frameworks: { subscribe: frameworksStore.subscribe },
+    database: { subscribe: databaseStore.subscribe },
     loading: derived(databaseStore, db => Object.keys(db).length === 0)
   };
+}
+
+// Synchronous getter for already-initialized data (prevents subscriptions)
+export function getFrameworkDatabaseSync() {
+  if (!isInitialized) {
+    console.warn('Framework database accessed before initialization');
+    return {};
+  }
+  
+  const { databaseStore } = createFrameworkStores();
+  return get(databaseStore);
+}
+
+export function getFrameworkDetailsSync(frameworkId) {
+  if (!frameworkId) return null;
+  
+  // Check cache first
+  if (frameworkCache.has(frameworkId)) {
+    return frameworkCache.get(frameworkId);
+  }
+  
+  const database = getFrameworkDatabaseSync();
+  
+  // Direct lookup
+  let framework = database[frameworkId];
+  
+  // Try slug conversion if direct lookup fails
+  if (!framework) {
+    const slug = frameworkId.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
+    framework = database[slug];
+  }
+  
+  const result = framework || null;
+  frameworkCache.set(frameworkId, result);
+  
+  return result;
 }
 
 // Cleanup function for testing
 export function resetFrameworkCache() {
   frameworkCache.clear();
+  tierCache.clear();
+  lastFrameworks = null;
+  lastDatabase = null;
   frameworksStore = null;
   databaseStore = null;
+  initializationPromise = null;
+  isInitialized = false;
+}
+
+// Preload function to call early in app lifecycle
+export async function preloadFrameworkDatabase() {
+  return initializeFrameworks();
 }

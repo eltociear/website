@@ -6,21 +6,23 @@ import { error } from '@sveltejs/kit';
 
 export const csr = true;
 
+const DEBUG_FRAMEWORK_LOADING = false; // Set to true only when debugging
+
 export async function load({ depends, url, params }) {
   // Declare dependency on locale
   depends('app:locale');
   
   const currentLocale = get(locale);
   
-  console.log('=== Bioregional Compass Library +page.js load function ===');
-  console.log('URL pathname:', url.pathname);
-  console.log('Current locale:', currentLocale);
+  if (DEBUG_FRAMEWORK_LOADING) console.log('=== Bioregional Compass Library +page.js load function ===');
+  if (DEBUG_FRAMEWORK_LOADING) console.log('URL pathname:', url.pathname);
+  if (DEBUG_FRAMEWORK_LOADING) console.log('Current locale:', currentLocale);
   
   // Load translations for library page
   try {
     const cleanPath = '/frameworks/guides/bioregional-compass/library';
     
-    console.log('Loading translations for path:', cleanPath);
+    if (DEBUG_FRAMEWORK_LOADING) console.log('Loading translations for path:', cleanPath);
     
     // Load both main guide and library-specific translations
     await loadTranslations(currentLocale, '/frameworks/guides/bioregional-compass');
@@ -28,13 +30,13 @@ export async function load({ depends, url, params }) {
     // Load library-specific translations
     try {
       const libraryModule = await import(`$lib/i18n/${currentLocale}/guidesBioregionalCompassLibrary.json`);
-      console.log('Successfully loaded library translations for:', currentLocale);
+      if (DEBUG_FRAMEWORK_LOADING) console.log('Successfully loaded library translations for:', currentLocale);
     } catch (libraryError) {
-      console.warn('Could not load library translations for locale:', currentLocale, 'Error:', libraryError.message);
+      if (DEBUG_FRAMEWORK_LOADING) console.warn('Could not load library translations for locale:', currentLocale, 'Error:', libraryError.message);
       // Try English fallback
       try {
         const fallbackModule = await import(`$lib/i18n/en/guidesBioregionalCompassLibrary.json`);
-        console.log('Loaded library translations from English fallback');
+        if (DEBUG_FRAMEWORK_LOADING) console.log('Loaded library translations from English fallback');
       } catch (fallbackError) {
         console.error('Could not load library translations in any language:', fallbackError);
       }

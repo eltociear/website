@@ -2,11 +2,6 @@
   import { t, translations } from '$lib/i18n';
   import { base } from '$app/paths';
   import { page } from '$app/stores';
-
-  // Debugging
-  console.log("Current translations:", $translations);
-  console.log("Current route path:", $page.url.pathname);
-
 </script>
 
 <style>

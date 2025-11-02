@@ -14,12 +14,6 @@
   // Extract indigenousFramework translations for shorter references
   $: inf = $t('indigenousFramework') || {};
   $: translationFunction = $t;
-  
-  // Debug logging
-  $: if (browser && mounted) {
-    console.log('Indigenous Framework translations:', inf);
-    console.log('Has indigenous framework keys:', Object.keys(inf));
-  }
 
   // Keep track of which section is active (for sub-navigation)
   let activeSection = 'index';

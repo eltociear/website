@@ -14,12 +14,6 @@
  $: aubi = $t('aubi') || {};
  $: translationFunction = $t;
  
- // Debug logging
- $: if (browser && mounted) {
-   console.log('AUBI translations:', aubi);
-   console.log('Has AUBI keys:', Object.keys(aubi));
- }
-
  // Keep track of which section is active (for sub-navigation)
  let activeSection = 'introduction';
 

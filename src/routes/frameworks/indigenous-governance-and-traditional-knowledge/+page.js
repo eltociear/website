@@ -6,6 +6,8 @@ import { error } from '@sveltejs/kit';
 
 export const csr = true;
 
+const DEBUG_FRAMEWORK_LOADING = false; // Set to true only when debugging
+
 export async function load({ depends, url, params }) {
   // Declare dependency on locale
   depends('app:locale');
@@ -16,7 +18,7 @@ export async function load({ depends, url, params }) {
   try {
     await loadTranslations(currentLocale, url.pathname);
   } catch (e) {
-    console.warn('Failed to load translations:', e);
+    if (DEBUG_FRAMEWORK_LOADING) console.warn('Failed to load translations:', e);
   }
   
   // Safe check for print mode that works during prerendering
@@ -49,7 +51,7 @@ export async function load({ depends, url, params }) {
   const content = {};
   let loadedSections = 0;
   
-  console.log('Loading indigenous framework sections for locale:', currentLocale);
+  if (DEBUG_FRAMEWORK_LOADING) console.log('Loading indigenous framework sections for locale:', currentLocale);
   
   // Try to load each section with proper error handling
   for (const section of sections) {
@@ -58,7 +60,7 @@ export async function load({ depends, url, params }) {
       const modulePromise = import(`$lib/content/frameworks/${currentLocale}/implementation/indigenous-governance-and-traditional-knowledge/${section}.md`);
       content[section] = await modulePromise;
       loadedSections++;
-      console.log('Successfully loaded indigenous-governance-and-traditional-knowledge section:', section, 'in', currentLocale);
+      if (DEBUG_FRAMEWORK_LOADING) console.log('Successfully loaded indigenous-governance-and-traditional-knowledge section:', section, 'in', currentLocale);
     } catch (primaryError) {
       // Fall back to English if translation isn't available
       try {
@@ -70,9 +72,9 @@ export async function load({ depends, url, params }) {
         if (currentLocale !== 'en') {
           sectionsUsingEnglishFallback.add(section);
         }
-        console.log('Loaded indigenous indigenous-governance-and-traditional-knowledge:', section, 'in English as fallback');
+        if (DEBUG_FRAMEWORK_LOADING) console.log('Loaded indigenous indigenous-governance-and-traditional-knowledge:', section, 'in English as fallback');
       } catch (fallbackError) {
-        console.warn(`Could not load indigenous-governance-and-traditional-knowledge section ${section} in any language:`, fallbackError.message);
+        if (DEBUG_FRAMEWORK_LOADING) console.warn(`Could not load indigenous-governance-and-traditional-knowledge section ${section} in any language:`, fallbackError.message);
         
         // Create a safe placeholder for missing sections
         content[section] = {
@@ -92,8 +94,8 @@ export async function load({ depends, url, params }) {
     }
   }
   
-  console.log('Total indigenous-governance-and-traditional-knowledge sections loaded:', loadedSections, 'out of', sections.length);
-  console.log('Loaded indigenous-governance-and-traditional-knowledge sections:', Object.keys(content));
+  if (DEBUG_FRAMEWORK_LOADING) console.log('Total indigenous-governance-and-traditional-knowledge sections loaded:', loadedSections, 'out of', sections.length);
+  if (DEBUG_FRAMEWORK_LOADING) console.log('Loaded indigenous-governance-and-traditional-knowledge sections:', Object.keys(content));
   
   // Validate that we have at least the index section
   if (!content.index) {

@@ -9,19 +9,14 @@
   import JourneySelector from '$lib/components/JourneySelector.svelte';
   import ToolStackVisualizer from '$lib/components/ToolStackVisualizer.svelte';
   import ToolDetailModal from '$lib/components/ToolDetailModal.svelte';
-  
+
+  const DEBUG_LOG = false;  
+
   // Get page data including loaded markdown content
   export let data;
   
   // Extract content and metadata from data
   $: ({ content, tools, toolStacks, debug } = data);
-  
-  // Debug logging to see what we're getting
-  $: if (mounted) {
-    console.log('Data extracted:', { content: !!content, tools: !!tools, toolStacks: !!toolStacks });
-    console.log('Tools data:', tools);
-    console.log('ToolStacks data:', toolStacks);
-  }
   
   // Get translation namespaces - with fallbacks to prevent empty text
   $: implementationT = $translations?.implementationTools || {};
@@ -151,7 +146,7 @@
   // Helper function for implementation tools translations
   function implT(key, fallback = '') {
     if (!implementationT || typeof implementationT !== 'object') {
-      console.warn('implementationT not available:', implementationT);
+      if (DEBUG_LOG) console.warn('implementationT not available:', implementationT);
       return fallback;
     }
     
@@ -162,7 +157,7 @@
       if (result && typeof result === 'object' && k in result) {
         result = result[k];
       } else {
-        console.warn(`Translation key not found: implementationTools.${key}`, 'Available keys:', Object.keys(implementationT));
+        if (DEBUG_LOG) console.warn(`Translation key not found: implementationTools.${key}`, 'Available keys:', Object.keys(implementationT));
         return fallback;
       }
     }
@@ -269,7 +264,7 @@
           assessmentResults = JSON.parse(saved);
           isAssessmentComplete = Object.keys(assessmentResults).length > 0;
         } catch (e) {
-          console.warn('Could not parse saved assessment:', e);
+          if (DEBUG_LOG) console.warn('Could not parse saved assessment:', e);
         }
       }
     }
@@ -299,7 +294,7 @@
             // Update the URL hash without triggering a page reload
             window.history.pushState(null, null, href);
           } else {
-            console.warn(`Target element with id "${targetId}" not found`);
+            if (DEBUG_LOG) console.warn(`Target element with id "${targetId}" not found`);
           }
         }
       }

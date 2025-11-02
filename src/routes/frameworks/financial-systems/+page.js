@@ -6,24 +6,26 @@ import { error } from '@sveltejs/kit';
 
 export const csr = true;
 
+const DEBUG_FRAMEWORK_LOADING = false; // Set to true only when debugging
+
 export async function load({ depends, url, params }) {
- console.log('❤️ Financial Systems +page.js - URL pathname:', url.pathname);
- console.log('❤️ Financial Systems +page.js - Full URL:', url.href);
+ if (DEBUG_FRAMEWORK_LOADING) console.log('❤️ Financial Systems +page.js - URL pathname:', url.pathname);
+ if (DEBUG_FRAMEWORK_LOADING) console.log('❤️ Financial Systems +page.js - Full URL:', url.href);
  
  // Declare dependency on locale
  depends('app:locale');
  
  const currentLocale = get(locale);
- console.log('❤️ Current locale:', currentLocale);
+ if (DEBUG_FRAMEWORK_LOADING) console.log('❤️ Current locale:', currentLocale);
  
  
  // Load framework translations for navigation
  try {
-   console.log('❤️ About to call loadTranslations with:', currentLocale, url.pathname);
+   if (DEBUG_FRAMEWORK_LOADING) console.log('❤️ About to call loadTranslations with:', currentLocale, url.pathname);
    await loadTranslations(currentLocale, url.pathname);
-   console.log('❤️ loadTranslations completed');
+   if (DEBUG_FRAMEWORK_LOADING) console.log('❤️ loadTranslations completed');
  } catch (e) {
-   console.warn('❤️ Failed to load translations:', e);
+   if (DEBUG_FRAMEWORK_LOADING) console.warn('❤️ Failed to load translations:', e);
  }
  
  // Safe check for print mode that works during prerendering
@@ -62,7 +64,7 @@ export async function load({ depends, url, params }) {
  const content = {};
  let loadedSections = 0;
  
- console.log('Loading Financial Systems sections for locale:', currentLocale);
+ if (DEBUG_FRAMEWORK_LOADING) console.log('Loading Financial Systems sections for locale:', currentLocale);
  
  // Try to load each section with proper error handling
  for (const section of sections) {
@@ -71,7 +73,7 @@ export async function load({ depends, url, params }) {
      const modulePromise = import(`$lib/content/frameworks/${currentLocale}/implementation/financial-systems/${section}.md`);
      content[section] = await modulePromise;
      loadedSections++;
-     console.log('Successfully loaded section:', section, 'in', currentLocale);
+     if (DEBUG_FRAMEWORK_LOADING) console.log('Successfully loaded section:', section, 'in', currentLocale);
    } catch (primaryError) {
      // Fall back to English if translation isn't available
      try {
@@ -83,9 +85,9 @@ export async function load({ depends, url, params }) {
        if (currentLocale !== 'en') {
          sectionsUsingEnglishFallback.add(section);
        }
-       console.log('Loaded section:', section, 'in English as fallback');
+       if (DEBUG_FRAMEWORK_LOADING) console.log('Loaded section:', section, 'in English as fallback');
      } catch (fallbackError) {
-       console.warn(`Could not load section ${section} in any language:`, fallbackError.message);
+       if (DEBUG_FRAMEWORK_LOADING) console.warn(`Could not load section ${section} in any language:`, fallbackError.message);
        
        // Create a safe placeholder for missing sections
        content[section] = {
@@ -105,8 +107,8 @@ export async function load({ depends, url, params }) {
    }
  }
  
- console.log('Total sections loaded:', loadedSections, 'out of', sections.length);
- console.log('Loaded sections:', Object.keys(content));
+ if (DEBUG_FRAMEWORK_LOADING) console.log('Total sections loaded:', loadedSections, 'out of', sections.length);
+ if (DEBUG_FRAMEWORK_LOADING) console.log('Loaded sections:', Object.keys(content));
  
  // Validate that we have at least the index section
  if (!content.index) {

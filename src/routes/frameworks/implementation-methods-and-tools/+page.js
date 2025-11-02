@@ -7,23 +7,25 @@ import { error } from '@sveltejs/kit';
 
 export const csr = true;
 
+const DEBUG_FRAMEWORK_LOADING = false; // Set to true only when debugging
+
 export async function load({ depends, url }) {
   // Declare dependency on locale
   depends('app:locale');
   
   const currentLocale = get(locale);
   
-  console.log('=== Implementation Tools +page.js load function ===');
-  console.log('URL pathname:', url.pathname);
-  console.log('Current locale:', currentLocale);
+  if (DEBUG_FRAMEWORK_LOADING) console.log('=== Implementation Tools +page.js load function ===');
+  if (DEBUG_FRAMEWORK_LOADING) console.log('URL pathname:', url.pathname);
+  if (DEBUG_FRAMEWORK_LOADING) console.log('Current locale:', currentLocale);
   
   // Load framework translations for navigation and page-specific translations
   try {
     const cleanPath = '/frameworks/implementation-methods-and-tools';
     
-    console.log('Loading translations for path:', cleanPath);
+    if (DEBUG_FRAMEWORK_LOADING) console.log('Loading translations for path:', cleanPath);
     const loadedTranslations = await loadTranslations(currentLocale, cleanPath);
-    console.log('loadTranslations returned:', Object.keys(loadedTranslations || {}));
+    if (DEBUG_FRAMEWORK_LOADING) console.log('loadTranslations returned:', Object.keys(loadedTranslations || {}));
   } catch (e) {
     console.error('Failed to load translations:', e);
   }
@@ -33,9 +35,9 @@ export async function load({ depends, url }) {
   if (browser) {
     try {
       isPrintMode = url.search ? url.searchParams.get('print') === 'true' : false;
-      console.log('Print mode detected:', isPrintMode);
+      if (DEBUG_FRAMEWORK_LOADING) console.log('Print mode detected:', isPrintMode);
     } catch (e) {
-      console.warn('Could not access URL search params:', e);
+      if (DEBUG_FRAMEWORK_LOADING) console.warn('Could not access URL search params:', e);
       isPrintMode = false;
     }
   }
@@ -52,32 +54,32 @@ export async function load({ depends, url }) {
   };
   let totalLoadedSections = 0;
   
-  console.log('Loading implementation tools content for locale:', currentLocale);
+  if (DEBUG_FRAMEWORK_LOADING) console.log('Loading implementation tools content for locale:', currentLocale);
 
   // Helper function to load markdown content via imports
   async function loadMarkdownContentViaImport(category, fileName, filePath) {
     try {
       // Try to load the current locale version first
       let importPath = `/src/lib/content/frameworks/${currentLocale}/implementation/implementation-methods-tools/${filePath}`;
-      console.log(`Attempting to import: ${importPath}`);
+      if (DEBUG_FRAMEWORK_LOADING) console.log(`Attempting to import: ${importPath}`);
       
       let markdownModule;
       
       try {
         markdownModule = await import(`../../../lib/content/frameworks/${currentLocale}/implementation/implementation-methods-tools/${filePath}?raw`);
       } catch (primaryError) {
-        console.warn(`Primary import failed for ${category}/${fileName}:`, primaryError.message);
+        if (DEBUG_FRAMEWORK_LOADING) console.warn(`Primary import failed for ${category}/${fileName}:`, primaryError.message);
         
         // Fall back to English if translation isn't available
         try {
-          console.log(`Fallback to English for: ${fileName}`);
+          if (DEBUG_FRAMEWORK_LOADING) console.log(`Fallback to English for: ${fileName}`);
           markdownModule = await import(`../../../lib/content/frameworks/en/implementation/implementation-methods-tools/${filePath}?raw`);
           
           if (currentLocale !== 'en') {
             sectionsUsingEnglishFallback.add(`${category}/${fileName}`);
           }
         } catch (fallbackError) {
-          console.warn(`Could not load ${category}/${fileName} in any language:`, fallbackError.message);
+          if (DEBUG_FRAMEWORK_LOADING) console.warn(`Could not load ${category}/${fileName} in any language:`, fallbackError.message);
           
           // Create a placeholder for missing sections
           content[category][fileName] = {
@@ -94,11 +96,11 @@ export async function load({ depends, url }) {
           type: 'markdown'
         };
         totalLoadedSections++;
-        console.log(`Successfully loaded ${category}/${fileName}`);
+        if (DEBUG_FRAMEWORK_LOADING) console.log(`Successfully loaded ${category}/${fileName}`);
       }
       
     } catch (importError) {
-      console.warn(`Error importing ${category}/${fileName}:`, importError.message);
+      if (DEBUG_FRAMEWORK_LOADING) console.warn(`Error importing ${category}/${fileName}:`, importError.message);
       
       // Create a safe placeholder for missing sections
       content[category][fileName] = {
@@ -237,7 +239,7 @@ Please check back for updates or contact us if you have specific questions about
     await loadMarkdownContentViaImport(category, fileName, filePath);
   }
   
-  console.log('Total sections loaded:', totalLoadedSections, 'out of', contentToLoad.length);
+  if (DEBUG_FRAMEWORK_LOADING) console.log('Total sections loaded:', totalLoadedSections, 'out of', contentToLoad.length);
 
   // Enhanced tools and stacks data 
   const toolsData = {
@@ -373,8 +375,8 @@ Please check back for updates or contact us if you have specific questions about
   };
 
   // Debug logging
-  console.log('Tools data created:', Object.keys(toolsData));
-  console.log('Tool stacks data created:', Object.keys(toolStacksData));
+  if (DEBUG_FRAMEWORK_LOADING) console.log('Tools data created:', Object.keys(toolsData));
+  if (DEBUG_FRAMEWORK_LOADING) console.log('Tool stacks data created:', Object.keys(toolStacksData));
   
   return {
     content,

@@ -4,6 +4,8 @@ import { get } from 'svelte/store';
 
 export const csr = true;
 
+const DEBUG_FRAMEWORK_LOADING = false; // Set to true only when debugging
+
 export async function load({ depends, url }) {
   // Declare dependency on locale
   depends('app:locale');
@@ -53,7 +55,7 @@ export async function load({ depends, url }) {
           sectionsUsingEnglishFallback.add(section);
         }
       } catch (e2) {
-        console.log(`Could not load section ${section} in any language`);
+        if (DEBUG_FRAMEWORK_LOADING) console.log(`Could not load section ${section} in any language`);
       }
     }
   }

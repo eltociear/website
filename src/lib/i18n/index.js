@@ -4,6 +4,8 @@ import { derived, writable, readable, get } from 'svelte/store';
 import { base } from '$app/paths';
 import { getBrowserLanguage, getLocalStorage, setLocalStorage } from '$lib/utils/browserUtils';
 
+const DEBUG_I18N = false; // Set to true only when debugging
+
 // Define supported languages
 const supportedLocales = ['en', 'sv'];
 
@@ -123,6 +125,7 @@ const pageSpecificTranslationsMap = [
   { route: '/frameworks/global-citizenship-practice', dataKey: 'globalCitizenshipFramework', fileName: 'frameworksGlobalCitizenshipPractice' },
   { route: '/frameworks/religious-and-spiritual-dialogue-governance', dataKey: 'religiousSpiritualFramework', fileName: 'frameworksReligiousAndSpiritualDialogueGovernance' },
   { route: '/frameworks/aging-population-support-governance', dataKey: 'agingFramework', fileName: 'frameworksAgingPopulationSupportGovernance' },
+  { route: '/frameworks/cultural-heritage-preservation', dataKey: 'culturalHeritageFramework', fileName: 'frameworksCulturalHeritagePreservation' },
   { route: '/frameworks/find-your-place', dataKey: 'findYourPlace', fileName: 'findYourPlace' },
   { route: '/frameworks/ai-futures', dataKey: 'aiFutures', fileName: 'aiFutures' },
   { route: '/frameworks/docs/implementation/treaty-for-our-only-home/getting-started', dataKey: 'startTreaty', fileName: 'startTreaty' },
@@ -154,23 +157,23 @@ const pageSpecificTranslationsMap = [
 
 // Reusable translation loader function
 async function loadAndAssignTranslation(locale, fileName, dataKey, translationData) {
-  console.log(`🔍 Loading: ${locale}/${fileName}.json for dataKey: ${dataKey}`);
+  if (DEBUG_I18N) console.log(`🔍 Loading: ${locale}/${fileName}.json for dataKey: ${dataKey}`);
   try {
     const module = await import(`./${locale}/${fileName}.json`);
     translationData[dataKey] = module.default;
-    console.log(`✅ Loaded ${dataKey} translations for locale: ${locale}`);
+    if (DEBUG_I18N) console.log(`✅ Loaded ${dataKey} translations for locale: ${locale}`);
     return true;
   } catch (e) {
-    console.error(`❌ Error loading ${dataKey} translations for ${locale}:`, e);
+    if (DEBUG_I18N) console.error(`❌ Error loading ${dataKey} translations for ${locale}:`, e);
     // Fallback to English if the specified locale fails (and it's not English)
     if (locale !== 'en') {
       try {
         const fallbackModule = await import(`./en/${fileName}.json`);
         translationData[dataKey] = fallbackModule.default;
-        console.log(`✅ Fallback loaded ${dataKey} translations for locale: ${locale}`);
+        if (DEBUG_I18N) console.log(`✅ Fallback loaded ${dataKey} translations for locale: ${locale}`);
         return true;
       } catch (fallbackError) {
-        console.error(`❌ Fallback failed for ${dataKey}:`, fallbackError);
+        if (DEBUG_I18N) console.error(`❌ Fallback failed for ${dataKey}:`, fallbackError);
       }
     }
     return false;
@@ -178,7 +181,7 @@ async function loadAndAssignTranslation(locale, fileName, dataKey, translationDa
 }
 
 async function loadImplementationToolsTranslations(newLocale, translationData) {
-  console.log('Loading implementation tools and related translations...');
+  if (DEBUG_I18N) console.log('Loading implementation tools and related translations...');
   
   const loadPromises = [
     // Main implementation tools framework translations
@@ -191,7 +194,7 @@ async function loadImplementationToolsTranslations(newLocale, translationData) {
   ];
   
   const results = await Promise.allSettled(loadPromises);
-  console.log('Implementation tools translation loading results:', results.map(r => r.status));
+  if (DEBUG_I18N) console.log('Implementation tools translation loading results:', results.map(r => r.status));
   
   return results.filter(r => r.status === 'fulfilled').length;
 }
@@ -229,9 +232,9 @@ async function loadAllMyPathTranslations(newLocale) {
 
 // Load translations for a specific language and route
 async function loadTranslations(newLocale, route = '/') {
-  console.log('=== loadTranslations called ===');
-  console.log('Locale:', newLocale);
-  console.log('Route:', route);
+  if (DEBUG_I18N) console.log('=== loadTranslations called ===');
+  if (DEBUG_I18N) console.log('Locale:', newLocale);
+  if (DEBUG_I18N) console.log('Route:', route);
   
   translationsLoading.set(true);
   translationsLoaded.set(false);
@@ -244,7 +247,7 @@ async function loadTranslations(newLocale, route = '/') {
   // Hash fragments and query params shouldn't affect which translations are loaded
   const cleanRoute = route.split('#')[0].split('?')[0];
   
-  console.log(`Loading translations - Original route: ${route}, Clean route: ${cleanRoute}, Locale: ${newLocale}`);
+  if (DEBUG_I18N) console.log(`Loading translations - Original route: ${route}, Clean route: ${cleanRoute}, Locale: ${newLocale}`);
 
   try {
     currentRoute.set(cleanRoute); // Store the clean route
@@ -253,45 +256,45 @@ async function loadTranslations(newLocale, route = '/') {
 
     // Special handling for /my-path route - load ALL required translations
     if (cleanRoute === '/my-path') {
-      console.log('Loading all translations for /my-path');
+      if (DEBUG_I18N) console.log('Loading all translations for /my-path');
       translationData = await loadAllMyPathTranslations(newLocale);
     } else {
       // Standard loading for other routes
-      console.log('Standard translation loading for route:', cleanRoute);
+      if (DEBUG_I18N) console.log('Standard translation loading for route:', cleanRoute);
       
       // 1. Load common translations
-      console.log('Loading common translations...');
+      if (DEBUG_I18N) console.log('Loading common translations...');
       await loadAndAssignTranslation(newLocale, 'common', 'common', translationData);
 
       // 2. Load framework nav translations if on a framework page
       if (cleanRoute.startsWith('/frameworks')) {
-        console.log('Loading framework navigation translations...');
+        if (DEBUG_I18N) console.log('Loading framework navigation translations...');
         await loadAndAssignTranslation(newLocale, 'framework', 'framework', translationData);
       }
 
       // 3. Special case: Load findYourPlace translations on home page
       if (cleanRoute === '/' || cleanRoute === '') {
-        console.log('Loading findYourPlace translations for home page...');
+        if (DEBUG_I18N) console.log('Loading findYourPlace translations for home page...');
         await loadAndAssignTranslation(newLocale, 'findYourPlace', 'findYourPlace', translationData);
       }
 
       // 4. Load page-specific translations using the map
-      console.log('Checking page-specific translations for route:', cleanRoute);
+      if (DEBUG_I18N) console.log('Checking page-specific translations for route:', cleanRoute);
       
       let matchFound = false;
       
       // Special handling for implementation tools (loads multiple files)
       if (cleanRoute === '/frameworks/implementation-methods-and-tools') {
-        console.log('✅ Loading implementation tools translations (multiple files)');
+        if (DEBUG_I18N) console.log('✅ Loading implementation tools translations (multiple files)');
         await loadImplementationToolsTranslations(newLocale, translationData);
         matchFound = true;
       } else {
         // Standard single-file loading for other routes
         for (const mapping of pageSpecificTranslationsMap) {
           if (cleanRoute === mapping.route || cleanRoute.startsWith(mapping.route)) {
-            console.log(`✅ Found translation mapping for route ${cleanRoute}: ${mapping.dataKey} -> ${mapping.fileName}`);
+            if (DEBUG_I18N) console.log(`✅ Found translation mapping for route ${cleanRoute}: ${mapping.dataKey} -> ${mapping.fileName}`);
             const success = await loadAndAssignTranslation(newLocale, mapping.fileName, mapping.dataKey, translationData);
-            console.log(`Translation loading success for ${mapping.dataKey}:`, success);
+            if (DEBUG_I18N) console.log(`Translation loading success for ${mapping.dataKey}:`, success);
             matchFound = true;
             break; 
           }
@@ -299,19 +302,19 @@ async function loadTranslations(newLocale, route = '/') {
       }
       
       if (!matchFound) {
-        console.log('❌ No translation mapping found for route:', cleanRoute);
+        if (DEBUG_I18N) console.log('❌ No translation mapping found for route:', cleanRoute);
       }
     }
 
-    console.log('Final loaded translations data for clean route:', cleanRoute, Object.keys(translationData));
+    if (DEBUG_I18N) console.log('Final loaded translations data for clean route:', cleanRoute, Object.keys(translationData));
 
     // Update the stores
     locale.set(newLocale);
     
     // Preserve existing translations and merge with new ones
     translations.update(existingTranslations => {
-      console.log('Existing translations before merge:', Object.keys(existingTranslations));
-      console.log('New translations to merge:', Object.keys(translationData));
+      if (DEBUG_I18N) console.log('Existing translations before merge:', Object.keys(existingTranslations));
+      if (DEBUG_I18N) console.log('New translations to merge:', Object.keys(translationData));
       
       // Always preserve climateFramework translations if they exist and we're not explicitly updating them
       const shouldPreserveClimateFramework = existingTranslations.climateFramework && 
@@ -319,7 +322,7 @@ async function loadTranslations(newLocale, route = '/') {
         !cleanRoute.includes('/frameworks/climate-and-energy-governance');
       
       if (shouldPreserveClimateFramework) {
-        console.log('Preserving existing climateFramework translations');
+        if (DEBUG_I18N) console.log('Preserving existing climateFramework translations');
         return { 
           ...existingTranslations, 
           ...translationData, 
@@ -329,8 +332,8 @@ async function loadTranslations(newLocale, route = '/') {
       
       // Default merge
       const merged = { ...existingTranslations, ...translationData };
-      console.log('Merged translations:', Object.keys(merged));
-      console.log('institutionalRegeneration in merged?', !!merged.institutionalRegeneration);
+      if (DEBUG_I18N) console.log('Merged translations:', Object.keys(merged));
+      if (DEBUG_I18N) console.log('institutionalRegeneration in merged?', !!merged.institutionalRegeneration);
       return merged;
     });
 
@@ -342,13 +345,13 @@ async function loadTranslations(newLocale, route = '/') {
     translationsLoaded.set(true);
     translationsLoading.set(false);
     
-    console.log('=== Translation loading complete ===');
-    console.log('Returning translation data:', Object.keys(translationData));
+    if (DEBUG_I18N) console.log('=== Translation loading complete ===');
+    if (DEBUG_I18N) console.log('Returning translation data:', Object.keys(translationData));
 
     return translationData;
   } catch (e) {
-    console.error('General error in loadTranslations:', e);
-    console.error('Error stack:', e.stack);
+    if (DEBUG_I18N) console.error('General error in loadTranslations:', e);
+    if (DEBUG_I18N) console.error('Error stack:', e.stack);
     translationsLoading.set(false);
     return {};
   }
@@ -361,7 +364,7 @@ const t = derived(
     return (key, params = {}) => {
       // If translations are not loaded yet, return empty string to prevent flash
       if (!$loaded) {
-        console.log('Translations not loaded yet for key:', key);
+        if (DEBUG_I18N) console.log('Translations not loaded yet for key:', key);
         return '';
       }
       
@@ -381,7 +384,7 @@ const t = derived(
         } else {
           // If in development, log warning
           if (process.env.NODE_ENV === 'development') {
-            console.warn(`Translation key not found: ${key}`, 'Available translations:', Object.keys($translations));
+            if (DEBUG_I18N) console.warn(`Translation key not found: ${key}`, 'Available translations:', Object.keys($translations));
           }
           // Return empty string instead of the key to avoid showing raw translation keys
           return '';
@@ -391,7 +394,7 @@ const t = derived(
       // Handle different types of results
       if (result === null || result === undefined) {
         if (process.env.NODE_ENV === 'development') {
-          console.warn(`Translation value is null or undefined for key: ${key}`);
+          if (DEBUG_I18N) console.warn(`Translation value is null or undefined for key: ${key}`);
         }
         return '';
       }

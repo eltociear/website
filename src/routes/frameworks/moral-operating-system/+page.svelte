@@ -14,12 +14,6 @@
   $: moralOperatingSystem = $t('moral-operating-system') || {};
   $: translationFunction = $t;
 
-  // Debug logging
-  $: if (browser && mounted) {
-    console.log('Moral Operating System translations:', moralOperatingSystem);
-    console.log('Has MOS keys:', Object.keys(moralOperatingSystem));
-  }
-
   // Keep track of which section is active (for sub-navigation)
   let activeSection = 'introduction';
 

@@ -15,12 +15,6 @@
   $: rs = $t('religiousSpiritualFramework') || {};
   $: translationFunction = $t;
   
-  // Debug logging
-  $: if (browser && mounted) {
-    console.log('Religious Spiritual Framework translations:', rs);
-    console.log('Has religious spiritual framework keys:', Object.keys(rs));
-  }
-
   // Keep track of which section is active (for sub-navigation)
   let activeSection = 'index';
 

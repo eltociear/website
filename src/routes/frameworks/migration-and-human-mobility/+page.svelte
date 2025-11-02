@@ -14,12 +14,6 @@
   $: migration = $t('migrationFramework') || {};
   $: translationFunction = $t;
   
-  // Debug logging
-  $: if (browser && mounted) {
-    console.log('Migration Framework translations:', migration);
-    console.log('Has migration keys:', Object.keys(migration));
-  }
-
   // Keep track of which section is active (for sub-navigation)
   let activeSection = 'preamble';
 

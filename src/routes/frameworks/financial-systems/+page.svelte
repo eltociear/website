@@ -15,12 +15,6 @@
  $: financialSystems = $t('financialSystems') || {};
  $: translationFunction = $t;
  
- // Debug logging
- $: if (browser && mounted) {
-   console.log('Financial Systems translations:', financialSystems);
-   console.log('Has Financial Systems keys:', Object.keys(financialSystems));
- }
-
  // Keep track of which section is active (for sub-navigation)
  let activeSection = 'index';
 

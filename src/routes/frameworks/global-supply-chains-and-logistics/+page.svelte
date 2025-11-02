@@ -14,12 +14,6 @@
   $: gscl = $t('gscl') || {};
   $: translationFunction = $t;
   
-  // Debug logging
-  $: if (browser && mounted) {
-    console.log('GSCL Framework translations:', gscl);
-    console.log('Has GSCL keys:', Object.keys(gscl));
-  }
-
   // Keep track of which section is active (for sub-navigation)
   let activeSection = 'preamble';
 

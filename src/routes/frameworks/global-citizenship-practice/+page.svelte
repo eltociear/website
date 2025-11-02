@@ -14,12 +14,6 @@
   $: gc = $t('globalCitizenshipFramework') || {};
   $: translationFunction = $t;
   
-  // Debug logging
-  $: if (browser && mounted) {
-    console.log('Global Citizenship Framework translations:', gc);
-    console.log('Has global citizenship framework keys:', Object.keys(gc));
-  }
-
   // Keep track of which section is active (for sub-navigation)
   let activeSection = 'index';
 

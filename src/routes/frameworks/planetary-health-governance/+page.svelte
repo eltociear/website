@@ -14,12 +14,6 @@
   $: phg = $t('planetaryHealthGovernance') || {};
   $: translationFunction = $t;
   
-  // Debug logging
-  $: if (browser && mounted) {
-    console.log('Planetary Health Governance translations:', phg);
-    console.log('Has planetary health governance keys:', Object.keys(phg));
-  }
-
   // Keep track of which section is active (for sub-navigation)
   let activeSection = 'index';
 

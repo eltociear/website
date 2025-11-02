@@ -15,12 +15,6 @@
  $: workInLiberation = $t('work-in-liberation') || {};
  $: translationFunction = $t;
  
- // Debug logging
- $: if (browser && mounted) {
-   console.log('Work in Liberation translations:', workInLiberation);
-   console.log('Has Work in Liberation keys:', Object.keys(workInLiberation));
- }
-
  // Keep track of which section is active (for sub-navigation)
  let activeSection = 'introduction';
 

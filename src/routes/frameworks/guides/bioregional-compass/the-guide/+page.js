@@ -6,21 +6,23 @@ import { error } from '@sveltejs/kit';
 
 export const csr = true;
 
+const DEBUG_FRAMEWORK_LOADING = false; // Set to true only when debugging
+
 export async function load({ depends, url, params }) {
   // Declare dependency on locale
   depends('app:locale');
   
   const currentLocale = get(locale);
   
-  console.log('=== Bioregional Compass The Guide +page.js load function ===');
-  console.log('URL pathname:', url.pathname);
-  console.log('Current locale:', currentLocale);
+  if (DEBUG_FRAMEWORK_LOADING) console.log('=== Bioregional Compass The Guide +page.js load function ===');
+  if (DEBUG_FRAMEWORK_LOADING) console.log('URL pathname:', url.pathname);
+  if (DEBUG_FRAMEWORK_LOADING) console.log('Current locale:', currentLocale);
   
   // Load translations for the guide page
   try {
     const cleanPath = '/frameworks/guides/bioregional-compass/the-guide';
     
-    console.log('Loading translations for path:', cleanPath);
+    if (DEBUG_FRAMEWORK_LOADING) console.log('Loading translations for path:', cleanPath);
     
     // Load main guide translations first
     await loadTranslations(currentLocale, '/frameworks/guides/bioregional-compass');
@@ -28,13 +30,13 @@ export async function load({ depends, url, params }) {
     // Load the-guide specific translations
     try {
       const guideModule = await import(`$lib/i18n/${currentLocale}/guidesBioregionalCompassTheGuide.json`);
-      console.log('Successfully loaded the-guide translations for:', currentLocale);
+      if (DEBUG_FRAMEWORK_LOADING) console.log('Successfully loaded the-guide translations for:', currentLocale);
     } catch (guideError) {
-      console.warn('Could not load the-guide translations for locale:', currentLocale, 'Error:', guideError.message);
+      if (DEBUG_FRAMEWORK_LOADING) console.warn('Could not load the-guide translations for locale:', currentLocale, 'Error:', guideError.message);
       // Try English fallback
       try {
         const fallbackModule = await import(`$lib/i18n/en/guidesBioregionalCompassTheGuide.json`);
-        console.log('Loaded the-guide translations from English fallback');
+        if (DEBUG_FRAMEWORK_LOADING) console.log('Loaded the-guide translations from English fallback');
       } catch (fallbackError) {
         console.error('Could not load the-guide translations in any language:', fallbackError);
       }
@@ -146,7 +148,7 @@ export async function load({ depends, url, params }) {
   const loadedContent = {};
   let loadedSections = 0;
   
-  console.log('Loading bioregional compass the-guide sections for locale:', currentLocale);
+  if (DEBUG_FRAMEWORK_LOADING) console.log('Loading bioregional compass the-guide sections for locale:', currentLocale);
   
   for (const section of guideSections) {
     try {
@@ -154,10 +156,10 @@ export async function load({ depends, url, params }) {
       const modulePromise = import(`$lib/content/guides/${currentLocale}/bioregional-compass/the-guide/${section.id}.md`);
       loadedContent[section.id] = await modulePromise;
       loadedSections++;
-      console.log('Successfully loaded section:', section.id, 'in', currentLocale);
+      if (DEBUG_FRAMEWORK_LOADING) console.log('Successfully loaded section:', section.id, 'in', currentLocale);
       
     } catch (primaryError) {
-      console.warn(`Primary load failed for section ${section.id}:`, primaryError.message);
+      if (DEBUG_FRAMEWORK_LOADING) console.warn(`Primary load failed for section ${section.id}:`, primaryError.message);
       
       // Fall back to English if translation isn't available
       try {
@@ -169,10 +171,10 @@ export async function load({ depends, url, params }) {
         if (currentLocale !== 'en') {
           sectionsUsingEnglishFallback.add(section.id);
         }
-        console.log('Loaded section:', section.id, 'in English as fallback');
+        if (DEBUG_FRAMEWORK_LOADING) console.log('Loaded section:', section.id, 'in English as fallback');
         
       } catch (fallbackError) {
-        console.warn(`Could not load section ${section.id} in any language:`, fallbackError.message);
+        if (DEBUG_FRAMEWORK_LOADING) console.warn(`Could not load section ${section.id} in any language:`, fallbackError.message);
         
         // Create a safe placeholder for missing sections
         loadedContent[section.id] = {
@@ -192,8 +194,8 @@ export async function load({ depends, url, params }) {
     }
   }
   
-  console.log('Total guide sections loaded:', loadedSections, 'out of', guideSections.length);
-  console.log('Loaded sections:', Object.keys(loadedContent));
+  if (DEBUG_FRAMEWORK_LOADING) console.log('Total guide sections loaded:', loadedSections, 'out of', guideSections.length);
+  if (DEBUG_FRAMEWORK_LOADING) console.log('Loaded sections:', Object.keys(loadedContent));
   
   // Validate that we have at least the introduction
   if (!loadedContent['introduction']) {

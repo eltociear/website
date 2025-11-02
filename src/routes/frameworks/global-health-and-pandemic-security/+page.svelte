@@ -14,12 +14,6 @@
   $: ghps = $t('globalHealthPandemicSecurity') || {};
   $: translationFunction = $t;
   
-  // Debug logging
-  $: if (browser && mounted) {
-    console.log('Global Health & Pandemic Security translations:', ghps);
-    console.log('Has global health & pandemic security keys:', Object.keys(ghps));
-  }
-
   // Keep track of which section is active (for sub-navigation)
   let activeSection = 'index';
 

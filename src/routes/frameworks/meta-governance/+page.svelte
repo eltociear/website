@@ -9,7 +9,9 @@
   import FrameworkSidebar from '$lib/components/FrameworkSidebar.svelte';
   import { onMount, afterUpdate } from 'svelte';
   import { slide } from 'svelte/transition';
-     
+
+  const DEBUG_LOG = false;
+
   export let data;
 
   // Keep track of which section is active (for sub-navigation)
@@ -22,10 +24,10 @@
       // Function to handle hash changes and initial load
       const handleHashNavigation = () => {
         const hash = window.location.hash.substring(1);
-        console.log('Hash detected:', hash); // Debug log
+        if (DEBUG_LOG) console.log('Hash detected:', hash); // Debug log
         
         if (hash && data.sections[hash]) {
-          console.log('Setting active section to:', hash); // Debug log
+          if (DEBUG_LOG) console.log('Setting active section to:', hash); // Debug log
           activeSection = hash;
           
           // Scroll to content after a brief delay
@@ -41,7 +43,7 @@
           }, 100);
         } else if (hash && hash !== 'index' && hash !== '') {
           // If hash doesn't match a section, default to index but keep the hash
-          console.log('Hash not found, defaulting to index but keeping hash:', hash);
+          if (DEBUG_LOG) console.log('Hash not found, defaulting to index but keeping hash:', hash);
           activeSection = 'index';
         } else {
           // No hash or introduction hash
@@ -54,7 +56,7 @@
       
       // Listen for hash changes (for same-page navigation)
       const handleHashChangeEvent = () => {
-        console.log('Hash change event triggered'); // Debug log
+        if (DEBUG_LOG) console.log('Hash change event triggered'); // Debug log
         handleHashNavigation();
       };
 

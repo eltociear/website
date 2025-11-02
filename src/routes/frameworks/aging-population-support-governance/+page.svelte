@@ -15,12 +15,6 @@
   $: ag = $t('agingFramework') || {};
   $: translationFunction = $t;
   
-  // Debug logging
-  $: if (browser && mounted) {
-    console.log('Aging Framework translations:', ag);
-    console.log('Has aging framework keys:', Object.keys(ag));
-  }
-
   // Keep track of which section is active (for sub-navigation)
   let activeSection = 'index';
 

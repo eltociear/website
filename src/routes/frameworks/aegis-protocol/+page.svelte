@@ -8,6 +8,8 @@
   import { onMount, tick } from 'svelte';
   import { slide } from 'svelte/transition';
 
+  const DEBUG_LOG = false;
+
   export let data;
 
   // Translation state - use isLocaleLoaded for better reactivity
@@ -87,7 +89,7 @@
         try {
           await loadTranslations($locale, '/frameworks/aegis-protocol');
         } catch (e) {
-          console.error('Failed to reload translations:', e);
+          if (DEBUG_LOG) console.error('Failed to reload translations:', e);
         }
       }
       

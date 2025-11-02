@@ -6,16 +6,18 @@ import { error } from '@sveltejs/kit';
 
 export const csr = true;
 
+const DEBUG_FRAMEWORK_LOADING = false; // Set to true only when debugging
+
 export async function load({ depends, url, params }) {
   // Declare dependency on locale
   depends('app:locale');
   
   const currentLocale = get(locale);
   
-  console.log('=== +page.js load function ===');
-  console.log('URL pathname:', url.pathname);
-  // REMOVED: console.log('URL search:', url.search); // This causes prerender errors!
-  console.log('Current locale:', currentLocale);
+  if (DEBUG_FRAMEWORK_LOADING) console.log('=== +page.js load function ===');
+  if (DEBUG_FRAMEWORK_LOADING) console.log('URL pathname:', url.pathname);
+  // REMOVED: if (DEBUG_FRAMEWORK_LOADING) console.log('URL search:', url.search); // This causes prerender errors!
+  if (DEBUG_FRAMEWORK_LOADING) console.log('Current locale:', currentLocale);
   
   // IMPORTANT: url.hash is not available in load functions!
   // url.search is also not available during prerendering
@@ -26,7 +28,7 @@ export async function load({ depends, url, params }) {
     // If it's not, we need to handle this case
     let cleanPath = url.pathname;
     
-    console.log('Original pathname:', cleanPath);
+    if (DEBUG_FRAMEWORK_LOADING) console.log('Original pathname:', cleanPath);
     
     // Check if the pathname looks corrupted (contains section names instead of the base path)
     if (cleanPath.includes('/frameworks/') && 
@@ -42,17 +44,17 @@ export async function load({ depends, url, params }) {
          cleanPath.includes('glossary') ||
          cleanPath.includes('social-media-templates'))) {
       
-      console.log('⚠️  Detected corrupted pathname, correcting to base framework path');
+      if (DEBUG_FRAMEWORK_LOADING) console.log('⚠️  Detected corrupted pathname, correcting to base framework path');
       cleanPath = '/frameworks/treaty-for-our-only-home';
     }
     
-    console.log('Clean path for translations:', cleanPath);
+    if (DEBUG_FRAMEWORK_LOADING) console.log('Clean path for translations:', cleanPath);
     
     // Load translations for this specific page path
-    console.log('About to call loadTranslations with:', currentLocale, cleanPath);
+    if (DEBUG_FRAMEWORK_LOADING) console.log('About to call loadTranslations with:', currentLocale, cleanPath);
     const loadedTranslations = await loadTranslations(currentLocale, cleanPath);
-    console.log('loadTranslations returned:', Object.keys(loadedTranslations || {}));
-    console.log('Loaded translations for path:', cleanPath, 'with locale:', currentLocale);
+    if (DEBUG_FRAMEWORK_LOADING) console.log('loadTranslations returned:', Object.keys(loadedTranslations || {}));
+    if (DEBUG_FRAMEWORK_LOADING) console.log('Loaded translations for path:', cleanPath, 'with locale:', currentLocale);
   } catch (e) {
     console.error('Failed to load translations:', e);
     console.error('Error details:', e.stack);
@@ -64,9 +66,9 @@ export async function load({ depends, url, params }) {
   if (browser) {
     try {
       isPrintMode = url.search ? url.searchParams.get('print') === 'true' : false;
-      console.log('Print mode detected:', isPrintMode);
+      if (DEBUG_FRAMEWORK_LOADING) console.log('Print mode detected:', isPrintMode);
     } catch (e) {
-      console.warn('Could not access URL search params:', e);
+      if (DEBUG_FRAMEWORK_LOADING) console.warn('Could not access URL search params:', e);
       isPrintMode = false;
     }
   }
@@ -101,7 +103,7 @@ export async function load({ depends, url, params }) {
   const content = {};
   let loadedSections = 0;
   
-  console.log('Loading treaty sections for locale:', currentLocale);
+  if (DEBUG_FRAMEWORK_LOADING) console.log('Loading treaty sections for locale:', currentLocale);
   
   // Try to load each section with proper error handling
   for (const section of sections) {
@@ -110,10 +112,10 @@ export async function load({ depends, url, params }) {
       const modulePromise = import(`$lib/content/frameworks/${currentLocale}/implementation/treaty-for-our-only-home/${section}.md`);
       content[section] = await modulePromise;
       loadedSections++;
-      console.log('Successfully loaded section:', section, 'in', currentLocale);
+      if (DEBUG_FRAMEWORK_LOADING) console.log('Successfully loaded section:', section, 'in', currentLocale);
       
     } catch (primaryError) {
-      console.warn(`Primary load failed for section ${section}:`, primaryError.message);
+      if (DEBUG_FRAMEWORK_LOADING) console.warn(`Primary load failed for section ${section}:`, primaryError.message);
       
       // Fall back to English if translation isn't available
       try {
@@ -125,10 +127,10 @@ export async function load({ depends, url, params }) {
         if (currentLocale !== 'en') {
           sectionsUsingEnglishFallback.add(section);
         }
-        console.log('Loaded section:', section, 'in English as fallback');
+        if (DEBUG_FRAMEWORK_LOADING) console.log('Loaded section:', section, 'in English as fallback');
         
       } catch (fallbackError) {
-        console.warn(`Could not load section ${section} in any language:`, fallbackError.message);
+        if (DEBUG_FRAMEWORK_LOADING) console.warn(`Could not load section ${section} in any language:`, fallbackError.message);
         
         // Create a safe placeholder for missing sections
         content[section] = {
@@ -148,8 +150,8 @@ export async function load({ depends, url, params }) {
     }
   }
   
-  console.log('Total sections loaded:', loadedSections, 'out of', sections.length);
-  console.log('Loaded sections:', Object.keys(content));
+  if (DEBUG_FRAMEWORK_LOADING) console.log('Total sections loaded:', loadedSections, 'out of', sections.length);
+  if (DEBUG_FRAMEWORK_LOADING) console.log('Loaded sections:', Object.keys(content));
   
   // Validate that we have at least the index section
   if (!content.index) {

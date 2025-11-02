@@ -15,12 +15,6 @@
   $: cs = $t('consciousnessFramework') || {};
   $: translationFunction = $t;
   
-  // Debug logging
-  $: if (browser && mounted) {
-    console.log('Consciousness Framework translations:', cs);
-    console.log('Has consciousness framework keys:', Object.keys(cs));
-  }
-
   // Keep track of which section is active (for sub-navigation)
   let activeSection = 'index';
 

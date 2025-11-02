@@ -14,12 +14,6 @@
   $: aa = $t('auroraAccord') || {};
   $: translationFunction = $t;
   
-  // Debug logging
-  $: if (browser && mounted) {
-    console.log('Aurora Accord translations:', aa);
-    console.log('Has aurora accord keys:', Object.keys(aa));
-  }
-
   // Keep track of which section is active (for sub-navigation)
   let activeSection = 'index';
 

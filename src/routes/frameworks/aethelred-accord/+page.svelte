@@ -14,12 +14,6 @@
  $: aethelred = $t('aethelred') || {};
  $: translationFunction = $t;
  
- // Debug logging
- $: if (browser && mounted) {
-   console.log('Aethelred Accord translations:', aethelred);
-   console.log('Has Aethelred keys:', Object.keys(aethelred));
- }
-
  // Keep track of which section is active (for sub-navigation)
  let activeSection = 'preamble';
 

@@ -12,6 +12,8 @@
   import Header from '$lib/components/Header.svelte';
   import GlobalNotice from '$lib/components/GlobalNotice.svelte';
   import { registerServiceWorker } from '$lib/utils/registerServiceWorker';
+  import { preloadFrameworkDatabase } from '$lib/data/precomputedFrameworkDatabase';
+
   
   // Initialize stores at the top level
   let serviceWorkerRegistered = false;
@@ -21,6 +23,7 @@
   const translationsLoaded = writable(false);
 
   onMount(async () => {
+    preloadFrameworkDatabase();
     if (browser) {
       try {
         const initLocale = detectLocale();

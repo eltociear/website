@@ -6,15 +6,17 @@ import { error } from '@sveltejs/kit';
 
 export const csr = true;
 
+const DEBUG_FRAMEWORK_LOADING = false; // Set to true only when debugging
+
 export async function load({ depends, url, params }) {
   // Declare dependency on locale
   depends('app:locale');
   
   const currentLocale = get(locale);
   
-  console.log('=== Pillar 4 Spokes +page.js load function ===');
-  console.log('URL pathname:', url.pathname);
-  console.log('Current locale:', currentLocale);
+  if (DEBUG_FRAMEWORK_LOADING) console.log('=== Pillar 4 Spokes +page.js load function ===');
+  if (DEBUG_FRAMEWORK_LOADING) console.log('URL pathname:', url.pathname);
+  if (DEBUG_FRAMEWORK_LOADING) console.log('Current locale:', currentLocale);
   
   // Load translations
   try {
@@ -71,7 +73,7 @@ export async function load({ depends, url, params }) {
   const loadedContent = {};
   
   for (const resource of resources) {
-    console.log(`Loading content for resource: ${resource.id}`);
+    if (DEBUG_FRAMEWORK_LOADING) console.log(`Loading content for resource: ${resource.id}`);
     
     if (resource.sections && resource.sections.length > 0) {
       // Multi-section resource
@@ -81,9 +83,9 @@ export async function load({ depends, url, params }) {
         try {
           const modulePromise = import(`$lib/content/guides/${currentLocale}/bioregional-compass/library/pillar-4-spokes/${resource.id}/${section}.md`);
           loadedContent[resource.id][section] = await modulePromise;
-          console.log(`Successfully loaded ${resource.id}/${section} in ${currentLocale}`);
+          if (DEBUG_FRAMEWORK_LOADING) console.log(`Successfully loaded ${resource.id}/${section} in ${currentLocale}`);
         } catch (primaryError) {
-          console.warn(`Primary load failed for ${resource.id}/${section}:`, primaryError.message);
+          if (DEBUG_FRAMEWORK_LOADING) console.warn(`Primary load failed for ${resource.id}/${section}:`, primaryError.message);
           
           // Fall back to English
           try {
@@ -93,9 +95,9 @@ export async function load({ depends, url, params }) {
             if (currentLocale !== 'en') {
               sectionsUsingEnglishFallback.add(`${resource.id}/${section}`);
             }
-            console.log(`Loaded ${resource.id}/${section} from English fallback`);
+            if (DEBUG_FRAMEWORK_LOADING) console.log(`Loaded ${resource.id}/${section} from English fallback`);
           } catch (fallbackError) {
-            console.warn(`Could not load ${resource.id}/${section} in any language:`, fallbackError.message);
+            if (DEBUG_FRAMEWORK_LOADING) console.warn(`Could not load ${resource.id}/${section} in any language:`, fallbackError.message);
             
             // Create placeholder
             loadedContent[resource.id][section] = {
@@ -119,9 +121,9 @@ export async function load({ depends, url, params }) {
       try {
         const modulePromise = import(`$lib/content/guides/${currentLocale}/bioregional-compass/library/pillar-4-spokes/${resource.id}.md`);
         loadedContent[resource.id] = await modulePromise;
-        console.log(`Successfully loaded ${resource.id} in ${currentLocale}`);
+        if (DEBUG_FRAMEWORK_LOADING) console.log(`Successfully loaded ${resource.id} in ${currentLocale}`);
       } catch (primaryError) {
-        console.warn(`Primary load failed for ${resource.id}:`, primaryError.message);
+        if (DEBUG_FRAMEWORK_LOADING) console.warn(`Primary load failed for ${resource.id}:`, primaryError.message);
         
         // Fall back to English
         try {
@@ -131,9 +133,9 @@ export async function load({ depends, url, params }) {
           if (currentLocale !== 'en') {
             sectionsUsingEnglishFallback.add(resource.id);
           }
-          console.log(`Loaded ${resource.id} from English fallback`);
+          if (DEBUG_FRAMEWORK_LOADING) console.log(`Loaded ${resource.id} from English fallback`);
         } catch (fallbackError) {
-          console.warn(`Could not load ${resource.id} in any language:`, fallbackError.message);
+          if (DEBUG_FRAMEWORK_LOADING) console.warn(`Could not load ${resource.id} in any language:`, fallbackError.message);
           
           // Create placeholder
           loadedContent[resource.id] = {
@@ -154,7 +156,7 @@ export async function load({ depends, url, params }) {
     }
   }
   
-  console.log('Loaded content for resources:', Object.keys(loadedContent));
+  if (DEBUG_FRAMEWORK_LOADING) console.log('Loaded content for resources:', Object.keys(loadedContent));
   
   return {
     resources,

@@ -4,6 +4,8 @@ import { get } from 'svelte/store';
 
 export const csr = true;
 
+const DEBUG_FRAMEWORK_LOADING = false; // Set to true only when debugging
+
 export async function load({ depends, url }) {
   // Declare dependency on locale
   depends('app:locale');
@@ -61,7 +63,7 @@ export async function load({ depends, url }) {
           sectionsUsingEnglishFallback.add(section);
         }
       } catch (e2) {
-        console.warn(`Could not load section ${section} in any language:`, e2);
+        if (DEBUG_FRAMEWORK_LOADING) console.warn(`Could not load section ${section} in any language:`, e2);
         failedSections.push(section);
         // Set content to null so the component can handle missing sections gracefully
         content[section] = null;
@@ -73,12 +75,12 @@ export async function load({ depends, url }) {
   const loadedSections = sections.filter(section => content[section] !== null);
   const fallbackSections = Array.from(sectionsUsingEnglishFallback);
   
-  console.log(`Loaded ${loadedSections.length}/${sections.length} sections for global citizenship framework`);
+  if (DEBUG_FRAMEWORK_LOADING) console.log(`Loaded ${loadedSections.length}/${sections.length} sections for global citizenship framework`);
   if (fallbackSections.length > 0) {
-    console.log(`${fallbackSections.length} sections using English fallback:`, fallbackSections);
+    if (DEBUG_FRAMEWORK_LOADING) console.log(`${fallbackSections.length} sections using English fallback:`, fallbackSections);
   }
   if (failedSections.length > 0) {
-    console.warn(`${failedSections.length} sections failed to load:`, failedSections);
+    if (DEBUG_FRAMEWORK_LOADING) console.warn(`${failedSections.length} sections failed to load:`, failedSections);
   }
   
   return {

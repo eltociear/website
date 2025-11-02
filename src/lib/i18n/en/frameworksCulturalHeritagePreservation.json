@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Cultural Heritage Preservation Framework - Project Tapestry | Global Governance Framework",
+    "description": "Sovereign cultural preservation guided by Indigenous wisdom. BAZ-led stewardship, FPIC 2.0 protocols, and quantum-safe archives protecting humanity's living heritage."
+  },
+  "guideCard": {
+    "title": "New to the Cultural Heritage Preservation Framework?",
+    "description": "Start with our executive summary to understand how Indigenous wisdom guides sovereign cultural preservation.",
+    "buttonText": "Read executive summary"
+  },
+  "categories": {
+    "overview": "Overview",
+    "foundation": "Foundation",
+    "framework": "Core framework",
+    "resources": "Resources"
+  },
+  "sections": {
+    "index": "Overview",
+    "at-a-glance": "At a glance",
+    "executive-summary-for-the-skeptic": "Executive summary",
+    "introduction-vision": "Introduction & vision",
+    "core-principles": "Core principles",
+    "governance-structure": "Governance structure",
+    "implementation-mechanisms": "Implementation mechanisms",
+    "strategic-roadmap": "Strategic roadmap",
+    "key-innovations": "Key innovations",
+    "monitoring-evaluation": "Monitoring & evaluation",
+    "risk-mitigation": "Risk mitigation",
+    "strategic-implementation": "Strategic implementation",
+    "taking-action": "Taking action",
+    "appendices": "Appendices"
+  },
+  "sectionsShort": {
+    "index": "Overview",
+    "at-a-glance": "At a glance",
+    "executive-summary-for-the-skeptic": "Executive summary",
+    "introduction-vision": "Intro & vision",
+    "core-principles": "Principles",
+    "governance-structure": "Governance",
+    "implementation-mechanisms": "Implementation",
+    "strategic-roadmap": "Roadmap",
+    "key-innovations": "Innovations",
+    "monitoring-evaluation": "Monitoring",
+    "risk-mitigation": "Risk mitigation",
+    "strategic-implementation": "Implementation",
+    "taking-action": "Take action",
+    "appendices": "Appendices"
+  },
+  "fallbackNotice": {
+    "title": "Language notice",
+    "message": "This section is currently only available in English. We are working on translations."
+  }
+}

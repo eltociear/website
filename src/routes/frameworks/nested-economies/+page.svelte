@@ -15,12 +15,6 @@
  $: nestedEconomies = $t('nestedEconomies') || {};
  $: translationFunction = $t;
  
- // Debug logging
- $: if (browser && mounted) {
-   console.log('Nested Economies translations:', nestedEconomies);
-   console.log('Has Nested Economies keys:', Object.keys(nestedEconomies));
- }
-
  // Keep track of which section is active (for sub-navigation)
  let activeSection = 'preamble';
 

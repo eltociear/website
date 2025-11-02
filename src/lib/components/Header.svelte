@@ -38,13 +38,18 @@
   // Quiz state management for adaptive navigation
   let hasCompletedQuiz = false;
 
-  // Group frameworks by tier for the tiered menu
-  const frameworksByTier = {};
+// PERFORMANCE FIX: Group frameworks by tier ONCE (not on every render)
+  // We preserve 'tiers' as a separate variable because it's used in the template
   const tiers = getAllTiers();
-  
-  tiers.forEach(tier => {
-    frameworksByTier[tier] = getFrameworksByTier(tier);
-  });
+  const frameworksByTier = (() => {
+    const result = {};
+    
+    tiers.forEach(tier => {
+      result[tier] = getFrameworksByTier(tier);
+    });
+    
+    return result;
+  })();
 
   function handleMetaGovernanceNavigation(event, section) {
     event.preventDefault();
@@ -1341,7 +1346,7 @@
             <a 
               href="{base}/"
               class={`nav-link ${isActive('/') || isActive('') ? 'active' : ''}`}
-              data-sveltekit-preload-data="hover"
+              data-sveltekit-preload-data="tap"
             >
               {browser ? ($t('common.header.home') || 'Home') : 'Home'}
             </a>
@@ -1350,7 +1355,7 @@
             <a 
               href="{base}/overview"
               class={`nav-link ${isActive('/overview') || isActive('') ? 'active' : ''}`}
-              data-sveltekit-preload-data="hover"
+              data-sveltekit-preload-data="tap"
             >
               {browser ? ($t('common.header.overview') || 'Overview') : 'Overview'}
             </a>
@@ -1362,7 +1367,7 @@
               <a 
                 href="{base}/frameworks"
                 class={`nav-link ${browser && $page.url.pathname.startsWith(base + '/frameworks') ? 'active' : ''}`}
-                data-sveltekit-preload-data="hover"
+                data-sveltekit-preload-data="tap"
               >
                 {browser ? ($t('common.header.framework') || 'Frameworks') : 'Frameworks'}
                 <svg xmlns="http://www.w3.org/2000/svg" class="dropdown-icon hidden md:inline-block" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1390,7 +1395,7 @@
                 <a 
                   href="{base}/my-path" 
                   class={`${isActive('/my-path') ? 'active' : ''}`}
-                  data-sveltekit-preload-data="hover" 
+                  data-sveltekit-preload-data="tap" 
                   role="menuitem"
                 >
                   👤 {browser ? ($t('common.header.myPath') || 'My Path') : 'My Path'}
@@ -1399,7 +1404,7 @@
                 <a 
                   href="{base}/quiz" 
                   class={`${isActive('/quiz') ? 'active' : ''}`}
-                  data-sveltekit-preload-data="hover" 
+                  data-sveltekit-preload-data="tap" 
                   role="menuitem"
                 >
                   🧭 {browser ? ($t('common.header.findYourPlace') || 'Find Your Place') : 'Find Your Place'}
@@ -1444,7 +1449,7 @@
                                   class:active={isActive(framework.path)}
                                   class:primal={display.isPrimal}
                                   class:highlighted={display.isHighlighted}
-                                  data-sveltekit-preload-data="hover" 
+                                  data-sveltekit-preload-data="tap" 
                                   role="menuitem"
                                 >
                                   {display.showEmoji ? display.emoji + ' ' : ''}{display.displayText}
@@ -1467,7 +1472,7 @@
                                 class:active={isActive(framework.path)}
                                 class:primal={display.isPrimal}
                                 class:highlighted={display.isHighlighted}
-                                data-sveltekit-preload-data="hover" 
+                                data-sveltekit-preload-data="tap" 
                                 role="menuitem"
                               >
                                 {display.showEmoji ? display.emoji + ' ' : ''}{display.displayText}
@@ -1483,7 +1488,7 @@
                               class:active={isActive(framework.path)}
                               class:primal={display.isPrimal}
                               class:highlighted={display.isHighlighted}
-                              data-sveltekit-preload-data="hover" 
+                              data-sveltekit-preload-data="tap" 
                               role="menuitem"
                             >
                               {display.showEmoji ? display.emoji + ' ' : ''}{display.displayText}
@@ -1550,7 +1555,7 @@
                                   class:active={isActive(framework.path)}
                                   class:primal={display.isPrimal}
                                   class:highlighted={display.isHighlighted}
-                                  data-sveltekit-preload-data="hover" 
+                                  data-sveltekit-preload-data="tap" 
                                   role="menuitem"
                                   class="mobile-framework-link"
                                 >
@@ -1574,7 +1579,7 @@
                                 class:active={isActive(framework.path)}
                                 class:primal={display.isPrimal}
                                 class:highlighted={display.isHighlighted}
-                                data-sveltekit-preload-data="hover" 
+                                data-sveltekit-preload-data="tap" 
                                 role="menuitem"
                                 class="mobile-framework-link"
                               >
@@ -1591,7 +1596,7 @@
                               class:active={isActive(framework.path)}
                               class:primal={display.isPrimal}
                               class:highlighted={display.isHighlighted}
-                              data-sveltekit-preload-data="hover" 
+                              data-sveltekit-preload-data="tap" 
                               role="menuitem"
                               class="mobile-framework-link"
                             >
@@ -1610,48 +1615,48 @@
                             
               <!-- Scrollable Content Area for all the static links -->
               <div class="dropdown-scrollable-content">
-                <a href="{base}/frameworks" class={isActive('/frameworks') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+                <a href="{base}/frameworks" class={isActive('/frameworks') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                   {browser ? ($t('common.header.frameworkOverview') || 'Overview') : 'Overview'}
                 </a>
                 {#if isDevMode}
-                <a href="{base}/frameworks/docs" class={isActive('/frameworks/docs') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+                <a href="{base}/frameworks/docs" class={isActive('/frameworks/docs') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                   {browser ? ($t('common.header.frameworkDocs') || 'Documentation') : 'Documentation'}
                 </a>
                 {/if}
-                <a href="{base}/frameworks/docs/principles" class={isActive('/frameworks/docs/principles') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+                <a href="{base}/frameworks/docs/principles" class={isActive('/frameworks/docs/principles') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                   {browser ? ($t('common.header.frameworkPrinciples') || 'Principles') : 'Principles'}
                 </a>
-                <a href="{base}/frameworks/docs/implementation" class={isActive('/frameworks/docs/implementation') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+                <a href="{base}/frameworks/docs/implementation" class={isActive('/frameworks/docs/implementation') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                   {browser ? ($t('common.header.frameworkImplementation') || 'Implementation') : 'Implementation'}
                 </a>
-                <a href="{base}/frameworks/guides" class={browser && $page.url.pathname.startsWith(base + '/frameworks/guides') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+                <a href="{base}/frameworks/guides" class={browser && $page.url.pathname.startsWith(base + '/frameworks/guides') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                   {browser ? ($t('common.header.frameworkGuides') || 'Implementation Guides') : 'Implementation Guides'}
                 </a>
                 {#if isDevMode}
-                <a href="{base}/frameworks/hubs" class={isActive('/frameworks/hubs') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+                <a href="{base}/frameworks/hubs" class={isActive('/frameworks/hubs') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                   {browser ? ($t('common.header.frameworkHubs') || 'Hubs') : 'Hubs'}
                 </a>
                 {/if}
-                <a href="{base}/frameworks/tools" class={isActive('/frameworks/tools') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+                <a href="{base}/frameworks/tools" class={isActive('/frameworks/tools') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                   {browser ? ($t('common.header.frameworkTools') || 'Tools') : 'Tools'}
                 </a>
                 {#if isDevMode}
-                <a href="{base}/frameworks/visuals" class={isActive('/frameworks/visuals') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+                <a href="{base}/frameworks/visuals" class={isActive('/frameworks/visuals') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                   {browser ? ($t('common.header.frameworkVisuals') || 'Visuals') : 'Visuals'}
                 </a>
-                <a href="{base}/downloads" class={isActive('/downloads') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+                <a href="{base}/downloads" class={isActive('/downloads') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                   {browser ? ($t('common.header.frameworkDownloads') || 'Framework Downloads') : 'Downloads'}
                 </a>
-                <a href="{base}/frameworks/docs/case-studies" class={isActive('/frameworks/docs/case-studies') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+                <a href="{base}/frameworks/docs/case-studies" class={isActive('/frameworks/docs/case-studies') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                   {browser ? ($t('common.header.frameworkCaseStudies') || 'Case Studies') : 'Case Studies'}
                 </a>
-                <a href="{base}/frameworks/ai-futures" class={isActive('/frameworks/ai-futures') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+                <a href="{base}/frameworks/ai-futures" class={isActive('/frameworks/ai-futures') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                   {browser ? ($t('common.header.frameworkAIFutures') || 'AI Futures') : 'AI Futures'}
                 </a>
-                <a href="{base}/frameworks/docs/resources" class={isActive('/frameworks/docs/resources') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+                <a href="{base}/frameworks/docs/resources" class={isActive('/frameworks/docs/resources') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                   {browser ? ($t('common.header.frameworkResources') || 'Resources') : 'Resources'}
                 </a>
-                <a href="{base}/frameworks/docs/glossary" class={isActive('/frameworks/docs/glossary') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+                <a href="{base}/frameworks/docs/glossary" class={isActive('/frameworks/docs/glossary') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                   {browser ? ($t('common.header.frameworkGlossary') || 'Glossary') : 'Glossary'}
                 </a>
                 {/if}
@@ -1665,7 +1670,7 @@
               <a 
                 href="{base}/get-involved"
                 class={`nav-link ${browser && $page.url.pathname.startsWith(base + '/get-involved') ? 'active' : ''}`}
-                data-sveltekit-preload-data="hover"
+                data-sveltekit-preload-data="tap"
               >
                 {browser ? ($t('common.header.getInvolved') || 'Get Involved') : 'Get Involved'}
                 <svg xmlns="http://www.w3.org/2000/svg" class="dropdown-icon hidden md:inline-block" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1688,22 +1693,22 @@
             </div>
 
             <div class="dropdown-menu" on:click|stopPropagation={() => {}} role="menu">
-              <!-- <a href="{base}/get-involved/onboarding" class={isActive('/get-involved/onboarding') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+              <!-- <a href="{base}/get-involved/onboarding" class={isActive('/get-involved/onboarding') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                 {browser ? ($t('common.header.getInvolvedOnboarding') ||  'Onboarding') : 'Onboarding'}
               </a> TO BE ADDED WHEN GGF CATALYST IS OFFICIALLY REGISTERED-->
-              <a href="{base}/get-involved/founding" class={isActive('/get-involved/founding') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+              <a href="{base}/get-involved/founding" class={isActive('/get-involved/founding') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                 {browser ? ($t('common.header.getInvolvedFounding') ||  'Founding Organization') : 'Founding Organization'}
               </a>
-              <a href="{base}/get-involved/frameworks" class={isActive('/get-involved/frameworks') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+              <a href="{base}/get-involved/frameworks" class={isActive('/get-involved/frameworks') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                 {browser ? ($t('common.header.getInvolvedFrameworks') || 'Contribute to Frameworks') : 'Contribute to Frameworks'}
               </a>
-              <a href="{base}/get-involved/translations" class={isActive('/get-involved/translations') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+              <a href="{base}/get-involved/translations" class={isActive('/get-involved/translations') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                 {browser ? ($t('common.header.getInvolvedTranslations') || 'Contribute Translations') : 'Contribute Translations'}
               </a>
-              <a href="{base}/get-involved/website" class={isActive('/get-involved/website') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+              <a href="{base}/get-involved/website" class={isActive('/get-involved/website') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                 {browser ? ($t('common.header.getInvolvedWebsite') || 'Contribute to Website') : 'Contribute to Website'}
               </a>
-              <a href="{base}/get-involved/outreach" class={isActive('/get-involved/outreach') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+              <a href="{base}/get-involved/outreach" class={isActive('/get-involved/outreach') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                 {browser ? ($t('common.header.getInvolvedOutreach') || 'Community & Outreach') : 'Community & Outreach'}
               </a>
             </div>
@@ -1715,7 +1720,7 @@
               <a 
                 href="{base}/resources"
                 class={`nav-link ${browser && $page.url.pathname.startsWith(base + '/resources') ? 'active' : ''}`}
-                data-sveltekit-preload-data="hover"
+                data-sveltekit-preload-data="tap"
               >
                 {browser ? ($t('common.header.resources') || 'Resources') : 'Resources'}
                 <svg xmlns="http://www.w3.org/2000/svg" class="dropdown-icon hidden md:inline-block" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1738,18 +1743,18 @@
             </div>
 
             <div class="dropdown-menu" on:click|stopPropagation={() => {}} role="menu">
-              <a href="{base}/blog" class={isActive('/blog') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+              <a href="{base}/blog" class={isActive('/blog') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                 {browser ? ($t('common.header.blog') || 'Blog') : 'Blog'}
               </a>
-              <a href="{base}/resources/whitepapers" class={isActive('/resources/whitepapers') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+              <a href="{base}/resources/whitepapers" class={isActive('/resources/whitepapers') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                 {browser ? ($t('common.header.whitepapers') || 'Whitepapers') : 'Whitepapers'}
               </a>
-              <a href="{base}/resources/books" class={isActive('/resources/books') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+              <a href="{base}/resources/books" class={isActive('/resources/books') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                 {browser ? ($t('common.header.books') || 'Books') : 'Books'}
               </a>
-              <a href="{base}/resources/tools" class={isActive('/resources/tools') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+              <a href="{base}/resources/tools" class={isActive('/resources/tools') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                 {browser ? ($t('common.header.tools') || 'Interactive Tools') : 'Interactive Tools'}
-              </a>              <a href="{base}/resources/protocols" class={isActive('/resources/protocols') ? 'active' : ''} data-sveltekit-preload-data="hover" role="menuitem">
+              </a>              <a href="{base}/resources/protocols" class={isActive('/resources/protocols') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                 {browser ? ($t('common.header.protocols') || 'Protocols & Methods') : 'Protocols & Methods'}
               </a>
             </div>
@@ -1759,7 +1764,7 @@
             <a 
               href="{base}/about"
               class={`nav-link ${isActive('/about') ? 'active' : ''}`}
-              data-sveltekit-preload-data="hover"
+              data-sveltekit-preload-data="tap"
             >
               {browser ? ($t('common.header.about') || 'About') : 'About'}
             </a>
@@ -1768,7 +1773,7 @@
             <a 
               href="{base}/contact"
               class={`nav-link ${isActive('/contact') ? 'active' : ''}`}
-              data-sveltekit-preload-data="hover"
+              data-sveltekit-preload-data="tap"
             >
               {browser ? ($t('common.header.contact') || 'Contact') : 'Contact'}
             </a>
