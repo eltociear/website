@@ -1,4 +1,4 @@
-<!-- src/routes/+page.svelte - Reworked Homepage with Three Pillars Integration -->
+<!-- src/routes/+page.svelte -->
 <script>
   import InfoBox from '$lib/components/InfoBox.svelte';
   import EthicalImpactDashboard from '$lib/components/EthicalImpactDashboard.svelte';
@@ -617,27 +617,115 @@
 </section> -->
 
 <!-- Call to Action Section -->
-<section class="final-cta-section">
- <div class="container">
-   <div class="final-cta-content">
-     <h2 class="final-cta-title">{$t('home.callToAction.heading')}</h2>
-     <p class="final-cta-text">{$t('home.callToAction.text')}</p>
-     <div class="final-cta-buttons">
-       <a href="{base}/overview" class="primary-cta-button">
-         {$t('home.callToAction.primaryButton')}
-       </a>
-       <a href="{base}/frameworks" class="secondary-cta-button">
-         {$t('home.callToAction.secondaryButton')}
-       </a>
-       <a href="{base}/get-involved" class="tertiary-cta-button">
-         {$t('home.callToAction.tertiaryButton')}
-       </a>
-     </div>
-   </div>
- </div>
+
+<!-- Collapsible Info Sections -->
+<section class="info-sections">
+  <div class="container">
+    <InfoBox 
+      title={$t('home.whyExists.title')} 
+      isExpanded={whyExistsExpanded}
+      on:toggle={toggleWhyExists}
+    >
+      <p>{$t('home.whyExists.content')}</p>
+    </InfoBox>
+
+    <InfoBox 
+      title={$t('home.language.title')} 
+      isExpanded={languageExpanded}
+      on:toggle={toggleLanguage}
+    >
+      <p>{$t('home.language.content')}</p>
+    </InfoBox>
+  </div>
 </section>
 
-<style>
+<!-- Additional Info Section -->
+<section class="additional-info-section">
+  <div class="container">
+    <h2 class="section-heading">{$t('home.additionalInfo.heading')}</h2>
+    <p class="section-intro">{$t('home.additionalInfo.paragraph1')}</p>
+    <p class="section-text">{$t('home.additionalInfo.paragraph2')}</p>
+    <ul class="info-list">
+      {#each $t('home.additionalInfo.listItems') as item}
+        <li>{item}</li>
+      {/each}
+    </ul>
+    <p class="section-text">{$t('home.additionalInfo.paragraph3')}</p>
+  </div>
+</section>
+
+<!-- Get Involved Section -->
+<section class="get-involved-section">
+  <div class="container">
+    <h2 class="section-heading">{$t('home.getInvolved.title')}</h2>
+    <p class="section-subtitle">{$t('home.getInvolved.subtitle')}</p>
+    <p class="section-intro">{$t('home.getInvolved.intro')}</p>
+    
+    <div class="involvement-grid">
+      <div class="involvement-card">
+        <h3>{$t('home.getInvolved.translate.title')}</h3>
+        <p>{$t('home.getInvolved.translate.description')}</p>
+        <a href="{base}/get-involved/translations" class="involvement-cta">
+          {$t('home.getInvolved.translate.cta')}
+        </a>
+      </div>
+      
+      <div class="involvement-card">
+        <h3>{$t('home.getInvolved.develop.title')}</h3>
+        <p>{$t('home.getInvolved.develop.description')}</p>
+        <a href="{base}/get-involved/website" class="involvement-cta">
+          {$t('home.getInvolved.develop.cta')}
+        </a>
+      </div>
+      
+      <div class="involvement-card">
+        <h3>{$t('home.getInvolved.advocate.title')}</h3>
+        <p>{$t('home.getInvolved.advocate.description')}</p>
+        <a href="{base}/get-involved/outreach" class="involvement-cta">
+          {$t('home.getInvolved.advocate.cta')}
+        </a>
+      </div>
+      
+      <div class="involvement-card">
+        <h3>{$t('home.getInvolved.implement.title')}</h3>
+        <p>{$t('home.getInvolved.implement.description')}</p>
+        <a href="{base}/frameworks" class="involvement-cta">
+          {$t('home.getInvolved.implement.cta')}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Ethical Impact Dashboard Section -->
+<section class="ethical-impact-section">
+  <div class="container">
+    <h2 class="section-heading">{$t('home.ethicalImpact.title')}</h2>
+    <p class="section-intro">{$t('home.ethicalImpact.intro')}</p>
+    <EthicalImpactDashboard />
+  </div>
+</section>
+
+<!-- Final Call to Action Section -->
+<section class="final-cta-section">
+  <div class="container">
+    <div class="final-cta-content">
+      <h2 class="final-cta-title">{$t('home.finalCTA.title')}</h2>
+      <p class="final-cta-text">{$t('home.finalCTA.description')}</p>
+      <div class="final-cta-buttons">
+        <a href="{base}/overview" class="primary-cta-button">
+          {$t('home.finalCTA.primaryButton')}
+        </a>
+        <a href="{base}/frameworks" class="secondary-cta-button">
+          {$t('home.finalCTA.secondaryButton')}
+        </a>
+        <a href="{base}/get-involved" class="tertiary-cta-button">
+          {$t('home.finalCTA.tertiaryButton')}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
   /* Unity Beyond the Known Welcome Banner */
   .welcome-banner {
     background: linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #1e40af 100%);
@@ -2459,4 +2547,155 @@
     outline: 2px solid var(--pillar-color-1);
     outline-offset: 2px;
   }
+
+  /* Info Sections Styles */
+  .info-sections {
+    padding: 4rem 0;
+    background-color: #f8f9fa;
+  }
+
+  .info-sections .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  /* Additional Info Section */
+  .additional-info-section {
+    padding: 4rem 0;
+    background-color: white;
+  }
+
+  .additional-info-section .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .section-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2B4B8C;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .section-subtitle {
+    font-size: 1.25rem;
+    color: #6B5CA5;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .section-intro {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+
+  .section-text {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+
+  .info-list {
+    list-style-type: disc;
+    padding-left: 2rem;
+    margin: 1.5rem 0;
+  }
+
+  .info-list li {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Get Involved Section */
+  .get-involved-section {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  }
+
+  .involvement-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .involvement-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .involvement-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .involvement-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2B4B8C;
+    margin-bottom: 1rem;
+  }
+
+  .involvement-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+
+  .involvement-cta {
+    display: inline-block;
+    background-color: #DAA520;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s;
+  }
+
+  .involvement-cta:hover {
+    background-color: #B8860B;
+  }
+
+  /* Ethical Impact Section */
+  .ethical-impact-section {
+    padding: 4rem 0;
+    background-color: white;
+  }
+
+  .ethical-impact-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .section-heading {
+      font-size: 2rem;
+    }
+
+    .involvement-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .info-sections,
+    .additional-info-section,
+    .get-involved-section,
+    .ethical-impact-section {
+      padding: 2rem 0;
+    }
+  }
+
+</style>
 </style>

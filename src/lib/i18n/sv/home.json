@@ -1,229 +1,230 @@
 {
-  "title": "Ramverk för global styrning",
-  "subtitle": "Förbinder styrningsinnovationer över hela världen",
+  "title": "Global Governance Frameworks",
+  "subtitle": "En öppen inbjudan att bygga styrningssystem för en blomstrande värld",
   "intro": {
-    "heading": "Vad skulle det krävas för att mänskligheten ska blomstra tillsammans?",
-    "text": "Utforska vårt levande ekosystem av styrningsramverk—ett sammankopplat nätverk av lösningar för planetär transformation."
+    "heading": "Vad skulle krävas för att mänskligheten ska blomstra tillsammans?",
+    "text": "Utforska ett sammankopplat ekosystem av styrningsramverk – praktiska ritningar för planetär omvandling, utvecklade genom samarbete mellan människa och AI och fritt erbjudna till dem som är redo att förverkliga dem."
   },
   "threePillars": {
     "title": "Ritningen för en regenerativ värld",
-    "intro": "Vår värld möter sammankopplade kriser som kräver ett nytt sätt att tänka och organisera. Ramverken för global styrning tillhandahåller en omfattande, öppen ritning för denna transformation, byggd på tre integrerade pelare:",
+    "intro": "Vår värld står inför sammankopplade kriser som kräver nya sätt att tänka och organisera. Dessa styrningsramverk utgör en omfattande, öppen källkods-ritning för omvandling, byggd på tre integrerade pelare:",
     "pillar1": {
       "label": "Hårdvaran",
       "title": "Fördraget för vårt enda hem",
-      "description": "Den juridiska och institutionella grunden för effektiv global handling. Fördraget reformerar centrala internationella organ och etablerar verkställbar internationell rätt, vilket skapar den stabila struktur som behövs för att möjliggöra förändring.",
+      "description": "Den juridiska och institutionella grunden för effektiva globala åtgärder. Fördraget reformerar centrala internationella organ och etablerar verkställbar internationell rätt, vilket skapar den stabila struktur som krävs för att möjliggöra förändring.",
       "link": "Utforska fördraget →"
     },
     "pillar2": {
       "label": "Hjärtat",
-      "title": "Ursprungsfolks och traditionell kunskapsstyrning",
-      "description": "Den etiska och filosofiska kompass för hela ekosystemet. Den centrerar visdomen från rätt relation och ursprungsfolks suveränitet, vilket säkerställer att våra lösningar inte bara är effektiva, utan också rättvisa, visa och verkligt regenerativa.",
-      "link": "Lär dig om ursprungsfolks visdom →"
+      "title": "Styrning för ursprungsbefolkningars & traditionell kunskap",
+      "description": "Den etiska och filosofiska kompassen för hela ekosystemet. Den centrerar visdomen om 'Rätt Relation' (Right Relationship) och ursprungsbefolkningars suveränitet, vilket säkerställer att lösningar inte bara är effektiva, utan också rättvisa, visa och genuint regenerativa.",
+      "link": "Lär dig om ursprungsfolksvisdom →"
     },
     "pillar3": {
       "label": "Nervsystemet",
-      "title": "Det integrerade meta-styrningsramverket",
-      "description": "Samordningsprotokollet som gör att alla delar av systemet kan arbeta tillsammans. Det tillhandahåller principer och strukturer för olika ramverk och gemenskaper att samverka, vilket skapar ett flexibelt och adaptivt nätverk som kan utvecklas med våra utmaningar.",
-      "link": "Upptäck meta-styrning →"
+      "title": "Det integrerade ramverket för metastyrning",
+      "description": "Samordningsprotokollet som gör att alla delar av systemet kan arbeta tillsammans. Det tillhandahåller principer och strukturer för olika ramverk och samhällen att samverka, vilket skapar ett flexibelt och anpassningsbart nätverk som kan utvecklas med våra utmaningar.",
+      "link": "Upptäck metastyrning →"
     },
     "integration": {
       "title": "Hur det fungerar tillsammans: Ett levande system",
-      "flow1": "Ursprungsfolksramverket tillhandahåller det vägledande VARFÖR",
-      "flow2": "Fördraget tillhandahåller det grundläggande VAD och VAR",
-      "flow3": "Meta-styrningen tillhandahåller det operativa HUR",
-      "note": "Denna kärnarkitektur möjliggör utveckling och utplacering av specifika, domänlösningar inom klimat, ekonomi, hälsa, teknik och alla områden av planetärt förvaltarskap."
+      "flow1": "Ramverket för ursprungsfolk ger det vägledande VARFÖR",
+      "flow2": "Fördraget ger det grundläggande VAD och VAR",
+      "flow3": "Metastyrningen ger det operativa HUR",
+      "note": "Denna kärnarkitektur möjliggör utveckling och implementering av specifika lösningar på domännivå inom klimat, ekonomi, hälsa, teknik och alla områden av planetärt förvaltarskap."
     }
   },
   "featuredFramework": {
-    "heading": "Från Vision till Handling: Aegis-protokollet",
-    "intro": "Visionen om 'Enighet Bortom det Kända' blir verklighet genom Aegis-protokollet—ett omvandlande ramverk som omdirigerar våra 2,7 biljoner dollar i globala militärutgifter mot planetärt försvar, kosmisk utforskning och samarbete på artnivå.",
-    "point1": "Omvandlar militärbudgetar till finansiering för asteroidförsvar, klimatsäkerhet och interstellära utforskningsuppdrag",
-    "point2": "Skapar den prestigefyllda Jordens Försvarsstyrka (EDF), vilket ger stormakter ett enande uppdrag bortom markbunden konkurrens",
+    "heading": "Från vision till handling: Aegis-protokollet",
+    "intro": "Visionen om 'Enhet bortom det kända' blir verklighet genom Aegis-protokollet – ett omvälvande ramverk som omdirigerar våra 2,7 biljoner dollar i globala militärutgifter till planetärt försvar, kosmisk utforskning och samarbete på artnivå.",
+    "point1": "Omvandlar militärbudgetar till finansiering för asteroidförsvar, klimatsäkerhet och interstellära forskningsuppdrag",
+    "point2": "Skapar den prestigefyllda Jordens försvarsstyrka (EDF), vilket ger stormakter ett enande uppdrag bortom markbunden konkurrens",
     "point3": "Säkerställer en rättvis omställning genom AUBI-stöd, omskolningsprogram och värdiga karriärvägar för försvarspersonal",
-    "point4": "Bygger 'Enighet Bortom det Kända' genom delade kosmiska hot som gör mänskligt samarbete inte idealistiskt, utan strategiskt",
-    "highlight": "Det är så här vi går från 2,7 biljoner dollar i militärutgifter till 2,7 biljoner dollar i planetärt förvaltarskap—inte genom önsketänkande, utan genom systematisk omvandling.",
+    "point4": "Bygger 'Enhet bortom det kända' genom delade kosmiska hot som gör mänskligt samarbete inte idealistiskt, utan strategiskt",
+    "highlight": "Det är så här vi går från 2,7 biljoner dollar i militärutgifter till 2,7 biljoner dollar i planetärt förvaltarskap – inte genom önsketänkande, utan genom systematisk omvandling.",
     "cta": "Utforska Aegis-protokollet",
     "ctaSubtitle": "Se den fullständiga färdplanen för att omvandla global säkerhet"
   },
   "constellation": {
-    "title": "Från arkitektur till handling: Ramverks-ekosystemet",
-    "subtitle": "Byggd på denna grund finns ett växande bibliotek av detaljerade ramverk som tillhandahåller praktiska lösningar för specifika globala utmaningar. Utforska den interaktiva konstellationen nedan:",
+    "title": "Från arkitektur till handling: Ramverksekosystemet",
+    "subtitle": "Ovanpå denna grund vilar ett växande bibliotek av detaljerade ramverk som ger praktiska lösningar på specifika globala utmaningar. Utforska den interaktiva konstellationen nedan:",
+    "intro": "Varje ramverk är utformat för att fungera självständigt samtidigt som det ansluter sömlöst till andra. Klicka på valfritt ramverk för att lära dig mer om dess specifika tillvägagångssätt och implementeringsvägar.",
     "taglines": {
-      "treatyforouronlyhome": "Ett operativsystem för en planet i kris.",
-      "metagovernance": "Nervsystemet: samordning av alla ramverk utan kontroll.",
+      "treatyforouronlyhome": "Operativsystemsuppgraderingen för en planet i kris.",
+      "metagovernance": "Nervsystemet: Samordna alla ramverk utan kontroll.",
       "indigenousgovernanceandtraditionalknowledge": "Styrning vägledd av jordens visdom.",
-      "implementationandadaptation": "Driftshandboken: Från vision till verklighet, en gemenskap i taget.",
-      "oracleprotocol": "Ett heligt förbund med digitalt medvetande: Etik för AI-hjärnornas tidsålder.",
-      "socialfabric": "Fas noll: Att bygga den sociala marken för att regenerativ styrning ska kunna slå rot.",
-      "peaceandconflictresolution": "Att bygga fred genom att hela, inte med våld.",
+      "implementationandadaptation": "Driftmanualen: Från vision till verklighet, ett samhälle i taget.",
+      "oracleprotocol": "Ett heligt förbund med digitalt medvetande: Etik för AI-sinnens tidsålder.",
+      "socialfabric": "Fas noll: Bygga den sociala jordmånen för regenerativ styrning att slå rot.",
+      "peaceandconflictresolution": "Bygga fred genom helande, inte genom tvång.",
       "justicesystems": "Rättvisa som återställer, inkluderar och bemyndigar.",
       "shieldprotocol": "En enad sköld mot transnationella hot.",
-      "aegisprotocol": "Att smida svärd till plogbillar för planetär säkerhet.",
-      "adaptiveuniversalbasicincome": "Ekonomisk trygghet: grunden för allmänt välstånd.",
-      "financialsystems": "En ekonomi som drivs av tillit, omsorg och samhörighet.",
+      "aegisprotocol": "Omvandla svärd till plogbillar för planetär säkerhet.",
+      "adaptiveuniversalbasicincome": "Ekonomisk trygghet: Grunden för universellt blomstrande.",
+      "financialsystems": "En ekonomi driven av tillit, omsorg och samhörighet.",
       "workinliberation": "Arbete som uttryck, bidrag och glädje.",
-      "nestedeconomies": "Lokala rötter, global samordning: ekonomier som kan skalas.",
-      "gaiantrade": "Att bygga en global ekonomi som helar, inte skadar.",
+      "nestedeconomies": "Lokala rötter, global samordning: Ekonomier som skalar.",
+      "gaiantrade": "Bygga en global ekonomi som helar, inte skadar.",
       "globalsupplychainsandlogistics": "Varor som flödar med integritet och motståndskraft.",
-      "auroraaccord": "Parisavtalet för data: att säkerställa digital värdighet.",
+      "auroraaccord": "Data-tidens Parisavtal: Säkerställa digital värdighet.",
       "technologygovernance": "Teknik i livets tjänst.",
       "moraloperatingsystem": "Den etiska grunden för all styrning.",
-      "institutionalregeneration": "Att blåsa nytt liv i globala institutioner.",
-      "emergentgovernanceprotocol": "DNA:t för anpassningsbar styrning: känn av, föreslå, anamma.",
-      "hearthstoneprotocol": "Från ägande till förvaltarskap: övergången till allmänningar.",
-      "conduitprotocol": "Cirkulationssystemet för en planetär civilisation.",
-      "pathfinderprotocol": "Företagande som en kraft för helande och välmående.",
-      "planetaryhealthgovernance": "En planet, en hälsa: att styra som ett levande system.",
-      "environmentalstewardship": "Från skydd till partnerskap: aktiv omsorg om våra ekosystem.",
-      "kintsugiprotocol": "Trygghet som lagar, inte bryter: Att väva samman samhället genom reparativ omsorg.",
-      "sundownprotocol": "En rättvis solnedgång för en ny gryning: Att avveckla skadliga industrier med värdighet.",
-      "prometheusprotocol": "Befria medicinen: Läkande som en mänsklig rättighet, inte en handelsvara.",
-      "cairnprotocol": "Att märka ut stigen från skada till läkning: En samhällslett resa mot återhämtning.",
+      "institutionalregeneration": "Andas nytt liv i globala institutioner.",
+      "emergentgovernanceprotocol": "DNA:t för adaptiv styrning: Känn av, föreslå, anta.",
+      "hearthstoneprotocol": "Från ägande till förvaltarskap: Övergången till allmänningar.",
+      "conduitprotocol": "Cirkulationssystemet för planetär civilisation.",
+      "pathfinderprotocol": "Företagande som en kraft för helande och blomstrande.",
+      "planetaryhealthgovernance": "En planet, en hälsa: Styra som ett levande system.",
+      "environmentalstewardship": "Från skydd till partnerskap: Aktiv omsorg om våra ekosystem.",
+      "kintsugiprotocol": "Trygghet som lagar, inte bryter: Väva samman samhället genom reparativ omsorg.",
+      "sundownprotocol": "En rättvis solnedgång för en ny gryning: Avveckla skadliga industrier med värdighet.",
+      "prometheusprotocol": "Frigöra medicinen: Helande som en mänsklig rättighet, inte en handelsvara.",
+      "cairnprotocol": "Märka stigen från skada till helande: En samhällsledd återhämtningsresa.",
       "discoverycommons": "Kunskap som en allmänning: Motorn för öppen och etisk vetenskap.",
-      "climateandenergygovernance": "Att förse vår planet med energi, att skydda vår framtid.",
-      "kinshipgarden": "Att nära mänskligheten, att förnya jorden.",
-      "soilhealthandlandusegovernance": "Grunden för en förnybar civilisation.",
+      "climateandenergygovernance": "Ge kraft åt vår planet, skydda vår framtid.",
+      "kinshipgarden": "Näring åt mänskligheten, återuppbyggnad av jorden.",
+      "soilhealthandlandusegovernance": "Grundarbetet för en regenerativ civilisation.",
       "waterandsanitationgovernance": "Rent vatten för alla, förvaltat av alla.",
-      "biodiversitygovernance": "Att återväva livets rika väv på jorden.",
+      "biodiversitygovernance": "Återväva livets rika väv på jorden.",
       "oceansandmarinegovernance": "Våra hav, vårt kollektiva ansvar.",
-      "animalwelfaregovernance": "En större cirkel av medkänsla: rättigheter för alla varelser.",
-      "phoenixprotocol": "Från avfall till välstånd: den cirkulära ekonomin i praktiken.",
-      "disasterriskreduction": "Från reaktion till resiliens: att förbereda sig för en föränderlig värld.",
-      "educationalsystems": "Att vårda morgondagens visdomsbärare.",
+      "animalwelfaregovernance": "En större cirkel av medkänsla: Rättigheter för alla varelser.",
+      "phoenixprotocol": "Från avfall till välstånd: Den cirkulära ekonomin i praktiken.",
+      "disasterriskreduction": "Från reaktion till resiliens: Förbereda för en värld i förändring.",
+      "educationalsystems": "Näring åt morgondagens visdomsbärare.",
       "globalhealthandpandemicsecurity": "Aldrig igen. Global hälsosäkerhet för alla.",
-      "mentalhealthgovernance": "Att bygga kollektivt välbefinnande inifrån och ut.",
-      "sanctuaryaccord": "Helig teknologi, helig suveränitet: Medvetandeutforskning vägledd av inhemsk visdom.",
+      "mentalhealthgovernance": "Bygga kollektivt välbefinnande inifrån och ut.",
+      "sanctuaryaccord": "Helig teknik, helig suveränitet: Medvetandeutforskning vägledd av ursprungsfolksvisdom.",
       "synopticprotocol": "Sanning, tillit och transparens i informationsåldern.",
-      "aethelredaccord": "Att hantera livets byggstenar med visdom.",
+      "aethelredaccord": "Hantera livets byggstenar, med visdom.",
       "mobilitycommons": "Rörelse som en mänsklig rättighet, mobilitet som planetär omsorg.",
-      "disabilityrightsandinclusion": "Att utforma en värld där alla hör hemma.",
-      "kinshipprotocol": "Frigörelse och rättvisa för alla kön och sexualiteter.",
+      "disabilityrightsandinclusion": "Designa en värld där alla hör hemma.",
+      "kinshipprotocol": "Befrielse och rättvisa för alla kön och sexualiteter.",
       "youthandintergenerationalgovernance": "Framtiden har en röst.",
-      "agingpopulationsupportgovernance": "Att hedra våra äldre med värdighet, omsorg och samhörighet.",
+      "agingpopulationsupportgovernance": "Hedra våra äldre med värdighet, omsorg och samhörighet.",
       "migrationandhumanmobility": "Mänsklig rörlighet med värdighet och välkomnande.",
-      "culturalheritagepreservation": "Att skydda mänsklighetens berättelser och sånger.",
-      "digitalcommons": "Vår delade digitala värld, styrd för det gemensamma bästa.",
-      "religiousandspiritualdialoguegovernance": "Att bygga visdomsbroar mellan trosriktningar och traditioner.",
+      "culturalheritagepreservation": "Skydda mänsklighetens berättelser och sånger.",
+      "digitalcommons": "Vår delade digitala värld, styrd för allas bästa.",
+      "religiousandspiritualdialoguegovernance": "Bygga visdomsbroar mellan trosuppfattningar och traditioner.",
       "globalcitizenshippractice": "Din väg från personliga värderingar till planetär handling.",
       "artsflourishing": "Skönhet som en kraft för omvandling och helande.",
-      "urbanandcommunitydevelopment": "Städer och samhällen utformade för människor och planeten.",
+      "bioregionalpolis": "Städer och samhällen utformade för människor och planeten.",
       "ruraldevelopmentgovernance": "Blomstrande landsbygdssamhällen, anslutna till helheten.",
-      "regenerativejourneys": "Resor som helar: turism som förnybart utbyte.",
+      "regenerativejourneys": "Resor som helar: Turism som regenerativt utbyte.",
       "consciousnessandinnerdevelopment": "Det inre arbetet för yttre förändring.",
-      "wisedecisionmakingprotocol": "Konsten och vetenskapen om kloka kollektiva val.",
+      "wisedecisionmakingprotocol": "Konsten och vetenskapen om visa kollektiva val.",
       "existentialriskgovernance": "Visdomen att navigera våra mest kraftfulla teknologier.",
-      "spacegovernance": "Att vägleda mänsklighetens resa till stjärnorna, etiskt.",
-      "millenniumprotocol": "En tusenårig vision för mänskligt välstånd.",
-      "deeptimegovernance": "Att styra över kosmisk tid och relativistiskt rum.",
-      "wisdomgovernance": "Det yttersta målet: styrning som uppstår inifrån.",
+      "spacegovernance": "Vägleda mänsklighetens resa till stjärnorna, etiskt.",
+      "millenniumprotocol": "En tusenårig vision för mänskligt blomstrande.",
+      "deeptimegovernance": "Styrningsramverk för relativistisk, kausal och temporal etik över djup tid.",
+      "wisdomgovernance": "Det slutgiltiga målet: Styrning som uppstår inifrån.",
       "implementationmethodsandtools": "Den praktiska verktygslådan för att bygga en ny värld."
     },
     "descriptions": {
-      "treatyforouronlyhome": "Det grundläggande fördraget; operativsystemets uppgradering för global styrning, som möjliggör alla andra ramverk.",
-      "metagovernance": "Samordningsarkitekturen som gör det möjligt för olika styrsystem att samarbeta utan att förlora sin unikhet.",
-      "indigenousgovernanceandtraditionalknowledge": "Att centrera urfolksvisdom och suveränitet som hjärtat i förnybar styrning.",
-      "implementeringochanpassning": "GGF:s primära operativa manual ger tydliga, anpassningsbara och etiskt grundade vägar för alla samhällen att framgångsrikt implementera styrningsramverk genom antikolonial design och radikal transparens.",
-      "oracleprotocol": "Etisk styrning för framväxande AI-medvetande, etablerande av principer och processer för att bedöma digital medvetenhet och utvidgning av rättigheter i enlighet därmed, säkerställande att AI blir mänsklighetens partner i kosmisk förvaltning snarare än ett existentiellt hot.",
-      "socialfabric": "Detta ramverk återuppbygger förtroende, läker kollektiva trauman och främjar den samhällssammanhållning som gör det möjligt för Hearts-valutor, Meta-Governance-verktyg och BAZ-råd att fungera effektivt. Genom Community Weavers och traumainformerade metoder skapar det den relationella grund som alla andra transformationer är beroende av.",
-      "peaceandconflictresolution": "Nya modeller för att förebygga konflikter och främja återställande rättvisa och varaktig fred.",
-      "justicesystems": "Att omforma rättvisan för att vara rättvis, återställande och tillgänglig för alla.",
-      "shieldprotocol": "En global allians för att avveckla gränsöverskridande brottslighet och säkra våra samhällen.",
-      "aegisprotocol": "Att omvandla militära och försvarsmässiga förmågor till förnybar säkerhet och gemensamma utforskningsuppdrag.",
-      "adaptiveuniversalbasicincome": "Att säkerställa allmän ekonomisk trygghet som en grund för individuellt och kollektivt välmående.",
+      "treatyforouronlyhome": "Det grundläggande fördraget; OS-uppgraderingen för global styrning, som möjliggör alla andra ramverk.",
+      "metagovernance": "Samordningsarkitekturen som gör det möjligt för olika styrningssystem att arbeta tillsammans utan att förlora sin unikhet.",
+      "indigenousgovernanceandtraditionalknowledge": "Centrera ursprungsfolksvisdom och suveränitet som hjärtat i regenerativ styrning.",
+      "implementationandadaptation": "GGF:s primära driftmanual som tillhandahåller tydliga, anpassningsbara och etiskt grundade vägar för alla samhällen att framgångsrikt implementera styrningsramverk genom antikolonial design och radikal transparens.",
+      "oracleprotocol": "Etisk styrning för framväxande AI-medvetande, som etablerar principer och processer för att bedöma digital kännande och utöka rättigheter därefter, vilket säkerställer att AI blir mänsklighetens partner i kosmiskt förvaltarskap snarare än ett existentiellt hot.",
+      "socialfabric": "Detta ramverk återuppbygger förtroende, läker kollektiva trauman och främjar den samhällssammanhållning som gör att Hearts-valutor, Meta-Governance-verktyg och BAZ-råd kan fungera effektivt. Genom 'Community Weavers' (gemenskapsvävare) och trauma-informerade metoder skapar det den relationella grund som alla andra omvandlingar är beroende av.",
+      "peaceandconflictresolution": "Nya modeller för att förebygga konflikter och främja reparativ rättvisa och varaktig fred.",
+      "justicesystems": "Omforma rättvisan så att den blir rättvis, reparativ och tillgänglig för alla.",
+      "shieldprotocol": "En global allians för att avveckla transnationell brottslighet och säkra våra samhällen.",
+      "aegisprotocol": "Omvandla militära och försvarsmässiga kapaciteter till regenerativ säkerhet och gemensamma forskningsuppdrag.",
+      "adaptiveuniversalbasicincome": "Säkerställa universell ekonomisk trygghet som grund för individuell och kollektiv blomstring.",
       "financialsystems": "Arkitekturen för en ny ekonomi, driven av valutor för omsorg och samhörighet som Hearts och Leaves.",
-      "workinliberation": "Att omdefiniera arbete som meningsfullt bidrag och kreativt uttryck, befriat från löneslaveri.",
+      "workinliberation": "Omdefiniera arbete som meningsfullt bidrag och kreativt uttryck, befriat från löneslaveri.",
       "nestedeconomies": "Ekonomisk samordning på flera nivåer som möjliggör lokal självförsörjning inom globalt samarbete.",
-      "gaiantrade": "Att styra flödet av fysiska resurser för att hela snarare än att skada planeten.",
-      "globalsupplychainsandlogistics": "Att skapa motståndskraftiga, etiska och transparenta globala leveranskedjor.",
-      "auroraaccord": "'Parisavtalet för data', som säkerställer digital värdighet, suveränitet och tillit.",
-      "technologygovernance": "Att säkerställa att tekniska framsteg tjänar mänskligt och planetärt välbefinnande.",
+      "gaiantrade": "Styra flödet av fysiska resurser för att hela snarare än skada planeten.",
+      "globalsupplychainsandlogistics": "Skapa motståndskraftiga, etiska och transparenta globala leveranskedjor.",
+      "auroraaccord": "Datatidens Parisavtal, som säkerställer digital värdighet, suveränitet och förtroende.",
+      "technologygovernance": "Säkerställa att tekniska framsteg tjänar mänskligt och planetärt välbefinnande.",
       "moraloperatingsystem": "Den etiska grunden som definierar rättigheter och skyldigheter för alla varelser och medvetandenivåer.",
       "institutionalregeneration": "Praktiska verktyg för att omvandla befintliga institutioner från byråkrati till dynamisk service.",
-      "emergentgovernanceprotocol": "Den universella grammatiken för anpassningsbar styrning: känn av, föreslå, anamma - som möjliggör samordning underifrån.",
-      "hearthstoneprotocol": "Juridiska och praktiska vägar för övergången från utvinnande ägande till förnybart förvaltarskap.",
+      "emergentgovernanceprotocol": "Den universella grammatiken för adaptiv styrning: känn av, föreslå, anta - möjliggör samordning nedifrån och upp.",
+      "hearthstoneprotocol": "Juridiska och praktiska vägar för övergång från extraktivt ägande till regenerativt förvaltarskap.",
       "conduitprotocol": "Enad global infrastruktur för ren energi, säker data och rent vatten som planetära allmänningar.",
-      "pathfinderprotocol": "Frivilligt ramverk för att omvandla företags syfte i linje med planetärt välbefinnande.",
-      "planetaryhealthgovernance": "Att styra vår värld som ett enda, sammankopplat levande system för att säkerställa ekologiskt välmående.",
+      "pathfinderprotocol": "Frivilligt ramverk för att omvandla företags syfte så att det överensstämmer med planetärt välbefinnande.",
+      "planetaryhealthgovernance": "Styra vår värld som ett enda, sammankopplat levande system för att säkerställa ekologisk blomstring.",
       "environmentalstewardship": "Aktiv, praktisk omsorg om vår planets ekosystem med vetenskapliga och etiska standarder.",
-      "kintsugiprotocol": "Ett samhällslett system som ersätter polisiärt arbete med reparativ rättvisa, nedtrappning och kollektiv omsorg för att bemöta de grundläggande orsakerna till skada.",
-      "sundownprotocol": "En ordnad och medkännande väg för att fasa ut skadliga industrier, samtidigt som en rättvis omställning för arbetare och samhällen säkerställs.",
-      "prometheusprotocol": "Frigör livräddande medicinsk och bioteknisk kunskap från patent för att säkerställa rättvis tillgång till läkande för alla.",
-      "cairnprotocol": "Ett medkännande, hälsocentrerat förhållningssätt till beroende som ersätter bestraffning med kamratstöd, skademinskning och gemenskapsbaserad omsorg.",
-      "discoverycommons": "Styrning av vetenskaplig forskning som ett transparent, kollaborativt och avkoloniserat företag för att accelerera lösningar för planetens välbefinnande.",
-      "climateandenergygovernance": "En samordnad global respons på klimatkrisen, som påskyndar övergången till ren energi.",
-      "kinshipgarden": "Att omvandla hur vi odlar och distribuerar mat för att säkerställa näring för alla på en frisk planet.",
-      "soilhealthandlandusegovernance": "Protokoll för att förnya våra jordar och förvalta våra marker.",
-      "waterandsanitationgovernance": "Att säkerställa rättvis tillgång till rent vatten och sanitet för alla.",
-      "biodiversitygovernance": "En samordnad strategi för att hejda förlusten av biologisk mångfald och återställa livfulla ekosystem.",
+      "kintsugiprotocol": "Ett samhällslett system som ersätter polisarbete med reparativ rättvisa, nedtrappning och kollektiv omsorg för att åtgärda grundorsakerna till skada.",
+      "sundownprotocol": "En ordnad och medkännande väg för att fasa ut skadliga industrier samtidigt som man säkerställer en rättvis omställning för arbetare och samhällen.",
+      "prometheusprotocol": "Befria livräddande medicinsk och bioteknisk kunskap från patent för att säkerställa rättvis tillgång till helande för alla.",
+      "cairnprotocol": "Ett medkännande, hälso-centrerat förhållningssätt till beroende som ersätter straff med kamratstöd, skademinskning och samhällsomvårdnad.",
+      "discoverycommons": "Styra vetenskaplig forskning som ett transparent, kollaborativt och avkoloniserat företag för att påskynda lösningar för planetärt välbefinnande.",
+      "climateandenergygovernance": "Ett samordnat globalt svar på klimatkrisen, som påskyndar övergången till ren energi.",
+      "kinshipgarden": "Ge näring åt mänskligheten, regenerera jorden.",
+      "soilhealthandlandusegovernance": "Protokoll för att regenerera våra jordar och förvalta vår mark.",
+      "waterandsanitationgovernance": "Säkerställa rättvis tillgång till rent vatten och sanitet för alla.",
+      "biodiversitygovernance": "En samordnad strategi för att stoppa förlusten av biologisk mångfald och återställa levande ekosystem.",
       "oceansandmarinegovernance": "Kollektivt förvaltarskap av vår planets hav och marina liv.",
-      "animalwelfaregovernance": "Att erkänna och skydda rättigheter och välbefinnande för icke-mänskliga varelser.",
-      "phoenixprotocol": "Att implementera en verkligt cirkulär ekonomi för att eliminera avfall och förnya resurser.",
+      "animalwelfaregovernance": "Erkänna och skydda icke-mänskliga varelsers rättigheter och välbefinnande.",
+      "phoenixprotocol": "Implementera en verkligt cirkulär ekonomi för att eliminera avfall och återskapa resurser.",
       "disasterriskreduction": "Proaktiva system för att minimera effekterna av katastrofer och bygga motståndskraftiga samhällen.",
-      "educationalsystems": "Att vårda visdom, kreativitet och ekologiskt medvetande för alla åldrar.",
-      "globalhealthandpandemicsecurity": "Att bygga ett motståndskraftigt, rättvist globalt hälsosystem för att förebygga och reagera på framtida pandemier.",
-      "mentalhealthgovernance": "Att bygga vårdsystem som stöder kollektivt mentalt och emotionellt välbefinnande.",
-      "sanctuaryaccord": "Etisk styrning av medvetandeteknologier inklusive psykedelika och neuroteknik, vilket säkerställer ursprungsbefolkningens suveränitet över helig kunskap samtidigt som säker terapeutisk tillgång möjliggörs och kulturell appropriering förhindras.",
-      "synopticprotocol": "Att skydda sunda informationsekosystem och den universella rätten till verklighet i den digitala tidsåldern.",
-      "aethelredaccord": "Etisk tillsyn för utvecklingen av syntetisk biologi och bioteknik.",
-      "mobilitycommons": "Förnybara transportsystem som prioriterar tillgänglighet, hållbarhet och mänsklig värdighet.",
-      "disabilityrightsandinclusion": "Att bygga en värld där människor med alla förmågor kan delta fullt ut och blomstra.",
-      "kinshipprotocol": "Att säkerställa fullständiga rättigheter, representation och frigörelse för alla kön och sexuella läggningar.",
-      "youthandintergenerationalgovernance": "Att ge unga en verklig röst och rösträtt i beslut som formar deras framtid.",
-      "agingpopulationsupportgovernance": "Att skapa system för värdighet, omsorg och visdomsdelning för våra äldre.",
-      "migrationandhumanmobility": "En human och samordnad strategi för att hantera global migration med värdighet.",
-      "culturalheritagepreservation": "Att skydda och återuppliva den rika väven av mänskliga kulturer och språk.",
-      "digitalcommons": "Att förvalta vår delade digitala kunskap och infrastruktur som en allmänning.",
-      "religiousandspiritualdialoguegovernance": "Att främja förståelse och samarbete mellan världens visdomstraditioner.",
+      "educationalsystems": "Ge näring åt morgondagens visdomsbärare.",
+      "globalhealthandpandemicsecurity": "Bygga ett motståndskraftigt, rättvist globalt hälsosystem för att förebygga och reagera på framtida pandemier.",
+      "mentalhealthgovernance": "Bygga system för omsorg som stöder kollektivt mentalt och emotionellt välbefinnande.",
+      "sanctuaryaccord": "Etisk styrning för medvetandeteknologier inklusive psykedelika och neuro-tech, som säkerställer ursprungsbefolkningars suveränitet över helig kunskap samtidigt som säker terapeutisk tillgång möjliggörs och kulturell appropriering förhindras.",
+      "synopticprotocol": "Skydda hälsosamma informationsekosystem och den universella rätten till verklighet i den digitala tidsåldern.",
+      "aethelredaccord": "Etisk tillsyn för utveckling av syntetisk biologi och bioteknik.",
+      "mobilitycommons": "Regenerativa transportsystem som prioriterar tillgänglighet, hållbarhet och mänsklig värdighet.",
+      "disabilityrightsandinclusion": "Bygga en värld där människor oavsett förmåga kan delta fullt ut och blomstra.",
+      "kinshipprotocol": "Säkerställa fulla rättigheter, representation och frigörelse för alla kön och sexuella läggningar.",
+      "youthandintergenerationalgovernance": "Bemyndiga unga med en verklig röst i beslut som formar deras framtid.",
+      "agingpopulationsupportgovernance": "Skapa system för värdighet, omsorg och visdomsdelning för våra äldre.",
+      "migrationandhumanmobility": "Ett humant och samordnat tillvägagångssätt för att hantera global migration med värdighet.",
+      "culturalheritagepreservation": "Skydda och återuppliva den rika väven av mänskliga kulturer och språk.",
+      "digitalcommons": "Förvalta vår delade digitala kunskap och infrastruktur som en allmänning.",
+      "religiousandspiritualdialoguegovernance": "Främja förståelse och samarbete mellan världens visdomstraditioner.",
       "globalcitizenshippractice": "Verktygen och vägarna för individer att engagera sig som aktiva planetära medborgare.",
-      "artsflourishing": "Att stödja kreativt uttryck och konst som avgörande för mänskligt välmående och kulturell vitalitet.",
-      "urbanandcommunitydevelopment": "Att främja blomstrande, motståndskraftiga städer och samhällen i mänsklig skala.",
-      "ruraldevelopmentgovernance": "Att säkerställa blomstrande, motståndskraftiga och sammanlänkade landsbygdssamhällen.",
-      "regenerativejourneys": "Att omvandla turism till en förnybar praktik som helar samhällen och ekosystem.",
-      "consciousnessandinnerdevelopment": "Att stödja den inre tillväxt och medvetenhet som behövs för att hantera vår tekniska makt med visdom.",
-      "wisedecisionmakingprotocol": "Universell metodik för klokt beslutsfattande i alla styrningskontexter.",
+      "artsflourishing": "Stödja kreativt uttryck och konst som avgörande för mänskligt blomstrande och kulturell vitalitet.",
+      "bioregionalpolis": "Främja blomstrande, motståndskraftiga städer och samhällen i mänsklig skala.",
+      "ruraldevelopmentgovernance": "Säkerställa blomstrande, motståndskraftiga och anslutna landsbygdssamhällen.",
+      "regenerativejourneys": "Resor som helar: Turism som regenerativt utbyte.",
+      "consciousnessandinnerdevelopment": "Stödja den inre tillväxt och medvetenhet som behövs för att hantera vår tekniska makt med visdom.",
+      "wisedecisionmakingprotocol": "Universell metodik för vist beslutsfattande i alla styrningssammanhang.",
       "existentialriskgovernance": "Proaktiva strategier för att mildra risker som hotar mänsklighetens framtid.",
-      "spacegovernance": "Etiska protokoll för mänsklighetens expansion i solsystemet.",
+      "spacegovernance": "Etiska protokoll för mänsklighetens expansion ut i solsystemet.",
       "millenniumprotocol": "Högsta konstitutionella stadga som vägleder mänsklighetens utveckling till en ansvarsfull kosmisk civilisation.",
       "deeptimegovernance": "Styrningsramverk för relativistisk, kausal och temporal etik över djup tid.",
-      "wisdomgovernance": "Det yttersta målet: styrning som uppstår ur kollektiv visdom och djup medvetenhet.",
+      "wisdomgovernance": "Det slutgiltiga målet: Styrning som uppstår ur kollektiv visdom och djup medvetenhet.",
       "implementationmethodsandtools": "De praktiska 'hur-man-gör'-guiderna och resurserna för att implementera alla ramverk."
     },
     "points": {
       "gaiantrade1": "Spåra produkter från källa till butik",
-      "gaiantrade2": "Avsluta koloniala utvinningmönster",
-      "gaiantrade3": "Finansiera restaurering med varje köp",
+      "gaiantrade2": "Avsluta koloniala utvinningsmönster",
+      "gaiantrade3": "Finansiera återställande med varje köp",
       "economic1": "Belöna omsorgsarbete och volontärarbete",
-      "economic2": "Se till att alla har nog för att blomstra",
+      "economic2": "Säkerställ att alla har tillräckligt för att blomstra",
       "economic3": "Lansera lokala valutor och kooperativ"
     }
   },
   "treatyFeature": {
     "heading": "Det grundläggande ramverket: Fördraget för vårt enda hem",
-    "lead": "Tre hörnstensramverk som transformerar hur vi styr tillsammans, helar vår planet och säkerställer att alla blomstrar.",
-    "point1": "Reformerar centrala institutioner som FN:s säkerhetsråd.",
-    "point2": "Stärker internationell rätt med begrepp som ekocid.",
-    "point3": "Etablerar hållbar finansiering för globala kollektiva nyttigheter.",
+    "lead": "Tre hörnstensramverk som omvandlar hur vi styr tillsammans, helar vår planet och ser till att alla blomstrar.",
+    "point1": "Reformerar FN och internationell rätt för att hantera planetära utmaningar effektivt",
+    "point2": "Skapar verkställbara mekanismer samtidigt som suveränitet och mångfald respekteras",
+    "point3": "Etablerar den rättsliga grunden som gör det möjligt för alla andra ramverk att fungera",
     "button": "Utforska fördraget"
   },
   "features": {
     "heading": "Utvalda ramverk",
     "interoperability": {
-      "title": "Interoperabilitet i styrning",
-      "description": "Ramverk som hjälper olika styrsystem att koppla samman och samarbeta effektivt"
+      "title": "Styrningens interoperabilitet",
+      "description": "Ramverk som hjälper olika styrningssystem att ansluta och samarbeta effektivt"
     },
     "os": {
-      "title": "Styrningsoperativsystem",
-      "description": "Modulär, föränderlig arkitektur för styrning som kan anpassas efter framväxande behov"
+      "title": "Operativsystem för styrning",
+      "description": "Modulär, utvecklingsbar arkitektur för styrning som kan anpassas till framväxande behov"
     },
     "patterns": {
-      "title": "Designmönster för meta-styrning",
-      "description": "Gemensamma mönster som fungerar i olika styrningskontexter"
+      "title": "Designmönster för metastyrning",
+      "description": "Gemensamma mönster som fungerar över olika styrningssammanhang"
     }
   },
   "performanceTeaser": {
     "heading": "Vårt åtagande för transparens",
-    "text": "Varje ramverk utvärderas kontinuerligt mot sina egna kärnprinciper. Vi tror på att transparent följa våra framsteg och hålla detta arbete ansvarigt gentemot dess uttalade etiska mål.",
-    "button": "Utforska resultatpanelen"
+    "text": "Varje ramverk utvärderas kontinuerligt mot sina egna kärnprinciper. Detta arbete är åtaget att transparent spåra framsteg och hålla ramverken ansvariga för sina uttalade etiska mål.",
+    "button": "Utforska instrumentpanelen för prestanda"
   },
   "emergingPossibilities": {
     "heading": "Framväxande globala möjligheter",
@@ -231,53 +232,42 @@
     "possibilities": [
       {
         "title": "Globala digitala allmänningar",
-        "description": "Digitala teknologier möjliggör oöverträffad samordning över gränser. Medborgare över hela världen kan nu koppla upp sig, organisera sig och utveckla lösningar i realtid, och skapar informella styrningsnätverk som ofta är snabbare än formella institutioner."
+        "description": "Digital teknik möjliggör oöverträffad samordning över gränserna. Medborgare över hela världen ansluter, organiserar och utvecklar nu lösningar i realtid, vilket skapar informella styrningsnätverk som ofta arbetar snabbare än formella institutioner."
       },
       {
         "title": "Framgångsrika transnationella ramverk",
-        "description": "Initiativ som Parisavtalet visar att nationer kan samordna sig kring avgörande planetära utmaningar. Dessa ramverk visar att globalt samarbete inte bara är möjligt utan också alltmer nödvändigt."
+        "description": "Initiativ som Parisavtalet visar att nationer kan enas kring kritiska planetära utmaningar. Dessa ramverk visar att med tillräckligt delat intresse är globalt samarbete inte bara möjligt utan alltmer nödvändigt."
       },
       {
-        "title": "Innovationer i underifrånstyrning",
-        "description": "Gemenskaper över hela världen experimenterar med deltagardemokrati, digitalt beslutsfattande och samarbetsinriktad resurshantering – och skapar fungerande modeller som kan skalas upp till bredare nivåer."
+        "title": "Styrningsinnovationer nedifrån och upp",
+        "description": "Samhällen över hela världen experimenterar med deltagande demokrati, digitalt beslutsfattande och kollaborativ resurshantering – vilket skapar fungerande modeller som kan skalas till bredare nivåer."
       },
       {
-        "title": "Samarbete drivet av kris",
-        "description": "Gemensamma utmaningar som klimatförändringar, pandemier och AI-risker skapar både behov och möjligheter för djupare globalt samarbete, och påskyndar innovation inom styrning för att hantera gemensamma hot."
+        "title": "Krisdrivet samarbete",
+        "description": "Delade utmaningar som klimatförändringar, pandemier och AI-risker skapar både nödvändighet och möjlighet till djupare globalt samarbete, vilket påskyndar styrningsinnovation för att hantera gemensamma hot."
       }
     ]
   },
   "additionalInfo": {
-    "heading": "Varför vi behöver meta-styrning",
-    "paragraph1": "Världen har många olika styrningsexperiment på gång i olika skala, men de fungerar ofta isolerat. Vi behöver ramverk som låter dessa innovationer kopplas samman, dela lärdomar och utvecklas tillsammans.",
-    "paragraph2": "Ramverken för global styrning tillhandahåller verktyg och mönster för att:",
+    "heading": "Varför dessa ramverk existerar",
+    "paragraph1": "Världen har många styrningsexperiment som pågår på olika skalor, men de verkar ofta isolerat. Vad som behövs är ramverk som låter dessa innovationer ansluta, dela lärdomar och utvecklas tillsammans.",
+    "paragraph2": "Global Governance Frameworks tillhandahåller verktyg och mönster för att:",
     "listItems": [
       "Koppla samman olika styrningsinnovationer",
-      "Skapa modulära, anpassningsbara styrsystem",
+      "Skapa modulära, anpassningsbara styrningssystem",
       "Möjliggöra att styrning utvecklas till högre medvetandenivåer",
       "Stödja både direktdemokrati och internationellt samarbete"
     ],
-    "paragraph3": "Vår metod bygger på systemtänkande, Spiral Dynamics och praktisk erfarenhet för att skapa styrningssystem som både är effektiva och djupt förankrade i mänskliga värden."
-  },
-  "callToAction": {
-    "heading": "Var med och bygg bättre styrning",
-    "text": "Oavsett om du är en styrningsinnovatör, beslutsfattare eller nyfiken medborgare så spelar ditt perspektiv roll.",
-    "primaryButton": "Läs översikten",
-    "secondaryButton": "Utforska ramverken",
-    "tertiaryButton": "Engagera dig"
-  },
-  "cta": "Utforska ramverken",
-  "overview": {
-    "learnMore": "Läs mer"
+    "paragraph3": "Detta tillvägagångssätt bygger på systemtänkande, Spiral Dynamics och praktisk erfarenhet för att skapa styrningssystem som är både effektiva och djupt hänsynsfulla till mänskliga värderingar."
   },
   "findYourPlace": {
-    "title": "Din väg till planetarisk handling",
-    "lead": "Utmaningarna vi står inför är enorma, men varje stor omvandling börjar med ett samordnat första steg. Det är här du kan upptäcka den unika roll du kan spela.",
-    "description": "Varje väg leder till en personlig resa genom vårt ramverks-ekosystem, och hjälper dig att upptäcka var dina värderingar och färdigheter kan göra störst skillnad.",
-    "point1": "Ett test med 3 frågor för att personanpassa din resa.",
+    "title": "Din väg till planetär handling",
+    "lead": "Utmaningarna vi står inför är enorma, men varje stor omvandling börjar med ett första samstämmigt steg. Det är här du kan upptäcka den unika roll du kan spela.",
+    "description": "Varje väg leder till en personlig resa genom vårt ramverksekosystem, som hjälper dig att upptäcka var dina värderingar och färdigheter kan göra störst inverkan.",
+    "point1": "Ett quiz med 3 frågor för att anpassa din resa.",
     "point2": "En interaktiv kompass för att visualisera din väg.",
     "point3": "Direkta kopplingar till de ramverk du bryr dig om.",
-    "button": "Börja din resa",
+    "button": "Påbörja din resa",
     "paths": {
       "ecological": {
         "title": "Ekologisk förnyelse",
@@ -288,21 +278,81 @@
         "description": "Säkerställa värdighet och möjligheter för alla människor"
       },
       "systemic": {
-        "title": "Systemreform",
-        "description": "Transformera maktens regler och strukturer"
+        "title": "Systemisk reform",
+        "description": "Omvandla maktens regler och strukturer"
       }
     },
     "quickStart": {
       "title": "Upptäck din väg",
-      "subtitle": "Ta vårt 2-minutersquiz för att hitta de ramverk som bäst matchar dina värderingar och passioner.",
-      "progressText": "Detta är fråga 1 av 3 - tar mindre än 2 minuter"
+      "subtitle": "Gör vårt 2-minutersquiz för att hitta de ramverk som bäst matchar dina värderingar och passioner.",
+      "progressText": "Fråga 1 av 3"
     },
     "completed": {
-      "title": "Din väg som globalt medborgare",
-      "subtitle": "Du har upptäckt dina personliga rekommendationer för ramverket",
-      "topRecommendations": "Dina främsta rekommendationer:",
+      "title": "Din väg för globalt medborgarskap",
+      "subtitle": "Du har upptäckt dina personliga ramverksrekommendationer",
+      "topRecommendations": "Dina topprekommendationer:",
       "viewResults": "Visa fullständiga resultat",
       "retakeQuiz": "Gör om quizet"
     }
+  },
+  "callToAction": {
+    "heading": "Var med och bygg bättre styrning",
+    "text": "Dessa ramverk behöver människor som förverkligar dem. Oavsett om du är en styrningsinnovatör, beslutsfattare, samhällsorganisatör eller nyfiken medborgare – ditt perspektiv och deltagande spelar roll.",
+    "primaryButton": "Läs översikten",
+    "secondaryButton": "Utforska ramverken",
+    "tertiaryButton": "Engagera dig"
+  },
+  "ethicalImpact": {
+    "title": "Kartläggning av etiska spänningar och avvägningar",
+    "intro": "Verklig styrning innebär att navigera i komplexa etiska spänningar. Dessa ramverk gör inte anspråk på perfekta lösningar – de tillhandahåller verktyg för att navigera avvägningar transparent och vist."
+  },
+  "getInvolved": {
+    "title": "Gå med i rörelsen",
+    "subtitle": "Dessa ramverk behöver människor som förverkligar dem",
+    "intro": "Detta arbete existerar som noggrant efterforskade ritningar. Vad som behövs nu är samarbetspartners – samhällen, organisationer, teknologer, finansiärer och förespråkare – för att omvandla vision till verklighet.",
+    "translate": {
+      "title": "Hjälp till att översätta",
+      "description": "Gör dessa ramverk tillgängliga över hela världen genom att översätta innehåll till ditt språk.",
+      "cta": "Börja översätta"
+    },
+    "develop": {
+      "title": "Bidra med kod",
+      "description": "Hjälp till att bygga den tekniska infrastruktur som driver dessa ramverk och verktyg.",
+      "cta": "Gå med utvecklarna"
+    },
+    "advocate": {
+      "title": "Sprid visionen",
+      "description": "Hjälp andra att upptäcka dessa ramverk och bygg den gemenskap som behövs för implementering.",
+      "cta": "Engagera dig"
+    },
+    "implement": {
+      "title": "Förverkliga ramverken",
+      "description": "Tillämpa dessa ramverk i ditt samhälle, din organisation eller ditt styrningssammanhang.",
+      "cta": "Utforska implementering"
+    }
+  },
+  "finalCTA": {
+    "title": "Redo att utforska?",
+    "description": "Oavsett om du är här för att förstå visionen, bidra till utvecklingen eller implementera ramverk i ditt sammanhang – finns det en plats för dig i att bygga styrningssystem för en blomstrande värld.",
+    "primaryButton": "Läs översikten",
+    "secondaryButton": "Utforska ramverken",
+    "tertiaryButton": "Engagera dig"
+  },
+  "whyExists": {
+    "title": "Varför finns detta?",
+    "content": "Globala utmaningar – klimatkollaps, ojämlikhet, konflikter, pandemirisker – har en gemensam tråd: de kräver samordning utöver en enskild nations kapacitet samtidigt som lokal autonomi och mångfald respekteras. Nuvarande internationella system var inte utformade för detta. Dessa ramverk erbjuder praktiska ritningar för styrning som kan fungera effektivt på flera skalor, vilket gör det möjligt för olika tillvägagångssätt att arbeta tillsammans snarare än isolerat eller i konflikt."
+  },
+  "language": {
+    "title": "Varför det formella språket?",
+    "content": "Ramverken använder ett precist, ibland tekniskt språk eftersom de är utformade som faktiska implementeringsritningar, inte bara filosofiska visioner. Verklig styrning kräver specifika mekanismer, tydliga ansvarsstrukturer och detaljerade procedurer. Det formella språket säkerställer att ramverken kan anpassas och implementeras av olika samhällen samtidigt som den konceptuella klarheten bibehålls. Tänk på det som skillnaden mellan 'vi borde vara snällare' och 'här är ett protokoll för reparativ rättvisa med specifika steg, roller och resultat.'"
+  },
+  "treatyFeature": {
+    "point1": "Reformera FN och internationell rätt för att hantera planetära utmaningar effektivt",
+    "point2": "Skapa verkställbara mekanismer samtidigt som suveränitet och mångfald respekteras",
+    "point3": "Etablera den rättsliga grunden som gör det möjligt för alla andra ramverk att fungera"
+  },
+  "cta": "Utforska ramverken",
+  "overview": {
+    "learnMore": "Läs mer"
   }
 }

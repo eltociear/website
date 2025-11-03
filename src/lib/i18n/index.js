@@ -267,10 +267,8 @@ async function loadTranslations(newLocale, route = '/') {
       await loadAndAssignTranslation(newLocale, 'common', 'common', translationData);
 
       // 2. Load framework nav translations if on a framework page
-      if (cleanRoute.startsWith('/frameworks')) {
-        if (DEBUG_I18N) console.log('Loading framework navigation translations...');
-        await loadAndAssignTranslation(newLocale, 'framework', 'framework', translationData);
-      }
+      if (DEBUG_I18N) console.log('Loading framework navigation translations...');
+      await loadAndAssignTranslation(newLocale, 'framework', 'framework', translationData);
 
       // 3. Special case: Load findYourPlace translations on home page
       if (cleanRoute === '/' || cleanRoute === '') {

@@ -1,7 +1,7 @@
 {
   "hero": {
-    "title": "About the Project",
-    "subtitle": "Building frameworks for global governance that balance unity with diversity."
+    "title": "About This Project",
+    "subtitle": "A vision for global governance that balances unity with diversity—offered openly to those who can bring it to life."
   },
   "globalGovernanceDownload": {
     "title": "Global Governance Book",
@@ -10,29 +10,40 @@
   },
   "moreResources": {
     "title": "Explore More Resources",
-    "description": "Discover our full library, including additional books, whitepapers, and articles on global governance and systems thinking.",
+    "description": "Discover the full library, including additional books, whitepapers, and articles on global governance and systems thinking.",
     "button": "Visit the Resources Page"
   },
+  "origins": {
+    "title": "How This Work Began",
+    "paragraph1": "I've spent years fascinated by a fundamental question: What would it take for humanity to truly thrive together? This project emerged from that inquiry, beginning with the book 'Global Governance - Natural Steps Toward a Thriving World' and evolving into comprehensive frameworks for practical implementation.",
+    "paragraph2": "Working in partnership with advanced AI systems (Claude, Gemini, ChatGPT, Grok, and DeepSeek), I've developed what you see here: an extensive ecosystem of governance frameworks that address real planetary challenges with actionable solutions. This human-AI collaboration demonstrates how technology can enhance rather than replace human wisdom in governance design—it's a practical application of the ethical technology governance these frameworks advocate for."
+  },
+  "currentReality": {
+    "title": "The Current State: Vision Seeking Builders",
+    "paragraph1": "Let me be transparent: Global Governance Frameworks is not yet a formal organization. It's currently my project—developed with care, offered openly, and designed for those ready to transform vision into reality.",
+    "paragraph2": "The frameworks exist as carefully-researched blueprints. The work is substantial, the design is thorough, and the potential is real. What's needed now are the people, communities, organizations, and funders who recognize the value and can help bring it to life.",
+    "paragraph3": "This honest positioning isn't a weakness—it's an invitation. Every transformative initiative began with someone sharing an idea worth pursuing. This could become a genuine global governance ecosystem if the right collaborators recognize its potential and commit to building it together."
+  },
   "vision": {
-    "title": "Our Vision",
-    "paragraph1": "The Global Governance Framework project emerged from the ideas presented in 'Global Governance - Natural Steps Toward a Thriving World,' exploring how we can create governance systems that operate effectively at multiple scales while respecting both global needs and local autonomy.",
-    "paragraph2": "We believe that true global governance isn't about creating a single world government, but rather developing frameworks that allow diverse governance experiments to interoperate, share lessons, and evolve together."
+    "title": "The Vision We're Building Toward",
+    "paragraph1": "The goal is to create governance frameworks that enable diverse systems to interoperate, share lessons, and evolve together. True global governance isn't about creating a single world government—it's about developing protocols that let different governance experiments collaborate while respecting local autonomy.",
+    "paragraph2": "These frameworks are designed to be modular, adaptable, and owned by the communities that use them. They're not meant to impose solutions but to provide tools that enable better coordination at every scale—from local communities to planetary challenges."
   },
   "interconnectedness": {
     "title": "A More Connected World",
     "paragraph1": "We're living in an era of unprecedented global interconnection. Digital technologies, transportation networks, and economic systems now link people across the world in real-time, creating new possibilities for coordination and collaborative problem-solving.",
-    "paragraph2": "This growing interconnectedness is already giving rise to governance innovations - from transnational climate initiatives to digital democracies and community-led resource management systems.",
-    "paragraph3": "By providing common frameworks, protocols, and design patterns, we can help these diverse innovations connect, cooperate, and learn from each other."
+    "paragraph2": "This growing interconnectedness is already giving rise to governance innovations—from transnational climate initiatives to digital democracies and community-led resource management systems.",
+    "paragraph3": "By providing common frameworks, protocols, and design patterns, these tools can help diverse innovations connect, cooperate, and learn from each other."
   },
   "acceleration": {
     "title": "Accelerating Positive Developments",
-    "paragraph1": "Around the world, we see promising experiments in more participatory, transparent, and effective governance. These include:",
+    "paragraph1": "Around the world, promising experiments in more participatory, transparent, and effective governance are emerging. These include:",
     "examples": [
-      {"title": "Digital Democracy Initiatives", "description": "Tools enabling citizens to participate directly in decision-making at unprecedented scales"},
-      {"title": "Regional Cooperation Frameworks", "description": "Associations that enable diverse nations to collaborate while respecting sovereignty"},
-      {"title": "Community-Led Governance", "description": "Local experiments in participatory resource management and direct democracy"}
+      {"title": "Digital democracy initiatives", "description": "Tools enabling citizens to participate directly in decision-making at unprecedented scales"},
+      {"title": "Regional cooperation frameworks", "description": "Associations that enable diverse nations to collaborate while respecting sovereignty"},
+      {"title": "Community-led governance", "description": "Local experiments in participatory resource management and direct democracy"}
     ],
-    "paragraph2": "Our framework helps accelerate these positive developments by:",
+    "paragraph2": "These frameworks help accelerate positive developments by:",
     "benefits": [
       "Creating common standards that enable different governance systems to communicate",
       "Documenting successful patterns that can be adapted to diverse contexts",
@@ -50,8 +61,8 @@
     ]
   },
   "approach": {
-    "title": "Our Approach",
-    "intro": "We're developing practical frameworks, design patterns, and interface standards that can help global governance innovators create systems that:",
+    "title": "The Approach",
+    "intro": "These frameworks provide practical blueprints, design patterns, and interface standards to help governance innovators create systems that:",
     "list": [
       "Balance direct democracy with effective global coordination",
       "Allow for cultural diversity within a unified ethical framework",
@@ -59,41 +70,55 @@
       "Evolve along with human consciousness and technological capabilities"
     ]
   },
-  "origins": {
-    "title": "Project Origins",
-    "paragraph1": "We are driven by a lifelong fascination with the Earth as a shared home and the need for ethical systems that serve all life. This project began with a fundamental question: What would it take for humanity to thrive together?",
-    "paragraph2": "Global Governance Frameworks is our response. It builds on ideas first explored in 'Global Governance - Natural Steps Toward a Thriving World,' taking concepts like holarchic governance and making them practical and accessible for building a more interconnected, inclusive, and future-ready world."
-  },
   "development": {
-    "title": "Our Development Process",
-    "paragraph1": "This work is offered openly, shaped by conversations with AI systems like Claude, Gemini, ChatGPT, Grok, and DeepSeek, and grounded in the belief that good governance must emerge from shared wisdom. This Human-AI collaborative process allows us to achieve a comprehensive research synthesis and maximize the diversity of analytical perspectives.",
-    "paragraph2": "This approach demonstrates how AI can serve as a partner in governance and development work—enhancing human creativity and insight without replacing human judgment and ethical oversight. It is a practical application of the ethical technology governance we advocate for: transparent, human-directed, and aligned with our values.",
+    "title": "The Development Process",
+    "paragraph1": "This work is offered openly, shaped by conversations with AI systems and grounded in the belief that good governance must emerge from shared wisdom. This human-AI collaborative process allows for comprehensive research synthesis and maximizes the diversity of analytical perspectives.",
+    "paragraph2": "This approach demonstrates how AI can serve as a partner in governance and development work—enhancing human creativity and insight without replacing human judgment and ethical oversight. It's a practical application of the ethical technology governance these frameworks advocate for: transparent, human-directed, and aligned with core values.",
     "paragraph3": ""
+  },
+  "seekingCollaborators": {
+    "title": "Building the 'We' Together",
+    "paragraph1": "Throughout these frameworks, you'll see 'we' used not because there's an established organization with staff and infrastructure, but because the frameworks are designed for collective implementation. The 'we' is aspirational—it represents the community this work hopes to help build.",
+    "paragraph2": "If you're reading this and the vision resonates, you're invited to help shape what Global Governance Frameworks becomes. Whether you're Indigenous community leaders, governance innovators, funders, technologists, researchers, or advocates—your participation transforms this from a solo project into a genuine collaborative movement.",
+    "paragraph3": "The frameworks are released under open licenses, meaning you're free to use, adapt, and implement them in ways that serve your community's needs. You don't need permission—you need only the commitment to bring these ideas to life with integrity."
   },
   "foundersNote": {
      "title": "A Note from the Initiator",
-     "paragraph1": "The ideas in the Global Governance Frameworks are not just abstract theories for me; they are the result of a lifelong inquiry into how humanity can thrive.",
-     "paragraph2": "This work is deeply informed by a personal journey through both transcendent states of unity and the profound, sobering reality of the world's suffering and my own. It was from this place of integration—holding both the vision of our highest potential and the pain of our current reality—that the GGF was born.",
-     "paragraph3": "It is my attempt to build a practical, compassionate scaffolding that can help us all bridge that gap. It is offered not as a final answer, but as an open invitation to build a better world together, grounded in the belief that even the most complex global problems can be met with wisdom and care.",
+     "paragraph1": "The ideas in Global Governance Frameworks are not abstract theories for me—they're the result of a lifelong inquiry into how humanity can thrive. This work is deeply informed by a personal journey through both transcendent states of unity and the profound, sobering reality of the world's suffering and my own.",
+     "paragraph2": "It was from this place of integration—holding both the vision of our highest potential and the pain of our current reality—that these frameworks were born. They represent my attempt to build a practical, compassionate scaffolding that can help us all bridge that gap.",
+     "paragraph3": "These frameworks are offered not as a final answer, but as an open invitation to build a better world together, grounded in the belief that even the most complex global problems can be met with wisdom and care. If they resonate with you, I invite you to join in bringing them to life.",
      "signature": "— Björn Kenneth Holmström"
   },
   "getInvolved": {
     "title": "Get Involved",
     "contribute": {
       "title": "Contribute Ideas",
-      "description": "Share your thoughts and perspectives on governance interoperability and meta-frameworks.",
-      "link": "Contact Us →"
+      "description": "Share your thoughts and perspectives on governance interoperability and framework development.",
+      "link": "Contact us →"
     },
     "join": {
       "title": "Join the Community",
-      "description": "Connect with others interested in global governance innovation and framework development.",
-      "primaryLink": "Get Involved →",
-      "secondaryLink": "GitHub Repository ↗"
+      "description": "Connect with others interested in global governance innovation and help build the collaborative network these frameworks envision.",
+      "primaryLink": "Get involved →",
+      "secondaryLink": "GitHub repository ↗"
     },
     "apply": {
-      "title": "Apply the Framework",
-      "description": "Test and implement these ideas in your own governance experiments and initiatives.",
-      "link": "Explore the Framework →"
+      "title": "Apply the Frameworks",
+      "description": "Test and implement these ideas in your own governance experiments and initiatives—no permission needed.",
+      "link": "Explore the frameworks →"
     }
+  },
+  "whatWeNeed": {
+    "title": "What This Project Needs",
+    "paragraph1": "To move from blueprints to reality, this work needs collaborators across multiple domains:",
+    "needs": [
+      {"category": "Indigenous leaders", "description": "Guidance on ensuring true sovereignty and cultural integrity in framework implementation"},
+      {"category": "Governance innovators", "description": "Practitioners testing these approaches in real communities and organizations"},
+      {"category": "Funders", "description": "Support for pilot projects, organizational development, and infrastructure"},
+      {"category": "Technologists", "description": "Developers building community-controlled tools and platforms"},
+      {"category": "Researchers", "description": "Academic engagement that serves communities rather than extracting from them"},
+      {"category": "Advocates", "description": "People helping spread these ideas to communities who might benefit"}
+    ],
+    "paragraph2": "If you see yourself in any of these categories—or others not listed—and the vision resonates, your involvement could help transform these frameworks from carefully-designed blueprints into functioning governance systems serving real communities."
   }
 }

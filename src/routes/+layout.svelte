@@ -1,13 +1,12 @@
 <script>
   import '../app.css';
   import Footer from '$lib/components/Footer.svelte';
-  import { locale, loadTranslations, detectLocale } from '$lib/i18n';
+  import { translationsLoaded, locale, loadTranslations, detectLocale } from '$lib/i18n';
   import { onMount, onDestroy } from 'svelte';
   import { navigating, page } from '$app/stores';
   import { browser } from '$app/environment';
   import { base } from '$app/paths';
   import { afterNavigate, goto } from '$app/navigation'; // ← ADD goto import
-  import { writable } from 'svelte/store';
   import Header from '$lib/components/Header.svelte';
   import GlobalNotice from '$lib/components/GlobalNotice.svelte';
   import { registerServiceWorker } from '$lib/utils/registerServiceWorker';
@@ -19,9 +18,6 @@
   let serviceWorkerRegistered = false;
   let loadingTimeout = null;
   
-  // Initialize as false to prevent premature rendering
-  const translationsLoaded = writable(false);
-
   // Add this function to handle sidebar clicks without preloading
   function handleSidebarClick(event) {
     const sidebarLink = event.target.closest('.sidebar a');

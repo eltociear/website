@@ -1,6 +1,6 @@
 <!-- src/lib/components/Header.svelte -->
 <script>
-  import { t, locale, locales, getLanguageName, setLocale } from '$lib/i18n';
+  import { t, translationsLoaded, locale, locales, getLanguageName, setLocale } from '$lib/i18n';
   import { page } from '$app/stores';
   import { base } from '$app/paths';
   import { onMount } from 'svelte';
@@ -259,7 +259,7 @@
       isHighlighted,
       isPrimal,
       showEmoji,
-      displayText: browser ? ($t(framework.titleKey) || framework.title || framework.name || framework.slug) : (framework.title || framework.name || framework.slug),
+      displayText: (browser && $translationsLoaded) ? ($t(framework.titleKey) || framework.title || framework.name || framework.slug) : (framework.title || framework.name || framework.slug),
       emoji: framework.emoji || '🔗'
     };
   }
@@ -1369,7 +1369,7 @@
                 class={`nav-link ${browser && $page.url.pathname.startsWith(base + '/frameworks') ? 'active' : ''}`}
                 data-sveltekit-preload-data="tap"
               >
-                {browser ? ($t('common.header.framework') || 'Frameworks') : 'Frameworks'}
+                {browser && $translationsLoaded ? ($t('common.header.framework') || 'Frameworks') : 'Frameworks'}
                 <svg xmlns="http://www.w3.org/2000/svg" class="dropdown-icon hidden md:inline-block" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
                 </svg>
@@ -1398,7 +1398,7 @@
                   data-sveltekit-preload-data="tap" 
                   role="menuitem"
                 >
-                  👤 {browser ? ($t('common.header.myPath') || 'My Path') : 'My Path'}
+                  👤 {browser && $translationsLoaded ? ($t('common.header.myPath') || 'My Path') : 'My Path'}
                 </a>
               {:else}
                 <a 
@@ -1407,7 +1407,7 @@
                   data-sveltekit-preload-data="tap" 
                   role="menuitem"
                 >
-                  🧭 {browser ? ($t('common.header.findYourPlace') || 'Find Your Place') : 'Find Your Place'}
+                  🧭 {browser && $translationsLoaded ? ($t('common.header.findYourPlace') || 'Find Your Place') : 'Find Your Place'}
                 </a>
               {/if}
               
@@ -1417,7 +1417,7 @@
               <!-- Desktop: Implementation Frameworks with Tiered Sub-Sub-Menus -->
               <div class="dropdown-submenu desktop-only">
                 <a href="{base}/frameworks" role="menuitem">
-                  {browser ? ($t('common.header.tieredFrameworks') || 'Tiered Frameworks') : 'Tiered Frameworks'}
+                  {browser && $translationsLoaded ? ($t('common.header.tieredFrameworks') || 'Tiered Frameworks') : 'Tiered Frameworks'}
                 </a>
                 <div class="dropdown-menu-level2">
                   {#each tiers as tier}
@@ -1427,7 +1427,7 @@
                     
                     <div class="tier-submenu" on:mouseenter={handleSubmenuHover}>
                       <a href="{base}/frameworks/tier-{tier}" role="menuitem">
-                        {browser ? ($t(tierMetadata[tier]?.titleKey) || `Tier ${tier}`) : `Tier ${tier}`}
+                        {browser && $translationsLoaded ? ($t(tierMetadata[tier]?.titleKey) || `Tier ${tier}`) : `Tier ${tier}`}
                       </a>
                       <div class="dropdown-menu-level3">
                         {#if groups.length > 0}
@@ -1439,7 +1439,7 @@
                             {#if groupFrameworks.length > 0}
                               <div class="framework-group-header">
                                 <span class="group-label">
-                                  {groupInfo?.emoji || '📋'} {browser ? ($t(groupInfo?.titleKey) || group) : group}
+                                  {groupInfo?.emoji || '📋'} {browser && $translationsLoaded ? ($t(groupInfo?.titleKey) || group) : group}
                                 </span>
                               </div>
                               {#each groupFrameworks as framework}
@@ -1462,7 +1462,7 @@
                           {#if ungroupedFrameworks.length > 0}
                             <div class="framework-group-header">
                               <span class="group-label">
-                                📌 {browser ? ($t('framework.groups.other.title') || 'Other') : 'Other'}
+                                📌 {browser && $translationsLoaded ? ($t('framework.groups.other.title') || 'Other') : 'Other'}
                               </span>
                             </div>
                             {#each ungroupedFrameworks as framework}
@@ -1509,7 +1509,7 @@
                   on:click|stopPropagation={(e) => toggleTieredFrameworks(e)}
                   aria-label={isTieredFrameworksOpen ? 'Close tiered frameworks' : 'Open tiered frameworks'}
                 >
-                  <span>{browser ? ($t('common.header.tieredFrameworks') || 'Tiered Frameworks') : 'Tiered Frameworks'}</span>
+                  <span>{browser && $translationsLoaded ? ($t('common.header.tieredFrameworks') || 'Tiered Frameworks') : 'Tiered Frameworks'}</span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
                   </svg>
@@ -1528,7 +1528,7 @@
                         on:click|stopPropagation={(e) => toggleTier(tier, e)}
                         aria-label={openTiers[tier] ? `Close tier ${tier}` : `Open tier ${tier}`}
                       >
-                        <span>{browser ? ($t(tierMetadata[tier]?.titleKey) || `Tier ${tier}`) : `Tier ${tier}`}</span>
+                        <span>{browser && $translationsLoaded ? ($t(tierMetadata[tier]?.titleKey) || `Tier ${tier}`) : `Tier ${tier}`}</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
                         </svg>
@@ -1545,7 +1545,7 @@
                             {#if groupFrameworks.length > 0}
                               <div class="mobile-group-header">
                                 <span class="mobile-group-label">
-                                  {groupInfo?.emoji || '📋'} {browser ? ($t(groupInfo?.titleKey) || group) : group}
+                                  {groupInfo?.emoji || '📋'} {browser && $translationsLoaded ? ($t(groupInfo?.titleKey) || group) : group}
                                 </span>
                               </div>
                               {#each groupFrameworks as framework}

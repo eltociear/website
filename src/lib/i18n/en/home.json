@@ -1,13 +1,13 @@
 {
   "title": "Global Governance Frameworks",
-  "subtitle": "Connecting governance innovations across the world",
+  "subtitle": "An Open Invitation to Build Governance Systems for a Thriving World",
   "intro": {
-    "heading": "What would it take for humanity to thrive together?",
-    "text": "Explore our living ecosystem of governance frameworks—an interconnected network of solutions for planetary transformation."
+    "heading": "What Would It Take for Humanity to Thrive Together?",
+    "text": "Explore an interconnected ecosystem of governance frameworks—practical blueprints for planetary transformation, developed through human-AI collaboration and offered freely to those ready to bring them to life."
   },
   "threePillars": {
     "title": "The Blueprint for a Regenerative World",
-    "intro": "Our world faces interconnected crises that require a new way of thinking and organizing. The Global Governance Frameworks provide a comprehensive, open-source blueprint for this transformation, built upon three integrated pillars:",
+    "intro": "Our world faces interconnected crises that require new ways of thinking and organizing. These governance frameworks provide a comprehensive, open-source blueprint for transformation, built upon three integrated pillars:",
     "pillar1": {
       "label": "The Hardware",
       "title": "The Treaty for Our Only Home",
@@ -17,7 +17,7 @@
     "pillar2": {
       "label": "The Heart",
       "title": "Indigenous & Traditional Knowledge Governance",
-      "description": "The ethical and philosophical compass for the entire ecosystem. It centers the wisdom of Right Relationship and Indigenous sovereignty, ensuring that our solutions are not just effective, but also just, wise, and truly regenerative.",
+      "description": "The ethical and philosophical compass for the entire ecosystem. It centers the wisdom of Right Relationship and Indigenous sovereignty, ensuring that solutions are not just effective, but also just, wise, and truly regenerative.",
       "link": "Learn About Indigenous Wisdom →"
     },
     "pillar3": {
@@ -36,7 +36,7 @@
   },
   "featuredFramework": {
     "heading": "From Vision to Action: The Aegis Protocol",
-    "intro": "The vision of 'Unity Beyond the Known' becomes reality through The Aegis Protocol—a transformative framework that redirects our $2.7 trillion global military spending toward planetary defense, cosmic exploration, and species-level cooperation.",
+    "intro": "The vision of 'Unity Beyond the Known' becomes reality through the Aegis Protocol—a transformative framework that redirects our $2.7 trillion global military spending toward planetary defense, cosmic exploration, and species-level cooperation.",
     "point1": "Transforms military budgets into funding for asteroid defense, climate security, and interstellar exploration missions",
     "point2": "Creates the prestigious Earth Defense Force (EDF), giving major powers a unifying mission beyond terrestrial competition", 
     "point3": "Ensures just transition through AUBI support, retraining programs, and dignified career paths for defense personnel",
@@ -48,6 +48,7 @@
   "constellation": {
     "title": "From Architecture to Action: The Framework Ecosystem",
     "subtitle": "Built upon this foundation is a growing library of detailed frameworks that provide practical solutions for specific global challenges. Explore the interactive constellation below:",
+    "intro": "Each framework is designed to work independently while connecting seamlessly with others. Click any framework to learn more about its specific approach and implementation pathways.",
     "taglines": {
       "treatyforouronlyhome": "The Operating System Upgrade for a Planet in Crisis.",
       "metagovernance": "The Nervous System: Coordinating All Frameworks Without Control.",
@@ -222,7 +223,7 @@
   },
   "performanceTeaser": {
     "heading": "Our Commitment to Transparency",
-    "text": "Each framework is continuously evaluated against its own core principles. We believe in transparently tracking our progress and holding this work accountable to its stated ethical goals.",
+    "text": "Each framework is continuously evaluated against its own core principles. This work is committed to transparently tracking progress and holding the frameworks accountable to their stated ethical goals.",
     "button": "Explore the Performance Dashboard"
   },
   "emergingPossibilities": {
@@ -248,8 +249,8 @@
     ]
   },
   "additionalInfo": {
-    "heading": "Why We Need Meta-Governance",
-    "paragraph1": "The world has numerous governance experiments happening at different scales, but they often operate in isolation. We need frameworks that allow these innovations to connect, share lessons, and evolve together.",
+    "heading": "Why These Frameworks Exist",
+    "paragraph1": "The world has numerous governance experiments happening at different scales, but they often operate in isolation. What's needed are frameworks that allow these innovations to connect, share lessons, and evolve together.",
     "paragraph2": "Global Governance Frameworks provides tools and patterns for:",
     "listItems": [
       "Connecting different governance innovations",
@@ -257,18 +258,7 @@
       "Enabling governance to evolve to higher levels of consciousness",
       "Supporting both direct democracy and international cooperation"
     ],
-    "paragraph3": "Our approach draws on systems thinking, Spiral Dynamics, and practical experience to create governance systems that are both efficient and deeply considerate of human values."
-  },
-  "callToAction": {
-    "heading": "Join Us in Building Better Governance",
-    "text": "Whether you're a governance innovator, policy maker, or curious citizen, your perspective matters.",
-    "primaryButton": "Read the Overview",
-    "secondaryButton": "Explore the Frameworks",
-    "tertiaryButton": "Get Involved"
-  },
-  "cta": "Explore the Frameworks",
-  "overview": {
-    "learnMore": "Learn More"
+    "paragraph3": "This approach draws on systems thinking, Spiral Dynamics, and practical experience to create governance systems that are both efficient and deeply considerate of human values."
   },
   "findYourPlace": {
     "title": "Your Pathway to Planetary Action",
@@ -304,5 +294,65 @@
       "viewResults": "View Full Results",
       "retakeQuiz": "Retake Quiz"
     }
+  },
+  "callToAction": {
+    "heading": "Join in Building Better Governance",
+    "text": "These frameworks need people to bring them to life. Whether you're a governance innovator, policy maker, community organizer, or curious citizen—your perspective and participation matter.",
+    "primaryButton": "Read the Overview",
+    "secondaryButton": "Explore the Frameworks",
+    "tertiaryButton": "Get Involved"
+  },
+  "ethicalImpact": {
+    "title": "Mapping Ethical Tensions and Tradeoffs",
+    "intro": "Real-world governance involves navigating complex ethical tensions. These frameworks don't claim perfect solutions—they provide tools for navigating tradeoffs transparently and wisely."
+  },
+  "getInvolved": {
+    "title": "Join the Movement",
+    "subtitle": "These Frameworks Need People to Bring Them to Life",
+    "intro": "This work exists as carefully-researched blueprints. What's needed now are collaborators—communities, organizations, technologists, funders, and advocates—to transform vision into reality.",
+    "translate": {
+      "title": "Help Translate",
+      "description": "Make these frameworks accessible worldwide by translating content into your language.",
+      "cta": "Start Translating"
+    },
+    "develop": {
+      "title": "Contribute Code",
+      "description": "Help build the technical infrastructure that powers these frameworks and tools.",
+      "cta": "Join Developers"
+    },
+    "advocate": {
+      "title": "Spread the Vision",
+      "description": "Help others discover these frameworks and build the community needed for implementation.",
+      "cta": "Get Involved"
+    },
+    "implement": {
+      "title": "Bring Frameworks to Life",
+      "description": "Apply these frameworks in your community, organization, or governance context.",
+      "cta": "Explore Implementation"
+    }
+  },
+  "finalCTA": {
+    "title": "Ready to Explore?",
+    "description": "Whether you're here to understand the vision, contribute to development, or implement frameworks in your context—there's a place for you in building governance systems for a thriving world.",
+    "primaryButton": "Read the Overview",
+    "secondaryButton": "Explore the Frameworks",
+    "tertiaryButton": "Get Involved"
+  },
+  "whyExists": {
+    "title": "Why Does This Exist?",
+    "content": "Global challenges—climate breakdown, inequality, conflict, pandemic risks—share a common thread: they require coordination beyond any single nation's capacity while respecting local autonomy and diversity. Current international systems weren't designed for this. These frameworks offer practical blueprints for governance that can operate effectively at multiple scales, enabling diverse approaches to work together rather than in isolation or conflict."
+  },
+  "language": {
+    "title": "Why the Formal Language?",
+    "content": "The frameworks use precise, sometimes technical language because they're designed as actual implementation blueprints, not just philosophical visions. Real governance requires specific mechanisms, clear accountability structures, and detailed procedures. The formal language ensures frameworks can be adapted and implemented by diverse communities while maintaining conceptual clarity. Think of it as the difference between 'we should be kinder' and 'here's a restorative justice protocol with specific steps, roles, and outcomes.'"
+  },
+  "treatyFeature": {
+    "point1": "Reforms the UN and international law to address planetary challenges effectively",
+    "point2": "Creates enforceable mechanisms while respecting sovereignty and diversity",
+    "point3": "Establishes the legal foundation enabling all other frameworks to function"
+  },
+  "cta": "Explore the Frameworks",
+  "overview": {
+    "learnMore": "Learn More"
   }
 }

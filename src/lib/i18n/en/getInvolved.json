@@ -1,30 +1,114 @@
 {
   "title": "Get Involved",
-  "subtitle": "Join our global community building better governance systems",
-  "heroIntro": "Choose how you'd like to contribute to creating tools that enable different governance systems to communicate, collaborate, and evolve together.",
+  "subtitle": "Help Build the Community These Frameworks Envision",
+  "heroIntro": "These frameworks exist as carefully-designed blueprints awaiting the people to bring them to life. Whether you're a community organizer, technologist, funder, translator, or advocate—there's a role for you in transforming vision into reality.",
   
+  "currentState": {
+    "title": "The Honest Reality",
+    "paragraph1": "Global Governance Frameworks is not yet a formal organization with staff, funding, or established infrastructure. It's currently one person's project—offered openly to those who recognize its potential and want to help build it into something larger.",
+    "paragraph2": "The frameworks are substantial, carefully researched, and designed for real-world implementation. What they need now is the community to bring them to life—people who see the vision and are ready to contribute their skills, perspectives, and commitment to making it real."
+  },
+  
+  "whyContribute": {
+    "title": "Why Contribute?",
+    "paragraph1": "The governance challenges facing humanity require collaborative innovation. Current international systems weren't designed for the interconnected crises we face—climate breakdown, pandemic risks, economic inequality, technological disruption.",
+    "paragraph2": "These frameworks offer practical blueprints for governance that can work at multiple scales while respecting local autonomy. Your unique skills, perspective, and experience can help create the tools and networks needed for more cooperative, effective governance systems worldwide.",
+    "paragraph3": "More importantly: every transformative movement began with people who recognized an idea worth pursuing and committed to building it together. You have the opportunity to help shape what Global Governance Frameworks becomes from the ground up."
+  },
+  
+  "pathways": {
+    "title": "Ways to Contribute",
+    "intro": "Choose the contribution path that aligns with your skills, interests, and available time. Every contribution matters, whether it's translating a single page, testing a framework in your community, or dedicating significant time to implementation."
+  },
+
+  "moreDetails": "+ More Details",
+  "lessDetails": "- Less Details",
+  "why": "Why:",
+  "how": "How:",
+  "skills": "Skills:",
+  "whatsNeeded": "What's needed:",
   "translationTitle": "Translation",
-  "translationDescription": "Help make global governance frameworks accessible worldwide by translating content into your language.",
+  "translationDescription": "Help make these frameworks accessible worldwide by translating content into your language. Even partial translations increase accessibility for non-English speaking communities.",
   "translationCta": "Start Translating",
+  "translationDetails": {
+    "why": "These frameworks address global challenges and need to be accessible in multiple languages. Translation isn't just technical work—it's adaptation that makes ideas truly usable in diverse cultural contexts.",
+    "how": "Choose frameworks or pages that resonate with you, translate at your own pace, and submit contributions through GitHub or email. No formal commitment required—every translated section helps.",
+    "skills": "Fluency in English and another language, understanding of governance concepts helpful but not required, care for accuracy and cultural appropriateness."
+  },
   
   "websiteTitle": "Website Development",
-  "websiteDescription": "Contribute to our technical infrastructure, build new features, and improve the platform that powers our mission.",
+  "websiteDescription": "Contribute to the technical infrastructure, build new features, and improve the platform that powers this mission. From bug fixes to major features—all contributions welcome.",
   "websiteCta": "Join Developers",
+  "websiteDetails": {
+    "why": "The website is the primary interface for these frameworks. Better tools mean better accessibility, easier implementation, and clearer communication of complex ideas.",
+    "how": "The codebase is open-source on GitHub. Fork the repository, make improvements, submit pull requests. Issues are tagged by difficulty—find something matching your skill level.",
+    "skills": "Web development (SvelteKit, JavaScript, CSS), design sensibility, accessibility awareness, interest in governance and systems thinking."
+  },
   
   "outreachTitle": "Community & Outreach",
-  "outreachDescription": "Spread our vision, build advocacy networks, and connect with communities that can benefit from our frameworks.",
+  "outreachDescription": "Spread the vision, build advocacy networks, and connect these frameworks with communities that can benefit from them. Help grow the movement from grassroots to global.",
   "outreachCta": "Build Community",
+  "outreachDetails": {
+    "why": "Even the best frameworks remain theoretical without people who know about them and communities willing to try them. Outreach transforms blueprints into living governance systems.",
+    "how": "Share frameworks on social media, present at conferences, write articles, connect with governance innovators, organize local discussion groups, translate concepts for specific audiences.",
+    "skills": "Communication, networking, understanding of social movements, passion for governance innovation, cultural awareness."
+  },
   
   "frameworksTitle": "Framework Development",
-  "frameworksDescription": "Create new governance frameworks and tools that address real-world challenges in your area of expertise.",
-  "frameworksCta": "Create Frameworks",
+  "frameworksDescription": "Create new governance frameworks, refine existing ones, test implementations, and document lessons learned. Help expand the ecosystem with your domain expertise.",
+  "frameworksCta": "Contribute Frameworks",
+  "frameworksDetails": {
+    "why": "The framework ecosystem needs to grow and evolve based on real-world testing and diverse perspectives. Your expertise in specific domains can fill gaps and improve existing work.",
+    "how": "Propose new frameworks addressing governance challenges in your area of expertise, refine existing frameworks based on implementation experience, document case studies, contribute to technical specifications.",
+    "skills": "Deep domain expertise, systems thinking, governance experience, writing ability, willingness to collaborate and iterate based on feedback."
+  },
   
-  "whyContribute": "Why contribute?",
-  "whyText": "The governance challenges facing humanity require collaborative innovation. Your unique skills, perspective, and experience can help create the tools and networks needed for more cooperative, effective governance systems worldwide.",
+  "fundingTitle": "Funding & Resources",
+  "fundingDescription": "Provide financial support to enable organizational development, pilot projects, and infrastructure building. Help transform frameworks from blueprints to functioning systems.",
+  "fundingCta": "Support the Work",
+  "fundingDetails": {
+    "why": "Moving from vision to implementation requires resources—for organizational development, pilot projects, technology infrastructure, and eventually staff to coordinate the work.",
+    "how": "Direct contributions, grant funding, fiscal sponsorship, in-kind support, connections to philanthropic networks, advice on sustainable funding models.",
+    "whatNeeded": "Early-stage organizational support ($10K-$50K), pilot project funding ($50K-$200K), technology infrastructure ($20K-$100K), long-term sustainability planning."
+  },
   
-  "globalImpact": "Global impact",
-  "globalText": "Join contributors from around the world working to build infrastructure that enables different governance systems to interoperate and evolve together.",
+  "implementationTitle": "Implementation & Testing",
+  "implementationDescription": "Apply these frameworks in real contexts—your community, organization, or region. Test what works, document what doesn't, share learnings with others.",
+  "implementationCta": "Implement Frameworks",
+  "implementationDetails": {
+    "why": "Frameworks remain theoretical until tested in real-world contexts. Implementation reveals what works, what needs refinement, and what additional tools are needed.",
+    "how": "Choose frameworks relevant to challenges you face, adapt to your context, implement with community participation, document experience, share learnings openly.",
+    "skills": "Community organizing, governance experience, systems thinking, cultural sensitivity, willingness to experiment and learn."
+  },
   
-  "getStarted": "Ready to get started?",
-  "getStartedText": "Every contribution matters, whether it's translating a single page, fixing a bug, sharing content, or developing a comprehensive framework."
+  "researchTitle": "Research & Analysis",
+  "researchDescription": "Contribute academic rigor, policy analysis, feasibility studies, and evidence-based refinement. Help strengthen frameworks with research and evaluation.",
+  "researchCta": "Contribute Research",
+  "researchDetails": {
+    "why": "Academic research can validate approaches, identify potential issues, document effectiveness, and improve framework design—when done in partnership rather than extraction.",
+    "how": "Conduct community-requested research, provide policy analysis, develop economic models, evaluate pilot projects, contribute legal scholarship, review frameworks for cultural appropriateness.",
+    "skills": "Research methodology, specific domain expertise, academic writing, ethical research practices, commitment to participatory approaches."
+  },
+  
+  "globalImpact": {
+    "title": "Global Impact Through Local Action",
+    "paragraph1": "These frameworks are designed to enable coordination from local to planetary scales. Your contribution—whether translating one page, testing one framework in your community, or building major infrastructure—helps create the ecosystem needed for humanity to address shared challenges while respecting diversity.",
+    "paragraph2": "You're not just contributing to a project—you're helping build the infrastructure for a new way of governing together. That's work worth doing."
+  },
+  
+  "getStarted": {
+    "title": "Ready to Get Started?",
+    "paragraph1": "Choose whatever feels right based on your skills, available time, and interests. There's no formal commitment, no applications or approvals needed. These frameworks are openly licensed—use them, improve them, share them.",
+    "paragraph2": "If you want coordination with others or have questions, reach out through the contact page or GitHub. The goal is building a collaborative community, so you're welcome whether you have five minutes or five years to contribute.",
+    "contactCta": "Get in Touch",
+    "githubCta": "Visit GitHub",
+    "exploreCta": "Explore Frameworks"
+  },
+  
+  "communityNote": {
+    "title": "Building Together",
+    "paragraph1": "This isn't a hierarchical organization where someone at the top decides who can contribute and how. It's an open ecosystem where anyone who sees value in the work can participate in ways that make sense for them.",
+    "paragraph2": "As the community grows, we'll develop better coordination tools, communication channels, and governance structures—collaboratively. For now, it's simple: if these frameworks resonate and you want to help bring them to life, you're invited to contribute in whatever way you can.",
+    "paragraph3": "The 'we' throughout these frameworks isn't about an established organization—it's about the community we're building together. You're part of that 'we' the moment you choose to engage."
+  }
 }

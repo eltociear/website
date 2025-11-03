@@ -1,30 +1,101 @@
 {
   "title": "Engagera dig",
-  "subtitle": "Gå med i vår globala gemenskap som bygger bättre styrsystem",
-  "heroIntro": "Välj hur du vill bidra till att skapa verktyg som möjliggör för olika styrsystem att kommunicera, samarbeta och utvecklas tillsammans.",
-  
+  "subtitle": "Hjälp till att bygga den gemenskap som dessa ramverk föreställer sig",
+  "heroIntro": "Dessa ramverk existerar som noggrant utformade ritningar som väntar på att människor ska förverkliga dem. Oavsett om du är en samhällsorganisatör, teknolog, finansiär, översättare eller förespråkare – finns det en roll för dig i att omvandla vision till verklighet.",
+  "currentState": {
+    "title": "Den ärliga verkligheten",
+    "paragraph1": "Global Governance Frameworks är ännu inte en formell organisation med personal, finansiering eller etablerad infrastruktur. Det är för närvarande en persons projekt – öppet erbjudet till dem som inser dess potential och vill hjälpa till att bygga det till något större.",
+    "paragraph2": "Ramverken är omfattande, noggrant efterforskade och utformade för verklig implementering. Vad de behöver nu är gemenskapen som kan förverkliga dem – människor som ser visionen och är redo att bidra med sina färdigheter, perspektiv och engagemang för att göra den verklig."
+  },
+  "whyContribute": {
+    "title": "Varför bidra?",
+    "paragraph1": "De styrningsutmaningar mänskligheten står inför kräver kollaborativ innovation. Nuvarande internationella system var inte utformade för de sammankopplade kriser vi möter – klimatkollaps, pandemirisker, ekonomisk ojämlikhet, teknologiska störningar.",
+    "paragraph2": "Dessa ramverk erbjuder praktiska ritningar för styrning som kan fungera på flera skalor samtidigt som lokal autonomi respekteras. Dina unika färdigheter, perspektiv och erfarenheter kan hjälpa till att skapa de verktyg och nätverk som behövs för mer samarbetsinriktade, effektiva styrningssystem över hela världen.",
+    "paragraph3": "Ännu viktigare: varje omvälvande rörelse började med människor som såg en idé värd att fullfölja och åtog sig att bygga den tillsammans. Du har möjlighet att hjälpa till att forma vad Global Governance Frameworks blir från grunden."
+  },
+  "pathways": {
+    "title": "Sätt att bidra",
+    "intro": "Välj den bidragsväg som överensstämmer med dina färdigheter, intressen och tillgängliga tid. Varje bidrag spelar roll, oavsett om det handlar om att översätta en enda sida, testa ett ramverk i din gemenskap eller ägna betydande tid åt implementering."
+  },
+  "moreDetails": "+ Fler detailjer",
+  "lessDetails": "- Färre detaljer",
+  "why": "Varför:",
+  "how": "Hur:",
+  "skills": "Färdigheter:",
+  "whatsNeeded": "Vad som behövs:",
   "translationTitle": "Översättning",
-  "translationDescription": "Hjälp till att göra globala styrningsramverk tillgängliga världen över genom att översätta innehåll till ditt språk.",
+  "translationDescription": "Hjälp till att göra dessa ramverk tillgängliga över hela världen genom att översätta innehåll till ditt språk. Även delvisa översättningar ökar tillgängligheten för icke-engelsktalande samhällen.",
   "translationCta": "Börja översätta",
-  
-  "websiteTitle": "Webbutveckling",
-  "websiteDescription": "Bidra till vår tekniska infrastruktur, bygg nya funktioner och förbättra plattformen som driver vårt uppdrag.",
-  "websiteCta": "Gå med utvecklare",
-  
-  "outreachTitle": "Gemenskap & utåtriktad verksamhet",
-  "outreachDescription": "Sprid vår vision, bygg opinionsbildningsnätverk och anslut med samhällen som kan dra nytta av våra ramverk.",
+  "translationDetails": {
+    "why": "Dessa ramverk hanterar globala utmaningar och måste vara tillgängliga på flera språk. Översättning är inte bara tekniskt arbete – det är anpassning som gör idéer verkligt användbara i olika kulturella sammanhang.",
+    "how": "Välj ramverk eller sidor som du känner för, översätt i din egen takt och skicka in bidrag via GitHub eller e-post. Inget formellt åtagande krävs – varje översatt avsnitt hjälper.",
+    "skills": "Flytande kunskaper i engelska och ett annat språk, förståelse för styrningskoncept är hjälpsamt men inte obligatoriskt, noggrannhet och kulturell lämplighet."
+  },
+  "websiteTitle": "Webbplatsutveckling",
+  "websiteDescription": "Bidra till den tekniska infrastrukturen, bygg nya funktioner och förbättra plattformen som driver detta uppdrag. Från buggfixar till större funktioner – alla bidrag är välkomna.",
+  "websiteCta": "Gå med utvecklarna",
+  "websiteDetails": {
+    "why": "Webbplatsen är det primära gränssnittet för dessa ramverk. Bättre verktyg innebär bättre tillgänglighet, enklare implementering och tydligare kommunikation av komplexa idéer.",
+    "how": "Kodbasen är öppen källkod på GitHub. 'Forka' repositoriet, gör förbättringar, skicka 'pull requests'. Ärenden är taggade efter svårighetsgrad – hitta något som matchar din kompetensnivå.",
+    "skills": "Webbutveckling (SvelteKit, JavaScript, CSS), designkänsla, medvetenhet om tillgänglighet, intresse för styrning och systemtänkande."
+  },
+  "outreachTitle": "Gemenskap & utåtriktat arbete",
+  "outreachDescription": "Sprid visionen, bygg nätverk för påverkansarbete och koppla samman dessa ramverk med samhällen som kan dra nytta av dem. Hjälp rörelsen att växa från gräsrotsnivå till global nivå.",
   "outreachCta": "Bygg gemenskap",
-  
+  "outreachDetails": {
+    "why": "Även de bästa ramverken förblir teoretiska utan människor som känner till dem och samhällen som är villiga att prova dem. Utåtriktat arbete omvandlar ritningar till levande styrningssystem.",
+    "how": "Dela ramverk på sociala medier, presentera på konferenser, skriv artiklar, nätverka med styrningsinnovatörer, organisera lokala diskussionsgrupper, översätt koncept för specifika målgrupper.",
+    "skills": "Kommunikation, nätverkande, förståelse för sociala rörelser, passion för styrningsinnovation, kulturell medvetenhet."
+  },
   "frameworksTitle": "Ramverksutveckling",
-  "frameworksDescription": "Skapa nya styrningsramverk och verktyg som adresserar verkliga utmaningar inom ditt expertområde.",
-  "frameworksCta": "Skapa ramverk",
-  
-  "whyContribute": "Varför bidra?",
-  "whyText": "Styrningsutmaningarna mänskligheten möter kräver kollaborativ innovation. Dina unika färdigheter, perspektiv och erfarenheter kan hjälpa till att skapa verktyg och nätverk som behövs för mer kooperativa, effektiva styrsystem världen över.",
-  
-  "globalImpact": "Global påverkan",
-  "globalText": "Gå med bidragsgivare från hela världen som arbetar för att bygga infrastruktur som möjliggör för olika styrsystem att interagera och utvecklas tillsammans.",
-  
-  "getStarted": "Redo att komma igång?",
-  "getStartedText": "Varje bidrag är viktigt, oavsett om det handlar om att översätta en enda sida, fixa en bugg, dela innehåll eller utveckla ett omfattande ramverk."
+  "frameworksDescription": "Skapa nya styrningsramverk, förfina befintliga, testa implementeringar och dokumentera lärdomar. Hjälp till att expandera ekosystemet med din domänexpertis.",
+  "frameworksCta": "Bidra till ramverk",
+  "frameworksDetails": {
+    "why": "Ramverksekosystemet behöver växa och utvecklas baserat på verkliga tester och olika perspektiv. Din expertis inom specifika domäner kan fylla luckor och förbättra befintligt arbete.",
+    "how": "Föreslå nya ramverk som hanterar styrningsutmaningar inom ditt expertområde, förfina befintliga ramverk baserat på implementeringserfarenhet, dokumentera fallstudier, bidra till tekniska specifikationer.",
+    "skills": "Djup domänexpertis, systemtänkande, erfarenhet av styrning, skrivförmåga, vilja att samarbeta och iterera baserat på feedback."
+  },
+  "fundingTitle": "Finansiering & resurser",
+  "fundingDescription": "Tillhandahåll ekonomiskt stöd för att möjliggöra organisationsutveckling, pilotprojekt och infrastrukturbyggande. Hjälp till att omvandla ramverk från ritningar till fungerande system.",
+  "fundingCta": "Stöd arbetet",
+  "fundingDetails": {
+    "why": "Att gå från vision till implementering kräver resurser – för organisationsutveckling, pilotprojekt, teknisk infrastruktur och så småningom personal för att samordna arbetet.",
+    "how": "Direkta bidrag, anslagsfinansiering, finansiellt värdskap, naturaförmåner, kontakter till filantropiska nätverk, råd om hållbara finansieringsmodeller.",
+    "whatNeeded": "Organisationsstöd i tidigt skede ($10K-$50K), finansiering av pilotprojekt ($50K-$200K), teknisk infrastruktur ($20K-$100K), långsiktig hållbarhetsplanering."
+  },
+  "implementationTitle": "Implementering & testning",
+  "implementationDescription": "Tillämpa dessa ramverk i verkliga sammanhang – din gemenskap, organisation eller region. Testa vad som fungerar, dokumentera vad som inte gör det, dela lärdomar med andra.",
+  "implementationCta": "Implementera ramverk",
+  "implementationDetails": {
+    "why": "Ramverk förblir teoretiska tills de testas i verkliga sammanhang. Implementering avslöjar vad som fungerar, vad som behöver förfinas och vilka ytterligare verktyg som behövs.",
+    "how": "Välj ramverk som är relevanta för de utmaningar du står inför, anpassa till ditt sammanhang, implementera med samhällsdeltagande, dokumentera erfarenheter, dela lärdomar öppet.",
+    "skills": "Samhällsorganisering, erfarenhet av styrning, systemtänkande, kulturell känslighet, vilja att experimentera och lära."
+  },
+  "researchTitle": "Forskning & analys",
+  "researchDescription": "Bidra med akademisk noggrannhet, policyanalys, genomförbarhetsstudier och evidensbaserad förfining. Hjälp till att stärka ramverken med forskning och utvärdering.",
+  "researchCta": "Bidra med forskning",
+  "researchDetails": {
+    "why": "Akademisk forskning kan validera tillvägagångssätt, identifiera potentiella problem, dokumentera effektivitet och förbättra ramverksdesign – när det görs i partnerskap snarare än genom utvinning.",
+    "how": "Genomför forskning på begäran av samhällen, tillhandahåll policyanalys, utveckla ekonomiska modeller, utvärdera pilotprojekt, bidra med juridisk forskning, granska ramverk för kulturell lämplighet.",
+    "skills": "Forskningsmetodik, specifik domänexpertis, akademiskt skrivande, etiska forskningsmetoder, engagemang för deltagande tillvägagångssätt."
+  },
+  "globalImpact": {
+    "title": "Global påverkan genom lokal handling",
+    "paragraph1": "Dessa ramverk är utformade för att möjliggöra samordning från lokal till planetär skala. Ditt bidrag – oavsett om det handlar om att översätta en sida, testa ett ramverk i din gemenskap eller bygga större infrastruktur – hjälper till att skapa det ekosystem som behövs för att mänskligheten ska kunna hantera gemensamma utmaningar samtidigt som mångfalden respekteras.",
+    "paragraph2": "Du bidrar inte bara till ett projekt – du hjälper till att bygga infrastrukturen för ett nytt sätt att styra tillsammans. Det är ett arbete värt att göra."
+  },
+  "getStarted": {
+    "title": "Redo att komma igång?",
+    "paragraph1": "Välj det som känns rätt baserat på dina färdigheter, tillgängliga tid och intressen. Det finns inget formellt åtagande, inga ansökningar eller godkännanden behövs. Dessa ramverk är öppet licensierade – använd dem, förbättra dem, dela dem.",
+    "paragraph2": "Om du vill samordna med andra eller har frågor, hör av dig via kontaktsidan eller GitHub. Målet är att bygga en samarbetande gemenskap, så du är välkommen oavsett om du har fem minuter eller fem år att bidra med.",
+    "contactCta": "Hör av dig",
+    "githubCta": "Besök GitHub",
+    "exploreCta": "Utforska ramverken"
+  },
+  "communityNote": {
+    "title": "Bygga tillsammans",
+    "paragraph1": "Detta är inte en hierarkisk organisation där någon i toppen bestämmer vem som får bidra och hur. Det är ett öppet ekosystem där alla som ser värde i arbetet kan delta på sätt som är meningsfulla för dem.",
+    "paragraph2": "Allteftersom gemenskapen växer kommer vi att utveckla bättre samordningsverktyg, kommunikationskanaler och styrningsstrukturer – tillsammans. För närvarande är det enkelt: om dessa ramverk tilltalar dig och du vill hjälpa till att förverkliga dem, är du välkommen att bidra på vilket sätt du kan.",
+    "paragraph3": "'Vi'-et i dessa ramverk handlar inte om en etablerad organisation – det handlar om den gemenskap vi bygger tillsammans. Du är en del av det 'vi'-et i samma ögonblick som du väljer att engagera dig."
+  }
 }

@@ -1,100 +1,163 @@
 {
   "hero": {
-    "title": "Om projektet",
-    "subtitle": "Bygger ramverk för global styrning som balanserar enhet med mångfald."
+    "title": "Om det här projektet",
+    "subtitle": "En vision för global styrning som balanserar enhet med mångfald – öppet erbjuden till dem som kan förverkliga den."
   },
   "globalGovernanceDownload": {
-    "title": "Boken om Global Governance",
-    "description": "Ladda ner hela PDF-filen av Global Governance: Naturliga steg mot en blomstrande värld. Denna bok erbjuder ett visionärt men praktiskt tillvägagångssätt för att forma vår gemensamma framtid.",
-    "button": "Ladda ner PDF (Engelska)"
+    "title": "Boken om global styrning",
+    "description": "Ladda ner hela PDF-versionen av Global Governance: Natural Steps Toward a Thriving World. Den här boken ger ett visionärt men ändå praktiskt tillvägagångssätt för att forma vår gemensamma framtid.",
+    "button": "Ladda ner PDF (engelska)"
   },
   "moreResources": {
     "title": "Utforska fler resurser",
-    "description": "Upptäck vårt kompletta bibliotek, inklusive ytterligare böcker, faktablad och artiklar om global styrning och systemtänkande.",
+    "description": "Upptäck hela biblioteket, inklusive ytterligare böcker, vitböcker och artiklar om global styrning och systemtänkande.",
     "button": "Besök resurssidan"
   },
+  "origins": {
+    "title": "Hur det här arbetet började",
+    "paragraph1": "Jag har ägnat år åt att fascineras av en grundläggande fråga: Vad skulle krävas för att mänskligheten verkligen ska blomstra tillsammans? Det här projektet växte fram ur den frågeställningen, med början i boken 'Global Governance - Natural Steps Toward a Thriving World' och utvecklades till omfattande ramverk för praktiskt genomförande.",
+    "paragraph2": "Genom att arbeta i partnerskap med avancerade AI-system (Claude, Gemini, ChatGPT, Grok och DeepSeek) har jag utvecklat det du ser här: ett omfattande ekosystem av styrningsramverk som adresserar verkliga planetära utmaningar med handlingskraftiga lösningar. Detta samarbete mellan människa och AI visar hur teknik kan förstärka snarare än ersätta mänsklig visdom i utformningen av styrmodeller – det är en praktisk tillämpning av den etiska teknikstyrning som dessa ramverk förespråkar."
+  },
+  "currentReality": {
+    "title": "Nuläget: Vision söker byggare",
+    "paragraph1": "Låt mig vara transparent: Global Governance Frameworks är ännu inte en formell organisation. Det är för närvarande mitt projekt – utvecklat med omsorg, öppet erbjudet och utformat för dem som är redo att omvandla vision till verklighet.",
+    "paragraph2": "Ramverken existerar som noggrant efterforskade ritningar. Arbetet är omfattande, designen är grundlig och potentialen är verklig. Vad som behövs nu är människor, gemenskaper, organisationer och finansiärer som inser värdet och kan hjälpa till att förverkliga det.",
+    "paragraph3": "Denna ärliga positionering är inte en svaghet – det är en inbjudan. Varje transformativt initiativ började med att någon delade en idé värd att fullfölja. Detta kan bli ett genuint globalt styrningsekosystem om rätt samarbetspartners inser dess potential och åtar sig att bygga det tillsammans."
+  },
   "vision": {
-    "title": "Vår vision",
-    "paragraph1": "Projektet Globalt Styrningsramverk uppstod ur idéerna som presenterades i 'Global Governance – Naturliga Steg mot en Blomstrande Värld' och utforskar hur vi kan skapa styrningssystem som fungerar effektivt på flera nivåer samtidigt som de respekterar både globala behov och lokal autonomi.",
-    "paragraph2": "Vi tror att sann global styrning inte handlar om att skapa en enda världsregering, utan om att utveckla ramverk som möjliggör för olika styrningsexperiment att samverka, dela lärdomar och utvecklas tillsammans."
+    "title": "Visionen vi bygger mot",
+    "paragraph1": "Målet är att skapa styrningsramverk som gör det möjligt för olika system att samverka, dela lärdomar och utvecklas tillsammans. Sann global styrning handlar inte om att skapa en enda världsregering – det handlar om att utveckla protokoll som låter olika styrningsexperiment samarbeta samtidigt som man respekterar lokal autonomi.",
+    "paragraph2": "Dessa ramverk är utformade för att vara modulära, anpassningsbara och ägas av de gemenskaper som använder dem. De är inte avsedda att påtvinga lösningar utan att tillhandahålla verktyg som möjliggör bättre samordning på alla nivåer – från lokala gemenskaper till planetära utmaningar."
   },
   "interconnectedness": {
-    "title": "En mer sammanlänkad värld",
-    "paragraph1": "Vi lever i en era av enastående global sammankoppling. Digitala teknologier, transportnätverk och ekonomiska system kopplar nu samman människor över hela världen i realtid, vilket skapar nya möjligheter för samordning och gemensam problemlösning.",
-    "paragraph2": "Denna ökande sammankoppling ger redan upphov till styrningsinnovationer – från transnationella klimatinitiativ till digitala demokratier och gemenskapsstyrd resurshantering.",
-    "paragraph3": "Genom att tillhandahålla gemensamma ramverk, protokoll och designmönster kan vi hjälpa dessa olika innovationer att kopplas samman, samarbeta och lära av varandra."
+    "title": "En mer sammankopplad värld",
+    "paragraph1": "Vi lever i en tid av oöverträffad global sammankoppling. Digital teknik, transportnätverk och ekonomiska system länkar nu samman människor över hela världen i realtid, vilket skapar nya möjligheter för samordning och kollaborativ problemlösning.",
+    "paragraph2": "Denna växande sammankoppling ger redan upphov till innovationer inom styrning – från transnationella klimatinitiativ till digitala demokratier och samhällsledda resurshanteringssystem.",
+    "paragraph3": "Genom att tillhandahålla gemensamma ramverk, protokoll och designmönster kan dessa verktyg hjälpa olika innovationer att ansluta, samarbeta och lära av varandra."
   },
   "acceleration": {
-    "title": "Påskyndar positiva utvecklingar",
-    "paragraph1": "Runt om i världen ser vi lovande experiment inom mer deltagande, transparent och effektiv styrning. Dessa inkluderar:",
+    "title": "Att accelerera positiv utveckling",
+    "paragraph1": "Runt om i världen växer lovande experiment fram inom mer deltagande, transparent och effektiv styrning. Dessa inkluderar:",
     "examples": [
-      {"title": "Initiativ för digital demokrati", "description": "Verktyg som gör det möjligt för medborgare att delta direkt i beslutsfattande på tidigare oöverträffade skalanivåer"},
-      {"title": "Regionala Samarbetsramverk", "description": "Sammanslutningar som möjliggör samarbete mellan olika nationer med respekt för suveränitet"},
-      {"title": "Gemenskapsstyrd Styrning", "description": "Lokala experiment med deltagande resurshantering och direktdemokrati"}
+      {
+        "title": "Digitala demokratiinitiativ",
+        "description": "Verktyg som gör det möjligt för medborgare att delta direkt i beslutsfattande på oöverträffade nivåer"
+      },
+      {
+        "title": "Regionala samarbetsramar",
+        "description": "Sammanslutningar som gör det möjligt för olika nationer att samarbeta med respekt för suveränitet"
+      },
+      {
+        "title": "Samhällsledd styrning",
+        "description": "Lokala experiment med deltagande resurshantering och direktdemokrati"
+      }
     ],
-    "paragraph2": "Vårt ramverk bidrar till att påskynda dessa positiva utvecklingar genom att:",
+    "paragraph2": "Dessa ramverk hjälper till att accelerera positiv utveckling genom att:",
     "benefits": [
-      "Skapa gemensamma standarder som gör att olika styrningssystem kan kommunicera",
-      "Dokumentera framgångsrika mönster som kan anpassas till olika kontexter",
-      "Tillhandahålla implementeringsverktyg som sänker tröskeln för adoption",
+      "Skapa gemensamma standarder som gör det möjligt för olika styrningssystem att kommunicera",
+      "Dokumentera framgångsrika mönster som kan anpassas till olika sammanhang",
+      "Tillhandahålla implementeringsverktyg som sänker hindren för antagande",
       "Underlätta kunskapsutbyte mellan tidigare isolerade initiativ"
     ]
   },
   "principles": {
-    "title": "Grundläggande principer",
+    "title": "Kärnprinciper",
     "list": [
-      {"name": "Subsidiaritet", "description": "Beslut ska fattas på den lägsta effektiva styrningsnivån"},
-      {"name": "Interoperabilitet", "description": "Styrningssystem bör kunna kopplas samman och samarbeta effektivt"},
-      {"name": "Modularitet", "description": "Styrningskomponenter bör kunna bytas ut utan att störa hela systemet"},
-      {"name": "Evolutionsbaserad design", "description": "System bör kunna anpassas och utvecklas till högre nivåer av utveckling"}
+      {
+        "name": "Subsidiaritet",
+        "description": "Beslut bör fattas på den lägsta effektiva styrningsnivån"
+      },
+      {
+        "name": "Interoperabilitet",
+        "description": "Styrningssystem bör kunna ansluta och samarbeta effektivt"
+      },
+      {
+        "name": "Modularitet",
+        "description": "Styrningskomponenter bör vara utbytbara utan att hela systemet störs"
+      },
+      {
+        "name": "Evolutionär design",
+        "description": "System bör kunna anpassa sig och utvecklas till högre utvecklingsnivåer"
+      }
     ]
   },
   "approach": {
-    "title": "Vår metod",
-    "intro": "Vi utvecklar praktiska ramverk, designmönster och gränssnittsstandarder som kan hjälpa innovatörer inom global styrning att skapa system som:",
+    "title": "Tillvägagångssättet",
+    "intro": "Dessa ramverk tillhandahåller praktiska ritningar, designmönster och gränssnittsstandarder för att hjälpa styrningsinnovatörer att skapa system som:",
     "list": [
-      "Balanserar direktdemokrati med effektiv global samordning",
-      "Möjliggör kulturell mångfald inom ett enhetligt etiskt ramverk",
-      "Hantera globala utmaningar utan centraliserad kontroll",
-      "Utvecklas i takt med mänskligt medvetande och teknologiska förmågor"
+      "Balanstrar direktdemokrati med effektiv global samordning",
+      "Tillåter kulturell mångfald inom ett enhetligt etiskt ramverk",
+      "Hanterar globala utmaningar utan centraliserad kontroll",
+      "Utvecklas i takt med mänskligt medvetande och tekniska förmågor"
     ]
   },
-  "origins": {
-    "title": "Projektets ursprung",
-    "paragraph1": "Vi drivs av en livslång fascination för jorden som ett gemensamt hem och behovet av etiska system som tjänar allt liv. Detta projekt började med en grundläggande fråga: Vad skulle krävas för att mänskligheten skulle blomstra tillsammans?",
-    "paragraph2": "Global Governance Frameworks är vårt svar. Det bygger på idéer som först utforskades i 'Global Governance - Natural Steps Toward a Thriving World', och tar koncept som holarkisk styrning och gör dem praktiska och tillgängliga för att bygga en mer sammankopplad, inkluderande och framtidsberedd värld."
-  },
   "development": {
-    "title": "Vår utvecklingsprocess",
-    "paragraph1": "Detta arbete erbjuds öppet, format av samtal med AI-system som Claude, Gemini, ChatGPT, Grok och DeepSeek, och grundat i tron ​​att god styrning måste komma från gemensam visdom. Denna samarbetsprocess mellan människa och AI gör det möjligt för oss att uppnå en omfattande forskningssyntes och maximera mångfalden av analytiska perspektiv.",
-    "paragraph2": "Denna metod visar hur AI kan fungera som en partner i styrnings- och utvecklingsarbete – och förbättra mänsklig kreativitet och insikt utan att ersätta mänskligt omdöme och etisk tillsyn. Det är en praktisk tillämpning av den etiska teknikstyrning vi förespråkar: transparent, människostyrd och i linje med våra värderingar.",
+    "title": "Utvecklingsprocessen",
+    "paragraph1": "Detta arbete erbjuds öppet, format av samtal med AI-system och grundat i övertygelsen att god styrning måste växa fram ur delad visdom. Denna kollaborativa process mellan människa och AI möjliggör en omfattande syntes av forskning och maximerar mångfalden av analytiska perspektiv.",
+    "paragraph2": "Detta tillvägagångssätt visar hur AI kan fungera som en partner i styrnings- och utvecklingsarbete – och förstärka mänsklig kreativitet och insikt utan att ersätta mänskligt omdöme och etisk tillsyn. Det är en praktisk tillämpning av den etiska teknikstyrning som dessa ramverk förespråkar: transparent, mänskligt styrd och i linje med kärnvärden.",
     "paragraph3": ""
   },
+  "seekingCollaborators": {
+    "title": "Att bygga 'vi' tillsammans",
+    "paragraph1": "Genomgående i dessa ramverk kommer du att se 'vi' användas, inte för att det finns en etablerad organisation med personal och infrastruktur, utan för att ramverken är utformade för kollektivt genomförande. 'Vi' är strävande – det representerar den gemenskap detta arbete hoppas hjälpa till att bygga.",
+    "paragraph2": "Om du läser detta och visionen genljuder hos dig, är du inbjuden att hjälpa till att forma vad Global Governance Frameworks blir. Oavsett om ni är ledare för ursprungsbefolkningar, styrningsinnovatörer, finansiärer, teknologer, forskare eller förespråkare – ert deltagande omvandlar detta från ett soloprojekt till en genuin samarbetsrörelse.",
+    "paragraph3": "Ramverken släpps under öppna licenser, vilket innebär att du är fri att använda, anpassa och implementera dem på sätt som tjänar ditt samhälles behov. Du behöver inte tillstånd – du behöver bara åtagandet att förverkliga dessa idéer med integritet."
+  },
   "foundersNote": {
-    "title": "En kommentar från initiativtagaren",
-    "paragraph1": "Idéerna i de globala styrningsramverken är inte bara abstrakta teorier för mig; de är resultatet av en livslång undersökning av hur mänskligheten kan blomstra.",
-    "paragraph2": "Detta arbete är djupt informerat av en personlig resa genom både transcendenta tillstånd av enhet och den djupa, allvarliga verkligheten av världens lidande och mitt eget. Det var från denna plats av integration – som rymmer både visionen om vår högsta potential och smärtan i vår nuvarande verklighet – som GGF föddes.",
-    "paragraph3": "Det är mitt försök att bygga en praktisk, medkännande byggnadsställning som kan hjälpa oss alla att överbrygga den klyftan. Den erbjuds inte som ett slutgiltigt svar, utan som en öppen inbjudan att bygga en bättre värld tillsammans, grundad i tron ​​att även de mest komplexa globala problemen kan mötas med visdom och omsorg.",
+    "title": "En not från initiativtagaren",
+    "paragraph1": "Idéerna i Global Governance Frameworks är inte abstrakta teorier för mig – de är resultatet av en livslång undersökning av hur mänskligheten kan blomstra. Detta arbete är djupt informerat av en personlig resa genom både transcendenta tillstånd av enhet och den djupa, nyktra verkligheten av världens lidande och mitt eget.",
+    "paragraph2": "Det var från denna plats av integration – att hålla både visionen om vår högsta potential och smärtan av vår nuvarande verklighet – som dessa ramverk föddes. De representerar mitt försök att bygga en praktisk, medkännande ställning som kan hjälpa oss alla att överbrygga den klyftan.",
+    "paragraph3": "Dessa ramverk erbjuds inte som ett slutgiltigt svar, utan som en öppen inbjudan att bygga en bättre värld tillsammans, grundad i övertygelsen att även de mest komplexa globala problemen kan mötas med visdom och omsorg. Om de genljuder hos dig, bjuder jag in dig att delta i att förverkliga dem.",
     "signature": "— Björn Kenneth Holmström"
   },
   "getInvolved": {
     "title": "Engagera dig",
     "contribute": {
       "title": "Bidra med idéer",
-      "description": "Dela dina tankar och perspektiv om interoperabilitet och meta-ramverk för styrning.",
+      "description": "Dela dina tankar och perspektiv på styrningens interoperabilitet och ramverksutveckling.",
       "link": "Kontakta oss →"
     },
     "join": {
       "title": "Gå med i gemenskapen",
-      "description": "Knyt kontakt med andra som är intresserade av global styrningsinnovation och ramverksutveckling.",
+      "description": "Anslut till andra som är intresserade av innovation inom global styrning och hjälp till att bygga det samarbetsnätverk som dessa ramverk föreställer sig.",
       "primaryLink": "Engagera dig →",
-      "secondaryLink": "GitHub repository ↗"
+      "secondaryLink": "GitHub-repository ↗"
     },
     "apply": {
       "title": "Tillämpa ramverken",
-      "description": "Testa och implementera dessa idéer i dina egna styrningsexperiment och initiativ.",
+      "description": "Testa och implementera dessa idéer i dina egna styrningsexperiment och initiativ – inget tillstånd behövs.",
       "link": "Utforska ramverken →"
     }
+  },
+  "whatWeNeed": {
+    "title": "Vad det här projektet behöver",
+    "paragraph1": "För att gå från ritningar till verklighet behöver detta arbete medarbetare inom flera domäner:",
+    "needs": [
+      {
+        "category": "Ledare för ursprungsbefolkningar",
+        "description": "Vägledning för att säkerställa sann suveränitet och kulturell integritet i ramverkets genomförande"
+      },
+      {
+        "category": "Styrningsinnovatörer",
+        "description": "Utövare som testar dessa tillvägagångssätt i verkliga samhällen och organisationer"
+      },
+      {
+        "category": "Finansiärer",
+        "description": "Stöd för pilotprojekt, organisationsutveckling och infrastruktur"
+      },
+      {
+        "category": "Teknologer",
+        "description": "Utvecklare som bygger samhällskontrollerade verktyg och plattformar"
+      },
+      {
+        "category": "Forskare",
+        "description": "Akademiskt engagemang som tjänar samhällen snarare än att utvinna från dem"
+      },
+      {
+        "category": "Förespråkare",
+        "description": "Människor som hjälper till att sprida dessa idéer till samhällen som kan dra nytta av dem"
+      }
+    ],
+    "paragraph2": "Om du ser dig själv i någon av dessa kategorier – eller andra som inte finns med på listan – och visionen genljuder hos dig, kan ditt engagemang hjälpa till att omvandla dessa ramverk från noggrant utformade ritningar till fungerande styrningssystem som tjänar verkliga samhällen."
   }
 }
-
