@@ -22,25 +22,48 @@
   let mounted = false;
   let isPrintMode = false;
   let foundationOpen = false;
+  let genesisOpen = false; // NEW: Accordion state for Genesis
   let coreFrameworkOpen = false;
   let resourcesOpen = false;
 
   // Computed values - add safety checks
-  $: sectionsToShow = (mounted && isPrintMode) ? Object.keys(data?.sections || {}) : [activeSection];
-  $: coreFrameworkSections = Object.keys(data?.sections || {}).filter(section => 
-    !['index', 'at-a-glance', 'executive-summary-for-the-skeptic', 'faq-and-challenges', 'glossary', 'social-media-templates'].includes(section)
-  );
-  $: isCoreSection = coreFrameworkSections.includes(activeSection);
+  $: allSections = Object.keys(data?.sections || {});
+  $: sectionsToShow = (mounted && isPrintMode) ? allSections : [activeSection];
+
+  // Define section groups
   $: foundationSections = ['at-a-glance', 'executive-summary-for-the-skeptic'];
+  $: genesisProtocolSections = [
+    'genesis-protocol-1',
+    'genesis-protocol-2',
+    'genesis-protocol-3',
+    'genesis-protocol-4',
+    'genesis-protocol-5',
+    'genesis-protocol-6'
+  ];
+  $: coreFrameworkSections = allSections.filter(section => 
+    ![
+      'index', 
+      ...foundationSections, 
+      ...genesisProtocolSections, 
+      ...resourceSections
+    ].includes(section)
+  );
   $: resourceSections = ['faq-and-challenges', 'glossary', 'social-media-templates'];
+  
+  // Active state booleans
+  $: isFoundationSection = foundationSections.includes(activeSection);
+  $: isGenesisSection = genesisProtocolSections.includes(activeSection);
+  $: isCoreSection = coreFrameworkSections.includes(activeSection);
+  $: isResourceSection = resourceSections.includes(activeSection);
   $: isExecutiveSummaryActive = activeSection === 'executive-summary-for-the-skeptic';
-  $: isSupplementaryActive = resourceSections.includes(activeSection);
+
 
   function initializeAccordionStates() {
     // Set initial accordion states based on active section
-    foundationOpen = foundationSections.includes(activeSection);
-    coreFrameworkOpen = coreFrameworkSections.includes(activeSection);
-    resourcesOpen = resourceSections.includes(activeSection);
+    foundationOpen = isFoundationSection;
+    genesisOpen = isGenesisSection; // NEW
+    coreFrameworkOpen = isCoreSection;
+    resourcesOpen = isResourceSection;
   }
 
   onMount(async () => {
@@ -81,14 +104,27 @@
       const sectionParam = urlParams.get('section');
       const hashSection = (extractedHash || window.location.hash).substring(1);
       
+      let initialSection = 'index';
       if (sectionParam && data?.sections?.[sectionParam]) {
-        activeSection = sectionParam;
+        initialSection = sectionParam;
       } else if (hashSection && data?.sections?.[hashSection]) {
-        activeSection = hashSection;
+        initialSection = hashSection;
       }
       
+      // Set active section without triggering scroll
+      activeSection = initialSection;
       initializeAccordionStates();
       
+      // Scroll to the element if it's not the index
+      if (initialSection !== 'index') {
+        setTimeout(() => {
+          const element = document.getElementById(initialSection);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }, 100);
+      }
+
       // Global function for PDF generation
       window.showAllSectionsForPrint = () => { isPrintMode = true; };
       
@@ -101,7 +137,7 @@
           
           // Scroll to content
           setTimeout(() => {
-            const contentElement = document.querySelector('.section-content');
+            const contentElement = document.getElementById(hash);
             if (contentElement) {
               contentElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
             } else {
@@ -135,7 +171,7 @@
       history.replaceState(null, '', newUrl);
 
       setTimeout(() => {
-        const contentElement = document.querySelector('.section-content');
+        const contentElement = document.getElementById(section);
         if (contentElement) {
           contentElement.scrollIntoView({ 
             behavior: 'smooth', 
@@ -179,6 +215,7 @@
 
   // Accordion toggle functions
   function toggleFoundation() { foundationOpen = !foundationOpen; }
+  function toggleGenesis() { genesisOpen = !genesisOpen; } // NEW
   function toggleCoreFramework() { coreFrameworkOpen = !coreFrameworkOpen; }
   function toggleResources() { resourcesOpen = !resourcesOpen; }
 
@@ -238,12 +275,12 @@
             <button 
               class="accordion-header" 
               class:open={foundationOpen}
-              class:has-active={foundationSections.includes(activeSection)}
+              class:has-active={isFoundationSection}
               on:click={toggleFoundation}
             >
               <span class="accordion-icon">📚</span>
               <span class="accordion-title">{getSectionCategoryTitle('foundation')}</span>
-              <span class="section-count">(2)</span>
+              <span class="section-count">({foundationSections.length})</span>
               <span class="toggle-arrow" class:rotated={foundationOpen}>▼</span>
             </button>
             {#if foundationOpen}
@@ -263,6 +300,39 @@
               </div>
             {/if}
           </div>
+
+          <!-- NEW: Genesis Protocol Accordion -->
+          {#if genesisProtocolSections.length > 0}
+            <div class="nav-accordion">
+              <button 
+                class="accordion-header" 
+                class:open={genesisOpen}
+                class:has-active={isGenesisSection}
+                on:click={toggleGenesis}
+              >
+                <span class="accordion-icon">🌱</span>
+                <span class="accordion-title">{getSectionCategoryTitle('genesis')}</span>
+                <span class="section-count">({genesisProtocolSections.length})</span>
+                <span class="toggle-arrow" class:rotated={genesisOpen}>▼</span>
+              </button>
+              {#if genesisOpen}
+                <div class="accordion-content" transition:slide={{ duration: 200 }}>
+                  {#each genesisProtocolSections as section}
+                    {#if data?.sections?.[section]}
+                    <button 
+                      class="nav-item subsection-item" 
+                      class:active={activeSection === section}
+                      on:click={() => setActiveSection(section)}
+                    >
+                      <span class="nav-icon">📄</span>
+                      <span class="nav-title">{getShortSectionTitle(section)}</span>
+                    </button>
+                    {/if}
+                  {/each}
+                </div>
+              {/if}
+            </div>
+          {/if}
 
           <!-- Core Framework Accordion -->
           {#if coreFrameworkSections.length > 0}
@@ -300,12 +370,12 @@
             <button 
               class="accordion-header" 
               class:open={resourcesOpen}
-              class:has-active={isSupplementaryActive}
+              class:has-active={isResourceSection}
               on:click={toggleResources}
             >
               <span class="accordion-icon">📄</span>
               <span class="accordion-title">{getSectionCategoryTitle('resources')}</span>
-              <span class="section-count">(3)</span>
+              <span class="section-count">({resourceSections.length})</span>
               <span class="toggle-arrow" class:rotated={resourcesOpen}>▼</span>
             </button>
             {#if resourcesOpen}
@@ -334,12 +404,16 @@
       {/if}
 
       <!-- Progress indicator for core sections -->
-      {#if !isPrintMode && isCoreSection && coreFrameworkSections.length > 0 && translationsReady}
+      {#if !isPrintMode && (isCoreSection || isGenesisSection) && (coreFrameworkSections.length > 0 || genesisProtocolSections.length > 0) && translationsReady}
+        {@const currentGroup = isCoreSection ? coreFrameworkSections : genesisProtocolSections}
+        {@const groupName = isCoreSection ? 'framework' : 'genesis'}
         <div class="progress-indicator">
           <div class="progress-bar">
-            <div class="progress-fill" style="width: {((coreFrameworkSections.indexOf(activeSection) + 1) / coreFrameworkSections.length * 100)}%"></div>
+            <div class="progress-fill" style="width: {((currentGroup.indexOf(activeSection) + 1) / currentGroup.length * 100)}%"></div>
           </div>
-          <span class="progress-text">{tf.progress?.text?.replace('{current}', coreFrameworkSections.indexOf(activeSection) + 1).replace('{total}', coreFrameworkSections.length) || `Section ${coreFrameworkSections.indexOf(activeSection) + 1} of ${coreFrameworkSections.length}`}</span>
+          <span class="progress-text">
+            {getSectionCategoryTitle(groupName)}: {tf.progress?.text?.replace('{current}', currentGroup.indexOf(activeSection) + 1).replace('{total}', currentGroup.length) || `Section ${currentGroup.indexOf(activeSection) + 1} of ${currentGroup.length}`}
+          </span>
         </div>
       {/if}
 
@@ -367,29 +441,30 @@
                 <button class="secondary-btn" on:click={() => downloadTreaty('executive-summary')}>
                   {tf.navigation?.downloadPdf || 'Download PDF Version'} <span class="download-icon">↓</span>
                 </button>
-                <button class="primary-btn" on:click={() => setActiveSection('introduction')}>
-                  {tf.navigation?.continueToTreaty || 'Continue to Full Treaty'} <span class="arrow-icon">→</span>
+                <button class="primary-btn" on:click={() => setActiveSection('genesis-protocol-1')}>
+                  {tf.navigation?.continueToTreaty || 'Continue to Genesis Protocol'} <span class="arrow-icon">→</span>
                 </button>
               </div>
             {/if}
 
             <!-- Section navigation at bottom of core sections -->
-            {#if isCoreSection && !isPrintMode && coreFrameworkSections.length > 0 && translationsReady}
+            {#if (isCoreSection || isGenesisSection) && !isPrintMode && (coreFrameworkSections.length > 0 || genesisProtocolSections.length > 0) && translationsReady}
+              {@const currentGroup = isCoreSection ? coreFrameworkSections : genesisProtocolSections}
+              {@const currentIndex = currentGroup.indexOf(activeSection)}
+              
               <div class="section-navigation">
-                {#if coreFrameworkSections.indexOf(activeSection) > 0}
+                {#if currentIndex > 0}
                   <button class="nav-btn prev-btn" on:click={() => {
-                    const currentIndex = coreFrameworkSections.indexOf(activeSection);
-                    const prevSection = coreFrameworkSections[currentIndex - 1];
+                    const prevSection = currentGroup[currentIndex - 1];
                     setActiveSection(prevSection);
                   }}>
                     ← {tf.navigation?.previousSection || 'Previous Section'}
                   </button>
                 {/if}
                 
-                {#if coreFrameworkSections.indexOf(activeSection) < coreFrameworkSections.length - 1}
+                {#if currentIndex < currentGroup.length - 1}
                   <button class="nav-btn next-btn" on:click={() => {
-                    const currentIndex = coreFrameworkSections.indexOf(activeSection);
-                    const nextSection = coreFrameworkSections[currentIndex + 1];
+                    const nextSection = currentGroup[currentIndex + 1];
                     setActiveSection(nextSection);
                   }}>
                     {tf.navigation?.nextSection || 'Next Section'} →

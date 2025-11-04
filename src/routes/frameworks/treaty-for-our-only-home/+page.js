@@ -16,16 +16,10 @@ export async function load({ depends, url, params }) {
   
   if (DEBUG_FRAMEWORK_LOADING) console.log('=== +page.js load function ===');
   if (DEBUG_FRAMEWORK_LOADING) console.log('URL pathname:', url.pathname);
-  // REMOVED: if (DEBUG_FRAMEWORK_LOADING) console.log('URL search:', url.search); // This causes prerender errors!
   if (DEBUG_FRAMEWORK_LOADING) console.log('Current locale:', currentLocale);
-  
-  // IMPORTANT: url.hash is not available in load functions!
-  // url.search is also not available during prerendering
   
   // Load framework translations for navigation and page-specific translations
   try {
-    // The pathname should always be /frameworks/treaty-for-our-only-home
-    // If it's not, we need to handle this case
     let cleanPath = url.pathname;
     
     if (DEBUG_FRAMEWORK_LOADING) console.log('Original pathname:', cleanPath);
@@ -34,6 +28,7 @@ export async function load({ depends, url, params }) {
     if (cleanPath.includes('/frameworks/') && 
         (cleanPath.includes('executive-summary') || 
          cleanPath.includes('at-a-glance') ||
+         cleanPath.includes('genesis-protocol') || // Added Genesis check
          cleanPath.includes('introduction') ||
          cleanPath.includes('core-principles') ||
          cleanPath.includes('five-pillars') ||
@@ -50,7 +45,6 @@ export async function load({ depends, url, params }) {
     
     if (DEBUG_FRAMEWORK_LOADING) console.log('Clean path for translations:', cleanPath);
     
-    // Load translations for this specific page path
     if (DEBUG_FRAMEWORK_LOADING) console.log('About to call loadTranslations with:', currentLocale, cleanPath);
     const loadedTranslations = await loadTranslations(currentLocale, cleanPath);
     if (DEBUG_FRAMEWORK_LOADING) console.log('loadTranslations returned:', Object.keys(loadedTranslations || {}));
@@ -60,8 +54,6 @@ export async function load({ depends, url, params }) {
     console.error('Error details:', e.stack);
   }
   
-  // Safe check for print mode that works during prerendering
-  // Only access url.search on the client side
   let isPrintMode = false;
   if (browser) {
     try {
@@ -80,6 +72,14 @@ export async function load({ depends, url, params }) {
     'at-a-glance',
     'executive-summary-for-the-skeptic',
     
+    // NEW: Genesis Protocol Modules
+    'genesis-protocol-1',
+    'genesis-protocol-2',
+    'genesis-protocol-3',
+    'genesis-protocol-4',
+    'genesis-protocol-5',
+    'genesis-protocol-6',
+
     // Core treaty sections
     'introduction',
     'core-principles',
@@ -164,9 +164,8 @@ export async function load({ depends, url, params }) {
   
   return {
     sections: content,
-    // Always use modular approach
     isModular: true,
-    isPrintMode, // This will be false during prerendering, true/false on client
+    isPrintMode,
     sectionsUsingEnglishFallback: Array.from(sectionsUsingEnglishFallback),
     loadedSectionsCount: loadedSections,
     totalSectionsCount: sections.length,
@@ -174,13 +173,15 @@ export async function load({ depends, url, params }) {
     // Additional metadata for treaty framework
     frameworkType: 'treaty-for-our-only-home',
     totalSections: sections.length,
+    // Updated counts to include Genesis Protocol
     coreFrameworkSections: 6, // introduction through conclusion
     foundationSections: 2, // at-a-glance and executive-summary
+    genesisSections: 6, // The 6 modules
     resourceSections: 3, // faq, glossary, social-media
     hasExecutiveSummary: true,
     
     // Treaty-specific metadata
-    treatyVersion: '1.0',
+    treatyVersion: '1.1', // Updated from index.md
     isLandmarkDocument: true,
     implementationPhases: 3,
     keystoneReforms: 5,
@@ -195,7 +196,6 @@ export async function load({ depends, url, params }) {
         originalPath: url.pathname,
         cleanedPath: '/frameworks/treaty-for-our-only-home'
       },
-      // Only log search params on client side
       searchParams: browser ? (url.search || 'none') : 'prerendering'
     }
   };

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Treaty for Our Only Home - Global Governance Framework",
-    "description": "A comprehensive treaty framework for global governance transformation and sustainability"
+    "title": "Treaty for Our Only Home and Genesis Protocol - Global Governance Framework",
+    "description": "A comprehensive treaty framework for global governance transformation and sustainability with steel-hardened constitutional convening protocol for legitimate global governance activation"
   },
   "guideCard": {
     "title": "New to the Treaty for Our Only Home?",
@@ -11,6 +11,7 @@
   "categories": {
     "overview": "Overview",
     "foundation": "Foundation",
+    "genesis": "Genesis Protocol",
     "framework": "Core Framework",
     "resources": "Resources"
   },
@@ -18,6 +19,14 @@
     "index": "Overview",
     "at-a-glance": "At a Glance",
     "executive-summary-for-the-skeptic": "Executive Summary for the Skeptic",
+    
+    "genesis-protocol-1": "Introduction & Bootstrapping Paradox",
+    "genesis-protocol-2": "Core Principles & Pluriversal Sovereign",
+    "genesis-protocol-3": "Genesis Fund & Interim Secretariat",
+    "genesis-protocol-4": "Dual-Track Activation & Convening Protocols",
+    "genesis-protocol-5": "Network Effects & Safeguards",
+    "genesis-protocol-6": "Implementation & Cultural Translation",
+    
     "introduction": "The Polycrisis Response",
     "core-principles": "Core Principles",
     "five-pillars": "The Five Pillars of Reform",
@@ -32,6 +41,14 @@
     "index": "Overview",
     "at-a-glance": "At a Glance",
     "executive-summary-for-the-skeptic": "For Skeptics",
+    
+    "genesis-protocol-1": "Bootstrapping Paradox",
+    "genesis-protocol-2": "Core Principles",
+    "genesis-protocol-3": "Funding & Secretariat",
+    "genesis-protocol-4": "Dual-Track Activation",
+    "genesis-protocol-5": "Network Effects",
+    "genesis-protocol-6": "Implementation",
+    
     "introduction": "Introduction",
     "core-principles": "Principles",
     "five-pillars": "Five Pillars",
@@ -42,8 +59,38 @@
     "glossary": "Glossary",
     "social-media-templates": "Social Media"
   },
+  "genesisProtocol": {
+    "status": "v0.4 FINAL - Steel-Hardened Edition",
+    "revision": "0.4-FINAL",
+    "lastUpdated": "2025-11-04",
+    "purpose": "Battle-Tested Constitutional Convening Protocol",
+    "keyFeatures": [
+      "Dual-Track Activation (Survival + Legitimacy)",
+      "Peace Tithe Funding (0.1% military budget)",
+      "Sovereign Endowment ($500M unconditional to Indigenous)",
+      "Network Effects Protocol (Economic isolation for non-participants)",
+      "Human Firewall Protocol (Citizen vetting of nominees)",
+      "Pluriversal Sovereign (Three-source consent act)"
+    ],
+    "steelManning": {
+      "externalThreats": [
+        "P5 Opt-Out Veto → Network Effects Protocol",
+        "Recognition Trap → Sovereign Endowment Model",
+        "Timeline Catastrophe → Dual-Track Activation",
+        "Financial Neocolonialism → Peace Tithe",
+        "Infinite Regress → Pluriversal Sovereign"
+      ],
+      "internalThreats": [
+        "Infiltration → Human Firewall Protocol",
+        "Delegitimization → Deliberative Narrative Protocol",
+        "Moral Schism → Conscience & Sovereignty Clause",
+        "Representation Gap → Living Mandate Protocol"
+      ]
+    }
+  },
   "progress": {
-    "text": "Section {current} of {total}"
+    "text": "Section {current} of {total}",
+    "genesisText": "Genesis Protocol: Section {current} of {total}"
   },
   "languageFallback": {
     "title": "Content in your language coming soon",
@@ -53,7 +100,9 @@
     "downloadPdf": "Download PDF Version",
     "continueToTreaty": "Continue to Full Treaty",
     "previousSection": "Previous Section",
-    "nextSection": "Next Section"
+    "nextSection": "Next Section",
+    "backToOverview": "Back to Overview",
+    "readExecutiveSummary": "Read Executive Summary"
   },
   "errors": {
     "sectionNotFound": "Section \"{section}\" not found",
@@ -61,5 +110,13 @@
   },
   "loading": {
     "text": "Loading treaty content..."
+  },
+  "guideCard": {
+    "title": "New to the Treaty for Our Only Home?",
+    "description": "Start with our executive summary designed specifically for skeptics—addressing practical concerns about governance transformation.",
+    "buttonText": "Read Executive Summary for Skeptics",
+    "genesisTitle": "Exploring the Genesis Protocol?",
+    "genesisDescription": "Begin with the foundational concepts of legitimate constitutional convening and the bootstrapping paradox.",
+    "genesisButtonText": "Start with Introduction"
   }
 }

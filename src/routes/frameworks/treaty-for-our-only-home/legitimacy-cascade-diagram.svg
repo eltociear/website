@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="800"
+   height="600"
+   viewBox="0 0 800 600"
+   fill="none"
+   font-family="Inter, sans-serif"
+   font-size="14"
+   style="background-color: #f8fafc; border-radius: 8px;"
+   version="1.1"
+   id="svg34"
+   sodipodi:docname="legitimacy-cascade-diagram.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview34"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.4466667"
+     inkscape:cx="399.88479"
+     inkscape:cy="300"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg34" />
+  <!-- Title -->
+  <text
+     x="400"
+     y="40"
+     font-size="24"
+     font-weight="600"
+     text-anchor="middle"
+     fill="#0A2540"
+     id="text1">Genesis Protocol: The Legitimacy Cascade</text>
+  <text
+     x="400"
+     y="65"
+     font-size="14"
+     text-anchor="middle"
+     fill="#4b5563"
+     id="text2">Authority flows from foundational pillars to operational bodies in a verifiable sequence.</text>
+  <!-- TIER 1: Foundational Legitimacy -->
+  <text
+     x="400.48633"
+     y="120"
+     font-size="12px"
+     font-weight="600"
+     text-anchor="middle"
+     fill="#6b7280"
+     text-transform="uppercase"
+     letter-spacing="0.05em"
+     id="text3">Tier 1: Foundational Legitimacy (Convened Month 3-6)</text>
+  <g
+     id="tier1-pillars">
+    <!-- Pillar 1: Earth Council -->
+    <rect
+       x="50"
+       y="150"
+       width="220"
+       height="90"
+       rx="8"
+       fill="#ffffff"
+       stroke="#00C49A"
+       stroke-width="2"
+       id="rect3" />
+    <text
+       x="160"
+       y="180"
+       font-weight="600"
+       text-anchor="middle"
+       fill="#0A2540"
+       id="text4">Earth Council</text>
+    <text
+       x="160"
+       y="205"
+       font-size="12"
+       text-anchor="middle"
+       fill="#3A6EA5"
+       id="text5">(Indigenous Sovereignty)</text>
+    <text
+       x="160"
+       y="225"
+       font-size="12"
+       text-anchor="middle"
+       fill="#4b5563"
+       id="text6">Convened by: Self</text>
+    <!-- Pillar 2: Global Citizens' Assembly -->
+    <rect
+       x="290"
+       y="150"
+       width="220"
+       height="90"
+       rx="8"
+       fill="#ffffff"
+       stroke="#00C49A"
+       stroke-width="2"
+       id="rect6" />
+    <text
+       x="400"
+       y="180"
+       font-weight="600"
+       text-anchor="middle"
+       fill="#0A2540"
+       id="text7">Global Citizens' Assembly</text>
+    <text
+       x="400"
+       y="205"
+       font-size="12"
+       text-anchor="middle"
+       fill="#3A6EA5"
+       id="text8">(Democratic Sortition)</text>
+    <text
+       x="400"
+       y="225"
+       font-size="12"
+       text-anchor="middle"
+       fill="#4b5563"
+       id="text9">Convened by: Interim Secretariat</text>
+    <!-- Pillar 3: Youth Stewardship Council -->
+    <rect
+       x="530"
+       y="150"
+       width="220"
+       height="90"
+       rx="8"
+       fill="#ffffff"
+       stroke="#00C49A"
+       stroke-width="2"
+       id="rect9" />
+    <text
+       x="640"
+       y="180"
+       font-weight="600"
+       text-anchor="middle"
+       fill="#0A2540"
+       id="text10">Youth Stewardship Council</text>
+    <text
+       x="640"
+       y="205"
+       font-size="12"
+       text-anchor="middle"
+       fill="#3A6EA5"
+       id="text11">(Intergenerational Equity)</text>
+    <text
+       x="640"
+       y="225"
+       font-size="12"
+       text-anchor="middle"
+       fill="#4b5563"
+       id="text12">Convened by: Interim Secretariat</text>
+  </g>
+  <!-- TIER 2: Institutional Legitimacy -->
+  <text
+     x="400"
+     y="280"
+     font-size="12px"
+     font-weight="600"
+     text-anchor="middle"
+     fill="#6b7280"
+     text-transform="uppercase"
+     letter-spacing="0.05em"
+     id="text13">Tier 2: Institutional Legitimacy (Convened Month 6-9)</text>
+  <g
+     id="tier2-bodies">
+    <!-- Body 1: Council of Guardians -->
+    <rect
+       x="50"
+       y="320"
+       width="340"
+       height="90"
+       rx="8"
+       fill="#ffffff"
+       stroke="#3A6EA5"
+       stroke-width="2"
+       id="rect13" />
+    <text
+       x="220"
+       y="350"
+       font-weight="600"
+       text-anchor="middle"
+       fill="#0A2540"
+       id="text14">Council of Guardians</text>
+    <text
+       x="220"
+       y="375"
+       font-size="12"
+       text-anchor="middle"
+       fill="#3A6EA5"
+       id="text15">(Wisdom  Oversight)</text>
+    <text
+       x="220"
+       y="395"
+       font-size="12"
+       text-anchor="middle"
+       fill="#4b5563"
+       id="text16">Validated by: Tier 1 Bodies + Expert Nomination</text>
+    <!-- Body 2: MGCC -->
+    <rect
+       x="410"
+       y="320"
+       width="340"
+       height="90"
+       rx="8"
+       fill="#ffffff"
+       stroke="#3A6EA5"
+       stroke-width="2"
+       id="rect16" />
+    <text
+       x="580"
+       y="350"
+       font-weight="600"
+       text-anchor="middle"
+       fill="#0A2540"
+       id="text17">Meta-Governance Council (MGCC)</text>
+    <text
+       x="580"
+       y="375"
+       font-size="12"
+       text-anchor="middle"
+       fill="#3A6EA5"
+       id="text18">(Coordination &quot;Nervous System&quot;)</text>
+    <text
+       x="580"
+       y="395"
+       font-size="12"
+       text-anchor="middle"
+       fill="#4b5563"
+       id="text19">Delegated by: Tier 1 Bodies</text>
+  </g>
+  <!-- TIER 3: Operational Legitimacy -->
+  <text
+     x="400"
+     y="462"
+     font-size="12px"
+     font-weight="600"
+     text-anchor="middle"
+     fill="#6b7280"
+     text-transform="uppercase"
+     letter-spacing="0.05em"
+     id="text20">Tier 3: Operational Legitimacy (Convened Month 9-15)</text>
+  <g
+     id="tier3-bodies">
+    <!-- Body 1: Digital Justice Tribunal -->
+    <rect
+       x="50"
+       y="490"
+       width="340"
+       height="90"
+       rx="8"
+       fill="#ffffff"
+       stroke="#1A365D"
+       stroke-width="2"
+       id="rect20" />
+    <text
+       x="220"
+       y="520"
+       font-weight="600"
+       text-anchor="middle"
+       fill="#0A2540"
+       id="text21">Digital Justice Tribunal</text>
+    <text
+       x="220"
+       y="545"
+       font-size="12"
+       text-anchor="middle"
+       fill="#3A6EA5"
+       id="text22">(Judicial Power)</text>
+    <text
+       x="220"
+       y="565"
+       font-size="12"
+       text-anchor="middle"
+       fill="#4b5563"
+       id="text23">Appointed by: Guardians + Tier 1 Confirmation</text>
+    <!-- Body 2: Global Enforcement Mechanism -->
+    <rect
+       x="410"
+       y="490"
+       width="340"
+       height="90"
+       rx="8"
+       fill="#ffffff"
+       stroke="#1A365D"
+       stroke-width="2"
+       id="rect23" />
+    <text
+       x="580"
+       y="520"
+       font-weight="600"
+       text-anchor="middle"
+       fill="#0A2540"
+       id="text24">Global Enforcement Mechanism</text>
+    <text
+       x="580"
+       y="545"
+       font-size="12"
+       text-anchor="middle"
+       fill="#3A6EA5"
+       id="text25">(Enforcement Power)</text>
+    <text
+       x="580"
+       y="565"
+       font-size="12"
+       text-anchor="middle"
+       fill="#4b5563"
+       id="text26">Appointed by: UNSC Nominee + Guardian Confirmation</text>
+  </g>
+  <!-- Connecting Arrows -->
+  <defs
+     id="defs26">
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="0"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#6b7280"
+         id="polygon26" />
+    </marker>
+  </defs>
+  <!-- Tier 1 to Tier 2 -->
+  <path
+     d="m 160,240 30.2765,66.70507"
+     stroke="#6b7280"
+     stroke-width="1.5"
+     marker-end="url(#arrowhead)"
+     id="path26"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="M 400 240 L 400 285"
+     stroke="#6b7280"
+     stroke-width="1.5"
+     id="path27" />
+  <path
+     d="M 400 285 L 220 315"
+     stroke="#6b7280"
+     stroke-width="1.5"
+     marker-end="url(#arrowhead)"
+     id="path28" />
+  <path
+     d="M 400 285 L 580 315"
+     stroke="#6b7280"
+     stroke-width="1.5"
+     marker-end="url(#arrowhead)"
+     id="path29" />
+  <path
+     d="m 640,240 -35.11521,66.01382"
+     stroke="#6b7280"
+     stroke-width="1.5"
+     marker-end="url(#arrowhead)"
+     id="path30"
+     sodipodi:nodetypes="cc" />
+  <!-- Tier 2 to Tier 3 -->
+  <path
+     d="m 220,410 v 66.01382"
+     stroke="#6b7280"
+     stroke-width="1.5"
+     marker-end="url(#arrowhead)"
+     id="path31"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 220,410 337.88018,75"
+     stroke="#6b7280"
+     stroke-width="1.5"
+     marker-end="url(#arrowhead)"
+     id="path32"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="M 580,410 244.19355,485"
+     stroke="#6b7280"
+     stroke-width="1.5"
+     marker-end="url(#arrowhead)"
+     id="path33"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 580,410 v 66.01382"
+     stroke="#6b7280"
+     stroke-width="1.5"
+     marker-end="url(#arrowhead)"
+     id="path34"
+     sodipodi:nodetypes="cc" />
+</svg>

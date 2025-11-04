@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "Treaty for Our Only Home - Global Governance Framework",
+    "description": "A comprehensive treaty framework for global governance transformation and sustainability"
+  },
+  "guideCard": {
+    "title": "New to the Treaty for Our Only Home?",
+    "description": "Start with our executive summary designed specifically for skeptics—addressing practical concerns about governance transformation.",
+    "buttonText": "Read Executive Summary for Skeptics"
+  },
+  "categories": {
+    "overview": "Overview",
+    "foundation": "Foundation",
+    "genesis": "Genesis Protocol",
+    "framework": "Core Framework",
+    "resources": "Resources"
+  },
+  "sections": {
+    "index": "Overview",
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary for the Skeptic",
+    "genesis-protocol-1": "Module 1: Foundation (I-IV)",
+    "genesis-protocol-2": "Module 2: Dual-Track & Tier 1 (V-VI.C)",
+    "genesis-protocol-3": "Module 3: Tier 2-3 Convening (VI.D-I)",
+    "genesis-protocol-4": "Module 4: Safeguards (VII-VIII)",
+    "genesis-protocol-5": "Module 5: Implementation (IX-X)",
+    "genesis-protocol-6": "Module 6: Accountability (XI-XIV)",
+    "introduction": "The Polycrisis Response",
+    "core-principles": "Core Principles",
+    "five-pillars": "The Five Pillars of Reform",
+    "implementation-strategies": "Implementation Strategies",
+    "monitoring-evaluation": "Monitoring & Evaluation",
+    "conclusion": "The Vision Realized",
+    "faq-and-challenges": "FAQ & Challenges",
+    "glossary": "Glossary",
+    "social-media-templates": "Social Media Templates"
+  },
+  "sectionsShort": {
+    "index": "Overview",
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "For Skeptics",
+    "genesis-protocol-1": "Module 1: Foundation",
+    "genesis-protocol-2": "Module 2: Tier 1 Convening",
+    "genesis-protocol-3": "Module 3: Tier 2-3 Convening",
+    "genesis-protocol-4": "Module 4: Safeguards",
+    "genesis-protocol-5": "Module 5: Implementation",
+    "genesis-protocol-6": "Module 6: Accountability",
+    "introduction": "Introduction",
+    "core-principles": "Principles",
+    "five-pillars": "Five Pillars",
+    "implementation-strategies": "Implementation",
+    "monitoring-evaluation": "Monitoring",
+    "conclusion": "Conclusion",
+    "faq-and-challenges": "FAQ",
+    "glossary": "Glossary",
+    "social-media-templates": "Social Media"
+  },
+  "progress": {
+    "text": "Section {current} of {total}"
+  },
+  "languageFallback": {
+    "title": "Content in your language coming soon",
+    "description": "This section is currently displayed in English until translation is complete."
+  },
+  "navigation": {
+    "downloadPdf": "Download PDF Version",
+    "continueToTreaty": "Continue to Full Treaty",
+    "previousSection": "Previous Section",
+    "nextSection": "Next Section"
+  },
+  "errors": {
+    "sectionNotFound": "Section \"{section}\" not found",
+    "contentInDevelopment": "This content is still being developed."
+  },
+  "loading": {
+    "text": "Loading treaty content..."
+  }
+}

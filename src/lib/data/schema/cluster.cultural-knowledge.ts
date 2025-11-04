@@ -50,18 +50,31 @@ export const culturalKnowledgeEntities: GgfEntity[] = [
       slug: 'digital-commons'
     }
   },
-  {
+{
     id: 'framework_religious_dialogue',
     type: 'Framework',
-    name: 'Religious & Spiritual Dialogue Governance Framework',
+    name: 'Global Governance Implementation Framework: Religious & Spiritual Dialogue',
     shortName: 'Spiritual Dialogue',
-    description: 'Framework for interfaith dialogue and spiritual governance',
+    description: 'An advisory framework for fostering inclusive, trauma-informed dialogue among religious, spiritual, Indigenous, and secular communities to promote peace and inform GGF policies on a voluntary basis, operating under the Genesis Protocol\'s Conscience & Sovereignty Clause.',
     tier: 3,
-    status: 'Review',
+    status: 'Review', // Status is still 'Review'
     primaryDomain: 'Governance',
     geographicScope: 'Global',
     implementationPriority: 'Medium',
-    dependencies: ['framework_cultural_heritage'],
+    dependencies: [
+      'framework_meta_gov', // Now a Meta-Gov Advisory Council
+      'framework_mos',      // Advises on Dynamic Rights Spectrum
+      'framework_indigenous', // Defers to FPIC 2.0 and Earth Council
+      'framework_peace',    // Integrates with Peace Council
+      'framework_digital_commons' // Hosts Wisdom Repository
+    ],
+    enables: [
+      'council_gcrsd', // The main entity is now the council
+      'council_interfaith_governance_council',
+      'protocol_sacred_data',
+      'platform_wisdom_repository',
+      'institution_interfaith_teams'
+    ],
     ui: {
       path: '/frameworks/religious-and-spiritual-dialogue-governance',
       titleKey: 'framework.docs.nav.frameworkTitles.religiousAndSpiritualDialogueGovernance',
@@ -185,6 +198,30 @@ export const culturalKnowledgeEntities: GgfEntity[] = [
     implementationPriority: 'Medium',
     dependencies: ['framework_digital_commons', 'framework_aurora_accord']
   },
+  {
+    id: 'council_gcrsd',
+    type: 'Council',
+    name: 'Global Council for Religious & Spiritual Dialogue',
+    shortName: 'GCRSD',
+    description: 'The primary advisory Meta-Governance Coordination Council for spiritual dialogue. Offers perspectives on the MOS, advises on Treaty implementation, and liaises with other GGF bodies.',
+    tier: 3,
+    status: 'Proposed',
+    primaryDomain: 'Governance',
+    geographicScope: 'Global',
+    implementationPriority: 'Medium',
+    dependencies: ['framework_religious_dialogue', 'council_earth']
+  },
+  {
+    id: 'council_interfaith_governance_council',
+    type: 'Council',
+    name: 'Interfaith Governance Council',
+    shortName: 'IGC (AUBI)',
+    description: 'A specialized sub-council that advises the AUBI framework on aligning Hearts/Leaves currencies with diverse spiritual and ethical values, such as Zakat.',
+    tier: 3,
+    status: 'Proposed',
+    primaryDomain: 'Economic',
+    dependencies: ['council_gcrsd', 'framework_aubi']
+  },
 
   // === SPECIALIZED INSTITUTIONS ===
   {
@@ -253,6 +290,49 @@ export const culturalKnowledgeEntities: GgfEntity[] = [
     geographicScope: 'Regional',
     implementationPriority: 'Medium',
     dependencies: ['framework_cultural_heritage']
+  },
+
+  // === PROTOCOLS ===
+  {
+    id: 'protocol_sacred_data',
+    type: 'LegalProtocol',
+    name: 'Sacred Data & Digital Heritage Protocol',
+    shortName: 'Sacred Data Protocol',
+    description: 'Co-developed with the Digital Commons and AI Governance Board to govern sacred text digitization, virtual pilgrimage, AI chaplaincy, and digital afterlife using blockchain for consent.',
+    tier: 3,
+    status: 'Draft',
+    primaryDomain: 'Technology',
+    dependencies: [
+      'framework_religious_dialogue',
+      'framework_digital_commons',
+      'council_gtc' // AI Governance Board is under Global Tech Council
+    ]
+  },
+
+  // === Wisdom Repository ===
+  {
+    id: 'platform_wisdom_repository',
+    type: 'Platform',
+    name: 'Wisdom Repository',
+    shortName: 'Wisdom Repository',
+    description: 'A knowledge bank hosted on the Digital Commons Knowledge Commons, serving as a core resource for GGF peacebuilders and policymakers.',
+    tier: 3,
+    status: 'Proposed',
+    primaryDomain: 'Technology',
+    dependencies: ['framework_religious_dialogue', 'framework_digital_commons', 'framework_peace']
+  },
+
+  // === Rapid Response Interfaith Teams ===
+  {
+    id: 'institution_interfaith_teams',
+    type: 'Institution',
+    name: 'Rapid Response Interfaith Teams',
+    shortName: 'RRITs',
+    description: 'Specialized teams for joint, voluntary deployment with the Peace & Conflict Resolution Framework in conflicts with spiritual dimensions.',
+    tier: 3,
+    status: 'Proposed',
+    primaryDomain: 'Justice',
+    dependencies: ['council_gcrsd', 'framework_peace']
   }
 ];
 
@@ -579,5 +659,103 @@ export const culturalKnowledgeRelationships: GgfRelationship[] = [
     strength: 'Medium',
     frequency: 'Regular',
     sequenceType: 'Parallel'
+  },
+
+  // === NEW: Religious & Spiritual Dialogue Framework Integration ===
+  {
+    from: 'framework_religious_dialogue',
+    to: 'council_gcrsd',
+    type: 'ESTABLISHES',
+    description: 'The framework establishes the GCRSD as its primary governance body.'
+  },
+  {
+    from: 'council_gcrsd',
+    to: 'framework_mos',
+    type: 'INFORMS',
+    description: 'Offers perspectives on the Dynamic Rights Spectrum and facilitates dialogues on rights conflicts on a voluntary basis.'
+  },
+  {
+    from: 'council_gcrsd',
+    to: 'framework_treaty',
+    type: 'SUPPORTS',
+    description: 'Provides ethical insights for GEM and facilitates truth and reconciliation dialogues for the Justice System.'
+  },
+  {
+    from: 'council_earth',
+    to: 'council_gcrsd',
+    type: 'PARTICIPATES_IN',
+    description: 'The Earth Council appoints 10 permanent seats to the GCRSD, ensuring Indigenous sovereignty and FPIC 2.0 compliance.'
+  },
+  {
+    from: 'council_gcrsd',
+    to: 'council_interfaith_governance_council',
+    type: 'ESTABLISHES',
+    description: 'Establishes the sub-council to advise the AUBI framework.'
+  },
+  {
+    from: 'council_interfaith_governance_council',
+    to: 'framework_aubi',
+    type: 'INFORMS',
+    description: 'Advises AUBI on aligning Hearts/Leaves with spiritual values (e.g., Zakat, faith-based economics).'
+  },
+  {
+    from: 'council_gcrsd',
+    to: 'framework_peace',
+    type: 'PARTICIPATES_IN',
+    description: 'Holds a permanent advisory seat on the Global Peace Council and provides Rapid Response Interfaith Teams.'
+  },
+  {
+    from: 'council_gcrsd',
+    to: 'institution_interfaith_teams',
+    type: 'ESTABLISHES',
+    description: 'The GCRSD establishes and trains the interfaith rapid response teams.'
+  },
+  {
+    from: 'institution_interfaith_teams',
+    to: 'framework_peace',
+    type: 'COLLABORATES_WITH',
+    description: 'Teams are deployed jointly with the Peace & Conflict Resolution Framework.'
+  },
+  {
+    from: 'council_gcrsd',
+    to: 'framework_shield',
+    type: 'INFORMS',
+    description: 'Advises on voluntary, spiritually-informed rehabilitation programs for the Shield Protocol.'
+  },
+  {
+    from: 'framework_religious_dialogue',
+    to: 'platform_wisdom_repository',
+    type: 'ESTABLISHES',
+    description: 'The framework establishes the Wisdom Repository as a key deliverable.'
+  },
+  {
+    from: 'platform_wisdom_repository',
+    to: 'framework_digital_commons',
+    type: 'USES_DATA_FROM',
+    description: 'The Wisdom Repository is hosted on the Digital Commons Knowledge Commons.'
+  },
+  {
+    from: 'framework_religious_dialogue',
+    to: 'protocol_sacred_data',
+    type: 'ESTABLISHES',
+    description: 'The framework co-develops the Sacred Data & Digital Heritage Protocol.'
+  },
+  {
+    from: 'protocol_sacred_data',
+    to: 'framework_digital_commons',
+    type: 'INTEGRATES_WITH',
+    description: 'Protocol provides governance rules for sacred data within the Digital Commons.'
+  },
+  {
+    from: 'protocol_sacred_data',
+    to: 'council_gtc',
+    type: 'COORDINATES_WITH',
+    description: 'Protocol is co-developed with the AI Governance Board (under GTC) for AI ethics.'
+  },
+  {
+    from: 'council_gcrsd',
+    to: 'framework_synoptic',
+    type: 'COORDINATES_WITH',
+    description: 'Liaises with Synoptic Protocol to mitigate AI-generated spiritual disinformation.'
   }
 ];

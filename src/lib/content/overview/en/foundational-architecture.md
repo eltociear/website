@@ -1,19 +1,15 @@
 ---
-title: The Foundational Architecture - The Three Pillars
+title: The Foundational Architecture - How It All Fits Together
 section: foundational-architecture
 parent: GGF Complete Overview
 status: Expanded Overview
-revision: 1.0
+revision: 1.1
 releaseDate: 2025-07-30
-lastUpdated: 2025-07-30
+lastUpdated: 2025-11-04
 ---
 
-# The Foundational Architecture: The Three Pillars
-
-> *"Like a three-legged stool, global governance requires all three pillars to be stable: the institutional hardware to enable action, the ethical heart to guide it wisely, and the coordination nervous system to make it all work together."*  
-> — From the GGF Design Principles
-
 **In this section:**
+- [The Foundational Architecture: How It All Fits Together]
 - [The Integrated Architecture](#integrated-architecture)
 - [Pillar 1: The Hardware - Treaty for Our Only Home](#pillar-hardware)
 - [Pillar 2: The Heart - Indigenous & Traditional Knowledge Governance](#pillar-heart)
@@ -23,11 +19,53 @@ lastUpdated: 2025-07-30
 - [Implementation Synergies](#implementation-synergies)
 - [Beyond the Foundation](#beyond-foundation)
 
+# The Foundational Architecture: How It All Fits Together
+
 **Estimated Reading Time**: 18 minutes
+
+The Global Governance Frameworks (GGF) ecosystem can be complex, but its structure is based on a clear, logical relationship between three main parts:
+
+1.  **The Treaty (The "What"):** The vision and institutional hardware.
+2.  **The Genesis Protocol (The "How"):** The one-time activation script.
+3.  **The Frameworks (The "Apps"):** The ongoing operational software.
+
+### 1. The Treaty for Our Only Home
+
+* **What it is:** The single "Tier 0" constitutional document.
+* **Its Job:** It defines the **"hardware"** of the new global system. It's the blueprint for the new institutions (like the Reformed UNSC, the Digital Justice Tribunal, the Global Commons Fund) and the core principles they must follow.
+* **Think of it as:** The blueprint for a new computer. It specifies the motherboard, the processor, and the power supply.
+
+### 2. The Genesis Protocol
+
+* **What it is:** The "Tier 0" constitutional *convening process*, which is documented as the first set of modules within the Treaty.
+* **Its Job:** It's the **"installation script"** that brings the Treaty's hardware to life. It answers the "bootstrapping problem": *who* builds the first computer and *how* do we trust them? It defines the legitimate, step-by-step process for seating the first members of the new institutions.
+* **Think of it as:** The secure, audited assembly line and the "power on" button. It builds the computer from the blueprint and turns it on for the first time.
+
+This "Legitimacy Cascade" is the core of the Genesis Protocol. It shows how authority flows from foundational, pluriversal sources (the People, Indigenous Nations, and Youth) to the operational bodies (like the Tribunal and Enforcement).
+
+### 3. The Tier 1-4 Frameworks
+
+* **What they are:** The rest of the GGF ecosystem.
+* **Their Job:** They are the **"software applications"** that run on the new hardware. Each framework is a specialized "app" designed to solve a specific problem (e.g., the AUBI Framework for economics, the Planetary Health Framework for ecology, the Peace Framework for conflict).
+* **Think of it as:** The operating system and all the programs (for finance, health, security) that you install *after* the computer is built and turned on.
+
+### How They Work Together: A Simple Timeline
+
+1.  **Before Activation:** We have the **Treaty** blueprint and the **Genesis Protocol** installation manual (which is part of the Treaty).
+2.  **Phase 0 (Month 0-3):** The **Genesis Protocol** begins. The "Interim Secretariat" is formed and the "Genesis Fund" is capitalized.
+3.  **Phase 1 (Month 3-6):** The **Genesis Protocol** convenes the three foundational pillars of legitimacy: the **Earth Council** (Indigenous Sovereignty), the **Global Citizens' Assembly** (Democratic Will), and the **Youth Stewardship Council** (Intergenerational Equity).
+4.  **Phase 2-3 (Month 6-18):** These foundational pillars, using the rules in the **Genesis Protocol**, convene all the **Treaty's** hardware: the Council of Guardians, the MGCC, the Digital Justice Tribunal, and the Global Enforcement Mechanism.
+5.  **Activation Complete (Month 18+):** The **Genesis Protocol**'s job is done. The "Interim Secretariat" dissolves. The **Treaty's** new, fully legitimate institutions are now live and operational.
+6.  **Ongoing Operation:** The new institutions begin their work, using and coordinating the full suite of **Tier 1-4 Frameworks** (AUBI, Planetary Health, etc.) to manage the polycrisis.
+
+This structure ensures that the system is powerful (the Treaty) but that its power is legitimate (the Genesis Protocol) before it is ever used to run the applications (the Frameworks) that will shape our world.
 
 ---
 
-## <a id="integrated-architecture"></a>The Integrated Architecture
+## <a id="integrated-architecture"></a>Deeper Dive: The Three Pillars
+
+> *"Like a three-legged stool, global governance requires all three pillars to be stable: the institutional hardware to enable action, the ethical heart to guide it wisely, and the coordination nervous system to make it all work together."*  
+> — From the GGF Design Principles
 
 The GGF's architecture is built on three core pillars that work in concert to create a complete and coherent system for planetary stewardship. Each pillar serves a distinct but essential function, creating a whole that is far greater than the sum of its parts.
 

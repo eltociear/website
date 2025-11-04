@@ -697,14 +697,14 @@
   </div>
 </section>
 
-<!-- Ethical Impact Dashboard Section -->
+<!-- Ethical Impact Dashboard Section
 <section class="ethical-impact-section">
   <div class="container">
     <h2 class="section-heading">{$t('home.ethicalImpact.title')}</h2>
     <p class="section-intro">{$t('home.ethicalImpact.intro')}</p>
     <EthicalImpactDashboard />
   </div>
-</section>
+</section> -->
 
 <!-- Final Call to Action Section -->
 <section class="final-cta-section">
@@ -726,6 +726,8 @@
     </div>
   </div>
 </section>
+
+<style>
   /* Unity Beyond the Known Welcome Banner */
   .welcome-banner {
     background: linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #1e40af 100%);
@@ -2697,5 +2699,4 @@
     }
   }
 
-</style>
 </style>

@@ -1,16 +1,20 @@
 {
   "meta": {
-    "title": "Fördraget för vårt enda hem - Global Governance Framework",
-    "description": "Ett omfattande fördragsramverk för global styrningsomvandling och hållbarhet"
+    "title": "Fördraget för vårt enda hem och Genesis Protocol - Global Governance Framework",
+    "description": "Ett omfattande fördragsramverk för global styrningsomvandling och hållbarhet med ett stålhärdat konstitutionellt sammankallningsprotokoll för legitim aktivering av global styrning"
   },
   "guideCard": {
     "title": "Ny till Fördraget för vårt enda hem?",
     "description": "Börja med vår sammanfattning designad specifikt för skeptiker—som tar upp praktiska bekymmer om styrningsomvandling.",
-    "buttonText": "Läs sammanfattning för skeptiker"
+    "buttonText": "Läs sammanfattning för skeptiker",
+    "genesisTitle": "Utforskar du Genesis Protocol?",
+    "genesisDescription": "Börja med de grundläggande koncepten för legitimt konstitutionellt sammankallande och 'bootstrapping'-paradoxen.",
+    "genesisButtonText": "Börja med introduktionen"
   },
   "categories": {
     "overview": "Översikt",
     "foundation": "Grund",
+    "genesis": "Genesis Protocol",
     "framework": "Kärnramverk",
     "resources": "Resurser"
   },
@@ -18,6 +22,12 @@
     "index": "Översikt",
     "at-a-glance": "I korthet",
     "executive-summary-for-the-skeptic": "Sammanfattning för skeptiker",
+    "genesis-protocol-1": "Introduktion & 'bootstrapping'-paradoxen",
+    "genesis-protocol-2": "Kärnprinciper & pluriversell suveränitet",
+    "genesis-protocol-3": "Genesis-fonden & interimsekretariat",
+    "genesis-protocol-4": "Dubbelspårig aktivering & sammankallningsprotokoll",
+    "genesis-protocol-5": "Nätverkseffekter & skyddsåtgärder",
+    "genesis-protocol-6": "Implementering & kulturell översättning",
     "introduction": "Polykrisens svar",
     "core-principles": "Grundprinciper",
     "five-pillars": "De fem reformpelarna",
@@ -32,6 +42,12 @@
     "index": "Översikt",
     "at-a-glance": "I korthet",
     "executive-summary-for-the-skeptic": "För skeptiker",
+    "genesis-protocol-1": "'Bootstrapping'-paradoxen",
+    "genesis-protocol-2": "Kärnprinciper",
+    "genesis-protocol-3": "Fondering & sekretariat",
+    "genesis-protocol-4": "Dubbelspårig aktivering",
+    "genesis-protocol-5": "Nätverkseffekter",
+    "genesis-protocol-6": "Implementering",
     "introduction": "Introduktion",
     "core-principles": "Principer",
     "five-pillars": "Fem pelare",
@@ -42,8 +58,38 @@
     "glossary": "Ordlista",
     "social-media-templates": "Sociala medier"
   },
+  "genesisProtocol": {
+    "status": "v0.4 FINAL - Stålhärdad utgåva",
+    "revision": "0.4-FINAL",
+    "lastUpdated": "2025-11-04",
+    "purpose": "Stridsbeprövat konstitutionellt sammankallningsprotokoll",
+    "keyFeatures": [
+      "Dubbelspårig aktivering (Överlevnad + Legitimitet)",
+      "Fredstionde-fondering (0,1% av militärbudget)",
+      "Suverän donation ($500M ovillkorligt till ursprungsfolk)",
+      "Nätverkseffektprotokoll (Ekonomisk isolering för icke-deltagare)",
+      "Mänsklig brandvägg-protokoll (Medborgerlig granskning av nominerade)",
+      "Pluriversell suveränitet (Trekällig samtyckeshandling)"
+    ],
+    "steelManning": {
+      "externalThreats": [
+        "P5-veto → Nätverkseffektprotokoll",
+        "Erkännandefällan → Suverän donationsmodell",
+        "Tidslinjekatastrof → Dubbelspårig aktivering",
+        "Finansiell nykolonialism → Fredstionde",
+        "Oändlig regress → Pluriversell suveränitet"
+      ],
+      "internalThreats": [
+        "Infiltration → Mänsklig brandvägg-protokoll",
+        "Delegetimering → Deliberativt narrativt protokoll",
+        "Moralisk schism → Klausul om samvete & suveränitet",
+        "Representationsgap → Levande mandat-protokoll"
+      ]
+    }
+  },
   "progress": {
-    "text": "Avsnitt {current} av {total}"
+    "text": "Avsnitt {current} av {total}",
+    "genesisText": "Genesis Protocol: Avsnitt {current} av {total}"
   },
   "languageFallback": {
     "title": "Innehåll på svenska kommer snart",
@@ -53,7 +99,9 @@
     "downloadPdf": "Ladda ner PDF-version",
     "continueToTreaty": "Fortsätt till fullständigt fördrag",
     "previousSection": "Föregående avsnitt",
-    "nextSection": "Nästa avsnitt"
+    "nextSection": "Nästa avsnitt",
+    "backToOverview": "Tillbaka till översikten",
+    "readExecutiveSummary": "Läs sammanfattningen"
   },
   "errors": {
     "sectionNotFound": "Avsnitt \"{section}\" hittades inte",
