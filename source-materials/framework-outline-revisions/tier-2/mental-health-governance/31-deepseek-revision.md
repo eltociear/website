@@ -30,6 +30,7 @@
 - "Treatment" → "Support" or "navigation" (for cases of system-induced distress)
 - "Adaptation" → "Integration" or "navigation" (avoiding implication that adapting to dysfunction is healthy)
 - "Coping skills" → "Resilience practices" or "system navigation skills"
+- Aligned with Maria Karlova's analysis of the parasistic control system of civilization.
 - **2.1 (2025-09-06):** Incorporated DeepSeek’s suggestions from "28-deepseek-analysis-and-suggestions.md" as clarified in "29-gemini-clarifications.md". Added explicit philosophical primer in Section 1, integrated philosophy into practitioner training in Section 5, and enhanced metrics to reflect interdependence in Section 6. Preserved all prior content.
 - **2.0 (2025-07-10):** Integrated Gemini’s suggestions from "26-comments-by-Gemini.md". Added sub-sections in **Section 9 (Cross-Cutting Themes)** for **Integration with Work & Well-Being**, **Integration with Peace & Conflict Resolution**, **Integration with Education & Lifelong Learning**, and **Epistemic Health & Digital Well-Being**. Formalized partnerships with **Work in Liberation**, **Peace & Conflict Resolution**, **Educational Systems**, and **Synoptic Protocol** frameworks. Added protocols for psychologically safe workplaces, rapid response integration, educational curricula, and epistemic resilience. Preserved all prior content.
 - **1.0 (2025):** Initial framework with integration into GGF ecosystem, subordinated to **Planetary Health Council**, and aligned with **Treaty**, **MOS**, **AUBI**, and **Digital Justice Tribunal**.
@@ -37,7 +38,10 @@
 ---
 
 ## **Executive Summary**
-The **Living Mandala for Planetary Mental Health** is a transformative, rights-based framework prioritizing psychosocial flourishing, equity, and planetary well-being within the Global Governance Frameworks (GGF) ecosystem. Fully integrated with the Golden Triangle (**Treaty**, **Meta-Governance**, **Indigenous Framework**), **Work in Liberation**, **Peace & Conflict Resolution**, **Educational Systems**, and **Synoptic Protocol**, it aligns mental health with planetary health, Indigenous sovereignty, regenerative economics, and epistemic resilience. Key priorities include:
+The **Living Mandala for Planetary Mental Health** is a transformative, rights-based framework prioritizing psychosocial flourishing, equity, and planetary well-being within the Global Governance Frameworks (GGF) ecosystem. Fully integrated with the Golden Triangle (**Treaty**, **Meta-Governance**, **Indigenous Framework**), **Work in Liberation**, **Peace & Conflict Resolution**, **Educational Systems**, and **Synoptic Protocol**, it aligns mental health with planetary health, Indigenous sovereignty, regenerative economics, and epistemic resilience. 
+This framework supports the natural immune response of conscious beings to systemic dysfunction. Rather than pathologizing the anxiety, depression, and refusal that arise from accurate perception of insane systems, we provide support for maintaining psychological health while working to transform those systems. We recognize that highly intelligent and sensitive individuals often serve as the planetary early warning system, and their distress signals the need for systemic change, not individual adjustment.
+
+Key priorities include:
 - **Quick Wins**: Integrate mental health into Universal Health Coverage (UHC) with ≥5% budget allocation, pilot community-led task forces in 3-5 diverse regions, and leverage the **Planetary Health Council (PHC)** for oversight.
 - **Long-Term Shifts**: Transition to rights-based care, fund initiatives via the **AUBI/Hearts** system, embed mental health in climate, work, education, and epistemic policies, with metrics feeding into the **Biosphere Health Index (BHI)**).
 - **Monitoring & Accountability**: Use **Psychosocial Flourishing Metrics** as inputs to the **Love, Meaning, and Connection Index (LMCI)**, with community-led monitoring and transparency via the **Digital Justice Tribunal**.
@@ -91,6 +95,12 @@ This framework operates on the understanding that human psychology cannot be sep
 3. **Sanity ≠ Compliance**: Psychological well-being cannot be measured by adaptation to systems that require ethical or cognitive compromise.
 
 4. **The Right to Refuse Pathologization**: Individuals have the right to have their systemic critiques and existential distress recognized as such, rather than medicalized.
+
+5. **The Intelligence Honor Principle**: Recognize that what systems often label as "disorders" in highly intelligent/sensitive individuals may represent accurate perception of systemic dysfunction. These individuals serve as the planetary immune system's early warning detection.
+
+6. **Refusal as Health**: The refusal to participate in meaningless, coercive, or destructive systems is a sign of psychological health, not pathology.
+
+7. **The Numbness Trade**: Explicitly name and reject the societal expectation that psychological "health" requires accepting or adapting to systems that demand ethical compromise or cognitive dissociation.
 
 ---
 
@@ -181,7 +191,14 @@ This framework operates on the understanding that human psychology cannot be sep
   - **Existential Navigation**: Support for meaning-making in systems that deny meaning
   - **Resistance Resilience**: Building capacity to maintain psychological health while refusing harmful adaptations
   - Incorporate the 'dubbelsidigt journalsystem' from Fjärilspartiet's TAK-304 to document instances where patients' experiences of system absurdity are validated rather than pathologized.
-- **Cultural Adaptation vs. Standardization**: Implement **Hybrid Care Protocol** with **cultural validation processes** approved by the **Earth Council**.
+  - **Reality Validation Therapy**: Structured protocols for validating accurate perceptions of systemic dysfunction while building resilience to withstand the cognitive dissonance
+  - **Resistance Resilience Training**: Skills for maintaining psychological health while actively resisting or working to change dysfunctional systems
+  - **System Navigation Coaching**: Practical strategies for highly intelligent individuals to navigate systems not designed for their cognitive style without pathologizing their differences
+  - **Meaning-Making in Absurdity**: Support for creating personal meaning in systems that actively deny meaning or purpose
+  - **Cultural Adaptation vs. Standardization**: Implement **Hybrid Care Protocol** with **cultural validation processes** approved by the **Earth Council**.
+  - **Mandatory System Literacy Curriculum**: All mental health professionals must complete training in distinguishing between individual pathology and accurate perception of systemic dysfunction
+  - **De-pathologization Certification**: Specialized training in recognizing when "symptoms" represent healthy immune responses to toxic systems
+  - **Intelligence Affirming Practice**: Skills for supporting highly intelligent clients without forcing adaptation to cognitively sedated environments
 
 ---
 
@@ -201,6 +218,10 @@ This framework operates on the understanding that human psychology cannot be sep
 - **Data Protection Protocols**: Implement **community consent models** and **cybersecurity standards** (ISO 27001).
 - **Data Quality Assurance**: Develop **validation protocols** (e.g., cross-verification, data cleaning) by 2026.
 - **Monitoring Capacity Building**: Train **local evaluators** in 3-5 pilot regions by 2026 with **training curricula**.
+- **Pathologization Prevention Index**: Tracks rates of medicalization of legitimate social critique and existential distress
+- **Cognitive Liberty Score**: Measures how well systems accommodate diverse cognitive styles without forcing adaptation to neurotypical norms
+- **Reality Concordance Metric**: Assesses the gap between systemic narratives and verifiable reality, correlating with population mental health
+- **Meaningful Participation Index**: Tracks opportunities for genuine contribution versus coerced compliance
 
 ---
 
@@ -264,6 +285,9 @@ This framework operates on the understanding that human psychology cannot be sep
 - **Epistemic Health & Digital Well-Being**:
   - Partner with **Synoptic Protocol** to address mental health impacts of disinformation, polarization, and information warfare.
   - Develop interventions for epistemic resilience, integrated with **community-led task forces** to build psychological and informational resilience.
+- **Work in Liberation Integration**: Explicitly frame psychologically safe workplaces as those that don't demand cognitive or ethical compromise for employment
+- **Educational Systems Alignment**: Ensure schools celebrate cognitive diversity and teach system literacy alongside traditional subjects
+- **AUBI Foundation**: Position basic income as essential for breaking the coercion that forces intelligent people to participate in systems they recognize as dysfunctional
 
 ---
 
@@ -278,11 +302,14 @@ This framework operates on the understanding that human psychology cannot be sep
   - **Year 1-2**: Pilot site selection, cultural adaptation toolkit, evidence synthesis.
   - **Year 3-5**: **Treaty** negotiations, digital infrastructure, workforce training, education integration.
   - **Year 5-10**: Global rollout, evaluation, adaptive refinement.
-**New Implementation Track: "System Sanity Alignment"**
+### **Implementation Track: "System Sanity Alignment"**
 - Phase 1: Audit existing mental health systems for pathologization of system critique
 - Phase 2: Develop alternative diagnostic categories that recognize system-induced distress
 - Phase 3: Create "sanity sanctuary" spaces where system critique is welcomed and explored
-
+### **Implementation Track: Cognitive Ecology Alignment**
+- **Phase 1 (2026-2027)**: System Sanity Audits of existing mental health frameworks and educational systems
+- **Phase 2 (2028-2029)**: Develop and pilot alternative diagnostic categories that distinguish between internal pathology and healthy system rejection
+- **Phase 3 (2030+)**: Create "Cognitive Ecology Zones" - protected spaces where diverse intelligences can flourish without forced adaptation to dysfunctional norms
 ---
 
 ## **11. Political Strategy & Stakeholder Mapping**
