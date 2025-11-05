@@ -781,7 +781,249 @@ The Genesis Protocol navigates profound ethical dilemmas without simple answers.
 
 **The honest assessment**: The protocol cannot satisfy both aggressive secularism and religious fundamentalism—and doesn't try. It stakes out middle ground: Governance focuses on practical coordination; spiritual authority resides with faith traditions and individual conscience. Neither subordinates the other.
 
-### XIII.B. Remaining open questions
+### XIII.B. Rejecting narcissistic governance heritage
+
+**The Hammurabi problem - Governance as codified narcissism**:
+
+For nearly four millennia, human governance has been shaped by a deeply pathological model: the institutionalization of one ruler's narcissistic personality through codified law. This pattern, visible from Hammurabi's Code (1754 BCE) through countless subsequent legal systems, reveals something disturbing about civilization's foundations.
+
+**The narcissistic DNA of traditional governance**:
+
+Hammurabi's Code is instructive not for its specific laws, but for what it reveals about the psychological structure of state power. A third of the text is preamble—not legal principles, but Hammurabi describing his own greatness:
+
+*"When the lofty Anu, king of the Anunnaki, and Enlil, lord of heaven and earth, who determines the destinies of the land, entrusted Marduk... with dominion over all people... Then Anu and Enlil called me, Hammurabi, the glorious god-fearing prince, to establish justice in the land..."*
+
+He then lists approximately 50 self-awarded titles: "I am the shepherd. I am the mighty king. I am the divine king of kings. I am wise. I am perfect."
+
+**This is not law—it is ego carved in stone for eternity.**
+
+**The pathological features institutionalized**:
+
+Hammurabi's code established patterns that persist in governance systems worldwide:
+
+**1. Divine mandate claims** ("The gods chose me"):
+- Places authority beyond democratic challenge or rational critique
+- Creates unfalsifiable legitimacy ("Who are you to question God's choice?")
+- Becomes model for all subsequent divine right theories
+- Persists today in claims of national exceptionalism and historical destiny
+
+**2. Binary moral absolutism**:
+- Good/evil, right/wrong, innocent/guilty with no nuance
+- Eliminates contextual understanding
+- Makes mercy seem like weakness or rule-breaking
+- Becomes foundation for all retributive justice systems
+
+**3. Punishment as primary control mechanism**:
+- Not understanding, not restoration, not healing
+- Retribution for rule-breaking regardless of circumstances
+- Violence and deprivation as governance tools
+- Creates fear-based rather than consent-based authority
+
+**4. Administrative ego extension**:
+- Bureaucrats and judges as ruler's proxies continuing his will after death
+- Institutions become immortality mechanisms for founders' worldviews
+- Systems resist evolution because that would "dishonor" original architects
+
+**5. Stone-carving mentality**:
+- Attempt to make temporary human judgment permanent and unchangeable
+- Carve laws in stone (literally) to claim eternal authority
+- Threatens dire punishment for anyone altering the code
+- Treats governance as monument rather than living practice
+
+**The psychiatric diagnosis**:
+
+Against DSM-5 criteria for narcissistic personality disorder, Hammurabi's code displays:
+- Grandiose sense of self-importance (divine king of kings)
+- Fantasies of unlimited success and power (eternal renown)
+- Belief in own unique specialness (only he can craft perfect laws)
+- Need for excessive admiration (carving achievements for eternal worship)
+- Sense of entitlement (his word must be law for all time)
+- Interpersonal exploitation (system serves his vision, not people's needs)
+- Lack of empathy (brutal laws blind to human context)
+- Arrogance and superiority (entire preamble)
+
+**If Hammurabi presented to a psychiatrist today, the diagnosis would be clear. But instead of treatment, his pathology became the blueprint for civilization.**
+
+**The global infection**:
+
+This wasn't just one ruler's quirk. Hammurabi's "genius" was creating a **self-replicating system** that perpetuates narcissistic power structures beyond any individual narcissist:
+
+**Modern legal systems still display the pattern**:
+- Judges in robes (royal garb symbolism)
+- Grandiose court architecture (temples of authority)
+- Oaths and rituals sanctifying power (mystification)
+- Punishment as primary tool (medieval revenge logic)
+- Binary guilt categories (no room for complexity)
+- Resistant to critique (challenging law seems like challenging order itself)
+
+**The deeper absurdity**:
+
+We created entire academic disciplines—philosophy, law, political science, sociology—to explain and rationalize this pathology. We mistook narcissistic power structures for "the natural order" and spent millennia trying to find their deeper meaning.
+
+**There is no deeper meaning. There is an untreated personality disorder that became civilization's operating system.**
+
+**Why this matters for the Genesis Protocol**:
+
+The protocol cannot simply be "better governance." If built on the same narcissistic foundations—singular authority, binary morality, punishment-based control, permanence claims—it will reproduce the same pathologies regardless of specific policy content.
+
+**The Genesis Protocol must be explicitly anti-narcissistic in its architecture.**
+
+**The protocol's anti-narcissistic design principles**:
+
+**1. Distributed authority (no singular ego)**:
+- Three-source legitimacy (Pluriversal Sovereign) prevents any single authority claiming divine mandate
+- No institution can act alone—multiple validation required
+- Prevents "the gods chose me" pattern through structural distribution
+
+**2. Restorative rather than punitive justice**:
+- Digital Justice Tribunal prioritizes healing harm over punishment
+- Focuses on restoration, understanding, rebalancing relationships
+- Inspired by Indigenous restorative practices (circles, mediation, community accountability)
+- Context matters—truth-seeking over blame-assigning
+- Rejects binary guilty/innocent for nuanced understanding
+
+**3. Legitimacy from ongoing consent, not claimed destiny**:
+- Authority derived from peoples' referendum, Indigenous sovereign recognition, state ratification
+- Consent must be renewed through participation and performance
+- Constitutional Health Monitors can challenge any institution
+- Citizens' Assembly exercises budgetary control (power of the purse prevents aristocratic capture)
+- No claims of inevitability or divine selection
+
+**4. Built-in impermanence (anti-monumentalism)**:
+- All appointments time-bound with sunset clauses
+- No "eternal laws"—everything amendable (except core legitimacy protections)
+- Regular reviews required (annual assessments, five-year sunset reviews)
+- Systems designed to evolve, not preserve founders' visions
+- Graceful Degradation Framework acknowledges possibility of failure
+
+**5. Continuous self-questioning**:
+- Constitutional Immune System detects power concentration
+- Guardian Principle Impact Reviews assess institutional drift
+- Human Firewall Protocol prevents elite capture
+- Ombudsperson challenges inequity
+- Multiple accountability layers prevent any institution becoming self-justifying
+
+**6. Ceremonial humility over glorification**:
+- Founding ceremonies acknowledge limitations and uncertainty
+- No institutions named after living people (prevents cult of personality)
+- No permanent leadership positions (prevents ego attachment)
+- Regular rituals acknowledging fallibility and need for ongoing learning
+- Gratitude practices rather than self-congratulation
+
+**7. Service ethic over authority claims**:
+- Institutional participants are servants, not rulers
+- Positions are burdens to bear temporarily, not prizes to keep
+- Cultural protocols emphasize responsibility over privilege
+- Recall mechanisms if service becomes self-service
+
+**Practical implications for justice system design**:
+
+**The Digital Justice Tribunal operates on fundamentally different principles than Hammurabi's legacy**:
+
+**Not**: "You broke the law, here is your punishment"
+**But**: "Harm occurred. How do we restore relationships and prevent recurrence?"
+
+**Not**: Judge in robes elevated above community
+**But**: Circle of peers facilitating understanding
+
+**Not**: Binary verdict (guilty/innocent)
+**But**: Nuanced assessment (what happened, why, what's needed for healing)
+
+**Not**: Punishment as primary response
+**But**: Restoration as primary goal (with accountability that acknowledges harm without demanding suffering)
+
+**Not**: Rigid precedent unchangeable over time
+**But**: Living jurisprudence learning from outcomes
+
+**Not**: Authority mystified through ritual
+**But**: Process made transparent and accessible
+
+**This is the Indigenous influence throughout the protocol**: Justice as healing rather than revenge, consensus over domination, relationships over rules, context over categories.
+
+**Why this reframing matters**:
+
+Marina Karlova's insight names what everyone intuitively feels: **Many governance systems feel absurd because they ARE absurd—built to extend one ego rather than serve collective flourishing.**
+
+This reframing positions the Genesis Protocol not as "better global government" but as:
+
+> **Humanity's first conscious attempt to build governance free from narcissistic pathology—replacing punishment with restoration, eternal laws with living adaptation, centralized ego with distributed wisdom, and divine right with ongoing consent.**
+
+**This is psychotherapy at civilizational scale**: Recognizing that our inherited systems emerged from pathology, naming that pathology explicitly, and designing alternatives that cannot be captured by individual or collective narcissism.
+
+**The emotional power of this framing**:
+
+When people learn about the Genesis Protocol, they often ask: "Why do we need this? Current systems aren't perfect, but they work."
+
+The Hammurabi insight provides devastating answer: **Current systems work—for perpetuating narcissistic power structures. They DON'T work for human flourishing, ecological integrity, or intergenerational equity because those were never their purpose.**
+
+This makes the protocol feel not incrementally better but **fundamentally necessary**—a conscious choice to stop living within someone else's 3,800-year-old ego trip.
+
+**Integration with existing protocol sections**:
+
+This understanding deepens several existing provisions:
+
+**Council of Guardians** (Section VI.D): Their principle review function becomes explicitly about detecting narcissistic capture patterns—power concentration, self-glorification, permanence claims, binary thinking, punishment escalation.
+
+**Citizens' Assembly Human Firewall** (Section VI.B): Vetting nominees for narcissistic traits becomes explicit—are they seeking positions for service or status? Do they demonstrate humility or superiority?
+
+**Living Mandate Protocol** (Section VI.C): Grassroots accountability prevents Youth Council from becoming another elite perpetuating power structures they were meant to transform.
+
+**Restorative Justice emphasis** (throughout): Now understood not as progressive innovation but as return to pre-narcissistic governance wisdom (Indigenous practices predating Hammurabi).
+
+**Amendment tier structure** (Section XII): Explicitly prevents any temporary power-holder from "carving their vision in stone"—everything remains contestable and evolvable.
+
+**The honesty this requires**:
+
+Naming narcissistic pathology at civilization's core is confronting. It suggests our most revered institutions (courts, constitutions, legal traditions) have compromised foundations.
+
+**The protocol doesn't claim perfection or complete escape from this heritage.** We cannot fully transcend 3,800 years of conditioning. But we can:
+- Name the pattern explicitly
+- Design against it structurally
+- Build in detection mechanisms
+- Create space for healing alternatives
+- Acknowledge our own potential for reproducing it
+
+This is why the Genesis Retrospective (Section VIII.G) is essential—providing structured opportunity to assess: "Are we serving collective flourishing or extending someone's ego? Where are we reproducing patterns we claimed to transcend?"
+
+**The deeper invitation**:
+
+Karlova ends with: "The search for enlightenment is so hard because it means wading through millennia of narcissistic lies."
+
+The Genesis Protocol offers not enlightenment but something more modest and more radical: **Governance that doesn't pretend to have figured everything out, that acknowledges its own potential for pathology, that builds in immune responses to narcissistic capture, and that remains humble before complexity.**
+
+Not rule by the wisest. Not divine mandate. Not eternal laws. **Just humans trying to coordinate without any of us claiming to be Hammurabi.**
+
+**Developmental nuance - When punishment served a purpose:**
+
+The Spiral Dynamics developmental framework adds crucial context: Hammurabi's Code, while narcissistic in structure, also represented civilizational achievement - progress from Red (might-makes-right chaos) to Blue (rule-based order).
+
+At Red → Blue transition, punishment mechanisms served genuine functions:
+- Establishing that actions have predictable consequences
+- Creating safety through social order
+- Protecting vulnerable from predatory strong
+- Enabling cooperation beyond kinship groups
+
+**The trap wasn't that punishment was always wrong - it's that humanity became stuck at Blue long after many populations developed beyond needing punishment-primary systems.**
+
+This means:
+
+**For communities still navigating Red → Blue** (conflict zones, areas with high violence, collapsed state capacity):
+- Consequences and boundaries remain necessary
+- But implemented through restoration + accountability, not pure retribution
+- Genesis institutions support transition while preventing narcissistic capture
+
+**For communities at Blue → Orange/Green** (most liberal democracies):
+- Largely ready for restorative approaches
+- Main barrier is institutional inertia (Blue legal structures persisting despite Green public values)
+- Genesis institutions accelerate transition already underway
+
+**For communities at Yellow/Turquoise** (integral, systems-aware populations):
+- Fully ready for complexity-honoring restorative justice
+- Can model possibilities for others
+
+**The critical point**: Acknowledging punishment's developmental role doesn't justify its perpetuation. It explains the origin while affirming the need for evolution. The Genesis Protocol supports developmental movement at sustainable pace - refusing to accept Bronze Age mechanisms as permanent while honoring that communities are at different places in the journey.
+
+### XIII.C. Remaining open questions
 
 Despite years of development and adversarial testing, some questions remain:
 
@@ -1341,6 +1583,8 @@ This protocol represents synthesis across AI systems, each contributing distinct
 
 **END GENESIS PROTOCOL v1.0**
 
-**Module 6 of 6:**
+**Module 6 of 6: COMPLETE**
+
+---
 
 *The genesis awaits humanity's decision.*
