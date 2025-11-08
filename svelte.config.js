@@ -3,13 +3,28 @@ import { mdsvex } from 'mdsvex';
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
+import fs from 'fs';
+import path from 'path';
+
 // When using a custom domain, we don't need a base path
 const dev = process.env.NODE_ENV === 'development';
 const base = '';
 
-const blogIndex = require('./src/lib/data/blog-index.json');
-const papersIndex = require('./src/lib/data/papers-index.json');
-const frameworkIndex = require('./src/lib/data/framework-index.json');
+function loadJson(jsonPath) {
+  try {
+    const fullPath = path.resolve(jsonPath);
+    if (fs.existsSync(fullPath)) {
+      return JSON.parse(fs.readFileSync(fullPath, 'utf8'));
+    }
+  } catch (e) {
+    console.warn(`Could not load JSON file ${jsonPath}. Did you run 'npm run prebuild'?`, e);
+  }
+  return []; // Return an empty array if file doesn't exist
+}
+
+const blogIndex = loadJson('./src/lib/data/blog-index.json');
+const papersIndex = loadJson('./src/lib/data/papers-index.json');
+const frameworkIndex = loadJson('./src/lib/data/framework-index.json');
 
 const blogEntries = blogIndex.map(
   post => `/blog/${post.slug}?lang=${post.lang}`
