@@ -33,7 +33,8 @@ const config = {
         '/blog',
         // Prerender blog posts for both languages
         '/blog?lang=en',
-        '/blog?lang=sv'
+        '/blog?lang=sv',
+        '/rss.xml' 
       ],
       handleMissingId: 'ignore',
       handleHttpError: ({ path, referrer, message }) => {
