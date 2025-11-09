@@ -128,7 +128,7 @@ const pageSpecificTranslationsMap = [
   { route: '/frameworks/cultural-heritage-preservation', dataKey: 'culturalHeritageFramework', fileName: 'frameworksCulturalHeritagePreservation' },
   { route: '/frameworks/find-your-place', dataKey: 'findYourPlace', fileName: 'findYourPlace' },
   { route: '/frameworks/ai-futures', dataKey: 'aiFutures', fileName: 'aiFutures' },
-  { route: '/frameworks/docs/implementation/treaty-for-our-only-home/getting-started', dataKey: 'startTreaty', fileName: 'startTreaty' },
+  { route: '/frameworks/treaty-for-our-only-home/getting-started', dataKey: 'startTreaty', fileName: 'startTreaty' },
   
   // Other specific routes
   { route: '/start-treaty', dataKey: 'startTreaty', fileName: 'startTreaty' },
