@@ -17,6 +17,11 @@
   $: chf = translationsReady ? ($t('culturalHeritageFramework') || {}) : {};
   $: currentLocale = $locale;
 
+  // Framework structure for cultural heritage preservation
+  $: foundationSections = ['at-a-glance', 'executive-summary-for-the-skeptic'];
+  $: coreFrameworkSections = ['introduction-vision', 'core-principles', 'governance-structure', 'implementation-mechanisms', 'strategic-roadmap', 'key-innovations', 'monitoring-evaluation', 'risk-mitigation', 'strategic-implementation', 'taking-action'];
+  $: resourceSections = ['appendices'];
+
   // Component state
   let activeSection = 'index';
   let mounted = false;
@@ -27,17 +32,11 @@
 
   // Computed values - add safety checks
   $: sectionsToShow = (mounted && isPrintMode) ? Object.keys(data?.sections || {}) : [activeSection];
-  $: coreFrameworkSections = Object.keys(data?.sections || {}).filter(section => 
-    !['index', 'at-a-glance', 'executive-summary-for-the-skeptic', 'appendices'].includes(section)
-  );
+  $: allCoreSections = [...foundationSections, ...coreFrameworkSections, ...resourceSections];
   $: isCoreSection = coreFrameworkSections.includes(activeSection);
-  $: foundationSections = ['at-a-glance', 'executive-summary-for-the-skeptic'];
-  $: resourceSections = ['appendices'];
   $: isExecutiveSummaryActive = activeSection === 'executive-summary-for-the-skeptic';
-  $: isSupplementaryActive = resourceSections.includes(activeSection);
 
   function initializeAccordionStates() {
-    // Set initial accordion states based on active section
     foundationOpen = foundationSections.includes(activeSection);
     coreFrameworkOpen = coreFrameworkSections.includes(activeSection);
     resourcesOpen = resourceSections.includes(activeSection);
@@ -177,8 +176,8 @@
 </script>
 
 <svelte:head>
-  <title>{getTextWithFallback('culturalHeritageFramework.meta.title', 'Cultural Heritage Preservation Framework - Project Tapestry | Global Governance Framework')}</title>
-  <meta name="description" content="{getTextWithFallback('culturalHeritageFramework.meta.description', 'Sovereign cultural preservation guided by Indigenous wisdom. BAZ-led stewardship, FPIC 2.0 protocols, and quantum-safe archives protecting humanity\'s living heritage.')}" />
+  <title>{getTextWithFallback('culturalHeritageFramework.meta.title', 'Cultural Heritage Preservation Framework - Global Governance Framework')}</title>
+  <meta name="description" content="{getTextWithFallback('culturalHeritageFramework.meta.description', 'Preserving and revitalizing cultural heritage through community-centered, regenerative approaches')}" />
 </svelte:head>
 
 {#if mounted}
@@ -188,25 +187,25 @@
     {/if}
 
     <div class="content">
-      <!-- Quick Access Card for Cultural Heritage -->
+      <!-- Quick Access Card for Cultural Heritage Framework -->
       {#if !isPrintMode && !isExecutiveSummaryActive && activeSection === 'index' && translationsReady}
         <div class="heritage-guide-card">
           <div class="card-content">
             <div class="card-icon">🏛️</div>
             <div class="card-text">
-              <h3>{chf.guideCard?.title || 'New to the Cultural Heritage Preservation Framework?'}</h3>
-              <p>{chf.guideCard?.description || 'Start with our executive summary to understand how Indigenous wisdom guides sovereign cultural preservation.'}</p>
+              <h3>{chf.guideCard?.title || 'New to Cultural Heritage Preservation?'}</h3>
+              <p>{chf.guideCard?.description || 'Start with our at-a-glance overview to understand how this framework preserves and revitalizes cultural heritage through community-centered approaches.'}</p>
             </div>
             <div class="card-actions">
-              <button class="primary-btn" on:click={() => setActiveSection('executive-summary-for-the-skeptic')}>
-                {chf.guideCard?.buttonText || 'Read executive summary'} <span class="arrow-icon">→</span>
+              <button class="primary-btn" on:click={() => setActiveSection('at-a-glance')}>
+                {chf.guideCard?.buttonText || 'Read At-a-Glance Overview'} <span class="arrow-icon">→</span>
               </button>
             </div>
           </div>
         </div>
       {/if}
 
-      <!-- Sub-navigation for cultural heritage sections -->
+      <!-- Sub-navigation for cultural heritage framework sections -->
       {#if !isPrintMode} 
         <div class="section-nav">
           <!-- Overview -->
@@ -275,6 +274,18 @@
                         class:active={activeSection === section}
                         on:click={() => setActiveSection(section)}
                       >
+                        <span class="nav-icon">{
+                          section === 'introduction-vision' ? '🌟' :
+                          section === 'core-principles' ? '⚖️' :
+                          section === 'governance-structure' ? '🏛️' :
+                          section === 'implementation-mechanisms' ? '⚙️' :
+                          section === 'strategic-roadmap' ? '🗺️' :
+                          section === 'key-innovations' ? '💡' :
+                          section === 'monitoring-evaluation' ? '📊' :
+                          section === 'risk-mitigation' ? '🛡️' :
+                          section === 'strategic-implementation' ? '🎯' :
+                          section === 'taking-action' ? '🚀' : '📄'
+                        }</span>
                         <span class="nav-title">{getSectionTitle(section)}</span>
                       </button>
                     {/if}
@@ -306,7 +317,6 @@
                       class:active={activeSection === section}
                       on:click={() => setActiveSection(section)}
                     >
-                      <span class="nav-icon">📚</span>
                       <span class="nav-title">{getSectionTitle(section)}</span>
                     </button>
                   {/if}
@@ -314,6 +324,7 @@
               </div>
             {/if}
           </div>
+
         </div>
       {/if}
 
@@ -357,9 +368,12 @@
   /* Container Layout */
   .documentation-container {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 280px 1fr;
     min-height: 100vh;
-    background: linear-gradient(to bottom, #fffbeb, #ffffff);
+    background: white;
+    max-width: 1400px;
+    margin: 0 auto;
+    box-shadow: 0 0 0 1px #e5e7eb;
   }
   
   /* Content Area */
@@ -369,7 +383,7 @@
     padding: 2rem;
     width: 100%;
   }
-  
+
   /* Heritage Guide Card */
   .heritage-guide-card {
     background: linear-gradient(135deg, #fef3c7, #fde68a);
@@ -449,28 +463,25 @@
   }
   
   .nav-item.active {
-    background: linear-gradient(135deg, #fef3c7, #fde68a);
-    color: var(--heritage-dark);
+    background: linear-gradient(135deg, #fcd34d, #f59e0b);
+    color: white;
     font-weight: 600;
   }
   
   .nav-icon {
-    font-size: 1.25rem;
-    flex-shrink: 0;
+    font-size: 1.1rem;
+    width: 1.5rem;
+    text-align: center;
   }
   
   .nav-title {
     flex: 1;
-  }
-  
-  .overview-item {
-    background: linear-gradient(135deg, #fef3c7, #fed7aa);
-    font-weight: 600;
+    line-height: 1.4;
   }
   
   /* Accordion Styles */
   .nav-accordion {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
   }
   
   .accordion-header {
@@ -478,13 +489,13 @@
     align-items: center;
     gap: 0.75rem;
     width: 100%;
-    padding: 0.75rem 1rem;
-    background: white;
-    border: 1px solid #fde68a;
+    padding: 0.875rem 1rem;
+    background: transparent;
+    border: none;
     border-radius: 0.5rem;
     font-size: 0.95rem;
     font-weight: 600;
-    color: var(--heritage-dark);
+    color: #78350f;
     cursor: pointer;
     transition: all 0.2s;
     text-align: left;
@@ -492,126 +503,167 @@
   
   .accordion-header:hover {
     background: #fffbeb;
-    border-color: var(--heritage-primary);
   }
   
-  .accordion-header.open {
-    background: linear-gradient(135deg, #fef3c7, #fde68a);
-    border-color: var(--heritage-primary);
-  }
-  
+  .accordion-header.open,
   .accordion-header.has-active {
-    border-color: var(--heritage-primary);
-    background: #fffbeb;
+    background: linear-gradient(135deg, #fde68a, #fcd34d);
+    color: var(--heritage-dark);
   }
   
   .accordion-icon {
-    font-size: 1.25rem;
-    flex-shrink: 0;
+    font-size: 1.1rem;
+    width: 1.5rem;
+    text-align: center;
   }
   
   .accordion-title {
     flex: 1;
+    line-height: 1.4;
   }
   
   .section-count {
-    font-size: 0.85rem;
     color: #92400e;
-    font-weight: 500;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
   }
   
   .toggle-arrow {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     color: #92400e;
     transition: transform 0.2s;
   }
   
   .toggle-arrow.rotated {
-    transform: rotate(-180deg);
+    transform: rotate(180deg);
   }
   
   .accordion-content {
-    padding-left: 1rem;
+    border-left: 2px solid #fde68a;
+    margin-left: 1rem;
+    padding-left: 0.5rem;
     margin-top: 0.5rem;
   }
   
   .subsection-item {
-    padding-left: 2rem;
     font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 0.25rem;
   }
-  
-  /* Buttons */
+
+  /* Download section */
+  .download-section {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #fde68a;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  /* Button styles */
   .primary-btn {
     background: linear-gradient(135deg, var(--heritage-primary), var(--heritage-secondary));
     color: white;
     border: none;
-    padding: 0.75rem 1.5rem;
+    padding: 0.875rem 1.75rem;
     border-radius: 0.5rem;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
     transition: all 0.2s;
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5rem;
   }
-  
+
   .primary-btn:hover {
-    transform: translateY(-2px);
+    transform: translateY(-1px);
     box-shadow: 0 4px 12px rgba(217, 119, 6, 0.3);
   }
+
+  .secondary-btn {
+    background: transparent;
+    color: var(--heritage-primary);
+    border: 1px solid var(--heritage-primary);
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 0.875rem;
+  }
   
+  .secondary-btn:hover {
+    background: #fffbeb;
+    transform: translateY(-1px);
+  }
+
+  .download-icon,
   .arrow-icon {
     display: inline-block;
     margin-left: 0.25rem;
   }
-  
-  /* Language Fallback Notice */
+
+  /* Language fallback notice */
   .language-fallback-notice {
     display: flex;
     align-items: flex-start;
     gap: 1rem;
-    background-color: rgba(217, 119, 6, 0.1);
-    border: 1px solid rgba(217, 119, 6, 0.3);
+    background: #fffbeb;
+    border: 1px solid #fde68a;
     border-radius: 0.5rem;
     padding: 1rem 1.25rem;
     margin-bottom: 1.5rem;
   }
-  
+
   .notice-icon {
     font-size: 1.25rem;
     color: var(--heritage-primary);
     flex-shrink: 0;
     margin-top: 0.125rem;
   }
-  
+
   .notice-content {
     flex: 1;
   }
-  
+
   .notice-content strong {
     color: var(--heritage-primary);
     font-size: 0.95rem;
     display: block;
     margin-bottom: 0.25rem;
   }
-  
+
   .notice-content p {
     color: #78350f;
     font-size: 0.875rem;
     margin: 0;
     line-height: 1.5;
   }
-  
-  /* Section Content Prose Styles */
-  .section-content {
-    margin-top: 1.5rem;
+
+  /* Loading styles */
+  .loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    padding: 2rem;
+    color: #78350f;
   }
-  
+
+  .loading-container p {
+    font-size: 1.1rem;
+    color: var(--heritage-primary);
+  }
+
+  /* Content styling */
   .content :global(h1) {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
-    color: var(--heritage-dark);
+    color: var(--heritage-primary);
   }
   
   .content :global(h2) {
@@ -619,7 +671,7 @@
     font-weight: 600;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    color: var(--heritage-primary);
+    color: var(--heritage-secondary);
   }
   
   .content :global(h3),
@@ -628,9 +680,9 @@
     font-weight: 600;
     margin-top: 1.5rem;
     margin-bottom: 0.75rem;
-    color: var(--heritage-secondary);
+    color: var(--heritage-accent);
   }
-  
+
   .content :global(h4) {
     font-size: 1.2rem;
   }
@@ -638,33 +690,35 @@
   .content :global(p) {
     margin-bottom: 1rem;
     line-height: 1.7;
-    color: #4b5563;
+    color: #374151;
   }
-  
+
+  /* Blockquotes */
   .content :global(blockquote) {
-    background-color: rgba(217, 119, 6, 0.1);
+    background: #fffbeb;
     border-left: 4px solid var(--heritage-primary);
     padding: 1rem 1.5rem;
     margin: 1.5rem 0;
     border-radius: 0.5rem;
   }
-  
+
+  /* Lists */
   .content :global(ul), .content :global(ol) {
     margin-bottom: 1.5rem;
     padding-left: 1rem;
-    color: #4b5563;
+    color: #374151;
   }
-  
+
   .content :global(ul) {
     list-style-type: none;
   }
-  
+
   .content :global(ul li) {
     position: relative;
     margin-bottom: 0.75rem;
     padding-left: 1.5rem;
   }
-  
+
   .content :global(ul li:not(.section-nav li))::before {
     content: "•";
     position: absolute;
@@ -673,84 +727,63 @@
     font-size: 1.2rem;
     color: var(--heritage-primary);
   }
-  
+
+  /* Ordered lists */
   .content :global(ol) {
     list-style-type: decimal;
     counter-reset: item;
   }
-  
+
   .content :global(ol li) {
     position: relative;
     margin-bottom: 0.75rem;
     padding-left: 0.5rem;
-    color: #4b5563;
+    color: #374151;
   }
-  
+
   .content :global(ol li::marker) {
     color: var(--heritage-primary);
     font-weight: 600;
   }
-  
+
+  /* Links */
   .content :global(a) {
     color: var(--heritage-primary);
     text-decoration: underline;
     font-weight: 500;
     transition: all 0.2s;
   }
-  
+
   .content :global(a:hover) {
     color: var(--heritage-secondary);
   }
-  
-  /* Loading State */
-  .loading-container {
-    padding: 4rem 2rem;
-    text-align: center;
-    color: #78350f;
-  }
-  
+
   /* Responsive Design */
   @media (max-width: 768px) {
     .documentation-container {
       grid-template-columns: 1fr;
+      max-width: 100%;
+      margin: 0;
+      box-shadow: none;
     }
-    
+
+    .content {
+      padding: 1rem;
+    }
+
     .card-content {
       flex-direction: column;
       align-items: flex-start;
       gap: 1rem;
     }
-    
+   
     .card-actions {
       width: 100%;
       justify-content: center;
     }
-    
-    .section-nav {
-      padding: 0.75rem;
-    }
-    
-    .accordion-header {
-      padding: 0.5rem 0.75rem;
-      font-size: 0.9rem;
-    }
-    
-    .nav-item {
-      padding: 0.5rem 0.75rem;
-      font-size: 0.85rem;
-    }
-    
-    .subsection-item {
-      padding-left: 1rem;
-    }
-  }
-  
-  /* Print Styles */
-  @media print {
-    .section-nav,
-    .heritage-guide-card,
-    .language-fallback-notice {
-      display: none;
+
+    .loading-container {
+      padding: 2rem 1rem;
     }
   }
 </style>
