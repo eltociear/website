@@ -1,0 +1,29 @@
+{
+  "title": "Project Updates",
+  "subtitle": "A changelog of new framework drafts, milestones, and project news",
+  "noPosts": {
+    "title": "No updates found",
+    "message": "No project updates found for the selected language ({language}). Try switching to a different language...",
+    "followPrompt": "Follow us to get notified when we publish new updates!"
+  },
+  "postsCount": {
+    "single": "update",
+    "plural": "updates",
+    "found": "found"
+  },
+  "latestBadge": "Latest",
+  "meta": {
+    "publishedOn": "Published on",
+    "by": "by"
+  },
+  "readMore": "Read update →",
+  "strategicFollow": {
+    "title": "Want to follow the progress?",
+    "subtitle": "Stay connected to never miss our latest framework releases"
+  },
+  "bottomPrompt": {
+    "text": "Want to stay updated?",
+    "link": "See all follow options →"
+  },
+  "backToUpdates": "Back to Updates"
+}

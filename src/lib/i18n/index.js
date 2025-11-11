@@ -146,6 +146,7 @@ const pageSpecificTranslationsMap = [
   { route: '/about', dataKey: 'about', fileName: 'about' },
   { route: '/contact', dataKey: 'contact', fileName: 'contact' },
   { route: '/blog', dataKey: 'blog', fileName: 'blog' },
+  { route: '/updates', dataKey: 'updates', fileName: 'updates' },
   { route: '/privacy', dataKey: 'privacy', fileName: 'privacy' },
   { route: '/terms', dataKey: 'terms', fileName: 'terms' },
   { route: '/downloads', dataKey: 'downloads', fileName: 'downloads' },
@@ -435,8 +436,8 @@ function setLocale(newLocale) {
       const url = new URL(window.location.href);
       url.searchParams.set('lang', newLocale);
       
-      // For blog pages, we want to reload to get the correct posts
-      if (window.location.pathname.startsWith('/blog')) {
+      // For blog and updates pages, we want to reload to get the correct posts
+      if (window.location.pathname.startsWith('/blog') || window.location.pathname.startsWith('/updates')) {
         window.location.href = url.toString();
       } else {
         window.history.replaceState(null, '', url.toString());

@@ -1,0 +1,2497 @@
+commit 1cda3344319777c63c5df5de9becef63b6237249
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Nov 10 11:09:30 2025 +0100
+
+    Fix styling of cultural heritage preservation framework
+
+commit e9983c9e9a74249bf1417fe9744814c348337f33
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Nov 9 07:23:52 2025 +0100
+
+    Fix start-treaty page
+
+commit 4dc9b7faa00a3f0b40e05a5f5e3ef1d57d09b08e
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Nov 8 21:17:20 2025 +0100
+
+    Update Global Governance book
+
+commit 951b388c2b756c5014985b7ac9e6e8d6ba4749f2
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Nov 8 09:12:07 2025 +0100
+
+    Fix package.json, add npm run to prebuild
+
+commit a5651e3c72b0ad730a9f2538c3f0da50a108014b
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Nov 8 09:08:07 2025 +0100
+
+    Fix svelte config, remove require
+
+commit 65d3c55873be5a1801a1e937c6110d896ffa572b
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Nov 8 09:04:17 2025 +0100
+
+    Do not force SvelteKit to crawl and build every single framework page for both languages
+
+commit 625cd95f6c7e9a134419b9bcb493a9d73be23048
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Nov 8 08:28:58 2025 +0100
+
+    Fix RSS feed
+
+commit cba9b471734658c5509292e971569d749d054665
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Nov 5 20:55:00 2025 +0100
+
+    Update framework outlines to align with Maria Karlova's analysis of the civilizational parasitic control system
+
+commit 56e2c28febff2f8d913cdf6c4a91225e5f4edc85
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Nov 5 17:23:04 2025 +0100
+
+    Strengthen mental health and cognitive equity based on systemic analysis by Maria Karlova
+
+commit 34d7f323038b05337c56a5dbe17fe3f96bff10bc
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Nov 5 12:05:23 2025 +0100
+
+    Strengthen rights of nomaidic and stateless people in AUBI framework outline
+
+commit 4934a6a70a85c8a81e0c5fe6ecd3c18a23daf80a
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Nov 5 12:04:16 2025 +0100
+
+    Update Kinship protocol outline with strengthening of nomadic and stateless people's rights and nuance to transgender questions
+
+commit aa5428533c358ff2b0bfd2b9834645a936989ccd
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Nov 5 12:03:09 2025 +0100
+
+    Add section about narcissism in governance to Genesis Protocol
+
+commit 29dc3fdfd504cc4c49f9cb3b52619040843b5a1b
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Nov 4 15:03:33 2025 +0100
+
+    Publish Genesis Protocol
+
+commit 2384cfa30acd41a14566ff337c2390bf8d393b37
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Nov 3 01:48:42 2025 +0100
+
+    Reframe main page, about page and get-involved page to be clear about the nature of the project
+
+commit 7af1522d6a36dea439a0d96cb8980510397836b7
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Nov 2 23:19:54 2025 +0100
+
+    Remove performance dashboard until it is fully functional (including all frameworks)
+
+commit f732df9fbe35a4094136b762120f37dab2b6a096
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Nov 2 22:40:02 2025 +0100
+
+    Remove backup file
+
+commit e16183dc4ff5a275d5832bfb612ddeaa3d95e09a
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Nov 2 22:39:17 2025 +0100
+
+    Remove preload on hover for framework sidebar to avoid flickering effect
+
+commit 0bc555bc4db8412a9be21964231ef6f77c60ebbd
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Nov 2 21:48:29 2025 +0100
+
+    Remove backup files
+
+commit ea92ee6a732d0db34838dccf759fbdc5c8655587
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Nov 2 21:44:40 2025 +0100
+
+    Draft and publish full Cultural Heritage Preservation framework. Fix flickering in framework header menu dropdowns. Remove debug messages from frameworks +page.js and +page.svelte
+
+commit 023c3e224dabfbc0f5ac51b10090af4fe1473ff0
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Oct 31 06:41:36 2025 +0100
+
+    Update blog post pdfs with hint to upcoming whitepaper
+
+commit 3a9260d4108fae72b696fcbb12295377345bb985
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Oct 31 06:34:27 2025 +0100
+
+    Add note about upcoming whitepaper in blog post about debt trap
+
+commit 09ffa302c9f8fb5ca4ea98b26c8682e46a381f71
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Oct 31 05:53:26 2025 +0100
+
+    Add missing -sv to Swedish blog post path
+
+commit 3ff5508780dd90ff203cbbd3e22b521db434d273
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Oct 31 05:52:20 2025 +0100
+
+    Publish blog post: 'Breaking the debt trap'
+
+commit bf7dd53933bf6dc11df231b4fcf4397dc1d3d7da
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Oct 31 05:16:52 2025 +0100
+
+    Reframe blog post promise from 'next piece' to 'upcoming piece'
+
+commit 0dfbf04413a27c4859c819f54f1201d0ce8216e2
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Oct 31 05:10:00 2025 +0100
+
+    Integrate a solution to national debt into the financial systems framework, treaty and meta-governance framework
+
+commit be9578dd2c7e0aac722b04bca17a646dac0d6ce6
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Oct 30 05:25:40 2025 +0100
+
+    Add organizational structured data for google
+
+commit 357e413cd5e5befd979eee6c1edf48e137f6afa0
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Oct 24 17:30:56 2025 +0200
+
+    Correct blog and pdf name of Weaving Governance Back to the Land
+
+commit f2036330f8952a9aca8204b3c79cb351f51e0bc3
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Oct 24 15:09:16 2025 +0200
+
+    Create blog post about BAZs
+
+commit e41b399d5185145b809299fc413b2d289aacb452
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Oct 4 05:08:31 2025 +0200
+
+    Publish whitepaper: 'The Responsive Society'
+
+commit 58a845fd29932d23af213962f86cd54e0df15d7a
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Sep 22 21:18:21 2025 +0200
+
+    Add Swedish blog post about love ledger
+
+commit 580afb40317820a6616f867e20ade6075f7e5e96
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Sep 22 14:20:23 2025 +0200
+
+    Generate pdf for English blog post The Love Ledger
+
+commit dd49751a189f1dfe8cd8f68d564e94070314c5cb
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Sep 22 14:18:17 2025 +0200
+
+    Publish The Love Ledger blog post in English
+
+commit 9a32745d89ce44b96d5c554b686485372b14e057
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Sep 22 02:32:55 2025 +0200
+
+    Correct from eight to nine principles in framework foundations of bioregional polis framework
+
+commit 7cadee65e41a3ff0745031faafc666168795cad6
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Sep 22 02:14:00 2025 +0200
+
+    Add Cosmic Connection to Bioregional Polis framework
+
+commit 4b6e904c196ccd0937705d163faf1a562bd040d2
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Sep 18 10:21:59 2025 +0200
+
+    Correct Swedish blog post image for introducing leaves post
+
+commit 5865b17fd764078e97f92257b7bc5d5470576064
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Sep 17 23:06:39 2025 +0200
+
+    Publish blog post about Leaves
+
+commit 37485f646ea4846a04a30850ace4d529a3166800
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Sep 16 18:03:11 2025 +0200
+
+    Add missin  around <
+
+commit 1e89c4b1780662db19b19b982f9f25dccc876179
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Sep 16 17:44:57 2025 +0200
+
+    Remove trailing html tag
+
+commit 9ac7a35886b19bb669a019cd5a4133ab5c6a2a21
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Sep 16 17:41:10 2025 +0200
+
+    Update Heartlight protocol with suggestions from DeepSeek, and Existential Risk Governance framework with steel manning from Grok
+
+commit 02fda3c6ccf4d95c7c2746d1295dda36cf92fd52
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Sep 15 11:08:51 2025 +0200
+
+    Render pdfs for blog posts
+
+commit 11c29a6fe43ccb26bea15cb8eca3d035480cfc21
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Sep 15 11:07:20 2025 +0200
+
+    Publish blog post 'Currency of Care'
+
+commit bfc7cec3dfadad19184457741e018811d92e1745
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Sep 12 22:12:50 2025 +0200
+
+    Continue update of work in liberation framework to align with latest outline
+
+commit 01a4ab7e66f52a01ce8a52b7773f4865b3a7fbff
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Sep 12 19:11:57 2025 +0200
+
+    Partially update work in liberation framework to latest outline revision
+
+commit 8a3cbc971cf2e7757c255ea1b6346f74263041ff
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Sep 12 10:41:49 2025 +0200
+
+    Revise Nested Economies framework to align with latest outline
+
+commit cd33038f015ae22adb6c32dbd2951a204255050d
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Sep 11 08:09:22 2025 +0200
+
+    Fix some minor errors
+
+commit 715cb56fa29126f22bf75760120ed94b4d45a8e4
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Sep 11 08:01:29 2025 +0200
+
+    Surround < > in financial systems markdown files with
+
+commit 94c0a5541d4f4f3f6a042520bac82dceb8267994
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Sep 11 07:21:50 2025 +0200
+
+    Publish book 'The Capital Weaver' online and PDF in English
+
+commit 2d870ca5d305c176fb00c1366d27e1625764e731
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Sep 11 02:51:51 2025 +0200
+
+    Strengthen 'A Grand Strategy for European Peace' blog post with additions based on steel manning aginst it
+
+commit 6b1b991183b971813cc43d94fd0e48c390beb5bc
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Sep 11 01:23:29 2025 +0200
+
+    Rename Regenerative Enterprise Framework to Pathfinder Protocol to avoid naming conflict with the book from 2013
+
+commit f64d72f5f33b10412ce05b93fd014386ff8905bb
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Sep 8 15:30:29 2025 +0200
+
+    Change date of implemantation framework to Q1 2027
+
+commit 6e48a01bce2cba615dc2484021a15fffe018df87
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Sep 6 20:04:08 2025 +0200
+
+    Update section about economic os in overview to align with latest frameworks
+
+commit 0fa8c0a2f1a011cdb917dfb1a493062ce65a2d7a
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Sep 6 19:25:47 2025 +0200
+
+    Add pdf downloads to blog posts
+
+commit 163172632d100fdbedb9c86deb06a7eb90d0f224
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Sep 5 15:58:26 2025 +0200
+
+    Update Financial Systems framework to reflect recent changes to Hearts and the Love Ledger
+
+commit 48033820fdc95b6ead06c73275c0e4c874817513
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Sep 4 19:21:26 2025 +0200
+
+    Save proper paradox canvas template in downloads
+
+commit 37ea05683f5bafb45ea79617de021d4beda1cf73
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Sep 4 19:08:21 2025 +0200
+
+    Fix pdf downloads on resources page
+
+commit a006e31d9f1ca3e8c6e0e9143eccf2ac70ddce0a
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Sep 4 18:54:13 2025 +0200
+
+    Add temporary missing template
+
+commit 7bcb5dcccbb5bf2a5c0612791f048bcb2decd926
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Sep 4 18:28:07 2025 +0200
+
+    Fix unwrapped < and > in aubi appendices
+
+commit 6c4dbd96070e5bb2e19266f2d95a1c5c27d974ee
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Sep 4 18:12:53 2025 +0200
+
+    Post new blog post: 'Stuck in a Hard Place?'. Add Tools and Protocols pages to Resources, with Paradox Decision Canvas and Cultural Translation Protocol
+
+commit 0256d9baf15299d2956fa89f0ea287e40d1636f6
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Sep 4 13:28:46 2025 +0200
+
+    Update Adaptive Universal Basic Income framework to latest version from framework outline.
+
+commit 7ec721e84773d2c9eba1885e1ce7e296a9d4de8b
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Sep 4 11:13:42 2025 +0200
+
+    Add missing images in white paper pdf 'The Infinite Paradox'
+
+commit 11a887e8e2bc92e5262067eb98b7f2ed31f65f8b
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Sep 4 11:11:24 2025 +0200
+
+    Fix trailing translation scrap in white paper 'The Infinite Paradox'
+
+commit 067c09d328abe80d677c41d49cdf83deb472eba2
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Sep 4 11:08:57 2025 +0200
+
+    Publish Swedish version of white paper 'The Infinite Paradox'
+
+commit e431bc56476665b00e4e3df97eff25305d5d6d3d
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Sep 4 01:21:05 2025 +0200
+
+    Change status from draft to published in white paper 'The Infinite Paradox'
+
+commit 4a68925e8d76c7e1977302e45e91f7d0f7dee98e
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Sep 4 01:04:31 2025 +0200
+
+    Publish 'The Infinite Paradox' white paper
+
+commit d16228a7435d75a88b89ca07b4a3fec6c3523961
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Sep 3 18:03:11 2025 +0200
+
+    Add message about new changes to the AUBI, Hearts and Love Ledger to four economic frameworks
+
+commit 295e6501fce3e78b443bebd8b0c06d787622491f
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Sep 3 17:44:42 2025 +0200
+
+    Add message about new changes to the AUBI, Hearts and Love Ledger to four economic frameworks
+
+commit 0787ba8b27d770cf7a985556573ba030075e1cbe
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Sep 3 09:53:06 2025 +0200
+
+    Publish 'The Regenerative Governance' white paper
+
+commit ce0bff5485ea454e1953e1c93e06a63ad997d1de
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Sep 3 01:02:54 2025 +0200
+
+    Complete bioregional compass guide
+
+commit 2f64d48460f1efecbdbf0a3bce5f04b70a7ca435
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Sep 2 16:48:42 2025 +0200
+
+    Finish draft of bioregional compass guide
+
+commit 40b5046f1c32205800bcf180410aa734d515c17d
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Sep 2 09:15:29 2025 +0200
+
+    Adjust logotype size and wrapping
+
+commit 17499e9aace2b20360f4bbe3e6ad20e5312c88f7
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Sep 2 09:06:17 2025 +0200
+
+    Add Resources as header drop-down menu with books, whitepapers and blog
+
+commit 2a0fff859969061c81d98b3e6f337d41c45e0edf
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Sep 1 21:40:00 2025 +0200
+
+    Publish white paper 'Beyond Fragmented Truth'
+
+commit bcb67d61f27cee08e40ff3c42dc0172cc8d030a6
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Sep 1 04:23:21 2025 +0200
+
+    Continue drafting of BAZ formation guide
+
+commit 47d2da72c888dd4efe2e96c46245883b77072d20
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Sep 1 01:40:02 2025 +0200
+
+    Minor header fix in latest white paper
+
+commit d950bfd204dddc47f5b30ff03c36b5cfbe24d358
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Sep 1 01:08:43 2025 +0200
+
+    Minor header fix in latest white paper
+
+commit d5ce314d209591bee21596b47f7c263c8a385829
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Sep 1 00:57:20 2025 +0200
+
+    Fix Swedish white paper terminology
+
+commit 93e3fbe313c5e2556be4a127dbae7d1bb3104791
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Sep 1 00:47:48 2025 +0200
+
+    Add new white ppaper 'The Currency of Care Beyond UBI'
+
+commit 57ff0bba6a7be65b7c42b76cb504cc634d5a0f56
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Aug 31 14:36:06 2025 +0200
+
+    Tone down the color scheme of the financial framework
+
+commit 4ecdd75b0e84816478c6f041abb682a54965bc4d
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Aug 30 14:47:12 2025 +0200
+
+    Continue creating the bioregional compass guide
+
+commit 7d9b8803737a4e504c801b16fc463efe7c92db68
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Aug 29 14:50:32 2025 +0200
+
+    Remove faulty } in implementation-and-adaptation route page
+
+commit b7b58505d619d0ffdf03c045ecef22f840457728
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Aug 29 14:25:46 2025 +0200
+
+    Draft framework outlines for Implementation and Adaptation framework, Heartlight Protocol, Abundance Protocol, Resonance Framework and Oracle Protocol. Add coming soon pages for Implementation and Adaptiation framework and Oracle Protocol. Begin drafting Bioregional Compass guide.
+
+commit fb1e868d91ca34329dca20ebe9d2d1877836dbfa
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Aug 27 14:39:51 2025 +0200
+
+    Add Bioregional Compass guide as in development/coming soon
+
+commit 9c53e726aa35c4406e4da1d8cc434d20768681e6
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Aug 27 11:08:38 2025 +0200
+
+    Add coming soon page for Sanctuary Accord
+
+commit 7a0640dd01f7fb59180e0462232ece03d659a0af
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Aug 27 10:19:22 2025 +0200
+
+    Add book cover to AI Catalyst book page
+
+commit 8c45ac85d90979a0c05dfa11f833e5ea48c6f009
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Aug 27 10:01:44 2025 +0200
+
+    Include link to AI Catalyst book in AI scaffolding white paper
+
+commit 36b7f83b4830cd0ca4ca096a8119d1dd71e192a0
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Aug 27 09:47:33 2025 +0200
+
+    Add Sanctuary Accord to data schema and framework constellation
+
+commit 33bce854b4492f317caea77304206ab0f2f8eac9
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Aug 27 05:14:20 2025 +0200
+
+    Fix error in json
+
+commit 8d0e49dc11bf0e70a31aebfe8a6808015301469e
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Aug 27 04:56:27 2025 +0200
+
+    Split resource page content into books and whitepaper. Add breadcrumb on Ai Catalyst book page
+
+commit 329f1bd0fa3fc552e0f127b248cedf5cb3502090
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Aug 27 04:12:21 2025 +0200
+
+    Add AI Catalyst book page
+
+commit 58937439b65caba58484824312153be373908fbe
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Aug 27 02:50:39 2025 +0200
+
+    Fix missing & on AI book cover
+
+commit 3df1656bd20b1a28f0f682f9e23ba398ce54f77a
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Aug 26 18:03:14 2025 +0200
+
+    Add new book 'AI as Catalyst for Cognitive Evolution' to resource page
+
+commit 2adb240928f65220843d2c44950f0317b8281756
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Aug 26 07:58:28 2025 +0200
+
+    Improve footer. Add resources link to footer and about page. Remove trailing English index from Swedish whitepaper
+
+commit 18e7fb59408496a90997d7e3a42f4d5c453e9425
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Aug 25 14:12:12 2025 +0200
+
+    Publish first white paper, add resources page with books and whitepapers
+
+commit 1942864c132784572703c2a4c4bbcaac0e7fc0dc
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Aug 25 01:28:26 2025 +0200
+
+    Add new draft of Climate & Energy Governance Framework
+
+commit 55828fc3687eecf41119d9d80c59f430b7dd1925
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Aug 22 12:41:32 2025 +0200
+
+    Add draft of Regenerative Journeys framework
+
+commit ea63eb76a42e1abacb86aa5a3aecd8a629000bc9
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Aug 22 01:25:53 2025 +0200
+
+    Add draft of Oceans & Marine Governance framework
+
+commit aa0cb75b730bdff750b42098e127cdbc1a6bac36
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Aug 20 11:57:17 2025 +0200
+
+    Add appendix about citizen assemblies to blog post 'What we would do if we were Trump'
+
+commit 82660d040812c160c34521fc936446223d636b71
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Aug 20 11:36:49 2025 +0200
+
+    Draft Mobility Commons framework
+
+commit ace2b6c61dc3a18b6cfd90522849aa4f9b213f9b
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Aug 20 03:33:25 2025 +0200
+
+    Add Healing to Core GGF Principles page. Fix missing first principle in Swedish page.
+
+commit 59b3e2f6913f988817ee48ab60a93f663f9c09e8
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Aug 20 02:34:04 2025 +0200
+
+    Address healing in blog post 'What we would do if we were Trump'
+
+commit d61fca2c9bea3e2eb86c8971ea2bd6d73dbdd5a4
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Aug 20 02:11:24 2025 +0200
+
+    Add framework links to latest blog post 'What we would do if we were Trump'
+
+commit bdbacc8c3577d2ebee37975610d30286a56efd0d
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Aug 17 06:49:22 2025 +0200
+
+    Publish blog post 'What we would do if we were Trump, to make America great again'
+
+commit 84c2f1b52555da86be8fed695d83d19293ebb329
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Aug 17 00:40:24 2025 +0200
+
+    Add new implementation-methods-tools page
+
+commit fe28aa397d8efd514d6df1afdb64cc635dac0521
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Aug 16 23:49:13 2025 +0200
+
+    Begin implementation of new implementation-methods-tools framework
+
+commit a2cfa8550e4889c2b876bc4cfac9cf6b4289e423
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Aug 15 18:32:26 2025 +0200
+
+    Refine methods-tools framework outline
+
+commit e00fcac0d97ab0e5d166bef3caaa16885f9d6811
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Aug 15 12:26:18 2025 +0200
+
+    Redraft Disaster Risk Reduction & Resilience framework
+
+commit e37fdfb5f875271476cb9a8aa60459093538eb3c
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Aug 15 01:53:42 2025 +0200
+
+    Replace Food Systems & Agriculture framework with Kinship Garden framework
+
+commit d7f7182e0e71c0218d9b3402c3198dd1b6f8a20b
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Aug 13 15:30:31 2025 +0200
+
+    Draft Sundown Protoccol
+
+commit 9a8cf435231d4d71453b70e0bcb29fb106e771af
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Aug 12 17:04:38 2025 +0200
+
+    Attempt fix of endless reloading when linked from external website in Chrome
+
+commit 0aaaf6cba2c9b0a9e65dd2a56f4124886a61c84c
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Aug 12 16:48:41 2025 +0200
+
+    Minor header edit: remove bold in appendix headers
+
+commit 1196fe3d90cab7edf208a2a4d61902cf8dbb73f4
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Aug 12 16:35:25 2025 +0200
+
+    Add Appendix A to blog post 'A Grand Strategy for European Peace'
+
+commit a623eaf91e73229224d4c272b639341e7fb7927a
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Aug 12 16:04:06 2025 +0200
+
+    Add header image to latest blog post, the grand strategy for european peace
+
+commit c9ec83ca6601d2d16be8cb0695c24180c790c1c6
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Aug 12 15:30:06 2025 +0200
+
+    Draft Living LAand  Protocol. Publish blog post 'A Grand Strategy for Eurpoean Peace'
+
+commit 565185ffde15881e33413aa4f035fa61070c225c
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Aug 9 15:56:20 2025 +0200
+
+    Fix tagline for Bioregional Polis in framework constellation
+
+commit dbc8be7fc81d5c63953a1063f1771b84745cad3e
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Aug 9 14:41:08 2025 +0200
+
+    Add Bioregional Polis framework
+
+commit d5790c3d5680d8da593a9b68cf70c861a258c5f4
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Aug 7 22:41:11 2025 +0200
+
+    Add Deep Time Governance framework
+
+commit 87ab41b38152e241c4179ad9cda4a3d4544477bf
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Aug 2 14:44:34 2025 +0200
+
+    Complete revision of Environmental Stewardship framework. Add coming soon pages for Sundown Protocol, Prometheus Protocol, Discovery Commons, Kintsugi Protocol and Cairn Protocol.
+
+commit 8a37c8c784e2d4bee34348a568d283f021e34fe2
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jul 31 22:41:47 2025 +0200
+
+    Finalize Weaver Protocl and Sundown Protocol framework outlines. Partly redraft Environmental Stewardship framework (appendices remaining)
+
+commit 752a7ec2ccab8129b8ba122041332e2a8d3fddc1
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 30 23:06:41 2025 +0200
+
+    Change section notices to show scheduled redrafting on framework pages
+
+commit 7e45d6921742b6da81914743d74b392a11ad9916
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 30 20:32:45 2025 +0200
+
+    Add Read Overview button to home page
+
+commit 924531bc1a131e3e16656f423d1ab53409909158
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 30 20:16:18 2025 +0200
+
+    Add GGF overview page and downloads
+
+commit 1d308b7180be3290f801484fe6b3f198810e78ca
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 30 10:48:20 2025 +0200
+
+    Add missing social svg image for kinship protocol
+
+commit 1a57fb2202f8d8cf47f01c22e4d68dd634f5fe4e
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 30 10:35:59 2025 +0200
+
+    Add Kinship Protocol. Make Downloads page give graceful message when files are unavailable
+
+commit a0c27674d6a1031f79bc5dd7281db270fd6a6967
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jul 29 14:19:08 2025 +0200
+
+    Add all 59 frameworks' taglines and descriptions to constellation
+
+commit ccac1a8def4bf4e8d564bdcb529aab9838dd5f43
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jul 29 05:20:33 2025 +0200
+
+    Add missing browser import
+
+commit b13bcfa32aa7159a6d0050da418ad858b1a044a5
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jul 29 05:07:13 2025 +0200
+
+    Fix client-side ref parameter detection
+
+commit efe19012e0ec599dd8797d1c1dea857060b51728
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jul 29 04:57:08 2025 +0200
+
+    Add Unity Beyond the Known landing content
+
+commit 1f40e95892e0f27799a1571241a63a1056fd616f
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jul 29 04:06:26 2025 +0200
+
+    Add drafted Aegis Protocol
+
+commit 5b9dd5ae20bd149992aca3c48f4057d91ad02010
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Jul 28 03:53:43 2025 +0200
+
+    Draft and publish Synoptic Protocol
+
+commit 41d164fdb855ef952923721c5fb9a5dabe5dc775
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Jul 28 00:32:54 2025 +0200
+
+    Draft Hearthstone Protocol
+
+commit f386724a3c3f6978ef1b408aab2cf50d9ea2dad1
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Jul 26 21:56:18 2025 +0200
+
+    Draft and add the Conduit Protocol
+
+commit 8e26a8e846d62ead7e8c336e4e604b51df454a68
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Jul 26 19:14:50 2025 +0200
+
+    Fix: First attempt at fixing flickering issue in sidebar
+
+commit 0f234e3ac5d3cb59572744fdb1bdc29191263f1c
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Jul 26 18:58:53 2025 +0200
+
+    Update Technology Governance framework. Align tiered submenus to top of screen.
+
+commit e02a96564822b384226097852e22df3007f39979
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jul 24 09:09:24 2025 +0200
+
+    Fix missing links
+
+commit ab137881a3c82479788ac5f2e325b3d6c5498169
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jul 24 07:36:21 2025 +0200
+
+    Update egp appendix
+
+commit 54d940d95382a44f573ab03fc68c347eb81ed885
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jul 24 06:18:44 2025 +0200
+
+    Increase number of tier 1 framework in constellation to 16
+
+commit 364efc59b74183aa63a5b8662b79e48dd5540808
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jul 24 03:16:27 2025 +0200
+
+    Add Emergent Governance Protocol
+
+commit 765f5be842e16c86a19a912bcc6f323aec2392ad
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Jul 20 12:51:57 2025 +0200
+
+    Add Shield Protocol
+
+commit d1722bc6c3bff5e063b4667be9f4d1b5c6d28d26
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Jul 19 17:32:54 2025 +0200
+
+    Add guides 'Great Transition' and 'Regenerative Resources'
+
+commit 519642770cc872563f5d929f2a3d0c085cb5e3d7
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Jul 18 12:02:49 2025 +0200
+
+    Add Justice Systems framework to Downloads page
+
+commit 3bcb52299ba2b4fefde4c62067f27623968fc283
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Jul 18 11:36:42 2025 +0200
+
+    Redraft justice systems framework. Release as v1.0
+
+commit 0eedabc0af6a6571b0fd7f400db5206242f04c77
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jul 17 19:48:33 2025 +0200
+
+    Add Conduit Protocol coming soon page
+
+commit b4c928c3fa074c34eec14335bedd716bb87e9185
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jul 17 17:56:03 2025 +0200
+
+    Remove 'the' in slugs
+
+commit d2d60e307a6877d34a8011d9c7d8c3ed7a6bd15c
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jul 17 12:18:18 2025 +0200
+
+    Integrate Hearthstone protocol into draft
+
+commit dbfcc498a9b8481af4d36d8aae8e561db22cd46f
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jul 17 11:28:39 2025 +0200
+
+    Add appendices for Peace framework. Add Commons & Commonwealth framework outline.
+
+commit 09e7fd860f7b412da8a5eff0f32b9c793b124374
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jul 17 01:41:58 2025 +0200
+
+    Add several new outlines and coming soon pages
+
+commit 100b1739cec520b653559883c6ea73fe720f0e8a
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 16 21:02:09 2025 +0200
+
+    Revise indigenous framework, strengthen relations in schems
+
+commit e19ba6b38e7ebb650232fd9d192a836b287fb2d4
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 16 20:05:17 2025 +0200
+
+    Indigenous update
+
+commit 46421e50f0486360a5e92ed57425539581706450
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 16 19:28:43 2025 +0200
+
+    Add Mobility Commons coming soon page and to schema
+
+commit 8020b8e7ee45954eccee84f5379c0c34a9030e9f
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 16 18:41:38 2025 +0200
+
+    Link from meta goverance framework to my-path
+
+commit a4878f3181486899aad1151d3698f7c012c1218a
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 16 18:31:43 2025 +0200
+
+    Do nothing
+
+commit 86f4ddc368dee1dd539fba3f18318cb5b2bf6052
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 16 18:31:10 2025 +0200
+
+    Revise meta-governance sections
+
+commit a1d959d5a37fff12fcde3422b4c261ebd0d73d29
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 16 18:04:42 2025 +0200
+
+    Rename several frameworks (reflected in outlines only). Redraft peace-and-conflict-resolution framework. Update treaty sections
+
+commit 6adab20bf3f9cd5edd13a118d15893930d598d4c
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 16 00:41:10 2025 +0200
+
+    Adjust Framework Constellation to Regenerative Enterprise framework being in Tier 2
+
+commit 42bf718715c980e3c9fe2e40e49374e3dcc9e00e
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jul 15 23:02:28 2025 +0200
+
+    Add initial love-ledger, simple markdown file
+
+commit aca24efb2724f9b7905a6614120c69033176b106
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jul 15 22:56:18 2025 +0200
+
+    Add frameworkNav.js to .gitignore since it is auto-generated
+
+commit 595db6e46c3b194befd70a7bb143e15fe251615b
+Merge: 2b91d0ad f9c0770b
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jul 15 22:54:56 2025 +0200
+
+    Silly me
+
+commit f9c0770b41c862d0228918fea707efa94cc6bfe4
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jul 15 22:53:56 2025 +0200
+
+    Add Regenerative Enterprise framework
+
+commit 2b91d0ad2a8557f8f34b6bc4dc08a964ae1dce57
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jul 15 11:05:26 2025 +0200
+
+    Gather opinions on reframing the project
+
+commit b9df473effced4d943e525727bcbceb9195fa1cd
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jul 15 10:52:59 2025 +0200
+
+    Update project vision for a more relaxed approach
+
+commit f930db90f320bd95fca56647522cfe166200451c
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Jul 14 23:24:43 2025 +0200
+
+    Add onboarding page
+
+commit ddadfc616d24bd331a86a879fc27013669f4e921
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Jul 14 11:59:58 2025 +0200
+
+    Update ggf catalyst documentation. Expand on work culture.
+
+commit dc4e61f78d06149396a3f9ab88e4946a5d5c4a7d
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Jul 14 11:05:43 2025 +0200
+
+    Draft four first modules and add coming soon page for regenerative enterprise framework. Set custom status message for indigenous framework, and revert status to In Review for internal review.
+
+commit 986372ab8831d2b4a03f438bec8459961b8747bd
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Jul 13 23:14:35 2025 +0200
+
+    Clarify as funding opportunity, not investment opportunity
+
+commit 143047cb3579d4a39fb028d9689cca0edfc92dc3
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Jul 13 22:32:04 2025 +0200
+
+    Fix errors in +page.js for treaty-for-our-only-home and instituttional-regeneration routes. Improve precomputedFrameworkDatabase.js and DeeperExploration.svelte, eliminate build error
+
+commit a9eaae18ba03dd59ab731ac1f538c0789884a10f
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Jul 13 18:41:38 2025 +0200
+
+    Add Institutional Regeneration framework
+
+commit bedd1a177cfd094cb5d38c578d6a12125badf097
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Jul 12 18:08:00 2025 +0200
+
+    Add Moral Operating System framework, replacing Global Ethics And Rights of Beings
+
+commit 899af3aed1fe01ee1d9ebada938f28e3789d486c
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Jul 11 22:06:04 2025 +0200
+
+    Add Work in Liberation version 1.0
+
+commit 2279af950002505701e2a2b69e7f1142ea33f03d
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Jul 11 12:21:01 2025 +0200
+
+    Set Indigenous framework to ready version 1.0
+
+commit 57a9dd742f76c55d460c5437f8f01bef34039eff
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Jul 11 12:12:46 2025 +0200
+
+    Rename framework outline revision folders to slugs
+
+commit 83c1d094090f9330474ba97ee091e551428f7b34
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jul 10 21:19:54 2025 +0200
+
+    Improve source of truth. Restructure tiers
+
+commit ae30e398245cb9e1e0716637373859f3bb80a2b7
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 9 23:49:51 2025 +0200
+
+    Add Gaian Trade Framework
+
+commit 11d71832eb7019b7dfc8ec1ed8020d7d2aed6c1c
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 9 19:02:17 2025 +0200
+
+    Make more realistic claims in financial systems conclusion
+
+commit 7ffd3ed0328d3b9a9c022908d883df9a028b29e5
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 9 03:15:05 2025 +0200
+
+    Restore stores/frameowrkNav.js as the single source of truth instead of cleanFrameworkdata.js
+
+commit 3d64d0e7be1bffd8872331db4db9fad2ce7c806e
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 9 03:08:18 2025 +0200
+
+    Almost fix flickering issue on frameworks page; issue still remains with browser top page title and tab title
+
+commit 393a611e4630cf31de99db32fef040399715af2f
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jul 8 23:16:53 2025 +0200
+
+    Fix submenus not visible when scrolling on mobile
+
+commit 944bae0a42c1831281fa1282e63eca257cbe43fb
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jul 8 22:36:11 2025 +0200
+
+    Improve CitizenshipCompass component
+
+commit c5a109c249baa902d044630ad175dd0b0e7bd7bb
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jul 8 20:15:27 2025 +0200
+
+    Consolidate docs and documentation into one folder. Update README to inform better about the project and the project structure
+
+commit a7f86fedf307c3e4ec359d584acd0247c6a4ad6a
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jul 8 19:53:22 2025 +0200
+
+    Attempt to fix data issues (quiz and my-path page)
+
+commit d4370bbbaa622dce133abf7851df3ff8e6f231f3
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jul 8 18:07:00 2025 +0200
+
+    Remove missing link from frameworks overview page
+
+commit 5a8de88404793f8408cb192ae022fbee1a4fd381
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jul 8 17:55:06 2025 +0200
+
+    Remove temporary folder
+
+commit a61d4ab8125c80c790de9d01582d4781c13fd6c9
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jul 8 17:54:28 2025 +0200
+
+    Improve user experience on Global Citizenship page, now 'My Path'. Separate quiz from my-path.
+
+commit f6959f335909d5c9d284af17180f570e8092a1b1
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Jul 6 22:48:08 2025 +0200
+
+    Update Financial Systems to economic ecosystem
+
+commit 1d9ccfe273bb7b4b7b7a9bc399da0e1fe39ff68d
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Jul 6 15:42:29 2025 +0200
+
+    Add Nested Economies (was Economic Integration (Nested Soverignty)) framework
+
+commit 8ebfb0d43493a9b641e27394d3930c55da27ff07
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Jul 6 05:31:36 2025 +0200
+
+    Add Athelred Accord to Downloads page
+
+commit 10f2d66309513e03dc877af8c8bd0fb87c6cacc0
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Jul 6 05:25:35 2025 +0200
+
+    Complete the Aethelred Accord - Synthetic Biology & Advanced Biotech Governance
+
+commit b91e6c85b95d0aa27a0405618774d5543b8b32e3
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Jul 5 22:32:16 2025 +0200
+
+    Add Global Health & Pandemic Security framework
+
+commit daf2c21ba726de49e89effe306870537d49d899c
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Jul 5 20:40:37 2025 +0200
+
+    Reworked Planetary Health framework to Planetary Health Governance framework
+
+commit 024c5728e5d21d3a72cbcff4d1e715d419e446e1
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Jul 4 21:16:20 2025 +0200
+
+    Basically all framework outlines ready except two-three. Add neural node navigation component for frameworks to landing page
+
+commit d5a78443a893947690c783885d29c07ab4a5d35d
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Jul 4 00:17:03 2025 +0200
+
+    Add Global Supply Chains & Logistics framework
+
+commit 02d96a7b32db57e948e99150209c1ee4a7e9d2ac
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jul 3 00:32:25 2025 +0200
+
+    Add Migration and Human Mobility framework
+
+commit 9b12198e5db04b48bbcdf89348b6f72e9aa9eb90
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 2 20:06:41 2025 +0200
+
+    Update Economic Integration framework page to include new sections and improve emoji use
+
+commit 28a1e102eceac9df8250d199f7345b0e62453d6f
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 2 19:27:12 2025 +0200
+
+    Align Economic Integration framework with Golden Triangle
+
+commit 4318113b1e70e112e7352151ed91cf4571e4eb1e
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 2 17:38:53 2025 +0200
+
+    Align Justice Systems framework with Golden Triangle
+
+commit d205bfa96c7612f3145598888d63b7317163445b
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 2 14:07:35 2025 +0200
+
+    Add missing page for upcoming Soil Health & Land Use Governance framework
+
+commit 6e7a0d586de7b8043dc328f87f13fb1b23aad5f5
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 2 13:49:47 2025 +0200
+
+    Complete updates aligning Peace & Conflict Resolution framework with Golden Triangle. Add new framewrok the 'Aurora Accord', the Global Data Governance & Sovereignty Framework
+
+commit 93ee3afbfe7101efb630ef0e09b42dddecd0238a
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jul 2 00:00:20 2025 +0200
+
+    Fourth wave of updates aligning Peace & Conflict Resolution framework with Golden Triangle (cluster G)
+
+commit 02edddef80a97f59dd11e280ed451e4d9e87fb17
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Jun 30 07:14:33 2025 +0200
+
+    Third wave of updates aligning Peace & Conflict Resolution framework with Golden Triangle (cluster F)
+
+commit cd31722bd5d1427a0a185f66180393ece7ee1688
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Jun 30 05:16:34 2025 +0200
+
+    Second wave of updates aligning Peace & Conflict Resolution framework with Golden Triangle (cluster E)
+
+commit 04ad0a1845cdffe5f9d064b47b2ac02b417a0218
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Jun 29 21:37:05 2025 +0200
+
+    First wave of updates aligning Peace & Conflict Resolution framework with Golden Triangle (clusters A to D)
+
+commit e45b3b6af610da6952d11b43a399ab7bd3b17696
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Jun 28 15:51:04 2025 +0200
+
+    Revised order of appearance of tier-1 frameworks according to 2 clusters (ecological stability and social & political). Replaced brief overviews with index files in all tier-1 framework pages
+
+commit 259679dac942e2b883d199c577ed4ecfa88f9cb7
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Jun 28 15:01:18 2025 +0200
+
+    Fix mobile header menu issues
+
+commit 9408be87c76cafa160ef5ca11d65a4a77fc57c3d
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Jun 28 13:45:07 2025 +0200
+
+    Complete revision to align Food Systems and Agriculture and Disaster Risk Reduction & Resilience frameworks with the Golden Triangle
+
+commit 18161d08577e2a9c2bb0b9d7b1375795054ea841
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Jun 27 23:14:03 2025 +0200
+
+    Complete revision to align Planetary Health framework with Golden Triangle
+
+commit 9d8636c5bf5a759dd784ad82631f93cb803988e6
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Jun 27 18:49:18 2025 +0200
+
+    Revised main sections of Climate & Energy Governance framework to align with Golden Triangle frameworks
+
+commit 5d6039edf042cb55da1b5433d027e9d99d59d391
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Jun 27 17:50:12 2025 +0200
+
+    Comment out Discord invite section on contact page
+
+commit 00e2889209110762bd9b55dde2033f3ff3fc3cc4
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Jun 27 16:41:25 2025 +0200
+
+    Rename outlines correctly
+
+commit 34aaee1a6322b2c0946792429e21f5c07bcb8b6f
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jun 26 20:22:11 2025 +0200
+
+    Update PDF script to work for both multi-section and single section files
+
+commit 657ab7c0746a5a7deaa9073f6084ab3ee31d1986
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jun 26 16:25:25 2025 +0200
+
+    Add blog post about three-pillar integration of meta-governance, indigenous and treaty frameworks. Move indigenous framework as first framework in tier-1
+
+commit f00036a699f4dcdf37a68356a60cd79d018752b3
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jun 26 16:07:23 2025 +0200
+
+    Align Integrated Meta-Governance framework with Treaty for Our Only Home and Indigenous Governance and Traditional Knowledge framework
+
+commit b2bc6fbade1e3d276301425ae00768b1c2898f4d
+Merge: b1a8630b 5ab75c19
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jun 26 15:38:38 2025 +0200
+
+    Merge branch 'alignment-work-indigenous-with-meta-governance'
+
+commit 5ab75c190a4a48757274be3afec97cc01c4b4288
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jun 26 15:38:07 2025 +0200
+
+    Align Indigenous Governance and Traditional Knowledge framework with Integrated Meta-Governance Framework
+
+commit b1a8630b6a0109fc5e0ae521cb2114569f498f6f
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jun 26 15:07:29 2025 +0200
+
+    Align Treaty for Our Only Home with Indigenous Governance and Traditional Knowledge framework
+
+commit ccb3fc35b929cf07cad0ac07697700e50fadab99
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jun 26 13:57:05 2025 +0200
+
+    Update image of first blog post to a more hopeful one
+
+commit 6eabcc4ad0e7249aed82791c3bb4cd5d7b600d49
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jun 26 13:36:44 2025 +0200
+
+    Fix prerendering issue in blog page and slug
+
+commit 97f42f31542d2172e997bc3964cd94984f646d72
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jun 26 13:18:42 2025 +0200
+
+    Translate latest revision of meta-governance to Swedish. Reintroduce introduction as the default on page load. Fix constellation map's text field positioning
+
+commit 255337b6be1d27c8fb01882b1d1f075043d325d8
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jun 25 17:08:42 2025 +0200
+
+    Improved financing mechanisms in Treaty for Our Only Home and Meta Governance Framework
+
+commit f76f0a71ff6424a3ba1180c5fe531436dc473429
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jun 25 14:57:01 2025 +0200
+
+    Treaty ethics revision. Add blog post as conclusion. Fix Swedish blog posts not loading accessing blog page
+
+commit 251e769fb43db0bf05d0d6d1f56139e0025fae39
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jun 25 12:00:42 2025 +0200
+
+    Fix issue #19
+
+commit 59676256603f92e8b99b765a2f5b327ef391cd08
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jun 25 11:07:31 2025 +0200
+
+    Decommision public Doscord links and replace with notice in get-involved sub-pages
+
+commit 85280f02c3d071dcc9becc761d9f53788b956716
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jun 25 09:24:02 2025 +0200
+
+    Remove discord link from Footer. Update email, github link and copyright notice to Global Governance Frameworks
+
+commit f316d58c7e0b1aed1bc42bc33a13931a4466202c
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jun 25 02:28:10 2025 +0200
+
+    Fix the mobile layout for the Framework Components Grid in the /src/routes/frameworks page
+
+commit 774d789c21502993596b010e08abe231e097dc07
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jun 25 02:16:27 2025 +0200
+
+    Change from singular 'framework' to plural 'frameworks' when referring to the website's content
+
+commit a6a709d425524dab047b75126417b71d4bd35e61
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jun 25 02:03:17 2025 +0200
+
+    Change name in manifest.json to Global Governance Frameworks, and short_name to GGF
+
+commit e3e9c162d566ee688295baeaf09fa86e1eead8ca
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jun 25 01:59:09 2025 +0200
+
+    Fix status of Treaty for Our Only Home, version was set to 'review', instead change status, and comment away version
+
+commit 3a2f24bd95f02e16351fb739d03c4e30891efbb6
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jun 25 01:03:16 2025 +0200
+
+    Revert status of Treaty for Our Only Home to 'review' from v1.0, due to urgent need of ethics audit
+
+commit 48cbac82706e9f1f8fe52ddc4c3051b079aa8deb
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jun 25 00:14:06 2025 +0200
+
+    Change Swedish treaty advocacy kit folder name, remove remaining ö
+
+commit 00e6bc7a446090e3b3b0e8d5438d46785b51ddd6
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jun 25 00:00:00 2025 +0200
+
+    Fix missing treaty-pdfs (Executive summary), broken link on main framework page
+
+commit 545fb91104458d372bbe85866f6435cd04fd726f
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 24 23:58:24 2025 +0200
+
+    Store CONTRIBUTING.md for later phase
+
+commit a83b30e49208aa729d23c390233d1debbb51a526
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 24 23:55:49 2025 +0200
+
+    Update for new phase
+
+commit 74fc987f367a64be6f27997bc2f479cda32a3675
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 24 22:51:07 2025 +0200
+
+    Add missing ordered list styling in treaty-for-our-only-home page
+
+commit 7a2646be6ee630f1deee0c8f549c1ecf19adc640
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 24 22:45:15 2025 +0200
+
+    Fix wrong translations of Treaty in Swedish (traktat-->fördrag)
+
+commit 69702d504733c459d8b42cb313117ca3869b337a
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 24 22:39:00 2025 +0200
+
+    Remove 2-page global citizenship guide (only found in Swedish folder)
+
+commit 11eb84507710bbb718b765377e566d7a6801b697
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 24 22:37:36 2025 +0200
+
+    Apply Swedish capitalization rules to all files in /src/lib/content/frameworks/sv/., the original global governance framework, still relevant.
+
+commit cf52bd0db183caa213879f2afdc0aa5a5b2e824c
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 24 21:32:33 2025 +0200
+
+    Fix language choice being overriden by browser setting on page load for get-involved/ pages
+
+commit 7c1e86dbc3f997fd82a89fab03daf39926f9e639
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 24 20:57:59 2025 +0200
+
+    First attempt at improving FOUC issue
+
+commit 4a278de12b415352743edbee606c356b2f7c02c2
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 24 20:20:38 2025 +0200
+
+    Fix issue of non-english markdown content not loading on get-involved/ pages
+
+commit 5c0479d00d38085d3b225b57ef08e7d9b7f2ae10
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 24 20:04:35 2025 +0200
+
+    Final fix fixing Swedish markdown not loading on get-involved/founding page
+
+commit f2de058952dead2e38f99dd3430ef3204e4011a3
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 24 19:49:25 2025 +0200
+
+    Real fix loading wrong content on /get-involved/founding page in Swedish
+
+commit 0066a76c1eda4807b5dc825452149b2b4a240966
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 24 19:46:11 2025 +0200
+
+    Fix loading wrong content on /get-involved/founding page in Swedish
+
+commit cfc80cd0e2a8dd316272b323ff5dd67ddf1ac8c4
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 24 19:41:11 2025 +0200
+
+    FBegin fixing unavailable emails and tools not yet developed
+
+commit b890f2d11731a92772c7b00ba5e6f2784ca93511
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 24 16:18:09 2025 +0200
+
+    Add development status notices. Standardize framework frontmatter (index.md files)
+
+commit 8e844db3f579a4d780872c87564e4b130c296cd1
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 24 13:07:29 2025 +0200
+
+    Add formalization page
+
+commit 75679ee66e60c6417ea5df7dea819d8524f2b58b
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Jun 23 18:02:49 2025 +0200
+
+    Fix typo in folder name
+
+commit 5e0bf4abb3ecc433c19dee024d9b5db3664e878c
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Jun 23 18:01:30 2025 +0200
+
+    Fix issue-5: Refactor (Phase 1): Standardize Framework URLs and Section Filenames
+
+commit 501296eac495d73783ac28af5d9191c2a29a1084
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Jun 21 03:16:01 2025 +0200
+
+    Add books  by Björn Kenneth Holmström to /static/resources. Fix missing link highlights on resources page. Fix 'Why This Exists' infobox on home page
+
+commit 6a123e01e405c63644d4222548afee051b08c73a
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Jun 21 01:07:11 2025 +0200
+
+    Add full advocacy-kit in English and Swedish
+
+commit 5e27145b3c1b689a85204f7b4e9a163286b67b87
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Jun 20 04:49:35 2025 +0200
+
+    Complete Swedish translations of get-involved guides
+
+commit aaf500c5d4d99b7aadcc7d7e5966c9b2e1c4e0f8
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Jun 20 04:38:00 2025 +0200
+
+    Add contribution pages under /get-involved
+
+commit d2afe5f453a158e6fff1140424226cb65a862370
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Jun 20 02:23:56 2025 +0200
+
+    Add get-involved pages: frameworks, translations, website, outreach
+
+commit 7a78c55c5970af076047ba9b28ea2849faf4b177
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jun 18 17:23:56 2025 +0200
+
+    Add blog. Add first blog post
+
+commit 4332e3c1859118416b05203bd308fcb773b6a970
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jun 18 04:43:05 2025 +0200
+
+    Make share buttons less intrusive on mobile by adding a toggle
+
+commit 7b076b60c2465b8a18152647ba513c2cde28435a
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jun 18 02:35:32 2025 +0200
+
+    Add spiralize.org link to global citizenship page. Add sharebuttons to global citizenship page and treaty page
+
+commit e371bf82ac896c11e3b7e959cc1caf7d1705571b
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jun 18 00:30:52 2025 +0200
+
+    Add discord server invites to contact page and footer
+
+commit 5f044a3e5ed4b39ddbc34459bc32ea2b6b347351
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 17 23:43:36 2025 +0200
+
+    Complete adding notice of missing translations in all framework pages
+
+commit e9dae8341948d736b2d5dee2b98dfcb0d769f356
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 17 21:29:24 2025 +0200
+
+    Remove notice about missing translation from overview sections in frameworks
+
+commit d29421c62efaaf08eaa5f8a26de18223a17c8e0f
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 17 20:55:39 2025 +0200
+
+    Add links to start-treaty page in two infoboxes on home page. Add infographics to post shares on start-treaty page
+
+commit 8b61fe7c42565ce8f16618e42b8cd633b6fba340
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 17 19:41:49 2025 +0200
+
+    Show notice of missing translations in energy, indigenous and peace frameworks
+
+commit cee0624478cf91dfa9b4998442019c2554f07ddf
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 17 17:45:52 2025 +0200
+
+    Create coming soon component for inclusion in planned framework pages
+
+commit 05f34dc8c39564ebe5792f968ddff6440e9d5a60
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 17 15:16:10 2025 +0200
+
+    Stress urgency and mention flagship framework in infobox on landing page
+
+commit 3222b27814cf37ea3bee6fc517a5cbc5ef3d1275
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 17 15:05:08 2025 +0200
+
+    Fix trailing code in digital framework page
+
+commit 41cf01966087fbe527c79bcd355c4b97b0ac4597
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 17 14:41:13 2025 +0200
+
+    Frameworks pages UX Coherency update complete
+
+commit a17d827b5d414256a275a45623894813ad06e0e4
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 17 09:34:59 2025 +0200
+
+    Further review of UX. Fix of Mental Health framework accordion category
+
+commit 1feb817788ab847ee6216f763b88a4df714a6561
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 17 02:43:33 2025 +0200
+
+    Review UX of frameworks down to and including Mental Health framework
+
+commit aaa28a2762104f4c96af0d3b6d3b5e8f63dae755
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Jun 17 00:17:57 2025 +0200
+
+    Improved section navigation on Planetary Health, Mental Health, Global Citizenship Practice, Treaty for Our Only Home, Indigenous, Climate & Energy, Peace frameworks
+
+commit dfaa8994ec362e8996996318335b22db1b36ec9f
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Jun 16 20:56:11 2025 +0200
+
+    Add global citizenship with more engaging page and full framework. Begin creation of aubi framework
+
+commit c1288ecfe686bebf6671d5d7c789782d92a5352d
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Jun 15 17:18:21 2025 +0200
+
+    Add Treaty for Our Only Home (English)
+
+commit 5422296b8c3fe000fa19a18de80aaa61a7dc9d21
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Jun 15 06:50:38 2025 +0200
+
+    Pre-updating from /framework/ route to /frameworks/
+
+commit e7aad8315463a40b4e80c0c413c5cb96383f8369
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Jun 15 00:09:28 2025 +0200
+
+    Add Mental Health framework
+
+commit fb9b78d359431421719f9e1cef4d61e52a7861de
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Jun 13 00:45:22 2025 +0200
+
+    Add Indigenous & Traditional Knowledge framework
+
+commit 7993b501b7fc6f6139bdc83f97ed82283103b6b3
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jun 12 04:49:37 2025 +0200
+
+    FNew versions of PDFs for Climate and Peace frameworks
+
+commit 6475393924d95e69ad83b9a56660db566dd3b401
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jun 12 04:33:08 2025 +0200
+
+    Adjust peace list bullet symbol placement
+
+commit f6552e440a76b9dc21d1440368474b450e816712
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jun 12 04:25:54 2025 +0200
+
+    Add Ethical Dashboard to home page
+
+commit 51f9a9dc0d96b98b5d4ee22bd9b568420c6b5a1f
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jun 11 18:46:37 2025 +0200
+
+    Add Water & Sanitation framework
+
+commit 9236714cb9c9626f760ed830609caf544f902a12
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Jun 9 22:36:32 2025 +0200
+
+    Add Animal Welfare framework
+
+commit 85682bcb32a502a724822f349ce08338df2d8c3a
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Jun 5 11:30:06 2025 +0200
+
+    Add aging population support framework
+
+commit a23da018db85c3b0cc2aa13c74f81e77397e03f3
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Jun 4 11:59:20 2025 +0200
+
+    Add consciousness framework
+
+commit 8975495ea9b25330c2a5846403295711f5aeab29
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri May 30 12:51:30 2025 +0200
+
+    Add planetary health framework
+
+commit 86d295aa8b035a803292b493f09aab5e9e1ac217
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun May 25 03:55:20 2025 +0200
+
+    Add biodiversity framework
+
+commit 29bc4a345795ce202125ca478c3b60cd96aefb85
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri May 23 00:13:44 2025 +0200
+
+    Align education framework with digital commons framework
+
+commit d1520f6adaa3dd9103ae6cd8e926adb80b008a76
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu May 22 05:50:43 2025 +0200
+
+    Updated Education Framework pdf
+
+commit 86ac02896848afa53ce89e5a84157958d6dc193a
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu May 22 05:29:37 2025 +0200
+
+    Rename Education Framework
+
+commit 7da68f51584c4bc7fad2045f4062d3f8773312b8
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu May 22 05:02:44 2025 +0200
+
+    Add financial systems and updated environmental stewardship frameworks
+
+commit 9e357338d98939e15d62a4c310aceef39cab7ec2
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon May 19 21:53:54 2025 +0200
+
+    Revise outline for environmental framework. Enhance climate & energy framework
+
+commit caecc04bf59ef424d7dbe5d76da2702540de2483
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon May 19 11:13:15 2025 +0200
+
+    Change status of spiritual framework to ready in nav
+
+commit f925008bb662e6731917aabbd9737f56bcda1b37
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon May 19 11:08:18 2025 +0200
+
+    Add spiritual framework update and ethics framework
+
+commit a573cb7cbc96b0f08faf9af750034bc215ece58f
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri May 16 19:23:20 2025 +0200
+
+    Add revised Ethics & Rights of Beings framework
+
+commit 8b6555ac43a1540c1751528697272f3fb288241a
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri May 16 02:43:21 2025 +0200
+
+    Update CHANGELOG.md - SHOULD BE UPDATED CONTINUOUSLY (REMINDER)
+
+commit 6c9686fdfb56ddc53aeec85b99353f8a8cd2c873
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri May 16 02:39:04 2025 +0200
+
+    First version of Ethics & Rights of Beings modular layered framework, still lacking tools and guides. Improve downloads page with emojis for consistency.
+
+commit 6f28d548260faf3b390aeea567f8e692b872c4b7
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu May 15 12:05:38 2025 +0200
+
+    Add missing PDF for downloads page (digital commons)
+
+commit a71fd84df58079437ececeac831f4f85fbd88a7a
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu May 15 11:56:40 2025 +0200
+
+    Add almost all missing visuals for digital commons framework
+
+commit 756263f8c39114ed9dd21487d0392e28e4976329
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu May 15 06:07:02 2025 +0200
+
+    Improve paragraph divisions in digital commons framework section
+
+commit 176a1f58d9295f14c18ab7f806064148c2f28b02
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu May 15 04:59:30 2025 +0200
+
+    Add Digital Commons framework
+
+commit 222e78d41860a605900b3d4d8490f33462a25c4b
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri May 9 16:34:15 2025 +0200
+
+    Update economic framework status
+
+commit 2c917096603dc68ee9cdff72e82687d59d5eb125
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri May 9 14:44:49 2025 +0200
+
+    Revise Economic guide and pages
+
+commit aecae4214545b98434ab4d15ce27f5748d3ef939
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed May 7 11:28:00 2025 +0200
+
+    Add vd visualizations and systems tools to peace framework
+
+commit e516fe6ab9f4132e1cdf755e136c84b7d22b7b97
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon May 5 19:00:43 2025 +0200
+
+    Revise peace framework, create visuals
+
+commit b1a9b178ae38f938e5c49d96edde7bcf2a5d0800
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon May 5 00:50:51 2025 +0200
+
+    Update Framework introduction menus to reflect current state of website
+
+commit 6d4f17733a8e72eb12476a827c35ba1bc0bf9255
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun May 4 23:51:11 2025 +0200
+
+    Revise Climate & Energy Framework into modular version, add seed-kit and tools
+
+commit 910ce305f777a4c2dceb292dc82e4c8ba56e235a
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun May 4 14:58:20 2025 +0200
+
+    Update document downloads and status on implementation and tier pages
+
+commit 58f00d131b81a43e1ea305e0ab5c20061d35fe65
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun May 4 02:05:18 2025 +0200
+
+    Fix minor issues with syntax and missing language markers in food systems tools page
+
+commit 31c793d6e7527309ba2c5e7dfbac4e68530267f0
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun May 4 01:31:59 2025 +0200
+
+    Add food systems framework
+
+commit 34ba590aa28a04e34a36a019de691fc6034c97db
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat May 3 13:17:32 2025 +0200
+
+    Add Education Systems implementation framework
+
+commit f14b4975dfa6f8c2bc3b96d7645b3a859b6b53bd
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Apr 28 01:59:38 2025 +0200
+
+    Split technology framework up in section files
+
+commit 9aef8f6f057cfe3f3f4d3c0e81cb3090b72fd161
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Apr 26 18:11:56 2025 +0200
+
+    Fix print mode issue in disaster page
+
+commit 933d9622318aeaff4e6fd8aa4c146776e1093b37
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Apr 26 17:56:49 2025 +0200
+
+    Improve meta-governance framework. Add lite guide
+
+commit 3f093ae3c7d073a2b536b967e28bc3123c6876ce
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Apr 15 23:32:50 2025 +0200
+
+    Add visualization to Meta-Governance framework
+
+commit 903505eaeb06bd943a58bf9916e3a2a02e38fa91
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Apr 15 18:25:13 2025 +0200
+
+    Address build errors
+
+commit 5b1650f9ff107083d0061cd14abe9254dd57c079
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Apr 15 17:58:55 2025 +0200
+
+    Update readiness of a few frameworks
+
+commit dfbb8663dc0cf027cf9204c9f622cc61d8fb7518
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Apr 15 17:38:16 2025 +0200
+
+    Add diagrams to Global Ethics & Rights of Beings framework
+
+commit 7ec0828c3b9f8a964f82f4165e3749c194cf7a92
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Apr 14 06:54:13 2025 +0200
+
+    Add Global Ethics & Rights of Beings framework
+
+commit 8e34658673fe36b4803063a603679da904fbc63b
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Apr 13 21:08:29 2025 +0200
+
+    Add missing downloads
+
+commit 68cc9226d29ef0cc0fd7f38b66b52ad1d1c33d9b
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Apr 13 00:18:27 2025 +0200
+
+    Change from 2-page to 4-page overview
+
+commit 79a5a4bf43cc2586034d825a693be6ccead97f48
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Apr 13 00:11:53 2025 +0200
+
+    Fix wrong link in main page. Fix wrong translation key in nav
+
+commit 3c992a1e2f232e0c06bcfd7e74c7fd0a812ff946
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Apr 12 23:00:35 2025 +0200
+
+    Add Global Citizenship pages and PDF's
+
+commit a71e3d4b586a1d43bb3990d30fee9d9c8f03ba6c
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Apr 11 12:10:17 2025 +0200
+
+    Finalized Swedish translation of technology framework
+
+commit 55a5a188108781ef4497254916d4450870d7f9a0
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Apr 11 11:35:57 2025 +0200
+
+    Add 'Why This Exists' section to home page
+
+commit b0bb2252d309b26f03dc8fa12dce581e5441d823
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Apr 10 22:09:35 2025 +0200
+
+    Fix styling in Religious and Spiritual framework
+
+commit a451121a16719f35b05eff205c8e752c7be32f01
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Apr 8 02:17:18 2025 +0200
+
+    Further translation of technology framework to Swedish
+
+commit a412ef377c9fe3ee31fc7f00889296883daed898
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Apr 7 19:45:31 2025 +0200
+
+    Clarify that this is a proof-of-concept in disclaimer
+
+commit 78af0913d3c1f7e1ab5015a09b428336bc362935
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Apr 7 12:42:46 2025 +0200
+
+    Add Religious & Spiritual framework to nav
+
+commit 3bc4b1b3c0e50c1395d84d04d23288a27da29145
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Apr 7 12:39:52 2025 +0200
+
+    Add rest of Religious & Spiritual framework implementation
+
+commit e3905d7f910bc36fc235ec8e3b88aa8178cf11a2
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Apr 5 02:54:52 2025 +0200
+
+    Add AI Futures page
+
+commit ef3066892c63787cdf36aeaf985434e70ef8e7c4
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Mar 31 00:12:12 2025 +0200
+
+    Add complete Swedish translation of Climate & Energy implementation framework
+
+commit 9ef19dde25448b8cbc6ec5d45df54696d7002da8
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 30 18:04:22 2025 +0200
+
+    Fix formatting of index in Technology framework, minor
+
+commit fd64968e808907afbfe56d6a18c9581558b6747f
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 30 17:58:57 2025 +0200
+
+    Fix formatting of index in Technology framework
+
+commit 1cceab6e880670e5a8042033b1f10081658eb10f
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 30 17:52:36 2025 +0200
+
+    Add Climate & Energy framework (English only)
+
+commit ab6c8556e9259f5d42b2d439cbaa2ca41b45944e
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 30 16:35:11 2025 +0200
+
+    Replace &lt; and &gt; with  respectively
+
+commit da29d05cac344c1d267832f247882dab56e7580b
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 30 16:30:08 2025 +0200
+
+    Replace < and > with &lt; and &gt; respectively
+
+commit ee075dc6a0e71d80bb2f452d88f246d6067e7089
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 30 16:01:37 2025 +0200
+
+    Change status of published frameworks; all 'In review'
+
+commit 812d2f30ddac27a76c794d0b7f13a4604e50d3c0
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 30 15:53:12 2025 +0200
+
+    Technology framework added, partly translated to Swedish
+
+commit 0dd549f6c8289214f7002fa9e44d33b85d44ba0c
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Mar 28 12:05:54 2025 +0100
+
+    Refine advice in CONTRIBUTING.md
+
+commit 68e7853298459fff604cc929f9c8bc58bc1c8055
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Mar 28 11:59:46 2025 +0100
+
+    Further emphasize Claude's role as main recommended workhorse in CONTRIBUTING.md
+
+commit 7c916a649d37d22d614e30fc4e0107af869619dd
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Mar 28 11:55:07 2025 +0100
+
+    Add CONTRIBUTING.md
+
+commit 4d0a88c5fe0265756a725053a763cd6abc12065e
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Fri Mar 28 11:36:43 2025 +0100
+
+    Add status indicators to framework implementation documents. Fix visilibity of documents in nav bar. Add missing translation tags to documents in nav bar
+
+commit 07619ed7d9bd23fbaefb54bba0bd477d0a432232
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Mar 27 22:34:50 2025 +0100
+
+    Add glossary with 24 terms to start with; planned expanding to up to 200-300 if needed
+
+commit 933e86215ce59f8f991ab3e0bb6ccd6c99880bd6
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Mar 27 18:55:23 2025 +0100
+
+    Add downloads for Integrated Meta-Governance and Implementing Methods & Tools
+
+commit 4eddc2a1477d261c83d065c55799c691e10c0198
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Mar 27 18:15:21 2025 +0100
+
+    Add Methods & Tools implementation framework document
+
+commit 0f1476f94e9b237fc481b1a24699b040d68fc0f3
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Mar 27 14:49:45 2025 +0100
+
+    Expand planned framework implementation documents and arranged them into 4 tiers. Inquire ChatGPT, Grok and DeepSeek about the top 10 frameworks matching their strengths for assistance.
+
+commit 09bb089b6456724660c1c7977654ea9499848c91
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Mar 27 13:02:46 2025 +0100
+
+    Expand docs list of planned framework implementations
+
+commit a5ed5ee6110974b785602eb06b1c52e7093cfac3
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Mar 27 11:07:30 2025 +0100
+
+    Add Downloads page with PDF's of all framework pages
+
+commit a6a5193a3fc24dab700a8b999b1089e5c22ba9b9
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Mar 27 04:06:05 2025 +0100
+
+    Improve styling for markdown lists in implementations
+
+commit 63d234fbeb5422e0cda19df1ff0160097a460f5b
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Thu Mar 27 01:02:37 2025 +0100
+
+    Improved detailedd peace implementation framework through recommendations by Grok, with additional insights from Björn K. Holmström
+
+commit e51e1f6413dc0ca92da8256c170c091a5df0fcb0
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Mar 26 14:08:40 2025 +0100
+
+    Prerender at least main routes
+
+commit 46ffd589508fd331e3f89ec956bb51168d906505
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Mar 26 14:06:58 2025 +0100
+
+    Enhance app.html to handle saved redirect path from sessionStorage
+
+commit 7fbd3b6f82c54bf7dd1019fc5b35f31e97406ff1
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Mar 26 14:06:07 2025 +0100
+
+    Make 404.html account for base path
+
+commit 920b9de2ba961faeea128ac8594e7900139c20d4
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Mar 26 14:05:30 2025 +0100
+
+    Fix base path causing MIME issues
+
+commit 915aeb384bfc246b771eb6cfbc436bc7d759127c
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Mar 26 12:13:11 2025 +0100
+
+    Completely disable service worker for now
+
+commit b8db90cbb985988f9df40779eb2b7bafc0a15f81
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Mar 26 12:09:27 2025 +0100
+
+    Unregister service worker for now
+
+commit 641510606890cee489ac95ea4c50470168568f81
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Mar 26 12:04:47 2025 +0100
+
+    Attempt 3 at fixing redirect issue
+
+commit f6b8cafad6abc9b00741c4f9ee76591933e3e57f
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Mar 26 11:51:06 2025 +0100
+
+    Attempt 2 at fixing redirect issue
+
+commit 2e34beb175001cb0cdbe1f84895bcb881a7f57a2
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Wed Mar 26 08:08:43 2025 +0100
+
+    Attempt 1 at fixing flickering redirect issue
+
+commit d52a0bb5fbda1042598efa50e8b9c04648074649
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 22:18:18 2025 +0100
+
+    Add missing import in Header
+
+commit 05bc4bd7765288bd4d5bd8d4a0b95a077eccdcb9
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 22:09:57 2025 +0100
+
+    Fix access of Svelte store value inside timeout function of +layout.svelte
+
+commit 2baa544193746538fc41311c736650aa9eefa381
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 21:25:17 2025 +0100
+
+    Attempt to fix dropdown/toggle menu on mobile not closable after opening
+
+commit c26a4e86f8f82dd2449eefb645bbbf70c05cbf52
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 21:17:11 2025 +0100
+
+    attempt to fix loading issues on mobile phone
+
+commit 7de8f7f86b1cc6d140a5ca82a73b9e0e7dee7e05
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 19:37:43 2025 +0100
+
+    Add fourteenth core principle of common/shared values
+
+commit 4db1324857db75db063a6f0f887ce2ce15ccee7b
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 19:06:51 2025 +0100
+
+    Add routes and placeholder markdown files for domain-specific implementations
+
+commit 39f6b0756df22f8d7ef7bf8c42afe73141f52404
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 16:48:20 2025 +0100
+
+    Add domain-specific implementation of Environmental Stewardship. Add list of planned domain-specific implementations to docs. Fix central circle size in Global Governance Framework logo svg.
+
+commit 14d20c6794d98799cd74f2c26a63d77e1e71301c
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 12:35:59 2025 +0100
+
+    Updated about page with A.I. collaboration details. Updated CHANGELOG.md (was due late)
+
+commit 34b530cca9fabce40e3ecf5881c078713a14f6df
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 04:17:18 2025 +0100
+
+    Add additional icons to manifest.json
+
+commit 8138a116e35b2cfac7ce85f5889f07b511d75c6a
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 04:05:45 2025 +0100
+
+    Move service worker to correct folder (static). Remove redundant manifest.json from public folder
+
+commit 6557422dbcfd2336541cddd9f1e13a2080bd6c0c
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 03:48:31 2025 +0100
+
+    Make service worker more cautious, and restructure onMount code in +layout.svelte
+
+commit 33b1cbe88e26e87f47c1563e395c300671732159
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 03:40:36 2025 +0100
+
+    Moving service worker registration to an onMount handler in a client component
+
+commit 164d7a42334053e4409cd939b6ce9b314b889306
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 03:34:25 2025 +0100
+
+    Wrap browser API usage with runtime guards
+
+commit f40a75573b49227adf61ed258bc6756817798a06
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 03:27:38 2025 +0100
+
+    Change prerender entries to empty in svelte.config.js
+
+commit 45ef40bd425e810cab87e00d1ddd876fc33b78a3
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 03:21:43 2025 +0100
+
+    Change strict to false in svelte.config.js
+
+commit 604c02c36c99c3889e7d6bd1e3313f7060592ff9
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 03:19:53 2025 +0100
+
+    Fix translationLoaded not being properly initialized for static deployment - attempt 2
+
+commit f8596fae3e312758c905eb23b941732c645a03df
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 03:16:14 2025 +0100
+
+    Fix translationLoaded not being properly initialized for static deployment
+
+commit 9b324b399cdb0f72f8d46bfb6e1a4317ed54d09b
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 02:58:38 2025 +0100
+
+    Add missing pages and markdown files for content coming soon
+
+commit 32b2e04f3a62723fdf24b8831b7f04342a699ef5
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 02:44:54 2025 +0100
+
+    Fix missing comma in vite.config.ts
+
+commit b1756a7e5469bec9f8410579813fca5c71996564
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 02:40:47 2025 +0100
+
+    Add PWA capacity to enable adding website as app to home screen on mobile devices
+
+commit d91fddc15daa5d99e65673b56296b57d6c9f308d
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 02:28:41 2025 +0100
+
+    Fix framework implementation sub nav
+
+commit e7da2c88328787e0a598c94930a98373e7a4cbc9
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 01:47:05 2025 +0100
+
+    Add economic implementation
+
+commit cd6e9670280a390c35bbd4be38c8247ac1e60003
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Tue Mar 25 00:49:53 2025 +0100
+
+    Add additional examples to principles, as well as a thirteenth principle of Resilience and Anti-Fragility. Add section on navigating tensions between principles. Add styling for #### headers and inset boxes in principles page
+
+commit 2a5cd1cdf42fb7e401de1f4de896244bc29f0e36
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Mar 24 23:24:12 2025 +0100
+
+    Add diagram and examples of applications to framework principles
+
+commit e89ba976c7f228f5613ae52d72e1084f91f8c210
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Mar 24 19:06:19 2025 +0100
+
+    Revise website color scheme to warmer colors. Slighly increase sphere sizes in logo
+
+commit b6512a83c0b0932ba58c641eea25dbf64d60465b
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Mar 24 17:57:40 2025 +0100
+
+    Restored original logo for now
+
+commit 5935f2393ceca13bcf098d07ca6e391f7148ea1d
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Mar 24 17:45:10 2025 +0100
+
+    Revise logo to use more colors
+
+commit c97319bb5afee8a9aa66bfbb7484a0775168d05b
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Mar 24 13:09:17 2025 +0100
+
+    Add header dropdown for easy access to framework documents. Replace favicon and add icons folder
+
+commit 3ff1e0bb21408eeb880f0ef5aa650f8454e36bc8
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Mar 24 08:34:25 2025 +0100
+
+    Add implementation, case-studies and resources to framework
+
+commit 9542857613c41ff12235068276d1948c808e56ed
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Mar 24 01:11:10 2025 +0100
+
+    Remove test routes
+
+commit b6b435d049cce065b83493b0b999e0b37ed5b4e6
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Mon Mar 24 01:10:37 2025 +0100
+
+    Add overview and core principles to framework. Fix rendering issues
+
+commit cc1de74ab38ac4048f16561c2e6b3e1834d3a2e0
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 23:27:25 2025 +0100
+
+    Make sure CNAME is added to build
+
+commit b2f4ad9e088dcd2cf0c6ccf734ee3d0aa0446d29
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 23:23:13 2025 +0100
+
+    Add nice logo
+
+commit a7ad7b1d8e473a29d6bc5da56d0749c5a1c81c2b
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 23:03:01 2025 +0100
+
+    Add CNAME files for globalgovernanceframework.org
+
+commit 739e222d1049b1f39a06b67fdada6bd6bf66bc1c
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 22:50:54 2025 +0100
+
+    Basic GitHub pages approach, extended
+
+commit 3e20161c47dba84e1f6f00acbb508691a5d81839
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 22:48:14 2025 +0100
+
+    Basic GitHub pages approach
+
+commit 43874ce26f3c4631d2b02e1f9d1d3a2bb4bcb637
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 22:46:05 2025 +0100
+
+    Manually install missing action
+
+commit 72a91034214718bc4b88f1b99c56d515d8eb5d86
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 22:43:22 2025 +0100
+
+    Use simplified deployment approach
+
+commit 6378698301b93d44e3ecca883cfe102bdcc41d75
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 22:40:35 2025 +0100
+
+    Use specific deployment approach
+
+commit 03032ab383f1aa7517a0922b8cf303d78e328e73
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 22:38:47 2025 +0100
+
+    Use another deployment approach
+
+commit fe174a21527b534822c0db9ea1863e7dfc571679
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 22:36:19 2025 +0100
+
+    Use v2 consistently
+
+commit 037f25f13957bd15266f4b47c18973394b55f85d
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 22:33:34 2025 +0100
+
+    Use v2 consistently
+
+commit 1b163677c1f596ee0941cf4e78f7e6c5cacd9fa8
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 22:29:05 2025 +0100
+
+    Use v3 consistently
+
+commit 7b611b563661cb966162e7fcf9945d863f631dbc
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 22:24:55 2025 +0100
+
+    Use v2 consistently
+
+commit 38788fa65e6cdce3781af56c454f9146a3839973
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 22:19:23 2025 +0100
+
+    Use better approach to avoid MIME problems
+
+commit 918bace574ed2cfb7e33953c0b19df24d01dc589
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 22:01:32 2025 +0100
+
+    Use hash-based links instead of base path
+
+commit a0c4af36829e07dad061e70c1b04ca8b0d1e455e
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 21:51:11 2025 +0100
+
+    Remove trailing slash option
+
+commit a297ea0ed6ec632d4eaee50d94ed9dd59ccb9d5b
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 21:49:46 2025 +0100
+
+    Add base paths to Header and Footer. Fix translation paths for home page
+
+commit 905d925d2606f2ccf605ef9dea266f5b89f47771
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 21:37:31 2025 +0100
+
+    Mirror ConceptExplorer configuration to solve 404 and MIME issues
+
+commit 338d2367d0c48fa9bed38157e8ffb12bd700dccf
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 21:32:07 2025 +0100
+
+    Mirror ConceptExplorer configuration to solve 404 and MIME issues
+
+commit 5dee0a27951e25ae9810c1dcb8cdfc35d04cfea3
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 21:27:38 2025 +0100
+
+    Simplify to solve 404 issue
+
+commit 162857b26172b4a25f762a779d5cbc1d79e92155
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 21:11:09 2025 +0100
+
+    Try some more ways to fix the issue
+
+commit 2d393070615ae66cbab885487e9bb4fcc463386a
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 20:40:39 2025 +0100
+
+    Modify workflow to see if it helps
+
+commit 0cc057a3e75c8c58e083377e52b92b9929547d05
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 20:33:55 2025 +0100
+
+    Use gh-pages branch for deployment
+
+commit bae74090ae0d02857df70876ca860c42627907b3
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 20:27:24 2025 +0100
+
+    Temporarily remove CNAME to see if it is an issue
+
+commit 4eb6ac9eedc9b2169ac615a03c4fb62fc4f8a44a
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 20:25:54 2025 +0100
+
+    Add verification step to build process
+
+commit df9498047799d1c7892f4a609691c2bd32dd6911
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 20:18:49 2025 +0100
+
+    Rename site in CNAME
+
+commit ca0ab897003dfc4861be34869a5479cf1774507e
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 20:16:52 2025 +0100
+
+    Move nojekyll and CNAME files to see if it fixes the deployment issue
+
+commit e00595f21b11cd97c499f0ef8db9c9059e0cb82c
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 20:10:13 2025 +0100
+
+    Mimic spiralize.org to fix issues with deployment on Github pages
+
+commit 91b17cfc736fcbe10c3fe6385eb1e91c3259b675
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 20:01:56 2025 +0100
+
+    Add missing comma to vite.config.ts
+
+commit 6ddec218f18a929d9c5625271a5d13f224171059
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 19:58:00 2025 +0100
+
+    Configure for github pages
+
+commit ee5d3d61439d3a2857994bed1f2d08e3862bd740
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sun Mar 23 19:50:46 2025 +0100
+
+    Update home, about and framework page towards a more optimistic outlook. Add privacy and terms pages
+
+commit 5c4575abcf951ec4bfd0711b7268c059f5da7056
+Author: Björn Kenneth Holmström <bjorn.kenneth.holmstrom@gmail.com>
+Date:   Sat Mar 22 23:21:09 2025 +0100
+
+    Initial commit
+
+commit 7dee742d091e23883bce4b0112d49c21d2931b18
+Author: GlobalGovernanceFramework <globalgovernanceframework@gmail.com>
+Date:   Sat Mar 22 21:05:14 2025 +0100
+
+    Initial commit

@@ -19,7 +19,8 @@
   // Helper function for translations with fallbacks
   function getBlogTranslation(key, fallback) {
     if (browser) {
-      return $t(`blog.${key}`) || fallback;
+      // Try blog translations first, then updates translations for fallback
+      return $t(`blog.${key}`) || $t(`updates.${key}`) || fallback;
     }
     return fallback;
   }
@@ -88,17 +89,15 @@
 
 <div class="container post-page">
   <article>
-    <!-- Back to blog link -->
+    <!-- Smart breadcrumb - goes to updates if post is an update, otherwise blog -->
     <nav class="breadcrumb">
-      <a href="{base}/blog?lang={currentLocale}" class="back-link">
+      <a href="{base}/{post.meta.category === 'update' ? 'updates' : 'blog'}?lang={currentLocale}" class="back-link">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
         </svg>
-        {getBlogTranslation('backToBlog', 'Back to Blog')}
+        {post.meta.category === 'update' ? getBlogTranslation('backToUpdates', 'Back to Updates') : getBlogTranslation('backToBlog', 'Back to Blog')}
       </a>
     </nav>
-
-
 
     <h1>{post.meta.title}</h1>
     <p class="post-meta">
@@ -162,15 +161,15 @@
       <Follow />
     </div>
 
-    <!-- Related posts or back to blog -->
+    <!-- Related posts or back to parent -->
     <div class="post-navigation">
       <div class="nav-content">
         <div class="nav-item">
-          <a href="{base}/blog?lang={currentLocale}" class="nav-link primary">
+          <a href="{base}/{post.meta.category === 'update' ? 'updates' : 'blog'}?lang={currentLocale}" class="nav-link primary">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
             </svg>
-            {getBlogTranslation('navigation.readMore', 'Read More Posts')}
+            {post.meta.category === 'update' ? getBlogTranslation('navigation.readMoreUpdates', 'Read More Updates') : getBlogTranslation('navigation.readMore', 'Read More Posts')}
           </a>
         </div>
         <div class="nav-item">
@@ -418,11 +417,24 @@
     color: #4B5563;
     line-height: 1.8;
     margin-bottom: 1rem;
-    padding-left: 20px;
+    padding-left: 30px;
+    list-style-type: disc;
+    list-style-position: outside;
+  }
+
+  .post-content :global(ol) {
+    list-style-type: decimal;
   }
 
   .post-content :global(li) {
     margin-bottom: 0.5rem;
+    display: list-item;
+    color: #4B5563;
+  }
+
+  .post-content :global(li::marker) {
+    color: #2B4B8C;
+    font-weight: bold;
   }
 
   .post-content :global(strong) {
@@ -494,194 +506,6 @@
     color: inherit;
   }
 
-  /* Ensure Follow component is NOT affected by post styles */
-  .post-follow-section :global(.follow-compact) {
-    /* Reset any potential overrides */
-    font-size: initial !important;
-    line-height: initial !important;
-    color: white !important;
-  }
-
-  .post-follow-section :global(.follow-compact *) {
-    /* Ensure all Follow component elements maintain their original styling */
-    color: inherit !important;
-  }
-
-  /* Specifically target Follow component text elements */
-  .post-follow-section :global(.follow-compact h3) {
-    color: #DAA520 !important;
-    font-size: 1.125rem !important;
-    font-weight: 600 !important;
-    line-height: 1.2 !important;
-  }
-
-  .post-follow-section :global(.follow-compact p) {
-    color: white !important;
-    font-size: 0.8rem !important;
-    line-height: 1.2 !important;
-    opacity: 0.9 !important;
-  }
-
-  .post-follow-section :global(.follow-compact .action-label span) {
-    color: white !important;
-    font-size: 0.875rem !important;
-    font-weight: 500 !important;
-  }
-
-  .post-follow-section :global(.follow-compact .action-icon) {
-    color: #DAA520 !important;
-  }
-
-  .post-follow-section :global(.follow-compact .social-btn) {
-    color: white !important;
-  }
-
-  .post-follow-section :global(.follow-compact .social-btn svg) {
-    color: white !important;
-  }
-
-  .post-follow-section :global(.follow-compact .global-note) {
-    color: white !important;
-    opacity: 0.8 !important;
-    font-size: 0.75rem !important;
-    font-style: italic !important;
-  }
-
-  .post-follow-section :global(.follow-compact .btn) {
-    color: #2B4B8C !important;
-  }
-
-  .post-follow-section :global(.follow-compact .btn-secondary) {
-    color: #DAA520 !important;
-  }
-
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .container {
-      margin: 1rem auto 2rem;
-      padding: 0 1rem;
-    }
-
-    h1 {
-      font-size: 2.2rem;
-    }
-
-    .post-page :global(h2) {
-      font-size: 1.7rem;
-    }
-
-    .post-page :global(h3) {
-      font-size: 1.4rem;
-    }
-
-    .post-page :global(p) {
-      font-size: 1rem;
-    }
-
-    .nav-content {
-      grid-template-columns: 1fr;
-    }
-
-    .post-follow-section {
-      margin: 2rem 0;
-    }
-  }
-
-  @media (max-width: 480px) {
-    h1 {
-      font-size: 1.8rem;
-    }
-
-    .nav-link {
-      padding: 0.625rem 0.75rem;
-      font-size: 0.875rem;
-    }
-  }
-
-  /* Enhanced bullet point styling for blog posts */
-  .post-content :global(ul) {
-    color: #4B5563;
-    line-height: 1.8;
-    margin-bottom: 1rem;
-    padding-left: 30px; /* Increased from 20px */
-    list-style-type: disc; /* Explicitly set bullet type */
-    list-style-position: outside; /* Ensure bullets are outside the text */
-  }
-
-  .post-content :global(ol) {
-    color: #4B5563;
-    line-height: 1.8;
-    margin-bottom: 1rem;
-    padding-left: 30px; /* Increased from 20px */
-    list-style-type: decimal; /* Explicitly set number type */
-    list-style-position: outside; /* Ensure numbers are outside the text */
-  }
-
-  .post-content :global(li) {
-    margin-bottom: 0.5rem;
-    display: list-item; /* Explicitly set to list-item */
-    color: #4B5563; /* Ensure text color is visible */
-  }
-
-  /* Nested lists */
-  .post-content :global(ul ul) {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    padding-left: 25px;
-    list-style-type: circle; /* Different bullet for nested lists */
-  }
-
-  .post-content :global(ol ol) {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    padding-left: 25px;
-    list-style-type: lower-alpha; /* Letters for nested numbered lists */
-  }
-
-  .post-content :global(ul ul ul) {
-    list-style-type: square; /* Third level bullets */
-  }
-
-  /* Ensure bullets are colored properly */
-  .post-content :global(li::marker) {
-    color: #2B4B8C; /* Blue color for bullets/numbers */
-    font-weight: bold;
-  }
-
-  /* Alternative approach if ::marker doesn't work in all browsers */
-  .post-content :global(ul) {
-    list-style-image: none; /* Reset any custom bullet images */
-  }
-
-  /* Fix for any potential CSS reset that might be hiding bullets */
-  .post-content :global(ul),
-  .post-content :global(ol) {
-    list-style: initial !important; /* Force list styles to appear */
-    margin-left: 0 !important;
-    padding-left: 30px !important;
-  }
-
-  /* Ensure proper spacing and visibility */
-  .post-content :global(li) {
-    position: relative;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-  }
-
-  /* Fallback custom bullets if browser issues persist */
-  .post-content :global(ul.custom-bullets) {
-    list-style: none;
-    padding-left: 20px;
-  }
-
-  .post-content :global(ul.custom-bullets li::before) {
-    content: "•";
-    color: #2B4B8C;
-    font-weight: bold;
-    position: absolute;
-    left: -20px;
-  }
-
   /* Table styling for markdown content */
   .post-content :global(table) {
     width: 100%;
@@ -718,10 +542,10 @@
   }
 
   .post-content :global(thead tr:hover) {
-    background-color: #2B4B8C; /* Keep header color on hover */
+    background-color: #2B4B8C;
   }
 
-  /* PDF Download Button - matches your existing action-button pattern */
+  /* PDF Download Button */
   .pdf-download-button {
     display: inline-flex;
     align-items: center;
@@ -736,44 +560,9 @@
     border: none;
     min-width: 140px;
     justify-content: center;
-    margin-bottom: 1.5rem; /* Add this for spacing */
+    margin-bottom: 1.5rem;
   }
 
-  .pdf-download-button:hover {
-    background: #f8fafc;
-    border-color: #9ca3af;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  .pdf-download-button:active {
-    transform: translateY(0);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  /* Icon styling */
-  .pdf-download-icon {
-    font-size: 1rem;
-    display: inline-block;
-  }
-
-  /* Alternative: Using SVG icon instead of emoji */
-  .pdf-download-button svg {
-    width: 1.25rem;
-    height: 1.25rem;
-    stroke-width: 2;
-  }
-
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .pdf-download-button {
-      padding: 0.625rem 1rem;
-      font-size: 0.875rem;
-      min-width: 120px;
-    }
-  }
-
-  /* For blog posts - lighter styling variant */
   .blog-pdf-button {
     background: rgba(43, 75, 140, 0.05);
     color: #2B4B8C;
@@ -788,8 +577,58 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  /* Responsive table handling */
+  .pdf-download-button svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    stroke-width: 2;
+  }
+
+  /* Ensure Follow component styling is preserved */
+  .post-follow-section :global(.follow-compact h3) {
+    color: #DAA520 !important;
+    font-size: 1.125rem !important;
+    font-weight: 600 !important;
+    line-height: 1.2 !important;
+  }
+
+  .post-follow-section :global(.follow-compact p) {
+    color: white !important;
+    font-size: 0.8rem !important;
+    line-height: 1.2 !important;
+    opacity: 0.9 !important;
+  }
+
+  /* Responsive adjustments */
   @media (max-width: 768px) {
+    .container {
+      margin: 1rem auto 2rem;
+      padding: 0 1rem;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+    }
+
+    .post-content :global(h2) {
+      font-size: 1.7rem;
+    }
+
+    .post-content :global(h3) {
+      font-size: 1.4rem;
+    }
+
+    .post-content :global(p) {
+      font-size: 1rem;
+    }
+
+    .nav-content {
+      grid-template-columns: 1fr;
+    }
+
+    .post-follow-section {
+      margin: 2rem 0;
+    }
+
     .post-content :global(table) {
       font-size: 0.875rem;
     }
@@ -800,8 +639,22 @@
     }
   }
 
-  /* For very small screens, consider horizontal scrolling */
   @media (max-width: 480px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    .nav-link {
+      padding: 0.625rem 0.75rem;
+      font-size: 0.875rem;
+    }
+
+    .pdf-download-button {
+      padding: 0.625rem 1rem;
+      font-size: 0.875rem;
+      min-width: 120px;
+    }
+
     .post-content :global(table) {
       display: block;
       overflow-x: auto;

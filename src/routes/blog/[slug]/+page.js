@@ -1,4 +1,4 @@
-// src/routes/blog/[slug]/+page.js - Improved version
+// src/routes/blog/[slug]/+page.js
 
 import { error } from '@sveltejs/kit';
 import { browser } from '$app/environment';

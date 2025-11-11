@@ -1,0 +1,29 @@
+{
+  "title": "Projektuppdateringar",
+  "subtitle": "En logg över nya ramverksutkast, milstolpar och projektnyheter",
+  "noPosts": {
+    "title": "Inga uppdateringar hittades",
+    "message": "Inga projektuppdateringar hittades för det valda språket ({language}). Prova att byta till ett annat språk...",
+    "followPrompt": "Följ oss för att få notiser när vi publicerar nya uppdateringar!"
+  },
+  "postsCount": {
+    "single": "uppdatering",
+    "plural": "uppdateringar",
+    "found": "hittades"
+  },
+  "latestBadge": "Senaste",
+  "meta": {
+    "publishedOn": "Publicerad den",
+    "by": "av"
+  },
+  "readMore": "Läs uppdatering →",
+  "strategicFollow": {
+    "title": "Vill du följa framstegen?",
+    "subtitle": "Håll kontakten för att aldrig missa våra senaste ramverksreleaser"
+  },
+  "bottomPrompt": {
+    "text": "Vill du hålla dig uppdaterad?",
+    "link": "Se alla följalternativ →"
+  },
+  "backToUpdates": "Tillbaka till uppdateringar"
+}

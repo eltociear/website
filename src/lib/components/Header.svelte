@@ -1714,7 +1714,7 @@
             </div>
           </li>
 
-          <!-- NEW: Resources Dropdown -->
+          <!-- Resources Dropdown -->
           <li class="nav-item dropdown" class:open={isResourcesDropdownOpen}>
             <div class="dropdown-header">
               <a 
@@ -1745,6 +1745,9 @@
             <div class="dropdown-menu" on:click|stopPropagation={() => {}} role="menu">
               <a href="{base}/blog" class={isActive('/blog') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                 {browser ? ($t('common.header.blog') || 'Blog') : 'Blog'}
+              </a>
+              <a href="{base}/updates" class={isActive('/updates') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
+                {browser ? ($t('common.header.updates') || 'Updates') : 'Updates'}
               </a>
               <a href="{base}/resources/whitepapers" class={isActive('/resources/whitepapers') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                 {browser ? ($t('common.header.whitepapers') || 'Whitepapers') : 'Whitepapers'}

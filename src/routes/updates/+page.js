@@ -1,5 +1,4 @@
-// src/routes/blog/+page.js
-
+// src/routes/updates/+page.js
 import { browser } from '$app/environment';
 import { locale } from '$lib/i18n';
 import { get } from 'svelte/store';
@@ -33,17 +32,16 @@ export async function load({ depends, url }) {
     currentLocale = get(locale) || 'en';
   }
 
-  console.log('Blog page loading with locale:', currentLocale);
+  console.log('Updates page loading with locale:', currentLocale);
 
-  const posts = allPosts
+  const updates = allPosts
     .filter(post => {
       if (!post.meta || !post.meta.date) {
         console.warn(`Post ${post.slug} (${post.lang}) missing metadata or date, skipping`);
         return false;
       }
-      // Filter for blog posts (exclude updates) and current language
-      const isUpdate = post.meta.category === 'update';
-      return post.lang === currentLocale && !isUpdate;
+      // Filter for updates category and current language
+      return post.lang === currentLocale && post.meta.category === 'update';
     })
     .sort((a, b) => {
       const dateA = new Date(a.meta.date || 0);
@@ -51,10 +49,10 @@ export async function load({ depends, url }) {
       return dateB - dateA; // Sort newest first
     });
 
-  console.log('Filtered posts:', posts);
+  console.log('Filtered updates:', updates);
 
   return {
-    posts: posts,
+    posts: updates,
     currentLocale: currentLocale
   };
 }
