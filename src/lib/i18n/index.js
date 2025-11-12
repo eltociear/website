@@ -80,6 +80,7 @@ const pageSpecificTranslationsMap = [
   { route: '/frameworks/oceans-and-marine-governance', dataKey: 'oceansMarineFramework', fileName: 'frameworksOceansAndMarineGovernance' },
   { route: '/frameworks/regenerative-journeys', dataKey: 'regenerativeJourneysFramework', fileName: 'frameworksRegenerativeJourneys' },
   { route: '/frameworks/mobility-commons', dataKey: 'mobilityFramework', fileName: 'frameworksMobilityCommons' },
+  { route: '/frameworks/meta-governance', dataKey: 'metaGovernance', fileName: 'frameworksMetaGovernance' },
   { route: '/frameworks/emergent-governance-protocol', dataKey: 'egpFramework', fileName: 'frameworksEmergentGovernanceProtocol' },
   { route: '/frameworks/living-land-protocol', dataKey: 'livingLandProtocol', fileName: 'frameworksLivingLandProtocol' },
   { route: '/frameworks/sundown-protocol', dataKey: 'sundownProtocol', fileName: 'frameworksSundownProtocol' },

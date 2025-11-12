@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Aegis-protokollet - Global säkerhetsövergång",
-    "description": "Ett omfattande ramverk för att transformera globala militära kapaciteter från verktyg för splittring till motorer för upptäckt och kosmisk väktarskap"
+    "description": "Ett omfattande ramverk för att transformera globala militära kapaciteter från verktyg för splittring till motorer för upptäckt och kosmiskt väktarskap"
   },
   "guideCard": {
     "title": "Ny med Aegis-protokollet?",
@@ -67,9 +67,12 @@
   },
   "navigation": {
     "downloadPdf": "Ladda ner PDF-version",
-    "continueToFramework": "Fortsätt till fullständigt ramverk",
-    "previousSection": "Föregående avsnitt",
-    "nextSection": "Nästa avsnitt"
+    "continueToFramework": "Fortsätt till hela ramverket",
+    "previousSection": "Föregående avsnitt", 
+    "nextSection": "Nästa avsnitt",
+    "backToFrameworksOverview": "← Tillbaka till översikt",
+    "beginYourJourney": "Snabbstart",
+    "exploreFramework": "Utforska ramverk"
   },
   "languageFallback": {
     "title": "Innehåll på ditt språk kommer snart",

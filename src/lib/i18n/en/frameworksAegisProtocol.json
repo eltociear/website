@@ -67,9 +67,12 @@
   },
   "navigation": {
     "downloadPdf": "Download PDF Version",
-    "continueToFramework": "Continue to Full Framework",
+    "continueToFramework": "Continue to Full Framework", 
     "previousSection": "Previous Section",
-    "nextSection": "Next Section"
+    "nextSection": "Next Section",
+    "backToFrameworksOverview": "← Back to Overview",
+    "beginYourJourney": "Quick Start",
+    "exploreFramework": "Explore Framework"
   },
   "languageFallback": {
     "title": "Content in your language coming soon",

@@ -4,6 +4,8 @@
 	import { browser } from '$app/environment';
 	import { getFrameworkBySlug, statusMapping } from '$lib/stores/frameworkNav.js';
 	import FrameworkLayout from '$lib/components/FrameworkLayout.svelte';
+	import { initializeFrameworkPageScroll } from '$lib/utils/scrollManager.js';
+	import { onMount } from 'svelte';
 
 	// --- PROPS ---
 	let { data } = $props();
@@ -182,6 +184,11 @@
 
 	// --- PAGE-SPECIFIC REACTIVITY ---
 	const allQuickStartSections = ['at-a-glance', 'executive-summary-for-the-skeptic'];
+
+	// --- SCROLL MANAGEMENT ---
+	onMount(() => {
+		initializeFrameworkPageScroll();
+	});
 </script>
 
 <svelte:head>

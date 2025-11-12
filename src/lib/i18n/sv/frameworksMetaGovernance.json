@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "Meta-styrningsramverk - Koordinerad global styrning",
+    "description": "Omfattande ramverk för koordinerade globala styrningssystem som möjliggör planetär beslutsfattning samtidigt som lokal autonomi och demokratiskt deltagande bevaras"
+  },
+  "categories": {
+    "overview": "Grund",
+    "foundation": "Kärnprinciper", 
+    "implementation": "Implementering & modeller",
+    "vision": "Vision & framtid"
+  },
+  "sections": {
+    "index": "Översikt",
+    "introduction": "Introduktion till meta-styrning",
+    "quick-start": "Snabbstart",
+    "principles": "Kärnprinciper & värderingar",
+    "value-proposition": "Värdeerbjudande & fördelar",
+    "structural": "Strukturella komponenter",
+    "implementation": "Implementeringsväg",
+    "evaluation": "Utvärdering & bedömning",
+    "case-models": "Fallstudier & modeller",
+    "future": "Framtidsvision & utveckling",
+    "manifesto": "Meta-styrningsmanifest",
+    "appendix": "Bilaga & tekniska detaljer",
+    "related": "Relaterade ramverk"
+  },
+  "sectionsShort": {
+    "index": "Översikt",
+    "introduction": "Introduktion",
+    "quick-start": "Snabbstart",
+    "principles": "Kärnprinciper",
+    "value-proposition": "Värdeerbjudande",
+    "structural": "Struktur",
+    "implementation": "Implementering",
+    "evaluation": "Utvärdering",
+    "case-models": "Fallstudier",
+    "future": "Framtidsvision",
+    "manifesto": "Manifest",
+    "appendix": "Bilaga",
+    "related": "Relaterade"
+  },
+  "progress": {
+    "text": "Avsnitt {current} av {total}"
+  },
+  "languageFallback": {
+    "title": "Innehåll på svenska kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills den svenska översättningen är klar."
+  },
+  "navigation": {
+    "downloadPdf": "Ladda ner PDF-version",
+    "continueToFramework": "Fortsätt till hela ramverket",
+    "previousSection": "Föregående avsnitt",
+    "nextSection": "Nästa avsnitt",
+    "backToFrameworksOverview": "Tillbaka till ramverksöversikt",
+    "beginYourJourney": "Påbörja din resa",
+    "exploreFramework": "Utforska ramverk"
+  },
+  "intro": {
+    "title": "Meta-styrningsramverk",
+    "overview": "Översikt", 
+    "paragraph1": "Meta-styrningsramverket tillhandahåller omfattande principer och mekanismer för koordinerad global styrning som bevarar lokal autonomi samtidigt som det möjliggör koordination på planetär skala.",
+    "paragraph2": "Detta ramverk adresserar vår tids kritiska utmaning: hur man styr effektivt på planetär skala samtidigt som demokratiskt deltagande, kulturell mångfald och lokal självbestämmelse upprätthålls."
+  },
+  "quickStart": {
+    "title": "Påbörja din resa",
+    "guides": [
+      {
+        "id": "quick-start",
+        "icon": "⚡",
+        "title": "Snabbstart",
+        "description": "5-minuters översikt av meta-styrningsprinciper och implementering"
+      },
+      {
+        "id": "introduction",
+        "icon": "🏛️",
+        "title": "Introduktion",
+        "description": "Djupdykning i grunderna för koordinerad global styrning"
+      }
+    ]
+  },
+  "buttons": {
+    "downloadPdf": "Ladda ner PDF-version",
+    "continueToFull": "Fortsätt till fullständigt ramverk",
+    "resources": "Resurser",
+    "appendicesTools": "Bilaga & tekniska detaljer"
+  },
+  "errors": {
+    "sectionNotFound": "Avsnitt \"{section}\" hittades inte",
+    "contentInDevelopment": "Detta innehåll håller fortfarande på att utvecklas.",
+    "sectionNotAvailable": "Avsnitt inte tillgängligt",
+    "sectionLoadError": "Avsnittet \"{section}\" kunde inte laddas. Detta kan vara ett tillfälligt problem.",
+    "returnToOverview": "Återgå till översikt"
+  },
+  "loading": {
+    "text": "Laddar meta-styrningsramverk..."
+  }
+}

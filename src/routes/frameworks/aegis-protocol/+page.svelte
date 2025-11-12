@@ -3,6 +3,8 @@
 	import { t, locale, isLocaleLoaded } from '$lib/i18n';
 	import { getFrameworkBySlug, statusMapping } from '$lib/stores/frameworkNav.js';
 	import FrameworkLayout from '$lib/components/FrameworkLayout.svelte';
+	import { initializeFrameworkPageScroll } from '$lib/utils/scrollManager.js';
+	import { onMount } from 'svelte';
 
 	// --- PROPS ---
 	let { data } = $props();
@@ -189,6 +191,11 @@
 
 	// --- PAGE-SPECIFIC REACTIVITY ---
 	const allQuickStartSections = ['at-a-glance', 'executive-summary-for-the-skeptic'];
+
+	// --- SCROLL MANAGEMENT ---
+	onMount(() => {
+		initializeFrameworkPageScroll();
+	});
 </script>
 
 <svelte:head>
@@ -245,7 +252,7 @@
 				<div class="quick-start-section">
 					<h2 class="section-title">
 						<span class="title-icon">⚡</span>
-						<span>Quick Start</span>
+						<span>{aegisProtocol.navigation?.beginYourJourney || 'Quick Start'}</span>
 					</h2>
 
 					<div class="guide-cards">
@@ -280,7 +287,7 @@
 						on:click={() => setActiveSection('introduction-vision')}
 					>
 						<span class="btn-icon">🎯</span>
-						<span>Explore Framework</span>
+						<span>{aegisProtocol.navigation?.exploreFramework || 'Explore Framework'}</span>
 						<span class="btn-arrow">→</span>
 					</button>
 				</div>
@@ -289,7 +296,7 @@
 			<div class="guide-container">
 				<div class="guide-header">
 					<button type="button" class="back-btn" on:click={() => setActiveSection('index')}>
-						<span>← Back to Overview</span>
+						<span>{aegisProtocol.navigation?.backToFrameworksOverview || '← Back to Overview'}</span>
 					</button>
 
 					<div class="guide-navigation">
@@ -350,7 +357,7 @@
 							on:click={() => setActiveSection('introduction-vision')}
 						>
 							<span class="btn-icon">🎯</span>
-							<span>Explore Framework</span>
+							<span>{aegisProtocol.navigation?.exploreFramework || 'Explore Framework'}</span>
 							<span class="btn-arrow">→</span>
 						</button>
 					{/if}

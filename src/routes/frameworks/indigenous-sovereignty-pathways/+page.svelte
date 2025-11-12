@@ -1,8 +1,11 @@
+<!-- src/routes/frameworks/indigenous-sovereignty-pathways/+page-svelte -->
 <script>
 	import { t, locale, isLocaleLoaded } from '$lib/i18n';
 	import { getFrameworkBySlug, statusMapping } from '$lib/stores/frameworkNav.js';
 	import FrameworkLayout from '$lib/components/FrameworkLayout.svelte';
 	import SectionNotice from '$lib/components/SectionNotice.svelte';
+	import { initializeFrameworkPageScroll } from '$lib/utils/scrollManager.js';
+	import { onMount } from 'svelte';
 
 	// --- PROPS ---
 	let { data } = $props();
@@ -163,6 +166,11 @@
 
 	// --- PAGE-SPECIFIC REACTIVITY ---
 	const allQuickStartSections = ['preamble', 'core-principles'];
+
+	// --- SCROLL MANAGEMENT ---
+	onMount(() => {
+		initializeFrameworkPageScroll();
+	});
 </script>
 
 <svelte:head>
@@ -178,13 +186,6 @@
 </svelte:head>
 
 <!-- CRITICAL CULTURAL NOTICES - Must be preserved exactly -->
-<SectionNotice 
-  type="warning" 
-  customContent={true}
->
-  <p>{$t('common.notices.section.frameworks.text')}</p>
-</SectionNotice>
-
 <SectionNotice type="info" title="Current Status: Internal Review (V0.9 Draft)" customContent={true} dismissible={true}>
   <p>This framework is offered as a starting point for conversation. We recognize that authentic governance must emerge from Indigenous communities themselves, and we welcome engagement, correction, or redirection according to community protocols and priorities.</p>
 </SectionNotice>

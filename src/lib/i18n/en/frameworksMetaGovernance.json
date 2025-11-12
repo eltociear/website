@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "Meta-Governance Framework - Coordinated Global Governance",
+    "description": "Comprehensive framework for coordinated global governance systems enabling planetary-scale decision-making while preserving local autonomy and democratic participation"
+  },
+  "categories": {
+    "overview": "Foundation",
+    "foundation": "Core Principles", 
+    "implementation": "Implementation & Models",
+    "vision": "Vision & Future"
+  },
+  "sections": {
+    "index": "Overview",
+    "introduction": "Introduction to Meta-Governance",
+    "quick-start": "Quick Start Guide",
+    "principles": "Core Principles & Values",
+    "value-proposition": "Value Proposition & Benefits",
+    "structural": "Structural Components",
+    "implementation": "Implementation Pathway",
+    "evaluation": "Evaluation & Assessment",
+    "case-models": "Case Studies & Models",
+    "future": "Future Vision & Development",
+    "manifesto": "Meta-Governance Manifesto",
+    "appendix": "Appendix & Technical Details",
+    "related": "Related Frameworks"
+  },
+  "sectionsShort": {
+    "index": "Overview",
+    "introduction": "Introduction",
+    "quick-start": "Quick Start",
+    "principles": "Core Principles",
+    "value-proposition": "Value Proposition",
+    "structural": "Structure",
+    "implementation": "Implementation",
+    "evaluation": "Evaluation",
+    "case-models": "Case Studies",
+    "future": "Future Vision",
+    "manifesto": "Manifesto",
+    "appendix": "Appendix",
+    "related": "Related"
+  },
+  "progress": {
+    "text": "Section {current} of {total}"
+  },
+  "languageFallback": {
+    "title": "Content in your language coming soon",
+    "description": "This section is currently displayed in English until translation is complete."
+  },
+  "navigation": {
+    "downloadPdf": "Download PDF Version",
+    "continueToFramework": "Continue to Full Framework",
+    "previousSection": "Previous Section",
+    "nextSection": "Next Section",
+    "backToFrameworksOverview": "Back to Frameworks Overview",
+    "beginYourJourney": "Begin Your Journey",
+    "exploreFramework": "Explore Framework"
+  },
+  "intro": {
+    "title": "Meta-Governance Framework",
+    "overview": "Overview", 
+    "paragraph1": "The Meta-Governance Framework provides comprehensive principles and mechanisms for coordinated global governance that preserves local autonomy while enabling planetary-scale coordination.",
+    "paragraph2": "This framework addresses the critical challenge of our time: how to govern effectively at a planetary scale while maintaining democratic participation, cultural diversity, and local self-determination."
+  },
+  "quickStart": {
+    "title": "Begin Your Journey",
+    "guides": [
+      {
+        "id": "quick-start",
+        "icon": "⚡",
+        "title": "Quick Start",
+        "description": "5-minute overview of meta-governance principles and implementation"
+      },
+      {
+        "id": "introduction",
+        "icon": "🏛️",
+        "title": "Introduction",
+        "description": "Deep dive into the foundations of coordinated global governance"
+      }
+    ]
+  },
+  "buttons": {
+    "downloadPdf": "Download PDF Version",
+    "continueToFull": "Continue to Full Framework",
+    "resources": "Resources",
+    "appendicesTools": "Appendix & Technical Details"
+  },
+  "errors": {
+    "sectionNotFound": "Section \"{section}\" not found",
+    "contentInDevelopment": "This content is still being developed.",
+    "sectionNotAvailable": "Section Not Available",
+    "sectionLoadError": "The section \"{section}\" could not be loaded. This might be a temporary issue.",
+    "returnToOverview": "Return to Overview"
+  },
+  "loading": {
+    "text": "Loading meta-governance framework..."
+  }
+}
