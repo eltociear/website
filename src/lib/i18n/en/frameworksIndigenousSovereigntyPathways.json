@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "An Invitational Framework for Indigenous Sovereignty and Planetary Healing - Global Governance Framework",
+    "description": "An invitational framework supporting Indigenous sovereignty and planetary healing through Traditional Ecological Knowledge"
+  },
+  "categories": {
+    "overview": "Sacred Foundation",
+    "structure": "Structural Components", 
+    "vision": "Vision & Pathways",
+    "resources": "Resources & Integration"
+  },
+  "sections": {
+    "index": "Overview",
+    "preamble": "Preamble: A Framework Born from the Land",
+    "core-principles": "Core Principles: The Ancient Instructions for Living",
+    "structural-components": "Structural Components: Sacred Architecture",
+    "pathways-from-vision-to-action": "Pathways from Vision to Action: Planting Seeds for Seven Generations",
+    "key-mechanisms": "Key Mechanisms: Sacred Technologies of Transformation",
+    "vision-of-flourishing": "A Vision of Flourishing",
+    "interface-existing-systems": "Interface with Existing Systems",
+    "pathways-broader-engagement": "Pathways for Broader Engagement",
+    "supporting-materials-considerations": "Supporting Materials & Considerations",
+    "system-map-visual": "System Map: The Sacred Web",
+    "glossary-references": "Glossary & References"
+  },
+  "sectionsShort": {
+    "index": "Overview",
+    "preamble": "Sacred Foundation",
+    "core-principles": "Ancient Instructions",
+    "structural-components": "Sacred Architecture",
+    "pathways-from-vision-to-action": "Planting Seeds",
+    "key-mechanisms": "Sacred Technologies",
+    "vision-of-flourishing": "Vision of Flourishing",
+    "interface-existing-systems": "System Interface",
+    "pathways-broader-engagement": "Broader Engagement",
+    "supporting-materials-considerations": "Supporting Materials",
+    "system-map-visual": "Sacred Web",
+    "glossary-references": "Glossary"
+  },
+  "progress": {
+    "text": "Section {current} of {total}"
+  },
+  "languageFallback": {
+    "title": "Content in your language coming soon",
+    "description": "This section is currently displayed in English until translation is complete."
+  },
+  "navigation": {
+    "downloadPdf": "Download PDF Version",
+    "continueToFramework": "Continue to Full Framework",
+    "previousSection": "Previous Section",
+    "nextSection": "Next Section"
+  },
+  "intro": {
+    "title": "An Invitational Framework for Indigenous Sovereignty and Planetary Healing",
+    "overview": "Overview", 
+    "paragraph1": "This framework emerges as an invitational pathway for planetary transformation, positioning Indigenous peoples as sovereign leaders of regenerative governance systems guided by the wisdom of the Earth.",
+    "paragraph2": "Rooted in deep respect for Indigenous sovereignty and Traditional Ecological Knowledge, this framework centers Indigenous leadership, ecological wisdom, and long-term sustainability as the foundation for planetary healing."
+  },
+  "quickStart": {
+    "title": "Sacred Beginning",
+    "guides": [
+      {
+        "id": "preamble",
+        "icon": "🪶",
+        "title": "Sacred Preamble",
+        "description": "Begin with ceremonial acknowledgment and foundational understanding"
+      },
+      {
+        "id": "core-principles",
+        "icon": "⚖️",
+        "title": "Core Principles",
+        "description": "Explore foundational values like bioregional governance and seven-generation accountability"
+      }
+    ]
+  },
+  "buttons": {
+    "downloadPdf": "Download PDF Version",
+    "continueToFull": "Continue to Full Framework",
+    "resources": "Resources",
+    "appendicesTools": "Glossary & References"
+  },
+  "errors": {
+    "sectionNotFound": "Section \"{section}\" not found",
+    "contentInDevelopment": "This content is still being developed with community guidance.",
+    "sectionNotAvailable": "Section Not Available",
+    "sectionLoadError": "The section \"{section}\" could not be loaded. This might be a temporary issue.",
+    "returnToOverview": "Return to Sacred Beginning"
+  },
+  "loading": {
+    "text": "Loading indigenous sovereignty pathways..."
+  }
+}

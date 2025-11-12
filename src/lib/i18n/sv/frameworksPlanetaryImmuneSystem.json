@@ -1,0 +1,274 @@
+{
+  "title": "Planetärt immunförsvar",
+  "subtitle": "Ramverk för hantering av existentiella risker",
+  "description": "Nödprotokoll för existentiella hot – samordnat civilisationsförsvar med bevarande av demokrati och samhällssuveränitet.",
+  "shortDescription": "Nödsamordningssystem för civilisationshot som kräver omedelbar planetär respons – utformat med demokratiska skyddsmekanismer och samhällsskydd.",
+  "backNav": "Tillbaka till översikt över alla ramverk",
+  "quickStart": {
+    "title": "Snabbstartsguider",
+    "subtitle": "Orientera dig snabbt med dessa viktiga översikter",
+    "guides": [
+      {
+        "id": "at-a-glance",
+        "icon": "⚡",
+        "title": "En överblick",
+        "description": "5-minuters översikt av civilisationsförsvarssystemet"
+      },
+      {
+        "id": "executive-summary-for-the-skeptic",
+        "icon": "🤔",
+        "title": "För skeptiker",
+        "description": "Evidensbaserade argument för samordnad hantering av existentiella risker"
+      }
+    ]
+  },
+  "categories": {
+    "overview": "Ramverksöversikt",
+    "coreFramework": "Kärnramverk",
+    "implementation": "Implementering",
+    "appendices": "Tekniska resurser"
+  },
+  "sections": {
+    "index": "Introduktion och översikt",
+    "at-a-glance": "En överblick",
+    "executive-summary-for-the-skeptic": "Sammanfattning för skeptiker",
+    "introduction": "Introduktion",
+    "principles": "Kärnprinciper",
+    "structural": "Strukturella komponenter",
+    "implementation": "Implementeringsvägar",
+    "coordination-response": "Samordning och respons",
+    "long-term-stewardship": "Långsiktigt förvaltarskap",
+    "threat-assessment": "Metoder för hotbedömning",
+    "crisis-protocols": "Krisledningsprotokoll",
+    "technology-frameworks": "Ramverk för teknikutvärdering",
+    "resource-mobilization": "Resursmobilisering och finansiering",
+    "success-metrics": "Framgångsmått och utvärdering",
+    "risk-assessment": "Riskbedömningssystem"
+  },
+  "sectionsShort": {
+    "index": "Översikt",
+    "at-a-glance": "Överblick",
+    "executive-summary-for-the-skeptic": "För skeptiker",
+    "introduction": "Introduktion",
+    "principles": "Kärnprinciper",
+    "structural": "Komponenter",
+    "implementation": "Implementering",
+    "coordination-response": "Samordning",
+    "long-term-stewardship": "Förvaltarskap",
+    "threat-assessment": "Hotbedömning",
+    "crisis-protocols": "Krisprotokoll",
+    "technology-frameworks": "Teknikramverk",
+    "resource-mobilization": "Resursmobilisering",
+    "success-metrics": "Framgångsmått",
+    "risk-assessment": "Riskbedömning"
+  },
+  "navigation": {
+    "previousSection": "Föregående avsnitt",
+    "nextSection": "Nästa avsnitt",
+    "backToOverview": "Tillbaka till översikten",
+    "downloadPDF": "Ladda ner PDF",
+    "readFullFramework": "Läs hela ramverket",
+    "technicalResources": "Tekniska resurser",
+    "backToFramework": "Tillbaka till ramverket"
+  },
+  "metadata": {
+    "frameworkType": "Hantering av existentiell risk",
+    "tier": "4 – Planetärt immunförsvar",
+    "status": "Utvecklingsutkast",
+    "version": "2.1",
+    "estimatedReadingTime": "15 minuter",
+    "totalSections": "16 avsnitt",
+    "coreFrameworkSections": "7 avsnitt",
+    "appendixSections": "5 detaljerade bilagor",
+    "lastUpdated": "2025-01-12"
+  },
+  "keyFeatures": {
+    "title": "Nyckelfunktioner",
+    "items": [
+      {
+        "icon": "🛡️",
+        "title": "Krisledningsprotokoll",
+        "description": "Nödsamordning med demokratiska skyddsmekanismer"
+      },
+      {
+        "icon": "🔍",
+        "title": "Observatorium för existentiella risker",
+        "description": "Omfattande hotbedömning och övervakning"
+      },
+      {
+        "icon": "⚖️",
+        "title": "Demokratisk ansvarsskyldighet",
+        "description": "Världsriskförsamling med tillsyn i realtid"
+      },
+      {
+        "icon": "🌍",
+        "title": "Samhällsskydd",
+        "description": "60 % resursprioritering för sårbara befolkningar"
+      },
+      {
+        "icon": "💰",
+        "title": "Finansiering via 'syndskatt'",
+        "description": "31–50 miljarder dollar årligen från avgift på högriskteknik"
+      },
+      {
+        "icon": "🤝",
+        "title": "Kulturell suveränitet",
+        "description": "Urfolks territoriella auktoritet och samhällskontroll"
+      }
+    ]
+  },
+  "implementationPhases": {
+    "title": "Implementeringstidslinje",
+    "phases": [
+      {
+        "name": "Grundfas",
+        "duration": "År 1–3",
+        "icon": "🏗️",
+        "description": "Etablering av ERO, AI-säkerhetsavtal, Gerghub-piloter",
+        "targets": [
+          "ERO operativ kapacitet",
+          "25 miljoner utbildade i 'Existential Civics'",
+          "10 Gerghub-pilotstäder",
+          "Ratificering av AI-säkerhetsavtal"
+        ]
+      },
+      {
+        "name": "Integrationsfas",
+        "duration": "År 4–7",
+        "icon": "🌐",
+        "description": "Antagande av fördrag, utbyggnad av infrastruktur, demokratisk mognad",
+        "targets": [
+          "80 % antagande av fördrag",
+          "50 % täckning i prioritetszoner",
+          "Auktoritet för Världsriskförsamlingen",
+          "Samordning av regionala nätverk"
+        ]
+      },
+      {
+        "name": "Evolutionsfas",
+        "duration": "År 8–15",
+        "icon": "🎯",
+        "description": "Universell motståndskraft, samordning på artnivå, medvetandeinfrastruktur",
+        "targets": [
+          "100 miljoner utexaminerade i 'Civics'",
+          "Universell täckning av motståndskraft",
+          "Kulturell renässans (80 % i kulturellt motståndsindex)",
+          "Permanenta civilisationsinstitutioner"
+        ]
+      }
+    ]
+  },
+  "coreComponents": {
+    "title": "Systemarkitektur",
+    "components": [
+      {
+        "name": "Observatorium för existentiella risker (ERO)",
+        "icon": "🔍",
+        "description": "Primärt organ för hotbedömning med offentlig transparens och oberoende granskning"
+      },
+      {
+        "name": "Krisledningsprotokoll",
+        "icon": "🚨",
+        "description": "Nödsamordning med 'circuit breaker'-skydd och demokratisk tillsyn"
+      },
+      {
+        "name": "Världsriskförsamlingen",
+        "icon": "🏛️",
+        "description": "Demokratiskt tillsynsorgan med realtidsbefogenhet för ändringar"
+      },
+      {
+        "name": "Globala insatsteam",
+        "icon": "⚡",
+        "description": "Specialiserade enheter för AI-säkerhet, biosäkerhet och kärnvapenkriser"
+      },
+      {
+        "name": "Globala allmänningsfonden",
+        "icon": "💰",
+        "description": "Rättvisecentrerad resursmobilisering genom samhällskontrollerad distribution"
+      },
+      {
+        "name": "Mobil GERG-riskapp",
+        "icon": "📱",
+        "description": "Plattform för medborgarengagemang och samhällsövervakning i realtid"
+      }
+    ]
+  },
+  "successMetrics": {
+    "title": "Framgångsmål",
+    "quantitative": [
+      {
+        "metric": "Antagande av fördrag",
+        "target": "80 % inom år 5",
+        "icon": "📋"
+      },
+      {
+        "metric": "Medborgarutbildning ('Civics')",
+        "target": "100 miljoner utbildade inom år 12",
+        "icon": "🎓"
+      },
+      {
+        "metric": "Motståndskraftstäckning",
+        "target": "50 % i prioritetszoner inom år 7",
+        "icon": "🛡️"
+      },
+      {
+        "metric": "Krishanteringstid",
+        "target": "<45 dagars samordningstid",
+        "icon": "⚡"
+      }
+    ],
+    "qualitative": [
+      {
+        "metric": "Förbättrad samhällssuveränitet",
+        "description": "Samhällen rapporterar ökad snarare än minskad autonomi",
+        "icon": "🏘️"
+      },
+      {
+        "metric": "Kulturell vitalitet",
+        "description": "Överföring av traditionell kunskap och innovation blomstrar",
+        "icon": "🌱"
+      },
+      {
+        "metric": "Demokratisk legitimitet",
+        "description": "Medborgarnas förtroende och meningsfullt deltagande i tillsyn",
+        "icon": "🗳️"
+      }
+    ]
+  },
+  "buttons": {
+    "readGuide": "Läs guide",
+    "reading": "Läser",
+    "startReading": "Börja läsa ramverket",
+    "downloadPDF": "Ladda ner PDF",
+    "backToOverview": "← Tillbaka till översikten",
+    "nextSection": "Nästa avsnitt →",
+    "previousSection": "← Föregående avsnitt",
+    "returnToOverview": "Återgå till översikten",
+    "readFullFramework": "Läs hela ramverket →",
+    "technicalResources": "Tekniska resurser →",
+    "backToFramework": "← Tillbaka till ramverket"
+  },
+  "accessibility": {
+    "skipToContent": "Hoppa till huvudinnehåll",
+    "frameworkNavigation": "Ramverksnavigering",
+    "sectionNavigation": "Avsnittsnavigering",
+    "expandSection": "Expandera avsnitt",
+    "collapseSection": "Minimera avsnitt",
+    "currentSection": "Nuvarande avsnitt",
+    "loadingFramework": "Laddar ramverksinnehåll..."
+  },
+  "errors": {
+    "sectionNotFound": "Avsnittet hittades inte",
+    "sectionNotFoundDescription": "Det begärda avsnittet kunde inte laddas.",
+    "loadingError": "Inläsningsfel",
+    "loadingErrorDescription": "Ett fel uppstod vid inläsning av ramverksinnehållet.",
+    "returnToOverview": "Återgå till översikten"
+  },
+  "download": {
+    "pdfTitle": "Ramverk för planetärt immunförsvar",
+    "pdfSubtitle": "Fullständig ramverksdokumentation med bilagor",
+    "downloadComplete": "Ladda ner komplett PDF",
+    "downloadSection": "Ladda ner detta avsnitt",
+    "generatingPDF": "Genererar PDF..."
+  }
+}

@@ -17,7 +17,7 @@ export const culturalKnowledgeEntities: GgfEntity[] = [
     shortName: 'Cultural Heritage',
     description: 'Framework for preserving and protecting cultural heritage globally',
     tier: 3,
-    status: 'Planned',
+    status: 'Ready',
     primaryDomain: 'Governance',
     geographicScope: 'Global',
     implementationPriority: 'Medium',
@@ -27,7 +27,8 @@ export const culturalKnowledgeEntities: GgfEntity[] = [
       path: '/frameworks/cultural-heritage-preservation',
       titleKey: 'framework.docs.nav.frameworkTitles.culturalHeritagePreservation',
       emoji: '🏛️',
-      slug: 'cultural-heritage-preservation'
+      slug: 'cultural-heritage-preservation',
+      version: '2.2'
     }
   },
   {

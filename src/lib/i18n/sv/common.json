@@ -1,7 +1,8 @@
 {
+  "siteName": "Global Governance Frameworks",
   "notices": {
     "global": {
-      "text": "Detta är ett levande projekt. Vi utvecklar aktivt dessa ramverk och bygger vår organisation. Du kan stöta på trasiga länkar eller inkonsekvenser medan vi förfinar vårt arbete. Tack för din förståelse.",
+      "text": "Detta är ett levande projekt i sina tidigaste, formativa skeden – en inbjudan att skapa tillsammans. Du kan stöta på oavslutade avsnitt eller trasiga länkar; det är i dessa utrymmen som nya röster och idéer är välkomna. Tack för ditt tålamod medan detta arbete växer.",
       "dismiss": "Stäng meddelande"
     },
     "section": {
@@ -66,6 +67,9 @@
     "getInvolvedTranslations": "Bidra med översättningar",
     "getInvolvedWebsite": "Bidra till webbplatsen",
     "getInvolvedOutreach": "Samfund och utåtriktad verksamhet"
+  },
+  "actions": {
+    "downloadPdf": "Ladda ner PDF"
   },
   "footer": {
     "copyright": "© 2025 Global Governance Frameworks",

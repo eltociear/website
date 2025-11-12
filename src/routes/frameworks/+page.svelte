@@ -1,4 +1,4 @@
-<!-- src/routes/frameworks/+page.svelte - Fixed hover issues -->
+<!-- src/routes/frameworks/+page.svelte -->
 <script>
   import { t } from '$lib/i18n';
   import { base } from '$app/paths';
@@ -27,7 +27,6 @@
   <meta name="description" content="{$t('framework.page.description')}" />
 </svelte:head>
 
-<!-- FIXED: Remove competing containment wrapper -->
 <main>
 
   <!-- Hero Section -->

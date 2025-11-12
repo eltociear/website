@@ -34,6 +34,7 @@ Available categories:
 - kinship-garden
 - biodiversity
 - planetary-health-governance
+- planetary-immune-system
 - global-health-and-pandemic-security
 - consciousness-and-inner-development
 - aging-population-support-governance
@@ -97,6 +98,7 @@ const outputDirs = {
   'governance': path.join(__dirname, '..', 'static', 'frameworks', 'tools', 'governance'),
   'biodiversity-governance': path.join(__dirname, '..', 'static', 'frameworks', 'tools', 'biodiversity-governance'),
   'planetary-health-governance': path.join(__dirname, '..', 'static', 'frameworks', 'tools', 'planetary-health-governance'),
+  'planetary-immune-system': path.join(__dirname, '..', 'static', 'frameworks', 'tools', 'planetary-immune-system'),
   'global-health-and-pandemic-security': path.join(__dirname, '..', 'static', 'frameworks', 'tools', 'global-health-and-pandemic-security'),
   'kinship-protocol': path.join(__dirname, '..', 'static', 'frameworks', 'tools', 'kinship-protocol'),
   'mental-health-governance': path.join(__dirname, '..', 'static', 'frameworks', 'tools', 'mental-health-governance'),
@@ -257,6 +259,43 @@ const tools = [
       'egp-one-page-summary',
       'egp-appendix',
       'egp-glossary'
+    ]
+  },
+
+  // Planetary Immune System, Full framework
+  {
+    name: 'planetary-immune-system-framework',
+    category: 'planetary-immune-system',
+    fileNames: {
+      en: 'planetary-immune-system-framework-en',
+      sv: 'planetary-immune-system-framework-sv',
+    },
+    sourceDir: {
+      en: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'planetary-immune-system'),
+      sv: path.join(__dirname, '..', 'src', 'lib', 'content', 'frameworks', 'sv', 'implementation', 'plantary-immune-system')
+    },
+    outputDir: {
+      en: path.join(__dirname, '..', 'static', 'assets', 'pdf'),
+      sv: path.join(__dirname, '..', 'static', 'assets', 'pdf')
+    },
+    pageFooter: {
+      en: 'Planetary Immune System Framework',
+      sv: 'Ramverk för planetärt immunförsvar'
+    },
+    sections: [
+      'index',
+      'introduction',
+      'principles',
+      'structural',
+      'implementation',
+      'coordination-response',
+      'long-term-stewardship',
+      'threat-assessment',
+      'crisis-protocols', 
+      'technology-frameworks',
+      'resource-mobilization',
+      'success-metrics',
+      'risk-assessment'
     ]
   },
 

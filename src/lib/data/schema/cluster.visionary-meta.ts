@@ -17,16 +17,17 @@ export const visionaryMetaEntities: GgfEntity[] = [
     shortName: 'PIS',
     description: 'Existential risk governance with system override capabilities for planetary survival threats',
     tier: 4,
-    status: 'Planned',
+    status: 'Ready',
     primaryDomain: 'Governance',
     geographicScope: 'Global',
     implementationPriority: 'Medium',
     dependencies: ['framework_meta_gov', 'process_crisis_command'],
     ui: {
-      path: '/frameworks/existential-risk-governance',
+      path: '/frameworks/planetary-immune-system',
       titleKey: 'framework.docs.nav.frameworkTitles.existentialRiskGovernance',
       emoji: '⚠️',
-      slug: 'existential-risk-governance'
+      slug: 'planetary-immune-system',
+      version: '2.1'
     }
   },
   {

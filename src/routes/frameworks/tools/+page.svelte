@@ -50,9 +50,6 @@
       waterTitle: "Water & Sanitation (WASH) Governance Framework Tools",
       waterDesc: "Resources for implementing water justice transformation through community control, regenerative technologies, and rights-based governance, including sacred waters kits, microgrid planning, sovereign wealth funds, and tools for establishing water assemblies and legal frameworks.",
       waterButton: "Access Water & Sanitation Tools",
-      indigenousTitle: "Indigenous & Traditional Knowledge Governance Framework Tools",
-      indigenousDesc: "Sacred technologies for Indigenous-led planetary transformation and Traditional Knowledge protection, including Bioregional Autonomous Zones, Earth Council formation, Indigenous AI governance, land rematriation, and tools for protecting Traditional Ecological Knowledge while advancing Indigenous sovereignty.",
-      indigenousButton: "Access Indigenous Knowledge Tools",
       mosTitle: "Moral Operating System Tools",
       mosDesc: "Ethical frameworks and practical tools for recognizing rights and dignity across all beings, including the Rights Seed Kit for community dialogue, spiral translation guides, and AI consciousness assessment protocols.",
       mosButton: "Access Moral Operating System Tools",
@@ -104,9 +101,6 @@
       treatyTitle: "Verktyg för Fördraget för Vårt Enda Hem",
       treatyDesc: "Top-down-resurser för systemförändring. Detta kit tillhandahåller verktygen för att genomföra fördragets övergripande reformer av vår globala arkitektur. Det innehåller reformguider för FN:s säkerhetsråd, mallar för koldioxidskatter och påverkansmaterial för att bygga den globala förvaltningsalliansen.",
       treatyButton: "Öppna fördragsverktyg",
-      indigenousTitle: "Verktyg för Ursprungsfolk & Traditionell Kunskap Styrningsramverk",
-      indigenousDesc: "Heliga teknologier för ursprungsfolksledd planetär transformation och skydd av traditionell kunskap, inklusive bioregionala autonoma zoner, jordrådsformation, ursprungsfolks AI-styrning, jordåterlämnande och verktyg för att skydda traditionell ekologisk kunskap samtidigt som ursprungsfolks suveränitet främjas.",
-      indigenousButton: "Öppna verktyg för ursprungsfolk kunskap",
       mosTitle: "Verktyg för det moraliska operativsystemet",
       mosDesc: "Etiska ramverk och praktiska verktyg för att erkänna rättigheter och värdighet för alla varelser, inklusive rättighetsfrösatsen för samhällsdialog, spiralöversättningsguider och AI-medvetandebedömningsprotokoll.",
       mosButton: "Öppna verktyg för det moraliska operativsystemet",
@@ -243,25 +237,6 @@
             </p>
             <a href="{base}/frameworks/tools/governance" style="display: inline-flex; align-items: center; background-color: #2B4B8C; color: white; font-weight: 500; padding: 0.75rem 1.5rem; border-radius: 0.5rem; text-decoration: none; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.2s;">
               {texts.governanceButton}
-              <svg xmlns="http://www.w3.org/2000/svg" style="width: 1.25rem; height: 1.25rem; margin-left: 0.5rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Indigenous & Traditional Knowledge Framework Card -->
-      <div style="background-color: #f9fafb; padding: 1.5rem; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-left: 4px solid #1c2b1a; margin-bottom: 2rem;">
-        <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: center;">
-          <div style="font-size: 2.5rem; color: #1c2b1a;">🪶</div>
-          <div style="flex: 1; min-width: 200px;">
-            <h2 style="font-size: 1.5rem; font-weight: 600; margin-bottom: 0.75rem; color: #1c2b1a;">{texts.indigenousTitle}</h2>
-            <p style="color: #4b5563; margin-bottom: 1rem;">
-              {texts.indigenousDesc}
-            </p>
-            <a href="{base}/frameworks/tools/indigenous-governance-and-traditional-knowledge" style="display: inline-flex; align-items: center; background-color: #1c2b1a; color: white; font-weight: 500; padding: 0.75rem 1.5rem; border-radius: 0.5rem; text-decoration: none; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.2s;">
-              {texts.indigenousButton}
               <svg xmlns="http://www.w3.org/2000/svg" style="width: 1.25rem; height: 1.25rem; margin-left: 0.5rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>

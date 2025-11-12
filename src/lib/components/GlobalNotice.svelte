@@ -34,7 +34,7 @@
       <span class="notice-text">
         {$t('common.notices.global.text') || 
          $t('notices.global.text') || 
-         'This is a living project. We are actively developing these frameworks and building our organization. You may encounter broken links or inconsistencies as we refine our work. Thank you for your understanding.'}
+         'This is a living project in its earliest, formative stages—an invitation to co-create. You may encounter unfinished sections or broken links; these are the spaces where new voices and ideas are welcome. Thank you for your patience as this work grows.'}
       </span>
     </div>
     <button 

@@ -104,22 +104,28 @@
     class Wisdom,Future,Space tier4`;
 </script>
 
-<div class="documentation-container">
-  <FrameworkSidebar />
+<svelte:head>
+  <title>Implementation Guidelines - Global Governance Framework</title>
+  <meta name="description" content="Practical approaches for implementing the Global Governance Frameworks across different scales and contexts.">
+</svelte:head>
 
-  <div class="content" bind:this={contentElement}>
-    {#if browser && contentReady && data.component}
-      <svelte:component this={data.component} t={translationFunction} />
-    {:else if browser}
-      <div class="loading">Loading content...</div>
-    {:else}
-      <div class="ssr-placeholder">
-        <h1>Implementation Guidelines</h1>
-        <p>Loading content...</p>
-      </div>
-    {/if}
-    
-    <!-- This will be positioned where the placeholder was found -->
+<div class="documentation-container">
+  {#if !$page?.url?.searchParams?.get('print')}
+    <FrameworkSidebar />
+  {/if}
+
+  <div class="content-wrapper">
+    <div class="content" bind:this={contentElement}>
+      {#if contentReady && data?.content}
+        <svelte:component this={data.content.default} t={translationFunction} />
+      {:else}
+        <div class="loading-container">
+          <div class="loading-spinner"></div>
+          <p>Loading implementation guidelines...</p>
+        </div>
+      {/if}
+    </div>
+
     {#if diagramMounted}
       <div class="diagram-container">
         <MermaidDiagram diagram={tierDiagram} />
@@ -130,22 +136,41 @@
 
 <style>
   .documentation-container {
-    display: grid;
-    grid-template-columns: 250px 1fr;
-    gap: 2rem;
+    display: flex;
+    min-height: 100vh;
+    background-color: #fefefe;
+  }
+
+  .content-wrapper {
+    flex: 1;
+    padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem 1rem;
+    line-height: 1.6;
   }
-  
-  @media (max-width: 768px) {
-    .documentation-container {
-      grid-template-columns: 1fr;
-    }
+
+  .loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+    text-align: center;
   }
-  
-  .content {
-    min-width: 0;
+
+  .loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #e5e7eb;
+    border-top: 3px solid #2B4B8C;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 1rem;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
   }
 
   .diagram-container {
@@ -156,7 +181,7 @@
     border: 1px solid #e5e7eb;
   }
 
-  /* Your existing styles... */
+  /* Global content styling */
   :global(.content a) {
     color: #B8860B;
     text-decoration: underline;
@@ -192,6 +217,15 @@
     margin-bottom: 0.75rem;
     color: #2B4B8C;
   }
+
+  /* Adding missing h4 styles */
+  .content :global(h4) {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #374151;
+  }
   
   .content :global(p) {
     margin-bottom: 1rem;
@@ -205,6 +239,7 @@
     color: #4b5563;
   }
 
+  /* Unordered lists styling */
   .content :global(ul) {
     list-style-type: none;
   }
@@ -223,8 +258,61 @@
     font-size: 0.9rem;
   }
 
+  /* Ordered lists styling - fixing numbering */
+  .content :global(ol) {
+    list-style-type: decimal;
+    list-style-position: outside;
+    padding-left: 1.5rem;
+  }
+
+  .content :global(ol li) {
+    margin-bottom: 0.75rem;
+    padding-left: 0.5rem;
+  }
+
+  .content :global(ol li::marker) {
+    color: #2B4B8C;
+    font-weight: 600;
+  }
+
+  /* Nested lists styling */
+  .content :global(ul ul), .content :global(ol ol), 
+  .content :global(ul ol), .content :global(ol ul) {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .content :global(ul ul li::before) {
+    content: "◦";
+    color: #6b7280;
+  }
+
   .content :global(strong) {
     font-weight: 600;
     color: #2B4B8C;
+  }
+
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .content-wrapper {
+      padding: 1rem;
+    }
+    
+    .content :global(h1) {
+      font-size: 1.75rem;
+    }
+    
+    .content :global(h2) {
+      font-size: 1.375rem;
+    }
+    
+    .content :global(h3) {
+      font-size: 1.125rem;
+    }
+    
+    .content :global(h4) {
+      font-size: 1rem;
+    }
   }
 </style>

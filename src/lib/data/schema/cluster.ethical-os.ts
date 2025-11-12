@@ -13,9 +13,9 @@ export const ethicalOSEntities: GgfEntity[] = [
   {
     id: 'framework_indigenous',
     type: 'Framework',
-    name: 'Indigenous & Traditional Knowledge Governance Framework',
-    shortName: 'Indigenous Framework',
-    description: 'Ethical guidance framework centering Indigenous sovereignty and TEK',
+    name: 'An Invitational Framework for Indigenous Sovereignty and Planetary Healing ',
+    shortName: 'Indigenous Sovereignty Pathways',
+    description: 'A pathways framework for Indigenous-led governance and planetary stewardship',
     tier: 1,
     status: 'Review',
     primaryDomain: 'Governance',
@@ -23,11 +23,11 @@ export const ethicalOSEntities: GgfEntity[] = [
     implementationPriority: 'Critical',
     enables: ['council_earth', 'institution_baz', 'protocol_fpic2'],
     ui: {
-      path: '/frameworks/indigenous-governance-and-traditional-knowledge',
-      titleKey: 'framework.docs.nav.frameworkTitles.indigenousGovernanceAndTraditionalKnowledge',
+      path: '/frameworks/indigenous-sovereignty-pathways',
+      titleKey: 'framework.docs.nav.frameworkTitles.indigenousSovereigntyPathways',
       emoji: '🪶',
       version: '0.9',
-      slug: 'indigenous-governance-and-traditional-knowledge',
+      slug: 'indigenous-sovereignty-pathways',
       group: 'socialFabricJustice'
     }
   },

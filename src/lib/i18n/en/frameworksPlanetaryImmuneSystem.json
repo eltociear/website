@@ -1,0 +1,288 @@
+{
+  "title": "Planetary Immune System",
+  "subtitle": "Existential Risk Response Framework",
+  "description": "Emergency response protocol for existential threats - coordinated civilizational defense while preserving democracy and community sovereignty.",
+  "shortDescription": "Emergency coordination system for civilizational threats requiring immediate planetary response - designed with democratic safeguards and community protection.",
+  "backNav": "Back to Frameworks Overview",
+  
+  "quickStart": {
+    "title": "Quick Start Guides",
+    "subtitle": "Get oriented quickly with these essential overviews",
+    "guides": [
+      {
+        "id": "at-a-glance",
+        "icon": "⚡",
+        "title": "At a Glance",
+        "description": "5-minute overview of civilizational defense system"
+      },
+      {
+        "id": "executive-summary-for-the-skeptic", 
+        "icon": "🤔",
+        "title": "For Skeptics",
+        "description": "Evidence-based case for coordinated existential risk management"
+      }
+    ]
+  },
+
+  "categories": {
+    "overview": "Framework Overview",
+    "coreFramework": "Core Framework",
+    "implementation": "Implementation",
+    "appendices": "Technical Resources"
+  },
+
+  "sections": {
+    "index": "Introduction & Overview",
+    "at-a-glance": "At a Glance",
+    "executive-summary-for-the-skeptic": "Executive Summary for Skeptics",
+    "introduction": "Introduction",
+    "principles": "Core Principles",
+    "structural": "Structural Components", 
+    "implementation": "Implementation Pathways",
+    "coordination-response": "Coordination & Response",
+    "long-term-stewardship": "Long-term Stewardship",
+    "threat-assessment": "Threat Assessment Methodologies",
+    "crisis-protocols": "Crisis Command Protocols",
+    "technology-frameworks": "Technology Assessment Frameworks",
+    "resource-mobilization": "Resource Mobilization & Funding",
+    "success-metrics": "Success Metrics & Evaluation",
+    "risk-assessment": "Risk Assessment Systems"
+  },
+
+  "sectionsShort": {
+    "index": "Overview",
+    "at-a-glance": "At a Glance", 
+    "executive-summary-for-the-skeptic": "For Skeptics",
+    "introduction": "Introduction",
+    "principles": "Core Principles",
+    "structural": "Components", 
+    "implementation": "Implementation",
+    "coordination-response": "Coordination",
+    "long-term-stewardship": "Stewardship",
+    "threat-assessment": "Threat Assessment",
+    "crisis-protocols": "Crisis Protocols",
+    "technology-frameworks": "Technology Frameworks", 
+    "resource-mobilization": "Resource Mobilization",
+    "success-metrics": "Success Metrics",
+    "risk-assessment": "Risk Assessment"
+  },
+
+  "navigation": {
+    "previousSection": "Previous Section",
+    "nextSection": "Next Section",
+    "backToOverview": "Back to Overview",
+    "downloadPDF": "Download PDF",
+    "readFullFramework": "Read Full Framework",
+    "technicalResources": "Technical Resources",
+    "backToFramework": "Back to Framework"
+  },
+
+  "metadata": {
+    "frameworkType": "Existential Risk Response",
+    "tier": "4 - Planetary Immune System", 
+    "status": "Development Draft",
+    "version": "2.1",
+    "estimatedReadingTime": "15 minutes",
+    "totalSections": "16 sections",
+    "coreFrameworkSections": "7 sections",
+    "appendixSections": "5 detailed appendices",
+    "lastUpdated": "2025-01-12"
+  },
+
+  "keyFeatures": {
+    "title": "Key Features",
+    "items": [
+      {
+        "icon": "🛡️",
+        "title": "Crisis Command Protocol",
+        "description": "Emergency coordination with democratic safeguards"
+      },
+      {
+        "icon": "🔍", 
+        "title": "Existential Risk Observatory",
+        "description": "Comprehensive threat assessment and monitoring"
+      },
+      {
+        "icon": "⚖️",
+        "title": "Democratic Accountability", 
+        "description": "World Risk Assembly with real-time oversight"
+      },
+      {
+        "icon": "🌍",
+        "title": "Community Protection",
+        "description": "60% resource priority for vulnerable populations"
+      },
+      {
+        "icon": "💰",
+        "title": "Sin Tax Funding",
+        "description": "$31-50B annually from high-risk technology levy"
+      },
+      {
+        "icon": "🤝",
+        "title": "Cultural Sovereignty",
+        "description": "Indigenous territorial authority and community control"
+      }
+    ]
+  },
+
+  "implementationPhases": {
+    "title": "Implementation Timeline",
+    "phases": [
+      {
+        "name": "Foundation Phase",
+        "duration": "Years 1-3",
+        "icon": "🏗️",
+        "description": "ERO establishment, AI Safety Accord, Gerghub pilots",
+        "targets": [
+          "ERO operational capability",
+          "25 million trained in Existential Civics", 
+          "10 Gerghub pilot cities",
+          "AI Safety Accord ratification"
+        ]
+      },
+      {
+        "name": "Integration Phase", 
+        "duration": "Years 4-7",
+        "icon": "🌐",
+        "description": "Treaty adoption, infrastructure deployment, democratic maturation",
+        "targets": [
+          "80% treaty adoption",
+          "50% Priority Zone coverage",
+          "World Risk Assembly authority",
+          "Regional network coordination"
+        ]
+      },
+      {
+        "name": "Evolution Phase",
+        "duration": "Years 8-15", 
+        "icon": "🎯",
+        "description": "Universal resilience, species-level coordination, consciousness infrastructure",
+        "targets": [
+          "100 million civics graduates",
+          "Universal resilience coverage",
+          "Cultural Renaissance (80% Cultural Resilience Index)",
+          "Permanent civilizational institutions"
+        ]
+      }
+    ]
+  },
+
+  "coreComponents": {
+    "title": "System Architecture",
+    "components": [
+      {
+        "name": "Existential Risk Observatory (ERO)",
+        "icon": "🔍",
+        "description": "Primary threat assessment body with public transparency and independent challenge"
+      },
+      {
+        "name": "Crisis Command Protocol", 
+        "icon": "🚨",
+        "description": "Emergency coordination with circuit breaker safeguards and democratic oversight"
+      },
+      {
+        "name": "World Risk Assembly",
+        "icon": "🏛️", 
+        "description": "Democratic oversight body with real-time modification authority"
+      },
+      {
+        "name": "Global Response Teams",
+        "icon": "⚡",
+        "description": "Specialized units for AI safety, biosecurity, nuclear crisis response"
+      },
+      {
+        "name": "Global Commons Fund",
+        "icon": "💰",
+        "description": "Equity-centered resource mobilization through community-controlled distribution"
+      },
+      {
+        "name": "Mobile GERG Risk App",
+        "icon": "📱", 
+        "description": "Real-time citizen engagement and community monitoring platform"
+      }
+    ]
+  },
+
+  "successMetrics": {
+    "title": "Success Targets",
+    "quantitative": [
+      {
+        "metric": "Treaty Adoption",
+        "target": "80% by Year 5",
+        "icon": "📋"
+      },
+      {
+        "metric": "Civics Education",
+        "target": "100M trained by Year 12", 
+        "icon": "🎓"
+      },
+      {
+        "metric": "Resilience Coverage",
+        "target": "50% Priority Zones by Year 7",
+        "icon": "🛡️"
+      },
+      {
+        "metric": "Crisis Response",
+        "target": "<45 days coordination time",
+        "icon": "⚡"
+      }
+    ],
+    "qualitative": [
+      {
+        "metric": "Community Sovereignty Enhancement",
+        "description": "Communities report increased rather than decreased autonomy",
+        "icon": "🏘️"
+      },
+      {
+        "metric": "Cultural Vitality",
+        "description": "Traditional knowledge transmission and innovation thriving", 
+        "icon": "🌱"
+      },
+      {
+        "metric": "Democratic Legitimacy",
+        "description": "Citizen trust and meaningful participation in oversight",
+        "icon": "🗳️"
+      }
+    ]
+  },
+
+  "buttons": {
+    "readGuide": "Read Guide",
+    "reading": "Reading",
+    "startReading": "Start Reading Framework",
+    "downloadPDF": "Download PDF", 
+    "backToOverview": "← Back to Overview",
+    "nextSection": "Next Section →",
+    "previousSection": "← Previous Section",
+    "returnToOverview": "Return to Overview",
+    "readFullFramework": "Read Full Framework →",
+    "technicalResources": "Technical Resources →",
+    "backToFramework": "← Back to Framework"
+  },
+
+  "accessibility": {
+    "skipToContent": "Skip to main content",
+    "frameworkNavigation": "Framework Navigation", 
+    "sectionNavigation": "Section Navigation",
+    "expandSection": "Expand section",
+    "collapseSection": "Collapse section",
+    "currentSection": "Current section",
+    "loadingFramework": "Loading framework content..."
+  },
+
+  "errors": {
+    "sectionNotFound": "Section not found",
+    "sectionNotFoundDescription": "The requested section could not be loaded.",
+    "loadingError": "Loading error",
+    "loadingErrorDescription": "There was an error loading the framework content.",
+    "returnToOverview": "Return to Overview"
+  },
+
+  "download": {
+    "pdfTitle": "Planetary Immune System Framework",
+    "pdfSubtitle": "Complete framework documentation with appendices",
+    "downloadComplete": "Download Complete PDF",
+    "downloadSection": "Download This Section",
+    "generatingPDF": "Generating PDF..."
+  }
+}

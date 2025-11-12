@@ -32,6 +32,6 @@ export async function load({ depends, url }) {
   }
   
   return {
-    component: content.default
+    content: content  // Changed from 'component' to 'content'
   };
 }
