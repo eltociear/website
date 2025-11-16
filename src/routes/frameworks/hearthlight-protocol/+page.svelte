@@ -96,7 +96,7 @@
 			id: 'framework',
 			titleKey: 'framework',
 			defaultTitle: 'Core Framework',
-			icon: '🕯️',
+			icon: '🧸',
 			sections: sectionGroups.coreFramework
 		}
 	];
@@ -149,7 +149,7 @@
 	let i18nPageObject = $derived({
 		...hearthlightFramework,
 		sectionIcons: {
-			index: framework?.emoji || '🕯️',
+			index: framework?.emoji || '🧸',
 			'at-a-glance': '⚡',
 			'executive-summary-skeptics': '🤔',
 			'vision-purpose': '🎯',
@@ -204,7 +204,7 @@
 					{#if framework}
 						<div class="framework-badges-container">
 							<div class="framework-badge">
-								<span class="badge-icon">{framework?.emoji || '🕯️'}</span>
+								<span class="badge-icon">{framework?.emoji || '🧸'}</span>
 								<span>{framework?.title || 'Hearthlight Protocol'}</span>
 							</div>
 
@@ -265,7 +265,7 @@
 						class="nav-btn primary"
 						on:click={() => setActiveSection('vision-purpose')}
 					>
-						<span class="btn-icon">🕯️</span>
+						<span class="btn-icon">🧸</span>
 						<span>Explore Framework</span>
 						<span class="btn-arrow">→</span>
 					</button>
@@ -335,7 +335,7 @@
 							class="nav-btn primary"
 							on:click={() => setActiveSection('vision-purpose')}
 						>
-							<span class="btn-icon">🕯️</span>
+							<span class="btn-icon">🧸</span>
 							<span>Explore Framework</span>
 							<span class="btn-arrow">→</span>
 						</button>

@@ -230,7 +230,7 @@ export const humanFlourishingEntities: GgfEntity[] = [
     ui: {
       path: '/frameworks/hearthlight-protocol', // You will need to create this page
       titleKey: 'framework.docs.nav.frameworkTitles.hearthlightProtocol', // Will be auto-generated
-      emoji: '🕯️', // Using the candle for 'Hearthlight'
+      emoji: '🧸', // Using the teddy bear
       version: '1.7', // From doc
       slug: 'hearthlight-protocol',
       group: 'humanSocialSystems' // Fits this group well
