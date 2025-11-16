@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "Hearthlight Protocol - Framework for Childhood Flourishing",
+    "description": "A comprehensive framework establishing childhood as a sacred trust at the heart of regenerative civilization, ensuring every child's inalienable right to safety, holistic development, and joyful play."
+  },
+  "quickStart": {
+    "guides": [
+      {
+        "id": "at-a-glance",
+        "icon": "⚡",
+        "title": "At a glance",
+        "description": "5-minute overview of childhood flourishing framework"
+      },
+      {
+        "id": "executive-summary-skeptics",
+        "icon": "🤔",
+        "title": "For decision-makers",
+        "description": "Evidence-based case for childhood-centered governance"
+      }
+    ]
+  },
+  "categories": {
+    "overview": "Overview",
+    "framework": "Core Framework"
+  },
+  "navigation": {
+    "overview": "Overview",
+    "framework": "Core framework",
+    "sections": {
+      "index": "Home",
+      "at-a-glance": "At a glance",
+      "executive-summary-skeptics": "Executive summary",
+      "vision-purpose": "Vision & purpose",
+      "core-principles": "Core principles", 
+      "framework-architecture": "Framework architecture",
+      "implementation-strategy": "Implementation strategy",
+      "ggf-integration": "GGF integration",
+      "performance-indicators": "Performance indicators",
+      "risk-management": "Risk management",
+      "pathways-forward": "Pathways forward"
+    }
+  },
+  "sections": {
+    "index": "Home",
+    "at-a-glance": "At a glance",
+    "executive-summary-skeptics": "Executive summary",
+    "vision-purpose": "Vision & purpose",
+    "core-principles": "Core principles", 
+    "framework-architecture": "Framework architecture",
+    "implementation-strategy": "Implementation strategy",
+    "ggf-integration": "GGF integration",
+    "performance-indicators": "Performance indicators",
+    "risk-management": "Risk management",
+    "pathways-forward": "Pathways forward"
+  },
+  "page": {
+    "meta": {
+      "title": "Hearthlight Protocol - Framework for Childhood Flourishing",
+      "description": "Establishing childhood as a sacred trust at the heart of regenerative civilization, ensuring every child's inalienable right to safety, holistic development, and joyful play."
+    }
+  }
+}

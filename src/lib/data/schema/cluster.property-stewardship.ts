@@ -45,7 +45,7 @@ export const hearthstoneEntities: GgfEntity[] = [
     ui: {
       path: '/frameworks/hearthstone-protocol', // New path
       titleKey: 'framework.docs.nav.frameworkTitles.hearthstoneProtocol', // New key
-      emoji: '🔥', // Hearth emoji
+      emoji: '🔥', // Stone emoji
       version: '1.5',
       slug: 'hearthstone-protocol' // New slug
     }

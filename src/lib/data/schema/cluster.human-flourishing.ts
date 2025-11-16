@@ -194,6 +194,49 @@ export const humanFlourishingEntities: GgfEntity[] = [
     }
   },
 
+  // === THE HEARTHLIGHT PROTOCOL (CHILDHOOD FLOURISHING) ===
+  {
+    id: 'framework_hearthlight_protocol',
+    type: 'Framework',
+    name: 'The Hearthlight Protocol: A Framework for Childhood Flourishing',
+    shortName: 'Hearthlight Protocol',
+    description: 'Foundational framework for child development, rights, safety, and well-being, ensuring every child\'s inalienable right to safety, holistic development, and joyful play.',
+    tier: 2,
+    status: 'Implementation Ready', // From 'Final Draft' in the doc
+    primaryDomain: 'Governance',
+    geographicScope: 'Global',
+    implementationPriority: 'Critical', // Implied by its foundational nature
+    dependencies: [
+      'framework_treaty',
+      'framework_mos',
+      'framework_indigenous',
+      'framework_aubi',
+      'framework_work_liberation',
+      'framework_education',
+      'framework_youth', // Horizon Protocol
+      'framework_justice',
+      'framework_synoptic',
+      'framework_living_land', // from doc
+      'framework_bioregional_polis', // from doc
+      'framework_peace',
+      'framework_egp'
+    ],
+    enables: [
+      'institution_chamber_of_the_guardian',
+      'process_baz_child_family_weaver',
+      'institution_sapling_councils',
+      'metric_cfi'
+    ],
+    ui: {
+      path: '/frameworks/hearthlight-protocol', // You will need to create this page
+      titleKey: 'framework.docs.nav.frameworkTitles.hearthlightProtocol', // Will be auto-generated
+      emoji: '🕯️', // Using the candle for 'Hearthlight'
+      version: '1.7', // From doc
+      slug: 'hearthlight-protocol',
+      group: 'humanSocialSystems' // Fits this group well
+    }
+  },
+
   // === GOVERNANCE COUNCILS ===
   {
     id: 'council_hcc',
@@ -429,6 +472,25 @@ export const humanFlourishingEntities: GgfEntity[] = [
     dependencies: ['framework_sanctuary_accord']
   },
 
+{
+    id: 'institution_chamber_of_the_guardian',
+    type: 'Institution',
+    name: 'The Chamber of the Guardian',
+    description: 'A specialized chamber of the Digital Justice Tribunal with jurisdiction over the Charter of Childhood Rights.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_hearthlight_protocol', 'institution_dj_tribunal']
+  },
+  {
+    id: 'institution_sapling_councils',
+    type: 'Institution',
+    name: 'Sapling Councils',
+    description: 'Child-led councils at the BAZ level (ages 10-15) for hands-on governance experience.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_hearthlight_protocol', 'framework_youth']
+  },
+
   // === MECHANISMS ===
   {
     id: 'mechanism_pcrf',
@@ -661,7 +723,29 @@ export const humanFlourishingEntities: GgfEntity[] = [
     status: 'Proposed',
     primaryDomain: 'Health',
     dependencies: ['framework_sanctuary_accord']
+  },
+
+  {
+    id: 'process_baz_child_family_weaver',
+    type: 'Process',
+    name: 'BAZ-Level Child & Family Weavers',
+    shortName: 'Child & Family Weavers',
+    description: 'Specialized role within Work in Liberation to act as first responders and support liaisons for families, rewarded with Hearts.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_hearthlight_protocol', 'framework_work_liberation', 'framework_aubi']
+  },
+  {
+    id: 'metric_cfi',
+    type: 'DataMetric',
+    name: 'Childhood Flourishing Index (CFI)',
+    shortName: 'CFI',
+    description: 'A composite metric for child well-being, governed by the Global Metrology Council.',
+    tier: 2,
+    status: 'Draft',
+    dependencies: ['framework_hearthlight_protocol', 'council_global_metrology', 'metric_lmci']
   }
+
 
 ];
 
@@ -1046,7 +1130,23 @@ export const humanFlourishingRelationships: GgfRelationship[] = [
     to: 'institution_baz_sanctuary_councils',
     type: 'IMPLEMENTS',
     description: 'BAZs implement local Sanctuary Councils for community governance'
-  }
+  },
 
+  // --- Hearthlight Establishes its Entities ---
+  { from: 'framework_hearthlight_protocol', to: 'institution_chamber_of_the_guardian', type: 'ESTABLISHES' },
+  { from: 'framework_hearthlight_protocol', to: 'process_baz_child_family_weaver', type: 'ESTABLISHES' },
+  { from: 'framework_hearthlight_protocol', to: 'institution_sapling_councils', type: 'ESTABLISHES' },
+  { from: 'framework_hearthlight_protocol', to: 'metric_cfi', type: 'ESTABLISHES' },
+
+  // --- Connections from Hearthlight framework to other GGF Frameworks (from the doc) ---
+  { from: 'institution_chamber_of_the_guardian', to: 'institution_dj_tribunal', type: 'INTEGRATES_WITH', description: 'The Chamber of the Guardian is a specialized chamber within the Digital Justice Tribunal.' },
+  { from: 'process_baz_child_family_weaver', to: 'framework_work_liberation', type: 'IMPLEMENTS', description: 'Child & Family Weavers are a specialized role within the Work in Liberation framework.' },
+  { from: 'framework_aubi', to: 'process_baz_child_family_weaver', type: 'REWARDS', description: 'AUBI (Hearts) provides the economic reward for the care work performed by Weavers.' },
+  { from: 'institution_sapling_councils', to: 'framework_youth', type: 'INTEGRATES_WITH', description: 'Sapling Councils are the designated "on-ramp" for the Horizon Protocol (Youth Framework).' },
+  { from: 'council_global_metrology', to: 'metric_cfi', type: 'OVERSEES', description: 'The Global Metrology Council governs and standardizes the Childhood Flourishing Index.' },
+  { from: 'framework_egp', to: 'framework_hearthlight_protocol', type: 'IMPLEMENTS', description: 'The Parent & Community Feedback Forums use the EGP (`sense`, `propose`, `adopt`) as their formal feedback mechanism.' },
+  { from: 'framework_indigenous', to: 'framework_hearthlight_protocol', type: 'GUIDES', description: 'The Indigenous Framework provides foundational pedagogical models and wisdom for child-rearing.' },
+  { from: 'framework_mos', to: 'framework_hearthlight_protocol', type: 'GUIDES', description: 'The Moral Operating System provides the foundational Charter of Childhood Rights.' },
+  { from: 'framework_synoptic', to: 'framework_hearthlight_protocol', type: 'INTEGRATES_WITH', description: 'The Digital Shield Protocol is a sub-protocol of the Synoptic Protocol to protect children online.' }
 
 ];

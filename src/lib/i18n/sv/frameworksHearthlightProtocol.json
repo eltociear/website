@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "Hearthlight-protokollet - Ramverk för barns blomstrande",
+    "description": "Ett omfattande ramverk som etablerar barndomen som ett heligt förtroende i hjärtat av en regenerativ civilisation, vilket säkerställer varje barns omistliga rätt till trygghet, holistisk utveckling och glädjefull lek."
+  },
+  "quickStart": {
+    "guides": [
+      {
+        "id": "at-a-glance",
+        "icon": "⚡",
+        "title": "En överblick",
+        "description": "5-minuters översikt av ramverket för barns blomstrande"
+      },
+      {
+        "id": "executive-summary-skeptics",
+        "icon": "🤔",
+        "title": "För beslutsfattare",
+        "description": "Evidensbaserade argument för barncentrerad styrning"
+      }
+    ]
+  },
+  "categories": {
+    "overview": "Översikt",
+    "framework": "Kärnramverk"
+  },
+  "navigation": {
+    "overview": "Översikt",
+    "framework": "Kärnramverk",
+    "sections": {
+      "index": "Hem",
+      "at-a-glance": "En överblick",
+      "executive-summary-skeptics": "Sammanfattning",
+      "vision-purpose": "Vision och syfte",
+      "core-principles": "Kärnprinciper",
+      "framework-architecture": "Ramverksarkitektur",
+      "implementation-strategy": "Implementeringsstrategi",
+      "ggf-integration": "GGF-integration",
+      "performance-indicators": "Prestationsindikatorer",
+      "risk-management": "Riskhantering",
+      "pathways-forward": "Vägar framåt"
+    }
+  },
+  "sections": {
+    "index": "Hem",
+    "at-a-glance": "En överblick",
+    "executive-summary-skeptics": "Sammanfattning",
+    "vision-purpose": "Vision och syfte",
+    "core-principles": "Kärnprinciper",
+    "framework-architecture": "Ramverksarkitektur",
+    "implementation-strategy": "Implementeringsstrategi",
+    "ggf-integration": "GGF-integration",
+    "performance-indicators": "Prestationsindikatorer",
+    "risk-management": "Riskhantering",
+    "pathways-forward": "Vägar framåt"
+  },
+  "page": {
+    "meta": {
+      "title": "Hearthlight-protokollet - Ramverk för barns blomstrande",
+      "description": "Etablerar barndomen som ett heligt förtroende i hjärtat av en regenerativ civilisation, vilket säkerställer varje barns omistliga rätt till trygghet, holistisk utveckling och glädjefull lek."
+    }
+  }
+}

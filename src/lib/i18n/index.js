@@ -89,6 +89,7 @@ const pageSpecificTranslationsMap = [
   { route: '/frameworks/kinship-protocol', dataKey: 'kinshipProtocol', fileName: 'frameworksKinshipProtocol' },
   { route: '/frameworks/aegis-protocol', dataKey: 'aegisProtocol', fileName: 'frameworksAegisProtocol' },
   { route: '/frameworks/synoptic-protocol', dataKey: 'synopticProtocol', fileName: 'frameworksSynopticProtocol' },
+  { route: '/frameworks/hearthlight-protocol', dataKey: 'hearthlightFramework', fileName: 'frameworksHearthlightProtocol' },
   { route: '/frameworks/hearthstone-protocol', dataKey: 'hearthstoneFramework', fileName: 'frameworksHearthstoneProtocol' },
   { route: '/frameworks/conduit-protocol', dataKey: 'conduitFramework', fileName: 'frameworksConduitProtocol' },
   { route: '/frameworks/shield-protocol', dataKey: 'shieldProtocol', fileName: 'frameworksShieldProtocol' },
