@@ -236,6 +236,40 @@ const frameworksToGenerate = [
 		]
 	},
 	{
+		slug: 'shield-protocol',
+		name: 'Shield Protocol Framework',
+		sourceDir: path.join(projectRoot, 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'shield-protocol'),
+		sections: [
+    'index', 'at-a-glance', 'executive-summary-for-the-skeptic', 'introduction', 'core-principles',
+    'governance-architecture', 'operational-systems', 'crisis-response', 'implementation-roadmap',
+    'cross-cutting-mechanisms', 'funding-mechanisms', 'framework-integration', 'case-studies',
+    'getting-started', 'conclusion', 'appendices'
+		]
+	},
+	{
+		slug: 'peace-and-conflict-resolution',
+		name: 'Peace & Conflict Resolution Framework',
+		sourceDir: path.join(projectRoot, 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'peace-and-conflict-resolution'),
+		sections: [
+    'index', 'at-a-glance', 'executive-summary-for-the-skeptic', 'preamble',
+    // PART I: FOUNDATIONS
+    'framework-overview', 'theoretical-foundation', 'governance-architecture',
+    // PART II: OPERATIONAL FRAMEWORK
+    'prevention-early-warning', 'active-conflict-resolution', 'post-conflict-transformation',
+    'scale-specific-applications',
+    // PART III: IMPLEMENTATION
+    'ggf-integration', 'technology-tools', 'training-professional-development',
+    'cultural-adaptation-decolonization',
+    // PART IV: DEPLOYMENT
+    'implementation-roadmap', 'measurement-evaluation', 'risk-management', 'resources-sustainability',
+    // Conclusion and Tools
+    'conclusion', 'implementation-tools',
+    // APPENDICES
+    'appendix-a-case-studies', 'appendix-b-templates', 'appendix-c-cultural-adaptation',
+    'appendix-d-technical', 'appendix-e-reference'
+   ]
+	},
+	{
 		slug: 'hearthstone-protocol',
 		name: 'Hearthstone Protocol Framework',
 		sourceDir: path.join(projectRoot, 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'hearthstone-protocol'),

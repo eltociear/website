@@ -1,5 +1,7 @@
 # Peace & Conflict Resolution Framework: Building Sustainable Peace through Values-Based Transformation
 
+# Version 1.7
+
 ## PART I: FOUNDATIONS
 
 ### 1. Framework Overview

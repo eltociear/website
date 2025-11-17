@@ -25,6 +25,7 @@ export const justiceOSEntities: GgfEntity[] = [
       path: '/frameworks/peace-and-conflict-resolution',
       titleKey: 'framework.docs.nav.frameworkTitles.peaceAndConflictResolution',
       emoji: '🕊️',
+      version: '1.7',
       slug: 'peace-and-conflict-resolution',
       group: 'socialFabricJustice'
     }
@@ -140,7 +141,7 @@ export const justiceOSEntities: GgfEntity[] = [
     shortName: 'Shield Protocol',
     description: 'Framework for eradicating transnational crime',
     tier: 1,
-    status: 'Planned',
+    status: 'Ready',
     primaryDomain: 'Justice',
     geographicScope: 'Global',
     implementationPriority: 'Critical',
@@ -150,6 +151,7 @@ export const justiceOSEntities: GgfEntity[] = [
       path: '/frameworks/shield-protocol',
       titleKey: 'framework.docs.nav.frameworkTitles.shieldProtocol',
       emoji: '🛡️',
+      version: '1.3',
       slug: 'shield-protocol',
       group: 'socialFabricJustice'
     }

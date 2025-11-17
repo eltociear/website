@@ -173,7 +173,7 @@
           <ul class="framework-list">
             {#each groupFrameworks as framework (framework.slug)}
               <li class="framework-item">
-                <a href={framework.path} class="framework-link">
+                <a href={framework.path} class="framework-link" data-sveltekit-preload-data="hover">
                   <div class="framework-title">
                     <span class="emoji-wrapper">{framework.emoji || '📋'}</span>
                     <span>{getStableTranslation(framework.titleKey)}</span>
@@ -206,7 +206,7 @@
           <ul class="framework-list">
             {#each ungroupedFrameworks as framework (framework.slug)}
               <li class="framework-item">
-                <a href={framework.path} class="framework-link">
+                <a href={framework.path} class="framework-link" data-sveltekit-preload-data="hover">
                   <div class="framework-title">
                     <span class="emoji-wrapper">{framework.emoji || '📋'}</span>
                     <span>{getStableTranslation(framework.titleKey)}</span>
@@ -233,7 +233,7 @@
       <ul class="framework-list">
         {#each frameworks as framework (framework.slug)}
           <li class="framework-item">
-            <a href={framework.path} class="framework-link">
+            <a href={framework.path} class="framework-link" data-sveltekit-preload-data="hover">
               <div class="framework-title">
                 <span class="emoji-wrapper">{framework.emoji || '📋'}</span>
                 <span>{getStableTranslation(framework.titleKey)}</span>

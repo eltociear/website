@@ -6,10 +6,9 @@ import { error } from '@sveltejs/kit';
 
 export const csr = true;
 
-const DEBUG_FRAMEWORK_LOADING = false; // Set to true only when debugging
+const DEBUG_FRAMEWORK_LOADING = false;
 
 export async function load({ depends, url, params }) {
-  // Declare dependency on locale
   depends('app:locale');
   
   const currentLocale = get(locale);
@@ -18,18 +17,11 @@ export async function load({ depends, url, params }) {
   if (DEBUG_FRAMEWORK_LOADING) console.log('URL pathname:', url.pathname);
   if (DEBUG_FRAMEWORK_LOADING) console.log('Current locale:', currentLocale);
   
-  // IMPORTANT: url.hash is not available in load functions!
-  // url.search is also not available during prerendering
-  
-  // Load framework translations for navigation and page-specific translations
   try {
-    // The pathname should always be /frameworks/justice-systems
-    // If it's not, we need to handle this case
     let cleanPath = url.pathname;
     
     if (DEBUG_FRAMEWORK_LOADING) console.log('Original pathname:', cleanPath);
     
-    // Check if the pathname looks corrupted (contains section names instead of the base path)
     if (cleanPath.includes('/frameworks/') && 
         (cleanPath.includes('executive-summary') || 
          cleanPath.includes('at-a-glance') ||
@@ -46,24 +38,19 @@ export async function load({ depends, url, params }) {
          cleanPath.includes('conclusion') ||
          cleanPath.includes('appendices'))) {
       
-      if (DEBUG_FRAMEWORK_LOADING) console.log('⚠️  Detected corrupted pathname, correcting to base framework path');
+      if (DEBUG_FRAMEWORK_LOADING) console.log('⚠️ Detected corrupted pathname, correcting to base framework path');
       cleanPath = '/frameworks/justice-systems';
     }
     
     if (DEBUG_FRAMEWORK_LOADING) console.log('Clean path for translations:', cleanPath);
     
-    // Load translations for this specific page path
-    if (DEBUG_FRAMEWORK_LOADING) console.log('About to call loadTranslations with:', currentLocale, cleanPath);
     const loadedTranslations = await loadTranslations(currentLocale, cleanPath);
     if (DEBUG_FRAMEWORK_LOADING) console.log('loadTranslations returned:', Object.keys(loadedTranslations || {}));
-    if (DEBUG_FRAMEWORK_LOADING) console.log('Loaded translations for path:', cleanPath, 'with locale:', currentLocale);
   } catch (e) {
     console.error('Failed to load translations:', e);
     console.error('Error details:', e.stack);
   }
   
-  // Safe check for print mode that works during prerendering
-  // Only access url.search on the client side
   let isPrintMode = false;
   if (browser) {
     try {
@@ -75,14 +62,10 @@ export async function load({ depends, url, params }) {
     }
   }
 
-  // Define sections to load - justice systems framework sections in correct order
   const sections = [
-    // Entry point and overview
     'index',
     'at-a-glance',
     'executive-summary-for-the-skeptic',
-    
-    // Core framework sections
     'introduction',
     'governance-structure',
     'legal-framework',
@@ -94,24 +77,17 @@ export async function load({ depends, url, params }) {
     'challenges-mitigation',
     'timeline-milestones',
     'conclusion',
-    
-    // Supplementary materials
     'appendices'
   ];
   
-  // Track which sections fell back to English
   const sectionsUsingEnglishFallback = new Set();
-  
-  // Try to load modular content
   const content = {};
   let loadedSections = 0;
   
   if (DEBUG_FRAMEWORK_LOADING) console.log('Loading justice systems sections for locale:', currentLocale);
   
-  // Try to load each section with proper error handling
   for (const section of sections) {
     try {
-      // Try to load the current locale version first
       const modulePromise = import(`$lib/content/frameworks/${currentLocale}/implementation/justice-systems/${section}.md`);
       content[section] = await modulePromise;
       loadedSections++;
@@ -120,13 +96,11 @@ export async function load({ depends, url, params }) {
     } catch (primaryError) {
       if (DEBUG_FRAMEWORK_LOADING) console.warn(`Primary load failed for section ${section}:`, primaryError.message);
       
-      // Fall back to English if translation isn't available
       try {
         const fallbackPromise = import(`$lib/content/frameworks/en/implementation/justice-systems/${section}.md`);
         content[section] = await fallbackPromise;
         loadedSections++;
         
-        // Track that this section is using English fallback
         if (currentLocale !== 'en') {
           sectionsUsingEnglishFallback.add(section);
         }
@@ -135,7 +109,6 @@ export async function load({ depends, url, params }) {
       } catch (fallbackError) {
         if (DEBUG_FRAMEWORK_LOADING) console.warn(`Could not load section ${section} in any language:`, fallbackError.message);
         
-        // Create a safe placeholder for missing sections
         content[section] = {
           default: function MissingSection() {
             return {
@@ -156,7 +129,6 @@ export async function load({ depends, url, params }) {
   if (DEBUG_FRAMEWORK_LOADING) console.log('Total sections loaded:', loadedSections, 'out of', sections.length);
   if (DEBUG_FRAMEWORK_LOADING) console.log('Loaded sections:', Object.keys(content));
   
-  // Validate that we have at least the index section
   if (!content.index) {
     console.error('Critical: Could not load index section');
     throw error(500, {
@@ -167,39 +139,20 @@ export async function load({ depends, url, params }) {
   
   return {
     sections: content,
-    // Always use modular approach
     isModular: true,
-    isPrintMode, // This will be false during prerendering, true/false on client
+    isPrintMode,
     sectionsUsingEnglishFallback: Array.from(sectionsUsingEnglishFallback),
     loadedSectionsCount: loadedSections,
     totalSectionsCount: sections.length,
-    
-    // Additional metadata for justice systems framework
     frameworkType: 'justice-systems',
     totalSections: sections.length,
-    coreFrameworkSections: 9, // introduction through timeline-milestones
-    foundationSections: 2, // at-a-glance and executive-summary
-    resourceSections: 1, // appendices
+    coreFrameworkSections: 9,
+    foundationSections: 2,
+    resourceSections: 1,
     hasExecutiveSummary: true,
-    
-    // Justice Systems-specific metadata
     frameworkVersion: '1.0',
     isEnforcementFramework: true,
-    implementationPhases: 5,
-    specializedTribunals: 3, // Climate & Ecological, Digital Rights, Indigenous
-    integrationFrameworks: ['peace-conflict-resolution', 'shield-protocol'],
     
-    // GGF Integration metadata
-    parentFrameworks: ['treaty-for-our-only-home', 'moral-operating-system'],
-    siblingFrameworks: ['peace-and-conflict-resolution', 'shield-protocol'],
-    dependentFrameworks: ['aubi', 'indigenous-governance', 'aurora-accord'],
-    
-    // Implementation readiness
-    hasImplementationToolkit: true,
-    hasPilotPrograms: true,
-    stakeholderPathways: 5,
-    
-    // Debug information
     debug: {
       currentLocale,
       availableSections: Object.keys(content),
@@ -209,7 +162,6 @@ export async function load({ depends, url, params }) {
         originalPath: url.pathname,
         cleanedPath: '/frameworks/justice-systems'
       },
-      // Only log search params on client side
       searchParams: browser ? (url.search || 'none') : 'prerendering'
     }
   };
