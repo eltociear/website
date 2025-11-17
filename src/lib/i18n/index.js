@@ -115,7 +115,7 @@ const pageSpecificTranslationsMap = [
   { route: '/frameworks/planetary-immune-system', dataKey: 'planetaryImmuneSystem', fileName: 'frameworksPlanetaryImmuneSystem' },
   { route: '/frameworks/global-health-and-pandemic-security', dataKey: 'globalHealthPandemicSecurity', fileName: 'frameworksGlobalHealthAndPandemicSecurity' },
   { route: '/frameworks/indigenous-sovereignty-pathways', dataKey: 'indigenousPathways', fileName: 'frameworksIndigenousSovereigntyPathways' },
-  { route: '/frameworks/peace-and-conflict-resolution', dataKey: 'peaceFramework', fileName: 'frameworksPeaceAndConflictResolution' },
+  { route: '/frameworks/peace-and-conflict-resolution', dataKey: 'peaceAndConflictResolution', fileName: 'frameworksPeaceAndConflictResolution' },
   { route: '/frameworks/climate-and-energy-governance', dataKey: 'climateEnergyFramework', fileName: 'frameworksClimateAndEnergyGovernance' },
   { route: '/frameworks/migration-and-human-mobility', dataKey: 'migrationFramework', fileName: 'frameworksMigrationAndHumanMobility' },
   { route: '/frameworks/mental-health-governance', dataKey: 'mentalHealthFramework', fileName: 'frameworksMentalHealthGovernance' },

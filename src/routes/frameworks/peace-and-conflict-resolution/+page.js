@@ -48,13 +48,12 @@ export async function load({ depends, url, params }) {
          cleanPath.includes('appendix') ||
          cleanPath.includes('preamble'))) {
       
-      if (DEBUG_FRAMEWORK_LOADING) console.log('⚠️  Detected corrupted pathname, correcting to base framework path');
+      if (DEBUG_FRAMEWORK_LOADING) console.log('⚠️ Detected corrupted pathname, correcting to base framework path');
       cleanPath = '/frameworks/peace-and-conflict-resolution';
     }
     
     if (DEBUG_FRAMEWORK_LOADING) console.log('Clean path for translations:', cleanPath);
     
-    // Load translations for this specific page path
     if (DEBUG_FRAMEWORK_LOADING) console.log('About to call loadTranslations with:', currentLocale, cleanPath);
     const loadedTranslations = await loadTranslations(currentLocale, cleanPath);
     if (DEBUG_FRAMEWORK_LOADING) console.log('loadTranslations returned:', Object.keys(loadedTranslations || {}));
@@ -64,7 +63,6 @@ export async function load({ depends, url, params }) {
     console.error('Error details:', e.stack);
   }
   
-  // Safe check for print mode that works during prerendering
   let isPrintMode = false;
   if (browser) {
     try {
@@ -187,9 +185,8 @@ export async function load({ depends, url, params }) {
   
   return {
     sections: content,
-    // Always use modular approach
     isModular: true,
-    isPrintMode, // This will be false during prerendering, true/false on client
+    isPrintMode,
     sectionsUsingEnglishFallback: Array.from(sectionsUsingEnglishFallback),
     loadedSectionsCount: loadedSections,
     totalSectionsCount: sections.length,
@@ -197,52 +194,20 @@ export async function load({ depends, url, params }) {
     // Additional metadata for peace framework
     frameworkType: 'peace-and-conflict-resolution',
     totalSections: sections.length,
-    
-    // Peace framework structure metadata
-    foundationSections: 4, // preamble, at-a-glance, executive-summary, framework-overview
-    coreSections: 3, // theoretical-foundation, governance-architecture (Part I)
-    operationalSections: 4, // prevention through scale-specific (Part II)
-    implementationSections: 4, // ggf-integration through cultural-adaptation (Part III)
-    deploymentSections: 4, // implementation-roadmap through resources-sustainability (Part IV)
-    conclusionSections: 2, // conclusion, implementation-tools
+    foundationSections: 4, // overview + preamble + at-a-glance + executive-summary
+    coreSections: 3, // Part I: Foundations
+    operationalSections: 4, // Part II: Operational Framework
+    implementationSections: 4, // Part III: Implementation
+    deploymentSections: 4, // Part IV: Deployment
+    conclusionSections: 2, // conclusion + implementation-tools
     appendixSections: 5, // appendix-a through appendix-e
-    
     hasExecutiveSummary: true,
-    hasAtAGlance: true,
-    hasPreamble: true,
-    hasImplementationTools: true,
-    hasAppendices: true,
     
     // Peace-specific metadata
     frameworkVersion: '1.0',
-    isGoldenTriangleIntegrated: true, // Treaty + Indigenous + Meta-Governance
+    isGoldenTriangleIntegrated: true,
     valuesBasedApproach: true,
     fourPartStructure: true,
-    
-    // Framework capabilities
-    capabilities: {
-      preventionEarlyWarning: true,
-      activeConflictResolution: true,
-      postConflictTransformation: true,
-      scaleSpecificApplications: true,
-      ggfIntegration: true,
-      technologyTools: true,
-      culturalAdaptation: true,
-      riskManagement: true,
-      sustainableResources: true,
-      comprehensiveAppendices: true
-    },
-    
-    // Integration points
-    integrationWith: {
-      treatyForOurOnlyHome: true,
-      indigenousGovernance: true,
-      metaGovernance: true,
-      aubi: true,
-      globalHealth: true,
-      climateEnergy: true,
-      justiceSystemsImplementation: true
-    },
     
     // Debug information
     debug: {
@@ -254,16 +219,7 @@ export async function load({ depends, url, params }) {
         originalPath: url.pathname,
         cleanedPath: '/frameworks/peace-and-conflict-resolution'
       },
-      // Only log search params on client side
-      searchParams: browser ? (url.search || 'none') : 'prerendering',
-      structureValidation: {
-        hasFoundations: content['framework-overview'] && content['theoretical-foundation'] && content['governance-architecture'],
-        hasOperational: content['prevention-early-warning'] && content['active-conflict-resolution'] && content['post-conflict-transformation'] && content['scale-specific-applications'],
-        hasImplementation: content['ggf-integration'] && content['technology-tools'] && content['training-professional-development'] && content['cultural-adaptation-decolonization'],
-        hasDeployment: content['implementation-roadmap'] && content['measurement-evaluation'] && content['risk-management'] && content['resources-sustainability'],
-        hasConclusion: content['conclusion'] && content['implementation-tools'],
-        hasAppendices: content['appendix-a-case-studies'] && content['appendix-b-templates'] && content['appendix-c-cultural-adaptation'] && content['appendix-d-technical'] && content['appendix-e-reference']
-      }
+      searchParams: browser ? (url.search || 'none') : 'prerendering'
     }
   };
 }
