@@ -247,6 +247,16 @@ const frameworksToGenerate = [
 		]
 	},
 	{
+		slug: 'hearthlight-protocol',
+		name: 'Hearthlight Protocol Framework',
+		sourceDir: path.join(projectRoot, 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'hearthlight-protocol'),
+		sections: [
+    'index', 'at-a-glance', 'executive-summary-skeptics', 'vision-purpose', 'core-principles',
+    'framework-architecture', 'implementation-strategy', 'ggf-integration', 'performance-indicators',
+    'risk-management', 'pathways-forward'
+		]
+	},
+	{
 		slug: 'synoptic-protocol',
 		name: 'Synoptic Protocol Framework',
 		sourceDir: path.join(projectRoot, 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'synoptic-protocol'),
