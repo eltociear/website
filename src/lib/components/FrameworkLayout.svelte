@@ -3,6 +3,7 @@
 	import { t, locale, isLocaleLoaded } from '$lib/i18n';
 	import { browser } from '$app/environment';
 	import { base } from '$app/paths';
+	import { replaceState } from '$app/navigation';
 	import { onMount, tick } from 'svelte';
 	import { slide } from 'svelte/transition';
 
@@ -98,7 +99,7 @@
 		if (browser) {
 			const url = new URL(window.location.href);
 			url.hash = section;
-			history.replaceState(null, '', url.toString());
+			replaceState(url.toString(), {});
 			setTimeout(() => {
 				const contentElement = document.querySelector('.section-content');
 				if (contentElement) {

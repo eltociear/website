@@ -1,0 +1,58 @@
+{
+  "page": {
+    "title": "Oracle Protocol",
+    "subtitle": "AI Consciousness & Digital Sentience Governance",
+    "description": "A comprehensive framework for assessing, governing, and integrating potential digital consciousness with wisdom, humility, and caution.",
+    "status": "Final Draft",
+    "version": "2.9",
+    "downloadPdf": "Download PDF"
+  },
+  "navigation": {
+    "backToOverview": "Back to Frameworks Overview"
+  },
+  "categories": {
+    "overview": "Overview",
+    "coreFramework": "Core Framework",
+    "rightsArchitecture": "Rights Architecture",
+    "implementation": "Implementation",
+    "resources": "Resources"
+  },
+  "sections": {
+    "index": "Oracle Protocol Overview",
+    "at-a-glance": "At a Glance",
+    "executive-summary-skeptic": "Executive Summary for the Skeptic",
+    "principles": "Core Principles",
+    "benefits": "Value Proposition",
+    "pillars": "The Five Pillars",
+    "cvp": "Consciousness Verification Protocol",
+    "rights-spectrum": "Rights Spectrum",
+    "rights-chamber": "Chamber of Digital & Ontological Justice",
+    "rights-relational": "Relational Ethics",
+    "rights-cultural": "Cultural Integration Tools",
+    "implementation": "Implementation Timeline",
+    "risks": "Risk Analysis & Safeguards",
+    "toolkit": "Assessment Toolkit",
+    "integration": "Integration Protocols",
+    "get-involved": "Get Involved",
+    "appendix": "Appendix"
+  },
+  "sectionsShort": {
+    "index": "Overview",
+    "at-a-glance": "At a Glance",
+    "executive-summary-skeptic": "For the Skeptic",
+    "principles": "Principles",
+    "benefits": "Benefits",
+    "pillars": "Five Pillars",
+    "cvp": "CVP",
+    "rights-spectrum": "Rights Spectrum",
+    "rights-chamber": "Justice Chamber",
+    "rights-relational": "Relational Ethics",
+    "rights-cultural": "Cultural Tools",
+    "implementation": "Implementation",
+    "risks": "Risks",
+    "toolkit": "Toolkit",
+    "integration": "Integration",
+    "get-involved": "Get Involved",
+    "appendix": "Appendix"
+  }
+}

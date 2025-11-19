@@ -221,6 +221,13 @@ limits).
   - **Speculative Paradigm Pilot**: Tests neural interfaces, mycelial networks, DAOs by 2026. *See pilot details.*  
   - **Spiral-Aware Microlearning Module**: Interactive, gamified lessons for schools, targeting 20 countries by 2028.
 
+#### **Case Study 4: The Ethics of Potential Life (Reproductive Choice)**
+* **The Tension:** A conflict between the protection of potential life (Tier 0/1 boundary) and the sovereign autonomy of an existing Tier 1 agent (the mother).
+* **The Resolution:** The MOS recognizes a distinction between **Potential Life** (developing capacity for sentience) and **Actualized Life** (existing sentient agency).
+    * **Primacy of Agency:** To force an Actualized Tier 1 agent to sustain a Potential Life against their will is a violation of their fundamental bodily sovereignty (Tier 1 Right to Freedom).
+    * **Removal of Coercion:** The GGF’s primary role is to remove **economic coercion**. Through `AUBI` and `Hearts`, we ensure no life is ever prevented solely due to lack of resources.
+    * **Jurisdiction:** Ultimately, the decision rests within the **Conscience & Sovereignty Clause** of the Genesis Protocol. It is a matter of personal conscience and private morality, not public commons governance. The GGF protects the *conditions* for choice (healthcare, economic security) but does not dictate the *outcome* of the choice.
+
 ### **Appendix E: Monitoring & KPIs**
 - **Rights Status Atlas & Dashboard**: Tracks:  
   - % of IUCN-listed ecosystems with personhood (target: 25% by 2030).  

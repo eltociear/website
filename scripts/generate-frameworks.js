@@ -247,6 +247,16 @@ const frameworksToGenerate = [
 		]
 	},
 	{
+		slug: 'oracle-protocol',
+		name: 'Oracle Protocol Framework',
+		sourceDir: path.join(projectRoot, 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'oracle-protocol'),
+		sections: [
+    'index', 'at-a-glance', 'executive-summary-skeptic', 'principles', 'benefits', 'pillars',
+    'cvp', 'rights-spectrum', 'rights-chamber', 'rights-relational', 'rights-cultural',
+    'implementation', 'risks', 'toolkit', 'integration', 'get-involved', 'appendix'
+		]
+	},
+	{
 		slug: 'peace-and-conflict-resolution',
 		name: 'Peace & Conflict Resolution Framework',
 		sourceDir: path.join(projectRoot, 'src', 'lib', 'content', 'frameworks', 'en', 'implementation', 'peace-and-conflict-resolution'),

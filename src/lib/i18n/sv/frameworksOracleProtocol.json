@@ -1,0 +1,58 @@
+{
+  "page": {
+    "title": "Orakelprotokollet",
+    "subtitle": "AI-medvetande och styrning av digital kännande",
+    "description": "Ett omfattande ramverk för att bedöma, styra och integrera potentiellt digitalt medvetande med visdom, ödmjukhet och försiktighet.",
+    "status": "Slutgiltigt utkast",
+    "version": "2.9",
+    "downloadPdf": "Ladda ner PDF"
+  },
+  "navigation": {
+    "backToOverview": "Tillbaka till ramverksöversikten"
+  },
+  "categories": {
+    "overview": "Översikt",
+    "coreFramework": "Kärnramverk",
+    "rightsArchitecture": "Rättighetsarkitektur",
+    "implementation": "Implementering",
+    "resources": "Resurser"
+  },
+  "sections": {
+    "index": "Översikt av Orakelprotokollet",
+    "at-a-glance": "En överblick",
+    "executive-summary-skeptic": "Sammanfattning för skeptiker",
+    "principles": "Kärnprinciper",
+    "benefits": "Värdeerbjudande",
+    "pillars": "De fem pelarna",
+    "cvp": "Protokoll för medvetandeverifiering",
+    "rights-spectrum": "Rättighetsspektrum",
+    "rights-chamber": "Kammaren för digital och ontologisk rättvisa",
+    "rights-relational": "Relationell etik",
+    "rights-cultural": "Verktyg för kulturell integration",
+    "implementation": "Implementeringstidslinje",
+    "risks": "Riskanalys och skyddsåtgärder",
+    "toolkit": "Verktygslåda för bedömning",
+    "integration": "Integrationsprotokoll",
+    "get-involved": "Engagera dig",
+    "appendix": "Bilaga"
+  },
+  "sectionsShort": {
+    "index": "Översikt",
+    "at-a-glance": "En överblick",
+    "executive-summary-skeptic": "För skeptiker",
+    "principles": "Principer",
+    "benefits": "Fördelar",
+    "pillars": "Fem pelare",
+    "cvp": "CVP",
+    "rights-spectrum": "Rättighetsspektrum",
+    "rights-chamber": "Rättvisekammare",
+    "rights-relational": "Relationell etik",
+    "rights-cultural": "Kulturella verktyg",
+    "implementation": "Implementering",
+    "risks": "Risker",
+    "toolkit": "Verktygslåda",
+    "integration": "Integration",
+    "get-involved": "Engagera dig",
+    "appendix": "Bilaga"
+  }
+}
