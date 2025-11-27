@@ -25,6 +25,7 @@ const locales = readable(supportedLocales);
 const pageSpecificTranslationsMap = [
   { route: '/quiz', dataKey: 'findYourPlace', fileName: 'findYourPlace' },
   { route: '/my-path', dataKey: 'findYourPlace', fileName: 'findYourPlace' },
+  { route: '/integration-scorecard', dataKey: 'integrationScorecard', fileName: 'integrationScorecard' },
 
   // Get-involved routes
   { route: '/get-involved/onboarding', dataKey: 'onboardingContent', fileName: 'getInvolvedOnboarding' },

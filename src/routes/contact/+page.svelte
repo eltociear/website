@@ -99,6 +99,7 @@
           <option value="general">{$t('contact.form.fields.subject.options.general')}</option>
           <option value="feedback">{$t('contact.form.fields.subject.options.feedback')}</option>
           <option value="collaboration">{$t('contact.form.fields.subject.options.collaboration')}</option>
+          <option value="report">{$t('contact.form.fields.subject.options.report')}</option>
         </select>
 
         <label style="display: block; margin-top: 1rem; color: #4A3228;">{$t('contact.form.fields.message.label')}</label>

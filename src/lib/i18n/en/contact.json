@@ -44,7 +44,8 @@
           "general": "General Inquiry",
           "feedback": "Feedback",
           "collaboration": "Collaboration",
-          "feature": "Feature Request"
+          "feature": "Feature Request",
+          "report": "First 100 Days Report"
         }
       },
       "message": {

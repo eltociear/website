@@ -44,7 +44,8 @@
           "general": "Allmän förfrågan",
           "feedback": "Återkoppling",
           "collaboration": "Samarbete",
-          "feature": "Funktionsförslag"
+          "feature": "Funktionsförslag",
+          "report": "Rapport om de första 100 dagarna"
         }
       },
       "message": {

@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "Integrationsresultatkortet - Mät mänskligt välmående över sex domäner",
+    "description": "Ett omfattande bedömningsverktyg baserat på Project Janus-ramverket för att mäta integration över biologiska, kognitiva, emotionella, beteendemässiga, sociala och andliga/existentiella dimensioner."
+  },
+  "hero": {
+    "title": "Integrationsresultatkortet",
+    "subtitle": "Mät det som verkligen betyder något: mänskligt välmående över alla dimensioner av vara"
+  },
+  "intro": {
+    "title": "Ett nytt sätt att mäta välbefinnande",
+    "text1": "Traditionella mått mäter produktivitet, BNP eller isolerade hälsomarkörer. Men mänskligt välmående kräver integration över alla aspekter av vår existens—biologisk, kognitiv, emotionell, beteendemässig, social och andlig.",
+    "text2": "Integrationsresultatkortet är ett praktiskt bedömningsverktyg baserat på Project Janus-ramverket, utformat för att hjälpa individer, organisationer och samhällen att mäta sitt verkliga integrationstillstånd—och identifiera var stöd behövs mest."
+  },
+  "domains": {
+    "title": "De sex domänerna av mänsklig integration",
+    "biological": {
+      "title": "Biologisk",
+      "description": "Den fysiska grunden för all mänsklig upplevelse",
+      "point1": "Sömnkvalitet och alignment med dygnsrytm",
+      "point2": "Stressfysiologi och nervsystemsreglering",
+      "point3": "Rörelse, näring och koppling till naturen"
+    },
+    "cognitive": {
+      "title": "Kognitiv",
+      "description": "Mönster av uppmärksamhet, tänkande och informationsbearbetning",
+      "point1": "Uppmärksamhetsförmåga och kapacitet för djupt fokus",
+      "point2": "Skärmtid och kvalitet på informationsdiet",
+      "point3": "Lärandeorientering och beslutsfattande tydlighet"
+    },
+    "emotional": {
+      "title": "Emotionell",
+      "description": "Landskapet av känslor och affektiva tillstånd",
+      "point1": "Emotionell medvetenhet och regleringsförmåga",
+      "point2": "Trygghet att uttrycka hela spektrumet av känslor",
+      "point3": "Tillgång till glädje, frid och positiv affekt"
+    },
+    "behavioral": {
+      "title": "Beteendemässig",
+      "description": "Samstämmigheten mellan värderingar och dagliga handlingar",
+      "point1": "Värde-beteende konsekvens och integritet",
+      "point2": "Hälsosamma vanor och hållbara rutiner",
+      "point3": "Handlingskraft och frihet i dagliga val"
+    },
+    "social": {
+      "title": "Social",
+      "description": "Nätverket av relationer och samhällsgemenskap",
+      "point1": "Kvalitet på nära relationer och intimitet",
+      "point2": "Samhällstillhörighet och ömsesidigt stöd",
+      "point3": "Förtroende, reciprocitet och socialt bidrag"
+    },
+    "spiritual": {
+      "title": "Andlig/Existentiell",
+      "description": "Mening, syfte och koppling till något större",
+      "point1": "Känsla av livssyfte och riktning",
+      "point2": "Samstämmighet med kärnvärderingar och principer",
+      "point3": "Ögonblick av transcendens, vördnad och undran"
+    }
+  },
+  "howto": {
+    "title": "Hur man använder resultatkortet",
+    "intro": "Integrationsresultatkortet fungerar på flera skalor—från personlig reflektion till organisatorisk transformation till bedömning av samhällets välbefinnande.",
+    "individuals": {
+      "title": "För individer och familjer",
+      "description": "Bedöm din personliga integration, identifiera var du blomstrar och var du behöver stöd, följ framsteg över tid och fatta värderingsstyrda livsbeslut."
+    },
+    "organizations": {
+      "title": "För organisationer",
+      "description": "Utvärdera teamets välbefinnande bortom produktivitetsmått, utforma arbetsmiljöer som stödjer mänsklig integration, identifiera systemiska hinder för välmående och skapa verkligt regenerativ kultur."
+    },
+    "cities": {
+      "title": "För städer och samhällen",
+      "description": "Mät samhällets välbefinnande över alla domäner, identifiera infrastrukturgap för mänsklig integration, följ framsteg mot regenerativt styre och prioritera insatser som betyder mest."
+    }
+  },
+  "download": {
+    "title": "Ladda ner resultatkortet",
+    "description": "Integrationsresultatkortet är fritt tillgängligt på både engelska och svenska. Använd det för personlig reflektion, organisatorisk bedömning eller mätning av samhällets välbefinnande.",
+    "buttonEnglish": "Ladda ner engelsk version",
+    "buttonSwedish": "Ladda ner svensk version",
+    "note": "PDF-format • Fritt att använda och dela • Uppdateras regelbundet baserat på gemenskapsfeedback"
+  },
+  "resources": {
+    "title": "Relaterade ramverk",
+    "consciousness": {
+      "title": "Medvetande och inre utveckling",
+      "description": "Utforska de utvecklingsramverk som informerar integrationsresultatskortets andliga och kognitiva domäner."
+    },
+    "enterprise": {
+      "title": "Regenerativt företagande",
+      "description": "Tillämpa integrationsprinciper på organisationsdesign och transformation av arbetsplatskultur."
+    },
+    "bioregional": {
+      "title": "Bioregional polis",
+      "description": "Skala upp integrationstänkande till samhälls- och bioregionala styrsystem."
+    }
+  }
+}

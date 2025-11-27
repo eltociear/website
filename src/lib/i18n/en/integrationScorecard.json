@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "Integration Scorecard - Measure Human Flourishing Across Six Domains",
+    "description": "A comprehensive assessment tool based on Project Janus framework to measure integration across biological, cognitive, emotional, behavioral, social, and spiritual/existential dimensions."
+  },
+  "hero": {
+    "title": "The Integration Scorecard",
+    "subtitle": "Measure what truly matters: human flourishing across all dimensions of being"
+  },
+  "intro": {
+    "title": "A New Way to Measure Wellbeing",
+    "text1": "Traditional metrics measure productivity, GDP, or isolated health markers. But human flourishing requires integration across all aspects of our existence—biological, cognitive, emotional, behavioral, social, and spiritual.",
+    "text2": "The Integration Scorecard is a practical assessment tool based on the Project Janus framework, designed to help individuals, organizations, and communities measure their true state of integration—and identify where support is needed most."
+  },
+  "domains": {
+    "title": "The Six Domains of Human Integration",
+    "biological": {
+      "title": "Biological",
+      "description": "The physical foundation of all human experience",
+      "point1": "Sleep quality and circadian rhythm alignment",
+      "point2": "Stress physiology and nervous system regulation",
+      "point3": "Movement, nutrition, and connection to nature"
+    },
+    "cognitive": {
+      "title": "Cognitive",
+      "description": "Patterns of attention, thinking, and information processing",
+      "point1": "Attention span and capacity for deep focus",
+      "point2": "Screen time and information diet quality",
+      "point3": "Learning orientation and decision-making clarity"
+    },
+    "emotional": {
+      "title": "Emotional",
+      "description": "The landscape of feelings and affective states",
+      "point1": "Emotional awareness and regulation capacity",
+      "point2": "Safety to express full range of emotions",
+      "point3": "Access to joy, peace, and positive affect"
+    },
+    "behavioral": {
+      "title": "Behavioral",
+      "description": "The alignment between values and daily actions",
+      "point1": "Values-behavior consistency and integrity",
+      "point2": "Healthy habits and sustainable routines",
+      "point3": "Agency and freedom in daily choices"
+    },
+    "social": {
+      "title": "Social",
+      "description": "The web of relationships and community belonging",
+      "point1": "Quality of close relationships and intimacy",
+      "point2": "Community belonging and mutual support",
+      "point3": "Trust, reciprocity, and social contribution"
+    },
+    "spiritual": {
+      "title": "Spiritual/Existential",
+      "description": "Meaning, purpose, and connection to something larger",
+      "point1": "Sense of life purpose and direction",
+      "point2": "Alignment with core values and principles",
+      "point3": "Moments of transcendence, awe, and wonder"
+    }
+  },
+  "howto": {
+    "title": "How to Use the Scorecard",
+    "intro": "The Integration Scorecard works at multiple scales—from personal reflection to organizational transformation to community wellbeing assessment.",
+    "individuals": {
+      "title": "For Individuals & Families",
+      "description": "Assess your personal integration, identify where you're flourishing and where you need support, track progress over time, and make values-aligned life decisions."
+    },
+    "organizations": {
+      "title": "For Organizations",
+      "description": "Evaluate team wellbeing beyond productivity metrics, design work environments that support human integration, identify systemic barriers to flourishing, and create truly regenerative culture."
+    },
+    "cities": {
+      "title": "For Cities & Communities",
+      "description": "Measure community wellbeing across all domains, identify infrastructure gaps for human integration, track progress toward regenerative governance, and prioritize interventions that matter most."
+    }
+  },
+  "download": {
+    "title": "Download the Scorecard",
+    "description": "The Integration Scorecard is freely available in both English and Swedish. Use it for personal reflection, organizational assessment, or community wellbeing measurement.",
+    "buttonEnglish": "Download English Version",
+    "buttonSwedish": "Download Swedish Version",
+    "note": "PDF format • Free to use and share • Updated regularly based on community feedback"
+  },
+  "resources": {
+    "title": "Related Frameworks",
+    "consciousness": {
+      "title": "Consciousness & Inner Development",
+      "description": "Explore the developmental frameworks that inform the Integration Scorecard's spiritual and cognitive domains."
+    },
+    "enterprise": {
+      "title": "Regenerative Enterprise",
+      "description": "Apply integration principles to organizational design and workplace culture transformation."
+    },
+    "bioregional": {
+      "title": "Bioregional Polis",
+      "description": "Scale integration thinking to community and bioregional governance systems."
+    }
+  }
+}
