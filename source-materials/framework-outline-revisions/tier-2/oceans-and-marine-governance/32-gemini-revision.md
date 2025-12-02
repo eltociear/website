@@ -1,4 +1,6 @@
-version 1.0
+version 1.1
+Change log: 
+1.1 - Adding "The Silent Seas"
 
 # **Oceans & Marine Governance Framework**  
 *(Integrated Framework for globalgovernanceframework.org)*  
@@ -120,14 +122,23 @@ The framework is structured around three pillars—**Guardianship (Protective La
   - Funded by Ocean Impact Bonds ($1M–$5M annually per BAZ) via Financial Systems Framework.  
 - **Case Study**: Pacific Guardians – Indigenous-led BAZs reduce illegal fishing by 70% using AI and traditional knowledge.  
 
+**5.2.1 The Silent Seas Protocol (Acoustic Governance)**
+ *Objective: To eliminate acoustic smog and restore the ocean's sensory commons.*
+ * **The Acoustic Tax:** A dynamic levy on shipping vessels based on decibel output. Revenue flows directly to the **Ocean Commons Trust** for reef and cetacean habitat restoration.
+ * **Regenerative Propulsion:** Incentivizing the transition from cavitation-based propulsion (propellers) to fluid-dynamic propulsion (wind, foils, MHD) through **Blue Leaves** credits. Quiet ships earn currency for every mile traveled silently.
+ * **Slow Steaming Corridors:** Establishing mandatory low-speed zones in cetacean migration paths, monitored by the Synoptic Protocol, to reduce noise and collision risk.
+
+
 **5.3 Depth: The Wisdom Layer**  
 - **Focus**: Approach the unknown with humility, integrating science, culture, and ethics.  
 - **Key Elements**:  
   - Deep-sea moratoriums and AI-driven Digital Ocean Twin under Aurora Accord’s Global Data Commons Trust.  
   - **Cultural & Spiritual Governance Layer**: Protect underwater heritage, sacred sites, and traditional knowledge via opt-in repositories and Blue Heart Cultural Council. Integrates Indigenous navigation (e.g., Polynesian wayfinding) into AI-driven shipping routes.  
+    - Acoustic Heritage Zones — protected areas where the natural soundscape is preserved as a cultural right for marine life and Indigenous sea peoples.
   - Gray zone entity guidelines and precautionary approaches to biotech/hybrid systems.  
 - **GDGC Role**: Oversee tech ethics with bias-free enforcement and data sovereignty.  
-- **Blue Heart Cultural Council**: Under Earth Council, 60% Indigenous/community representation, maps 100 sacred sites by 2035, funds $5M cultural education annually.  
+- **Blue Heart Cultural Council**: Under Earth Council, 60% Indigenous/community representation, maps 100 sacred sites by 2035, funds $5M cultural education annually.
+  
 
 **5.4 Earth Council Advisory Role**  
 - **Role**: Senior advisory body from the Indigenous Framework, ensuring ecological and cultural alignment (e.g., sacred waters protection).  
@@ -217,6 +228,7 @@ The framework is structured around three pillars—**Guardianship (Protective La
 - **Enforcement Capacity Grants**: $50K–$2M for low-tech and AI tools, managed via Financial Systems Framework.  
 - **Marine Biotech Ethics Framework**: Proposals undergo three-stage review: 1) Technical by scientists, 2) Ecological by Planetary Health Council, 3) Cultural/ethical by Blue Heart Cultural Council, consensus required. Moratorium until 2035 applies to commercial deployment and environmental release; contained R&D may proceed under supervision.  
 - **KPI**: Biotech guidelines by 2030, 100% compliance by 2035.  
+- **Acoustic Monitoring Network** - The ocean hears everything; use that data for governance
 
 **8.4 Traditional Knowledge Repository**  
 - Opt-in/opt-out database under Aurora Accord, ensuring Indigenous control.  
@@ -233,6 +245,7 @@ The framework is structured around three pillars—**Guardianship (Protective La
 | **Gray Zone Entities**         | Depth           | Ethical guidelines by 2030         | Guidelines issued by 2030          |  
 | **Disaster Response**         | Guardianship    | AI-driven response within 48 hours | 100% compliance by 2030 (detection to deployment confirmation) |  
 | **Sacred Waters Stewardship**  | Depth           | Recognize 50 sacred marine sites by 2030 | Legal protections for 50 sites by 2035, 80% Indigenous-led |  
+| Reduction in anthropogenic ocean noise (dB) by 50% by 2035. | | |
 
 ---
 
