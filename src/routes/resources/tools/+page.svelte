@@ -18,13 +18,62 @@
     }, 100);
   });
 
-  // Tool data from translations
-  $: tools = $t('resourcesTools.tools') || {};
+  // Hardcoded Radical Competence tools (always available)
+  const radicalCompetenceTools = {
+    riggedBoard: {
+      id: 'rigged-board',
+      title: 'Rigged Board Diagnostic',
+      subtitle: 'Strategic Power Mapping',
+      description: 'Map power structures, money flows, extraction patterns, and leverage points in your city. Complete in one weekend, use Monday morning.',
+      category: 'templates',
+      status: 'available',
+      features: [
+        '8 comprehensive worksheets for strategic mapping',
+        'Power holders and money flow analysis',
+        'Extraction index calculators',
+        'Crisis point severity scoring',
+        'Ally mapping and leverage point identification'
+      ],
+      timeToComplete: '3 hours',
+      difficulty: 'Intermediate',
+      useCase: 'For organizers starting new campaigns or diagnosing why existing efforts aren\'t working',
+      links: {
+        interactive: `${base}/resources/tools/radical-competence`,
+        guide: `${base}/resources/tools/radical-competence#how-to-use`
+      }
+    },
+    integrationScorecard: {
+      id: 'integration-scorecard',
+      title: 'Integration Scorecard',
+      subtitle: 'Six-Domain Assessment',
+      description: 'Evaluate organizing interventions across biological, cognitive, emotional, behavioral, social, and spiritual/existential domains to prevent common failures.',
+      category: 'templates',
+      status: 'available',
+      features: [
+        'Six-domain integration analysis',
+        'Prevents activist performance and hero organizer patterns',
+        'Diagnoses extractive solidarity',
+        'Before-launch and during-work assessments',
+        'Strategic planning capacity evaluation'
+      ],
+      timeToComplete: '1 hour per assessment',
+      difficulty: 'Intermediate',
+      useCase: 'For evaluating proposed campaigns, diagnosing existing work, or assessing organizational capacity',
+      links: {
+        interactive: `${base}/resources/tools/radical-competence`,
+        template: `${base}/resources/tools/radical-competence/integration-scorecard-template.html`
+      }
+    }
+  };
+
+  // Tool data from translations + hardcoded Radical Competence tools
+  $: translatedTools = $t('resourcesTools.tools') || {};
+  $: allTools = { ...radicalCompetenceTools, ...translatedTools };
   $: categories = $t('resourcesTools.categories') || {};
   $: stats = $t('resourcesTools.stats') || {};
 
   // Filter tools based on selected criteria
-  $: filteredTools = Object.entries(tools).filter(([key, tool]) => {
+  $: filteredTools = Object.entries(allTools).filter(([key, tool]) => {
     const categoryMatch = selectedCategory === 'all' || tool.category === selectedCategory;
     const statusMatch = selectedStatus === 'all' || tool.status === selectedStatus;
     const searchMatch = searchQuery === '' || 
@@ -78,10 +127,10 @@
 </script>
 
 <svelte:head>
-  <title>{$t('resourcesTools.meta.title')}</title>
-  <meta name="description" content="{$t('resourcesTools.meta.description')}" />
-  <meta property="og:title" content="{$t('resourcesTools.meta.title')}" />
-  <meta property="og:description" content="{$t('resourcesTools.meta.description')}" />
+  <title>Strategic Tools for Organizers - Global Governance Frameworks</title>
+  <meta name="description" content="Comprehensive collection of strategic tools for community organizing, policy advocacy, and systemic change. Templates, frameworks, and interactive tools for effective action." />
+  <meta property="og:title" content="Strategic Tools for Organizers - Global Governance Frameworks" />
+  <meta property="og:description" content="Comprehensive collection of strategic tools for community organizing, policy advocacy, and systemic change." />
   <meta property="og:type" content="website" />
 </svelte:head>
 
@@ -89,8 +138,8 @@
   
   <!-- Breadcrumb -->
   <div class="breadcrumb-nav">
-    <a href="/resources" class="breadcrumb-link">
-      <span class="breadcrumb-text">{$t('resourcesTools.navigation.backToResources')}</span>
+    <a href="{base}/resources" class="breadcrumb-link">
+      <span class="breadcrumb-text">← Back to Resources</span>
     </a>
   </div>
 
@@ -98,9 +147,27 @@
   <section class="tools-hero">
     <div class="hero-container">
       <div class="hero-content">
-        <h1 class="hero-title">{$t('resourcesTools.hero.title')}</h1>
-        <p class="hero-subtitle">{$t('resourcesTools.hero.subtitle')}</p>
-        <p class="hero-description">{$t('resourcesTools.hero.description')}</p>
+        <h1 class="hero-title">Strategic Tools for Organizers</h1>
+        <p class="hero-subtitle">Templates, frameworks, and diagnostics for effective organizing</p>
+        <p class="hero-description">
+          Practical tools for mapping power structures, evaluating interventions, and building 
+          campaigns that actually work. From "Radical Competence" and the Global Governance Frameworks project.
+        </p>
+      </div>
+      
+      <div class="hero-stats">
+        <div class="stat-card">
+          <div class="stat-number">{Object.keys(allTools).length}</div>
+          <div class="stat-label">Total Tools</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">{Object.values(allTools).filter(t => t.status === 'available').length}</div>
+          <div class="stat-label">Available Now</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">{Object.values(allTools).filter(t => t.status === 'inDevelopment').length}</div>
+          <div class="stat-label">In Development</div>
+        </div>
       </div>
     </div>
   </section>
@@ -112,7 +179,7 @@
         <div class="search-container">
           <input 
             type="text" 
-            placeholder="{$t('resourcesTools.filters.search')}"
+            placeholder="Search tools..."
             bind:value={searchQuery}
             class="search-input"
           />
@@ -120,21 +187,22 @@
         
         <div class="filter-controls">
           <select bind:value={selectedCategory} class="filter-select">
-            <option value="all">{$t('resourcesTools.filters.allCategories')}</option>
-            {#each Object.entries(categories) as [key, label]}
-              <option value={key}>{label}</option>
-            {/each}
+            <option value="all">All Categories</option>
+            <option value="templates">Templates</option>
+            <option value="interactive">Interactive Tools</option>
+            <option value="frameworks">Frameworks</option>
           </select>
           
           <select bind:value={selectedStatus} class="filter-select">
-            <option value="all">{$t('resourcesTools.filters.allStatuses')}</option>
-            <option value="available">{stats.available}</option>
-            <option value="inDevelopment">{stats.inDevelopment}</option>
+            <option value="all">All Statuses</option>
+            <option value="available">Available</option>
+            <option value="inDevelopment">In Development</option>
+            <option value="planned">Planned</option>
           </select>
           
           {#if selectedCategory !== 'all' || selectedStatus !== 'all' || searchQuery !== ''}
             <button on:click={clearFilters} class="clear-filters-btn">
-              {$t('resourcesTools.filters.clearFilters')}
+              Clear Filters
             </button>
           {/if}
         </div>
@@ -157,10 +225,15 @@
               <div class="tool-header">
                 <div class="tool-category">
                   <span class="category-icon">{getCategoryIcon(tool.category)}</span>
-                  <span class="category-label">{categories[tool.category]}</span>
+                  <span class="category-label">
+                    {tool.category === 'templates' ? 'Templates' : 
+                     tool.category === 'interactive' ? 'Interactive' : 
+                     tool.category === 'frameworks' ? 'Frameworks' : 'Tools'}
+                  </span>
                 </div>
                 <div class="tool-status" style="background-color: {getStatusColor(tool.status)};">
-                  {tool.status === 'available' ? stats.available : stats.inDevelopment}
+                  {tool.status === 'available' ? 'Available' : 
+                   tool.status === 'inDevelopment' ? 'In Development' : 'Planned'}
                 </div>
               </div>
 
@@ -195,9 +268,11 @@
                   {/if}
                 </div>
 
-                <div class="tool-use-case">
-                  <strong>{tool.useCase}</strong>
-                </div>
+                {#if tool.useCase}
+                  <div class="tool-use-case">
+                    <strong>Use Case:</strong> {tool.useCase}
+                  </div>
+                {/if}
               </div>
 
               <div class="tool-actions">
@@ -208,16 +283,17 @@
                       class="tool-button primary"
                       on:click={() => trackNavigation(toolKey, 'interactive')}
                     >
-                      {$t('resourcesTools.navigation.useInteractive')}
+                      View Tool
                     </a>
                   {/if}
                   {#if tool.links?.template}
                     <a 
                       href={tool.links.template} 
                       class="tool-button secondary"
+                      target="_blank"
                       on:click={() => trackNavigation(toolKey, 'template')}
                     >
-                      {$t('resourcesTools.navigation.downloadTemplate')}
+                      Download Template
                     </a>
                   {/if}
                   {#if tool.links?.guide}
@@ -226,7 +302,7 @@
                       class="tool-button tertiary"
                       on:click={() => trackNavigation(toolKey, 'guide')}
                     >
-                      {$t('resourcesTools.navigation.readGuide')}
+                      Read Guide
                     </a>
                   {/if}
                 {:else}
@@ -241,7 +317,7 @@
                       class="tool-button secondary"
                       on:click={() => trackNavigation(toolKey, 'earlyAccess')}
                     >
-                      {$t('resourcesTools.navigation.requestEarlyAccess')}
+                      Request Early Access
                     </a>
                   {/if}
                   {#if tool.links?.whitepaper}
@@ -250,7 +326,7 @@
                       class="tool-button tertiary"
                       on:click={() => trackNavigation(toolKey, 'whitepaper')}
                     >
-                      {$t('resourcesTools.navigation.readGuide')}
+                      Read Whitepaper
                     </a>
                   {/if}
                 {/if}
@@ -260,63 +336,36 @@
         </div>
       {:else}
         <div class="no-results">
+          <div class="no-results-icon">🔍</div>
           <h3>No tools found</h3>
-          <p>Try adjusting your filters or search terms.</p>
+          <p>Try adjusting your filters or search query</p>
           <button on:click={clearFilters} class="clear-filters-btn">
-            Clear all filters
+            Clear All Filters
           </button>
         </div>
       {/if}
     </div>
   </section>
 
-  <!-- Coming Soon Section -->
-  {#if $t('resourcesTools.comingSoon')}
-    <section class="coming-soon-section">
-      <div class="container">
-        <div class="coming-soon-content">
-          <h2 class="coming-soon-title">{$t('resourcesTools.comingSoon.title')}</h2>
-          <p class="coming-soon-description">{$t('resourcesTools.comingSoon.description')}</p>
-          
-          <div class="coming-soon-grid">
-            {#each $t('resourcesTools.comingSoon.items') as item}
-              <div class="coming-soon-item">
-                <h3 class="item-name">{item.name}</h3>
-                <p class="item-description">{item.description}</p>
-              </div>
-            {/each}
-          </div>
-        </div>
-      </div>
-    </section>
-  {/if}
-
-  <!-- Get Involved Section -->
-  <section class="get-involved-section">
+  <!-- CTA Section -->
+  <section class="cta-section">
     <div class="container">
-      <div class="get-involved-content">
-        <h2 class="get-involved-title">{$t('resourcesTools.getInvolved.title')}</h2>
-        <p class="get-involved-description">{$t('resourcesTools.getInvolved.description')}</p>
-        
-        <div class="get-involved-actions">
-          <a href="/contact" class="get-involved-button primary">
-            {$t('resourcesTools.getInvolved.feedback')}
-          </a>
-          <a href="/get-involved" class="get-involved-button secondary">
-            {$t('resourcesTools.getInvolved.contribute')}
-          </a>
-          <a href="/contact" class="get-involved-button tertiary">
-            {$t('resourcesTools.getInvolved.pilot')}
-          </a>
-        </div>
+      <div class="cta-box">
+        <h2 class="cta-title">Need a specific tool?</h2>
+        <p class="cta-description">
+          These tools are developed based on real organizing needs. If you're working on systemic change 
+          and need a tool that doesn't exist yet, let us know.
+        </p>
+        <a href="{base}/contact" class="cta-button">
+          Suggest a Tool
+        </a>
       </div>
     </div>
   </section>
-
 </div>
 
 <style>
-  /* Base styles */
+  /* Base Styles */
   .tools-page {
     min-height: 100vh;
     opacity: 0;
@@ -335,72 +384,91 @@
     padding: 0 1rem;
   }
 
-  .hero-container {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 1rem;
-  }
-
   /* Breadcrumb */
   .breadcrumb-nav {
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     max-width: 1200px;
     margin: 0 auto;
     padding-left: 1rem;
   }
 
   .breadcrumb-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    color: #6366f1;
+    color: #7c3aed;
     text-decoration: none;
-    font-weight: 500;
-    transition: all 0.2s;
+    font-weight: 600;
+    transition: color 0.2s;
   }
 
   .breadcrumb-link:hover {
-    color: #4f46e5;
-    transform: translateX(-2px);
+    color: #6d28d9;
   }
 
   /* Hero Section */
   .tools-hero {
-    padding: 4rem 0 2rem 0;
-    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #6366f1 100%);
+    padding: 3rem 0 4rem 0;
+    background: linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #7c3aed 100%);
     color: white;
-    text-align: center;
+  }
+
+  .hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
   }
 
   .hero-content {
-    max-width: 800px;
-    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3rem;
   }
 
   .hero-title {
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 800;
     margin-bottom: 1rem;
-    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    line-height: 1.2;
+    line-height: 1.1;
   }
 
   .hero-subtitle {
     font-size: 1.5rem;
-    color: #cbd5e1;
-    margin-bottom: 1.5rem;
-    font-weight: 300;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    opacity: 0.95;
   }
 
   .hero-description {
     font-size: 1.1rem;
-    color: #e2e8f0;
-    line-height: 1.6;
+    max-width: 800px;
     margin: 0 auto;
-    max-width: 700px;
+    opacity: 0.9;
+    line-height: 1.6;
+  }
+
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .stat-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .stat-number {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+  }
+
+  .stat-label {
+    font-size: 1rem;
+    opacity: 0.9;
   }
 
   /* Filters Section */
@@ -408,24 +476,28 @@
     padding: 2rem 0;
     background: #f8fafc;
     border-bottom: 1px solid #e2e8f0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   }
 
   .filters-container {
     display: flex;
-    gap: 2rem;
-    align-items: center;
+    gap: 1rem;
     flex-wrap: wrap;
+    align-items: center;
   }
 
   .search-container {
     flex: 1;
-    min-width: 300px;
+    min-width: 250px;
   }
 
   .search-input {
     width: 100%;
     padding: 0.75rem 1rem;
-    border: 2px solid #e5e7eb;
+    border: 2px solid #e2e8f0;
     border-radius: 0.5rem;
     font-size: 1rem;
     transition: border-color 0.2s;
@@ -433,67 +505,62 @@
 
   .search-input:focus {
     outline: none;
-    border-color: #6366f1;
-    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+    border-color: #7c3aed;
   }
 
   .filter-controls {
     display: flex;
     gap: 1rem;
-    align-items: center;
     flex-wrap: wrap;
   }
 
   .filter-select {
     padding: 0.75rem 1rem;
-    border: 2px solid #e5e7eb;
+    border: 2px solid #e2e8f0;
     border-radius: 0.5rem;
+    font-size: 1rem;
     background: white;
-    font-size: 0.9rem;
-    min-width: 150px;
     cursor: pointer;
     transition: border-color 0.2s;
   }
 
   .filter-select:focus {
     outline: none;
-    border-color: #6366f1;
+    border-color: #7c3aed;
   }
 
   .clear-filters-btn {
     padding: 0.75rem 1.5rem;
-    background: #f59e0b;
+    background: #7c3aed;
     color: white;
     border: none;
     border-radius: 0.5rem;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.2s;
+    transition: background 0.2s;
   }
 
   .clear-filters-btn:hover {
-    background: #d97706;
-    transform: translateY(-1px);
+    background: #6d28d9;
   }
 
   /* Tools Section */
   .tools-section {
-    padding: 3rem 0;
-    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    padding: 4rem 0;
+    min-height: 400px;
   }
 
   .tools-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 2rem;
   }
 
   .tool-card {
     background: white;
+    border: 2px solid #e2e8f0;
     border-radius: 1rem;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-    border: 1px solid #e2e8f0;
+    padding: 2rem;
     transition: all 0.3s ease;
     display: flex;
     flex-direction: column;
@@ -501,16 +568,16 @@
 
   .tool-card:hover,
   .tool-card.hovered {
-    transform: translateY(-8px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-    border-color: #6366f1;
+    border-color: #7c3aed;
+    box-shadow: 0 8px 24px rgba(124, 58, 237, 0.15);
+    transform: translateY(-4px);
   }
 
   .tool-header {
-    padding: 1.5rem 1.5rem 0 1.5rem;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
+    margin-bottom: 1.5rem;
   }
 
   .tool-category {
@@ -520,13 +587,13 @@
   }
 
   .category-icon {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   .category-label {
     font-size: 0.875rem;
-    color: #6b7280;
-    font-weight: 500;
+    font-weight: 600;
+    color: #64748b;
     text-transform: uppercase;
     letter-spacing: 0.05em;
   }
@@ -534,16 +601,16 @@
   .tool-status {
     padding: 0.25rem 0.75rem;
     border-radius: 1rem;
-    color: white;
     font-size: 0.75rem;
-    font-weight: 600;
+    font-weight: 700;
+    color: white;
     text-transform: uppercase;
     letter-spacing: 0.05em;
   }
 
   .tool-content {
-    padding: 1.5rem;
     flex: 1;
+    margin-bottom: 1.5rem;
   }
 
   .tool-title {
@@ -551,12 +618,11 @@
     font-weight: 700;
     color: #1e293b;
     margin-bottom: 0.5rem;
-    line-height: 1.3;
   }
 
   .tool-subtitle {
     font-size: 1rem;
-    color: #6366f1;
+    color: #7c3aed;
     font-weight: 600;
     margin-bottom: 1rem;
   }
@@ -564,18 +630,23 @@
   .tool-description {
     color: #475569;
     line-height: 1.6;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
   }
 
   .tool-features {
-    margin-bottom: 1.5rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #f8fafc;
+    border-radius: 0.5rem;
   }
 
   .tool-features h4 {
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: #374151;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #475569;
     margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
   }
 
   .tool-features ul {
@@ -586,112 +657,103 @@
 
   .tool-features li {
     padding: 0.25rem 0;
-    padding-left: 1.5rem;
-    position: relative;
-    color: #6b7280;
+    color: #64748b;
     font-size: 0.9rem;
   }
 
   .tool-features li::before {
-    content: "✓";
-    position: absolute;
-    left: 0;
+    content: "✓ ";
     color: #10b981;
-    font-weight: bold;
+    font-weight: 700;
+    margin-right: 0.5rem;
   }
 
   .tool-meta {
     display: flex;
     gap: 1rem;
-    margin-bottom: 1rem;
-    flex-wrap: wrap;
+    margin: 1rem 0;
   }
 
   .meta-item {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-size: 0.875rem;
-    color: #6b7280;
+    color: #64748b;
+    font-size: 0.9rem;
   }
 
   .meta-icon {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .tool-use-case {
-    background: rgba(99, 102, 241, 0.1);
+    margin-top: 1rem;
     padding: 1rem;
+    background: #fef3c7;
+    border-left: 4px solid #fbbf24;
     border-radius: 0.5rem;
-    border-left: 4px solid #6366f1;
     font-size: 0.9rem;
-    color: #374151;
-    line-height: 1.5;
+    color: #78350f;
+  }
+
+  .tool-use-case strong {
+    color: #92400e;
   }
 
   .tool-actions {
-    padding: 1.5rem;
-    border-top: 1px solid #f1f5f9;
     display: flex;
+    flex-direction: column;
     gap: 0.75rem;
-    flex-wrap: wrap;
   }
 
   .tool-button {
     padding: 0.75rem 1.5rem;
     border-radius: 0.5rem;
-    text-decoration: none;
     font-weight: 600;
-    font-size: 0.875rem;
-    transition: all 0.2s;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 120px;
     text-align: center;
+    text-decoration: none;
+    transition: all 0.2s;
+    border: 2px solid transparent;
   }
 
   .tool-button.primary {
-    background: #6366f1;
+    background: linear-gradient(135deg, #7c3aed, #6d28d9);
     color: white;
   }
 
   .tool-button.primary:hover {
-    background: #5b5bd6;
-    transform: translateY(-1px);
+    background: linear-gradient(135deg, #6d28d9, #5b21b6);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
   }
 
   .tool-button.secondary {
-    background: #f59e0b;
-    color: white;
+    background: white;
+    color: #7c3aed;
+    border-color: #7c3aed;
   }
 
   .tool-button.secondary:hover {
-    background: #d97706;
-    transform: translateY(-1px);
+    background: #f3e8ff;
   }
 
   .tool-button.tertiary {
-    background: transparent;
-    color: #6366f1;
-    border: 2px solid #6366f1;
+    background: #f8fafc;
+    color: #475569;
   }
 
   .tool-button.tertiary:hover {
-    background: #6366f1;
-    color: white;
-    transform: translateY(-1px);
+    background: #e2e8f0;
   }
 
   .expected-release {
-    padding: 0.5rem 1rem;
-    background: rgba(245, 158, 11, 0.1);
-    color: #d97706;
+    padding: 0.75rem;
+    background: #fef3c7;
     border-radius: 0.5rem;
-    font-size: 0.875rem;
-    font-weight: 600;
+    color: #78350f;
+    font-size: 0.9rem;
     text-align: center;
-    margin-bottom: 1rem;
+    font-weight: 600;
   }
 
   /* No Results */
@@ -700,210 +762,109 @@
     padding: 4rem 2rem;
   }
 
+  .no-results-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+  }
+
   .no-results h3 {
     font-size: 1.5rem;
-    color: #374151;
-    margin-bottom: 1rem;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
   }
 
   .no-results p {
-    color: #6b7280;
+    color: #64748b;
     margin-bottom: 2rem;
   }
 
-  /* Coming Soon Section */
-  .coming-soon-section {
+  /* CTA Section */
+  .cta-section {
     padding: 4rem 0;
-    background: white;
-    border-top: 1px solid #e2e8f0;
+    background: linear-gradient(135deg, #1e1b4b, #7c3aed);
   }
 
-  .coming-soon-content {
+  .cta-box {
     text-align: center;
+    color: white;
   }
 
-  .coming-soon-title {
-    font-size: 2rem;
-    font-weight: 700;
-    color: #1e293b;
+  .cta-title {
+    font-size: 2.5rem;
+    font-weight: 800;
     margin-bottom: 1rem;
   }
 
-  .coming-soon-description {
-    font-size: 1.1rem;
-    color: #475569;
-    line-height: 1.6;
-    margin-bottom: 3rem;
-    max-width: 800px;
+  .cta-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .coming-soon-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-
-  .coming-soon-item {
-    background: #f8fafc;
-    padding: 2rem;
-    border-radius: 1rem;
-    border: 1px solid #e2e8f0;
-    text-align: left;
-  }
-
-  .item-name {
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: #1e293b;
-    margin-bottom: 0.75rem;
-  }
-
-  .item-description {
-    color: #475569;
-    line-height: 1.5;
-  }
-
-  /* Get Involved Section */
-  .get-involved-section {
-    padding: 4rem 0;
-    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
-    color: white;
-  }
-
-  .get-involved-content {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-
-  .get-involved-title {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-  }
-
-  .get-involved-description {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin-bottom: 2rem;
-    opacity: 0.9;
-  }
-
-  .get-involved-actions {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .get-involved-button {
+  .cta-button {
+    display: inline-block;
     padding: 1rem 2rem;
-    border-radius: 0.5rem;
-    text-decoration: none;
+    background: white;
+    color: #7c3aed;
+    border-radius: 0.75rem;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    text-decoration: none;
     transition: all 0.2s;
-    min-width: 160px;
-    text-align: center;
   }
 
-  .get-involved-button.primary {
-    background: #fbbf24;
-    color: #1e40af;
-  }
-
-  .get-involved-button.primary:hover {
-    background: #f59e0b;
+  .cta-button:hover {
+    background: #f3e8ff;
     transform: translateY(-2px);
-  }
-
-  .get-involved-button.secondary {
-    background: transparent;
-    color: white;
-    border: 2px solid rgba(255, 255, 255, 0.3);
-  }
-
-  .get-involved-button.secondary:hover {
-    background: rgba(255, 255, 255, 0.1);
-    border-color: rgba(255, 255, 255, 0.5);
-  }
-
-  .get-involved-button.tertiary {
-    background: rgba(255, 255, 255, 0.1);
-    color: white;
-    border: 2px solid transparent;
-  }
-
-  .get-involved-button.tertiary:hover {
-    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
   }
 
   /* Responsive Design */
   @media (max-width: 768px) {
     .hero-title {
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
 
     .hero-subtitle {
-      font-size: 1.25rem;
+      font-size: 1.2rem;
+    }
+
+    .hero-stats {
+      grid-template-columns: 1fr;
     }
 
     .filters-container {
       flex-direction: column;
-      align-items: stretch;
     }
 
     .search-container {
-      min-width: auto;
+      width: 100%;
     }
 
     .filter-controls {
-      justify-content: center;
+      width: 100%;
+      flex-direction: column;
+    }
+
+    .filter-select,
+    .clear-filters-btn {
+      width: 100%;
     }
 
     .tools-grid {
       grid-template-columns: 1fr;
     }
 
-    .tool-actions {
-      flex-direction: column;
+    .cta-title {
+      font-size: 1.75rem;
     }
 
-    .tool-button {
-      width: 100%;
-    }
-
-    .coming-soon-grid {
-      grid-template-columns: 1fr;
-    }
-
-    .get-involved-actions {
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .get-involved-button {
-      width: 100%;
-      max-width: 250px;
-    }
-  }
-
-  @media (max-width: 640px) {
-    .hero-title {
-      font-size: 2rem;
-    }
-
-    .tool-card {
-      margin: 0 auto;
-      max-width: 100%;
-    }
-
-    .meta-item {
-      font-size: 0.8rem;
+    .cta-description {
+      font-size: 1rem;
     }
   }
 </style>

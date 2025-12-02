@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integration Scorecard Template - Radical Competence</title>
+    <style>
+        @media print {
+            .no-print { display: none; }
+            @page { margin: 0.5in; }
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            color: #1e293b;
+        }
+        
+        h1 {
+            font-size: 24px;
+            font-weight: 800;
+            color: #7c3aed;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #7c3aed;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1e293b;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            background: #f8fafc;
+            padding: 10px;
+            border-left: 4px solid #7c3aed;
+        }
+        
+        h3 {
+            font-size: 14px;
+            font-weight: 700;
+            color: #475569;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .header-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+            padding: 15px;
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+        }
+        
+        .info-field {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .info-field label {
+            font-weight: 700;
+            color: #475569;
+        }
+        
+        .info-field input {
+            flex: 1;
+            border: none;
+            border-bottom: 1px solid #cbd5e1;
+            background: transparent;
+            font-size: 14px;
+        }
+        
+        .domain-card {
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+            page-break-inside: avoid;
+            background: white;
+        }
+        
+        .domain-title {
+            font-size: 18px;
+            font-weight: 800;
+            color: #7c3aed;
+            margin-bottom: 10px;
+        }
+        
+        .domain-question {
+            font-style: italic;
+            color: #64748b;
+            margin-bottom: 15px;
+            font-size: 13px;
+        }
+        
+        .checklist {
+            margin: 15px 0;
+        }
+        
+        .checklist-section {
+            margin-bottom: 10px;
+        }
+        
+        .checklist-title {
+            font-weight: 700;
+            font-size: 12px;
+            color: #475569;
+            margin-bottom: 5px;
+        }
+        
+        .checklist label {
+            display: block;
+            padding: 3px 0;
+            font-size: 12px;
+            color: #475569;
+        }
+        
+        input[type="checkbox"] {
+            margin-right: 8px;
+        }
+        
+        .score-section {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 15px;
+            padding: 10px;
+            background: #fef3c7;
+            border-radius: 6px;
+        }
+        
+        .score-label {
+            font-weight: 700;
+            font-size: 14px;
+        }
+        
+        .score-input {
+            width: 60px;
+            padding: 8px;
+            border: 2px solid #7c3aed;
+            border-radius: 4px;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+        }
+        
+        .score-guide {
+            font-size: 11px;
+            color: #64748b;
+            margin-top: 5px;
+        }
+        
+        textarea {
+            width: 100%;
+            min-height: 60px;
+            padding: 8px;
+            border: 1px solid #cbd5e1;
+            border-radius: 4px;
+            font-family: inherit;
+            font-size: 13px;
+            resize: vertical;
+        }
+        
+        .summary-section {
+            background: #f1f5f9;
+            border: 3px solid #7c3aed;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 30px;
+            page-break-inside: avoid;
+        }
+        
+        .summary-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        .summary-table th,
+        .summary-table td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #cbd5e1;
+        }
+        
+        .summary-table th {
+            background: #7c3aed;
+            color: white;
+            font-weight: 700;
+        }
+        
+        .summary-table input {
+            width: 100%;
+            border: none;
+            background: transparent;
+            font-size: 14px;
+        }
+        
+        .interpretation-box {
+            background: white;
+            border: 2px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        
+        .interpretation-box h3 {
+            margin-top: 0;
+        }
+        
+        .interpretation-box ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        
+        .interpretation-box li {
+            margin: 5px 0;
+            font-size: 13px;
+        }
+        
+        .action-plan {
+            background: #fef3c7;
+            border: 2px solid #fbbf24;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 30px;
+            page-break-inside: avoid;
+        }
+        
+        .action-plan h2 {
+            margin-top: 0;
+            background: transparent;
+            border-left: none;
+            color: #92400e;
+        }
+        
+        .print-instructions {
+            background: #dbeafe;
+            border: 2px solid #3b82f6;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .print-button {
+            background: #7c3aed;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: 700;
+            border-radius: 6px;
+            cursor: pointer;
+            margin: 10px 5px;
+        }
+        
+        .print-button:hover {
+            background: #6d28d9;
+        }
+        
+        .save-button {
+            background: #10b981;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: 700;
+            border-radius: 6px;
+            cursor: pointer;
+            margin: 10px 5px;
+        }
+        
+        .save-button:hover {
+            background: #059669;
+        }
+    </style>
+</head>
+<body>
+    <div class="no-print print-instructions">
+        <h3>💡 How to Use This Template</h3>
+        <p><strong>Option 1 - Print to PDF:</strong> Click "Print to PDF" below, then save the PDF. Fill it out digitally or print and complete by hand.</p>
+        <p><strong>Option 2 - Save as HTML:</strong> Click "Save as HTML" (Ctrl+S / Cmd+S), then open in your browser whenever you need it. Your browser may remember filled-in values.</p>
+        <p><strong>Option 3 - Print Physical Copy:</strong> Click "Print Copy" and print directly. Fill out with pen.</p>
+        <div>
+            <button class="print-button" onclick="window.print()">🖨️ Print to PDF</button>
+            <button class="save-button" onclick="alert('Press Ctrl+S (Windows) or Cmd+S (Mac) to save this page as HTML')">💾 Save as HTML</button>
+        </div>
+    </div>
+
+    <h1>Integration Scorecard Template</h1>
+    <p style="font-style: italic; color: #64748b; margin-bottom: 30px;">
+        Six-Domain Assessment for Organizing Interventions • From "Radical Competence" Appendix D
+    </p>
+    
+    <div class="header-info">
+        <div class="info-field">
+            <label>Intervention:</label>
+            <input type="text" placeholder="Name of campaign/project/program">
+        </div>
+        <div class="info-field">
+            <label>Date:</label>
+            <input type="date">
+        </div>
+        <div class="info-field">
+            <label>Completed by:</label>
+            <input type="text" placeholder="Your name">
+        </div>
+        <div class="info-field">
+            <label>Context:</label>
+            <input type="text" placeholder="New proposal / Existing work / Org assessment">
+        </div>
+    </div>
+
+    <!-- DOMAIN 1: BIOLOGICAL -->
+    <div class="domain-card">
+        <div class="domain-title">Domain 1: BIOLOGICAL</div>
+        <div class="domain-question">Does this intervention support or undermine people's physical health, safety, and material security?</div>
+        
+        <div class="checklist">
+            <div class="checklist-section">
+                <div class="checklist-title">✓ Positive Impacts:</div>
+                <label><input type="checkbox"> Reduces physical insecurity (housing, food, safety)</label>
+                <label><input type="checkbox"> Improves health outcomes or access to healthcare</label>
+                <label><input type="checkbox"> Creates safer physical environments</label>
+                <label><input type="checkbox"> Reduces stress and trauma exposure</label>
+                <label><input type="checkbox"> Supports rest and recovery</label>
+                <label><input type="checkbox"> Addresses environmental health</label>
+                <label><input type="checkbox"> Provides material resources</label>
+            </div>
+            
+            <div class="checklist-section">
+                <div class="checklist-title">⚠ Negative Impacts / Risks:</div>
+                <label><input type="checkbox"> Requires sustained high-stress activation</label>
+                <label><input type="checkbox"> Exposes people to physical danger</label>
+                <label><input type="checkbox"> Demands time competing with survival needs</label>
+                <label><input type="checkbox"> Relies on unpaid labor from precarious people</label>
+                <label><input type="checkbox"> Increases burnout risk</label>
+                <label><input type="checkbox"> Worsens material conditions for some</label>
+                <label><input type="checkbox"> Ignores basic needs (no food at meetings, etc.)</label>
+            </div>
+        </div>
+        
+        <div style="margin-top: 15px;">
+            <strong>Key Evidence/Examples:</strong>
+            <textarea placeholder="What specific evidence do you have for positive or negative impacts?"></textarea>
+        </div>
+        
+        <div class="score-section">
+            <div class="score-label">Integration Score:</div>
+            <input type="number" min="1" max="5" class="score-input" placeholder="1-5">
+            <div class="score-guide">
+                5 = Actively improves biological security<br>
+                3 = Neutral or asks biological sacrifice<br>
+                1 = Ignores or actively harms
+            </div>
+        </div>
+        
+        <div style="margin-top: 15px;">
+            <strong>If scored 3 or below, what would need to change?</strong>
+            <textarea placeholder="Specific changes to improve this domain"></textarea>
+        </div>
+    </div>
+
+    <!-- DOMAIN 2: COGNITIVE -->
+    <div class="domain-card">
+        <div class="domain-title">Domain 2: COGNITIVE</div>
+        <div class="domain-question">Does this help people think more clearly and strategically, or does it create cognitive overload?</div>
+        
+        <div class="checklist">
+            <div class="checklist-section">
+                <div class="checklist-title">✓ Positive Impacts:</div>
+                <label><input type="checkbox"> Builds strategic thinking capacity</label>
+                <label><input type="checkbox"> Provides clear analysis of the problem</label>
+                <label><input type="checkbox"> Teaches systems thinking skills</label>
+                <label><input type="checkbox"> Reduces information overload</label>
+                <label><input type="checkbox"> Creates space for deep thinking</label>
+                <label><input type="checkbox"> Develops political education</label>
+                <label><input type="checkbox"> Helps see patterns and connections</label>
+                <label><input type="checkbox"> Protects attention from fragmentation</label>
+            </div>
+            
+            <div class="checklist-section">
+                <div class="checklist-title">⚠ Negative Impacts / Risks:</div>
+                <label><input type="checkbox"> Creates cognitive overload</label>
+                <label><input type="checkbox"> Demands constant context-switching</label>
+                <label><input type="checkbox"> Uses exclusionary jargon</label>
+                <label><input type="checkbox"> Oversimplifies complex problems</label>
+                <label><input type="checkbox"> Provides slogans instead of understanding</label>
+                <label><input type="checkbox"> Rewards fast reactions over thoughtful analysis</label>
+                <label><input type="checkbox"> Fragments attention across too many fronts</label>
+                <label><input type="checkbox"> Produces information without synthesis</label>
+            </div>
+        </div>
+        
+        <div style="margin-top: 15px;">
+            <strong>Key Evidence/Examples:</strong>
+            <textarea placeholder="What specific evidence do you have?"></textarea>
+        </div>
+        
+        <div class="score-section">
+            <div class="score-label">Integration Score:</div>
+            <input type="number" min="1" max="5" class="score-input" placeholder="1-5">
+            <div class="score-guide">
+                5 = Develops cognitive capacity and clarity<br>
+                3 = Neutral on thinking capacity<br>
+                1 = Discourages deep thinking
+            </div>
+        </div>
+        
+        <div style="margin-top: 15px;">
+            <strong>If scored 3 or below, what would need to change?</strong>
+            <textarea placeholder="Specific changes to improve this domain"></textarea>
+        </div>
+    </div>
+
+    <!-- DOMAIN 3: EMOTIONAL -->
+    <div class="domain-card">
+        <div class="domain-title">Domain 3: EMOTIONAL</div>
+        <div class="domain-question">Does this support emotional health and resilience, or exploit emotional needs?</div>
+        
+        <div class="checklist">
+            <div class="checklist-section">
+                <div class="checklist-title">✓ Positive Impacts:</div>
+                <label><input type="checkbox"> Creates psychological safety</label>
+                <label><input type="checkbox"> Provides emotional support infrastructure</label>
+                <label><input type="checkbox"> Acknowledges and processes grief/trauma</label>
+                <label><input type="checkbox"> Builds resilience (not just extraction)</label>
+                <label><input type="checkbox"> Celebrates wins and recognizes contributions</label>
+                <label><input type="checkbox"> Handles conflict constructively</label>
+                <label><input type="checkbox"> Allows full range of emotions</label>
+                <label><input type="checkbox"> Protects against compassion fatigue</label>
+            </div>
+            
+            <div class="checklist-section">
+                <div class="checklist-title">⚠ Negative Impacts / Risks:</div>
+                <label><input type="checkbox"> Exploits emotional labor</label>
+                <label><input type="checkbox"> Demands constant emotional performance</label>
+                <label><input type="checkbox"> Ignores or suppresses difficult emotions</label>
+                <label><input type="checkbox"> Creates toxic dynamics</label>
+                <label><input type="checkbox"> Burns people out emotionally</label>
+                <label><input type="checkbox"> Uses guilt/shame as motivation</label>
+                <label><input type="checkbox"> No space for grief or exhaustion</label>
+                <label><input type="checkbox"> Prioritizes optics over authentic processing</label>
+            </div>
+        </div>
+        
+        <div style="margin-top: 15px;">
+            <strong>Key Evidence/Examples:</strong>
+            <textarea placeholder="What specific evidence do you have?"></textarea>
+        </div>
+        
+        <div class="score-section">
+            <div class="score-label">Integration Score:</div>
+            <input type="number" min="1" max="5" class="score-input" placeholder="1-5">
+            <div class="score-guide">
+                5 = Builds emotional health and resilience<br>
+                3 = Neutral on emotional dimension<br>
+                1 = Exploits or damages emotional wellbeing
+            </div>
+        </div>
+        
+        <div style="margin-top: 15px;">
+            <strong>If scored 3 or below, what would need to change?</strong>
+            <textarea placeholder="Specific changes to improve this domain"></textarea>
+        </div>
+    </div>
+
+    <!-- DOMAIN 4: BEHAVIORAL -->
+    <div class="domain-card">
+        <div class="domain-title">Domain 4: BEHAVIORAL</div>
+        <div class="domain-question">Does this help people take meaningful action aligned with values, or create undermining patterns?</div>
+        
+        <div class="checklist">
+            <div class="checklist-section">
+                <div class="checklist-title">✓ Positive Impacts:</div>
+                <label><input type="checkbox"> Builds new skills and capacities</label>
+                <label><input type="checkbox"> Creates sustainable habits</label>
+                <label><input type="checkbox"> Aligns actions with stated values</label>
+                <label><input type="checkbox"> Develops agency and self-efficacy</label>
+                <label><input type="checkbox"> Makes desired behaviors easier</label>
+                <label><input type="checkbox"> Supports behavior change over time</label>
+                <label><input type="checkbox"> Provides practice and mastery opportunities</label>
+                <label><input type="checkbox"> Creates infrastructure that outlasts the campaign</label>
+            </div>
+            
+            <div class="checklist-section">
+                <div class="checklist-title">⚠ Negative Impacts / Risks:</div>
+                <label><input type="checkbox"> Creates gap between values and actions</label>
+                <label><input type="checkbox"> Demands heroic, unsustainable effort</label>
+                <label><input type="checkbox"> Builds dependence on key individuals</label>
+                <label><input type="checkbox"> Rewards performative over effective action</label>
+                <label><input type="checkbox"> Doesn't teach transferable skills</label>
+                <label><input type="checkbox"> Creates compulsive activism</label>
+                <label><input type="checkbox"> No clear theory of change</label>
+                <label><input type="checkbox"> Tactics without strategy</label>
+            </div>
+        </div>
+        
+        <div style="margin-top: 15px;">
+            <strong>Key Evidence/Examples:</strong>
+            <textarea placeholder="What specific evidence do you have?"></textarea>
+        </div>
+        
+        <div class="score-section">
+            <div class="score-label">Integration Score:</div>
+            <input type="number" min="1" max="5" class="score-input" placeholder="1-5">
+            <div class="score-guide">
+                5 = Develops lasting capacities<br>
+                3 = Action without learning<br>
+                1 = Actions contradict values
+            </div>
+        </div>
+        
+        <div style="margin-top: 15px;">
+            <strong>If scored 3 or below, what would need to change?</strong>
+            <textarea placeholder="Specific changes to improve this domain"></textarea>
+        </div>
+    </div>
+
+    <!-- DOMAIN 5: SOCIAL -->
+    <div class="domain-card">
+        <div class="domain-title">Domain 5: SOCIAL</div>
+        <div class="domain-question">Does this strengthen community bonds and collective power, or fragment and atomize?</div>
+        
+        <div class="checklist">
+            <div class="checklist-section">
+                <div class="checklist-title">✓ Positive Impacts:</div>
+                <label><input type="checkbox"> Builds genuine relationships</label>
+                <label><input type="checkbox"> Creates structures for ongoing collaboration</label>
+                <label><input type="checkbox"> Strengthens existing community bonds</label>
+                <label><input type="checkbox"> Bridges across different groups</label>
+                <label><input type="checkbox"> Develops collective intelligence</label>
+                <label><input type="checkbox"> Creates inclusive participation</label>
+                <label><input type="checkbox"> Builds trust and social capital</label>
+                <label><input type="checkbox"> Establishes shared practices and culture</label>
+            </div>
+            
+            <div class="checklist-section">
+                <div class="checklist-title">⚠ Negative Impacts / Risks:</div>
+                <label><input type="checkbox"> Creates internal divisions</label>
+                <label><input type="checkbox"> Reinforces existing power hierarchies</label>
+                <label><input type="checkbox"> Excludes or alienates potential allies</label>
+                <label><input type="checkbox"> Generates competition vs. collaboration</label>
+                <label><input type="checkbox"> Treats people as fungible activists</label>
+                <label><input type="checkbox"> No space for relationship building</label>
+                <label><input type="checkbox"> Creates cliques or in-groups</label>
+                <label><input type="checkbox"> Damages relationships with other orgs</label>
+            </div>
+        </div>
+        
+        <div style="margin-top: 15px;">
+            <strong>Key Evidence/Examples:</strong>
+            <textarea placeholder="What specific evidence do you have?"></textarea>
+        </div>
+        
+        <div class="score-section">
+            <div class="score-label">Integration Score:</div>
+            <input type="number" min="1" max="5" class="score-input" placeholder="1-5">
+            <div class="score-guide">
+                5 = Strengthens community and collective capacity<br>
+                3 = Individual action without social dimension<br>
+                1 = Damages community and collective power
+            </div>
+        </div>
+        
+        <div style="margin-top: 15px;">
+            <strong>If scored 3 or below, what would need to change?</strong>
+            <textarea placeholder="Specific changes to improve this domain"></textarea>
+        </div>
+    </div>
+
+    <!-- DOMAIN 6: SPIRITUAL/EXISTENTIAL -->
+    <div class="domain-card">
+        <div class="domain-title">Domain 6: SPIRITUAL/EXISTENTIAL</div>
+        <div class="domain-question">Does this connect people to deeper meaning, or contribute to existential emptiness despite activity?</div>
+        
+        <div class="checklist">
+            <div class="checklist-section">
+                <div class="checklist-title">✓ Positive Impacts:</div>
+                <label><input type="checkbox"> Connects to clear sense of purpose</label>
+                <label><input type="checkbox"> Aligns with deeply held values</label>
+                <label><input type="checkbox"> Contributes to something larger than self</label>
+                <label><input type="checkbox"> Provides meaning in difficult times</label>
+                <label><input type="checkbox"> Celebrates what's sacred or precious</label>
+                <label><input type="checkbox"> Connects to long-term vision</label>
+                <label><input type="checkbox"> Honors ancestors and future generations</label>
+                <label><input type="checkbox"> Creates ritual or sacred space</label>
+            </div>
+            
+            <div class="checklist-section">
+                <div class="checklist-title">⚠ Negative Impacts / Risks:</div>
+                <label><input type="checkbox"> Feels meaningless despite being "important"</label>
+                <label><input type="checkbox"> Disconnects from deeper values</label>
+                <label><input type="checkbox"> No connection to larger vision</label>
+                <label><input type="checkbox"> Treats people as means rather than ends</label>
+                <label><input type="checkbox"> Cynicism and nihilism as culture</label>
+                <label><input type="checkbox"> Loses sight of "why" pursuing "how"</label>
+                <label><input type="checkbox"> No space for reflection or wisdom</label>
+                <label><input type="checkbox"> Hollow victories that don't matter</label>
+            </div>
+        </div>
+        
+        <div style="margin-top: 15px;">
+            <strong>Key Evidence/Examples:</strong>
+            <textarea placeholder="What specific evidence do you have?"></textarea>
+        </div>
+        
+        <div class="score-section">
+            <div class="score-label">Integration Score:</div>
+            <input type="number" min="1" max="5" class="score-input" placeholder="1-5">
+            <div class="score-guide">
+                5 = Deeply meaningful and purpose-driven<br>
+                3 = Practical but not meaningful<br>
+                1 = Undermines sense of purpose
+            </div>
+        </div>
+        
+        <div style="margin-top: 15px;">
+            <strong>If scored 3 or below, what would need to change?</strong>
+            <textarea placeholder="Specific changes to improve this domain"></textarea>
+        </div>
+    </div>
+
+    <!-- SUMMARY SECTION -->
+    <div class="summary-section">
+        <h2>Overall Integration Analysis</h2>
+        
+        <table class="summary-table">
+            <thead>
+                <tr>
+                    <th>Domain</th>
+                    <th>Score (1-5)</th>
+                    <th>Primary Impact</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Biological</td>
+                    <td><input type="number" min="1" max="5"></td>
+                    <td><input type="text" placeholder="Positive / Neutral / Negative"></td>
+                </tr>
+                <tr>
+                    <td>Cognitive</td>
+                    <td><input type="number" min="1" max="5"></td>
+                    <td><input type="text" placeholder="Positive / Neutral / Negative"></td>
+                </tr>
+                <tr>
+                    <td>Emotional</td>
+                    <td><input type="number" min="1" max="5"></td>
+                    <td><input type="text" placeholder="Positive / Neutral / Negative"></td>
+                </tr>
+                <tr>
+                    <td>Behavioral</td>
+                    <td><input type="number" min="1" max="5"></td>
+                    <td><input type="text" placeholder="Positive / Neutral / Negative"></td>
+                </tr>
+                <tr>
+                    <td>Social</td>
+                    <td><input type="number" min="1" max="5"></td>
+                    <td><input type="text" placeholder="Positive / Neutral / Negative"></td>
+                </tr>
+                <tr>
+                    <td>Spiritual/Existential</td>
+                    <td><input type="number" min="1" max="5"></td>
+                    <td><input type="text" placeholder="Positive / Neutral / Negative"></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px;">
+            <div class="info-field">
+                <label>Average Score:</label>
+                <input type="text" placeholder="Add all scores ÷ 6">
+            </div>
+            <div class="info-field">
+                <label>Score Range:</label>
+                <input type="text" placeholder="Highest - Lowest">
+            </div>
+            <div class="info-field">
+                <label>Highest Domain:</label>
+                <input type="text" placeholder="Your strength to leverage">
+            </div>
+            <div class="info-field">
+                <label>Lowest Domain:</label>
+                <input type="text" placeholder="Integration failure point">
+            </div>
+        </div>
+        
+        <div class="interpretation-box">
+            <h3>Interpretation Guide</h3>
+            <p><strong>Average Score:</strong></p>
+            <ul>
+                <li>4.0-5.0: Strong integration - ready to proceed</li>
+                <li>3.0-3.9: Moderate integration - address specific gaps</li>
+                <li>2.0-2.9: Weak integration - major redesign needed</li>
+                <li>Below 2.0: Integration crisis - don't launch</li>
+            </ul>
+            
+            <p><strong>Score Range:</strong></p>
+            <ul>
+                <li>0-1: Well-integrated</li>
+                <li>2-3: Significant imbalance</li>
+                <li>4+: Severe fragmentation - success in one area will come at cost of others</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ACTION PLAN -->
+    <div class="action-plan">
+        <h2>Action Planning</h2>
+        
+        <div style="margin-bottom: 20px;">
+            <h3>Priority 1: Address Lowest Scoring Domain</h3>
+            <p><strong>Lowest domain & score:</strong></p>
+            <textarea style="min-height: 40px;" placeholder="Domain name and score"></textarea>
+            
+            <p><strong>Why this scored low:</strong></p>
+            <textarea placeholder="Root cause analysis"></textarea>
+            
+            <p><strong>Three concrete changes that would improve this domain:</strong></p>
+            <textarea placeholder="1.
+2.
+3."></textarea>
+        </div>
+        
+        <div style="margin-bottom: 20px;">
+            <h3>Priority 2: Resolve Key Integration Failures</h3>
+            <p><strong>Most critical integration failure:</strong></p>
+            <textarea placeholder="What domains are working against each other?"></textarea>
+            
+            <p><strong>Redesign approach:</strong></p>
+            <textarea placeholder="How will you resolve this conflict?"></textarea>
+        </div>
+        
+        <div>
+            <h3>Priority 3: Build Sustainability</h3>
+            <p><strong>What single change would most improve sustainability?</strong></p>
+            <textarea placeholder="One key change"></textarea>
+            
+            <p><strong>What would this require?</strong></p>
+            <textarea placeholder="Money, people, time, partnerships, policy changes, etc."></textarea>
+        </div>
+    </div>
+
+    <div style="margin-top: 40px; padding: 20px; background: #f8fafc; border-radius: 8px; text-align: center;">
+        <p style="font-size: 13px; color: #64748b; margin: 0;">
+            From "Radical Competence" Appendix D: Integration Scorecard Template<br>
+            Download more tools at globalgovernanceframeworks.org/tools
+        </p>
+    </div>
+</body>
+</html>

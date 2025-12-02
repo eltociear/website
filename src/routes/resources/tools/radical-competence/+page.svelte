@@ -8,6 +8,7 @@
   let isVisible = false;
   let downloadMethod = 'google'; // 'google' or 'excel'
   let copyStatus = '';
+  let activeTab = 'rigged-board'; // 'rigged-board' or 'scorecard'
   
   onMount(() => {
     setTimeout(() => {
@@ -15,11 +16,12 @@
     }, 100);
   });
 
-  // Google Sheets template URL (you'll replace this after publishing the template)
+  // Rigged Board Diagnostic URLs
   const googleSheetsTemplateUrl = 'https://docs.google.com/spreadsheets/d/1DLkHOec7g7ySYZ3wTpZmLlzwKnDoPyklPJcfeh2H7Sw/copy';
-  
-  // Excel download path
   const excelDownloadUrl = `${base}/tools/radical-competence/rigged-board-diagnostic.xlsx`;
+  
+  // Integration Scorecard URL
+  const scorecardTemplateUrl = `${base}/tools/radical-competence/integration-scorecard-template.html`;
 
   function handleGoogleSheetsCopy() {
     if (!browser) return;
@@ -42,6 +44,11 @@
     }
   }
 
+  function handleScorecardOpen() {
+    if (!browser) return;
+    window.open(scorecardTemplateUrl, '_blank');
+  }
+
   function copyToClipboard(text) {
     if (!browser) return;
     
@@ -55,10 +62,10 @@
 </script>
 
 <svelte:head>
-  <title>Rigged Board Diagnostic - Radical Competence Tools</title>
-  <meta name="description" content="Strategic power mapping tool for organizing. Map decision-makers, money flows, extraction patterns, and leverage points in your city." />
-  <meta property="og:title" content="Rigged Board Diagnostic - Radical Competence Tools" />
-  <meta property="og:description" content="Strategic power mapping tool for organizing. Map decision-makers, money flows, extraction patterns, and leverage points in your city." />
+  <title>Radical Competence Tools - Strategic Templates for Organizers</title>
+  <meta name="description" content="Strategic tools for organizing: Rigged Board Diagnostic for power mapping and Integration Scorecard for evaluating interventions across six domains." />
+  <meta property="og:title" content="Radical Competence Tools - Strategic Templates for Organizers" />
+  <meta property="og:description" content="Strategic tools for organizing: Rigged Board Diagnostic for power mapping and Integration Scorecard for evaluating interventions across six domains." />
   <meta property="og:type" content="website" />
 </svelte:head>
 
@@ -75,27 +82,54 @@
         <span>Radical Competence</span>
       </div>
       
-      <h1 class="hero-title">The Rigged Board Diagnostic</h1>
-      <p class="hero-subtitle">Strategic Power Mapping for Community Organizers</p>
+      <h1 class="hero-title">Radical Competence Tools</h1>
+      <p class="hero-subtitle">Strategic Templates for Community Organizers</p>
       <p class="hero-description">
-        A comprehensive worksheet for mapping power structures, money flows, extraction patterns, 
-        and leverage points in your city. Complete in one weekend, use Monday morning.
+        Two comprehensive tools for strategic organizing: map power structures with the Rigged Board Diagnostic, 
+        then evaluate your interventions with the Integration Scorecard. Complete in one weekend, use Monday morning.
       </p>
       
       <div class="hero-badges">
-        <span class="badge">📋 8 Worksheets</span>
-        <span class="badge">⏱️ 3 Hours</span>
-        <span class="badge">🎯 Week 0 Protocol</span>
+        <span class="badge">📋 2 Core Tools</span>
+        <span class="badge">⏱️ Ready to Use</span>
+        <span class="badge">🎯 Evidence-Based</span>
         <span class="badge">✅ Action-Ready</span>
       </div>
     </div>
   </section>
 
-  <!-- Download Section -->
+  <!-- Tool Selection Tabs -->
+  <section class="tool-tabs">
+    <div class="container">
+      <div class="tabs-container">
+        <button 
+          class="tab-button" 
+          class:active={activeTab === 'rigged-board'}
+          on:click={() => activeTab = 'rigged-board'}
+        >
+          <span class="tab-icon">🗺️</span>
+          <span class="tab-title">Rigged Board Diagnostic</span>
+          <span class="tab-subtitle">Power Mapping</span>
+        </button>
+        <button 
+          class="tab-button" 
+          class:active={activeTab === 'scorecard'}
+          on:click={() => activeTab = 'scorecard'}
+        >
+          <span class="tab-icon">✅</span>
+          <span class="tab-title">Integration Scorecard</span>
+          <span class="tab-subtitle">Intervention Assessment</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Section - Rigged Board Diagnostic -->
+  {#if activeTab === 'rigged-board'}
   <section class="download-section">
     <div class="container">
-      <h2 class="section-title">Get Your Copy</h2>
-      <p class="section-subtitle">Choose your preferred format</p>
+      <h2 class="section-title">The Rigged Board Diagnostic</h2>
+      <p class="section-subtitle">Map power structures, money flows, and leverage points in your city</p>
       
       <div class="download-options">
         <!-- Google Sheets Option -->
@@ -153,8 +187,77 @@
       </div>
     </div>
   </section>
+  {/if}
+
+  <!-- Download Section - Integration Scorecard -->
+  {#if activeTab === 'scorecard'}
+  <section class="download-section">
+    <div class="container">
+      <h2 class="section-title">Integration Scorecard</h2>
+      <p class="section-subtitle">Six-domain assessment for evaluating organizing interventions</p>
+      
+      <div class="download-options">
+        <!-- Scorecard Template Option -->
+        <div class="download-card selected">
+          <div class="card-header">
+            <div class="card-icon">📝</div>
+            <h3 class="card-title">Interactive Template</h3>
+            <span class="recommended-badge">Recommended</span>
+          </div>
+          
+          <div class="card-features">
+            <div class="feature">✓ Fill out in your browser</div>
+            <div class="feature">✓ Print to PDF when complete</div>
+            <div class="feature">✓ Save as HTML for later</div>
+            <div class="feature">✓ All six domains included</div>
+            <div class="feature">✓ Auto-calculating analysis</div>
+          </div>
+          
+          <button 
+            class="download-button primary"
+            on:click={handleScorecardOpen}
+          >
+            <span class="button-icon">🔗</span>
+            Open Interactive Template
+          </button>
+          
+          <p class="card-note">Opens in new tab. Fill out online, then Print → Save as PDF.</p>
+        </div>
+
+        <!-- What It Does -->
+        <div class="download-card">
+          <div class="card-header">
+            <div class="card-icon">🎯</div>
+            <h3 class="card-title">What It Does</h3>
+          </div>
+          
+          <div class="card-features">
+            <div class="feature-text">
+              <p><strong>Before launch:</strong> Evaluate proposed campaigns across six domains to identify integration failures</p>
+              <p><strong>During work:</strong> Diagnose why existing interventions aren't landing</p>
+              <p><strong>Strategic planning:</strong> Assess your organization's overall integration capacity</p>
+              <p style="margin-top: 15px;"><strong>Prevents common failures:</strong></p>
+              <ul style="margin: 5px 0; padding-left: 20px; font-size: 0.9rem;">
+                <li>Activist performance (passion without logistics)</li>
+                <li>Single-issue hammers (ignoring systemic connections)</li>
+                <li>Hero organizer dependence</li>
+                <li>Extractive solidarity (demanding sacrifice)</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div style="text-align: center; padding: 20px 0; color: #64748b; font-size: 0.95rem;">
+            <p><strong>From "Radical Competence" Appendix D</strong></p>
+            <p style="margin-top: 5px;">The difference between effective organizing and activist theater</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {/if}
 
   <!-- What's Included Section -->
+  {#if activeTab === 'rigged-board'}
   <section class="whats-included">
     <div class="container">
       <h2 class="section-title">What's Included</h2>
@@ -331,8 +434,10 @@
       </div>
     </div>
   </section>
+  {/if}
 
   <!-- Critical Rules Section -->
+  {#if activeTab === 'rigged-board'}
   <section class="critical-rules">
     <div class="container">
       <h2 class="section-title">⚠️ Critical Rules</h2>
@@ -417,6 +522,200 @@
       </div>
     </div>
   </section>
+  {/if}
+
+  <!-- Integration Scorecard: What's Included -->
+  {#if activeTab === 'scorecard'}
+  <section class="whats-included">
+    <div class="container">
+      <h2 class="section-title">Six Domains of Integration</h2>
+      <p class="section-subtitle">Comprehensive assessment framework for organizing work</p>
+      
+      <div class="worksheets-grid">
+        <div class="worksheet-card">
+          <div class="worksheet-number">🧬</div>
+          <div class="worksheet-content">
+            <h3 class="worksheet-title">Biological</h3>
+            <p class="worksheet-description">
+              Does this support physical health, safety, and material security? Or demand 
+              heroic effort from people struggling with survival?
+            </p>
+          </div>
+        </div>
+
+        <div class="worksheet-card">
+          <div class="worksheet-number">🧠</div>
+          <div class="worksheet-content">
+            <h3 class="worksheet-title">Cognitive</h3>
+            <p class="worksheet-description">
+              Does this build strategic thinking capacity? Or create cognitive overload 
+              with jargon and information bombardment?
+            </p>
+          </div>
+        </div>
+
+        <div class="worksheet-card">
+          <div class="worksheet-number">❤️</div>
+          <div class="worksheet-content">
+            <h3 class="worksheet-title">Emotional</h3>
+            <p class="worksheet-description">
+              Does this support emotional health and resilience? Or exploit emotional labor 
+              and use guilt as motivation?
+            </p>
+          </div>
+        </div>
+
+        <div class="worksheet-card">
+          <div class="worksheet-number">🎯</div>
+          <div class="worksheet-content">
+            <h3 class="worksheet-title">Behavioral</h3>
+            <p class="worksheet-description">
+              Does this align actions with values and build lasting skills? Or create 
+              unsustainable patterns and values-behavior gaps?
+            </p>
+          </div>
+        </div>
+
+        <div class="worksheet-card">
+          <div class="worksheet-number">🤝</div>
+          <div class="worksheet-content">
+            <h3 class="worksheet-title">Social</h3>
+            <p class="worksheet-description">
+              Does this strengthen community bonds and collective power? Or fragment people 
+              and treat them as fungible activists?
+            </p>
+          </div>
+        </div>
+
+        <div class="worksheet-card">
+          <div class="worksheet-number">⭐</div>
+          <div class="worksheet-content">
+            <h3 class="worksheet-title">Spiritual/Existential</h3>
+            <p class="worksheet-description">
+              Does this connect to deeper meaning and purpose? Or feel meaningless despite 
+              being "important"?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How to Use Section - Scorecard -->
+  <section class="how-to-use">
+    <div class="container">
+      <h2 class="section-title">How to Use the Scorecard</h2>
+      <p class="section-subtitle">Three strategic applications for organizing work</p>
+      
+      <div class="protocol-timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="marker-icon">🔍</span>
+            <span class="marker-label">Use Case 1</span>
+          </div>
+          <div class="timeline-content">
+            <h3 class="timeline-title">Before Launch: Evaluate New Interventions</h3>
+            <p class="timeline-description">
+              Score your proposed campaign across all six domains. Average below 3.5? 
+              Redesign before wasting energy on a campaign that will collapse.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="marker-icon">🩺</span>
+            <span class="marker-label">Use Case 2</span>
+          </div>
+          <div class="timeline-content">
+            <h3 class="timeline-title">During Work: Diagnose What's Not Landing</h3>
+            <p class="timeline-description">
+              Campaign feels off but can't pinpoint why? Score it. You'll find the domains 
+              where you're succeeding at cost of others (e.g., high spiritual, low biological).
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="marker-icon">📊</span>
+            <span class="marker-label">Use Case 3</span>
+          </div>
+          <div class="timeline-content">
+            <h3 class="timeline-title">Strategic Planning: Assess Overall Capacity</h3>
+            <p class="timeline-description">
+              Score your organization's entire body of work. Find patterns in what domains 
+              you consistently neglect. That's your strategic blind spot.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Critical Rules Section - Scorecard -->
+  <section class="critical-rules">
+    <div class="container">
+      <h2 class="section-title">⚠️ Common Integration Failures</h2>
+      
+      <div class="rules-grid">
+        <div class="rule-card">
+          <div class="rule-icon">🎭</div>
+          <h3 class="rule-title">Activist Performance</h3>
+          <p class="rule-description">
+            High spiritual/social, low biological/cognitive. All passion, no logistics. 
+            Collapses when enthusiasm meets material reality.
+          </p>
+        </div>
+
+        <div class="rule-card">
+          <div class="rule-icon">📄</div>
+          <h3 class="rule-title">Think Tank Syndrome</h3>
+          <p class="rule-description">
+            High cognitive, low behavioral/social. Brilliant analysis nobody reads. 
+            Smart papers gathering dust while problems persist.
+          </p>
+        </div>
+
+        <div class="rule-card">
+          <div class="rule-icon">🔨</div>
+          <h3 class="rule-title">Single-Issue Hammer</h3>
+          <p class="rule-description">
+            One domain scored 5, others scored 1-2. Treats complex systemic problems 
+            as if they're simple single-variable issues.
+          </p>
+        </div>
+
+        <div class="rule-card">
+          <div class="rule-icon">🦸</div>
+          <h3 class="rule-title">Hero Organizer</h3>
+          <p class="rule-description">
+            High across all domains but only when one person holds it together. 
+            Collapses immediately when they burn out or leave.
+          </p>
+        </div>
+
+        <div class="rule-card">
+          <div class="rule-icon">💔</div>
+          <h3 class="rule-title">Extractive Solidarity</h3>
+          <p class="rule-description">
+            High spiritual/social, low biological/emotional. Demands sacrifice "for the cause" 
+            from people who can't afford to sacrifice more.
+          </p>
+        </div>
+
+        <div class="rule-card">
+          <div class="rule-icon">🔥</div>
+          <h3 class="rule-title">Burnout Factory</h3>
+          <p class="rule-description">
+            Chronic imbalance where short-term wins come at cost of long-term sustainability. 
+            People keep leaving but leadership doesn't ask why.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  {/if}
 
   <!-- Related Resources Section -->
   <section class="related-resources">
@@ -503,6 +802,67 @@
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 1rem;
+  }
+
+  /* Tool Tabs Section */
+  .tool-tabs {
+    padding: 0;
+    background: white;
+    border-bottom: 2px solid #e2e8f0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+
+  .tabs-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 0;
+  }
+
+  .tab-button {
+    flex: 1;
+    padding: 1.5rem 2rem;
+    background: #f8fafc;
+    border: none;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .tab-button:hover {
+    background: #f1f5f9;
+  }
+
+  .tab-button.active {
+    background: white;
+    border-bottom-color: #7c3aed;
+  }
+
+  .tab-icon {
+    font-size: 2rem;
+  }
+
+  .tab-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1e293b;
+  }
+
+  .tab-subtitle {
+    font-size: 0.85rem;
+    color: #64748b;
+    font-weight: 400;
+  }
+
+  .tab-button.active .tab-title {
+    color: #7c3aed;
   }
 
   /* Hero Section */
@@ -655,6 +1015,29 @@
     padding: 0.5rem 0;
     color: #475569;
     font-size: 0.95rem;
+  }
+
+  .feature-text {
+    color: #475569;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .feature-text p {
+    margin: 0.75rem 0;
+  }
+
+  .feature-text strong {
+    color: #1e293b;
+    font-weight: 700;
+  }
+
+  .feature-text ul {
+    margin: 0.5rem 0;
+  }
+
+  .feature-text li {
+    margin: 0.25rem 0;
   }
 
   .download-button {
@@ -1036,6 +1419,22 @@
 
   /* Responsive Design */
   @media (max-width: 768px) {
+    .tab-button {
+      padding: 1rem;
+    }
+
+    .tab-icon {
+      font-size: 1.5rem;
+    }
+
+    .tab-title {
+      font-size: 0.95rem;
+    }
+
+    .tab-subtitle {
+      font-size: 0.75rem;
+    }
+
     .hero-title {
       font-size: 2rem;
     }
