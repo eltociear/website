@@ -20,7 +20,8 @@
     "sustainability": "Hållbarhet",
     "metrics": "Mätetal",
     "philosophy": "Filosofi",
-    "methodology": "Metodik"
+    "methodology": "Metodik",
+    "activism": "Aktivism"
   },
   "actions": {
     "readOnline": "Läs online",
@@ -29,11 +30,20 @@
     "share": "Dela",
     "bookmark": "Bokmärk",
     "comingSoon": "Kommer snart",
-    "notAvailable": "Inte tillgänglig"
+    "notAvailable": "Inte tillgänglig",
+    "readExternal": "Läs online (extern)"
   },
   "ai": {
     "title": "AI som katalysator för kognitiv evolution: Från fragmentering till integration i AI-åldern",
     "description": "Denna bok utforskar hur mänskligheten medvetet kan samarbeta med artificiell intelligens, och använda den som en 'kognitiv stöttning' för att påskynda språnget från det fragmenterade 'Nivå 1'-tänkandet som driver polykrisen till det integrerade 'Nivå 2'-medvetande som krävs för en blomstrande framtid."
+  },
+  "radicalCompetence": {
+    "title": "Radikal kompetens: Strategisk aktivism för systemtänkandets tidsålder",
+    "description": "En praktisk guide för aktivister på grön nivå som är redo att utveckla strategiskt tänkande på gul nivå och bygga kampanjer som faktiskt fungerar. Innehåller mallar för maktkartläggning, integrationsbedömning och kommunal organisering."
+  },
+  "integrationCrisis": {
+    "title": "Integrationskrisen: Gula lösningar på orange problem",
+    "description": "Ett omfattande ramverk för att förstå fragmentering och bygga system som stödjer hela människor över biologiska, kognitiva, emotionella, beteendemässiga, sociala och andliga dimensioner."
   },
   "globalGovernance": {
     "title": "Global styrning: Naturliga steg mot en blomstrande värld",

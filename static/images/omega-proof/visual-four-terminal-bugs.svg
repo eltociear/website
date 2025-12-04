@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1200 1000"
+   style="background: #0a0e14; font-family: 'Inter', -apple-system, sans-serif;"
+   version="1.1"
+   id="svg47"
+   sodipodi:docname="visual-four-terminal-bugs.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview47"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.868"
+     inkscape:cx="600.23041"
+     inkscape:cy="500"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg47" />
+  <!-- Title -->
+  <text
+     x="600"
+     y="45"
+     text-anchor="middle"
+     fill="#e0e0e0"
+     font-size="32"
+     font-weight="700"
+     id="text1">
+    Four Terminal Bugs: Cascade Failure Pattern
+  </text>
+  <text
+     x="600"
+     y="75"
+     text-anchor="middle"
+     fill="#a0a0a0"
+     font-size="15"
+     id="text2">
+    How Westphalian architecture creates interlocking system failure
+  </text>
+  <!-- Bug 1: Sovereignty Trap -->
+  <g
+     id="bug1">
+    <rect
+       x="50"
+       y="130"
+       width="280"
+       height="180"
+       rx="10"
+       fill="#1e3a5f"
+       stroke="#4a90e2"
+       stroke-width="3"
+       id="rect2" />
+    <text
+       x="190"
+       y="165"
+       text-anchor="middle"
+       fill="#4a90e2"
+       font-size="18"
+       font-weight="700"
+       id="text3">BUG 1</text>
+    <text
+       x="190"
+       y="190"
+       text-anchor="middle"
+       fill="#ffffff"
+       font-size="16"
+       font-weight="600"
+       id="text4">Sovereignty Trap</text>
+    <text
+       x="190"
+       y="220"
+       text-anchor="middle"
+       fill="#d0d0d0"
+       font-size="13"
+       id="text5">Binary territorial logic</text>
+    <text
+       x="190"
+       y="240"
+       text-anchor="middle"
+       fill="#d0d0d0"
+       font-size="13"
+       id="text6">Any ambiguity = existential threat</text>
+    <rect
+       x="70"
+       y="255"
+       width="240"
+       height="40"
+       rx="4"
+       fill="#0f1f2e"
+       id="rect6" />
+    <text
+       x="190"
+       y="280"
+       text-anchor="middle"
+       fill="#ff6b6b"
+       font-size="12"
+       font-weight="600"
+       id="text7">KYIV REJECTION:</text>
+    <text
+       x="190"
+       y="293"
+       text-anchor="middle"
+       fill="#ff8888"
+       font-size="11"
+       id="text8">&quot;JDC = national death certificate&quot;</text>
+  </g>
+  <!-- Bug 2: Resource Weaponization -->
+  <g
+     id="bug2">
+    <rect
+       x="870"
+       y="130"
+       width="280"
+       height="180"
+       rx="10"
+       fill="#3a1e1e"
+       stroke="#e74c3c"
+       stroke-width="3"
+       id="rect8" />
+    <text
+       x="1010"
+       y="165"
+       text-anchor="middle"
+       fill="#e74c3c"
+       font-size="18"
+       font-weight="700"
+       id="text9">BUG 2</text>
+    <text
+       x="1010"
+       y="190"
+       text-anchor="middle"
+       fill="#ffffff"
+       font-size="16"
+       font-weight="600"
+       id="text10">Resource Weaponization</text>
+    <text
+       x="1010"
+       y="220"
+       text-anchor="middle"
+       fill="#d0d0d0"
+       font-size="13"
+       id="text11">Strategic assets = weapons</text>
+    <text
+       x="1010"
+       y="240"
+       text-anchor="middle"
+       fill="#d0d0d0"
+       font-size="13"
+       id="text12">Sharing control = defeat</text>
+    <rect
+       x="890"
+       y="255"
+       width="240"
+       height="40"
+       rx="4"
+       fill="#1f0f0f"
+       id="rect12" />
+    <text
+       x="1010"
+       y="280"
+       text-anchor="middle"
+       fill="#ff6b6b"
+       font-size="12"
+       font-weight="600"
+       id="text13">MOSCOW REJECTION:</text>
+    <text
+       x="1010"
+       y="293"
+       text-anchor="middle"
+       fill="#ff8888"
+       font-size="11"
+       id="text14">&quot;Energy levy = tribute&quot;</text>
+  </g>
+  <!-- Bug 3: Relative-Gain Lock -->
+  <g
+     id="bug3">
+    <rect
+       x="50"
+       y="520"
+       width="280"
+       height="180"
+       rx="10"
+       fill="#3a2e1e"
+       stroke="#f39c12"
+       stroke-width="3"
+       id="rect14" />
+    <text
+       x="190"
+       y="555"
+       text-anchor="middle"
+       fill="#f39c12"
+       font-size="18"
+       font-weight="700"
+       id="text15">BUG 3</text>
+    <text
+       x="190"
+       y="580"
+       text-anchor="middle"
+       fill="#ffffff"
+       font-size="16"
+       font-weight="600"
+       id="text16">Relative-Gain Lock</text>
+    <text
+       x="190"
+       y="610"
+       text-anchor="middle"
+       fill="#d0d0d0"
+       font-size="13"
+       id="text17">Optimize for rival disadvantage</text>
+    <text
+       x="190"
+       y="630"
+       text-anchor="middle"
+       fill="#d0d0d0"
+       font-size="13"
+       id="text18">Zero-sum competition</text>
+    <rect
+       x="70"
+       y="645"
+       width="240"
+       height="40"
+       rx="4"
+       fill="#1f1a0f"
+       id="rect18" />
+    <text
+       x="190"
+       y="670"
+       text-anchor="middle"
+       fill="#ff6b6b"
+       font-size="12"
+       font-weight="600"
+       id="text19">WASHINGTON REJECTION:</text>
+    <text
+       x="190"
+       y="683"
+       text-anchor="middle"
+       fill="#ff8888"
+       font-size="11"
+       id="text20">&quot;China gains influence&quot;</text>
+  </g>
+  <!-- Bug 4: Free-Rider Incentive -->
+  <g
+     id="bug4">
+    <rect
+       x="870"
+       y="520"
+       width="280"
+       height="180"
+       rx="10"
+       fill="#1e3a1e"
+       stroke="#27ae60"
+       stroke-width="3"
+       id="rect20" />
+    <text
+       x="1010"
+       y="555"
+       text-anchor="middle"
+       fill="#27ae60"
+       font-size="18"
+       font-weight="700"
+       id="text21">BUG 4</text>
+    <text
+       x="1010"
+       y="580"
+       text-anchor="middle"
+       fill="#ffffff"
+       font-size="16"
+       font-weight="600"
+       id="text22">Free-Rider Incentive</text>
+    <text
+       x="1010"
+       y="610"
+       text-anchor="middle"
+       fill="#d0d0d0"
+       font-size="13"
+       id="text23">Profit from instability</text>
+    <text
+       x="1010"
+       y="630"
+       text-anchor="middle"
+       fill="#d0d0d0"
+       font-size="13"
+       id="text24">No penalty for blocking</text>
+    <rect
+       x="890"
+       y="645"
+       width="240"
+       height="40"
+       rx="4"
+       fill="#0f1f0f"
+       id="rect24" />
+    <text
+       x="1010"
+       y="670"
+       text-anchor="middle"
+       fill="#ff6b6b"
+       font-size="12"
+       font-weight="600"
+       id="text25">BEIJING REJECTION:</text>
+    <text
+       x="1010"
+       y="683"
+       text-anchor="middle"
+       fill="#ff8888"
+       font-size="11"
+       id="text26">&quot;Chaos more useful than money&quot;</text>
+  </g>
+  <!-- Central cascade mechanism -->
+  <g
+     id="cascade">
+    <rect
+       x="420"
+       y="340"
+       width="360"
+       height="140"
+       rx="10"
+       fill="#2d1810"
+       stroke="#ff6b6b"
+       stroke-width="4"
+       id="rect26" />
+    <text
+       x="600"
+       y="375"
+       text-anchor="middle"
+       fill="#ff6b6b"
+       font-size="20"
+       font-weight="700"
+       id="text27">CASCADE FAILURE</text>
+    <text
+       x="600"
+       y="405"
+       text-anchor="middle"
+       fill="#d0d0d0"
+       font-size="14"
+       id="text28">Each bug reinforces the others:</text>
+    <text
+       x="600"
+       y="428"
+       text-anchor="middle"
+       fill="#ffffff"
+       font-size="13"
+       id="text29">• Can't share resources without sharing sovereignty</text>
+    <text
+       x="600"
+       y="448"
+       text-anchor="middle"
+       fill="#ffffff"
+       font-size="13"
+       id="text30">• Great powers compete to block solutions</text>
+    <text
+       x="600"
+       y="468"
+       text-anchor="middle"
+       fill="#ffffff"
+       font-size="13"
+       id="text31">• Third parties profit from resulting chaos</text>
+  </g>
+  <!-- Connecting arrows showing reinforcement -->
+  <!-- Bug 1 to Cascade -->
+  <path
+     d="M 330 220 L 420 380"
+     stroke="#4a90e2"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowblue)"
+     id="path31" />
+  <!-- Bug 2 to Cascade -->
+  <path
+     d="M 870 220 L 780 380"
+     stroke="#e74c3c"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowred)"
+     id="path32" />
+  <!-- Cascade to Bug 3 -->
+  <path
+     d="M 330 590 L 420 450 "
+     stroke="#f39c12"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arroworange)"
+     id="path33" />
+  <!-- Cascade to Bug 4 -->
+  <path
+     d="M 870 590 L 780 450"
+     stroke="#27ae60"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowgreen)"
+     id="path34" />
+  <!-- Feedback loops -->
+  <path
+     d="m 331.54159,183.94319 q 267.79304,-143.693818 535.58609,0"
+     stroke="#ff6b6b"
+     stroke-width="1.3063"
+     fill="none"
+     stroke-dasharray="5, 5"
+     id="path35"
+     style="stroke-width:2;stroke-dasharray:5,5;stroke-dashoffset:0" />
+  <path
+     d="m 330.38053,652.19227 q 269.46785,157.73727 538.93568,0"
+     stroke="#ff6b6b"
+     stroke-width="1.31448"
+     fill="none"
+     stroke-dasharray="5, 5"
+     id="path36"
+     style="stroke-width:2;stroke-dasharray:5,5;stroke-dashoffset:0" />
+  <!-- Arrow markers -->
+  <defs
+     id="defs40">
+    <marker
+       id="arrowblue"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M0,0 L0,6 L9,3 z"
+         fill="#4a90e2"
+         id="path37" />
+    </marker>
+    <marker
+       id="arrowred"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M0,0 L0,6 L9,3 z"
+         fill="#e74c3c"
+         id="path38" />
+    </marker>
+    <marker
+       id="arroworange"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M0,0 L0,6 L9,3 z"
+         fill="#f39c12"
+         id="path39" />
+    </marker>
+    <marker
+       id="arrowgreen"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M0,0 L0,6 L9,3 z"
+         fill="#27ae60"
+         id="path40" />
+    </marker>
+  </defs>
+  <!-- Bottom explanation -->
+  <g
+     id="explanation">
+    <rect
+       x="200"
+       y="750"
+       width="800"
+       height="180"
+       rx="8"
+       fill="#1a1a2e"
+       stroke="#666"
+       stroke-width="2"
+       id="rect40" />
+    <text
+       x="600"
+       y="785"
+       text-anchor="middle"
+       fill="#e0e0e0"
+       font-size="18"
+       font-weight="600"
+       id="text40">The Auto-Immune Pattern</text>
+    <text
+       x="600"
+       y="815"
+       text-anchor="middle"
+       fill="#d0d0d0"
+       font-size="14"
+       id="text41">The system treats coordination as infection:</text>
+    <text
+       x="600"
+       y="840"
+       text-anchor="middle"
+       fill="#d0d0d0"
+       font-size="13"
+       id="text42">Any mechanism requiring sovereignty constraints triggers existential defense (Bug 1)</text>
+    <text
+       x="600"
+       y="860"
+       text-anchor="middle"
+       fill="#d0d0d0"
+       font-size="13"
+       id="text43">Resource sharing seen as strategic defeat, not cooperation (Bug 2)</text>
+    <text
+       x="600"
+       y="880"
+       text-anchor="middle"
+       fill="#d0d0d0"
+       font-size="13"
+       id="text44">Rival success treated as loss, blocking absolute-gain solutions (Bug 3)</text>
+    <text
+       x="600"
+       y="900"
+       text-anchor="middle"
+       fill="#d0d0d0"
+       font-size="13"
+       id="text45">Instability remains more profitable than stability for third parties (Bug 4)</text>
+    <text
+       x="600"
+       y="925"
+       text-anchor="middle"
+       fill="#ff6b6b"
+       font-size="15"
+       font-weight="600"
+       id="text46">→ Any fix that solves one bug triggers the other three</text>
+  </g>
+  <!-- Source note -->
+  <text
+     x="600"
+     y="985"
+     text-anchor="middle"
+     fill="#666"
+     font-size="11"
+     font-style="italic"
+     id="text47">
+    Source: The Omega Proof (2025) | Section 4: The Diagnosis
+  </text>
+</svg>

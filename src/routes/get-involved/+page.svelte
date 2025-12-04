@@ -3,10 +3,21 @@
   import { t, locale } from '$lib/i18n';
   import { base } from '$app/paths';
   import { onMount } from 'svelte';
+  import { page } from '$app/stores';
+  import { afterNavigate } from '$app/navigation';
 
   console.log('Get involved hub page loading...');
 
   $: currentLocale = $locale;
+
+  $: isSalvageMode = $page.url.searchParams.get('source') === 'salvage';
+
+  // Force scroll to top on navigation to ensure Hero visibility
+  afterNavigate(() => {
+    if (typeof window !== 'undefined') {
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    }
+  });
 
   // Expanded states for detail sections
   let expandedSection = null;
@@ -125,10 +136,6 @@
       ? $t('getInvolved.lessDetails') 
       : $t('getInvolved.moreDetails');
   }
-
-  onMount(() => {
-    console.log('Get involved hub page mounted successfully');
-  });
 </script>
 
 <svelte:head>
@@ -140,11 +147,21 @@
   <div class="content">
    
     <!-- Hero Section -->
-    <div class="hero-section">
+    <div class="hero-section" class:salvage-theme={isSalvageMode}>
       <div class="hero-content">
-        <h1>{getText('title')}</h1>
-        <p class="hero-subtitle">{getText('subtitle')}</p>
-        <p class="hero-intro">{getText('heroIntro')}</p>
+        {#if isSalvageMode}
+          <h1>Join the Salvage Operation</h1>
+          <p class="hero-subtitle">The system is terminal. We must build the replacement kernel.</p>
+          <p class="hero-intro">
+            You have seen the diagnosis. The window for voluntary transition is closing (2030-2035). 
+            We need builders, architects, and funders to accelerate the development of the 
+            Global Governance Frameworks by 10x. Pick a role below.
+          </p>
+        {:else}
+          <h1>{getText('title')}</h1>
+          <p class="hero-subtitle">{getText('subtitle')}</p>
+          <p class="hero-intro">{getText('heroIntro')}</p>
+        {/if}
       </div>
     </div>
 
@@ -419,6 +436,12 @@
     margin-bottom: 3rem;
     color: white;
     text-align: center;
+  }
+
+  /* Salvage Mode Hero (New) */
+  .hero-section.salvage-theme {
+    background: linear-gradient(135deg, #1e1b4b 0%, #7c2d12 100%); /* Navy to Dark Amber */
+    border-bottom: 4px solid #d97706; /* Gold border */
   }
 
   .hero-content h1 {

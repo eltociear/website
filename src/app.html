@@ -2,15 +2,13 @@
 <html lang="en">
   <head>
     <link rel="manifest" href="/manifest.json">
-    <!-- iOS meta tags -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="GGF">
 
-    <!-- Theme color for Android -->
     <meta name="theme-color" content="#2B4B8C">
 
-		<meta charset="utf-8" />
+    <meta charset="utf-8" />
     <link rel="icon" href="%sveltekit.assets%/icons/favicon.png" type="image/png">
     <link rel="icon" href="%sveltekit.assets%/icons/favicon.ico" sizes="any">
     <link rel="apple-touch-icon" href="%sveltekit.assets%/icons/apple-touch-icon.png">
@@ -20,38 +18,46 @@
     <link rel="mask-icon" href="%sveltekit.assets%/icons/maskable_icon192.png" color="#2B4B8C">
     <meta name="msapplication-TileImage" content="%sveltekit.assets%/icons/ms-tile-144.png">
     <meta name="msapplication-TileColor" content="#2B4B8C">
-		<meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width" />
 
-  <!-- Organization structured data for Google -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Global Governance Frameworks",
-    "url": "https://globalgovernanceframeworks.org",
-    "logo": "https://globalgovernanceframeworks.org/icons/logo512.png"
-  }
-  </script>
-		<!-- Temporary Tailwind CDN (until we fix the local Tailwind setup) -->
-		<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-		<!-- Custom inline styles for buttons and other elements -->
-		<style>
-			.btn-primary {
-				background-color: #2563eb;
-				color: white;
-				display: inline-flex;
-				align-items: center;
-				justify-content: center;
-				font-weight: 500;
-				transition-property: all;
-				transition-duration: 200ms;
-			}
-			.btn-primary:hover {
-				background-color: #1d4ed8;
-				transform: translateY(-2px);
-			}
-		</style>
-		%sveltekit.head%
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Global Governance Frameworks",
+      "url": "https://globalgovernanceframeworks.org",
+      "logo": "https://globalgovernanceframeworks.org/icons/logo512.png"
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+    <style>
+      /* Set global font defaults */
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      }
+      
+      .btn-primary {
+        background-color: #2563eb;
+        color: white;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+        transition-property: all;
+        transition-duration: 200ms;
+      }
+      .btn-primary:hover {
+        background-color: #1d4ed8;
+        transform: translateY(-2px);
+      }
+    </style>
+    %sveltekit.head%
     <script>
       // Unregister any existing service workers
       if ('serviceWorker' in navigator) {
@@ -64,15 +70,9 @@
       
       // Improved hash-based routing with safety checks
       (function() {
-        // Only process hash routes if they look like intentional routing hashes
         const { hash, pathname, search } = window.location;
         
-        // Skip processing if:
-        // 1. No hash present
-        // 2. Hash is just an anchor link (contains existing path)
-        // 3. We're already on a valid route
         if (!hash || hash.length <= 1) {
-          // Check for saved redirect path only if no hash
           if (sessionStorage.getItem('redirectPath')) {
             const redirectPath = sessionStorage.getItem('redirectPath');
             sessionStorage.removeItem('redirectPath');
@@ -82,9 +82,6 @@
         }
         
         const hashPath = hash.slice(1);
-        
-        // Only convert hash to path if it looks like a route (not an anchor)
-        // and we're currently on the root or an unexpected path
         const isLikelyRoute = hashPath.startsWith('/') || 
                              hashPath.startsWith('frameworks/') || 
                              hashPath.startsWith('blog/');
@@ -92,7 +89,6 @@
         const isOnHomePage = pathname === '/' || pathname === '';
         
         if (isLikelyRoute && isOnHomePage) {
-          // Add leading slash if missing
           const cleanPath = hashPath.startsWith('/') ? hashPath : '/' + hashPath;
           console.log('Converting hash route:', hash, 'to:', cleanPath);
           history.replaceState(null, null, cleanPath);
@@ -104,8 +100,8 @@
         history.scrollRestoration = 'manual';
       }
     </script>
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">%sveltekit.body%</div>
-	</body>
+  </head>
+  <body data-sveltekit-preload-data="hover">
+    <div style="display: contents">%sveltekit.body%</div>
+  </body>
 </html>

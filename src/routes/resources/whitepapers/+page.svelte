@@ -1,4 +1,3 @@
-<!-- src/routes/resources/whitepapers/+page.svelte -->
 <script>
   import { base } from '$app/paths';
   import { page } from '$app/stores';
@@ -9,25 +8,23 @@
   import Follow from '$lib/components/Follow.svelte';
   import ShareButtons from '$lib/components/ShareButtons.svelte';
   
-  export let data; // SvelteKit provides data from +page.js
+  export let data;
   
   // Get the current language from load data
   $: currentLang = data.currentLocale || 'en';
 
   // Reactive update when locale changes
   $: if (browser && $locale) {
-    // When locale changes, invalidate and reload data
     invalidateAll();
   }
 
   $: if (browser && $locale && $page.url.searchParams.get('lang') !== $locale) {
-    // Update URL to reflect current locale
     const url = new URL($page.url);
     url.searchParams.set('lang', $locale);
     goto(url.toString(), { replaceState: true, noScroll: true });
   }
   
-  // Helper function for translations with fallbacks
+  // Helper function for translations
   function getWhitepaperTranslation(key, fallback) {
     if (browser) {
       return $t(`whitepapers.${key}`) || fallback;
@@ -35,7 +32,10 @@
     return fallback;
   }
 
-  // Get status color and icon
+  // Helper to find the Omega Proof paper
+  $: omegaPaper = data.papers.find(p => p.slug === 'omega-proof');
+  $: standardPapers = data.papers.filter(p => p.slug !== 'omega-proof');
+
   function getStatusInfo(status) {
     const statusMap = {
       published: { color: '#16a34a', bgColor: '#dcfce7', icon: '✅', label: 'Published' },
@@ -46,7 +46,6 @@
     return statusMap[status] || statusMap.draft;
   }
 
-  // Get category color and icon
   function getCategoryInfo(category) {
     const categoryMap = {
       methodology: { color: '#1E40AF', icon: '🔬' },
@@ -59,7 +58,6 @@
     return categoryMap[category] || { color: '#6b7280', icon: '📄' };
   }
   
-  // Scroll to follow section
   function scrollToFollow() {
     const followSection = document.getElementById('follow-section');
     if (followSection) {
@@ -76,7 +74,6 @@
 </svelte:head>
 
 <div class="container">
-  <!-- Breadcrumb -->
   <nav class="breadcrumb">
     <a href="{base}/resources" class="breadcrumb-link">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -96,16 +93,13 @@
   </div>
   
   {#if data.papers.length === 0}
-    <!-- No Papers State: Include full Follow component here since it's the primary action -->
     <div class="no-papers">
       <div class="no-papers-icon">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
         </svg>
       </div>
-      <h3>
-        {getWhitepaperTranslation('noPapers.title', 'No white papers found')}
-      </h3>
+      <h3>{getWhitepaperTranslation('noPapers.title', 'No white papers found')}</h3>
       <p>
         {getWhitepaperTranslation('noPapers.message', `No white papers found for the selected language (${currentLang}). Try switching to a different language using the language selector in the header.`).replace('{language}', currentLang)}
       </p>
@@ -113,51 +107,73 @@
         {getWhitepaperTranslation('noPapers.followPrompt', 'Follow us to get notified when we publish new research!')}
       </p>
     </div>
-    
-    <!-- Follow component for no-papers state -->
     <Follow />
     
   {:else}
-    <!-- Papers exist: Show strategic Follow placement -->
+     {#if omegaPaper}
+      <div class="omega-hero-wrapper">
+        <div class="omega-hero-card">
+          <div class="omega-content">
+            <div class="omega-badges">
+              <span class="omega-badge featured">FEATURED RESEARCH</span>
+              <span class="omega-badge status">Completed Jan 2026</span>
+            </div>
+            
+            <h2>
+              <a href="{base}/resources/whitepapers/omega-proof" style="color: inherit; text-decoration: none;">
+                The Omega Proof
+              </a>
+            </h2>
+            
+            <p class="omega-subtitle">An Empirical Demonstration of the Nation-State System's Terminal Incompatibility with Planetary Peace</p>
+            <p class="omega-desc">
+              We used adversarial AI to simulate the four veto-players in the Ukraine war. They unanimously rejected a mathematically optimal peace deal. This is the autopsy of why peace is architecturally impossible under current rules.
+            </p>
+            
+            <div class="omega-actions">
+              <div class="button-row">
+                <a href="{base}/resources/whitepapers/omega-proof" class="omega-btn">
+                  Read the Analysis →
+                </a>
+                {#if omegaPaper.meta.pdfPath}
+                  <a href="{omegaPaper.meta.pdfPath}" class="omega-btn secondary" download>
+                    <span class="icon">📥</span> Download PDF
+                  </a>
+                {/if}
+              </div>
+              <span class="omega-meta">65 Pages • 13 Research Docs • 4 Terminal Bugs</span>
+            </div>
+          </div>
+          
+          <div class="omega-visual">
+            <div class="visual-placeholder">Ω</div>
+          </div>
+        </div>
+      </div>
+    {/if}
+
     <div class="papers-section">
       <div class="papers-count">
-        {data.papers.length} {data.papers.length === 1 ? getWhitepaperTranslation('papersCount.single', 'paper') : getWhitepaperTranslation('papersCount.plural', 'papers')} {getWhitepaperTranslation('papersCount.found', 'found')}
+        {standardPapers.length} {standardPapers.length === 1 ? getWhitepaperTranslation('papersCount.single', 'other paper') : getWhitepaperTranslation('papersCount.plural', 'other papers')} {getWhitepaperTranslation('papersCount.found', 'found')}
       </div>
       
       <div class="papers-list">
-        {#each data.papers as paper, index}
-          <article class="paper-card" class:featured={index === 0 && paper.meta.status === 'published'}>
+        {#each standardPapers as paper, index}
+          <article class="paper-card">
             <div class="paper-header">
               <div class="paper-badges">
-                <!-- Status Badge -->
                 {#if paper.meta.status}
                   {@const statusInfo = getStatusInfo(paper.meta.status)}
-                  <div 
-                    class="status-badge"
-                    style="color: {statusInfo.color}; background-color: {statusInfo.bgColor};"
-                  >
+                  <div class="status-badge" style="color: {statusInfo.color}; background-color: {statusInfo.bgColor};">
                     <span class="badge-icon">{statusInfo.icon}</span>
                     <span class="badge-text">{getWhitepaperTranslation(`status.${paper.meta.status}`, statusInfo.label)}</span>
                   </div>
                 {/if}
-
-                <!-- Category Badge -->
                 {#if paper.meta.category}
                   {@const categoryInfo = getCategoryInfo(paper.meta.category)}
-                  <div 
-                    class="category-badge"
-                    style="background-color: {categoryInfo.color};"
-                  >
+                  <div class="category-badge" style="background-color: {categoryInfo.color};">
                     <span class="badge-icon">{categoryInfo.icon}</span>
                     <span class="badge-text">{getWhitepaperTranslation(`categories.${paper.meta.category}`, paper.meta.category)}</span>
-                  </div>
-                {/if}
-
-                <!-- Featured Badge -->
-                {#if index === 0 && paper.meta.status === 'published'}
-                  <div class="featured-badge">
-                    <span class="badge-icon">⭐</span>
-                    <span class="badge-text">{getWhitepaperTranslation('latestBadge', 'Latest')}</span>
                   </div>
                 {/if}
               </div>
@@ -174,124 +190,201 @@
                 <svg class="meta-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                {getWhitepaperTranslation('meta.publishedOn', 'Published on')} {new Date(paper.meta.date).toLocaleDateString(currentLang === 'sv' ? 'sv-SE' : 'en-US', {
-                  year: 'numeric',
-                  month: 'long',
-                  day: 'numeric'
-                })} {getWhitepaperTranslation('meta.by', 'by')} {paper.meta.author}
+                {new Date(paper.meta.date).toLocaleDateString(currentLang === 'sv' ? 'sv-SE' : 'en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
               </p>
               
               <p class="paper-description">{paper.meta.description}</p>
               
-              <!-- Paper Metadata -->
-              <div class="paper-metadata">
-                {#if paper.meta.pages}
-                  <div class="meta-item">
-                    <span class="meta-label">📄</span>
-                    <span class="meta-value">{paper.meta.pages} {getWhitepaperTranslation('meta.pages', 'pages')}</span>
-                  </div>
-                {/if}
-                {#if paper.meta.readTime}
-                  <div class="meta-item">
-                    <span class="meta-label">⏱️</span>
-                    <span class="meta-value">{paper.meta.readTime} {getWhitepaperTranslation('meta.readTime', 'min read')}</span>
-                  </div>
-                {/if}
-                {#if paper.meta.version}
-                  <div class="meta-item">
-                    <span class="meta-label">📝</span>
-                    <span class="meta-value">v{paper.meta.version}</span>
-                  </div>
-                {/if}
-              </div>
-
-              {#if paper.meta.tags && paper.meta.tags.length > 0}
-                <div class="paper-tags">
-                  {#each paper.meta.tags as tag}
-                    <span class="tag">{tag}</span>
-                  {/each}
-                </div>
-              {/if}
-              
               <div class="paper-actions">
-                <a 
-                  href="{base}/resources/whitepapers/{paper.slug}?lang={currentLang}"
-                  class="action-button primary"
-                >
+                <a href="{base}/resources/whitepapers/{paper.slug}?lang={currentLang}" class="action-button primary">
                   <span class="button-icon">👁️</span>
-                  {getWhitepaperTranslation('actions.readOnline', 'Read Online')}
+                  {getWhitepaperTranslation('actions.readOnline', 'Read')}
                 </a>
-
                 {#if paper.meta.pdfPath}
-                  <a 
-                    href="{paper.meta.pdfPath}"
-                    class="action-button secondary"
-                    download
-                  >
-                    <span class="button-icon">📥</span>
-                    {getWhitepaperTranslation('actions.downloadPdf', 'Download PDF')}
+                  <a href="{paper.meta.pdfPath}" class="action-button secondary" download>
+                    <span class="button-icon">📥</span> PDF
                   </a>
                 {/if}
-
-                <!-- Future: Citation button -->
-                <!--
-                <button class="action-button tertiary">
-                  <span class="button-icon">📝</span>
-                  {getWhitepaperTranslation('actions.cite', 'Cite')}
-                </button>
-                -->
               </div>
             </div>
           </article>
-
-          <!-- Strategic Follow placement: After first few papers (when user has seen value) -->
-          {#if index === Math.min(2, data.papers.length - 1) && data.papers.length > 1}
-            <div class="strategic-follow" id="follow-section">
-              <div class="follow-intro">
-                <h3>{getWhitepaperTranslation('strategicFollow.title', 'Interested in our research?')}</h3>
-                <p>{getWhitepaperTranslation('strategicFollow.subtitle', 'Stay connected to receive updates on new white papers and research publications.')}</p>
-              </div>
-              <Follow />
-            </div>
-          {/if}
         {/each}
       </div>
       
-      <!-- If only one paper, place Follow component after the single paper -->
-      {#if data.papers.length === 1}
-        <div class="strategic-follow" id="follow-section">
-          <div class="follow-intro">
-            <h3>{getWhitepaperTranslation('strategicFollow.title', 'Interested in our research?')}</h3>
-            <p>{getWhitepaperTranslation('strategicFollow.subtitle', 'Stay connected to receive updates on new white papers and research publications.')}</p>
-          </div>
-          <Follow />
+      <div class="strategic-follow" id="follow-section">
+        <div class="follow-intro">
+          <h3>{getWhitepaperTranslation('strategicFollow.title', 'Interested in our research?')}</h3>
+          <p>{getWhitepaperTranslation('strategicFollow.subtitle', 'Stay connected to receive updates on new white papers and research publications.')}</p>
         </div>
-      {/if}
-    </div>
-    
-    <!-- Lightweight bottom prompt: Points to the main Follow section -->
-    <div class="bottom-prompt">
-      <div class="prompt-content">
-        <span class="prompt-text">
-          {getWhitepaperTranslation('bottomPrompt.text', 'Want research updates?')}
-        </span>
-        <button type="button" class="prompt-link" on:click={scrollToFollow}>
-          {getWhitepaperTranslation('bottomPrompt.link', 'See all follow options →')}
-        </button>
+        <Follow />
       </div>
     </div>
   {/if}
 </div>
 
-<ShareButtons 
-  title="Global Governance Frameworks White Papers"
-  hashtags="Research,GlobalGovernance,SystemsThinking"
-  position="left"
-/>
-
 <style>
+  /* --- Omega Hero Styles --- */
+  .omega-hero-wrapper {
+    margin-bottom: 4rem;
+  }
+
+  .omega-hero-card {
+    display: flex;
+    background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+    border-radius: 1rem;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 20px 40px -10px rgba(30, 27, 75, 0.4);
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .omega-hero-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 25px 50px -12px rgba(30, 27, 75, 0.5);
+  }
+
+  .omega-content {
+    flex: 2;
+    padding: 3rem;
+  }
+
+  .omega-visual {
+    flex: 1;
+    background: rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .visual-placeholder {
+    font-size: 8rem;
+    font-weight: 800;
+    color: rgba(255,255,255,0.1);
+    font-family: serif;
+  }
+
+  .omega-badges {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .omega-badge {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 0.25rem 0.75rem;
+    border-radius: 2rem;
+  }
+
+  .omega-badge.featured {
+    background: #d97706; /* Gold */
+    color: white;
+  }
+
+  .omega-badge.status {
+    background: rgba(255,255,255,0.1);
+    color: #cbd5e1;
+  }
+
+  .omega-hero-card h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0 0 0.5rem 0;
+    background: linear-gradient(to right, #fff, #cbd5e1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .omega-subtitle {
+    font-size: 1.1rem;
+    color: #94a3b8;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+  }
+
+  .omega-desc {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #cbd5e1;
+    margin-bottom: 2rem;
+    max-width: 600px;
+  }
+
+  .omega-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  /* Add this new class */
+  .button-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  /* Update .omega-btn and add .secondary variant */
+  .omega-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: white;
+    color: #1e1b4b;
+    font-weight: 700;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    width: fit-content;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .omega-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+
+  .omega-btn.secondary {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(4px);
+  }
+
+  .omega-btn.secondary:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: white;
+  }
+
+  .omega-meta {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    font-family: monospace;
+  }
+
+  /* --- Responsive --- */
+  @media (max-width: 768px) {
+    .omega-hero-card {
+      flex-direction: column;
+    }
+    .omega-visual {
+      display: none;
+    }
+    .omega-content {
+      padding: 2rem;
+    }
+    .omega-hero-card h2 {
+      font-size: 2rem;
+    }
+  }
+
+  /* --- Rest of Existing Styles --- */
   .container {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 2rem auto 4rem;
     padding: 0 20px;
   }
@@ -335,7 +428,7 @@
   /* Header */
   .whitepapers-header {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
   
   .whitepapers-header h1 {
@@ -387,58 +480,35 @@
     margin-top: 1rem !important;
   }
   
-  /* Papers Section */
-  .papers-section {
-    margin: 2rem 0;
-  }
-  
+  /* Papers List */
   .papers-count {
     font-size: 0.875rem;
     color: #6B7280;
     margin-bottom: 1.5rem;
     text-align: center;
     font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
   }
   
   .papers-list {
     display: grid;
-    gap: 2rem;
+    gap: 1.5rem;
   }
   
   /* Paper Cards */
   .paper-card {
     background: #fff;
     border: 1px solid #e5e7eb;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: all 0.3s ease-in-out;
-    position: relative;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    transition: all 0.2s ease-in-out;
   }
   
   .paper-card:hover {
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
-    transform: translateY(-3px);
-    border-color: #3b82f6;
-  }
-  
-  .paper-card.featured {
-    border: 2px solid #1E40AF;
-    background: linear-gradient(135deg, #fff 0%, #f0f9ff 100%);
-  }
-  
-  .paper-card.featured::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: linear-gradient(90deg, #1E40AF, #3b82f6, #1E40AF);
-  }
-
-  /* Paper Header & Badges */
-  .paper-header {
-    padding: 1.5rem 1.5rem 0 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-color: #cbd5e1;
+    transform: translateY(-2px);
   }
 
   .paper-badges {
@@ -449,54 +519,31 @@
   }
 
   .status-badge,
-  .category-badge,
-  .featured-badge {
+  .category-badge {
     display: flex;
     align-items: center;
     gap: 0.25rem;
-    padding: 0.25rem 0.625rem;
-    border-radius: 1rem;
-    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.7rem;
     font-weight: 600;
-    border: 1px solid currentColor;
+    text-transform: uppercase;
   }
 
   .category-badge {
     color: white;
-    border: none;
-  }
-
-  .featured-badge {
-    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
-    color: #1e40af;
-    border: none;
-  }
-
-  .badge-icon {
-    font-size: 0.8rem;
-  }
-
-  .badge-text {
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
-
-  /* Paper Content */
-  .paper-content {
-    padding: 0 1.5rem 1.5rem 1.5rem;
   }
 
   .paper-title {
-    margin: 0 0 1rem 0;
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
   }
 
   .title-link {
-    font-size: 1.5rem;
     font-weight: 700;
     color: #1e293b;
     text-decoration: none;
     line-height: 1.3;
-    display: block;
     transition: color 0.2s;
   }
 
@@ -504,14 +551,9 @@
     color: #1E40AF;
   }
   
-  .paper-card.featured .title-link {
-    font-size: 1.75rem;
-    color: #1E40AF;
-  }
-  
   .paper-meta {
-    font-size: 0.875rem;
-    color: #6B7280;
+    font-size: 0.85rem;
+    color: #64748b;
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
@@ -521,98 +563,40 @@
   .meta-icon {
     width: 1rem;
     height: 1rem;
-    flex-shrink: 0;
   }
   
   .paper-description {
-    color: #4B5563;
-    line-height: 1.6;
+    color: #475569;
+    line-height: 1.5;
     margin-bottom: 1.5rem;
-    font-size: 1rem;
-  }
-  
-  .paper-card.featured .paper-description {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
   }
 
-  /* Paper Metadata */
-  .paper-metadata {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-    padding: 0.75rem;
-    background: #f8fafc;
-    border-radius: 0.5rem;
-    border: 1px solid #e2e8f0;
-  }
-
-  .meta-item {
-    display: flex;
-    align-items: center;
-    gap: 0.25rem;
-  }
-
-  .meta-label {
-    font-size: 0.9rem;
-  }
-
-  .meta-value {
-    font-size: 0.85rem;
-    color: #64748b;
-    font-weight: 500;
-  }
-  
-  /* Tags */
-  .paper-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 1.5rem;
-  }
-  
-  .tag {
-    background: rgba(30, 64, 175, 0.1);
-    color: #1E40AF;
-    padding: 0.25rem 0.75rem;
-    border-radius: 1rem;
-    font-size: 0.75rem;
-    font-weight: 500;
-  }
-
-  /* Action Buttons */
   .paper-actions {
     display: flex;
     gap: 0.75rem;
-    flex-wrap: wrap;
   }
 
   .action-button {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.75rem 1.5rem;
-    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
     text-decoration: none;
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     transition: all 0.2s ease;
-    cursor: pointer;
-    border: none;
-    min-width: 140px;
-    justify-content: center;
   }
 
   .action-button.primary {
-    background: linear-gradient(135deg, #1E40AF 0%, #3b82f6 100%);
-    color: white;
-    box-shadow: 0 2px 4px rgba(30, 64, 175, 0.2);
+    background: white;
+    color: #1E40AF;
+    border: 1px solid #1E40AF;
   }
 
   .action-button.primary:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 4px 8px rgba(30, 64, 175, 0.3);
-    background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 100%);
+    background: #eff6ff;
   }
 
   .action-button.secondary {
@@ -624,34 +608,17 @@
   .action-button.secondary:hover {
     background: #f8fafc;
     border-color: #9ca3af;
-    transform: translateY(-1px);
   }
 
-  .action-button.tertiary {
-    background: transparent;
-    color: #6b7280;
-    border: 1px solid #e5e7eb;
-  }
-
-  .action-button.tertiary:hover {
-    background: #f9fafb;
-    border-color: #d1d5db;
-    color: #374151;
-  }
-
-  .button-icon {
-    font-size: 1rem;
-  }
-  
-  /* Strategic Follow Section */
   .strategic-follow {
-    margin: 3rem 0;
-    scroll-margin-top: 2rem;
+    margin: 4rem 0;
+    padding-top: 2rem;
+    border-top: 1px solid #e5e7eb;
   }
   
   .follow-intro {
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
   
   .follow-intro h3 {
@@ -663,8 +630,6 @@
   .follow-intro p {
     color: #6B7280;
     font-size: 1rem;
-    max-width: 600px;
-    margin: 0 auto;
   }
   
   /* Bottom Prompt */
@@ -700,29 +665,5 @@
   
   .prompt-link:hover {
     color: #1E40AF;
-  }
-  
-  /* Responsive design */
-  @media (max-width: 768px) {
-    .container {
-      margin: 1rem auto 2rem;
-      padding: 0 1rem;
-    }
-    
-    .whitepapers-header h1 {
-      font-size: 2rem;
-    }
-    
-    .whitepapers-subtitle {
-      font-size: 1rem;
-    }
-    
-    .paper-content {
-      padding: 0 1rem 1rem 1rem;
-    }
-
-    .paper-header {
-      padding: 1rem 1rem 0 1rem;
-    }
   }
 </style>

@@ -1,0 +1,180 @@
+<!-- integration-crisis-cover.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-label="The Integration Crisis book cover">
+  <defs>
+    <!-- Gradient: Fragmented Orange to Integrated Amber -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#020617;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradient: Orange achievement (top) -->
+    <linearGradient id="orangeGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f97316;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#ea580c;stop-opacity:0.3" />
+    </linearGradient>
+    
+    <!-- Gradient: Yellow integration (bottom) -->
+    <linearGradient id="amberGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:0.6" />
+    </linearGradient>
+    
+    <!-- Gradient: Integration bridge -->
+    <linearGradient id="integrationGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f97316;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#fbbf24;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <!-- Filter: Glow effect -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="900" fill="url(#bgGradient)"/>
+  
+  <!-- Fragmented pieces (top half - Orange chaos) -->
+  <!-- Scattered geometric shapes representing fragmentation -->
+  <g opacity="0.4">
+    <!-- Biological domain fragment -->
+    <rect x="50" y="80" width="80" height="80" fill="#dc2626" transform="rotate(15 90 120)" opacity="0.7"/>
+    
+    <!-- Cognitive domain fragment -->
+    <circle cx="450" cy="120" r="45" fill="#3b82f6" opacity="0.6"/>
+    
+    <!-- Emotional domain fragment -->
+    <polygon points="520,200 560,280 480,280" fill="#ec4899" opacity="0.7"/>
+    
+    <!-- Behavioral domain fragment -->
+    <rect x="80" y="240" width="70" height="70" fill="#8b5cf6" transform="rotate(-20 115 275)" opacity="0.6"/>
+    
+    <!-- Social domain fragment -->
+    <circle cx="380" cy="280" r="40" fill="#10b981" opacity="0.7"/>
+    
+    <!-- Existential domain fragment -->
+    <polygon points="200,140 250,200 150,200" fill="#f59e0b" opacity="0.6"/>
+  </g>
+  
+  <!-- Crisis lines - broken, fragmented -->
+  <g stroke="#f97316" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M 100,150 L 180,190 M 200,210 L 280,240" stroke-dasharray="5,10"/>
+    <path d="M 450,150 L 380,200 M 360,220 L 300,260" stroke-dasharray="5,10"/>
+    <path d="M 250,120 L 280,180 M 300,200 L 350,250" stroke-dasharray="5,10"/>
+  </g>
+  
+  <!-- Central integration symbol - Janus-inspired double face/circle -->
+  <g transform="translate(300, 450)">
+    <!-- Outer glow -->
+    <circle cx="0" cy="0" r="120" fill="url(#amberGlow)" opacity="0.3" filter="url(#glow)"/>
+    
+    <!-- Integration circle - the whole human -->
+    <circle cx="0" cy="0" r="90" fill="none" stroke="url(#integrationGradient)" stroke-width="4"/>
+    
+    <!-- Six domains as interconnected nodes -->
+    <!-- Biological (top) -->
+    <circle cx="0" cy="-60" r="12" fill="#dc2626"/>
+    
+    <!-- Cognitive (top-right) -->
+    <circle cx="52" cy="-30" r="12" fill="#3b82f6"/>
+    
+    <!-- Emotional (bottom-right) -->
+    <circle cx="52" cy="30" r="12" fill="#ec4899"/>
+    
+    <!-- Behavioral (bottom) -->
+    <circle cx="0" cy="60" r="12" fill="#8b5cf6"/>
+    
+    <!-- Social (bottom-left) -->
+    <circle cx="-52" cy="30" r="12" fill="#10b981"/>
+    
+    <!-- Existential (top-left) -->
+    <circle cx="-52" cy="-30" r="12" fill="#d97706"/>
+    
+    <!-- Integration lines connecting all domains -->
+    <g stroke="#fbbf24" stroke-width="1.5" opacity="0.6">
+      <line x1="0" y1="-60" x2="52" y2="-30"/>
+      <line x1="52" y1="-30" x2="52" y2="30"/>
+      <line x1="52" y1="30" x2="0" y2="60"/>
+      <line x1="0" y1="60" x2="-52" y2="30"/>
+      <line x1="-52" y1="30" x2="-52" y2="-30"/>
+      <line x1="-52" y1="-30" x2="0" y2="-60"/>
+      
+      <!-- Cross-connections (integration) -->
+      <line x1="0" y1="-60" x2="0" y2="60" opacity="0.4"/>
+      <line x1="-52" y1="-30" x2="52" y2="30" opacity="0.4"/>
+      <line x1="-52" y1="30" x2="52" y2="-30" opacity="0.4"/>
+    </g>
+    
+    <!-- Center point - the integrated whole -->
+    <circle cx="0" cy="0" r="8" fill="#fbbf24" filter="url(#glow)"/>
+  </g>
+  
+  <!-- Integrated flow (bottom half - Yellow harmony) -->
+  <!-- Smooth flowing lines representing integration -->
+  <g stroke="#d97706" stroke-width="2" fill="none" opacity="0.4">
+    <path d="M 100,600 Q 200,620 300,600 T 500,600" stroke-linecap="round"/>
+    <path d="M 120,650 Q 220,670 320,650 T 520,650" stroke-linecap="round"/>
+    <path d="M 80,700 Q 180,720 280,700 T 480,700" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Title: The Integration Crisis -->
+  <g id="title">
+    <!-- Main title -->
+    <text x="300" y="730" 
+          font-family="'Inter', sans-serif" 
+          font-size="48" 
+          font-weight="700" 
+          fill="#fbbf24" 
+          text-anchor="middle"
+          letter-spacing="2">
+      THE INTEGRATION
+    </text>
+    <text x="300" y="785" 
+          font-family="'Inter', sans-serif" 
+          font-size="52" 
+          font-weight="800" 
+          fill="#d97706" 
+          text-anchor="middle"
+          letter-spacing="2">
+      CRISIS
+    </text>
+  </g>
+  
+  <!-- Subtitle -->
+  <text x="300" y="820" 
+        font-family="'Inter', sans-serif" 
+        font-size="16" 
+        font-weight="500" 
+        fill="#94a3b8" 
+        text-anchor="middle"
+        letter-spacing="1">
+    Yellow Solutions to Orange Problems
+  </text>
+  
+  <!-- Author -->
+  <text x="300" y="860" 
+        font-family="'Inter', sans-serif" 
+        font-size="14" 
+        font-weight="400" 
+        fill="#cbd5e1" 
+        text-anchor="middle"
+        letter-spacing="2">
+    BJÖRN KENNETH HOLMSTRÖM
+  </text>
+  
+  <!-- Decorative elements: Six small domain indicators at top -->
+  <g transform="translate(300, 30)">
+    <circle cx="-100" cy="0" r="4" fill="#dc2626" opacity="0.8"/>
+    <circle cx="-60" cy="0" r="4" fill="#3b82f6" opacity="0.8"/>
+    <circle cx="-20" cy="0" r="4" fill="#ec4899" opacity="0.8"/>
+    <circle cx="20" cy="0" r="4" fill="#8b5cf6" opacity="0.8"/>
+    <circle cx="60" cy="0" r="4" fill="#10b981" opacity="0.8"/>
+    <circle cx="100" cy="0" r="4" fill="#d97706" opacity="0.8"/>
+  </g>
+</svg>

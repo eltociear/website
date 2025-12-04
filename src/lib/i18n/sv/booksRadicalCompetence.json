@@ -1,0 +1,130 @@
+{
+  "bookTitle": "Radikal kompetens",
+  "bookSubtitle": "Strategisk aktivism för systemtänkandets tidsålder",
+  "meta": {
+    "title": "Radikal kompetens – komplett bok",
+    "description": "En omfattande guide till strategisk organisering för aktivister på grön nivå som är redo att utveckla systemtänkande på gul nivå och effektivt handlande."
+  },
+  "categories": {
+    "frontMatter": "Inledande sidor",
+    "backMatter": "Avslutande sidor"
+  },
+  "parts": {
+    "Part I: The Problem": "Del I: Problemet",
+    "Part II: The Framework": "Del II: Ramverket",
+    "Part III: The Strategy": "Del III: Strategin",
+    "Part IV: The Practice": "Del IV: Praktiken",
+    "Part V: The Movement": "Del V: Rörelsen"
+  },
+  "sections": {
+    "book-cover": "Bokomslag",
+    "dedication": "Dedikation",
+    "personal-letter": "Ett personligt brev till Dickie (och alla som honom)",
+    "table-of-contents": "Innehållsförteckning",
+    "chapter-1": "Kapitel 1: Metadatan – hur manuskripten faktiskt körs",
+    "chapter-2": "Kapitel 2: Varför smarta människor fortsätter förlora",
+    "chapter-3": "Kapitel 3: Integrationskrisen – gula lösningar på orange problem",
+    "chapter-4": "Kapitel 4: Fällan med performativ aktivism",
+    "chapter-5": "Kapitel 5: Vecka noll-protokollet – hur du kartlägger din stad på tre timmar",
+    "chapter-6": "Kapitel 6: Diagnostik av det riggade brädet",
+    "chapter-7": "Kapitel 7: Att läsa rummet – utvecklingsstadier i handling",
+    "chapter-8": "Kapitel 8: Koalitionsarkitektur – att bygga allianser som inte kollapsar",
+    "chapter-9": "Kapitel 9: Den strategiska stacken – integration kontra fragmentering",
+    "chapter-10": "Kapitel 10: Fristadsdistrikt – att skapa icke-extraktiva zoner",
+    "chapter-11": "Kapitel 11: Det suveräna golvet – ekonomisk trygghet som infrastruktur",
+    "chapter-12": "Kapitel 12: Kognitiv suveränitet – att skydda uppmärksamhet som allmänning",
+    "chapter-13": "Kapitel 13: Kommunal hävstång – varför lokalstyre spelar roll",
+    "chapter-14": "Kapitel 14: Trojansk häst-strategin – att bädda in förändring i wellness",
+    "chapter-15": "Kapitel 15: Kampanjdesign som inte bränner ut folk",
+    "chapter-16": "Kapitel 16: Integrationsstyrkortet – att förhindra aktivistteater",
+    "chapter-17": "Kapitel 17: Att bygga nätverket – från lokala noder till planetär rörelse",
+    "chapter-18": "Kapitel 18: Pengafrågan – finansiering utan korruption",
+    "chapter-19": "Kapitel 19: När man ska slåss och när man ska bygga",
+    "chapter-20": "Kapitel 20: Det långa spelet – strategi i civilisatorisk skala",
+    "appendix-a": "Bilaga A: Introduktion till Spiral Dynamics för organisatörer",
+    "appendix-b": "Bilaga B: Startpaket för Discord-communityorganisering",
+    "appendix-c": "Bilaga C: Mallar för kommunala resolutioner",
+    "appendix-d": "Bilaga D: Mall för integrationsstyrkort",
+    "appendix-e": "Bilaga E: Vidare läsning som inte slösar din tid",
+    "about": "Om författaren"
+  },
+  "sectionsShort": {
+    "book-cover": "Omslag",
+    "dedication": "Dedikation",
+    "personal-letter": "Personligt brev",
+    "table-of-contents": "Innehåll",
+    "chapter-1": "Kap 1: Metadatan",
+    "chapter-2": "Kap 2: Varför smarta förlorar",
+    "chapter-3": "Kap 3: Integrationskrisen",
+    "chapter-4": "Kap 4: Performativ aktivism",
+    "chapter-5": "Kap 5: Vecka noll-protokoll",
+    "chapter-6": "Kap 6: Riggat bräde",
+    "chapter-7": "Kap 7: Att läsa rummet",
+    "chapter-8": "Kap 8: Koalitionsarkitektur",
+    "chapter-9": "Kap 9: Strategisk stack",
+    "chapter-10": "Kap 10: Fristadsdistrikt",
+    "chapter-11": "Kap 11: Suveränt golv",
+    "chapter-12": "Kap 12: Kognitiv suveränitet",
+    "chapter-13": "Kap 13: Kommunal hävstång",
+    "chapter-14": "Kap 14: Trojansk häst",
+    "chapter-15": "Kap 15: Kampanjdesign",
+    "chapter-16": "Kap 16: Integrationsstyrkort",
+    "chapter-17": "Kap 17: Att bygga nätverket",
+    "chapter-18": "Kap 18: Pengafrågan",
+    "chapter-19": "Kap 19: Slåss eller bygga",
+    "chapter-20": "Kap 20: Det långa spelet",
+    "appendix-a": "Spiral Dynamics-intro",
+    "appendix-b": "Discord-organisering",
+    "appendix-c": "Kommunala mallar",
+    "appendix-d": "Styrkortsmall",
+    "appendix-e": "Vidare läsning",
+    "about": "Om författaren"
+  },
+  "pdfDownload": {
+    "title": "Ladda ner komplett bok",
+    "subtitle": "PDF-format",
+    "englishOnly": "PDF endast tillgänglig på engelska"
+  },
+  "actions": {
+    "readOnline": "Läs online"
+  },
+  "languageAvailability": {
+    "title": "Meddelande om innehållstillgänglighet",
+    "description": "Denna bok är för närvarande endast tillgänglig på engelska. Vissa avsnitt kan visas på engelska medan vi arbetar med översättningar.",
+    "contentStatus": "Innehåll: Endast engelska",
+    "pdfStatus": "PDF: Endast engelska"
+  },
+  "languageFallback": {
+    "title": "Innehåll på ditt språk kommer snart",
+    "description": "Detta avsnitt visas för närvarande på engelska tills översättningen är klar."
+  },
+  "navigation": {
+    "previousSection": "Föregående",
+    "nextSection": "Nästa",
+    "downloadPdf": "Ladda ner PDF"
+  },
+  "breadcrumb": {
+    "resources": "Resurser",
+    "books": "Böcker",
+    "currentBook": "Radikal kompetens"
+  },
+  "progress": {
+    "text": "Kapitel {current} av {total}"
+  },
+  "loading": {
+    "text": "Laddar bokinnehåll..."
+  },
+  "errors": {
+    "sectionNotFound": "Avsnitt \"{section}\" hittades inte",
+    "contentInDevelopment": "Detta innehåll är fortfarande under utveckling."
+  },
+  "targetAudience": {
+    "title": "Vem denna bok är för",
+    "description": "Skriven för aktivister på grön nivå (som Dickie i Reading, Storbritannien) som är frustrerade över ineffektiv organisering och redo att utveckla strategiskt tänkande på systemnivå utan att överge sina värderingar."
+  },
+  "bookContext": {
+    "series": "Spiral-serien",
+    "position": "Första boken som riktar sig mot övergången från grön till gul",
+    "companion": "Verktyg och mallar finns tillgängliga på globalgovernanceframeworks.org/tools"
+  }
+}

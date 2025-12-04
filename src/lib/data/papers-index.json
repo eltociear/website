@@ -31,6 +31,23 @@
     "lang": "en"
   },
   {
+    "slug": "omega-proof",
+    "lang": "en",
+    "meta": {
+      "title": "The Omega Proof",
+      "description": "An Empirical Demonstration of the Nation-State System's Terminal Incompatibility with Planetary Peace. We used adversarial AI to simulate the four veto-players in the Ukraine war, proving peace is architecturally impossible under current rules.",
+      "date": "2025-12-04",
+      "author": "Björn Kenneth Holmström + AI",
+      "status": "published",
+      "category": "governance",
+      "readTime": "60",
+      "pages": "65",
+      "version": "1.0",
+      "tags": ["Simulation", "Geopolitics", "AI", "Systems Theory"],
+      "pdfPath": "/resources/whitepapers/omega-proof/downloads/omega-proof.pdf"
+    }
+  },
+  {
     "meta": {
       "title": "Cognitive Scaffolding: A Multi-Model AI Synthesis Method for Solving Complex Systemic Problems",
       "author": "Björn Kenneth Holmström",
@@ -185,6 +202,23 @@
     },
     "slug": "the-responsive-society",
     "lang": "en"
+  },
+  {
+    "slug": "omega-proof",
+    "lang": "sv",
+    "meta": {
+      "title": "The Omega Proof",
+      "description": "En empirisk demonstration av nationalstatssystemets terminala oförenlighet med planetär fred. Vi använde motstridiga AI-modeller för att simulera de fyra vetospelarna i Ukrainakriget, vilket bevisade att fred är arkitektoniskt omöjlig under nuvarande regler.",
+      "date": "2026-01-04",
+      "author": "Björn Kenneth Holmström + AI",
+      "status": "published",
+      "category": "governance",
+      "readTime": "60",
+      "pages": "65",
+      "version": "1.0",
+      "tags": ["Simulering", "Geopolitik", "AI", "Systemteori"],
+      "pdfPath": "/resources/whitepapers/omega-proof/downloads/omega-proof.pdf"
+    }
   },
   {
     "meta": {

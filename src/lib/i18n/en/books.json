@@ -20,7 +20,8 @@
     "sustainability": "Sustainability",
     "metrics": "Metrics",
     "philosophy": "Philosophy",
-    "methodology": "Methodology"
+    "methodology": "Methodology",
+    "activism": "Activism"
   },
   "actions": {
     "readOnline": "Read Online",
@@ -29,11 +30,20 @@
     "share": "Share",
     "bookmark": "Bookmark",
     "comingSoon": "Coming Soon",
-    "notAvailable": "Not Available"
+    "notAvailable": "Not Available",
+    "readExternal": "Read Online (External)"
   },
   "ai": {
     "title": "AI as Catalyst for Cognitive Evolution: From Fragmentation to Integration in the Age of AI",
     "description": "This book explores how humanity can consciously partner with artificial intelligence, using it as a 'cognitive scaffold' to accelerate the leap from the fragmented 'Tier 1' thinking that drives the polycrisis to the integrated 'Tier 2' consciousness required for a flourishing future."
+  },
+  "radicalCompetence": {
+    "title": "Radical Competence: Strategic Activism for the Systems-Thinking Age",
+    "description": "A practical guide for Green-stage activists ready to develop Yellow-level strategic thinking and build campaigns that actually work. Includes templates for power mapping, integration assessment, and municipal organizing."
+  },
+  "integrationCrisis": {
+    "title": "The Integration Crisis: Yellow Solutions to Orange Problems",
+    "description": "A comprehensive framework for understanding fragmentation and building systems that support whole human beings across biological, cognitive, emotional, behavioral, social, and spiritual dimensions."
   },
   "globalGovernance": {
     "title": "Global Governance: Natural Steps Toward a Thriving World",

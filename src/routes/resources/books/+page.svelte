@@ -33,6 +33,37 @@
       pages: '236'
     },
     {
+      id: 'radical-competence',
+      title: $t('books.radicalCompetence.title'),
+      description: $t('books.radicalCompetence.description'),
+      cover: `${base}/resources/book-cover-radical-competence.svg`,
+      pdfPath: {
+        en: null, // Coming soon
+        sv: null
+      },
+      readOnlinePath: '/resources/books/radical-competence',
+      hasOnlineVersion: true,
+      category: 'activism',
+      year: '2025',
+      pages: 'In progress'
+    },
+    {
+      id: 'integration-crisis',
+      title: $t('books.integrationCrisis.title'),
+      description: $t('books.integrationCrisis.description'),
+      cover: `${base}/resources/book-cover-integration-crisis.svg`,
+      pdfPath: {
+        en: 'https://www.bjornkennethholmstrom.org/books/The_Integration_Crisis.pdf',
+        sv: null
+      },
+      readOnlinePath: 'https://www.bjornkennethholmstrom.org/books/integration-crisis',
+      hasOnlineVersion: true,
+      isExternal: true, // Indicates external link
+      category: 'systems',
+      year: '2025',
+      pages: '500'
+    },
+    {
       id: 'global-governance',
       title: $t('books.globalGovernance.title'),
       description: $t('books.globalGovernance.description'),
@@ -156,7 +187,8 @@
     sustainability: '#059669',
     metrics: '#DC2626',
     philosophy: '#7C2D12',
-    methodology: '#1E40AF'
+    methodology: '#1E40AF',
+    activism: '#7c3aed' // Purple for activism
   };
 
   // Get category icon
@@ -169,7 +201,8 @@
       sustainability: '🌱',
       metrics: '📊',
       philosophy: '🤔',
-      methodology: '🔬'
+      methodology: '🔬',
+      activism: '✊'
     };
     return icons[category] || '📚';
   }
@@ -319,9 +352,14 @@
                   <a 
                     href={book.readOnlinePath}
                     class="read-online-button primary"
+                    target={book.isExternal ? '_blank' : '_self'}
+                    rel={book.isExternal ? 'noopener noreferrer' : ''}
                   >
                     <span class="button-icon">📖</span>
-                    {$t('books.actions.readOnline')}
+                    {book.isExternal ? $t('books.actions.readExternal') : $t('books.actions.readOnline')}
+                    {#if book.isExternal}
+                      <span class="external-icon">↗</span>
+                    {/if}
                   </a>
                 {/if}
 
@@ -669,6 +707,12 @@
 
   .button-icon {
     font-size: 1rem;
+  }
+
+  .external-icon {
+    font-size: 0.8rem;
+    margin-left: 0.25rem;
+    opacity: 0.8;
   }
 
   /* Responsive Design */

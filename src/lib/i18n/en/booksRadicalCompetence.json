@@ -1,0 +1,130 @@
+{
+  "bookTitle": "Radical Competence",
+  "bookSubtitle": "Strategic Activism for the Systems-Thinking Age",
+  "meta": {
+    "title": "Radical Competence - Complete Book",
+    "description": "A comprehensive guide to strategic organizing for Green-stage activists ready to develop Yellow-level systems thinking and effective action."
+  },
+  "categories": {
+    "frontMatter": "Front Matter",
+    "backMatter": "Back Matter"
+  },
+  "parts": {
+    "Part I: The Problem": "Part I: The Problem",
+    "Part II: The Framework": "Part II: The Framework",
+    "Part III: The Strategy": "Part III: The Strategy",
+    "Part IV: The Practice": "Part IV: The Practice",
+    "Part V: The Movement": "Part V: The Movement"
+  },
+  "sections": {
+    "book-cover": "Book Cover",
+    "dedication": "Dedication",
+    "personal-letter": "A Personal Letter to Dickie (and Everyone Like Him)",
+    "table-of-contents": "Table of Contents",
+    "chapter-1": "Chapter 1: The Metadata - How the Scripts Actually Run",
+    "chapter-2": "Chapter 2: Why Smart People Keep Losing",
+    "chapter-3": "Chapter 3: The Integration Crisis - Yellow Solutions to Orange Problems",
+    "chapter-4": "Chapter 4: The Activist Performance Trap",
+    "chapter-5": "Chapter 5: Week Zero Protocol - How to Map Your City in Three Hours",
+    "chapter-6": "Chapter 6: The Rigged Board Diagnostic",
+    "chapter-7": "Chapter 7: Reading the Room - Developmental Stages in Action",
+    "chapter-8": "Chapter 8: Coalition Architecture - Building Alliances That Don't Collapse",
+    "chapter-9": "Chapter 9: The Strategic Stack - Integration vs. Fragmentation",
+    "chapter-10": "Chapter 10: Sanctuary Districts - Creating Non-Extractive Zones",
+    "chapter-11": "Chapter 11: The Sovereign Floor - Economic Security as Infrastructure",
+    "chapter-12": "Chapter 12: Cognitive Sovereignty - Protecting Attention as Commons",
+    "chapter-13": "Chapter 13: Municipal Leverage - Why Local Government Matters",
+    "chapter-14": "Chapter 14: The Trojan Horse Strategy - Embedding Change in Wellness",
+    "chapter-15": "Chapter 15: Campaign Design That Doesn't Burn People Out",
+    "chapter-16": "Chapter 16: The Integration Scorecard - Preventing Activist Theater",
+    "chapter-17": "Chapter 17: Building the Network - From Local Nodes to Planetary Movement",
+    "chapter-18": "Chapter 18: The Money Question - Funding Without Corruption",
+    "chapter-19": "Chapter 19: When to Fight and When to Build",
+    "chapter-20": "Chapter 20: The Long Game - Civilization-Scale Strategy",
+    "appendix-a": "Appendix A: Spiral Dynamics Primer for Organizers",
+    "appendix-b": "Appendix B: Discord Community Organizing Starter Pack",
+    "appendix-c": "Appendix C: Municipal Resolution Templates",
+    "appendix-d": "Appendix D: Integration Scorecard Template",
+    "appendix-e": "Appendix E: Further Reading That Doesn't Waste Your Time",
+    "about": "About the Author"
+  },
+  "sectionsShort": {
+    "book-cover": "Cover",
+    "dedication": "Dedication",
+    "personal-letter": "Personal Letter",
+    "table-of-contents": "Contents",
+    "chapter-1": "Ch 1: The Metadata",
+    "chapter-2": "Ch 2: Why Smart People Lose",
+    "chapter-3": "Ch 3: Integration Crisis",
+    "chapter-4": "Ch 4: Activist Performance",
+    "chapter-5": "Ch 5: Week Zero Protocol",
+    "chapter-6": "Ch 6: Rigged Board",
+    "chapter-7": "Ch 7: Reading the Room",
+    "chapter-8": "Ch 8: Coalition Architecture",
+    "chapter-9": "Ch 9: Strategic Stack",
+    "chapter-10": "Ch 10: Sanctuary Districts",
+    "chapter-11": "Ch 11: Sovereign Floor",
+    "chapter-12": "Ch 12: Cognitive Sovereignty",
+    "chapter-13": "Ch 13: Municipal Leverage",
+    "chapter-14": "Ch 14: Trojan Horse",
+    "chapter-15": "Ch 15: Campaign Design",
+    "chapter-16": "Ch 16: Integration Scorecard",
+    "chapter-17": "Ch 17: Building the Network",
+    "chapter-18": "Ch 18: The Money Question",
+    "chapter-19": "Ch 19: Fight or Build",
+    "chapter-20": "Ch 20: The Long Game",
+    "appendix-a": "Spiral Dynamics Primer",
+    "appendix-b": "Discord Organizing",
+    "appendix-c": "Municipal Templates",
+    "appendix-d": "Scorecard Template",
+    "appendix-e": "Further Reading",
+    "about": "About the Author"
+  },
+  "pdfDownload": {
+    "title": "Download Complete Book",
+    "subtitle": "PDF Format",
+    "englishOnly": "PDF available in English only"
+  },
+  "actions": {
+    "readOnline": "Read Online"
+  },
+  "languageAvailability": {
+    "title": "Content Availability Notice",
+    "description": "This book is currently available in English only. Some sections may display in English while we work on translations.",
+    "contentStatus": "Content: English only",
+    "pdfStatus": "PDF: English only"
+  },
+  "languageFallback": {
+    "title": "Content in your language coming soon",
+    "description": "This section is currently displayed in English until translation is complete."
+  },
+  "navigation": {
+    "previousSection": "Previous",
+    "nextSection": "Next",
+    "downloadPdf": "Download PDF"
+  },
+  "breadcrumb": {
+    "resources": "Resources",
+    "books": "Books",
+    "currentBook": "Radical Competence"
+  },
+  "progress": {
+    "text": "Chapter {current} of {total}"
+  },
+  "loading": {
+    "text": "Loading book content..."
+  },
+  "errors": {
+    "sectionNotFound": "Section \"{section}\" not found",
+    "contentInDevelopment": "This content is still being developed."
+  },
+  "targetAudience": {
+    "title": "Who This Book Is For",
+    "description": "Written for Green-stage activists (like Dickie in Reading, UK) who are frustrated with ineffective organizing and ready to develop strategic, systems-level thinking without abandoning their values."
+  },
+  "bookContext": {
+    "series": "Spiral Series",
+    "position": "First book targeting Green-to-Yellow transition",
+    "companion": "Tools and templates available at globalgovernanceframeworks.org/tools"
+  }
+}
