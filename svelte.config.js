@@ -89,6 +89,9 @@ const config = {
         '/terms?lang=sv',
         '/youth?lang=en',
         '/youth?lang=sv',
+        '/omega',
+        '/omega?lang=en',
+        '/omega?lang=sv',
 
         // --- Framework Index Pages ---
         '/frameworks?lang=en',
@@ -174,6 +177,9 @@ const config = {
         '/resources/protocols?lang=sv',
         '/resources/tools?lang=en',
         '/resources/tools?lang=sv',
+        '/resources/whitepapers/omega-proof/visuals',
+        '/resources/whitepapers/omega-proof/visuals?lang=en',
+        '/resources/whitepapers/omega-proof/visuals?lang=sv',
 
         '/rss.xml',
         ...blogEntries,
