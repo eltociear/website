@@ -12,13 +12,11 @@ Protocol Omega was engineered to bypass politics entirely. Its goal was not appe
 
 Every component addresses a specific, documented failure mode from previous peace processes: Minsk I and II (unenforceable ceasefires, no verification mechanisms), the Budapest Memorandum (worthless security guarantees), Istanbul 2022 (collapsed over mutual distrust), and countless frozen conflicts where ambiguous sovereignty became permanent instability.
 
-The protocol's architecture rests on three foundational principles:
+The protocol's architecture rests on two foundational principles:
 
 1. **Trust-free execution**: No critical function depends on goodwill. All major transfers are escrowed, verified by neutral third parties, and triggered automatically.
 
 2. **Positive-sum economics**: Every party gains measurable security or prosperity that exceeds what continued war could deliver. The settlement is not a compromise (where all lose something) but a synthesis (where mutual constraint enables mutual gain).
-
-3. **Legal bomb-proofing**: Seven annexes specify mechanisms down to the technical level—hardware tamper-locks, smart-contract triggers, jurisdictional protocols—making the settlement implementable within 100 days of signature.
 
 ### Theoretical Foundation: Beyond the Prisoner's Dilemma
 
@@ -31,7 +29,7 @@ It does this by altering the game's architecture:
 
 It is, in essence, a **trustless coordination machine**—one that should function regardless of whether the parties like, trust, or even respect each other.
 
-What follows is a non-technical summary. The full Protocol Omega (Bulletproof Edition) document, including all annexes, is available in the research package.
+What follows is a non-technical summary. The full Protocol Omega (Bulletproof Edition) document, is available in the research package.
 
 ## The Four Pillars
 

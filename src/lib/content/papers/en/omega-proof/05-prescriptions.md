@@ -392,6 +392,6 @@ The Omega Proof demonstrated that peace is impossible under current rules. This 
 
 **The transition is inevitable. The only variable is how much we suffer through the interregnum between systems.**
 
-The salvage operation has already begun.
+The salvage operation must begin.
 
 **Section 6 examines the implications for policy actors, researchers, and the global public in the time remaining.**
