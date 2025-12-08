@@ -162,7 +162,7 @@ For decades, the cost of our debt grew slowly. We could ignore the degrading soi
 
 But exponential curves have a nasty feature: they look flat for a long time, and then, suddenly, they go vertical.
 
-We have hit the **Vertical Cost Curve**.
+We have hit the [**Vertical Cost Curve**](https://globalgovernanceframeworks.org/resources/whitepapers/omega-proof) (see our simulation data in The Omega Proof).
 
 ### The Squeeze
 The cost of solving our problems is now rising faster than our capacity to generate resources.
@@ -319,6 +319,8 @@ We can pay this bill together, or we can default alone.
 ---
 
 *Download the Developmental Debt Calculator template at [globalgovernanceframeworks.org/tools/developmental-debt](/tools/developmental-debt)*
+
+**Dig Deeper into the Data** The concept of the "Vertical Cost Curve" is derived from our adversarial AI simulations of the Westphalian system. 📄 [Read the White Paper: The Omega Proof](https://globalgovernanceframeworks.org/resources/whitepapers/omega-proof)
 
 ---
 

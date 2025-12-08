@@ -162,7 +162,7 @@ I årtionden växte kostnaden för vår skuld långsamt. Vi kunde ignorera den f
 
 Men exponentiella kurvor har en otäck egenskap: de ser platta ut under lång tid, och sedan, plötsligt, går de vertikalt.
 
-Vi har träffat den **vertikala kostnadskurvan**.
+Vi har träffat den [**vertikala kostnadskurvan**](https://globalgovernanceframeworks.org/resources/whitepapers/omega-proof) (se vår simuleringsdata i The Omega Proof).
 
 ### Klämman
 Kostnaden för att lösa våra problem stiger nu snabbare än vår kapacitet att generera resurser.
@@ -319,6 +319,8 @@ Vi kan betala denna nota tillsammans, eller så kan vi gå i konkurs ensamma.
 ---
 
 *Ladda ner mallen för utvecklingsskuldskalkylatorn på [globalgovernanceframeworks.org/tools/developmental-debt](/tools/developmental-debt)*
+
+**Gräv djupare i datan** Konceptet med den "vertikala kostnadskurvan" härrör från våra AI-simuleringar av det westfaliska systemet. 📄 [Läs artikeln: The Omega Proof](https://globalgovernanceframeworks.org/resources/whitepapers/omega-proof)
 
 ---
 
