@@ -20,29 +20,29 @@ We assume that if we could just replace the people at the top with smarter, more
 We are wrong. The machine isn’t broken because the operators are bad.
 The machine is broken because it is bankrupt.
 
-We are not facing a moral crisis. We are facing a civilizational **Margin Call**.
+We are not facing a moral crisis. We are facing a civilizational Margin Call.
 
 For the last 50 years, we have been running an operating system designed for a world of infinite frontiers (Stage Orange) on a planet with hard physical boundaries. We purchased our growth on credit, moving the costs of carbon, inequality, and institutional decay off the balance sheet and calling them "externalities."
 
 But in a closed system, there is no "externality." There is only "later."
 And later has arrived.
 
-I just published a new manifesto for the **Global Governance Frameworks (GGF)**:
-📄 **"The Bill is Coming Due: A Manifesto of Developmental Debt"**
+I just published a new manifesto for the Global Governance Frameworks (GGF):
+📄 "The Bill is Coming Due: A Manifesto of Developmental Debt"
 
-It introduces the concept of **Developmental Debt**—the liability we accrue when we use simple thinking to manage complex realities.
+It introduces the concept of Developmental Debt—the liability we accrue when we use simple thinking to manage complex realities.
 
-* **The Blue Debt (Rigidity Tax):** The cost of prioritizing Order over Adaptation.
-* **The Orange Debt (Externalization Risk):** The cost of prioritizing Profit over Resilience.
-* **The Green Debt (Consensus Tax):** The cost of prioritizing Inclusion over Competence.
+- The Blue Debt (Rigidity Tax): The cost of prioritizing Order over Adaptation.
+- The Orange Debt (Externalization Risk): The cost of prioritizing Profit over Resilience.
+- The Green Debt (Consensus Tax): The cost of prioritizing Inclusion over Competence.
 
 We are technically insolvent. The interest payments (crisis management) are now exceeding our growth.
 
 We have two choices left:
-1. **Hard Default (Collapse):** We pay the debt in chaos.
-2. **Strategic Restructuring (Chapter 11):** We upgrade our operating system.
+1. Hard Default (Collapse): We pay the debt in chaos.
+2. Strategic Restructuring (Chapter 11): We upgrade our operating system.
 
-I have also released a **Developmental Debt Audit Tool** (an open-source Excel model) to help organizations calculate their own liability.
+I have also released a Developmental Debt Audit Tool (an open-source Excel model) to help organizations calculate their own liability.
 
 Read the Manifesto and download the tool here:
 https://globalgovernanceframeworks.org/blog/the-bill-is-coming-due
