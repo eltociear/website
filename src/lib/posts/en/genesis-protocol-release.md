@@ -5,7 +5,7 @@ date: "2025-11-04"
 author: "Björn K. Holmström"
 category: "update"
 tags: ["genesis-protocol", "constitution", "convening", "governance"]
-hashtags: ["GenesisProtocol", "ConstitutionalConvening", "PlanetaryGovernance"]
+hashtags: ["GenesisProtocol", "ConstitutionalConvening", "PlanetaryGovernance"]pdfPath: "/blog/pdfs/genesis-protocol-release.pdf"
 ---
 
 # Genesis Protocol Published: Constitutional Convening for Planetary Governance

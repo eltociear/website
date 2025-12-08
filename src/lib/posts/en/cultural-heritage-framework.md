@@ -5,7 +5,7 @@ date: "2025-11-02"
 author: "Björn K. Holmström"
 category: "update"
 tags: ["cultural-heritage", "preservation", "framework", "comprehensive"]
-hashtags: ["CulturalHeritage", "ProjectTapestry", "CulturalPreservation"]
+hashtags: ["CulturalHeritage", "ProjectTapestry", "CulturalPreservation"]pdfPath: "/blog/pdfs/cultural-heritage-framework.pdf"
 ---
 
 # Framework Complete: Cultural Heritage Preservation - 100,000 Words Across 14 Documents

@@ -5,7 +5,7 @@ date: "2025-11-04"
 author: "Björn K. Holmström"
 category: "update"
 tags: ["genesis-protocol", "konstitution", "sammankallning", "styrning"]
-hashtags: ["GenesisProtokoll", "KonstitutionellSammankallning", "PlanetärStyrning"]
+hashtags: ["GenesisProtokoll", "KonstitutionellSammankallning", "PlanetärStyrning"]pdfPath: "/blog/pdfs/genesis-protocol-release-sv.pdf"
 ---
 
 # Genesis Protocol publicerat: konstitutionell sammankallning för planetär styrning

@@ -5,7 +5,7 @@ date: "2025-10-04"
 author: "Björn K. Holmström"
 category: "update"
 tags: ["whitepaper", "responsive-society", "governance", "analysis"]
-hashtags: ["ResponsiveSociety", "GovernanceInnovation", "SystemicChange"]
+hashtags: ["ResponsiveSociety", "GovernanceInnovation", "SystemicChange"]pdfPath: "/blog/pdfs/responsive-society-whitepaper.pdf"
 ---
 
 # Whitepaper Published: The Responsive Society - Beyond Reactive Governance

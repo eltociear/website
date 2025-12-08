@@ -5,7 +5,7 @@ date: "2025-09-17"
 author: "Björn K. Holmström"
 category: "update"
 tags: ["currency", "economics", "hearts", "leaves", "care-work"]
-hashtags: ["HeartsAndLeaves", "CareEconomy", "RegenerativeEconomics"]
+hashtags: ["HeartsAndLeaves", "CareEconomy", "RegenerativeEconomics"]pdfPath: "/blog/pdfs/hearts-leaves-currency.pdf"
 ---
 
 # Breakthrough: Hearts and Leaves Currency System Unveiled

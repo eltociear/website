@@ -5,7 +5,7 @@ date: "2025-10-24"
 author: "Björn K. Holmström"
 category: "update"
 tags: ["bioregional", "autonomous-zones", "indigenous", "governance", "land"]
-hashtags: ["BioregionalGovernance", "AutonomousZones", "LandWisdom"]
+hashtags: ["BioregionalGovernance", "AutonomousZones", "LandWisdom"]pdfPath: "/blog/pdfs/bioregional-autonomous-zones.pdf"
 ---
 
 # Framework Release: Bioregional Autonomous Zones - Weaving Governance Back to the Land

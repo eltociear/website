@@ -366,6 +366,41 @@
   },
   {
     "meta": {
+      "title": "The Bill is Coming Due: A Manifesto of Developmental Debt",
+      "description": "Why the global crisis isn't a failure of morals, but a failure of accounting. We have been running Stage Orange software on a planetary hard drive that is now full. A forensic audit of our civilizational balance sheet.",
+      "author": "Björn Kenneth Holmström",
+      "date": "2025-12-08",
+      "tags": [
+        "Developmental Debt",
+        "Economics",
+        "Systems Thinking",
+        "Global Governance",
+        "GGF",
+        "Metacrisis",
+        "AUBI",
+        "Protocol Omega",
+        "Regenerative Economics",
+        "Planetary Boundaries"
+      ],
+      "hashtags": [
+        "#DevelopmentalDebt",
+        "#GGF",
+        "#SystemicRestructuring",
+        "#Metacrisis",
+        "#RegenerativeEconomics",
+        "#PlanetaryBoundaries",
+        "#GlobalGovernance",
+        "#AUBI",
+        "#Chapter11ForCivilization",
+        "#TheGreatRestructuring"
+      ],
+      "readTime": 12
+    },
+    "slug": "the-bill-is-coming-due",
+    "lang": "en"
+  },
+  {
+    "meta": {
       "title": "The Currency of Care: Why a Basic Income Is Just the Beginning",
       "description": "Universal Basic Income is a crucial safety net, but it doesn't solve our deeper crisis of value. Discover how a new kind of money—a 'Currency of Care'—could build on UBI to create a truly regenerative economy.",
       "author": "Global Governance Frameworks",
@@ -756,6 +791,41 @@
     },
     "slug": "first-blog-post",
     "lang": "test"
+  },
+  {
+    "meta": {
+      "title": "Notan förfaller: Ett manifest om utvecklingsskuld",
+      "description": "Varför den globala krisen inte är ett moraliskt misslyckande, utan ett bokföringsfel. Vi har kört 'Stage Orange'-mjukvara på en planetär hårddisk som nu är full. En forensisk revision av vår civilisatoriska balansräkning.",
+      "author": "Björn Kenneth Holmström",
+      "date": "2025-12-08",
+      "tags": [
+        "Utvecklingsskuld",
+        "Ekonomi",
+        "Systemtänkande",
+        "Global Styrning",
+        "GGF",
+        "Metakris",
+        "AUBI",
+        "Protokoll Omega",
+        "Regenerativ Ekonomi",
+        "Planetära Gränser"
+      ],
+      "hashtags": [
+        "#Utvecklingsskuld",
+        "#GGF",
+        "#SystemiskOmstrukturering",
+        "#Metakris",
+        "#RegenerativEkonomi",
+        "#PlanetäraGränser",
+        "#GlobalStyrning",
+        "#AUBI",
+        "#Kapitel11FörCivilisationen",
+        "#DenStoraOmstruktureringen"
+      ],
+      "readTime": 12
+    },
+    "slug": "the-bill-is-coming-due",
+    "lang": "sv"
   },
   {
     "meta": {

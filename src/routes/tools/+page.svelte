@@ -14,6 +14,25 @@
 
   // Tools data - will expand as more tools are added
   $: tools = [
+   {
+      id: 'developmental-debt',
+      title: 'Developmental Debt Audit',
+      subtitle: 'Forensic Accounting Tool',
+      description: 'A spreadsheet calculator to identify the Avoidance, Cleanup, and Opportunity costs of Tier 1 thinking in your organization.',
+      icon: '🧾',
+      color: '#10b981', // Emerald green for "Finance/Excel" feel
+      lightColor: 'rgba(16, 185, 129, 0.1)',
+      href: `${base}/tools/developmental-debt`,
+      badges: [
+        { text: 'Excel Template', icon: '📊' },
+        { text: '15 Min', icon: '⏱️' },
+        { text: 'Diagnostic', icon: '🔍' },
+        { text: 'Download', icon: '⬇️' }
+      ],
+      tags: ['Strategy', 'Finance', 'Systems', 'Audit'],
+      featured: true,
+      available: true
+    },
     {
       id: 'radical-competence',
       title: 'The Rigged Board Diagnostic',

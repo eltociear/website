@@ -5,7 +5,7 @@ date: "2025-03-24"
 author: "Björn K. Holmström"
 category: "update"
 tags: ["frameworks", "implementation", "navigation", "governance"]
-hashtags: ["FrameworkExpansion", "ImplementationTools", "GovernanceProtocols"]
+hashtags: ["FrameworkExpansion", "ImplementationTools", "GovernanceProtocols"]pdfPath: "/blog/pdfs/framework-expansion.pdf"
 ---
 
 # Major Framework Expansion: Implementation Tools and Governance Protocols

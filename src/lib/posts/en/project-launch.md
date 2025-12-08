@@ -5,7 +5,7 @@ date: "2025-03-23"
 author: "Björn K. Holmström"
 category: "update"
 tags: ["launch", "milestone", "governance", "planetary-scale"]
-hashtags: ["ProjectLaunch", "GlobalGovernance", "PlanetaryGovernance"]
+hashtags: ["ProjectLaunch", "GlobalGovernance", "PlanetaryGovernance"]pdfPath: "/blog/pdfs/project-launch.pdf"
 ---
 
 # Project Launch: Global Governance Framework Goes Live
