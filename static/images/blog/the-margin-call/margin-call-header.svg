@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:0.9" />
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e67e22;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#d35400;stop-opacity:0.9" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#27ae60;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#229954;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background debt visualization - exponential curves -->
+  <g opacity="0.3">
+    <!-- Blue debt curve (bottom layer) -->
+    <path d="M 50 350 Q 200 340, 350 320 Q 500 290, 650 240 Q 800 170, 950 80 L 950 350 Z" 
+          fill="url(#blueGrad)" stroke="none"/>
+    
+    <!-- Orange debt curve (middle layer) -->
+    <path d="M 50 350 Q 200 330, 350 300 Q 500 260, 650 200 Q 800 120, 950 40 L 950 350 Z" 
+          fill="url(#orangeGrad)" stroke="none"/>
+    
+    <!-- Green debt curve (top layer) -->
+    <path d="M 50 350 Q 200 320, 350 280 Q 500 230, 650 160 Q 800 80, 950 20 L 950 350 Z" 
+          fill="url(#greenGrad)" stroke="none"/>
+  </g>
+  
+  <!-- Vertical "margin call" line -->
+  <line x1="960" y1="20" x2="960" y2="350" stroke="#e74c3c" stroke-width="3" stroke-dasharray="5,5" opacity="0.6"/>
+  <text x="970" y="190" font-family="'Courier New', monospace" font-size="14" fill="#e74c3c" opacity="0.7">
+    <tspan>MARGIN</tspan>
+    <tspan x="970" dy="18">CALL</tspan>
+  </text>
+  
+  <!-- Main title -->
+  <text x="600" y="140" font-family="'Arial Black', sans-serif" font-size="62" font-weight="bold" 
+        fill="#ffffff" text-anchor="middle" letter-spacing="-1">
+    THE BILL IS COMING DUE
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="190" font-family="'Georgia', serif" font-size="24" font-style="italic"
+        fill="#bdc3c7" text-anchor="middle">
+    A Manifesto of Developmental Debt
+  </text>
+  
+  <!-- Author line -->
+  <text x="600" y="240" font-family="'Arial', sans-serif" font-size="16"
+        fill="#95a5a6" text-anchor="middle">
+    Björn Kenneth Holmström | Global Governance Frameworks
+  </text>
+  
+  <!-- Debt legend (bottom left) -->
+  <g opacity="0.7">
+    <rect x="50" y="310" width="20" height="20" fill="url(#blueGrad)"/>
+    <text x="75" y="325" font-family="'Arial', sans-serif" font-size="14" fill="#ecf0f1">
+      Blue Debt (Rigidity)
+    </text>
+    
+    <rect x="250" y="310" width="20" height="20" fill="url(#orangeGrad)"/>
+    <text x="275" y="325" font-family="'Arial', sans-serif" font-size="14" fill="#ecf0f1">
+      Orange Debt (Externalization)
+    </text>
+    
+    <rect x="500" y="310" width="20" height="20" fill="url(#greenGrad)"/>
+    <text x="525" y="325" font-family="'Arial', sans-serif" font-size="14" fill="#ecf0f1">
+      Green Debt (Paralysis)
+    </text>
+  </g>
+  
+  <!-- Bottom warning text -->
+  <text x="600" y="365" font-family="'Courier New', monospace" font-size="13" 
+        fill="#e74c3c" text-anchor="middle" letter-spacing="1">
+    WHY THE CRISIS ISN'T A FAILURE OF MORALS, BUT A FAILURE OF ACCOUNTING
+  </text>
+</svg>

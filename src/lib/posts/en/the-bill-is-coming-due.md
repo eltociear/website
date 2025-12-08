@@ -9,6 +9,8 @@ hashtags: ["#DevelopmentalDebt", "#GGF", "#SystemicRestructuring", "#Metacrisis"
 readTime: 12
 ---
 
+![The Margin Call Header](/images/blog/the-margin-call/margin-call-header.svg)
+
 ## I. The Hook: The Margin Call
 
 If you look at the state of the world today—the gridlocked governments, the fraying supply chains, the ecosystems screaming in feedback loops—it is easy to conclude that we are being led by idiots, sociopaths, or both.

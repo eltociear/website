@@ -9,6 +9,8 @@ hashtags: ["#Utvecklingsskuld", "#GGF", "#SystemiskOmstrukturering", "#Metakris"
 readTime: 12
 ---
 
+![The Margin Call Header](/images/blog/the-margin-call/margin-call-header-sv.svg)
+
 ## I. Kroken: Säkerhetskravet
 
 Om du tittar på världsläget idag – de handlingsförlamade regeringarna, de trasiga leveranskedjorna, ekosystemen som skriker i feedback-loopar – är det lätt att dra slutsatsen att vi leds av idioter, sociopater, eller både och.
