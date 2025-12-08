@@ -213,46 +213,59 @@ When a corporation is drowning in debt it cannot pay, it faces a binary choice.
 Civilizations face the exact same choice.
 
 ### Option 1: The Hard Default (World 1)
+
 This is the path of **Liquidation**.
 We refuse to restructure. We cling to our Stage Orange operating system until the bitter end.
-* **The Mechanism:** War. When nations cannot pay their ecological or social debts, they try to steal resources from their neighbors. The "Resource Scramble" begins.
-* **The Result:** We burn the remaining assets of the planet in a final conflict for dominance. The complexity of civilization collapses. The debt is paid in blood, famine, and a return to the Stone Age.
+
+  * **The Mechanism:** War. When nations cannot pay their ecological or social debts, they try to steal resources from their neighbors. The "Resource Scramble" begins.
+  * **The Result:** We burn the remaining assets of the planet in a final conflict for dominance. The complexity of civilization collapses. The debt is paid in blood, famine, and a return to the Stone Age.
 
 ### Option 2: Strategic Restructuring (World 2)
+
 This is the path of **Reorganization**.
 We admit that the Westphalian / Neoliberal order is insolvent. It cannot solve the problems it created. We declare a "Planetary Chapter 11."
-* **The Mechanism:** We adopt a new operating system designed for a closed world (Tier 2). We convert our liabilities (carbon, inequality) into new forms of equity (regeneration, participation).
+
+  * **The Mechanism:** We adopt a new operating system designed for a closed world (Tier 2). We convert our liabilities (carbon, inequality) into new forms of equity (regeneration, participation).
 
 ### Glimmers of Restructuring
+
 This is not science fiction. We already see Chapter 11 proceedings beginning in agile corners of the world:
-* **Costa Rica** has converted its Orange debt (deforestation) into ecological equity through debt-for-nature swaps.
-* **Estonia** has reduced its Blue debt (bureaucracy) through radical digital transparency (X-Road).
-* These are proof-of-concept for the global restructuring to come.
+
+  * **Costa Rica** has converted its Orange debt (deforestation) into ecological equity through debt-for-nature swaps.
+  * **Estonia** has reduced its Blue debt (bureaucracy) through radical digital transparency (X-Road).
+  * **Taiwan** has decentralized its Green debt (polarization) by using alignment algorithms to build consensus at scale, proving digital democracy can be faster than autocracy.
 
 ### The Restructuring Plan: The Global Governance Frameworks (GGF)
 
 The GGF is not a political ideology. It is a bankruptcy restructuring plan. It consists of three specific protocols designed to balance the books.
 
+*Note: This is not a proposal for a World Government. We do not need a planetary bureaucrat to tell you how to live. We need a **Protocol Layer**—a set of non-negotiable rules for planetary safety (like air traffic control) that allows diverse nations to fly safely without crashing.*
+
 #### 1. Protocol Omega: Stopping the Bleeding
-* **The Problem:** The "Externalization Debt." Actors profit by dumping costs on the commons.
-* **The Fix:** A Meta-Sovereign compliance layer. Protocol Omega uses transparency and automated verification to ensure that no actor can "free-ride" on the stability of the whole. It closes the loop. You cannot profit from toxicity anymore.
-* **The Result:** The accumulation of new debt stops immediately.
+
+  * **The Problem:** The "Externalization Debt." Actors profit by dumping costs on the commons.
+  * **The Fix:** A Meta-Sovereign compliance layer. [Protocol Omega](https://globalgovernanceframeworks.org/resources/whitepapers/omega-proof) uses transparency and automated verification to ensure that no actor can "free-ride" on the stability of the whole. It closes the loop. You cannot profit from toxicity anymore.
+  * **The Result:** The accumulation of new debt stops immediately.
 
 #### 2. Hearthstone: Refinancing the Capital
-* **The Problem:** We are running out of physical resources (The Copper Crunch).
-* **The Fix:** We move critical planetary assets (Amazon rainforest, Lithium deposits, Soil) into **Global Stewardship Trusts**. Instead of nations fighting to *own* them, they are managed as utilities for the benefit of all.
-* **The Result:** We shift from "Extraction Economics" to "Regenerative Economics." The asset base starts to grow again, rather than shrinking.
+
+  * **The Problem:** We are running out of physical resources (The Copper Crunch).
+  * **The Fix:** We move critical planetary assets (Amazon rainforest, Lithium deposits, Soil) into **Global Stewardship Trusts**. Instead of nations fighting to *own* them, they are managed as utilities for the benefit of all.
+  * **The Result:** We shift from "Extraction Economics" to "Regenerative Economics." The asset base starts to grow again, rather than shrinking.
 
 #### 3. AUBI (Adaptive Universal Basic Income): Protecting the Shareholders
-* **The Problem:** The "Social Debt." Precarity and inequality have destroyed the capacity of citizens to adapt.
-* **The Fix:** We treat every human as a shareholder in the planetary commons. We provide a **Sovereign Floor**—unconditional security.
-* **The Result:** We unlock the "Cognitive Surplus" of humanity. Instead of fighting for survival, billions of minds are freed to help solve the restructuring challenges.
+
+  * **The Problem:** The "Social Debt." Precarity and inequality have destroyed the capacity of citizens to adapt.
+  * **The Fix:** We treat every human as a shareholder in the planetary commons. We provide a **Sovereign Floor**—unconditional security.
+  * **The Result:** We unlock the "Cognitive Surplus" of humanity. Instead of fighting for survival, billions of minds are freed to help solve the restructuring challenges.
 
 ### The Creditors Will Object
+
 In any bankruptcy, the old creditors (vested interests) fight the restructuring. They want to be paid *now*, even if it kills the company.
-* The Fossil Fuel industry, the Military-Industrial Complex, and the Rentier Class will fight to keep the old operating system.
-* **Their objections are entirely valid from within the old accounting system.** But that system no longer balances.
-* The laws of physics are the ultimate judge. The court of reality has already ruled: **The old debts cannot be paid.**
+
+  * The Fossil Fuel industry, the Military-Industrial Complex, and the Rentier Class will fight to keep the old operating system.
+  * **Their objections are entirely valid from within the old accounting system.** But that system no longer balances.
+  * The laws of physics are the ultimate judge. The court of reality has already ruled: **The old debts cannot be paid.**
 
 The only choice is *how* we default: chaotically or strategically.
 

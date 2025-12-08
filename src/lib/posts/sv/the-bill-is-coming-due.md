@@ -213,43 +213,56 @@ När ett företag drunknar i skulder det inte kan betala, står det inför ett b
 Civilisationer står inför exakt samma val.
 
 ### Alternativ 1: Den hårda kraschen (Värld 1)
+
 Detta är **likvidationens** väg.
 Vi vägrar att omstrukturera. Vi klamrar oss fast vid vårt Stadie Orange-operativsystem in i det bittra slutet.
+
 * **Mekanismen:** Krig. När nationer inte kan betala sina ekologiska eller sociala skulder försöker de stjäla resurser från sina grannar. "Kampen om resurserna" börjar.
 * **Resultatet:** Vi bränner planetens återstående tillgångar i en slutgiltig konflikt om dominans. Civilisationens komplexitet kollapsar. Skulden betalas i blod, svält och en återgång till stenåldern.
 
 ### Alternativ 2: Strategisk omstrukturering (Värld 2)
+
 Detta är **reorganisationens** väg.
 Vi erkänner att den westfaliska/neoliberala ordningen är insolvent. Den kan inte lösa problemen den skapade. Vi utlyser en "Planetär företagsrekonstruktion".
+
 * **Mekanismen:** Vi antar ett nytt operativsystem designat för en sluten värld (Nivå 2). Vi omvandlar våra skulder (koldioxid, ojämlikhet) till nya former av eget kapital (regenerering, deltagande).
 
 ### Glimtar av omstrukturering
+
 Detta är inte science fiction. Vi ser redan företagsrekonstruktioner börja i agila hörn av världen:
+
 * **Costa Rica** har omvandlat sin orangea skuld (avskogning) till ekologiskt kapital genom skuld-mot-natur-byten.
 * **Estland** har minskat sin blåa skuld (byråkrati) genom radikal digital transparens (X-Road).
-* Dessa är konceptbevis för den globala omstrukturering som komma skall.
+* **Taiwan** har decentraliserat sin gröna skuld (polarisering) genom att använda samstämmighetsalgoritmer (alignment algorithms) för att bygga konsensus i stor skala, vilket bevisar att digital demokrati kan vara snabbare än autokrati.
 
 ### Omstruktureringsplanen: Global Governance Frameworks (GGF)
 
 GGF är inte en politisk ideologi. Det är en omstruktureringsplan vid konkurs. Den består av tre specifika protokoll utformade för att balansera böckerna.
 
+*Obs: Detta är inte ett förslag om en världsregering. Vi behöver inte en planetär byråkrat som talar om för dig hur du ska leva. Vi behöver ett **protokollager** – en uppsättning icke-förhandlingsbara regler för planetär säkerhet (som flygledning) som tillåter olika nationer att flyga säkert utan att krascha.*
+
 #### 1. Protokoll Omega: Stoppa blödningen
+
 * **Problemet:** "Externaliseringsskulden". Aktörer profiterar genom att dumpa kostnader på allmänningen.
-* **Lösningen:** Ett meta-suveränt efterlevnadslager. Protokoll Omega använder transparens och automatiserad verifiering för att säkerställa att ingen aktör kan åka snålskjuts på helhetens stabilitet. Det sluter loopen. Du kan inte profitera på toxicitet längre.
+* **Lösningen:** Ett meta-suveränt efterlevnadslager. [Protokoll Omega](https://globalgovernanceframeworks.org/resources/whitepapers/omega-proof) använder transparens och automatiserad verifiering för att säkerställa att ingen aktör kan åka snålskjuts på helhetens stabilitet. Det sluter loopen. Du kan inte profitera på toxicitet längre.
 * **Resultatet:** Ackumuleringen av ny skuld stannar omedelbart.
 
 #### 2. Hearthstone: Refinansiering av kapitalet
+
 * **Problemet:** Vi håller på att få slut på fysiska resurser (kopparbristen).
 * **Lösningen:** Vi flyttar kritiska planetära tillgångar (Amazonas regnskog, litiumfyndigheter, jordmån) till **globala förvaltarskapstruster**. Istället för att nationer slåss om att *äga* dem, förvaltas de som allmännyttiga tjänster till förmån för alla.
 * **Resultatet:** Vi skiftar från "utvinningsekonomi" till "regenerativ ekonomi". Tillgångsbasen börjar växa igen, istället för att krympa.
 
 #### 3. AUBI (Adaptiv universell basinkomst): Skydda aktieägarna
+
 * **Problemet:** Den "sociala skulden". Osäkerhet och ojämlikhet har förstört medborgarnas förmåga att anpassa sig.
 * **Lösningen:** Vi behandlar varje människa som en aktieägare i den planetära allmänningen. Vi tillhandahåller ett **suveränt golv** – villkorslös trygghet.
 * **Resultatet:** Vi låser upp mänsklighetens "kognitiva överskott". Istället för att slåss för överlevnad frigörs miljarder sinnen för att hjälpa till att lösa omstruktureringsutmaningarna.
 
 ### Borgenärerna kommer att protestera
+
 I varje konkurs bekämpar de gamla borgenärerna (särintressen) omstruktureringen. De vill ha betalt *nu*, även om det dödar företaget.
+
 * Den fossila industrin, det militärindustriella komplexet och rentierklassen kommer att slåss för att behålla det gamla operativsystemet.
 * **Deras invändningar är helt giltiga inifrån det gamla bokföringssystemet.** Men det systemet går inte längre ihop.
 * Fysikens lagar är den slutgiltiga domaren. Verklighetens domstol har redan dömt: **De gamla skulderna kan inte betalas.**
