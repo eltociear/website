@@ -150,6 +150,7 @@ const pageSpecificTranslationsMap = [
   { route: '/resources/whitepapers/omega-proof', dataKey: 'omega', fileName: 'omega' },
   { route: '/resources/whitepapers', dataKey: 'whitepapers', fileName: 'whitepapers' },
   { route: '/resources', dataKey: 'resources', fileName: 'resources' },
+  { route: '/sovereign', dataKey: 'sovereign', fileName: 'sovereign' },
   { route: '/about', dataKey: 'about', fileName: 'about' },
   { route: '/contact', dataKey: 'contact', fileName: 'contact' },
   { route: '/blog', dataKey: 'blog', fileName: 'blog' },

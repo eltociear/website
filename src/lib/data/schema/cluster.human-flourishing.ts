@@ -75,10 +75,10 @@ export const humanFlourishingEntities: GgfEntity[] = [
     }
   },
   {
-    id: 'framework_sanctuary_accord',
+    id: 'framework_cognitive_sovereignty_accord',
     type: 'Framework',
-    name: 'The Sanctuary Accord',
-    shortName: 'Sanctuary Accord',
+    name: 'The Cognitive Sovereignty Accord',
+    shortName: 'Cognitive Sovereignty Accord',
     description: 'Framework for consciousness technology governance including psychedelics, neuro-technologies, and digital consciousness environments',
     tier: 2,
     status: 'Draft',
@@ -93,14 +93,47 @@ export const humanFlourishingEntities: GgfEntity[] = [
     ],
     enables: [
       'council_neuro_ethics_review',
-      'institution_baz_sanctuary_councils',
+      'institution_baz_cognitive_sovereignty_councils',
       'mechanism_sacred_reciprocity_license'
+    ],
+    ui: {
+      path: '/frameworks/cognitive-sovereignty-accord',
+      titleKey: 'framework.docs.nav.frameworkTitles.cognitiveSovereigntyAccord',
+      emoji: '🍄',
+      version: '1.6',
+      slug: 'cognitive-sovereignty-accord',
+      group: 'humanSocialSystems'
+    }
+  },
+  // === THE SANCTUARY ACCORD (METABOLIC INTEGRITY) ===
+  {
+    id: 'framework_sanctuary',
+    type: 'Framework',
+    name: 'The Sanctuary Accord',
+    shortName: 'Sanctuary Accord',
+    description: 'A Framework for Metabolic Rights, Sacred Time, and Protected Space, ensuring human metabolic integrity against extraction and digital intrusion.',
+    tier: 2,
+    status: 'Ready',
+    primaryDomain: 'Health', // Intersection of Health and Governance
+    geographicScope: 'Global',
+    implementationPriority: 'High',
+    dependencies: [
+      'framework_mental_health',
+      'framework_aubi',
+      'framework_technology_governance',
+      'framework_indigenous'
+    ],
+    enables: [
+      'institution_sanctuary_authority',
+      'mechanism_attention_reparations_fund',
+      'process_sanctuary_steward',
+      'tool_metabolic_budget'
     ],
     ui: {
       path: '/frameworks/sanctuary-accord',
       titleKey: 'framework.docs.nav.frameworkTitles.sanctuaryAccord',
-      emoji: '🍄',
-      version: '1.6',
+      emoji: '🌸', 
+      version: '1.0',
       slug: 'sanctuary-accord',
       group: 'humanSocialSystems'
     }
@@ -302,7 +335,7 @@ export const humanFlourishingEntities: GgfEntity[] = [
     tier: 2,
     status: 'Proposed',
     primaryDomain: 'Health',
-    dependencies: ['framework_sanctuary_accord', 'council_gtc']
+    dependencies: ['framework_cognitive_sovereignty_accord', 'council_gtc']
   },
 
   // === SPECIALIZED INSTITUTIONS ===
@@ -449,15 +482,15 @@ export const humanFlourishingEntities: GgfEntity[] = [
     dependencies: ['framework_kintsugi_protocol', 'framework_mental_health']
   },
   {
-    id: 'institution_baz_sanctuary_councils',
+    id: 'institution_baz_cognitive_sovereignty_councils',
     type: 'Institution',
-    name: 'BAZ-Level Sanctuary Councils',
-    shortName: 'Sanctuary Councils',
+    name: 'BAZ-Level Cognitive Sovereignty Councils',
+    shortName: 'Cognitive Sovereignty Councils',
     description: 'Decentralized, community-led bodies licensing and monitoring local consciousness technology practitioners',
     tier: 2,
     status: 'Proposed',
     primaryDomain: 'Health',
-    dependencies: ['framework_sanctuary_accord', 'institution_baz']
+    dependencies: ['framework_cognitive_sovereignty_accord', 'institution_baz']
   },
 
   {
@@ -469,7 +502,7 @@ export const humanFlourishingEntities: GgfEntity[] = [
     tier: 2,
     status: 'Proposed',
     primaryDomain: 'Health',
-    dependencies: ['framework_sanctuary_accord']
+    dependencies: ['framework_cognitive_sovereignty_accord']
   },
 
 {
@@ -489,6 +522,15 @@ export const humanFlourishingEntities: GgfEntity[] = [
     tier: 2,
     status: 'Proposed',
     dependencies: ['framework_hearthlight_protocol', 'framework_youth']
+  },
+  {
+    id: 'institution_sanctuary_authority',
+    type: 'Institution',
+    name: 'Sanctuary Authority',
+    description: 'Independent multi-stakeholder body administering Sanctuary Certification (Bronze/Silver/Gold) and Violation Response.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_sanctuary']
   },
 
   // === MECHANISMS ===
@@ -520,7 +562,17 @@ export const humanFlourishingEntities: GgfEntity[] = [
     tier: 2,
     status: 'Proposed',
     primaryDomain: 'Economic',
-    dependencies: ['framework_sanctuary_accord', 'platform_love_ledger']
+    dependencies: ['framework_cognitive_sovereignty_accord', 'platform_love_ledger']
+  },
+  {
+    id: 'mechanism_attention_reparations_fund',
+    type: 'EconomicMechanism',
+    name: 'Attention Reparations Fund',
+    description: 'Fund financed by a 0.7% micro-tax on digital advertising revenue, used to support sanctuary infrastructure and metabolic recovery.',
+    tier: 2,
+    status: 'Proposed',
+    primaryDomain: 'Economic',
+    dependencies: ['framework_sanctuary', 'framework_aubi']
   },
 
   // === PLATFORMS ===
@@ -542,7 +594,7 @@ export const humanFlourishingEntities: GgfEntity[] = [
     tier: 2,
     status: 'Proposed',
     primaryDomain: 'Technology',
-    dependencies: ['framework_sanctuary_accord', 'framework_aurora_accord']
+    dependencies: ['framework_cognitive_sovereignty_accord', 'framework_aurora_accord']
   },
 
   // === PROCESSES, PROTOCOLS & TOOLS ===
@@ -688,7 +740,7 @@ export const humanFlourishingEntities: GgfEntity[] = [
     tier: 2,
     status: 'Draft',
     primaryDomain: 'Justice',
-    dependencies: ['framework_sanctuary_accord', 'council_earth']
+    dependencies: ['framework_cognitive_sovereignty_accord', 'council_earth']
   },
   {
     id: 'protocol_fpic_2_consciousness',
@@ -699,7 +751,7 @@ export const humanFlourishingEntities: GgfEntity[] = [
     tier: 2,
     status: 'Draft',
     primaryDomain: 'Justice',
-    dependencies: ['framework_sanctuary_accord', 'protocol_fpic2']
+    dependencies: ['framework_cognitive_sovereignty_accord', 'protocol_fpic2']
   },
   {
     id: 'process_cognitive_equity_audit',
@@ -710,7 +762,7 @@ export const humanFlourishingEntities: GgfEntity[] = [
     tier: 2,
     status: 'Draft',
     primaryDomain: 'Health',
-    dependencies: ['framework_sanctuary_accord', 'framework_disability']
+    dependencies: ['framework_cognitive_sovereignty_accord', 'framework_disability']
   },
 
   {
@@ -722,7 +774,7 @@ export const humanFlourishingEntities: GgfEntity[] = [
     tier: 2,
     status: 'Proposed',
     primaryDomain: 'Health',
-    dependencies: ['framework_sanctuary_accord']
+    dependencies: ['framework_cognitive_sovereignty_accord']
   },
 
   {
@@ -744,6 +796,24 @@ export const humanFlourishingEntities: GgfEntity[] = [
     tier: 2,
     status: 'Draft',
     dependencies: ['framework_hearthlight_protocol', 'council_global_metrology', 'metric_lmci']
+  },
+  {
+    id: 'process_sanctuary_steward',
+    type: 'Process', // Using 'Process' for Roles/Weavers as per schema pattern
+    name: 'Sanctuary Stewardship',
+    description: 'A recognized Care Work role for maintaining the silence, safety, and beauty of Third Places, compensated in Hearts.',
+    tier: 2,
+    status: 'Proposed',
+    dependencies: ['framework_sanctuary', 'framework_work_liberation', 'framework_aubi']
+  },
+  {
+    id: 'tool_metabolic_budget',
+    type: 'Tool',
+    name: 'Metabolic Budgeting Tool',
+    description: 'Accounting tool for measuring population-level cognitive load and recovery time to guide policy.',
+    tier: 2,
+    status: 'Draft',
+    dependencies: ['framework_sanctuary', 'council_global_metrology']
   }
 
 
@@ -1070,13 +1140,13 @@ export const humanFlourishingRelationships: GgfRelationship[] = [
 
   // Sanctuary Accord establishment relationships
   {
-    from: 'framework_sanctuary_accord',
+    from: 'framework_cognitive_sovereignty_accord',
     to: 'council_neuro_ethics_review',
     type: 'ESTABLISHES',
-    description: 'Sanctuary Accord establishes NERB as primary oversight body'
+    description: 'Cognitive Sovereignty Accord establishes NERB as primary oversight body'
   },
   {
-    from: 'framework_sanctuary_accord',
+    from: 'framework_cognitive_sovereignty_accord',
     to: 'mechanism_sacred_reciprocity_license',
     type: 'ESTABLISHES',
     description: 'Framework establishes reciprocity licensing system'
@@ -1147,6 +1217,52 @@ export const humanFlourishingRelationships: GgfRelationship[] = [
   { from: 'framework_egp', to: 'framework_hearthlight_protocol', type: 'IMPLEMENTS', description: 'The Parent & Community Feedback Forums use the EGP (`sense`, `propose`, `adopt`) as their formal feedback mechanism.' },
   { from: 'framework_indigenous', to: 'framework_hearthlight_protocol', type: 'GUIDES', description: 'The Indigenous Framework provides foundational pedagogical models and wisdom for child-rearing.' },
   { from: 'framework_mos', to: 'framework_hearthlight_protocol', type: 'GUIDES', description: 'The Moral Operating System provides the foundational Charter of Childhood Rights.' },
-  { from: 'framework_synoptic', to: 'framework_hearthlight_protocol', type: 'INTEGRATES_WITH', description: 'The Digital Shield Protocol is a sub-protocol of the Synoptic Protocol to protect children online.' }
+  { from: 'framework_synoptic', to: 'framework_hearthlight_protocol', type: 'INTEGRATES_WITH', description: 'The Digital Shield Protocol is a sub-protocol of the Synoptic Protocol to protect children online.' },
+
+  // === SANCTUARY ACCORD INTEGRATION ===
+  
+  // Establishment
+  { from: 'framework_sanctuary', to: 'institution_sanctuary_authority', type: 'ESTABLISHES' },
+  { from: 'framework_sanctuary', to: 'mechanism_attention_reparations_fund', type: 'ESTABLISHES' },
+  { from: 'framework_sanctuary', to: 'process_sanctuary_steward', type: 'ESTABLISHES' },
+  { from: 'framework_sanctuary', to: 'tool_metabolic_budget', type: 'ESTABLISHES' },
+
+  // Economic Connections (AUBI/Hearts)
+  { 
+    from: 'framework_aubi', 
+    to: 'process_sanctuary_steward', 
+    type: 'REWARDS', 
+    description: 'Sanctuary Stewardship is a validated care role rewarded with Hearts (AUBI Layer 2).' 
+  },
+  { 
+    from: 'framework_aubi', 
+    to: 'mechanism_attention_reparations_fund', 
+    type: 'INTEGRATES_WITH', 
+    description: 'The Fund supports the "Right of Return" supplements for burnout refugees within the AUBI system.' 
+  },
+
+  // Tech Governance Connections (The Shield)
+  { 
+    from: 'framework_technology_governance', 
+    to: 'framework_sanctuary', 
+    type: 'ENFORCES', 
+    description: 'Tech Governance enforces the "Ban on Addiction Architecture" required by the Sanctuary Accord.' 
+  },
+
+  // Cognitive Sovereignty Connection (The Accelerator vs The Brake)
+  { 
+    from: 'framework_sanctuary', 
+    to: 'framework_cognitive_sovereignty_accord', 
+    type: 'SUPPORTS', 
+    description: 'Sanctuary provides the necessary metabolic baseline and recovery space required for safe cognitive exploration.' 
+  },
+
+  // Indigenous Integration
+  { 
+    from: 'framework_indigenous', 
+    to: 'framework_sanctuary', 
+    type: 'GUIDES', 
+    description: 'Indigenous temporal sovereignty (non-Gregorian calendars) is a core pillar of the Sanctuary Accord.' 
+  }
 
 ];

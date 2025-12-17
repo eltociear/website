@@ -1,0 +1,270 @@
+{
+  "title": "Sovereign – Från personlig makt till systemförändring",
+  "subtitle": "Du har bemästrat personlig suveränitet. Redo att bygga suveräna system?",
+  
+  "hero": {
+    "title": "Från personlig till planetär suveränitet",
+    "subtitle": "Du har bemästrat personlig suveränitet. Redo att bygga suveräna system?",
+    "tagline": "Protokollen och nätverken för röda operatörer som är redo att arkitektera verkligheten, inte bara verka inom den."
+  },
+  
+  "cards": {
+    "protocols": {
+      "title": "Bibliotek för suveränitetsprotokoll",
+      "description": "Fälttestade mallar från boken Sovereign, förfinade av utövare som du. Ladda ner, implementera och dela det som fungerar.",
+      "feature1": "Protokollmallar för varje kapitels fälttester",
+      "feature2": "Läsarinskickade implementationer och resultat",
+      "feature3": "Nedladdningsbara uppföljningsark och arbetsblad",
+      "cta": "Bläddra bland protokoll"
+    },
+    
+    "systemic": {
+      "title": "Från personligt till systemiskt",
+      "description": "Upptäck hur dina suveränitetsövningar kopplar till större styrningsramverk. Lär dig hur ditt team blir en styrningsstruktur.",
+      "feature1": "Ditt kärnteam → Meta-styrningsråd (Kap 9)",
+      "feature2": "Din plattformsekonomi → Hjärter & Löv-system (Kap 10)",
+      "feature3": "Dina protokoll → Globalt ramverksbibliotek (Kap 15)",
+      "cta": "Se kopplingarna"
+    },
+    
+    "network": {
+      "title": "Arkitektens nätverk",
+      "description": "Gå med andra suveräna operatörer som bygger kungadömen. Dela protokoll, lös problem tillsammans och multiplicera kraft genom allianser.",
+      "feature1": "Månatliga workshop-samtal om protokoll",
+      "feature2": "Forum för Sovereign-utövare",
+      "feature3": "Showcase: Kungadömen som byggs världen över",
+      "cta": "Gå med i nätverket"
+    }
+  },
+  
+  "journey": {
+    "title": "Suveränitetsvägen",
+    "intro": "Från reaktiv operatör till medveten arkitekt. Så här brukar resan utveckla sig.",
+    
+    "stage1": {
+      "title": "Personligt mästerskap",
+      "description": "Du genomför Sovereigns fälttester. Du bygger din kognitiva suveränitet, etablerar ditt kärnteam och designar dina första protokoll."
+    },
+    
+    "stage2": {
+      "title": "Mönsterigenkänning",
+      "description": "Du märker att dina personliga protokoll speglar större styrningsramverk. Det du designade för ditt team skulle kunna fungera i större skala."
+    },
+    
+    "stage3": {
+      "title": "Systemisk integration",
+      "description": "Du upptäcker hur din ekonomi implementerar Hjärter/Löv-system. Hur din teamstruktur linjerar med principer för meta-styrning. Hur dina protokoll matar in i globala ramverk."
+    },
+    
+    "stage4": {
+      "title": "Verklighetsarkitekt",
+      "description": "Du utövar inte längre bara suveränitet. Du bygger system som andra anammar. Du spelar metaspelet och designar reglerna som andra följer."
+    }
+  },
+  
+  "cta": {
+    "title": "Redo att bygga system, inte bara verka inom dem?",
+    "description": "Börja med protokollbiblioteket. Gå vidare till systemisk integration när du är redo. Gå med i nätverket för att multiplicera din kraft genom allianser.",
+    "primary": "Börja med protokoll",
+    "secondary": "Kontakta oss"
+  },
+  "protocols": {
+    "title": "Bibliotek för suveränitetsprotokoll",
+    "subtitle": "Fälttestade protokoll från Sovereign-utövare. Ladda ner, implementera, förfina och dela det som fungerar.",
+    "backToSovereign": "Tillbaka till Sovereign",
+    "submitYourProtocol": "Skicka in ditt protokoll",
+    
+    "filterByChapter": "Filtrera efter kapitel",
+    "allChapters": "Alla kapitel",
+    "chapter9": "Kapitel 9: Din arsenal",
+    "chapter10": "Kapitel 10: Suveränens ekonomi",
+    "chapter11": "Kapitel 11: Den inre cirkeln",
+    "chapter12": "Kapitel 12: Dynastibygge",
+    "chapter13": "Kapitel 13: Från krigsherre till världsbyggare",
+    "chapter14": "Kapitel 14: Arkitektens öga",
+    "chapter15": "Kapitel 15: Att skriva om verkligheten",
+    
+    "totalProtocols": "Protokoll",
+    "showingProtocols": "Visar",
+    "totalDownloads": "Nedladdningar",
+    "avgSuccessRate": "Snittframgång",
+    
+    "chapterLabel": "Kap",
+    "trigger": "Utlösare",
+    "process": "Process",
+    "output": "Utfall",
+    "enforcement": "Upprätthållande",
+    "downloads": "nedladdningar",
+    "success": "framgång",
+    "downloadTemplate": "Ladda ner mall",
+    
+    "noProtocolsFound": "Inga protokoll hittades för detta kapitel ännu. Var den första att skicka in ett!",
+    
+    "submitForm": {
+      "title": "Skicka in ditt protokoll",
+      "yourInfo": "Dina uppgifter",
+      "name": "Namn",
+      "email": "E-post",
+      
+      "protocolDetails": "Protokolldetaljer",
+      "chapter": "Vilket kapitel är detta protokoll för?",
+      "selectChapter": "Välj ett kapitel...",
+      "protocolName": "Protokollnamn",
+      "description": "Kort beskrivning",
+      "trigger": "Utlösare (När aktiveras detta?)",
+      "process": "Process (Vad händer? Vem gör vad?)",
+      "output": "Utfall (Vad blir resultatet?)",
+      "enforcement": "Upprätthållande (Hur underhålls det?)",
+      
+      "results": "Dina resultat",
+      "whatWorked": "Vad fungerade?",
+      "whatDidnt": "Vad fungerade inte? Vad skulle du ändra?",
+      "willingToShare": "Jag går med på att detta protokoll delas offentligt (anonymt om jag inte anger annat)",
+      
+      "cancel": "Avbryt",
+      "submit": "Skicka in protokoll",
+      "successMessage": "Protokollet har skickats in! Vi kommer att granska det och lägga till det i biblioteket inom kort."
+    }
+  },
+  "integration": {
+    "title": "Från personligt till systemiskt",
+    "subtitle": "Upptäck hur dina suveränitetsövningar kopplar till planetära styrningsramverk",
+    "backToSovereign": "Tillbaka till Sovereign",
+    
+    "insight": {
+      "title": "Erkännandet",
+      "text": "Det du byggde för ditt team är inte bara bra ledarskap. Det är en fungerande prototyp för styrningssystem som kan samordna i vilken skala som helst. Du har pilotkört framtiden utan att veta om det."
+    },
+    
+    "bridge": {
+      "title": "Samma arkitektur i olika skalor",
+      "intro": "Principerna som fungerar för 5 personer fungerar för 5 000. Protokollen som samordnar ditt team kan samordna organisationer, nätverk eller hela regioner. Du lär dig inte nya koncept – du känner igen vad du redan byggt.",
+      "personal": "Din suveränitetspraktik",
+      "personalDesc": "Teamprotokoll, ekonomiska modeller, alliansnätverk, system för eftermäle",
+      "same": "Samma arkitektur",
+      "systemic": "Globala styrningsramverk",
+      "systemicDesc": "Samordningsråd, regenerativa valutor, nästlad suveränitet, intergenerationell visdom"
+    },
+    
+    "connections": {
+      "title": "Kopplingarna"
+    },
+    
+    "chapter": "Kapitel",
+    "whatYouBuilt": "Vad du byggde",
+    "whatItActuallyIs": "Vad det faktiskt är",
+    "whyItMatters": "Varför det spelar roll",
+    "gfConcepts": "Viktiga GGF-koncept",
+    "nextSteps": "Dina nästa steg",
+    "exploreFramework": "Utforska ramverk",
+    
+    "implementation": {
+      "title": "Din implementationsväg",
+      "intro": "Redo att skala upp din suveränitet? Här är hur du går från personligt utövande till systemisk arkitektur.",
+      
+      "step1": {
+        "title": "Dokumentera dina protokoll",
+        "description": "Ta det som fungerar i din organisation och formalisera det. Gör det replikerbart, lärbart, överförbart.",
+        "action": "Bläddra i protokollbiblioteket"
+      },
+      
+      "step2": {
+        "title": "Studera ramverken",
+        "description": "Förstå de större systemen dina protokoll kopplar till. Se hur dina lokala lösningar mappar mot global samordning.",
+        "action": "Utforska alla ramverk"
+      },
+      
+      "step3": {
+        "title": "Gå med i nätverket",
+        "description": "Koppla upp dig mot andra suveräna operatörer som bygger liknande system. Dela lärdomar, multiplicera kraft.",
+        "action": "Gå med i arkitektnätverket"
+      },
+      
+      "step4": {
+        "title": "Bygg i skala",
+        "description": "Designa system för organisationer, regioner eller rörelser. Bli en verklighetsarkitekt, inte bara en operatör inom den.",
+        "action": "Kontakta oss"
+      }
+    }
+  },
+  "network": {
+    "title": "Arkitektens nätverk",
+    "subtitle": "Koppla upp dig mot andra suveräna operatörer som bygger kungadömen. Dela protokoll, lös problem tillsammans och multiplicera kraft genom allianser.",
+    "backToSovereign": "Tillbaka till Sovereign",
+    
+    "discord": {
+      "title": "Gå med i Sovereign Discord",
+      "description": "Det är här suveräna operatörer samordnar. Dela vad som fungerar, få feedback på utmaningar, hitta allierade och knyt kontakt med den bredare Global Governance Frameworks-gemenskapen.",
+      "feature1": "Delning & förfining av protokoll",
+      "feature2": "Problemlösning med operatörer",
+      "feature3": "Möjligheter till alliansbygge",
+      "feature4": "Direkt koppling till GGF-ramverk",
+      "joinButton": "Gå med i Discord-servern",
+      "note": "Gratis att gå med. Aktiv moderering. Respekt krävs."
+    },
+    
+    "inside": {
+      "title": "Vad som händer på Discord",
+      "introductions": {
+        "title": "#introduktioner",
+        "description": "Vem du är, vad du bygger, vilket kapitel du implementerar"
+      },
+      "protocols": {
+        "title": "#protokoll-labb",
+        "description": "Dela vad som fungerar. Få feedback. Förfina och iterera tillsammans."
+      },
+      "problems": {
+        "title": "#utmaningar",
+        "description": "Fastnat med något? Posta det. Någon har redan löst det."
+      },
+      "wins": {
+        "title": "#vinster",
+        "description": "Fira framsteg. Dina vinster inspirerar andra. Spåra momentum."
+      },
+      "questions": {
+        "title": "#fråga-allt",
+        "description": "Inga dumma frågor. Operatörer hjälper operatörer."
+      },
+      "gff": {
+        "title": "#ggf-koppling",
+        "description": "Brygga till de större styrningsramverken. Systemisk integration."
+      }
+    },
+    
+    "showcase": {
+      "title": "Kungadömen som byggs",
+      "intro": "Verkliga implementationer från Sovereign-utövare. Detta är inte fallstudier – det är operatörer i fält.",
+      "empty": {
+        "title": "Första byggena kommer snart",
+        "description": "Var bland de första att visa upp din implementation. Gå med i Discord, bygg något med hjälp av Sovereign-principer och dela dina resultat."
+      },
+      "protocolsUsed": "Använda protokoll",
+      "chapter": "Kap",
+      "yourTurn": {
+        "title": "Bygger du något?",
+        "description": "Dela din implementation på Discord. Framgångsrika byggen visas upp här. Hjälp andra att lära av vad du gör.",
+        "button": "Dela ditt bygge på Discord"
+      }
+    },
+    
+    "principles": {
+      "title": "Gemenskapens principer",
+      "operators": {
+        "title": "Endast operatörer",
+        "description": "Detta är för folk som bygger saker, inte teoretiserar. Visa ditt arbete eller så blir du inte långvarig."
+      },
+      "mutual": {
+        "title": "Ömsesidigt lyft",
+        "description": "Vi är här för att göra varandra mer kapabla. Konkurrens är extern, inte intern."
+      },
+      "results": {
+        "title": "Resultat räknas",
+        "description": "Dela vad som faktiskt fungerade. Teori utan implementation är inte användbart."
+      },
+      "bridge": {
+        "title": "Brygga till system",
+        "description": "Din suveränitetspraktik kopplar till planetär styrning. Vi hjälper dig att se hur."
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-# The Sanctuary Accord
+# The Cognitive Sovereignty Accord
 
 *Version 1.6 Outline | A GGF Tier 2 Framework for Consciousness Technology Governance*
 
@@ -24,7 +24,7 @@
 
 ## Preamble: A Covenant of Care
 
-Humanity is developing technologies with the potential to profoundly alter consciousness, offering paths to healing and expanded awareness. This power carries an immense responsibility. The **Sanctuary Accord** is a covenant to ensure that this exploration is guided by reverence, safety, and justice. It creates a sanctuary—a protected and sacred space—for the ethical development and application of **consciousness technologies**, including psychedelics, neuro-technologies, AI-driven digital consciousness environments, and other modalities. Its purpose is not to restrict, but to ensure that our journey into the inner cosmos is as mindful and honorable as our journey into the outer one.
+Humanity is developing technologies with the potential to profoundly alter consciousness, offering paths to healing and expanded awareness. This power carries an immense responsibility. The **Cognitive Sovereignty Accord** is a covenant to ensure that this exploration is guided by reverence, safety, and justice. It creates a sanctuary—a protected and sacred space—for the ethical development and application of **consciousness technologies**, including psychedelics, neuro-technologies, AI-driven digital consciousness environments, and other modalities. Its purpose is not to restrict, but to ensure that our journey into the inner cosmos is as mindful and honorable as our journey into the outer one.
 
 ## 1. Core Principles
 
@@ -34,7 +34,7 @@ Humanity is developing technologies with the potential to profoundly alter consc
 * **Reciprocity & Right Relationship:** Any benefit derived from traditional knowledge or consciousness exploration must flow back to the source communities and contribute to the well-being of the whole.
 * **Equitable Access:** Benefits from **consciousness technologies**, including therapeutic and research outcomes, must be accessible to Global South communities, neurodivergent individuals, and other marginalized groups to prevent perpetuation of structural inequalities.
 
-## 2. The Four Pillars of the Sanctuary Accord
+## 2. The Four Pillars of the Cognitive Sovereignty Accord
 
 ### Pillar I: Governance & Ethical Oversight
 
@@ -49,10 +49,10 @@ Humanity is developing technologies with the potential to profoundly alter consc
     * **Practitioner & Integration Standards:** The Board, in collaboration with the **Mental Health Governance Framework**, will establish and enforce rigorous certification standards for all practitioners and mandatory requirements for post-session integration support.
     * **Resourcing:** The Board shall have dedicated staffing and resources funded through the **Global Commons Fund (`mechanism_gcf`)** to ensure operational capacity.
     * **Clinical Integration with Regulatory Bodies:** The Board’s certification acts as a meta-level ethical and safety standard, complementing national regulatory bodies (e.g., FDA, EMA). Practitioners must satisfy both GGF standards and local regulations, ensuring alignment with existing medical device/drug approval processes and institutional review boards for clinical trials.
-* **BAZ-Level Sanctuary Councils:**
+* **BAZ-Level Cognitive Sovereignty Councils:**
     * **Role:** Decentralized, community-led bodies within **Bioregional Autonomous Zones (`institution_baz`)** responsible for licensing and monitoring local practitioners and healing centers, ensuring cultural appropriateness and adherence to community standards.
-    * **Capacity Building:** A portion of **Sacred Reciprocity License** revenue will be allocated to training and resourcing **BAZ-level Sanctuary Councils** to ensure effective local governance, with a target of establishing 50 councils by Q4 2027.
-    * **Medical Emergency Interface Protocol:** Each **BAZ-level Sanctuary Council** must establish formal agreements with local emergency medical services to ensure rapid response to therapeutic session crises, including clear protocols for coordination and communication.
+    * **Capacity Building:** A portion of **Sacred Reciprocity License** revenue will be allocated to training and resourcing **BAZ-level Cognitive Sovereignty Councils** to ensure effective local governance, with a target of establishing 50 councils by Q4 2027.
+    * **Medical Emergency Interface Protocol:** Each **BAZ-level Cognitive Sovereignty Council** must establish formal agreements with local emergency medical services to ensure rapid response to therapeutic session crises, including clear protocols for coordination and communication.
     * **Psychedelic Tourism Regulation:** **BAZ-level Sanctuary Councils** may impose visitor caps or require non-local participants to complete a **Cultural Immersion Certification** before engaging in ceremonial practices to prevent cultural exploitation and ensure respectful engagement.
     * **Conflict of Law Protocol:** In cases where local **BAZ** protocols conflict with core Accord principles, the **Neuro-Ethics Review Board** will mediate, deferring to Indigenous sovereignty under the **Primacy Principle** as adjudicated by the **Earth Council**.
 
@@ -83,7 +83,7 @@ Humanity is developing technologies with the potential to profoundly alter consc
 
 * **Clinical & Therapeutic Guidelines:**
     * **Integration with Mental Health Framework:** All sanctioned therapeutic uses must be integrated with the principles and practices of the **Mental Health Governance Framework (`framework_mental_health`)**, emphasizing holistic care, integration support, and practitioner certification.
-    * **Research Exemptions:** Legitimate scientific research may proceed under strict oversight by the **Neuro-Ethics Review Board**, provided it fully complies with the **Red Lines Clause** and receives explicit approval from the **Earth Council** or **Cultural & Ancestral Wisdom Council** for any use of sacred or ceremonial knowledge. Research is distinguished from therapeutic practice by its experimental nature and requirement for ethical approval, while therapeutic practice is licensed by **BAZ-level Sanctuary Councils** under Board-certified standards.
+    * **Research Exemptions:** Legitimate scientific research may proceed under strict oversight by the **Neuro-Ethics Review Board**, provided it fully complies with the **Red Lines Clause** and receives explicit approval from the **Earth Council** or **Cultural & Ancestral Wisdom Council** for any use of sacred or ceremonial knowledge. Research is distinguished from therapeutic practice by its experimental nature and requirement for ethical approval, while therapeutic practice is licensed by **BAZ-level Cognitive Sovereignty Councils** under Board-certified standards.
     * **Participant Safeguards & Vulnerable Populations:**
         * Informed consent procedures must include a **mandatory cooling-off period** (minimum 48 hours) and clear, no-penalty withdrawal procedures, available in accessible formats (e.g., multilingual, braille, audio).
         * Research involving vulnerable populations (e.g., minors, incarcerated individuals, or those with mental health conditions) requires extraordinary justification, heightened protections, and approval from both the **Neuro-Ethics Review Board** and the **Earth Council** or **Cultural & Ancestral Wisdom Council**.
@@ -92,13 +92,13 @@ Humanity is developing technologies with the potential to profoundly alter consc
     * **Practitioner Suspension Mechanisms:** The **Neuro-Ethics Review Board** may issue an immediate, temporary suspension of a practitioner’s certification pending investigation of misconduct, with final rulings by the **Digital Justice Tribunal**.
 * **Research Moratoriums & Sandboxes:**
     * **Authority:** The **Neuro-Ethics Review Board** has the authority to place temporary moratoriums on high-risk areas of research (e.g., non-consensual neuro-tech, synthetic biology applications).
-    * **Ethical Sandboxes:** Establishes controlled environments for piloting new therapeutic models, including neurodivergent-led innovation zones, in partnership with **BAZ-level Sanctuary Councils**.
+    * **Ethical Sandboxes:** Establishes controlled environments for piloting new therapeutic models, including neurodivergent-led innovation zones, in partnership with **BAZ-level Cognitive Sovereignty Councils**.
     * **Innovation Staging Areas:** Novel **consciousness technologies** (e.g., direct neural interfaces) are placed in a high-oversight staging area, requiring enhanced ethical review and community consultation before full Accord coverage.
 * **Specific Technology Prohibitions:**
     * Non-consensual neural data collection and use of neural data from **consciousness technologies**.
     * Military or surveillance applications of **consciousness technologies**.
     * Coercive uses of **consciousness technologies**, including AI-driven manipulation of cognitive states.
-    * **AI Facilitator Replacement:** AI systems may not replace human facilitators in ceremonial or therapeutic settings without explicit, uncoerced consent from participants and the relevant **BAZ-level Sanctuary Council**.
+    * **AI Facilitator Replacement:** AI systems may not replace human facilitators in ceremonial or therapeutic settings without explicit, uncoerced consent from participants and the relevant **BAZ-level Cognitive Sovereignty Council**.
     * **AI Co-Stewardship:** AI tools used in sanctioned practices must:
         * Disclose their non-human nature to participants.
         * Provide opt-out mechanisms for users.
@@ -106,7 +106,7 @@ Humanity is developing technologies with the potential to profoundly alter consc
         * Be co-designed with and audited by the **Earth Council** and **Cultural & Ancestral Wisdom Council** to ensure cultural and ethical alignment. Autonomous modification of protocols by AI systems is prohibited, with violators subject to immediate decommissioning and developer sanctions by the **Digital Justice Tribunal**.
 * **Global Training & Certification Ecosystem:**
     * The **GGF Practitioner Academy** will provide standardized, accessible training for practitioners, with a minimum of 30% of scholarships and stipends reserved for applicants from the Global South, including remote participation options and stipends. Curricula will include cultural competency, trauma-informed care, and cognitive equity, co-developed with the **Earth Council**, **Cultural & Ancestral Wisdom Council**, and **Foundation Protocol** oversight body.
-    * A **Certification Portability Clause** ensures practitioners can operate across **BAZ-level Sanctuary Councils**, subject to local registration and additional training on local cultural protocols or legal standards.
+    * A **Certification Portability Clause** ensures practitioners can operate across **BAZ-level Cognitive Sovereignty Councils**, subject to local registration and additional training on local cultural protocols or legal standards.
 
 ### Pillar IV: Reciprocity & Regenerative Economics
 
@@ -125,7 +125,7 @@ Humanity is developing technologies with the potential to profoundly alter consc
     * “Soft power” sanctions include reputational consequences, such as public naming and shaming and loss of access to the **Love Ledger**, creating strong incentives for compliance.
 * **Resourcing & Capacity Building:**
     * A dedicated portfolio within the **Global Commons Fund** will provide stable, long-term funding for Indigenous and non-Indigenous sacred tradition participation in all Accord-related governance bodies, with a target of allocating $5 million annually by Q4 2027.
-    * A portion of **Sacred Reciprocity License** revenue will be allocated to capacity-building programs for **BAZ-level Sanctuary Councils** to ensure effective local governance.
+    * A portion of **Sacred Reciprocity License** revenue will be allocated to capacity-building programs for **BAZ-level Cognitive Sovereignty Councils** to ensure effective local governance.
 * **Regenerative Ecology Clause:**
     * A portion of **Sacred Reciprocity License** revenue will support ecological restoration projects in source communities, managed through the **Global Commons Fund** and certified by the **Planetary Health Council**.
 * **Economic Accessibility Standards:**
@@ -140,7 +140,7 @@ Humanity is developing technologies with the potential to profoundly alter consc
     * Achieved when the **Ceremonial Use Protocols** and the **Sacred Reciprocity License** framework have been co-designed with and approved by the **Earth Council** and **Cultural & Ancestral Wisdom Council**.
     * **Success Metrics:** Approval by at least 80% of **Earth Council** and **Cultural & Ancestral Wisdom Council** members and engagement of at least 10 distinct Indigenous communities and 5 non-Indigenous sacred traditions in protocol design.
 * **Milestone 3: Pilot Program Launch (Target: Q3 2027).**
-    * Achieved when the first three **BAZ-level Sanctuary Councils** are established and the first GGF-certified therapeutic pilot program begins in identified pilot regions (e.g., North America, South America, Oceania).
+    * Achieved when the first three **BAZ-level Cognitive Sovereignty Councils** are established and the first GGF-certified therapeutic pilot program begins in identified pilot regions (e.g., North America, South America, Oceania).
     * **Success Metrics:** Certification of at least 50 practitioners, including at least 10 neurodivergent-led practitioners, and establishment of at least one pilot program per region.
 * **Milestone 4: Full Ecosystem Integration (Target: Q4 2028).**
     * Achieved when the first case related to the Accord is successfully adjudicated by the **Digital Justice Tribunal** and the first reciprocity payments are distributed via the **Love Ledger**.
@@ -149,13 +149,13 @@ Humanity is developing technologies with the potential to profoundly alter consc
     * Major changes to the Accord must include a 60-day public comment period, community-led feedback rituals (e.g., storytelling campaigns, community theatre, art-based consultations), and availability in at least 10 languages, including key Indigenous languages and accessible formats for neurodivergent individuals.
     * **Grassroots Accessibility Clause:** Engagement must include low-tech methods (e.g., radio broadcasts, oral storytelling, mobile outreach units) to reach rural, remote, or low-literacy communities, and disability-inclusive formats (e.g., sign language, accessible digital platforms) certified by the **Foundation Protocol**.
     * **Intergenerational Engagement:** The 7-year review cycle will include formal consultation sessions with leadership caucuses of the **Youth Engagement Framework (`framework_youth`)** and **Elders Wisdom Framework (`framework_elder`)**.
-    * **Visual & Narrative Library:** The Accord will develop infographics illustrating the governance structure and Four Pillars, alongside a collection of illustrative stories and endorsements from Indigenous elders, non-Indigenous sacred tradition holders, and neurodivergent advocates. A flowchart will be included to show decision pathways (e.g., how a research proposal moves from **Earth Council** to **Neuro-Ethics Review Board** to **BAZ-level Sanctuary Council**).
+    * **Visual & Narrative Library:** The Accord will develop infographics illustrating the governance structure and Four Pillars, alongside a collection of illustrative stories and endorsements from Indigenous elders, non-Indigenous sacred tradition holders, and neurodivergent advocates. A flowchart will be included to show decision pathways (e.g., how a research proposal moves from **Earth Council** to **Neuro-Ethics Review Board** to **BAZ-level Cognitive Sovereignty Council**).
 
 ## 4. Implementation Pathways & Legal Interface
 
 *Focus: Bridging the Accord's vision with the complex realities of existing national and sub-national legal systems.*
 
-* **GGF Regulatory Sandboxes:** The Accord will promote the creation of legal "sandboxes," similar to existing state-level pilot programs. Within these GGF-sanctioned zones, **BAZ-level Sanctuary Councils** can operate with legal clarity, providing a model for broader regulatory reform.
+* **GGF Regulatory Sandboxes:** The Accord will promote the creation of legal "sandboxes," similar to existing state-level pilot programs. Within these GGF-sanctioned zones, **BAZ-level Cognitive Sovereignty Councils** can operate with legal clarity, providing a model for broader regulatory reform.
 * **Harm Reduction Integration:** For jurisdictions where prohibition remains, the Accord will provide harm reduction guidelines, including best practices for safe use, community-based peer support models, and frameworks for non-criminal, public health-based responses to substance use.
 * **Interface with Existing Law:** The **Global Technology Council**, **Earth Council**, and **Cultural & Ancestral Wisdom Council** will jointly establish a legal working group to create "interface protocols" that map the Accord's principles onto existing state and national legalization efforts, ensuring a pathway for alignment and preventing conflicting regulatory regimes.
 * **Global Scope Considerations:** The Accord will engage with international Indigenous communities, non-Indigenous sacred traditions, and legal frameworks through the **Earth Council** and **Cultural & Ancestral Wisdom Council** to ensure culturally appropriate adaptations of its principles, recognizing the diversity of global regulatory and cultural contexts.
@@ -196,7 +196,7 @@ Humanity is developing technologies with the potential to profoundly alter consc
 * **Love Ledger:** A blockchain-based platform for transparently managing and tracking economic flows from the **Sacred Reciprocity License**, auditable by all stakeholders to ensure equitable distribution.
 * **Hearts:** A digital currency or token used within the **Love Ledger** to support the care economy of source communities, symbolizing reciprocal and regenerative economic relationships.
 * **Ethics Dumping:** The practice of conducting research in regions with weaker regulations to bypass ethical standards, prohibited under the Accord.
-* **Cultural Immersion Certification:** A training requirement imposed by **BAZ-level Sanctuary Councils** for non-local participants in ceremonial practices to ensure cultural respect and understanding.
+* **Cultural Immersion Certification:** A training requirement imposed by **BAZ-level Cognitive Sovereignty Councils** for non-local participants in ceremonial practices to ensure cultural respect and understanding.
 
 ## Appendix B: Emerging Domains & Illustrative Scenarios
 
@@ -211,12 +211,12 @@ Humanity is developing technologies with the potential to profoundly alter consc
     * **Scenario 1: Unauthorized Synthetic Ayahuasca Commercialization**
         * A startup develops a synthetic ayahuasca analogue and seeks to commercialize it without consulting Indigenous communities. The **Earth Council** invokes the **Red Lines Clause**, declaring the analogue off-limits due to cultural harm. The **Digital Justice Tribunal** halts the project, revokes the startup’s GGF certification, and mandates reparative payments via the **Love Ledger**.
     * **Scenario 2: BAZ-Level Moratorium**
-        * A **BAZ-level Sanctuary Council** in South America identifies unsafe practices in a local psychedelic therapy pilot. The council imposes a temporary moratorium, supported by the **Neuro-Ethics Review Board**, which conducts an adverse event analysis and mandates revised trauma-informed protocols before the program resumes.
+        * A **BAZ-level Cognitive Sovereignty Council** in South America identifies unsafe practices in a local psychedelic therapy pilot. The council imposes a temporary moratorium, supported by the **Neuro-Ethics Review Board**, which conducts an adverse event analysis and mandates revised trauma-informed protocols before the program resumes.
     * **Scenario 3: Metaverse Ritual Misuse**
         * A Metaverse platform hosts an unauthorized virtual ayahuasca ceremony, violating Indigenous protocols. The **Earth Council** files a case with the **Digital Justice Tribunal**, which rules against the platform, enforces a network-wide ban from GGF markets, and requires public acknowledgment of the violation.
     * **Scenario 4: Cross-Border Practitioner Conflict**
-        * A GGF-certified practitioner from a North American **BAZ** seeks to practice in a South American **BAZ** with stricter local laws. The local **BAZ Sanctuary Council** requires additional training on regional cultural protocols, which the practitioner completes, enabling practice under the **Certification Portability Clause**.
+        * A GGF-certified practitioner from a North American **BAZ** seeks to practice in a South American **BAZ** with stricter local laws. The local **BAZ Cognitive Sovereignty Council** requires additional training on regional cultural protocols, which the practitioner completes, enabling practice under the **Certification Portability Clause**.
     * **Narrative Library:** A collection of accessible stories and case studies will communicate the Accord’s impact, including:
-        * **A Successful BAZ Pilot:** A **BAZ-level Sanctuary Council** in Oceania successfully launches a GGF-certified psilocybin therapy program, training 20 local practitioners (including 5 neurodivergent individuals) and distributing $200,000 in reciprocity payments to Indigenous communities via the **Love Ledger**.
+        * **A Successful BAZ Pilot:** A **BAZ-level Cognitive Sovereignty Council** in Oceania successfully launches a GGF-certified psilocybin therapy program, training 20 local practitioners (including 5 neurodivergent individuals) and distributing $200,000 in reciprocity payments to Indigenous communities via the **Love Ledger**.
         * **A Restorative Justice Outcome:** An unauthorized use of a Yogic meditation practice in a commercial neuro-tech app is halted by the **Digital Justice Tribunal**. The violator funds a cultural education program, co-designed with the **Cultural & Ancestral Wisdom Council**, to promote respect for sacred traditions.
         * **Endorsements:** Testimonies from Indigenous elders, non-Indigenous sacred tradition holders (e.g., a Sufi practitioner), and a neurodivergent advocate highlight the Accord’s inclusive and equitable approach.

@@ -1,0 +1,270 @@
+{
+  "title": "Sovereign - From Personal Power to Systemic Change",
+  "subtitle": "You've mastered personal sovereignty. Ready to build sovereign systems?",
+  
+  "hero": {
+    "title": "From Personal to Planetary Sovereignty",
+    "subtitle": "You've mastered personal sovereignty. Ready to build sovereign systems?",
+    "tagline": "The protocols and networks for Red operators who are ready to architect reality, not just operate within it."
+  },
+  
+  "cards": {
+    "protocols": {
+      "title": "Sovereignty Protocols Library",
+      "description": "Field-tested templates from the Sovereign book, refined by practitioners like you. Download, implement, and share what works.",
+      "feature1": "Protocol templates for each chapter's field tests",
+      "feature2": "Reader-submitted implementations and results",
+      "feature3": "Downloadable tracking sheets and worksheets",
+      "cta": "Browse Protocols"
+    },
+    
+    "systemic": {
+      "title": "From Personal to Systemic",
+      "description": "Discover how your sovereignty practices connect to larger governance frameworks. Learn how your crew becomes a governance structure.",
+      "feature1": "Your Core Crew → Meta-Governance Councils (Ch 9)",
+      "feature2": "Your Platform Economics → Hearts & Leaves Systems (Ch 10)",
+      "feature3": "Your Protocols → Global Framework Library (Ch 15)",
+      "cta": "See the Connections"
+    },
+    
+    "network": {
+      "title": "The Architect's Network",
+      "description": "Join other sovereign operators building kingdoms. Share protocols, solve problems together, and multiply force through alliance.",
+      "feature1": "Monthly Protocol Workshop calls",
+      "feature2": "Forum for Sovereign practitioners",
+      "feature3": "Showcase: Kingdoms being built worldwide",
+      "cta": "Join the Network"
+    }
+  },
+  
+  "journey": {
+    "title": "The Sovereignty Path",
+    "intro": "From reactive operator to conscious architect. Here's how the journey typically unfolds.",
+    
+    "stage1": {
+      "title": "Personal Mastery",
+      "description": "You complete the Sovereign field tests. You build your cognitive sovereignty, establish your core crew, and design your first protocols."
+    },
+    
+    "stage2": {
+      "title": "Recognition of Patterns",
+      "description": "You notice your personal protocols mirror larger governance frameworks. What you designed for your crew could work at scale."
+    },
+    
+    "stage3": {
+      "title": "Systemic Integration",
+      "description": "You discover how your economics implement Hearts/Leaves systems. How your crew structure aligns with Meta-Governance principles. How your protocols feed into global frameworks."
+    },
+    
+    "stage4": {
+      "title": "Architect of Reality",
+      "description": "You're no longer just practicing sovereignty. You're building systems that others adopt. You're playing the meta-game, designing the rules others follow."
+    }
+  },
+  
+  "cta": {
+    "title": "Ready to Build Systems, Not Just Operate Within Them?",
+    "description": "Start with the protocols library. Move into systemic integration when you're ready. Join the network to multiply your force through alliance.",
+    "primary": "Start with Protocols",
+    "secondary": "Get in Touch"
+  },
+  "protocols": {
+    "title": "Sovereignty Protocols Library",
+    "subtitle": "Field-tested protocols from Sovereign practitioners. Download, implement, refine, and share what works.",
+    "backToSovereign": "Back to Sovereign",
+    "submitYourProtocol": "Submit Your Protocol",
+    
+    "filterByChapter": "Filter by chapter",
+    "allChapters": "All Chapters",
+    "chapter9": "Chapter 9: Your Arsenal",
+    "chapter10": "Chapter 10: The Sovereign's Economy",
+    "chapter11": "Chapter 11: The Inner Circle",
+    "chapter12": "Chapter 12: Dynasty Building",
+    "chapter13": "Chapter 13: From Warlord to World-Builder",
+    "chapter14": "Chapter 14: The Architect's Eye",
+    "chapter15": "Chapter 15: Rewriting Reality",
+    
+    "totalProtocols": "Protocols",
+    "showingProtocols": "Showing",
+    "totalDownloads": "Downloads",
+    "avgSuccessRate": "Avg Success",
+    
+    "chapterLabel": "Ch",
+    "trigger": "Trigger",
+    "process": "Process",
+    "output": "Output",
+    "enforcement": "Enforcement",
+    "downloads": "downloads",
+    "success": "success",
+    "downloadTemplate": "Download Template",
+    
+    "noProtocolsFound": "No protocols found for this chapter yet. Be the first to submit one!",
+    
+    "submitForm": {
+      "title": "Submit Your Protocol",
+      "yourInfo": "Your Information",
+      "name": "Name",
+      "email": "Email",
+      
+      "protocolDetails": "Protocol Details",
+      "chapter": "Which chapter is this protocol for?",
+      "selectChapter": "Select a chapter...",
+      "protocolName": "Protocol Name",
+      "description": "Brief Description",
+      "trigger": "Trigger (When does this activate?)",
+      "process": "Process (What happens? Who does what?)",
+      "output": "Output (What's the result?)",
+      "enforcement": "Enforcement (How is it maintained?)",
+      
+      "results": "Your Results",
+      "whatWorked": "What worked?",
+      "whatDidnt": "What didn't work? What would you change?",
+      "willingToShare": "I'm willing to have this protocol shared publicly (anonymously unless I specify otherwise)",
+      
+      "cancel": "Cancel",
+      "submit": "Submit Protocol",
+      "successMessage": "Protocol submitted successfully! We'll review it and add it to the library soon."
+    }
+  },
+  "integration": {
+    "title": "From Personal to Systemic",
+    "subtitle": "Discover how your sovereignty practices connect to planetary governance frameworks",
+    "backToSovereign": "Back to Sovereign",
+    
+    "insight": {
+      "title": "The Recognition",
+      "text": "What you built for your crew isn't just good leadership. It's a working prototype of governance systems that can coordinate at any scale. You've been piloting the future without knowing it."
+    },
+    
+    "bridge": {
+      "title": "The Same Architecture at Different Scales",
+      "intro": "The principles that work for 5 people work for 5,000. The protocols that coordinate your crew can coordinate organizations, networks, or entire regions. You're not learning new concepts—you're recognizing what you already built.",
+      "personal": "Your Sovereignty Practice",
+      "personalDesc": "Crew protocols, economic models, alliance networks, legacy systems",
+      "same": "Same Architecture",
+      "systemic": "Global Governance Frameworks",
+      "systemicDesc": "Coordination councils, regenerative currencies, nested sovereignty, intergenerational wisdom"
+    },
+    
+    "connections": {
+      "title": "The Connections"
+    },
+    
+    "chapter": "Chapter",
+    "whatYouBuilt": "What You Built",
+    "whatItActuallyIs": "What It Actually Is",
+    "whyItMatters": "Why It Matters",
+    "gfConcepts": "Key GGF Concepts",
+    "nextSteps": "Your Next Steps",
+    "exploreFramework": "Explore Framework",
+    
+    "implementation": {
+      "title": "Your Implementation Path",
+      "intro": "Ready to scale your sovereignty? Here's how to move from personal practice to systemic architecture.",
+      
+      "step1": {
+        "title": "Document Your Protocols",
+        "description": "Take what's working in your organization and formalize it. Make it replicable, teachable, transferable.",
+        "action": "Browse Protocol Library"
+      },
+      
+      "step2": {
+        "title": "Study the Frameworks",
+        "description": "Understand the larger systems your protocols connect to. See how your local solutions map to global coordination.",
+        "action": "Explore All Frameworks"
+      },
+      
+      "step3": {
+        "title": "Join the Network",
+        "description": "Connect with other sovereign operators who are building similar systems. Share learning, multiply force.",
+        "action": "Join Architect's Network"
+      },
+      
+      "step4": {
+        "title": "Build at Scale",
+        "description": "Design systems for organizations, regions, or movements. Become an architect of reality, not just an operator within it.",
+        "action": "Get in Touch"
+      }
+    }
+  },
+  "network": {
+    "title": "The Architect's Network",
+    "subtitle": "Connect with other sovereign operators building kingdoms. Share protocols, solve problems together, and multiply force through alliance.",
+    "backToSovereign": "Back to Sovereign",
+    
+    "discord": {
+      "title": "Join the Sovereign Discord",
+      "description": "This is where sovereign operators coordinate. Share what's working, get feedback on challenges, find allies, and connect with the broader Global Governance Frameworks community.",
+      "feature1": "Protocol sharing & refinement",
+      "feature2": "Problem-solving with operators",
+      "feature3": "Alliance-building opportunities",
+      "feature4": "Direct connection to GGF frameworks",
+      "joinButton": "Join Discord Server",
+      "note": "Free to join. Active moderation. Respect required."
+    },
+    
+    "inside": {
+      "title": "What Happens in Discord",
+      "introductions": {
+        "title": "#introductions",
+        "description": "Who you are, what you're building, which chapter you're implementing"
+      },
+      "protocols": {
+        "title": "#protocol-lab",
+        "description": "Share what's working. Get feedback. Refine and iterate together."
+      },
+      "problems": {
+        "title": "#challenges",
+        "description": "Stuck on something? Post it. Someone's already solved it."
+      },
+      "wins": {
+        "title": "#wins",
+        "description": "Celebrate progress. Your wins inspire others. Track momentum."
+      },
+      "questions": {
+        "title": "#ask-anything",
+        "description": "No stupid questions. Operators helping operators."
+      },
+      "gff": {
+        "title": "#ggf-connection",
+        "description": "Bridge to the larger governance frameworks. Systemic integration."
+      }
+    },
+    
+    "showcase": {
+      "title": "Kingdoms Being Built",
+      "intro": "Real implementations from Sovereign practitioners. These aren't case studies—they're operators in the field.",
+      "empty": {
+        "title": "First Builds Coming Soon",
+        "description": "Be among the first to showcase your implementation. Join Discord, build something using Sovereign principles, and share your results."
+      },
+      "protocolsUsed": "Protocols Used",
+      "chapter": "Ch",
+      "yourTurn": {
+        "title": "Building Something?",
+        "description": "Share your implementation in Discord. Successful builds get featured here. Help others learn from what you're doing.",
+        "button": "Share Your Build in Discord"
+      }
+    },
+    
+    "principles": {
+      "title": "Community Principles",
+      "operators": {
+        "title": "Operators Only",
+        "description": "This is for people building things, not theorizing. Show your work or you won't last."
+      },
+      "mutual": {
+        "title": "Mutual Elevation",
+        "description": "We're here to make each other more capable. Competition is external, not internal."
+      },
+      "results": {
+        "title": "Results Matter",
+        "description": "Share what actually worked. Theory without implementation isn't useful."
+      },
+      "bridge": {
+        "title": "Bridge to Systems",
+        "description": "Your sovereignty practice connects to planetary governance. We help you see how."
+      }
+    }
+  }
+}
