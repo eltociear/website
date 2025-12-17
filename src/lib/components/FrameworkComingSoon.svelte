@@ -138,6 +138,36 @@
         ]
       }
     },
+    sanctuary: {
+      en: {
+        title: 'The Sanctuary Accord',
+        defaultDescription: "We're developing a revolutionary framework treating rest, silence, and metabolic restoration as fundamental human rights and essential civic infrastructure—protecting cognitive diversity and sacred time from extractive acceleration.",
+        defaultFeatures: [
+          'Four Core Pillars: Temporal sanctuaries (sacred time), Spatial sanctuaries (protected places), Attention Defense Shield (cognitive sovereignty), and Anti-Acceleration Protocols (right to slowness)',
+          'Metabolic Rights Charter recognizing differential metabolic costs of neurodivergence and guaranteeing restoration access based on documented need',
+          'Temporal Sanctuaries including 11-hour daily disconnect, full weekends, and quarterly Metabolic Debt Forgiveness Periods',
+          'Spatial Sanctuaries with analog-only transit zones, Third Place Protection Act ensuring loitering-permitted public spaces, and sensory-friendly design standards',
+          'Attention Defense Shield banning addiction architecture, requiring Cognitive Environmental Impact Assessments, and establishing Attention Reparations Fund',
+          'Right to Slowness protecting professional integrity, establishing slow infrastructure standards, and anti-hustle labor protections',
+          'Sanctuary Certification System (Bronze-Silver-Gold) with independent audit authority and Right of Private Action for violations',
+          'Indigenous Temporal Sovereignty recognizing non-Gregorian calendars and Baseline Sanctuary Zones with full autonomy'
+        ]
+      },
+      sv: {
+        title: 'Frirumsavtalet',
+        defaultDescription: "Vi utvecklar ett revolutionerande ramverk som behandlar vila, tystnad och metabolisk återhämtning som grundläggande mänskliga rättigheter och väsentlig samhällsinfrastruktur—som skyddar kognitiv mångfald och helig tid från utvinningsacceleration.",
+        defaultFeatures: [
+          'Fyra kärnpelare: Temporala frirum (helig tid), Rumsliga frirum (skyddade platser), Uppmärksamhetsförsvarssköld (kognitiv suveränitet) och Anti-accelerationsprotokoll (rätt till långsamhet)',
+          'Metabolisk rättighetsstadga som erkänner differentiella metaboliska kostnader av neurodivergering och garanterar återhämtningstillgång baserad på dokumenterat behov',
+          'Temporala frirum inklusive 11-timmars daglig frånkoppling, hela helger och kvartalsvisa metaboliska skuldförlåtelseperioder',
+          'Rumsliga frirum med analog-endast transitzoner, tredje plats-skyddsakt som säkerställer häng-tillåtna offentliga rum och sensorivänliga designstandarder',
+          'Uppmärksamhetsförsvarssköld som förbjuder beroendearkitektur, kräver kognitiva miljökonsekvensanalyser och upprättar uppmärksamhetsreparationsfond',
+          'Rätt till långsamhet som skyddar professionell integritet, etablerar långsam infrastrukturstandard och anti-stress arbetsskydd',
+          'Frirumscertifieringssystem (Brons-Silver-Guld) med oberoende revisionsauktoritet och rätt till privat talan för överträdelser',
+          'Ursprungsbefolknings temporär suveränitet som erkänner icke-gregorianska kalendrar och Baslinje-frirumszoner med full autonomi'
+        ]
+      }
+    },
     phoenix: {
       en: {
         title: 'The Phoenix Protocol: Waste & Circular Economy',

@@ -87,7 +87,8 @@
         "BioregionalGovernance",
         "AutonomousZones",
         "LandWisdom"
-      ]
+      ],
+      "pdfPath": "/blog/pdfs/bioregional-autonomous-zones.pdf"
     },
     "slug": "bioregional-autonomous-zones",
     "lang": "en"
@@ -137,7 +138,8 @@
         "CulturalHeritage",
         "ProjectTapestry",
         "CulturalPreservation"
-      ]
+      ],
+      "pdfPath": "/blog/pdfs/cultural-heritage-framework.pdf"
     },
     "slug": "cultural-heritage-framework",
     "lang": "en"
@@ -159,7 +161,8 @@
         "FrameworkExpansion",
         "ImplementationTools",
         "GovernanceProtocols"
-      ]
+      ],
+      "pdfPath": "/blog/pdfs/framework-expansion.pdf"
     },
     "slug": "framework-expansion",
     "lang": "en"
@@ -209,7 +212,8 @@
         "GenesisProtocol",
         "ConstitutionalConvening",
         "PlanetaryGovernance"
-      ]
+      ],
+      "pdfPath": "/blog/pdfs/genesis-protocol-release.pdf"
     },
     "slug": "genesis-protocol-release",
     "lang": "en"
@@ -232,7 +236,8 @@
         "HeartsAndLeaves",
         "CareEconomy",
         "RegenerativeEconomics"
-      ]
+      ],
+      "pdfPath": "/blog/pdfs/hearts-leaves-currency.pdf"
     },
     "slug": "hearts-leaves-currency",
     "lang": "en"
@@ -310,7 +315,8 @@
         "ProjectLaunch",
         "GlobalGovernance",
         "PlanetaryGovernance"
-      ]
+      ],
+      "pdfPath": "/blog/pdfs/project-launch.pdf"
     },
     "slug": "project-launch",
     "lang": "en"
@@ -332,7 +338,8 @@
         "ResponsiveSociety",
         "GovernanceInnovation",
         "SystemicChange"
-      ]
+      ],
+      "pdfPath": "/blog/pdfs/responsive-society-whitepaper.pdf"
     },
     "slug": "responsive-society-whitepaper",
     "lang": "en"
@@ -370,6 +377,7 @@
       "description": "Why the global crisis isn't a failure of morals, but a failure of accounting. We have been running Stage Orange software on a planetary hard drive that is now full. A forensic audit of our civilizational balance sheet.",
       "author": "Björn Kenneth Holmström",
       "date": "2025-12-08",
+      "pdfPath": "/blog/pdfs/the-bill-is-coming-due.pdf",
       "tags": [
         "Developmental Debt",
         "Economics",
@@ -716,7 +724,8 @@
         "GenesisProtokoll",
         "KonstitutionellSammankallning",
         "PlanetärStyrning"
-      ]
+      ],
+      "pdfPath": "/blog/pdfs/genesis-protocol-release-sv.pdf"
     },
     "slug": "genesis-protocol-release",
     "lang": "sv"
@@ -798,6 +807,7 @@
       "description": "Varför den globala krisen inte är ett moraliskt misslyckande, utan ett bokföringsfel. Vi har kört 'Stage Orange'-mjukvara på en planetär hårddisk som nu är full. En forensisk revision av vår civilisatoriska balansräkning.",
       "author": "Björn Kenneth Holmström",
       "date": "2025-12-08",
+      "pdfPath": "/blog/pdfs/the-bill-is-coming-due-sv.pdf",
       "tags": [
         "Utvecklingsskuld",
         "Ekonomi",
