@@ -464,6 +464,21 @@ async function generatePaperPDF(browser, paper) {
     // Convert markdown to HTML
     const html = marked(processedMarkdown);
     
+    // --- NEW: PREPARE LOGO ---
+    let logoHtml = '';
+    const logoPath = path.join(__dirname, '..', 'static', 'logo.svg');
+    if (fs.existsSync(logoPath)) {
+      try {
+        const logoBuffer = fs.readFileSync(logoPath);
+        const logoBase64 = logoBuffer.toString('base64');
+        // Width 80px is subtle but distinct. Margin-bottom separates it from the "Organization Name" text.
+        logoHtml = `<img src="data:image/svg+xml;base64,${logoBase64}" style="width: 80px; height: auto; margin: 0 0 25px 0; display: block;" alt="GGF Logo" />`;
+        console.log(`   ✅ Logo loaded`);
+      } catch (e) {
+        console.log(`   ⚠️ Error loading logo: ${e.message}`);
+      }
+    }
+    
     // Build metadata section
     const metadataHtml = `
       <div class="paper-metadata">
@@ -489,13 +504,14 @@ async function generatePaperPDF(browser, paper) {
       <body>
         
         <div class="cover-page">
-            <div style="font-family: 'Inter'; font-weight: 700; font-size: 10pt; text-transform: uppercase; margin-bottom: 20px;">
+            
+            ${logoHtml} <div style="font-family: 'Inter'; font-weight: 700; font-size: 10pt; text-transform: uppercase; margin-bottom: 20px; letter-spacing: 0.1em; color: #555;">
                 Global Governance Frameworks
             </div>
             
             <h1>${paper.metadata.title}</h1>
             
-            ${paper.metadata.subtitle ? `<div style="font-size: 16pt; font-family: 'Crimson Pro'; margin-bottom: 2em; color: #444;">${paper.metadata.subtitle}</div>` : ''}
+            ${paper.metadata.subtitle ? `<div style="font-size: 16pt; font-family: 'Crimson Pro'; margin-bottom: 2em; color: #444; font-style: italic;">${paper.metadata.subtitle}</div>` : ''}
 
             ${metadataHtml}
         </div>
@@ -511,12 +527,11 @@ async function generatePaperPDF(browser, paper) {
       fs.mkdirSync(outputDir, { recursive: true });
     }
     
-    // Generate filename from pdfPath if available, otherwise construct it
+    // Generate filename
     let pdfFilename;
     if (paper.metadata.pdfPath) {
       pdfFilename = path.basename(paper.metadata.pdfPath);
     } else {
-      // Use title to create filename (sanitize for filesystem)
       const sanitizedTitle = paper.metadata.title
         .replace(/[^a-z0-9]/gi, '_')
         .replace(/_+/g, '_');
