@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1000"
+   height="700"
+   version="1.1"
+   id="svg30"
+   sodipodi:docname="dual-system-architecture.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview30"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.24"
+     inkscape:cx="500"
+     inkscape:cy="350"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg30" />
+  <!-- Define styles -->
+  <defs
+     id="defs3">
+    <style
+       id="style1">
+      .box { 
+        fill: #f0f0f0; 
+        stroke: #333; 
+        stroke-width: 2; 
+      }
+      .pressure { 
+        fill: #ffdddd; 
+        stroke: #333; 
+        stroke-width: 2; 
+      }
+      .failure { 
+        fill: #ff9999; 
+        stroke: #333; 
+        stroke-width: 2; 
+      }
+      .collapse { 
+        fill: #ff6666; 
+        stroke: #333; 
+        stroke-width: 3; 
+      }
+      .success { 
+        fill: #ccffcc; 
+        stroke: #333; 
+        stroke-width: 2; 
+      }
+      .stable { 
+        fill: #99ff99; 
+        stroke: #333; 
+        stroke-width: 3; 
+      }
+      .text { 
+        font-family: Arial, sans-serif; 
+        font-size: 14px; 
+        text-anchor: middle; 
+      }
+      .title { 
+        font-family: Arial, sans-serif; 
+        font-size: 16px; 
+        font-weight: bold;
+        text-anchor: middle; 
+      }
+      .section-title { 
+        font-family: Arial, sans-serif; 
+        font-size: 19px; 
+        font-weight: bold;
+        text-anchor: middle; 
+      }
+      .arrow { 
+        stroke: #333; 
+        stroke-width: 3; 
+        fill: none; 
+        marker-end: url(#arrowhead); 
+      }
+      .arrow-fail { 
+        stroke: #cc0000; 
+        stroke-width: 3; 
+        fill: none; 
+        marker-end: url(#arrowhead-red); 
+      }
+      .arrow-success { 
+        stroke: #00aa00; 
+        stroke-width: 3; 
+        fill: none; 
+        marker-end: url(#arrowhead-green); 
+      }
+      .label { 
+        font-family: Arial, sans-serif; 
+        font-size: 13px;
+        font-style: italic;
+      }
+    </style>
+    <!-- Arrow markers -->
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3, 0 6"
+         fill="#333"
+         id="polygon1" />
+    </marker>
+    <marker
+       id="arrowhead-red"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3, 0 6"
+         fill="#cc0000"
+         id="polygon2" />
+    </marker>
+    <marker
+       id="arrowhead-green"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3, 0 6"
+         fill="#00aa00"
+         id="polygon3" />
+    </marker>
+  </defs>
+  <!-- Main Title -->
+  <text
+     x="500"
+     y="35"
+     class="section-title"
+     id="text3">Dual System Architecture: Single Point of Failure vs. Redundancy</text>
+  <!-- LEFT SIDE: WEIMAR HISTORICAL -->
+  <rect
+     x="30"
+     y="70"
+     width="440"
+     height="580"
+     fill="#fff5f5"
+     stroke="#cc0000"
+     stroke-width="3"
+     rx="5"
+     id="rect3" />
+  <text
+     x="250"
+     y="100"
+     class="section-title"
+     id="text4">Weimar Historical</text>
+  <text
+     x="250"
+     y="120"
+     class="title"
+     id="text5">(Single Point of Failure)</text>
+  <!-- External Pressure -->
+  <rect
+     x="80"
+     y="150"
+     width="340"
+     height="60"
+     class="pressure"
+     rx="5"
+     id="rect5" />
+  <text
+     x="250"
+     y="177"
+     class="title"
+     id="text6">EXTERNAL PRESSURE</text>
+  <text
+     x="250"
+     y="195"
+     class="text"
+     id="text7">(War Reparations)</text>
+  <!-- Arrow down -->
+  <path
+     d="M 250 210 L 250 240"
+     class="arrow"
+     id="path7" />
+  <!-- Papiermark (Single Currency) -->
+  <rect
+     x="60"
+     y="240"
+     width="380"
+     height="80"
+     class="failure"
+     rx="5"
+     id="rect7" />
+  <text
+     x="250"
+     y="270"
+     class="title"
+     id="text8">PAPIERMARK</text>
+  <text
+     x="250"
+     y="290"
+     class="title"
+     id="text9">(Single Currency)</text>
+  <text
+     x="250"
+     y="308"
+     class="text"
+     id="text10">ALL FUNCTIONS THROUGH ONE SYSTEM</text>
+  <!-- Arrow down -->
+  <path
+     d="M 250 320 L 250 360"
+     class="arrow-fail"
+     id="path10" />
+  <!-- Everything Fails -->
+  <rect
+     x="120"
+     y="360"
+     width="260"
+     height="50"
+     class="failure"
+     rx="5"
+     id="rect10" />
+  <text
+     x="250"
+     y="390"
+     class="title"
+     id="text11">EVERYTHING FAILS</text>
+  <!-- Arrow down -->
+  <path
+     d="M 250 410 L 250 450"
+     class="arrow-fail"
+     id="path11" />
+  <!-- Ontological Collapse -->
+  <rect
+     x="100"
+     y="450"
+     width="300"
+     height="60"
+     class="collapse"
+     rx="5"
+     id="rect11" />
+  <text
+     x="250"
+     y="477"
+     class="title"
+     id="text12">ONTOLOGICAL COLLAPSE</text>
+  <text
+     x="250"
+     y="497"
+     class="text"
+     id="text13">Reality Becomes Incomprehensible</text>
+  <!-- Arrow down -->
+  <path
+     d="M 250 510 L 250 550"
+     class="arrow-fail"
+     id="path13" />
+  <!-- Totalitarian Capture -->
+  <rect
+     x="80"
+     y="550"
+     width="340"
+     height="60"
+     class="collapse"
+     rx="5"
+     id="rect13" />
+  <text
+     x="250"
+     y="577"
+     class="title"
+     id="text14">TOTALITARIAN CAPTURE</text>
+  <text
+     x="250"
+     y="597"
+     class="text"
+     id="text15">Democracy Collapses</text>
+  <!-- RIGHT SIDE: GGF ARCHITECTURE -->
+  <rect
+     x="530.02979"
+     y="70.029762"
+     width="457.6824"
+     height="579.94049"
+     fill="#f5fff5"
+     stroke="#00aa00"
+     stroke-width="3.05953"
+     rx="5.2009363"
+     id="rect15" />
+  <text
+     x="750"
+     y="100"
+     class="section-title"
+     id="text16">GGF Architecture</text>
+  <text
+     x="750"
+     y="120"
+     class="title"
+     id="text17">(Redundant Systems)</text>
+  <!-- External Pressure -->
+  <rect
+     x="580"
+     y="150"
+     width="340"
+     height="60"
+     class="pressure"
+     rx="5"
+     id="rect17" />
+  <text
+     x="750"
+     y="177"
+     class="title"
+     id="text18">EXTERNAL PRESSURE</text>
+  <text
+     x="750"
+     y="195"
+     class="text"
+     id="text19">(War Reparations)</text>
+  <!-- Fork arrows -->
+  <path
+     d="M 700 210 L 700 250 L 640 280"
+     class="arrow"
+     id="path19" />
+  <path
+     d="M 800 210 L 800 250 L 860 280"
+     class="arrow"
+     id="path20" />
+  <!-- Papiermark (External) -->
+  <rect
+     x="570"
+     y="280"
+     width="140"
+     height="70"
+     class="failure"
+     rx="5"
+     id="rect20" />
+  <text
+     x="640"
+     y="310"
+     class="title"
+     id="text20">PAPIERMARK</text>
+  <text
+     x="640"
+     y="330"
+     class="text"
+     id="text21">(External)</text>
+  <!-- Hearts (Internal) - PROTECTED -->
+  <rect
+     x="790"
+     y="280"
+     width="140"
+     height="70"
+     class="success"
+     rx="5"
+     id="rect21" />
+  <text
+     x="860"
+     y="310"
+     class="title"
+     id="text22">HEARTS</text>
+  <text
+     x="860"
+     y="330"
+     class="text"
+     id="text23">(Internal)</text>
+  <!-- Papiermark collapses -->
+  <path
+     d="M 640 350 L 640 390"
+     class="arrow-fail"
+     id="path23" />
+  <!-- Collapse box -->
+  <rect
+     x="580"
+     y="390"
+     width="120"
+     height="50"
+     class="failure"
+     rx="5"
+     id="rect23" />
+  <text
+     x="640"
+     y="420"
+     class="title"
+     id="text24">COLLAPSES</text>
+  <!-- Hearts protects -->
+  <path
+     d="M 860 350 L 860 390"
+     class="arrow-success"
+     id="path24" />
+  <!-- Survival Stable -->
+  <rect
+     x="780"
+     y="390"
+     width="160"
+     height="50"
+     class="success"
+     rx="5"
+     id="rect24" />
+  <text
+     x="860"
+     y="420"
+     class="title"
+     id="text25">SURVIVAL STABLE</text>
+  <!-- Arrow down -->
+  <path
+     d="M 860 440 L 860 480"
+     class="arrow-success"
+     id="path25" />
+  <!-- Meaning Maintained -->
+  <rect
+     x="760"
+     y="480"
+     width="200"
+     height="50"
+     class="success"
+     rx="5"
+     id="rect25" />
+  <text
+     x="860"
+     y="510"
+     class="title"
+     id="text26">MEANING MAINTAINED</text>
+  <!-- Arrow down -->
+  <path
+     d="M 860 530 L 860 570"
+     class="arrow-success"
+     id="path26" />
+  <!-- Democracy Resilient -->
+  <rect
+     x="740"
+     y="570"
+     width="240"
+     height="60"
+     class="stable"
+     rx="5"
+     id="rect26" />
+  <text
+     x="860"
+     y="597"
+     class="title"
+     id="text27">DEMOCRACY RESILIENT</text>
+  <text
+     x="860"
+     y="617"
+     class="text"
+     id="text28">Can Handle Crisis</text>
+  <!-- The Firewall annotation -->
+  <rect
+     x="812.85883"
+     y="223.7941"
+     width="162.02715"
+     height="30.411806"
+     fill="none"
+     stroke="#00aa00"
+     stroke-width="1.58964"
+     stroke-dasharray="8, 4"
+     rx="1.8695439"
+     id="rect28" />
+  <text
+     x="896"
+     y="244"
+     class="text"
+     style="font-style:normal;font-weight:bold;fill:#00aa00"
+     id="text29">THE FIREWALL</text>
+  <!-- Bottom annotation -->
+  <rect
+     x="50"
+     y="660"
+     width="900"
+     height="30"
+     fill="#ffffee"
+     stroke="#999"
+     stroke-width="1"
+     rx="5"
+     id="rect29" />
+  <text
+     x="500"
+     y="680"
+     class="text"
+     style="font-weight: bold;"
+     id="text30">The firewall prevents external financial collapse from destroying internal survival capacity</text>
+</svg>

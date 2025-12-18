@@ -62,6 +62,60 @@
   },
   {
     "meta": {
+      "title": "Preventing 1933: The Architecture of Democratic Resilience",
+      "subtitle": "How Dual-Currency Systems and Epistemic Protocols Stop the Collapse Cascade",
+      "author": "Björn Kenneth Holmström",
+      "date": "2025-12-18",
+      "description": "A multi-model AI systems analysis demonstrating that the Weimar Republic's collapse was a preventable architectural failure, and that Western democracies in 2025-2026 are running identical failure code. Five independent AI models converged on the same diagnosis: economic monoculture and epistemic fragmentation create cascading collapse toward authoritarianism. The Global Governance Frameworks (GGF) architecture—featuring Hearts/Leaves dual-currency systems, Synoptic Protocol for truth verification, and bioregional autonomous zones—provides the redundancy and resilience needed to prevent the 2030 equivalent of 1933.",
+      "status": "draft-for-review",
+      "category": "systems-architecture",
+      "version": "1.0",
+      "pages": 28,
+      "readTime": 35,
+      "pdfPath": "/resources/whitepapers/Preventing_1933_-_Architecture_of_Democratic_Resilience.pdf",
+      "tags": [
+        "Democratic Resilience",
+        "Systems Architecture",
+        "Weimar Analysis",
+        "GGF Framework",
+        "Multi-Model AI",
+        "Dual-Currency Systems",
+        "Epistemic Infrastructure",
+        "Bioregional Governance",
+        "Authoritarian Prevention",
+        "Hearts Currency",
+        "Synoptic Protocol"
+      ],
+      "hashtags": [
+        "Preventing1933",
+        "DemocraticResilience",
+        "SystemsArchitecture",
+        "GGFFramework",
+        "HeartsAndLeaves",
+        "WeimarAnalysis",
+        "PolycrisisSolutions",
+        "ArchitectureNotAuthoritarianism"
+      ],
+      "reviewers": [
+        "Anders Wijkman",
+        "Tomas Björkman",
+        "Daniel Schmachtenberger",
+        "Kate Raworth"
+      ],
+      "targetAudience": "Systems thinkers, policy architects, democratic resilience researchers, governance innovators",
+      "keyFindings": [
+        "Five AI models independently converged on identical diagnosis of Weimar collapse",
+        "Economic monoculture creates single point of catastrophic failure",
+        "Dual-currency systems prevent meaning collapse during crisis",
+        "2026-2030 window for preventing authoritarian consolidation",
+        "GGF architecture provides implementable alternative to authoritarian simplification"
+      ]
+    },
+    "slug": "preventing-1933",
+    "lang": "en"
+  },
+  {
+    "meta": {
       "title": "The Currency of Care: Why Universal Basic Income Isn't Enough",
       "author": "Björn Kenneth Holmström",
       "date": "2025-08-31",
@@ -245,6 +299,60 @@
       ]
     },
     "slug": "cognitive-scaffolding",
+    "lang": "sv"
+  },
+  {
+    "meta": {
+      "title": "Att förhindra 1933: Arkitekturen för demokratisk motståndskraft",
+      "subtitle": "Hur system med dubbla valutor och epistemiska protokoll stoppar kollapskaskaden",
+      "author": "Björn Kenneth Holmström",
+      "date": "2025-12-18",
+      "description": "En systemanalys med flera AI-modeller som demonstrerar att Weimarrepublikens kollaps var ett förebyggbart arkitektoniskt misslyckande, och att västerländska demokratier 2025–2026 kör identisk felkod. Fem oberoende AI-modeller konvergerade mot samma diagnos: ekonomisk monokultur och epistemisk fragmentering skapar en kollapskaskad mot auktoritarianism. Arkitekturen för Global Governance Frameworks (GGF) – med Hjärter/Löv dubbla valutasystem, Synoptiska protokollet för sanningsverifiering och bioregionala autonoma zoner – tillhandahåller den redundans och motståndskraft som krävs för att förhindra motsvarigheten till 1933 år 2030.",
+      "status": "utkast-för-granskning",
+      "category": "systemarkitektur",
+      "version": "1.0",
+      "pages": 28,
+      "readTime": 35,
+      "pdfPath": "/resources/whitepapers/Att_förhindra_1933_-_Arkitekturen_för_demomkratisk_motståndskraft.pdf",
+      "tags": [
+        "Demokratisk motståndskraft",
+        "Systemarkitektur",
+        "Weimaranalys",
+        "GGF-ramverk",
+        "Flermodells-AI",
+        "System med dubbla valutor",
+        "Epistemisk infrastruktur",
+        "Bioregionalt styre",
+        "Auktoritär prevention",
+        "Hjärter-valuta",
+        "Synoptiska protokollet"
+      ],
+      "hashtags": [
+        "Förhindra1933",
+        "DemokratiskMotståndskraft",
+        "Systemarkitektur",
+        "GGFramverk",
+        "HjärterOchLöv",
+        "Weimaranalys",
+        "LösningarPåPolykris",
+        "ArkitekturInteAuktoritarianism"
+      ],
+      "reviewers": [
+        "Anders Wijkman",
+        "Tomas Björkman",
+        "Daniel Schmachtenberger",
+        "Kate Raworth"
+      ],
+      "targetAudience": "Systemtänkare, policyarkitekter, forskare inom demokratisk motståndskraft, styrningsinnovatörer",
+      "keyFindings": [
+        "Fem AI-modeller konvergerade oberoende mot identisk diagnos av Weimarkollapsen",
+        "Ekonomisk monokultur skapar en enda punkt för katastrofalt misslyckande",
+        "System med dubbla valutor förhindrar meningskollaps under kris",
+        "Fönstret 2026–2030 för att förhindra auktoritär konsolidering",
+        "GGF-arkitektur erbjuder implementerbart alternativ till auktoritär förenkling"
+      ]
+    },
+    "slug": "preventing-1933",
     "lang": "sv"
   },
   {

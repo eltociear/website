@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1000"
+   height="700"
+   version="1.1"
+   id="svg30"
+   sodipodi:docname="dual-system-architecture-sv.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview30"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.24"
+     inkscape:cx="500"
+     inkscape:cy="350"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg30" />
+  <defs
+     id="defs3">
+    <style
+       id="style1">
+      .box { 
+        fill: #f0f0f0;
+        stroke: #333; 
+        stroke-width: 2; 
+      }
+      .pressure { 
+        fill: #ffdddd;
+        stroke: #333; 
+        stroke-width: 2; 
+      }
+      .failure { 
+        fill: #ff9999;
+        stroke: #333; 
+        stroke-width: 2; 
+      }
+      .collapse { 
+        fill: #ff6666;
+        stroke: #333; 
+        stroke-width: 3; 
+      }
+      .success { 
+        fill: #ccffcc;
+        stroke: #333; 
+        stroke-width: 2; 
+      }
+      .stable { 
+        fill: #99ff99;
+        stroke: #333; 
+        stroke-width: 3; 
+      }
+      .text { 
+        font-family: Arial, sans-serif;
+        font-size: 14px; 
+        text-anchor: middle; 
+      }
+      .title { 
+        font-family: Arial, sans-serif;
+        font-size: 16px; 
+        font-weight: bold;
+        text-anchor: middle; 
+      }
+      .section-title { 
+        font-family: Arial, sans-serif;
+        font-size: 19px; 
+        font-weight: bold;
+        text-anchor: middle; 
+      }
+      .arrow { 
+        stroke: #333;
+        stroke-width: 3; 
+        fill: none; 
+        marker-end: url(#arrowhead); 
+      }
+      .arrow-fail { 
+        stroke: #cc0000;
+        stroke-width: 3; 
+        fill: none; 
+        marker-end: url(#arrowhead-red); 
+      }
+      .arrow-success { 
+        stroke: #00aa00;
+        stroke-width: 3; 
+        fill: none; 
+        marker-end: url(#arrowhead-green); 
+      }
+      .label { 
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+        font-style: italic;
+      }
+    </style>
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3, 0 6"
+         fill="#333"
+         id="polygon1" />
+    </marker>
+    <marker
+       id="arrowhead-red"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3, 0 6"
+         fill="#cc0000"
+         id="polygon2" />
+    </marker>
+    <marker
+       id="arrowhead-green"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3, 0 6"
+         fill="#00aa00"
+         id="polygon3" />
+    </marker>
+  </defs>
+  <text
+     x="500"
+     y="35"
+     class="section-title"
+     id="text3">Arkitektur med dubbla system: Enskild punkt för misslyckande vs. redundans</text>
+  <rect
+     x="30"
+     y="70"
+     width="440"
+     height="580"
+     fill="#fff5f5"
+     stroke="#cc0000"
+     stroke-width="3"
+     rx="5"
+     id="rect3" />
+  <text
+     x="250"
+     y="100"
+     class="section-title"
+     id="text4">Weimar historiskt</text>
+  <text
+     x="250"
+     y="120"
+     class="title"
+     id="text5">(Enskild punkt för misslyckande)</text>
+  <rect
+     x="80"
+     y="150"
+     width="340"
+     height="60"
+     class="pressure"
+     rx="5"
+     id="rect5" />
+  <text
+     x="250"
+     y="177"
+     class="title"
+     id="text6">EXTERNT TRYCK</text>
+  <text
+     x="250"
+     y="195"
+     class="text"
+     id="text7">(Krigsskadestånd)</text>
+  <path
+     d="M 250 210 L 250 240"
+     class="arrow"
+     id="path7" />
+  <rect
+     x="60"
+     y="240"
+     width="380"
+     height="80"
+     class="failure"
+     rx="5"
+     id="rect7" />
+  <text
+     x="250"
+     y="270"
+     class="title"
+     id="text8">PAPIERMARK</text>
+  <text
+     x="250"
+     y="290"
+     class="title"
+     id="text9">(Enskild valuta)</text>
+  <text
+     x="250"
+     y="308"
+     class="text"
+     id="text10">ALLA FUNKTIONER GENOM ETT SYSTEM</text>
+  <path
+     d="M 250 320 L 250 360"
+     class="arrow-fail"
+     id="path10" />
+  <rect
+     x="120"
+     y="360"
+     width="260"
+     height="50"
+     class="failure"
+     rx="5"
+     id="rect10" />
+  <text
+     x="250"
+     y="390"
+     class="title"
+     id="text11">ALLT MISSLYCKAS</text>
+  <path
+     d="M 250 410 L 250 450"
+     class="arrow-fail"
+     id="path11" />
+  <rect
+     x="100"
+     y="450"
+     width="300"
+     height="60"
+     class="collapse"
+     rx="5"
+     id="rect11" />
+  <text
+     x="250"
+     y="477"
+     class="title"
+     id="text12">ONTOLOGISK KOLLAPS</text>
+  <text
+     x="250"
+     y="497"
+     class="text"
+     id="text13">Verkligheten blir obegriplig</text>
+  <path
+     d="M 250 510 L 250 550"
+     class="arrow-fail"
+     id="path13" />
+  <rect
+     x="80"
+     y="550"
+     width="340"
+     height="60"
+     class="collapse"
+     rx="5"
+     id="rect13" />
+  <text
+     x="250"
+     y="577"
+     class="title"
+     id="text14">AUKTORITÄRT KAPANDE</text>
+  <text
+     x="250"
+     y="597"
+     class="text"
+     id="text15">Demokratin kollapsar</text>
+  <rect
+     x="530.02979"
+     y="70.029762"
+     width="457.6824"
+     height="579.94049"
+     fill="#f5fff5"
+     stroke="#00aa00"
+     stroke-width="3.05953"
+     rx="5.2009363"
+     id="rect15" />
+  <text
+     x="750"
+     y="100"
+     class="section-title"
+     id="text16">GGF-arkitektur</text>
+  <text
+     x="750"
+     y="120"
+     class="title"
+     id="text17">(Redundanta system)</text>
+  <rect
+     x="580"
+     y="150"
+     width="340"
+     height="60"
+     class="pressure"
+     rx="5"
+     id="rect17" />
+  <text
+     x="750"
+     y="177"
+     class="title"
+     id="text18">EXTERNT TRYCK</text>
+  <text
+     x="750"
+     y="195"
+     class="text"
+     id="text19">(Krigsskadestånd)</text>
+  <path
+     d="M 700 210 L 700 250 L 640 280"
+     class="arrow"
+     id="path19" />
+  <path
+     d="M 800 210 L 800 250 L 860 280"
+     class="arrow"
+     id="path20" />
+  <rect
+     x="570"
+     y="280"
+     width="140"
+     height="70"
+     class="failure"
+     rx="5"
+     id="rect20" />
+  <text
+     x="640"
+     y="310"
+     class="title"
+     id="text20">PAPIERMARK</text>
+  <text
+     x="640"
+     y="330"
+     class="text"
+     id="text21">(Extern)</text>
+  <rect
+     x="790"
+     y="280"
+     width="140"
+     height="70"
+     class="success"
+     rx="5"
+     id="rect21" />
+  <text
+     x="860"
+     y="310"
+     class="title"
+     id="text22">HEARTS</text>
+  <text
+     x="860"
+     y="330"
+     class="text"
+     id="text23">(Intern)</text>
+  <path
+     d="M 640 350 L 640 390"
+     class="arrow-fail"
+     id="path23" />
+  <rect
+     x="580"
+     y="390"
+     width="120"
+     height="50"
+     class="failure"
+     rx="5"
+     id="rect23" />
+  <text
+     x="640"
+     y="420"
+     class="title"
+     id="text24">KOLLAPSAR</text>
+  <path
+     d="M 860 350 L 860 390"
+     class="arrow-success"
+     id="path24" />
+  <rect
+     x="770.37976"
+     y="390.05719"
+     width="179.24043"
+     height="49.885586"
+     class="success"
+     rx="5.6012635"
+     id="rect24" />
+  <text
+     x="860"
+     y="420"
+     class="title"
+     id="text25">ÖVERLEVNAD STABIL</text>
+  <path
+     d="M 860 440 L 860 480"
+     class="arrow-success"
+     id="path25" />
+  <rect
+     x="753.58124"
+     y="480.03287"
+     width="213.64394"
+     height="49.934265"
+     class="success"
+     rx="5.3410988"
+     id="rect25" />
+  <text
+     x="860"
+     y="510"
+     class="title"
+     id="text26">MENING UPPRÄTTHÅLLEN</text>
+  <path
+     d="M 860 530 L 860 570"
+     class="arrow-success"
+     id="path26" />
+  <rect
+     x="698.18628"
+     y="570.12177"
+     width="281.69196"
+     height="59.756458"
+     class="stable"
+     rx="5.8685822"
+     id="rect26" />
+  <text
+     x="838.99316"
+     y="597"
+     class="title"
+     id="text27">DEMOKRATI MOTSTÅNDSKRAFTIG</text>
+  <text
+     x="838.71094"
+     y="617"
+     class="text"
+     id="text28">Kan hantera kris</text>
+  <rect
+     x="812.85883"
+     y="223.7941"
+     width="162.02715"
+     height="30.411806"
+     fill="none"
+     stroke="#00aa00"
+     stroke-width="1.58964"
+     stroke-dasharray="8, 4"
+     rx="1.8695439"
+     id="rect28" />
+  <text
+     x="896"
+     y="244"
+     class="text"
+     style="font-style:normal;font-weight:bold;fill:#00aa00"
+     id="text29">BRANDVÄGGEN</text>
+  <rect
+     x="50"
+     y="660"
+     width="900"
+     height="30"
+     fill="#ffffee"
+     stroke="#999"
+     stroke-width="1"
+     rx="5"
+     id="rect29" />
+  <text
+     x="500"
+     y="680"
+     class="text"
+     style="font-weight: bold;"
+     id="text30">Brandväggen förhindrar att extern finansiell kollaps förstör intern överlevnadskapacitet</text>
+</svg>

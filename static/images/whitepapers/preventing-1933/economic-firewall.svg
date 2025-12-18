@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="900"
+   height="600"
+   version="1.1"
+   id="svg35"
+   sodipodi:docname="economic-firewall.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview35"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.72333333"
+     inkscape:cx="282.02765"
+     inkscape:cy="294.47005"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg35" />
+  <!-- Define styles -->
+  <defs
+     id="defs2">
+    <style
+       id="style1">
+      .box { 
+        fill: #f0f0f0; 
+        stroke: #333; 
+        stroke-width: 2; 
+      }
+      .vulnerable { 
+        fill: #ffcccc; 
+        stroke: #333; 
+        stroke-width: 2; 
+      }
+      .protected { 
+        fill: #ccffcc; 
+        stroke: #333; 
+        stroke-width: 4; 
+      }
+      .text { 
+        font-family: Arial, sans-serif; 
+        font-size: 14px; 
+        text-anchor: middle; 
+      }
+      .title { 
+        font-family: Arial, sans-serif; 
+        font-size: 16px; 
+        font-weight: bold;
+        text-anchor: middle; 
+      }
+      .section-title { 
+        font-family: Arial, sans-serif; 
+        font-size: 18px; 
+        font-weight: bold;
+        text-anchor: middle; 
+      }
+      .arrow { 
+        stroke: #333; 
+        stroke-width: 2.5; 
+        fill: none; 
+        marker-end: url(#arrowhead); 
+      }
+      .firewall { 
+        stroke: #009900; 
+        stroke-width: 3; 
+        fill: none; 
+        stroke-dasharray: 8,4;
+        marker-end: url(#arrowhead-green); 
+      }
+      .label { 
+        font-family: Arial, sans-serif; 
+        font-size: 13px;
+        font-style: italic;
+        fill: #333;
+      }
+    </style>
+    <!-- Arrow markers -->
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3, 0 6"
+         fill="#333"
+         id="polygon1" />
+    </marker>
+    <marker
+       id="arrowhead-green"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3, 0 6"
+         fill="#009900"
+         id="polygon2" />
+    </marker>
+  </defs>
+  <!-- Main Title -->
+  <text
+     x="450"
+     y="30"
+     class="section-title"
+     id="text2">The Economic Firewall: Monoculture vs. Dual-Circuit</text>
+  <!-- TOP HALF: VULNERABLE MONOCULTURE -->
+  <rect
+     x="50"
+     y="60"
+     width="800"
+     height="240"
+     fill="#fff5f5"
+     stroke="#cc0000"
+     stroke-width="2"
+     rx="5"
+     id="rect2" />
+  <text
+     x="450"
+     y="85"
+     class="title"
+     id="text3">The Vulnerable Monoculture (1923 Historical)</text>
+  <!-- War Reparations -->
+  <rect
+     x="92"
+     y="110"
+     width="200"
+     height="70"
+     class="box"
+     rx="5"
+     id="rect3" />
+  <text
+     x="192"
+     y="140"
+     class="title"
+     id="text4">War Reparations</text>
+  <text
+     x="192"
+     y="160"
+     class="text"
+     id="text5">132 Billion Gold Marks</text>
+  <!-- Arrow to Papiermark -->
+  <path
+     d="m 292,145 h 86.91244"
+     class="arrow"
+     id="path5"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="302"
+     y="135"
+     class="label"
+     id="text6">Drains Value</text>
+  <!-- Papiermark (Vulnerable) -->
+  <rect
+     x="380"
+     y="110"
+     width="180"
+     height="70"
+     class="vulnerable"
+     rx="5"
+     id="rect6" />
+  <text
+     x="470"
+     y="140"
+     class="title"
+     id="text7">Papiermark</text>
+  <text
+     x="470"
+     y="160"
+     class="text"
+     id="text8">(Single Currency)</text>
+  <!-- Arrow to Costs -->
+  <path
+     d="m 560,145 h 88.98618"
+     class="arrow"
+     id="path8"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="566"
+     y="135"
+     class="label"
+     id="text9">Hyperinflation</text>
+  <!-- Bread/Rent Costs -->
+  <rect
+     x="650"
+     y="110"
+     width="160"
+     height="70"
+     class="box"
+     rx="5"
+     id="rect9" />
+  <text
+     x="730"
+     y="135"
+     class="title"
+     id="text10">Essential Costs</text>
+  <text
+     x="730"
+     y="155"
+     class="text"
+     id="text11">Bread • Rent</text>
+  <text
+     x="730"
+     y="172"
+     class="text"
+     id="text12">Healthcare</text>
+  <!-- Arrow to Collapse -->
+  <path
+     d="m 730,180 v 40"
+     class="arrow"
+     id="path12" />
+  <text
+     x="760"
+     y="205"
+     class="label"
+     id="text13">Cascade</text>
+  <!-- Starvation/Panic -->
+  <rect
+     x="620"
+     y="220"
+     width="200"
+     height="60"
+     class="vulnerable"
+     rx="5"
+     id="rect13" />
+  <text
+     x="720"
+     y="245"
+     class="title"
+     id="text14">Starvation/Panic</text>
+  <text
+     x="720"
+     y="265"
+     class="text"
+     id="text15">Total System Collapse</text>
+  <!-- BOTTOM HALF: DUAL-CIRCUIT FIREWALL -->
+  <rect
+     x="50"
+     y="320"
+     width="800"
+     height="240"
+     fill="#f5fff5"
+     stroke="#009900"
+     stroke-width="2"
+     rx="5"
+     id="rect15" />
+  <text
+     x="450"
+     y="345"
+     class="title"
+     id="text16">The GGF Dual-Circuit Firewall</text>
+  <!-- War Reparations -->
+  <rect
+     x="90"
+     y="370"
+     width="200"
+     height="70"
+     class="box"
+     rx="5"
+     id="rect16" />
+  <text
+     x="190"
+     y="400"
+     class="title"
+     id="text17">War Reparations</text>
+  <text
+     x="190"
+     y="420"
+     class="text"
+     id="text18">132 Billion Gold Marks</text>
+  <!-- Arrow to Papiermark -->
+  <path
+     d="M 290.32258,405 340,405"
+     class="arrow"
+     id="path18"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="296"
+     y="395"
+     class="label"
+     id="text19">Drains</text>
+  <!-- Papiermark (Still Vulnerable) -->
+  <rect
+     x="340"
+     y="370"
+     width="140"
+     height="70"
+     class="vulnerable"
+     rx="5"
+     id="rect19" />
+  <text
+     x="410"
+     y="400"
+     class="title"
+     id="text20">Papiermark</text>
+  <text
+     x="410"
+     y="420"
+     class="text"
+     id="text21">(External)</text>
+  <!-- Firewall Disconnect Arrow -->
+  <path
+     d="M 480 405 L 560 405"
+     class="firewall"
+     id="path21" />
+  <text
+     x="486"
+     y="395"
+     class="label"
+     style="font-weight:bold;fill:#009900"
+     id="text22">FIREWALL</text>
+  <text
+     x="486"
+     y="425"
+     class="label"
+     style="fill:#009900"
+     id="text23">Disconnect</text>
+  <!-- Hearts Currency (Protected) -->
+  <rect
+     x="560"
+     y="370"
+     width="140"
+     height="70"
+     class="protected"
+     rx="5"
+     id="rect23" />
+  <text
+     x="630"
+     y="400"
+     class="title"
+     id="text24">Hearts</text>
+  <text
+     x="630"
+     y="420"
+     class="text"
+     id="text25">(Internal)</text>
+  <!-- Local Labor/Care backing -->
+  <rect
+     x="90"
+     y="470"
+     width="200"
+     height="60"
+     class="box"
+     rx="5"
+     id="rect25" />
+  <text
+     x="190"
+     y="495"
+     class="title"
+     id="text26">Local Labor/Care</text>
+  <text
+     x="190"
+     y="515"
+     class="text"
+     id="text27">Real Productive Capacity</text>
+  <!-- Arrow from Labor to Hearts -->
+  <path
+     d="M 289.63134,500 H 500 c 53.33333,0 86.66667,-20 100,-60"
+     class="arrow"
+     id="path27"
+     sodipodi:nodetypes="csc" />
+  <text
+     x="420"
+     y="490"
+     class="label"
+     id="text28">Backs Value</text>
+  <!-- Arrow from Hearts to Costs -->
+  <path
+     d="M 700 405 L 750 405"
+     class="arrow"
+     id="path28" />
+  <text
+     x="725"
+     y="395"
+     class="label"
+     id="text29">Stable</text>
+  <!-- Essential Costs -->
+  <rect
+     x="720"
+     y="370"
+     width="120"
+     height="70"
+     class="box"
+     rx="5"
+     id="rect29" />
+  <text
+     x="780"
+     y="395"
+     class="title"
+     id="text30">Essential</text>
+  <text
+     x="780"
+     y="412"
+     class="title"
+     id="text31">Costs</text>
+  <text
+     x="780"
+     y="430"
+     class="text"
+     id="text32">In Hearts</text>
+  <!-- Arrow to Stability -->
+  <path
+     d="M 780 440 L 780 470"
+     class="arrow"
+     id="path32" />
+  <!-- Social Stability -->
+  <rect
+     x="700"
+     y="470"
+     width="160"
+     height="60"
+     class="protected"
+     rx="5"
+     id="rect32" />
+  <text
+     x="780"
+     y="495"
+     class="title"
+     id="text33">Social Stability</text>
+  <text
+     x="780"
+     y="515"
+     class="text"
+     id="text34">Survival Maintained</text>
+  <!-- Key insight box -->
+  <rect
+     x="80"
+     y="570"
+     width="740"
+     height="20"
+     fill="#ffffcc"
+     stroke="#999"
+     stroke-width="1"
+     rx="3"
+     id="rect34" />
+  <text
+     x="450"
+     y="585"
+     class="text"
+     style="font-weight: bold;"
+     id="text35">The firewall prevents external financial collapse from destroying internal survival capacity</text>
+</svg>
