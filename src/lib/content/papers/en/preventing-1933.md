@@ -671,6 +671,8 @@ You can't rebuild trust in institutions while those institutions are actively fa
 
 **The intervention must happen while the system is stressed but still functional.**
 
+The Structural Difference: Velocity. The feedback loops that destroyed Weimar took years to cycle. In the algorithmic age, these loops cycle in milliseconds. We do not have a 4-year window; we likely have an 18-month window once the cascade begins. This requires pre-positioned architecture, not reactive policy.
+
 This is the 2026 horizon: the point where we either architect resilience or default to authoritarian simplification.
 
 ### The Stakes (Stated Clearly)

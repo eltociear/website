@@ -707,6 +707,8 @@ Du kan inte återbygga tillit till institutioner medan dessa institutioner aktiv
 
 **Interventionen måste ske medan systemet är stressat men fortfarande funktionellt.**
 
+Den strukturella skillnaden: Hastighet. Återkopplingsslingorna som förstörde Weimar tog år att cykla. I den algoritmiska tidsåldern cyklar dessa slingor på millisekunder. Vi har inte ett 4-årsfönster; vi har sannolikt ett 18-månadersfönster när kaskaden börjar. Detta kräver en förutbestämd arkitektur, inte en reaktiv policy.
+
 Detta är horisonten 2026: punkten där vi antingen arkitekterar motståndskraft eller faller tillbaka på auktoritär förenkling.
 
 ### Insatserna (Tydligt angivna)
