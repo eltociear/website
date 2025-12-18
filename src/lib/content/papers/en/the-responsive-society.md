@@ -6,20 +6,11 @@ description: "A foundational white paper exploring how societies can navigate un
 status: published
 category: "Philosophy & Governance"
 version: "1.0"
-pages: 60
+pages: 50
 readTime: 45
 pdfPath: "/resources/whitepapers/The_Responsive_Society_-_Aligning_with_Truth_in_an_Unknown_World.pdf"
 tags: ["Responsive Governance", "Systems Thinking", "Indigenous Wisdom", "Adaptive Institutions", "Global Governance", "Philosophy of Governance"]
 hashtags: ["ResponsiveSociety", "AdaptiveGovernance", "LucidHumility", "GenerativeDialogue", "GlobalGovernance", "IndigenousWisdom"]
----
-
-# The Responsive Society: Aligning with Truth in an Unknown World
-
-**Global Governance Frameworks Project**  
-**Publication:** globalgovernanceframeworks.org  
-**Status:** Version 1.0 - Foundational White Paper  
-**Date:** October 04, 2025  
-
 ---
 
 ## Abstract

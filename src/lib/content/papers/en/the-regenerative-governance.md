@@ -6,20 +6,11 @@ description: "A foundational white paper introducing the core architectural inno
 status: "published"
 category: "Governance-architecture"
 version: "1.0"
-pages: 60
+pages: 52
 readTime: 40
 pdfPath: "/resources/whitepapers/The_Regenerative_Governance_-_Integrating_Hardware_Heart_Nervous_System.pdf"
 tags: ["Global Governance", "Regenerative Systems", "Indigenous Governance", "Meta-Governance", "Planetary Stewardship", "Institutional Reform"]
 hashtags: ["RegenerativeGovernance", "GlobalGovernance", "PlanetaryStewardship", "IndigenousWisdom", "SystemsIntegration", "MetaGovernance"]
----
-
-# **White Paper**: The Regenerative Governance: Integrating the Hardware, Heart, and Nervous System of Global Governance
-
-**Author:** Björn Kenneth Holmström  
-**Publication:** Global Governance Frameworks (globalgovernanceframeworks.org)  
-**Status:** Version 1.0 - Foundational White Paper  
-**Date:** September 03, 2025  
-
 ---
 
 ## Abstract

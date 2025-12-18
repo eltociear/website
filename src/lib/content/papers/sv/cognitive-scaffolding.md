@@ -6,20 +6,11 @@ description: "En omfattande metodik för att utnyttja olika AI-modeller för att
 status: "published"
 category: "Metodik"
 version: "1.8"
-pages: 26
+pages: 21
 readTime: 25
 pdfPath: "/resources/whitepapers/Kognitiv_stöttning_-_En_syntesmetod_med_flera_AI-modeller.pdf"
 tags: ["AI-metodik", "Systemtänkande", "Global styrning", "Kognitiv utveckling", "AI med flera modeller"]
 hashtags: ["CognitiveScaffolding", "AIMethodology", "SystemsThinking", "GlobalGovernance", "AIAlignment"]
----
-
-# **White paper**: Kognitiv stöttning: En syntesmetod med flera AI-modeller för att lösa komplexa systemproblem
-
-**Författare:** Björn Kenneth Holmström  
-**Publikation:** Global Governance Frameworks (globalgovernanceframeworks.org)  
-**Status:** Version 1.8 - Förstärkt med en utökad evidensbas, kvantifierbara mätetal och avancerade metodologiska detaljer.  
-**Datum:** 25 augusti 2025  
-
 ---
 
 ## Sammanfattning

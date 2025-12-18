@@ -7,7 +7,7 @@ description: "A multi-model AI systems analysis demonstrating that the Weimar Re
 status: "draft-for-review"
 category: "systems-architecture"
 version: "1.0"
-pages: 30
+pages: 27
 readTime: 35
 pdfPath: "/resources/whitepapers/Preventing_1933_-_Architecture_of_Democratic_Resilience.pdf"
 tags: ["Democratic Resilience", "Systems Architecture", "Weimar Analysis", "GGF Framework", "Multi-Model AI", "Dual-Currency Systems", "Epistemic Infrastructure", "Bioregional Governance", "Authoritarian Prevention", "Hearts Currency", "Synoptic Protocol"]

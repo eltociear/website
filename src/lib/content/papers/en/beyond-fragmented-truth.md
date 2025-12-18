@@ -6,20 +6,11 @@ description: "A methodological framework for using AI-enhanced reasoning to brid
 status: published
 category: "methodology"
 version: "1.0"
-pages: 77
+pages: 65
 readTime: 45
 pdfPath: "/resources/whitepapers/Beyond_Fragmented_Truth_-_A_Reasoning_Path_from_Ancient_Wisdom_to_Modern_Governance.pdf"
 tags: ["Philosophy", "AI Methodology", "Governance", "Epistemology", "Systems Thinking", "Consciousness"]
 hashtags: ["BeyondFragmentedTruth", "AIPhilosophy", "GovernanceWisdom", "EpistemicHumility", "SCI_Cycle"]
----
-
-# **White Paper**: Beyond Fragmented Truth: A Reasoning Path from Ancient Wisdom to Modern Governance
-
-**Author:** Björn Kenneth Holmström  
-**Publication:** Global Governance Frameworks (globalgovernanceframeworks.org)  
-**Status:** Version 1.0 - Foundational Framework  
-**Date:** January 15, 2025  
-
 ---
 
 ## Abstract

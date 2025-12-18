@@ -6,20 +6,11 @@ description: "A comprehensive framework for governance that honors both moral cl
 status: "published"
 category: "governance-ethics"
 version: "1.0"
-pages: 80
+pages: 64
 readTime: 45
 pdfPath: "/resources/whitepapers/The_Infinite_Paradox_-_Non-Dual_Ethics_for_Planetary_Governance.pdf"
 tags: ["Non-Dual Ethics", "Governance", "Decision-Making", "Systems Thinking", "Planetary Governance"]
 hashtags: ["InfiniteParadox", "NonDualEthics", "PlanetaryGovernance", "SystemsHumility", "ParadoxDecisionCanvas"]
----
-
-# **White Paper**: The Infinite Paradox: Non-Dual Ethics for Planetary Governance
-
-**Author:** Björn Kenneth Holmström  
-**Publication:** Global Governance Frameworks (globalgovernanceframeworks.org)  
-**Status:** Version 1.0 - Draft for Review and Integration  
-**Date:** September 3, 2025  
-
 ---
 
 ## Abstract

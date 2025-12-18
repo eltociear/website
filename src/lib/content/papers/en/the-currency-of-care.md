@@ -6,20 +6,11 @@ description: "An in-depth exploration of why UBI is a necessary but insufficient
 status: "published"
 category: "Economics"
 version: "1.0"
-pages: 36
+pages: 30
 readTime: 35
 pdfPath: "/resources/whitepapers/The_Currency_of_Care_Beyond_UBI.pdf"
 tags: ["AUBI", "Universal Basic Income", "Care Economy", "Social Currency", "Regenerative Economics", "GGF"]
 hashtags: ["#AUBI", "#UBI", "#CareEconomy", "#HeartsCurrency", "#RegenerativeEconomics", "#GGF"]
----
-
-# **White Paper**: The Currency of Care: Why Universal Basic Income Isn't Enough
-
-**Author:** Björn Kenneth Holmström  
-**Publication:** Global Governance Frameworks (globalgovernanceframeworks.org)  
-**Status:** Research Prospectus - Invitation to Global Action Research Program  
-**Date:** August 31, 2025  
-
 ---
 
 ## Abstract

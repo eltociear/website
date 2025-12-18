@@ -7,7 +7,7 @@ description: "En systemanalys med flera AI-modeller som demonstrerar att Weimarr
 status: "utkast-för-granskning"
 category: "systemarkitektur"
 version: "1.0"
-pages: 29
+pages: 28
 readTime: 35
 pdfPath: "/resources/whitepapers/Att_förhindra_1933_-_Arkitekturen_för_demomkratisk_motståndskraft.pdf"
 tags: ["Demokratisk motståndskraft", "Systemarkitektur", "Weimaranalys", "GGF-ramverk", "Flermodells-AI", "System med dubbla valutor", "Epistemisk infrastruktur", "Bioregionalt styre", "Auktoritär prevention", "Hjärter-valuta", "Synoptiska protokollet"]

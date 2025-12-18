@@ -6,19 +6,11 @@ description: "En grundläggande uppsats som utforskar hur samhällen kan naviger
 status: published
 category: "Filosofi & styrning"
 version: "1.0"
-pages: 62
+pages: 50
 readTime: 45
 pdfPath: "/resources/whitepapers/Det_responsiva_samhället_-_I_linje_med_sanningen_i_en_okänd_värld.pdf"
 tags: ["Responsiv styrning", "Systemtänkande", "Urfolksvisdom", "Adaptiva institutioner", "Global styrning", "Styrningsfilosofi"]
 hashtags: ["ResponsivaSamhället", "AdaptivStyrning", "KlarÖdmjukhet", "GenerativDialog", "GlobalStyrning", "Urfolksvisdom"]
----
-
-# Det responsiva samhället: I linje med sanningen i en okänd värld
-
-**Global Governance Frameworks-projektet** **Publikation:** globalgovernanceframeworks.org  
-**Status:** Version 1.0 - Grundläggande dokument  
-**Datum:** 4 oktober 2025
-
 ---
 
 ## Sammanfattning

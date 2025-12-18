@@ -6,20 +6,11 @@ description: "En grundläggande vitbok som introducerar den centrala arkitektoni
 status: "published"
 category: "Styrningsarkitektur"
 version: "1.0"
-pages: 60
+pages: 52
 readTime: 40
 pdfPath: "/resources/whitepapers/Regenerativ_styrning_-_Integrering_hårdvara_hjärta_nervsystem.pdf"
 tags: ["Global styrning", "Regenerativa system", "Urfolksstyrning", "Metastyrning", "Planetärt förvaltarskap", "Institutionell reform"]
 hashtags: ["RegenerativStyrning", "GlobalStyrning", "PlanetärtFörvaltarskap", "Urfolksvisdom", "Systemintegration", "Metastyrning"]
----
-
-# **Vitbok**: Den regenerativa styrningen: Att integrera hårdvaran, hjärtat och nervsystemet i global styrning
-
-**Författare:** Björn Kenneth Holmström  
-**Publikation:** Global Governance Frameworks (globalgovernanceframeworks.org)  
-**Status:** Version 1.0 - Grundläggande vitbok  
-**Datum:** 3 september 2025
-
 ---
 
 ## Abstrakt

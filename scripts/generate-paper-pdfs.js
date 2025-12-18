@@ -10,83 +10,106 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const css = `
-  @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Inter:wght@400;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600&family=Inter:wght@400;600;700&display=swap');
   
-  * {
-    box-sizing: border-box;
+  /* --- SOVEREIGN PAGE SETUP --- */
+  @page {
+    margin: 2cm 2cm;
+    @bottom-center {
+      content: "Global Governance Frameworks | " counter(page);
+      font-family: 'Inter', sans-serif;
+      font-size: 8pt;
+      color: #888;
+    }
   }
+
+  * { box-sizing: border-box; }
   
   body {
     font-family: 'Crimson Pro', 'Georgia', serif;
-    font-size: 11pt;
-    line-height: 1.6;
-    color: #1a1a1a;
+    font-size: 11pt; 
+    line-height: 1.35; /* DENSE: The "Briefing" standard */
+    color: #111; /* Darker black for authority */
     max-width: none;
     margin: 0;
-    padding: 1.5cm 2cm;
+    padding: 0; /* Padding handled by PDF margins */
     background: white;
+    text-align: justify;
   }
   
-  /* Typography Hierarchy */
+  /* --- COVER PAGE UTILITY --- */
+  .cover-page {
+    page-break-after: always;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh; 
+    text-align: left;
+  }
+
+  /* --- TYPOGRAPHY HIERARCHY --- */
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Inter', 'Helvetica', sans-serif;
-    font-weight: 700;
-    color: #2B4B8C;
+    color: #000;
     page-break-after: avoid;
     margin-top: 1.5em;
     margin-bottom: 0.75em;
   }
   
   h1 { 
-    font-size: 24pt; 
-    margin-top: 0;
+    font-weight: 700;
+    font-size: 28pt; 
+    line-height: 1.1;
     margin-bottom: 0.5em;
-    border-bottom: 2px solid #2B4B8C;
-    padding-bottom: 0.3em;
+    letter-spacing: -0.02em;
+    border-bottom: none; /* Clean look for cover */
   }
   
   h2 { 
-    font-size: 16pt; 
-    border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 0.25em;
+    font-weight: 600;
+    font-size: 14pt; 
+    text-transform: uppercase; /* The "Intelligence" look */
+    letter-spacing: 0.05em;
+    color: #333;
+    border-bottom: 2px solid #000;
+    padding-bottom: 0.2em;
+    margin-top: 2em;
   }
   
-  h3 { font-size: 13pt; color: #3a5a9a; }
-  h4 { font-size: 11pt; font-weight: 600; }
+  h3 { 
+    font-size: 11pt; 
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+  }
+  
+  h4 { font-size: 11pt; font-weight: 600; font-style: italic; }
   
   p { 
-    margin: 0.5em 0; 
-    text-align: justify;
+    margin: 0.8em 0; 
     orphans: 3;
     widows: 3;
   }
   
-  /* Links */
+  /* --- LINKS --- */
   a { 
     color: #2B4B8C; 
     text-decoration: none;
     border-bottom: 1px solid #b0c4de;
   }
   
-  a:hover {
-    border-bottom-color: #2B4B8C;
-  }
-  
-  /* Block Elements */
+  /* --- BLOCKQUOTES (Updated Style) --- */
   blockquote {
-    border-left: 4px solid #6B5CA5;
-    padding-left: 1em;
-    margin: 1em 0 1em 0.5em;
-    color: #444;
+    border-left: 3px solid #000;
+    margin: 1.5em 0;
+    padding: 1em;
+    background: #f9f9f9;
     font-style: italic;
+    color: #333;
     page-break-inside: avoid;
   }
   
-  blockquote p {
-    margin: 0.5em 0;
-  }
-  
-  /* Code */
+  /* --- CODE BLOCKS (Preserved) --- */
   code {
     background-color: #f6f8fa;
     padding: 0.15em 0.4em;
@@ -112,118 +135,88 @@ const css = `
     padding: 0;
   }
   
-  /* Lists */
+  /* --- LISTS --- */
   ul, ol { 
     padding-left: 1.5em; 
-    margin: 0.75em 0;
+    margin: 0.5em 0;
   }
+  li { margin-bottom: 0.25em; }
   
-  li { 
-    margin-bottom: 0.35em;
-  }
-  
-  li > p {
-    margin: 0.25em 0;
-  }
-  
-  /* Nested lists */
-  ul ul, ol ol, ul ol, ol ul {
-    margin: 0.25em 0;
-  }
-  
-  /* Images */
+  /* --- IMAGES --- */
   img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 1.5em auto;
-    border-radius: 4px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     page-break-inside: avoid;
   }
   
   .image-container, .svg-container {
     text-align: center;
     margin: 1.5em 0;
-    page-break-inside: avoid;
+    padding: 10px;
+    border: 1px solid #eee; /* Subtle frame */
   }
   
-  /* Tables */
+  /* --- TABLES (Preserved & Tightened) --- */
   table {
     border-collapse: collapse;
     width: 100%;
     margin: 1.5em 0;
-    font-size: 10pt;
+    font-size: 10pt; /* Slightly smaller for density */
     page-break-inside: avoid;
   }
   
   table, th, td {
-    border: 1px solid #d0d0d0;
+    border: 1px solid #ccc; /* Greyer borders */
   }
   
   th, td {
-    padding: 0.6em 0.8em;
+    padding: 0.5em 0.7em;
     text-align: left;
     vertical-align: top;
   }
   
   th {
-    background-color: #2B4B8C;
+    background-color: #000; /* Authority Black headers */
     color: white;
     font-weight: 600;
     font-size: 9pt;
+    text-transform: uppercase;
     font-family: 'Inter', sans-serif;
   }
   
   tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #f5f5f5;
   }
   
-  /* Horizontal Rules */
-  hr {
-    border: none;
-    border-top: 2px solid #e0e0e0;
-    margin: 2em 0;
-    page-break-after: avoid;
-  }
-  
-  /* Special Boxes */
+  /* --- SPECIAL BOXES --- */
   .abstract, .executive-summary {
     background: #f8f9fa;
-    border-left: 4px solid #2B4B8C;
+    border-left: 4px solid #000;
     padding: 1em 1.5em;
     margin: 1.5em 0;
     page-break-inside: avoid;
   }
   
-  .abstract h2, .executive-summary h2 {
-    margin-top: 0;
-    font-size: 14pt;
-  }
-  
-  /* Metadata section */
+  /* --- METADATA (For Cover Page) --- */
   .paper-metadata {
-    border-bottom: 2px solid #e0e0e0;
-    padding-bottom: 1em;
-    margin-bottom: 2em;
-    color: #666;
-    font-size: 10pt;
+    border-top: 4px solid #000;
+    border-bottom: 1px solid #ccc;
+    padding: 1.5em 0;
+    margin-top: 2em;
+    font-family: 'Inter', sans-serif;
+    font-size: 9pt;
+    color: #333;
   }
   
-  .paper-metadata p {
-    margin: 0.25em 0;
-  }
+  .paper-metadata p { margin: 0.25em 0; }
+  .paper-metadata strong { text-transform: uppercase; min-width: 120px; display: inline-block; font-weight: 700; }
   
-  .paper-metadata strong {
-    color: #2B4B8C;
-    font-weight: 600;
-  }
-  
-  /* Table of Contents */
+  /* --- TABLE OF CONTENTS --- */
   .toc {
-    background: #f8f9fa;
-    border: 1px solid #e0e0e0;
-    border-radius: 4px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
     padding: 1em 1.5em;
     margin: 2em 0;
     page-break-inside: avoid;
@@ -232,78 +225,17 @@ const css = `
   .toc h2 {
     margin-top: 0;
     border: none;
-    font-size: 14pt;
+    font-size: 12pt;
   }
   
-  .toc ul {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  .toc li {
-    margin-bottom: 0.5em;
-  }
-  
-  .toc a {
-    border: none;
-  }
-  
-  /* Footnotes */
-  .footnote {
-    font-size: 9pt;
-    color: #666;
-  }
-  
-  /* Page breaks */
-  .page-break {
-    page-break-after: always;
-  }
-  
-  /* Print-specific */
+  .toc ul { list-style: none; padding-left: 0; }
+  .toc li { margin-bottom: 0.5em; }
+
+  /* --- PRINT OPTIMIZATIONS --- */
   @media print {
-    body {
-      font-size: 10pt;
-    }
-    
-    table {
-      font-size: 9pt;
-    }
-    
-    th, td {
-      padding: 0.5em 0.6em;
-    }
-    
-    h1 {
-      page-break-before: always;
-    }
-    
-    h1:first-of-type {
-      page-break-before: avoid;
-    }
-    
-    a {
-      color: #2B4B8C;
-      text-decoration: none;
-    }
-  }
-  
-  /* Details/Summary (for collapsible sections in HTML) */
-  details {
-    margin: 1em 0;
-    border: 1px solid #e0e0e0;
-    border-radius: 4px;
-    padding: 0.5em 1em;
-  }
-  
-  summary {
-    cursor: pointer;
-    font-weight: 600;
-    color: #2B4B8C;
-    padding: 0.5em 0;
-  }
-  
-  summary:hover {
-    color: #1a3a7a;
+    h1 { page-break-before: always; }
+    h1:first-of-type { page-break-before: avoid; } /* Don't break on cover */
+    a { text-decoration: none; color: #000; }
   }
 `;
 
@@ -545,7 +477,7 @@ async function generatePaperPDF(browser, paper) {
       </div>
     `;
     
-    // Create full HTML document
+    // Create full HTML document with dedicated Cover Page structure
     const fullHtml = `
       <!DOCTYPE html>
       <html lang="${paper.lang}">
@@ -555,8 +487,19 @@ async function generatePaperPDF(browser, paper) {
         <style>${css}</style>
       </head>
       <body>
-        <h1>${paper.metadata.title}</h1>
-        ${metadataHtml}
+        
+        <div class="cover-page">
+            <div style="font-family: 'Inter'; font-weight: 700; font-size: 10pt; text-transform: uppercase; margin-bottom: 20px;">
+                Global Governance Frameworks
+            </div>
+            
+            <h1>${paper.metadata.title}</h1>
+            
+            ${paper.metadata.subtitle ? `<div style="font-size: 16pt; font-family: 'Crimson Pro'; margin-bottom: 2em; color: #444;">${paper.metadata.subtitle}</div>` : ''}
+
+            ${metadataHtml}
+        </div>
+
         ${html}
       </body>
       </html>

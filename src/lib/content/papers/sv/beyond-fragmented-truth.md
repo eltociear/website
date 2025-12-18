@@ -6,20 +6,11 @@ description: "Ett metodologiskt ramverk för att använda AI-förstärkt resonem
 status: published
 category: "methodology"
 version: "1.0"
-pages: 71
+pages: 56
 readtime: 45
 pdfPath: "/resources/whitepapers/Bortom_fragmenterad_sanning_-_En_resonemangsväg_från_forntida_visdom_till_modern_styrning.pdf"
 tags: ["Filosofi", "AI-metodologi", "Samhällsstyrning", "Epistemologi", "Systemtänkande", "Medvetande"]
 hashtags: ["BortomFragmenteradSanning", "AIFilosofi", "Styrningsvisdom", "EpistemiskÖdmjukhet", "SCI_Cykeln"]
----
-
-# **White paper**: Bortom fragmenterad sanning: En resonemangsväg från forntida visdom till modern samhällsstyrning
-
-**Författare:** Björn Kenneth Holmström  
-**Publikation:** Global Governance Frameworks (globalgovernanceframeworks.org)  
-**Status:** Version 1.0 - Grundläggande ramverk  
-**Datum:** 15 januari 2025
-
 ---
 
 ## Abstrakt

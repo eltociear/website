@@ -6,20 +6,11 @@ description: "A comprehensive methodology for leveraging diverse AI models to de
 status: "published"
 category: "methodology"
 version: "1.8"
-pages: 25
+pages: 21
 readTime: 25
 pdfPath: "/resources/whitepapers/Cognitive_Scaffolding_-_A_Multi-Model_AI_Synthesis_Method.pdf"
 tags: ["AI Methodology", "Systems Thinking", "Global Governance", "Cognitive Development", "Multi-Model AI"]
 hashtags: ["CognitiveScaffolding", "AIMethodology", "SystemsThinking", "GlobalGovernance", "AIAlignment"]
----
-
-# **White Paper**: Cognitive Scaffolding: A Multi-Model AI Synthesis Method for Solving Complex Systemic Problems
-
-**Author:** Björn Kenneth Holmström  
-**Publication:** Global Governance Frameworks (globalgovernanceframeworks.org)  
-**Status:** Version 1.8 - Strengthened with an expanded evidence base, quantifiable metrics, and advanced methodological detail.  
-**Date:** August 25, 2025  
-
 ---
 
 ## Abstract

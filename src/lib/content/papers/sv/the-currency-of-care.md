@@ -6,20 +6,11 @@ description: "En djupgående utforskning av varför UBI är en nödvändig men o
 status: "published"
 category: "Ekonomi"
 version: "1.0"
-pages: 37
+pages: 32
 readTime: 35
 pdfPath: "/resources/whitepapers/Omsorgens_valuta_bortom_UBI.pdf"
 tags: ["AUBI", "Universell basinkomst", "Omsorgsekonomi", "Social valuta", "Regenerativ ekonomi", "GGF"]
 hashtags: ["#AUBI", "#UBI", "#Omsorgsekonomi", "#HeartsValuta", "#RegenerativEkonomi", "#GGF"]
----
-
-# **White paper**: Omsorgens valuta: Varför universell basinkomst inte är tillräckligt
-
-**Författare:** Björn Kenneth Holmström  
-**Publikation:** Global Governance Frameworks (globalgovernanceframeworks.org)  
-**Status:** Forskningsprospekt — Inbjudan till ett globalt aktionsforskningsprogram  
-**Datum:** 31 augusti 2025
-
 ---
 
 ## Abstract

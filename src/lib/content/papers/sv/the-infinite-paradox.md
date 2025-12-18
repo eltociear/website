@@ -6,20 +6,11 @@ description: "Ett omfattande ramverk för styrning som hedrar både moralisk kla
 status: "published"
 category: "styrningsetik"
 version: "1.0"
-pages: 81
+pages: 65
 readTime: 50
 pdfPath: "/resources/whitepapers/Den_oändliga_paradoxen_-_Icke-dualistisk_etik_för_planetär_styrning.pdf"
 tags: ["Icke-dualistisk etik", "Styrning", "Beslutsfattande", "Systemtänkande", "Planetär styrning"]
 hashtags: ["OändligaParadoxen", "IckeDualistiskEtik", "PlanetärStyrning", "SystemiskÖdmjukhet", "CanvasFörParadoxbeslut"]
----
-
-# **Whitepaper**: Den oändliga paradoxen: Icke-dualistisk etik för planetär styrning
-
-**Författare:** Björn Kenneth Holmström  
-**Publikation:** Global Governance Frameworks (globalgovernanceframeworks.org)  
-**Status:** Version 1.0 - Utkast för granskning och integration  
-**Datum:** 3 september 2025
-
 ---
 
 ## Abstrakt
