@@ -141,6 +141,22 @@ const css = `
     margin: 0.5em 0;
   }
   li { margin-bottom: 0.25em; }
+
+  /* --- DIAGRAM & IMAGE LOCKING --- */
+  
+  /* The container that holds both the image and (implicitly) the title before it */
+  .image-container, .svg-container {
+    page-break-inside: avoid; /* Never split the image itself */
+    margin: 2em 0;
+    text-align: center;
+    break-inside: avoid; /* Newer syntax */
+  }
+
+  /* Force headers to stick to the content following them */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid; /* Never break immediately after a header */
+    break-after: avoid;
+  }
   
   /* --- IMAGES --- */
   img {

@@ -73,8 +73,6 @@ This is a different category of crisis. Citizens didn't just experience poverty;
 
 ### The Cascade: From Economic Crisis to Ontological Collapse
 
-**[DIAGRAM 1 - THE COLLAPSE CASCADE]**
-
 ![Diagram 1 - The Collapse Cascade](/images/whitepapers/preventing-1933/collapse-cascade.svg)
 
 The diagram illustrates the causal chain from external shock to democratic collapse. Each stage amplifies the next through positive feedback loops, creating a runaway cascade. The single currency (Papiermark) acts as the brittle hinge—when it breaks, all dependent systems fail simultaneously.
@@ -350,8 +348,6 @@ Restructure Germany into **Bioregional Autonomous Zones (BAZs)** based on ecolog
 
 **Outcome:** When Berlin's central bank fails, the Rhine BAZ continues functioning. The Elbe BAZ continues functioning. Resilience is distributed. No total systemic collapse.
 
-**[DIAGRAM 2 - THE ECONOMIC FIREWALL]**
-
 ![Diagram 2 - The Economic Firewall](/images/whitepapers/preventing-1933/economic-firewall.svg)
 
 The diagram illustrates why the Hearts economy doesn't collapse when the Papiermark does. The top half shows the vulnerable monoculture where all functions run through one currency—when it fails, everything fails. The bottom half shows the dual-circuit architecture where the Hearts currency is firewalled from external pressure, backed by local productive capacity rather than debt obligations. When the Papiermark hyperinflates, essential survival costs remain stable in Hearts.
@@ -384,8 +380,6 @@ Default is not shameful—it's **responsible stewardship of the future**. Nation
 **Outcome:** This reframes the immediate panic into long-term calculus. The Council can veto policies that mortgage seven generations of social health for short-term debt servicing.
 
 ### The Combined Effect: System Resilience
-
-**[DIAGRAM 3 - DUAL SYSTEM ARCHITECTURE]**
 
 ![Diagram 3 - Dual System Architecture](/images/whitepapers/preventing-1933/dual-system-architecture.svg)
 
@@ -462,8 +456,6 @@ Western democracies in 2025-2026 are exhibiting the **identical architectural vu
 5. **Authoritarian Surge** - Strongman politics filling the comprehension gap
 
 This is not metaphor. This is **systems isomorphism**—different contexts running identical failure code.
-
-**[DIAGRAM 4 - SPLIT SCREEN: 1930 vs. 2025]**
 
 ![Diagram 4 - Split Screen: 1930 vs. 2025](/images/whitepapers/preventing-1933/structural-isomorphism.svg)
 

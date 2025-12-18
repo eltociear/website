@@ -73,8 +73,6 @@ Detta är en annan kategori av kris. Medborgare upplevde inte bara fattigdom; de
 
 ### Kaskaden: Från ekonomisk kris till ontologisk kollaps
 
-**[DIAGRAM 1 – KOLLAPSKASKADEN]**
-
 ![Diagram 1 - The Collapse Cascade](/images/whitepapers/preventing-1933/collapse-cascade-sv.svg)
 
 Diagrammet illustrerar orsakskedjan från extern chock till demokratisk kollaps. Varje steg förstärker nästa genom positiva feedbackloopar, vilket skapar en skenande kaskad. Den gemensamma valutan (Papiermark) agerar som det bräckliga gångjärnet – när det brister, misslyckas alla beroende system samtidigt.
@@ -368,8 +366,6 @@ Omstrukturera Tyskland till **bioregionala autonoma zoner (BAZ)** baserade på e
 
 **Utfall:** När Berlins centralbank misslyckas, fortsätter Rhen BAZ att fungera. Elbe BAZ fortsätter att fungera. Motståndskraften är distribuerad. Ingen total systemkollaps.
 
-**[DIAGRAM 2 – DEN EKONOMISKA BRANDVÄGGEN]**
-
 ![Diagram 2 - The Economic Firewall](/images/whitepapers/preventing-1933/economic-firewall-sv.svg)
 
 Diagrammet illustrerar varför Hearts-ekonomin inte kollapsar när Papiermarken gör det. Den övre halvan visar den sårbara monokulturen där alla funktioner körs genom en valuta – när den misslyckas, misslyckas allt. Den nedre halvan visar arkitekturen med dubbla kretsar där Hearts-valutan är brandväggad från externt tryck, uppbackad av lokal produktiv kapacitet snarare än skuldåtaganden. När Papiermarken hyperinflaterar förblir väsentliga överlevnadskostnader stabila i Hearts.
@@ -402,8 +398,6 @@ Betalningsinställelse är inte skamligt – det är **ansvarsfull förvaltning 
 **Utfall:** Detta ramar om den omedelbara paniken till långsiktig kalkyl. Rådet kan lägga in veto mot policyer som intecknar sju generationers sociala hälsa för kortsiktig skuldbetalning.
 
 ### Den kombinerade effekten: Systemmotståndskraft
-
-**[DIAGRAM 3 – DUBBEL SYSTEMARKITEKTUR]**
 
 ![Diagram 3 - Dubbel Systemarkitektur](/images/whitepapers/preventing-1933/dual-system-architecture-sv.svg)
 
@@ -482,8 +476,6 @@ Västerländska demokratier 2025–2026 uppvisar de **identiska arkitektoniska s
 5. **Auktoritär våg** – Starkman-politik fyller förståelsegapet
 
 Detta är inte metafor. Detta är **systemisomorfism** – olika kontexter som kör identisk felkod.
-
-**[DIAGRAM 4 – DELAD SKÄRM: 1930 vs. 2025]**
 
 ![Diagram 4 - Split Screen: 1930 vs. 2025](/images/whitepapers/preventing-1933/structural-isomorphism-sv.svg)
 
