@@ -215,7 +215,7 @@
         <p class="pillar-description">
           {$t('home.threePillars.pillar2.description')}
         </p>
-        <a href="{base}/frameworks/indigenous-governance-and-traditional-knowledge" class="pillar-link">
+        <a href="{base}/frameworks/indigenous-sovereignty-pathways" class="pillar-link">
           {$t('home.threePillars.pillar2.link')}
         </a>
       </div>
