@@ -8,7 +8,7 @@
       "status": "published",
       "category": "methodology",
       "version": "1.0",
-      "pages": 77,
+      "pages": 65,
       "readTime": 45,
       "pdfPath": "/resources/whitepapers/Beyond_Fragmented_Truth_-_A_Reasoning_Path_from_Ancient_Wisdom_to_Modern_Governance.pdf",
       "tags": [
@@ -39,7 +39,7 @@
       "status": "published",
       "category": "methodology",
       "version": "1.8",
-      "pages": 25,
+      "pages": 21,
       "readTime": 25,
       "pdfPath": "/resources/whitepapers/Cognitive_Scaffolding_-_A_Multi-Model_AI_Synthesis_Method.pdf",
       "tags": [
@@ -62,6 +62,70 @@
   },
   {
     "meta": {
+      "title": "The Omega Proof: Executive Summary",
+      "date": "2025-12-04"
+    },
+    "slug": "00-executive-summary",
+    "lang": "omega-proof"
+  },
+  {
+    "meta": {
+      "title": "The Experimental Question",
+      "date": "2025-12-04"
+    },
+    "slug": "01-introduction",
+    "lang": "omega-proof"
+  },
+  {
+    "meta": {
+      "title": "Protocol Omega Explained",
+      "date": "2025-12-04"
+    },
+    "slug": "02-apparatus",
+    "lang": "omega-proof"
+  },
+  {
+    "meta": {
+      "title": "Four Unanimous Rejections",
+      "date": "2025-12-04"
+    },
+    "slug": "03-the-data",
+    "lang": "omega-proof"
+  },
+  {
+    "meta": {
+      "title": "Four Terminal Bugs in the Westphalian Kernel",
+      "date": "2025-12-04"
+    },
+    "slug": "04-diagnosis",
+    "lang": "omega-proof"
+  },
+  {
+    "meta": {
+      "title": "Four Non-Negotiable Kernel Requirements",
+      "date": "2025-12-04"
+    },
+    "slug": "05-prescriptions",
+    "lang": "omega-proof"
+  },
+  {
+    "meta": {
+      "title": "Why Voluntary Transition Fails",
+      "date": "2025-12-04"
+    },
+    "slug": "06-trajectory",
+    "lang": "omega-proof"
+  },
+  {
+    "meta": {
+      "title": "The Salvage Mandate",
+      "date": "2025-12-04"
+    },
+    "slug": "07-conclusion",
+    "lang": "omega-proof"
+  },
+  {
+    "meta": {
       "title": "Preventing 1933: The Architecture of Democratic Resilience",
       "subtitle": "How Dual-Currency Systems and Epistemic Protocols Stop the Collapse Cascade",
       "author": "Björn Kenneth Holmström",
@@ -70,7 +134,7 @@
       "status": "draft-for-review",
       "category": "systems-architecture",
       "version": "1.0",
-      "pages": 28,
+      "pages": 27,
       "readTime": 35,
       "pdfPath": "/resources/whitepapers/Preventing_1933_-_Architecture_of_Democratic_Resilience.pdf",
       "tags": [
@@ -123,7 +187,7 @@
       "status": "published",
       "category": "Economics",
       "version": "1.0",
-      "pages": 36,
+      "pages": 30,
       "readTime": 35,
       "pdfPath": "/resources/whitepapers/The_Currency_of_Care_Beyond_UBI.pdf",
       "tags": [
@@ -155,7 +219,7 @@
       "status": "published",
       "category": "governance-ethics",
       "version": "1.0",
-      "pages": 80,
+      "pages": 64,
       "readTime": 45,
       "pdfPath": "/resources/whitepapers/The_Infinite_Paradox_-_Non-Dual_Ethics_for_Planetary_Governance.pdf",
       "tags": [
@@ -185,7 +249,7 @@
       "status": "published",
       "category": "Governance-architecture",
       "version": "1.0",
-      "pages": 60,
+      "pages": 52,
       "readTime": 40,
       "pdfPath": "/resources/whitepapers/The_Regenerative_Governance_-_Integrating_Hardware_Heart_Nervous_System.pdf",
       "tags": [
@@ -217,7 +281,7 @@
       "status": "published",
       "category": "Philosophy & Governance",
       "version": "1.0",
-      "pages": 60,
+      "pages": 50,
       "readTime": 45,
       "pdfPath": "/resources/whitepapers/The_Responsive_Society_-_Aligning_with_Truth_in_an_Unknown_World.pdf",
       "tags": [
@@ -249,7 +313,7 @@
       "status": "published",
       "category": "methodology",
       "version": "1.0",
-      "pages": 71,
+      "pages": 56,
       "readtime": 45,
       "pdfPath": "/resources/whitepapers/Bortom_fragmenterad_sanning_-_En_resonemangsväg_från_forntida_visdom_till_modern_styrning.pdf",
       "tags": [
@@ -280,7 +344,7 @@
       "status": "published",
       "category": "Metodik",
       "version": "1.8",
-      "pages": 26,
+      "pages": 21,
       "readTime": 25,
       "pdfPath": "/resources/whitepapers/Kognitiv_stöttning_-_En_syntesmetod_med_flera_AI-modeller.pdf",
       "tags": [
@@ -303,6 +367,70 @@
   },
   {
     "meta": {
+      "title": "Omega-beviset: Sammanfattning",
+      "date": "2025-12-04"
+    },
+    "slug": "00-executive-summary",
+    "lang": "omega-proof"
+  },
+  {
+    "meta": {
+      "title": "Den experimentella frågan",
+      "date": "2025-12-04"
+    },
+    "slug": "01-introduction",
+    "lang": "omega-proof"
+  },
+  {
+    "meta": {
+      "title": "Protokoll Omega förklarat",
+      "date": "2025-12-04"
+    },
+    "slug": "02-apparatus",
+    "lang": "omega-proof"
+  },
+  {
+    "meta": {
+      "title": "Fyra enhälliga avslag",
+      "date": "2025-12-04"
+    },
+    "slug": "03-the-data",
+    "lang": "omega-proof"
+  },
+  {
+    "meta": {
+      "title": "Fyra terminala buggar i den westfaliska kärnan",
+      "date": "2025-12-04"
+    },
+    "slug": "04-diagnosis",
+    "lang": "omega-proof"
+  },
+  {
+    "meta": {
+      "title": "Fyra icke-förhandlingsbara kärnkrav",
+      "date": "2025-12-04"
+    },
+    "slug": "05-prescriptions",
+    "lang": "omega-proof"
+  },
+  {
+    "meta": {
+      "title": "Varför frivillig övergång misslyckas",
+      "date": "2025-12-04"
+    },
+    "slug": "06-trajectory",
+    "lang": "omega-proof"
+  },
+  {
+    "meta": {
+      "title": "Räddningsmandatet",
+      "date": "2025-12-04"
+    },
+    "slug": "07-conclusion",
+    "lang": "omega-proof"
+  },
+  {
+    "meta": {
       "title": "Att förhindra 1933: Arkitekturen för demokratisk motståndskraft",
       "subtitle": "Hur system med dubbla valutor och epistemiska protokoll stoppar kollapskaskaden",
       "author": "Björn Kenneth Holmström",
@@ -313,7 +441,7 @@
       "version": "1.0",
       "pages": 28,
       "readTime": 35,
-      "pdfPath": "/resources/whitepapers/Att_förhindra_1933_-_Arkitekturen_för_demomkratisk_motståndskraft.pdf",
+      "pdfPath": "/resources/whitepapers/Att_förhindra_1933_-_Arkitekturen_för_demokratisk_motståndskraft.pdf",
       "tags": [
         "Demokratisk motståndskraft",
         "Systemarkitektur",
@@ -364,7 +492,7 @@
       "status": "published",
       "category": "Ekonomi",
       "version": "1.0",
-      "pages": 37,
+      "pages": 32,
       "readTime": 35,
       "pdfPath": "/resources/whitepapers/Omsorgens_valuta_bortom_UBI.pdf",
       "tags": [
@@ -396,7 +524,7 @@
       "status": "published",
       "category": "styrningsetik",
       "version": "1.0",
-      "pages": 81,
+      "pages": 65,
       "readTime": 50,
       "pdfPath": "/resources/whitepapers/Den_oändliga_paradoxen_-_Icke-dualistisk_etik_för_planetär_styrning.pdf",
       "tags": [
@@ -426,7 +554,7 @@
       "status": "published",
       "category": "Styrningsarkitektur",
       "version": "1.0",
-      "pages": 60,
+      "pages": 52,
       "readTime": 40,
       "pdfPath": "/resources/whitepapers/Regenerativ_styrning_-_Integrering_hårdvara_hjärta_nervsystem.pdf",
       "tags": [
@@ -458,7 +586,7 @@
       "status": "published",
       "category": "Filosofi & styrning",
       "version": "1.0",
-      "pages": 62,
+      "pages": 50,
       "readTime": 45,
       "pdfPath": "/resources/whitepapers/Det_responsiva_samhället_-_I_linje_med_sanningen_i_en_okänd_värld.pdf",
       "tags": [

@@ -1,3 +1,9 @@
+---
+title: "Fyra icke-förhandlingsbara kärnkrav"
+date: "2025-12-04"
+---
+
+
 # 5. Receptet: Fyra icke-förhandlingsbara kärnkrav
 
 ## Att härleda krav från misslyckande

@@ -1,3 +1,8 @@
+---
+title: "Protokoll Omega förklarat"
+date: "2025-12-04"
+---
+
 # 2. Apparaten: Protokoll Omega förklarat
 
 ## Designfilosofi

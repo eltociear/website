@@ -1,3 +1,8 @@
+---
+title: "Fyra enhälliga avslag"
+date: "2025-12-04"
+---
+
 # 3. Datan: Fyra enhälliga avslag
 
 ## Metodik

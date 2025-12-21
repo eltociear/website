@@ -58,5 +58,17 @@
   "navigation": {
     "moreResearch": "Mer forskning",
     "allResources": "Alla resurser"
+  },
+  "omega": {
+    "badges": {
+      "featured": "FRAMHÄVD FORSKNING",
+      "status": "Slutförd jan 2026"
+    },
+    "description": "Vi använde adversariell AI för att simulera de fyra veto-spelarna i Ukrainakriget. De förkastade enhälligt en matematiskt optimal fredsuppgörelse. Detta är obduktionen av varför fred är arkitektoniskt omöjlig under nuvarande regler.",
+    "actions": {
+      "read": "Läs analysen",
+      "download": "Ladda ner PDF"
+    },
+    "meta": "65 sidor • 13 forskningsdokument • 4 terminala buggar"
   }
 }

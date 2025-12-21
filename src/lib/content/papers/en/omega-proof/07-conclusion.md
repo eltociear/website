@@ -1,5 +1,6 @@
 ---
 title: "The Salvage Mandate"
+date: "2025-12-04"
 ---
 
 *This is not a warning. This is a death certificate.*

@@ -1,5 +1,6 @@
 ---
 title: "Protocol Omega Explained"
+date: "2025-12-04"
 ---
 
 # 2. The Apparatus: Protocol Omega Explained

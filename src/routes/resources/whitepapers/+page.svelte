@@ -115,33 +115,33 @@
         <div class="omega-hero-card">
           <div class="omega-content">
             <div class="omega-badges">
-              <span class="omega-badge featured">FEATURED RESEARCH</span>
-              <span class="omega-badge status">Completed Jan 2026</span>
+              <span class="omega-badge featured">{getWhitepaperTranslation('omega.badges.featured', 'FEATURED RESEARCH')}</span>
+              <span class="omega-badge status">{getWhitepaperTranslation('omega.badges.status', 'Completed Jan 2026')}</span>
             </div>
             
             <h2>
               <a href="{base}/resources/whitepapers/omega-proof" style="color: inherit; text-decoration: none;">
-                The Omega Proof
+                {omegaPaper.meta.title}
               </a>
             </h2>
             
-            <p class="omega-subtitle">An Empirical Demonstration of the Nation-State System's Terminal Incompatibility with Planetary Peace</p>
+            <p class="omega-subtitle">{omegaPaper.meta.subtitle}</p>
             <p class="omega-desc">
-              We used adversarial AI to simulate the four veto-players in the Ukraine war. They unanimously rejected a mathematically optimal peace deal. This is the autopsy of why peace is architecturally impossible under current rules.
+              {getWhitepaperTranslation('omega.description', 'We used adversarial AI to simulate the four veto-players in the Ukraine war. They unanimously rejected a mathematically optimal peace deal. This is the autopsy of why peace is architecturally impossible under current rules.')}
             </p>
             
             <div class="omega-actions">
               <div class="button-row">
                 <a href="{base}/resources/whitepapers/omega-proof" class="omega-btn">
-                  Read the Analysis →
+                  {getWhitepaperTranslation('omega.actions.read', 'Read the Analysis')} →
                 </a>
                 {#if omegaPaper.meta.pdfPath}
                   <a href="{omegaPaper.meta.pdfPath}" class="omega-btn secondary" download>
-                    <span class="icon">📥</span> Download PDF
+                    <span class="icon">📥</span> {getWhitepaperTranslation('omega.actions.download', 'Download PDF')}
                   </a>
                 {/if}
               </div>
-              <span class="omega-meta">65 Pages • 13 Research Docs • 4 Terminal Bugs</span>
+              <span class="omega-meta">{getWhitepaperTranslation('omega.meta', '65 Pages • 13 Research Docs • 4 Terminal Bugs')}</span>
             </div>
           </div>
           

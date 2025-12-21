@@ -1,5 +1,6 @@
 ---
 title: "Four Terminal Bugs in the Westphalian Kernel"
+date: "2025-12-04"
 ---
 
 # 4. The Diagnosis: Four Terminal Bugs in the Westphalian Kernel

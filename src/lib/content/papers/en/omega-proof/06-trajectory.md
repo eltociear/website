@@ -1,5 +1,6 @@
 ---
 title: "Why Voluntary Transition Fails"
+date: "2025-12-04"
 ---
 
 # 6. The Trajectory: Why Voluntary Transition Fails

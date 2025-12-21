@@ -1,5 +1,6 @@
 ---
 title: "Four Non-Negotiable Kernel Requirements"
+date: "2025-12-04"
 ---
 
 # 5. The Prescription: Four Non-Negotiable Kernel Requirements

@@ -1,3 +1,8 @@
+---
+title: "Den experimentella frågan"
+date: "2025-12-04"
+---
+
 # 1. Introduktion: Den experimentella frågan
 
 ## Frågan som inte kan ställas offentligt

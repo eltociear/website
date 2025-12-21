@@ -1,3 +1,8 @@
+---
+title: "Räddningsmandatet"
+date: "2025-12-04"
+---
+
 # 7. Slutsats: Räddningsmandatet
 
 *Detta är inte en varning. Detta är en dödsattest.*

@@ -1,3 +1,8 @@
+---
+title: "Fyra terminala buggar i den westfaliska kärnan"
+date: "2025-12-04"
+---
+
 # 4. Diagnosen: Fyra terminala buggar i den westfaliska kärnan
 
 Patienten dog inte av sjukdomen.

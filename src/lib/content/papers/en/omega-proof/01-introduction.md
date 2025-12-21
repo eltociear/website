@@ -1,5 +1,6 @@
 ---
 title: "The Experimental Question"
+date: "2025-12-04"
 ---
 
 # 1. Introduction: The Experimental Question

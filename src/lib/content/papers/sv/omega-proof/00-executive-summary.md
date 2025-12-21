@@ -1,3 +1,8 @@
+---
+title: "Omega-beviset: Sammanfattning"
+date: "2025-12-04"
+---
+
 # Omega-beviset: Sammanfattning
 
 *En empirisk demonstration av nationsstatssystemets terminala inkompatibilitet med planetär fred*

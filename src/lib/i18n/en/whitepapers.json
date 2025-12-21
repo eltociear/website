@@ -58,5 +58,17 @@
   "navigation": {
     "moreResearch": "More Research",
     "allResources": "All Resources"
+  },
+  "omega": {
+    "badges": {
+      "featured": "FEATURED RESEARCH",
+      "status": "Completed Jan 2026"
+    },
+    "description": "We used adversarial AI to simulate the four veto-players in the Ukraine war. They unanimously rejected a mathematically optimal peace deal. This is the autopsy of why peace is architecturally impossible under current rules.",
+    "actions": {
+      "read": "Read the Analysis",
+      "download": "Download PDF"
+    },
+    "meta": "65 Pages • 13 Research Docs • 4 Terminal Bugs"
   }
 }

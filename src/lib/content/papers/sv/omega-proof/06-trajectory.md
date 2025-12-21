@@ -1,3 +1,8 @@
+---
+title: "Varför frivillig övergång misslyckas"
+date: "2025-12-04"
+---
+
 # 6. Banvallen: Varför frivillig övergång misslyckas
 
 ## Kollapsens termodynamik: Energi, entropi och fasövergång

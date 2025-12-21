@@ -1,5 +1,6 @@
 ---
 title: "The Omega Proof: Executive Summary"
+date: "2025-12-04"
 ---
 
 # The Omega Proof: Executive Summary
