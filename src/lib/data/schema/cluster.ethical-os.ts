@@ -26,7 +26,7 @@ export const ethicalOSEntities: GgfEntity[] = [
       path: '/frameworks/indigenous-sovereignty-pathways',
       titleKey: 'framework.docs.nav.frameworkTitles.indigenousSovereigntyPathways',
       emoji: '🪶',
-      version: '0.9',
+      version: '1.0',
       slug: 'indigenous-sovereignty-pathways',
       group: 'socialFabricJustice'
     }

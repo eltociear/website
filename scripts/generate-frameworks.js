@@ -583,6 +583,11 @@ function processSection(sectionFile, sourceDir) {
 function processImageReferences(markdown, inputFileDir) {
 	console.log(`🖼️  Processing images relative to: ${inputFileDir}`);
 	const imgRegex = /!\[(.*?)\]\(([^)]+)\)/g;
+
+ // Count and report all image references
+ const totalImages = (markdown.match(/!\[.*?\]\(.*?\)/g) || []).length;
+ console.log(`Found ${totalImages} image references in markdown`);
+
 	let processedMarkdown = markdown;
 	let match;
 	while ((match = imgRegex.exec(markdown)) !== null) {

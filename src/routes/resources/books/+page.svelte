@@ -18,6 +18,21 @@
   // Book data with cover images and file paths
   $: books = [
     {
+      id: 'jordens-forvaltare',
+      title: $t('books.jordensForvaltare.title'),
+      description: $t('books.jordensForvaltare.description'),
+      cover: `${base}/resources/book-cover-jordens-forvaltare.svg`,
+      pdfPath: {
+        en: `${base}/resources/Jordens_förvaltare.pdf`,
+        sv: null // Not yet translated
+      },
+      readOnlinePath: '/resources/books/jordens-forvaltare',
+      hasOnlineVersion: false,
+      category: 'governance',
+      year: '2026',
+      pages: '68'
+    },
+    {
       id: 'ai',
       title: $t('books.ai.title'),
       description: $t('books.ai.description'),

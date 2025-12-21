@@ -77,6 +77,20 @@ Grok says "build a core team of 3-5 people." I'd be more specific about roles an
 5. **Operations manager** (Week 17-20)
    - Task: Coordinate the above + manage funding pipeline
 
+OR Gemini's consolidated list:
+
+1. **Verksamhetsledare (The Shield)** – *Week 1-4*
+* *Merges:* Operations Manager + Political Navigator + Project Manager.
+* *Task:* Secure the funding, manage the stakeholders, be the face in the room.
+* *This is your most critical hire.*
+
+2. **Technical Lead / Prototyper** – *Week 5-8*
+* *Task:* Build the "Regionens Nervsystem" prototype.
+* *Note:* This might be you initially, but eventually you need a coder so you can stay on "Architecture."
+
+3. **Legal/Governance Architect** – *Consultant Basis*
+* *Don't hire full-time yet.* Use the "Verksamhetsledare" to find a legal firm or expert to draft the specific BAZ frameworks as needed.
+
 **Funding strategy:** Bootstrap with $200-500K (achievable from EA-adjacent sources) to hire this team for 12 months. Their output enables the $50-100M pilot fundraise.
 
 ### **The "Stress Test" Requirement**

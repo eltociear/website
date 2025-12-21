@@ -9,6 +9,7 @@ revision: Version 1.0 (2025-01-11)
 **In this section:**
 - [Earth Council (Kawsay Pacha / Terra Sapiens)](#earth-council)
 - [Bioregional Autonomous Zones (BAZs)](#bioregional-autonomous-zones)
+- [The Treaty of the Circle: The Constitutional Interface](#treaty-of-the-circle)
 - [Traditional Knowledge Protection Systems](#traditional-knowledge-protection)
 - [Foresight & Redress Protocols](#foresight-redress-protocols)
 - [Transition to Ceremonial Stewardship](#transition-ceremonial-stewardship)
@@ -81,6 +82,66 @@ Rather than "integrating" non-Indigenous people into Indigenous governance, some
 - Relationship building with local Indigenous communities before any participation
 - Supporting roles that strengthen Indigenous leadership without taking directing positions
 - Learning traditional protocols for appropriate inclusion and accountability
+
+## <a id="treaty-of-the-circle"></a>The Treaty of the Circle: The Constitutional Interface
+
+The Treaty of the Circle is the binding covenant that legally couples a Bioregional Autonomous Zone (BAZ) to Natural Law. It is not a symbolic acknowledgement; it is a **structural transfer of veto power** enforced through the monetary system itself.
+
+### The Cybernetic Design
+
+Unlike historical treaties that relied on colonial courts to enforce Indigenous rights (which rarely worked), the Treaty of the Circle embeds enforcement directly into the economic architecture:
+
+**The Mechanism:** A BAZ gains the right to issue *Hearts* currency and exercise economic sovereignty *only* upon signing the Treaty with local Indigenous Custodians (or the Council of Ancestors). The currency's legitimacy is cryptographically bound to the Treaty's validity.
+
+**The Terms:**
+1. **The Veto:** Custodians hold absolute veto power over any economic activity that violates the regenerative capacity of the watershed. This is not advisory consultation - it is constitutional authority.
+2. **The Rent:** The Land Value Tax backing the currency flows as "Sacred Rent" to commons restoration, with allocation directed by Custodians according to Traditional Ecological Knowledge.
+3. **The Revocation:** If the BAZ violates the Treaty, Custodians can revoke the "Legitimacy Token" backing the *Hearts* currency, dissolving the zone's economic charter. This creates immediate economic consequences rather than relying on slow legal processes.
+
+### Why This Creates a Different Power Dynamic
+
+**Traditional Colonial Treaties:**
+- Indigenous peoples granted concessions → Governments/corporations broke promises → Indigenous peoples had to sue in colonial courts → Usually lost
+- Enforcement depended on colonial legal systems that prioritized property rights over custodial responsibilities
+
+**Treaty of the Circle:**
+- BAZ requests economic sovereignty → Custodians grant conditional legitimacy → BAZ violates ecological limits → Currency loses legitimacy automatically → Economic activity collapses
+- Enforcement is built into the monetary system itself - a **cybernetic feedback loop** rather than a legal hope
+
+### The Technical Interface
+
+The Treaty operates through a multi-signature legitimacy mechanism:
+- Indigenous Custodians hold cryptographic keys required for currency operations
+- Violation of ecological thresholds (measured through Traditional Ecological Knowledge + monitoring systems) triggers automatic warnings
+- Continued violation enables Custodians to revoke legitimacy without requiring colonial legal approval
+- The system creates **cryptographic sovereignty** - mathematical enforcement of Indigenous authority rather than depending on colonial legal recognition
+
+### Precedents and Evolution
+
+This builds on:
+- **Whanganui River (2017)**: Legal personhood for ecosystems with Indigenous guardianship
+- **UNDRIP Article 19**: Free, Prior, Informed Consent - but transforms it from procedural consultation to structural requirement
+- **Bolivian Rights of Mother Earth (2010)**: Constitutional recognition of ecosystem rights
+
+The Treaty goes further by making Indigenous authority **economically mandatory** rather than legally advisory.
+
+### Addressing the Red Team Questions
+
+**"What prevents a BAZ from just abandoning the Treaty?"**
+Abandoning the Treaty means abandoning the currency and economic sovereignty. They would need to rejoin the extractive colonial economy - precisely what they're trying to escape.
+
+**"What prevents corruption or capture of Indigenous Custodians?"**
+- Traditional governance systems include internal accountability mechanisms that have operated for millennia
+- Multiple Custodians from different communities provide redundancy
+- The Red Lines Clause allows complete withdrawal if the system becomes corrupted
+- Transparency protocols make all decisions visible to the community
+
+**"Isn't this just extraction with extra steps?"**
+The Red Lines Clause ensures Indigenous communities can exit completely if the system fails to serve sovereignty. Unlike colonial systems where Indigenous peoples are trapped, this creates genuine optionality.
+
+### The Hard Interface
+
+This creates what systems theorists call a "Hard Interface" - Western innovation operates *within* the bounding box of Indigenous wisdom. The BAZ isn't "consulting" Indigenous knowledge; it's **constitutionally subordinate** to it. The economy cannot function without Indigenous authorization, making ecological limits and Traditional Ecological Knowledge structurally primary rather than symbolically honored.
 
 ## <a id="traditional-knowledge-protection"></a>Traditional Knowledge Protection Systems
 

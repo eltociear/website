@@ -1,0 +1,51 @@
+Vecka,Datum,Uppgift,Ansvarig,Status,Prioritet,Anteckningar,Deadline
+1,2026-01-06 - 2026-01-12,Registrera ideell/ekonomisk förening,VL,❌ Ej påbörjat,🔴 Hög,Behövs för att kunna ta emot bidrag,2026-01-24
+1,2026-01-06 - 2026-01-12,Öppna organisationens bankkonto,VL,❌ Ej påbörjat,🔴 Hög,Kräver org.nr först,2026-01-31
+2,2026-01-13 - 2026-01-19,Slutföra juridisk struktur (org.nr + bankkonto),VL,❌ Ej påbörjat,🔴 Hög,,2026-01-31
+3,2026-01-20 - 2026-01-26,Skapa finansieringskartan (Vinnova/MSB/EU),VL,❌ Ej påbörjat,🔴 Hög,Excel med deadlines och krav,2026-01-31
+3,2026-01-20 - 2026-01-26,Identifiera första 3 bidragsprogram,VL,❌ Ej påbörjat,🔴 Hög,Prioritera MSB + Vinnova,2026-01-31
+4,2026-01-27 - 2026-02-02,Kontakta Region Stockholm re: TAK-405,VL,❌ Ej påbörjat,🔴 Hög,Uppföljning på december-inlämning,2026-02-07
+4,2026-01-27 - 2026-02-02,Boka 3 möten med potentiella referensgruppmedlemmar,VL,❌ Ej påbörjat,🟡 Medel,Validera bidragsstöd,2026-02-14
+5,2026-02-03 - 2026-02-09,Börja drafta första bidragsansökan (MSB),VL,❌ Ej påbörjat,🔴 Hög,Björn skriver vision → VL översätter,2026-02-28
+5,2026-02-03 - 2026-02-09,Identifiera juridisk konsult för BAZ-ramverk,VL,❌ Ej påbörjat,🟡 Medel,,2026-02-28
+6,2026-02-10 - 2026-02-16,Fortsätt bidragsansökningar,VL,❌ Ej påbörjat,🔴 Hög,,2026-02-28
+6,2026-02-10 - 2026-02-16,Etablera referensgrupp (minst 3 personer),VL,❌ Ej påbörjat,🟡 Medel,,2026-02-28
+7,2026-02-17 - 2026-02-23,Börja drafta andra bidragsansökan (Vinnova/EU),VL,❌ Ej påbörjat,🔴 Hög,,2026-02-28
+8,2026-02-24 - 2026-03-02,Slutföra och skicka in bidragsansökningar,VL,❌ Ej påbörjat,🔴 Hög,Minst 2 ansökningar,2026-02-28
+9,2026-03-03 - 2026-03-09,Förbereda TAK-405 pitch för Uppsala,VL,❌ Ej påbörjat,🔴 Hög,Anpassa till deras kollektivtrafik,2026-03-15
+9,2026-03-03 - 2026-03-09,Identifiera tredje målkommun för pitch,VL,❌ Ej påbörjat,🟡 Medel,Baserat på nätverk och intresse,2026-03-15
+10,2026-03-10 - 2026-03-16,Boka möten med Stockholm/Uppsala/kommun 3,VL,❌ Ej påbörjat,🔴 Hög,Sikta på möten vecka 11-12,2026-03-21
+11,2026-03-17 - 2026-03-23,Genomföra kommunpitchar (Stockholm uppföljning),VL,❌ Ej påbörjat,🔴 Hög,Björn på video för Q&A,2026-03-27
+12,2026-03-24 - 2026-03-31,Genomföra kommunpitchar (Uppsala + kommun 3),VL,❌ Ej påbörjat,🔴 Hög,Mål: säkra 1 Letter of Intent,2026-03-31
+13,2026-03-31 - 2026-04-06,Följ upp med kommuner efter möten,VL,❌ Ej påbörjat,🔴 Hög,Skicka kompletterande material,2026-04-10
+13,2026-03-31 - 2026-04-06,Q1 slututvärdering och Q2 planering,Björn + VL,❌ Ej påbörjat,🔴 Hög,60 min möte,2026-04-06
+,,,,,,,
+LÖPANDE UPPGIFTER (inte veckospecifika):,,,,,,,
+Löpande,Kontinuerligt,Veckosynk måndag kl 10,Björn + VL,🔄 Pågående,🔴 Hög,30 min videomöte,Varje måndag
+Löpande,Kontinuerligt,Uppdatera projektpromemoria med ny info,VL,🔄 Pågående,🟡 Medel,Fyll i [TBC] allteftersom,Löpande
+Löpande,Kontinuerligt,Nätverksbyggande och kontaktskapande,VL,🔄 Pågående,🟡 Medel,,Löpande
+Löpande,Kontinuerligt,Dokumentera beslut och lärdomar,VL,🔄 Pågående,🟢 Låg,För Q2 planering,Löpande
+,,,,,,,
+MILSTOLPAR Q1:,,,,,,,
+Milstolpe,2026-01-31,Juridisk struktur klar (org.nr + bankkonto),VL,❌ Ej påbörjat,🔴 Hög,,2026-01-31
+Milstolpe,2026-02-28,Minst 2 bidragsansökningar inskickade,VL,❌ Ej påbörjat,🔴 Hög,,2026-02-28
+Milstolpe,2026-03-31,Minst 1 Letter of Intent säkrad,VL,❌ Ej påbörjat,🔴 Hög,,2026-03-31
+Milstolpe,2026-03-31,Referensgrupp etablerad (3-5 personer),VL,❌ Ej påbörjat,🟡 Medel,,2026-03-31
+,,,,,,,
+BLOCKERARE/RISKER:,,,,,,,
+Risk,,Stockholm svarar inte på TAK-405,,⚠️ Risk,,Om inget svar vid v.4 → fokusera Uppsala,
+Risk,,Ingen juridisk konsult identifierad,,⚠️ Risk,,Backup: använd VL:s Cushman-nätverk,
+Risk,,Bidragsdeadlines missade,,⚠️ Risk,,Finansieringskartan v.3 förhindrar detta,
+Risk,,Ingen kommun visar intresse,,⚠️ Risk,,Pivot till TAK-404 (bostäder) eller TAK-502,
+,,,,,,,
+BESLUT SOM BEHÖVS:,,,,,,,
+Beslut,,Budget för Q1 bekräftad?,Björn,❓ Väntande,🔴 Hög,Efter jul-samtal,
+Beslut,,Elias åtar sig teknisk rådgivning?,Björn,❓ Väntande,🟡 Medel,Efter jul-samtal,
+Beslut,,Emil åtar sig messaging-support?,Björn,❓ Väntande,🟡 Medel,Efter jul-samtal,
+Beslut,,Vilken juridisk struktur? (Ideell vs Ekonomisk förening),VL,❓ Väntande,🔴 Hög,Undersök skattekonsekvenser,
+,,,,,,,
+FÄRDIGSTÄLLDA UPPGIFTER:,,,,,,,
+Klart,2024-12-20,TAK-405 inskickat till Region Stockholm,Björn,✅ Klart,,"Väntar på svar, uppföljning v.4",2024-12-20
+Klart,2024-12-20,Alla teoretiska ramverk färdiga,Björn,✅ Klart,,Omega Proof + Architecture + TAK-förslag,2024-12-20
+Klart,2024-12-20,Projektpromemoria färdig (extern + intern),Björn,✅ Klart,,Redo för delning,2024-12-20
+Klart,2024-12-24,Email till pappa sänt,Björn,✅ Klart,,Väntar på jul-samtal,2024-12-24
