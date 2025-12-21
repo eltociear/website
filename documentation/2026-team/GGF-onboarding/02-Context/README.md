@@ -63,6 +63,84 @@ Published in *Nature Food*, this peer-reviewed study validates a core GGF insigh
 
 ---
 
+### **g20-global-inequality-report-2025.pdf** (Policy report, ~70 pages, 2-3 hours)
+**"G20 Extraordinary Committee Report on Global Inequality"**
+
+Commissioned by the G20 South Africa Presidency (November 2025), this authoritative report provides comprehensive analysis of global inequality - its scale, drivers, consequences, and policy solutions.
+
+**Why this matters for GGF:**
+- The G20 (world's major economies) officially recognizes inequality as an urgent crisis
+- Many of the report's policy recommendations align directly with GGF's approach
+- It validates that systemic change is necessary, not just redistribution
+- Provides hard data and authoritative framing you can use in grant applications
+
+**Key findings that validate GGF:**
+- 83% of countries have high income inequality (Gini >0.4)
+- Wealth inequality is far higher than income inequality
+- Inequality is a *choice* - it results from policy decisions and can be reversed
+- Neoliberal policies (deregulation, privatization, austerity) directly increased inequality
+- Solutions require rewriting rules, not just redistribution
+
+**When to read:**
+- When writing grant applications that need authoritative statistics
+- When someone asks "is there evidence this is a real problem?"
+- When pitching to municipalities who want to see this is globally recognized
+- When you need ammunition against "markets will solve this" arguments
+
+**What you'll get:**
+- Devastating statistics on inequality (70+ pages of hard data)
+- Analysis of how neoliberal policies created inequality (validates GGF's diagnosis)
+- Policy recommendations that overlap with GGF (IP reform, trade rules, public investment)
+- Credibility by association (G20-commissioned, major economists including Stiglitz)
+
+**How to use strategically:**
+
+**DO:**
+- Extract key statistics for grant applications (summary pages 4-13)
+- Reference it as validation: "As the recent G20 inequality report confirms..."
+- Use it to show this isn't fringe thinking - it's mainstream concern
+- Quote specific statistics (83% of countries have high inequality, etc.)
+- Cite it when explaining why Hearts currency and BAZs address real problems
+
+**DON'T:**
+- Share the whole 70-page PDF with municipalities (too dense)
+- Lead with this in pitches (lead with concrete proposals like TAK-405)
+- Use it as a substitute for GGF's own materials
+- Forget it's from November 2025 (very recent, very relevant)
+
+**Key sections by use case:**
+
+For **grant applications:**
+- Summary Report (pages 4-13): Digestible overview with key stats
+- Section 1 (pages 15-21): Hard data on scale of inequality
+- Box "Key facts on inequality" (page 5): Perfect for copy-pasting
+
+For **understanding drivers:**
+- Section 3 (pages 27-32): Why inequality happened (validates GGF's analysis)
+- Subsection on neoliberalism (page 29): Shows policy choices created this
+
+For **policy alignment:**
+- Section 5 (pages 34-45): Policy recommendations
+- Note how many overlap with GGF: IP reform, rewriting trade rules, public investment, addressing corporate power
+
+For **pitching to academics/researchers:**
+- The entire report - shows GGF addresses problems major economists recognize
+
+**Example usage in grant application:**
+
+"According to the November 2025 G20 Global Inequality Report, 83% of countries now experience high income inequality (Gini coefficient >0.4), affecting 90% of the world's population. The report identifies neoliberal policies - deregulation, privatization, and austerity - as key drivers of this inequality, and recommends systemic reforms including rewriting intellectual property rules, reforming trade agreements, and expanding public investment. Our project directly addresses these systemic issues through [specific GGF mechanism]..."
+
+**Critical distinction:**
+
+This report is **external validation**, not GGF material. It strengthens your case by showing that:
+- Major international bodies (G20) recognize the same problems
+- Leading economists (Stiglitz et al.) validate the diagnosis
+- The solutions proposed overlap with GGF's approach
+
+Use it to demonstrate GGF is responding to real, urgent, globally-recognized crises - not pursuing utopian fantasies.
+
+---
+
 ### **GGF Vision 2050 - The Pathway to Planetary Stewardship** (Strategic roadmap, ~4 pages, 15 min)
 **The 25-year pathway from pilots to planetary stewardship**
 
@@ -138,6 +216,12 @@ The file teaches this distinction explicitly. If you read it, follow the warning
 
 ### If someone asks: "Is there scientific evidence this approach works?"
 → Share **Nature Food article** + cite the findings
+→ Reference **G20 inequality report** for authoritative policy validation
+
+### If someone asks: "Is this a real problem or just your opinion?"
+→ Share **G20 inequality report summary** (pages 4-13)
+→ Lead with: "The G20 just commissioned a report on this in November 2025..."
+→ Use statistics from the report to show scale and urgency
 
 ### If someone asks: "Where is this going long-term?"
 → Share **Vision 2050** (but only after they're already engaged)
@@ -149,12 +233,27 @@ The file teaches this distinction explicitly. If you read it, follow the warning
 ### If you're writing a grant application:
 → Pull quotes from **Architecture** (theoretical foundation)
 → Cite **Nature Food** (scientific validation)
+→ Extract statistics from **G20 report** (authoritative data - "83% of countries have high inequality affecting 90% of world population")
+→ Reference **G20 policy recommendations** that align with your approach
 → Avoid **Vision 2050** (too ambitious for funding applications)
 → **Never mention Spiral Dynamics** (sounds like jargon)
+
+### If you're pitching to municipalities:
+→ Lead with **TAK proposals** (concrete, actionable)
+→ Use **G20 report** for validation: "Even the G20 recognizes this is urgent..."
+→ Keep **Architecture** available for deeper questions
+→ Save **Vision 2050** for after they're already committed
+
+### If you're talking to academics/researchers:
+→ Lead with **Nature Food article** (peer-reviewed science)
+→ Reference **G20 report** (shows policy relevance)
+→ Share **Architecture** for theoretical framework
+→ The combination shows: peer-reviewed science + major policy bodies + coherent theory
 
 ### If you're having a bad day:
 → Read **Vision 2050** to remember why this matters
 → Read **Architecture Part VI** (Conclusion) for the emotional core
+→ Remember: **G20 report** shows the world is waking up to these problems
 
 ### If you're curious about Björn's thinking frameworks:
 → Read **spiral-dynamics.txt** (but only if genuinely interested)
@@ -171,11 +270,19 @@ Read Architecture of the Open Hand, then practice explaining it in 3 sentences:
 2. "GGF redesigns the architecture so cooperation becomes rational, not suicidal."
 3. "We're building working prototypes, not writing manifestos."
 
+**For grant applications with maximum impact:**
+Combine all three validation sources:
+1. **Theory:** Architecture of the Open Hand (Part IV)
+2. **Science:** Nature Food article methodology
+3. **Authority:** G20 report statistics and policy alignment
+
+Example: "Recent peer-reviewed research (Nature Food, 2024) demonstrates that behavioral interventions require systemic economic mechanisms. The November 2025 G20 Global Inequality Report confirms that 83% of countries face high inequality driven by structural policy choices, recommending reforms that align with our approach..."
+
 **For academic partnerships:**
-Skim Nature Food article, note the methodology, be ready to discuss how Hearts currency operationalizes their findings.
+Skim Nature Food article, note the methodology, be ready to discuss how Hearts currency operationalizes their findings. The G20 report adds policy relevance to the academic research.
 
 **For maintaining motivation:**
-Keep Vision 2050 handy. When municipal bureaucracy crushes your soul, remember: you're laying the groundwork for Phase I of a 25-year transformation.
+Keep Vision 2050 handy. When municipal bureaucracy crushes your soul, remember: the G20 report shows the world is waking up to these problems. You're not fighting alone, and you're ahead of the curve.
 
 ---
 
@@ -193,14 +300,16 @@ These documents focus on the "why" and "how" at the conceptual level. For the "w
 - Reference these ideas in grant applications
 - Share PDFs with interested partners (except spiral-dynamics.txt)
 - Use quotes in persuasive writing
-- Cite Nature Food article as scientific backing
+- Cite Nature Food article and G20 report as validation
+- Combine sources for maximum credibility (theory + science + authority)
 - Read spiral-dynamics.txt if curious (but follow its warnings)
 
 **Don't:**
 - Lead with philosophy (lead with concrete proposals)
-- Expect bureaucrats to read 20-page essays (give them summaries)
+- Expect bureaucrats to read 70-page reports (extract key statistics)
 - Use Vision 2050 in funding applications (too utopian)
 - Get lost in theory when you should be executing
+- Dump the full G20 report on people (use summary pages or extract stats)
 - **Ever mention Spiral Dynamics to external stakeholders** (sounds like jargon/categorizing)
 - **Ever use color-coded language in meetings** ("Blue/Green conflict" → "torn between rules and inclusion")
 
