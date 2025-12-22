@@ -90,6 +90,11 @@ Here is the Legend for the map we've been using:
 * **The Frequency:** They listen for functionality and flow.
 * **The Goal:** To tune into all the frequencies simultaneously without losing the signal.
 
+![The Political Compass](/images/books/en/radical-competence/political-compass.svg)
+
+**Figure 7.1: The dimensional shift from Green to Yellow**
+Political positions (economic/social axes) remain stable while adding a third dimension of systemic complexity. Yellow doesn't abandon Green values—it approaches them with integration and systems awareness. Your left-libertarian commitments can persist while developing the capacity to think in terms of feedback loops, developmental stages, and cross-OS solutions.
+
 ---
 
 ## The Three Levels of Translation
