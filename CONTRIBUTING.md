@@ -10,6 +10,19 @@ This document provides a guide for contributing to the project in its **current 
   * **Focus on high-priority tasks.** Our immediate needs are outlined in the issues labeled `high-priority` and `help-wanted`.
   * **Asynchronous collaboration.** We value deep work. Most communication and review happens asynchronously in Issues and PR comments.
 
+## 🏗 The State of the Code (Read this first!)
+
+**Honesty Time:** This project was architected by a Systems Thinker utilizing AI tools (LLMs) to generate much of the initial codebase.
+
+As a result, you will likely encounter:
+* **Inline Styles:** Lots of them. We want to move these to CSS classes or standard components.
+* **Repetition:** Components that should be shared are sometimes copy-pasted.
+* **"Brute Force" Logic:** Things that work but aren't elegant.
+
+**We view this as a feature, not a bug.** It means there are *hundreds* of easy ways for you to make an immediate impact. We are not looking for perfection; we are looking for progress.
+
+If you see ugly code, **please fix it.** You don't need permission to propose a refactor.
+
 ## How You Can Contribute
 
 There are three main ways to contribute right now: reporting issues, improving content, and writing code.
