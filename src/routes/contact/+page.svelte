@@ -1,6 +1,7 @@
 <!-- src/routes/contact/+page.svelte -->
 <script>
   import { t } from '$lib/i18n';
+  import { page } from '$app/stores'; // <-- Add this import
 
   let name = '';
   let email = '';
@@ -9,7 +10,20 @@
   let isSubmitting = false;
   let submitSuccess = false;
   let submitError = false;
-  const FORMSPREE_ID = "xldjbjgl";
+  const FORMSPREE_ID = "xldjbjgl"; // [cite: 3]
+
+  $: {
+    const paramSubject = $page.url.searchParams.get('subject');
+    if (paramSubject) {
+      // Map "Funding Pledge" (from url) to "funding" (value in select)
+      if (paramSubject.toLowerCase().includes('funding')) {
+        subject = 'funding';
+      } else {
+        // Try to match other params directly (e.g. ?subject=collaboration)
+        subject = paramSubject.toLowerCase();
+      }
+    }
+  }
 
   async function handleSubmit() {
     isSubmitting = true;
@@ -26,7 +40,7 @@
         name = '';
         email = '';
         message = '';
-        subject = 'general';
+        subject = 'general'; // Reset to general after success
       } else {
         submitError = true;
       }
@@ -94,12 +108,15 @@
         <label style="display: block; margin-top: 1rem; color: #4A3228;">{$t('contact.form.fields.email.label')}</label>
         <input type="email" bind:value={email} required style="width: 100%; padding: 0.75rem; border: 1px solid #A3B18A; border-radius: 5px;">
 
-        <label style="display: block; margin-top: 1rem; color: #4A3228;">{$t('contact.form.fields.subject.label')}</label>
+        <label style="display: block; margin-top: 1rem; color: #4A3228;">
+          {$t('contact.form.fields.subject.label')}
+        </label>
         <select bind:value={subject} style="width: 100%; padding: 0.75rem; border: 1px solid #A3B18A; border-radius: 5px;">
           <option value="general">{$t('contact.form.fields.subject.options.general')}</option>
           <option value="feedback">{$t('contact.form.fields.subject.options.feedback')}</option>
           <option value="collaboration">{$t('contact.form.fields.subject.options.collaboration')}</option>
           <option value="report">{$t('contact.form.fields.subject.options.report')}</option>
+          <option value="funding">{$t('contact.form.fields.subject.options.funding') || 'Funding / Support'}</option>
         </select>
 
         <label style="display: block; margin-top: 1rem; color: #4A3228;">{$t('contact.form.fields.message.label')}</label>

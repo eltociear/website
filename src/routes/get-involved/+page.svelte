@@ -308,7 +308,7 @@
               <p><strong>{$t('getInvolved.whatsNeeded')}</strong> {$t('getInvolved.fundingDetails.whatNeeded')}</p>
             </div>
           {/if}
-          <a href="{base}/contact" class="card-cta">
+          <a href="{base}/get-involved/funding" class="card-cta">
             {$t('getInvolved.fundingCta') || getText('fundingCta')} <span class="arrow">→</span>
           </a>
         </div>

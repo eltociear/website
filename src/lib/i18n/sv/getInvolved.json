@@ -97,5 +97,35 @@
     "paragraph1": "Detta är inte en hierarkisk organisation där någon i toppen bestämmer vem som får bidra och hur. Det är ett öppet ekosystem där alla som ser värde i arbetet kan delta på sätt som är meningsfulla för dem.",
     "paragraph2": "Allteftersom gemenskapen växer kommer vi att utveckla bättre samordningsverktyg, kommunikationskanaler och styrningsstrukturer – tillsammans. För närvarande är det enkelt: om dessa ramverk tilltalar dig och du vill hjälpa till att förverkliga dem, är du välkommen att bidra på vilket sätt du kan.",
     "paragraph3": "'Vi'-et i dessa ramverk handlar inte om en etablerad organisation – det handlar om den gemenskap vi bygger tillsammans. Du är en del av det 'vi'-et i samma ögonblick som du väljer att engagera dig."
+  },
+  "fundingPage": {
+    "title": "Finansiering & resurser",
+    "subtitle": "Bränsle för övergången från ritning till institution",
+    "heroIntro": "Att bygga en ny styrmodell kräver kapital, men vi är fast beslutna att se till att kapitalet inte kapar styrningen. Vi befinner oss för närvarande i 'uppstartsfasen' – och söker de inledande resurserna för att etablera de juridiska och tekniska grunderna.",
+    
+    "transparency": {
+      "title": "Nuvarande finansiell status: Före juridisk person",
+      "text": "Global Governance Frameworks är för närvarande ett initiativ med öppen källkod. Vi har ännu inget företagskonto. Vi söker 'änglasupportrar' för att finansiera de initiala uppstartskostnaderna (juridisk inkorporering, infrastruktur och administrativ uppsättning)."
+    },
+
+    "needs": {
+      "title": "Vad finansiering stödjer just nu",
+      "item1": "Juridisk inkorporering & styrningsstrukturering ('VL'-avgiften)",
+      "item1Desc": "Etablering av den ideella förening eller förvaltningsenhet som ska inneha de immateriella rättigheterna och hantera projektet.",
+      "item2": "Teknisk infrastruktur",
+      "item2Desc": "Serverkostnader, domännamnshantering och samarbetsverktyg.",
+      "item3": "Dokumentation & översättning",
+      "item3Desc": "Ersättning till professionella översättare för att göra ramverken tillgängliga."
+    },
+
+    "options": {
+      "githubTitle": "Utvecklingsstöd",
+      "githubDesc": "Stöd arkitekten direkt via GitHub Sponsors för att säkerställa dedikerad utvecklingstid.",
+      "githubCta": "Sponsra på GitHub",
+      
+      "pledgeTitle": "Institutionella utfästelser",
+      "pledgeDesc": "Representerar du en organisation eller stiftelse? Kontakta oss för att utlova stöd inför den formella lanseringen.",
+      "pledgeCta": "Kontakta oss för utfästelser"
+    }
   }
 }

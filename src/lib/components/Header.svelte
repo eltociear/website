@@ -1702,6 +1702,9 @@
               <a href="{base}/get-involved/frameworks" class={isActive('/get-involved/frameworks') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                 {browser ? ($t('common.header.getInvolvedFrameworks') || 'Contribute to Frameworks') : 'Contribute to Frameworks'}
               </a>
+              <a href="{base}/get-involved/funding" class={isActive('/get-involved/funding') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
+                {browser ? ($t('common.header.getInvolvedFunding') || 'Contribute to Funding') : 'Contribute to Funding'}
+              </a>
               <a href="{base}/get-involved/translations" class={isActive('/get-involved/translations') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                 {browser ? ($t('common.header.getInvolvedTranslations') || 'Contribute Translations') : 'Contribute Translations'}
               </a>

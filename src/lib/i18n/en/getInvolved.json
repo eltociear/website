@@ -110,5 +110,35 @@
     "paragraph1": "This isn't a hierarchical organization where someone at the top decides who can contribute and how. It's an open ecosystem where anyone who sees value in the work can participate in ways that make sense for them.",
     "paragraph2": "As the community grows, we'll develop better coordination tools, communication channels, and governance structures—collaboratively. For now, it's simple: if these frameworks resonate and you want to help bring them to life, you're invited to contribute in whatever way you can.",
     "paragraph3": "The 'we' throughout these frameworks isn't about an established organization—it's about the community we're building together. You're part of that 'we' the moment you choose to engage."
+  },
+  "fundingPage": {
+    "title": "Funding & Resources",
+    "subtitle": "Fueling the Transition from Blueprint to Institution",
+    "heroIntro": "Building a new governance model requires capital, but we are committed to ensuring that capital does not capture the governance. We are currently in the 'Bootstrap Phase'—seeking the initial resources to establish the legal and technical foundations.",
+    
+    "transparency": {
+      "title": "Current Financial Status: Pre-Entity",
+      "text": "Global Governance Frameworks is currently an open-source initiative. We do not yet hold a corporate bank account. We are seeking 'Angel Supporters' to fund the initial setup costs (legal incorporation, infrastructure, and administrative setup)."
+    },
+
+    "needs": {
+      "title": "What Funding Supports Right Now",
+      "item1": "Legal Incorporation & Governance Structuring (The 'VL' Fee)",
+      "item1Desc": "Establishing the non-profit or stewardship entity that will hold the IP and manage the project.",
+      "item2": "Technical Infrastructure",
+      "item2Desc": "Server costs, domain management, and collaboration tools.",
+      "item3": "Documentation & Translation",
+      "item3Desc": "Bounties for professional translators to make frameworks accessible."
+    },
+
+    "options": {
+      "githubTitle": "Development Support",
+      "githubDesc": "Support the architect directly via GitHub Sponsors to ensure dedicated development time.",
+      "githubCta": "Sponsor on GitHub",
+      
+      "pledgeTitle": "Institutional Pledges",
+      "pledgeDesc": "Represent an organization or foundation? Contact us to pledge support for the formal launch.",
+      "pledgeCta": "Contact for Pledges"
+    }
   }
 }
