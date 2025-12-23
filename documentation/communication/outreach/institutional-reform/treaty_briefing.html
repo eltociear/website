@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The Treaty for Our Only Home & Genesis Protocol</title>
+<style>
+    /* --- RESET & BASICS --- */
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Inter:wght@300;400;600;800&display=swap');
+
+    :root {
+        --primary: #2B4B8C; /* Deep Diplomatic Blue */
+        --accent: #DAA520; /* Gold */
+        --text: #1a1a1a;
+        --bg-light: #f8fafc;
+        --border: #e2e8f0;
+    }
+
+    body {
+        font-family: 'Merriweather', serif;
+        line-height: 1.6;
+        color: var(--text);
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 40px;
+        background: white;
+    }
+
+    /* --- TYPOGRAPHY --- */
+    h1, h2, h3, h4 {
+        font-family: 'Inter', sans-serif;
+        color: var(--primary);
+        line-height: 1.2;
+        margin-top: 2rem;
+        page-break-after: avoid;
+    }
+
+    h1 { font-size: 2.5rem; border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; margin-bottom: 2rem; }
+    h2 { font-size: 1.8rem; margin-top: 3rem; border-left: 5px solid var(--primary); padding-left: 1rem; }
+    h3 { font-size: 1.4rem; color: #444; }
+    h4 { font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em; color: #666; }
+
+    p { margin-bottom: 1.2rem; text-align: justify; }
+    li { margin-bottom: 0.5rem; }
+
+    a { color: var(--primary); text-decoration: none; }
+    
+    /* --- COMPONENTS --- */
+    
+    /* The "Memo" Header Box */
+    .memo-header {
+        background: #f1f5f9;
+        border: 1px solid #cbd5e1;
+        padding: 2rem;
+        font-family: 'Inter', sans-serif;
+        margin-bottom: 3rem;
+        border-radius: 4px;
+    }
+    .memo-line { margin-bottom: 0.5rem; }
+    .memo-label { font-weight: 800; text-transform: uppercase; font-size: 0.85rem; width: 80px; display: inline-block; color: #64748b; }
+
+    /* Blockquotes */
+    blockquote {
+        border-left: 4px solid var(--accent);
+        margin: 1.5rem 0;
+        padding: 1rem 2rem;
+        background: #fffdf5;
+        font-style: italic;
+        color: #444;
+    }
+
+    /* Boxes for "Key Risks" or "Lists" */
+    .box {
+        background: var(--bg-light);
+        padding: 1.5rem;
+        border-radius: 8px;
+        border: 1px solid var(--border);
+        margin: 2rem 0;
+    }
+
+    /* --- PRINT SPECIFIC --- */
+    @media print {
+        body { max-width: 100%; padding: 0; }
+        .page-break { page-break-before: always; }
+        a { text-decoration: none; color: black; pointer-events: none; }
+        /* Hide internal navigation links for print */
+        .toc a::after { content: leader('.') target-counter(attr(href), page); }
+    }
+
+    /* --- TITLE PAGE --- */
+    .title-page {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        page-break-after: always;
+    }
+    .main-title { font-size: 4rem; color: var(--primary); font-weight: 800; margin-bottom: 1rem; }
+    .subtitle { font-size: 1.5rem; color: #666; font-family: 'Inter', sans-serif; font-weight: 300; }
+    .meta { margin-top: 4rem; font-size: 0.9rem; color: #888; font-family: 'Inter', sans-serif; }
+
+    /* --- TOC --- */
+    .toc { background: #f8fafc; padding: 2rem; border-radius: 8px; margin-bottom: 4rem; }
+    .toc h2 { margin-top: 0; border: none; padding: 0; }
+    .toc ul { list-style: none; padding: 0; }
+    .toc li { margin-bottom: 0.8rem; border-bottom: 1px dotted #ccc; }
+    .toc a { font-family: 'Inter', sans-serif; font-weight: 600; display: block; width: 100%; }
+
+</style>
+</head>
+<body>
+
+     <div class="title-page">
+        <img src="./logo.png" alt="GGF Logo" style="width: 150px; height: auto; margin: 0 auto 2rem auto; display: block;">
+        
+        <div class="main-title">The Treaty for Our Only Home</div>
+        <div class="subtitle">& The Genesis Protocol</div>
+        <div style="margin-top: 2rem; width: 100px; height: 4px; background: var(--accent); margin-left: auto; margin-right: auto;"></div>
+        <p style="text-align: center; margin-top: 2rem; font-style: italic; max-width: 600px; margin-left: auto; margin-right: auto;">
+            A comprehensive framework for managing 21st-century systemic risk, establishing legitimate planetary governance, and ensuring the continuity of human civilization.
+        </p>
+        <div class="meta">
+            <strong>Prepared for:</strong> Global Leadership & Policy Makers<br>
+            <strong>Date:</strong> December 2025<br>
+            <strong>Version:</strong> 1.1 (Consolidated Briefing)
+        </div>
+    </div>
+
+    <div class="toc">
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="#part1">PART I: THE CASE FOR CHANGE</a></li>
+            <li><a href="#exec-summary">Executive Summary: A Framework for the Skeptic</a></li>
+            <li><a href="#intro">Introduction: The Polycrisis Response</a></li>
+            <li><a href="#part2">PART II: THE TREATY ARCHITECTURE</a></li>
+            <li><a href="#core-treaty">Treaty for Our Only Home (Core Principles & Pillars)</a></li>
+            <li><a href="#part3">PART III: THE GENESIS PROTOCOL</a></li>
+            <li><a href="#module1">Module 1: Foundation & The Bootstrapping Paradox</a></li>
+            <li><a href="#module2">Module 2: Dual-Track Activation & Tier 1 Convening</a></li>
+            <li><a href="#module3">Module 3: Institutional Convening (Tier 2-3)</a></li>
+            <li><a href="#module4">Module 4: Network Effects & Constitutional Immune System</a></li>
+            <li><a href="#module5">Module 5: Implementation & Cultural Integration</a></li>
+            <li><a href="#module6">Module 6: Accountability & Conclusion</a></li>
+        </ul>
+    </div>
+
+    <div class="page-break" id="part1"></div>
+    <h1 style="text-align: center; border: none; font-size: 3rem; margin-top: 200px;">PART I<br><span style="font-weight:300; font-size: 2rem;">The Case for Change</span></h1>
+    <div class="page-break"></div>
+
+    <section id="exec-summary">
+        <div class="memo-header">
+            <div class="memo-line"><span class="memo-label">TO:</span> Global Leaders in Government, Finance, and Industry</div>
+            <div class="memo-line"><span class="memo-label">FROM:</span> Global Governance Framework Initiative</div>
+            <div class="memo-line"><span class="memo-label">DATE:</span> June 15, 2025</div>
+            <div class="memo-line"><span class="memo-label">SUBJECT:</span> <strong>A Pragmatic Proposal to De-Risk the Global Operating System</strong></div>
+        </div>
+
+        <h2>1. The Problem: The Current Global System is a Liability</h2>
+        <p>Our post-1945 global architecture is no longer fit for purpose. It was designed for a world of nation-state competition, not for an era defined by interconnected, planetary-scale crises. The current system now generates, rather than contains, unacceptable levels of risk to our national, economic, and security interests.</p>
+        
+        <div class="box">
+            <h3>Key Risk Categories</h3>
+            <ul>
+                <li><strong>Financial Risk</strong>: The cost of inaction on climate change is projected to reach $54 trillion by 2050 (OECD). The last global pandemic incurred economic losses of $13.8 trillion (IMF). These are uninsurable, systemic risks.</li>
+                <li><strong>Security Risk</strong>: State-centric security mechanisms are incapable of effectively managing borderless threats like cyber warfare, pandemics, and ecological collapse. The UNSC veto power creates strategic paralysis.</li>
+                <li><strong>Operational Risk</strong>: Brittle, just-in-time supply chains remain critically vulnerable to disruption.</li>
+            </ul>
+        </div>
+        <p><strong>Maintaining the status quo is not a neutral position; it is an active choice to accept escalating, unmanageable risk.</strong></p>
+
+        <h2>2. The Proposal: An Operating System Upgrade</h2>
+        <p>This document proposes a framework for a pragmatic, phased upgrade of our global operating system. It is not a call for world government, but a necessary modernization to ensure stability.</p>
+        
+        <h3>Three Core Pragmatic Upgrades</h3>
+        <ol>
+            <li><strong>Unlock Decision-Making (UNSC Reform)</strong>: Introduce a tiered veto override (e.g., 2/3 supermajority for humanitarian/climate crises). This breaks strategic paralysis.</li>
+            <li><strong>Secure Independent Funding (Global Taxation)</strong>: Implement small, automatic levies on cross-border financial transactions and carbon. This creates a self-funding resilience mechanism (approx. $300B/year) reducing dependency on voluntary national contributions.</li>
+            <li><strong>Legitimize Governance (Citizen & Science Integration)</strong>: Establish a <em>Global Citizens’ Assembly</em> (selected by sortition) and a <em>Planetary Science Council</em> to advise on long-term risks, bypassing short-term electoral cycles.</li>
+        </ol>
+
+        <h2>3. The Benefit: Why Leaders Should Support This</h2>
+        <p>For current power holders, this framework offers a "Soft Landing" for the inevitable transition. It trades absolute (but brittle) sovereignty for shared (but resilient) stability.</p>
+        <ul>
+            <li><strong>For the West</strong>: It preserves the rules-based order by adapting it, preventing a collapse into chaotic multipolarity.</li>
+            <li><strong>For the Global South</strong>: It provides genuine representation and a mechanism for resource redistribution (via the Global Resilience Fund) without requiring war or revolution.</li>
+            <li><strong>For Industry</strong>: It provides the regulatory certainty and market stability required for long-term investment.</li>
+        </ul>
+
+        <h2>4. The Implementation: Phased, Optional, and De-Risked</h2>
+        <p>This is not a radical, all-or-nothing proposal.</p>
+        <ul>
+            <li><strong>Coalition-Led Piloting</strong>: Pioneered by a Global Stewardship Alliance of 30-50 willing nations.</li>
+            <li><strong>Time-Bound with Sunset Clauses</strong>: Novel mechanisms introduced as 5- or 10-year pilots with built-in "undo buttons."</li>
+        </ul>
+    </section>
+
+    <div class="page-break"></div>
+
+    <section id="intro">
+        <h1>Introduction: The Polycrisis Response</h1>
+        <p><em>Maya, a climate scientist in Bangladesh, watches the latest monsoon data with growing alarm. Meanwhile, in Geneva, Ambassador Chen sits in another failed UN Security Council session. Half a world away, Dr. Sarah Williams treats yet another patient whose insulin rationing reflects a healthcare system that prioritizes profit over survival. These three women don't know each other, but their struggles are interconnected threads in a tapestry of systemic failure—a polycrisis that demands not incremental reform, but civilizational transformation.</em></p>
+
+        <h2>The Human Cost of Governance Failure</h2>
+        <p>Our current global governance systems are failing in real-time. Climate disruption has already displaced 21.5 million people annually since 2008. These are not abstract policy failures—they are lived realities destroying families.</p>
+        
+        <div class="box">
+            <h3>The Scope of System Failure</h3>
+            <ul>
+                <li><strong>Climate Disruption</strong>: OECD projects $54 trillion in economic losses by 2050.</li>
+                <li><strong>Pandemic Vulnerability</strong>: COVID-19 cost $13.8 trillion globally.</li>
+                <li><strong>Democratic Erosion</strong>: Freedom House reports 16 consecutive years of global democratic decline.</li>
+            </ul>
+        </div>
+
+        <h2>Understanding the Polycrisis</h2>
+        <p>The term "polycrisis" captures something essential: we face interconnected failures that amplify each other. Climate change triggers migration, which destabilizes politics, which undermines cooperation needed for climate action.</p>
+        <p><strong>The Systemic Nature of Solutions:</strong> You cannot solve climate change without addressing economic systems. You cannot restore democracy without confronting information systems. This interconnectedness is our greatest opportunity. Systems that amplify failure can be redesigned to amplify success.</p>
+
+        <h2>The Moment of Transformation</h2>
+        <p>We stand at an unprecedented moment. Digital networks connect 5 billion people. We understand planetary boundaries. The costs of maintaining dysfunctional systems now exceed the costs of replacing them.</p>
+        <p><strong>Economic Calculus</strong>: The estimated $100 billion annually required for the Treaty's implementation represents just 0.1% of global GDP—a fraction of what we spend on military budgets.</p>
+    </section>
+
+    <div class="page-break" id="part2"></div>
+    <h1 style="text-align: center; border: none; font-size: 3rem; margin-top: 200px;">PART II<br><span style="font-weight:300; font-size: 2rem;">The Treaty Architecture</span></h1>
+    <div class="page-break"></div>
+
+    <section id="core-treaty">
+        <h1>Treaty for Our Only Home v1.1</h1>
+        <p><strong>Framework Development</strong>: This treaty represents comprehensive research synthesis developed through iterative refinement using multiple AI systems, integrating evidence-based practices in international law and systems thinking.</p>
+
+        <h2>An Architecture of Hope</h2>
+        <p>The <strong>Treaty for Our Only Home</strong> is the coordinated response to civilizational crisis. It provides the institutional architecture—the reformed councils, laws, and funding mechanisms—necessary to implement the deep wisdom of our planet's most ancient and successful governance systems.</p>
+
+        <div class="box">
+            <h3>Core Principles</h3>
+            <ul>
+                <li><strong>Subsidiarity & Polycentrism</strong>: Governance at the lowest effective level.</li>
+                <li><strong>Democratic Legitimacy</strong>: Authority derived from people, including sortition.</li>
+                <li><strong>Ecological Integrity</strong>: Decisions within planetary boundaries.</li>
+                <li><strong>Agility & Adaptability</strong>: Dynamic institutions with renewal mechanisms.</li>
+            </ul>
+        </div>
+
+        <h2>The Five Pillars of Reform</h2>
+        
+        <h3>Pillar 1: Reforming Core Intergovernmental Bodies</h3>
+        <p><strong>Goal</strong>: Modernize post-WWII institutions for 21st-century legitimacy.<br>
+        <strong>Keystone Reform</strong>: <strong>UNSC Veto Override</strong> - Enable 3/4 majority for security issues, 2/3 for humanitarian/climate crises.</p>
+
+        <h3>Pillar 2: Integrating New Actors & Voices</h3>
+        <p><strong>Goal</strong>: Incorporate non-state actors and grassroots perspectives.<br>
+        <strong>Keystone Reform</strong>: <strong>Global Citizens' Initiative</strong> - Enable binding referendums with 10M signatures across 50+ nations.</p>
+
+        <h3>Pillar 3: Strengthening Global Law & Enforcement</h3>
+        <p><strong>Goal</strong>: Ensure universal application of international law.<br>
+        <strong>Keystone Reform</strong>: <strong>Ecocide Law</strong> - Mandate ICC prosecution of large-scale environmental destruction.</p>
+
+        <h3>Pillar 4: Reimagining Funding & Resources</h3>
+        <p><strong>Goal</strong>: Create independent funding to enable equitable systems.<br>
+        <strong>Keystone Reform</strong>: <strong>Global Carbon Tax</strong> - A levy on fossil fuels funding climate adaptation and the Global Commons Fund.</p>
+
+        <h3>Pillar 5: Building Ethical & Epistemic Infrastructure</h3>
+        <p><strong>Goal</strong>: Foster trust, truth, and collective purpose.<br>
+        <strong>Keystone Reform</strong>: <strong>Sovereign Debt Transformation</strong> - Enable nations to service obligations through verified ecological restoration.</p>
+
+        <h2>Implementation Strategies</h2>
+        <p>A <strong>Dual-Track Approach</strong> bridges idealism with reality:</p>
+        <ul>
+            <li><strong>Visionary Track</strong>: Global Stewardship Alliance implementing "Gold Standard" reforms.</li>
+            <li><strong>Pragmatic Track</strong>: Strategic sovereignty bargains and transition mechanisms for existing power holders.</li>
+        </ul>
+    </section>
+
+    <div class="page-break" id="part3"></div>
+    <h1 style="text-align: center; border: none; font-size: 3rem; margin-top: 200px;">PART III<br><span style="font-weight:300; font-size: 2rem;">The Genesis Protocol</span></h1>
+    <p style="text-align: center;"><em>Constitutional Convening Process for Treaty Implementation</em></p>
+    <div class="page-break"></div>
+
+    <section id="module1">
+        <h1>Module 1: Foundation</h1>
+        <h2>I. The Bootstrapping Paradox</h2>
+        <p>Every constitutional system confronts an existential paradox: How do you legitimately establish the first institutions that will govern when no prior authority exists to authorize them? In the absence of clear processes, power vacuums are filled by the fastest and most ruthless.</p>
+        <p>The <strong>Genesis Protocol</strong> is the "Tier 0 installation script" for the Treaty. It provides a deliberate process for establishing legitimate authority that prevents capture by any single interest.</p>
+
+        <h3>The Steel Man's Challenge</h3>
+        <blockquote>"This is a cathedral built in a warzone. Beautiful. Doomed."</blockquote>
+        <p>The protocol assumes hostility. It builds incentive structures (Network Effects) that make cooperation more rational than obstruction.</p>
+
+        <h2>II. Core Principles for Legitimate Convening</h2>
+        <ol>
+            <li><strong>Legitimacy Cascade</strong>: Authority flows in stages. Tier 1 (Foundational) validates Tier 2 (Institutional), which validates Tier 3 (Operational).</li>
+            <li><strong>Pluriversal Legitimacy</strong>: Different bodies require different authority sources (Indigenous sovereignty, Democratic sortition, Expert delegation).</li>
+            <li><strong>Sovereign Recognition</strong>: The GGF does <em>not</em> create Indigenous governance; it recognizes inherent sovereign rights.</li>
+            <li><strong>Multi-Source Authority</strong>: No single entity can dominate. Guardians require nominations from Earth Council + Citizens' Assembly + Experts.</li>
+        </ol>
+
+        <h2>III. The Genesis Fund</h2>
+        <p>A hardened financial mechanism ($2B target) capitalized via a "Peace Tithe" (0.1% military budget from ratifying nations). It includes an unconditional <strong>Indigenous Sovereign Endowment</strong> ($500M) to ensure Indigenous nations participate on their own terms, not as dependents.</p>
+    </section>
+
+    <div class="page-break"></div>
+
+    <section id="module2">
+        <h1>Module 2: Dual-Track Activation</h1>
+        
+        <h2>V. The Timeline Catastrophe Problem</h2>
+        <p>Legitimate convening takes 18 months. Existential threats (AI, Bio) move faster. The solution is <strong>Dual-Track Activation</strong>.</p>
+        
+        <div class="box">
+            <strong>Track 1: Emergency Survival Framework (Month 0-24)</strong><br>
+            <em>Purpose:</em> Immediate existential risk response.<br>
+            <em>Authority:</em> Limited strictly to existential threats. Sunsets automatically at Month 24.<br><br>
+            <strong>Track 2: Foundational Legitimacy Framework (Month 0-18)</strong><br>
+            <em>Purpose:</em> Full pluriversal convening per Genesis Protocol.<br>
+            <em>Outcome:</em> Permanent bodies assume authority at Month 24.
+        </div>
+
+        <h2>VI. Convening Tier 1 Bodies</h2>
+        
+        <h3>A. Earth Council</h3>
+        <p><strong>Principle</strong>: Sovereign Recognition. The GGF holds the seat open and transfers the Sovereign Endowment. Indigenous nations decide <em>if</em> and <em>how</em> to convene. This avoids colonial "invitation" dynamics.</p>
+
+        <h3>B. Global Citizens' Assembly</h3>
+        <p><strong>Principle</strong>: Democratic Sortition. 500 delegates selected via stratified random lottery. 
+        <em>Why?</em> Elections are vulnerable to wealth capture and polarization. Random selection ensures a representative sample of humanity.</p>
+
+        <h3>C. Youth Stewardship Council</h3>
+        <p><strong>Principle</strong>: Intergenerational Equity. 100 members (aged 16-30), half by lottery, half delegated by youth movements. They hold veto power over decisions with long-term (25+ year) consequences.</p>
+    </section>
+
+    <div class="page-break"></div>
+
+    <section id="module3">
+        <h1>Module 3: Tier 2-3 Convening</h1>
+        
+        <h2>VI.D Council of Guardians</h2>
+        <p>The "Wisdom Oversight" body. 9 members serving 6-year terms. 
+        <strong>Anti-Capture Mechanism</strong>: Nominees must be validated by <em>at least three</em> independent sources (Earth Council, Citizens' Assembly, Expert Bodies). They have no executive power but hold "Emergency Brake" authority on existential threats.</p>
+
+        <h2>VI.F Digital Justice Tribunal</h2>
+        <p>Adjudicates disputes on Ecocide, Digital Rights, and Treaty implementation. Judges appointed via multi-tier validation to ensure independence from nation-states.</p>
+
+        <h2>VI.G Global Enforcement Mechanism</h2>
+        <p>Not a standing army, but a coordinated graduated response system: Dialogue -> Mediation -> Sanctions -> Direct Intervention (only for existential threats). Leadership vetted by Guardians.</p>
+    </section>
+
+    <div class="page-break"></div>
+
+    <section id="module4">
+        <h1>Module 4: Network Effects & Immune System</h1>
+        
+        <h2>VII. Network Effects Protocol</h2>
+        <p><strong>The Challenge</strong>: "We'll just refuse to enter your cage." (The Opt-Out Threat).<br>
+        <strong>The Solution</strong>: Make non-participation economically catastrophic by reserving benefits for members.</p>
+        <ul>
+            <li><strong>Global Commons Fund Access</strong>: Only members access the $500B+ regenerative finance pool.</li>
+            <li><strong>AUBI (Adaptive Universal Basic Income)</strong>: Only citizens of member nations are eligible.</li>
+            <li><strong>Debt Transformation</strong>: Massive debt relief available only to members.</li>
+        </ul>
+        <p>This transforms the game from a "Prisoner's Dilemma" (incentive to defect) to a "Coordination Game" (incentive to join).</p>
+
+        <h2>VIII. Constitutional Immune System</h2>
+        <p>Proactive resilience against capture:</p>
+        <ul>
+            <li><strong>Epistemic Antibodies</strong>: AI monitoring for coordination patterns (e.g., voting blocs) and statistical anomalies in lotteries.</li>
+            <li><strong>Human Firewall</strong>: Citizens' Assembly juries vet all high-level nominees.</li>
+            <li><strong>Transparency</strong>: The "Birth Certificate Dashboard" publishes real-time verification of all convening steps.</li>
+        </ul>
+    </section>
+
+    <div class="page-break"></div>
+
+    <section id="module5">
+        <h1>Module 5: Implementation</h1>
+        
+        <h2>IX. Cultural Translation</h2>
+        <p>How to coordinate across radical diversity? The protocol establishes a <strong>Mediation Hierarchy</strong>:</p>
+        <ol>
+            <li><strong>Indigenous Wisdom</strong> has primacy for Land/Territory decisions.</li>
+            <li><strong>Deliberative Consensus</strong> has primacy for Global Commons decisions.</li>
+            <li><strong>Faith/Cultural Autonomy</strong> has primacy for personal values.</li>
+        </ol>
+
+        <h2>X. Timeline</h2>
+        <p><strong>Phase 0 (-12 to 0 months)</strong>: Ratification & Fund Capitalization.<br>
+        <strong>Phase 1 (0-9 months)</strong>: Tier 1 Convening (Earth Council, Citizens' Assembly).<br>
+        <strong>Phase 2 (9-15 months)</strong>: Institutional Convening (Guardians, Tribunal).<br>
+        <strong>Phase 3 (15-18 months)</strong>: Integration & Transition.<br>
+        <strong>Month 24</strong>: Full Operational Capability & Emergency Track Sunset.</p>
+    </section>
+
+    <div class="page-break"></div>
+
+    <section id="module6">
+        <h1>Module 6: Accountability & Conclusion</h1>
+        
+        <h2>XI. Monitoring</h2>
+        <p>Multi-layered accountability ensures the system stays true to its purpose:</p>
+        <ul>
+            <li><strong>Constitutional Health Monitors</strong>: Independent civil society watchdogs.</li>
+            <li><strong>Annual Reviews</strong>: "Are we upholding core principles?"</li>
+            <li><strong>Sunset Reviews</strong>: Every 5 years, major structural assessment.</li>
+        </ul>
+
+        <h2>XIII. Ethical Foundations</h2>
+        <p>The Protocol navigates tensions honestly:</p>
+        <ul>
+            <li><strong>Perfect Justice vs. Functional Reform</strong>: We grant temporary concessions to power (P5 transition) to enable a working system, but with strict sunsets.</li>
+            <li><strong>Representation vs. Expertise</strong>: We use experts, but they serve democratic bodies, not replace them.</li>
+        </ul>
+
+        <h2>XVI. Conclusion</h2>
+        <p>The Genesis Protocol is not a utopian blueprint assuming good faith. It is a battle-tested framework assuming hostility, building incentive structures that make cooperation more rational than obstruction. It is the "birth ritual" for a planetary civilization capable of surviving the 21st century.</p>
+    </section>
+
+</body>
+</html>
