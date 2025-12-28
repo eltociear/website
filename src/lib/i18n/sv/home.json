@@ -295,6 +295,31 @@
       "retakeQuiz": "Gör om quizet"
     }
   },
+  "activeProjects": {
+    "title": "Från Teori till Praktik",
+    "subtitle": "Vi bygger aktivt den öppna källkodsinfrastruktur som krävs för att driva dessa ramverk. Dessa tre referensprojekt representerar de sociala, tekniska och datadrivna lagren av en ny värld.",
+    "communize": {
+      "title": "Communize",
+      "tagline": "Det Sociala Protokollet",
+      "description": "En handbok för tillit. Guiden till 'Inre Allmänningar' och de sociala mönster som krävs för att bygga motståndskraftiga samhällen.",
+      "linkText": "Läs Handboken",
+      "url": "https://communize.org"
+    },
+    "stuga": {
+      "title": "Stuga",
+      "tagline": "Appen för Civilt Försvar",
+      "description": "Lokal-först digital infrastruktur för grannskapsresiliens. Samordna resurser, krisrespons och ömsesidigt stöd—även när internet ligger nere.",
+      "linkText": "Se Prototypen",
+      "url": "https://github.com/GlobalGovernanceFrameworks/stuga"
+    },
+    "civicbase": {
+      "title": "CivicBase",
+      "tagline": "Den Suveräna Datakärnan",
+      "description": "P2P-databaslagret som driver allt. Säkerställer att ditt samhälles data tillhör ditt samhälle, inte ett molnföretag.",
+      "linkText": "Inspektera Koden",
+      "url": "https://github.com/GlobalGovernanceFrameworks/CivicBase"
+    }
+  },
   "callToAction": {
     "heading": "Var med och bygg bättre styrning",
     "text": "Dessa ramverk behöver människor som förverkligar dem. Oavsett om du är en styrningsinnovatör, beslutsfattare, samhällsorganisatör eller nyfiken medborgare – ditt perspektiv och deltagande spelar roll.",

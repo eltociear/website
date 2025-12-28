@@ -1746,6 +1746,10 @@
             </div>
 
             <div class="dropdown-menu" on:click|stopPropagation={() => {}} role="menu">
+              <a href="{base}/projects" class={isActive('/projects') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
+                  {browser ? ($t('common.header.projects') || 'Active Projects') : 'Active Projects'}
+                </a>
+              <div class="dropdown-separator"></div>
               <a href="{base}/blog" class={isActive('/blog') ? 'active' : ''} data-sveltekit-preload-data="tap" role="menuitem">
                 {browser ? ($t('common.header.blog') || 'Blog') : 'Blog'}
               </a>

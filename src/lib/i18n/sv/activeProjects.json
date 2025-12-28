@@ -1,0 +1,220 @@
+{
+  "pageTitle": "Aktiva projekt",
+  "pageDescription": "Upptäck de tre referensprojekten som bygger infrastrukturen för regenerativ styrning: Communize, CivicBase och Stuga.",
+  
+  "hero": {
+    "title": "Från teori till praktik",
+    "subtitle": "Bygga infrastrukturen för en regenerativ värld",
+    "description": "Global Governance Frameworks är inte bara teoretiska ramverk – vi bygger aktivt den öppna källkodsinfrastruktur som krävs för att förverkliga dem. Dessa tre projekt representerar de sociala, tekniska och tillämpade lagren som möjliggör lokal resiliens och globalt samarbete."
+  },
+
+  "layers": {
+    "title": "De tre lagren av omvandling",
+    "intro": "Tillsammans bildar dessa projekt ett komplett ekosystem för resilient, självständig samhällsutveckling.",
+    "social": {
+      "title": "Det sociala protokollet",
+      "description": "Communize ger de sociala mönster, praxis och visdom som krävs för att bygga tillitsbaserade gemenskaper och hantera delade resurser."
+    },
+    "technical": {
+      "title": "Det tekniska fundamentet",
+      "description": "CivicBase tillhandahåller den P2P-databasinfrastruktur som säkerställer att ditt samhälles data tillhör ditt samhälle, inte ett molnföretag – och fungerar även när internet ligger nere."
+    },
+    "application": {
+      "title": "Den levda tillämpningen",
+      "description": "Stuga omsätter sociala protokoll och teknisk kapacitet till konkreta verktyg för grannskapsresiliens och ömsesidigt stöd."
+    }
+  },
+
+  "communize": {
+    "tagline": "Det sociala protokollet",
+    "title": "Communize",
+    "intro": "En filosofisk och praktisk utforskning av att bygga gemenskap och skapa allmänningar. Som statiskt hostad, open source-systerwebbplats till spiralize.org och nondualize.org, utvidgar den utforskningen av mänsklig utveckling och medvetande till det sociala och strukturella området.",
+    
+    "inquiry": {
+      "title": "Vår undersökning",
+      "description": "Communize bygger på premissen att mänsklighetens framtida välmående är kollektivt. Vi undersöker:",
+      "point1": "Processen att göra gemensamt: Vad innebär det att 'göra gemensamt'? Hur omvandlar vi isolerat ägande till delat förvaltarskap?",
+      "point2": "Psykologin av tillhörighet: Vilka är de mänskliga behoven av samhörighet, och hur uppfyller hälsosamma gemenskaper dem?",
+      "point3": "Strukturerna för samarbete: Från forntida allmänningar till digitala kooperativ, vi studerar modeller som gör det möjligt för människor att hantera delade resurser.",
+      "point4": "Att göra gemensamt som motgift: Hur möter gemenskapsbyggande moderna kriser av ensamhet, ekologisk försämring och ekonomisk ojämlikhet?"
+    },
+
+    "pillars": {
+      "title": "Utforskningens pelare",
+      "philosophical": {
+        "title": "Filosofiska och psykologiska grunder",
+        "description": "Grundläggande texter om teorin om allmänningar, gåvoekonomier och kommunalism. Samband mellan Spiral Dynamics, Nondualitet och gemenskapsbyggande."
+      },
+      "models": {
+        "title": "Modell- och praxisbibliotek",
+        "description": "Fallstudier av framgångsrika ekobyar, bostadskooperativ och arbetarägda företag. Praktiska guider för att starta verktygsbibliotek, bilda barnvaktskooperativ eller etablera gemenskapsträdgårdar."
+      },
+      "toolkit": {
+        "title": "Communize-verktygslådan",
+        "description": "Statisk resurskarta, kurerad verktygskatalog för beslutsfattande och deltagandebudgetering, och DIY-arbetsbladsgenerator för gemenskapskartering."
+      },
+      "knowledge": {
+        "title": "Kunskapsallmänningen",
+        "description": "Tematiskt organiserade läslistor, länkbibliotek till externa organisationer, projekt och forskningsartiklar."
+      }
+    },
+
+    "approach": {
+      "title": "Teknisk strategi",
+      "description": "Byggd med 11ty (Eleventy) eller ren HTML + Markdown för ultimat enkelhet och hastighet. Hostad på GitHub Pages – gratis, enkel och perfekt lämpad för detta innehållsbaserade projekt. Allt innehåll skrivet i Markdown, lätt för vem som helst att bidra till."
+    },
+
+    "cta": "Besök Communize.org",
+    "github": "Se källkoden"
+  },
+
+  "civicbase": {
+    "tagline": "Den suveräna datakärnan",
+    "title": "CivicBase",
+    "intro": "Offline-först infrastruktur för svensk kommunal resiliens. P2P-databassystem som säkerställer att kritiska tjänster fortsätter fungera även när kablar kapas eller internet faller.",
+
+    "problem": {
+      "title": "Problemet",
+      "incident": "November 2024: Undervattenská blar i Östersjön kapades mellan Sverige-Litauen och Finland-Tyskland. Svenska kommuner, 95% beroende av amerikansk molninfrastruktur (AWS, Azure, Google Cloud), skulle ha havererat totalt vid utdragna avbrott.",
+      "point1": "Betalningssystem (Swish, BankID) kräver centrala servrar + kontinuerlig internetanslutning",
+      "point2": "Kommunal IT körs helt i utländska moln",
+      "point3": "Ingen offline-kapacitet för kritiska tjänster",
+      "point4": "Enskilda felpunkter överallt",
+      "conclusion": "När kablar kapas, stannar det svenska samhället."
+    },
+
+    "solution": {
+      "title": "Lösningen",
+      "description": "CivicBase är peer-to-peer-infrastruktur som gör det möjligt för svenska kommuner att upprätthålla kritiska tjänster under infrastrukturavbrott. Byggd på libp2p (beprövad teknik som driver IPFS/Filecoin globalt):",
+      "offline": {
+        "title": "Offline-först drift",
+        "description": "Tjänster fortsätter via mesh-nätverk när internet faller"
+      },
+      "sovereignty": {
+        "title": "Datasuveränitet",
+        "description": "All data stannar i Sverige på svenska enheter"
+      },
+      "resilient": {
+        "title": "Ingen enskild felpunkt",
+        "description": "Distribuerad arkitektur överlever kabelkapningar"
+      },
+      "ready": {
+        "title": "Krisredo genom design",
+        "description": "72+ timmars offline-drift validerad"
+      }
+    },
+
+    "principles": {
+      "title": "Kärnprinciper",
+      "privacy": {
+        "title": "Integritet genom fysik, inte policy",
+        "description": "Agent-centrisk design där varje medborgare kontrollerar sin data på sin enhet. Ändhängskryptering gör data matematiskt förseglad. Ingen central databas att hacka, läcka eller stämma."
+      },
+      "sovereign": {
+        "title": "Suverän anslutning",
+        "description": "Peer-to-peer-nätverk (libp2p) och mesh-nätverk upprätthåller lokal samordning när internet faller. Eliminerar beroende av utländska molnleverantörer."
+      },
+      "resilience": {
+        "title": "Resiliens över effektivitet",
+        "description": "Elegant degradering, aldrig totalt haveri. Offline-kapacitet är standard, inte undantag. 72-timmars resiliensmål för kritiska funktioner."
+      },
+      "dualUse": {
+        "title": "Dubbelanvändningsinfrastruktur",
+        "description": "Fredstid: Kommunal innovation (TAK-405, DPOP, DiDiS). Kris: Kritisk redundans (ekonomisk kontinuitet, resurssamordning)."
+      }
+    },
+
+    "applications": {
+      "title": "Tillämpningar",
+      "intro": "CivicBase är en plattform, inte en enskild applikation. Den möjliggör:",
+      "tak405": {
+        "title": "TAK-405 'Regionens nervsystem'",
+        "description": "Kollektivtrafikens välmåendesystem för Stockholms kollektivtrafik. Använder Hearts-valuta för att uppmuntra hjälpsamt beteende och minska psykologisk stress. Proof-of-concept för offline-ekonomiska transaktioner."
+      },
+      "dpop": {
+        "title": "DPOP (Democratic Party Operations Platform)",
+        "description": "Politiskt organisering som fortsätter under kabelavbrott. Möten, beslut, samordning – allt offline-kapabelt med synk när anslutning återkommer."
+      },
+      "didis": {
+        "title": "DiDiS (Distributed Digital Identity System)",
+        "description": "Integritetsskyddande identitetsverifiering utan centrala databaser. Agent-centrisk arkitektur innebär ingen enskild komprometteringspunkt."
+      },
+      "future": "Framtid: Hälsojournaler, äldrevårdssamordning, katastrofinsatser, klimatanpassning – alla kommunala tjänster som kräver krisresiliens."
+    },
+
+    "status": {
+      "title": "Projektstatus",
+      "phase": "Fas",
+      "phaseValue": "Proof-of-concept (Vinnova 12-månaders bidrag)",
+      "timeline": "Tidslinje",
+      "timelineValue": "Januari 2026 - December 2026",
+      "funding": "Finansiering",
+      "fundingValue": "2,5M SEK (Vinnova + MCF parallellt spår)"
+    },
+
+    "cta": "Utforska CivicBase på GitHub"
+  },
+
+  "stuga": {
+    "tagline": "Appen för civilt försvar",
+    "title": "Stuga",
+    "intro": "Lokal-först digital infrastruktur för grannskapsresiliens. Samordna resurser, krisrespons och ömsesidigt stöd – även när internet ligger nere.",
+
+    "purpose": {
+      "title": "Syfte och vision",
+      "description": "Stuga omsätter CivicBase tekniska kapacitet och Communize sociala protokoll i konkreta verktyg för grannskapsresiliens. Det är den levda tillämpningen där teori blir handling – där P2P-databaser och tillitsbaserade gemenskaper möter människors dagliga behov."
+    },
+
+    "features": {
+      "title": "Kärnfunktioner",
+      "coordination": {
+        "title": "Grannskapssamordning",
+        "description": "Kartlägg lokala resurser, färdigheter och behov. Bygga nätverk av ömsesidigt stöd som kan aktiveras under både vardag och kris."
+      },
+      "resources": {
+        "title": "Resursdelning",
+        "description": "Från verktygsbibliotek till matkooperativ, Stuga underlättar delning av gemensamma resurser med offline-först funktionalitet."
+      },
+      "crisis": {
+        "title": "Krisrespons",
+        "description": "När nödsituationer uppstår, möjliggör Stuga snabb samordning av lokala insatser även när centrala kommunikationssystem har fallit."
+      },
+      "mutual": {
+        "title": "Ömsesidigt stöd",
+        "description": "Integration med Hearts-valuta från TAK-405 för att möjliggöra lokala ekonomiska transaktioner och erkännande av bidrag till gemenskapen."
+      }
+    },
+
+    "integration": {
+      "title": "Integration med ekosystemet",
+      "description": "Stuga körs på CivicBase infrastruktur för offline-först datahantering och använder sociala protokoll från Communize för gemenskapsbyggande. Det är den praktiska manifestationen av båda projekten – beviset på att resilient, självständig lokal organisation är möjlig."
+    },
+
+    "cta": "Se Stuga på GitHub"
+  },
+
+  "integration": {
+    "title": "Hur de fungerar tillsammans",
+    "intro": "Dessa tre projekt utgör ett sammanhängande ekosystem för lokal resiliens:",
+    "step1": {
+      "title": "Communize ger de sociala mönstren",
+      "description": "Lär ut hur man bygger tillit, hanterar allmänningar och skapar beslutssystem som respekterar både individens autonomi och kollektiv visdom."
+    },
+    "step2": {
+      "title": "CivicBase ger det tekniska fundamentet",
+      "description": "Tillhandahåller offline-först P2P-databas, kryptering och mesh-nätverk som säkerställer att lokal data förblir lokal och att tjänster fungerar även när centraliserad infrastruktur faller."
+    },
+    "step3": {
+      "title": "Stuga ger den levda tillämpningen",
+      "description": "Omsätter sociala protokoll och teknisk kapacitet i konkreta verktyg för grannskapssamordning, resursdelning och krisrespons."
+    },
+    "summary": "Tillsammans visar de att regenerativ styrning inte bara är möjlig i teorin – den byggs aktivt, kodbas för kodbas, gemenskap för gemenskap."
+  },
+
+  "finalCta": {
+    "title": "Bygg framtiden med oss",
+    "description": "Dessa projekt är öppen källkod och utvecklas aktivt. Oavsett om du är utvecklare, samhällsorganisatör eller beslutsfattare – det finns ett sätt för dig att bidra till att bygga resilient infrastruktur för en regenerativ värld.",
+    "getInvolved": "Engagera dig",
+    "exploreFrameworks": "Utforska ramverken"
+  }
+}

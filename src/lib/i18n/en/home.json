@@ -306,6 +306,31 @@
     "title": "Mapping Ethical Tensions and Tradeoffs",
     "intro": "Real-world governance involves navigating complex ethical tensions. These frameworks don't claim perfect solutions—they provide tools for navigating tradeoffs transparently and wisely."
   },
+  "activeProjects": {
+    "title": "From Theory to Practice: The Implementation Stack",
+    "subtitle": "We are actively building the open-source infrastructure to power these frameworks. These three reference implementations represent the 'Social', 'Application', and 'Data' layers of the new world.",
+    "communize": {
+      "title": "Communize",
+      "tagline": "The Social Protocol",
+      "description": "The operating manual for trust. A guide to the 'Inner Commons' and the social patterns required to build resilient communities.",
+      "linkText": "Read the Manual",
+      "url": "https://communize.org"
+    },
+    "stuga": {
+      "title": "Stuga",
+      "tagline": "The Civil Defense App",
+      "description": "Local-first digital infrastructure for neighborhood resilience. Coordinate resources, emergency response, and mutual aid—even when the internet goes down.",
+      "linkText": "View Prototype",
+      "url": "https://github.com/GlobalGovernanceFrameworks/stuga"
+    },
+    "civicbase": {
+      "title": "CivicBase",
+      "tagline": "The Sovereign Data Core",
+      "description": "The P2P database layer that powers it all. Ensuring that your community's data belongs to your community, not a cloud corporation.",
+      "linkText": "Inspect the Code",
+      "url": "https://github.com/GlobalGovernanceFrameworks/CivicBase"
+    }
+  },
   "getInvolved": {
     "title": "Join the Movement",
     "subtitle": "These Frameworks Need People to Bring Them to Life",

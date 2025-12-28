@@ -264,6 +264,53 @@
   </div>
 </section>
 
+<section class="projects-section">
+  <div class="container">
+    <div class="projects-header">
+      <h2 class="section-heading">{$t('home.activeProjects.title') || 'From Theory to Practice'}</h2>
+      <p class="section-intro">{$t('home.activeProjects.subtitle') || 'Building the infrastructure.'}</p>
+    </div>
+
+    <div class="projects-grid">
+      <a href="https://communize.org" target="_blank" class="project-card project-communize">
+        <div class="project-icon">📖</div>
+        <div class="project-content">
+          <span class="project-tag">{$t('home.activeProjects.communize.tagline')}</span>
+          <h3 class="project-title">{$t('home.activeProjects.communize.title')}</h3>
+          <p class="project-description">{$t('home.activeProjects.communize.description')}</p>
+          <span class="project-link">
+            {$t('home.activeProjects.communize.linkText')} →
+          </span>
+        </div>
+      </a>
+
+      <a href="https://github.com/GlobalGovernanceFrameworks/stuga" target="_blank" class="project-card project-stuga">
+        <div class="project-icon">🏠</div>
+        <div class="project-content">
+          <span class="project-tag">{$t('home.activeProjects.stuga.tagline')}</span>
+          <h3 class="project-title">{$t('home.activeProjects.stuga.title')}</h3>
+          <p class="project-description">{$t('home.activeProjects.stuga.description')}</p>
+          <span class="project-link">
+            {$t('home.activeProjects.stuga.linkText')} →
+          </span>
+        </div>
+      </a>
+
+      <a href="https://github.com/GlobalGovernanceFrameworks/CivicBase" target="_blank" class="project-card project-civicbase">
+        <div class="project-icon">⚡</div>
+        <div class="project-content">
+          <span class="project-tag">{$t('home.activeProjects.civicbase.tagline')}</span>
+          <h3 class="project-title">{$t('home.activeProjects.civicbase.title')}</h3>
+          <p class="project-description">{$t('home.activeProjects.civicbase.description')}</p>
+          <span class="project-link">
+            {$t('home.activeProjects.civicbase.linkText')} →
+          </span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
 {#if ref_ubtk}
   <!-- Featured Framework: Aegis Protocol Section -->
   <section class="featured-framework-section">
@@ -1064,6 +1111,107 @@
     align-items: center;
     margin-bottom: 1.5rem;
   }
+
+  /* Projects Section */
+  .projects-section {
+    padding: 4rem 0;
+    background-color: white;
+    border-top: 1px solid #e2e8f0;
+  }
+
+  .projects-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem auto;
+  }
+
+  .projects-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  @media (min-width: 900px) {
+    .projects-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid #e2e8f0;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+  }
+
+  /* Specific Card Themes */
+  .project-communize { border-top: 4px solid #6B5CA5; }
+  .project-communize .project-icon { background: #f3f0ff; color: #6B5CA5; }
+  
+  .project-stuga { border-top: 4px solid #B8860B; }
+  .project-stuga .project-icon { background: #fffbeb; color: #B8860B; }
+  
+  .project-civicbase { border-top: 4px solid #2B4B8C; }
+  .project-civicbase .project-icon { background: #eff6ff; color: #2B4B8C; }
+
+  .project-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .project-tag {
+    display: block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    color: #64748b;
+    margin-bottom: 0.5rem;
+  }
+
+  .project-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 0.75rem;
+  }
+
+  .project-description {
+    font-size: 1rem;
+    color: #475569;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+  }
+
+  .project-link {
+    font-weight: 600;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  .project-communize .project-link { color: #6B5CA5; }
+  .project-stuga .project-link { color: #B8860B; }
+  .project-civicbase .project-link { color: #2B4B8C; }
 
   /* Featured Framework Section */
   .featured-framework-section {

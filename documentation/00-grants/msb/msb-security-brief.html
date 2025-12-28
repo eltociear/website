@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Säkerhets- och resiliensbedömning - CivicBase infrastruktur</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #222;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 50px;
+            background: #fff;
+        }
+        
+        .header {
+            border-bottom: 4px solid #003366;
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+        
+        .header-left h1 {
+            font-size: 24px;
+            color: #003366;
+            margin: 0;
+            font-weight: 600;
+        }
+        
+        .header-left .subtitle {
+            font-size: 13px;
+            color: #555;
+            margin-top: 8px;
+            font-weight: 500;
+        }
+        
+        .header-right {
+            text-align: right;
+            font-size: 11px;
+            color: #666;
+            border-left: 1px solid #ccc;
+            padding-left: 15px;
+        }
+
+        h2 {
+            font-size: 16px;
+            color: #003366;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            font-weight: 600;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 6px;
+        }
+        
+        h3 {
+            font-size: 14px;
+            color: #333;
+            font-weight: 600;
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+
+        p {
+            margin-bottom: 14px;
+            font-size: 14px;
+        }
+        
+        .executive-summary {
+            background-color: #f0f4f8;
+            border-left: 4px solid #003366;
+            padding: 18px;
+            margin: 25px 0;
+            font-size: 14px;
+        }
+
+        .threat-box {
+            background-color: #fff3e0;
+            border-left: 4px solid #ff6f00;
+            padding: 16px;
+            margin: 20px 0;
+            font-size: 13px;
+        }
+        
+        .crisis-box {
+            background-color: #ffe6e6;
+            border-left: 4px solid #d32f2f;
+            padding: 16px;
+            margin: 20px 0;
+            font-size: 13px;
+        }
+
+        .validation-box {
+            background-color: #e8f5e9;
+            border-left: 4px solid #2e7d32;
+            padding: 16px;
+            margin: 20px 0;
+            font-size: 13px;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 25px 0;
+        }
+        
+        .capability-box {
+            border: 1px solid #ddd;
+            padding: 16px;
+            background: #fafafa;
+        }
+        
+        .capability-label {
+            font-size: 11px;
+            color: #666;
+            text-transform: uppercase;
+            font-weight: 600;
+            display: block;
+            margin-bottom: 6px;
+        }
+
+        ul, ol {
+            padding-left: 24px;
+            margin: 12px 0;
+            font-size: 14px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+
+        .metric {
+            font-weight: 600;
+            color: #003366;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 13px;
+        }
+
+        th {
+            background-color: #003366;
+            color: white;
+            padding: 10px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 2px solid #003366;
+            font-size: 11px;
+            color: #666;
+            text-align: center;
+        }
+        
+        @media print {
+            body { padding: 20px; }
+            h2 { page-break-after: avoid; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-left">
+            <h1>Säkerhets- och resiliensbedömning</h1>
+            <div class="subtitle">CivicBase - Distribuerad infrastruktur för samhällsskydd och beredskap</div>
+        </div>
+        <div class="header-right">
+            <strong>Dokumenttyp:</strong> Förslag till Myndigheten för civilt försvar (MCF)<br>
+            <strong>Datum:</strong> Januari 2026<br>
+            <strong>Klassificering:</strong> Öppen
+        </div>
+    </div>
+
+    <div class="executive-summary">
+        <strong>Sammanfattning:</strong> Detta dokument beskriver <strong>CivicBase</strong> – en teknisk arkitektur för lokal ekonomisk kontinuitet och social sammanhållning under systemstörningar. Förslaget adresserar kritiska sårbarheter i Sveriges digitala infrastruktur, exponerade av kabelkapningarna i Östersjön november 2024, och operationaliserar Myndigheten för civilt försvars (MCF) totalförsvarsdoktrin genom distribuerad, offline-kapabel samhällsinfrastruktur.
+    </div>
+
+    <h2>1. Hotbild och strategisk kontext</h2>
+
+    <h3>1.1 November 2024: Konkret bevis på sårbarhet</h3>
+    
+    <div class="crisis-box">
+        <strong>Händelse:</strong> Kabelkapningar i Östersjön (november 2024)<br>
+        <strong>Drabbade kablar:</strong> C-Lion1 (Finland-Tyskland), BCS East-West Interlink (Sverige-Litauen)<br>
+        <strong>Konsekvens:</strong> Exponerade Sveriges totala beroende av centraliserad internetinfrastruktur<br>
+        <strong>Systemsvar:</strong> Befintliga kommunala IT-system hade kollapsat vid längre avbrott. Inga redundanssystem fanns.
+    </div>
+
+    <p>Denna händelse demonstrerade tre kritiska sårbarheter som CivicBase adresserar:</p>
+    <ul>
+        <li><strong>Infrastruktursårbarhet:</strong> Enstaka kabelkapningar kan isolera hela regioner</li>
+        <li><strong>Molnberoende:</strong> Kommuner är 100% beroende av amerikanska molntjänster (AWS, Azure, Google) som kräver kontinuerlig internetåtkomst</li>
+        <li><strong>Betalningssystem:</strong> 95% av transaktioner via Swish/BankID – totalt beroende av centrala servrar och internetåtkomst</li>
+    </ul>
+
+    <h3>1.2 Myndigheten för civilt försvars totalförsvarsdoktrin (2024:1032)</h3>
+    <p>MCF:s förnyade totalförsvarsdoktrin betonar tre kärnområden som CivicBase operationaliserar:</p>
+
+    <div class="threat-box">
+        <strong>MCF:s identifierade gap:</strong>
+        <ul style="margin-bottom: 0;">
+            <li><strong>Psykologiskt försvar:</strong> "Försvarsvilja" kräver stark social sammanhållning – saknas i urbana miljöer</li>
+            <li><strong>Ekonomisk resiliens:</strong> Lokala samhällen måste kunna upprätthålla grundläggande ekonomisk aktivitet vid störning av centraliserade system</li>
+            <li><strong>Kommunikationsredundans:</strong> Kritiska samhällsfunktioner måste fungera utan beroende av centraliserad internetinfrastruktur</li>
+        </ul>
+    </div>
+
+    <h3>1.3 Lärdomar från Ukraina</h3>
+    <p>Rysslands hybridkrigsföring i Ukraina 2022-2025 demonstrerar tre kritiska angreppsvektorer:</p>
+
+    <table>
+        <tr>
+            <th>Angreppsvektor</th>
+            <th>Ukrainska exempel</th>
+            <th>Svensk sårbarhet</th>
+        </tr>
+        <tr>
+            <td><strong>Digital infrastruktur</strong></td>
+            <td>NotPetya (2017), koordinerade DDoS mot banker (2022)</td>
+            <td>Swish/BankID single points of failure; centralbaserade banktjänster; molnberoende</td>
+        </tr>
+        <tr>
+            <td><strong>Social atomisering</strong></td>
+            <td>Desinformation, splittring av civilbefolkning</td>
+            <td>Låg grannskapskoherens i urbana områden; socialt kapital eroderande</td>
+        </tr>
+        <tr>
+            <td><strong>Försörjningskedjor</strong></td>
+            <td>Blockad av Svartahavet; matbrist som vapen</td>
+            <td>Hög importberoende (60% av livsmedel i Stockholm); ingen lokal buffertkapacitet</td>
+        </tr>
+    </table>
+
+    <p><strong>Nyckellärdom:</strong> Områden med starkt socialt kapital och lokal redundans var markant mer motståndskraftiga mot rysk destabilisering och ockupation.</p>
+
+    <h3>1.4 Jämförelse med nordiska grannar</h3>
+    <ul>
+        <li><strong>Finland:</strong> Omfattande beredskapslager på hushållsnivå; stark "sisu"-kultur av självförsörjning</li>
+        <li><strong>Norge:</strong> Oljefondens buffert; lägre digitalisering av kontanta transaktioner</li>
+        <li><strong>Sverige:</strong> Högst digitaliseringsgrad, lägst kontantanvändning, minst decentraliserad resiliens, totalt molnberoende</li>
+    </ul>
+
+    <h2>2. Teknisk lösning: CivicBase infrastruktur</h2>
+
+    <p>Global Governance Frameworks (GGF) föreslår inte att <em>ersätta</em> befintliga system, utan att tillhandahålla <strong>redundans</strong> – en resilient infrastruktur som aktiveras vid störning av primära system. <strong>CivicBase</strong> är den distribuerade plattform som möjliggör detta.</p>
+
+    <h3>2.1 Arkitekturval: Distribuerad P2P-design (libp2p)</h3>
+    <p>Till skillnad från blockchain (kräver global konsensus) eller molnapplikationer (kräver centrala servrar) bygger CivicBase på etablerad P2P-teknologi (libp2p – samma som driver IPFS/Filecoin):</p>
+
+    <div class="grid">
+        <div class="capability-box">
+            <span class="capability-label">Partitionstolerans</span>
+            <strong>Offline-first design:</strong> Transaktioner registreras lokalt på användarens enhet. Systemet kan fungera via lokala nätverk (LAN/mesh) även om global internet kapas. Data synkroniseras automatiskt när anslutning återställs. Vid november 2024:s kabelkapningar skulle CivicBase-system fortsatt fungera lokalt.
+        </div>
+        <div class="capability-box">
+            <span class="capability-label">Datasuveränitet</span>
+            <strong>Ingen central attackyta:</strong> Ingen central databas att hacka eller DDOSa. Data distribueras över ett community-nätverk. För att förstöra systemet krävs fysisk förstöring av varje enskild nod. All data stannar i Sverige – inget molnberoende.
+        </div>
+    </div>
+
+    <div class="grid">
+        <div class="capability-box">
+            <span class="capability-label">Beprövad teknologi</span>
+            <strong>libp2p foundation:</strong> CivicBase bygger på libp2p – etablerat P2P-protokoll som driver IPFS, Filecoin och andra distribuerade system. Battle-tested i produktionsmiljöer globalt. Eliminerar "single point of failure".
+        </div>
+        <div class="capability-box">
+            <span class="capability-label">Kryptografisk säkerhet</span>
+            <strong>Agent-centrerad identitet:</strong> Varje användare har unik kryptografisk identitet. Ingen central identitetsdatabas att kompromettera. End-to-end kryptering. GDPR-compliant by design.
+        </div>
+    </div>
+
+<h3>2.2 Arkitekturval: Varför inte blockchain?</h3>
+<p>En vanlig fråga är varför CivicBase inte använder etablerade blockchain-protokoll (Ethereum, Solana) för Hearts-valutan. Svaret är resiliens:</p>
+
+<table>
+    <tr>
+        <th>Krav</th>
+        <th>Blockchain (Solana/Ethereum)</th>
+        <th>CivicBase (libp2p)</th>
+    </tr>
+    <tr>
+        <td><strong>Internetberoende</strong></td>
+        <td>Kräver anslutning till globala validators (oftast USA/EU)</td>
+        <td>Fungerar offline via lokal mesh-nätverk</td>
+    </tr>
+    <tr>
+        <td><strong>Vid kabelkapning</strong></td>
+        <td>Transaktioner stoppar helt (som november 2024)</td>
+        <td>Transaktioner fortsätter lokalt, synkroniseras när anslutning återställs</td>
+    </tr>
+    <tr>
+        <td><strong>Datasuveränitet</strong></td>
+        <td>Data lagras på global, permanent ledger</td>
+        <td>Data ägs av svensk agent, raderas på begäran (GDPR)</td>
+    </tr>
+    <tr>
+        <td><strong>Energiförbrukning</strong></td>
+        <td>Hög (proof-of-work/stake kräver kontinuerlig validering)</td>
+        <td>Låg (endast lokal kryptografisk signering)</td>
+    </tr>
+    <tr>
+        <td><strong>Finansialisering</strong></td>
+        <td>Hearts blir spekulativ tillgång (volatilitet)</td>
+        <td>Hearts är lokal trust-signal, ej handelbar valuta</td>
+    </tr>
+</table>
+
+<p><strong>Sammanfattning:</strong> Blockchain optimerar för global finansiell konsensus. CivicBase optimerar för lokal social resiliens. För totalförsvarstillämpningar är det senare kritiskt.</p>
+
+    <h3>2.3 Referensimplementationer internationellt</h3>
+    <ul>
+        <li><strong>Estland:</strong> X-Road (decentraliserad datautbyte); e-residency (digital suveränitet) – fungerade under cyberattacker 2007</li>
+        <li><strong>Schweiz:</strong> WIR-systemet (komplementär valuta sedan 1934; använd under krisperioder inklusive WWII)</li>
+        <li><strong>Japan:</strong> Fureai kippu (omsorgsvaluta; demografisk resiliens)</li>
+        <li><strong>Protocol Labs:</strong> libp2p/IPFS används i kritisk infrastruktur globalt</li>
+    </ul>
+
+    <p>CivicBase kombinerar dessa lärdomar med modern P2P-teknologi och offline-kapacitet specifikt designad för totalförsvarsbehov.</p>
+
+    <h2>3. Operativa förmågor under kris</h2>
+
+    <h3>3.1 Ekonomisk kontinuitet vid betalningssystemsavbrott</h3>
+    <p>Vid störning av centraliserade betalningssystem (Swish/BankID) aktiveras <strong>Hearts-protokollet</strong> som lokal bytesmekanism:</p>
+    <ul>
+        <li><strong>Funktion:</strong> Möjliggör fortsatt handel av nödvändiga tjänster (äldreomsorg, matdistribution, manuellt arbete) utan kontantlikviditet eller internetåtkomst</li>
+        <li><strong>Verifiering:</strong> Transaktioner kryptografiskt signerade av båda parter på enheten; skapar oföränderlig skuld/kredit-redovisning som persisterar offline</li>
+        <li><strong>Säkerhet:</strong> Ingen "double-spend" möjlig; varje agent har unik kryptografisk identitet; manipulation kräver fysisk åtkomst till enheten</li>
+        <li><strong>Synkronisering:</strong> När internetåtkomst återställs synkroniseras offline-transaktioner automatiskt via P2P-nätverket</li>
+    </ul>
+
+    <div style="margin: 25px 0; text-align: center;">
+        <img src="./bunker-mode.png" alt="Bunker Mode-gränssnitt" style="max-width: 100%; border: 2px solid #003366; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p style="font-size: 12px; color: #666; margin-top: 10px; font-style: italic;">
+            <strong>Figur 1: Bunker Mode-gränssnitt vid internetavbrott.</strong> Hearts-transaktioner fortsätter via lokalt mesh-nätverk och synkroniseras automatiskt när internetanslutning återställs. Detta operationaliserar MCF:s krav på ekonomisk kontinuitet under systemstörningar.
+        </p>
+    </div>
+
+    <div class="validation-box">
+        <strong>Konkret scenario - November 2024:</strong> Vid kabelkapningarna skulle Hearts-aktiverade samhällen fortsatt kunna handla med lokala producenter, betala för äldreomsorg, och upprätthålla grundläggande ekonomisk aktivitet via mesh-nätverk, synkroniserande när kablar reparerades. Befintliga system: total kollaps.
+    </div>
+
+    <h3>3.2 Resurskartläggning och tillgångsallokering</h3>
+    <p>CivicBase skapar en integritetsskyddande inventering av lokal resiliens:</p>
+    <ul>
+        <li><strong>Kompetenskartläggning:</strong> Vem har medicinsk utbildning? Vem kan svetsa? Vem talar språk?</li>
+        <li><strong>Materiella tillgångar:</strong> Vem har generator? Vem har överskott av rotfrukter?</li>
+        <li><strong>Säkerhetsarkitektur:</strong> Kartan lagras <em>inte</em> centralt (där motståndare kan targetera den) utan distribuerad bland betrodda peers med kryptering</li>
+        <li><strong>Offline-kapabel:</strong> Resurskartläggning fungerar via lokal mesh-nätverk även under internetavbrott</li>
+    </ul>
+
+    <h3>3.3 Psykologiskt försvar genom social sammanhållning</h3>
+    <p>MCF:s doktrin (2024:1032) betonar <strong>försvarsvilja</strong> som kritisk komponent. Resiliens är i grund och botten social.</p>
+
+    <div class="validation-box">
+        <strong>G20 Global Inequality Report (November 2025):</strong> Dokumenterar att höga nivåer av ojämlikhet underminerar social sammanhållning och demokrati, vilket gör samhällen mer sårbara för auktoritära och destabiliserande krafter. Rekommenderar <em>"valorisering av obetalt omsorgsarbete"</em> som motåtgärd.
+    </div>
+
+    <p>Genom att "gamifiera" och belöna vardagligt omsorgsarbete (kolla på grannar, gemensam odling, språkundervisning) under fredstid bygger CivicBase högtillitsnätverk:</p>
+    <ul>
+        <li><strong>Resultat:</strong> Vid krishändelse är det "sociala nätverket" redan aktivt. Grannar är inte främlingar; de är lagkamrater. Detta stärker "Försvarviljan" mot destabilisering.</li>
+        <li><strong>Kontrast:</strong> I Ukraina visade sig områden med starkt socialt kapital vara mer motståndskraftiga mot rysk desinformation och ockupation</li>
+        <li><strong>Offline-resiliens:</strong> Social koordination fortsätter via mesh-nätverk även när centrala kommunikationssystem faller</li>
+    </ul>
+
+    <h2>4. Pilotlokalisering: Stockholms skärgård</h2>
+
+    <h3>4.1 Strategisk motivering</h3>
+    <p>Stockholms skärgård valdes som pilotzon baserat på fyra kriterier:</p>
+
+    <table>
+        <tr>
+            <th>Kriterium</th>
+            <th>Motivering</th>
+        </tr>
+        <tr>
+            <td><strong>Geografisk avgränsning</strong></td>
+            <td>Naturliga gränser (öar) underlättar kontrollerad testmiljö; begränsat antal access points</td>
+        </tr>
+        <tr>
+            <td><strong>Kritisk infrastruktur</strong></td>
+            <td>Sjöfartsvägar in till Stockholm; strategiskt viktigt område vid konflikt i Östersjön (som november 2024 demonstrerade)</td>
+        </tr>
+        <tr>
+            <td><strong>Demografi</strong></td>
+            <td>Blandning av permanent- och fritidsboende; åldrande befolkning (testar omsorgsresiliens)</td>
+        </tr>
+        <tr>
+            <td><strong>Befintlig motivation</strong></td>
+            <td>Redan aktiva lokala Hemvärnsgrupper och Frivilliga Resursgrupper; receptivitet för beredskapsinitiativ</td>
+        </tr>
+    </table>
+
+    <h3>4.2 Pilotfaser</h3>
+    <p><strong>Fas 1 (3 månader):</strong> Stresstestning av offline-funktionalitet</p>
+    <ul>
+        <li>50 lokala noder (hushåll) deltar</li>
+        <li>Simulerad internetavbrott (kontrollerad miljö, replikerar november 2024-scenario)</li>
+        <li>Mät: Transaktionshastighet, datasynkronisering vid återanslutning, användarupplevelse</li>
+        <li>Test: 72+ timmar offline operation via mesh-nätverk</li>
+    </ul>
+
+    <p><strong>Fas 2 (6 månader):</strong> Integration med lokalt civilförsvar</p>
+    <ul>
+        <li>Samverkan med Frivilliga Resursgruppen (FRG) och Hemvärnet</li>
+        <li>Genomför "tabletop exercise" – simulerat hybridhot scenario (kabelkapning + cyberattack)</li>
+        <li>Mät: Responstid, resursallokering, social koordination under stress</li>
+        <li>Test: Ekonomisk kontinuitet vid simulerat betalningssystemsavbrott</li>
+    </ul>
+
+    <h2>5. Säkerhetsrevision och compliance</h2>
+
+    <h3>5.1 GDPR och integritetsskydd</h3>
+    <ul>
+        <li><strong>Privacy by design:</strong> Ingen central identitetsdatabas; användare kontrollerar egna data via agent-centrerad arkitektur</li>
+        <li><strong>Dataminimering:</strong> Endast nödvändig metadata lagras; krypterad end-to-end via libp2p</li>
+        <li><strong>Rätt till radering:</strong> Användare kan när som helst lämna nätverket och radera sin data</li>
+        <li><strong>Datasuveränitet:</strong> All data stannar i Sverige – inget molnberoende på amerikanska tjänster</li>
+    </ul>
+
+    <h3>5.2 Säkerhetsgranskningsbehov</h3>
+    <p>Vi söker MCF:s expertis för granskning av:</p>
+    <ol>
+        <li><strong>Offline reconciliation-protokoll:</strong> Säkerställa att ingen manipulation kan ske under internet-disconnection</li>
+        <li><strong>Kryptografisk implementation:</strong> Peer review av signeringsprotokoll och nyckelhantering (libp2p-baserad)</li>
+        <li><strong>Denial-of-service motstånd:</strong> Hur systemet hanterar flood attacks på mesh-nätverket</li>
+        <li><strong>Cybersäkerhet:</strong> Penetrationstestning av P2P-arkitektur under simulerade attacker</li>
+    </ol>
+
+    <h2>6. Koppling till befintligt GGF-arbete</h2>
+
+    <p>CivicBase är den gemensamma tekniska plattformen för pågående GGF-initiativ:</p>
+    <ul>
+        <li><strong>TAK-405 "Regionens Nervsystem":</strong> Inlämnat till Region Stockholm (december 2024); fokus på psykologisk resiliens i kollektivtrafik; extern finansiering via MCF och EU</li>
+        <li><strong>Vinnova-ansökan (januari 2026):</strong> 2,5 MSEK över 12 månader för CivicBase plattformsutveckling; fokus på offline-resiliens och kommunal innovation</li>
+        <li><strong>Denna MCF-ansökan:</strong> Säkerhetsrevision och skärgårdspilot av CivicBase för totalförsvarstillämpningar</li>
+    </ul>
+
+    <p>Den tekniska arkitektur som utvecklas har därmed <strong>dual-use</strong> karaktär:</p>
+    <ul>
+        <li><strong>Civil tillämpning:</strong> Vardaglig välfärdsinnovation (omsorgsvaluta, hälsofrämjande incitament, kommunal administration)</li>
+        <li><strong>Försvarstillämpning:</strong> Kritisk redundans vid systemstörning – demonstrerat nödvändig av november 2024:s kabelkapningar</li>
+    </ul>
+
+    <h2>7. Begäran om samarbete</h2>
+
+    <p>CivicBase adresserar MCF:s uppdrag att <em>"stärka samhällets förmåga att förebygga och hantera olyckor och kriser"</em> genom att operationalisera totalförsvarsdoktrinen med konkret infrastruktur. Vi söker dialog kring:</p>
+
+    <ol>
+        <li><strong>Forsknings- och innovationsfinansiering</strong> för säkerhetsrevisionen och fältsimuleringar</li>
+        <li><strong>Expertis från MCF:s cyber- och sociala resiliensavdelningar</strong> för teknisk granskning av CivicBase-arkitekturen</li>
+        <li><strong>Pilotsamordning</strong> med befintliga totalförsvarövningar i Stockholmsregionen</li>
+        <li><strong>Cybersäkerhetsgranskning</strong> av distribuerad P2P-arkitektur under simulerade hot</li>
+    </ol>
+
+    <div class="executive-summary" style="margin-top: 35px;">
+        <strong>Avslutande reflektion:</strong> November 2024:s kabelkapningar i Östersjön var inte en överraskning – de var en varning. Ukraina har lärt oss att resiliens inte byggas när krisen kommer – den måste vara inbyggd i vardagen. <br><br>
+        
+        CivicBase operationaliserar MCF:s doktrin om lokal beredskap genom att ge lokalsamhällen verktyg för ekonomisk och social kontinuitet som fungerar <em>under</em> störningar, inte bara före eller efter. <br><br>
+        
+        <strong>Frågan är inte om</strong> Sverige kommer utsättas för hybridhot mot kritisk infrastruktur. November 2024 visade att vi redan blir det. <strong>Frågan är om</strong> våra lokalsamhällen kommer ha redundanskapacitet nästa gång det sker.
+    </div>
+
+    <div class="footer">
+        <img src="./logo.png" alt="Global Governance Frameworks" style="height: 40px; margin-bottom: 10px;"><br>
+        <strong>Global Governance Frameworks</strong><br>
+        Systemarkitektur för samhällsresiliens<br>
+        Huvudarkitekt: Björn K. Holmström | +46 79 333 94 62<br>
+        <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f5979f9a879bdb9e909b9b90819ddb9d9a99988681879a98b59298949c99db969a98">[email&#160;protected]</a> | globalgove

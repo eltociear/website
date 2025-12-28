@@ -1,0 +1,220 @@
+{
+  "pageTitle": "Active Projects",
+  "pageDescription": "Discover the three reference projects building the infrastructure for regenerative governance: Communize, CivicBase, and Stuga.",
+  
+  "hero": {
+    "title": "From Theory to Practice",
+    "subtitle": "Building the Infrastructure for a Regenerative World",
+    "description": "Global Governance Frameworks isn't just theoretical blueprints—we're actively building the open-source infrastructure required to actualize them. These three projects represent the social, technical, and applied layers enabling local resilience and global cooperation."
+  },
+
+  "layers": {
+    "title": "The Three Layers of Transformation",
+    "intro": "Together, these projects form a complete ecosystem for resilient, sovereign community development.",
+    "social": {
+      "title": "The Social Protocol",
+      "description": "Communize provides the social patterns, practices, and wisdom needed to build trust-based communities and manage shared resources."
+    },
+    "technical": {
+      "title": "The Technical Foundation",
+      "description": "CivicBase provides the P2P database infrastructure ensuring your community's data belongs to your community, not a cloud company—and works even when the internet is down."
+    },
+    "application": {
+      "title": "The Lived Application",
+      "description": "Stuga translates social protocols and technical capacity into concrete tools for neighborhood resilience and mutual support."
+    }
+  },
+
+  "communize": {
+    "tagline": "The Social Protocol",
+    "title": "Communize",
+    "intro": "A philosophical and practical exploration of building community and creating the commons. As a statically-hosted, open-source sister site to spiralize.org and nondualize.org, it extends the exploration of human development and consciousness into the social and structural realm.",
+    
+    "inquiry": {
+      "title": "Our Inquiry",
+      "description": "Communize is built on the premise that the future of human flourishing is collective. We investigate:",
+      "point1": "The Process of Communizing: What does it mean to 'make communal'? How do we transform isolated ownership into shared stewardship?",
+      "point2": "The Psychology of Belonging: What are the human needs for connection, and how do healthy communities fulfill them?",
+      "point3": "The Structures of Collaboration: From ancient commons to digital cooperatives, we study models that enable people to manage shared resources.",
+      "point4": "Communizing as an Antidote: How does building community address modern crises of loneliness, ecological degradation, and economic inequality?"
+    },
+
+    "pillars": {
+      "title": "Pillars of Exploration",
+      "philosophical": {
+        "title": "Philosophical & Psychological Foundations",
+        "description": "Foundational texts on the theory of the commons, gift economies, and communalism. Connections between Spiral Dynamics, Nondualism, and community building."
+      },
+      "models": {
+        "title": "Models & Praxis Library",
+        "description": "Case studies of successful ecovillages, housing co-ops, and worker-owned businesses. Practical guides for starting tool libraries, forming babysitting cooperatives, or establishing community gardens."
+      },
+      "toolkit": {
+        "title": "The Communize Toolkit",
+        "description": "Static resource mapper, curated tool directory for decision-making and participatory budgeting, and DIY worksheet generator for community asset mapping."
+      },
+      "knowledge": {
+        "title": "The Knowledge Commons",
+        "description": "Thematically organized reading lists, link library to external organizations, projects, and research papers."
+      }
+    },
+
+    "approach": {
+      "title": "Technical Approach",
+      "description": "Built with 11ty (Eleventy) or plain HTML + Markdown for ultimate simplicity and speed. Hosted on GitHub Pages—free, simple, and perfectly suited for this content-based project. All content written in Markdown, easy for anyone to contribute to."
+    },
+
+    "cta": "Visit Communize.org",
+    "github": "View Source Code"
+  },
+
+  "civicbase": {
+    "tagline": "The Sovereign Data Core",
+    "title": "CivicBase",
+    "intro": "Offline-first infrastructure for Swedish municipal resilience. P2P database system ensuring critical services continue functioning even when cables are cut or the internet fails.",
+
+    "problem": {
+      "title": "The Problem",
+      "incident": "November 2024: Undersea cables in the Baltic Sea were severed between Sweden-Lithuania and Finland-Germany. Swedish municipalities, 95% dependent on American cloud infrastructure (AWS, Azure, Google Cloud), would have completely failed during extended outages.",
+      "point1": "Payment systems (Swish, BankID) require central servers + continuous internet",
+      "point2": "Municipal IT runs entirely in foreign clouds",
+      "point3": "No offline capability for critical services",
+      "point4": "Single points of failure everywhere",
+      "conclusion": "When cables are cut, Swedish society stops."
+    },
+
+    "solution": {
+      "title": "The Solution",
+      "description": "CivicBase is peer-to-peer infrastructure that enables Swedish municipalities to maintain critical services during infrastructure disruptions. Built on libp2p (proven technology powering IPFS/Filecoin globally):",
+      "offline": {
+        "title": "Offline-first operation",
+        "description": "Services continue via mesh networks when internet fails"
+      },
+      "sovereignty": {
+        "title": "Data sovereignty",
+        "description": "All data stays in Sweden on Swedish devices"
+      },
+      "resilient": {
+        "title": "No single point of failure",
+        "description": "Distributed architecture survives cable cuts"
+      },
+      "ready": {
+        "title": "Crisis-ready by design",
+        "description": "72+ hour offline operation validated"
+      }
+    },
+
+    "principles": {
+      "title": "Core Principles",
+      "privacy": {
+        "title": "Privacy by Physics, Not Policy",
+        "description": "Agent-centric design where each citizen controls their data on their device. End-to-end encryption makes data mathematically sealed. No central database to hack, leak, or subpoena."
+      },
+      "sovereign": {
+        "title": "Sovereign Connectivity",
+        "description": "Peer-to-peer networking (libp2p) and mesh networks maintain local coordination when internet fails. Eliminates dependency on foreign cloud providers."
+      },
+      "resilience": {
+        "title": "Resilience Over Efficiency",
+        "description": "Graceful degradation, never total failure. Offline capability is default, not exception. 72-hour resilience target for critical functions."
+      },
+      "dualUse": {
+        "title": "Dual-Use Infrastructure",
+        "description": "Peacetime: Municipal innovation (TAK-405, DPOP, DiDiS). Crisis: Critical redundancy (economic continuity, resource coordination)."
+      }
+    },
+
+    "applications": {
+      "title": "Applications",
+      "intro": "CivicBase is a platform, not a single application. It enables:",
+      "tak405": {
+        "title": "TAK-405 'The Region's Nervous System'",
+        "description": "Transit wellness system for Stockholm public transport. Uses Hearts currency to incentivize helping behavior, reducing psychological stress. Proof-of-concept for offline economic transactions."
+      },
+      "dpop": {
+        "title": "DPOP (Democratic Party Operations Platform)",
+        "description": "Political organizing that continues during cable cuts. Meetings, decisions, coordination—all offline-capable with sync when connectivity returns."
+      },
+      "didis": {
+        "title": "DiDiS (Distributed Digital Identity System)",
+        "description": "Privacy-preserving identity verification without central databases. Agent-centric architecture means no single point of compromise."
+      },
+      "future": "Future: Healthcare records, elder care coordination, emergency response, climate adaptation—any municipal service requiring crisis resilience."
+    },
+
+    "status": {
+      "title": "Project Status",
+      "phase": "Phase",
+      "phaseValue": "Proof-of-concept (Vinnova 12-month grant)",
+      "timeline": "Timeline",
+      "timelineValue": "January 2026 - December 2026",
+      "funding": "Funding",
+      "fundingValue": "2.5M SEK (Vinnova + MCF parallel track)"
+    },
+
+    "cta": "Explore CivicBase on GitHub"
+  },
+
+  "stuga": {
+    "tagline": "The Civil Defense App",
+    "title": "Stuga",
+    "intro": "Local-first digital infrastructure for neighborhood resilience. Coordinate resources, crisis response, and mutual support—even when the internet is down.",
+
+    "purpose": {
+      "title": "Purpose and Vision",
+      "description": "Stuga translates CivicBase's technical capacity and Communize's social protocols into concrete tools for neighborhood resilience. It's the lived application where theory becomes action—where P2P databases and trust-based communities meet people's daily needs."
+    },
+
+    "features": {
+      "title": "Core Features",
+      "coordination": {
+        "title": "Neighborhood Coordination",
+        "description": "Map local resources, skills, and needs. Build networks of mutual support that can be activated during both ordinary times and crisis."
+      },
+      "resources": {
+        "title": "Resource Sharing",
+        "description": "From tool libraries to food co-ops, Stuga facilitates sharing of common resources with offline-first functionality."
+      },
+      "crisis": {
+        "title": "Crisis Response",
+        "description": "When emergencies arise, Stuga enables rapid coordination of local response even when centralized communication systems have failed."
+      },
+      "mutual": {
+        "title": "Mutual Support",
+        "description": "Integration with Hearts currency from TAK-405 to enable local economic transactions and recognition of contributions to the community."
+      }
+    },
+
+    "integration": {
+      "title": "Integration with the Ecosystem",
+      "description": "Stuga runs on CivicBase infrastructure for offline-first data handling and uses social protocols from Communize for community building. It's the practical manifestation of both projects—the proof that resilient, sovereign local organization is possible."
+    },
+
+    "cta": "View Stuga on GitHub"
+  },
+
+  "integration": {
+    "title": "How They Work Together",
+    "intro": "These three projects form a coherent ecosystem for local resilience:",
+    "step1": {
+      "title": "Communize Provides the Social Patterns",
+      "description": "Teaching how to build trust, manage commons, and create decision-making systems that respect both individual autonomy and collective wisdom."
+    },
+    "step2": {
+      "title": "CivicBase Provides the Technical Foundation",
+      "description": "Offering offline-first P2P database, encryption, and mesh networking that ensures local data stays local and services work even when centralized infrastructure fails."
+    },
+    "step3": {
+      "title": "Stuga Provides the Lived Application",
+      "description": "Translating social protocols and technical capacity into concrete tools for neighborhood coordination, resource sharing, and crisis response."
+    },
+    "summary": "Together, they demonstrate that regenerative governance isn't just possible in theory—it's being actively built, codebase by codebase, community by community."
+  },
+
+  "finalCta": {
+    "title": "Build the Future with Us",
+    "description": "These projects are open source and actively developed. Whether you're a developer, community organizer, or decision-maker—there's a way for you to contribute to building resilient infrastructure for a regenerative world.",
+    "getInvolved": "Get Involved",
+    "exploreFrameworks": "Explore the Frameworks"
+  }
+}
