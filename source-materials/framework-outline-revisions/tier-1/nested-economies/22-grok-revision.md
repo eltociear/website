@@ -174,6 +174,8 @@
 - **Phase 3 (Years 5-10)**: Integration, safety nets ($1B).
 - **Metrics**: 50% **Hearts** adoption by Year 5, 80% disparity reduction by Year 10.
 
+Implementation Note: Phase 1 (2026-2027) utilizes trusted-node consensus (Social Validation) to bootstrap velocity. Cryptographic decentralization (Phase 2) is deployed only after network density exceeds critical thresholds.
+
 ---
 
 ## 7. Monitoring and Evaluation

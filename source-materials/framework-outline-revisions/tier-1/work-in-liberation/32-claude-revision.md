@@ -4,7 +4,7 @@
 
 ### Tier: 1 (Foundational Organizational Framework)
 ### Status: Revision 3.1 - AUBI-Integrated, Indigenous-Guided Draft
-### Revision: 3.1 (2025-12-21)
+### Revision: 3.2 (2025-12-31)
 ### Responsible: Björn Kenneth Holmström (with enhancements guided by Indigenous wisdom and AUBI integration)
 ### Related Documents:
 - STR-201 # Adaptive Tax Framework
@@ -21,6 +21,7 @@
 - Global Health & Pandemic Security Framework
 
 ### Version History:
+- **3.2 (2025-12-31)**: Inserted section 5. Flagship Global Mobilizations. 
 - **3.1 (2025-12-21)**: Added "Preface: Terminology & Intent" to bridge radical and professional language registers while maintaining analytical clarity.
 - **3.0 (2025-09-03)**: Aligned with "The Currency of Care" model: Clarified Love Ledger as non-monetized for informal recognition; reframed economic flow with Hearts earned via community spending at chartered providers and redeemed at Hearts Treasury; updated Community Work Teams as Community Providers; refined Community Weaver role; updated glossary and appendices for new flow.
 - **2.3 (2025-07-11)**: Added Appendix G: Implementation, Scaling, and Resistance Strategy, and Appendix H: Technical and Governance Mechanics to address implementation sequencing, transition friction points, success metrics validation, technical implementation, and Community Weaver scale. Maintained Indigenous governance and AUBI integration.
@@ -215,7 +216,57 @@ This framework builds on **AUBIâ€™s economic foundation** (Layer 1: univers
 
 ---
 
-## 5. Industrial Sunsetting
+## **5. Flagship Global Mobilizations**
+
+While the Community Provider architecture (Section 4) focuses on local bioregional care, the Work in Liberation Framework also organizes large-scale, transnational labor forces to address planetary commons challenges.
+
+### **5.1. The Marine Stewardship Corps ("Blue Stewards")**
+
+**Operationalizing the High Seas Treaty (BBNJ) through Regenerative Labor**
+
+The **Biodiversity Beyond National Jurisdiction (BBNJ) Treaty** establishes Marine Protected Areas (MPAs) covering 30% of the ocean. However, nation-states lack the naval capacity and political will to enforce these protections against "dark fleets" and illegal extraction in international waters.
+
+The **Marine Stewardship Corps** fills this enforcement gap by deploying autonomous maritime cooperatives to act as the civilian verification layer for the High Seas.
+
+#### **A. The Mandate**
+
+Blue Steward crews are chartered Community Providers with a specific mandate:
+
+1. **Ecological Verification:** Monitor MPAs using the **Synoptic Protocol** (sensor arrays, drone feeds, water sampling) to verify biodiversity health.
+2. **Presence & Deterrence:** Maintain physical presence in protected zones to deter illegal trawling and dumping.
+3. **Restoration:** Active coral gardening, kelp reforestation, and ghost-net removal operations.
+
+#### **B. The Economic Model (Hearts & Leaves)**
+
+Unlike traditional coast guards (funded by taxes), Blue Stewards are funded by the **Global Commons Fund** and the **Regenerative Value Engine**:
+
+* **Base Income (AUBI):** All crew members receive their unconditional AUBI.
+* **Operational Funding (Hearts):** Vessels earn Hearts for verified patrol hours and maintenance, redeemable at designated "Blue Ports" for fuel and supplies.
+* **Ecological Dividends (Leaves):** The *Synoptic Protocol* measures the biomass recovery in their patrol zones. This data generates **Leaves**, which are distributed to the crew as a high-value bonus, incentivizing effective protection rather than just "activity."
+
+#### **C. The Legal Status**
+
+Blue Steward vessels operate under the **Aurora Accord's "Data Neutrality" Clause**. They are not military combatants; they are "Witnesses."
+
+* They do not engage in combat.
+* They stream tamper-proof, real-time evidence of violations directly to the **Digital Justice Tribunal** and the public **Love Ledger**.
+* This data triggers automatic **Blacklist Protocol** sanctions against violating commercial fleets, cutting them off from insurance and banking markets (see *Financial Systems Framework*).
+
+> **Impact:** This turns the "High Seas Enforcement Gap" into the world's largest employment program for marine biologists, sailors, veterans, and coastal communities, shifting the maritime economy from *extraction* (fishing) to *stewardship* (protection).
+
+---
+
+### **How this Connects the Ecosystem**
+
+1. **Treaty:** BBNJ provides the law.
+2. **Work:** Blue Stewards provide the labor.
+3. **Tech:** Synoptic Protocol provides the proof.
+4. **Finance:** Hearts/Leaves provide the pay.
+5. **Justice:** Digital Tribunals provide the consequence.
+
+---
+
+## 6. Industrial Sunsetting
 - **Process**: Treaty Ecocide law phases out harmful industries (e.g., fossil fuels, fast fashion) by 2040, with Just Transition Fund support for worker retraining.
 - **Governance**: Planetary Health Council oversees phase-out plans, Digital Justice Tribunal enforces compliance, Social Resilience Council manages fund distribution.
 - **Mechanisms**: Retraining in Community Work Teams, financed by Automation Tax (2% corporate revenue).
@@ -223,7 +274,7 @@ This framework builds on **AUBIâ€™s economic foundation** (Layer 1: univers
 
 ---
 
-## 6. Planetary Stewardship Markets
+## 7. Planetary Stewardship Markets
 - **Markets**: Hearts/Leaves-based exchanges for regenerative goods (e.g., organic produce, renewable tech), integrated with Gaian Trade Framework.
 - **Mechanisms**: Inter-Currency Translation Layer converts Hearts/Leaves to fiat for external trade, supported by Hearts Treasury.
 - **Example**: A BAZ market trades 1,000 Leaves for solar panels, redeeming 500 Hearts for $500 fiat.
@@ -231,21 +282,21 @@ This framework builds on **AUBIâ€™s economic foundation** (Layer 1: univers
 
 ---
 
-## 7. Crisis Protocols
+## 8. Crisis Protocols
 - **Activation**: Meta-Governance triggers during crises (e.g., climate tipping points), redirecting Community Work Teams to essential tasks (e.g., food security, disaster recovery).
 - **Governance**: Social Resilience Council prioritizes Hearts allocation; Planetary Immune System (PIS) overrides standard protocols.
 - **Metrics**: 90% crisis response deployment within 48 hours by 2030.
 
 ---
 
-## 8. Cultural Adaptation
+## 9. Cultural Adaptation
 - **Mechanisms**: BAZ-led customization of work practices, with Indigenous sovereignty (e.g., Andean *ayni* for reciprocal work, Maori *whanaungatanga* for community bonding).
 - **Implementation**: Community Weavers co-design adaptations with local councils.
 - **Metrics**: 85% cultural alignment in BAZs by 2030.
 
 ---
 
-## 9. Tech Integration
+## 10. Tech Integration
 - **Tools**: AI for Skills Resonance Matching, blockchain (Hyperledger Fabric) for Love Ledger and Hearts transactions, AES-256 encryption.
 - **Governance**: Technology Governance Framework ensures data ethics, with Social Resilience Council audits.
 - **Example**: AI matches a carpenter to a restoration team; Love Ledger logs informal mentoring.
@@ -253,7 +304,7 @@ This framework builds on **AUBIâ€™s economic foundation** (Layer 1: univers
 
 ---
 
-## 10. Metrics and Evaluation
+## 11. Metrics and Evaluation
 - **LMCI Integration**: Measures work impact on love, meaning, connection (40% Hearts transactions, 30% care hours logged, 30% interoperability).
 - **Tools**: Public Trust Dashboard at `workinliberation.org/dashboard` (Q2 2027), with real-time LMCI, Hearts velocity, and care hours.
 - **External Metrics**: Carbon sequestration, biodiversity indexes, Gini coefficient reduction, healthspan increases.
@@ -261,7 +312,7 @@ This framework builds on **AUBIâ€™s economic foundation** (Layer 1: univers
 
 ---
 
-## 11. 25-Year Plan
+## 12. 25-Year Plan
 - **Phase 1 (2025â€“2035)**: Pilot BAZs, AUBI integration, Hearts Treasury setup ($500M).
 - **Phase 2 (2035â€“2045)**: Scale to 50% global BAZs, 30% regenerative jobs ($2B).
 - **Phase 3 (2045â€“2050)**: Full integration, 80% equitable work systems ($5B).
@@ -269,7 +320,7 @@ This framework builds on **AUBIâ€™s economic foundation** (Layer 1: univers
 
 ---
 
-## 12. The Community Weaver Role
+## 13. The Community Weaver Role
 - **Definition**: Community Weavers facilitate Work With Purpose, bridging individuals, teams, and BAZ governance.
 - **Role**:
   1. Helping new organizations become chartered **Community Providers**, training them on how to accept Hearts from the community for services and redeem them at the **Hearts Treasury** for fiat.
@@ -280,7 +331,7 @@ This framework builds on **AUBIâ€™s economic foundation** (Layer 1: univers
 
 ---
 
-## 13. Appendix: Global Pilot Program
+## 14. Appendix: Global Pilot Program
 - **Pilots**:
   - Indigenous Canada: Traditional governance integration.
   - Urban Sweden: Welfare state compatibility.
@@ -290,56 +341,56 @@ This framework builds on **AUBIâ€™s economic foundation** (Layer 1: univers
 
 ---
 
-## 14. Appendix: Legal Templates
+## 15. Appendix: Legal Templates
 - **Contracts**: For Community Work Teams, Hearts-based service agreements, AUBI bonus structures.
 - **Example**: Team contract specifies 70% Hearts revenue for stipends, 30% for operations.
 - **Implementation**: Templates at `workinliberation.org/legal` (Q1 2027).
 
 ---
 
-## 15. Appendix: Funding Mechanisms
+## 16. Appendix: Funding Mechanisms
 - **Sources**: Automation Tax (2% corporate revenue), Resource Taxes (1% extraction), commons dividends.
 - **Mechanisms**: Global Commons Fund (GCF) channels funds to Hearts Treasury and AUBI.
 - **Metrics**: $1B GCF capitalization by 2030; 95% fund allocation transparency.
 
 ---
 
-## 16. Appendix: Dispute Resolution
+## 17. Appendix: Dispute Resolution
 - **Systems**: BAZ-level Community Courts for local disputes; Digital Justice Tribunal for escalations.
 - **Mechanisms**: Restorative justice, blockchain audit trails, Social Resilience Council oversight.
 - **Metrics**: 90% disputes resolved within 30 days by 2030.
 
 ---
 
-## 17. Appendix: Skills Resonance Matching
+## 18. Appendix: Skills Resonance Matching
 - **AI Tool**: Matches individual skills to Community Work Teams via Community Work App.
 - **Example**: A nurse matched to a caregiving team in 24 hours.
 - **Metrics**: 95% match accuracy by 2028.
 
 ---
 
-## 18. Appendix: Contribution Documentation
+## 19. Appendix: Contribution Documentation
 - **Love Ledger**: Logs informal contributions (e.g., mentoring, volunteering) with Gratitude Tokens, validated by Community Weavers.
 - **Hearts Transactions**: Blockchain records of community spending on Community Provider services, audited by Social Resilience Council.
 - **Metrics**: 99% log accuracy, 95% validation completion within 48 hours.
 
 ---
 
-## 19. Appendix: Youth Leadership
+## 20. Appendix: Youth Leadership
 - **Purpose**: Youth (10â€“30) lead BAZ programs, design innovative services, earn Hearts.
 - **Tools**: Youth Assemblies, BAZ-led Innovation Labs.
 - **Metrics**: 20% youth leadership in BAZs by 2030.
 
 ---
 
-## 20. Appendix: Elder Wisdom
+## 21. Appendix: Elder Wisdom
 - **Purpose**: Elders guide BAZ teams, preserve cultural knowledge for work practices.
 - **Systems**: Elder Councils, mentorship programs rewarded with Hearts.
 - **Metrics**: 90% BAZs with Elder Councils by 2030.
 
 ---
 
-## 21. Appendix: Accessibility
+## 22. Appendix: Accessibility
 | **Term** | **Alternative** | **Context** | **Visual** |
 |----------|-----------------|-------------|------------|
 | Work With Purpose | Community Contribution | BAZ values | Activity icons |
@@ -349,7 +400,7 @@ This framework builds on **AUBIâ€™s economic foundation** (Layer 1: univers
 
 ---
 
-## 22. Appendix: Glossary
+## 23. Appendix: Glossary
 - **AUBI Layer 1**: Unconditional baseline income (70% fiat, 30% Hearts).
 - **Hearts/Leaves**: AUBI currencies for care/ecology, earned by Community Providers through community spending.
 - **Love Ledger**: A parallel, non-monetized, blockchain-based platform for logging and recognizing informal community contributions (e.g., volunteering, caregiving) with Gratitude Tokens, providing data for LMCI but separate from the formal Hearts economy.
@@ -364,7 +415,7 @@ This framework builds on **AUBIâ€™s economic foundation** (Layer 1: univers
 
 ---
 
-## 23. Appendix: Transition Protocols for the Legacy Economy
+## 24. Appendix: Transition Protocols for the Legacy Economy
 - **F.1. Gig Worker Transition Pathway**
   - **Program**: Facilitates shift from gig platforms (e.g., Uber, TaskRabbit) to Community Work Teams by 2040.
   - **Mechanism**: Dual participation (2025â€“2035), with AUBI Layer 1 providing income security. Community Work App offers training and Skills Resonance Matching.
@@ -383,7 +434,7 @@ This framework builds on **AUBIâ€™s economic foundation** (Layer 1: univers
 
 ---
 
-## 24. Appendix: Implementation, Scaling, and Resistance Strategy
+## 25. Appendix: Implementation, Scaling, and Resistance Strategy
 - **G.1. Implementation Sequencing**
   - **Initial BAZs**: Portfolio approach with pilots in:
     - Indigenous-led BAZ (e.g., Canada or New Zealand) for traditional governance integration.
@@ -405,7 +456,7 @@ This framework builds on **AUBIâ€™s economic foundation** (Layer 1: univers
 
 ---
 
-## 25. Appendix: Technical and Governance Mechanics
+## 26. Appendix: Technical and Governance Mechanics
 - **H.1. Love Ledger and Hearts/Leaves**
   - **Inflation Control**: *Social Resilience Council* adjusts AUBI bonus caps and Hearts issuance to align with LMCI improvements, acting as a regenerative central bank.
   - **Exchange Rate Mechanism**: *Inter-Currency Translation Layer* enables dynamic market exchange with fiat, supported by *Global Commons Fund* liquidity and Hearts Treasury backing.
@@ -423,7 +474,7 @@ This framework builds on **AUBIâ€™s economic foundation** (Layer 1: univers
 
 ---
 
-## 26. Conclusion
+## 27. Conclusion
 Work in Liberation, integrated with AUBI, organizes Work With Purpose, guided by Indigenous wisdom and Treaty-aligned Meta-Governance. It transforms work into care, creativity, and planetary health, ensuring resilience and justice by building a regenerative economy that outcompetes exploitative systems. The Hearts Treasury stabilizes the formal economy, while the Love Ledger preserves the integrity of informal contributions.
 
 **Next Steps**:

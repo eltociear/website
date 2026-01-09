@@ -13,10 +13,10 @@ Erfarenheter från Ukraina visar att områden med starkt socialt kapital är mar
 CivicBase: Redundant ekonomisk och social arkitektur
 Global Governance Frameworks (GGF) har utvecklat en teknisk arkitektur för lokal redundans – inte att ersätta befintliga system, utan att fungera som "backup" vid störning. Baserat på distribuerad P2P-arkitektur (libp2p) möjliggör systemet:
 
-Ekonomisk kontinuitet: Lokalt byte av nödvändiga tjänster (omsorg, matdistribution) vid betalningssystemsavbrott, via offline-kapabel kryptografisk transaktionsloggning
-Resurskartläggning: Integritetsskyddande inventering av lokal kompetens och materiella tillgångar (ingen central databas att targetera)
+1. Ekonomisk kontinuitet: Lokalt byte av nödvändiga tjänster (omsorg, matdistribution) vid betalningssystemsavbrott, via offline-kapabel kryptografisk transaktionsloggning
+2. Resurskartläggning: Integritetsskyddande inventering av lokal kompetens och materiella tillgångar (ingen central databas att targetera)
 Social sammanhållning: Operationalisering av "Försvarsvilja" genom att incitamentera och verifiera vardagligt omsorgsarbete, vilket bygger högtillitsnätverk
-Pilotlokalisering: Stockholms skärgård
+3. Pilotlokalisering: Stockholms skärgård
 Valdes baserat på: geografisk avgränsning (kontrollerad testmiljö), strategisk betydelse (sjöfartsvägar), demografisk profil (testar omsorgsresiliens), och befintlig motivation (aktiva Hemvärns- och FRG-grupper).
 
 Konkret bevis på behov:
