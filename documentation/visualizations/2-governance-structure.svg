@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 500"
+   style="font-family: 'Segoe UI', sans-serif; background-color: #f8fafc;"
+   version="1.1"
+   id="svg24"
+   sodipodi:docname="2-governance-structure.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview24"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.736"
+     inkscape:cx="399.76959"
+     inkscape:cy="250"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg24" />
+  <defs
+     id="defs6">
+    <linearGradient
+       id="pyramidGrad"
+       x1="-26.070391"
+       y1="-26.070391"
+       x2="-26.070391"
+       y2="241.82536"
+       gradientTransform="matrix(1.0488088,0,0,0.95346259,100,100)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#475569;stop-opacity:1"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#94a3b8;stop-opacity:1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="sphereGrad"
+       x1="0%"
+       y1="0%"
+       x2="0%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#e0f2fe;stop-opacity:1"
+         id="stop3" />
+      <stop
+         offset="100%"
+         style="stop-color:#bae6fd;stop-opacity:1"
+         id="stop4" />
+    </linearGradient>
+    <filter
+       id="shadow"
+       x="-0.12428571"
+       y="-0.12428571"
+       width="1.2771429"
+       height="1.2771429">
+      <feGaussianBlur
+         in="SourceAlpha"
+         stdDeviation="3"
+         id="feGaussianBlur4" />
+      <feOffset
+         dx="2"
+         dy="2"
+         result="offsetblur"
+         id="feOffset4" />
+      <feComponentTransfer
+         id="feComponentTransfer4">
+        <feFuncA
+           type="linear"
+           slope="0.3"
+           id="feFuncA4" />
+      </feComponentTransfer>
+      <feMerge
+         id="feMerge5">
+        <feMergeNode
+           id="feMergeNode4" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode5" />
+      </feMerge>
+    </filter>
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#cbd5e1"
+         id="polygon5" />
+    </marker>
+    <marker
+       id="arrowhead-blue"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#2B4B8C"
+         id="polygon6" />
+    </marker>
+  </defs>
+  <text
+     x="400"
+     y="40"
+     text-anchor="middle"
+     font-size="22"
+     font-weight="bold"
+     fill="#334155"
+     id="text6">FROM HIERARCHY TO ECOSYSTEM</text>
+  <path
+     d="M 210,100 320,300 H 100 Z"
+     fill="url(#pyramidGrad)"
+     stroke="#334155"
+     stroke-width="2"
+     filter="url(#shadow)"
+     id="path6"
+     style="fill:url(#pyramidGrad)" />
+  <line
+     x1="182.5"
+     y1="150"
+     x2="237.5"
+     y2="150"
+     stroke="#cbd5e1"
+     stroke-width="1"
+     id="line6" />
+  <line
+     x1="155"
+     y1="200"
+     x2="265"
+     y2="200"
+     stroke="#cbd5e1"
+     stroke-width="1"
+     id="line7" />
+  <line
+     x1="340"
+     y1="120"
+     x2="340"
+     y2="280"
+     stroke="#ef4444"
+     stroke-width="4"
+     marker-end="url(#arrowhead)"
+     id="line8" />
+  <text
+     x="184"
+     y="-350"
+     text-anchor="middle"
+     fill="#ef4444"
+     font-size="10px"
+     transform="rotate(90)"
+     id="text8">COMMAND CONTROL</text>
+  <text
+     x="210"
+     y="143"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-weight="bold"
+     font-size="10px"
+     id="text9"
+     style="fill:#b3b3b3">NATION STATE</text>
+  <text
+     x="210"
+     y="194"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-weight="bold"
+     font-size="10px"
+     id="text10">MILITARY/POLICE</text>
+  <text
+     x="210"
+     y="260"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-weight="bold"
+     font-size="12px"
+     id="text11">PASSIVE CITIZENS</text>
+  <text
+     x="210"
+     y="340"
+     text-anchor="middle"
+     fill="#64748b"
+     font-weight="bold"
+     id="text12">TIER 1: HIERARCHY</text>
+  <text
+     x="210"
+     y="360"
+     text-anchor="middle"
+     fill="#94a3b8"
+     font-size="12px"
+     id="text13">Rigid Top-Down</text>
+  <g
+     transform="translate(360, 200)"
+     id="g14">
+    <line
+       x1="0"
+       y1="0"
+       x2="60"
+       y2="0"
+       stroke="#cbd5e1"
+       stroke-width="4"
+       marker-end="url(#arrowhead)"
+       id="line13" />
+  </g>
+  <g
+     transform="translate(580, 200)"
+     id="g24">
+    <path
+       d="M -120 -80 A 140 140 0 0 1 120 -80"
+       fill="none"
+       stroke="#2B4B8C"
+       stroke-width="2"
+       stroke-dasharray="5,5"
+       id="path14" />
+    <text
+       x="0"
+       y="-90"
+       text-anchor="middle"
+       fill="#2B4B8C"
+       font-weight="bold"
+       font-size="12"
+       id="text14">PLANETARY COMMONS</text>
+    <line
+       x1="0"
+       y1="-50"
+       x2="-60"
+       y2="20"
+       stroke="#cbd5e1"
+       stroke-width="2"
+       id="line14" />
+    <line
+       x1="0"
+       y1="-50"
+       x2="60"
+       y2="20"
+       stroke="#cbd5e1"
+       stroke-width="2"
+       id="line15" />
+    <line
+       x1="-60"
+       y1="20"
+       x2="60"
+       y2="20"
+       stroke="#cbd5e1"
+       stroke-width="2"
+       id="line16" />
+    <line
+       x1="-60"
+       y1="20"
+       x2="0"
+       y2="80"
+       stroke="#cbd5e1"
+       stroke-width="2"
+       id="line17" />
+    <line
+       x1="60"
+       y1="20"
+       x2="0"
+       y2="80"
+       stroke="#cbd5e1"
+       stroke-width="2"
+       id="line18" />
+    <circle
+       cx="-60"
+       cy="20"
+       r="35"
+       fill="white"
+       stroke="#22c55e"
+       stroke-width="3"
+       filter="url(#shadow)"
+       id="circle18" />
+    <text
+       x="-60"
+       y="24"
+       text-anchor="middle"
+       fill="#15803d"
+       font-size="10"
+       font-weight="bold"
+       id="text18">BAZ</text>
+    <circle
+       cx="60"
+       cy="20"
+       r="35"
+       fill="white"
+       stroke="#6B5CA5"
+       stroke-width="3"
+       filter="url(#shadow)"
+       id="circle19" />
+    <text
+       x="60"
+       y="24"
+       text-anchor="middle"
+       fill="#6B5CA5"
+       font-size="10"
+       font-weight="bold"
+       id="text19">CITIES</text>
+    <circle
+       cx="0"
+       cy="-50"
+       r="35"
+       fill="white"
+       stroke="#DAA520"
+       stroke-width="3"
+       filter="url(#shadow)"
+       id="circle20" />
+    <text
+       x="0"
+       y="-55"
+       text-anchor="middle"
+       fill="#b45309"
+       font-size="8"
+       font-weight="bold"
+       id="text20">INDIGENOUS</text>
+    <text
+       x="0"
+       y="-45"
+       text-anchor="middle"
+       fill="#b45309"
+       font-size="8"
+       font-weight="bold"
+       id="text21">NATIONS</text>
+    <circle
+       cx="0"
+       cy="80"
+       r="25"
+       fill="#e0f2fe"
+       stroke="#0ea5e9"
+       stroke-width="2"
+       id="circle21" />
+    <text
+       x="0"
+       y="84"
+       text-anchor="middle"
+       fill="#0369a1"
+       font-size="9"
+       font-weight="bold"
+       id="text22">AGENTS</text>
+    <path
+       d="M 15 80 A 10 10 0 1 1 5 95"
+       fill="none"
+       stroke="#0ea5e9"
+       stroke-width="1.5"
+       marker-end="url(#arrowhead-blue)"
+       id="path22" />
+    <text
+       x="0"
+       y="140"
+       text-anchor="middle"
+       fill="#64748b"
+       font-weight="bold"
+       id="text23">TIER 2: POLYCENTRIC</text>
+    <text
+       x="0"
+       y="160"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-size="12"
+       id="text24">Networked  Resilient</text>
+  </g>
+</svg>
