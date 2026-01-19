@@ -17,7 +17,7 @@ date: "2025-12-04"
 
 **Forskningsfråga:** Kan en mekaniskt perfekt, ekonomiskt rationell och juridiskt verkställbar fredsuppgörelse avsluta kriget i Ukraina inom ramen för det nuvarande internationella systemet?
 
-**Metod:** Mellan november 2025 och januari 2026 använde vi adversariellt AI-samarbete för att iterativt utforma Protokoll Omega – den mest sofistikerade fredsmekanism som någonsin specificerats. Den adresserade varje känt diplomatiskt misslyckande genom:
+**Metod:** I november 2025 använde vi adversariellt AI-samarbete för att iterativt utforma Protokoll Omega – den mest sofistikerade fredsmekanism som någonsin specificerats. Den adresserade varje känt diplomatiskt misslyckande genom:
 - Självverkställande genomdrivande (utlösande mekanismer för deposition, smarta kontrakt)
 - Plussummeekonomi (alla parter vann mer än vad fortsatt krig kunde leverera)
 - Tillitsfri drift (automatiserad verifiering, oberoende övervakning)

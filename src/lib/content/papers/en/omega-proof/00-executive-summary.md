@@ -17,7 +17,7 @@ date: "2025-12-04"
 
 **Research Question:** Can a mechanically perfect, economically rational, legally enforceable peace settlement end the war in Ukraine within the constraints of the current international system?
 
-**Method:** Between November 2025 and January 2026, we used adversarial AI collaboration to iteratively design Protocol Omega—the most sophisticated peace mechanism ever specified. It addressed every known diplomatic failure mode through:
+**Method:** In November 2025, we used adversarial AI collaboration to iteratively design Protocol Omega—the most sophisticated peace mechanism ever specified. It addressed every known diplomatic failure mode through:
 - Self-executing enforcement (escrow triggers, smart contracts)
 - Positive-sum economics (all parties gained more than continued war could deliver)
 - Trust-free operation (automated verification, independent monitoring)
