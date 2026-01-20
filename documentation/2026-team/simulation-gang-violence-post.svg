@@ -1,0 +1,51 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#000000"/>
+  
+  <text x="50" y="80" font-family="Courier New, Consolas, monospace" font-size="18" fill="#00FF41">
+    &gt; RUNNING: PARADOX_DECISION_CANVAS.EXE
+  </text>
+  
+  <text x="50" y="110" font-family="Courier New, Consolas, monospace" font-size="18" fill="#00FF41">
+    &gt; SUBJECT: SWEDEN_GANG_CRISIS
+  </text>
+  
+  <text x="50" y="140" font-family="Courier New, Consolas, monospace" font-size="18" fill="#00FF41">
+    &gt; ...
+  </text>
+  
+  <text x="50" y="200" font-family="Courier New, Consolas, monospace" font-size="18" fill="#00FF41">
+    &gt; ERROR: "OLD_OS" BINARY DETECTED (POLICE vs SOCIAL).
+  </text>
+  
+  <text x="50" y="260" font-family="Courier New, Consolas, monospace" font-size="18" fill="#00FF41">
+    &gt; ACTIVATING TIER_2 TRIUMVIRATE...
+  </text>
+  
+  <text x="50" y="290" font-family="Courier New, Consolas, monospace" font-size="18" fill="#00FF41">
+    &gt; ...
+  </text>
+  
+  <text x="50" y="350" font-family="Courier New, Consolas, monospace" font-size="18" fill="#00FF41">
+    &gt; SOLUTION GENERATED:
+  </text>
+  
+  <text x="50" y="380" font-family="Courier New, Consolas, monospace" font-size="18" fill="#00FF41">
+    &gt; [1] LOGISTICS INTERDICTION
+  </text>
+  
+  <text x="50" y="410" font-family="Courier New, Consolas, monospace" font-size="18" fill="#00FF41">
+    &gt; [2] RITES OF PASSAGE
+  </text>
+  
+  <text x="50" y="440" font-family="Courier New, Consolas, monospace" font-size="18" fill="#00FF41">
+    &gt; [3] COMPETITOR CURRENCY (HEARTS)
+  </text>
+  
+  <text x="50" y="470" font-family="Courier New, Consolas, monospace" font-size="18" fill="#00FF41">
+    &gt; ...
+  </text>
+  
+  <text x="50" y="530" font-family="Courier New, Consolas, monospace" font-size="18" fill="#00FF41">
+    &gt; STATUS: READY FOR DEPLOYMENT.
+  </text>
+</svg>

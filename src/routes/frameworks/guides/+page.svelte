@@ -119,6 +119,23 @@
       pillars: 6,
       estimatedReadTime: '60 minutes',
       implementationComplexity: 'Advanced'
+    },
+    {
+      id: 'resilience-shield',
+      title: 'The Resilience Shield',
+      subtitle: 'A GGF Implementation Guide for Municipal Crisis Resilience',
+      description: 'A practical playbook for Swedish municipalities to build comprehensive disaster resilience and climate adaptation capacity. Integrates GGF frameworks into actionable 3-phase implementation pathway with local governance, community empowerment, and regional coordination.',
+      icon: '🛡️',
+      color: '#1e3a8a', // Deep blue (shield-primary)
+      accentColor: '#3b82f6', // Bright blue (shield-secondary)
+      version: 'v1.0',
+      status: 'Available',
+      route: '/frameworks/guides/resilience-shield',
+      targetAudience: ['Municipal Leaders', 'Crisis Managers', 'Regional Planners', 'Community Councils', 'Emergency Services'],
+      keyTopics: ['Disaster Preparedness', 'Local Resilience Funds', 'Community Work Teams', 'Crisis Command', 'Climate Adaptation', 'Regional Coordination'],
+      pillars: 4,
+      estimatedReadTime: '40 minutes',
+      implementationComplexity: 'Intermediate'
     }
     // Future guides can be added here
   ];

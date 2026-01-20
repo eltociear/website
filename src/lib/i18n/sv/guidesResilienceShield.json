@@ -1,0 +1,29 @@
+{
+  "navigation": {
+    "backToGuides": "Tillbaka till implementationsguider",
+    "sections": "Avsnitt"
+  },
+  "sections": {
+    "introduction": "Introduktion",
+    "overview": "Översikt",
+    "local-resilience-fund": "Lokal resiliensfond",
+    "community-work-teams": "Gemenskapsteam",
+    "crisis-command": "Krishantering",
+    "implementation": "Implementering",
+    "case-studies": "Fallstudier"
+  },
+  "actions": {
+    "downloadPdf": "Ladda ner PDF",
+    "print": "Skriv ut"
+  },
+  "alert": {
+    "title": "Detta är inte en bidragsansökan",
+    "description": "Detta är en ensidig kunskapsöverföring. Vi ger er protokollen. Ni behåller er suveränitet."
+  },
+  "cta": {
+    "title": "Redo att börja?",
+    "description": "Kontakta oss för att diskutera implementering i er kommun.",
+    "downloadButton": "Ladda ner komplett protokoll",
+    "contactButton": "Kontakta oss"
+  }
+}

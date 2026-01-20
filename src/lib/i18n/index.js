@@ -73,6 +73,7 @@ const pageSpecificTranslationsMap = [
   { route: '/frameworks/guides/bioregional-compass/library', dataKey: 'guidesBioregionalCompassLibrary', fileName: 'guidesBioregionalCompassLibrary' },
   { route: '/frameworks/guides/bioregional-compass', dataKey: 'guidesBioregionalCompass', fileName: 'guidesBioregionalCompass' },
   { route: '/frameworks/guides/great-transition', dataKey: 'greatTransitionGuide', fileName: 'guidesGreatTransition' },
+  { route: '/frameworks/guides/resilience-shield', dataKey: 'resilienceShieldGuide', fileName: 'guidesResilienceShield' },
   { route: '/frameworks/guides/regenerative-resources', dataKey: 'regenerativeResourcesGuide', fileName: 'guidesRegenerativeResources' },
   { route: '/frameworks/guides', dataKey: 'guidesOverview', fileName: 'guidesOverview' },
   

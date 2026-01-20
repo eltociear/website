@@ -1,0 +1,29 @@
+{
+ "navigation": {
+    "backToGuides": "Back to implementation guides",
+    "sections": "Sections"
+  },
+  "sections": {
+    "introduction": "Introduction",
+    "overview": "Overview",
+    "local-resilience-fund": "Local Resilience Fund",
+    "community-work-teams": "Community Work Teams",
+    "crisis-command": "Crisis Command",
+    "implementation": "Implementation",
+    "case-studies": "Case Studies"
+  },
+  "actions": {
+    "downloadPdf": "Download PDF",
+    "print": "Print"
+  },
+  "alert": {
+    "title": "This is not a grant application",
+    "description": "This is a one-way knowledge transfer. We give you the protocols. You retain your sovereignty."
+  },
+  "cta": {
+    "title": "Ready to begin?",
+    "description": "Contact us to discuss implementation in your municipality.",
+    "downloadButton": "Download complete protocol",
+    "contactButton": "Contact us"
+  }
+}
