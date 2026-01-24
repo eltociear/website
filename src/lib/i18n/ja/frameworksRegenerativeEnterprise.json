@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "再生的エンタープライズフレームワーク - ビジネス変革へのガイド",
+    "description": "生命、コミュニティ、惑星のウェルビーイングに奉仕するためにエンタープライズを変革するための包括的フレームワーク"
+  },
+  "guideCard": {
+    "title": "再生的ジャーニーを始める準備はできましたか？",
+    "description": "生命に奉仕し、共有された繁栄を創造し、レジリエントなコミュニティを構築するためにエンタープライズを変革する実践的なパスウェイを探索しましょう。",
+    "buttonText": "始める方法を探索"
+  },
+  "categories": {
+    "introduction": "始め方",
+    "foundations": "コア基盤",
+    "coreModules": "変革モジュール",
+    "implementation": "実装ガイダンス",
+    "justice": "正義と脱植民地化",
+    "ecosystem": "エコシステム統合",
+    "resources": "ツールとリソース"
+  },
+  "sections": {
+    "foreword": "前書き",
+    "a-compass-for-changemakers": "チェンジメーカーのための羅針盤",
+    "ways-to-begin-the-journey": "ジャーニーを始める方法",
+    "the-case-for-regeneration": "再生のケース",
+    "the-core-principles": "基本原則",
+    "module-0": "モジュール0：デジタル基盤",
+    "module-1": "モジュール1：再生的コア",
+    "module-2": "モジュール2：再生的オペレーション",
+    "module-3": "モジュール3：公平なファイナンス",
+    "module-4": "モジュール4：繁栄する文化",
+    "module-5": "モジュール5：エコシステム的エンゲージメント",
+    "beginning-the-journey": "ジャーニーを始める",
+    "deepening-the-practice": "実践を深める",
+    "a-commitment": "脱植民地化と癒しへのコミットメント",
+    "weaving-with-the-wider-ecosystem": "より広いエコシステムとの織り",
+    "tools": "ジャーニーを支援するツール",
+    "keeping-the-framework-alive": "フレームワークを生かし続ける",
+    "appendices": "付録"
+  },
+  "sectionsShort": {
+    "a-compass-for-changemakers": "チェンジメーカーの羅針盤",
+    "ways-to-begin-the-journey": "始める方法",
+    "the-case-for-regeneration": "再生のケース",
+    "the-core-principles": "基本原則",
+    "module-0": "デジタル基盤",
+    "module-1": "再生的コア",
+    "module-2": "再生的オペレーション",
+    "module-3": "公平なファイナンス",
+    "module-4": "繁栄する文化",
+    "module-5": "エコシステム的エンゲージメント",
+    "beginning-the-journey": "ジャーニーを始める",
+    "deepening-the-practice": "実践を深める",
+    "a-commitment": "脱植民地化と癒し",
+    "weaving-with-the-wider-ecosystem": "より広いエコシステム",
+    "tools": "ツールとリソース",
+    "keeping-the-framework-alive": "フレームワークを生かす",
+    "appendices": "付録"
+  },
+  "progress": {
+    "text": "モジュール {current} / {total}"
+  },
+  "navigation": {
+    "downloadPdf": "フレームワークPDFをダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousModule": "前のモジュール",
+    "nextModule": "次のモジュール"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "loading": {
+    "text": "フレームワークコンテンツを読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  }
+}

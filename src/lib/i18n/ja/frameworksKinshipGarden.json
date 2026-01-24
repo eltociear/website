@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "title": "キンシップガーデンフレームワーク - 再生的食料システムと農業",
+    "description": "大地との正しい関係に基づく再生的食料システムの包括的フレームワーク。伝統的生態学的知識とグローバル協力メカニズムを統合。"
+  },
+  "loading": {
+    "text": "フレームワークコンテンツを読み込み中..."
+  },
+  "guideCard": {
+    "title": "キンシップガーデンフレームワークは初めてですか？",
+    "description": "エグゼクティブサマリーから始めて、再生的農業が食と大地との関係をどのように変革できるかを理解しましょう。",
+    "buttonText": "エグゼクティブサマリーを読む"
+  },
+  "categories": {
+    "overview": "フレームワーク概要",
+    "foundation": "基盤と概要",
+    "framework": "コアフレームワーク",
+    "resources": "リソースとリファレンス"
+  },
+  "sections": {
+    "index": "フレームワーク概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "introduction-vision": "導入とビジョン",
+    "foundational-principles": "基盤となる原則",
+    "integration-architecture": "GGF統合アーキテクチャ",
+    "theory-of-change": "変革の理論",
+    "strategic-objectives": "戦略的目標",
+    "three-pillars": "3つの柱",
+    "implementation-mechanisms": "実装メカニズム",
+    "regional-customization": "地域カスタマイズ",
+    "stakeholder-engagement": "ステークホルダーエンゲージメント",
+    "risk-management": "リスク管理",
+    "success-metrics": "成功指標と測定",
+    "timeline-milestones": "タイムラインとマイルストーン",
+    "taking-action": "アクションを起こす",
+    "appendices": "付録"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "introduction-vision": "導入",
+    "foundational-principles": "原則",
+    "integration-architecture": "統合",
+    "theory-of-change": "変革の理論",
+    "strategic-objectives": "目標",
+    "three-pillars": "3つの柱",
+    "implementation-mechanisms": "実装",
+    "regional-customization": "カスタマイズ",
+    "stakeholder-engagement": "ステークホルダー",
+    "risk-management": "リスク管理",
+    "success-metrics": "成功指標",
+    "timeline-milestones": "タイムライン",
+    "taking-action": "アクションを起こす",
+    "appendices": "付録"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "pillars": {
+    "sacredSeed": {
+      "title": "神聖な種子システム",
+      "subtitle": "知識の基盤",
+      "description": "伝統的知識保護、種子主権、Sacred Seed Kitトレーニングプログラム"
+    },
+    "bioregionalNetworks": {
+      "title": "バイオリージョナル食料ネットワーク",
+      "subtitle": "経済エンジン",
+      "description": "協同組合開発、地域食料ハブ、地域貿易統合"
+    },
+    "regenerativeStewardship": {
+      "title": "再生的スチュワードシップ",
+      "subtitle": "エコロジカルな心臓",
+      "description": "エコシステム復元、気候適応、生物多様性保全"
+    }
+  },
+  "objectives": {
+    "foodSecurity": {
+      "title": "食料安全保障の強化",
+      "description": "再生的システムとコミュニティ主権を通じて世界の飢餓を減らし、食料アクセスを改善する"
+    },
+    "regenerativePractices": {
+      "title": "再生的実践の促進",
+      "description": "農業を搾取的から再生的に変革し、炭素を隔離してエコシステムを復元する"
+    },
+    "innovation": {
+      "title": "イノベーションの促進",
+      "description": "伝統的生態学的知識を保存しながら、気候スマートテクノロジーとAI支援農業を開発する"
+    },
+    "equitableTrade": {
+      "title": "公平な貿易の確保",
+      "description": "貿易政策を改革して小規模農家を支援し、協同組合開発を通じた公正な価格設定を創出する"
+    },
+    "marineSystems": {
+      "title": "海洋食料システムの支援",
+      "description": "海洋ガバナンスフレームワークに整合した持続可能な養殖と漁業慣行を促進する"
+    }
+  },
+  "keyFeatures": {
+    "indigenousLed": {
+      "title": "先住民族主導のガバナンス",
+      "description": "伝統的生態学的知識がすべての農業イノベーションと政策開発を導く"
+    },
+    "regenerativeCore": {
+      "title": "コアでの再生",
+      "description": "工業的農業を土壌の健康を回復し炭素を隔離するシステムに変革する"
+    },
+    "globalCooperation": {
+      "title": "グローバル協力",
+      "description": "惑星食料安全保障の調整のためにグローバルガバナンスフレームワークと統合"
+    },
+    "communityOwnership": {
+      "title": "コミュニティ所有",
+      "description": "地域コミュニティが所有し管理する農民協同組合とバイオリージョナル食料ネットワーク"
+    },
+    "blockchainTransparency": {
+      "title": "ブロックチェーン透明性",
+      "description": "デジタルプロダクトパスポートが種子から食卓まで食料を追跡し、公正取引と出所を確保"
+    }
+  },
+  "stats": {
+    "farmersTraining": {
+      "number": "500万人",
+      "description": "6年目までにSacred Seed Kitプログラムを通じて訓練される農民"
+    },
+    "regenerativeLand": {
+      "number": "30%",
+      "description": "11年目までに再生的実践に転換される世界の農地"
+    },
+    "hungerReduction": {
+      "number": "50%",
+      "description": "AUBIと地域食料システムによって支援される世界の飢餓削減"
+    },
+    "carbonSequestration": {
+      "number": "1 GtCO2e",
+      "description": "土壌の健康回復を通じて毎年隔離される炭素"
+    },
+    "seedBanks": {
+      "number": "1,000",
+      "description": "農業生物多様性を保存するコミュニティ所有の種子ライブラリ"
+    }
+  },
+  "implementation": {
+    "funding": {
+      "title": "資金調達メカニズム",
+      "description": "グローバルコモンズファンドが多国間ドナー、炭素市場、リダイレクトされた農業補助金を通じて500億ドルを提供"
+    },
+    "governance": {
+      "title": "ガバナンス構造",
+      "description": "惑星健康評議会食料システム小委員会が先住民族50%、若者20%の代表で監督を提供"
+    },
+    "technology": {
+      "title": "テクノロジー統合",
+      "description": "AIとブロックチェーンツールがデータ主権と文化的保護を確保しながら農民を支援"
+    },
+    "partnerships": {
+      "title": "戦略的パートナーシップ",
+      "description": "FAO、CGIAR、先住民族組織との協力により再生的実践をグローバルにスケール"
+    }
+  },
+  "benefits": {
+    "ecological": {
+      "title": "エコロジカルなメリット",
+      "items": [
+        "土壌の健康回復と炭素隔離",
+        "多品種栽培システムによる生物多様性保全",
+        "節水と化学物質投入の削減",
+        "多様な食料システムによる気候レジリエンス"
+      ]
+    },
+    "social": {
+      "title": "社会的メリット",
+      "items": [
+        "食料主権とコミュニティコントロール",
+        "協同組合による農民収入の安定",
+        "農業イノベーションへの若者参加",
+        "伝統的知識の保存と保護"
+      ]
+    },
+    "economic": {
+      "title": "経済的メリット",
+      "items": [
+        "地域生産による輸入依存の削減",
+        "コミュニティ内での価値循環",
+        "再生的製品のプレミアム価格設定",
+        "農民へのエコシステムサービス支払い"
+      ]
+    }
+  },
+  "callsToAction": {
+    "individuals": {
+      "title": "個人向け",
+      "description": "地域食料システムを支援し、再生的政策を提唱し、伝統的生態学的知識について学ぶ"
+    },
+    "farmers": {
+      "title": "農民向け",
+      "description": "AUBIサポートで再生的実践に移行し、農民協同組合に参加し、Sacred Seed Kitトレーニングに参加する"
+    },
+    "organizations": {
+      "title": "組織向け",
+      "description": "コミュニティ協同組合と提携し、再生的農業に投資し、食料正義連合を構築する"
+    },
+    "policymakers": {
+      "title": "政策立案者向け",
+      "description": "農業補助金を再生的実践にリダイレクトし、先住民族の土地権を支援し、公正取引政策を実装する"
+    }
+  },
+  "quotes": {
+    "introduction": "私たちは食べ物を育てているだけではありません。私たちは関係を育てています—土壌と、種子と、季節と、お互いと。庭は私たちに、豊かさは搾取からではなく、互恵から流れることを教えてくれます。",
+    "vision": "11年目までに、地球の食料システムがキンシップガーデンの生きたネットワークとなることを想像してください—先住民族の知識が農業慣行を導き、土壌の健康指数が利益率に代わって成功指標となるバイオリージョナルゾーン。",
+    "transformation": "工業的搾取の時代は終わりを迎えています。再生的豊かさの時代が今始まります。"
+  }
+}

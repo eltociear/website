@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "title": "生物多様性ガバナンスフレームワーク - グローバルガバナンスフレームワーク",
+    "description": "先住民族の主権、経済変革、私たちの生きた地球のための文化的動員を織り合わせた惑星癒しのための革命的な青写真"
+  },
+  "guideCard": {
+    "title": "生物多様性フレームワークは初めてですか？",
+    "description": "さまざまなステークホルダーと状況向けにフレームワークを説明する専門ガイドの1つから始めましょう。",
+    "buttonText": "ガイドを選択"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "governance": "ガバナンスとポリシー",
+    "implementation": "実装",
+    "resources": "リソース"
+  },
+  "sections": {
+    "index": "概要",
+    "philosophical-preamble": "哲学的前文",
+    "introduction-vision": "導入とビジョン",
+    "guiding-principles": "指導原則",
+    "core-pillars": "コアの柱",
+    "governance-structure": "ガバナンス構造",
+    "policy-mechanisms": "政策メカニズム",
+    "stakeholder-engagement": "ステークホルダーエンゲージメント",
+    "financing-mechanisms": "資金調達メカニズム",
+    "implementation-roadmap": "実装ロードマップ",
+    "metrics-success": "成功の指標",
+    "visualizations": "可視化",
+    "challenges-solutions": "課題と解決策",
+    "implementation-tools": "実装ツール",
+    "reparations-protocol": "補償プロトコル",
+    "conclusion-call-to-action": "結論と行動の呼びかけ",
+    "technical-guide-policymakers": "政策立案者向け技術ガイド",
+    "community-implementation-guide": "コミュニティ実装ガイド",
+    "youth-engagement-leadership-guide": "若者エンゲージメント・リーダーシップガイド",
+    "corporate-transition-redemption-guide": "企業移行・回復ガイド",
+    "indigenous-data-sovereignty-guide": "先住民族データ主権ガイド",
+    "appendix-a-synergy-esfmlg": "付録A：ESFMLGとの相乗効果",
+    "appendix-b-glossary": "付録B：包括的用語集",
+    "appendix-c-tool-library": "付録C：完全ツールライブラリ",
+    "appendix-d-moral-edge-cases": "付録D：道徳的エッジケース分析",
+    "appendix-e-political-economy": "付録E：政治経済分析",
+    "appendix-f-feasibility-studies": "付録F：実現可能性調査",
+    "appendix-g-pilot-blueprints": "付録G：パイロットプログラム青写真",
+    "appendix-h-scenario-planning": "付録H：シナリオプランニング",
+    "appendix-i-cooperation-protocols": "付録I：国際協力プロトコル",
+    "appendix-j-creative-outputs": "付録J：クリエイティブ成果物インスピレーション"
+  },
+  "sectionsShort": {
+    "philosophical-preamble": "前文",
+    "introduction-vision": "導入",
+    "guiding-principles": "原則",
+    "core-pillars": "コアの柱",
+    "governance-structure": "ガバナンス",
+    "policy-mechanisms": "政策",
+    "stakeholder-engagement": "ステークホルダー",
+    "financing-mechanisms": "資金調達",
+    "implementation-roadmap": "ロードマップ",
+    "metrics-success": "指標",
+    "visualizations": "可視化",
+    "challenges-solutions": "課題",
+    "implementation-tools": "ツール",
+    "reparations-protocol": "補償",
+    "conclusion-call-to-action": "結論",
+    "technical-guide-policymakers": "政策立案者ガイド",
+    "community-implementation-guide": "コミュニティガイド",
+    "youth-engagement-leadership-guide": "若者ガイド",
+    "corporate-transition-redemption-guide": "企業ガイド",
+    "indigenous-data-sovereignty-guide": "先住民族ガイド"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "loading": {
+    "text": "フレームワークコンテンツを読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  }
+}

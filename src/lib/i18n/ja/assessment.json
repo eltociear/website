@@ -1,0 +1,155 @@
+{
+  "progress": "ステップ {current} / {total}",
+  "complete": "アセスメントを完了",
+  "culturalNotice": {
+    "title": "文化的配慮",
+    "description": "このアセスメントは異なる文化的背景に適応します。すべてのガバナンス伝統は等しく有効であり、推奨事項はあなたのコミュニティの価値観と慣行を尊重します。"
+  },
+  "completion": {
+    "title": "アセスメント完了！",
+    "description": "あなたの回答に基づいて、最も適したツールと実装アプローチを推奨します。",
+    "yourResponses": "あなたの状況プロフィール：",
+    "viewRecommendations": "推奨事項を見る",
+    "retake": "アセスメントをやり直す"
+  },
+  "steps": {
+    "governanceMaturity": {
+      "title": "ガバナンスの成熟度",
+      "description": "現在のガバナンスシステムはどの程度発展していますか？"
+    },
+    "conflictIntensity": {
+      "title": "紛争の強度",
+      "description": "あなたの状況にはどの程度の紛争や緊張がありますか？"
+    },
+    "resourceAvailability": {
+      "title": "利用可能なリソース",
+      "description": "実装に利用できるリソースはどのくらいありますか？"
+    },
+    "culturalCoherence": {
+      "title": "文化的一貫性",
+      "description": "コミュニティは共有された価値観と慣行についてどの程度一致していますか？"
+    },
+    "digitalAccess": {
+      "title": "デジタルアクセス",
+      "description": "コミュニティにはどの程度のデジタル技術へのアクセスがありますか？"
+    },
+    "scale": {
+      "title": "イニシアチブの規模",
+      "description": "イニシアチブの地理的または人口規模はどのくらいですか？"
+    }
+  },
+  "options": {
+    "governanceMaturity": {
+      "emerging": {
+        "label": "初期段階",
+        "description": "ガバナンスシステムの組織化または改革を始めたばかり"
+      },
+      "developing": {
+        "label": "発展段階",
+        "description": "基本的なガバナンス構造があり、改善を求めている"
+      },
+      "established": {
+        "label": "確立段階",
+        "description": "機能するガバナンスシステムがあり、強化を検討中"
+      },
+      "advanced": {
+        "label": "高度段階",
+        "description": "洗練されたシステムがあり、新しいアプローチを開拓中"
+      }
+    },
+    "conflictIntensity": {
+      "low": {
+        "label": "低",
+        "description": "軽微な意見の相違がある平和的な環境"
+      },
+      "moderate": {
+        "label": "中程度",
+        "description": "ある程度の緊張と分極化があるが、管理可能"
+      },
+      "high": {
+        "label": "高",
+        "description": "重大な緊張、分裂、または継続中の紛争"
+      },
+      "crisis": {
+        "label": "危機",
+        "description": "活発な紛争、緊急事態、またはシステムの崩壊"
+      }
+    },
+    "resourceAvailability": {
+      "minimal": {
+        "label": "最小限",
+        "description": "主にボランティアの時間とコミュニティの善意"
+      },
+      "limited": {
+        "label": "限定的",
+        "description": "ある程度の資金、パートタイムの調整能力"
+      },
+      "moderate": {
+        "label": "中程度",
+        "description": "専任スタッフ、控えめな予算、基本的なインフラ"
+      },
+      "substantial": {
+        "label": "十分",
+        "description": "大きな資金、熟練したチーム、確立されたシステム"
+      }
+    },
+    "culturalCoherence": {
+      "diverse": {
+        "label": "非常に多様",
+        "description": "多くの異なる文化的背景と伝統"
+      },
+      "mixed": {
+        "label": "混合",
+        "description": "一部の価値観は共有されているが、顕著な違いもある"
+      },
+      "aligned": {
+        "label": "よく一致",
+        "description": "強く共有された価値観と文化的慣行"
+      },
+      "cohesive": {
+        "label": "非常に結束",
+        "description": "深い文化的統一性と共有された世界観"
+      }
+    },
+    "digitalAccess": {
+      "none": {
+        "label": "最小限/なし",
+        "description": "インターネットが限られ、主にアナログ通信"
+      },
+      "basic": {
+        "label": "基本的",
+        "description": "携帯電話、時々のインターネットアクセス"
+      },
+      "moderate": {
+        "label": "中程度",
+        "description": "定期的なインターネット、一部のデジタルツール"
+      },
+      "high": {
+        "label": "高",
+        "description": "信頼性の高いブロードバンド、デジタルリテラシー、技術リソース"
+      }
+    },
+    "scale": {
+      "local": {
+        "label": "ローカル",
+        "description": "コミュニティ、近隣、または小さな町レベル"
+      },
+      "municipal": {
+        "label": "市町村",
+        "description": "都市または市町村政府レベル"
+      },
+      "regional": {
+        "label": "地域",
+        "description": "州、県、またはバイオリージョンレベル"
+      },
+      "national": {
+        "label": "国家",
+        "description": "国または国家レベル"
+      },
+      "international": {
+        "label": "国際",
+        "description": "多国間またはグローバルなイニシアチブ"
+      }
+    }
+  }
+}

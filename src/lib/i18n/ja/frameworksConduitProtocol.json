@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "title": "コンジットプロトコル - コモンズとしてのインフラ",
+    "description": "惑星レジリエンスを強化しながらすべてのコミュニティに奉仕する再生的コモンズとしてエネルギー、データ、水を確立する共有インフラガバナンスのための包括的フレームワーク"
+  },
+  "loading": {
+    "text": "インフラフレームワークのコンテンツを読み込み中..."
+  },
+  "guideCard": {
+    "title": "コンジットプロトコルは初めてですか？",
+    "description": "インフラ変革とコミュニティガバナンスに関する実践的な懸念に対処する懐疑派向けエグゼクティブサマリーから始めましょう。",
+    "buttonText": "懐疑派向けエグゼクティブサマリーを読む"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "vision": "ビジョンと原則",
+    "architecture": "コアアーキテクチャとメカニクス",
+    "implementation": "実装と統合",
+    "resources": "リソース"
+  },
+  "sections": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "introduction": "導入",
+    "theory-of-change": "変革の理論",
+    "core-principles": "基本原則",
+    "infrastructure-commons": "インフラコモンズ",
+    "key-mechanisms": "主要メカニズムとガバナンス",
+    "just-transition": "公正な移行と廃止",
+    "implementation-pathways": "実装パスウェイ",
+    "framework-integration": "フレームワーク統合",
+    "technical-specifications": "技術仕様",
+    "advocacy-action": "アドボカシーとアクション",
+    "glossary": "用語集",
+    "appendices": "付録"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "introduction": "導入",
+    "theory-of-change": "変革の理論",
+    "core-principles": "基本原則",
+    "infrastructure-commons": "インフラコモンズ",
+    "key-mechanisms": "主要メカニズム",
+    "just-transition": "公正な移行",
+    "implementation-pathways": "実装",
+    "framework-integration": "統合",
+    "technical-specifications": "技術仕様",
+    "advocacy-action": "アドボカシーとアクション",
+    "glossary": "用語集",
+    "appendices": "付録"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "features": {
+    "infrastructureAsCommons": {
+      "title": "コモンズとしてのインフラ",
+      "description": "私的抽出ではなく集団的利益のために管理される必須の導管"
+    },
+    "universalAccess": {
+      "title": "ユニバーサルアクセス",
+      "description": "クリーンエネルギー、セキュアデータ、安全な水への基本的権利"
+    },
+    "resilienceRedundancy": {
+      "title": "レジリエンスと冗長性",
+      "description": "気候ショックとサイバー攻撃に対応するよう設計されたシステム"
+    },
+    "justTransition": {
+      "title": "公正な移行",
+      "description": "影響を受ける労働者とコミュニティを支援する公平な変革"
+    },
+    "interoperability": {
+      "title": "相互運用性とモジュール性",
+      "description": "シームレスな接続を可能にするオープンスタンダード"
+    }
+  },
+  "components": {
+    "globalInfrastructureCouncil": {
+      "title": "グローバルインフラ評議会",
+      "description": "グリッドの相互運用性とレジリエンスのグローバル基準を設定するマルチステークホルダー機関"
+    },
+    "bioregionalGridAuthorities": {
+      "title": "バイオリージョナルグリッド当局",
+      "description": "40%のコミュニティ代表で地域インフラを管理するコミュニティガバナンス機関"
+    },
+    "openGridProtocol": {
+      "title": "オープングリッドプロトコル",
+      "description": "相互運用性を可能にするハードウェアとソフトウェアのオープンソース基準"
+    },
+    "crisisInfrastructureCommand": {
+      "title": "危機インフラ司令部",
+      "description": "インフラ危機時に活性化される緊急調整機関"
+    },
+    "justTransitionCorps": {
+      "title": "公正な移行サービス隊",
+      "description": "影響を受ける労働者のための再訓練と雇用プログラム"
+    }
+  },
+  "implementation": {
+    "phases": {
+      "prePhase": {
+        "title": "事前フェーズ基盤",
+        "timeframe": "0-1年目",
+        "description": "パイロット開発とコミュニティ協議"
+      },
+      "phase1": {
+        "title": "地域スケーリング",
+        "timeframe": "1-5年目",
+        "description": "コミュニティ承認と危機レジリエンスを実証する8つの運用パイロット"
+      },
+      "phase2": {
+        "title": "バイオリージョナル相互運用性",
+        "timeframe": "6-12年目",
+        "description": "BAZの50%がシームレスなエネルギー/データ共有でオープングリッドプロトコルを採用"
+      },
+      "phase3": {
+        "title": "選択的グローバル採用",
+        "timeframe": "13-25年目",
+        "description": "国の60%が自発的に基準を採用、75%ユニバーサルアクセス達成"
+      }
+    }
+  },
+  "keyTerms": {
+    "bioregionalGridAuthority": "最低40%のコミュニティ代表で地域インフラを管理するコミュニティガバナンス機関",
+    "openGridProtocol": "量子耐性設計を含むインフラ相互運用性のためのオープンソース基準",
+    "infrastructureCommons": "集団的利益のための共有リソースとして管理される必須インフラ",
+    "gridBrotherhood": "危機時の相互エネルギー共有を必要とする事前交渉された相互援助",
+    "regenerativeInfrastructure": "自然と社会システムを劣化させるのではなく強化するインフラシステム"
+  },
+  "actions": {
+    "individuals": {
+      "title": "個人向け",
+      "items": [
+        "コミュニティエネルギー協同組合を支援する",
+        "公共インフラ投資を提唱する",
+        "気候レジリエントなグリッド設計を要求する"
+      ]
+    },
+    "organizations": {
+      "title": "組織向け",
+      "items": [
+        "再生的インフラ基準を実装する",
+        "コミュニティ所有モデルを採用する",
+        "バイオリージョナルグリッド開発に資金を提供する"
+      ]
+    },
+    "governments": {
+      "title": "政府向け",
+      "items": [
+        "インフラコモンズイニシアチブに参加する",
+        "ユニバーサルアクセス基準を実装する",
+        "公正な移行プログラムを支援する"
+      ]
+    },
+    "communities": {
+      "title": "コミュニティ向け",
+      "items": [
+        "コミュニティエネルギー所有のために組織する",
+        "インフラニーズと主権要件を文書化する",
+        "地域の技術能力を構築する"
+      ]
+    }
+  }
+}

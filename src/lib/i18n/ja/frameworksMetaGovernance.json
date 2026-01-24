@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "メタガバナンスフレームワーク - 調整されたグローバルガバナンス",
+    "description": "地域の自律性と民主的参加を維持しながら惑星規模の意思決定を可能にする調整されたグローバルガバナンスシステムのための包括的フレームワーク"
+  },
+  "categories": {
+    "overview": "基盤",
+    "foundation": "基本原則",
+    "implementation": "実装とモデル",
+    "vision": "ビジョンと将来"
+  },
+  "sections": {
+    "index": "概要",
+    "introduction": "メタガバナンス入門",
+    "quick-start": "クイックスタートガイド",
+    "principles": "基本原則と価値観",
+    "value-proposition": "価値提案とメリット",
+    "structural": "構造的コンポーネント",
+    "implementation": "実装パスウェイ",
+    "evaluation": "評価とアセスメント",
+    "case-models": "ケーススタディとモデル",
+    "future": "将来ビジョンと発展",
+    "manifesto": "メタガバナンスマニフェスト",
+    "appendix": "付録と技術詳細",
+    "related": "関連フレームワーク"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "introduction": "導入",
+    "quick-start": "クイックスタート",
+    "principles": "基本原則",
+    "value-proposition": "価値提案",
+    "structural": "構造",
+    "implementation": "実装",
+    "evaluation": "評価",
+    "case-models": "ケーススタディ",
+    "future": "将来ビジョン",
+    "manifesto": "マニフェスト",
+    "appendix": "付録",
+    "related": "関連"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション",
+    "backToFrameworksOverview": "フレームワーク概要に戻る",
+    "beginYourJourney": "ジャーニーを始める",
+    "exploreFramework": "フレームワークを探索"
+  },
+  "intro": {
+    "title": "メタガバナンスフレームワーク",
+    "overview": "概要",
+    "paragraph1": "メタガバナンスフレームワークは、地域の自律性を維持しながら惑星規模の調整を可能にする調整されたグローバルガバナンスのための包括的な原則とメカニズムを提供します。",
+    "paragraph2": "このフレームワークは、私たちの時代の重要な課題に対処します：民主的参加、文化的多様性、地域の自己決定を維持しながら、惑星規模で効果的にガバナンスする方法。"
+  },
+  "quickStart": {
+    "title": "ジャーニーを始める",
+    "guides": [
+      {
+        "id": "quick-start",
+        "icon": "⚡",
+        "title": "クイックスタート",
+        "description": "メタガバナンスの原則と実装の5分概要"
+      },
+      {
+        "id": "introduction",
+        "icon": "🏛️",
+        "title": "導入",
+        "description": "調整されたグローバルガバナンスの基盤への深い探求"
+      }
+    ]
+  },
+  "buttons": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFull": "フレームワーク全体へ進む",
+    "resources": "リソース",
+    "appendicesTools": "付録と技術詳細"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。",
+    "sectionNotAvailable": "セクションが利用できません",
+    "sectionLoadError": "セクション「{section}」を読み込めませんでした。一時的な問題かもしれません。",
+    "returnToOverview": "概要に戻る"
+  },
+  "loading": {
+    "text": "メタガバナンスフレームワークを読み込み中..."
+  }
+}

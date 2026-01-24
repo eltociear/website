@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "ハースライトプロトコル - 子どもの繁栄のためのフレームワーク",
+    "description": "再生的文明の中心にある神聖な信託として子ども時代を確立し、すべての子どもの安全、全人的発達、喜びに満ちた遊びへの不可侵の権利を保障する包括的フレームワーク"
+  },
+  "quickStart": {
+    "guides": [
+      {
+        "id": "at-a-glance",
+        "icon": "⚡",
+        "title": "概要",
+        "description": "子どもの繁栄フレームワークの5分概要"
+      },
+      {
+        "id": "executive-summary-skeptics",
+        "icon": "🤔",
+        "title": "意思決定者向け",
+        "description": "子ども中心ガバナンスのエビデンスベースのケース"
+      }
+    ]
+  },
+  "categories": {
+    "overview": "概要",
+    "framework": "コアフレームワーク"
+  },
+  "navigation": {
+    "overview": "概要",
+    "framework": "コアフレームワーク",
+    "sections": {
+      "index": "ホーム",
+      "at-a-glance": "概要",
+      "executive-summary-skeptics": "エグゼクティブサマリー",
+      "vision-purpose": "ビジョンと目的",
+      "core-principles": "基本原則",
+      "framework-architecture": "フレームワークアーキテクチャ",
+      "implementation-strategy": "実装戦略",
+      "ggf-integration": "GGF統合",
+      "performance-indicators": "パフォーマンス指標",
+      "risk-management": "リスク管理",
+      "pathways-forward": "前進へのパスウェイ"
+    }
+  },
+  "sections": {
+    "index": "ホーム",
+    "at-a-glance": "概要",
+    "executive-summary-skeptics": "エグゼクティブサマリー",
+    "vision-purpose": "ビジョンと目的",
+    "core-principles": "基本原則",
+    "framework-architecture": "フレームワークアーキテクチャ",
+    "implementation-strategy": "実装戦略",
+    "ggf-integration": "GGF統合",
+    "performance-indicators": "パフォーマンス指標",
+    "risk-management": "リスク管理",
+    "pathways-forward": "前進へのパスウェイ"
+  },
+  "page": {
+    "meta": {
+      "title": "ハースライトプロトコル - 子どもの繁栄のためのフレームワーク",
+      "description": "再生的文明の中心にある神聖な信託として子ども時代を確立し、すべての子どもの安全、全人的発達、喜びに満ちた遊びへの不可侵の権利を保障する"
+    }
+  }
+}

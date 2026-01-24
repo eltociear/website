@@ -1,0 +1,49 @@
+{
+  "title": "ツールデータベース",
+  "tools": "個のツール",
+  "showingFor": "表示中：",
+  "showAllTools": "すべてのツールを表示",
+  "searchPlaceholder": "ツールを検索...",
+  "gridView": "グリッドビュー",
+  "listView": "リストビュー",
+  "sortByName": "名前で並べ替え",
+  "sortByComplexity": "複雑さで並べ替え",
+  "sortByCultural": "文化的適応で並べ替え",
+  "filters": "フィルター",
+  "clearAll": "すべてクリア",
+  "filterTools": "ツールをフィルター",
+  "filterByJourney": "ジャーニー",
+  "filterByComplexity": "複雑さ",
+  "filterByCultural": "文化的適応",
+  "filterByTags": "タグ",
+  "noToolsFound": "ツールが見つかりません",
+  "noToolsDescription": "検索語またはフィルターを調整して、関連するツールを見つけてください。",
+  "clearFilters": "フィルターをクリア",
+  "estimatedTime": "時間",
+  "journey": "ジャーニー",
+  "learnMore": "詳細を見る",
+  "addToStack": "スタックに追加",
+  "complexity": {
+    "basic": "基本",
+    "medium": "中級",
+    "high": "高度",
+    "advanced": "上級"
+  },
+  "culturalAdaptation": {
+    "low": "低",
+    "medium": "中",
+    "high": "高"
+  },
+  "tags": {
+    "governance": "ガバナンス",
+    "councils": "評議会",
+    "cultural-protocols": "文化的プロトコル",
+    "crisis": "危機",
+    "emergency": "緊急",
+    "participation": "参加",
+    "democracy": "民主主義",
+    "decision-making": "意思決定",
+    "indigenous": "先住民族",
+    "technology": "テクノロジー"
+  }
+}

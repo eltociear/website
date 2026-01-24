@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "title": "エセルレッド協定：バイオテクノロジーガバナンスフレームワーク",
+    "description": "コミュニティ主権、先住民族の権利、バイオテクノロジーの民主的監視を通じた生命のコードの責任ある管理のための協定"
+  },
+  "categories": {
+    "overview": "概要とクイックスタート",
+    "foundations": "基盤と原則",
+    "governance": "ガバナンスとアーキテクチャ",
+    "operations": "運用と実装",
+    "implementation": "フレームワーク統合",
+    "resources": "リソースと結論"
+  },
+  "sections": {
+    "preamble": "前文：生命のコードに書き込む",
+    "index": "フレームワーク概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "introduction": "導入：バイオテクノロジーの課題",
+    "universal-declaration": "生命倫理に関する世界宣言",
+    "core-principles": "基本原則",
+    "governance-architecture": "ガバナンスアーキテクチャ",
+    "operational-systems": "運用システム",
+    "crisis-response": "危機対応プロトコル",
+    "implementation-roadmap": "実装ロードマップ",
+    "cross-cutting-mechanisms": "横断的メカニズム",
+    "funding-mechanisms": "資金調達メカニズム",
+    "framework-integration": "フレームワーク統合",
+    "tools-and-resources": "ツールとリソース",
+    "getting-started": "はじめに",
+    "conclusion": "結論",
+    "appendices": "付録"
+  },
+  "sectionsShort": {
+    "preamble": "前文",
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向け",
+    "introduction": "導入",
+    "universal-declaration": "宣言",
+    "core-principles": "原則",
+    "governance-architecture": "ガバナンス",
+    "operational-systems": "運用",
+    "crisis-response": "危機対応",
+    "implementation-roadmap": "ロードマップ",
+    "cross-cutting-mechanisms": "メカニズム",
+    "funding-mechanisms": "資金調達",
+    "framework-integration": "統合",
+    "tools-and-resources": "ツール",
+    "getting-started": "はじめに",
+    "conclusion": "結論",
+    "appendices": "付録"
+  },
+  "quickStart": {
+    "new": "バイオテクノロジーガバナンスは初めてですか？",
+    "start": "さまざまな対象者向けにコミュニティ管理のバイオテクノロジーを説明するクイックガイドから始めましょう。",
+    "button": "ガイドを選択",
+    "title": "エセルレッド協定 クイックスタート",
+    "description": "あなたのニーズに最も合ったバージョンを選択してください：",
+    "download": "PDF版をダウンロード",
+    "continue": "フレームワーク全体へ進む",
+    "guides": [
+      {
+        "id": "at-a-glance",
+        "icon": "⚡",
+        "title": "概要",
+        "description": "バイオテクノロジーガバナンスの5分間概要"
+      },
+      {
+        "id": "executive-summary-for-the-skeptic",
+        "icon": "🤔",
+        "title": "懐疑派向け",
+        "description": "コミュニティ管理バイオテクノロジーのエビデンスに基づく事例"
+      }
+    ]
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "preamble": {
+    "continue": "フレームワーク概要へ進む"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "loading": {
+    "text": "バイオテクノロジーガバナンスフレームワークを読み込み中..."
+  },
+  "features": {
+    "governance": {
+      "title": "民主的ガバナンス",
+      "description": "コミュニティ主権と先住民族の権利がバイオテクノロジーの意思決定を導く"
+    },
+    "access": {
+      "title": "ユニバーサルアクセス",
+      "description": "経済的地位に関係なく、すべての人が救命的な遺伝子治療を利用可能"
+    },
+    "safety": {
+      "title": "包括的安全性",
+      "description": "コミュニティ監視によるBSL-1からBSL-5までの厳格なバイオセーフティプロトコル"
+    },
+    "sovereignty": {
+      "title": "遺伝的主権",
+      "description": "コミュニティが自らの遺伝的遺産に対する絶対的管理権を維持"
+    },
+    "youth": {
+      "title": "若者の権限",
+      "description": "将来の世代がバイオテクノロジーの意思決定において拘束力のある発言権を持つ"
+    },
+    "transparency": {
+      "title": "徹底的な透明性",
+      "description": "オープンサイエンスとバイオテクノロジー開発のコミュニティ管理監視"
+    }
+  },
+  "institutions": {
+    "gbbc": {
+      "name": "グローバルバイオセーフティ・バイオテクノロジー評議会",
+      "short": "GBBC",
+      "description": "マルチステークホルダー代表を持つ中央監視機関"
+    },
+    "registry": {
+      "name": "国際遺伝的コモンズ・主権レジストリ",
+      "short": "遺伝子レジストリ",
+      "description": "遺伝資源と伝統的知識のブロックチェーンベースの保護"
+    },
+    "baef": {
+      "name": "バイオテクノロジーアクセス・エクイティ施設",
+      "short": "BAEF",
+      "description": "救命バイオテクノロジーへのユニバーサルアクセス"
+    },
+    "assemblies": {
+      "name": "バイオテクヘルスアセンブリー",
+      "short": "ヘルスアセンブリー",
+      "description": "バイオテクノロジー介入に対するコミュニティ拒否権"
+    },
+    "youth": {
+      "name": "若者バイオエシックス評議会",
+      "short": "若者評議会",
+      "description": "将来の世代のための拘束力のある権限"
+    },
+    "biosecurity": {
+      "name": "バイオセキュリティオフィス",
+      "short": "バイオセキュリティ",
+      "description": "デュアルユースリスクの監視と壊滅的放出の防止"
+    }
+  },
+  "principles": {
+    "precautionary": "予防的・積極的スチュワードシップ",
+    "solidarity": "バイオソリダリティとユニバーサルアクセス",
+    "integrity": "生命システムの完全性",
+    "consent": "民主的・多種間同意",
+    "sovereignty": "遺伝資源主権",
+    "reversibility": "設計された可逆性",
+    "transparency": "徹底的な透明性",
+    "liberty": "認知的・生物学的自由",
+    "intergenerational": "世代間無害性の証明",
+    "posthuman": "ポストヒューマン倫理",
+    "biomachines": "感覚を持つバイオマシンガバナンス"
+  },
+  "implementation": {
+    "foundation": "基盤フェーズ（1〜3年目）",
+    "integration": "統合フェーズ（4〜10年目）",
+    "maturation": "成熟フェーズ（11年目以降）",
+    "timeline": "15年間の実装タイムライン"
+  }
+}

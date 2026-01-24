@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "title": "再生的ガバナンスのための実装プロトコル - グローバルガバナンスフレームワーク",
+    "description": "多様なコンテキストで再生的ガバナンスフレームワークを実装するための詳細なプロトコルとステップバイステップガイド。"
+  },
+  "hero": {
+    "title": "実装プロトコル",
+    "subtitle": "システム変革のためのステップバイステップガイド",
+    "description": "理論と実践を橋渡しする包括的プロトコル。実世界のコンテキストで再生的ガバナンスを実装するための明確なパスウェイを提供します。"
+  },
+  "categories": {
+    "cultural": "文化的適応",
+    "implementation": "実装ガイド",
+    "governance": "ガバナンスプロトコル",
+    "justice": "正義と癒し"
+  },
+  "stats": {
+    "available": "利用可能",
+    "inDevelopment": "開発中",
+    "implementations": "アクティブな実装"
+  },
+  "protocols": {
+    "culturalTranslation": {
+      "title": "文化翻訳プロトコル",
+      "subtitle": "異文化間でガバナンスフレームワークを適応させる",
+      "description": "文化的完全性を維持し盗用を避けながら、多様な文化的コンテキストにガバナンスフレームワークを敬意を持って適応させるための包括的な三段階プロトコル。",
+      "category": "cultural",
+      "status": "available",
+      "phases": [
+        {
+          "name": "基礎フェーズ",
+          "duration": "3-6ヶ月",
+          "description": "深い対話、主権協定、関係構築"
+        },
+        {
+          "name": "実装フェーズ",
+          "duration": "6-12ヶ月",
+          "description": "共同設計、パイロットテスト、反復的改善"
+        },
+        {
+          "name": "検証フェーズ",
+          "duration": "3-6ヶ月",
+          "description": "コミュニティ承認、セーフガード、統合"
+        }
+      ],
+      "principles": [
+        "存在論的主権",
+        "文化的謙虚さ",
+        "関係的完全性",
+        "再生的交換"
+      ],
+      "safeguards": [
+        "自由意思による事前の十分な情報に基づく同意（FPIC）",
+        "文化盗用防止プロトコル",
+        "コミュニティ拒否権",
+        "伝統的権威の統合"
+      ],
+      "useCase": "必須用途：先住民族パートナーシップ、国際実装、多文化コミュニティ、あらゆる異文化間ガバナンス作業。",
+      "complexity": "高",
+      "prerequisites": [
+        "確立されたコミュニティ関係",
+        "文化的コンピテンシートレーニング",
+        "組織的コミットメント",
+        "長期的リソース配分"
+      ],
+      "deliverables": [
+        "文化的主権協定",
+        "関係プロトコル",
+        "適応されたフレームワーク文書",
+        "文化保護プロトコル"
+      ],
+      "links": {
+        "fullProtocol": "/resources/cultural-translation-protocol",
+        "pdf": "cultural-translation-protocol",
+        "examples": "/resources/cultural-translation-protocol#examples"
+      }
+    },
+    "fpic2": {
+      "title": "FPIC 2.0プロトコル",
+      "subtitle": "強化された自由意思による事前の十分な情報に基づく同意",
+      "description": "権力不均衡に対処し、有意義な参加を確保し、ガバナンス決定における先住民族の権利を保護するFPICへの進化したアプローチ。",
+      "category": "justice",
+      "status": "inDevelopment",
+      "phases": [
+        {
+          "name": "関係確立",
+          "duration": "継続的",
+          "description": "正式なプロセスの前に信頼と本物の関係を構築"
+        },
+        {
+          "name": "情報共有",
+          "duration": "可変",
+          "description": "文化的に適切な情報交換と能力構築"
+        },
+        {
+          "name": "審議期間",
+          "duration": "コミュニティ決定",
+          "description": "伝統的プロセスを使用した内部コミュニティ意思決定"
+        },
+        {
+          "name": "同意文書化",
+          "duration": "1-2ヶ月",
+          "description": "継続的な同意メカニズムを持つ正式な文書化"
+        }
+      ],
+      "enhancements": [
+        "権力不均衡評価",
+        "文化プロトコル統合",
+        "継続的同意メカニズム",
+        "利益共有協定"
+      ],
+      "useCase": "必須：先住民族、伝統的知識、または祖先の領土に影響を与えるあらゆるガバナンスプロセス。",
+      "complexity": "高",
+      "expectedRelease": "2025年第4四半期",
+      "prerequisites": [
+        "深い文化的コンピテンシー",
+        "確立された先住民族関係",
+        "法的フレームワークの理解",
+        "長期的コミットメント"
+      ],
+      "links": {
+        "earlyDraft": "/contact",
+        "background": "/resources/cultural-translation-protocol#fpic"
+      }
+    },
+    "consensusBuilding": {
+      "title": "再生的合意プロトコル",
+      "subtitle": "違いを超えた合意形成",
+      "description": "多様な視点を尊重し、レジリエントな集合的決定を創造する有意義な合意に達するための体系的アプローチ。",
+      "category": "governance",
+      "status": "inDevelopment",
+      "phases": [
+        {
+          "name": "準備フェーズ",
+          "duration": "1-2週間",
+          "description": "ステークホルダーマッピング、プロセス設計、関係準備"
+        },
+        {
+          "name": "探索フェーズ",
+          "duration": "2-4週間",
+          "description": "深い傾聴、視点共有、共通基盤の特定"
+        },
+        {
+          "name": "共同創造フェーズ",
+          "duration": "2-6週間",
+          "description": "協調的ソリューション開発と反復的改善"
+        },
+        {
+          "name": "統合フェーズ",
+          "duration": "1-3週間",
+          "description": "最終合意、実装計画、アカウンタビリティ構造"
+        }
+      ],
+      "tools": [
+        "グラデーション合意スケール",
+        "懸念に基づく意思決定",
+        "システム的合意プロセス",
+        "紛争変容プロトコル"
+      ],
+      "useCase": "効果的：マルチステークホルダーイニシアチブ、組織ガバナンス、コミュニティ計画、政策開発。",
+      "complexity": "中級",
+      "expectedRelease": "2025年第3四半期",
+      "prerequisites": [
+        "プロセスへのステークホルダーコミットメント",
+        "熟練したファシリテーション",
+        "適切な時間配分",
+        "紛争解決能力"
+      ],
+      "links": {
+        "earlyAccess": "/contact",
+        "related": "/resources/paradox-canvas"
+      }
+    },
+    "powerAnalysis": {
+      "title": "権力動態評価プロトコル",
+      "subtitle": "権力不均衡の理解と対処",
+      "description": "ガバナンスプロセスにおける権力動態を分析し、より公平な参加を創造するための戦略を実装する包括的フレームワーク。",
+      "category": "implementation",
+      "status": "inDevelopment",
+      "phases": [
+        {
+          "name": "権力マッピング",
+          "duration": "1-2週間",
+          "description": "システム内の権力源、保有者、動態を特定"
+        },
+        {
+          "name": "影響分析",
+          "duration": "1週間",
+          "description": "権力不均衡が参加と成果にどのように影響するかを評価"
+        },
+        {
+          "name": "戦略開発",
+          "duration": "2-3週間",
+          "description": "特定された不均衡に対処する介入を設計"
+        },
+        {
+          "name": "実装とモニタリング",
+          "duration": "継続的",
+          "description": "戦略を実装し、権力動態を継続的にモニタリング"
+        }
+      ],
+      "powerTypes": [
+        "地位的権力",
+        "リソース管理",
+        "情報アクセス",
+        "文化資本",
+        "ネットワーク影響力"
+      ],
+      "useCase": "重要：マルチステークホルダープロセス、コミュニティ開発、組織変革、政策改革イニシアチブ。",
+      "complexity": "中級",
+      "expectedRelease": "2025年第4四半期",
+      "prerequisites": [
+        "システム思考スキル",
+        "文化的感受性",
+        "紛争分析経験",
+        "ファシリテーション能力"
+      ],
+      "links": {
+        "earlyAccess": "/contact",
+        "related": "/resources/cultural-translation-protocol#power"
+      }
+    }
+  },
+  "navigation": {
+    "backToResources": "← リソースに戻る",
+    "exploreProtocols": "プロトコルを探索",
+    "downloadProtocol": "プロトコルをダウンロード",
+    "readFullGuide": "完全ガイドを読む",
+    "requestEarlyAccess": "早期アクセスをリクエスト",
+    "viewExamples": "例を見る"
+  },
+  "filters": {
+    "allCategories": "すべてのカテゴリ",
+    "allStatuses": "すべてのステータス",
+    "search": "プロトコルを検索...",
+    "clearFilters": "フィルターをクリア"
+  },
+  "getInvolved": {
+    "title": "これらのプロトコルを共同開発",
+    "description": "これらのプロトコルは実世界の実装とコミュニティフィードバックを通じて改善されます。パイロットプログラムに参加するか、あなたの経験に基づいて貢献してください。",
+    "pilot": "パイロットプログラムに参加",
+    "feedback": "実装フィードバックを共有",
+    "contribute": "専門知識を提供",
+    "partner": "実装パートナーになる"
+  },
+  "implementation": {
+    "title": "実装サポート",
+    "description": "これらのプロトコルの実装にはスキル、忍耐、コミュニティサポートが必要です。私たちは以下を提供します：",
+    "support": [
+      {
+        "type": "トレーニングプログラム",
+        "description": "ファシリテーターと実践者向けのスキル構築ワークショップ"
+      },
+      {
+        "type": "ピアネットワーク",
+        "description": "類似のプロトコルを実装している他者との接続"
+      },
+      {
+        "type": "技術支援",
+        "description": "複雑な実装のための専門家相談"
+      },
+      {
+        "type": "リソースライブラリ",
+        "description": "テンプレート、ケーススタディ、適応ガイド"
+      }
+    ]
+  },
+  "principles": {
+    "title": "コア実装原則",
+    "description": "すべてのプロトコルは以下の基礎的原則に導かれています：",
+    "list": [
+      {
+        "name": "文化的主権",
+        "description": "すべてのコミュニティは、自らの価値観と知の方法に従ってガバナンスする権利を維持"
+      },
+      {
+        "name": "再生的インパクト",
+        "description": "プロトコルはコミュニティとエコシステムから抽出するのではなく強化すべき"
+      },
+      {
+        "name": "権力の公平性",
+        "description": "権力不均衡に対処し、すべてのステークホルダーの有意義な参加を確保"
+      },
+      {
+        "name": "適応的学習",
+        "description": "プロトコルは実装経験とコミュニティフィードバックを通じて進化"
+      }
+    ]
+  }
+}

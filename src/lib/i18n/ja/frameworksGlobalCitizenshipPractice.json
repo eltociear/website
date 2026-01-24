@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "title": "グローバル市民性実践フレームワーク - グローバルガバナンスフレームワーク",
+    "description": "グローバル市民性の意識と実践を発展させるための包括的フレームワーク"
+  },
+  "guideCard": {
+    "title": "グローバル市民性は初めてですか？",
+    "description": "グローバル市民性の発展の本質とその変革的可能性を捉えた簡潔な2ページ概要から始めましょう。",
+    "buttonText": "クイック概要を読む"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "practice": "実践",
+    "advanced": "上級",
+    "resources": "リソースとツール"
+  },
+  "sections": {
+    "index": "概要",
+    "foundational-values": "基盤となる価値観",
+    "meaning-practice": "グローバル市民性の意味",
+    "development-path": "5段階発達パス",
+    "tangible-benefits": "具体的なメリット",
+    "overcoming-barriers": "障壁の克服",
+    "intergenerational-perspectives": "世代間の視点",
+    "technology-ethics": "テクノロジーと倫理",
+    "measuring-impact": "インパクトの測定",
+    "inclusive-pathways": "包括的パスウェイ",
+    "professional-integration": "プロフェッショナル統合",
+    "crisis-response": "危機対応",
+    "ai-digital-technologies": "AIとデジタル技術",
+    "self-assessment-tools": "自己評価ツール",
+    "economic-foundations": "経済的基盤",
+    "future-proofing": "将来への備え",
+    "advanced-implementation": "上級実装",
+    "expanding-boundaries": "境界の拡大",
+    "beyond-human-centered": "人間中心を超えて",
+    "global-citizenship-2-page-overview": "2ページ概要"
+  },
+  "sectionsShort": {
+    "foundational-values": "価値観",
+    "meaning-practice": "意味と実践",
+    "development-path": "発達パス",
+    "tangible-benefits": "メリット",
+    "overcoming-barriers": "障壁",
+    "intergenerational-perspectives": "世代間",
+    "technology-ethics": "テクノロジー",
+    "measuring-impact": "インパクト",
+    "inclusive-pathways": "包括性",
+    "professional-integration": "プロフェッショナル",
+    "crisis-response": "危機",
+    "ai-digital-technologies": "AIとデジタル",
+    "self-assessment-tools": "評価",
+    "economic-foundations": "経済",
+    "future-proofing": "将来への備え",
+    "advanced-implementation": "上級",
+    "expanding-boundaries": "境界",
+    "beyond-human-centered": "人間を超えて",
+    "global-citizenship-2-page-overview": "クイック概要"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "loading": {
+    "text": "フレームワークコンテンツを読み込み中..."
+  }
+}

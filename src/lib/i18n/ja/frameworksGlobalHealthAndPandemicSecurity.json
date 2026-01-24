@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "title": "グローバル健康とパンデミックセキュリティフレームワーク - グローバルガバナンスフレームワーク",
+    "description": "伝統的知識とコミュニティ主権を強化しながら、スピード、公平性、レジリエンスでパンデミックを予防、検出、撃退するコミュニティ管理の惑星免疫システム"
+  },
+  "communicationCard": {
+    "title": "グローバル健康とパンデミックセキュリティをどのように探索したいですか？",
+    "description": "パンデミック準備のニーズと緊急度に最も適した形式を選択してください。",
+    "buttonText": "エントリーポイントを選択"
+  },
+  "sections": {
+    "index": "フレームワーク概要",
+    "at-a-glance": "概要サマリー",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "universal-declaration": "健康権のユニバーサル宣言",
+    "introduction": "惑星免疫システムの構築",
+    "core-principles": "基本原則",
+    "governance-architecture": "ガバナンスアーキテクチャ",
+    "operational-systems": "運用システム",
+    "crisis-response": "危機対応プロトコル",
+    "implementation-roadmap": "実装ロードマップ",
+    "funding-mechanisms": "資金調達メカニズム",
+    "framework-integration": "フレームワーク統合",
+    "conclusion": "生命の神聖な網を癒す",
+    "appendices": "付録"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "universal-declaration": "ユニバーサル宣言",
+    "introduction": "導入",
+    "core-principles": "原則",
+    "governance-architecture": "アーキテクチャ",
+    "operational-systems": "運用",
+    "crisis-response": "危機対応",
+    "implementation-roadmap": "実装",
+    "funding-mechanisms": "資金調達",
+    "framework-integration": "統合",
+    "conclusion": "結論",
+    "appendices": "付録"
+  },
+  "categories": {
+    "overview": "フレームワーク概要",
+    "foundation": "基盤と原則",
+    "governance": "惑星免疫システム",
+    "implementation": "実装とアクション",
+    "toolsResources": "ツールとリソース"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション",
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体を探索"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "loading": {
+    "text": "グローバル健康とパンデミックセキュリティフレームワークコンテンツを読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "immuneSystem": {
+    "metaphor": {
+      "title": "惑星免疫システム",
+      "description": "フレームワークは、専門化されたコンポーネントが協調して機能する生物学的免疫システムのように動作します",
+      "components": {
+        "brainstem": "グローバル健康安全保障評議会",
+        "whiteBloocCells": "健康緊急事態サービス隊",
+        "tCells": "コミュニティ健康レジオン",
+        "sensoryNerves": "グローバル病原体監視ネットワーク",
+        "adaptiveMemory": "惑星健康集会"
+      }
+    }
+  },
+  "keyFeatures": {
+    "communityControl": {
+      "title": "コミュニティ管理",
+      "description": "健康ガバナンスはコミュニティの関係と伝統的知識から生まれる"
+    },
+    "traditionalKnowledge": {
+      "title": "伝統的知識の統合",
+      "description": "惑星健康安全保障のための不可欠なインフラとしての先住民族の癒しシステム"
+    },
+    "youthAuthority": {
+      "title": "若者の権限",
+      "description": "健康に関する決定と最も長く生きる人々のための真の意思決定権"
+    },
+    "rapidResponse": {
+      "title": "72時間展開",
+      "description": "緊急事態時に72時間以内にグローバルに展開可能な健康緊急事態サービス隊"
+    },
+    "pandemicPrevention": {
+      "title": "予防優先",
+      "description": "人獣共通感染症の波及と環境健康脅威を発生源で対処"
+    },
+    "openScience": {
+      "title": "オープンサイエンスと特許フリー医療",
+      "description": "すべての公的資金による健康イノベーションがグローバルな公共財となる"
+    }
+  },
+  "healthRights": {
+    "universal": {
+      "title": "ユニバーサル権利としての健康",
+      "description": "きれいな空気、純粋な水、栄養のある食べ物、伝統的および現代医療へのアクセス"
+    },
+    "sovereignty": {
+      "title": "コミュニティ健康主権",
+      "description": "コミュニティが独自の健康システムと伝統的な癒しの実践をコントロール"
+    },
+    "intergenerational": {
+      "title": "世代間健康正義",
+      "description": "健康に関する決定が将来の世代と生態学的基盤に奉仕する"
+    },
+    "oneHealth": {
+      "title": "ワンヘルス統合",
+      "description": "人間、動物、エコシステムの健康が不可分であると認識"
+    }
+  },
+  "implementationPhases": {
+    "phase1": {
+      "title": "健康サンクチュアリ開発",
+      "timeframe": "1-3年目",
+      "description": "コミュニティ管理の健康ガバナンスを実証するパイロット実装"
+    },
+    "phase2": {
+      "title": "大陸統合",
+      "timeframe": "4-7年目",
+      "description": "主権を維持しながらバイオリージョン間で成功したアプローチをスケール"
+    },
+    "phase3": {
+      "title": "惑星健康安全保障",
+      "timeframe": "8-15年目",
+      "description": "コミュニティネットワークを通じた完全なパンデミック予防能力の達成"
+    }
+  },
+  "callToAction": {
+    "title": "健康安全保障運動に参加しよう",
+    "description": "すべてのステークホルダーがコミュニティ主権と惑星ウェルビーイングに奉仕する健康システムの構築に役割を持っています",
+    "actions": {
+      "communities": "伝統的知識の統合を伴うコミュニティ健康レジオンを設立する",
+      "professionals": "特許フリーの医療イノベーションと伝統的な癒しアプローチを支援する",
+      "governments": "先住民族との協議を伴う健康サンクチュアリ開発をリードする",
+      "youth": "あなたの世代に影響を与える健康政策に対する権限を主張する"
+    }
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "page": {
+    "title": "フレームワーク",
+    "description": "惑星変革のためのガバナンスフレームワークの包括的なエコシステムを探索"
+  },
+  "blueprintBridge": {
+    "title": "設計図から実装へ",
+    "intro": "私たちの設計図の3つの基盤となる柱を覚えていますか？包括的なフレームワークエコシステムを通じて、それらがどのように実現されるかをご紹介します：",
+    "pillars": {
+      "hardware": {
+        "title": "ハードウェア",
+        "framework": "私たちの唯一の故郷のための条約"
+      },
+      "heart": {
+        "title": "心臓",
+        "framework": "先住民の主権と地球の癒しのための招待的フレームワーク"
+      },
+      "nervousSystem": {
+        "title": "神経系",
+        "framework": "統合メタガバナンス"
+      }
+    },
+    "transition": "これらの3つの柱は基盤となるアーキテクチャを提供します。次に、このビジョンが惑星管理のあらゆるドメインにわたる具体的で実行可能なフレームワークにどのように変換されるかを探索しましょう。"
+  },
+  "implementation": {
+    "title": "階層型実装ロードマップ",
+    "intro": "3つの柱の基盤の上に構築され、私たちのフレームワークは5つの実装階層に編成されています—緊急の危機への対応から長期的な繁栄の実現まで。各階層は前の階層の上に構築され、体系的な変革への明確な経路を作成します。",
+    "roadmap": {
+      "title": "戦略的実装シーケンス",
+      "description": "フレームワークは、緊急の危機への対応から長期的な繁栄の実現までの論理的な進行を表す5つの階層に編成されています。この構造は、基盤となる改革がより高度なガバナンス革新に必要な安定性を生み出す、明確な実装ロードマップを提供します。",
+      "tierLabel": "階層",
+      "tiers": {
+        "tier0": "グローバル制度改革",
+        "tier1": "緊急のグローバル安定と正義",
+        "tier2": "長期的繁栄のためのシステム",
+        "tier3": "公平性、文化、将来世代",
+        "tier4": "ビジョナリー＆メタガバナンス"
+      }
+    },
+    "groups": {
+      "title": "ドメイン別フレームワークグループ",
+      "intro": "各階層内で、フレームワークは関連する課題と機会に対処するテーマ別グループに編成されています："
+    },
+    "directory": {
+      "title": "完全なフレームワークディレクトリ",
+      "intro": "階層とテーマ別グループで編成されたすべてのフレームワークを探索してください。任意のフレームワークをクリックして、詳細なドキュメントと実装ガイダンスに飛び込んでください。"
+    },
+    "gettingStarted": {
+      "title": "実装を始める準備はできましたか？",
+      "description": "私たちの包括的なガイドは、あなたのコンテキストでこれらのフレームワークを実装するのを助けるためのステップバイステップのアプローチ、意思決定配分ツール、実際の事例研究を提供します。",
+      "implementationButton": "実装ガイドライン",
+      "caseStudiesButton": "事例研究を見る"
+    }
+  },
+  "documentation": {
+    "title": "必須ドキュメント＆リソース",
+    "intro": "グローバル・ガバナンス・フレームワークを理解し実装するための包括的なガイド、ツール、リソースにアクセスしてください。",
+    "cards": {
+      "principles": {
+        "title": "コア原則",
+        "description": "すべてのフレームワーク開発と実装を導く基盤原則"
+      },
+      "implementation": {
+        "title": "実装ガイド",
+        "description": "現実世界のコンテキストでフレームワークを実装するためのステップバイステップのガイダンス"
+      },
+      "tools": {
+        "title": "ツール＆リソース",
+        "description": "フレームワーク展開のための実践的なツール、テンプレート、リソース"
+      },
+      "caseStudies": {
+        "title": "事例研究",
+        "description": "フレームワーク実装からの実際の例と教訓"
+      }
+    }
+  },
+  "hero": {
+    "title": "フレームワーク",
+    "subtitle": "ガバナンスの相互運用性と進化のためのツール"
+  },
+  "components": {
+    "documentation": {
+      "title": "ドキュメント"
+    },
+    "applications": {
+      "title": "アプリケーション"
+    },
+    "tools": {
+      "title": "ツール＆リソース"
+    }
+  },
+  "overview": {
+    "title": "フレームワーク概要",
+    "description": "グローバル・ガバナンス・フレームワークは、相互運用可能なガバナンスシステムを通じて複雑なグローバルな課題に対処するための包括的なアプローチを提供します。原則、実装戦略、実践的なアプリケーションを発見するために、ドキュメントを探索してください。",
+    "learnMore": "詳細を見る"
+  },
+  "quickAccess": {
+    "title": "フレームワークドキュメントを探索",
+    "description": "原則、実装ガイド、事例研究、リソースに関する詳細なドキュメントにアクセスしてください。",
+    "viewDocs": "ドキュメントを見る",
+    "corePrinciples": "コア原則",
+    "implementation": "実装",
+    "caseStudies": "事例研究",
+    "resources": "リソース",
+    "glossary": "用語集"
+  },
+  "implementationFrameworks": {
+    "title": "実装フレームワーク",
+    "description": "憲法層からビジョナリーガバナンスまで、戦略的な5階層実装ロードマップによって編成されたドメイン固有のフレームワーク。",
+    "roadmapTitle": "階層型実装ロードマップ",
+    "roadmapDescription": "フレームワークは論理的な依存関係スタックを表す5つの階層（0〜4）に編成されています。基盤となる憲法およびオペレーティングシステム改革（階層0〜1）は、後続の階層の必須アプリケーションとより深い文化統合に必要な安定性と機能性を生み出します。",
+    "tiers": {
+      "tier0": "憲法層",
+      "tier1": "コアオペレーティングシステム",
+      "tier2": "基盤アプリケーション",
+      "tier3": "公平性＆文化",
+      "tier4": "ビジョナリー＆メタシステム"
+    },
+    "gettingStarted": {
+      "title": "実装の旅を始める",
+      "description": "あなたのコンテキストでこれらのフレームワークを実装する準備はできましたか？実装ガイドは、始めるためのステップバイステップのアプローチ、意思決定配分ツール、事例研究を提供します。",
+      "implementationButton": "実装ガイドライン",
+      "caseStudiesButton": "事例研究を見る"
+    }
+  },
+  "status": {
+    "concept": {
+      "label": "コンセプト",
+      "description": "初期のアイデア段階、まだ完全に開発されていない"
+    },
+    "development": {
+      "label": "開発中",
+      "description": "積極的に執筆および改良中"
+    },
+    "review": {
+      "label": "レビュー中",
+      "description": "最終に近いドラフトがレビュー中"
+    },
+    "community-review": {
+      "label": "コミュニティレビュードラフト"
+    },
+    "ready": {
+      "label": "準備完了",
+      "description": "完全に開発され、実装の準備が整っている"
+    }
+  },
+  "statusLegend": {
+    "title": "ドキュメントステータスインジケーター"
+  },
+  "tier": {
+    "0": {
+      "title": "階層0：憲法層",
+      "description": "この基盤階層は、他のすべての階層の絶対的な前提条件として機能します。新しいグローバルシステムのための法的・制度的「ハードウェア」を提供し、調整された国際行動を可能にします。"
+    },
+    "1": {
+      "title": "階層1：コアオペレーティングシステム",
+      "description": "この階層には、再生的文明の「オペレーティングシステム」として機能する基本的なフレームワークが含まれており、ガバナンス、倫理、正義、経済のための本質的で横断的な機能を提供します。"
+    },
+    "2": {
+      "title": "階層2：基盤アプリケーション層",
+      "description": "コアオペレーティングシステムが確立されると、この階層は繁栄する惑星上の健全な社会を運営するために必要な本質的な「アプリケーション」を表し、食料、健康、生態系などのシステムを統治します。"
+    },
+    "3": {
+      "title": "階層3：公平性＆文化的繁栄層",
+      "description": "この階層は、安定した健全な社会が深く公正で、包摂的で、文化的に活気があることを確保します。これらのフレームワークは特定のコミュニティの権利を保護し、私たちの集団的遺産を保存します。"
+    },
+    "4": {
+      "title": "階層4：ビジョナリー＆メタシステム層",
+      "description": "最高階層には、長期的な種レベルの管理と監視のためのフレームワークが含まれています。存在論的リスクを処理し、新しいドメインを統治し、集団的知恵を育成するためのプロトコルが含まれます。"
+    },
+    "noFrameworks": "この階層にはまだフレームワークが定義されていません。"
+  },
+  "intro": {
+    "title": "メタガバナンス入門",
+    "paragraph1": "世界には異なる規模で起こっている多数のガバナンス実験がありますが、それらはしばしば孤立して運営されています。グローバル・ガバナンス・フレームワークは、これらの多様なシステムが相互運用できるようにするパターンとインターフェースを提供します。",
+    "paragraph2": "私たちのアプローチは、単一のガバナンスモデルを作ることではなく、多くのモデルが共存し、コミュニケーションし、共に進化できるインフラを構築することです。"
+  },
+  "emergingExamples": {
+    "title": "行動における新興の可能性",
+    "intro": "世界中で、成功した国境を越えたガバナンスの有望な例が実現しています。これらの現実世界のイニシアチブは、境界を越えた協力のためのシステムを作成するときに何が可能かを示しています：",
+    "examples": [
+      {
+        "title": "気候行動ネットワーク",
+        "description": "気候イニシアチブで直接協力し、国境を越えてリソースと知識を共有する都市のネットワーク。C40 Cities Climate Leadership Groupは、大胆な気候行動を取るために7億人以上の市民を代表する97都市を接続しています。"
+      },
+      {
+        "title": "デジタル民主主義プラットフォーム",
+        "description": "DecidimやvTaiwanのようなソフトウェアフレームワークは、政策開発への大規模な市民参加を可能にし、従来の代表構造を超えた応答性の高いガバナンスの新しいモデルを作成しています。"
+      },
+      {
+        "title": "国境を越えたコモンズ管理",
+        "description": "水システムからデジタルインフラまで、国境を越えた共有リソースを管理するための協力的フレームワークは、コミュニティが従来の境界を越えて自己統治できることを示しています。"
+      },
+      {
+        "title": "地域協力フレームワーク",
+        "description": "北欧理事会のようなイニシアチブは、文化的自治と主権を維持しながら多様な国が協力できることを可能にし、協力がローカルアイデンティティを減少させるのではなく強化できることを示しています。"
+      }
+    ]
+  },
+  "techEnablers": {
+    "title": "技術的イネーブラー",
+    "intro": "新しい技術により、以前は想像できなかった規模とスピードで透明で参加型のグローバル調整が可能になっています：",
+    "enablers": [
+      {
+        "title": "透明な意思決定のためのAI",
+        "description": "膨大な量の政策データを処理し、影響をモデル化し、意思決定プロセスを市民に理解可能にできるAIシステム。これらのツールは、専門知識と民主的監視のバランスを取り、技術的複雑さが参加の障壁にならないことを確保するのに役立ちます。"
+      },
+      {
+        "title": "アカウンタビリティのためのブロックチェーン",
+        "description": "決定、リソース配分、政策実装の改ざん不可能な記録を作成する分散台帳技術。これらのシステムは、中央集権的な権威を必要とせずに信頼を可能にし、多様な管轄区域にわたる透明なガバナンスを可能にします。"
+      },
+      {
+        "title": "デジタル翻訳＆文化的コンテキスト",
+        "description": "ガバナンスシステム間のコミュニケーション障壁を打ち破る先進的な言語モデルは、単なる逐語訳だけでなく、ガバナンスの概念と価値観の異文化理解を可能にします。"
+      },
+      {
+        "title": "参加型センシングネットワーク",
+        "description": "環境条件、リソース使用、政策結果のための市民が運営する監視システム。これらのネットワークは、ガバナンスの作業と権威の両方を分散させ、決定のための共有された経験的基盤を作成します。"
+      }
+    ]
+  },
+  "bottomUpApproaches": {
+    "title": "ボトムアップが制度進化と出会う",
+    "intro": "効果的なグローバルガバナンスには、草の根の革新と制度的適応の両方が必要です。私たちのフレームワークは、これらのアプローチ間のインターフェースに焦点を当てています：",
+    "principles": [
+      {
+        "title": "相互認識プロトコル",
+        "description": "正式な機関がコミュニティ主導のガバナンスイニシアチブを公式に認識し対話できるようにする標準で、従来のモデルと新興モデルの間に橋を作ります。"
+      },
+      {
+        "title": "主権を保持する統合",
+        "description": "コミュニティが自己決定権を維持しながらより広いシステムに参加できるようにするアプローチで、グローバルフレームワークがローカルガバナンスを上書きするのではなく強化することを確保します。"
+      },
+      {
+        "title": "知識コモンズ開発",
+        "description": "ガバナンス革新、事例研究、ベストプラクティスの共有リポジトリは、草の根実験と機関の両方が互いの経験から学ぶことを可能にします。"
+      },
+      {
+        "title": "ネストされたアカウンタビリティ構造",
+        "description": "機関がそれらが奉仕するコミュニティに説明責任を負い続けることを確保しながら、コミュニティの決定が境界を越えた影響を考慮するフレームワーク。"
+      }
+    ],
+    "conclusion": "これらのインターフェースに焦点を当てることで、ボトムアップアプローチの適応性とコンテキスト認識を、機関の調整能力と安定性と組み合わせたガバナンスシステムを作成できます。"
+  },
+  "comingSoon": {
+    "title": "近日公開",
+    "intro": "現在、ガバナンスフレームワークの詳細なコンテンツを開発中です。このページには間もなく以下の包括的なドキュメントが含まれます：",
+    "items": [
+      "ガバナンス相互運用性モデル",
+      "意思決定配分フレームワーク",
+      "メタガバナンスデザインパターン",
+      "適応的ガバナンスアーキテクチャ"
+    ]
+  },
+  "labels": {
+    "comingSoon": "近日公開",
+    "planned": "計画中"
+  },
+  "groups": {
+    "planetaryHealthResilience": {
+      "title": "惑星の健康とレジリエンス",
+      "description": "気候、健康、食料システム、災害レジリエンスに対処するフレームワーク"
+    },
+    "socialFabricJustice": {
+      "title": "社会的結束と正義",
+      "description": "平和、正義、安全保障、社会的結束のためのフレームワーク"
+    },
+    "globalEconomicSystems": {
+      "title": "グローバル経済システム",
+      "description": "経済ガバナンス、貿易、金融、データのためのフレームワーク"
+    },
+    "ecologicalSystems": {
+      "title": "生態系システム",
+      "description": "環境管理とエコシステムガバナンスのためのフレームワーク"
+    },
+    "humanSocialSystems": {
+      "title": "人間と社会システム",
+      "description": "技術、教育、健康、コミュニティ開発のためのフレームワーク"
+    },
+    "other": {
+      "title": "その他のフレームワーク",
+      "description": "主要グループに分類されない追加のフレームワーク"
+    }
+  },
+  "docs": {
+    "nav": {
+      "overview": "概要",
+      "documentation": "ドキュメント",
+      "principles": "コア原則",
+      "globalCitizenship": "グローバル市民権",
+      "implementation": "実装",
+      "guides": "実装ガイド",
+      "regionalHubs": "地域ハブ",
+      "implementationTools": "実装ツール",
+      "visualizations": "ビジュアライゼーション",
+      "downloads": "フレームワークPDFダウンロード",
+      "caseStudies": "事例研究",
+      "aiFutures": "AIの未来",
+      "resources": "リソース",
+      "glossary": "用語集",
+      "frameworkTitles": {
+        "treatyForOurOnlyHome": "私たちの唯一の故郷のための条約",
+        "emergentGovernanceProtocol": "エマージェントガバナンスプロトコル",
+        "implementationAndAdaptation": "実装と適応",
+        "institutionalRegeneration": "制度再生",
+        "pathfinderProtocol": "パスファインダープロトコル",
+        "climateAndEnergyGovernance": "気候＆エネルギーガバナンス",
+        "peaceAndConflictResolution": "平和＆紛争解決",
+        "indigenousSovereigntyPathways": "先住民主権の経路",
+        "planetaryHealthGovernance": "惑星の健康",
+        "globalHealthAndPandemicSecurity": "グローバルヘルス＆パンデミックセキュリティ",
+        "kinshipGarden": "食料システム＆農業",
+        "nestedEconomies": "ネストされた経済",
+        "globalSupplyChainsAndLogistics": "グローバルサプライチェーン＆ロジスティクス",
+        "gaianTrade": "ガイアン貿易フレームワーク",
+        "auroraAccord": "グローバルデータガバナンス＆主権",
+        "justiceSystems": "司法システム",
+        "aegisProtocol": "グローバルセキュリティ",
+        "shieldProtocol": "国境を越えた犯罪＆セキュリティ",
+        "migrationAndHumanMobility": "移住＆人間の移動",
+        "disasterRiskReduction": "災害リスク削減＆レジリエンス",
+        "technologyGovernance": "技術ガバナンス",
+        "sundownProtocol": "採取産業のための管理された移行プロトコル",
+        "aethelredAccord": "合成生物学＆先進バイオテックガバナンス",
+        "financialSystems": "金融システム",
+        "adaptiveUniversalBasicIncome": "適応型ユニバーサルベーシックインカム",
+        "educationalSystems": "教育システム",
+        "mentalHealthGovernance": "メンタルヘルスガバナンス",
+        "cognitiveSovereigntyAccord": "意識技術ガバナンス",
+        "bioregionalPolis": "都市＆コミュニティ開発",
+        "soilHealthAndLandUseGovernance": "土壌健康＆土地利用ガバナンス",
+        "waterAndSanitationGovernance": "水＆衛生ガバナンス",
+        "environmentalStewardship": "環境管理",
+        "phoenixProtocol": "廃棄物＆循環経済",
+        "animalWelfareGovernance": "動物福祉ガバナンス",
+        "biodiversityGovernance": "生物多様性ガバナンス",
+        "oceansAndMarineGovernance": "海洋＆海洋ガバナンス",
+        "workInLiberation": "労働＆雇用ガバナンス",
+        "disabilityRightsAndInclusion": "障害者の権利＆インクルージョン",
+        "hearthstoneProtocol": "コモンズ＆管理",
+        "hearthlightProtocol": "子どもの繁栄",
+        "conduitProtocol": "共有インフラ",
+        "digitalCommons": "デジタルコモンズ",
+        "mobilityCommons": "再生的交通＆モビリティ",
+        "regenerativeJourneys": "再生的観光と旅行",
+        "synopticProtocol": "メディア＆認識論的誠実性",
+        "prometheusProtocol": "製薬＆バイオテクノロジーコモンズ",
+        "discoveryCommons": "科学＆研究コモンズ",
+        "kintsugiProtocol": "修復的コミュニティセーフティ",
+        "cairnProtocol": "依存症、回復＆物質使用",
+        "socialFabric": "社会的結束フレームワーク",
+        "artsFlourishing": "クリエイティブ＆アート繁栄",
+        "culturalHeritagePreservation": "文化遺産＆言語多様性保存",
+        "livingLandProtocol": "農村開発ガバナンス",
+        "religiousAndSpiritualDialogueGovernance": "宗教＆スピリチュアル対話",
+        "youthAndIntergenerationalGovernance": "青年＆世代間ガバナンス",
+        "globalCitizenshipPractice": "グローバル市民権の実践",
+        "moralOperatingSystem": "モラルオペレーティングシステム",
+        "kinshipProtocol": "ジェンダー平等＆LGBTQ+権利",
+        "agingPopulationSupportGovernance": "高齢者人口支援ガバナンス",
+        "spaceGovernance": "宇宙ガバナンス",
+        "millenniumProtocol": "宇宙文明のための憲法憲章",
+        "deepTimeGovernance": "深い時間＆相対論的ガバナンス",
+        "oracleProtocol": "AI意識＆デジタル感覚",
+        "existentialRiskGovernance": "存在論的リスクガバナンス",
+        "consciousnessAndInnerDevelopment": "意識＆内的発達",
+        "metaGovernance": "統合メタガバナンス",
+        "wiseDecisionMakingProtocol": "賢明な意思決定＆統合プロトコル",
+        "implementationMethodsAndTools": "実装方法＆ツール",
+        "wisdomGovernance": "知恵ガバナンス"
+      }
+    }
+  },
+  "coreElements": {
+    "title": "コアフレームワーク要素",
+    "interoperability": {
+      "title": "1. ガバナンス相互運用性フレームワーク",
+      "intro": "このフレームワークは、異なるガバナンスシステムが効果的に接続し協力するのを助けます：",
+      "items": [
+        {"name": "プロトコル標準", "description": "異なるガバナンスシステムがどのように情報を交換できるか"},
+        {"name": "意思決定境界マッピング", "description": "どの決定がどのレベルに属するかを明確化"},
+        {"name": "翻訳メカニズム", "description": "あるガバナンスコンテキストでの決定が別のコンテキストでどのように理解され実装されるか"},
+        {"name": "紛争解決インターフェース", "description": "ガバナンスシステム間の不一致をどのように管理するか"}
+      ]
+    },
+    "operatingSystem": {
+      "title": "2. ガバナンスオペレーティングシステム",
+      "intro": "ガバナンスのためのモジュール式で進化可能な「オペレーティングシステム」の概念：",
+      "items": [
+        {"name": "コア機能 vs アプリケーション", "description": "基本的なガバナンスプロセスを特定の実装から区別"},
+        {"name": "インターフェース定義", "description": "市民がガバナンスと対話するための標準的な方法"},
+        {"name": "モジュール性原則", "description": "システム全体の混乱なしに交換できるガバナンスコンポーネントをどのように設計するか"},
+        {"name": "ガバナンスAPI", "description": "サブシステムがコミュニケーションするための標準化された方法"}
+      ]
+    }
+  },
+  "learnMore": {
+    "title": "フレームワークをより深く探る",
+    "description": "完全なドキュメントを探索する準備はできましたか？包括的なガイドは、詳細な実装手順、原則、事例研究、リソースを提供します。",
+    "button": "完全なドキュメントを探索"
+  },
+  "cta": "フレームワークに貢献する",
+  "principles": {
+    "interconnection": {
+      "title": "コア原則の相互接続",
+      "description": "この図は、16の憲法原則が統合システムとしてどのように連携するかを示しています。原則は機能別に編成されています：ガバナンス構造（緑）、権利と環境（茶色）、リソースと紛争管理（金）、進化と統合（紫）。各原則は中央のグローバル・ガバナンス・フレームワークに接続し、他の原則を強化しバランスを取っています。"
+    }
+  }
+}

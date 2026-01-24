@@ -1,0 +1,39 @@
+{
+  "title": "ブログ",
+  "subtitle": "グローバルガバナンスと「Treaty for Our Only Home」に関する最新ニュースと洞察",
+  "noPosts": {
+    "title": "ブログ記事が見つかりません",
+    "message": "選択された言語（{language}）のブログ記事が見つかりません。ヘッダーの言語セレクターを使用して別の言語に切り替えてみてください。",
+    "followPrompt": "新しい投稿が公開されたときに通知を受け取るには、フォローしてください！"
+  },
+  "postsCount": {
+    "single": "件の投稿",
+    "plural": "件の投稿",
+    "found": "が見つかりました"
+  },
+  "meta": {
+    "publishedOn": "公開日",
+    "by": "著者："
+  },
+  "readMore": "続きを読む →",
+  "latestBadge": "最新",
+  "strategicFollow": {
+    "title": "興味深い内容を見つけましたか？",
+    "subtitle": "グローバルガバナンスに関する最新の洞察を見逃さないよう、つながりましょう。"
+  },
+  "postFollow": {
+    "title": "共感していただけましたか？",
+    "subtitle": "このような洞察をもっと受け取るには、以下からお好みの方法をお選びください。"
+  },
+  "bottomPrompt": {
+    "text": "最新情報を受け取りたいですか？",
+    "link": "すべてのフォローオプションを見る ↑"
+  },
+  "backToBlog": "ブログに戻る",
+  "loading": "コンテンツを読み込んでいます...",
+  "noContent": "コンテンツがありません",
+  "navigation": {
+    "readMore": "他の記事を読む",
+    "backHome": "ホームに戻る"
+  }
+}

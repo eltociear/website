@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "title": "お問い合わせ",
+    "subtitle": "グローバルガバナンス革新についてのご連絡をお待ちしています。"
+  },
+  "discord": {
+    "title": "コミュニティに参加する",
+    "description": "志を同じくする人々とつながり、アイデアを共有し、グローバルガバナンスの最新動向について情報を得ましょう。",
+    "button": "Discordに参加",
+    "inviteLink": "https://discord.gg/Zx4hMJf4JU"
+  },
+  "getInTouch": {
+    "title": "お問い合わせ",
+    "description": "グローバル・ガバナンス・フレームワークについてのご質問、アイデア、フィードバックはありますか？ぜひお聞かせください。フォームに記入いただければ、できるだけ早くご返信いたします。",
+    "contactInfo": {
+      "email": {
+        "title": "メール",
+        "value": "globalgovernanceframework@gmail.com"
+      },
+      "responseTime": {
+        "title": "返信時間",
+        "value": "2〜3営業日以内の返信を目指しています"
+      },
+      "github": {
+        "title": "GitHub",
+        "value": "github.com/GlobalGovernanceFramework"
+      }
+    }
+  },
+  "form": {
+    "title": "メッセージを送信",
+    "fields": {
+      "name": {
+        "label": "お名前",
+        "placeholder": "お名前を入力"
+      },
+      "email": {
+        "label": "メールアドレス",
+        "placeholder": "メールアドレスを入力"
+      },
+      "subject": {
+        "label": "件名",
+        "options": {
+          "general": "一般的なお問い合わせ",
+          "feedback": "フィードバック",
+          "collaboration": "コラボレーション",
+          "feature": "機能リクエスト",
+          "report": "最初の100日レポート",
+          "funding": "資金提供 / サポート"
+        }
+      },
+      "message": {
+        "label": "メッセージ",
+        "placeholder": "メッセージを入力"
+      }
+    },
+    "submit": "メッセージを送信",
+    "sending": "送信中...",
+    "success": "メッセージをお送りいただきありがとうございます！まもなくご連絡いたします。",
+    "error": "メッセージの送信中にエラーが発生しました。globalgovernanceframework@gmail.comに直接メールをお送りください。",
+    "fallback": "このフォームに問題がある場合は、globalgovernanceframework@gmail.comに直接メールをお送りください。"
+  }
+}

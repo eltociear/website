@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "先住民族の主権と惑星の癒しのための招待的フレームワーク - グローバルガバナンスフレームワーク",
+    "description": "伝統的生態学的知識を通じて先住民族の主権と惑星の癒しを支援する招待的フレームワーク"
+  },
+  "categories": {
+    "overview": "神聖な基盤",
+    "structure": "構造的コンポーネント",
+    "vision": "ビジョンとパスウェイ",
+    "resources": "リソースと統合"
+  },
+  "sections": {
+    "index": "概要",
+    "preamble": "前文：大地から生まれたフレームワーク",
+    "core-principles": "基本原則：生きるための古代の教え",
+    "structural-components": "構造的コンポーネント：神聖なアーキテクチャ",
+    "pathways-from-vision-to-action": "ビジョンからアクションへのパスウェイ：七世代のための種まき",
+    "key-mechanisms": "主要メカニズム：変革の神聖なテクノロジー",
+    "vision-of-flourishing": "繁栄のビジョン",
+    "interface-existing-systems": "既存システムとのインターフェース",
+    "pathways-broader-engagement": "より広いエンゲージメントへのパスウェイ",
+    "supporting-materials-considerations": "サポート資料と考慮事項",
+    "system-map-visual": "システムマップ：神聖な網",
+    "glossary-references": "用語集とリファレンス"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "preamble": "神聖な基盤",
+    "core-principles": "古代の教え",
+    "structural-components": "神聖なアーキテクチャ",
+    "pathways-from-vision-to-action": "種まき",
+    "key-mechanisms": "神聖なテクノロジー",
+    "vision-of-flourishing": "繁栄のビジョン",
+    "interface-existing-systems": "システムインターフェース",
+    "pathways-broader-engagement": "より広いエンゲージメント",
+    "supporting-materials-considerations": "サポート資料",
+    "system-map-visual": "神聖な網",
+    "glossary-references": "用語集"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "intro": {
+    "title": "先住民族の主権と惑星の癒しのための招待的フレームワーク",
+    "overview": "概要",
+    "paragraph1": "このフレームワークは、惑星変革への招待的パスウェイとして生まれ、先住民族を大地の知恵に導かれた再生的ガバナンスシステムの主権的リーダーとして位置づけています。",
+    "paragraph2": "先住民族の主権と伝統的生態学的知識への深い敬意に根ざし、このフレームワークは先住民族のリーダーシップ、生態学的知恵、長期的持続可能性を惑星の癒しの基盤として中心に置いています。"
+  },
+  "quickStart": {
+    "title": "神聖なはじまり",
+    "guides": [
+      {
+        "id": "preamble",
+        "icon": "🪶",
+        "title": "神聖な前文",
+        "description": "儀式的な承認と基本的な理解から始める"
+      },
+      {
+        "id": "core-principles",
+        "icon": "⚖️",
+        "title": "基本原則",
+        "description": "バイオリージョナルガバナンスや七世代責任などの基本的価値観を探求する"
+      }
+    ]
+  },
+  "buttons": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFull": "フレームワーク全体へ進む",
+    "resources": "リソース",
+    "appendicesTools": "用語集とリファレンス"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツはコミュニティのガイダンスを受けながら開発中です。",
+    "sectionNotAvailable": "セクションが利用できません",
+    "sectionLoadError": "セクション「{section}」を読み込めませんでした。一時的な問題かもしれません。",
+    "returnToOverview": "神聖なはじまりに戻る"
+  },
+  "loading": {
+    "text": "先住民族主権パスウェイを読み込み中..."
+  }
+}

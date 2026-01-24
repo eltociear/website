@@ -1,0 +1,557 @@
+{
+  "meta": {
+    "title": "リソースライブラリ - バイオリージョナルコンパス",
+    "description": "実装の柱ごとに整理されたBAZ形成のための包括的なツールキットと詳細リソース"
+  },
+  "title": "リソースライブラリ",
+  "subtitle": "実装の柱ごとに整理された包括的なツールキットと詳細リソース",
+  "navigation": {
+    "resources": "リソース",
+    "guides": "実装ガイド",
+    "bioregionalCompass": "バイオリージョナルコンパス",
+    "library": "リソースライブラリ"
+  },
+  "loading": {
+    "text": "ライブラリコンテンツを読み込み中..."
+  },
+  "stats": {
+    "sections": "セクション",
+    "resources": "リソース",
+    "categories": "カテゴリ"
+  },
+  "filter": {
+    "title": "カテゴリで閲覧",
+    "all": "すべてのリソース"
+  },
+  "categories": {
+    "foundation": {
+      "title": "基礎と評価",
+      "description": "基本的な計画と準備評価ツール"
+    },
+    "pillars": {
+      "title": "6つの柱の実装",
+      "description": "BAZ形成の各段階のための詳細なツールキット"
+    },
+    "advanced": {
+      "title": "高度な応用",
+      "description": "横断的な課題と専門的シナリオ"
+    },
+    "development": {
+      "title": "学習と成長",
+      "description": "教育リソースとスキル開発"
+    },
+    "operations": {
+      "title": "運用と品質",
+      "description": "管理、計画、継続的改善"
+    }
+  },
+  "sections": {
+    "assessment-and-support-spokes": {
+      "title": "評価とサポートリソース",
+      "description": "形成前実行可能性評価、スキルマッピング、メンターシップネットワークツール"
+    },
+    "pillar-0-spokes": {
+      "title": "内的作業と意識",
+      "description": "個人的レジリエンスの実践、スチュワード育成、コミュニティトラウマ癒し"
+    },
+    "pillar-1-spokes": {
+      "title": "ビジョンと合意形成",
+      "description": "コミュニティ対話ファシリテーション、ステークホルダーマッピング、ビジョン策定ツール"
+    },
+    "pillar-2-spokes": {
+      "title": "バイオリージョナルマッピング",
+      "description": "生態学的評価プロトコルと先住民族知識統合ガイドライン"
+    },
+    "pillar-3-spokes": {
+      "title": "法的・制度的フレームワーク",
+      "description": "憲章テンプレート、規制ナビゲーション、ステークホルダー関係ガイダンス"
+    },
+    "pillar-4-spokes": {
+      "title": "ガバナンス形成",
+      "description": "分散型ガバナンス手法、権力動態管理、若者参加"
+    },
+    "pillar-5-spokes": {
+      "title": "GGF統合",
+      "description": "デジタルコモンズ設定、認識論的インフラ、条約採択プロトコル"
+    },
+    "pillar-6-spokes": {
+      "title": "経済的主権",
+      "description": "AUBI実装、Hearts & Leaves通貨システム、ブリッジ経済ツール"
+    },
+    "cross-cutting-spokes": {
+      "title": "横断的応用",
+      "description": "危機管理、スケール移行、ネットワーク調整、法的課題対応"
+    },
+    "the-learning-journey": {
+      "title": "学習と開発",
+      "description": "パイロットプロジェクトシーケンス、サポートネットワーク、若者プログラム、レガシー計画"
+    },
+    "resource-planning": {
+      "title": "リソース計画",
+      "description": "財務モデル、能力構築タイムライン、外部パートナーシップ開発"
+    },
+    "quality-assurance": {
+      "title": "品質保証",
+      "description": "成功指標、リスク評価フレームワーク、継続的改善プロトコル"
+    },
+    "resourceCount": "リソース"
+  },
+  "actions": {
+    "explore": "探索"
+  },
+  "help": {
+    "title": "ガイダンスが必要ですか？",
+    "text": "BAZ形成が初めての場合は評価とサポートセクションから始めるか、実装ガイダンスのために6つの柱を閲覧してください。",
+    "backToGuide": "ガイド概要に戻る",
+    "startAssessment": "評価から始める"
+  },
+  "assessmentSupport": {
+    "title": "評価とサポートリソース - バイオリージョナルコンパス",
+    "description": "BAZ形成のための基本計画ツール、メンターシップネットワーク、モニタリングシステム"
+  },
+  "crossCuttingSpokes": {
+    "title": "横断的応用 - バイオリージョナルコンパス",
+    "description": "危機管理、スケール移行、法的課題、ネットワーク調整のための高度なツール"
+  },
+  "learningJourney": {
+    "title": "学習の旅 - バイオリージョナルコンパス",
+    "description": "BAZ形成のための教育リソース、サポートネットワーク、スキル開発"
+  },
+  "resourcePlanning": {
+    "title": "リソース計画 - バイオリージョナルコンパス",
+    "description": "財務モデリング、能力構築、パートナーシップ開発のための包括的計画ツール"
+  },
+  "qualityAssurance": {
+    "title": "品質保証 - バイオリージョナルコンパス",
+    "description": "包括的な品質管理、指標システム、継続的改善フレームワーク"
+  },
+  "pillar0Spokes": {
+    "title": "柱0：内なる大地 - バイオリージョナルコンパス",
+    "description": "BAZスチュワードのための内的作業、リーダーシップ開発、意識の育成",
+    "navigation": {
+      "title": "内的作業リソース",
+      "subtitle": "開発プログラム"
+    },
+    "resources": {
+      "innerWorkToolkit": {
+        "title": "内的作業ツールキット",
+        "description": "個人的レジリエンス、マインドフルネス、コミュニケーション、燃え尽き防止のための包括的実践",
+        "estimatedTime": "2-4週間の基礎",
+        "difficulty": "初級",
+        "category": "個人"
+      },
+      "stewardDevelopmentProgram": {
+        "title": "スチュワード育成プログラム",
+        "description": "評価、メンターシップ構造、後継者計画を含むリーダーシップ開発フレームワーク",
+        "estimatedTime": "3-6ヶ月",
+        "difficulty": "中級",
+        "category": "リーダーシップ"
+      },
+      "communityTraumaHealingGuide": {
+        "title": "コミュニティトラウマ癒しガイド",
+        "description": "BAZ形成に影響を与える可能性のある集合的な傷とトラウマを癒すためのアプローチ",
+        "estimatedTime": "4-8週間",
+        "difficulty": "上級",
+        "category": "癒し"
+      }
+    },
+    "sections": {
+      "overview": "概要",
+      "mindfulnessAndContemplativePractices": "マインドフルネスと瞑想的実践",
+      "nonViolentCommunicationGuide": "非暴力コミュニケーション",
+      "burnoutPreventionAndRecoveryProtocols": "燃え尽き防止と回復",
+      "leadershipQualitiesAssessmentFramework": "リーダーシップ評価フレームワーク",
+      "mentorshipStructuresAndRelationships": "メンターシップ構造",
+      "leadershipTransitionAndSuccessionPlanning": "リーダーシップ移行と後継者計画"
+    },
+    "ui": {
+      "currentlyViewing": "現在閲覧中",
+      "viewResource": "リソースを見る",
+      "sectionsLabel": "セクション：",
+      "previousSection": "前へ",
+      "nextSection": "次へ",
+      "selectResource": "内的作業リソースを選択",
+      "selectResourceDescription": "サイドバーからリソースを選択して、コンテンツと実践を表示します。",
+      "sectionNotFound": "セクションが見つかりません",
+      "sectionInDevelopment": "は現在開発中です。",
+      "resourceNotFound": "リソースが見つかりません",
+      "resourceInDevelopment": "は現在開発中です。",
+      "contentInLanguageComingSoon": "お使いの言語でのコンテンツは近日公開予定です",
+      "displayedInEnglish": "このセクションは翻訳が完了するまで英語で表示されています。"
+    },
+    "categories": {
+      "personal": "個人",
+      "leadership": "リーダーシップ",
+      "healing": "癒し"
+    },
+    "difficulties": {
+      "beginner": "初級",
+      "intermediate": "中級",
+      "advanced": "上級"
+    }
+  },
+  "pillar1Spokes": {
+    "title": "柱1：火花 - バイオリージョナルコンパス",
+    "description": "BAZ形成のためのビジョン策定、合意形成、コミュニティ対話ツール",
+    "navigation": {
+      "title": "ビジョンと合意リソース",
+      "subtitle": "ファシリテーションツール"
+    },
+    "resources": {
+      "communityDialogueKit": {
+        "title": "コミュニティ対話キット",
+        "description": "有意義なコミュニティ会話、紛争ナビゲーション、合意形成をファシリテートするための包括的ツール",
+        "estimatedTime": "3-4週間のトレーニング",
+        "difficulty": "中級",
+        "category": "ファシリテーション"
+      },
+      "visionCraftingWorkbook": {
+        "title": "ビジョン策定ワークブック",
+        "description": "共有ビジョンの開発、価値観の整合、将来志向のコミュニティ計画のためのステップバイステップガイド",
+        "estimatedTime": "2-3週間",
+        "difficulty": "初級",
+        "category": "計画"
+      },
+      "stakeholderMappingTool": {
+        "title": "ステークホルダーマッピングツール",
+        "description": "BAZ形成プロセスにおける多様なステークホルダーの特定、分析、関与のための方法",
+        "estimatedTime": "1-2週間",
+        "difficulty": "初級",
+        "category": "エンゲージメント"
+      }
+    },
+    "sections": {
+      "overview": "概要",
+      "facilitatorTrainingAndSkillsDevelopment": "ファシリテータートレーニングとスキル",
+      "questionBanksAndDialogueFrameworks": "質問バンクとフレームワーク",
+      "conflictNavigationAndTensionTransformation": "紛争ナビゲーションと緊張の変容"
+    },
+    "ui": {
+      "currentlyViewing": "現在閲覧中",
+      "viewResource": "リソースを見る",
+      "sectionsLabel": "セクション：",
+      "previousSection": "前へ",
+      "nextSection": "次へ",
+      "selectResource": "ビジョンと合意リソースを選択",
+      "selectResourceDescription": "サイドバーからリソースを選択して、コンテンツとファシリテーションツールを表示します。",
+      "sectionNotFound": "セクションが見つかりません",
+      "sectionInDevelopment": "は現在開発中です。",
+      "resourceNotFound": "リソースが見つかりません",
+      "resourceInDevelopment": "は現在開発中です。",
+      "contentInLanguageComingSoon": "お使いの言語でのコンテンツは近日公開予定です",
+      "displayedInEnglish": "このセクションは翻訳が完了するまで英語で表示されています。"
+    },
+    "categories": {
+      "facilitation": "ファシリテーション",
+      "planning": "計画",
+      "engagement": "エンゲージメント"
+    },
+    "difficulties": {
+      "beginner": "初級",
+      "intermediate": "中級",
+      "advanced": "上級"
+    }
+  },
+  "pillar2Spokes": {
+    "title": "柱2：私たちの場所を見つける - バイオリージョナルコンパス",
+    "description": "BAZ形成のためのバイオリージョナルマッピング、生態学的評価、場所に基づいた理解ツール",
+    "navigation": {
+      "title": "バイオリージョナルマッピングリソース",
+      "subtitle": "評価ツールキット"
+    },
+    "resources": {
+      "bioregionalMappingForBeginners": {
+        "title": "初心者のためのバイオリージョナルマッピング",
+        "description": "GISツール、市民科学、先住民族知識統合を使用したバイオリージョナルマッピングの包括的入門",
+        "estimatedTime": "4-6週間",
+        "difficulty": "中級",
+        "category": "マッピング"
+      },
+      "ecologicalAssessmentToolkit": {
+        "title": "生態学的評価ツールキット",
+        "description": "生物多様性、土壌健康、流域状態、生態系の完全性を評価するためのフィールドベースの方法",
+        "estimatedTime": "6-8週間",
+        "difficulty": "上級",
+        "category": "評価"
+      }
+    },
+    "sections": {
+      "overview": "概要",
+      "gisAndDigitalMappingTutorials": "GISとデジタルマッピングチュートリアル",
+      "citizenScienceProtocols": "市民科学プロトコル",
+      "indigenousKnowledgeIntegrationAndFpic20": "先住民族知識統合とFPIC 2.0",
+      "biodiversitySurveyProtocols": "生物多様性調査プロトコル",
+      "soilHealthTestingAndAnalysis": "土壌健康テストと分析",
+      "watershedAnalysisMethods": "流域分析方法"
+    },
+    "ui": {
+      "currentlyViewing": "現在閲覧中",
+      "viewResource": "リソースを見る",
+      "sectionsLabel": "セクション：",
+      "previousSection": "前へ",
+      "nextSection": "次へ",
+      "selectResource": "バイオリージョナルマッピングリソースを選択",
+      "selectResourceDescription": "サイドバーからリソースを選択して、コンテンツと評価ツールを表示します。",
+      "sectionNotFound": "セクションが見つかりません",
+      "sectionInDevelopment": "は現在開発中です。",
+      "resourceNotFound": "リソースが見つかりません",
+      "resourceInDevelopment": "は現在開発中です。",
+      "contentInLanguageComingSoon": "お使いの言語でのコンテンツは近日公開予定です",
+      "displayedInEnglish": "このセクションは翻訳が完了するまで英語で表示されています。"
+    },
+    "categories": {
+      "mapping": "マッピング",
+      "assessment": "評価",
+      "technical": "技術"
+    },
+    "difficulties": {
+      "beginner": "初級",
+      "intermediate": "中級",
+      "advanced": "上級"
+    }
+  },
+  "pillar3Spokes": {
+    "title": "柱3：器を造る - バイオリージョナルコンパス",
+    "description": "BAZ形成のための法的フレームワーク、規制ナビゲーション、制度的足場",
+    "navigation": {
+      "title": "法的・制度的リソース",
+      "subtitle": "法的ツールキット"
+    },
+    "resources": {
+      "bazLegalPrimer": {
+        "title": "BAZ法的入門",
+        "description": "憲章テンプレート、法的構造決定、BAZ形成のためのコンプライアンスフレームワークを含む基礎的な法的ガイダンス",
+        "estimatedTime": "3-4週間",
+        "difficulty": "中級",
+        "category": "法的"
+      },
+      "regulatoryNavigationHandbook": {
+        "title": "規制ナビゲーションハンドブック",
+        "description": "ゾーニング法、建築基準、税務コンプライアンス、代替建設アプローチをナビゲートするための実践的戦略",
+        "estimatedTime": "2-3週間",
+        "difficulty": "上級",
+        "category": "規制"
+      },
+      "stakeholderRelationsPlaybook": {
+        "title": "ステークホルダー関係プレイブック",
+        "description": "BAZ統合のための市政府、公共事業者、緊急サービスとの効果的なパートナーシップ構築",
+        "estimatedTime": "4-6週間",
+        "difficulty": "中級",
+        "category": "関係"
+      }
+    },
+    "sections": {
+      "overview": "概要",
+      "legalStructureDecisionTrees": "法的構造決定ツリー",
+      "charterTemplatesAndFoundingDocuments": "憲章テンプレートと設立文書",
+      "complianceChecklistsAndRiskManagement": "コンプライアンスチェックリストとリスク管理",
+      "zoningStrategyAndLandUsePlanning": "ゾーニング戦略と土地利用計画",
+      "buildingCodeNavigationAndAlternativeConstruction": "建築基準ナビゲーションと代替建設",
+      "taxComplianceStrategies": "税務コンプライアンス戦略",
+      "municipalPartnershipDevelopment": "自治体パートナーシップ開発",
+      "utilityPartnershipsAndInfrastructureIntegration": "公共事業パートナーシップとインフラ統合",
+      "emergencyServiceMousAndCommunitySafetyIntegration": "緊急サービスMOUとコミュニティ安全統合"
+    },
+    "ui": {
+      "currentlyViewing": "現在閲覧中",
+      "viewResource": "リソースを見る",
+      "sectionsLabel": "セクション：",
+      "previousSection": "前へ",
+      "nextSection": "次へ",
+      "selectResource": "法的・制度的リソースを選択",
+      "selectResourceDescription": "サイドバーからリソースを選択して、コンテンツと法的ガイダンスを表示します。",
+      "sectionNotFound": "セクションが見つかりません",
+      "sectionInDevelopment": "は現在開発中です。",
+      "resourceNotFound": "リソースが見つかりません",
+      "resourceInDevelopment": "は現在開発中です。",
+      "contentInLanguageComingSoon": "お使いの言語でのコンテンツは近日公開予定です",
+      "displayedInEnglish": "このセクションは翻訳が完了するまで英語で表示されています。"
+    },
+    "categories": {
+      "legal": "法的",
+      "regulatory": "規制",
+      "relations": "関係"
+    },
+    "difficulties": {
+      "beginner": "初級",
+      "intermediate": "中級",
+      "advanced": "上級"
+    }
+  },
+  "pillar4Spokes": {
+    "title": "柱4：評議会を編む - バイオリージョナルコンパス",
+    "description": "BAZコミュニティのためのガバナンス形成、権力動態管理、若者参加",
+    "navigation": {
+      "title": "ガバナンス形成リソース",
+      "subtitle": "ガバナンスツールキット"
+    },
+    "resources": {
+      "decentralizedGovernanceStarterPack": {
+        "title": "分散型ガバナンススターターパック",
+        "description": "市民集会、ソシオクラティック意思決定、紛争解決プロトコルを含む分散型ガバナンス手法の包括的入門",
+        "estimatedTime": "4-6週間",
+        "difficulty": "中級",
+        "category": "ガバナンス"
+      },
+      "powerDynamicsManagementGuide": {
+        "title": "権力動態管理ガイド",
+        "description": "BAZガバナンス構造内の権力不均衡を認識し、対処し、変容させるための基本戦略",
+        "estimatedTime": "3-4週間",
+        "difficulty": "上級",
+        "category": "動態"
+      },
+      "youthEngagementHandbook": {
+        "title": "若者参加ハンドブック",
+        "description": "メンターシップ、リーダーシップ開発、世代間対話を含むBAZガバナンスへの有意義な若者参加のための包括的ガイド",
+        "estimatedTime": "2-3週間",
+        "difficulty": "初級",
+        "category": "エンゲージメント"
+      }
+    },
+    "sections": {
+      "citizenAssemblyGuideForBazCommunities": "市民集会ガイド",
+      "sociocratsMethodsForBazGovernance": "ソシオクラティック手法",
+      "conflictResolutionProtocolsForBazCommunities": "紛争解決プロトコル"
+    },
+    "ui": {
+      "currentlyViewing": "現在閲覧中",
+      "viewResource": "リソースを見る",
+      "sectionsLabel": "セクション：",
+      "previousSection": "前へ",
+      "nextSection": "次へ",
+      "selectResource": "ガバナンス形成リソースを選択",
+      "selectResourceDescription": "サイドバーからリソースを選択して、コンテンツとガバナンスガイダンスを表示します。",
+      "sectionNotFound": "セクションが見つかりません",
+      "sectionInDevelopment": "は現在開発中です。",
+      "resourceNotFound": "リソースが見つかりません",
+      "resourceInDevelopment": "は現在開発中です。",
+      "contentInLanguageComingSoon": "お使いの言語でのコンテンツは近日公開予定です",
+      "displayedInEnglish": "このセクションは翻訳が完了するまで英語で表示されています。"
+    },
+    "categories": {
+      "governance": "ガバナンス",
+      "dynamics": "動態",
+      "engagement": "エンゲージメント"
+    },
+    "difficulties": {
+      "beginner": "初級",
+      "intermediate": "中級",
+      "advanced": "上級"
+    }
+  },
+  "pillar5Spokes": {
+    "title": "柱5：OSをインストール - バイオリージョナルコンパス",
+    "description": "BAZコミュニティのためのGGFフレームワーク統合、デジタルコモンズ設定、認識論的インフラ",
+    "navigation": {
+      "title": "GGF統合リソース",
+      "subtitle": "フレームワークツールキット"
+    },
+    "resources": {
+      "ggfIntegrationHandbook": {
+        "title": "GGF統合ハンドブック",
+        "description": "代議員選出とアースカウンシル接続を含む、BAZコミュニティをグローバルガバナンスフレームワークプロトコルと統合するための包括的ガイド",
+        "estimatedTime": "4-6週間",
+        "difficulty": "中級",
+        "category": "統合"
+      },
+      "digitalCommonsSetupGuide": {
+        "title": "デジタルコモンズ設定ガイド",
+        "description": "コミュニティメディアノードの確立、データ主権プロトコルの実装、デジタルインフラの構築のための技術ガイダンス",
+        "estimatedTime": "3-5週間",
+        "difficulty": "上級",
+        "category": "技術"
+      },
+      "epistemicInfrastructureToolkit": {
+        "title": "認識論的インフラツールキット",
+        "description": "BAZコンテキストにおける知識保存、真実探求プロトコル、コミュニティ学習システムのためのツールとフレームワーク",
+        "estimatedTime": "2-3週間",
+        "difficulty": "中級",
+        "category": "知識"
+      }
+    },
+    "sections": {
+      "overview": "概要",
+      "delegateSelectionAndCommunityRepresentation": "代議員選出とコミュニティ代表",
+      "earthCouncilConnectionProtocols": "アースカウンシル接続プロトコル",
+      "treatyOfOurOnlyHomeAdoption": "Treaty for Our Only Homeの採択",
+      "communityMediaNodeSetup": "コミュニティメディアノード設定",
+      "dataSovereigntyProtocols": "データ主権プロトコル"
+    },
+    "ui": {
+      "currentlyViewing": "現在閲覧中",
+      "viewResource": "リソースを見る",
+      "sectionsLabel": "セクション：",
+      "previousSection": "前へ",
+      "nextSection": "次へ",
+      "selectResource": "GGF統合リソースを選択",
+      "selectResourceDescription": "サイドバーからリソースを選択して、コンテンツと統合ガイダンスを表示します。",
+      "sectionNotFound": "セクションが見つかりません",
+      "sectionInDevelopment": "は現在開発中です。",
+      "resourceNotFound": "リソースが見つかりません",
+      "resourceInDevelopment": "は現在開発中です。",
+      "contentInLanguageComingSoon": "お使いの言語でのコンテンツは近日公開予定です",
+      "displayedInEnglish": "このセクションは翻訳が完了するまで英語で表示されています。"
+    },
+    "categories": {
+      "integration": "統合",
+      "technical": "技術",
+      "knowledge": "知識"
+    },
+    "difficulties": {
+      "beginner": "初級",
+      "intermediate": "中級",
+      "advanced": "上級"
+    }
+  },
+  "pillar6Spokes": {
+    "title": "柱6：エンジンに点火 - バイオリージョナルコンパス",
+    "description": "BAZコミュニティのための経済的主権、AUBI実装、再生的通貨システム",
+    "navigation": {
+      "title": "経済的主権リソース",
+      "subtitle": "経済ツールキット"
+    },
+    "resources": {
+      "aubiImplementationGuide": {
+        "title": "AUBI実装ガイド",
+        "description": "財務設定とコミュニティワークチーム組織を含む、BAZコミュニティでAUBIを実装するための完全ガイド",
+        "estimatedTime": "4-8週間",
+        "difficulty": "中級",
+        "category": "経済"
+      },
+      "heartsAndLeavesCurrencyManual": {
+        "title": "Hearts & Leaves通貨マニュアル",
+        "description": "ケアワーク（Hearts）と生態系スチュワードシップ（Leaves）に報酬を与える再生的通貨システムを実装するための包括的マニュアル",
+        "estimatedTime": "3-6週間",
+        "difficulty": "上級",
+        "category": "通貨"
+      },
+      "bridgeEconomyNavigator": {
+        "title": "ブリッジ経済ナビゲーター",
+        "description": "移行期間中の安定性を維持しながら、法定通貨依存経済から再生的システムへ移行するための戦略的ガイダンス",
+        "estimatedTime": "6-12週間",
+        "difficulty": "上級",
+        "category": "移行"
+      }
+    },
+    "ui": {
+      "currentlyViewing": "現在閲覧中",
+      "viewResource": "リソースを見る",
+      "selectResource": "経済的主権リソースを選択",
+      "selectResourceDescription": "サイドバーからリソースを選択して、コンテンツと経済ガイダンスを表示します。",
+      "resourceNotFound": "リソースが見つかりません",
+      "resourceInDevelopment": "は現在開発中です。",
+      "contentInLanguageComingSoon": "お使いの言語でのコンテンツは近日公開予定です",
+      "displayedInEnglish": "このセクションは翻訳が完了するまで英語で表示されています。"
+    },
+    "categories": {
+      "economic": "経済",
+      "currency": "通貨",
+      "transition": "移行"
+    },
+    "difficulties": {
+      "beginner": "初級",
+      "intermediate": "中級",
+      "advanced": "上級"
+    }
+  }
+}

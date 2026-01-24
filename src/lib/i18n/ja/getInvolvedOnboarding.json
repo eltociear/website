@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "オンボーディング - グローバル・ガバナンス・フレームワーク",
+    "description": "グローバル・ガバナンス・フレームワークプロジェクトを始めましょう。ツール、プロセス、効果的な貢献方法を学びます。"
+  },
+  "title": "GGFを始めよう",
+  "subtitle": "グローバル・ガバナンス・フレームワークプロジェクトへの貢献を始めるために必要なすべての情報",
+  "categories": {
+    "welcomeKit": "ウェルカムキット",
+    "foundational": "基盤ツール"
+  },
+  "sections": {
+    "overview": "プロジェクト概要",
+    "statutes": "法的規約",
+    "work-system-guide": "私たちの働き方",
+    "operating-system": "オペレーティングシステム",
+    "strategic-goals": "戦略的目標",
+    "first-love-ledger": "Love Ledgerの基礎",
+    "git-and-documentation-flow": "Gitとドキュメンテーション",
+    "time-tracking": "時間追跡",
+    "working-with-ai": "AIとの協働"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツはまだ開発中です。"
+  },
+  "loading": {
+    "text": "オンボーディングコンテンツを読み込んでいます..."
+  },
+  "navigation": {
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  }
+}

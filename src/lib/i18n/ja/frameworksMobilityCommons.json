@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "title": "モビリティコモンズ - グローバルガバナンスフレームワーク",
+    "description": "再生的交通とモビリティガバナンス変革のための包括的フレームワーク"
+  },
+  "loading": {
+    "text": "モビリティコモンズコンテンツを読み込み中..."
+  },
+  "guideCard": {
+    "title": "モビリティコモンズは初めてですか？",
+    "description": "エグゼクティブサマリーから始めて、再生的交通がどのように移動への普遍的アクセスを確保しながら世界を変革できるかを理解しましょう。",
+    "buttonText": "エグゼクティブサマリーを読む"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "framework": "コアフレームワーク",
+    "implementation": "実装",
+    "resources": "リソース"
+  },
+  "sections": {
+    "index": "モビリティコモンズ",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "introduction-vision": "導入とビジョン",
+    "foundational-principles": "基盤となる原則",
+    "integration-architecture": "GGF統合アーキテクチャ",
+    "four-pillars": "4つの柱フレームワーク",
+    "implementation-phases": "実装フェーズ",
+    "bioregional-integration": "バイオリージョナルと先住民族統合",
+    "technology-innovation": "テクノロジーとイノベーションコモンズ",
+    "climate-resilience": "気候レジリエンスと緊急対応",
+    "justice-equity": "正義と公平性フレームワーク",
+    "success-metrics": "成功指標とアカウンタビリティ",
+    "faq": "よくある質問",
+    "taking-action": "アクションを起こす",
+    "appendices": "付録"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "introduction-vision": "ビジョン",
+    "foundational-principles": "原則",
+    "integration-architecture": "統合",
+    "four-pillars": "4つの柱",
+    "implementation-phases": "実装",
+    "bioregional-integration": "バイオリージョナル",
+    "technology-innovation": "テクノロジー",
+    "climate-resilience": "気候レジリエンス",
+    "justice-equity": "正義と公平性",
+    "success-metrics": "指標",
+    "faq": "FAQ",
+    "taking-action": "アクションを起こす",
+    "appendices": "付録"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "pillars": {
+    "governance": {
+      "title": "ガバナンスと調整",
+      "subtitle": "グローバルモビリティ評議会",
+      "description": "メタガバナンスフレームワーク内でのグローバルモビリティの民主的ガバナンス。"
+    },
+    "infrastructure": {
+      "title": "再生的インフラ",
+      "subtitle": "パスウェイの構築",
+      "description": "持続可能で、レジリエントで、回復力のある交通ネットワーク。"
+    },
+    "economy": {
+      "title": "モビリティ経済",
+      "subtitle": "公正な移行の推進",
+      "description": "再生的モビリティと労働者移行のための経済モデル。"
+    },
+    "justice": {
+      "title": "モビリティ正義",
+      "subtitle": "公平なアクセスの確保",
+      "description": "コア設計原則としての公平性。"
+    }
+  },
+  "principles": {
+    "commons": {
+      "title": "コモンズとしてのモビリティ",
+      "description": "マルチステークホルダー評議会により透明に統治される公共財としての交通"
+    },
+    "fossilFree": {
+      "title": "デフォルトで化石燃料フリー",
+      "description": "2030年までにネットゼロ目標に沿ったすべての新規インフラ"
+    },
+    "universalAccess": {
+      "title": "ユニバーサルデザインとアクセス",
+      "description": "すべての能力、年齢、ニーズに対応して設計されたシステム"
+    },
+    "bioregional": {
+      "title": "バイオリージョナル統合",
+      "description": "流域、野生動物の移動、エコシステム境界を尊重するコリドー"
+    },
+    "communityLed": {
+      "title": "コミュニティ主導と所有",
+      "description": "コミュニティと共同設計され、協同組合所有に移行するプロジェクト"
+    },
+    "dataSovereignty": {
+      "title": "データ主権とプライバシー",
+      "description": "監視から保護された、コミュニティが管理するリソースとしてのモビリティデータ"
+    },
+    "culturalPreservation": {
+      "title": "文化保全",
+      "description": "先住民族の旅路、先祖代々の道、儀式的な旅の尊重"
+    },
+    "interoperability": {
+      "title": "相互運用性と標準",
+      "description": "デジタルコモンズを通じて管理されるオープン標準によるグローバル互換性"
+    },
+    "universalCapability": {
+      "title": "ユニバーサルケイパビリティ",
+      "description": "生物学的、心理的、形而上学的特性に関係なくアクセス可能"
+    },
+    "indigenousSovereignty": {
+      "title": "先住民族交通主権",
+      "description": "伝統的領土における交通に対するBAZレベルの権限"
+    },
+    "sacredTiming": {
+      "title": "神聖なタイミングと景観意識",
+      "description": "儀式的カレンダーとスピリチュアルな関係を尊重するインフラ"
+    }
+  },
+  "implementation": {
+    "phases": {
+      "phase0": {
+        "title": "フェーズ0：バイオリージョナルデモンストレーションプロジェクト",
+        "description": "化石燃料フリー交通パイロットへのBAZコミットメント",
+        "completion": "10のBAZパイロット、2つの野生動物コリドー統合"
+      },
+      "phase1": {
+        "title": "フェーズ1：国家モビリティコモンズ",
+        "description": "再生的インフラへの交通予算5%誓約",
+        "completion": "20カ国、100万ヘクタール復元、5万人の労働者再訓練"
+      },
+      "phase2": {
+        "title": "フェーズ2：地域統合コンパクト",
+        "description": "相互運用性への地域クラスターコミットメント",
+        "completion": "3つの地域コンパクト、5%のグローバル排出削減"
+      },
+      "phase3": {
+        "title": "フェーズ3：グローバルモビリティコモンズ",
+        "description": "G20の50%参加",
+        "completion": "化石燃料フリーの過半数、ユニバーサル15分アクセス"
+      }
+    }
+  },
+  "metrics": {
+    "decarbonization": {
+      "title": "脱炭素化",
+      "description": "気候・エネルギーフレームワークに沿った交通排出の削減率"
+    },
+    "accessEquity": {
+      "title": "アクセス公平性",
+      "description": "手頃な交通から徒歩15分以内の人口の割合"
+    },
+    "universalAccess": {
+      "title": "ユニバーサルアクセス",
+      "description": "障害影響評価スコアとコンプライアンス率"
+    },
+    "modalShift": {
+      "title": "モーダルシフト",
+      "description": "自家用車から共有/再生的交通への移行率"
+    },
+    "ecosystemHealth": {
+      "title": "エコシステム健全性",
+      "description": "交通コリドーにおける生物多様性指標"
+    },
+    "communitySovereignty": {
+      "title": "コミュニティ主権",
+      "description": "地域協同組合所有下の交通システムの割合"
+    },
+    "emergentTechnologies": {
+      "title": "新興テクノロジー",
+      "description": "ポストカーボンソリューションを使用する通勤者の割合（ベースライン：0%）"
+    },
+    "culturalContinuity": {
+      "title": "文化的継続性",
+      "description": "伝統的慣行と儀式的移動の支援指数"
+    }
+  },
+  "features": {
+    "globalPathways": {
+      "title": "グローバルパスウェイイニシアチブ",
+      "description": "高速鉄道、持続可能な海上コリドー、ユニバーサルEVインフラを含む包括的インフラプログラム"
+    },
+    "globalMobilityCouncil": {
+      "title": "グローバルモビリティ評議会",
+      "description": "BAZ代表、先住民族の声、若者評議会を含むローテーションリーダーシップを持つマルチステークホルダー機関"
+    },
+    "mobilityAsService": {
+      "title": "サービスとしてのモビリティコモンズ",
+      "description": "伝統的生態学的知識を組み込みながら生物圏健康指数を最適化するオープンソースプラットフォーム"
+    },
+    "disasterResponse": {
+      "title": "災害対応モバイルユニット",
+      "description": "気候緊急事態のための迅速展開交通システム"
+    },
+    "climateMigration": {
+      "title": "気候移住交通コリドー",
+      "description": "コミュニティ避難プロトコルを備えた事前計画された避難ルート"
+    }
+  },
+  "integration": {
+    "title": "GGF統合アーキテクチャ",
+    "description": "モビリティコモンズはTier 2ライフサポートシステムとして機能し、より広範なグローバルガバナンスフレームワークとシームレスに連動します",
+    "constitutional": {
+      "title": "憲法的基盤",
+      "description": "Treaty for Our Only Homeが化石燃料フリー義務の権限を提供し、グローバル執行メカニズムを通じて執行"
+    },
+    "operatingSystem": {
+      "title": "オペレーティングシステムシナジー",
+      "justice": "先住民族フレームワークがFPIC 2.0プロトコルを確保し、ユニバーサルアクセス・障害正義レイヤーがアクセシビリティを監査",
+      "economic": "AUBIフレームワークが労働者移行を支援し、グローバルコモンズファンドが主要インフラ資金を提供",
+      "governance": "メタガバナンスがグローバルモビリティ評議会を調整し、危機指揮プロトコルが緊急交通を管理",
+      "technology": "Aurora Accordがモビリティデータを保護し、グローバルテクノロジー評議会がテクノロジー再利用を監督"
+    },
+    "lifeSupport": {
+      "title": "ライフサポート統合",
+      "description": "気候・エネルギーフレームワークが再生可能電力を調整、食料システムが再生的農業と交通を整合、移住・人間モビリティが気候コリドー計画を確保、災害リスク削減が緊急対応を統合"
+    }
+  }
+}

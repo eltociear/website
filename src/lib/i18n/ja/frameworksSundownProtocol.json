@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "title": "サンダウンプロトコル - 公正な移行フレームワーク",
+    "description": "有害産業の廃止と再生的未来への公正な移行を可能にするための包括的フレームワーク。化石燃料、工業農業、その他の有害セクターの管理された廃止を、労働者、コミュニティ、エコシステムのための再生的機会へと変革します。"
+  },
+  "guideCard": {
+    "title": "サンダウンプロトコルは初めてですか？",
+    "description": "公正な移行と産業変革に関する実践的な懸念に対処する、懐疑派向けのエグゼクティブサマリーから始めましょう。",
+    "buttonText": "懐疑派向けエグゼクティブサマリーを読む"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "framework": "コアフレームワーク",
+    "resources": "リソースとアクション"
+  },
+  "sections": {
+    "index": "サンダウンプロトコル",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "introduction-vision": "導入とビジョン",
+    "foundational-principles": "基盤原則",
+    "integration-architecture": "GGF統合アーキテクチャ",
+    "historical-grounding": "歴史的根拠",
+    "strategic-resilience": "戦略的レジリエンスと対抗抵抗",
+    "economic-modeling": "経済移行モデリング",
+    "stakeholder-integration": "ステークホルダー統合",
+    "implementation-phases": "5つの実装フェーズ",
+    "core-components": "コア構造コンポーネント",
+    "justice-reparations": "正義、賠償、癒し",
+    "success-metrics": "成功指標と測定",
+    "faq": "よくある異議",
+    "taking-action": "アクションを起こす",
+    "appendices": "付録"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "introduction-vision": "導入",
+    "foundational-principles": "原則",
+    "integration-architecture": "統合",
+    "historical-grounding": "歴史的事例",
+    "strategic-resilience": "戦略的レジリエンス",
+    "economic-modeling": "経済モデリング",
+    "stakeholder-integration": "ステークホルダー統合",
+    "implementation-phases": "実装フェーズ",
+    "core-components": "コアコンポーネント",
+    "justice-reparations": "正義と癒し",
+    "success-metrics": "成功指標",
+    "faq": "FAQと異議",
+    "taking-action": "アクションを起こす",
+    "appendices": "付録"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToProtocol": "プロトコル全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "loading": {
+    "text": "プロトコルコンテンツを読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "features": {
+    "justTransition": "公正な移行を第一に",
+    "workerProtection": "労働者とコミュニティの保護",
+    "restorativeJustice": "修復的・賠償的正義",
+    "polluterPays": "汚染者負担原則",
+    "orderlyDecommissioning": "秩序ある予測可能な廃止",
+    "indigenousSovereignty": "先住民族の主権",
+    "regenerativeAdvantage": "再生的アドバンテージ",
+    "strategicIncentivization": "戦略的インセンティブ化",
+    "enforceableCompliance": "執行可能なコンプライアンス",
+    "adaptiveScalability": "適応的スケーラビリティ",
+    "generationalJustice": "世代間正義"
+  },
+  "phases": {
+    "preMandate": "事前委任：パスファインダーコンパクト",
+    "phase0": "フェーズ0：移行前評価",
+    "phase1": "フェーズ1：特定と指定",
+    "phase2": "フェーズ2：移行ロードマップ共同作成",
+    "phase3": "フェーズ3：管理された廃止と修復",
+    "phase4": "フェーズ4：資産と土地スチュワードシップ移転"
+  },
+  "components": {
+    "globalTransitionCouncil": "グローバル移行評議会",
+    "officeJustTransition": "公正な移行局",
+    "legacyTransitionFund": "レガシー移行基金"
+  },
+  "metrics": {
+    "workersRetrained": "再訓練された労働者",
+    "hectaresRestored": "復元されたヘクタール",
+    "communitiesSupported": "支援されたコミュニティ",
+    "transitionJobs": "創出された移行雇用",
+    "economicDiversification": "経済多様化",
+    "workerSatisfaction": "労働者満足度"
+  },
+  "stakeholders": {
+    "legacyIndustries": "レガシー産業",
+    "workersAndCommunities": "労働者とコミュニティ",
+    "indigenousPeoples": "先住民族",
+    "youthRepresentatives": "若者代表",
+    "environmentalGroups": "環境団体",
+    "governments": "政府と政策立案者"
+  },
+  "principles": {
+    "justTransitionFirst": {
+      "title": "公正な移行を第一に",
+      "description": "労働者とコミュニティのウェルビーイングを主要な成功指標とする"
+    },
+    "restorativeJustice": {
+      "title": "修復的・賠償的正義",
+      "description": "歴史的な生態学的・社会的被害の癒し"
+    },
+    "polluterPays": {
+      "title": "汚染者負担と予防原則",
+      "description": "レガシー産業が主に移行資金を提供"
+    },
+    "orderlyDecommissioning": {
+      "title": "秩序ある予測可能な廃止",
+      "description": "管理されたタイムラインによる経済ショックの防止"
+    },
+    "indigenousSovereignty": {
+      "title": "先住民族の主権",
+      "description": "すべての伝統的土地に対するFPIC 2.0プロトコル"
+    },
+    "regenerativeAdvantage": {
+      "title": "再生的アドバンテージ",
+      "description": "先駆者が修復と循環経済のグローバルリーダーシップを獲得"
+    },
+    "strategicIncentivization": {
+      "title": "戦略的インセンティブ化",
+      "description": "参加を経済的利益を伴う機会として位置づけ"
+    },
+    "enforceableCompliance": {
+      "title": "執行可能なコンプライアンス",
+      "description": "制裁と資産差し押さえによりタイムライン遵守を確保"
+    },
+    "adaptiveScalability": {
+      "title": "適応的スケーラビリティ",
+      "description": "カスタマイズされたアプローチのための業界別モジュール"
+    },
+    "generationalJustice": {
+      "title": "世代間正義",
+      "description": "将来世代を優先した長期的成果"
+    }
+  },
+  "benefits": {
+    "economicGrowth": "予測GDP成長率2.28%増加",
+    "ecosystemServices": "年間1500億ドル相当のエコシステムサービス復元",
+    "transitionJobs": "100万の直接移行雇用創出",
+    "carbonSinks": "採掘サイトが炭素吸収源と生物多様性の避難所として再生",
+    "renewableLeadership": "修復と循環経済のグローバルリーダーシップ",
+    "communityResilience": "地域レジリエンスと経済多様化の強化"
+  },
+  "targetIndustries": {
+    "title": "対象産業",
+    "fossilFuels": "化石燃料",
+    "industrialAgriculture": "工業農業",
+    "extractiveIndustries": "採掘産業",
+    "petrochemicals": "石油化学",
+    "harmfulManufacturing": "有害製造業"
+  },
+  "realWorldExamples": {
+    "title": "実世界の成功事例",
+    "germanyEnergiewende": "ドイツのエネルギー転換（35万の再生可能エネルギー雇用）",
+    "costaRicaPES": "コスタリカの生態系サービス支払い（森林破壊の逆転）",
+    "scotlandRenewables": "スコットランドの石油から再生可能エネルギーへの移行",
+    "indigenousRestoration": "世界中の先住民コミュニティによる再生的土地スチュワードシップ"
+  },
+  "integration": {
+    "title": "GGF統合",
+    "constitutionalFoundation": "Treaty for Our Only Homeが法的権限を提供",
+    "economicSupport": "AUBIフレームワークが移行中の労働者を支援",
+    "enforcementMechanism": "非遵守に対するシールドプロトコル執行",
+    "assetTransfer": "ハースストーンフレームワークが移転資産を受領",
+    "conflictResolution": "平和と紛争解決フレームワークが癒しを促進"
+  },
+  "vision": {
+    "title": "2040年に実現されるビジョン",
+    "coalMinersGeothermal": "元炭鉱労働者が地熱設備をリード",
+    "oilRefineriesToBiofuel": "石油精製所がバイオ燃料協同組合に変革",
+    "agricultureToForests": "工業農業地域が再生的フードフォレストとして繁栄",
+    "extractionToSinks": "採掘サイトが炭素吸収源と生物多様性の避難所として再生",
+    "communityProsperity": "鉱山町が繁栄するエコツーリズムの目的地に"
+  },
+  "callToAction": {
+    "title": "呼びかけ",
+    "subtitle": "知識は存在します。方法論は実証されています。ビジョンは魅力的です。",
+    "description": "残るのは、搾取よりも再生を、企業利益よりもコミュニティケアを、混沌とした崩壊よりも癒しの変革を選ぶ集団的コミットメントです。",
+    "tagline": "搾取の時代は終わりを迎えています。再生の時代が今始まります。",
+    "invitation": "人類の最大の課題—有害産業の廃止—を、正義、癒し、再生的な豊かさへの最大の機会に変革することに参加してください。"
+  }
+}

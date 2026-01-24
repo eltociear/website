@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "グローバル・ガバナンス・フレームワーク - 完全概要",
+    "description": "危機を生み出すグローバルガバナンスから再生的な調整への変革のための包括的な青写真"
+  },
+  "title": "グローバル・ガバナンス・フレームワーク概要",
+  "subtitle": "危機を生み出すグローバルガバナンスから再生的な調整への変革のための包括的な青写真",
+  "loading": {
+    "text": "包括的なフレームワーク概要を読み込んでいます..."
+  },
+  "categories": {
+    "overview": "概要ホーム",
+    "quickStart": "クイックスタート",
+    "complete": "完全版概要",
+    "reference": "参考資料"
+  },
+  "sections": {
+    "index": "概要ホーム",
+    "executive-summary-for-the-skeptic": "懐疑的な方へのエグゼクティブサマリー",
+    "at-a-glance": "概観",
+    "introduction": "序論：ポリクライシスの課題",
+    "ggf-vision": "GGFビジョン：新しいオペレーティングシステム",
+    "foundational-architecture": "基盤アーキテクチャ：三本の柱",
+    "implementation-roadmap": "実装ロードマップ：5つのティア",
+    "thematic-clusters": "テーマ別クラスター：コア・オペレーティングシステム",
+    "living-system": "すべてがつながる仕組み：生きたシステム",
+    "invitation": "招待：変革におけるあなたの役割"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "at-a-glance": "概観",
+    "introduction": "序論",
+    "ggf-vision": "GGFビジョン",
+    "foundational-architecture": "三本の柱",
+    "implementation-roadmap": "5つのティア",
+    "thematic-clusters": "オペレーティングシステム",
+    "living-system": "生きたシステム",
+    "invitation": "あなたの役割"
+  },
+  "guideCard": {
+    "title": "グローバル・ガバナンス・フレームワークは初めてですか？",
+    "description": "1分間の概要でオリエンテーションを受けるか、意思決定者向けの実用的な説明をお読みください。",
+    "buttonTextPrimary": "概観を見る",
+    "buttonTextSecondary": "懐疑的な方へのサマリーを読む"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToOverview": "完全版概要へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツはまだ開発中です。"
+  }
+}

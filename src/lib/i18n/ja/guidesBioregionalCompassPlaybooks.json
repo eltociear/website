@@ -1,0 +1,609 @@
+{
+  "meta": {
+    "title": "専門プレイブック - バイオリージョナルコンパス",
+    "description": "ドメイン別に整理されたBAZの複雑な課題に対する高度な戦略と問題解決ガイド"
+  },
+  "title": "専門プレイブック",
+  "subtitle": "BAZの複雑な課題に対する高度な戦略と問題解決ガイド",
+  "navigation": {
+    "resources": "リソース",
+    "guides": "実装ガイド",
+    "bioregionalCompass": "バイオリージョナルコンパス",
+    "playbooks": "専門プレイブック"
+  },
+  "loading": {
+    "text": "専門プレイブックを読み込み中..."
+  },
+  "stats": {
+    "playbooks": "プレイブック",
+    "categories": "カテゴリ",
+    "strategies": "戦略"
+  },
+  "filter": {
+    "title": "課題タイプで閲覧",
+    "all": "すべてのプレイブック"
+  },
+  "categories": {
+    "legal": {
+      "title": "法的・規制上の課題",
+      "description": "法的コンプライアンス、規制ナビゲーション、制度的レジリエンスへの戦略的アプローチ",
+      "icon": "⚖️"
+    },
+    "governance": {
+      "title": "ガバナンスとリーダーシップ",
+      "description": "高度なガバナンス戦略、リーダーシップ開発、組織的レジリエンス",
+      "icon": "🏛️"
+    },
+    "relationships": {
+      "title": "対外関係とコミュニケーション",
+      "description": "ステークホルダー関係の管理、コミュニケーション戦略、紛争解決",
+      "icon": "🤝"
+    },
+    "adaptation": {
+      "title": "イノベーションと適応",
+      "description": "伝統とイノベーションのバランス、技術統合、文化的進化",
+      "icon": "🔄"
+    }
+  },
+  "playbooks": {
+    "technologyIntegrationAndResilience": {
+      "title": "技術統合とレジリエンス",
+      "description": "BAZコミュニティにおける技術採用、デジタル主権、技術的レジリエンス維持への戦略的アプローチ",
+      "category": "adaptation",
+      "difficulty": "上級",
+      "estimatedTime": "3-4週間の学習",
+      "challenges": ["技術選択", "デジタル主権", "システムレジリエンス"],
+      "sections": {
+        "overview": {
+          "title": "技術統合フレームワーク",
+          "description": "コミュニティの自律性とレジリエンスを維持しながら戦略的技術採用への包括的アプローチ",
+          "estimatedTime": "3-4時間",
+          "keyTopics": [
+            "技術評価原則",
+            "デジタル主権フレームワーク",
+            "レジリエンス計画戦略",
+            "コミュニティ管理技術"
+          ]
+        },
+        "appropriateTechnologyAssessmentAndSelection": {
+          "title": "適切な技術評価と選択",
+          "description": "コミュニティの価値観とニーズに合致する技術を評価・選択するためのフレームワーク",
+          "estimatedTime": "4-5時間",
+          "keyTopics": [
+            "技術評価基準",
+            "コミュニティニーズ分析",
+            "価値整合フレームワーク",
+            "選択決定プロセス"
+          ]
+        },
+        "digitalSovereigntyAndDataProtection": {
+          "title": "デジタル主権とデータ保護",
+          "description": "デジタルインフラに対するコミュニティ管理の確立とコミュニティデータの保護",
+          "estimatedTime": "4-5時間",
+          "keyTopics": [
+            "デジタル主権原則",
+            "データガバナンスプロトコル",
+            "プライバシー保護戦略",
+            "コミュニティ所有インフラ"
+          ]
+        },
+        "technologyResilienceAndBackupSystems": {
+          "title": "技術レジリエンスとバックアップシステム",
+          "description": "適切な冗長性とバックアップ戦略を備えたレジリエントな技術システムの構築",
+          "estimatedTime": "4-5時間",
+          "keyTopics": [
+            "レジリエンスシステム設計",
+            "バックアップと冗長性計画",
+            "障害回復プロトコル",
+            "低依存代替手段"
+          ]
+        }
+      }
+    },
+    "balancingInnovationAndTradition": {
+      "title": "イノベーションと伝統のバランス",
+      "description": "伝統的知恵と文化的継続性を尊重しながら新技術とアプローチを統合するフレームワーク",
+      "category": "adaptation",
+      "difficulty": "中級",
+      "estimatedTime": "2-3週間の学習",
+      "challenges": ["文化的統合", "イノベーション採用", "知恵の保存"],
+      "sections": {
+        "overview": {
+          "title": "イノベーション-伝統統合フレームワーク",
+          "description": "技術革新と伝統的知恵・文化保存のバランスを取る包括的アプローチ",
+          "estimatedTime": "2-3時間",
+          "keyTopics": [
+            "統合原則とフレームワーク",
+            "文化保存戦略",
+            "イノベーション評価基準",
+            "コミュニティ意思決定プロセス"
+          ]
+        },
+        "indigenousKnowledgeIntegrationAndFpic20": {
+          "title": "先住民族知識統合とFPIC 2.0",
+          "description": "先住民族の知識システムを尊重しながら統合し、強化された同意プロトコルを実装するフレームワーク",
+          "estimatedTime": "3-4時間",
+          "keyTopics": [
+            "先住民族知識システム",
+            "FPIC 2.0実装",
+            "文化プロトコル開発",
+            "知識共有協定"
+          ]
+        },
+        "culturalEvolutionAndAdaptivePractices": {
+          "title": "文化的進化と適応的実践",
+          "description": "コアの価値観とコミュニティアイデンティティを維持しながら文化的変化と適応を管理",
+          "estimatedTime": "3-4時間",
+          "keyTopics": [
+            "文化変化管理",
+            "適応的実践開発",
+            "価値保存戦略",
+            "コミュニティアイデンティティ維持"
+          ]
+        },
+        "technologyIntegrationAndDigitalSovereignty": {
+          "title": "技術統合とデジタル主権",
+          "description": "コミュニティの自律性とデジタル自己決定を維持しながら技術採用への戦略的アプローチ",
+          "estimatedTime": "3-4時間",
+          "keyTopics": [
+            "技術評価フレームワーク",
+            "デジタル主権原則",
+            "コミュニティ管理技術",
+            "データガバナンスプロトコル"
+          ]
+        }
+      }
+    },
+    "crisisAndConflictManagement": {
+      "title": "危機・紛争管理",
+      "description": "困難な時期におけるコミュニティレジリエンスを維持しながらの危機対応、紛争解決への包括的アプローチ",
+      "category": "relationships",
+      "difficulty": "上級",
+      "estimatedTime": "3-4週間の学習",
+      "challenges": ["危機対応", "紛争解決", "緊急管理"],
+      "sections": {
+        "overview": {
+          "title": "危機・紛争管理フレームワーク",
+          "description": "コミュニティのレジリエンスと結束を維持しながら危機と紛争を管理する包括的アプローチ",
+          "estimatedTime": "3-4時間",
+          "keyTopics": [
+            "危機管理原則",
+            "紛争変容フレームワーク",
+            "レジリエンス構築戦略",
+            "緊急対応調整"
+          ]
+        },
+        "internalConflictResolutionAndTransformation": {
+          "title": "内部紛争解決と変容",
+          "description": "内部コミュニティ紛争を解決し、成長の機会に変容させる戦略",
+          "estimatedTime": "4-5時間",
+          "keyTopics": [
+            "紛争調停技法",
+            "修復的司法実践",
+            "コミュニティ癒しプロセス",
+            "関係修復フレームワーク"
+          ]
+        },
+        "externalPressureManagementAndDiplomaticRelations": {
+          "title": "外部圧力管理と外交関係",
+          "description": "紛争や危機の時期に外部圧力を管理し、外交関係を維持",
+          "estimatedTime": "4-5時間",
+          "keyTopics": [
+            "外部圧力評価",
+            "外交危機管理",
+            "ステークホルダーコミュニケーション",
+            "境界維持戦略"
+          ]
+        },
+        "systemResilienceAndCrisisResponse": {
+          "title": "システムレジリエンスと危機対応",
+          "description": "システム的レジリエンスの構築と様々な種類の危機への効果的な対応の調整",
+          "estimatedTime": "4-5時間",
+          "keyTopics": [
+            "レジリエンスシステム設計",
+            "危機対応プロトコル",
+            "リソース動員",
+            "回復計画フレームワーク"
+          ]
+        }
+      }
+    },
+    "cultureWarMitigationAndExternalCommunication": {
+      "title": "カルチャーウォー緩和と対外コミュニケーション",
+      "description": "分極化した環境と敵対的な公共言説をナビゲートするためのコミュニケーション戦略とナラティブフレームワーク",
+      "category": "relationships",
+      "difficulty": "上級",
+      "estimatedTime": "2-3週間の学習",
+      "challenges": ["世論認識", "メディア関係", "ナラティブ管理"],
+      "sections": {
+        "overview": {
+          "title": "コミュニケーション戦略フレームワーク",
+          "description": "分極化した環境における対外コミュニケーションと世論認識管理への包括的アプローチ",
+          "estimatedTime": "2-3時間",
+          "keyTopics": [
+            "戦略的コミュニケーション原則",
+            "分極化分析と対応",
+            "公共ナラティブ開発",
+            "危機コミュニケーション準備"
+          ]
+        },
+        "narrativeStrategyAndFraming": {
+          "title": "ナラティブ戦略とフレーミング",
+          "description": "BAZの価値観を効果的に伝えるための説得力のあるナラティブと戦略的フレーミングの開発",
+          "estimatedTime": "3-4時間",
+          "keyTopics": [
+            "ナラティブ開発フレームワーク",
+            "戦略的メッセージフレーミング",
+            "価値ベースコミュニケーション",
+            "オーディエンス固有のメッセージング"
+          ]
+        },
+        "bridgeBuildingAndCoalitionDevelopment": {
+          "title": "橋渡しと連合開発",
+          "description": "政治的分断を超えた同盟構築と支持的連合の開発のための戦略",
+          "estimatedTime": "3-4時間",
+          "keyTopics": [
+            "超党派連合構築",
+            "共通基盤の特定",
+            "同盟開発戦略",
+            "ステークホルダーエンゲージメントプロトコル"
+          ]
+        },
+        "crisisCommunicationAndReputationManagement": {
+          "title": "危機コミュニケーションとレピュテーション管理",
+          "description": "危機時のコミュニケーション管理と攻撃下でのコミュニティ評判の維持",
+          "estimatedTime": "4-5時間",
+          "keyTopics": [
+            "危機対応プロトコル",
+            "評判防御戦略",
+            "紛争時のメディア関係",
+            "コミュニティメッセージング調整"
+          ]
+        }
+      }
+    },
+    "diplomaticPlaybook": {
+      "title": "外交プレイブック",
+      "description": "政府機関、敵対的管轄区域、複雑な政治環境との関与のための高度な外交戦略",
+      "category": "relationships",
+      "difficulty": "上級",
+      "estimatedTime": "3-4週間の学習",
+      "challenges": ["政府関係", "敵対的環境", "政治ナビゲーション"],
+      "sections": {
+        "overview": {
+          "title": "外交戦略フレームワーク",
+          "description": "BAZコミュニティのための外交的関与と政治的関係管理への包括的アプローチ",
+          "estimatedTime": "3-4時間",
+          "keyTopics": [
+            "外交原則とプロトコル",
+            "政治的景観分析",
+            "戦略的関与フレームワーク",
+            "リスク評価と緩和"
+          ]
+        },
+        "engagingStateActorsAndGovernmentRelations": {
+          "title": "国家アクターとの関与と政府関係",
+          "description": "州レベルの政府機関や当局者との生産的な関係構築のための戦略的アプローチ",
+          "estimatedTime": "4-5時間",
+          "keyTopics": [
+            "州レベル関与戦略",
+            "政府連絡プロトコル",
+            "政策アドボカシーフレームワーク",
+            "制度的関係構築"
+          ]
+        },
+        "hostileJurisdictionsAndLegalDefense": {
+          "title": "敵対的管轄区域と法的防御",
+          "description": "困難な政治環境での運営とコミュニティ利益の防御のための戦略",
+          "estimatedTime": "4-5時間",
+          "keyTopics": [
+            "敵対的環境ナビゲーション",
+            "法的防御戦略",
+            "リスク緩和プロトコル",
+            "緊急対応計画"
+          ]
+        },
+        "networkDiplomacyAndAllianceBuilding": {
+          "title": "ネットワーク外交と同盟構築",
+          "description": "戦略的同盟の構築とコミュニティネットワーク間の外交努力の調整",
+          "estimatedTime": "3-4時間",
+          "keyTopics": [
+            "同盟構築戦略",
+            "ネットワーク調整プロトコル",
+            "連合開発",
+            "マルチステークホルダーエンゲージメント"
+          ]
+        }
+      }
+    },
+    "externalRelationshipManagement": {
+      "title": "対外関係管理",
+      "description": "外部ステークホルダー、機関、コミュニティとの関係構築・維持のための戦略的フレームワーク",
+      "category": "relationships",
+      "difficulty": "中級",
+      "estimatedTime": "2-3週間の学習",
+      "challenges": ["ステークホルダー関係", "パートナーシップ構築", "境界管理"],
+      "sections": {
+        "overview": {
+          "title": "対外関係フレームワーク概要",
+          "description": "外部ステークホルダー、機関、コミュニティとの関係管理への包括的アプローチ",
+          "estimatedTime": "2-3時間",
+          "keyTopics": [
+            "ステークホルダーマッピング戦略",
+            "関係構築原則",
+            "境界管理フレームワーク",
+            "パートナーシップ開発プロトコル"
+          ]
+        },
+        "municipalGovernmentAndPublicAgencyRelations": {
+          "title": "自治体政府と公的機関との関係",
+          "description": "地方自治体や公的機関との生産的な関係構築",
+          "estimatedTime": "3-4時間",
+          "keyTopics": [
+            "自治体関与戦略",
+            "公的機関調整",
+            "サービス提供パートナーシップ",
+            "規制関係構築"
+          ]
+        },
+        "utilityProvidersAndInfrastructurePartnerships": {
+          "title": "公共事業者とインフラパートナーシップ",
+          "description": "必須インフラと公共事業サービス提供のためのパートナーシップ開発",
+          "estimatedTime": "3-4時間",
+          "keyTopics": [
+            "公共事業パートナーシップフレームワーク",
+            "インフラ統合戦略",
+            "サービスレベル契約",
+            "グリッド接続プロトコル"
+          ]
+        },
+        "regionalEconomicIntegrationAndBusinessNetworks": {
+          "title": "地域経済統合とビジネスネットワーク",
+          "description": "経済パートナーシップの構築と地域ビジネスエコシステムへの統合",
+          "estimatedTime": "4-5時間",
+          "keyTopics": [
+            "ビジネスネットワーク統合",
+            "経済パートナーシップ開発",
+            "サプライチェーン関係",
+            "地域市場関与"
+          ]
+        }
+      }
+    },
+    "scaleSpecificGovernancePathways": {
+      "title": "スケール固有のガバナンスパスウェイ",
+      "description": "ホームステッドからバイオリージョナルレベルまで、異なるスケールのBAZ開発に合わせたガバナンスアプローチ",
+      "category": "governance",
+      "difficulty": "中級",
+      "estimatedTime": "2-3週間の学習",
+      "challenges": ["スケール移行", "ガバナンス適応", "システム設計"],
+      "sections": {
+        "overview": {
+          "title": "スケール適応型ガバナンスフレームワーク",
+          "description": "コミュニティがホームステッドからバイオリージョナルスケールに成長するにつれてガバナンス構造がどのように進化すべきかの理解",
+          "estimatedTime": "2-3時間",
+          "keyTopics": [
+            "スケール感応型ガバナンス原則",
+            "移行計画フレームワーク",
+            "適応型システム設計",
+            "成長管理戦略"
+          ]
+        },
+        "homesteadToVillageTransitionGuide": {
+          "title": "ホームステッドからビレッジへの移行ガイド",
+          "description": "非公式ホームステッドガバナンスから公式ビレッジスケール民主構造への重要な移行管理",
+          "estimatedTime": "3-4時間",
+          "keyTopics": [
+            "公式化戦略",
+            "民主構造実装",
+            "コミュニティ成長管理",
+            "ガバナンス能力構築"
+          ]
+        },
+        "villageToBioregionalTransitionGuide": {
+          "title": "ビレッジからバイオリージョナルへの移行ガイド",
+          "description": "ビレッジガバナンスから複雑なバイオリージョナル調整とコミュニティ間ガバナンスへのスケールアップ",
+          "estimatedTime": "4-5時間",
+          "keyTopics": [
+            "マルチコミュニティ調整",
+            "バイオリージョナル連合設計",
+            "BAZ間ガバナンスプロトコル",
+            "複雑システム管理"
+          ]
+        }
+      }
+    },
+    "governanceResilienceAndEvolutionPlaybook": {
+      "title": "ガバナンスレジリエンスと進化プレイブック",
+      "description": "危機時の効果的なガバナンス維持、権力動態管理、ガバナンスシステム進化のための高度な戦略",
+      "category": "governance",
+      "difficulty": "上級",
+      "estimatedTime": "3-4週間の学習",
+      "challenges": ["ガバナンス危機", "権力動態", "システム進化"],
+      "sections": {
+        "overview": {
+          "title": "ガバナンスレジリエンスフレームワーク概要",
+          "description": "BAZコミュニティのための適応的でレジリエントなガバナンスシステム構築への包括的アプローチ",
+          "estimatedTime": "2-3時間",
+          "keyTopics": [
+            "ガバナンスレジリエンス原則",
+            "危機適応戦略",
+            "システム進化フレームワーク",
+            "ステークホルダーエンゲージメントプロトコル"
+          ]
+        },
+        "decisionMakingSystemsAndDeadlockResolution": {
+          "title": "意思決定システムとデッドロック解決",
+          "description": "ガバナンスデッドロックと紛争を解決するための堅牢な意思決定フレームワークとプロトコル",
+          "estimatedTime": "4-5時間",
+          "keyTopics": [
+            "合意形成メカニズム",
+            "デッドロック防止戦略",
+            "エスカレーションプロトコル",
+            "代替的意思決定パスウェイ"
+          ]
+        },
+        "powerDynamicsAndAccountabilitySystems": {
+          "title": "権力動態とアカウンタビリティシステム",
+          "description": "権力分配の管理、集中防止、アカウンタビリティメカニズムの確立",
+          "estimatedTime": "3-4時間",
+          "keyTopics": [
+            "権力マッピングと分析",
+            "アカウンタビリティフレームワーク",
+            "透明性プロトコル",
+            "リーダーシップローテーションシステム"
+          ]
+        },
+        "successionPlanningAndInstitutionalMemory": {
+          "title": "後継者計画と制度的記憶",
+          "description": "リーダーシップ移行を通じた継続性の確保と制度的知識の保存",
+          "estimatedTime": "3-4時間",
+          "keyTopics": [
+            "リーダーシップ開発パイプライン",
+            "知識移転プロトコル",
+            "制度的記憶システム",
+            "移行計画フレームワーク"
+          ]
+        }
+      }
+    },
+    "legalStrategyAndResiliencePlaybook": {
+      "title": "法的戦略とレジリエンスプレイブック",
+      "description": "複雑な規制環境をナビゲートするBAZコミュニティのための包括的な法的準備、リスク評価、レジリエンス戦略",
+      "category": "legal",
+      "difficulty": "上級",
+      "estimatedTime": "2-3週間の学習",
+      "challenges": ["法的コンプライアンス", "規制ナビゲーション", "リスク管理"],
+      "sections": {
+        "overview": {
+          "title": "戦略的法的フレームワーク概要",
+          "description": "BAZコミュニティのための法的レジリエンスへの包括的アプローチ",
+          "estimatedTime": "2-3時間",
+          "keyTopics": [
+            "法的レジリエンス原則",
+            "プロアクティブコンプライアンス戦略",
+            "リスク評価フレームワーク",
+            "コミュニティ規模の法的計画"
+          ]
+        },
+        "legalStructureDecisionTree": {
+          "title": "法的構造決定ツリー",
+          "description": "BAZに最適な法的構造を選択するための体系的フレームワーク",
+          "estimatedTime": "4-6時間",
+          "keyTopics": [
+            "事業体タイプ比較",
+            "スケール適切構造",
+            "規制コンプライアンス要件",
+            "設立プロセスロードマップ"
+          ]
+        },
+        "proactiveRegulatoryEngagement": {
+          "title": "プロアクティブ規制関与",
+          "description": "規制当局や政府機関との生産的な関係構築",
+          "estimatedTime": "3-5時間",
+          "keyTopics": [
+            "ステークホルダーマッピング戦略",
+            "関係構築プロトコル",
+            "コンプライアンスコミュニケーションフレームワーク",
+            "アドボカシーとパートナーシップ開発"
+          ]
+        },
+        "exitStrategyAndDissolutionProtocols": {
+          "title": "出口戦略と解散プロトコル",
+          "description": "優雅な出口手続きと公平な資産分配フレームワーク",
+          "estimatedTime": "2-4時間",
+          "keyTopics": [
+            "解散計画原則",
+            "資産分配フレームワーク",
+            "メンバー移行プロトコル",
+            "法的義務とコンプライアンス"
+          ]
+        }
+      }
+    },
+    "legalChallengeScenariosAndMitigations": {
+      "title": "法的課題シナリオと緩和策",
+      "description": "BAZコミュニティが直面する一般的な法的課題の詳細シナリオと対応戦略、および実践的緩和アプローチ",
+      "category": "legal",
+      "difficulty": "上級",
+      "estimatedTime": "1-2週間の学習",
+      "challenges": ["緊急対応", "コンプライアンス問題", "法的紛争"],
+      "sections": {
+        "overview": {
+          "title": "課題対応フレームワーク概要",
+          "description": "BAZコミュニティが直面する法的課題の特定、準備、対応のための戦略的フレームワーク",
+          "estimatedTime": "1-2時間",
+          "keyTopics": [
+            "法的課題特定",
+            "リスク評価方法論",
+            "対応プロトコルフレームワーク",
+            "緩和戦略開発"
+          ]
+        },
+        "regulatoryAndComplianceChallenges": {
+          "title": "規制・コンプライアンス課題",
+          "description": "代替ガバナンス構造のための一般的な規制上のハードルとコンプライアンス戦略",
+          "estimatedTime": "3-4時間",
+          "keyTopics": [
+            "ゾーニングと土地利用コンプライアンス",
+            "建築基準ナビゲーション",
+            "環境規制要件",
+            "代替構造認知"
+          ]
+        },
+        "financialAndTaxComplianceIssues": {
+          "title": "財務・税務コンプライアンス問題",
+          "description": "税務義務、代替通貨、財務報告要件のナビゲーション",
+          "estimatedTime": "3-4時間",
+          "keyTopics": [
+            "代替通貨課税",
+            "非営利コンプライアンス戦略",
+            "財務報告義務",
+            "免税パスウェイ"
+          ]
+        },
+        "emergencyServicesAndCrisisResponse": {
+          "title": "緊急サービスと危機対応",
+          "description": "緊急対応、責任管理、サービス提供のための法的フレームワーク",
+          "estimatedTime": "2-3時間",
+          "keyTopics": [
+            "緊急サービスMOU",
+            "責任管理戦略",
+            "危機対応プロトコル",
+            "公共安全調整"
+          ]
+        }
+      }
+    }
+  },
+  "ui": {
+    "viewPlaybook": "プレイブックを見る",
+    "backToPlaybooks": "すべてのプレイブックに戻る",
+    "difficulty": "難易度",
+    "estimatedTime": "所要時間",
+    "keyChallenges": "主な課題",
+    "explore": "探索",
+    "comingSoon": "近日公開",
+    "previousSection": "前へ",
+    "nextSection": "次へ",
+    "sectionProgress": "セクション {current} / {total}",
+    "studyTime": "学習時間",
+    "keyTopics": "主要トピック",
+    "scenarios": "シナリオ"
+  },
+  "help": {
+    "title": "戦略的ガイダンスが必要ですか？",
+    "text": "これらのプレイブックは、BAZ形成中に発生する可能性のある複雑な課題に対応します。現在の課題または予想されるニーズに一致するプレイブックから始めてください。",
+    "backToGuide": "メインガイドに戻る",
+    "startWithBasics": "法的戦略から始める"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "errors": {
+    "sectionNotFound": "セクションが見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。",
+    "noSectionSelected": "コンテンツを表示するにはサイドバーからセクションを選択してください。"
+  }
+}

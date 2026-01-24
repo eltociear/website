@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "文化翻訳プロトコル - グローバルガバナンスフレームワーク",
+    "description": "主権を尊重し盗用を防止しながら、多様な文化的コンテキストにガバナンスフレームワークを適応させるための包括的ガイド。"
+  },
+  "navigation": {
+    "backToResources": "リソースに戻る",
+    "downloadPdf": "完全プロトコルをダウンロード（PDF）",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション",
+    "toPhaseTwo": "フェーズIIへ続く",
+    "toPhaseThree": "フェーズIIIへ続く",
+    "backToPhaseOne": "フェーズIに戻る",
+    "backToPhaseTwo": "フェーズIIに戻る"
+  },
+  "categories": {
+    "introduction": "導入",
+    "overview": "概要",
+    "phaseOne": "フェーズI：基礎",
+    "phaseTwo": "フェーズII：実装",
+    "phaseThree": "フェーズIII：検証"
+  },
+  "sections": {
+    "introduction": "導入",
+    "overview": "プロトコル概要",
+    "purpose-foundation": "目的と基礎",
+    "recognition-principles": "認識原則",
+    "deep-dialogue": "深い対話プロセス",
+    "co-design-adaptation": "共同設計と適応",
+    "validation-integration": "検証と統合",
+    "safeguards-implementation": "セーフガードと実装"
+  },
+  "progress": {
+    "phaseOne": "フェーズI：セクション {current} / {total}",
+    "phaseTwo": "フェーズII：セクション {current} / {total}",
+    "phaseThree": "フェーズIII：セクション {current} / {total}"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "loading": {
+    "text": "プロトコルコンテンツを読み込み中..."
+  }
+}

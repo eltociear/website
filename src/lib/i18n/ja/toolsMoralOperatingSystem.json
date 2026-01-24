@@ -1,0 +1,67 @@
+{
+  "title": "Moral Operating Systemツール",
+  "subtitle": "すべての存在の権利と尊厳を認識するための倫理フレームワークと実践ツール",
+  "backToTools": "ツール概要に戻る",
+  "intro": "Moral Operating Systemは、人間、動物、生態系、AI、そして未来の存在の権利と尊厳を認識する倫理的ガバナンスを実装するための実践ツールを提供します。これらのツールはコミュニティ対話、ガバナンス意思決定、倫理フレームワーク実装をサポートします。",
+
+  "seedKitTitle": "権利シードキット",
+  "seedKitDesc": "すべての存在の権利についてコミュニティでの会話を始めるための完全パッケージ。1ページエッセンス、倫理ジレンマカード、ファシリテーションガイドを含みます。",
+  "seedKitButton": "完全キットをダウンロード",
+
+  "guidesTitle": "フレームワークガイド",
+  "guidesDesc": "Moral Operating Systemフレームワークの重要な要約と概要。",
+
+  "essenceTitle": "1ページエッセンス",
+  "essenceDesc": "尊厳、正義、すべての存在の権利を強調するMOSビジョンの簡潔で共有可能な要約。",
+
+  "executiveSummaryTitle": "懐疑論者向けエグゼクティブサマリー",
+  "executiveSummaryDesc": "一般的な懸念に対処し、倫理的ガバナンスの実世界での価値を示す実践的概要。",
+
+  "coreToolsTitle": "コアフレームワークツール",
+  "coreToolsDesc": "MOSフレームワークから直接導出された、倫理的意思決定と実装のための必須ツール。",
+
+  "rightsSpectrumTitle": "権利スペクトラム意思決定マトリックス",
+  "rightsSpectrumDesc": "動的権利スペクトラムフレームワークに対して提案を評価するための実践的チェックリスト。",
+
+  "spiralTranslationTitle": "スパイラル翻訳ガイド",
+  "spiralTranslationDesc": "異なる発達段階と世界観を超えて倫理概念をコミュニケートするためのフレームワーク。",
+
+  "aiConsciousnessTitle": "AI意識評価プロトコル",
+  "aiConsciousnessDesc": "AI意識と権利決定のためのステップバイステップ評価フレームワーク。",
+
+  "spiralMicrolearningTitle": "スパイラル対応マイクロラーニングモジュール",
+  "spiralMicrolearningDesc": "学校やコミュニティで権利意識を教えるためのインタラクティブな教育コンテンツ。",
+
+  "implementationToolsTitle": "実装ツール",
+  "implementationToolsDesc": "ガバナンスとコミュニティの環境でMOS原則を適用するための実践ガイド。",
+
+  "ecosystemPersonhoodTitle": "生態系法人格実装ガイド",
+  "ecosystemPersonhoodDesc": "河川、森林、その他の生態系の法的人格を確立するための実践ガイド。",
+
+  "communityEthicsTitle": "コミュニティ倫理監査ツールキット",
+  "communityEthicsDesc": "コミュニティがMOSコア原則に対してプロジェクトをレビューするためのシンプルなチェックリストとプロセス。",
+
+  "individualFilesTitle": "個別シードキットファイル",
+  "individualFilesDesc": "権利シードキットの個別コンポーネント。特定の用途向けに別々に利用可能。",
+
+  "onePageEssenceTitle": "1ページエッセンス（印刷用）",
+  "onePageEssenceDesc": "共有や掲示に最適な美しくデザインされた1ページ概要。",
+
+  "ethicalDilemmaTitle": "倫理ジレンマカード",
+  "ethicalDilemmaDesc": "MOS原則を探求するための挑戦的なシナリオを特集した5枚のディスカッションカード。",
+
+  "dialogueFacilitationTitle": "コミュニティ対話ファシリテーションガイド",
+  "dialogueFacilitationDesc": "権利と倫理についての生産的な会話を主催するためのステップバイステップガイド。",
+
+  "requestTitle": "追加ツールをリクエスト",
+  "requestDesc": "特定のツールが必要ですか？新しいリソースの提案がありますか？",
+  "contactLink": "お問い合わせ",
+
+  "languagesTitle": "利用可能な言語",
+
+  "downloadPDF": "PDFをダウンロード",
+  "downloadMarkdown": "Markdownをダウンロード",
+  "downloadODT": "ODTをダウンロード",
+  "downloadImage": "画像をダウンロード",
+  "downloadSVG": "SVGをダウンロード"
+}

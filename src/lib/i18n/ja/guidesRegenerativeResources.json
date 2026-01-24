@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "再生的資源スチュワードシップガイド - グローバルガバナンスフレームワーク",
+    "description": "採掘的植民地主義を防ぎ、公正な移行を確保するために、GGFフレームワークを使用して鉱物および資源スチュワードシップを統治するための包括的な実装ガイド。"
+  },
+  "loading": {
+    "text": "再生的資源ガイドを読み込み中..."
+  },
+  "guideCard": {
+    "title": "再生的資源スチュワードシップガイド",
+    "description": "採掘的植民地主義を防ぐために統合GGFフレームワークを使用して鉱物および資源スチュワードシップを統治するための実践的な実装ガイド。",
+    "downloadText": "完全ガイドをダウンロード（PDF）"
+  },
+  "navigation": {
+    "downloadPdf": "完全ガイドをダウンロード（PDF）",
+    "previousPillar": "前の柱",
+    "nextPillar": "次の柱",
+    "toSynthesis": "統合へ続く",
+    "backToGuides": "実装ガイドに戻る",
+    "frameworks": "フレームワーク",
+    "guides": "実装ガイド",
+    "currentGuide": "再生的資源"
+  },
+  "progress": {
+    "text": "柱 {current} / {total}"
+  },
+  "categories": {
+    "introduction": "導入",
+    "tableOfContents": "目次",
+    "principles": "基本原則",
+    "pillars": "再生的スチュワードシップの5つの柱",
+    "synthesis": "統合と応用"
+  },
+  "sections": {
+    "introduction": "導入",
+    "table-of-contents": "詳細目次",
+    "core-principle": "GGFの基本原則：採掘よりもスチュワードシップ",
+    "pillar-1": "第1の柱 - 先住民族の主権の優位性",
+    "pillar-2": "第2の柱 - 循環的マンデート",
+    "pillar-3": "第3の柱 - コモンズへの移行",
+    "pillar-4": "第4の柱 - 法的バックストップ",
+    "pillar-5": "第5の柱 - 倫理的サプライチェーン",
+    "unified-workflow": "統一ワークフロー - 提案から製品へ",
+    "conclusion": "再生的物質文化の構築"
+  },
+  "sectionsShort": {
+    "introduction": "導入",
+    "table-of-contents": "目次",
+    "core-principle": "基本原則",
+    "pillar-1": "先住民族の主権",
+    "pillar-2": "循環的マンデート",
+    "pillar-3": "コモンズへの移行",
+    "pillar-4": "法的バックストップ",
+    "pillar-5": "倫理的サプライチェーン",
+    "unified-workflow": "統一ワークフロー",
+    "conclusion": "結論"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  }
+}

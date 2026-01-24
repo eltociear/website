@@ -1,0 +1,29 @@
+{
+  "navigation": {
+    "backToGuides": "実装ガイドに戻る",
+    "sections": "セクション"
+  },
+  "sections": {
+    "introduction": "導入",
+    "overview": "概要",
+    "local-resilience-fund": "地域レジリエンス基金",
+    "community-work-teams": "コミュニティワークチーム",
+    "crisis-command": "危機指揮",
+    "implementation": "実装",
+    "case-studies": "ケーススタディ"
+  },
+  "actions": {
+    "downloadPdf": "PDFをダウンロード",
+    "print": "印刷"
+  },
+  "alert": {
+    "title": "これは助成金申請ではありません",
+    "description": "これは一方向の知識移転です。プロトコルを提供します。あなたは主権を保持します。"
+  },
+  "cta": {
+    "title": "始める準備はできましたか？",
+    "description": "あなたの自治体での実装について相談するにはお問い合わせください。",
+    "downloadButton": "完全なプロトコルをダウンロード",
+    "contactButton": "お問い合わせ"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "title": "環境スチュワードシップフレームワーク - 生態学的知性と権利レイヤー",
+    "description": "エコシステムの劣化、気候変動、すべての存在の権利認識に取り組む変革的環境ガバナンスのための生態学的知性と権利レイヤー"
+  },
+  "loading": {
+    "text": "環境スチュワードシップフレームワークコンテンツを読み込み中..."
+  },
+  "guideCard": {
+    "title": "環境スチュワードシップフレームワークは初めてですか？",
+    "description": "コア概念を説明し、生態学的スチュワードシップのための即時アクションステップを提供する必須ガイドから始めましょう。",
+    "buttonText": "1ページエッセンスを読む"
+  },
+  "categories": {
+    "overview": "フレームワーク概要",
+    "quickStart": "クイックスタートガイド",
+    "foundation": "基盤と原則",
+    "governance": "ガバナンスと政策",
+    "implementation": "実装とツール",
+    "appendices": "詳細付録"
+  },
+  "sections": {
+    "index": "フレームワーク概要",
+    "one-page-essence": "1ページエッセンス",
+    "first-100-days-playbook": "最初の100日プレイブック",
+    "introduction": "導入",
+    "guiding-principles": "指導原則",
+    "governance-structure": "ガバナンス構造",
+    "core-pillars": "コアの柱",
+    "policy-mechanisms": "政策メカニズム",
+    "stakeholder-engagement": "ステークホルダーエンゲージメント",
+    "financing-mechanisms": "資金調達メカニズム",
+    "implementation-roadmap": "実装ロードマップ",
+    "metrics-for-success": "成功の指標",
+    "visualizations": "可視化",
+    "challenges-and-solutions": "課題と解決策",
+    "implementation-tools": "実装ツール",
+    "reparations-protocol": "補償プロトコル",
+    "conclusion": "結論",
+    "appendices-overview": "付録概要",
+    "appendix-a": "付録A：緊急時対応計画",
+    "appendix-b": "付録B：柱戦略",
+    "appendix-c": "付録C：ロードマップ詳細",
+    "appendix-d": "付録D：リスク評価",
+    "appendix-e": "付録E：ガバナンス詳細",
+    "appendix-f": "付録F：政策実装",
+    "appendix-g": "付録G：補償詳細",
+    "appendix-h": "付録H：資金調達詳細",
+    "appendix-i": "付録I：実装ツールキット",
+    "appendix-j": "付録J：エンゲージメント資料",
+    "appendix-k": "付録K：エンゲージメント計画",
+    "appendix-l": "付録L：ケーススタディ",
+    "appendix-m": "付録M：クロスフレームワーク統合",
+    "appendix-n": "付録N：データから報酬へのパイプライン",
+    "appendix-o": "付録O：権利ハンドオフプロトコル",
+    "appendix-p": "付録P：評議会間調整",
+    "appendix-q": "付録Q：M&E指標",
+    "appendix-r": "付録R：ビジュアルギャラリー",
+    "appendix-s": "付録S：学習システム"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "one-page-essence": "1ページエッセンス",
+    "first-100-days-playbook": "最初の100日",
+    "introduction": "導入",
+    "guiding-principles": "原則",
+    "governance-structure": "ガバナンス",
+    "core-pillars": "コアの柱",
+    "policy-mechanisms": "政策ツール",
+    "stakeholder-engagement": "ステークホルダー",
+    "financing-mechanisms": "資金調達",
+    "implementation-roadmap": "ロードマップ",
+    "metrics-for-success": "指標",
+    "visualizations": "可視化",
+    "challenges-and-solutions": "課題",
+    "implementation-tools": "ツール",
+    "reparations-protocol": "補償",
+    "conclusion": "結論",
+    "appendices-overview": "付録",
+    "appendix-a": "緊急時対応計画",
+    "appendix-b": "柱戦略",
+    "appendix-c": "ロードマップ詳細",
+    "appendix-d": "リスク評価",
+    "appendix-e": "ガバナンス詳細",
+    "appendix-f": "政策実装",
+    "appendix-g": "補償詳細",
+    "appendix-h": "資金調達詳細",
+    "appendix-i": "ツールキット",
+    "appendix-j": "資料",
+    "appendix-k": "エンゲージメント計画",
+    "appendix-l": "ケーススタディ",
+    "appendix-m": "統合",
+    "appendix-n": "データパイプライン",
+    "appendix-o": "権利プロトコル",
+    "appendix-p": "調整",
+    "appendix-q": "指標",
+    "appendix-r": "可視化",
+    "appendix-s": "学習"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  }
+}

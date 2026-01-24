@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "再生的教育システム実装フレームワーク - グローバルガバナンスフレームワーク",
+    "description": "グローバル教育を再生的で包括的なエコシステムに変革するための包括的で適応可能な青写真"
+  },
+  "guideCard": {
+    "title": "再生的教育フレームワークは初めてですか？",
+    "description": "再生的教育の基本概念をわかりやすく説明するアクセスしやすいガイドから始めましょう。",
+    "buttonText": "フレームワークライトガイドを読む"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "implementation": "実装",
+    "evaluation": "評価と応用",
+    "resources": "リソース"
+  },
+  "sections": {
+    "index": "概要",
+    "quick-start": "フレームワークライトガイド",
+    "preamble": "前文とエグゼクティブサマリー",
+    "vision-principles": "ビジョンと基本原則",
+    "structural-components": "構造的コンポーネント",
+    "implementation-strategies": "実装戦略",
+    "monitoring-evaluation": "モニタリングと評価",
+    "sdg-alignment": "SDG整合性とインパクト指標",
+    "visual-multimedia": "ビジュアルとマルチメディアコンポーネント",
+    "illustrative-case-models": "例示的ケースモデル",
+    "future-potential": "将来の可能性",
+    "appendices": "付録"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "quick-start": "フレームワークライト",
+    "preamble": "前文",
+    "vision-principles": "ビジョン",
+    "structural-components": "コンポーネント",
+    "implementation-strategies": "実装",
+    "monitoring-evaluation": "モニタリング",
+    "sdg-alignment": "SDG整合性",
+    "visual-multimedia": "ビジュアル",
+    "illustrative-case-models": "ケース",
+    "future-potential": "将来",
+    "appendices": "付録"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFull": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "loading": {
+    "text": "フレームワークコンテンツを読み込み中..."
+  },
+  "intro": {
+    "title": "再生的教育システム実装フレームワーク",
+    "overview": "概要",
+    "paragraph1": "再生的教育システム実装フレームワークは、グローバル教育を変革するための包括的で適応可能な青写真です。8つの構造的コンポーネントを段階的な実装戦略と堅牢なモニタリング・評価と統合しています。",
+    "paragraph2": "このフレームワークは、グローバル教育を惑星の課題に対処できる学習者を育成する再生的で包括的なエコシステムとして再構想します。システム思考、スパイラルダイナミクス、再生的デザイン、グローバル市民性を統合し、全体的で倫理的に根ざした市民を育成します。"
+  }
+}

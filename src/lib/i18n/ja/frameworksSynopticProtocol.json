@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "title": "シノプティックプロトコル - メディアと認識的整合性のフレームワーク",
+    "description": "認識的整合性を培い、健全な議論を促進し、民主主義が要求する現実への普遍的権利を保護するための包括的フレームワーク"
+  },
+  "categories": {
+    "overview": "概要",
+    "quickReference": "サマリーとクイックリファレンス",
+    "foundation": "基盤と原則",
+    "pillars": "整合性の6つの柱",
+    "implementation": "実装とエコシステム",
+    "resources": "リソースとリファレンス"
+  },
+  "sections": {
+    "index": "フレームワーク概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "introduction": "導入とビジョン",
+    "epistemic-crisis": "認識的危機",
+    "foundational-principles": "基盤原則",
+    "six-pillars": "認識的整合性の6つの柱",
+    "implementation-governance": "実装とガバナンス",
+    "framework-integration": "フレームワーク統合",
+    "risk-mitigation": "リスク軽減と課題",
+    "advocacy-action": "アドボカシーとアクション",
+    "glossary": "用語集",
+    "appendices": "付録"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "introduction": "導入",
+    "epistemic-crisis": "認識的危機",
+    "foundational-principles": "原則",
+    "six-pillars": "6つの柱",
+    "implementation-governance": "実装",
+    "framework-integration": "統合",
+    "risk-mitigation": "リスク軽減",
+    "advocacy-action": "アクション",
+    "glossary": "用語集",
+    "appendices": "付録"
+  },
+  "guideCard": {
+    "title": "シノプティックプロトコルは初めてですか？",
+    "description": "デジタル時代の認識的整合性と民主的議論に関する実践的な懸念に対処する、懐疑派向けのエグゼクティブサマリーから始めましょう。",
+    "buttonText": "懐疑派向けエグゼクティブサマリーを読む"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "loading": {
+    "text": "認識的整合性フレームワークコンテンツを読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "pillars": {
+    "curriculum": "認識的カリキュラム",
+    "institutions": "認識的機関憲章",
+    "platforms": "アルゴリズムとプラットフォームガバナンス",
+    "publicSquare": "デジタル公共広場",
+    "justice": "認識的正義とアカウンタビリティ",
+    "crisisResponse": "認識的危機対応"
+  },
+  "principles": {
+    "humility": "認識的謙虚さ",
+    "pluralism": "視点の多元主義",
+    "veracity": "真実性と厳密性",
+    "transparency": "システム的透明性",
+    "nonMaleficence": "無危害",
+    "resilience": "適応的レジリエンス",
+    "praxis": "解放的実践",
+    "reparations": "認識的賠償",
+    "justice": "言語的正義",
+    "rightToReality": "現実への普遍的権利"
+  },
+  "threatTiers": {
+    "tier0": "存在的認識的脅威",
+    "tier1": "システム的認識的戦争",
+    "tier2": "調整された悪意ある偽情報",
+    "tier3": "アルゴリズム的・構造的歪み",
+    "tierNeg1": "長期的認知的浸食",
+    "crossTier": "経済的インセンティブ"
+  },
+  "institutions": {
+    "globalCouncil": "認識的整合性グローバル評議会",
+    "epistemicInstitutions": "公共認識的機関",
+    "digitalJustice": "デジタル正義法廷",
+    "rapidResponse": "迅速対応チーム"
+  },
+  "legal": {
+    "rightToReality": "現実への普遍的権利",
+    "systemicHarm": "システム的認識的被害",
+    "restitutionFund": "グローバル賠償基金",
+    "epistemicAsylum": "認識的亡命保護"
+  }
+}

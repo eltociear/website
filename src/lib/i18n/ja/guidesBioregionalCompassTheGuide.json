@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "title": "完全形成ガイド - バイオリージョナルコンパス",
+    "description": "BAZ形成の6つの柱を通じたステップバイステップの旅"
+  },
+  "title": "完全形成ガイド",
+  "subtitle": "BAZ形成の6つの柱を通じたステップバイステップの旅",
+  "navigation": {
+    "resources": "リソース",
+    "guides": "実装ガイド",
+    "bioregionalCompass": "バイオリージョナルコンパス",
+    "theGuide": "完全ガイド",
+    "previous": "前へ",
+    "next": "次へ"
+  },
+  "loading": {
+    "text": "ガイドコンテンツを読み込み中..."
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。",
+    "invalidSection": "無効なセクション",
+    "selectValidSection": "目次から有効なセクションを選択してください。"
+  },
+  "stats": {
+    "sections": "セクション",
+    "minutesRead": "分で読了",
+    "pillars": "柱"
+  },
+  "tableOfContents": {
+    "title": "目次",
+    "foundation": "基礎",
+    "pillars": "6つの柱",
+    "graduation": "卒業"
+  },
+  "sections": {
+    "introduction": {
+      "title": "導入",
+      "description": "バイオリージョナル自治区のビジョンと目的を理解する"
+    },
+    "howToUseThisGuide": {
+      "title": "このガイドの使い方",
+      "description": "自信と明確さを持って形成プロセスをナビゲート"
+    },
+    "definingYourMinimumViableBaz": {
+      "title": "最小実行可能BAZの定義",
+      "description": "コミュニティのための現実的なマイルストーンと成功指標を設定"
+    },
+    "pillar0": {
+      "title": "内なる大地",
+      "subtitle": "新しい世界のための意識の育成",
+      "description": "個人的実践とコミュニティ対話を通じて内なるレジリエンスと集合的意識を構築"
+    },
+    "pillar1": {
+      "title": "火花",
+      "subtitle": "ビジョンと合意形成",
+      "description": "信頼構築と共有ビジョンの創造を通じて集合的意志に火をつける"
+    },
+    "pillar2": {
+      "title": "私たちの場所を見つける",
+      "subtitle": "バイオリージョンの定義",
+      "description": "先住民族のガイダンスとともに、あなたの場所の生態学的・文化的輪郭をマッピング"
+    },
+    "pillar3": {
+      "title": "器を造る",
+      "subtitle": "法的・制度的足場",
+      "description": "BAZの志のための法的容器とガバナンス構造を創造"
+    },
+    "pillar4": {
+      "title": "評議会を編む",
+      "subtitle": "ガバナンス形成",
+      "description": "先住民族の知恵と参加型民主主義に根ざしたガバナンスシステムを構築"
+    },
+    "pillar5": {
+      "title": "OSをインストール",
+      "subtitle": "コアGGFフレームワーク統合",
+      "description": "惑星的接続のためのグローバルガバナンスフレームワークプロトコルを統合"
+    },
+    "pillar6": {
+      "title": "エンジンに点火",
+      "subtitle": "経済的主権",
+      "description": "Hearts、Leaves、AUBIシステムで再生的経済を活性化"
+    },
+    "graduation": {
+      "title": "BAZになる：卒業とネットワーク統合",
+      "description": "形成プロセスを完了し、グローバルBAZネットワークに接続"
+    }
+  },
+  "sectionTypes": {
+    "foundation": "基礎",
+    "pillar": "柱",
+    "graduation": "卒業"
+  },
+  "concepts": {
+    "baz": {
+      "title": "バイオリージョナル自治区（BAZ）",
+      "description": "人間コミュニティを生態学的境界と先住民族のスチュワードシッププロトコルに整合させるガバナンスモデル"
+    },
+    "mvb": {
+      "title": "最小実行可能BAZ（MVB）",
+      "description": "コミュニティを計画から運用BAZステータスへ移行させる最初のマイルストーン"
+    },
+    "pillars": {
+      "title": "6つの柱",
+      "description": "内的作業から経済的主権までのBAZ形成の基礎段階"
+    },
+    "innerGround": {
+      "title": "内なる大地",
+      "description": "再生的コミュニティを支える意識と個人的実践"
+    },
+    "spark": {
+      "title": "火花",
+      "description": "コミュニティ形成に火をつける集合的ビジョンと合意"
+    },
+    "place": {
+      "title": "場所を見つける",
+      "description": "ガバナンスのためのバイオリージョナルコンテキストの理解とマッピング"
+    },
+    "vessel": {
+      "title": "器",
+      "description": "BAZ運用を支える法的・制度的構造"
+    },
+    "council": {
+      "title": "評議会",
+      "description": "先住民族の知恵と参加型民主主義に基づくガバナンスシステム"
+    },
+    "os": {
+      "title": "OS",
+      "description": "グローバルガバナンスフレームワークのプロトコルとネットワークとの統合"
+    },
+    "engine": {
+      "title": "エンジン",
+      "description": "ケアワークと生態系スチュワードシップに報酬を与える経済システム"
+    }
+  },
+  "phases": {
+    "foundation": {
+      "title": "基礎フェーズ",
+      "description": "内的作業、ビジョン、バイオリージョナルな理解を通じて基盤を築く",
+      "timeframe": "1-6ヶ月目",
+      "focus": "準備と整合"
+    },
+    "formation": {
+      "title": "形成フェーズ",
+      "description": "法的フレームワーク、ガバナンス、GGF統合を通じて構造を構築",
+      "timeframe": "6-18ヶ月目",
+      "focus": "構造とシステム"
+    },
+    "activation": {
+      "title": "活性化フェーズ",
+      "description": "経済システムをローンチし、完全なBAZステータスへ卒業",
+      "timeframe": "18-36ヶ月目",
+      "focus": "実装と運用"
+    }
+  },
+  "readingGuide": {
+    "sequential": {
+      "title": "順次読書",
+      "description": "完全な形成の旅のために柱を順番に読む",
+      "recommended": "初めての読者と新しいコミュニティ向け"
+    },
+    "modular": {
+      "title": "モジュラー読書",
+      "description": "現在のニーズに基づいて特定の柱にジャンプ",
+      "recommended": "経験豊富なコミュニティと特定の課題向け"
+    },
+    "reference": {
+      "title": "参照使用",
+      "description": "実装中に必要に応じてセクションに戻る",
+      "recommended": "アクティブなBAZ形成プロセス向け"
+    }
+  },
+  "resources": {
+    "templates": "テンプレートとワークシート",
+    "caseStudies": "ケーススタディと例",
+    "tools": "実装ツール",
+    "support": "コミュニティサポート",
+    "legal": "法的ガイダンス",
+    "technical": "技術リソース"
+  },
+  "milestones": {
+    "convening": "召集サークルの形成",
+    "vision": "共有ビジョンの確立",
+    "mapping": "バイオリージョナルマッピング完了",
+    "legal": "法的構造の選択",
+    "governance": "ガバナンスシステム稼働",
+    "integration": "GGF統合完了",
+    "economy": "経済システムローンチ",
+    "graduation": "BAZステータス達成"
+  },
+  "support": {
+    "mentorship": "メンターコミュニティに接続",
+    "workshops": "形成ワークショップに参加",
+    "network": "BAZネットワークにアクセス",
+    "resources": "リソースライブラリをダウンロード",
+    "consultation": "専門家相談を受ける"
+  },
+  "footer": {
+    "note": "この包括的ガイドは、世界中のバイオリージョナルコミュニティの集合的知恵を表しています。各BAZは、生態系スチュワードシップと社会正義へのコアコミットメントを維持しながら、これらの原則をそれぞれのユニークなコンテキストに適応させます。",
+    "license": "クリエイティブ・コモンズ表示-継承4.0の下でライセンス",
+    "lastUpdated": "最終更新"
+  }
+}

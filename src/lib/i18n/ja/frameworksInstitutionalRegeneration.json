@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "title": "制度再生フレームワーク - グローバルガバナンスフレームワーク",
+    "description": "自発的でインセンティブ主導の進化を通じて、国際組織を俊敏性、包括性、有効性に向けて変革するための包括的フレームワーク"
+  },
+  "guideCard": {
+    "title": "組織の再生を始める",
+    "description": "エグゼクティブサマリーから始めて課題を理解し、次に再生コンパクトを探索して変革の旅を始めましょう。",
+    "toolButton": "ステークホルダーマッピングツールを試す",
+    "compactButton": "再生コンパクトを探索"
+  },
+  "categories": {
+    "foundation": "フレームワーク基盤",
+    "seedTrack": "シードトラックMVP"
+  },
+  "sections": {
+    "executive-summary": "エグゼクティブサマリーと資金調達機会",
+    "regeneration-compact": "再生コンパクト（パートナーシップMOU）",
+    "seed-track-mvp/introduction": "シードトラック導入",
+    "seed-track-mvp/module-1": "モジュール1：目的とマンデート監査",
+    "seed-track-mvp/module-2": "モジュール2：ガバナンスアップグレードキット",
+    "seed-track-mvp/module-3": "モジュール3：文化変革ツールキット",
+    "seed-track-mvp/next-steps": "実装ロードマップと次のステップ"
+  },
+  "sectionsShort": {
+    "executive-summary": "エグゼクティブサマリー",
+    "regeneration-compact": "パートナーシップ契約",
+    "seed-track-mvp/introduction": "導入",
+    "seed-track-mvp/module-1": "目的とマンデート監査",
+    "seed-track-mvp/module-2": "ガバナンスアップグレード",
+    "seed-track-mvp/module-3": "文化変革",
+    "seed-track-mvp/next-steps": "次のステップ"
+  },
+  "progress": {
+    "text": "モジュール {current} / {total}"
+  },
+  "actions": {
+    "downloadExecutive": "エグゼクティブサマリーPDFをダウンロード",
+    "downloadCompact": "再生コンパクトPDFをダウンロード",
+    "downloadSeedTrack": "シードトラックMVP PDFをダウンロード",
+    "openTool": "ステークホルダーマッピングツールを開く"
+  },
+  "navigation": {
+    "previousModule": "前のモジュール",
+    "nextModule": "次のモジュール",
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む"
+  },
+  "languageFallback": {
+    "title": "翻訳進行中",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "loading": {
+    "text": "フレームワークコンテンツを読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このセクションのコンテンツは開発中で、近日公開予定です"
+  },
+  "stakeholderTool": {
+    "title": "ステークホルダーとパワーマッピング演習",
+    "description": "組織の政治的ランドスケープをマッピングし、再生計画のためのサポーター、抵抗者、影響パターンを特定するインタラクティブツール。",
+    "openButton": "マッピングツールを開く",
+    "downloadButton": "ツールをダウンロード（HTML）"
+  },
+  "downloads": {
+    "executiveSummary": {
+      "title": "エグゼクティブサマリーと投資機会",
+      "description": "制度変革のための課題、ソリューション、実装戦略の包括的概要。",
+      "size": "約2ページ"
+    },
+    "regenerationCompact": {
+      "title": "再生コンパクト（パートナーシップMOU）",
+      "description": "変革の旅を始める組織向けの使用可能な覚書テンプレート。",
+      "size": "約2ページ"
+    },
+    "seedTrackMvp": {
+      "title": "シードトラックMVP実装ガイド",
+      "description": "リソース制約のある組織が即時のインパクトで再生を開始するための完全な合理化されたフレームワーク。",
+      "size": "約15ページ"
+    },
+    "stakeholderTool": {
+      "title": "ステークホルダーマッピングインタラクティブツール",
+      "description": "組織の政治的ランドスケープをマッピングし、再生戦略を計画するための1ページHTMLワークシート。",
+      "size": "インタラクティブHTML"
+    }
+  },
+  "framework": {
+    "version": "0.8",
+    "status": "実装準備完了",
+    "modules": "5つのコアモジュール",
+    "seedTrackModules": "3つの必須モジュール",
+    "targetOrganizations": "IGO、国連機関、地域機関",
+    "implementationTime": "6-24ヶ月",
+    "resourceRequirement": "シードトラックは20-30%"
+  },
+  "quickStats": {
+    "institutionsTargeted": "世界200以上のIGO",
+    "combinedBudgets": "年間500億ドル以上",
+    "efficiencyGains": "25-40%の改善可能性",
+    "implementationCost": "フェーズ1で250万ドル",
+    "expectedRoi": "5倍の効率改善"
+  }
+}

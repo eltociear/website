@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "title": "バイオリージョナル・ポリス - 先住民族主導の都市フレームワーク",
+    "description": "先住民族の知恵と参加型民主主義に導かれた再生的エコシステムへと都市を変革する"
+  },
+  "guideCard": {
+    "title": "バイオリージョナル・ポリスは初めてですか？",
+    "description": "先住民族の知恵と参加型民主主義に導かれた再生的エコシステムに都市がどのようになれるかを理解するために、エグゼクティブサマリーから始めましょう。",
+    "buttonText": "エグゼクティブサマリーを読む"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "framework": "コアフレームワーク",
+    "practical": "実装"
+  },
+  "sections": {
+    "index": "フレームワーク概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "introduction-vision": "導入とビジョン",
+    "framework-foundations": "フレームワークの基盤",
+    "five-dimensions": "5つの機能的次元",
+    "indigenous-governance": "先住民族主導のガバナンス",
+    "integration-architecture": "GGF統合アーキテクチャ",
+    "implementation-pathways": "実装パスウェイ",
+    "success-stories": "成功事例とケーススタディ",
+    "thrivability-scorecard": "都市繁栄スコアカード",
+    "getting-started": "はじめに",
+    "resources-tools": "リソースとツール"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "introduction-vision": "ビジョン",
+    "framework-foundations": "基盤",
+    "five-dimensions": "5つの次元",
+    "indigenous-governance": "先住民族ガバナンス",
+    "integration-architecture": "統合",
+    "implementation-pathways": "実装",
+    "success-stories": "成功事例",
+    "thrivability-scorecard": "繁栄スコアカード",
+    "getting-started": "はじめに",
+    "resources-tools": "リソース"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "loading": {
+    "text": "フレームワークコンテンツを読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "features": {
+    "indigenousLed": {
+      "title": "先住民族主導のガバナンス",
+      "description": "儀式プロトコルとFPIC 2.0を伴う40%の先住民族代表"
+    },
+    "fiveDimensions": {
+      "title": "5つの機能的次元",
+      "description": "ガバナンス、経済、法律、テクノロジー、ビジョンへの統合的アプローチ"
+    },
+    "ecosystemRights": {
+      "title": "エコシステムの権利",
+      "description": "都市の河川、森林、野生生物回廊に法的人格を付与"
+    },
+    "regenerativeEconomy": {
+      "title": "Hearts & Leaves経済",
+      "description": "市民参加と生態系スチュワードシップを報酬"
+    },
+    "universalServices": {
+      "title": "ユニバーサルベーシックサービス",
+      "description": "すべての住民に無料の交通、医療、必須サービス"
+    },
+    "biophilicDesign": {
+      "title": "バイオフィリックな都市デザイン",
+      "description": "緑の回廊と都市サンクチュアリによる30%の生物多様性増加"
+    }
+  },
+  "targets": {
+    "fifteenMinute": {
+      "title": "15分都市",
+      "description": "2035年までに住民の100%が必須サービスから1km以内"
+    },
+    "biodiversity": {
+      "title": "生物多様性増加",
+      "description": "在来種の個体数30%増加"
+    },
+    "climateAdaptation": {
+      "title": "気候レジリエンス",
+      "description": "都市ヒートアイランド効果の50%削減"
+    },
+    "universalAccess": {
+      "title": "ユニバーサルアクセス",
+      "description": "能力や収入に関係なく基本サービスへの100%アクセス"
+    },
+    "zeroWaste": {
+      "title": "サーキュラーエコノミー",
+      "description": "循環システムによる90%の廃棄物削減"
+    },
+    "carbonNeutral": {
+      "title": "カーボンポジティブ",
+      "description": "排出する以上の炭素を吸収する都市"
+    }
+  },
+  "dimensions": {
+    "governance": {
+      "title": "先住民族主導の市民集会",
+      "subtitle": "ガバナンスの心臓",
+      "description": "先住民族に導かれた集団的意思決定による参加型バイオリージョナル民主主義"
+    },
+    "economy": {
+      "title": "参加を力づける",
+      "subtitle": "ポリスの経済",
+      "description": "Hearts & Leaves通貨と再生的経済インセンティブ"
+    },
+    "legal": {
+      "title": "権利と責任の執行",
+      "subtitle": "ポリスの法的権限",
+      "description": "デジタル正義によるエコシステムの権利と公平性の執行"
+    },
+    "technology": {
+      "title": "都市スチュワードシップのための倫理的テクノロジー",
+      "subtitle": "ポリスのデジタルツール",
+      "description": "AIガバナンス、デジタルツイン、先住民族データ主権"
+    },
+    "vision": {
+      "title": "再生的デザイン政策",
+      "subtitle": "ポリスのビジョン",
+      "description": "15分都市、バイオフィリックデザイン、気候適応"
+    }
+  },
+  "principles": {
+    "indigenousSovereignty": "先住民族主権",
+    "ecologicalLimits": "生態学的限界",
+    "equityJustice": "公平と正義",
+    "systemsIntegration": "システム統合",
+    "resilience": "レジリエンス",
+    "localEmpowerment": "地域エンパワーメント",
+    "seventhGeneration": "七世代への責任",
+    "culturalVibrancy": "文化的活力"
+  },
+  "implementation": {
+    "phases": {
+      "foundation": "基盤フェーズ（2025-2027）",
+      "expansion": "拡大フェーズ（2028-2030）",
+      "integration": "統合フェーズ（2031-2035）",
+      "maturation": "成熟フェーズ（2036-2040）"
+    },
+    "entryPoints": {
+      "observer": "オブザーバーステータス",
+      "pilot": "パイロット参加",
+      "partnership": "フルパートナーシップ",
+      "leadership": "イノベーションリーダーシップ"
+    }
+  },
+  "gettingStarted": {
+    "urbanLeaders": {
+      "title": "都市リーダー向け",
+      "steps": [
+        "先住民族との関係と領土的コンテキストを評価する",
+        "先住民族コミュニティとの敬意あるパートナーシップを構築する",
+        "都市菜園や河川再生などのパイロットプロジェクトを開始する",
+        "エコシステムの権利のための法制度を整備する"
+      ]
+    },
+    "indigenousCommunities": {
+      "title": "先住民族コミュニティ向け",
+      "steps": [
+        "都市地域との伝統的関係を文書化する",
+        "FPIC 2.0とレッドラインの手続きを確立する",
+        "知識主権プロトコルを開発する",
+        "都市コミュニティとの同盟を構築する"
+      ]
+    },
+    "citizens": {
+      "title": "市民・組織向け",
+      "steps": [
+        "あなたのバイオリージョンの先住民族の歴史を学ぶ",
+        "市民集会とコミュニティ評議会に参加する",
+        "エコシステムの権利と先住民族主権を支援する",
+        "地域の再生プロジェクトを開始する"
+      ]
+    },
+    "funders": {
+      "title": "資金提供者・投資家向け",
+      "steps": [
+        "再生的都市プロジェクトに資本を向ける",
+        "グローバルセキュリティ・探索トラストと提携する",
+        "協同組合とコミュニティ管理の開発を支援する",
+        "先住民族主導の都市研究に投資する"
+      ]
+    }
+  },
+  "scorecard": {
+    "title": "都市繁栄スコアカード",
+    "description": "5つの主要次元にわたる進捗を追跡する包括的測定システム",
+    "dimensions": {
+      "ecological": {
+        "title": "生態系健全性（25%）",
+        "metrics": [
+          "在来種の個体数増加",
+          "大気・水質の改善",
+          "炭素吸収と排出削減",
+          "廃棄物削減とサーキュラーエコノミー"
+        ]
+      },
+      "social": {
+        "title": "社会的公平性（25%）",
+        "metrics": [
+          "ユニバーサルベーシックサービスへのアクセス率",
+          "障害者対応の遵守",
+          "ジェンダー/クィア空間正義指標",
+          "経済的不平等の指標"
+        ]
+      },
+      "democratic": {
+        "title": "民主的参加（20%）",
+        "metrics": [
+          "市民集会への参加レベル",
+          "先住民族コミュニティの代表性",
+          "ガバナンスへの若者参加",
+          "文化イベントと儀式の頻度"
+        ]
+      },
+      "economic": {
+        "title": "経済的再生（20%）",
+        "metrics": [
+          "Hearts/Leaves通貨の流通",
+          "地域ビジネスの発展",
+          "グリーンジョブの創出",
+          "コミュニティの富の構築"
+        ]
+      },
+      "resilience": {
+        "title": "将来のレジリエンス（10%）",
+        "metrics": [
+          "気候適応への備え",
+          "七世代影響評価",
+          "インフラレジリエンス評価",
+          "文化的知識の保存"
+        ]
+      }
+    }
+  },
+  "callToAction": {
+    "title": "呼びかけ",
+    "description": "都市は害を与えるものではなく癒すものに、抽出するものではなく再生するものに、人間だけの空間ではなくすべての生命の家になれます。",
+    "subtitle": "私たちの共有するバイオリージョナルな故郷のすべての住民の間の生きた契約として都市を再構想することに参加してください。"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "title": "ハースストーンプロトコル - コモンズとスチュワードシップフレームワーク",
+    "description": "搾取的所有から再生的スチュワードシップへの移行、コモンズベースの資産ガバナンスとコミュニティ管理のための法的経路を確立する包括的フレームワーク"
+  },
+  "guideCard": {
+    "title": "ハースストーンプロトコルは初めてですか？",
+    "description": "懐疑派向けのエグゼクティブサマリーから始めましょう—財産変革、法的フレームワーク、コミュニティスチュワードシップ移行に関する実践的な懸念に対応します。",
+    "buttonText": "懐疑派向けエグゼクティブサマリーを読む"
+  },
+  "categories": {
+    "overview": "フレームワーク概要",
+    "foundation": "基盤とクイックリファレンス",
+    "vision": "ビジョンと原則",
+    "mechanics": "コアメカニクス",
+    "ecosystem": "エコシステムとリスク",
+    "resources": "リソースとリファレンス"
+  },
+  "sections": {
+    "index": "導入と概要",
+    "at-a-glance": "フレームワーク概要",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "introduction": "導入：搾取からスチュワードシップへ",
+    "theory-of-change": "変革の理論",
+    "core-principles": "基本原則",
+    "commons-architecture": "コモンズアーキテクチャ",
+    "asset-transition-pathways": "資産移行パスウェイ",
+    "legal-cultural-framework": "法的・文化的フレームワーク",
+    "economic-integration": "経済統合",
+    "implementation-strategy": "実装戦略",
+    "framework-integration": "フレームワーク統合",
+    "risk-mitigation": "リスク軽減",
+    "advocacy-action": "アドボカシーとアクション",
+    "glossary": "用語集",
+    "appendices": "付録"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "introduction": "導入",
+    "theory-of-change": "変革の理論",
+    "core-principles": "基本原則",
+    "commons-architecture": "コモンズアーキテクチャ",
+    "asset-transition-pathways": "移行パスウェイ",
+    "legal-cultural-framework": "法的フレームワーク",
+    "economic-integration": "経済統合",
+    "implementation-strategy": "実装",
+    "framework-integration": "統合",
+    "risk-mitigation": "リスク軽減",
+    "advocacy-action": "アドボカシーとアクション",
+    "glossary": "用語集",
+    "appendices": "付録"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション",
+    "backToTop": "トップに戻る",
+    "printVersion": "印刷版"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}",
+    "completing": "フレームワークを完了中",
+    "readingTime": "読了時間"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。すべてのコンテンツをお好みの言語で利用可能にするよう取り組んでいます。"
+  },
+  "loading": {
+    "text": "コモンズスチュワードシップフレームワークコンテンツを読み込み中...",
+    "sections": "フレームワークセクションを読み込み中...",
+    "translations": "翻訳を読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中で、近日公開予定です。",
+    "translationMissing": "このセクションの翻訳がありません",
+    "loadingFailed": "フレームワークコンテンツの読み込みに失敗しました"
+  },
+  "accessibility": {
+    "skipToContent": "メインコンテンツにスキップ",
+    "navigationMenu": "フレームワークナビゲーションメニュー",
+    "sectionNavigation": "セクションナビゲーション",
+    "toggleAccordion": "セクションアコーディオンを切り替え",
+    "currentSection": "現在のセクション",
+    "expandedSection": "展開されたセクション"
+  },
+  "features": {
+    "stewardshipTrusts": "スチュワードシップトラスト",
+    "rematriation": "土地返還",
+    "commonsArchitecture": "コモンズアーキテクチャ",
+    "assetTransition": "資産移行",
+    "legalFramework": "法的イノベーション",
+    "economicIntegration": "経済統合",
+    "riskMitigation": "リスク管理",
+    "implementation": "実装戦略"
+  },
+  "benefits": {
+    "communitySovereignty": "コミュニティ主権",
+    "ecologicalStewardship": "エコロジカルスチュワードシップ",
+    "economicJustice": "経済的正義",
+    "culturalPreservation": "文化保存",
+    "legalInnovation": "法的イノベーション",
+    "systematicChange": "システム的変革"
+  },
+  "keyTerms": {
+    "stewardshipTrust": "スチュワードシップトラスト",
+    "commonsArchitecture": "コモンズアーキテクチャ",
+    "rematriationProtocol": "返還プロトコル",
+    "sacredTrustDesignation": "神聖信託指定",
+    "bioCulturalStewardship": "バイオカルチュラルスチュワードシップ",
+    "commonsConversionBonds": "コモンズ転換債券",
+    "stewardshipLinkedValuation": "スチュワードシップ連動評価",
+    "internationalCommmonsCourt": "国際コモンズ裁判所"
+  },
+  "callsToAction": {
+    "supportLandBack": "ランドバック運動を支援する",
+    "joinCommunityLandTrusts": "コミュニティランドトラストに参加する",
+    "advocateCooperatives": "協同組合企業を提唱する",
+    "implementStewardship": "スチュワードシップ実践を実装する",
+    "participateTransition": "コモンズ移行に参加する",
+    "educateAndOrganize": "教育と組織化を行う"
+  },
+  "downloadOptions": {
+    "fullFramework": "フルフレームワークPDF",
+    "executiveSummary": "エグゼクティブサマリーPDF",
+    "implementationGuide": "実装ガイドPDF",
+    "legalToolkit": "法的ツールキットPDF",
+    "quickReference": "クイックリファレンスPDF"
+  }
+}

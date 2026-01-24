@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "ガイアン貿易フレームワーク：惑星癒しのための再生的商業",
+    "description": "先住民族の主権、惑星スチュワードシップ、再生的商業を通じてグローバル貿易を搾取から再生へと変革する神聖な契約"
+  },
+  "quickStart": {
+    "new": "再生的貿易は初めてですか？",
+    "start": "グローバル商業を搾取から再生へ変革することを説明するクイックガイドから始めましょう。",
+    "button": "ガイドを選択",
+    "title": "ガイアン貿易クイックスタート",
+    "description": "ニーズに最適なバージョンを選択してください：",
+    "download": "PDF版をダウンロード",
+    "continue": "フレームワーク全体へ進む",
+    "guides": [
+      {
+        "id": "at-a-glance",
+        "icon": "⚡",
+        "title": "概要",
+        "description": "再生的貿易変革の5分概要"
+      },
+      {
+        "id": "executive-summary-for-the-skeptic",
+        "icon": "🤔",
+        "title": "懐疑派向け",
+        "description": "貿易変革の現実的なビジネスケース"
+      }
+    ]
+  },
+  "categories": {
+    "overview": "フレームワーク概要",
+    "foundations": "神聖な基盤",
+    "governance": "ガバナンスと変革",
+    "mechanisms": "貿易メカニズムと統合",
+    "implementation": "ツールと実装",
+    "resources": "結論とリソース"
+  },
+  "sections": {
+    "index": "フレームワーク概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "introduction": "導入：物質的親族関係の網を編み直す",
+    "sacred-covenant": "神聖な契約",
+    "core-principles": "基本原則：物質的交換の羅針盤",
+    "governance-architecture": "ガバナンスアーキテクチャ：惑星資源の民主主義",
+    "key-mechanisms": "主要メカニズムと政策：再生的貿易のツール",
+    "implementation-pathways": "実装パスウェイ：ビジョンから惑星変革へ",
+    "regional-integration": "地域統合：グローバル商業における地域の知恵を尊重する",
+    "crisis-response": "危機対応とレジリエンス：プレッシャー下でのスチュワードシップ",
+    "monitoring-evaluation": "モニタリングと評価：再生的インパクトの追跡",
+    "tools-resources": "ツールとリソース",
+    "getting-started": "はじめに",
+    "conclusion": "結論：神聖な交換の未来を織る",
+    "appendices": "付録"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向け",
+    "introduction": "導入",
+    "sacred-covenant": "神聖な契約",
+    "core-principles": "基本原則",
+    "governance-architecture": "ガバナンスアーキテクチャ",
+    "key-mechanisms": "主要メカニズム",
+    "implementation-pathways": "実装パスウェイ",
+    "regional-integration": "地域統合",
+    "crisis-response": "危機対応",
+    "monitoring-evaluation": "モニタリングと評価",
+    "tools-resources": "ツールとリソース",
+    "getting-started": "はじめに",
+    "conclusion": "結論",
+    "appendices": "付録"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "introduction": {
+    "continue": "神聖な契約へ進む"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "loading": {
+    "text": "再生的貿易フレームワークを読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  }
+}

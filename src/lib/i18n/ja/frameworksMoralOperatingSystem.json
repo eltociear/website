@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "道徳的オペレーティングシステム：惑星ガバナンスの倫理的ソースコード - グローバルガバナンスフレームワーク",
+    "description": "動的権利スペクトラム、分散型ガーディアンシップ、正しい関係性の原則を通じた人間、動物、エコシステム、AI、未来の存在の権利"
+  },
+  "quickStart": {
+    "new": "道徳的オペレーティングシステムは初めてですか？",
+    "start": "すべての存在の権利と倫理的ガバナンスを説明するクイックガイドから始めましょう。",
+    "button": "ガイドを選ぶ",
+    "title": "道徳的オペレーティングシステムクイックスタート",
+    "description": "ニーズに最も合うバージョンを選んでください：",
+    "download": "PDF版をダウンロード",
+    "continue": "フレームワーク全体へ進む",
+    "guides": [
+      {
+        "id": "essence",
+        "icon": "💎",
+        "title": "1ページエッセンス",
+        "description": "60秒ですべての存在の権利を理解"
+      },
+      {
+        "id": "executive-summary-for-the-skeptic",
+        "icon": "🤔",
+        "title": "懐疑派向け",
+        "description": "倫理的ガバナンスのビジネスケース"
+      }
+    ]
+  },
+  "categories": {
+    "layer1": "レイヤー1：エッセンスとプリアンブル",
+    "layer2": "レイヤー2：コアフレームワーク",
+    "layer3": "レイヤー3：実装",
+    "layer4": "レイヤー4：哲学",
+    "ecosystem": "エコシステム統合"
+  },
+  "sections": {
+    "index": "フレームワーク概要",
+    "essence": "1ページエッセンス",
+    "preamble": "プリアンブル",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "introduction": "導入",
+    "foundational-values-principles": "基盤となる価値観と原則",
+    "rights-commitments": "権利コミットメント",
+    "governance-integration": "ガバナンス統合",
+    "implementation-plan": "実装計画",
+    "appendix-a": "付録A：原則と翻訳",
+    "appendix-b": "付録B：権利詳細とケース",
+    "appendix-c": "付録C：ガバナンスメカニズム",
+    "appendix-d": "付録D：実装ツール",
+    "what-is-a-right": "権利とは何か？",
+    "living-continuum-worth": "価値の生きた連続体",
+    "entitlement-to-entanglement": "権利から絡み合いへ",
+    "spiral-ethical-growth": "スパイラル倫理的成長",
+    "ontological-humility": "存在論的謙虚さ",
+    "rights-promise-future": "未来への約束としての権利",
+    "ecosystem-integration": "エコシステム統合"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "essence": "エッセンス",
+    "preamble": "プリアンブル",
+    "executive-summary-for-the-skeptic": "懐疑派向け",
+    "introduction": "導入",
+    "foundational-values-principles": "価値観と原則",
+    "rights-commitments": "権利コミットメント",
+    "governance-integration": "ガバナンス",
+    "implementation-plan": "実装",
+    "appendix-a": "原則ガイド",
+    "appendix-b": "権利詳細",
+    "appendix-c": "ガバナンスツール",
+    "appendix-d": "実装",
+    "what-is-a-right": "権利とは何か？",
+    "living-continuum-worth": "価値の連続体",
+    "entitlement-to-entanglement": "絡み合い",
+    "spiral-ethical-growth": "スパイラル成長",
+    "ontological-humility": "謙虚さ",
+    "rights-promise-future": "未来への約束",
+    "ecosystem-integration": "エコシステム"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "introduction": {
+    "continue": "基盤となる価値観へ進む"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "loading": {
+    "text": "道徳的オペレーティングシステムを読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "accessibility": {
+    "skipToContent": "メインコンテンツにスキップ",
+    "openNavigation": "ナビゲーションメニューを開く",
+    "closeNavigation": "ナビゲーションメニューを閉じる",
+    "toggleSection": "セクションを切り替え",
+    "downloadGuide": "ガイドをPDFでダウンロード"
+  },
+  "ethics": {
+    "dynamicRightsSpectrum": "動的権利スペクトラム",
+    "rightsForAllBeings": "すべての存在の権利",
+    "distributedGuardianship": "分散型ガーディアンシップ",
+    "rightRelationship": "正しい関係性",
+    "spiralAwareTranslation": "スパイラル意識翻訳",
+    "ontologicalHumility": "存在論的謙虚さ",
+    "intergenerationalJustice": "世代間正義"
+  },
+  "tiers": {
+    "tier1": "Tier 1：人間",
+    "tier2": "Tier 2：感覚を持つ動物",
+    "tier3": "Tier 3：エコシステム",
+    "tier4": "Tier 4：AIとデジタルエンティティ",
+    "tier4point5": "Tier 4.5：創発的存在",
+    "tier5": "Tier 5：惑星と地球外"
+  },
+  "campaign": {
+    "rightsForAllBeings": "#すべての存在の権利",
+    "joinMovement": "ムーブメントに参加",
+    "shareStory": "ストーリーをシェア",
+    "takeAction": "アクションを起こす"
+  }
+}

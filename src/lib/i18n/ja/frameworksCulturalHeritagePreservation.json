@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "文化遺産保存フレームワーク - プロジェクトタペストリー | グローバルガバナンスフレームワーク",
+    "description": "先住民族の知恵に導かれた主権的文化保存。人類の生きた遺産を守るBAZ主導のスチュワードシップ、FPIC 2.0プロトコル、量子安全アーカイブ"
+  },
+  "guideCard": {
+    "title": "文化遺産保存フレームワークは初めてですか？",
+    "description": "先住民族の知恵がどのように主権的文化保存を導くかを理解するために、エグゼクティブサマリーから始めましょう。",
+    "buttonText": "エグゼクティブサマリーを読む"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "framework": "コアフレームワーク",
+    "resources": "リソース"
+  },
+  "sections": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "introduction-vision": "導入とビジョン",
+    "core-principles": "基本原則",
+    "governance-structure": "ガバナンス構造",
+    "implementation-mechanisms": "実装メカニズム",
+    "strategic-roadmap": "戦略ロードマップ",
+    "key-innovations": "主要なイノベーション",
+    "monitoring-evaluation": "モニタリングと評価",
+    "risk-mitigation": "リスク軽減",
+    "strategic-implementation": "戦略的実装",
+    "taking-action": "行動を起こす",
+    "appendices": "付録"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "introduction-vision": "導入とビジョン",
+    "core-principles": "原則",
+    "governance-structure": "ガバナンス",
+    "implementation-mechanisms": "実装",
+    "strategic-roadmap": "ロードマップ",
+    "key-innovations": "イノベーション",
+    "monitoring-evaluation": "モニタリング",
+    "risk-mitigation": "リスク軽減",
+    "strategic-implementation": "実装",
+    "taking-action": "行動を起こす",
+    "appendices": "付録"
+  },
+  "fallbackNotice": {
+    "title": "言語のお知らせ",
+    "message": "このセクションは現在英語でのみ利用可能です。翻訳作業を進めています。"
+  }
+}

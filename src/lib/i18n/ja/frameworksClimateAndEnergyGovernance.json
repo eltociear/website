@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "title": "気候とエネルギーガバナンスフレームワーク - グローバルガバナンスフレームワーク",
+    "description": "コミュニティ所有と再生的ガバナンスを通じてグローバルな気候とエネルギーシステムを変革するための包括的フレームワーク"
+  },
+  "loading": {
+    "text": "気候とエネルギーフレームワークのコンテンツを読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "categories": {
+    "overview": "フレームワーク概要",
+    "foundation": "基盤とビジョン",
+    "framework": "コアフレームワーク",
+    "implementation": "実装とアクション",
+    "resources": "リソースとリファレンス"
+  },
+  "sections": {
+    "index": "気候とエネルギーガバナンスフレームワーク",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "introduction-vision": "導入とビジョン",
+    "guiding-principles": "指導原則",
+    "integration-architecture": "GGF統合アーキテクチャ",
+    "governance-structure": "ガバナンス構造",
+    "four-pillars": "4つのコアの柱",
+    "policy-mechanisms": "政策メカニズム",
+    "stakeholder-engagement": "ステークホルダーエンゲージメント",
+    "financing-framework": "フレームワークの資金調達",
+    "implementation-roadmap": "実装ロードマップ",
+    "success-metrics": "成功指標",
+    "challenges-solutions": "課題と解決策",
+    "taking-action": "行動を起こす",
+    "appendices": "付録"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "introduction-vision": "導入",
+    "guiding-principles": "原則",
+    "integration-architecture": "GGF統合",
+    "governance-structure": "ガバナンス",
+    "four-pillars": "4つの柱",
+    "policy-mechanisms": "政策ツール",
+    "stakeholder-engagement": "ステークホルダー",
+    "financing-framework": "資金調達",
+    "implementation-roadmap": "ロードマップ",
+    "success-metrics": "成功指標",
+    "challenges-solutions": "課題",
+    "taking-action": "行動を起こす",
+    "appendices": "付録"
+  },
+  "guideCard": {
+    "title": "気候とエネルギーガバナンスフレームワークは初めてですか？",
+    "description": "気候ガバナンスとエネルギー移行に関する実践的な懸念に対処する懐疑派向けエグゼクティブサマリーから始めましょう。",
+    "buttonText": "懐疑派向けエグゼクティブサマリーを読む"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "sectionDescriptions": {
+    "index": "気候とエネルギーガバナンスフレームワークの完全な概要と惑星変革における役割",
+    "at-a-glance": "主要な目標、タイムライン、実装マイルストーンを強調したクイックリファレンスガイド",
+    "executive-summary-for-the-skeptic": "気候ガバナンスの実現可能性とエネルギー移行の課題に関する懸念に対処する実用的なサマリー",
+    "introduction-vision": "偉大な再調整 - 人類のエネルギーとの関係を抽出から再生へと変革する",
+    "guiding-principles": "持続可能性、公平性、科学に基づく意思決定、コミュニティエネルギー主権を含む7つのコア原則",
+    "integration-architecture": "フレームワークがより広いグローバルガバナンスフレームワークエコシステムとどのように統合されるか",
+    "governance-structure": "グローバル監視機関からコミュニティエネルギー協同組合までの多層的調整",
+    "four-pillars": "急進的緩和、公正なエネルギー移行、伝統的知識主導の適応、再生的エネルギーコモンズ",
+    "policy-mechanisms": "法制度、経済手段、モニタリングシステム、執行を含む包括的ツール",
+    "stakeholder-engagement": "政府、民間セクター、市民社会、科学コミュニティにわたる包括的参加",
+    "financing-framework": "補償的貢献と革新的ファイナンスを通じた正義を確保するスケールド資金調達アーキテクチャ",
+    "implementation-roadmap": "ガバナンス活性化からグローバルティッピングポイントまでのマイルストーン駆動型進行",
+    "success-metrics": "気候成果、エネルギー目標、公平性指標、生物多様性統合の追跡",
+    "challenges-solutions": "政治的抵抗、資金ギャップ、技術的障壁への戦略的対応",
+    "taking-action": "個人的なパスウェイ、システム変革戦略、コミュニティ所有のクリーンエネルギー豊富さのビジョン",
+    "appendices": "詳細な実装ガイド、スケーリングダイナミクス、経済メカニクス、抵抗管理"
+  },
+  "keyFeatures": {
+    "communityOwnership": {
+      "title": "80%コミュニティ所有エネルギー",
+      "description": "地域管理の再生可能システムを通じたコミュニティエネルギー主権の促進"
+    },
+    "climateTargets": {
+      "title": "1.5°C温暖化制限",
+      "description": "IPCCの研究とパリ協定の目標に沿った科学に基づく目標"
+    },
+    "justTransition": {
+      "title": "公正なエネルギー移行",
+      "description": "化石燃料労働者とコミュニティが変革を通じて支援されることを確保"
+    },
+    "globalCooperation": {
+      "title": "グローバル協力",
+      "description": "地域ハブと拘束力のある執行メカニズムを通じた国際協調"
+    },
+    "regenerativeFinance": {
+      "title": "年間2兆ドルの資金",
+      "description": "補償的貢献と革新的メカニズムを通じたスケールド気候ファイナンス"
+    },
+    "indigenousRights": {
+      "title": "先住民族リーダーシップ",
+      "description": "伝統的知識の統合とエネルギープロジェクトに対する先住民族の拒否権"
+    }
+  },
+  "milestones": {
+    "governance": {
+      "title": "ガバナンス活性化",
+      "timeframe": "18ヶ月",
+      "description": "グローバル監視機関の設立と初期の再生的貿易ゾーン連合"
+    },
+    "economic": {
+      "title": "経済エンジン稼働",
+      "timeframe": "3年目",
+      "description": "国際気候裁判所が運用開始し、補償的資金が支出される"
+    },
+    "systemic": {
+      "title": "システム的シフト",
+      "timeframe": "8年目",
+      "description": "生物圏健全性指数がGDPに代わり、50%コミュニティ所有エネルギーを達成"
+    },
+    "global": {
+      "title": "グローバルティッピングポイント",
+      "timeframe": "15年目",
+      "description": "RTZが世界経済の60%以上を包含し、90-100%クリーンエネルギー目標を達成"
+    }
+  },
+  "pillars": {
+    "mitigation": {
+      "title": "急進的緩和とエコシステム回復",
+      "subtitle": "惑星癒しエンジン",
+      "description": "炭素価格設定、自然に基づく解決策、サーキュラーエコノミー実践を通じた2050年までのネットゼロ排出"
+    },
+    "transition": {
+      "title": "公正で主権的なエネルギー移行",
+      "subtitle": "コミュニティエンパワーメントシステム",
+      "description": "協同組合とグリッド近代化による80%コミュニティ所有で90-100%クリーンエネルギー"
+    },
+    "adaptation": {
+      "title": "伝統的知識主導の適応とレジリエンス",
+      "subtitle": "知恵中心の対応",
+      "description": "先住民族の知識、災害への備え、気候ファイナンスに導かれたレジリエンス"
+    },
+    "commons": {
+      "title": "再生的エネルギーコモンズの構築",
+      "subtitle": "物語の変革",
+      "description": "経済的インセンティブと物語の変化を通じたコミュニティ所有の豊富なエネルギーの促進"
+    }
+  },
+  "ctaButtons": {
+    "learnMore": "詳しく見る",
+    "getInvolved": "参加する",
+    "downloadPdf": "PDFをダウンロード",
+    "shareFramework": "フレームワークを共有",
+    "viewImplementation": "実装ガイドを見る",
+    "exploreIntegration": "GGF統合を探索"
+  },
+  "stats": {
+    "emissionsReduction": "2035年までに55%排出削減",
+    "cleanEnergyTarget": "2050年までに90-100%クリーンエネルギー",
+    "communityOwnership": "80%コミュニティ所有の再生可能エネルギー",
+    "vulnerableResilience": "2035年までに脆弱なコミュニティの75%が気候レジリエント",
+    "fundingScale": "2030年までに年間2兆ドル",
+    "biodiversityTarget": "30x30保護された陸地と海の目標"
+  },
+  "integrationPoints": {
+    "treaty": "Treaty for Our Only Homeが法的権限を提供",
+    "aubi": "AUBIフレームワークがエネルギー移行を報酬",
+    "sundown": "サンダウンプロトコルが化石燃料段階的廃止を管理",
+    "hearthstone": "ハースストーンプロトコルがコミュニティ所有を可能に",
+    "disaster": "災害リスク軽減が適応を調整",
+    "gaian": "ガイアン貿易フレームワークが経済的インセンティブを創出"
+  }
+}

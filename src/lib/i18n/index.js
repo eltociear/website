@@ -7,7 +7,7 @@ import { getBrowserLanguage, getLocalStorage, setLocalStorage } from '$lib/utils
 const DEBUG_I18N = false; // Set to true only when debugging
 
 // Define supported languages
-const supportedLocales = ['en', 'sv'];
+const supportedLocales = ['en', 'sv', 'ja'];
 
 // Create stores for the current locale and translations
 const locale = writable(getLocalStorage('locale', 'en'));
@@ -481,7 +481,8 @@ const detectLocale = () => {
 // Add information about available languages
 const languageData = {
   en: { language: 'English' },
-  sv: { language: 'Svenska' }
+  sv: { language: 'Svenska' },
+  ja: { language: '日本語' }
 };
 
 // Function to get language name

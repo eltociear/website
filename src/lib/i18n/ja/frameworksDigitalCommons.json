@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "title": "デジタルコモンズフレームワーク - グローバルガバナンスフレームワーク",
+    "description": "公平なアクセス、倫理的使用、参加型ガバナンスを確保しながら、デジタルリソースを共有されたグローバルコモンズとして管理するための包括的ガバナンスアーキテクチャ"
+  },
+  "guideCard": {
+    "title": "デジタルコモンズフレームワークは初めてですか？",
+    "description": "さまざまなステークホルダーと状況向けにフレームワークを説明する専門ガイドの1つから始めましょう。",
+    "buttonText": "ガイドを選択"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "implementation": "実装",
+    "analysis": "分析と将来",
+    "resources": "リソース"
+  },
+  "sections": {
+    "index": "概要",
+    "preamble": "前文とビジョン",
+    "core-principles": "基本原則",
+    "governance-structure": "ガバナンス構造",
+    "key-components": "主要コンポーネント",
+    "implementation-roadmap": "実装ロードマップ",
+    "monitoring-evaluation": "モニタリングと評価",
+    "tools-resources": "ツールとリソース",
+    "case-studies": "ケーススタディ",
+    "future-potential": "将来の可能性",
+    "call-to-action": "行動の呼びかけ",
+    "technical-guide": "政策立案者向け技術ガイド",
+    "community-guide": "コミュニティ実装ガイド",
+    "youth-guide": "若者エンゲージメントガイド",
+    "digital-ethics-guide": "デジタル倫理ガイド",
+    "indigenous-guide": "先住民族データスチュワードシップガイド",
+    "epilogue": "エピローグ",
+    "appendix-a-pilot-onboarding": "付録A：パイロットオンボーディング",
+    "appendix-b-visual-companion-toolkit": "付録B：ビジュアルコンパニオンツールキット",
+    "appendix-c-corporate-participation-playbook": "付録C：企業参加プレイブック",
+    "appendix-d-digital-ethics-charter": "付録D：デジタル倫理憲章",
+    "appendix-e-commons-glossary": "付録E：コモンズ用語集",
+    "appendix-f-minimal-viable-node-quickstart": "付録F：最小実行可能ノードクイックスタートガイド",
+    "appendix-g-field-test-logbook-template": "付録G：フィールドテストログブックテンプレート",
+    "appendix-h-faq-for-tech-skeptical-leaders": "付録H：テクノロジー懐疑派リーダー向けFAQ",
+    "appendix-i-diplomatic-mini-deck": "付録I：外交ミニデッキ",
+    "appendix-j-historical-commons-context": "付録J：歴史的コモンズの文脈",
+    "appendix-k-impact-assessment-framework": "付録K：インパクト評価フレームワーク"
+  },
+  "sectionsShort": {
+    "preamble": "前文",
+    "core-principles": "原則",
+    "governance-structure": "ガバナンス",
+    "key-components": "コンポーネント",
+    "implementation-roadmap": "ロードマップ",
+    "monitoring-evaluation": "モニタリング",
+    "tools-resources": "ツール",
+    "case-studies": "ケーススタディ",
+    "future-potential": "将来",
+    "call-to-action": "行動の呼びかけ",
+    "technical-guide": "技術ガイド",
+    "community-guide": "コミュニティガイド",
+    "youth-guide": "若者ガイド",
+    "digital-ethics-guide": "倫理ガイド",
+    "indigenous-guide": "先住民族ガイド",
+    "epilogue": "エピローグ"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "loading": {
+    "text": "フレームワークコンテンツを読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  }
+}

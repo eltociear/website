@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "title": "災害リスク軽減とレジリエンスフレームワーク - 惑星レジリエンスの構築",
+    "description": "先住民族主導のガバナンス、エコシステムベースのソリューション、革新的な資金調達メカニズムを通じて、災害管理をコミュニティレジリエンスと適応能力に変革するための包括的フレームワーク"
+  },
+  "guideCard": {
+    "title": "災害リスク軽減とレジリエンスは初めてですか？",
+    "description": "災害対応を受動的な緊急管理から能動的なコミュニティレジリエンス構築に変革することに関する実践的な懸念に対処する、懐疑派向けに設計されたエグゼクティブサマリーから始めましょう。",
+    "buttonText": "懐疑派向けエグゼクティブサマリーを読む"
+  },
+  "categories": {
+    "overview": "フレームワーク概要",
+    "foundation": "基盤と背景",
+    "framework": "コアフレームワーク",
+    "resources": "リソースと付録"
+  },
+  "sections": {
+    "index": "惑星レジリエンスの構築",
+    "at-a-glance": "フレームワーク概要",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "introduction-context": "導入と惑星的背景",
+    "guiding-principles": "指導原則",
+    "integration-architecture": "GGF統合アーキテクチャ",
+    "framework-components": "フレームワークコンポーネント",
+    "three-pillars": "3つの柱による実装",
+    "global-resilience-pool": "グローバルレジリエンスプール",
+    "community-resilience-score": "コミュニティレジリエンススコア",
+    "tek-integration": "先住民族・伝統知識の統合",
+    "crisis-recovery-cycle": "危機から回復へのサイクル",
+    "success-metrics": "成功指標とアカウンタビリティ",
+    "implementation-phases": "実装フェーズ",
+    "taking-action": "行動を起こす",
+    "appendices": "付録とリファレンス"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "introduction-context": "導入",
+    "guiding-principles": "原則",
+    "integration-architecture": "統合",
+    "framework-components": "コンポーネント",
+    "three-pillars": "3つの柱",
+    "global-resilience-pool": "レジリエンスプール",
+    "community-resilience-score": "CRS方法論",
+    "tek-integration": "TEK統合",
+    "crisis-recovery-cycle": "危機サイクル",
+    "success-metrics": "成功指標",
+    "implementation-phases": "実装",
+    "taking-action": "行動を起こす",
+    "appendices": "付録"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。グローバルなアクセシビリティを確保するため、すべてのフレームワークコンテンツを複数言語で提供できるよう取り組んでいます。"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは包括的な災害レジリエンスフレームワークの一部として現在開発中です。"
+  },
+  "loading": {
+    "text": "災害レジリエンスフレームワークコンテンツを読み込み中..."
+  },
+  "accessibility": {
+    "skipToContent": "メインコンテンツにスキップ",
+    "navigationMenu": "フレームワークナビゲーションメニュー",
+    "sectionNavigation": "フレームワークセクション間のナビゲーション",
+    "progressIndicator": "フレームワークセクションの読了進捗"
+  },
+  "keyTerms": {
+    "drr": "災害リスク軽減",
+    "crs": "コミュニティレジリエンススコア",
+    "tek": "伝統的生態学的知識",
+    "baz": "バイオリージョナル自治ゾーン",
+    "phc": "惑星健康評議会",
+    "gcf": "グローバルコモンズ基金",
+    "aubi": "適応型ユニバーサルベーシックインカム",
+    "pis": "惑星免疫システム",
+    "communityWeavers": "コミュニティウィーバー",
+    "resilienceBonds": "レジリエンス債",
+    "forecastBasedFinancing": "予測ベースファイナンス",
+    "planetaryDutyOfCare": "惑星的配慮義務"
+  },
+  "frameworkHighlights": {
+    "threePillars": {
+      "title": "3つの実装の柱",
+      "pillars": {
+        "resilience-pool": "グローバルレジリエンスプール - 災害経済を変革する革新的な資金調達",
+        "community-networks": "コミュニティレジリエンスネットワーク - 先住民族主導のガバナンスと能力構築",
+        "accountability-systems": "アカウンタビリティと学習システム - 民主的監視と適応的管理"
+      }
+    },
+    "keyInnovations": {
+      "title": "フレームワークの主要なイノベーション",
+      "innovations": {
+        "crs": "コミュニティレジリエンススコア - 真の備えのためのコミュニティ設計指標",
+        "forecastFinancing": "予測ベースファイナンス - 災害確率によってトリガーされる自動支援",
+        "resilienceBonds": "レジリエンス債 - レジリエンス改善に連動する投資リターン",
+        "communityWeavers": "コミュニティウィーバー - 文化的トレーニングを受けた地域レジリエンス担当者",
+        "dutyOfCare": "惑星的配慮義務 - 積極的な災害準備のための法的義務",
+        "tekIntegration": "TEK統合 - 先住民族の天気予測とエコシステム管理",
+        "ecosystemSolutions": "エコシステムベースのソリューション - 災害軽減のための自然インフラ"
+      }
+    },
+    "integrations": {
+      "title": "GGFフレームワーク統合",
+      "description": "グローバルガバナンスフレームワークエコシステムとシームレスに接続",
+      "frameworks": {
+        "planetaryHealth": "惑星健康評議会の監視と戦略調整",
+        "aubi": "災害後の救援と復旧のためのAUBIサージサポート",
+        "workLiberation": "レジリエンス構築とグリーンジョブのためのコミュニティワークチーム",
+        "justiceSystems": "デジタル正義裁判所の執行とアカウンタビリティ",
+        "indigenous": "先住民族主導のガバナンスと伝統的生態学的知識",
+        "ecologicalIntelligence": "エコシステム健全性モニタリングとカスケード予測",
+        "financialSystems": "グローバルコモンズ基金のスチュワードシップと革新的ファイナンス",
+        "mentalHealth": "心理社会的回復とコミュニティウェルネスサポート"
+      }
+    }
+  },
+  "readingGuide": {
+    "newToResilience": {
+      "title": "災害レジリエンス思考は初めてですか？",
+      "recommendation": "クイック概要として「概要」セクションから始め、次に懐疑派向けに特別に設計されたエグゼクティブサマリーをお読みください。",
+      "estimatedTime": "15分"
+    },
+    "policyMakers": {
+      "title": "政策立案者・実施者ですか？",
+      "recommendation": "実践的なガイダンスのために、3つの柱、実装フェーズ、成功指標のセクションに焦点を当ててください。",
+      "estimatedTime": "25分"
+    },
+    "advocates": {
+      "title": "コミュニティアドボケート・組織者ですか？",
+      "recommendation": "TEK統合、コミュニティレジリエンススコア、行動を起こすセクションを重視してください。",
+      "estimatedTime": "20分"
+    },
+    "researchers": {
+      "title": "研究者・学者ですか？",
+      "recommendation": "包括的な方法論とリファレンスのために、付録を含むフレームワーク全体を確認してください。",
+      "estimatedTime": "45分"
+    }
+  },
+  "callsToAction": {
+    "individual": {
+      "title": "個人のアクション",
+      "actions": {
+        "learn": "コミュニティレジリエンススキルと災害への備えを学ぶ",
+        "advocate": "あなたのコミュニティで惑星的配慮義務の法制化を提唱する",
+        "connect": "地域のコミュニティウィーバーとレジリエンスネットワークとつながる",
+        "invest": "レジリエンス債と再生的投資を支援する"
+      }
+    },
+    "community": {
+      "title": "コミュニティのアクション",
+      "actions": {
+        "assess": "参加型脆弱性・能力評価を実施する",
+        "plan": "コミュニティ主導の災害準備・対応計画を策定する",
+        "build": "エコシステムベースの災害リスク軽減インフラを構築する",
+        "network": "相互扶助ネットワークとコミュニティ間学習交流を創出する"
+      }
+    },
+    "institutional": {
+      "title": "組織のアクション",
+      "actions": {
+        "integrate": "DRRフレームワークの原則を組織ポリシーに統合する",
+        "fund": "レジリエンス基金と予測ベースファイナンスメカニズムを設立する",
+        "partner": "先住民族コミュニティとBAZレベルの評議会と提携する",
+        "advocate": "コミュニティレジリエンスを支援するシステム的な政策変更を提唱する"
+      }
+    }
+  },
+  "visionStatements": {
+    "transformation": "救助を待つ被害者から、不確実性と共に踊るコミュニティへ",
+    "resilience": "災害は破壊のサイクルではなく、再生の機会となる",
+    "community": "すべての嵐が地域のエコシステムと社会的絆を破壊するのではなく強化する",
+    "future": "2035年までに、洪水が湿地を回復させ、ハリケーンが相互扶助をトリガーするほどレジリエントなコミュニティ"
+  }
+}

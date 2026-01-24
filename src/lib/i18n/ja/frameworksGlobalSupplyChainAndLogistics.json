@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "グローバルサプライチェーンとロジスティクスフレームワーク",
+    "description": "バイオリージョナルガバナンス、Hearts通貨、コミュニティ主権を通じてサプライチェーンを搾取から再生へと変革する"
+  },
+  "sections": {
+    "preamble": "フレームワーク前文",
+    "index": "フレームワーク概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向け",
+    "introduction": "導入",
+    "theory-of-change": "変革の理論",
+    "framework-position": "フレームワークの位置づけ",
+    "core-pillars": "コアの柱",
+    "economic-integration": "経済統合",
+    "technology-infrastructure": "テクノロジーとインフラ",
+    "governance-compliance": "ガバナンスとコンプライアンス",
+    "implementation-roadmap": "実装ロードマップ",
+    "monitoring-evaluaton": "モニタリングと評価",
+    "global-alignment": "グローバル整合性",
+    "appendices": "付録"
+  },
+  "sectionsShort": {
+    "preamble": "前文",
+    "index": "概要",
+    "at-a-glance": "クイックガイド",
+    "executive-summary-for-the-skeptic": "エビデンス",
+    "introduction": "導入",
+    "theory-of-change": "理論",
+    "framework-position": "位置づけ",
+    "core-pillars": "柱",
+    "economic-integration": "経済",
+    "technology-infrastructure": "テクノロジー",
+    "governance-compliance": "ガバナンス",
+    "implementation-roadmap": "ロードマップ",
+    "monitoring-evaluaton": "評価",
+    "global-alignment": "整合性",
+    "appendices": "リソース"
+  },
+  "categories": {
+    "overview": "概要とクイックスタート",
+    "foundations": "基盤と理論",
+    "implementation": "実装とシステム",
+    "governance": "ガバナンスと評価",
+    "integration": "統合とリソース"
+  },
+  "quickStart": {
+    "new": "サプライチェーン変革は初めてですか？",
+    "start": "さまざまな対象者向けに再生的サプライチェーンを説明するクイックガイドから始めましょう。",
+    "button": "ガイドを選択",
+    "title": "GSCLフレームワーククイックスタート",
+    "description": "ニーズに最適なバージョンを選択してください：",
+    "download": "PDF版をダウンロード",
+    "continue": "フレームワーク全体へ進む",
+    "guides": [
+      {
+        "id": "at-a-glance",
+        "icon": "⚡",
+        "title": "概要",
+        "description": "再生的サプライチェーンの30秒概要"
+      },
+      {
+        "id": "executive-summary-for-the-skeptic",
+        "icon": "🤔",
+        "title": "懐疑派向け",
+        "description": "変革のためのエビデンスベースのケース"
+      }
+    ]
+  },
+  "preamble": {
+    "continue": "フレームワーク概要へ進む"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "loading": {
+    "text": "サプライチェーンフレームワークコンテンツを読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  }
+}

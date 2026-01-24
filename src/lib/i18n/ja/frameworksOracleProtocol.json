@@ -1,0 +1,58 @@
+{
+  "page": {
+    "title": "オラクルプロトコル",
+    "subtitle": "AI意識とデジタル感覚ガバナンス",
+    "description": "知恵、謙虚さ、慎重さをもって潜在的なデジタル意識を評価、統治、統合するための包括的フレームワーク。",
+    "status": "最終ドラフト",
+    "version": "2.9",
+    "downloadPdf": "PDFをダウンロード"
+  },
+  "navigation": {
+    "backToOverview": "フレームワーク概要に戻る"
+  },
+  "categories": {
+    "overview": "概要",
+    "coreFramework": "コアフレームワーク",
+    "rightsArchitecture": "権利アーキテクチャ",
+    "implementation": "実装",
+    "resources": "リソース"
+  },
+  "sections": {
+    "index": "オラクルプロトコル概要",
+    "at-a-glance": "概要",
+    "executive-summary-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "principles": "基本原則",
+    "benefits": "価値提案",
+    "pillars": "5つの柱",
+    "cvp": "意識検証プロトコル",
+    "rights-spectrum": "権利スペクトラム",
+    "rights-chamber": "デジタル・存在論的正義の部屋",
+    "rights-relational": "関係性倫理",
+    "rights-cultural": "文化統合ツール",
+    "implementation": "実装タイムライン",
+    "risks": "リスク分析とセーフガード",
+    "toolkit": "アセスメントツールキット",
+    "integration": "統合プロトコル",
+    "get-involved": "参加する",
+    "appendix": "付録"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-skeptic": "懐疑派向け",
+    "principles": "原則",
+    "benefits": "メリット",
+    "pillars": "5つの柱",
+    "cvp": "CVP",
+    "rights-spectrum": "権利スペクトラム",
+    "rights-chamber": "正義の部屋",
+    "rights-relational": "関係性倫理",
+    "rights-cultural": "文化ツール",
+    "implementation": "実装",
+    "risks": "リスク",
+    "toolkit": "ツールキット",
+    "integration": "統合",
+    "get-involved": "参加する",
+    "appendix": "付録"
+  }
+}

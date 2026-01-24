@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "description": "ガバナンスフレームワークを実装するためのGGFの包括的ツールキット"
+  },
+  "subtitle": "ガバナンスフレームワークを実現するための包括的ツールキット",
+  "overview": {
+    "title": "GGFの運用マニュアル",
+    "intro": "ビジョナリーなフレームワークは、実践的で適応可能なツールがなければ失敗します。このメタフレームワークは、他のすべてのGGFフレームワークを実装するための標準化されたプレイブック、モジュラーツール、文化的に適応可能な方法論を提供します。",
+    "keyFeatures": "主な特徴"
+  },
+  "features": {
+    "assessment": {
+      "title": "コンテキスト評価",
+      "description": "ガバナンスの成熟度、リソース、文化的コンテキストを評価するインタラクティブなルーブリック"
+    },
+    "journeys": {
+      "title": "ジャーニーベースのツール",
+      "description": "異なる段階のための厳選されたツールキット：はじめに、危機対応、能力構築"
+    },
+    "cultural": {
+      "title": "文化的適応",
+      "description": "先住民族との共創プロトコルと文化翻訳ツールを備えた反植民地主義的設計"
+    },
+    "modular": {
+      "title": "モジュラー設計",
+      "description": "レゴブロックのようにツールを組み合わせて、カスタマイズされた実装スタックを作成"
+    }
+  },
+  "quickStart": {
+    "title": "クイックスタートガイド",
+    "step1": {
+      "title": "コンテキストを評価",
+      "description": "コンテキスト評価ルーブリックを完了する"
+    },
+    "step2": {
+      "title": "ジャーニーを選択",
+      "description": "実装パスウェイを選択する"
+    },
+    "step3": {
+      "title": "ツールをパイロット",
+      "description": "ツールをテストしてフィードバックを収集する"
+    }
+  },
+  "info": {
+    "currentStatus": "現在のステータス",
+    "statusDescription": "このフレームワークは活発に開発中です。コアツールは早期導入コミュニティによってフィールドテスト中です。",
+    "getInvolved": "参加する",
+    "involvementDescription": "パイロットテストプログラムに参加するか、文化的コンテキストに合わせたツールの適応に貢献してください。"
+  },
+  "assessment": {
+    "title": "コンテキスト評価ルーブリック",
+    "description": "コンテキストを評価して、パーソナライズされたツール推奨を受け取る",
+    "results": {
+      "title": "評価完了"
+    },
+    "categories": {
+      "governanceMaturity": "ガバナンスの成熟度",
+      "conflictIntensity": "紛争の強度",
+      "resourceAvailability": "リソースの利用可能性",
+      "culturalCoherence": "文化的一貫性"
+    },
+    "recommendation": {
+      "title": "推奨ツールスタック"
+    }
+  },
+  "journeys": {
+    "title": "実装ジャーニー",
+    "description": "状況と目標に基づいてパスを選択"
+  },
+  "tools": {
+    "title": "ツールデータベース",
+    "description": "実装ツールの包括的ライブラリを探索"
+  },
+  "stacks": {
+    "title": "ツールスタック",
+    "description": "一般的なシナリオ向けの事前設定されたツール組み合わせ"
+  },
+  "guidance": {
+    "title": "実装ガイダンス",
+    "description": "グローバル実装からのベストプラクティスと教訓",
+    "principles": {
+      "title": "指導原則",
+      "polycentric": "ポリセントリック＆補完性優先",
+      "anticolonial": "設計段階からの反植民地主義",
+      "lowtech": "ローテック優先＆ハイテク対応",
+      "modular": "モジュラー＆相互運用可能",
+      "humanloop": "ヒューマン・イン・ザ・ループ"
+    },
+    "phases": {
+      "title": "実装フェーズ",
+      "foundation": "フェーズ1：基盤（1-3年目）",
+      "foundationDesc": "評議会招集、BAZ形成、危機対応能力",
+      "integration": "フェーズ2：統合（4-7年目）",
+      "integrationDesc": "経済モデリング、参加型プロセス、システム調整",
+      "evolution": "フェーズ3：進化（8-15年目）",
+      "evolutionDesc": "意識発達、AI共生、グレースフルトランジション"
+    },
+    "support": {
+      "title": "サポートインフラ",
+      "facilitators": "認定ツールファシリテーター",
+      "networks": "ピア学習ネットワーク",
+      "technical": "技術サポートプロトコル",
+      "mediation": "紛争調停サービス"
+    },
+    "monitoring": {
+      "title": "モニタリングと学習",
+      "reflexive": "リフレクシブサイクルプロトコル",
+      "effectiveness": "ツール有効性評価",
+      "failure": "GGF失敗ライブラリ",
+      "adaptation": "リアルタイム適応プロトコル"
+    }
+  },
+  "cta": {
+    "title": "実装を開始する準備はできましたか？",
+    "description": "実践者のコミュニティに参加して、今日からより良いガバナンスの構築を始めましょう。"
+  }
+}

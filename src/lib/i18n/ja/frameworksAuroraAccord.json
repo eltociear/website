@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "グローバルデータガバナンス・主権フレームワーク | オーロラ協定",
+    "description": "データ主権とデジタル正義のための包括的フレームワーク、データを抽出から神聖な信託へと変革する"
+  },
+  "guideCard": {
+    "title": "データ主権は初めてですか？",
+    "description": "データガバナンス変革に関する実践的な懸念に対処する懐疑派向けエグゼクティブサマリーから始めましょう。",
+    "buttonText": "懐疑派向けエグゼクティブサマリーを読む"
+  },
+  "badges": {
+    "indigenousSovereignty": "先住民族データ主権",
+    "youthAuthority": "若者リーダーシップ権限",
+    "fiduciaryStandard": "データ受託者基準"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "framework": "コアフレームワーク",
+    "implementation": "実装",
+    "resources": "リソース"
+  },
+  "sections": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "introduction": "集合知の管理",
+    "theory-of-change": "変革の理論",
+    "core-principles": "基本原則",
+    "aurora-accord": "オーロラ協定",
+    "key-mechanisms": "主要メカニズムとポリシー",
+    "ethical-tensions": "倫理的緊張とトレードオフ",
+    "implementation-pathways": "実装パスウェイ",
+    "framework-integration": "フレームワーク統合",
+    "technical-specifications": "技術仕様",
+    "advocacy-action": "アドボカシーとアクション",
+    "appendices": "必須ツールとリファレンス",
+    "faq-and-challenges": "FAQと課題",
+    "glossary": "用語集",
+    "social-media-templates": "ソーシャルメディアテンプレート",
+    "policy-briefs": "政策ブリーフ"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向け",
+    "introduction": "導入",
+    "theory-of-change": "変革の理論",
+    "core-principles": "原則",
+    "aurora-accord": "オーロラ協定",
+    "key-mechanisms": "主要メカニズム",
+    "ethical-tensions": "倫理的緊張",
+    "implementation-pathways": "実装",
+    "framework-integration": "統合",
+    "technical-specifications": "技術仕様",
+    "advocacy-action": "アドボカシー",
+    "appendices": "付録",
+    "faq-and-challenges": "FAQ",
+    "glossary": "用語集",
+    "social-media-templates": "ソーシャルメディア",
+    "policy-briefs": "政策ブリーフ"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "loading": {
+    "text": "オーロラ協定のコンテンツを読み込み中..."
+  }
+}

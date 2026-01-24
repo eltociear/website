@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "AUBIフレームワーク：適応型ユニバーサルベーシックインカム - グローバルガバナンスフレームワーク",
+    "description": "先住民族主導のガバナンス、ケア経済の認識、再生的豊かさの原則を通じた人間の繁栄の基盤としての経済的安全保障"
+  },
+  "loading": {
+    "text": "経済変革フレームワークを読み込み中..."
+  },
+  "quickStart": {
+    "new": "経済変革は初めてですか？",
+    "start": "さまざまな対象者向けに適応型ユニバーサルベーシックインカムを説明するクイックガイドから始めましょう。",
+    "button": "ガイドを選択",
+    "title": "AUBIフレームワーク クイックスタート",
+    "description": "あなたのニーズに最も合ったバージョンを選択してください：",
+    "download": "PDF版をダウンロード",
+    "continue": "フレームワーク全体へ進む",
+    "guides": [
+      {
+        "id": "at-a-glance",
+        "icon": "⚡",
+        "title": "概要",
+        "description": "経済変革の5分間概要"
+      },
+      {
+        "id": "technical-fact-sheet",
+        "icon": "📊",
+        "title": "技術仕様",
+        "description": "包括的な技術仕様"
+      },
+      {
+        "id": "executive-summary-for-the-skeptic",
+        "icon": "🤔",
+        "title": "懐疑派向け",
+        "description": "経済的安全保障のエビデンスに基づく事例"
+      }
+    ]
+  },
+  "categories": {
+    "overview": "概要とクイックスタート",
+    "foundations": "基盤と哲学",
+    "economics": "経済と通貨",
+    "governance": "ガバナンスと文化",
+    "implementation": "実装とインフラ",
+    "resources": "結論とリソース"
+  },
+  "sections": {
+    "index": "フレームワーク概要",
+    "at-a-glance": "概要",
+    "technical-fact-sheet": "技術ファクトシート",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "introduction": "はじめに：生存から繁栄へ",
+    "aubi-philosophy": "AUBIの哲学",
+    "core-architecture": "コアアーキテクチャ",
+    "four-layer-payout-system": "4層ペイアウトシステム",
+    "hearts-leaves-currency": "Hearts & Leaves通貨",
+    "framework-integration": "フレームワーク統合",
+    "governance-model": "ガバナンスモデル",
+    "cultural-integration": "文化的統合",
+    "crisis-response-protocols": "危機対応プロトコル",
+    "implementation-roadmap": "実装ロードマップ",
+    "technical-infrastructure": "技術インフラ",
+    "conclusion": "結論：経済的解放の約束",
+    "appendices": "付録：実装サポート"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "technical-fact-sheet": "技術仕様",
+    "executive-summary-for-the-skeptic": "懐疑派向け",
+    "introduction": "はじめに",
+    "aubi-philosophy": "哲学",
+    "core-architecture": "アーキテクチャ",
+    "four-layer-payout-system": "ペイアウト層",
+    "hearts-leaves-currency": "Hearts & Leaves",
+    "framework-integration": "統合",
+    "governance-model": "ガバナンス",
+    "cultural-integration": "文化的統合",
+    "crisis-response-protocols": "危機対応",
+    "implementation-roadmap": "実装",
+    "technical-infrastructure": "インフラ",
+    "conclusion": "結論",
+    "appendices": "付録"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "index": {
+    "continue": "フレームワーク導入へ進む"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  }
+}
