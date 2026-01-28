@@ -74,4 +74,4 @@ Detta är konstitutionell sammankallning för den planetära eran.
 
 ---
 
-*Efter år av utveckling och testning har vi nu en fullständig metodik för att skapa styrinstitutioner värdiga våra planetära utmaningar - institutioner som kan ta itu med polykris samtidigt som de hedrar hela spektret av mänsklig styrningsvisdom.*
+*Efter ett år av utveckling och testning har vi nu en fullständig metodik för att skapa styrinstitutioner värdiga våra planetära utmaningar - institutioner som kan ta itu med polykris samtidigt som de hedrar hela spektret av mänsklig styrningsvisdom.*

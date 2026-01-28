@@ -152,4 +152,4 @@ This is constitutional convening for the planetary era.
 
 ---
 
-*After years of development and testing, we now have a complete methodology for creating governance institutions worthy of our planetary challenges - institutions that can address the polycrisis while honoring the full spectrum of human governance wisdom.*
+*After a year of development and testing, we now have a complete methodology for creating governance institutions worthy of our planetary challenges - institutions that can address the polycrisis while honoring the full spectrum of human governance wisdom.*
