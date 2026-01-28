@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import puppeteer from 'puppeteer';
+import { PDFDocument } from 'pdf-lib';
 import { marked } from 'marked';
 
 // ES module path setup
@@ -453,6 +454,16 @@ async function generateResilienceShieldPdf() {
       });
       
       console.log(`  ✅ Generated: ${outputPath}`);
+      
+      // ADD THIS: Insert metadata into the PDF
+      console.log(`  📝 Adding metadata to PDF...`);
+      try {
+        await addMetadataToPdf(outputPath, metadata);
+        console.log(`  ✅ Metadata added to: ${outputPath}`);
+      } catch (metadataError) {
+        console.error(`  ⚠️  Failed to add metadata: ${metadataError.message}`);
+      }
+      
     } catch (error) {
       console.error(`  ❌ Error generating PDF for ${lang}:`, error.message);
     }
@@ -471,4 +482,19 @@ process.on('unhandledRejection', (reason, promise) => {
   process.exit(1);
 });
 
+async function addMetadataToPdf(pdfPath, metadata) {
+  const existingPdfBytes = fs.readFileSync(pdfPath);
+  const pdfDoc = await PDFDocument.load(existingPdfBytes);
+  
+  pdfDoc.setTitle(metadata.title);
+  pdfDoc.setAuthor(metadata.authors);
+  pdfDoc.setSubject(metadata.subtitle);
+  pdfDoc.setKeywords(['resiliens', 'kommun', 'krishantering', 'klimatanpassning', 'GGF']);
+  pdfDoc.setCreator(metadata.organization);
+  
+  const pdfBytes = await pdfDoc.save();
+  fs.writeFileSync(pdfPath, pdfBytes);
+}
+
 generateResilienceShieldPdf().catch(console.error);
+
