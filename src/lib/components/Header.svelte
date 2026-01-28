@@ -1798,7 +1798,7 @@
             class="language-select"
             title={browser ? ($t('common.language.tooltip') || 'Change language') : 'Change language'}
           >
-            {#each (browser ? $locales : ['en', 'sv']) as loc}
+            {#each (browser ? $locales : ['en', 'sv', 'ja']) as loc}
               <option value={loc}>{loc.toUpperCase()}</option>
             {/each}
           </select>
