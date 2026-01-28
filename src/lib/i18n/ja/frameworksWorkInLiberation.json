@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "解放の中の労働フレームワーク：変革的労働・雇用ガバナンス",
+    "description": "コミュニティワークチーム、協同組合ガバナンス、生存労働から意味ある貢献への移行を通じて、ケア、創造性、惑星の健康を中心に労働を組織化する"
+  },
+  "quickStart": {
+    "new": "解放の中の労働は初めてですか？",
+    "start": "搾取から意味ある貢献への労働変革を説明するクイックガイドから始めましょう。",
+    "button": "ガイドを選ぶ",
+    "title": "解放の中の労働クイックスタート",
+    "description": "ニーズに最も合うバージョンを選んでください：",
+    "download": "PDF版をダウンロード",
+    "continue": "フレームワーク全体へ進む",
+    "guides": [
+      {
+        "id": "at-a-glance",
+        "icon": "⚡",
+        "title": "概要",
+        "description": "変革的労働組織化の5分概要"
+      },
+      {
+        "id": "executive-summary-for-the-skeptic",
+        "icon": "🤔",
+        "title": "懐疑派向け",
+        "description": "民主的労働変革のビジネスケース"
+      }
+    ]
+  },
+  "categories": {
+    "overview": "フレームワーク概要",
+    "foundations": "基盤と哲学",
+    "framework": "フレームワークとツール",
+    "implementation": "実装と評価",
+    "integration": "統合とグローバル戦略",
+    "resources": "結論とリソース"
+  },
+  "sections": {
+    "index": "フレームワーク概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "preamble": "プリアンブル：人間の可能性の解放",
+    "introduction": "導入：目的を持った労働の組織化",
+    "core-principles": "基本原則：解放の基盤",
+    "core-components": "コアコンポーネント：民主的労働の構築",
+    "implementation-plan": "25年実装計画",
+    "tools-technologies": "主要ツールとテクノロジー",
+    "monitoring-evaluation": "モニタリングと評価",
+    "crisis-response": "危機対応プロトコル",
+    "expected-outcomes": "期待される成果",
+    "framework-integration": "フレームワーク統合",
+    "global-implementation": "グローバル実装戦略",
+    "conclusion": "結論：解放の労働",
+    "appendices": "付録"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向け",
+    "preamble": "プリアンブル",
+    "introduction": "導入",
+    "core-principles": "基本原則",
+    "core-components": "コアコンポーネント",
+    "implementation-plan": "実装計画",
+    "tools-technologies": "ツールとテクノロジー",
+    "monitoring-evaluation": "モニタリングと評価",
+    "crisis-response": "危機対応",
+    "expected-outcomes": "期待される成果",
+    "framework-integration": "フレームワーク統合",
+    "global-implementation": "グローバル実装",
+    "conclusion": "結論",
+    "appendices": "付録"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "introduction": {
+    "continue": "基本原則へ進む"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "loading": {
+    "text": "解放の中の労働フレームワークを読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  }
+}

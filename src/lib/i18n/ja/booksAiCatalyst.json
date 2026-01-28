@@ -1,0 +1,119 @@
+{
+  "bookTitle": "認知進化の触媒としてのAI",
+  "bookSubtitle": "AI時代における断片化から統合へ",
+  "meta": {
+    "title": "認知進化の触媒としてのAI - 完全版",
+    "description": "人工知能が人間の認知進化を断片化から統合へと触媒する方法についての包括的な探求。"
+  },
+  "categories": {
+    "frontMatter": "前付",
+    "backMatter": "後付"
+  },
+  "parts": {
+    "Part I: The Cognitive Gap": "パートI：認知的ギャップ",
+    "Part II: AI as Scaffolding for Development": "パートII：発達のための足場としてのAI",
+    "Part III: The Risks of Unconscious Development": "パートIII：無意識的発達のリスク",
+    "Part IV: The Governance Imperative": "パートIV：ガバナンスの命令",
+    "Part V: Scenarios for the Future": "パートV：未来のシナリオ"
+  },
+  "sections": {
+    "book-cover": "表紙",
+    "dedication": "献辞",
+    "table-of-contents": "目次",
+    "introduction": "導入",
+    "chapter-1": "第1章：大分断 - 私たちの発達的瞬間を理解する",
+    "chapter-2": "第2章：セカンドティアからの眺め",
+    "chapter-3": "第3章：AIの鏡 - 人工知能はいかに私たちの意識を反映するか",
+    "chapter-4": "第4章：認知的足場としてのAI",
+    "chapter-5": "第5章：偉大なコネクター - 知識サイロの橋渡しにおけるAIの役割",
+    "chapter-6": "第6章：情報から知恵へ - 学習パートナーとしてのAI",
+    "chapter-7": "第7章：集合知の可能性",
+    "chapter-8": "第8章：シリコンの影 - AIが私たちの最悪の衝動を増幅するとき",
+    "chapter-9": "第9章：認識的危機 - AIが真実を破壊するとき",
+    "chapter-10": "第10章：依存の罠 - 認知的足場が松葉杖になるとき",
+    "chapter-11": "第11章：ガバナンスギャップ - なぜ現在の機関はAIを扱えないのか",
+    "chapter-12": "第12章：デジタルコモンズとアルゴリズム透明性",
+    "chapter-13": "第13章：シノプティックプロトコル - 認識的レジリエンスの構築",
+    "chapter-14": "第14章：先住民族のAI主権と文化保存",
+    "chapter-15": "第15章：意識的AI開発のためのグローバルガバナンスフレームワーク",
+    "chapter-16": "第16章：発達の命令 - AIを導く意識を育てる",
+    "chapter-17": "第17章：人類のAI未来の4つのシナリオ",
+    "chapter-18": "第18章：共生する心 - AIと共に生き、考える",
+    "conclusion": "結論：選択と課題",
+    "appendix-a": "付録A：主要用語集",
+    "appendix-b": "付録B：意識発達とAI統合の視覚的マップ",
+    "appendix-c": "付録C：共生する心のためのツールキット",
+    "notes-and-references": "注と参考文献",
+    "acknowledgments": "謝辞",
+    "about": "著者について"
+  },
+  "sectionsShort": {
+    "book-cover": "表紙",
+    "dedication": "献辞",
+    "table-of-contents": "目次",
+    "introduction": "導入",
+    "chapter-1": "第1章：大分断",
+    "chapter-2": "第2章：セカンドティアからの眺め",
+    "chapter-3": "第3章：AIの鏡",
+    "chapter-4": "第4章：足場としてのAI",
+    "chapter-5": "第5章：偉大なコネクター",
+    "chapter-6": "第6章：情報から知恵へ",
+    "chapter-7": "第7章：集合知",
+    "chapter-8": "第8章：シリコンの影",
+    "chapter-9": "第9章：認識的危機",
+    "chapter-10": "第10章：依存の罠",
+    "chapter-11": "第11章：ガバナンスギャップ",
+    "chapter-12": "第12章：デジタルコモンズ",
+    "chapter-13": "第13章：シノプティックプロトコル",
+    "chapter-14": "第14章：先住民族のAI主権",
+    "chapter-15": "第15章：グローバルガバナンスフレームワーク",
+    "chapter-16": "第16章：発達の命令",
+    "chapter-17": "第17章：4つのシナリオ",
+    "chapter-18": "第18章：共生する心",
+    "conclusion": "結論",
+    "appendix-a": "用語集",
+    "appendix-b": "視覚的マップ",
+    "appendix-c": "ツールキット",
+    "notes-and-references": "注と参考文献",
+    "acknowledgments": "謝辞",
+    "about": "著者について"
+  },
+  "pdfDownload": {
+    "title": "完全版をダウンロード",
+    "subtitle": "PDF形式",
+    "englishOnly": "PDFは英語版のみ"
+  },
+  "actions": {
+    "readOnline": "オンラインで読む"
+  },
+  "languageAvailability": {
+    "title": "コンテンツ利用可能性のお知らせ",
+    "description": "この書籍は現在英語のみで利用可能です。翻訳作業中のため、一部セクションは英語で表示される場合があります。",
+    "contentStatus": "コンテンツ：英語のみ",
+    "pdfStatus": "PDF：英語のみ"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "navigation": {
+    "previousSection": "前へ",
+    "nextSection": "次へ",
+    "downloadPdf": "PDFをダウンロード"
+  },
+  "breadcrumb": {
+    "resources": "リソース",
+    "books": "書籍",
+    "currentBook": "認知進化の触媒としてのAI"
+  },
+  "progress": {
+    "text": "章 {current} / {total}"
+  },
+  "loading": {
+    "text": "書籍コンテンツを読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  }
+}

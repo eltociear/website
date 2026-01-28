@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "高齢者人口支援ガバナンスフレームワーク - グローバルガバナンスフレームワーク",
+    "description": "高齢者主導の再生システムを通じて、高齢化を社会的負担から社会最大の強みへと変換するための変革的フレームワーク"
+  },
+  "guideCard": {
+    "title": "高齢者支援フレームワークは初めてですか？",
+    "description": "フレームワークの基本原則と高齢者主導の変革パスウェイを説明するアクセシブルなエッセンシャルガイドから始めましょう。",
+    "buttonText": "フレームワークエッセンシャルを読む"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "implementation": "実装",
+    "resources": "リソースとツール"
+  },
+  "sections": {
+    "index": "概要",
+    "preamble": "前文：資産としての高齢化",
+    "executive-summary": "エグゼクティブサマリー",
+    "economic-security": "AUBIによる経済的安全保障",
+    "meaningful-occupation": "有意義な職業への権利",
+    "healthcare-climate": "ヘルスケアと気候の統合",
+    "social-inclusion": "社会的包摂とつながり",
+    "nested-governance": "ネスト型ガバナンスシステム",
+    "legal-ethical": "法的・倫理的セーフガード",
+    "implementation-roadmap": "実装ロードマップ",
+    "monitoring-adaptive": "モニタリングと適応的管理",
+    "call-to-action": "行動の呼びかけと高齢者リーダーシップ",
+    "appendices": "付録とリソース",
+    "aging-framework-essentials": "フレームワークエッセンシャルガイド"
+  },
+  "sectionsShort": {
+    "preamble": "前文",
+    "executive-summary": "エグゼクティブサマリー",
+    "economic-security": "経済的安全保障",
+    "meaningful-occupation": "有意義な職業",
+    "healthcare-climate": "ヘルスケアと気候",
+    "social-inclusion": "社会的包摂",
+    "nested-governance": "ネスト型ガバナンス",
+    "legal-ethical": "法と倫理",
+    "implementation-roadmap": "実装",
+    "monitoring-adaptive": "モニタリングと適応",
+    "call-to-action": "行動の呼びかけ",
+    "appendices": "付録",
+    "aging-framework-essentials": "フレームワークエッセンシャル"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "loading": {
+    "text": "フレームワークコンテンツを読み込み中..."
+  }
+}

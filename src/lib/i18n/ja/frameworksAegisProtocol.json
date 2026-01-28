@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "title": "イージスプロトコル - グローバルセキュリティ移行",
+    "description": "世界の軍事能力を分断の道具から発見と宇宙の守護のエンジンへと変革するための包括的フレームワーク"
+  },
+  "guideCard": {
+    "title": "イージスプロトコルは初めてですか？",
+    "description": "軍事変革と惑星防衛に関する実践的な懸念に対処する懐疑派向けエグゼクティブサマリーから始めましょう。",
+    "buttonText": "懐疑派向けエグゼクティブサマリーを読む"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "vision": "ビジョンと原則",
+    "implementation": "実装フレームワーク",
+    "mechanics": "コアメカニズム",
+    "action": "アクションとエンゲージメント",
+    "strategic-briefings": "戦略ブリーフィング",
+    "resources": "リソース"
+  },
+  "sections": {
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "introduction-vision": "導入とビジョン",
+    "foundational-principles": "基本原則",
+    "integration-architecture": "GGF統合アーキテクチャ",
+    "historical-grounding": "歴史的根拠",
+    "strategic-resilience": "戦略的レジリエンスと抵抗対策",
+    "economic-modeling": "経済移行モデリング",
+    "non-state-integration": "非国家主体の統合",
+    "implementation-phases": "実装の4つのフェーズ",
+    "three-pillars": "3つの柱",
+    "root-causes": "根本原因への対処",
+    "success-metrics": "成功指標と測定",
+    "faq": "よくある反論",
+    "taking-action": "行動を起こす",
+    "strategic-briefing-for-the-russian-federation": "ロシア連邦向け戦略ブリーフィング",
+    "the-china-engagement-strategy": "中国エンゲージメント戦略",
+    "the-european-ally-briefing": "欧州同盟国ブリーフィング",
+    "the-global-south-partnership-proposal": "グローバルサウスパートナーシップ提案",
+    "appendices": "付録"
+  },
+  "sectionsShort": {
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "introduction-vision": "導入",
+    "foundational-principles": "原則",
+    "integration-architecture": "GGF統合",
+    "historical-grounding": "歴史的事例",
+    "strategic-resilience": "戦略的レジリエンス",
+    "economic-modeling": "経済モデリング",
+    "non-state-integration": "非国家主体",
+    "implementation-phases": "実装フェーズ",
+    "three-pillars": "3つの柱",
+    "root-causes": "根本原因",
+    "success-metrics": "成功指標",
+    "faq": "FAQ",
+    "taking-action": "行動を起こす",
+    "strategic-briefing-for-the-russian-federation": "ロシア戦略",
+    "the-china-engagement-strategy": "中国戦略",
+    "the-european-ally-briefing": "欧州同盟国",
+    "the-global-south-partnership-proposal": "グローバルサウスパートナーシップ",
+    "appendices": "付録"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション",
+    "backToFrameworksOverview": "← 概要に戻る",
+    "beginYourJourney": "クイックスタート",
+    "exploreFramework": "フレームワークを探索"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "loading": {
+    "text": "セキュリティ変革フレームワークのコンテンツを読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "bookTitle": "ラディカルコンピテンス",
+  "bookSubtitle": "システム思考時代の戦略的アクティビズム",
+  "meta": {
+    "title": "ラディカルコンピテンス - 完全版",
+    "description": "イエローレベルのシステム思考と効果的な行動を開発する準備ができているグリーンステージのアクティビスト向けの戦略的組織化への包括的ガイド。"
+  },
+  "categories": {
+    "frontMatter": "前付",
+    "backMatter": "後付"
+  },
+  "parts": {
+    "Part I: The Problem": "パートI：問題",
+    "Part II: The Framework": "パートII：フレームワーク",
+    "Part III: The Strategy": "パートIII：戦略",
+    "Part IV: The Practice": "パートIV：実践",
+    "Part V: The Movement": "パートV：ムーブメント"
+  },
+  "sections": {
+    "book-cover": "表紙",
+    "dedication": "献辞",
+    "personal-letter": "ディッキーへの個人的な手紙（そして彼のような全ての人へ）",
+    "table-of-contents": "目次",
+    "chapter-1": "第1章：メタデータ - スクリプトが実際にどう実行されるか",
+    "chapter-2": "第2章：なぜ賢い人々は負け続けるのか",
+    "chapter-3": "第3章：統合危機 - オレンジの問題へのイエローの解決策",
+    "chapter-4": "第4章：アクティビストパフォーマンスの罠",
+    "chapter-5": "第5章：ウィークゼロプロトコル - 3時間で街をマッピングする方法",
+    "chapter-6": "第6章：不正なボード診断",
+    "chapter-7": "第7章：部屋を読む - 発達段階の実践",
+    "chapter-8": "第8章：コアリションアーキテクチャ - 崩壊しない同盟の構築",
+    "chapter-9": "第9章：戦略的スタック - 統合対断片化",
+    "chapter-10": "第10章：サンクチュアリディストリクト - 非採掘的ゾーンの創造",
+    "chapter-11": "第11章：ソブリンフロア - インフラとしての経済的セキュリティ",
+    "chapter-12": "第12章：認知的主権 - コモンズとしての注意の保護",
+    "chapter-13": "第13章：自治体のレバレッジ - なぜ地方政府が重要か",
+    "chapter-14": "第14章：トロイの木馬戦略 - ウェルネスに変化を埋め込む",
+    "chapter-15": "第15章：人を燃え尽きさせないキャンペーン設計",
+    "chapter-16": "第16章：統合スコアカード - アクティビスト劇場の防止",
+    "chapter-17": "第17章：ネットワークの構築 - ローカルノードから惑星規模のムーブメントへ",
+    "chapter-18": "第18章：お金の問題 - 腐敗なしの資金調達",
+    "chapter-19": "第19章：戦うべき時と構築すべき時",
+    "chapter-20": "第20章：ロングゲーム - 文明規模の戦略",
+    "appendix-a": "付録A：組織者のためのスパイラルダイナミクス入門",
+    "appendix-b": "付録B：Discordコミュニティ組織化スターターパック",
+    "appendix-c": "付録C：自治体決議テンプレート",
+    "appendix-d": "付録D：統合スコアカードテンプレート",
+    "appendix-e": "付録E：時間を無駄にしない参考文献",
+    "about": "著者について"
+  },
+  "sectionsShort": {
+    "book-cover": "表紙",
+    "dedication": "献辞",
+    "personal-letter": "個人的手紙",
+    "table-of-contents": "目次",
+    "chapter-1": "第1章：メタデータ",
+    "chapter-2": "第2章：なぜ賢い人々は負けるのか",
+    "chapter-3": "第3章：統合危機",
+    "chapter-4": "第4章：アクティビストパフォーマンス",
+    "chapter-5": "第5章：ウィークゼロプロトコル",
+    "chapter-6": "第6章：不正なボード",
+    "chapter-7": "第7章：部屋を読む",
+    "chapter-8": "第8章：コアリションアーキテクチャ",
+    "chapter-9": "第9章：戦略的スタック",
+    "chapter-10": "第10章：サンクチュアリディストリクト",
+    "chapter-11": "第11章：ソブリンフロア",
+    "chapter-12": "第12章：認知的主権",
+    "chapter-13": "第13章：自治体のレバレッジ",
+    "chapter-14": "第14章：トロイの木馬",
+    "chapter-15": "第15章：キャンペーン設計",
+    "chapter-16": "第16章：統合スコアカード",
+    "chapter-17": "第17章：ネットワークの構築",
+    "chapter-18": "第18章：お金の問題",
+    "chapter-19": "第19章：戦うか構築するか",
+    "chapter-20": "第20章：ロングゲーム",
+    "appendix-a": "スパイラルダイナミクス入門",
+    "appendix-b": "Discord組織化",
+    "appendix-c": "自治体テンプレート",
+    "appendix-d": "スコアカードテンプレート",
+    "appendix-e": "参考文献",
+    "about": "著者について"
+  },
+  "pdfDownload": {
+    "title": "完全版をダウンロード",
+    "subtitle": "PDF形式",
+    "englishOnly": "PDFは英語版のみ"
+  },
+  "actions": {
+    "readOnline": "オンラインで読む"
+  },
+  "languageAvailability": {
+    "title": "コンテンツ利用可能性のお知らせ",
+    "description": "この書籍は現在英語のみで利用可能です。翻訳作業中のため、一部セクションは英語で表示される場合があります。",
+    "contentStatus": "コンテンツ：英語のみ",
+    "pdfStatus": "PDF：英語のみ"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "navigation": {
+    "previousSection": "前へ",
+    "nextSection": "次へ",
+    "downloadPdf": "PDFをダウンロード"
+  },
+  "breadcrumb": {
+    "resources": "リソース",
+    "books": "書籍",
+    "currentBook": "ラディカルコンピテンス"
+  },
+  "progress": {
+    "text": "章 {current} / {total}"
+  },
+  "loading": {
+    "text": "書籍コンテンツを読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "targetAudience": {
+    "title": "この本の対象読者",
+    "description": "効果のない組織化に不満を感じ、価値観を放棄することなく戦略的なシステムレベルの思考を発展させる準備ができているグリーンステージのアクティビスト（イギリス・レディングのディッキーのような）のために書かれました。"
+  },
+  "bookContext": {
+    "series": "スパイラルシリーズ",
+    "position": "グリーンからイエローへの移行を対象とした最初の書籍",
+    "companion": "ツールとテンプレートはglobalgovernanceframeworks.org/toolsで利用可能"
+  }
+}

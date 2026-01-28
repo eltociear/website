@@ -1,0 +1,288 @@
+{
+  "title": "惑星免疫システム",
+  "subtitle": "存在リスク対応フレームワーク",
+  "description": "存在脅威への緊急対応プロトコル - 民主主義とコミュニティ主権を維持しながらの調整された文明防衛。",
+  "shortDescription": "即時の惑星対応を必要とする文明脅威のための緊急調整システム - 民主的セーフガードとコミュニティ保護を備えて設計。",
+  "backNav": "フレームワーク概要に戻る",
+
+  "quickStart": {
+    "title": "クイックスタートガイド",
+    "subtitle": "これらの必須概要で素早くオリエンテーション",
+    "guides": [
+      {
+        "id": "at-a-glance",
+        "icon": "⚡",
+        "title": "概要",
+        "description": "文明防衛システムの5分概要"
+      },
+      {
+        "id": "executive-summary-for-the-skeptic",
+        "icon": "🤔",
+        "title": "懐疑派向け",
+        "description": "調整された存在リスク管理のエビデンスに基づくケース"
+      }
+    ]
+  },
+
+  "categories": {
+    "overview": "フレームワーク概要",
+    "coreFramework": "コアフレームワーク",
+    "implementation": "実装",
+    "appendices": "技術リソース"
+  },
+
+  "sections": {
+    "index": "導入と概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "introduction": "導入",
+    "principles": "基本原則",
+    "structural": "構造的コンポーネント",
+    "implementation": "実装パスウェイ",
+    "coordination-response": "調整と対応",
+    "long-term-stewardship": "長期スチュワードシップ",
+    "threat-assessment": "脅威評価方法論",
+    "crisis-protocols": "危機指揮プロトコル",
+    "technology-frameworks": "テクノロジー評価フレームワーク",
+    "resource-mobilization": "リソース動員と資金調達",
+    "success-metrics": "成功指標と評価",
+    "risk-assessment": "リスク評価システム"
+  },
+
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向け",
+    "introduction": "導入",
+    "principles": "基本原則",
+    "structural": "コンポーネント",
+    "implementation": "実装",
+    "coordination-response": "調整",
+    "long-term-stewardship": "スチュワードシップ",
+    "threat-assessment": "脅威評価",
+    "crisis-protocols": "危機プロトコル",
+    "technology-frameworks": "テクノロジーフレームワーク",
+    "resource-mobilization": "リソース動員",
+    "success-metrics": "成功指標",
+    "risk-assessment": "リスク評価"
+  },
+
+  "navigation": {
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション",
+    "backToOverview": "概要に戻る",
+    "downloadPDF": "PDFをダウンロード",
+    "readFullFramework": "フレームワーク全体を読む",
+    "technicalResources": "技術リソース",
+    "backToFramework": "フレームワークに戻る"
+  },
+
+  "metadata": {
+    "frameworkType": "存在リスク対応",
+    "tier": "4 - 惑星免疫システム",
+    "status": "開発ドラフト",
+    "version": "2.1",
+    "estimatedReadingTime": "15分",
+    "totalSections": "16セクション",
+    "coreFrameworkSections": "7セクション",
+    "appendixSections": "5つの詳細付録",
+    "lastUpdated": "2025-01-12"
+  },
+
+  "keyFeatures": {
+    "title": "主要機能",
+    "items": [
+      {
+        "icon": "🛡️",
+        "title": "危機指揮プロトコル",
+        "description": "民主的セーフガードを備えた緊急調整"
+      },
+      {
+        "icon": "🔍",
+        "title": "存在リスクオブザバトリー",
+        "description": "包括的な脅威評価とモニタリング"
+      },
+      {
+        "icon": "⚖️",
+        "title": "民主的アカウンタビリティ",
+        "description": "リアルタイム監視を持つ世界リスク議会"
+      },
+      {
+        "icon": "🌍",
+        "title": "コミュニティ保護",
+        "description": "脆弱な人口への60%リソース優先"
+      },
+      {
+        "icon": "💰",
+        "title": "シン税資金調達",
+        "description": "ハイリスクテクノロジー課税から年間310-500億ドル"
+      },
+      {
+        "icon": "🤝",
+        "title": "文化的主権",
+        "description": "先住民族の領土権限とコミュニティコントロール"
+      }
+    ]
+  },
+
+  "implementationPhases": {
+    "title": "実装タイムライン",
+    "phases": [
+      {
+        "name": "基盤フェーズ",
+        "duration": "1-3年目",
+        "icon": "🏗️",
+        "description": "ERO設立、AI安全協定、Gerghubパイロット",
+        "targets": [
+          "ERO運用能力",
+          "存在市民教育に2500万人訓練",
+          "10のGerghubパイロット都市",
+          "AI安全協定批准"
+        ]
+      },
+      {
+        "name": "統合フェーズ",
+        "duration": "4-7年目",
+        "icon": "🌐",
+        "description": "条約採択、インフラ展開、民主的成熟",
+        "targets": [
+          "80%条約採択",
+          "50%優先ゾーンカバレッジ",
+          "世界リスク議会権限",
+          "地域ネットワーク調整"
+        ]
+      },
+      {
+        "name": "進化フェーズ",
+        "duration": "8-15年目",
+        "icon": "🎯",
+        "description": "ユニバーサルレジリエンス、種レベル調整、意識インフラ",
+        "targets": [
+          "1億人の市民教育卒業生",
+          "ユニバーサルレジリエンスカバレッジ",
+          "文化ルネサンス（80%文化レジリエンス指数）",
+          "恒久的文明制度"
+        ]
+      }
+    ]
+  },
+
+  "coreComponents": {
+    "title": "システムアーキテクチャ",
+    "components": [
+      {
+        "name": "存在リスクオブザバトリー（ERO）",
+        "icon": "🔍",
+        "description": "公開透明性と独立した挑戦を持つ主要脅威評価機関"
+      },
+      {
+        "name": "危機指揮プロトコル",
+        "icon": "🚨",
+        "description": "サーキットブレーカーセーフガードと民主的監視を備えた緊急調整"
+      },
+      {
+        "name": "世界リスク議会",
+        "icon": "🏛️",
+        "description": "リアルタイム修正権限を持つ民主的監視機関"
+      },
+      {
+        "name": "グローバル対応チーム",
+        "icon": "⚡",
+        "description": "AI安全、バイオセキュリティ、核危機対応のための専門ユニット"
+      },
+      {
+        "name": "グローバルコモンズファンド",
+        "icon": "💰",
+        "description": "コミュニティ管理の配布を通じた公平中心のリソース動員"
+      },
+      {
+        "name": "モバイルGERGリスクアプリ",
+        "icon": "📱",
+        "description": "リアルタイムの市民参加とコミュニティモニタリングプラットフォーム"
+      }
+    ]
+  },
+
+  "successMetrics": {
+    "title": "成功目標",
+    "quantitative": [
+      {
+        "metric": "条約採択",
+        "target": "5年目までに80%",
+        "icon": "📋"
+      },
+      {
+        "metric": "市民教育",
+        "target": "12年目までに1億人訓練",
+        "icon": "🎓"
+      },
+      {
+        "metric": "レジリエンスカバレッジ",
+        "target": "7年目までに優先ゾーン50%",
+        "icon": "🛡️"
+      },
+      {
+        "metric": "危機対応",
+        "target": "調整時間45日未満",
+        "icon": "⚡"
+      }
+    ],
+    "qualitative": [
+      {
+        "metric": "コミュニティ主権強化",
+        "description": "コミュニティが自律性の減少ではなく増加を報告",
+        "icon": "🏘️"
+      },
+      {
+        "metric": "文化的活力",
+        "description": "伝統的知識の伝達とイノベーションが繁栄",
+        "icon": "🌱"
+      },
+      {
+        "metric": "民主的正統性",
+        "description": "市民の信頼と監視への有意義な参加",
+        "icon": "🗳️"
+      }
+    ]
+  },
+
+  "buttons": {
+    "readGuide": "ガイドを読む",
+    "reading": "読書中",
+    "startReading": "フレームワークを読み始める",
+    "downloadPDF": "PDFをダウンロード",
+    "backToOverview": "← 概要に戻る",
+    "nextSection": "次のセクション →",
+    "previousSection": "← 前のセクション",
+    "returnToOverview": "概要に戻る",
+    "readFullFramework": "フレームワーク全体を読む →",
+    "technicalResources": "技術リソース →",
+    "backToFramework": "← フレームワークに戻る"
+  },
+
+  "accessibility": {
+    "skipToContent": "メインコンテンツにスキップ",
+    "frameworkNavigation": "フレームワークナビゲーション",
+    "sectionNavigation": "セクションナビゲーション",
+    "expandSection": "セクションを展開",
+    "collapseSection": "セクションを折りたたむ",
+    "currentSection": "現在のセクション",
+    "loadingFramework": "フレームワークコンテンツを読み込み中..."
+  },
+
+  "errors": {
+    "sectionNotFound": "セクションが見つかりません",
+    "sectionNotFoundDescription": "リクエストされたセクションを読み込めませんでした。",
+    "loadingError": "読み込みエラー",
+    "loadingErrorDescription": "フレームワークコンテンツの読み込み中にエラーが発生しました。",
+    "returnToOverview": "概要に戻る"
+  },
+
+  "download": {
+    "pdfTitle": "惑星免疫システムフレームワーク",
+    "pdfSubtitle": "付録付き完全なフレームワークドキュメント",
+    "downloadComplete": "完全なPDFをダウンロード",
+    "downloadSection": "このセクションをダウンロード",
+    "generatingPDF": "PDF生成中..."
+  }
+}

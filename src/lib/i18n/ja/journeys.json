@@ -1,0 +1,49 @@
+{
+  "intro": "状況、経験レベル、目標に基づいて実装ジャーニーを選択してください。各ジャーニーは、効果的に連携するように設計されたツールセットを提供します。",
+  "recommended": "おすすめ",
+  "recommendationNotice": {
+    "title": "あなたへのおすすめ",
+    "description": "アセスメントに基づいて、以下のハイライトされたジャーニーから始めることをお勧めします。"
+  },
+  "targetAudience": "対象者",
+  "keyTools": "主要ツール",
+  "expectedOutcomes": "期待される成果",
+  "resourceLevel": "リソース",
+  "culturalFit": "文化的適合性",
+  "moreTools": "その他のツール",
+  "selectJourney": "このジャーニーを選択",
+  "selected": "選択済み",
+  "confirmation": {
+    "title": "ジャーニーを選択しました！",
+    "description": "{journey}ジャーニーを選択しました。これで特定のツールを探索し、実装を開始できます。",
+    "exploreTools": "ツールを探索",
+    "changeSelection": "選択を変更"
+  },
+  "complexity": {
+    "basic": "基本",
+    "medium": "中級",
+    "high": "高度",
+    "advanced": "上級",
+    "expert": "エキスパート"
+  },
+  "gettingStarted": {
+    "title": "はじめの一歩",
+    "description": "ガバナンスジャーニーを始めたばかりの新しいイニシアチブやコミュニティに最適"
+  },
+  "crisisResponse": {
+    "title": "危機対応",
+    "description": "緊急ガバナンス状況やシステム崩壊のための迅速展開ツール"
+  },
+  "buildingCapacity": {
+    "title": "能力構築",
+    "description": "既存のガバナンスイニシアチブを成長・強化するための包括的なツール"
+  },
+  "deepeningPractice": {
+    "title": "実践の深化",
+    "description": "新しいアプローチを開拓する準備ができた成熟したイニシアチブのための高度なツール"
+  },
+  "evolutionTransition": {
+    "title": "進化と移行",
+    "description": "根本的なシステム変革と円滑な移行のためのツール"
+  }
+}

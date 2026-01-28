@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "title": "グレートトランジション実装ガイド - グローバルガバナンスフレームワーク",
+    "description": "GGFフレームワークを使用して採掘産業から再生的経済への公正な移行を管理するための実践的プレイブック"
+  },
+  "navigation": {
+    "backToGuides": "実装ガイドに戻る",
+    "downloadPdf": "完全ガイドをダウンロード（PDF）",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション",
+    "toPartTwo": "パートIIへ続く",
+    "toPartThree": "パートIIIへ続く",
+    "backToPartOne": "パートIに戻る",
+    "backToPartTwo": "パートIIに戻る"
+  },
+  "categories": {
+    "introduction": "導入",
+    "tableOfContents": "目次",
+    "partOne": "パートI：過去を認識する",
+    "partTwo": "パートII：未来を構築する",
+    "partThree": "パートIII：統合とビジョン"
+  },
+  "sections": {
+    "introduction": "GGFの公正な移行の約束",
+    "table-of-contents": "詳細目次",
+    "sunsetting": "レガシーシステムのサンセッティング",
+    "healing": "傷を癒す",
+    "empowering": "労働力のエンパワーメント",
+    "building": "新しい経済の構築",
+    "case-study": "完全ケーススタディ - ルール渓谷",
+    "conclusion": "希望のための再現可能な青写真"
+  },
+  "sectionsShort": {
+    "introduction": "導入",
+    "table-of-contents": "目次",
+    "sunsetting": "レガシーのサンセット",
+    "healing": "傷の癒し",
+    "empowering": "労働者のエンパワーメント",
+    "building": "経済構築",
+    "case-study": "ケーススタディ",
+    "conclusion": "青写真"
+  },
+  "progress": {
+    "partOne": "パートI：セクション {current} / {total}",
+    "partTwo": "パートII：セクション {current} / {total}",
+    "partThree": "パートIII：セクション {current} / {total}"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "loading": {
+    "text": "ガイドコンテンツを読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "partDescriptions": {
+    "partOne": {
+      "title": "過去を認識し、現在をサンセットする",
+      "description": "ハースストーンプロトコルと平和・紛争解決フレームワークを使用して、採掘産業から責任を持って移行する方法を学びましょう。",
+      "sections": {
+        "sunsetting": {
+          "title": "レガシーシステムのサンセッティング",
+          "subtitle": "ハースストーンプロトコルの適用",
+          "description": "コミュニティがレガシー産業と関わり、再生的目的のための資産移転を管理するスチュワードシップトラストを形成する方法。"
+        },
+        "healing": {
+          "title": "傷を癒す",
+          "subtitle": "平和・紛争解決フレームワークの使用",
+          "description": "歴史的な被害を認識し、法的拘束力のある修復的行動を作成するための真実と和解プロセスの実装。"
+        }
+      }
+    },
+    "partTwo": {
+      "title": "再生的未来の構築",
+      "description": "解放の中の労働とAUBIフレームワークを使用して、移行中の尊厳ある労働と経済的安定を創造する方法を発見しましょう。",
+      "sections": {
+        "empowering": {
+          "title": "労働力のエンパワーメント",
+          "subtitle": "解放の中の労働フレームワークの実装",
+          "description": "公正な移行サービス部隊を創設し、生態系修復と再生可能エネルギーの新しい役割のために労働者を再訓練。"
+        },
+        "building": {
+          "title": "新しい経済の構築",
+          "subtitle": "AUBIフレームワークの活用",
+          "description": "ユニバーサルベースライン支払いと再生的報酬を使用して、安定性を提供し、新しい労働者協同組合を育成。"
+        }
+      }
+    },
+    "partThree": {
+      "title": "統合とビジョン",
+      "description": "完全な変革を実際に見て、このアプローチをどのコミュニティでも再現する方法を理解しましょう。",
+      "sections": {
+        "case-study": {
+          "title": "完全ケーススタディ - ルール渓谷の「鉄鋼から太陽光」への移行",
+          "subtitle": "10年間の完全な変革",
+          "description": "あるコミュニティが4つのGGFフレームワークすべてを使用して、衰退する産業ハブから繁栄する再生的経済に変革した方法を示すナラティブウォークスルー。"
+        },
+        "conclusion": {
+          "title": "希望のための再現可能な青写真",
+          "subtitle": "あなたのコミュニティの前進への道",
+          "description": "統合されたGGFアプローチのまとめと、採掘的過去を超えようとするコミュニティへの最終的な行動への呼びかけ。"
+        }
+      }
+    }
+  },
+  "frameworks": {
+    "hearthstone": {
+      "name": "ハースストーンプロトコル",
+      "description": "資産移転とスチュワードシップトラストの管理のため"
+    },
+    "peace": {
+      "name": "平和と紛争解決",
+      "description": "真実、和解、修復的正義のため"
+    },
+    "workInLiberation": {
+      "name": "解放の中の労働",
+      "description": "尊厳ある雇用と労働者のエンパワーメントのため"
+    },
+    "aubi": {
+      "name": "AUBIフレームワーク",
+      "description": "経済的安定と再生的報酬のため"
+    }
+  },
+  "keyTerms": {
+    "stewardshipTrust": "スチュワードシップトラスト",
+    "extractiveIndustryTax": "採掘産業移行税",
+    "commonsConversionBonds": "コモンズ転換債券",
+    "truthReconciliation": "真実和解委員会",
+    "justTransitionCorps": "公正な移行サービス部隊",
+    "communityWorkTeams": "コミュニティワークチーム",
+    "globalCommonsFund": "グローバルコモンズファンド",
+    "heartsAndLeaves": "HeartsとLeaves（再生的通貨）"
+  },
+  "callsToAction": {
+    "getStarted": "コミュニティの移行を始める",
+    "learnMore": "GGFフレームワークについてもっと学ぶ",
+    "connectCommunity": "他の移行中のコミュニティとつながる",
+    "downloadResources": "実装リソースをダウンロード"
+  }
+}

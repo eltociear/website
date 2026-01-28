@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "バイオリージョナルコンパス - グローバルガバナンスフレームワーク",
+    "description": "バイオリージョナル自治区（BAZ）の形成と、土地と人々との互恵関係に根ざした再生的コミュニティの構築のための包括的ガイド"
+  },
+  "title": "バイオリージョナルコンパス",
+  "subtitle": "BAZの形成と再生的コミュニティの構築のための包括的ガイド",
+  "navigation": {
+    "resources": "リソース",
+    "guides": "実装ガイド",
+    "currentGuide": "バイオリージョナルコンパス",
+    "backToGuides": "実装ガイドに戻る"
+  },
+  "loading": {
+    "text": "ガイドコンテンツを読み込み中..."
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "actions": {
+    "downloadPdf": "完全ガイドをダウンロード",
+    "explore": "リソースを探索",
+    "viewPlaybooks": "プレイブックを見る",
+    "startGuide": "形成ガイドを開始"
+  },
+  "sections": {
+    "quickStart": {
+      "title": "クイックスタートリソース",
+      "description": "BAZ形成の旅を始めるためのこれらの基本リソースから選択してください"
+    },
+    "main": {
+      "title": "完全ガイドセクション",
+      "description": "BAZ形成のための包括的なリソースとガイダンスを探索する"
+    },
+    "library": {
+      "title": "リソースライブラリ",
+      "description": "実装の柱ごとに整理された包括的なツールキットと詳細なリソース",
+      "subsections": [
+        "形成前評価スイート",
+        "6つの柱ツールキット",
+        "品質保証システム",
+        "学習の旅リソース"
+      ]
+    },
+    "playbooks": {
+      "title": "専門プレイブック",
+      "description": "複雑な課題と専門的シナリオのための戦略的ガイダンス",
+      "subsections": [
+        "法的戦略とレジリエンス",
+        "危機・紛争管理",
+        "対外関係と外交",
+        "技術統合"
+      ]
+    },
+    "guide": {
+      "title": "完全形成ガイド",
+      "description": "BAZ形成の6つの柱を通じたステップバイステップの旅",
+      "subsections": [
+        "6つの柱フレームワーク",
+        "スケール感応型適応",
+        "ネットワーク統合プロセス",
+        "卒業プロトコル"
+      ]
+    }
+  },
+  "topSections": {
+    "baz-starter-pack": "BAZスターターパック",
+    "pre-formation-assessment": "形成前評価",
+    "quick-start-guide": "クイックスタートガイド"
+  },
+  "metadata": {
+    "version": "バージョン",
+    "audience": "対象読者",
+    "audiences": "対象者",
+    "type": "ガイドタイプ",
+    "implementationGuide": "実装ガイド"
+  },
+  "footer": {
+    "note": "このガイドは、世界中の再生的コミュニティ形成を支援するグローバルガバナンスフレームワークイニシアチブの一部です。"
+  },
+  "pillars": {
+    "pillar0": {
+      "title": "内なる大地",
+      "subtitle": "新しい世界のための意識の育成",
+      "description": "個人的実践とコミュニティ対話を通じて内なるレジリエンスと集合的意識を構築"
+    },
+    "pillar1": {
+      "title": "火花",
+      "subtitle": "ビジョンと合意形成",
+      "description": "信頼構築と共有ビジョンの創造を通じて集合的意志に火をつける"
+    },
+    "pillar2": {
+      "title": "私たちの場所を見つける",
+      "subtitle": "バイオリージョンの定義",
+      "description": "先住民族のガイダンスとともに、あなたの場所の生態学的・文化的輪郭をマッピング"
+    },
+    "pillar3": {
+      "title": "器を造る",
+      "subtitle": "法的・制度的足場",
+      "description": "BAZの志のための法的容器とガバナンス構造を創造"
+    },
+    "pillar4": {
+      "title": "評議会を編む",
+      "subtitle": "ガバナンス形成",
+      "description": "先住民族の知恵と参加型民主主義に根ざしたガバナンスシステムを構築"
+    },
+    "pillar5": {
+      "title": "OSをインストール",
+      "subtitle": "コアGGFフレームワーク統合",
+      "description": "惑星的接続のためのグローバルガバナンスフレームワークプロトコルを統合"
+    },
+    "pillar6": {
+      "title": "エンジンに点火",
+      "subtitle": "経済的主権",
+      "description": "Hearts、Leaves、AUBIシステムで再生的経済を活性化"
+    }
+  },
+  "concepts": {
+    "baz": {
+      "title": "バイオリージョナル自治区（BAZ）",
+      "description": "人間コミュニティを生態学的境界と先住民族のスチュワードシッププロトコルに整合させるガバナンスモデル"
+    },
+    "aubi": {
+      "title": "エージェント的ユニバーサルベーシックインカム（AUBI）",
+      "description": "生態系およびケアワークに報酬を与えながら無条件の収入を提供するシステム"
+    },
+    "hearts": {
+      "title": "Hearts通貨",
+      "description": "ケアワーク、コミュニティ構築、社会的ウェルビーイングに報酬を与える価値システム"
+    },
+    "leaves": {
+      "title": "Leaves通貨",
+      "description": "生態系の健康指標と修復作業に裏付けられた価値システム"
+    },
+    "fpic": {
+      "title": "自由意思による事前の十分な情報に基づく同意2.0（FPIC 2.0）",
+      "description": "すべての土地と文化的決定のための強化された先住民族同意プロトコル"
+    },
+    "mvb": {
+      "title": "最小実行可能BAZ（MVB）",
+      "description": "コミュニティを計画から運用BAZステータスへ移行させる最初のマイルストーン"
+    }
+  },
+  "categories": {
+    "assessment": "評価と計画",
+    "formation": "BAZ形成プロセス",
+    "governance": "ガバナンスと評議会作業",
+    "economics": "経済システム",
+    "legal": "法的・制度的",
+    "culture": "文化と関係性",
+    "ecology": "生態系スチュワードシップ",
+    "technology": "技術統合"
+  },
+  "phases": {
+    "foundation": {
+      "title": "基礎フェーズ（1-2年目）",
+      "description": "内的作業、ビジョン構築、バイオリージョナルマッピング"
+    },
+    "systemSetup": {
+      "title": "システム構築（2-4年目）",
+      "description": "法的フレームワーク、ガバナンス形成、GGF統合"
+    },
+    "launchIterate": {
+      "title": "ローンチと反復（3-5年目以降）",
+      "description": "経済活性化と継続的適応"
+    }
+  },
+  "scales": {
+    "homestead": {
+      "title": "ホームステッドスケール（100人未満）",
+      "description": "非公式ガバナンス、シンプルな法的構造、地域経済重視"
+    },
+    "village": {
+      "title": "ビレッジスケール（100-5,000人）",
+      "description": "市民集会と公共財務を持つ公式ガバナンス"
+    },
+    "bioregional": {
+      "title": "バイオリージョナルスケール（5,000人以上）",
+      "description": "洗練された法人格と多層的経済"
+    }
+  },
+  "tools": {
+    "dashboard": "BAZダッシュボード",
+    "calculator": "実行可能性計算機",
+    "mapper": "バイオリージョナルマッパー",
+    "assessor": "スキル評価",
+    "planner": "リソースプランナー"
+  },
+  "outcomes": {
+    "ecological": "生態系再生",
+    "social": "コミュニティレジリエンス",
+    "economic": "経済的主権",
+    "cultural": "文化的活力",
+    "governance": "参加型民主主義"
+  },
+  "resources": {
+    "templates": "テンプレートとワークシート",
+    "caseStudies": "ケーススタディ",
+    "legalGuides": "法的ガイダンス",
+    "techGuides": "技術ガイド",
+    "facilitationGuides": "ファシリテーションリソース"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "惑星メンタルヘルスのためのリビングマンダラ - グローバルガバナンスフレームワーク",
+    "description": "メンタルヘルスを惑星的相互依存に織り込まれた文化横断的人権として位置づける、グローバルメンタルヘルスガバナンスのための変革的フレームワーク"
+  },
+  "guideCard": {
+    "title": "惑星メンタルヘルスフレームワークは初めてですか？",
+    "description": "フレームワークの基本原則とコミュニティ主導の変革パスウェイを説明するアクセシブルな必需品ガイドから始めましょう。",
+    "buttonText": "フレームワーク必需品を読む"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "systems": "システムとデリバリー",
+    "implementation": "実装",
+    "resources": "リソース"
+  },
+  "sections": {
+    "index": "概要",
+    "vision-principles": "ビジョンと指導原則",
+    "governance-structures": "ガバナンスと制度構造",
+    "legal-policy": "法的・政策フレームワーク",
+    "financing-resources": "資金調達とリソース動員",
+    "service-delivery": "サービスデリバリーとワークフォース",
+    "monitoring-accountability": "モニタリング、評価、アカウンタビリティ",
+    "crisis-response": "危機と緊急対応",
+    "innovation-research": "イノベーションと研究",
+    "cross-cutting-themes": "横断的テーマ",
+    "implementation-strategy": "実装戦略",
+    "political-strategy": "政治戦略とステークホルダーマッピング",
+    "risk-management": "リスク管理",
+    "technology-implementation": "テクノロジー実装",
+    "change-management": "チェンジマネジメント",
+    "conclusion": "マンダラの完成：ビジョンから生きた現実へ",
+    "mental-health-framework-essentials": "フレームワーク必需品"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "vision-principles": "ビジョンと原則",
+    "governance-structures": "ガバナンス",
+    "legal-policy": "法律と政策",
+    "financing-resources": "資金調達",
+    "service-delivery": "サービスデリバリー",
+    "monitoring-accountability": "モニタリング",
+    "crisis-response": "危機対応",
+    "innovation-research": "イノベーション",
+    "cross-cutting-themes": "横断的",
+    "implementation-strategy": "実装",
+    "political-strategy": "政治戦略",
+    "risk-management": "リスク管理",
+    "technology-implementation": "テクノロジー",
+    "change-management": "チェンジマネジメント",
+    "conclusion": "結論",
+    "mental-health-framework-essentials": "フレームワーク必需品"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "loading": {
+    "text": "フレームワークコンテンツを読み込み中..."
+  }
+}

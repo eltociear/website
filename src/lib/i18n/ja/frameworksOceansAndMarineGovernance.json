@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "title": "海洋・海洋ガバナンスフレームワーク - グローバルガバナンスフレームワーク",
+    "description": "海洋スチュワードシップ、海洋エコシステムの権利、再生的ブルーエコノミーガバナンスのための包括的フレームワーク"
+  },
+  "guideCard": {
+    "title": "海洋ガバナンスは初めてですか？",
+    "description": "エグゼクティブサマリーから始めて、私たちの惑星のブルーハートとの関係をどのように変革できるかを理解しましょう。",
+    "buttonText": "エグゼクティブサマリーを読む"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "framework": "ブルーハートフレームワーク",
+    "resources": "リソースとアクション"
+  },
+  "sections": {
+    "index": "フレームワーク概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "introduction-vision": "導入とビジョン",
+    "blue-heart-metaphor": "ブルーハートメタファー",
+    "framework-integration": "フレームワーク統合",
+    "three-pillars": "3つの柱",
+    "key-innovations": "主要イノベーション",
+    "implementation-roadmap": "実装ロードマップ",
+    "economic-model": "経済モデル",
+    "faq": "よくある質問",
+    "getting-involved": "参加する",
+    "appendices": "付録"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "introduction-vision": "導入",
+    "blue-heart-metaphor": "ブルーハート",
+    "framework-integration": "統合",
+    "three-pillars": "3つの柱",
+    "key-innovations": "イノベーション",
+    "implementation-roadmap": "ロードマップ",
+    "economic-model": "経済",
+    "faq": "FAQ",
+    "getting-involved": "参加する",
+    "appendices": "付録"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "loading": {
+    "text": "海洋ガバナンスコンテンツを読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "pillars": {
+    "guardianship": {
+      "title": "ガーディアンシップ",
+      "subtitle": "保護レイヤー",
+      "description": "害から海洋を守る",
+      "icon": "🛡️"
+    },
+    "circulation": {
+      "title": "循環",
+      "subtitle": "流れのレイヤー",
+      "description": "再生的リソースフローの確保",
+      "icon": "🌊"
+    },
+    "depth": {
+      "title": "深度",
+      "subtitle": "知恵のレイヤー",
+      "description": "謙虚さをもって未知にアプローチ",
+      "icon": "🌌"
+    }
+  },
+  "innovations": {
+    "rightsBasedApproach": {
+      "title": "権利ベースアプローチ",
+      "description": "グローバル規模で海洋エコシステムに法的人格を付与する初の包括的フレームワーク"
+    },
+    "mgcc": {
+      "title": "メタガバナンス調整評議会",
+      "description": "拒否権を持つ40%の先住民族代表、領海を越えた執行を調整"
+    },
+    "digitalOceanTwin": {
+      "title": "デジタルオーシャンツイン",
+      "description": "伝統的知識システムと統合されたAI駆動リアルタイムモニタリング"
+    },
+    "ethicalTradeZones": {
+      "title": "倫理的貿易ゾーン",
+      "description": "条約基準を満たす国家が優遇貿易条件を獲得"
+    },
+    "crisisProtocols": {
+      "title": "危機管理プロトコル",
+      "description": "事前に割り当てられた緊急資金による主要インシデントへの48時間対応保証"
+    }
+  },
+  "phases": {
+    "secureTheHeart": {
+      "title": "心臓を守る",
+      "timeframe": "0年目から5年目",
+      "description": "条約規定の批准、最初のBAZ設立、デジタルオーシャンツインのパイロット",
+      "targets": "違法漁業20%削減、法的権利を持つ10のエコシステム"
+    },
+    "healTheArteries": {
+      "title": "動脈を癒す",
+      "timeframe": "6年目から15年目",
+      "description": "採掘禁止の実施、BAZをEEZカバレッジの50%に拡大、マングローブの復元",
+      "targets": "海底100%保護、プラスチック汚染50%削減"
+    },
+    "awakenConsciousness": {
+      "title": "意識を覚醒させる",
+      "timeframe": "16年目から25年目",
+      "description": "完全な文化統合、保護措置の100%コンプライアンス",
+      "targets": "繁栄する海洋エコシステム、ブルーハートとの再生的関係"
+    }
+  },
+  "economicModel": {
+    "annualBudget": "2030年までにグローバルで3億ドル",
+    "fundingSources": {
+      "title": "資金源",
+      "oceanImpactBonds": "オーシャンインパクトボンド（年間9000万ドル）",
+      "greenClimateFund": "緑の気候基金からの配分",
+      "oceanCarbonTax": "海洋炭素税収入",
+      "blueHeartBonds": "民間セクターからのブルーハートボンド",
+      "crowdfunding": "#BlueHeartキャンペーンによるクラウドファンディング"
+    },
+    "budgetAllocation": {
+      "title": "予算配分",
+      "bazGrants": "40% BAZ助成金（1億2000万ドル）",
+      "oceanImpactBonds": "30% オーシャンインパクトボンド（9000万ドル）",
+      "resilienceFund": "20% レジリエンス基金と危機対応（6000万ドル）",
+      "mgccOperations": "10% MGCC運営（3000万ドル）"
+    },
+    "returnOnInvestment": {
+      "title": "投資収益率",
+      "mangroveRestoration": "マングローブ復元がエコシステムサービスで年間15億ドルの収益",
+      "costaRicaModel": "コスタリカモデルが10年間で1500億ドルの配当を予測"
+    }
+  },
+  "gettingInvolved": {
+    "governments": {
+      "title": "政府向け",
+      "actions": [
+        "オブザーバーステータス協定に署名",
+        "BAZ実装のパイロット",
+        "オーシャンインパクトボンドへの貢献",
+        "ブルーハート原則を国家政策に統合"
+      ]
+    },
+    "organizations": {
+      "title": "組織向け",
+      "actions": [
+        "コミュニティモニタリングのためにMGCCと提携",
+        "ブルースチュワードシップ認証を取得",
+        "ブルーハート産業対話に参加"
+      ]
+    },
+    "individuals": {
+      "title": "個人向け",
+      "actions": [
+        "#BlueHeartキャンペーンを支援",
+        "海洋エコシステムの権利を提唱",
+        "市民科学モニタリングに参加",
+        "伝統的海洋知識を学ぶ"
+      ]
+    },
+    "coastalCommunities": {
+      "title": "沿岸コミュニティ向け",
+      "actions": [
+        "BAZ設立を探索",
+        "モニタリングツールのためのコミュニティ助成金に申請",
+        "先住民族主導の海洋ガバナンストレーニングに参加"
+      ]
+    }
+  },
+  "faq": {
+    "differenceFromExisting": {
+      "question": "これは既存の海洋ガバナンスとどう違いますか？",
+      "answer": "このフレームワークは執行メカニズム、先住民族主導のガバナンス、再生的経済インセンティブを備えた包括的な権利ベースの保護を提供し、現在の断片的なアプローチをはるかに超えています。"
+    },
+    "nationalSovereignty": {
+      "question": "領海に対する国家主権はどうなりますか？",
+      "answer": "このフレームワークは既存のUNCLOSフレームワーク内で運営しながら、執行と調整を強化します。国家は有益な調整システムに参加しながら主権を維持します。"
+    },
+    "nonCompliantPowers": {
+      "question": "非準拠の大国にどう対処しますか？",
+      "answer": "段階的な経済インセンティブ、倫理的貿易ゾーン、第三者エンティティへの二次制裁が、面目を保つ参加パスウェイを提供しながら圧力を生み出します。"
+    },
+    "economicFeasibility": {
+      "question": "これは経済的に実現可能ですか？",
+      "answer": "年間3億ドルの予算は現在の有害な補助金のわずか1.4%を表します。経済モデリングはエコシステムサービスと災害コストの削減を通じたプラスのリターンを示しています。"
+    },
+    "technologicalBias": {
+      "question": "テクノロジーバイアスをどう防ぎますか？",
+      "answer": "GDGCテクノロジー倫理小委員会が四半期監査を提供し、先住民族データ主権プロトコルがコミュニティコントロールを確保し、多様なデータセットがアルゴリズムバイアスを防ぎます。"
+    }
+  },
+  "blueHeart": {
+    "metaphor": {
+      "title": "惑星のブルーハート",
+      "description": "すべての生命を支える重要な器官としての海洋—搾取するリソースではなく、神聖な循環システム",
+      "quote": "海洋は惑星のブルーハートです—生命を循環させ、気候を調整し、相互依存のウェブですべての存在を結びつける神聖で生きた契約です。"
+    },
+    "layers": {
+      "protective": {
+        "title": "保護レイヤー（ガーディアンシップ）",
+        "description": "海洋エコシステムの法的権利、保護規制の執行、破壊的慣行からの防御"
+      },
+      "flow": {
+        "title": "流れのレイヤー（循環）",
+        "description": "再生的経済システム、コミュニティモニタリングネットワーク、持続可能なリソースフロー"
+      },
+      "wisdom": {
+        "title": "知恵のレイヤー（深度）",
+        "description": "科学的知識と伝統的知恵の統合、未知のエコシステムへの予防的アプローチ"
+      }
+    }
+  },
+  "stakes": {
+    "success": "成功はすべての生命を支える繁栄する海洋を意味します",
+    "failure": "失敗はエコシステム崩壊と文明的危機を意味します"
+  },
+  "callToAction": {
+    "ending": "海洋搾取の時代は終わりを迎えています。ブルーハートスチュワードシップの時代が今始まります。",
+    "join": "海を神聖なものとして常に知っていた人々の知恵に導かれ、搾取から崇敬へと人類の海洋との関係を変革する私たちに参加してください。"
+  },
+  "appendices": {
+    "communicationsStrategy": {
+      "title": "コミュニケーション戦略",
+      "description": "グローバルにブルーハートムーブメントを構築するための戦略的アウトリーチとエンゲージメント計画"
+    },
+    "pilotProject": {
+      "title": "パイロットプロジェクト",
+      "description": "パラオとノルウェーBAZの海洋保護区の詳細な実装ブループリント（2025-2030）"
+    },
+    "modelLegislation": {
+      "title": "モデル立法",
+      "description": "ブルーハート法と海洋エコシステム権利法を含む法的フレームワーク草案"
+    },
+    "glossary": {
+      "title": "用語集",
+      "description": "ブルーハートメタファー、FPIC 2.0プロトコル、Hearts/Leaves通貨を含む主要用語の包括的定義"
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "siteName": "グローバル・ガバナンス・フレームワーク",
+  "notices": {
+    "global": {
+      "text": "このプロジェクトは最初期の形成段階にあり、共に創造するための招待です。未完成のセクションやリンク切れに遭遇することがあるかもしれません。それらは新しい声やアイデアを歓迎する余白です。このプロジェクトが成長する中、ご理解いただきありがとうございます。",
+      "dismiss": "通知を閉じる"
+    },
+    "section": {
+      "defaultTitle": "セクション通知",
+      "dismiss": "閉じる",
+      "frameworks": {
+        "text": "創設者からのお知らせ：このフレームワークの核となる概念と構造は整っていますが、現在、明確さ、一貫性、およびプロジェクト戦略との整合性を改善するための詳細な改訂を行っています。ご理解いただき、この監査期間中のフィードバックは非常に貴重です。",
+        "text2": "フレームワーク進化のお知らせ：AUBI、Hearts、Love Ledger。グローバル・ガバナンス・フレームワークは、生きた進化するエコシステムです。適応型ユニバーサル・ベーシック・インカム（AUBI）フレームワークの運用メカニズム、特にHearts通貨、Love Ledgerプラットフォーム、Hearts財務省の安定化機能は、この文書の作成以降、大幅に詳細化され、改良されています。この文書は、以前の概念段階を反映している場合があります。これらのシステムの決定的な最新の説明については、基礎的なホワイトペーパー「ケアの通貨：なぜユニバーサル・ベーシック・インカムでは不十分なのか」をご参照ください。",
+        "q42025redraft": "このフレームワークは2025年第4四半期に再起草される予定です。現在のドラフト版は最新のアウトラインに対応していません。",
+        "q22026redraft": "このフレームワークは2026年第2四半期に再起草される予定です。現在のドラフト版は最新のアウトラインに対応していません。",
+        "q32026redraft": "このフレームワークは2026年第3四半期に再起草される予定です。現在のドラフト版は最新のアウトラインに対応していません。",
+        "q42026redraft": "このフレームワークは2026年第4四半期に再起草される予定です。現在のドラフト版は最新のアウトラインに対応していません。"
+      }
+    }
+  },
+  "header": {
+    "home": "ホーム",
+    "resources": "リソース",
+    "whitepapers": "ホワイトペーパー",
+    "books": "書籍",
+    "tools": "インタラクティブツール",
+    "protocols": "プロトコルと方法論",
+    "projects": "進行中のプロジェクト",
+    "blog": "ブログ",
+    "updates": "更新情報",
+    "about": "概要",
+    "overview": "概観",
+    "framework": "フレームワーク",
+    "getInvolved": "参加する",
+    "downloads": "ダウンロード",
+    "contact": "お問い合わせ",
+    "myPath": "マイパス",
+    "findYourPlace": "あなたの居場所を見つける",
+    "metaGovernance": "メタガバナンス",
+    "metaGovernanceOverview": "概観",
+    "metaGovernancePrinciples": "基本原則",
+    "metaGovernanceStructural": "構造的要素",
+    "metaGovernanceImplementation": "実装",
+    "metaGovernanceEvaluation": "評価",
+    "metaGovernanceCaseModels": "事例モデル",
+    "metaGovernanceFuture": "将来の可能性",
+    "metaGovernanceWhy": "なぜ参加するのか？",
+    "metaGovernanceQuickStart": "クイックスタート",
+    "frameworkOverview": "概観",
+    "frameworkDocs": "ドキュメント",
+    "frameworkPrinciples": "原則",
+    "frameworkMyDashboard": "マイダッシュボード",
+    "frameworkImplementation": "実装",
+    "frameworkGuides": "実装ガイド",
+    "frameworkHubs": "ハブ",
+    "frameworkVisuals": "ビジュアル",
+    "frameworkTools": "ツール",
+    "frameworkDownloads": "フレームワークのダウンロード",
+    "frameworkCaseStudies": "事例研究",
+    "frameworkAIFutures": "AI の未来",
+    "frameworkResources": "リソース",
+    "frameworkGlossary": "用語集",
+    "implementationFrameworks": "実装フレームワーク",
+    "tieredFrameworks": "階層型フレームワーク",
+    "getInvolvedOnboarding": "オンボーディング",
+    "getInvolvedFounding": "創設者になる",
+    "getInvolvedFrameworks": "フレームワークに貢献",
+    "getInvolvedFunding": "資金提供に貢献",
+    "getInvolvedTranslations": "翻訳に貢献",
+    "getInvolvedWebsite": "ウェブサイトに貢献",
+    "getInvolvedOutreach": "コミュニティとアウトリーチ"
+  },
+  "actions": {
+    "downloadPdf": "PDFをダウンロード"
+  },
+  "footer": {
+    "copyright": "© 2025 グローバル・ガバナンス・フレームワーク",
+    "rights": "All Rights Reserved",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "resources": "リソース",
+    "glossary": "用語集",
+    "joinUs": "参加する",
+    "discord": {
+      "inviteLink": "https://discord.gg/Zx4hMJf4JUe"
+    },
+    "founding": "創設",
+    "accessibility": {
+      "text": "GGFはコミュニティ主導の翻訳を通じてグローバルなアクセシビリティに取り組んでいます。",
+      "link": "貢献方法を学ぶ"
+    }
+  },
+  "ui": {
+    "frameworkTiers": "フレームワーク階層",
+    "hoverToExplore": "ホバーしてフレームワークを探索",
+    "tapAgainToExplore": "もう一度タップしてこのフレームワークを探索",
+    "clickToVisit": "クリックしてフレームワークを訪問",
+    "clickOnTheNode": "ノードをクリックしてフレームワークを訪問",
+    "startAssessment": "アセスメントを開始",
+    "exploreJourneys": "ジャーニーを探索",
+    "browsTools": "ツールを閲覧",
+    "learnMore": "詳細を見る",
+    "takeAssessment": "アセスメントを受ける",
+    "exploreTools": "ツールを探索",
+    "joinCommunity": "コミュニティに参加",
+    "retakeAssessment": "アセスメントを再受験",
+    "viewToolStack": "ツールスタックを表示",
+    "loading": "読み込み中",
+    "previous": "前へ",
+    "next": "次へ",
+    "back": "戻る",
+    "pages": "ページ",
+    "bookCover": "本の表紙",
+    "downloadPdf": "PDFをダウンロード",
+    "openExternal": "新しいウィンドウで開く",
+    "comingSoon": "近日公開",
+    "published": "公開済み",
+    "draft": "下書き"
+  },
+  "language": {
+    "select": "言語を選択",
+    "tooltip": "言語を変更"
+  },
+  "languages": {
+    "english": "英語",
+    "swedish": "スウェーデン語",
+    "japanese": "日本語"
+  },
+  "follow": {
+    "title": "つながりを保つ",
+    "description": "お好みの方法で更新情報をフォローしてください。メールは不要です。",
+    "rss": {
+      "title": "RSSフィード",
+      "description": "ユニバーサルなフィードリーダー対応。あらゆるRSSリーダーで動作します。",
+      "subscribe": "RSSを購読",
+      "copy": "URLをコピー"
+    },
+    "social": {
+      "title": "ソーシャルメディア",
+      "description": "ソーシャルプラットフォームで更新情報やディスカッションをフォローしてください。"
+    },
+    "bookmark": {
+      "title": "このページをブックマーク",
+      "description": "このブログをブックマークに追加して、定期的にチェックしてください。",
+      "add": "ブックマークに追加"
+    },
+    "global": {
+      "note": "グローバルなアクセシビリティのために構築 - メール収集なし、トラッキングなし、誰にでもオープン。"
+    }
+  }
+}

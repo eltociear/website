@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "グローバルガーディアンフレームワーク：共有される未来のための動物福祉 - グローバルガバナンスフレームワーク",
+    "description": "人類と動物の関係を支配から守護へと転換し、動物を思いやりと尊重に値する感覚を持つ存在として位置づける変革的な青写真"
+  },
+  "guideCard": {
+    "title": "グローバルガーディアンフレームワークは初めてですか？",
+    "description": "フレームワークの基本原則と動物福祉のためのコミュニティ主導の変革パスウェイを説明するアクセシブルなエッセンシャルガイドから始めましょう。",
+    "buttonText": "フレームワークエッセンシャルを読む"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "implementation": "実装",
+    "integration": "統合",
+    "resources": "リソース"
+  },
+  "sections": {
+    "index": "概要",
+    "introduction": "導入と科学的根拠",
+    "core-principles": "基本原則",
+    "structural-components": "構造的コンポーネント",
+    "implementation-approaches": "実装アプローチ",
+    "metrics-evaluation": "指標と評価",
+    "cultural-justice": "文化的感受性と正義",
+    "environmental-integration": "環境統合",
+    "appendices": "付録とリソース",
+    "global-guardian-framework-essentials": "フレームワークエッセンシャルガイド",
+    "executive-summary": "エグゼクティブサマリー"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "introduction": "導入",
+    "core-principles": "原則",
+    "structural-components": "ガバナンス",
+    "implementation-approaches": "実装",
+    "metrics-evaluation": "指標",
+    "cultural-justice": "文化的正義",
+    "environmental-integration": "環境",
+    "appendices": "リソース",
+    "global-guardian-framework-essentials": "フレームワークエッセンシャル",
+    "executive-summary": "エグゼクティブサマリー"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "viewExecutive": "エグゼクティブサマリーを見る",
+    "viewEssentials": "フレームワークエッセンシャルを見る",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "loading": {
+    "text": "フレームワークコンテンツを読み込み中..."
+  }
+}

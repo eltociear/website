@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "title": "ネステッドエコノミー：経済統合フレームワーク - グローバルガバナンスフレームワーク",
+    "description": "コミュニティ主権、Hearts通貨、再生的開発を通じた正しい関係性の経済を構築するためのフレームワーク"
+  },
+  "loading": {
+    "text": "経済統合フレームワークを読み込み中..."
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "quickStart": {
+    "new": "経済統合は初めてですか？",
+    "start": "さまざまな対象者向けにコミュニティ管理の経済システムを説明するクイックガイドから始めましょう。",
+    "button": "ガイドを選ぶ",
+    "title": "ネステッドエコノミークイックスタート",
+    "description": "ニーズに最も合うバージョンを選んでください：",
+    "download": "PDF版をダウンロード",
+    "continue": "フレームワーク全体へ進む",
+    "guides": [
+      {
+        "id": "at-a-glance",
+        "icon": "⚡",
+        "title": "概要",
+        "description": "ネステッド経済主権の5分概要"
+      },
+      {
+        "id": "executive-summary-for-the-skeptic",
+        "icon": "🤔",
+        "title": "懐疑派向け",
+        "description": "コミュニティ管理経済のエビデンスに基づくケース"
+      }
+    ]
+  },
+  "preamble": {
+    "continue": "フレームワーク概要へ進む"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "categories": {
+    "overview": "フレームワーク概要",
+    "core": "コアフレームワーク",
+    "implementation": "実装",
+    "resources": "リソースと次のステップ"
+  },
+  "sections": {
+    "preamble": "プリアンブル：贈与の経済",
+    "index": "フレームワーク概要",
+    "at-a-glance": "ネステッドエコノミー：概要",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "introduction": "導入：正しい関係性の経済",
+    "core-principles": "コア経済統合原則",
+    "implementation-strategies": "実装戦略",
+    "resource-disparities": "リソース格差の橋渡し",
+    "governance-integration": "ガバナンスメカニズムとの統合",
+    "timeline": "実装タイムライン",
+    "monitoring": "モニタリングと評価",
+    "engagement": "パブリックエンゲージメントとアウトリーチ",
+    "conclusion": "結論：経済基盤としての正しい関係性",
+    "appendices": "付録：実装サポート"
+  },
+  "sectionsShort": {
+    "preamble": "プリアンブル",
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向け",
+    "introduction": "導入",
+    "core-principles": "基本原則",
+    "implementation-strategies": "実装",
+    "resource-disparities": "リソース正義",
+    "governance-integration": "ガバナンス",
+    "timeline": "タイムライン",
+    "monitoring": "モニタリング",
+    "engagement": "エンゲージメント",
+    "conclusion": "結論",
+    "appendices": "付録"
+  },
+  "keyTerms": {
+    "heartsCurrency": "Hearts通貨",
+    "leavesCurrency": "Leaves通貨",
+    "loveLedger": "Love Ledger",
+    "rightRelationship": "正しい関係性",
+    "resourceJustice": "リソース正義",
+    "communityWeavers": "コミュニティウィーバー",
+    "bioregionalCoordination": "バイオリージョナル調整",
+    "aubiIntegration": "AUBI統合",
+    "culturalSovereignty": "文化的主権",
+    "regenerativeDevelopment": "再生的開発",
+    "economicDemocracy": "経済的民主主義",
+    "careEconomy": "ケア経済",
+    "proofOfCare": "Proof of Care",
+    "lmciIndex": "愛、意味、つながり指数",
+    "socialResilienceCouncil": "社会レジリエンス評議会",
+    "earthCouncil": "地球評議会",
+    "indigenousGovernance": "先住民族ガバナンス",
+    "participatoryBudgeting": "参加型予算",
+    "cooperativeEnterprise": "協同組合企業",
+    "interCurrencyTranslation": "通貨間翻訳",
+    "globalCommons": "グローバルコモンズ",
+    "planetaryBoundaries": "惑星境界",
+    "ecosystemServices": "エコシステムサービス",
+    "traditionalKnowledge": "伝統的知識",
+    "ceremonialgGovernance": "儀式的ガバナンス",
+    "mutualAid": "相互扶助",
+    "solidarityEconomy": "連帯経済"
+  },
+  "keyPhrases": {
+    "economicsOfRightRelationship": "正しい関係性の経済",
+    "communityControlledCurrency": "コミュニティ管理通貨",
+    "regenerativeAbundance": "再生的豊かさ",
+    "nestedSovereignty": "ネステッド主権",
+    "globalCooperationLocalAutonomy": "グローバル協力、ローカル自律",
+    "careAsCapital": "資本としてのケア",
+    "wealthThroughHealing": "癒しを通じた富",
+    "economicSovereignty": "経済的主権",
+    "planetaryCoordination": "惑星調整",
+    "bioregionalNetworks": "バイオリージョナルネットワーク",
+    "democraticOwnership": "民主的所有",
+    "alternativeToCapitalism": "資本主義への代替",
+    "beyondExtraction": "搾取を超えて",
+    "communityAsCommons": "コモンズとしてのコミュニティ",
+    "indigenousEconomicWisdom": "先住民族の経済的知恵"
+  },
+  "implementationPhases": {
+    "foundation": {
+      "title": "基盤構築",
+      "timeframe": "1-3年目",
+      "description": "コミュニティパイロットとインフラ開発"
+    },
+    "regional": {
+      "title": "地域統合",
+      "timeframe": "3-5年目",
+      "description": "バイオリージョナル調整と貿易ネットワーク"
+    },
+    "global": {
+      "title": "グローバル調整",
+      "timeframe": "5-10年目",
+      "description": "惑星コモンズとユニバーサルシステム"
+    }
+  },
+  "coreMechanisms": {
+    "hearts": {
+      "title": "Hearts通貨",
+      "description": "ケアワークと文化保全を報酬するコミュニティ管理通貨"
+    },
+    "leaves": {
+      "title": "Leavesトークン",
+      "description": "生態系復元への貢献を認識する非代替性トークン"
+    },
+    "loveLedger": {
+      "title": "Love Ledger",
+      "description": "コミュニティデータ主権を保護しながら貢献を追跡するブロックチェーンプラットフォーム"
+    },
+    "aubi": {
+      "title": "AUBI統合",
+      "description": "包括的な経済的安全を提供する4層適応型ユニバーサルベーシックインカム"
+    },
+    "lmci": {
+      "title": "LMCI指標",
+      "description": "GDPを包括的な繁栄指標に置き換える愛、意味、つながり指数"
+    },
+    "weavers": {
+      "title": "コミュニティウィーバー",
+      "description": "本物のコミュニティ参加を確保するプロフェッショナルファシリテーター"
+    }
+  },
+  "benefits": {
+    "economicSecurity": "AUBIベースラインによるユニバーサルな経済的安全",
+    "careRecognition": "ケアワークとコミュニティ組織への経済的認知",
+    "ecologicalIncentives": "生態系復元と生物多様性への金銭的報酬",
+    "culturalPreservation": "伝統的知識と言語保全への経済的支援",
+    "communityControl": "地域経済決定に対する民主的所有とコントロール",
+    "regionalCooperation": "共有リソースと危機対応のためのバイオリージョナル調整",
+    "globalSolidarity": "気候変動と不平等に対処する惑星協力",
+    "indigenousSovereignty": "先住民族経済システムの保護と強化",
+    "youthEmpowerment": "Hearts通貨を通じた若者の経済的機会",
+    "conflictResolution": "コミュニティ管理の調停と修復的正義システム"
+  },
+  "challenges": {
+    "technicalComplexity": "ブロックチェーンシステムには重要な技術インフラが必要",
+    "culturalAdaptation": "フレームワークは多様な文化的経済アプローチを尊重する必要がある",
+    "scalingDifficulties": "ローカル、地域、グローバルレベル間の調整",
+    "resistanceToChange": "既存の経済的利益が変革に反対する可能性",
+    "regulatoryBarriers": "法的フレームワークが代替通貨を支援しない可能性",
+    "digitalDivide": "テクノロジーアクセスはコミュニティ間で大きく異なる",
+    "fundingRequirements": "実装には相当な初期投資が必要",
+    "governanceComplexity": "効率性を維持しながらの民主的参加",
+    "measurementChallenges": "ケア、意味、つながりを効果的に定量化",
+    "timeToTransformation": "完全な実装には10-15年かかる"
+  }
+}

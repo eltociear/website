@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "テクノロジーガバナンス実装フレームワーク - グローバルガバナンスフレームワーク",
+    "description": "適応的、包括的、倫理的に整合したガバナンスを通じてテクノロジー開発を統治するための包括的フレームワーク"
+  },
+  "guideCard": {
+    "title": "テクノロジーガバナンスは初めてですか？",
+    "description": "テクノロジーガバナンスと実装に関する実践的な懸念に対処する、懐疑派向けのエグゼクティブサマリーから始めましょう。",
+    "buttonText": "懐疑派向けエグゼクティブサマリーを読む"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "structure": "構造",
+    "operation": "運用",
+    "implementation": "実装",
+    "examples": "事例と協力",
+    "reference": "参考資料",
+    "tools": "実装ツール",
+    "crisis": "危機とセキュリティ",
+    "coordination": "調整",
+    "evaluation": "評価とドキュメンテーション"
+  },
+  "sections": {
+    "index": "テクノロジーガバナンスフレームワーク",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "principles": "基本原則",
+    "position": "フレームワークポジション",
+    "gtc": "グローバルテクノロジー評議会",
+    "trrt": "テクノロジーリスク・責任階層化",
+    "oversight": "監視とアカウンタビリティ",
+    "indigenous": "テクノロジーにおける先住民族の主権",
+    "mechanisms": "主要ガバナンスメカニズム",
+    "economy": "再生的テックエコノミー",
+    "roadmap": "実装ロードマップ",
+    "tools": "ツールとテクノロジー",
+    "emerging": "新興テクノロジー予測",
+    "evaluation": "評価と指標",
+    "case-studies": "ケーススタディと事例",
+    "international": "国際協力",
+    "glossary": "用語集",
+    "references": "参考文献と基準",
+    "contributing": "コントリビューターガイドライン",
+    "playbook": "ガバナンスプレイブック",
+    "trrt-detailed": "TRRTシステム詳細",
+    "starter-kit-detailed": "テックガバナンススターターキット",
+    "circuit-breaker": "倫理的サーキットブレーカープロトコル",
+    "crisis-unit": "テック危機対応ユニット",
+    "international-detailed": "国際協力フレームワーク",
+    "implementation-strategy": "実装戦略",
+    "documentation": "ドキュメンテーションと評価",
+    "philosophy": "哲学的基盤"
+  },
+  "sectionsShort": {
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "trrt": "リスク階層化（TRRT）",
+    "indigenous": "先住民族の主権",
+    "mechanisms": "主要メカニズム",
+    "economy": "テックエコノミー",
+    "roadmap": "ロードマップ",
+    "tools": "ツール",
+    "emerging": "新興テック",
+    "evaluation": "評価",
+    "case-studies": "ケーススタディ",
+    "international": "国際",
+    "references": "参考文献",
+    "contributing": "コントリビューション",
+    "playbook": "プレイブック",
+    "trrt-detailed": "TRRT詳細",
+    "starter-kit-detailed": "スターターキット",
+    "circuit-breaker": "サーキットブレーカー",
+    "crisis-unit": "危機ユニット",
+    "international-detailed": "国際詳細",
+    "implementation-strategy": "戦略",
+    "documentation": "ドキュメンテーション",
+    "philosophy": "哲学"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "loading": {
+    "text": "テクノロジーガバナンスコンテンツを読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  }
+}

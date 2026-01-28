@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "創発的ガバナンスプロトコル - グローバルガバナンスフレームワーク",
+    "description": "再生的ガバナンスのための最小実行可能文法 - 創発的調整を可能にする3つのシンプルなシステムコール"
+  },
+  "guideCard": {
+    "title": "創発的ガバナンスプロトコルは初めてですか？",
+    "description": "5分以内で本質的な概念を理解できる1ページサマリーから始めましょう。",
+    "buttonText": "1ページサマリーを読む"
+  },
+  "sections": {
+    "emergent-governance-protocol": "コアプロトコル",
+    "egp-one-page-summary": "クイックスタートガイド",
+    "egp-appendix": "実装ガイド",
+    "egp-glossary": "用語集と用語"
+  },
+  "navigation": {
+    "viewImplementation": "実装ガイドを見る",
+    "readFullProtocol": "プロトコル全文を読む",
+    "viewGlossary": "用語集を見る",
+    "startImplementing": "実装を開始"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "loading": {
+    "text": "プロトコルコンテンツを読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "systemCalls": {
+    "sense": {
+      "title": "sense(issue)",
+      "description": "誰でも標準化されたデータで問題をフラグできる",
+      "icon": "🔍"
+    },
+    "propose": {
+      "title": "propose(solution)",
+      "description": "誰でも組み込みのアカウンタビリティで対応を提案できる",
+      "icon": "💡"
+    },
+    "adopt": {
+      "title": "adopt(experiment)",
+      "description": "コミュニティが時間制限付きの実験としてソリューションを試す",
+      "icon": "⚡"
+    }
+  },
+  "principles": {
+    "sunsetByDefault": "デフォルトでサンセット",
+    "localAuthority": "ローカル権限",
+    "machineReadable": "機械可読",
+    "worseIsBetter": "よりシンプルが良い"
+  },
+  "features": {
+    "universalGrammar": "ユニバーサル文法",
+    "emergentComplexity": "創発的複雑性",
+    "culturalAdaptation": "文化的適応",
+    "interoperability": "システム相互運用性"
+  }
+}

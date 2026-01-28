@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "平和と紛争解決フレームワーク - グローバルガバナンスフレームワーク",
+    "description": "価値観に基づく変革と再生的紛争解決を通じた持続可能な平和の構築"
+  },
+  "loading": {
+    "text": "平和フレームワークコンテンツを読み込み中..."
+  },
+  "guideCard": {
+    "title": "価値観に基づく平和変革は初めてですか？",
+    "description": "概要から始めて、このフレームワークが紛争を再生的関係の機会にどのように変革するかを理解しましょう。",
+    "buttonText": "概要を読む"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "パートI：基盤",
+    "operational": "パートII：運用フレームワーク",
+    "implementation": "パートIII：実装",
+    "deployment": "パートIV：展開",
+    "resources": "リソースとツール",
+    "appendices": "付録"
+  },
+  "sections": {
+    "index": "フレームワーク概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "preamble": "プリアンブル：神聖な織り",
+    "framework-overview": "1. フレームワーク概要",
+    "theoretical-foundation": "2. 理論的基盤",
+    "governance-architecture": "3. ガバナンスアーキテクチャ",
+    "prevention-early-warning": "4. 予防と早期警告",
+    "active-conflict-resolution": "5. アクティブな紛争解決",
+    "post-conflict-transformation": "6. 紛争後の変革",
+    "scale-specific-applications": "7. スケール別アプリケーション",
+    "ggf-integration": "8. GGFシステムとの統合",
+    "technology-tools": "9. テクノロジーとツール",
+    "training-professional-development": "10. トレーニングと専門能力開発",
+    "cultural-adaptation-decolonization": "11. 文化適応と脱植民地化",
+    "implementation-roadmap": "12. 実装ロードマップ",
+    "measurement-evaluation": "13. 測定と評価",
+    "risk-management": "14. リスク管理",
+    "resources-sustainability": "15. リソースと持続可能性",
+    "conclusion": "結論：生きた平和",
+    "implementation-tools": "実装ツール",
+    "appendix-a-case-studies": "ケーススタディと例",
+    "appendix-b-templates": "ドキュメントテンプレート",
+    "appendix-c-cultural-adaptation": "文化適応プレイブック",
+    "appendix-d-technical": "技術仕様",
+    "appendix-e-reference": "参考資料"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "preamble": "プリアンブル",
+    "framework-overview": "フレームワーク概要",
+    "theoretical-foundation": "理論的基盤",
+    "governance-architecture": "ガバナンスアーキテクチャ",
+    "prevention-early-warning": "予防と早期警告",
+    "active-conflict-resolution": "アクティブな解決",
+    "post-conflict-transformation": "紛争後の変革",
+    "scale-specific-applications": "スケール別アプリケーション",
+    "ggf-integration": "GGF統合",
+    "technology-tools": "テクノロジーとツール",
+    "training-professional-development": "トレーニングと開発",
+    "cultural-adaptation-decolonization": "文化適応",
+    "implementation-roadmap": "実装ロードマップ",
+    "measurement-evaluation": "測定と評価",
+    "risk-management": "リスク管理",
+    "resources-sustainability": "リソースと持続可能性",
+    "conclusion": "結論",
+    "implementation-tools": "実装ツール",
+    "appendix-a-case-studies": "ケーススタディ",
+    "appendix-b-templates": "テンプレート",
+    "appendix-c-cultural-adaptation": "文化適応",
+    "appendix-d-technical": "技術仕様",
+    "appendix-e-reference": "参考資料"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "appendicesSection": "付録",
+    "caseStudies": "ケーススタディと例",
+    "templates": "ドキュメントテンプレート",
+    "culturalAdaptation": "文化適応プレイブック",
+    "technicalSpecs": "技術仕様",
+    "references": "参考資料",
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "framework": {
+    "title": "平和と紛争解決フレームワーク",
+    "subtitle": "価値観に基づく変革を通じた持続可能な平和の構築",
+    "description": "価値観に基づく調停、先住民族の知恵、調整されたグローバルアクションを通じて、紛争を再生的関係の機会に変革します。",
+    "keyFeatures": [
+      "スパイラルダイナミクスを使用した価値観に基づく紛争変革",
+      "先住民族主権と伝統的知識の統合",
+      "4部構造：基盤 → 運用 → 実装 → 展開",
+      "条約、先住民族、メタガバナンスフレームワークとのゴールデントライアングル統合",
+      "ローカルからグローバルな紛争へのスケール別アプリケーション",
+      "文化適応と脱植民地化プロトコル",
+      "ローテクな代替手段を備えたAI強化診断",
+      "スピリチュアルな知恵が導く真実と和解のプロセス"
+    ],
+    "coreInnovations": {
+      "title": "コアイノベーション",
+      "valuesBasedTransformation": {
+        "title": "価値観に基づく変革",
+        "description": "競合する利益だけでなく、紛争の根本にある衝突する価値観に対処する革命的アプローチ"
+      },
+      "goldenTriangleIntegration": {
+        "title": "ゴールデントライアングル統合",
+        "description": "条約メカニズム、先住民族の知恵、メタガバナンスシステムとのシームレスな調整"
+      },
+      "regenerativePeace": {
+        "title": "再生的平和",
+        "description": "暴力を永続させる紛争システムを、癒しと協力を生み出す平和インフラに変革"
+      },
+      "culturalAdaptation": {
+        "title": "文化適応",
+        "description": "Ubuntu、Sulh、Dharma、先住民族の知識を使用して地域の実践者と共同作成された地域固有のフレームワーク"
+      }
+    },
+    "implementationApproach": {
+      "title": "実装アプローチ",
+      "fourPartStructure": {
+        "title": "4部構造",
+        "foundations": "理論的フレームワークとガバナンスアーキテクチャの理解",
+        "operational": "予防、解決、変革のための実践的ガイダンス",
+        "implementation": "システム統合、テクノロジー展開、専門能力開発",
+        "deployment": "戦略的ロードマップ、測定、リスク管理、持続可能性"
+      },
+      "pilotStrategy": {
+        "title": "3コンテキストパイロット戦略（2026-2030）",
+        "urban": "都市多文化コンテキスト（ナイロビ）- 文化システム間の価値統合をテスト",
+        "indigenous": "先住民族コミュニティコンテキスト（マオリ、招待制）- 主権プロトコルをテスト",
+        "postConflict": "紛争後コンテキスト（コロンビア）- トラウマインフォームド和解アプローチをテスト"
+      }
+    },
+    "getStarted": {
+      "title": "始め方",
+      "forIndigenous": "先住民族コミュニティ：主権プロトコルとFPIC 2.0要件を確認",
+      "forGovernment": "政府関係者：条約メカニズム統合と制度的準備を研究",
+      "forMediators": "コミュニティリーダー：即時適用のための価値観に基づく診断ツールキットをダウンロード",
+      "forCivilSociety": "市民社会：地域平和ハブ開発と実践者ネットワークに参加"
+    }
+  }
+}

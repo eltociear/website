@@ -1,0 +1,259 @@
+{
+  "title": "ユースリーダーシップハブ",
+  "metaDescription": "意識、共感、行動を通じてガバナンスを変革する若いリーダーをエンパワー",
+  "hero": {
+    "title": "若いリーダー、大きな変化",
+    "subtitle": "あなたの声は大切。あなたのアイデアは重要。あなたの未来は今始まる。",
+    "primaryButton": "旅を始める",
+    "secondaryButton": "ユースの活躍を見る"
+  },
+  "consciousLeadership": {
+    "title": "意識的リーダーシップとは？",
+    "subtitle": "自分自身を知り、他者を気にかけ、みんなが繁栄できる決定をすること。リーダーになるために責任者である必要はありません—今いる場所から始めればいいのです。",
+    "traits": {
+      "selfAware": {
+        "title": "自己認識",
+        "description": "自分の強み、感情、偏見を知る"
+      },
+      "empathetic": {
+        "title": "共感的",
+        "description": "他者に耳を傾け、気にかける"
+      },
+      "actionOriented": {
+        "title": "行動志向",
+        "description": "思いやりをポジティブな変化に変える"
+      },
+      "futureFocused": {
+        "title": "未来志向",
+        "description": "長期的な影響を考える"
+      }
+    }
+  },
+  "comic": {
+    "title": "「内なるリーダーを目覚めさせる」コミック",
+    "subtitle": "圧倒されている状態から意識的リーダーになるまでの若者の旅を追う",
+    "panels": {
+      "invitation": {
+        "title": "招待",
+        "description": "圧倒されながらも内なる声を聞く"
+      },
+      "lookWithin": {
+        "title": "内面を見つめる",
+        "description": "自分の感情と反応を理解する"
+      },
+      "getTools": {
+        "title": "ツールを手に入れる",
+        "description": "マインドフルネス、共感、勇気を学ぶ"
+      },
+      "listenDeeply": {
+        "title": "深く聴く",
+        "description": "異なる視点を敬意を持って聞く"
+      },
+      "takeAction": {
+        "title": "行動を起こす",
+        "description": "コミュニティを助けるプロジェクトをリードする"
+      },
+      "changeWorld": {
+        "title": "世界を変える",
+        "description": "若いリーダーのグローバルムーブメントに参加する"
+      }
+    },
+    "button": "コミック全編を読む"
+  },
+  "getStarted": {
+    "title": "リーダーシップの旅を始める",
+    "subtitle": "10歳でも25歳でも、意識的リーダーシップスキルを発展させ始める方法",
+    "resources": {
+      "comic": {
+        "title": "リーダーシップコミック：「内なるリーダーを目覚めさせる」",
+        "description": "意識的リーダーシップの基本を視覚的に旅する",
+        "action": "コミックを読む"
+      },
+      "circles": {
+        "title": "ユース対話サークルを始める",
+        "description": "友達を集めてあなたにとって大切な問題を話し合う",
+        "action": "ガイドを入手"
+      },
+      "mindfulness": {
+        "title": "若いリーダーのためのマインドフルネス",
+        "description": "集中を保ち、より良い決定をするためのシンプルな実践",
+        "action": "今すぐ試す"
+      },
+      "action": {
+        "title": "コミュニティで行動を起こす",
+        "description": "地域でポジティブな変化を生み出すプロジェクトアイデア",
+        "action": "探索する"
+      }
+    }
+  },
+  "stories": {
+    "title": "歴史を作る若いリーダーたち",
+    "subtitle": "自分が大切にすることから始めて世界を変えた実際の若者たち",
+    "leaders": {
+      "greta": {
+        "name": "グレタ・トゥーンベリ",
+        "age": "15歳（開始時）",
+        "location": "スウェーデン",
+        "impact": "世界的な気候運動を始めた",
+        "lesson": "一人の声が何百万人を動かせる"
+      },
+      "autumn": {
+        "name": "オータム・ペルティエ",
+        "age": "13歳（任命時）",
+        "location": "カナダ",
+        "impact": "水保護活動家",
+        "lesson": "伝統的な知恵が現代の行動を導く"
+      },
+      "mari": {
+        "name": "マリ・コペニー",
+        "age": "8歳（開始時）",
+        "location": "フリント、ミシガン州",
+        "impact": "きれいな水のための活動",
+        "lesson": "チェンジメーカーに年齢は関係ない"
+      },
+      "xiuhtezcatl": {
+        "name": "シウテスカトル・マルティネス",
+        "age": "6歳（開始時）",
+        "location": "コロラド州、アメリカ",
+        "impact": "環境と先住民の権利",
+        "lesson": "あなたの遺産はあなたの超能力"
+      }
+    }
+  },
+  "actionIdeas": {
+    "title": "今、違いを生み出す方法",
+    "subtitle": "自分に合うものを選んで小さく始める。すべての行動が大切。",
+    "categories": {
+      "school": {
+        "title": "学校",
+        "ideas": [
+          "ピアメディエーションプログラムを始める",
+          "気候アクション週間を企画する",
+          "包括的な生徒会を作る",
+          "メンタルヘルスサポートサークルを立ち上げる"
+        ]
+      },
+      "community": {
+        "title": "コミュニティ",
+        "ideas": [
+          "市議会に出席する",
+          "近隣清掃を企画する",
+          "コミュニティガーデンを始める",
+          "ユースアドバイザリーボードを作る"
+        ]
+      },
+      "digital": {
+        "title": "デジタル",
+        "ideas": [
+          "啓発キャンペーンを作る",
+          "教育コンテンツを作成する",
+          "グローバルユースネットワークをつなげる",
+          "ソリューションアプリを開発する"
+        ]
+      },
+      "personal": {
+        "title": "個人",
+        "ideas": [
+          "毎日のマインドフルネスを実践する",
+          "異なる文化について学ぶ",
+          "共感スキルを発展させる",
+          "地方政府について学ぶ"
+        ]
+      }
+    }
+  },
+  "toolkit": {
+    "title": "あなたのリーダーシップツールキット",
+    "dailyPractices": {
+      "title": "日々の実践",
+      "items": {
+        "intention": {
+          "label": "朝の意図：",
+          "description": "「今日どう助けられる？」と問う"
+        },
+        "breathing": {
+          "label": "マインドフル呼吸：",
+          "description": "大きな決定の前に3回深呼吸"
+        },
+        "reflection": {
+          "label": "夜の振り返り：",
+          "description": "自分について何を学んだ？"
+        },
+        "gratitude": {
+          "label": "感謝の実践：",
+          "description": "毎日3つの良いことに気づく"
+        }
+      }
+    },
+    "communication": {
+      "title": "コミュニケーションの魔法",
+      "items": {
+        "listen": {
+          "label": "まず聴く：",
+          "description": "理解される前に理解しようとする"
+        },
+        "speak": {
+          "label": "心から話す：",
+          "description": "優しさを持って真実を共有する"
+        },
+        "ask": {
+          "label": "質問する：",
+          "description": "「あなたの視点を理解する手助けをして」"
+        },
+        "common": {
+          "label": "共通点を見つける：",
+          "description": "私たち両方が大切にしていることは何？"
+        }
+      }
+    },
+    "selfCare": {
+      "title": "リーダーのセルフケア",
+      "items": {
+        "energy": {
+          "label": "エネルギーチェック：",
+          "description": "休息が必要な時に気づく"
+        },
+        "emotion": {
+          "label": "感情の認識：",
+          "description": "すべてを感じていいんだよ"
+        },
+        "support": {
+          "label": "サポートネットワーク：",
+          "description": "一人でやる必要はない"
+        },
+        "celebrate": {
+          "label": "進歩を祝う：",
+          "description": "小さな一歩も大切"
+        }
+      }
+    }
+  },
+  "cta": {
+    "title": "変化をリードする準備はできた？",
+    "description": "世界はあなたのユニークな視点、エネルギー、アイデアを必要としている。今日始めよう、小さく始めよう、でも始めよう。",
+    "primaryButton": "スターターキットをダウンロード",
+    "secondaryButton": "連絡する"
+  },
+  "community": {
+    "title": "グローバルユースリーダーシップコミュニティに参加",
+    "subtitle": "ポジティブな変化を生み出すために活動している世界中の若いリーダーたちとつながる",
+    "features": {
+      "share": {
+        "title": "ストーリーを共有",
+        "description": "あなたのリーダーシップの旅について教えて"
+      },
+      "collaborate": {
+        "title": "協力者を見つける",
+        "description": "同じような問題に取り組む仲間とつながる"
+      },
+      "learn": {
+        "title": "一緒に学ぶ",
+        "description": "リソースとトレーニング資料にアクセス"
+      },
+      "inspire": {
+        "title": "インスピレーションを得る",
+        "description": "他の若いリーダーが達成していることを見る"
+      }
+    }
+  }
+}

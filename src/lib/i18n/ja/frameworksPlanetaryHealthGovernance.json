@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "惑星健康ガバナンスフレームワーク - グローバルガバナンスフレームワーク",
+    "description": "人間、動物、エコシステムのウェルビーイングの統合調整を通じた惑星健康ガバナンスのための包括的フレームワーク"
+  },
+  "communicationCard": {
+    "title": "惑星健康ガバナンスをどのように探索したいですか？",
+    "description": "ニーズと利用可能な時間に最も合う形式を選んでください。",
+    "buttonText": "エントリーポイントを選ぶ"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "governance": "ガバナンスとアーキテクチャ",
+    "implementation": "実装",
+    "toolsResources": "ツールとリソース"
+  },
+  "sections": {
+    "index": "概要",
+    "introduction": "導入：一つの惑星、一つの健康",
+    "planetary-health-charter": "惑星健康憲章",
+    "core-principles": "基本原則",
+    "governance-architecture": "ガバナンスアーキテクチャ",
+    "cross-cutting-policies": "横断的政策",
+    "framework-integration": "フレームワーク統合",
+    "implementation-roadmap": "実装ロードマップ",
+    "conclusion": "結論：すべての生命との生きた契約",
+    "appendices": "付録",
+    "preamble": "神聖なプリアンブル",
+    "at-a-glance": "概要サマリー",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "introduction": "導入",
+    "planetary-health-charter": "憲章",
+    "core-principles": "原則",
+    "governance-architecture": "アーキテクチャ",
+    "cross-cutting-policies": "政策",
+    "framework-integration": "統合",
+    "implementation-roadmap": "実装",
+    "conclusion": "結論",
+    "appendices": "付録",
+    "preamble": "プリアンブル",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "intro": {
+    "title": "惑星健康ガバナンスフレームワーク",
+    "overview": "概要",
+    "paragraph1": "惑星健康ガバナンスフレームワークは、健康危機を生み出すシステムから惑星の癒しを生み出すシステムへとガバナンスを変革するための革命的な青写真として登場します。",
+    "paragraph2": "このフレームワークは、すべてのガバナンスシステムの倫理的羅針盤と科学的基盤として機能し、すべての人間活動が生命のウェブ全体の繁栄に貢献することを確保します。"
+  },
+  "buttons": {
+    "newToFramework": "惑星健康ガバナンスは初めてですか？",
+    "startWithGuides": "地球上のすべての生命の健康のためにガバナンスを調整する方法を説明する包括的なフレームワークから始めましょう。",
+    "readFramework": "フレームワークを読む",
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFull": "フレームワーク全体へ進む"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。",
+    "sectionNotAvailable": "セクションが利用できません",
+    "sectionLoadError": "セクション「{section}」を読み込めませんでした。一時的な問題かもしれません。",
+    "returnToOverview": "概要に戻る"
+  },
+  "loading": {
+    "text": "惑星健康ガバナンスフレームワークコンテンツを読み込み中..."
+  }
+}

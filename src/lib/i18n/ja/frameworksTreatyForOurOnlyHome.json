@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "title": "Treaty for Our Only HomeとGenesisプロトコル - グローバルガバナンスフレームワーク",
+    "description": "正当なグローバルガバナンス活性化のための堅牢な憲法制定プロトコルを備えた、グローバルガバナンス変革と持続可能性のための包括的条約フレームワーク"
+  },
+  "guideCard": {
+    "title": "Treaty for Our Only Homeは初めてですか？",
+    "description": "ガバナンス変革に関する実践的な懸念に対処する、懐疑派向けのエグゼクティブサマリーから始めましょう。",
+    "buttonText": "懐疑派向けエグゼクティブサマリーを読む",
+    "genesisTitle": "Genesisプロトコルを探索していますか？",
+    "genesisDescription": "正当な憲法制定とブートストラップパラドックスの基本概念から始めましょう。",
+    "genesisButtonText": "導入から始める"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "genesis": "Genesisプロトコル",
+    "framework": "コアフレームワーク",
+    "resources": "リソース"
+  },
+  "sections": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "genesis-protocol-1": "導入とブートストラップパラドックス",
+    "genesis-protocol-2": "基本原則と多元的主権",
+    "genesis-protocol-3": "Genesis基金と暫定事務局",
+    "genesis-protocol-4": "デュアルトラック活性化と招集プロトコル",
+    "genesis-protocol-5": "ネットワーク効果とセーフガード",
+    "genesis-protocol-6": "実装と文化的翻訳",
+    "introduction": "ポリクライシスへの対応",
+    "core-principles": "基本原則",
+    "five-pillars": "改革の5つの柱",
+    "implementation-strategies": "実装戦略",
+    "monitoring-evaluation": "モニタリングと評価",
+    "conclusion": "実現されるビジョン",
+    "faq-and-challenges": "FAQと課題",
+    "glossary": "用語集",
+    "social-media-templates": "ソーシャルメディアテンプレート"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向け",
+    "genesis-protocol-1": "ブートストラップパラドックス",
+    "genesis-protocol-2": "基本原則",
+    "genesis-protocol-3": "資金と事務局",
+    "genesis-protocol-4": "デュアルトラック活性化",
+    "genesis-protocol-5": "ネットワーク効果",
+    "genesis-protocol-6": "実装",
+    "introduction": "導入",
+    "core-principles": "原則",
+    "five-pillars": "5つの柱",
+    "implementation-strategies": "実装",
+    "monitoring-evaluation": "モニタリング",
+    "conclusion": "結論",
+    "faq-and-challenges": "FAQ",
+    "glossary": "用語集",
+    "social-media-templates": "ソーシャルメディア"
+  },
+  "genesisProtocol": {
+    "status": "v0.4 FINAL - 堅牢化エディション",
+    "revision": "0.4-FINAL",
+    "lastUpdated": "2025-11-04",
+    "purpose": "実戦テスト済み憲法制定プロトコル",
+    "keyFeatures": [
+      "デュアルトラック活性化（生存＋正統性）",
+      "平和税資金（軍事予算の0.1%）",
+      "主権基金（先住民族への5億ドル無条件）",
+      "ネットワーク効果プロトコル（非参加者への経済的孤立）",
+      "人間ファイアウォールプロトコル（市民による候補者審査）",
+      "多元的主権（3つの同意源による行為）"
+    ],
+    "steelManning": {
+      "externalThreats": [
+        "P5オプトアウト拒否権 → ネットワーク効果プロトコル",
+        "承認の罠 → 主権基金モデル",
+        "タイムライン災害 → デュアルトラック活性化",
+        "金融新植民地主義 → 平和税",
+        "無限後退 → 多元的主権"
+      ],
+      "internalThreats": [
+        "浸透 → 人間ファイアウォールプロトコル",
+        "非正統化 → 熟議ナラティブプロトコル",
+        "道徳的分裂 → 良心と主権条項",
+        "代表性ギャップ → 生きた委任プロトコル"
+      ]
+    }
+  },
+  "progress": {
+    "text": "セクション {current} / {total}",
+    "genesisText": "Genesisプロトコル: セクション {current} / {total}"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToTreaty": "条約全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション",
+    "backToOverview": "概要に戻る",
+    "readExecutiveSummary": "エグゼクティブサマリーを読む"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "loading": {
+    "text": "条約コンテンツを読み込み中..."
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "title": "シールドプロトコル - 国際犯罪根絶フレームワーク",
+    "description": "調整された予防と癒しを通じて国際犯罪ガバナンスを変革するための包括的フレームワーク"
+  },
+  "loading": {
+    "text": "シールドプロトコルコンテンツを読み込み中..."
+  },
+  "guideCard": {
+    "title": "シールドプロトコルは初めてですか？",
+    "description": "グローバル犯罪ガバナンスと主権セーフガードに関する実践的な懸念に対処する、懐疑派向けのエグゼクティブサマリーから始めましょう。",
+    "buttonText": "懐疑派向けエグゼクティブサマリーを読む"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "framework": "コアフレームワーク",
+    "implementation": "実装",
+    "resources": "リソース"
+  },
+  "sections": {
+    "index": "フレームワーク概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "introduction": "導入",
+    "core-principles": "基本原則",
+    "governance-architecture": "ガバナンスアーキテクチャ",
+    "operational-systems": "運用システム",
+    "crisis-response": "危機対応",
+    "implementation-roadmap": "実装ロードマップ",
+    "cross-cutting-mechanisms": "横断的メカニズム",
+    "funding-mechanisms": "資金メカニズム",
+    "framework-integration": "フレームワーク統合",
+    "case-studies": "ケーススタディ",
+    "getting-started": "始め方",
+    "conclusion": "結論",
+    "appendices": "付録"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "introduction": "導入",
+    "core-principles": "原則",
+    "governance-architecture": "ガバナンス",
+    "operational-systems": "運用",
+    "crisis-response": "危機対応",
+    "implementation-roadmap": "ロードマップ",
+    "cross-cutting-mechanisms": "メカニズム",
+    "funding-mechanisms": "資金",
+    "framework-integration": "統合",
+    "case-studies": "ケーススタディ",
+    "getting-started": "始め方",
+    "conclusion": "結論",
+    "appendices": "付録"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToProtocol": "プロトコル全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  }
+}

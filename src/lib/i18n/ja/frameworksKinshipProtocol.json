@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "title": "キンシッププロトコル：ジェンダーとインターセクショナル正義フレームワーク - グローバルガバナンスフレームワーク",
+    "description": "インターセクショナル正義を通じてグローバルガバナンスを変革し、すべてのジェンダーとアイデンティティの人々が集団的未来を形作る制度化された権力を持つことを確保"
+  },
+  "guideCard": {
+    "title": "キンシッププロトコルは初めてですか？",
+    "description": "エグゼクティブサマリーから始めましょう—インターセクショナル正義がどのようにすべての人のためにグローバルガバナンスを変革できるかを説明します。",
+    "buttonText": "エグゼクティブサマリーを読む"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤とビジョン",
+    "core-framework": "コアフレームワーク",
+    "implementation": "実装戦略",
+    "transformation": "変革エリア",
+    "community": "コミュニティとアクション",
+    "resources": "リソース"
+  },
+  "sections": {
+    "index": "キンシッププロトコル",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "introduction-vision": "導入とビジョン",
+    "core-principles": "基本原則",
+    "integration-architecture": "GGF統合アーキテクチャ",
+    "functional-pillars": "4つの機能的柱",
+    "implementation-roadmap": "実装ロードマップ",
+    "success-metrics": "成功指標とアカウンタビリティ",
+    "global-south-leadership": "グローバルサウスリーダーシップ",
+    "cultural-transformation": "文化変革戦略",
+    "economic-justice": "経済的正義モデル",
+    "digital-rights": "デジタル権利と安全",
+    "crisis-response": "危機対応とレジリエンス",
+    "kinship-festival": "キンシップフェスティバル",
+    "faq": "よくある質問",
+    "taking-action": "アクションを起こす",
+    "appendices": "付録"
+  },
+  "sectionsShort": {
+    "index": "ホーム",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "introduction-vision": "ビジョン",
+    "core-principles": "原則",
+    "integration-architecture": "GGF統合",
+    "functional-pillars": "4つの柱",
+    "implementation-roadmap": "ロードマップ",
+    "success-metrics": "指標",
+    "global-south-leadership": "グローバルサウス",
+    "cultural-transformation": "文化変革",
+    "economic-justice": "経済的正義",
+    "digital-rights": "デジタル権利",
+    "crisis-response": "危機対応",
+    "kinship-festival": "キンシップフェスティバル",
+    "faq": "FAQ",
+    "taking-action": "アクションを起こす",
+    "appendices": "リソース"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "loading": {
+    "text": "インターセクショナル正義フレームワークコンテンツを読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  }
+}

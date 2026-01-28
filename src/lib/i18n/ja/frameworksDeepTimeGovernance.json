@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "title": "ディープタイムと相対論的ガバナンスフレームワーク - グローバルガバナンスフレームワーク",
+    "description": "多惑星文明における民主主義、因果性、倫理に対処し、星間距離と宇宙的時間スケールを超えてガバナンスを行うための先見的フレームワーク"
+  },
+  "loading": {
+    "text": "ディープタイムガバナンスコンテンツを読み込み中..."
+  },
+  "guideCard": {
+    "title": "ディープタイムガバナンスは初めてですか？",
+    "description": "光速民主主義から因果性保存まで、宇宙的時間スケールと星間距離を超えてガバナンスがどのように機能するかを説明するエグゼクティブサマリーから始めましょう。",
+    "buttonText": "エグゼクティブサマリーを読む"
+  },
+  "categories": {
+    "overview": "フレームワーク概要",
+    "foundation": "基盤とビジョン",
+    "framework": "コアフレームワーク",
+    "supplementary": "ケーススタディとFAQ"
+  },
+  "sections": {
+    "index": "導入と概要",
+    "at-a-glance": "フレームワーク概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "introduction-vision": "宇宙的ビジョンと導入",
+    "framework-position": "フレームワークの位置づけと統合",
+    "five-domains": "ディープタイムガバナンスの5つの領域",
+    "core-principles": "基本原則と時間的倫理",
+    "institutional-architecture": "制度的アーキテクチャ",
+    "implementation-pathways": "実装パスウェイ",
+    "philosophical-foundations": "哲学的基盤",
+    "technical-specifications": "技術仕様",
+    "case-studies": "ケーススタディとシナリオ",
+    "faq": "よくある質問"
+  },
+  "sectionsShort": {
+    "introduction-vision": "宇宙的ビジョン",
+    "framework-position": "GGF統合",
+    "five-domains": "5つの領域",
+    "core-principles": "基本原則",
+    "institutional-architecture": "制度",
+    "implementation-pathways": "実装",
+    "philosophical-foundations": "哲学",
+    "technical-specifications": "技術仕様",
+    "case-studies": "ケーススタディ",
+    "faq": "FAQ"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "temporal": {
+    "domains": {
+      "relativistic": "相対論的民主的調整",
+      "causality": "因果性の保存と保護",
+      "communication": "星間通信ガバナンス",
+      "ethics": "ディープタイム倫理と世代間正義",
+      "technology": "時間技術ガバナンス"
+    },
+    "principles": {
+      "democracy": "時間的民主主義原則",
+      "causality": "因果性完全性原則",
+      "stewardship": "ディープタイムスチュワードシップ原則",
+      "justice": "相対論的正義原則",
+      "subsidiarity": "星間補完性原則",
+      "sovereignty": "時間的主権原則",
+      "heritage": "宇宙遺産原則",
+      "evolution": "進化的責任原則"
+    },
+    "institutions": {
+      "interstellarCommission": "星間委員会",
+      "butterflyCourts": "バタフライ裁判所",
+      "deepTimeCouncil": "ディープタイム倫理評議会",
+      "quantumLab": "量子ガバナンス研究所",
+      "galacticAssembly": "銀河市民集会",
+      "deepTimeGuardians": "ディープタイムガーディアン"
+    },
+    "phases": {
+      "solarSystem": "太陽系基盤（2050-2075）",
+      "interstellarPrep": "星間準備（2075-2100）",
+      "interstellarSettlement": "星間定住（2100-2150）",
+      "cosmicCivilization": "宇宙文明（2150+）"
+    }
+  },
+  "quantum": {
+    "communication": "量子通信",
+    "entanglement": "量子もつれ",
+    "consciousness": "量子意識",
+    "computing": "量子コンピューティング",
+    "governance": "量子ガバナンス"
+  },
+  "cosmic": {
+    "democracy": "光速民主主義",
+    "heritage": "宇宙遺産",
+    "citizenship": "宇宙市民権",
+    "stewardship": "宇宙スチュワードシップ",
+    "evolution": "種の進化",
+    "exploration": "宇宙探査"
+  },
+  "relativistic": {
+    "timeSync": "時間同期",
+    "voting": "相対論的投票",
+    "representation": "基準系間代表制",
+    "consensus": "相対論的合意",
+    "dilation": "時間膨張効果",
+    "communication": "光速通信"
+  },
+  "scenarios": {
+    "alphaProxima": "ケンタウルス座アルファ星憲法危機",
+    "temporalArchaeology": "時間考古学事件",
+    "generationShip": "世代宇宙船民主主義危機",
+    "cosmicHeritage": "宇宙遺産紛争",
+    "causalityViolation": "因果律違反事件",
+    "quantumParadox": "量子通信パラドックス"
+  },
+  "technologies": {
+    "aiProxies": "AI民主的代理人",
+    "quantumVoting": "量子セキュア投票",
+    "laserComms": "レーザー通信ネットワーク",
+    "timeMonitoring": "時間モニタリングシステム",
+    "causalityDetection": "因果律違反検出",
+    "relativisticsync": "相対論的時間同期"
+  },
+  "ethics": {
+    "temporalRights": "時間的権利",
+    "futureGenerations": "将来世代",
+    "speciesResponsibility": "種レベルの責任",
+    "cosmicStewardship": "宇宙スチュワードシップ倫理",
+    "evolutionGuidance": "進化のガイダンス",
+    "timeManipulation": "時間操作倫理"
+  },
+  "implementation": {
+    "milestones": "主要マイルストーン",
+    "challenges": "実装の課題",
+    "requirements": "技術要件",
+    "timeline": "実装タイムライン",
+    "prerequisites": "前提条件",
+    "dependencies": "依存関係"
+  }
+}

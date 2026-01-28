@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "title": "ガバナンスイノベーションのための実践ツール - グローバルガバナンスフレームワーク",
+    "description": "組織やコミュニティで再生的ガバナンス実践を実装するためのインタラクティブツールとテンプレート。"
+  },
+  "hero": {
+    "title": "ガバナンスイノベーションのための実践ツール",
+    "subtitle": "システム変革のためのインタラクティブツール",
+    "description": "紛争解決から意思決定フレームワークまで、共にガバナンスする方法を変革する実践的ツールを発見してください。"
+  },
+  "categories": {
+    "interactive": "インタラクティブツール",
+    "templates": "テンプレートとガイド",
+    "frameworks": "意思決定フレームワーク",
+    "comingSoon": "近日公開"
+  },
+  "stats": {
+    "available": "利用可能",
+    "inDevelopment": "開発中",
+    "totalDownloads": "ダウンロード"
+  },
+  "tools": {
+    "paradoxCanvas": {
+      "title": "パラドックス意思決定キャンバス",
+      "subtitle": "不可能な紛争を突破する",
+      "description": "分極化した状況を画期的な解決策に変えるインタラクティブツール。対立するポジションをマッピングし、共有目標を見つけ、全員のより深い利益に奉仕する革新的な第三の道アプローチを設計します。",
+      "category": "interactive",
+      "status": "available",
+      "features": [
+        "インタラクティブなステップバイステッププロセス",
+        "PDFまたは印刷形式へのエクスポート",
+        "各フェーズのためのガイド付きプロンプト",
+        "組み込みの権力分析ツール"
+      ],
+      "useCase": "最適な用途：コミュニティ紛争、組織的緊張、政策の行き詰まり、異なるグループが根本的に対立しているように見えるあらゆる状況。",
+      "timeToComplete": "15-45分",
+      "difficulty": "初心者向け",
+      "useCaseExamples": [
+        "市議会予算紛争",
+        "コミュニティ計画紛争",
+        "職場チームの緊張",
+        "政策実装の課題"
+      ],
+      "links": {
+        "interactive": "/resources/paradox-canvas",
+        "template": "/downloads/paradox-canvas-template.pdf",
+        "guide": "/resources/whitepapers/cognitive-scaffolding"
+      }
+    },
+    "sciCycle": {
+      "title": "SCIサイクル方法論",
+      "subtitle": "AI支援による多角的意思決定",
+      "description": "合成-挑戦-統合サイクル：複雑なシステム問題に対して堅牢で包括的なソリューションを開発するために多様なAIモデルを活用する厳格な方法論。",
+      "category": "frameworks",
+      "status": "inDevelopment",
+      "features": [
+        "マルチモデルAI合成プロトコル",
+        "構造化された敵対的挑戦プロセス",
+        "堅牢なソリューションのための統合方法論",
+        "定量化可能な成功指標"
+      ],
+      "useCase": "設計対象：政策立案、組織戦略、複雑なマルチステークホルダー課題、包括的分析を必要とするあらゆる状況。",
+      "timeToComplete": "2-6週間（フルサイクル）",
+      "difficulty": "上級",
+      "expectedRelease": "2026年第2四半期",
+      "useCaseExamples": [
+        "立法法案の策定",
+        "国際条約交渉",
+        "企業ガバナンス改革",
+        "コミュニティマスタープラン"
+      ],
+      "links": {
+        "whitepaper": "/resources/whitepapers/cognitive-scaffolding",
+        "earlyAccess": "/contact"
+      }
+    },
+    "culturalTranslationGuide": {
+      "title": "文化翻訳ツールキット",
+      "subtitle": "異文化間でガバナンスフレームワークを適応させる",
+      "description": "文化的完全性と主権を維持しながら、多様な文化的コンテキストにガバナンスフレームワークを敬意を持って適応させるための包括的ガイドとテンプレートセット。",
+      "category": "templates",
+      "status": "inDevelopment",
+      "features": [
+        "フェーズごとの実装ガイド",
+        "文化的主権協定",
+        "コミュニティ協議テンプレート",
+        "文化盗用防止セーフガード"
+      ],
+      "useCase": "必須用途：先住民族との協働、国際開発、多文化コミュニティ、異文化間ガバナンスイニシアチブ。",
+      "timeToComplete": "3-12ヶ月（フルプロセス）",
+      "difficulty": "中級",
+      "expectedRelease": "2026年第3四半期",
+      "useCaseExamples": [
+        "先住民族と入植者のガバナンスパートナーシップ",
+        "国際フレームワーク実装",
+        "多文化コミュニティガバナンス",
+        "伝統-現代システム統合"
+      ],
+      "links": {
+        "protocol": "/resources/cultural-translation-protocol",
+        "earlyAccess": "/contact"
+      }
+    }
+  },
+  "navigation": {
+    "backToResources": "← リソースに戻る",
+    "exploreTools": "ツールを探索",
+    "downloadTemplate": "テンプレートをダウンロード",
+    "useInteractive": "インタラクティブツールを使用",
+    "readGuide": "ガイドを読む",
+    "requestEarlyAccess": "早期アクセスをリクエスト"
+  },
+  "filters": {
+    "allCategories": "すべてのカテゴリ",
+    "allStatuses": "すべてのステータス",
+    "search": "ツールを検索...",
+    "clearFilters": "フィルターをクリア"
+  },
+  "getInvolved": {
+    "title": "これらのツールの構築に参加",
+    "description": "フィードバックを共有したり、アイデアを提供したり、新しいアプローチのパイロットテストに参加してください。",
+    "feedback": "フィードバックを共有",
+    "contribute": "アイデアを提供",
+    "pilot": "パイロットテストに参加",
+    "learnMore": "詳細を見る"
+  },
+  "comingSoon": {
+    "title": "開発中のツール",
+    "description": "コミュニティのニーズとGGFフレームワーク開発に基づいた今後のツール：",
+    "items": [
+      {
+        "name": "ステークホルダーマッピングキャンバス",
+        "description": "ガバナンスプロセスにおける多様なステークホルダーを特定し関与させるためのビジュアルツール"
+      },
+      {
+        "name": "権力分析ツールキット",
+        "description": "協調的ガバナンスにおける権力動態を理解し対処するためのフレームワーク"
+      },
+      {
+        "name": "合意形成プロトコル",
+        "description": "違いを超えて意味のある合意に達するためのステップバイステッププロセス"
+      },
+      {
+        "name": "再生的指標ダッシュボード",
+        "description": "コミュニティや組織における再生的成果への進捗を追跡"
+      }
+    ]
+  }
+}

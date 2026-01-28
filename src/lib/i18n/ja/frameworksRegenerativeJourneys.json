@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "再生的ジャーニーフレームワーク - 神聖な交換を通じた癒しの観光",
+    "description": "神聖な交換とコミュニティ主権を通じて、観光を搾取から再生へと変革するための包括的フレームワーク"
+  },
+  "loading": {
+    "text": "再生的ジャーニーコンテンツを読み込み中..."
+  },
+  "guideCard": {
+    "title": "再生的ジャーニーは初めてですか？",
+    "description": "観光を搾取から再生へと変革することへの懸念に対処する、懐疑派向けのエグゼクティブサマリーから始めましょう。",
+    "buttonText": "懐疑派向けエグゼクティブサマリーを読む"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "framework": "コアフレームワーク",
+    "implementation": "実装",
+    "governance": "ガバナンスとアカウンタビリティ",
+    "resources": "リソース"
+  },
+  "sections": {
+    "index": "フレームワーク概要",
+    "at-a-glance": "概要",
+    "executive-summary-vision": "エグゼクティブサマリーとビジョン",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "framework-positioning": "フレームワークのポジショニング",
+    "core-principles": "基本原則",
+    "six-pillars": "6つの柱",
+    "implementation-sequence": "実装シーケンス",
+    "sacred-journey": "神聖なジャーニーと文化交流",
+    "economic-justice": "観光を通じた経済的正義",
+    "climate-adaptation": "気候適応と移住",
+    "accountability-systems": "アカウンタビリティと指標",
+    "recovery-protocols": "回復と撤退プロトコル",
+    "success-stories": "成功事例と教訓",
+    "appendices": "付録とツール"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-vision": "ビジョンサマリー",
+    "executive-summary-for-the-skeptic": "懐疑派向け",
+    "framework-positioning": "ポジショニング",
+    "core-principles": "原則",
+    "six-pillars": "6つの柱",
+    "implementation-sequence": "実装",
+    "sacred-journey": "神聖なジャーニー",
+    "economic-justice": "経済的正義",
+    "climate-adaptation": "気候適応",
+    "accountability-systems": "アカウンタビリティ",
+    "recovery-protocols": "回復",
+    "success-stories": "成功事例",
+    "appendices": "ツールとリソース"
+  },
+  "progress": {
+    "overallText": "フレームワーク進捗: {current} / {total} セクション"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  }
+}

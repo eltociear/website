@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "title": "司法システム実装フレームワーク - グローバル司法変革",
+    "description": "道徳オペレーティングシステムに整合した公平で透明性があり、レジリエントなグローバル司法システムを実装するための包括的フレームワーク"
+  },
+  "loading": {
+    "text": "司法システムコンテンツを読み込み中..."
+  },
+  "guideCard": {
+    "title": "司法システムフレームワークは初めてですか？",
+    "description": "懐疑派向けに設計されたエグゼクティブサマリーから始めましょう—安定性と公正性を維持しながらグローバル司法システムを変革することに関する実践的な懸念に対応します。",
+    "buttonText": "懐疑派向けエグゼクティブサマリーを読む"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "framework": "コアフレームワーク",
+    "resources": "リソース"
+  },
+  "sections": {
+    "index": "フレームワーク概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "introduction": "導入",
+    "governance-structure": "ガバナンス構造",
+    "legal-framework": "法的フレームワーク",
+    "institutional-relationships": "制度間関係",
+    "implementation-mechanisms": "実装メカニズム",
+    "digital-justice-innovation": "デジタル司法とイノベーション",
+    "monitoring-accountability": "モニタリングとアカウンタビリティ",
+    "stakeholder-engagement": "ステークホルダーエンゲージメント",
+    "challenges-mitigation": "課題と軽減",
+    "timeline-milestones": "タイムラインとマイルストーン",
+    "conclusion": "結論",
+    "appendices": "付録"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "introduction": "導入",
+    "governance-structure": "ガバナンス",
+    "legal-framework": "法的フレームワーク",
+    "institutional-relationships": "統合",
+    "implementation-mechanisms": "実装",
+    "digital-justice-innovation": "デジタルイノベーション",
+    "monitoring-accountability": "モニタリング",
+    "stakeholder-engagement": "ステークホルダー",
+    "challenges-mitigation": "課題",
+    "timeline-milestones": "タイムライン",
+    "conclusion": "結論",
+    "appendices": "付録"
+  },
+  "navigation": {
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション",
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "accessibility": {
+    "skipToContent": "メインコンテンツにスキップ",
+    "openMenu": "ナビゲーションメニューを開く",
+    "closeMenu": "ナビゲーションメニューを閉じる",
+    "toggleSection": "セクション {section} を切り替え",
+    "sectionProgress": "セクション {current} / {total} を表示中",
+    "languageSelector": "言語を選択",
+    "printVersion": "印刷用バージョン"
+  },
+  "quickActions": {
+    "downloadFramework": "完全なフレームワークをダウンロード",
+    "printFriendly": "印刷用ビュー",
+    "shareSection": "このセクションを共有",
+    "bookmark": "このページをブックマーク"
+  },
+  "features": {
+    "mosIntegration": "MOS権利統合",
+    "indigenousRights": "先住民族主権",
+    "digitalJustice": "デジタルイノベーション",
+    "globalGovernance": "グローバル調整",
+    "restorativeJustice": "修復的アプローチ",
+    "climateJustice": "気候と生態学的正義"
+  },
+  "stakeholderPathways": {
+    "policymakers": "政策立案者向け",
+    "indigenous": "先住民族コミュニティ向け",
+    "legal": "法律実務者向け",
+    "civil": "市民社会向け",
+    "technology": "テクノロジーセクター向け"
+  },
+  "implementation": {
+    "phase1": "基盤フェーズ",
+    "phase2": "地域パイロット",
+    "phase3": "評価と裁判所",
+    "phase4": "グローバルスケーリング",
+    "phase5": "継続的改善",
+    "timeline": "12-18ヶ月",
+    "prerequisites": "前提条件達成",
+    "inProgress": "進行中",
+    "completed": "完了"
+  },
+  "metrics": {
+    "trustIncrease": "信頼向上目標",
+    "fairAccess": "公正なアクセス認識",
+    "communityMediation": "コミュニティ調停率",
+    "globalCoverage": "グローバル管轄カバレッジ",
+    "digitalAccess": "デジタルプラットフォームアクセス"
+  },
+  "tribunals": {
+    "climate": "気候と生態学的正義裁判所",
+    "digital": "デジタル権利裁判所",
+    "indigenous": "先住民族主権裁判所",
+    "economic": "経済正義法廷",
+    "human": "人権裁判所"
+  },
+  "frameworks": {
+    "treaty": "Treaty for Our Only Home",
+    "mos": "道徳オペレーティングシステム",
+    "indigenous": "先住民族ガバナンスフレームワーク",
+    "aubi": "AUBIフレームワーク",
+    "peace": "平和と紛争解決",
+    "shield": "シールドプロトコル",
+    "aurora": "オーロラ協定"
+  },
+  "tools": {
+    "assessmentTool": "司法評価ツール",
+    "implementationKit": "実装ツールキット",
+    "stakeholderGuide": "ステークホルダーエンゲージメントガイド",
+    "digitalPlatform": "デジタル司法プラットフォーム",
+    "monitoringDashboard": "権利モニタリングダッシュボード"
+  }
+}

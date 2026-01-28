@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "title": "水と衛生ガバナンスフレームワーク - グローバルガバナンスフレームワーク",
+    "description": "地球の水システムを癒しながら、安全に管理された水と衛生への普遍的アクセスを達成するための変革的青写真"
+  },
+  "guideCard": {
+    "title": "水ガバナンスは初めてですか？",
+    "description": "コミュニティが今日から水システムの変革を始める方法を説明する実践的なガイドから始めましょう。",
+    "buttonText": "クイック実装ガイドを読む"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "governance": "ガバナンスとシステム",
+    "implementation": "実装",
+    "resources": "リソース"
+  },
+  "sections": {
+    "index": "概要",
+    "theory-of-change": "変化の理論",
+    "guiding-principles": "指導原則",
+    "institutional-policy-framework": "制度・政策フレームワーク",
+    "financing-investment": "資金調達と投資",
+    "service-delivery-infrastructure": "サービス提供とインフラ",
+    "monitoring-accountability": "モニタリングとアカウンタビリティ",
+    "climate-environmental-integration": "気候と環境の統合",
+    "innovation-knowledge-sharing": "イノベーションと知識共有",
+    "crisis-response-adaptation": "危機対応と適応",
+    "social-behavioral-change": "社会的・行動変容",
+    "global-partnerships": "グローバルパートナーシップ",
+    "ethical-systems-framing": "倫理的・システム的フレーミング",
+    "implementation-roadmap": "実装ロードマップ",
+    "regional-implementation-blueprints": "地域実装ブループリント",
+    "visual-accessibility-aids": "ビジュアルとアクセシビリティ支援",
+    "glossary": "用語集",
+    "executive-summary": "エグゼクティブサマリー",
+    "quick-implementation-guide": "クイック実装ガイド",
+    "youth-leadership-guide": "若者リーダーシップガイド"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "theory-of-change": "変化の理論",
+    "guiding-principles": "原則",
+    "institutional-policy-framework": "制度",
+    "financing-investment": "資金調達",
+    "service-delivery-infrastructure": "サービス提供",
+    "monitoring-accountability": "モニタリング",
+    "climate-environmental-integration": "気候",
+    "innovation-knowledge-sharing": "イノベーション",
+    "crisis-response-adaptation": "危機対応",
+    "social-behavioral-change": "社会変容",
+    "global-partnerships": "パートナーシップ",
+    "ethical-systems-framing": "倫理とシステム",
+    "implementation-roadmap": "ロードマップ",
+    "regional-implementation-blueprints": "地域ブループリント",
+    "visual-accessibility-aids": "ビジュアル支援",
+    "glossary": "用語集",
+    "executive-summary": "エグゼクティブサマリー",
+    "quick-implementation-guide": "クイックガイド",
+    "youth-leadership-guide": "若者ガイド"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToFramework": "フレームワーク全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "loading": {
+    "text": "フレームワークコンテンツを読み込み中..."
+  }
+}

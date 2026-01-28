@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "title": "リビングランドプロトコル - BAZ主導の農村ガバナンス",
+    "description": "参加型バイオリージョナルガバナンスを通じて、農村コミュニティを自らの再生的未来の設計者として力を与えるフレームワーク"
+  },
+  "loading": {
+    "text": "プロトコルコンテンツを読み込み中..."
+  },
+  "errors": {
+    "sectionNotFound": "セクション「{section}」が見つかりません",
+    "contentInDevelopment": "このコンテンツは現在開発中です。"
+  },
+  "guideCard": {
+    "title": "リビングランドプロトコルは初めてですか？",
+    "description": "懐疑派向けに設計されたエグゼクティブサマリーから始めましょう—農村ガバナンス変革とBAZ主導の開発に関する実践的な懸念に対応します。",
+    "buttonText": "懐疑派向けエグゼクティブサマリーを読む"
+  },
+  "categories": {
+    "overview": "概要",
+    "foundation": "基盤",
+    "core-implementation": "コア実装",
+    "operational": "運用",
+    "resources": "リソース"
+  },
+  "sections": {
+    "index": "リビングランドプロトコル",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "懐疑派向けエグゼクティブサマリー",
+    "introduction": "導入",
+    "theory-of-change": "変革の理論",
+    "core-principles": "基本原則",
+    "framework-architecture": "フレームワークアーキテクチャ",
+    "critical-path-dependencies": "クリティカルパスと依存関係",
+    "baz-led-rural-council": "BAZ主導農村評議会",
+    "regenerative-rural-economy": "再生的農村経済",
+    "rural-observatory-technology": "農村オブザバトリーとテクノロジー",
+    "meta-coordination": "メタコーディネーション",
+    "implementation-roadmap": "実装ロードマップ",
+    "framework-integration": "フレームワーク統合",
+    "risk-management": "リスク管理",
+    "success-metrics": "成功指標",
+    "getting-involved": "参加する",
+    "glossary": "用語集",
+    "appendices": "付録"
+  },
+  "sectionsShort": {
+    "index": "概要",
+    "at-a-glance": "概要",
+    "executive-summary-for-the-skeptic": "エグゼクティブサマリー",
+    "introduction": "導入",
+    "theory-of-change": "変革の理論",
+    "core-principles": "基本原則",
+    "framework-architecture": "アーキテクチャ",
+    "critical-path-dependencies": "クリティカルパス",
+    "baz-led-rural-council": "農村評議会",
+    "regenerative-rural-economy": "農村経済",
+    "rural-observatory-technology": "農村オブザバトリー",
+    "meta-coordination": "メタコーディネーション",
+    "implementation-roadmap": "実装",
+    "framework-integration": "統合",
+    "risk-management": "リスク管理",
+    "success-metrics": "成功指標",
+    "getting-involved": "参加する",
+    "glossary": "用語集",
+    "appendices": "付録"
+  },
+  "progress": {
+    "text": "セクション {current} / {total}"
+  },
+  "navigation": {
+    "downloadPdf": "PDF版をダウンロード",
+    "continueToProtocol": "プロトコル全体へ進む",
+    "previousSection": "前のセクション",
+    "nextSection": "次のセクション"
+  },
+  "languageFallback": {
+    "title": "お使いの言語でのコンテンツは近日公開予定です",
+    "description": "このセクションは翻訳が完了するまで英語で表示されています。"
+  }
+}
