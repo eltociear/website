@@ -1,14 +1,14 @@
 {
-  "title": "Translation Hub",
-  "subtitle": "Help make global governance frameworks accessible worldwide",
-  "metaDescription": "Join our global community of translators making governance frameworks accessible to communities worldwide.",
-  "heroIntro": "Join our global community of translators making governance frameworks accessible to communities worldwide. Every translation helps build a more equitable future.",
-  "getStarted": "Ready to Get Started?",
-  "fallbackNotice": "Translation coming soon",
-  "fallbackText": "This page is currently displayed in English until the translation is complete.",
-  "contributionProcessTitle": "Our Translation Process is Evolving",
-  "contributionProcessText": "To focus on establishing our formal organization, we are temporarily pausing our real-time community channels and revising our translation guides. All translation coordination is currently being managed directly on GitHub. This is the best place to access our CONTRIBUTING.md guidelines, review existing translations, submit new translations, and collaborate with other translators.",
-  "communityGitHubCTA": "Contribute on GitHub",
-  "errorTitle": "Translation Guide Not Available",
-  "errorText": "The translation guide could not be loaded. Please try again later or contact support."
+  "title": "翻訳ハブ",
+  "subtitle": "グローバルガバナンスフレームワークを世界中でアクセス可能にする",
+  "metaDescription": "世界中のコミュニティにガバナンスフレームワークを届ける翻訳者のグローバルコミュニティに参加しましょう。",
+  "heroIntro": "世界中のコミュニティにガバナンスフレームワークを届ける翻訳者のグローバルコミュニティに参加しましょう。一つ一つの翻訳が、より公平な未来の構築に貢献します。",
+  "getStarted": "始める準備はできましたか？",
+  "fallbackNotice": "翻訳は近日公開予定です",
+  "fallbackText": "このページは翻訳が完了するまで英語で表示されています。",
+  "contributionProcessTitle": "翻訳プロセスの進化について",
+  "contributionProcessText": "正式な組織の設立に注力するため、リアルタイムのコミュニティチャンネルを一時的に休止し、翻訳ガイドを改訂しています。現在、すべての翻訳の調整はGitHub上で直接管理されています。GitHubでは、CONTRIBUTING.mdガイドラインへのアクセス、既存の翻訳のレビュー、新しい翻訳の提出、他の翻訳者との協力が可能です。",
+  "communityGitHubCTA": "GitHubで貢献する",
+  "errorTitle": "翻訳ガイドは利用できません",
+  "errorText": "翻訳ガイドを読み込めませんでした。しばらくしてからもう一度お試しいただくか、サポートまでお問い合わせください。"
 }
